@@ -1,0 +1,34 @@
+nicolas:
+    name             : "Nicolas"
+    display_name     : "Nicolas Jouanno"
+    bio              : "Product Manager @izir.fr (ex-cycliste professionnel) - Quand je ne suis pas avec ma famille, je passe mon temps à faire du sport, écrire, coder, apprendre ..."
+    # location         : "Your Location"
+    avatar           : "https://miro.medium.com/fit/c/240/240/1*Tysig6P_3bP56CAs-TsxNA.png"
+    email            : "storyby@nicolasjouanno.com"
+    web              : "https://nicolasjouanno.com"    
+    post_cta         : "Le décodeur t'envoie la dernière story décodée pour toi chaque semaine par email, rien d'autre."
+
+    bitbucket        :
+    codepen          :
+    dribbble         :
+    flickr           :
+    facebook         :
+    foursquare       :
+    github           : 
+    gitlab           :
+    google_plus      : "https://plus.google.com/u/0/101743465600034380035"
+    keybase          :
+    instagram        :
+    lastfm           :
+    linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+    mediumcom        : "https://medium.com/@nicolasjouanno"
+    pinterest        :
+    soundcloud       :
+    stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+    steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+    tumblr           :
+    twitter          : "https://twitter.com/nicolasjouanno"
+    vine             :
+    weibo            :
+    xing             :
+    youtube          : # "https://youtube.com/c/MichaelRoseDesign"
