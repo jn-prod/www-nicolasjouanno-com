@@ -4,7 +4,7 @@ nicolas:
     bio              : "Product Manager @izir.fr (ex-cycliste professionnel) - Quand je ne suis pas avec ma famille, je passe mon temps à faire du sport, écrire, coder, apprendre ..."
     # location         : "Your Location"
     avatar           : "https://miro.medium.com/fit/c/240/240/1*Tysig6P_3bP56CAs-TsxNA.png"
-    email            : "storyby@nicolasjouanno.com"
+    email            : "pro@nicolasjouanno.com"
     web              : "https://nicolasjouanno.com"    
     post_cta         : "Le décodeur t'envoie la dernière story décodée pour toi chaque semaine par email, rien d'autre."
 
@@ -14,13 +14,13 @@ nicolas:
     flickr           :
     facebook         :
     foursquare       :
-    github           : 
+    github           : "https://github.com/jn-prod"
     gitlab           :
     google_plus      : "https://plus.google.com/u/0/101743465600034380035"
     keybase          :
     instagram        :
     lastfm           :
-    linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+    linkedin         : "https://www.linkedin.com/in/nicolasjouanno/"
     mediumcom        : "https://medium.com/@nicolasjouanno"
     pinterest        :
     soundcloud       :

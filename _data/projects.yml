@@ -1,0 +1,33 @@
+- name: "Izir.fr"
+  description: "Gestion de la roadmap produit, organisation du backlog, création des wireframes, développement web fullstack JS"
+  mission: "project management"
+  expertises: 
+    - Conception web
+    - Gestion de projet agile
+    - UX/UI
+    - Fullstack JS
+  url: "#"
+  images:
+    - "/assets/public/images/pages/index/ext-1.jpg"
+- name: "GO Sport"
+  description: "Mise en place et suivi de tableaux de bord, suivi du planning promotionnel, création des supports print (cartes de visite, flyers, tracts et dépliants), création des supports webmarketing (newsletter et social média)"
+  mission: "Gestion de projet marketing"
+  expertises: 
+    - Conception print
+    - Gestion de projet marketing
+    - Design
+    - Data analyse
+  url: "#"
+  images: 
+    - "/assets/public/images/pages/index/ext-2.jpg"
+- name: "Feezify.me"
+  description: "Création d'un site internet, gestion de la roadmap produit, organisation du backlog, enquête utilisateur, data analyse."
+  mission: "Création du site internet"
+  expertises: 
+    - Création de site internet
+    - Roadmap produit
+    - Enquête utilisateur
+    - Fullstack JS
+  url: "#"
+  images: 
+    - "/assets/public/images/pages/index/ext-3.jpg"

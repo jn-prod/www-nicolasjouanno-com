@@ -3,12 +3,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     {% if page.title %}
-        <title>{{ page.title }} | {{site.title}}</title>
+        <title>{{ page.title }} | {{site.headline}}</title>
     {% else %}
-        <title>{{site.title}}</title>
+        <title>{{site.headline}}</title>
     {% endif %}
     
-    <meta name="title" content="{{ page.title }} | {{site.title}}">
+    <meta name="title" content="{{ page.title }} | {{site.headline}}">
 
     <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}">    
 
@@ -74,11 +74,11 @@
         <meta name="twitter:image:src" content="{{ site.url }}/assets/public/images/jumbotron.jpg" />
     {% endif %}
     
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{site.title}}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{site.headline}}{% else %}{{ site.headline }}{% endif %}">
     <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}">
 
     <!-- google card-->
-    <meta property="og:title" content="{{ page.title }} | {{site.title}}">
+    <meta property="og:title" content="{{ page.title }} | {{site.headline}}">
     <meta property="og:type" content="article">
     {% if page.image %}
         <meta property="og:image" content="{{ site.url }}/{{ page.image }}">
@@ -88,13 +88,13 @@
     
     <meta property="og:url" content="{{ site.url }}/{{ page.url }}">
     <meta property="og:locale" content="{{ site.locale }}">
-    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:site_name" content="{{ site.headline }}">
     <link rel="publisher" href="{{ site.data.authors.nicolas.google_plus }}">
     <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}">
     
     <!-- facebook card -->
-<!--         <meta property="al:ios:app_name" content="{{ site.title }}">
-    <meta property="al:android:app_name" content="{{ site.title }}">
+<!--         <meta property="al:ios:app_name" content="{{ site.headline }}">
+    <meta property="al:android:app_name" content="{{ site.headline }}">
     <meta property="al:ios:url" content="{{ site.url }}">
     <meta property="al:android:url" content="{{ site.url }}">
     <meta property="al:ios:app_store_id" content="828256236">
@@ -135,7 +135,7 @@
             "creator":["Nicolas Jouanno"],
             "publisher":{
                 "@type":"Organization",
-                "name":"{{ site.title }}",
+                "name":"{{ site.headline }}",
                 "url":"{{ page.url }}",
                 "logo":{
                     "@type":"ImageObject",

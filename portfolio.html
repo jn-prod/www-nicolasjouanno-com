@@ -1,0 +1,65 @@
+---
+layout: default
+title: "Portfolio"
+summary: "Portfolio de Nicolas Jouanno, chef de projet web, webmarketing & webdesign freelance à Pontivy, Loudéac"
+---        
+<div class="main-content">
+  <div class="container-fluid ">
+
+    <!-- header -->
+<!--     <section id="home-header-newsletter" class="bg-header mb-5">
+        <div class="row pt-5 pb-5">
+            <div class="col-12 p-5" id="cta">
+
+                <span class="jumbotron d-block text-center h2 font-primary">"Pourquoi se joindre à la Marine si vous pouvez être un pirate."<br><em class="h5">- Steve Jobs</em></span>
+
+            </div>
+
+        </div>
+    </section> -->
+
+    <!-- content -->
+    <section>
+
+      <article>
+
+        <div class="row">
+          <div class="col-12 mt-5 mb-5">
+            <h1 class="font-primary mt-2 text-center">{{ page.title }}</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mb-5 text-center">
+            <em>Découvrez quelques projets réalisés en tant que product manager ou chef de projet marketing, en agence ou en freelance durant ces dernières années.</em>
+          </div>
+        </div>
+        
+        <div class="row">
+
+          {% for project in site.data.projects %}
+
+            <div class="col-4 p-2">
+              <span class="d-block p-2 bg-light">
+                <img src="{{ project.images[0] }}" alt="{{ project.name }}" class="img-fluid">
+                <h2 class="mt-4 mb-4 h4 text-center"><a href="{{ site.url }}/{{ project.url }}" class="text-dark">{{ project.name }}</a></h2>
+                <em class="d-block mb-2">{{ project.description }}</em>
+                {% for expertise in project.expertises %}
+                  <span class="badge badge-secondary">
+                    {{expertise}}
+                  </span>
+                {% endfor %}              
+              </span>
+            </div>
+
+          {% endfor %}          
+        </div>
+
+
+      </article>
+
+    </section>
+
+  </div>
+
+</div>
+
