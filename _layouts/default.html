@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+
+    <!-- Head
+    ================================================== -->
+    {% include head.html %}
+    
+    <!-- body -->
+    {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+    <body class="{{ layout }}">
+        <!-- Head
+        ================================================== -->
+        {% include header.html %} 
+        
+        <div class="site-content">   
+            <div class="container-fluid">
+                <main role="main">
+                    <!-- Content
+                    ================================================== --> 
+                    <div class="main-content">
+                    {{ content }}
+                    </div>
+                    
+                </main>
+
+            </div>
+
+            <!-- Footer
+            ================================================== -->
+            {% include footer.html %}
+           
+        </div>
+
+        <!-- JavaScript
+        ================================================== -->            
+        
+        {% if site.url == "http://localhost:4000" %}
+          <script src="http://localhost:8000/app.js"></script>
+        {% else %}
+            <script src="{{ site.url }}/assets/public/app.js"></script>
+        {% endif %}
+
+        <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+
+        <!-- seva js -->
+        <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+    </body>
+</html>

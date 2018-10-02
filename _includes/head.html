@@ -1,0 +1,151 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% if page.title %}
+        <title>{{ page.title }} | {{site.title}}</title>
+    {% else %}
+        <title>{{site.title}}</title>
+    {% endif %}
+    
+    <meta name="title" content="{{ page.title }} | {{site.title}}">
+
+    <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}">    
+
+    <meta name="keywords" content="{{ site.meta_keywords }}">
+
+    <!-- icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/assets/public/images/brand/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/assets/public/images/brand/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/assets/public/images/brand/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/assets/public/images/brand/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/assets/public/images/brand/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/assets/public/images/brand/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/assets/public/images/brand/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/assets/public/images/brand/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/public/images/brand/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="{{ site.url }}/assets/public/images/brand/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="{{ site.url }}/assets/public/images/brand/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="{{ site.url }}/assets/public/images/brand/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{ site.url }}/assets/public/images/brand/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{ site.url }}/assets/public/images/brand/favicon-32x32.png" sizes="32x32">
+
+    <!-- style -->
+    {% if site.url == "http://localhost:4000" %}
+      <link href="http://localhost:8000/main.css" rel="stylesheet">
+    {% else %}
+        <link href="{{ site.url }}/assets/public/main.css" rel="stylesheet">
+    {% endif %}
+
+    <!-- GA script -->
+    {% if jekyll.environment == 'production' %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', '{{site.google_analytics}}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+
+    <!-- rss -->
+    <link id="feedLink" rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/feed.xml">
+
+    <!-- SEO -->
+    <meta content="index, follow">
+    <meta name="referrer" content="always">
+    <meta name="theme-color" content="#000000">
+    {% if site.google_verification %}
+      <meta name="google-site-verification" content="{{ site.google_verification }}" />
+    {% endif %}
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    <meta name="author" content="{{ site.data.authors.nicolas.display_name }}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- twitter card-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="{{ site.twitter.username }}">
+    <meta name="twitter:site" content="{{ site.twitter.username }}">
+    {% if page.image %}
+        <meta name="twitter:image:src" content="{{ site.url }}/{{ page.image }}">
+    {% else %}
+        <meta name="twitter:image:src" content="{{ site.url }}/assets/public/images/jumbotron.jpg" />
+    {% endif %}
+    
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{site.title}}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}">
+
+    <!-- google card-->
+    <meta property="og:title" content="{{ page.title }} | {{site.title}}">
+    <meta property="og:type" content="article">
+    {% if page.image %}
+        <meta property="og:image" content="{{ site.url }}/{{ page.image }}">
+    {% else %}
+        <meta property="og:image" content="{{ site.url }}/{{ site.og_image }}">
+    {% endif %}
+    
+    <meta property="og:url" content="{{ site.url }}/{{ page.url }}">
+    <meta property="og:locale" content="{{ site.locale }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <link rel="publisher" href="{{ site.data.authors.nicolas.google_plus }}">
+    <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}">
+    
+    <!-- facebook card -->
+<!--         <meta property="al:ios:app_name" content="{{ site.title }}">
+    <meta property="al:android:app_name" content="{{ site.title }}">
+    <meta property="al:ios:url" content="{{ site.url }}">
+    <meta property="al:android:url" content="{{ site.url }}">
+    <meta property="al:ios:app_store_id" content="828256236">
+    <meta property="al:android:package" content="com.medium.reader">
+    <meta property="al:web:url" content="{{ page.url }}">
+    <meta property="fb:app_id" content="542599432471018"> -->
+    <meta property="fb:app_id"content="{{ site.facebook.app_id }}" /> 
+    <meta property="article:author" content="{{ site.facebook.username }}">
+    <meta property="article:publisher" content="{{ site.facebook.publishe }}">
+    <meta property="article:published_time" content="{{ page.date }}">
+
+    <!-- medium card -->
+    <meta property="medium-com:creator" content="{{site.data.authors.nicolas.mediumcom}}">
+
+    <script type="application/ld+json">
+        {
+            "@context":"http://schema.org",
+            "@type":"NewsArticle",
+            "image":{
+                "@type":"ImageObject",
+                "width":780,
+                "height":520,
+                "url":"{{ site.url }}/{{ page.image }}"
+            },
+            "url":"{{ site.url }}/{{ page.url }}",
+            "dateCreated":"{{ page.date }}",
+            "datePublished":"{{ page.date }}",
+            "dateModified":"{{ page.date }}",
+            "headline":"{{ page.title }}",
+            "name":"{{ page.title }}",
+            "thumbnailUrl":"{{ site.url }}/{{ page.image }}",
+            "keywords":[{{ site.meta_keywords }}],
+            "author":{
+                "@type":"Person",
+                "name":"Nicolas Jouanno",
+                "url":"{{site.data.authors.nicolas.mediumcom}}"
+            },
+            "creator":["Nicolas Jouanno"],
+            "publisher":{
+                "@type":"Organization",
+                "name":"{{ site.title }}",
+                "url":"{{ page.url }}",
+                "logo":{
+                    "@type":"ImageObject",
+                    "width":60,
+                    "height":60,
+                    "url":"{{ site.url }}/{{ page.image }}"
+                }
+            },
+            "mainEntityOfPage":"{{ site.url }}/{{ page.url }}"
+        }
+    </script>
+
+</head>

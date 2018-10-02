@@ -1,0 +1,108 @@
+---
+layout: default
+disqus: true
+archive: false
+post_class: post-template
+---
+
+<!-- Begin Article
+================================================== -->
+<article itemscope itemtype="http://schema.org/BlogPosting" itemref="author_box review_box">
+    <div class="container">
+    	<div class="row pt-5">
+
+    		<!-- Post Share -->
+    		<div class="col-md-2 pl-0">            
+               {% include share.html %}  
+    		</div>
+    		
+    		<!-- Post --> 
+            {% assign author = site.data.authors[page.author] %}
+            
+            <div class="col-md-9 flex-first flex-md-unordered">
+                <section>
+                    <div class="mainheading">
+                        
+                        <!-- Post Title -->
+                        <header>
+                            <h1 class="posttitle">{{ page.title }}</h1> 
+                        </header>
+
+                    </div>
+
+                    <!-- Post Featured Image -->
+                    {% if page.image %}<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
+                    <!-- End Featured Image -->
+
+                    <!-- Post Content -->
+                    <div class="article-post" itemprop="articleBody">
+                        {{content}}
+                        {% if page.author %}
+                            <hr />
+                            <p><strong>Tu as aimé cet article ?</strong> {{ author.post_cta}} <a href="{{ site.baseurl }}/index.html#cta">Commence à la recevoir</a>.</p>
+                        {% endif %}
+                        
+                    </div>
+
+                    <!-- Newsletter
+                    ================================================== -->
+                    <div class="alertbar">
+                        {% include newsletter.html %} 
+                    </div>  
+              
+                    <!-- Author Box -->
+                    {% if page.author %}                
+                    <div class="row post-top-meta">
+                        <div class="col-md-2">
+                            <img class="author-thumb" src="{{ author.avatar }}" alt="{{ author.display_name }}">
+                        </div>
+                        <div class="col-md-10">
+                            <a target="_blank" class="link-dark" href="{{ author.web }}" rel="nofollow">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow" rel="nofollow">Follow</a>
+                            <span class="author-description">{{ author.bio }}</span>                        
+                        </div>
+                    </div>              
+                    {% endif %}
+
+                    <footer>
+                        <!-- Post Date -->
+                        <p>
+                        <small>
+                            <span class="post-date"><time class="post-date" itemprop="date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+                            {% if page.last_modified_at %}
+                            (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+                            {% endif %}
+                            </small>
+                        </p>
+                        
+                        <!-- Post Categories -->
+                        <div class="after-post-tags">
+                            <ul class="tags">
+                                {% assign sortedCategories = page.tags | sort %}
+                                {% for category in sortedCategories %}
+                                <li>
+                                 <span href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <!-- End Categories -->
+                        
+                        <!-- Prev/Next -->
+                        {% include footer-nav.html %}
+                        <!-- End Categories -->
+                    </footer>
+                </section>
+            </div>
+            <!-- End Post -->   
+
+    	</div>
+    </div>
+</article> 
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+{% include commentaires.html %}
+<!--End Comments
+================================================== -->
