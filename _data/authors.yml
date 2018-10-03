@@ -1,13 +1,15 @@
 nicolas:
+    # global
     name             : "Nicolas"
     display_name     : "Nicolas Jouanno"
     bio              : "Product Manager @izir.fr (ex-cycliste professionnel) - Quand je ne suis pas avec ma famille, je passe mon temps à faire du sport, écrire, coder, apprendre ..."
-    # location         : "Your Location"
+    location         : "Pontivy, Bretagne"
     avatar           : "https://miro.medium.com/fit/c/240/240/1*Tysig6P_3bP56CAs-TsxNA.png"
     email            : "pro@nicolasjouanno.com"
     web              : "https://nicolasjouanno.com"    
     post_cta         : "Le décodeur t'envoie la dernière story décodée pour toi chaque semaine par email, rien d'autre."
 
+    # social
     bitbucket        :
     codepen          :
     dribbble         :
@@ -24,8 +26,8 @@ nicolas:
     mediumcom        : "https://medium.com/@nicolasjouanno"
     pinterest        :
     soundcloud       :
-    stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-    steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+    stackoverflow    : # "123456/username" (the last part of your profile   url, e.g. https://stackoverflow.com/users/123456/username)
+    steam            : # "steamId" (the last part of your profile   url, e.g. https://steamcommunity.com/id/steamId/)
     tumblr           :
     twitter          : "https://twitter.com/nicolasjouanno"
     vine             :
