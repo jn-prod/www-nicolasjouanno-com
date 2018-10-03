@@ -1,0 +1,23 @@
+<div class="sticky-top pt-3 mb-5">
+
+  <h2 class="mb-4 font-primary">Freelance</h2>
+
+  <ul class="list-unstyled">
+    
+    {% for activy in site.data.activities %}
+      
+      <li class="mt-3 pb-3"><a href="{{ activy.url }}">{{ activy.name }}</a></li>
+      
+      {% if forloop.last == false %}
+        
+        <span class="border border-muted border-top-0 border-left-0 border-right-0 d-block"></span>
+      
+      {% endif %}
+    
+    {% endfor %}
+    
+  </ul>
+
+  <a href="mailto:{{site.data.authors.nicolas.email}}" class="btn btn-primary d-block mt-4"><strong>Demander un devis</strong></a> 
+
+</div>

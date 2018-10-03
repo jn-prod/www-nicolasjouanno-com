@@ -4,19 +4,19 @@
 - name: "Web-design"
   url: 
 - name: "Gestion de projet web"
-  url: 
+  url: "/chef-projet-digital.html"
 - name: "Gestion de projet marketing"
   url: 
 - name: "Gestion de projet en cascade"
-  url: 
+  url: "/chef-projet-digital.html"
 - name: "Gestion de projet agile"
-  url: 
+  url: "/chef-projet-digital.html"
 - name: "Graphisme"
   url: 
 - name: "Design Thinking"
   url: 
 - name: "Création de site internet"
-  url: 
+  url: "/creation-site-internet.html"
 - name: "Javascript"
   url: 
 - name: "MongoDB"
@@ -26,7 +26,7 @@
 - name: "UX/UI design"
   url: 
 - name: "Product Management"
-  url: 
+  url: "/chef-projet-digital.html"
 - name: "Developpement web"
   url: 
 - name: "Developpeur back-end"
@@ -46,6 +46,6 @@
 - name: "SEA"
   url: 
 - name: "Site internet professionnel"
-  url: 
+  url: "/creation-site-internet.html"
 - name: "Identité Visuelle"
   url: 

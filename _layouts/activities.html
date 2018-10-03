@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<div class="main-content">
+  
+  <div class="container-fluid ">
+
+    <!-- content -->
+    <section class="container">
+
+      <article>
+
+        <div class="row">
+
+          <div class="col-12 mt-5 mb-5">
+
+            <h1 class="font-primary mt-2 text-center">{{ page.title }}</h1>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-12 mb-3 text-center">
+
+            <em>{{ page.summary }}</em>
+
+          </div>
+
+        </div>
+        
+        <div class="row mt-5 text-justify">
+
+          <div class="col-md-4 sticky-top">
+
+            {% include sidebar-freelance.html %}
+
+          </div>
+
+          <div class="col-md-8 mb-5">
+
+            {{ content }}
+              
+          </div>
+
+        </div>
+
+      </article>
+
+      {% include cta-devis.html %}
+
+    </section>
+
+  </div>
+
+</div>

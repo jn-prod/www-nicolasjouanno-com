@@ -1,7 +1,7 @@
 # Site Settings
 locale           : "fr-FR"
 title            : "Nicolas Jouanno"
-headline         : "Chef de projet web, webmarketing & webdesign freelance à Pontivy, Loudéac"
+headline         : "Chef de projet digital, webmarketing & webdesign freelance à Pontivy, Loudéac"
 siteurl          : https://nicolasjouanno.com
 logo             : 'assets/public/images/brand/logo.png'
 comments:
@@ -15,7 +15,7 @@ reCaptcha:
 imgpost   : assets/public/images/posts
 
 # SEO Related
-meta_description : "Chef de projet web, webmarketing & webdesign freelance à Pontivy, Loudéac. Disponible pour vos projets de communication et la création de votre site internet | Nicolas jouanno"
+meta_description : "Chef de projet digital, webmarketing & webdesign freelance à Pontivy, Loudéac. Disponible pour vos projets de communication et la création de votre site internet | Nicolas jouanno"
 meta_keywords    : "product management, digital product, startup, freelance, indie hacker, solopreneur, nicolas jouanno, tech, business, marketing, marketer, web-developper, designer"
 google_verification :
 bing_verification   :
