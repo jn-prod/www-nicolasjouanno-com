@@ -14,6 +14,7 @@ import '../css/style.css'
 import '../css/convertkit.css'
 import '../css/infinite-spinner.css'
 import '../css/inspiration.css'
+import '../css/custom-boostrap.css'
 // import '../css/main.scss'
 
 // images

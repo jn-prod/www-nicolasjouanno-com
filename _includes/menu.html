@@ -14,12 +14,20 @@
             <!-- Begin Menu -->
             <ul class="navbar-nav mx-auto">
 
-                {% if page.url == "/portfolio.html" %}
-                    <li class="nav-item active">
-                {% else %}
-                    <li class="nav-item">
-                {% endif %}
+              {% if page.url == "/portfolio.html" %}
+                  <li class="nav-item active">
+              {% else %}
+                  <li class="nav-item">
+              {% endif %}
                 <a class="nav-link" href="{{ site.url }}/portfolio.html">Portfolio</a>
+              </li>
+
+              {% if page.url == "/creation-site-internet.html" %}
+                  <li class="nav-item active">
+              {% else %}
+                  <li class="nav-item">
+              {% endif %}
+                <a class="nav-link" href="{{ site.url }}/creation-site-internet.html">Freelance</a>
               </li>
 
               <li class="nav-item">

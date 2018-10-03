@@ -31,3 +31,13 @@
   url: "#"
   images: 
     - "/assets/public/images/pages/index/ext-3.jpg"
+- name: "gael-lebellec.bzh"
+  description: "Création et mise à jour d'un site internet."
+  mission: "Création du site internet"
+  expertises: 
+    - Création de site internet
+    - API Google docs
+    - Multilangue
+  url: "#"
+  images: 
+    - "/assets/public/images/pages/index/ext-4.png"
