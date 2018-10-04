@@ -41,3 +41,13 @@
   url: "#"
   images: 
     - "/assets/public/images/pages/index/ext-4.png"
+- name: "joliesbulles.com"
+  description: "Création et optimisation SEO d'un site internet."
+  mission: "Création du site internet"
+  expertises: 
+    - Création de site internet
+    - Intégration HTML5/CSS3
+    - Optimisation SEO
+  url: "#"
+  images: 
+    - "/assets/public/images/pages/index/ext-5.png"
