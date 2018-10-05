@@ -3,7 +3,7 @@ import './components/init'
 import './components/mediumish'
 import 'bootstrap'
 import '@fortawesome/fontawesome-free/js/all'
-// import './components/infinite-scroll'
+import './components/contact'
 
 // fonts
 import '../fonts/Maximum_Impact.ttf'
