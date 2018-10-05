@@ -38,6 +38,14 @@
                 <a class="nav-link" href="{{ site.url }}/creation-site-internet.html">Freelance</a>
               </li>
 
+              {% if page.url == "/about.html" %}
+                  <li class="nav-item active">
+              {% else %}
+                  <li class="nav-item">
+              {% endif %}
+                <a class="nav-link" href="{{ site.url }}/about.html">Bio / Contact</a>
+              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="https://blog.nicolasjouanno.com" rel="nofollow" target="_blank">Le décodeur</a>
               </li>

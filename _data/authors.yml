@@ -10,6 +10,8 @@ nicolas:
     post_cta         : "Le décodeur t'envoie la dernière story décodée pour toi chaque semaine par email, rien d'autre."
 
     # social
+    handle           : "@nicolasjouanno"
+    blog             : "https://blog.nicolasjouanno.com"
     bitbucket        :
     codepen          :
     dribbble         :

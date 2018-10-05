@@ -122,17 +122,9 @@ title: "Nicolas Jouanno"
                 <h2 class="h4 pb-2 text-center border border-top-0 border-right-0 border-left-0">Parcours et CV</h2>
               </div>
             </div>
-            {% for post in site.data.posts %}
-              <div class="row mb-4">
-                <div class="col-3 font-primary p-3 rounded text-center bg-primary text-light">
-                  <span class="text-light">{{ post.date }}</span>
-                </div>
-                <div class="col-9">
-                  <h3 class="h6 d-block">{{ post.titre }}</h3>
-                  <em class="text-muted d-block">{{ post.entreprise }}</em>
-                </div>
-              </div>            
-            {% endfor %}
+            
+            {% include cv.html %}
+
           </div>
         </div>
 

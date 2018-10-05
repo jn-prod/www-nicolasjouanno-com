@@ -35,8 +35,25 @@ layout: default
 
           <div class="col-md-4 sticky-top">
 
-            {% include sidebar-freelance.html %}
+            <div class="sticky-top pt-3 mb-5">
 
+              {% if page.url == "/about.html" %}
+
+                {% include sidebar-bio.html %}
+
+                <div class="d-block mt-5">
+
+                  <h2 class="mb-4 font-primary">CV</h2>
+
+                  {% include cv.html %}
+
+                </div>
+
+              {% endif %}
+
+              {% include sidebar-freelance.html %}
+
+            </div>
           </div>
 
           <div class="col-md-8 mb-5">
