@@ -3,16 +3,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     {% if page.title %}
-        <title>{{ page.title }} | {{site.headline}}</title>
+        <title>{{ page.title }} | {{site.title}}</title>
     {% else %}
-        <title>{{site.headline}}</title>
+        <title>{{site.title}}</title>
     {% endif %}
-    
-    <meta name="title" content="{{ page.title }} | {{site.headline}}">
 
-    <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}">    
+    <meta name="title" content="{{ page.title }} | {{site.title}}">
 
-    <meta name="keywords" content="{{ site.meta_keywords }}">
+    {% if page.seo_description %}
+        <meta name="description" content="{{ page.seo_description }} | {{site.title}}">
+    {% else %}
+        <meta name="description" content="{{ content | strip_html | truncatewords:20 }}">   
+    {% endif %}
+
+    <meta name="keywords" content="{% for kw in site.meta_keywords %}{{ kw }},{% endfor %}">
 
     <!-- icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/assets/public/images/brand/apple-touch-icon-57x57.png">
@@ -54,7 +58,8 @@
     <link id="feedLink" rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/feed.xml">
 
     <!-- SEO -->
-    <meta content="index, follow">
+    <meta http-equiv="EXPIRES" content="{{ 'now' | date: "%s" | plus : 604800 | date: "%a, %d %b %Y %H:%M:00 GMT"  }}">
+    <meta name="robots" content="index, follow">
     <meta name="referrer" content="always">
     <meta name="theme-color" content="#000000">
     {% if site.google_verification %}
@@ -74,11 +79,11 @@
         <meta name="twitter:image:src" content="{{ site.url }}/assets/public/images/jumbotron.jpg" />
     {% endif %}
     
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{site.headline}}{% else %}{{ site.headline }}{% endif %}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{site.title}}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}">
 
-    <!-- google card-->
-    <meta property="og:title" content="{{ page.title }} | {{site.headline}}">
+    <!-- open graph card-->
+    <meta property="og:title" content="{{ page.title }} | {{site.title}}">
     <meta property="og:type" content="article">
     {% if page.image %}
         <meta property="og:image" content="{{ site.url }}/{{ page.image }}">
@@ -86,68 +91,55 @@
         <meta property="og:image" content="{{ site.url }}/{{ site.og_image }}">
     {% endif %}
     
-    <meta property="og:url" content="{{ site.url }}/{{ page.url }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:locale" content="{{ site.locale }}">
-    <meta property="og:site_name" content="{{ site.headline }}">
+    <meta property="og:site_name" content="{{ site.title }}">
     <link rel="publisher" href="{{ site.data.authors.nicolas.google_plus }}">
     <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}">
-
-    <!-- pinterest -->
-    <meta name="p:domain_verify" content="6321170ab1b6e38838300b796333c62c"/>
     
     <!-- facebook card -->
-<!--         <meta property="al:ios:app_name" content="{{ site.headline }}">
-    <meta property="al:android:app_name" content="{{ site.headline }}">
-    <meta property="al:ios:url" content="{{ site.url }}">
-    <meta property="al:android:url" content="{{ site.url }}">
-    <meta property="al:ios:app_store_id" content="828256236">
-    <meta property="al:android:package" content="com.medium.reader">
-    <meta property="al:web:url" content="{{ page.url }}">
-    <meta property="fb:app_id" content="542599432471018"> -->
-    <meta property="fb:app_id"content="{{ site.facebook.app_id }}" /> 
-    <meta property="article:author" content="{{ site.facebook.username }}">
-    <meta property="article:publisher" content="{{ site.facebook.publishe }}">
+    <meta property="fb:app_id" content="{{ site.facebook.app_id }}"> 
+    <meta property="article:author" content="{{ site.facebook.profil_url }}">
+    <meta property="article:publisher" content="{{ site.facebook.publisher }}">
     <meta property="article:published_time" content="{{ page.date }}">
-
-    <!-- medium card -->
-    <meta property="medium-com:creator" content="{{site.data.authors.nicolas.mediumcom}}">
 
     <script type="application/ld+json">
         {
-            "@context":"http://schema.org",
-            "@type":"NewsArticle",
-            "image":{
-                "@type":"ImageObject",
-                "width":780,
-                "height":520,
-                "url":"{{ site.url }}/{{ page.image }}"
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "{{site.address.city}}",
+                "streetAddress": "{{site.address.street}}",
+                "postalCode": "{{site.address.code}}",
+                "addressCountry": "{{site.address.coutry}}"
             },
-            "url":"{{ site.url }}/{{ page.url }}",
-            "dateCreated":"{{ page.date }}",
-            "datePublished":"{{ page.date }}",
-            "dateModified":"{{ page.date }}",
-            "headline":"{{ page.title }}",
-            "name":"{{ page.title }}",
-            "thumbnailUrl":"{{ site.url }}/{{ page.image }}",
-            "keywords":[{{ site.meta_keywords }}],
-            "author":{
-                "@type":"Person",
-                "name":"Nicolas Jouanno",
-                "url":"{{site.data.authors.nicolas.mediumcom}}"
-            },
-            "creator":["Nicolas Jouanno"],
-            "publisher":{
-                "@type":"Organization",
-                "name":"{{ site.headline }}",
-                "url":"{{ page.url }}",
-                "logo":{
-                    "@type":"ImageObject",
-                    "width":60,
-                    "height":60,
-                    "url":"{{ site.url }}/{{ page.image }}"
+            "email": "pro(at)nicolasjouanno.com",
+            "founder": [
+                {
+                    "@type":"Person",
+                    "name":"{{ site.data.authors.nicolas.display_name }}",
+                    "url":"{{ site.data.authors.nicolas.web }}"
                 }
-            },
-            "mainEntityOfPage":"{{ site.url }}/{{ page.url }}"
+            ],
+            "name":"{{ site.data.authors.nicolas.display_name }}",
+            "url":"{{ site.url }}",
+            "sameAs" : [
+                "{{site.twitter.publisher}}",
+                "{{site.facebook.publisher}}",
+                "{{site.instagram.publisher}}",
+                "{{site.google_plus.publisher}}",
+                "{{site.mediumcom.publisher}}",
+                "{{site.linkedin.publisher}}",
+                "{{site.viadeo.publisher}}",
+                "{{site.pinterest.publisher}}"
+            ],
+            "logo":{
+                "@type":"ImageObject",
+                "width":60,
+                "height":60,
+                "url":"{{ site.url }}/{{ site.logo }}"
+            }
         }
     </script>
 
