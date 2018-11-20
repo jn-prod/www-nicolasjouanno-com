@@ -4,6 +4,7 @@ import './components/mediumish'
 import 'bootstrap'
 import '@fortawesome/fontawesome-free/js/all'
 import './components/contact'
+import './components/instagram'
 
 // fonts
 import '../fonts/Maximum_Impact.ttf'

@@ -1,35 +1,33 @@
 <!-- Categories Jumbotron
 ================================================== -->
-<div class="jumbotron fortags">
-    <div class="row">
-        <div class="col-md-4 align-self-center text-center">
-            <span class="h2 mt-2 d-md-block d-none">Sur les réseaux →</span>
-        </div>
-        <div class="col-md-8 align-self-center text-center">
-          <div class="row text-center">
-            <div class="col-md-8 bg-light pt-5 pb-5 mx-auto rounded">
-              <div class="row">
-                <div class="col-3">
-                  <a href="mailto:{{ site.data.authors.nicolas.email }}" rel="nofollow"><i class="fa-2x fas fa-at text-dark"></i></a>
-                </div>
-                <div class="col-3">
-                  <a href="{{ site.data.authors.nicolas.twitter }}" target="_blank" rel="nofollow"><i class="fa-2x fab fa-twitter text-dark"></i></a>
-                </div>
-                <div class="col-3">
-                  <a href="{{ site.data.authors.nicolas.linkedin }}" target="_blank" rel="nofollow"><i class="fa-2x fab fa-linkedin-in text-dark"></i></a>
-                </div>
-                <div class="col-3">
-                  <a href="{{ site.data.authors.nicolas.github }}" target="_blank" rel="nofollow"><i class="fa-2x fab fa-github text-dark"></i></a>
-                </div>                
-              </div>
+<footer class="footer">
+    <!-- instafeed -->
+    <div class="container">
+        <div class="row mt-5 mb-5" id="instafeed">
+            <div class="col-lg-2 col-sm-4 mx-auto mb-2">
+                <a href="https://www.instagram.com/{{ site.data.authors.nicolas.instagram }}/" rel="nofollow" target="_blank" class="d-block text-center pt-2 mb-2"><i class="fab fa-instagram fa-3x"></i><br><span class="d-block mt-2 font-primary h3">Instagram</span><span>@nicolasjouanno</span></a>
             </div>
-          </div>          
+        </div>    
+    </div>
+
+
+    <!-- signature -->
+    <div class="jumbotron bg-footer bg">
+        <div class="row pb-5 pt-5">
+          <div class="col-md-8 mx-auto bg-light p-5" itemscope itemtype="http://schema.org/Quotation">
+            <span class="h1 font-primary text-center" itemprop="text">"Pourquoi rejoindre la marine quand vous pouvez être un pirate ?"</span>
+            <span itemscope itemtype="http://schema.org/Organization">
+                <em class="d-block h5 mt-3">
+                    - <span itemprop="name">Steve Jobs</span>
+                </em>
+            </span>    
+          </div>
         </div>
     </div>
-</div>
 
-<footer class="footer mb-0">
-    <div class="container">
+    <!-- credit -->
+
+    <div class="container mt-3 pb-4">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
                  Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 

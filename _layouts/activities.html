@@ -41,14 +41,6 @@ layout: default
 
                 {% include sidebar-bio.html %}
 
-                <div class="d-block mt-5">
-
-                  <h2 class="mb-4 font-primary">CV</h2>
-
-                  {% include cv.html %}
-
-                </div>
-
               {% endif %}
 
               {% include sidebar-freelance.html %}
@@ -65,6 +57,27 @@ layout: default
         </div>
 
       </article>
+
+      <div class="row mt-3">
+        <div class="col-lg-6">
+          <h2 class="h4 pb-2 mb-3 text-center  border border-top-0 border-right-0 border-left-0">Expertises freelance</h2>
+          <ul class=" list-inline text-center">
+            {% for expertise in site.data.expertises %}
+              <li class="list-inline-item"><a href="{{expertise.url}}" class="btn btn-outline-primary mb-2">{{ expertise.name }}</a></li>
+            {% endfor %}
+          </ul>                       
+        </div>
+        <div class="col-lg-6">
+          <div class="row mb-3">
+            <div class="col-12">
+              <h2 class="h4 pb-2 text-center border border-top-0 border-right-0 border-left-0">Parcours et CV</h2>
+            </div>
+          </div>
+          
+          {% include cv.html %}
+
+        </div>
+      </div>
 
       {% include cta-devis.html %}
 

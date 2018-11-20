@@ -19,15 +19,7 @@
               {% else %}
                   <li class="nav-item">
               {% endif %}
-                <a class="nav-link" href="{{ site.url }}"><i class="fas fa-home"></i></a>
-              </li>
-
-              {% if page.url == "/portfolio.html" %}
-                  <li class="nav-item active">
-              {% else %}
-                  <li class="nav-item">
-              {% endif %}
-                <a class="nav-link" href="{{ site.url }}/portfolio.html">Portfolio</a>
+                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}"><i class="fas fa-home"></i></a>
               </li>
 
               {% if page.url == "/creation-site-internet.html" %}
@@ -35,7 +27,23 @@
               {% else %}
                   <li class="nav-item">
               {% endif %}
-                <a class="nav-link" href="{{ site.url }}/creation-site-internet.html">Freelance</a>
+                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/creation-site-internet.html">Freelance</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-light border-0" href="https://blog.nicolasjouanno.com" rel="nofollow" target="_blank">Blog</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-light border-0" href="https://app.nicolasjouanno.com" rel="nofollow" target="_blank">Feezify:me</a>
+              </li>
+
+              {% if page.url == "/pages/soutenir.html" %}
+                  <li class="nav-item active">
+              {% else %}
+                  <li class="nav-item">
+              {% endif %}
+                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/pages/soutenir.html">Soutenir</a>
               </li>
 
               {% if page.url == "/about.html" %}
@@ -43,16 +51,13 @@
               {% else %}
                   <li class="nav-item">
               {% endif %}
-                <a class="nav-link" href="{{ site.url }}/about.html">Bio / Contact</a>
+                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/about.html">Bio / Contact</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="https://blog.nicolasjouanno.com#cta" rel="nofollow" target="_blank">Blog</a>
+                <a class="nav-link btn btn-outline-secondary" href="{{ site.url }}#cta"><i class="far fa-envelope mr-2"></i>Newsletter</a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="https://app.nicolasjouanno.com" rel="nofollow" target="_blank">Feezify:me</a>
-              </li>
           </ul>
           <!-- End Menu -->
         </div>

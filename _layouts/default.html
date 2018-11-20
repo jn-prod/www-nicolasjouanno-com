@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.locale }}">
+<html lang="fr">
 
     <!-- Head
     ================================================== -->
@@ -7,29 +7,23 @@
     
     <!-- body -->
     {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-    <body class="{{ layout }}">
+    <body class="{{ layout }}" itemscope itemtype="http://schema.org/WebPage">
         <!-- Head
         ================================================== -->
         {% include header.html %} 
         
-        <div class="site-content">   
-            <div class="container-fluid">
-                <main role="main">
-                    <!-- Content
-                    ================================================== --> 
-                    <div class="main-content">
-                    {{ content }}
-                    </div>
-                    
-                </main>
 
-            </div>
+        <!-- Content
+        ================================================== --> 
+        <main class="container-fluid">
 
-            <!-- Footer
-            ================================================== -->
-            {% include footer.html %}
-           
-        </div>
+            {{ content }}
+            
+        </main>
+
+        <!-- Footer
+        ================================================== -->
+        {% include footer.html %}
 
         <!-- JavaScript
         ================================================== -->            
@@ -40,9 +34,9 @@
             <script src="{{ site.url }}/assets/public/app.js"></script>
         {% endif %}
 
-        <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+        <script id="dsq-count-scr" src="//{{site.comments.disqus.shortname}}.disqus.com/count.js" async></script>
 
         <!-- seva js -->
-        <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+        <script src="https://f.convertkit.com/ckjs/ck.5.js" async></script>
     </body>
 </html>
