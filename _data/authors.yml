@@ -4,7 +4,7 @@ nicolas:
     display_name     : "Nicolas Jouanno"
     bio              : "Product Manager @izir.fr (ex-cycliste professionnel) - Quand je ne suis pas avec ma famille, je passe mon temps à faire du sport, écrire, coder, apprendre ..."
     location         : "Pontivy, Bretagne"
-    avatar           : "https://miro.medium.com/fit/c/240/240/1*Tysig6P_3bP56CAs-TsxNA.png"
+    avatar           : "https://nicolasjouanno.com/assets/public/images/profile.png"
     email            : "pro@nicolasjouanno.com"
     web              : "https://nicolasjouanno.com"    
     post_cta         : "Reçois la dernière story chaque semaine par email, rien d'autre."
@@ -16,13 +16,13 @@ nicolas:
     codepen          :
     dribbble         :
     flickr           :
-    facebook         :
+    facebook         : "https://www.facebook.com/blog.nicolasjouanno/"
     foursquare       :
     github           : "https://github.com/jn-prod"
     gitlab           :
     google_plus      : "https://plus.google.com/u/0/101743465600034380035"
     keybase          :
-    instagram        :
+    instagram        : 'nicolasjouanno'
     lastfm           :
     linkedin         : "https://www.linkedin.com/in/nicolasjouanno/"
     mediumcom        : "https://medium.com/@nicolasjouanno"

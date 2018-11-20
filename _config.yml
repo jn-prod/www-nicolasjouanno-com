@@ -10,13 +10,27 @@ comments:
 reCaptcha:
   siteKey        :
   secret         :
+default_date: "01-01-2013"
 
 # Post settings
 imgpost   : assets/public/images/posts
 
 # SEO Related
 meta_description : "Chef de projet digital, webmarketing & webdesign freelance à Pontivy, Loudéac. Disponible pour vos projets de communication et la création de votre site internet | Nicolas jouanno"
-meta_keywords    : "product management, digital product, startup, freelance, indie hacker, solopreneur, nicolas jouanno, tech, business, marketing, marketer, web-developper, designer"
+meta_keywords    : 
+  - "product management"
+  - "digital product"
+  - "startup"
+  - "freelance"
+  - "indie hacker"
+  - "solopreneur"
+  - "nicolas jouanno"
+  - "tech"
+  - "business"
+  - "marketing"
+  - "marketer"
+  - "web-developper"
+  - "designer"
 google_verification :
 bing_verification   :
 yandex_verification :
@@ -29,14 +43,34 @@ google_analytics: 'UA-33078029-1'
 og_image: "assets/public/images/jumbotron.jpg" # Open Graph/Twitter default site image
 twitter:
   username  : "@nicolasjouanno"
+  publisher : "https://twitter.com/NicolasJouanno"
 facebook:
-  username  : 10210003510697734
-  app_id    : #502710249769535
-  publishe  : #https://www.facebook.com/app.vtt.bzh
+  profil_url  : "https://www.facebook.com/njouanno"
+  app_id    : 870898643116106
+  publisher  : "https://www.facebook.com/blog.nicolasjouanno/"
+instagram :
+  publisher : "http://instagram.com/nicolasjouanno/"
+google_plus : 
+  publisher : "https://plus.google.com/u/0/101743465600034380035"
+mediumcom   : 
+  publisher : "https://medium.com/@nicolasjouanno"
+linkedin: 
+  publisher : "https://fr.linkedin.com/in/nicolasjouanno"
+viadeo: 
+  publisher : "fr.viadeo.com/fr/profile/nicolas.jouanno"
+pinterest: 
+  publisher : "https://www.pinterest.fr/nicolasjouanno/"
 social:
   type  : # Person or Organization (defaults to Person)
   name  : # If the user or organization name differs from the site's name
   links : # An array of links to social media profiles
+
+# address
+address :
+  street : "rue du resteu vihan"
+  code : "56300"
+  coutry : "FR"
+  city: "Pontivy, France"
 
 # Outputting
 permalink : /:title:output_ext
