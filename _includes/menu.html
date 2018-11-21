@@ -22,20 +22,17 @@
                 <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}"><i class="fas fa-home"></i></a>
               </li>
 
-              {% if page.url == "/creation-site-internet.html" %}
-                  <li class="nav-item active">
-              {% else %}
-                  <li class="nav-item">
-              {% endif %}
-                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/creation-site-internet.html">Freelance</a>
-              </li>
-
               <li class="nav-item">
                 <a class="nav-link btn btn-outline-light border-0" href="https://blog.nicolasjouanno.com" rel="nofollow" target="_blank">Blog</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link btn btn-outline-light border-0" href="https://app.nicolasjouanno.com" rel="nofollow" target="_blank">Feezify:me</a>
+                <a class="nav-link btn btn-outline-light border-0" href="https://app.nicolasjouanno.com" rel="nofollow" target="_blank">
+                  <div class="d-flex">
+                    <span class="d-block">Feezify:me</span>
+                    <small class="d-block ml-1 my-top text-danger">new</small>                    
+                  </div>
+                </a>
               </li>
 
               {% if page.url == "/pages/soutenir.html" %}
@@ -44,6 +41,14 @@
                   <li class="nav-item">
               {% endif %}
                 <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/pages/soutenir.html">Soutenir</a>
+              </li>
+
+              {% if page.url == "/creation-site-internet.html" %}
+                  <li class="nav-item active">
+              {% else %}
+                  <li class="nav-item">
+              {% endif %}
+                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/creation-site-internet.html">Freelance</a>
               </li>
 
               {% if page.url == "/about.html" %}
