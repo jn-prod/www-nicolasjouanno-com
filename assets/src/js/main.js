@@ -17,6 +17,7 @@ import '../css/infinite-spinner.css'
 import '../css/inspiration.css'
 import '../css/custom-boostrap.css'
 import '../css/index.css'
+import '../css/menu.css'
 // import '../css/main.scss'
 
 // images
