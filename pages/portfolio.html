@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: activities
 title: "Portfolio"
 summary: "Portfolio de Nicolas Jouanno, chef de projet web, webmarketing & webdesign freelance à Pontivy, Loudéac"
+permalink: "/portfolio.html"
 ---        
 <div class="main-content">
   <div class="container-fluid ">
@@ -38,7 +39,7 @@ summary: "Portfolio de Nicolas Jouanno, chef de projet web, webmarketing & webde
 
           {% for project in site.data.projects %}
 
-            <div class="col-4 p-2 text-center mx-auto mt-5">
+            <div class="col-12 p-2 text-center mx-auto mt-5">
               <span class="d-block p-2">
                 <img src="{{ project.images[0] }}" alt="{{ project.name }}" class="img-fluid">
                 <h2 class="mt-4 mb-4 h4 text-center"><a href="{{ site.url }}/{{ project.url }}" class="text-dark">{{ project.name }}</a></h2>

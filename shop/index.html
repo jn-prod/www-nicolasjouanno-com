@@ -1,0 +1,127 @@
+---
+layout: page
+title: Shopping
+---
+
+<article>
+
+    <div class="container">
+
+        <div class="row text-center bg-light">
+            <div class="col-12">
+                <h2>Tu ne sais pas comment t'équiper ?</h2>
+                <em class="mb-5 d-block">Voici les équipements qui m'accompagnent dans mes sorties ainsi que mes recommandations de matériel. Choisis ton sport.</em>
+            </div>
+        </div>
+        
+        <!-- Posts Index
+        ================================================== -->
+        <section class="">
+
+            <div class="row">
+                <div class="col-12 mt-3 mb-3">
+                    <ul class="list-unstyled text-center">
+                        <li class="mr-3 d-inline">Que cherches-tu ?</li>
+                        <li class="mr-3 d-inline"><a href="#cyclisme" class="btn btn-outline-primary">Cyclisme</a></li>
+                        <li class="mr-3 d-inline"><a href="#running" class="btn btn-outline-primary">Running</a></li>
+                        <li class="mr-3 d-inline"><a href="#urbain" class="btn btn-outline-primary">Vélo taf</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row" id="cyclisme">
+
+                <div class="col-12">
+                    
+                    <h2 class="font-primary  border border-left-0 border-right-0 border-top-0 d-block">Cyclisme</h2>
+
+                </div>
+                
+            </div>
+
+            <div class="row">
+                
+                {% for equipement in site.data.equipements %}
+
+                    {% if equipement.sports contains "cyclisme" %}
+
+                        <div class="col-lg-3 col-md-4">
+
+                            {% include productbox.html %}
+
+                        </div>
+
+                    {% endif %}
+
+                {% endfor %}
+
+            </div>
+
+
+            <div class="row" id="running">
+
+                <div class="col-12">
+                    
+                    <h2 class="font-primary  border border-left-0 border-right-0 border-top-0 d-block">Running</h2>
+
+                </div>
+                
+            </div>
+
+            <div class="row">
+                
+                {% for equipement in site.data.equipements %}
+
+                    {% if equipement.sports contains "running" %}
+
+                        <div class="col-lg-3 col-md-4">
+
+                            {% include productbox.html %}
+
+                        </div>
+
+                    {% endif %}
+
+                {% endfor %}
+
+            </div>
+
+            <div class="row" id="urbain">
+
+                <div class="col-12">
+                    
+                    <h2 class="font-primary  border border-left-0 border-right-0 border-top-0 d-block">Vélo taf</h2>
+
+                </div>
+                
+            </div>
+
+            <div class="row">
+                
+                {% for equipement in site.data.equipements %}
+
+                    {% if equipement.sports contains "urbain" %}
+
+                        <div class="col-lg-3 col-md-4">
+
+                            {% include productbox.html %}
+
+                        </div>
+
+                    {% endif %}
+
+                {% endfor %}
+
+            </div>
+            
+        </section>
+
+    </div>
+
+</article>
+
+<!-- Newsletter
+================================================== -->
+<div class="alertbar">
+    {% include newsletter.html %} 
+</div>

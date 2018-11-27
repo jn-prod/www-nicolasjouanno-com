@@ -1,10 +1,16 @@
 <header class="container-fluid">
 
+    <div class="row bg-light">
+        <div class="col-12">
+            {% include menu_main.html %}
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-12 mainheading">
           
             <a href="{{ site.url }}">
-              <span class="sitetitle d-block text-center text-capitalize pt-5 pb-2 text-dark h1">
+              <span class="sitetitle d-block text-center text-capitalize pt-3 pb-2 text-dark h1">
                 {{ site.title }}
               </span>
             </a>
@@ -12,7 +18,5 @@
 
         </div>
     </div>
-    
-    {% include menu.html %}
 
 </header>

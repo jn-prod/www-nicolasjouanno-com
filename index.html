@@ -3,11 +3,6 @@ layout: default
 title: "ex-cycliste professionnel, bloggeur & créateur digital"
 seo_description: "ex-cycliste professionnel, bloggeur & créateur digital pour les sportifs qui prennent soin d'eux et veulent rester motiver"
 ---
-<!-- Main Content
-================================================== -->          
-<div class="main-content">
-  <div class="container-fluid ">
-
 
 <!-- Newsletter
 ================================================== -->
@@ -50,39 +45,83 @@ seo_description: "ex-cycliste professionnel, bloggeur & créateur digital pour l
 
 </div>
 
-<section class="container">
+<!-- Application
+================================================== -->
+<section class="container pb-5 mt-5">
 
-    <div class="row mt-2 pt-3">
-      <div class="col-12 text-center bg-light">
-        <h2 class="mt-5 mb-3 font-primary">Edito</h2>
-        <span class="text-justify d-block pl-3 pr-3">
-          <p>Bonjour, moi c'est Nicolas</p>
+    <div class="section-title">
+        
+        <h2 class="d-block mb-5"><span class=" font-primary">Application</span></h2>
+        
+    </div>    
 
-          <p>J'écris chaque semaine des histoires inspirantes et motivantes pour les sportifs sur mon blog <a href="https://blog.nicolasjouanno.com" rel="nofollow" target="_blank">"escape"</a>, je développe l'application <a href="https://app.nicolasjouanno.com" target="_blank" rel="nofollow">"feezify:me"</a> pour prendre soin des sportifs.</p>
-          
-          <p>Ce site éponyme est le noyau centrale de toutes mes folies 2.0. J'ai publié mon premier site web à mes 18 ans, depuis je n'ai jamais cessé d'être présent et de tester de nouvelles choses sur le net. Le fondement de tout ceci est ma passion pour mes passions, mon envie d'échange et de partage, mon besoin de créer. L'économie, la tech, le design, la musique, la photographie et le sport occupent en permanence mon esprit.</p>
+    <article>
+        
+        <div class="row">
 
-          <p>Ce site est plus qu'un blog. Si l'histoire a commencé par le partage de mes retours d'expérience et des conseils liés à mes passions. Aujourd'hui, je veux qu'il gagne en maturité, pour qu'il soit plus à l'image de qui je suis maintenant.</p>
+            <div class="col-md-4 text-center">
+                <a href="https://app.nicolasjouanno.com" rel="nofollow" target="_blank">
+                    <img src="/assets/public/images/feezifyme.png" alt="application feezify:me" class="img-fluid" itemprop="image">
+                </a>
+            </div>
+            <div class="col-md-8 text-sm-center text-md-left ">
+                <h3 class="h1 d-block mt-5 mb-5 font-primary" itemprop="headline">Optimisez votre récupération physique et psychologique.</h3>
+                <em class="d-block mb-5" itemprop="description">Testez votre forme, suivez vos volumes d'activités et gardez un historique de vos sorties. En plus, l'application se connecte à votre compte STRAVA.</em>
+                <small class="d-block mt-2 mb-2">Pensez par <span itemprop="author">Nicolas Jouanno</span></small>
+                <div class="row">
+                    <div class="col-auto mx-sm-auto mx-md-0 text-sm-center text-md-left">
+                        <a href="https://app.nicolasjouanno.com" class="btn btn-primary p-3" rel="nofollow" target="_blank">Découvrir</a>
+                        <span class="text-muted d-block">100% gratuit</span>
+                    </div>
+                    <div class="col-auto d-sm-none d-md-flex text-sm-center text-md-left">
+                        <img src="/assets/public/images/responsive_web_design.png" alt="responsive" class="img-fluid img-thumbnail"> 
+                    </div>
+                </div>
+            </div>
+            
+        </div> 
 
-          <p>Si tu aimes mon travail, tu peux rejoindre ma story hebdomadaire maintenant. Il s'agit d'un email envoyé chaque semaine avec tout ce que j'ai pu lire d'intéressant ainsi que mes nouveaux articles.</p>              
-        </span>
+    </article>
 
-
-        <div class="row post-top-meta ">
-          <div class="col-md-10 mx-auto text-left mt-3">
-            <img class="author-thumb d-block"  src="https://miro.medium.com/fit/c/240/240/1*Tysig6P_3bP56CAs-TsxNA.png" alt="Nicolas Jouanno">
-            <a target="_blank" class="link-dark" href="https://nicolasjouanno.com" rel="nofollow">Nicolas Jouanno</a><a target="_blank" href="https://twitter.com/nicolasjouanno" class="btn follow" rel="nofollow">Follow</a>
-            <span class="author-description d-block">Product Manager @izir.fr (ex-cycliste professionnel) - Quand je ne suis pas avec ma famille, je passe mon temps à faire du sport, écrire, coder, apprendre ...</span>                        
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
 </section>
 
-<div class="container pt-5 pb-5">
+<!-- Shopping
+================================================== -->
+<section class="d-block mt-5">
+
+    <div class="container pb-5">
+            
+            <div class="section-title">
+                
+                <h2 class="d-block mb-5"><span class=" font-primary">Shopping</span></h2>
+                
+            </div>
+            
+            <div class="row">
+                
+                {% for equipement in site.data.equipements limit:3 %}
+
+                    <div class="col-lg-3 col-md-4">
+
+                        {% include productbox.html %}
+
+                    </div>
+
+                {% endfor %}
+
+                <div class="col-lg-3 col-md-12 text-center mt-5">
+
+                    <a href="/shop/" class="btn btn-primary p-3">Voir mon équipement</a>
+
+                </div>
+                
+            </div>
+
+    </div>
+
+</section>
+
+<div class="container-fluid pt-5 pb-5 bg-light">
   <div class="row mt-5">
     <div class="col-12 mb-3">
       <h2 class="font-primary text-center">Continions d'écrire l'histoire ensemble :</h2>

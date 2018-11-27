@@ -1,0 +1,4 @@
+.img-thumbnail {
+  max-height: 90px;
+  border: none !important;
+}
