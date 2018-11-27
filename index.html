@@ -95,7 +95,7 @@ seo_description: "ex-cycliste professionnel, bloggeur & créateur digital pour l
             <div class="col-md-8 text-sm-center text-md-left ">
                 <h3 class="h1 d-block mt-5 mb-5 font-primary" itemprop="headline">Optimisez votre récupération physique et psychologique.</h3>
                 <em class="d-block mb-5" itemprop="description">Testez votre forme, suivez vos volumes d'activités et gardez un historique de vos sorties. En plus, l'application se connecte à votre compte STRAVA.</em>
-                <small class="d-block mt-2 mb-2">Pensez par <span itemprop="author">Nicolas Jouanno</span></small>
+                <small class="d-block mt-2 mb-2">Pensez et développé par <span itemprop="author">Nicolas Jouanno</span></small>
                 <div class="row">
                     <div class="col-auto mx-sm-auto mx-md-0 text-sm-center text-md-left">
                         <a href="https://app.nicolasjouanno.com" class="btn btn-primary p-3" rel="nofollow" target="_blank">Découvrir l'application</a>
@@ -119,31 +119,35 @@ seo_description: "ex-cycliste professionnel, bloggeur & créateur digital pour l
 
     <div class="container pb-5">
             
-            <div class="section-title">
-                
-                <h2 class="d-block mb-5"><span class=" font-primary">Shopping</span></h2>
-                
-            </div>
-            
-            <div class="row">
-                
-                {% for equipement in site.data.equipements limit:3 %}
+      <div class="section-title">
+          
+          <h2 class="d-block mb-5"><span class=" font-primary">Shopping</span></h2>
+          
+      </div>
+      
+      <div class="row">
+          
+          {% for equipement in site.data.equipements limit:4 %}
 
-                    <div class="col-lg-3 col-md-4">
+              <div class="col-lg-3 col-md-4">
 
-                        {% include productbox.html %}
+                  {% include productbox.html %}
 
-                    </div>
+              </div>
 
-                {% endfor %}
+          {% endfor %}
+          
+      </div>
 
-                <div class="col-lg-3 col-md-12 text-center mt-5">
+      <div class="row">
 
-                    <a href="/shop/" class="btn btn-primary p-3">Voir mon équipement</a>
+        <div class="col-12 text-center mt-3">
 
-                </div>
-                
-            </div>
+          <a href="/shop/index.html" class="btn btn-primary p-3">Voir mon équipement</a>
+
+        </div>
+
+      </div>
 
     </div>
 
@@ -152,7 +156,7 @@ seo_description: "ex-cycliste professionnel, bloggeur & créateur digital pour l
 <div class="container-fluid pt-5 pb-5 bg-light">
   <div class="row mt-5">
     <div class="col-12 mb-3">
-      <h2 class="font-primary text-center">Continions d'écrire l'histoire ensemble :</h2>
+      <h2 class="font-primary text-center">Continuons d'écrire l'histoire ensemble :</h2>
     </div>
   </div>
   <div class="row mb-5 ">
