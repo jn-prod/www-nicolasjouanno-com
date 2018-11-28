@@ -5,6 +5,7 @@ import 'bootstrap'
 import '@fortawesome/fontawesome-free/js/all'
 import './components/contact'
 import './components/instagram'
+import './components/posts'
 
 // fonts
 import '../fonts/Maximum_Impact.ttf'
