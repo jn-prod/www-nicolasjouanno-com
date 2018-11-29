@@ -22,6 +22,7 @@ title: Shopping
                 <div class="col-12 mt-3 mb-3">
                     <ul class="list-unstyled text-center">
                         <li class="mr-3 d-inline">Que cherches-tu ?</li>
+                        <li class="mr-3 d-inline"><a href="#tee-shirt" class="btn btn-outline-primary">T-shirt</a></li>
                         <li class="mr-3 d-inline"><a href="#cyclisme" class="btn btn-outline-primary">Cyclisme</a></li>
                         <li class="mr-3 d-inline"><a href="#running" class="btn btn-outline-primary">Running</a></li>
                         <li class="mr-3 d-inline"><a href="#urbain" class="btn btn-outline-primary">Vélo taf</a></li>
@@ -29,6 +30,34 @@ title: Shopping
                 </div>
             </div>
             
+            <div class="row" id="tee-shirt">
+
+                <div class="col-12">
+                    
+                    <h2 class="font-primary  border border-left-0 border-right-0 border-top-0 d-block">T-shirt Vélo</h2>
+
+                </div>
+                
+            </div>
+
+            <div class="row">
+                
+                {% for equipement in site.data.equipements %}
+
+                    {% if equipement.sports contains "t-shirt" %}
+
+                        <div class="col-lg-3 col-md-4">
+
+                            {% include productbox.html %}
+
+                        </div>
+
+                    {% endif %}
+
+                {% endfor %}
+
+            </div>
+
             <div class="row" id="cyclisme">
 
                 <div class="col-12">

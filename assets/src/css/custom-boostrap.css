@@ -16,7 +16,9 @@
     color: #000 !important;
 }
 
-
+.color-primary {
+    color: rgb(0, 144, 142) !important;
+}
 
 .btn-primary {
     background-color: #00ab6b !important;
