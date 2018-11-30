@@ -19,7 +19,7 @@ title: Shopping
         <section class="">
 
             <div class="row">
-                <div class="col-12 mt-3 mb-3">
+                <div class="col-12 mt-5">
                     <ul class="list-unstyled text-center">
                         <li class="mr-3 d-inline">Que cherches-tu ?</li>
                         <li class="mr-3 d-inline"><a href="#e-shop" class="btn btn-outline-primary">Mes créations</a></li>
@@ -44,9 +44,9 @@ title: Shopping
                 
                 {% for equipement in site.data.equipements %}
 
-                    {% if equipement.sports contains "t-shirt" %}
+                    {% if equipement.sports contains "street" %}
 
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-4 col-md-6">
 
                             {% include productbox.html %}
 
@@ -56,8 +56,12 @@ title: Shopping
 
                 {% endfor %}
 
-                <a href="https://shop.nicolasjouanno.com" class="btn btn-primary mt-3 mb-3 mx-auto text-center p-2">Voir le e-shop</a>
+            </div>
 
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="https://gumroad.com/nicolasjouanno" class="btn btn-primary">Voir le e-shop</a>
+                </div>
             </div>
 
             <div class="row" id="cyclisme">
@@ -133,7 +137,7 @@ title: Shopping
 
                     {% if equipement.sports contains "urbain" %}
 
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-4 col-md-4">
 
                             {% include productbox.html %}
 

@@ -14,16 +14,16 @@
 
 	{% endfor %}
 	<a href="{{ equipement.affilate_url }} " class="d-block text-uppercase product-title" target="_blank" rel="nofollow">
-		<h3 class="h6" itemprop="name">{{ equipement.nom }}</h3>
+		<h3 class="h6 m-0 mt-2 font-weight-bold" itemprop="name">{{ equipement.nom }}</h3>
 	</a>
 
 	<section itemprop="description">
 
-		<h4 class="d-block h6">{{ equipement.marque }}</h4>
+		<h4 class="d-block h6 m-0 mt-2">{{ equipement.marque }}</h4>
 
 		{% for sport in equipement.sports %}
 
-			<span class="text-muted text-capitalize product-brand">
+			<small class="text-muted text-capitalize product-brand">
 
 				{{sport}}
 
@@ -31,7 +31,7 @@
 				, 
 				{% endif %}
 
-			</span>
+			</small>
 
 		{% endfor %}			
 
