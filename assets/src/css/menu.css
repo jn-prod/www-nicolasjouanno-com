@@ -1,18 +1,88 @@
-/*.nav-link {
-    border: solid;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 2px;
-    border-color: #FFF;
-}*/
-
-.nav-link:hover {
-    background-color: #FFF;
+#nav-top {
+    background-color: #000;
+    text-transform: uppercase;
 }
 
-/*@media (max-width: 736px) {
-    .mainheading .h1{
-        font-size: 1.5rem;
+#nav-top a {
+    border: none;
+    color: #FFF;
+    font-weight: 900;
+    font-size: 0.8rem;
+}
+
+#nav-top a:hover {
+    border: none;
+    color: #000;
+}
+
+/*
+ .mediumnavigation .form-control {
+     font-size:0.8rem;
+     border-radius:30px;
+     overflow:hidden;
+     border:1px solid rgba(0,0,0,0.04);
+}
+ .mediumnavigation .form-inline {
+     margin-left:15px;
+}
+ .mediumnavigation .form-inline .btn {
+     margin-left:-50px;
+     border:0;
+     border-radius:30px;
+     cursor:pointer;
+}
+ .mediumnavigation .form-inline .btn:hover,.mediumnavigation .form-inline .btn:active {
+     background:transparent;
+     color:green;
+}
+
+ .mediumnavigation .dropdown-menu {
+     border:1px solid rgba(0,0,0,0.08);
+     margin:.5rem 0 0;
+}
+ .mediumnavigation .nav-item,.dropdown-menu {
+     font-size:0.9rem;
+}
+ .mediumnavigation .search-icon {
+     margin-left:-40px;
+     display:inline-block;
+     margin-top:3px;
+     cursor:pointer;
+}
+ .mediumnavigation .navbar-brand img {
+     max-height:30px;
+     margin-right:5px;
+}
+
+ .bottompagination div.navigation {
+     display:block;
+     font-size:0.93rem;
+     padding:15px 0 0 0;
+     text-align:center;
+     margin-bottom:0rem;
+     color:#999;
+     border-top:1px solid #ddd;
+}
+
+ .mediumnavigation {
+     background:rgba(255,255,255,.97);
+     box-shadow:0 2px 2px -2px rgba(0,0,0,.15);
+     transition: top 0.2s ease-in-out;
+}
+
+ @media (min-width:992px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+         padding-right:0.8rem;
+         padding-left:0.8rem;
     }
+}
+
+ .bottompagination div.navigation i {
+     display:inline-block;
+}
+
+ div.navigation {
+     display: inline-block;
+     font-size: 0.93rem;
+     text-align:center;
 }*/

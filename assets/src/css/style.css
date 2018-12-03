@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i');
-
-@font-face {
-  font-family: 'impact';
-  src: url('../fonts/Maximum_Impact.ttf') format('truetype');
+html, body, p, button {
+    font-family: 'Lato' !important;
 }
 
  .mainheading {
@@ -23,7 +20,6 @@
      border: #E3EDF3 1px solid;
      width: 100%;
      padding: 10px;
-     font-family: monospace, sans-serif;
      font-size: 14px;
      white-space: pre;
      overflow: auto;
@@ -51,7 +47,6 @@
  .section-title h2 {
      border-bottom:1px solid rgba(0,0,0,.125);
      margin-bottom:25px;
-     font-weight:700;
      font-size:1.4rem;
      margin-bottom:27px;
 }
@@ -65,7 +60,7 @@
     background-color: #f8f9facc !important
 }
 #home-header-newsletter .cta {
-    font-family: Merriweather;
+    font-family: 'Abril Fatface';
 }
 .bg-header {
     background-image: url(./images/header.jpg);
@@ -126,14 +121,12 @@
 }
  .listfeaturedtag h3.card-title,.listrecent h3.card-title {
      font-size:1.3rem;
-     font-weight:700;
      line-height: 1.25;
 }
  .listfeaturedtag p.card-text,.listrecent p.card-text {
      color:rgba(0,0,0,.44);
      font-size:0.95rem;
      line-height:1.4;
-     font-weight:400;
 }
  .wrapfooter {
      font-size:12px;
@@ -213,9 +206,6 @@
      background:transparent;
      color:green;
 }
- .mediumnavigation .navbar-brand {
-     font-weight:500;
-}
  .mediumnavigation .dropdown-menu {
      border:1px solid rgba(0,0,0,0.08);
      margin:.5rem 0 0;
@@ -234,19 +224,16 @@
      margin-right:5px;
 }
  .mainheading span.sitetitle {
-    font-family: Merriweather;
+    font-family: 'Abril Fatface';
     text-transform: lowercase;
-    font-weight: bold;
     color: #000;
 }
  .mainheading h1.posttitle {
-     font-weight:700;
      margin-bottom:1rem;
 }
  .footer {
      border-top:1px solid rgba(0,0,0,.05)!important;
      font-size:0.8rem;
-     color:rgba(0,0,0,.44);
      position: relative;
      background: #fff;
 }
@@ -254,7 +241,7 @@
      color:rgba(0,0,0,.8);
 }
  .article-post {
-     font-family:Merriweather;
+     font-family: 'Abril Fatface';
      font-size:1.2rem;
      line-height:1.8;
      color:rgba(0,0,0,.8);
@@ -435,7 +422,6 @@
      border-radius:30px;
      font-size:0.85rem;
      margin-left:10px;
-     font-weight:600;
      text-transform:uppercase;
 }
  .post-top-meta .btn.follow {
@@ -478,7 +464,6 @@
      padding:4px 10px;
      border-top-right-radius:3px;
      border-bottom-right-radius:3px;
-     font-weight:600;
      height:34px;
      letter-spacing:0.5px;
      cursor: pointer;
@@ -499,7 +484,6 @@
      color: rgba(0,0,0,.5);
 }
  .authorpage h1 {
-     font-weight:700;
      font-size:30px;
 }
  .post-top-meta.authorpage .author-thumb {
@@ -546,10 +530,9 @@
      margin-bottom: 1.5rem;
 }
  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+     font-family: 'Abril Fatface',sans-serif;
 }
  .article-post .h1, .article-post .h2, .article-post .h3, .article-post .h4, .article-post .h5, .article-post .h6, .article-post h1, .article-post h2, .article-post h3, .article-post h4, .article-post h5, .article-post h6 {
-    font-weight: 700;
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
@@ -587,7 +570,6 @@
  span.navigation {
      display: inline-block;
      font-size: 0.93rem;
-     font-weight: 700;
      text-align:center;
 }
  .pagination {
@@ -611,9 +593,6 @@
          padding-left:0;
          padding-top:13%;
     }
-     .jumbotron.fortags .col-md-4 span {
-         font-weight:300;
-    }
      .jumbotron.fortags .row {
          margin:0;
     }
@@ -623,7 +602,6 @@
      background: #222;
      border-radius: 30px;
      color: #fff;
-     font-weight: 500;
      text-transform: lowercase;
      font-size: 0.8rem;
 }

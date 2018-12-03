@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:400,700,900');
+
+.font-primary {
+  font-family: 'Abril Fatface' !important;
+  font-weight: 400 !important;
+}
+
+.font-secondary {
+  font-family: 'Lato' !important;
+}
+

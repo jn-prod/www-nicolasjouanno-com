@@ -1,6 +1,6 @@
 <!-- Begin Menu Navigation
 ================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light nav-down border border-top-0 border-right-0 border-left-0">
+<nav id="nav-top" class="navbar navbar-expand-lg navbar-dark nav-down border border-top-0 border-right-0 border-left-0">
     <div class="container pr-0"> 
         <!-- Site Title
         ================================================== -->
@@ -23,7 +23,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link btn btn-outline-light border-0 text-uppercase font-primary" href="https://blog.nicolasjouanno.com" rel="nofollow" target="_blank">Stories</a>
+                <a class="nav-link btn btn-outline-light border-0" href="https://blog.nicolasjouanno.com" rel="nofollow" target="_blank">Stories</a>
               </li>
 
               <li class="nav-item">
@@ -31,7 +31,7 @@
                   <div class="d-flex mx-auto">
                     <div class="d-block mx-auto">
                       <div class="d-flex">
-                        <span class="d-block text-uppercase font-primary">Feezify:me</span>
+                        <span class="d-block">Feezify:me</span>
                         <small class="d-block ml-1 my-top text-danger">new</small> 
                       </div>
                     </div>            
@@ -44,7 +44,7 @@
               {% else %}
                   <li class="nav-item">
               {% endif %}
-                <a class="nav-link btn btn-outline-light border-0 text-uppercase font-primary" href="{{ site.url }}/shop/index.html">Shopping</a>
+                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/shop/index.html">Shopping</a>
               </li>
 
               {% if page.url == "/edito.html" %}
@@ -52,11 +52,11 @@
               {% else %}
                   <li class="nav-item">
               {% endif %}
-                <a class="nav-link btn btn-outline-light border-0 text-uppercase font-primary" href="{{ site.url }}/edito.html">Concept</a>
+                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/edito.html">Concept</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link btn btn-outline-secondary text-uppercase font-primary" href="{{ site.url }}#cta"><i class="far fa-envelope mr-2"></i>Newsletter</a>
+                <a class="nav-link btn btn-outline-secondary" href="{{ site.url }}#cta"><i class="far fa-envelope mr-2"></i>Newsletter</a>
               </li>
 
           </ul>

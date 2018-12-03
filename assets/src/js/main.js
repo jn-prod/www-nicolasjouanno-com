@@ -8,7 +8,10 @@ import './components/instagram'
 import './components/posts'
 
 // fonts
-import '../fonts/Maximum_Impact.ttf'
+// import '../fonts/AbrilFatface-Regular.ttf'
+// import '../fonts/Lato-Regular.ttf'
+// import '../fonts/Lato-Italic.ttf'
+// import '../fonts/Lato-Bold.ttf'
 
 // css
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -19,6 +22,7 @@ import '../css/inspiration.css'
 import '../css/custom-boostrap.css'
 import '../css/index.css'
 import '../css/menu.css'
+import '../css/font.css'
 // import '../css/main.scss'
 
 // images
