@@ -28,7 +28,57 @@
     <!-- credit -->
 
     <div class="container mt-3 pb-4">
-        <div class="row">
+        <div class="row mt-3 mb-2">
+            <div class="col-md-3">
+                <span class="d-block h2">{{ site.title }}</span>
+                <span class="d-block text-primary">— {{ site.headline }} —</span>
+                <span class="d-block">j'ai 31 ans, je suis passionnée d'outdoor, de challenge et de belles images.</span>
+            </div>
+            <div class="col-md-2 text-muted">
+                <strong class="d-block text-muted mb-2">Les stories</strong>
+                <a href="https://blog.nicolasjouanno.com/categories/atelier.html" rel="nofollow" class="d-block text-muted">#Atelier</a>
+                <a href="https://blog.nicolasjouanno.com/categories/aventure.html" rel="nofollow" class="d-block text-muted">#Aventure</a>
+                <a href="https://blog.nicolasjouanno.com/categories/inspiration.html" rel="nofollow" class="d-block text-muted">#Inspiration</a>
+                <a href="https://blog.nicolasjouanno.com/categories/coach.html" rel="nofollow" class="d-block text-muted">#Coach</a>
+                <a href="https://blog.nicolasjouanno.com/categories/vestiaire.html" rel="nofollow" class="d-block text-muted">#Vestiaire</a>
+                <a href="https://blog.nicolasjouanno.com/categories/coulisses.html" rel="nofollow" class="d-block text-muted">#Coulisses</a>
+            </div>
+            <div class="col-md-2 text-muted">
+                <strong class="d-block text-muted mb-2">Mes services</strong>
+                <a href="https://app.nicolasjouanno.com" rel="nofollow" class="d-block text-muted">Feezify:me</a>
+                <a href="https://blog.nicolasjouanno.com/shop/index.html" rel="nofollow" class="d-block text-muted">Shopping</a>
+                <a href="https://blog.nicolasjouanno.com/creation-site-internet.html" rel="nofollow" class="d-block text-muted">Studio</a>
+            </div>
+            <div class="col-md-2 text-muted">
+                <a href="https://nicolasjouanno.com/edito.html" rel="nofollow" class="d-block text-muted mb-2 font-weight-bold">Concept</a>
+                <a href="https://nicolasjouanno.com/about.html" rel="nofollow" class="d-block text-muted mb-2 font-weight-bold">Me contacter</a>
+            </div>            
+            <div class="col-md-3">
+                <span class="d-block h3">Newsletter</span>
+                <small class="d-block text-muted">{{site.data.authors.nicolas.post_cta}}</small>
+              <form
+                  action="https://app.convertkit.com/forms/733285/subscriptions"
+                  class="seva-form formkit-form mb-5 d-inline w-100 d-block mx-auto"
+                  method="post"
+                  data-sv-form="733285"
+                  data-uid="0f89d29dda"
+                  data-format="inline"
+                  data-version="5"
+                  data-options="{&quot;settings&quot;:{&quot;after_subscribe&quot;:{&quot;action&quot;:&quot;message&quot;,&quot;redirect_url&quot;:&quot;&quot;,&quot;success_message&quot;:&quot;Success! Now check your email to confirm your subscription.&quot;},&quot;return_visitor&quot;:{&quot;action&quot;:&quot;show&quot;,&quot;custom_content&quot;:&quot;&quot;},&quot;recaptcha&quot;:{&quot;enabled&quot;:false}}}">
+
+                  <div data-style="naked" class="mc-field-group">
+                      <ul data-element="errors" data-group="alert"></ul>
+                      <div class="seva-fields" data-element="fields" data-stacked="false">
+                          <!-- <input name="first_name" class="required" placeholder="Votre prénom" required type="text"> -->
+                          <input name="email_address" placeholder="mon@email.com" required type="email" class="required email">
+                          <button data-element="submit" class="btn btn-secondary">Je commence</button>
+                      </div>
+                  </div>
+
+              </form>                 
+            </div>
+        </div>
+        <div class="row signature">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
                  Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>

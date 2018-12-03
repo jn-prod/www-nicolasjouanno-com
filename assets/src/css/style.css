@@ -231,7 +231,7 @@ html, body, p, button {
  .mainheading h1.posttitle {
      margin-bottom:1rem;
 }
- .footer {
+ .footer .signature {
      border-top:1px solid rgba(0,0,0,.05)!important;
      font-size:0.8rem;
      position: relative;
