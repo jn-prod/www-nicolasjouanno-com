@@ -9,3 +9,10 @@
   font-family: 'Lato' !important;
 }
 
+.text-secondary {
+    color: rgb(0, 144, 142) !important;
+}
+
+.text-primary {
+    color: #00908e !important;
+}
