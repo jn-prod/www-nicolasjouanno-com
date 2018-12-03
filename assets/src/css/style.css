@@ -579,13 +579,13 @@ html, body, p, button {
     max-width:100%;
 }
  @media (min-width:768px) {
-     .jumbotron.bg-footer {
+    .bg-footer {
          border-radius:0;
          background-image: url(./images/jumbotron.jpg);
          background-size:cover;
          background-position: center;
     }
-     .jumbotron.fortags .col-md-4 {
+    .jumbotron.fortags .col-md-4 {
          background:rgba(0,0,0,0.75);
          color:#fff;
          height:350px;
@@ -593,7 +593,7 @@ html, body, p, button {
          padding-left:0;
          padding-top:13%;
     }
-     .jumbotron.fortags .row {
+    .jumbotron.fortags .row {
          margin:0;
     }
 }
