@@ -72,6 +72,8 @@ address :
   coutry : "FR"
   city: "Pontivy, France"
 
+devis_link: "#"
+
 # Outputting
 permalink : /:title:output_ext
 # paginate: 9

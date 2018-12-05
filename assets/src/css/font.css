@@ -10,9 +10,18 @@
 }
 
 .text-secondary {
-    color: rgb(0, 144, 142) !important;
+  color: rgb(0, 144, 142) !important;
 }
 
 .text-primary {
-    color: #00908e !important;
+  color: #00908e !important;
+}
+
+a {
+  color: rgb(0, 144, 142);
+  transition:all 0.2s;
+}
+ a:hover {
+  color: #00ab6b;
+  text-decoration:none;
 }

@@ -24,7 +24,7 @@
 }
 
  @media (max-width: 768px) {
-     .inspiration-1, .inspiration-2, .inspiration-3, .inspiration-4, .inspiration-5 {
+     .img-header-h {
         height: 200px;
     }
 }

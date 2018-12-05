@@ -5,14 +5,7 @@ html, body, p, button {
  .mainheading {
      padding:1rem 0rem;
 }
- a {
-     color:#00ab6b;
-     transition:all 0.2s;
-}
- a:hover {
-     color: #038252;
-     text-decoration:none;
-}
+
  pre {
      -moz-box-sizing: border-box;
      box-sizing: border-box;
