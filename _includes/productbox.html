@@ -21,20 +21,25 @@
 
 		<h4 class="d-block h6 m-0 mt-2">{{ equipement.marque }}</h4>
 
-		{% for sport in equipement.sports %}
+		<div class="d-block">
+			
+			{% for sport in equipement.sports %}
 
-			<small class="text-muted text-capitalize product-brand">
+				<small class="text-muted text-capitalize product-brand">
 
-				{{sport}}
+					{{sport}}
 
-				{% if forloop.last != true %}
-				, 
-				{% endif %}
+					{% if forloop.last != true %}
+					, 
+					{% endif %}
 
-			</small>
+				</small>
 
-		{% endfor %}			
+			{% endfor %}	
 
+		</div>
+
+		<a href="{{ equipement.affilate_url }}" class="btn btn-outline-primary" rel="nofollow" target="_blank">Acheter</a>		
 	</section>
 
 	

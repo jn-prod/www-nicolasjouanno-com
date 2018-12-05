@@ -5,6 +5,10 @@
   sports:
     - "street"
   affilate_url: "https://gum.co/jAzoV"
+  caracteristiques: 
+    - "100% coton peigné et filé à l'anneau (les couleurs chinées contiennent du polyester)"
+    - "Tissage: 142 g/m2"
+  description: "Ce t-shirt est doux et léger, avec la bonne quantité d’étirement. Il est confortable et bien taillé pour les hommes."
 - nom: "Chaussures de Trail New Balance Fresh Foam Hierro V3 Noir / Jaune"
   marque: "New Balance"
   images:

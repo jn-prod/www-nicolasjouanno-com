@@ -42,7 +42,25 @@
 
 					</small>
 
-				{% endfor %}			
+				{% endfor %}
+
+				<small class="text-muted d-block mt-2">{{ equipement.description }}</small>
+				
+				<small class="text-muted text-uppercase border border-top-0 border-left-0 border-right-0 d-block mt-2">Caractéristiques</small>
+
+				<ul class="list-unstyled">
+
+					{% for caracteristique in equipement.caracteristiques %}
+
+						<li><small class="text-muted">{{ caracteristique }}</small></li>
+
+					{% endfor %}		
+
+				</ul>
+
+
+
+				<a href="{{ equipement.affilate_url }}" class="btn btn-outline-primary" rel="nofollow" target="_blank">Acheter</a>	
 
 			</section>
 			
