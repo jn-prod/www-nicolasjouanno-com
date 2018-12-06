@@ -8,7 +8,7 @@
     - Fullstack JS
   url: "#"
   images:
-    - "/assets/public/images/pages/index/ext-1.jpg"
+    - "/assets/public/images/projets/ext-1.jpg"
 - name: "GO Sport"
   description: "Mise en place et suivi de tableaux de bord, suivi du planning promotionnel, création des supports print (cartes de visite, flyers, tracts et dépliants), création des supports webmarketing (newsletter et social média)"
   mission: "Gestion de projet marketing"
@@ -19,7 +19,7 @@
     - Data analyse
   url: "#"
   images: 
-    - "/assets/public/images/pages/index/ext-2.jpg"
+    - "/assets/public/images/projets/ext-2.jpg"
 - name: "Feezify.me"
   description: "Création d'un site internet, gestion de la roadmap produit, organisation du backlog, enquête utilisateur, data analyse."
   mission: "Création du site internet"
@@ -30,7 +30,7 @@
     - Fullstack JS
   url: "#"
   images: 
-    - "/assets/public/images/pages/index/ext-3.jpg"
+    - "/assets/public/images/projets/ext-3.png"
 - name: "gael-lebellec.bzh"
   description: "Création et mise à jour d'un site internet."
   mission: "Création du site internet"
@@ -40,7 +40,7 @@
     - Multilangue
   url: "#"
   images: 
-    - "/assets/public/images/pages/index/ext-4.png"
+    - "/assets/public/images/projets/ext-4.png"
 - name: "joliesbulles.com"
   description: "Création et optimisation SEO d'un site internet."
   mission: "Création du site internet"
@@ -50,4 +50,4 @@
     - Optimisation SEO
   url: "#"
   images: 
-    - "/assets/public/images/pages/index/ext-5.png"
+    - "/assets/public/images/projets/ext-5.png"
