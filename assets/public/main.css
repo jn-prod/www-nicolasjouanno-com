@@ -13,3 +13,4 @@ body,button,html,p{font-family:Lato!important}.mainheading{padding:1rem 0}pre{-m
 .img-thumbnail{max-height:90px;border:none!important}
 #nav-top{background-color:#000;text-transform:uppercase}#nav-top a{border:none;color:#fff;font-weight:900;font-size:.8rem}#nav-top a:hover{border:none;color:#000}
 .font-primary{font-family:Abril Fatface!important;font-weight:400!important}.font-secondary{font-family:Lato!important}.text-primary,.text-secondary{color:#00908e!important}a{color:#00908e;transition:all .2s}a:hover{color:#00ab6b;text-decoration:none}
+.tech-icon>img{height:48px;width:auto}.tech-icon{transition:0s}.tech-icon h4{border-bottom:1px solid #fff}.tech-icon:hover{transition:filter 0s;filter:hue-rotate(327deg) brightness(108%)}.tech-icon:hover>h4{border-bottom:1px solid grey}

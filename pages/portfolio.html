@@ -24,29 +24,7 @@ permalink: "/portfolio.html"
 
       <article>
         
-        <div class="row">
-
-          {% for project in site.data.projects %}
-
-            <div class="col-12 p-2 text-center mx-auto mt-5">
-              <span class="d-block p-2">
-                <img src="{{ project.images[0] }}" alt="{{ project.name }}" class="img-fluid">
-                <h2 class="mt-4 mb-4 h4 text-center"><a href="{{ site.url }}/{{ project.url }}" class="text-dark">{{ project.name }}</a></h2>
-                <em class="d-block mb-2">{{ project.description }}</em>
-                {% for expertise in project.expertises %}
-                  <span class="font-weight-bold text-primary">
-                    {{expertise}}
-                  </span>
-                  {% if forloop.last == false %}
-                   - 
-                  {% endif %}
-                {% endfor %}              
-              </span>
-            </div>
-
-          {% endfor %}          
-        </div>
-
+        {% include projectbox.html %}
 
       </article>
 

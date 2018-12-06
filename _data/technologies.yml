@@ -1,0 +1,73 @@
+# technologies
+- name: "HTML 5"
+  url: 
+  fontawesome: "fab fa-html5"
+  description: "HyperText Markup Language"
+- name: "CSS 3"
+  url: 
+  fontawesome: "fab fa-css3-alt"
+  description: "Feuilles de style"
+- name: "JAVASCRIPT 5"
+  url: 
+  fontawesome: "fab fa-js"
+  description: "Language de script"
+- name: "JQUERY"
+  url: 
+  icon: "jquery.png"
+  description: "Librairie Javascript"
+- name: "NODE JS"
+  url: 
+  fontawesome: "fab fa-node"
+  description: "Framework Javascript"
+- name: "MONGO DB"
+  url: 
+  icon: "mongodb.png"
+  description: "Base de données"
+- name: "BOOTSTRAP"
+  url: 
+  icon: "bootstrap.png"
+  description: "Framework Front-End"
+- name: "WEBPACK"
+  url: 
+  icon: "webpack.png"
+  description: "Compileur Javascript"
+- name: "GIT & GITHUB"
+  url: 
+  fontawesome: "fab fa-github"
+  description: "Gestion de projet / versionning"
+- name: "HEROKU"
+  url: 
+  icon: "heroku.png"
+  description: "Hébergement"
+- name: "STRIPE"
+  url: 
+  fontawesome: "fab fa-stripe"
+  description: "Paiement en ligne"
+- name: "MAILCHIMP"
+  url: 
+  fontawesome: "fab fa-mailchimp"
+  description: "Mailing / Newsletter"
+- name: "Convertkit"
+  url: 
+  icon: "convertkit.png"
+  description: "Mailing / Newsletter"
+- name: "ASANA"
+  url: 
+  icon: "asana.png"
+  description: "Gestion de projet"
+- name: "SLACK"
+  url: 
+  fontawesome: "fab fa-slack-hash"
+  description: "Gestion de projet"
+- name: "JEKYLL"
+  url: 
+  icon: "jekyll.png"
+  description: "Gestion de contenu"
+- name: "WORDPRESS"
+  url: 
+  fontawesome: "fab fa-wordpress"
+  description: "Gestion de contenu"
+- name: "SHOPIFY"
+  url: 
+  icon: "shopify.png"
+  description: "E-Commerce"

@@ -72,7 +72,7 @@ address :
   coutry : "FR"
   city: "Pontivy, France"
 
-devis_link: "#"
+devis_link: "mailto:pro@nicolasjouanno.com"
 
 # Outputting
 permalink : /:title:output_ext

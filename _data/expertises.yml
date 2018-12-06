@@ -1,51 +1,47 @@
 # expertises
-- name: "Web-marketing"
-  url: 
-- name: "Web-design"
-  url: 
-- name: "Gestion de projet web"
+
+#projet
+- name: "Gestion de projet"
   url: "/chef-projet-digital.html"
-- name: "Gestion de projet marketing"
-  url: "/chef-projet-digital.html"
-- name: "Gestion de projet en cascade"
-  url: "/chef-projet-digital.html"
-- name: "Gestion de projet agile"
-  url: "/chef-projet-digital.html"
-- name: "Graphisme"
-  url: 
-- name: "Design Thinking"
-  url: 
-- name: "Création de site internet"
-  url: "/creation-site-internet.html"
-- name: "Javascript"
-  url: 
-- name: "MongoDB"
-  url: 
-- name: "Node JS"
-  url: 
-- name: "UX/UI design"
-  url: 
 - name: "Product Management"
-  url: "/chef-projet-digital.html"
-- name: "Developpement web"
-  url: 
-- name: "Developpeur back-end"
-  url: 
-- name: "Developpeur javascript fullstack"
-  url: 
-- name: "Logo"
-  url: 
-- name: "Stratégie web marketing"
-  url: 
-- name: "Plan marketing"
-  url: 
-- name: "Social Media"
-  url: 
-- name: "SEO"
-  url: 
-- name: "SEA"
-  url: 
+  url: "/product-manager.html"
+
+#tech
 - name: "Site internet professionnel"
   url: "/creation-site-internet.html"
+- name: "Intégration (HTML, CSS, JS)"
+  url: "#expertises"
+- name: "Création d'une API"
+  url: "#expertises"  
+
+#design
+- name: "Web Design"
+  url: "#expertises"
+- name: "UX et UI design"
+  url: "#expertises" 
+- name: "Design Thinking"
+  url: "#expertises" 
+- name: "Réalisation photo et video"
+  url: "#expertises" 
 - name: "Identité Visuelle"
-  url: 
+  url:  "#expertises" 
+- name: "Logo"
+  url:  "#expertises" 
+
+#marketing
+- name: "Web-marketing"
+  url: "#expertises"
+- name: "Référencement naturel SEO"
+  url: "#expertises"
+- name: "Suivi Analytics"
+  url: "#expertises"
+- name: "Stratégie d'acquision"
+  url: "#expertises"
+- name: "Growth Hacking"
+  url: "#expertises"
+- name: "Social Media"
+  url: "#expertises"
+- name: "Plan marketing"
+  url: "#expertises"
+- name: "Stratégie web marketing"
+  url: "#expertises"

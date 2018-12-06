@@ -7,8 +7,8 @@ permalink: "/studio.html"
 <!-- header + cta -->
 <div class="row pt-5 pb-5 inspiration-1 d-block">
   <div class="col-md-6 bg-white pt-5 pb-5">
-    <h2 class="mb-3 d-block pt-3">Développez votre activité en ligne et améliorez votre expérience client.</h2>
-    <h3 class="font-secondary text-muted pb-3">Mon savoir-faire en gestion de projet digital permet à votre entreprise de créer et valoriser son activité en ligne.</h3>  
+    <h1 class="mb-3 d-block h2 pt-3">Développez votre activité en ligne et améliorez votre expérience client.</h1>
+    <h2 class="font-secondary h3 text-muted pb-3">Mon savoir-faire en gestion de projet digital permet à votre entreprise de créer et valoriser son activité en ligne.</h2>  
     <a href="{{ site.devis_link }}" class="btn btn-primary mb-3 p-3 font-weight-bold">Demander un devis</a>  
   </div>
 </div>
@@ -66,24 +66,16 @@ permalink: "/studio.html"
         </div>
       <div class="row text-center">
         <div class="col-12">
-          <a href="/chef-projet-digital.html" class="btn btn-outline-primary m-2">Gestion de projet</a>
-          <a href="/product-manager.html" class="btn btn-outline-primary m-2">Product Management</a>
-          <a href="#expertises" class="btn btn-outline-primary m-2">Intégration (HTML, CSS, JS)</a>
-          <a href="#expertises" class="btn btn-outline-primary m-2">Web Design</a>
-          <a href="#expertises" class="btn btn-outline-primary m-2">Référencement naturel SEO</a>
-          <a href="#expertises" class="btn btn-outline-primary m-2">UX et UI</a>
-          <a href="#expertises" class="btn btn-outline-primary m-2">Suivi Analytics</a>
-          <a href="#expertises" class="btn btn-outline-primary m-2">Création d'une API</a>
-          <a href="#expertises" class="btn btn-outline-primary m-2">Réalisation photo et video</a>
-          <a href="#expertises" class="btn btn-outline-primary m-2">Stratégie d'acquision</a>
-          <a href="#expertises" class="btn btn-outline-primary m-2">Growth Hacking</a>
+          {% for expertise in site.data.expertises %}
+            <a href="{{expertise.url}}" class="btn btn-outline-primary m-2">{{expertise.name}}</a>
+          {% endfor %}
         </div>
       </div>
     </div>   
   </div>
 </div>
 
-<!-- Expertises -->
+<!-- Technologies -->
 <div class="container pt-5 pb-5 text-center" id="technologies">
   <div class="row">
     <div class="col-12">
@@ -91,26 +83,36 @@ permalink: "/studio.html"
     </div>
   </div>
   <div class="row text-center">
-    <div class="col-12">
-      <a href="#technologies" class="btn btn-outline-primary m-2">HTML 5</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">CSS 3</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">JAVASCRIPT 5</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">JQUERY</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">NODE JS</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">MONGO DB</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">BOOTSTRAP</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">WEBPACK</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">GIT & GITHUB</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">STRIPE</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">MAILCHIMP</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">ASANA</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">SLACK</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">JEKYLL</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">WORDPRESS</a>
-      <a href="#technologies" class="btn btn-outline-primary m-2">SHOPIFY</a>
-    </div>
+    {% for technologie in site.data.technologies %}
+      <div class="col-md-3 col-sm-6 mx-auto">
+        <a href="{{technologie.url}}" class="d-inline-block m-3 tech-icon">
+          {% if technologie.fontawesome %}
+            <i class="{{technologie.fontawesome}} fa-3x"></i>
+          {% else if technologie.icon %}
+            <img src="/assets/public/images/technologies/{{technologie.icon}}" alt="{{technologie.name}}">
+          {% endif %}
+          <h4 class="text-muted d-block text-center font-secondary h6 font-weight-bold mt-2 icon-title">{{technologie.name}}</h4>
+          <small class="text-muted">{{technologie.description}}</small>
+        </a>
+      </div>
+    {% endfor %}
   </div>
 </div>
+
+<!-- projet -->
+<!-- <div class="container pt-5 pb-5 text-center" id="technologies">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="mb-5">Les Projets</h2>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-12">
+      {% include projectbox.html %}
+    </div>
+  </div>
+</div> -->
+
 
 <div class="row p-5 bg-light text-center">
   <div class="col-md-8">

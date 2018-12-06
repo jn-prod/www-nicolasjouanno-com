@@ -23,6 +23,7 @@ import '../css/custom-boostrap.css'
 import '../css/index.css'
 import '../css/menu.css'
 import '../css/font.css'
+import '../css/icon.css'
 // import '../css/main.scss'
 
 // images
