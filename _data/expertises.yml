@@ -15,33 +15,21 @@
   url: "#expertises"  
 
 #design
-- name: "Web Design"
-  url: "#expertises"
-- name: "UX et UI design"
+- name: "UX et UI design" #web design
   url: "#expertises" 
-- name: "Design Thinking"
-  url: "#expertises" 
-- name: "Réalisation photo et video"
-  url: "#expertises" 
-- name: "Identité Visuelle"
-  url:  "#expertises" 
-- name: "Logo"
+- name: "Identité visuelle et logo" #branding
   url:  "#expertises" 
 
 #marketing
-- name: "Web-marketing"
-  url: "#expertises"
-- name: "Référencement naturel SEO"
-  url: "#expertises"
-- name: "Suivi Analytics"
-  url: "#expertises"
-- name: "Stratégie d'acquision"
-  url: "#expertises"
 - name: "Growth Hacking"
   url: "#expertises"
-- name: "Social Media"
+- name: "Analytics et Automation"
   url: "#expertises"
-- name: "Plan marketing"
+- name: "Content Marketing" #Réalisation photo et video
   url: "#expertises"
-- name: "Stratégie web marketing"
+- name: "Email Marketing"
+  url: "#expertises"
+- name: "Product Marketing"
+  url: "#expertises"
+- name: "Référencement naturel SEO"
   url: "#expertises"
