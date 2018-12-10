@@ -35,12 +35,14 @@ permalink: "/studio.html"
   </div>
   <div class="row mb-5">
     {% for offre in site.data.offres %}
-      <div class="col-md-4">
-        <h3>{{ offre.name }}</h3>
-        {% for feature in offre.features %}
-          <div class="d-block text-muted">{{ feature.name }}</div>
-        {% endfor %}
-      </div>    
+      <a href="{{ offre.url }}">
+        <div class="col-md-4">
+          <h3>{{ offre.name }}</h3>
+          {% for feature in offre.features %}
+            <div class="d-block text-muted">{{ feature.name }}</div>
+          {% endfor %}
+         </div>
+      </a>
     {% endfor %}
   </div>    
 </div>
