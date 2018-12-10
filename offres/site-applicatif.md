@@ -1,21 +1,19 @@
 ---
 layout: offres
 title: "Site applicatif"
-summary: "Je suis attaché à la qualité technique et graphique des sites que je réalisent. C’est pour cela que mes réalisations sont créées de A à Z. Mes clients me choisissent car je sais leur poser les bonnes questions."
+summary: "Le site applicatif répondra d'avantage à des problématique d'usage et demande généralement des besoins de développement sur mesure."
 permalink: "/offres/site-applicatif.html"
 header-img: "inspiration-4"
 ---
-Je suis attaché à la qualité technique et graphique des sites que je réalisent. C’est pour cela que je développer les sites internet de A à Z. Mes clients me choisissent car je sais leur poser les bonnes questions:
+## Qu'est ce qu'un site applicatif ?
 
-## Un site vitrine correspont-il à mon projet?
-
-Vous recherchez à être visible sur internet pour donner de la visibilité à votre entreprise ? Voilà le but premier d'un site internet avant les blogs et les réseaux sociaux un site internet vitrine est le camp de base de votre présence sur internet. Avez-vous déjà réussis à prendre la main sur Facebook, Instagram, ... ? Voilà, le but principal d'un site vitrine vous donner la main, sans limite, pour développer votre identité sur internet. Un site vitrine doit donc être accessible et bénéficier d'un bon référencement pour atteindre vos objectifs commerciaux.
+Là où un site vitrine ou un site e-commerce est précisement définissable, un site applicatif n'a pas de définition précise. Le site applicatif répondra d'avantage à des problématique d'usage et demande généralement des besoins de développement sur mesure. Il peut prendre la forme d'une place de marché (ou market place), d'une application web (web app), d'une plateforme de financement participatif (crowdfunding) ou encore d'un réseau social. Ces projets demande un temps de réflexion et de développement supérieur (entre 6 mois et 1 an). Il sont développés dans une démarche 100% sur-mesure généralement en méthodologie agile. Enfin, ils nécessitent systématiquement l'intervention de compétences divers: Gestion de projet, Design, Développement web, conceptualisation de la base de données. Et
 
 ## Les questions que vous pouvez vous poser :
-- Quelles sont les caratéristiques d'un site vitrine ?
-- Quels sont les bénéfices de votre futur site internet ?
-- Comment fait-on pour choisir le langage ideal du site ?
-- Combien coûte un site internet en moyenne ?
-- Peut-on développer un site internet en 1 mois ?
-- Pourquoi mon site se charge-t-il si lentement ?
-- Je ne suis pas visible sur Google comment faire ?
+- Qu'est-ce qu'une place de marché ?
+- Qu'est ce qu'une application web ?
+- Qu'est-ce qu'une plateforme de financement participatif ?
+- Qu'est-ce qu'un réseau social ?
+- Pourquoi faire confiance à VingtCinq pour développer votre site applicatif ?
+- Est-ce que tout est faisable sur le web ?
+- Quel budget ai-je besoin pour ce type de site ?
