@@ -34,25 +34,14 @@ permalink: "/studio.html"
     </div>
   </div>
   <div class="row mb-5">
-    <div class="col-md-4">
-      <h3>Site vitrine</h3>
-      <div class="d-block text-muted">Produit / Offres</div>
-      <div class="d-block text-muted">Créatif</div>
-      <div class="d-block text-muted">Corporate</div>
-      <div class="d-block text-muted">Blog</div>
-    </div>
-    <div class="col-md-4">
-      <h3>Site e-commerce</h3>
-      <div class="d-block text-muted">Shopify</div>
-      <div class="d-block text-muted">Node JS</div>
-    </div>
-    <div class="col-md-4">
-      <h3>Site applicatif</h3>
-      <div class="d-block text-muted">Réseau social</div>
-      <div class="d-block text-muted">Marketplace</div>
-      <div class="d-block text-muted">Web app</div>
-      <div class="d-block text-muted">Crowdfunding</div>
-    </div>
+    {% for offre in site.data.offres %}
+      <div class="col-md-4">
+        <h3>{{ offre.name }}</h3>
+        {% for feature in offre.features %}
+          <div class="d-block text-muted">{{ feature.name }}</div>
+        {% endfor %}
+      </div>    
+    {% endfor %}
   </div>    
 </div>
 
