@@ -33,11 +33,11 @@ permalink: "/studio.html"
       <p>Vous recherchez un product manager pour donner vie à l'application votre startup? Vous avez besoin d'un professionnel pour gérer vos projets sur internet ? Vous voulez activer des leviers de growth pour votre business en ligne ? Découvrez comment je peux vous aider dans vos projets:</p>
     </div>
   </div>
-  <div class="row mb-5">
+  <div class="row mb-5 mt-5">
     {% for offre in site.data.offres %}
       <div class="col-md-4">
         <a href="{{ offre.url }}" class="d-block">
-          <h3 class="text-dark">{{ offre.name }}</h3>
+          <h3 class="text-dark bg-light">{{ offre.name }}</h3>
           {% for feature in offre.features %}
             <div class="d-block text-muted">{{ feature.name }}</div>
           {% endfor %}
