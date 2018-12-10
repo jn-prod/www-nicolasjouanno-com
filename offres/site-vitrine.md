@@ -9,7 +9,7 @@ Je suis attaché à la qualité technique et graphique des sites que je réalise
 
 ## Un site vitrine correspont-il à mon projet?
 
-Vous recherchez à être visible sur internet pour donner de la visibilité à votre entreprise ? Voilà le but premier d'un site internet avant les blogs et les réseaux sociaux un site internet vitrine est le camp de base de votre présence sur internet. Avez-vous déjà réussis à prendre la main sur Facebook, Instagram, ... ? Voilà, le but principal d'un site vitrine vous donner la main, sans limite, pour développer votre identité sur internet. Un site vitrine doit donc être accessible et bénéficier d'un bon référencement pour atteindre vos objectifs commerciaux.
+Vous recherchez à donner de la visibilité sur internet à votre entreprise ? Voilà le but premier d'un site internet vitrine, avant même les blogs et les réseaux sociaux. Un site internet vitrine est le camp de base de votre présence sur internet. Avez-vous déjà réussis à prendre la main sur Facebook, Instagram, ... ? La réponse est logiquement non, à moins qu'un pirate ne sommeil en vous! Le but principal d'un site vitrine est de vous donner la main, sans limite, pour créer et développer votre identité sur internet. Mais pour atteindre vos objectifs commerciaux, un site vitrine doit donc être accessible et bénéficier d'un bon référencement.
 
 ## Les questions que vous pouvez vous poser :
 - Quelles sont les caratéristiques d'un site vitrine ?
