@@ -6,12 +6,12 @@
     - name: "Corporate"
     - name: "Blog"
 - name: "site e-commerce"
-  url: ""
+  url: "/offres/site-e-commerce.html"
   features: 
     - name: "Shopify"
     - name: "Node JS"
 - name: "site applicatif"
-  url: ""
+  url: "/offres/site-applicatif.html"
   features: 
     - name: "Réseau social"
     - name: "Marketplace"
