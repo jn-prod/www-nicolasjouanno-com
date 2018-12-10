@@ -1,6 +1,19 @@
 - name: "site vitrine"
   url: ""
+  features: 
+    - name: "Produit / Offres"
+    - name: "Créatif"
+    - name: "Corporate"
+    - name: "Blog"
 - name: "site e-commerce"
   url: ""
+  features: 
+    - name: "Shopify"
+    - name: "Node JS"
 - name: "site applicatif"
   url: ""
+  features: 
+    - name: "Réseau social"
+    - name: "Marketplace"
+    - name: "Web app"
+    - name: "Crowdfunding"
