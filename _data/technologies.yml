@@ -13,7 +13,7 @@
   description: "Language de script"
 - name: "JQUERY"
   url: 
-  icon: "jquery.png"
+  icon: "Jquery.png"
   description: "Librairie Javascript"
 - name: "NODE JS"
   url: 
