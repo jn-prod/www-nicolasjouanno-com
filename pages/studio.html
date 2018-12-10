@@ -37,7 +37,7 @@ permalink: "/studio.html"
     {% for offre in site.data.offres %}
       <div class="col-md-4">
         <a href="{{ offre.url }}" class="d-block">
-          <h3 class="text-dark bg-light">{{ offre.name }}</h3>
+          <h3 class="text-dark bg-light pt-3 pb-3">{{ offre.name }}</h3>
           {% for feature in offre.features %}
             <div class="d-block text-muted">{{ feature.name }}</div>
           {% endfor %}
