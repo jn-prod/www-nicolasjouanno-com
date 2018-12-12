@@ -23,9 +23,13 @@ permalink: "/portfolio.html"
     <section>
 
       <article>
-        
-        {% include projectbox.html %}
 
+        {% for project in site.data.projects %}
+        
+          {% include projectbox.html %}
+          
+        {% endfor %}          
+  
       </article>
 
     </section>

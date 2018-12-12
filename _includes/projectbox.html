@@ -1,16 +1,33 @@
-{% for project in site.data.projects %}
+<div class="row pb-5 {% if page.url == "/portfolio.html" %}border-bottom{% endif %} ">
 
-  <div class="row">
+  <div class="col-12 p-2 text-center mx-auto mt-5">
 
-    <div class="col-12 p-2 text-center mx-auto mt-5">
+    <span class="d-block p-2">
 
-      <span class="d-block p-2">
+      <img src="{{ project.images[0] }}" alt="{{ project.name }}" class="img-fluid">
 
-        <img src="{{ project.images[0] }}" alt="{{ project.name }}" class="img-fluid">
+      <h2 class="mt-4 mb-4 h4 text-center">
 
-        <h2 class="mt-4 mb-4 h4 text-center"><a href="{{ site.url }}/{{ project.url }}" class="text-dark">{{ project.name }}</a></h2>
+        {% if page.url == "/portfolio.html" %}
 
-        <em class="d-block mb-2">{{ project.description }}</em>
+          <a href="{{ project.url }}" class="text-dark" target="_blank">
+
+            {{ project.name }}
+
+          </a>
+
+        {% else %}
+
+          {{ project.name }}
+
+        {% endif %}
+
+      </h2>
+      
+      <span class="my-3 d-block text-muted text-left">Type: <strong><a href="/offres/{{ project.type.url }}" class="text-dark">{{ project.type.name }}</a></strong></span>
+
+      {% if page.url == "/portfolio.html" %}
+        <em class="d-block mb-3 text-justify">{{ project.description }}</em>
 
         {% for expertise in project.expertises %}
 
@@ -26,10 +43,10 @@
 
         {% endfor %} 
 
-      </span>
+      {% endif %}
 
-    </div> 
+    </span>
 
-  </div>
-  
-{% endfor %}    
+  </div> 
+
+</div>  
