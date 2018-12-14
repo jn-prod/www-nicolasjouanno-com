@@ -1,22 +1,27 @@
-<header class="container-fluid">
+<header class="container-fluid mb-5 pb-4">
 
-    <div id="nav-top" class="row">
-        <div class="col-12">
-            {% include menu_main.html %}
-        </div>
-    </div>
+    <div id="nav-top" class="row fixed-top">
 
-    <div class="row">
-        <div class="col-12 mainheading">
-          
-            <a href="{{ site.url }}">
+        <div class="col-12 d-flex justify-content-between">
+
+            <a href="{{ site.url }}" class="bg-white px-3">
+
               <span class="sitetitle d-block text-center text-capitalize pt-3 pb-2 text-dark h1">
                 {{ site.title }}
               </span>
+
+            </a>    
+
+            {% include menu_main.html %}
+
+            <a class="nav-link btn btn-outline-light my-auto d-none d-md-flex" href="{{ site.url }}#cta">
+
+                <span class="my-auto d-block"><i class="far fa-envelope mr-2"></i>Newsletter</span>
+
             </a>
-            <span class="d-block text-center pb-4 text-primary">— {{ site.headline }} —</span>
 
         </div>
+        
     </div>
 
 </header>

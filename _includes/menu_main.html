@@ -7,20 +7,12 @@
         <!-- Begin Logo -->
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-bars text-white"></i>
         </button>
         
         <div class="collapse navbar-collapse" id="navbarMediumish">
             <!-- Begin Menu -->
             <ul class="navbar-nav mx-auto">
-
-              {% if page.url == "/" %}
-                  <li class="nav-item active">
-              {% else %}
-                  <li class="nav-item">
-              {% endif %}
-                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}"><i class="fas fa-home"></i></a>
-              </li>
 
               <li class="nav-item">
                 <a class="nav-link btn btn-outline-light border-0" href="https://blog.nicolasjouanno.com">Stories</a>
@@ -55,7 +47,7 @@
                 <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/studio.html">Studio</a>
               </li>
 
-              <li class="nav-item">
+              <li class="nav-item d-md-none d-sm-flex">
                 <a class="nav-link btn btn-outline-light" href="{{ site.url }}#cta"><i class="far fa-envelope mr-2"></i>Newsletter</a>
               </li>
 
