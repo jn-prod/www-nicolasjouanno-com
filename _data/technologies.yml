@@ -55,6 +55,18 @@
   url: 
   icon: "asana.png"
   description: "Gestion de projet"
+- name: "SKETCH"
+  url: 
+  fontawesome: "fab fa-sketch"
+  description: "Design / Wireframe"
+- name: "In-VISION"
+  url: 
+  fontawesome: "fab fa-invision"
+  description: "Prototyping"
+- name: "GOOGLE ANALYTICS"
+  url: 
+  fontawesome: "fab fa-google"
+  description: "Tracking / Reporting"
 - name: "SLACK"
   url: 
   fontawesome: "fab fa-slack-hash"

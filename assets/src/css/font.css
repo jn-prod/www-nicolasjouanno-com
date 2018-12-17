@@ -25,3 +25,9 @@ a {
   color: #00ab6b;
   text-decoration:none;
 }
+
+@media (max-width: 768px) {
+  .sitetitle {
+    font-size: .8rem !important;
+  }
+}
