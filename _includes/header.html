@@ -14,11 +14,26 @@
 
             {% include menu_main.html %}
 
-            <a class="nav-link btn btn-outline-light my-auto d-none d-md-flex" href="https://blog.nicolasjouanno.com#cta">
+            <div class="d-none d-md-flex">
+                <a class="nav-link btn btn-outline-light my-auto d-flex" href="https://blog.nicolasjouanno.com#cta">
+                    <span class="my-auto d-inline-block">
+                        <i class="far fa-envelope mr-2"></i>Newsletter
+                    </span>
+                </a>
 
-                <span class="my-auto d-block"><i class="far fa-envelope mr-2"></i>Newsletter</span>
+                <span class="my-auto d-inline-block">
+                    <a class="btn btn-outline-light mr-2" href="{{ site.data.authors.nicolas.facebook }}" target="_blank"><i class="fa-2x fab fa-facebook-square"></i></a>
+                </span>
 
-            </a>
+                <span class="my-auto d-inline-block">
+                    <a class="btn btn-outline-light mr-2" href="https://www.instagram.com/{{ site.data.authors.nicolas.instagram }}" target="_blank"><i class="fa-2x fab fa-instagram"></i></a>
+                </span>
+
+                <span class="my-auto d-inline-block">
+                    <a class="btn btn-outline-light mr-2" href="{{ site.data.authors.nicolas.linkedin }}" target="_blank"><i class="fa-2x fab fa-linkedin"></i></a>
+                </span>    
+
+            </div>
 
         </div>
         

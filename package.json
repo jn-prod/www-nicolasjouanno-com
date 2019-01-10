@@ -6,11 +6,11 @@
   "scripts": {
     "webpack": "./node_modules/.bin/webpack",
     "pretest": "./node_modules/.bin/eslint --ignore-path .eslintignore .",
-    "server": "bundle exec jekyll serve --watch",
-    "dev": "webpack-dev-server -d --hot --config webpack.config.js --watch",
-    "start": "concurrently \"npm run dev\" \"npm run server\"",
-    "build-osx": "NODE_ENV=production webpack --config webpack.config.js",
-    "build-win": "set NODE_ENV=production&& webpack --config webpack.config.js"
+    "app:server": "bundle exec jekyll serve --watch",
+    "webpack:server": "webpack-dev-server -d --hot --config webpack.config.js --watch",
+    "dev:server": "concurrently \"npm run webpack:server\" \"npm run app:server\"",
+    "build:osx": "NODE_ENV=production webpack --config webpack.config.js",
+    "build:win": "set NODE_ENV=production&& webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
