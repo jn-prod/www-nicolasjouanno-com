@@ -3,7 +3,7 @@ categories:
     description: 'Trouvez les meilleurs outils pour suivre votre croissances: trafic, clicks, création de compte, ...'
     id: 'analytics'
     tools:
-      - name: 'Analytics'
+      - name: 'Google Analytics'
         logo: ''
         short_description: ''
         freemium: true
@@ -12,6 +12,22 @@ categories:
         short_description: ''
         freemium: true
       - name: 'Hotjar'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Google Sheet'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Typeform'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Wufoo'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Airtable'
         logo: ''
         short_description: ''
         freemium: true
