@@ -8,5 +8,7 @@
   url: "/studio.html#technologies"
 - name: "Portfolio"
   url: "/portfolio.html"
+- name: "Toolbox"
+  url: "/toolbox.html"
 - name: "Bio / Contact"
   url: "/about.html"

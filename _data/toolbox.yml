@@ -1,0 +1,236 @@
+categories:
+  - name: 'Analytics & Data'
+    description: 'Trouvez les meilleurs outils pour suivre votre croissances: trafic, clicks, création de compte, ...'
+    id: 'analytics'
+    tools:
+      - name: 'Analytics'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Mixpanel'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Hotjar'
+        logo: ''
+        short_description: ''
+        freemium: true
+  - name: 'Design'
+    id: 'design'
+    tools:
+      - name: 'Sketch'
+        logo: ''
+        short_description: ''
+        freemium: false
+      - name: 'Invision'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Flowmapp'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Inkscape'
+        logo: ''
+        short_description: ''
+        freemium: true
+  - name: 'Développement web'
+    description: ''
+    id: 'dev'
+    tools:
+      - name: 'Bubble'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Wordpress'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Strinkingly'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Squarespace'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'wix'
+        logo: ''
+        short_description: ''
+        freemium: true
+  - name: 'Finances & Administratif'
+    description: ''
+    id: 'fintech'
+    tools:
+      - name: ''
+        logo: ''
+        short_description: ''
+        freemium: false
+  - name: 'Growth Hacking'
+    description: ''
+    id: 'growth'
+    tools:
+      - name: 'zapier'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'automate.io'
+        logo: ''
+        short_description: ''
+        freemium: true
+  - name: 'Marketing'
+    description: ''
+    id: 'marketing'
+    tools:
+      - name: 'Mention'
+        logo: ''
+        short_description: ''
+        freemium: false
+      - name: 'Sendinblue'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Mailchimp'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Mailjet'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Convertkit'
+        logo: ''
+        short_description: ''
+        freemium: false
+      - name: 'Buffer'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Hubspot'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Hootsuite'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Buzzsumo'
+        logo: ''
+        short_description: ''
+        freemium: true
+  - name: 'Productivité & Opérations'
+    description: ''
+    id: 'productivity'
+    tools:
+      - name: 'Pocket'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Feedly'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Dashlane'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Appear.in'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Asana'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Trello'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Slack'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Evernote'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Calendly'
+        logo: ''
+        short_description: ''
+        freemium: true
+  - name: 'Ressources Humaines'
+    description: ''
+    id: 'rh'
+    tools:
+      - name: ''
+        logo: ''
+        short_description: ''
+        freemium: false
+  - name: 'SEO'
+    description: "Optimizer son référencement seul est mission impossible. Voici ma sélection d'outils pour menez a bien le suivi de votre stratégie seo."
+    id: 'rseo'
+    tools:
+      - name: 'Answer The Public'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'SEMRUSH'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'UBERSUGGEST'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'MOZ'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Ahrefs'
+        logo: ''
+        short_description: ''
+        freemium: false
+      - name: 'Pagespeedinsight'
+        logo: ''
+        short_description: ''
+        freemium: true
+  - name: 'Support & Relation Client'
+    description: ''
+    id: 'support'
+    tools:
+      - name: 'Intercom'
+        logo: ''
+        short_description: ''
+        freemium: false
+      - name: 'Getsitecontrole'
+        logo: ''
+        short_description: ''
+        freemium: true
+  - name: 'Ventes & CRM'
+    description: ''
+    id: 'sales'
+    tools:
+      - name: 'Streak for Gmail'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Zoho CRM'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Streak for Gmail'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Sellsy'
+        logo: ''
+        short_description: ''
+        freemium: true
+      - name: 'Propect.io'
+        logo: ''
+        short_description: ''
+        freemium: false
+      - name: 'Customer.io'
+        logo: ''
+        short_description: ''
+        freemium: false

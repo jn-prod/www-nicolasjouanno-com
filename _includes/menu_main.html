@@ -14,8 +14,20 @@
             <!-- Begin Menu -->
             <ul class="navbar-nav mx-auto">
 
-              <li class="nav-item">
-                <a class="nav-link btn btn-outline-light border-0" href="https://blog.nicolasjouanno.com">Stories</a>
+              {% if page.url == "/studio.html" %}
+                  <li class="nav-item active">
+              {% else %}
+                  <li class="nav-item">
+              {% endif %}
+                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/studio.html">Studio</a>
+              </li>
+
+              {% if page.url == "/toolbox.html" %}
+                  <li class="nav-item active">
+              {% else %}
+                  <li class="nav-item">
+              {% endif %}
+                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/toolbox.html">Toolbox</a>
               </li>
 
               <li class="nav-item">
@@ -31,12 +43,8 @@
                 </a>
               </li>
 
-              {% if page.url == "/studio.html" %}
-                  <li class="nav-item active">
-              {% else %}
-                  <li class="nav-item">
-              {% endif %}
-                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/studio.html">Studio</a>
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-light border-0" href="https://blog.nicolasjouanno.com">Stories</a>
               </li>
 
               <li class="nav-item d-md-none d-sm-flex">

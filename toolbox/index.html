@@ -1,0 +1,54 @@
+---
+layout: toolbox
+title: "Toolbox"
+summary: "Découvrez les meilleurs outils numériques. Vous recherchez les meilleurs outils numériques pour votre activité ? Ne cherchez plus, je l'a fait pour vous ! Je vous aide à implémenter de puissants logiciels SaaS et techniques d'automatisation pour accélérer votre développement."
+permalink: "/toolbox.html"
+---        
+<div class="main-content">
+  <div class="container-fluid ">
+
+    <!-- content -->
+    <section>
+
+      <article>
+      
+      {% for category in site.data.toolbox.categories %}
+
+        <h2 class="pt-5 pb-3" id="{{ category.id }}">{{ category.name }}</h2>
+
+        <p>{{ category.description }}</p>
+
+        <div class="row">
+
+          {% for tool in category.tools %}
+
+            <div class="col-md-4 p-2 ">
+
+              <div class="d-block w-100 h-100 p-4 bg-light border border-muted">
+                
+                <h3 class="text-capitalize">{{ tool.name }}</h3>
+                
+                <img src="{{ tool.logo }}" alt="{{ tool.name }}" class="img-fluid text-center my-auto">
+
+                <span class="d-block text-muted">{{ tool.short_description }}</span>
+
+                <span class="d-block">Freemium: {% if tool.freemium %}<i class="fas fa-check text-success"></i>{% else %}<i class="fas fa-times text-danger"></i>{% endif %}</span>
+
+              </div>
+
+            </div>
+
+          {% endfor %} 
+
+        </div>
+
+      {% endfor %}
+  
+      </article>
+
+    </section>
+
+  </div>
+
+</div>
+

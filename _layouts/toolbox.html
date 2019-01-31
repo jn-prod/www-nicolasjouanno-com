@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div class="main-content">
+  
+  <div class="container-fluid ">
+
+    <!-- content -->
+    <section class="">
+
+      <article>
+
+        <div class="row mb-3 bg-light">
+
+          <div class="col-12 mt-5 mb-5">
+
+            <h1 class="font-primary mt-2 text-center">{{ page.title }}</h1>
+
+            <div class="d-block text-center">
+
+              <em>{{ page.summary }}</em>
+
+            </div>
+
+          </div>
+
+        </div>
+        
+        <div class="row text-justify">
+
+          <div class="col-md-4">
+
+            <div class="pt-3 mb-5">
+
+              {% include sidebar-toolbox.html %}
+
+              {% include sidebar-bio.html %}
+
+              {% include sidebar-activities.html %}
+
+            </div>
+          </div>
+
+          <div class="col-md-8 mb-5">
+
+            {{ content }}
+              
+          </div>
+
+        </div>
+
+      </article>
+
+    </section>
+
+  </div>
+
+</div>

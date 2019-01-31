@@ -4,11 +4,11 @@
 
     {% if page.title %}
         <title>{{ page.title }} | {{site.title}}</title>
+        <meta name="title" content="{{ page.title }} | {{site.title}}">
     {% else %}
-        <title>{{site.title}}</title>
+        <title>{{ site.headline }} | {{site.title}}</title>
+        <meta name="title" content="{{ site.headline }} | {{site.title}}">
     {% endif %}
-
-    <meta name="title" content="{{ page.title }} | {{site.title}}">
 
     {% if page.seo_description %}
         <meta name="description" content="{{ page.seo_description }} | {{site.title}}">
