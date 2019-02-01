@@ -111,7 +111,6 @@
       logo: 'https://palmbeachtech.org/wp-content/uploads/2018/04/MailChimp-Logo.png'
       short_description: ''
       freemium: true
-      feature: true
     - name: 'Mailjet'
       logo: 'https://www.mailjet.com/wp-content/uploads/2018/08/logo-mailjet-yellow.png'
       short_description: ''
@@ -127,6 +126,7 @@
     - name: 'Hubspot'
       logo: 'https://upload.wikimedia.org/wikipedia/commons/7/71/HubSpot_Logo.png'
       short_description: ''
+      feature: true
       freemium: true
     - name: 'Hootsuite'
       logo: 'https://w8v6v9q2.stackpathcdn.com/images/wp-images/2018/05/hootsuite-logo-.png'
