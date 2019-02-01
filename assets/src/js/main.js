@@ -6,6 +6,7 @@ import '@fortawesome/fontawesome-free/js/all'
 import './components/contact'
 import './components/instagram'
 import './components/posts'
+import './components/newsletter'
 
 // fonts
 // import '../fonts/AbrilFatface-Regular.ttf'
