@@ -32,37 +32,37 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
     <div class="row mt-5">
       <div class="col-12 mb-5">
         <h2 class="h3 font-primary mb-3">Comment puis-je vous aider dans votre projet?</h2>
-        <span class="h3 text-muted">Je veux :</span>
+        <span class="h3 text-muted mt-5 d-block">Je veux :</span>
       </div>
     </div>
     <div class=" d-block p-3">
       <div class="row mb-5">
-        <div class="col-md-3 mt-2 text-center h-100 bg-white">
-          <a href="{{site.url}}/studio.html" class=" text-center p-5 d-block text-dark">
-            <h3 class="h4">Designez votre produit</h3>
-            <small class="text-muted d-block py-3">Travaillez ensemble</small>
-            <span class="btn btn-dark">Voir les services <i class="fas fa-arrow-right ml-2"></i></span>
+        <div class="col-md-4 mt-2 text-center h-100 bg-primary">
+          <a href="{{site.url}}/studio.html" class=" text-center p-5 d-block text-white">
+            <h3 class="h4">Designer mon produit</h3>
+            <small class="text-white d-block py-3">Travaillez ensemble</small>
+            <span class="btn btn-light">Voir les services <i class="fas fa-arrow-right ml-2"></i></span>
           </a>
         </div>
-        <div class="col-md-3 mt-2 text-center h-100 bg-dark">
+        <div class="col-md-4 mt-2 text-center h-100 bg-dark">
           <a href="{{site.url}}/toolbox.html" class=" text-center p-5 d-block text-white">
-            <h3 class="h4">Optimiser votre activité</h3>
+            <h3 class="h4">Optimiser mon activité</h3>
             <small class="text-white d-block py-3">Trouver l'outil idéal</small>
             <span class="btn btn-light">Chercher un outil<i class="fas fa-arrow-right ml-2"></i></span>
           </a>
         </div>      
-        <div class="col-md-3 mt-2 text-center h-100 bg-white">
+<!--         <div class="col-md-3 mt-2 text-center h-100 bg-white">
           <a href="https://app.nicolasjouanno.com" class=" text-center p-5 d-block text-dark">
             <h3 class="h4">Trouver la motivation</h3>
             <small class="text-muted d-block py-3">Repousser mes limites</small>
             <span class="btn btn-dark">Découvrir l'application <i class="fas fa-arrow-right ml-2"></i></span>
           </a>
-        </div>           
-        <div class="col-md-3 mt-2 text-center h-100 bg-primary">
-          <a href="https://blog.nicolasjouanno.com#cta" class="text-center p-5 d-block text-white">
+        </div>       -->     
+        <div class="col-md-4 mt-2 text-center h-100 bg-white">
+          <a href="https://blog.nicolasjouanno.com#cta" class="text-center p-5 d-block text-dark">
             <h3 class="h4">Trouver l'inspiration</h3>
-            <small class="text-white d-block py-3">Une story chaque semaine</small>
-            <span class="btn btn-light">M'inscrire à la newsletter <i class="fas fa-arrow-right ml-2"></i></span>
+            <small class="text-muted d-block py-3">Une story chaque semaine</small>
+            <span class="btn btn-dark">M'inscrire à la newsletter <i class="fas fa-arrow-right ml-2"></i></span>
           </a>
         </div>        
       </div>
@@ -128,21 +128,7 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
              
        {% for offre in site.data.offres %}
              
-         <div class="col-md-4">
-                 
-           <a href="{{ offre.url }}" class="d-block">
-                   
-             <h3 class="text-dark bg-light pt-3 pb-3">{{ offre.name }}</h3>
-                   
-             {% for feature in offre.features %}
-                   
-               <div class="d-block text-muted">{{ feature.name }}</div>
-                   
-             {% endfor %}
-                   
-           </a>
-                 
-         </div>
+          {% include offresbox.html %}
              
        {% endfor %}
              
@@ -162,6 +148,50 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
         
 </section>
 
+<!-- Toolbox
+================================================== -->
+<section class="d-block mt-5 text-center"> 
+        
+   <div class="container pb-5">
+            
+     <div class="section-title">
+          
+          <h2 class="d-block mb-5 text-left"><span class=" font-primary">La toolbox</span></h2>
+          
+     </div>      
+            
+     <div class="row mt-5">
+             
+      {% for category in site.data.toolbox %}
+
+          {% for tool in category.tools %}
+
+            {% if tool.feature == true %}
+
+              {% include toolbox.html %}
+
+            {% endif %}
+
+          {% endfor %} 
+
+      {% endfor %}
+             
+     </div>  
+           
+     <div class="row mt-5">
+
+       <div class="col-12 text-center">
+
+          <a href="/toolbox.html" class="btn btn-primary p-3">Découvrir tous les outils</a>
+                
+       </div>
+     
+     </div>
+
+  </div>   
+        
+</section>
+
 <!-- Projets
 ================================================== -->
 <section class="d-block mt-5 text-center"> 
@@ -170,7 +200,7 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
             
      <div class="section-title">
           
-          <h2 class="d-block mb-5 text-left"><span class=" font-primary">Les Projets</span></h2>
+          <h2 class="d-block mb-5 text-left"><span class=" font-primary">Les projets</span></h2>
           
      </div>      
             
@@ -208,7 +238,7 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
 
     <div class="section-title">
         
-        <h2 class="d-block mb-5"><span class=" font-primary">Application</span></h2>
+        <h2 class="d-block mb-5"><span class=" font-primary">L'application</span></h2>
         
     </div>    
 
@@ -249,7 +279,7 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
 
         <div class="section-title">
             
-            <h2 class="d-block mb-5"><span class=" font-primary">Dernières stories</span></h2>
+            <h2 class="d-block mb-5"><span class=" font-primary">Les stories</span></h2>
             
         </div>
         

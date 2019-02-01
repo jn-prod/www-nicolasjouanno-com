@@ -3,15 +3,11 @@ layout: landing
 title: Le studio
 summary: "Chef de projet digital et Product Manager freelance en Bretagne, j’ai 31 ans dont 8 ans d’expérience dans la gestion de projet digital."
 permalink: "/studio.html"
+bg: inspiration-1
+h1: Développez votre activité en ligne et améliorez votre expérience client.
+h2: Mon savoir-faire en gestion de projet digital permet à votre entreprise de créer et valoriser son activité en ligne.
+cta: Demander un devis
 ---
-<!-- header + cta -->
-<div class="row pt-5 pb-5 inspiration-1 d-block">
-  <div class="col-md-6 bg-white pt-5 pb-5">
-    <h1 class="mb-3 d-block h2 pt-3">Développez votre activité en ligne et améliorez votre expérience client.</h1>
-    <h2 class="font-secondary h3 text-muted pb-3">Mon savoir-faire en gestion de projet digital permet à votre entreprise de créer et valoriser son activité en ligne.</h2>  
-    <a href="{{ site.devis_link }}" class="btn btn-primary mb-3 p-3 font-weight-bold">Demander un devis</a>  
-  </div>
-</div>
 
 <!-- presentation -->
 <div class="row bg-light pt-5 pb-5 text-center">
@@ -27,23 +23,22 @@ permalink: "/studio.html"
 
 <!-- projet -->
 <div class="text-center" id="offres">
+  
   <div class="row mt-5">
     <div class="col-12">
       <h2 class="mb-5">Votre projet</h2>
       <p>Vous recherchez un product manager pour donner vie à l'application votre startup? Vous avez besoin d'un professionnel pour gérer vos projets sur internet ? Vous voulez activer des leviers de growth pour votre business en ligne ? Découvrez comment je peux vous aider dans vos projets:</p>
     </div>
   </div>
+
   <div class="row mb-5 mt-5">
+
     {% for offre in site.data.offres %}
-      <div class="col-md-4">
-        <a href="{{ offre.url }}" class="d-block">
-          <h3 class="text-dark bg-light pt-3 pb-3">{{ offre.name }}</h3>
-          {% for feature in offre.features %}
-            <div class="d-block text-muted">{{ feature.name }}</div>
-          {% endfor %}
-        </a>
-      </div>
+      
+      {% include offresbox.html %}
+
     {% endfor %}
+
   </div>    
 </div>
 
@@ -58,9 +53,13 @@ permalink: "/studio.html"
         </div>
       <div class="row text-center">
         <div class="col-12">
+
           {% for expertise in site.data.expertises %}
+
             <a href="{{expertise.url}}" class="btn btn-outline-primary m-2">{{expertise.name}}</a>
+
           {% endfor %}
+
         </div>
       </div>
     </div>   
@@ -75,19 +74,29 @@ permalink: "/studio.html"
     </div>
   </div>
   <div class="row text-center">
+
     {% for technologie in site.data.technologies %}
+
       <div class="col-md-3 col-sm-6 mx-auto">
         <a href="{{technologie.url}}" class="d-inline-block m-3 tech-icon">
+
           {% if technologie.fontawesome %}
+
             <i class="{{technologie.fontawesome}} fa-3x"></i>
+
           {% else if technologie.icon %}
+
             <img src="/assets/public/images/technologies/{{technologie.icon}}" alt="{{technologie.name}}">
+
           {% endif %}
+
           <h4 class="text-muted d-block text-center font-secondary h6 font-weight-bold mt-2 icon-title">{{technologie.name}}</h4>
           <small class="text-muted">{{technologie.description}}</small>
         </a>
       </div>
+
     {% endfor %}
+
   </div>
 </div>
 

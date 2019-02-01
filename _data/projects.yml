@@ -1,3 +1,18 @@
+- name: "Feezify.me"
+  type: 
+    name: "Site applicatif"
+    url: "site-applicatif.html"
+  description: "Création d'une web app permettant aux sportifs de centraliser toutes leurs données d'entrainement et de suivre leur forme physique et mentale."
+  mission: "Création du site internet"
+  expertises: 
+    - "Product Management"
+    - "Création d'une web app Node JS / MongoDB"
+    - "Growth Hacking"
+    - "UX/UI"
+    - "Side project"
+  url: "https://app.nicolasjouanno.com"
+  images: 
+    - "/assets/public/images/projets/ext-3.png"
 - name: "Izir.fr"
   type: 
     name: "Site applicatif"
@@ -32,20 +47,6 @@
   url: "#"
   images: 
     - "/assets/public/images/projets/ext-2.png"
-- name: "Feezify.me"
-  type: 
-    name: "Site applicatif"
-    url: "site-applicatif.html"
-  description: "Création d'une web app permettant aux sportifs de centraliser toutes leurs données d'entrainement et de suivre leur forme physique et mentale."
-  mission: "Création du site internet"
-  expertises: 
-    - "Product Management"
-    - "Création d'une web app Node JS / MongoDB"
-    - "Growth Hacking"
-    - "UX/UI"
-  url: "https://app.nicolasjouanno.com"
-  images: 
-    - "/assets/public/images/projets/ext-3.png"
 - name: "gael-lebellec.bzh"
   type: 
     name: "Site vitrine"

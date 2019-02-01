@@ -1,5 +1,6 @@
 - name: "site vitrine"
   url: "/offres/site-vitrine.html"
+  img: "/assets/public/images/offres/SiteVitrine_Bandeau.png"
   features: 
     - name: "Produit / Offres"
     - name: "Créatif"
@@ -7,11 +8,13 @@
     - name: "Blog"
 - name: "site e-commerce"
   url: "/offres/site-e-commerce.html"
+  img: "/assets/public/images/offres/SiteEcommerce_Bandeau.png"
   features: 
     - name: "Shopify"
     - name: "Node JS"
 - name: "site applicatif"
   url: "/offres/site-applicatif.html"
+  img: "/assets/public/images/offres/ModuleSpecifique_Bandeau.png"
   features: 
     - name: "Réseau social"
     - name: "Marketplace"

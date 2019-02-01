@@ -7,7 +7,7 @@ layout: default
   <div class=" ">
 
     <!-- content -->
-    <section class="container">
+    <section class="container-fluid">
 
       <article>
 
@@ -26,27 +26,33 @@ layout: default
           </div>
 
         </div>
-        
-        <div class="row text-justify">
 
-          <div class="col-md-4">
+        <div class="container">
 
-            <div class="pt-3 mb-5">
+          <div class="row text-justify">
 
-              {% include sidebar-bio.html %}
+            <div class="col-md-4">
 
-              {% include sidebar-activities.html %}
+              <div class="pt-3 mb-5">
 
+                {% include sidebar-bio.html %}
+
+                {% include sidebar-activities.html %}
+
+              </div>
             </div>
-          </div>
 
-          <div class="col-md-8 mb-5">
+            <div class="col-md-8 mb-5">
 
-            {{ content }}
-              
-          </div>
+              {{ content }}
+                
+            </div>
 
+          </div>  
+                  
         </div>
+        
+
 
       </article>
 

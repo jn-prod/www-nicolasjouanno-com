@@ -1,0 +1,61 @@
+---
+layout: landing
+title: "Toolbox"
+summary: "Découvrez les meilleurs outils numériques. Vous recherchez les meilleurs outils numériques pour votre activité ? Ne cherchez plus, je l'a fait pour vous ! Je vous aide à implémenter de puissants logiciels SaaS et techniques d'automatisation pour accélérer votre développement."
+permalink: "/toolbox.html"
+bg: inspiration-4
+h1: Trouver l'outil numérique idéal n'a jamais été aussi simple.
+h2: Ne perdez plus une minute à cherche l'arme ultime pour développer votre activité, je le fait pour vous.
+cta: Demander un devis
+---   
+
+<div class="row text-justify">
+
+  <div class="col-md-4">
+
+    <div class="pt-3 mb-5">
+
+      {% include sidebar-toolbox.html %}
+
+      {% include sidebar-bio.html %}
+
+      {% include sidebar-activities.html %}
+
+    </div>
+  </div>
+
+  <div class="col-md-8 mb-5">
+
+    <!-- content -->
+    <section>
+
+      <article>
+      
+      {% for category in site.data.toolbox %}
+
+        <h2 class="pt-5 pb-3" id="{{ category.id }}">{{ category.name }}</h2>
+
+        <p>{{ category.description }}</p>
+
+        <div class="row">
+
+          {% for tool in category.tools %}
+
+            {% include toolbox.html %}
+
+          {% endfor %} 
+
+        </div>
+
+        <span class="d-block mt-3 mb-5 text-muted">Vous avez besoin d'aide pour paramêtrer ou adapter à votre activité l'un des ces outils ? <a href="{{site.devis_link}}" rel="nofollow" target="_blank">Demander un devis maintenant</a>.</span>
+
+      {% endfor %}
+  
+      </article>
+
+    </section>
+      
+  </div>
+
+</div>
+
