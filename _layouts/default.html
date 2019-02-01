@@ -32,13 +32,15 @@
           <script src="http://localhost:8000/app.js"></script>
         {% else %}
             <script src="{{ site.url }}/assets/public/app.js"></script>
+            <!-- Start of HubSpot Embed Code -->
+            <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5421786.js"></script>
+            <!-- End of HubSpot Embed Code -->            
         {% endif %}
 
         <script id="dsq-count-scr" src="//{{site.comments.disqus.shortname}}.disqus.com/count.js" async></script>
 
         <!-- seva js -->
         <script src="https://f.convertkit.com/ckjs/ck.5.js" async></script>
-        <!-- HubSpot Embed Code -->
-        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5421786.js"></script>
+
     </body>
 </html>
