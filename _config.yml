@@ -72,7 +72,7 @@ address :
   coutry : "FR"
   city: "Pontivy, France"
 
-devis_link: "https://nicolasjouanno1.typeform.com/to/bHEa3c"
+devis_link: "/devis.html"
 
 # Outputting
 permalink : /:title:output_ext
