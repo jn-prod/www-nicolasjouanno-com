@@ -1,24 +1,24 @@
 # expertises
+- name: "Création site internet"
+  url: "/creation-site-internet.html"
 
 #projet
-- name: "Gestion de projet"
+- name: "Chef de projet web"
   url: "/chef-projet-digital.html"
-- name: "Product Management"
+- name: "Product Manager"
   url: "/product-manager.html"
 
 #tech
-- name: "Site internet professionnel"
-  url: "/creation-site-internet.html"
-- name: "Intégration (HTML, CSS, JS)"
-  url: "#expertises"
-- name: "Création d'une API"
+- name: "Intégrateur web"
+  url: "/expertises/integrateur-web.html"
+- name: "Développeur back-end"
   url: "#expertises"  
 
 #design
-- name: "UX et UI design" #web design
+- name: "UX et UI designer" #web design
   url: "#expertises" 
-- name: "Identité visuelle et logo" #branding
-  url:  "#expertises" 
+# - name: "Identité visuelle et logo" #branding
+#   url:  "#expertises" 
 
 #marketing
 - name: "Growth Hacking"
