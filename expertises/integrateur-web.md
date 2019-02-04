@@ -1,10 +1,10 @@
----
+----
 layout: expertises
 title: Intégrateur web freelance, développement front-end
 summary: ""
 header-img: "inspiration-5"
 permalink: "/expertises/integrateur-web.html"
----
+----
 
 ## Qu'est-ce que l'intégration web ?
 
@@ -14,31 +14,25 @@ Une intégration réussite est un travail d'équipe. Le designer doit comprendre
 
 ## Quels sont les étapes d'intégration web réussite?
 
-De part mes connaissances métier de designe et de developpement web, je liste pour chaque projet web les spécifications techniques correspondant au design choisis. A la façon d'un tour de table en une designer, un développeur un chef de projet, je réfléchis avec précision la faisabilité technique du design et de la démarche à suivre pour optimiser l'intégration. 
+### Pré-requis: Du wireframe au mockup
+L’UX designer réalise les wireframe permettant de réaliser un prototype basse définition du site internet. Elles permettent de vérifier que la navigation est comprise de l’utilisateur final du site internet ou de l’application. Une fois validée, les wireframes sont des documents de référence pour le(s) designer(s) et le(s) développeur(s). Elles permettrons aux développeurs de visualisent l’arborescence et détermine l'organisation des contenus (texts, photos, vidéos, …). 
 
-Ensuite, je prépare la structure du dévellopement web à venir. Ceci en définissant les différents dossiers dans lesquels seront enregistrés les fichiers necessaires au projet (images, vidéos, html, styles...). A la suite de quoi commence le travail de développement sur mon éditeur de text (Sublime Text) et créer les variables correspondant aux couleurs, niveaux de titres, boutons, polices etc définis dans la charte graphique réalisé par le designer. Ensuite, page par page, je reprends et code les éléments à intégrer du haut vers le bas. Pour visualiser ce qui se passe sur l'écran du développeur front-end, il faut reprendre la film Matrix et cet image de lignes de code par milliers sur fond noir. Difficile pour un non initier de comprendre ce qui se cache derrière toutes ces lignes.
+Les wireframes passent ensuite entre les mains d’un UI designer. Celui-ci  laisse ensuite parler son imagination pour donner une vrai identité visuel au site internet grâce à des logiciels comme Sketch. Si les wireframes représentent un cadre pour lui, il peut être amener à en revoir la structure si elles ne tiennent pas compte des contraintes graphiques. La maquette haute définition ainsi obtenu servira de support à l’intégrateur web.
 
-Après avoir réaliser l'intégration de la vue ordinateur, je transpose les maquettes spécifiques au smartphone et interprête le design intermédiaire pour que le site internet s'adapte aux différentes tailles d'écrans (grand écrans, tablettes, smartphone). C'est ce qu'on appelle le responsive design.
+### L’intégration des maquettes graphiques
 
-Enfin, après s'êtres assuré de la compatibilité sur toutes les tailles d'écran, l'attention est mise sur la compatibilité du site internet sur les différents navigateurs : Chrome, Firefox, Safari, Internet Explorer,... En effet, les spécifités et les contraintes imposé par les différents navigateur ont des contraintes qu'il est essentiel de prendre en compte.
+De part mes connaissances en design et de développement web, je liste pour chaque projet web les spécifications techniques correspondant au design choisis. A la façon d'un tour de table en une designer, un développeur un chef de projet, je réfléchis avec précision la faisabilité technique du design et de la démarche à suivre pour optimiser l'intégration. 
+
+Ensuite, je prépare la structure du développement web à venir. Ceci en définissant les différents dossiers dans lesquels seront enregistrés les fichiers nécessaires au projet (images, vidéos, html, styles...). A la suite de quoi commence le travail de développement sur mon éditeur de text (Sublime Text) et créer les variables correspondant aux couleurs, niveaux de titres, boutons, polices etc définis dans la charte graphique réalisé par le designer. Ensuite, page par page, je reprends et code les éléments à intégrer du haut vers le bas en HTML5. J’utilise les feuilles de style au format CSS3 et en compléte certaines actions ou effets visuels avec du Javascript (ou jQuery).. Pour visualiser ce qui se passe sur l'écran du développeur front-end, il faut reprendre la film Matrix et cet image de lignes de code par milliers sur fond noir. Difficile pour un non initier de comprendre ce qui se cache derrière toutes ces lignes. 
+
+Après avoir réaliser l'intégration de la vue ordinateur, je transpose les maquettes spécifiques au smartphone et interprète le design intermédiaire pour que le site internet s'adapte aux différentes tailles d'écrans (grand écrans, tablettes, smartphone). C'est ce qu'on appelle le responsive design.
+
+Enfin, après s'êtres assuré de la compatibilité sur toutes les tailles d'écran, l'attention est mise sur la compatibilité du site internet sur les différents navigateurs : Chrome, Firefox, Safari, Internet Explorer,... En effet, les différents navigateurs ont des contraintes et spécificités qu'il est essentiel de prendre en compte pour un rendu uniforme.
+A ce stade, le projet ne contient que des données factices (appelées «lorem»). L’intégrateur web aura donc produit, sous forme de code, à l’identique le squelette visuel et fonctionnel  créer par le’UX/UI designer, avant que le développeur web ne le connecte aux API et/ou serveurs web.
+
+Le développeur web va utiliser la maquette fonctionnelle réalisée par l’intégrateur web comme squelette visuel. Il va remplacer les données factices par le contenus réels et les fonctionnalités nécessaires au projet. Le contenu est généralement stocké dans une base de données. En séparant le code fonctionnel d’un site internet de ses contenus, on peu ainsi modifier les contenus sans modifier le code. Pour créer, modifier et supprimer du contenu facilement de la base de donnée sans savoir coder, il est régulièrement fait le choix de passer par un CMS (Content Manager System), comme Drupal ou WordPress. L’intégrateur web, à l’image d’un développeur web peu lui-même être amené à réaliser la maquette fonctionnelle au CMS ou au serveur.
 
 <!-- Les étapes
-1. «Structure» avec le wireframer ou prototyper
-
-Nous retrouvons le wireframer ou prototyper. C'est la personne qui devra construire une arborescence et concevoir l'organisation des informations de façon cohérente et adaptée à la cible d'utilisateurs visée.
-Il produit donc un document de référence, comme un croquis de ce à quoi le site et sa structure devront ressembler.
-2. «Visuel» avec designer ou web designer
-
-Il va produire une maquette graphique à l'aide du logiciel Photoshop. Pour produire cet outil, il se basera sur le wireframe. Certaines contraintes graphiques peuvent l'amener à apporter quelques modifications au wireframe. La maquette graphique produite devra reproduire les principaux modèles de page nécessaire pour dans le projet. Par exemple, il y aura une maquette pour la page d'accueil, une autre maquette pour la page contact, ou encore une autre maquette pour une page particulière. Cela dépend des projets.
-3. «Fonctionnel» avec l'intégrateur web
-
-Il dispose de deux outils complémentaires pour produire la maquette fonctionnelle du site : le wireframe et la (ou les) maquettes graphiques. Il va créer les pages au format HTML5 en utilisant les feuilles de style au format CSS3 et en complétant certaines actions ou effets visuels avec du Javascript (ou jQuery).
-La maquette fonctionnelle produite est lisible dans un navigateur web (comme Firefox, Internet Explorer ou Chrome). Mais cette maquette ne contient que des données factices (appelées «lorem»). L'outil produit permet de s'assurer que le gabarit du site fonctionne correctement sur tous les navigateurs et de façon uniforme.
-Le code produit par l'intégrateur web est l'équivalent d'un squelette visuel et fonctionnel qui va être utilisé par le développeur web.
-4. «Production» avec le développeur web
-
-Il va utiliser la maquette fonctionnelle comme squelette visuel et va «injecter» les contenus réels et les fonctionnalités du site. La plupart du temps en reliant ces éléments à une base de données. La base de données permet de manipuler de façon sécuritaire et indépendante les contenus du site sans modifier directement le code du site. Pour manipuler ces contenus, le développeur va installer un CMS (Content Manager System), comme Drupal ou WordPress. Ces «plateformes» intermédiaires permettent d'éditer, ajouter, supprimer du contenu de façon standardisée sur tout le site selon les contraintes qu'aura choisi le développeur. Parfois (même souvent), l'intégrateur web s'assure lui-même de relier un CMS à la maquette fonctionnelle. Le travail d'intégrateur s'étend donc parfois au delà de son rôle initial, et il revêt le costume de développeur web !
-Les grandes missions de l'intégrateur web
 
 Un intégrateur web a plusieurs missions.
 Produire un code organisé et réutilisable
@@ -70,4 +64,5 @@ Il doit avoir de solides connaissances en programmation dédié au web. Le HTML5
 
 Si vous voulez consulter le profil d'un intégrateur web, je vous invite à consulter ma page profil, cela pourra vous en donner une idée concrète !
 
-- Cette page sera actualisée régulièrement pour décrire au mieux le rôle et les missions (en constante évolution) de l'intégrateur web. -->
+- Cette page sera actualisée régulièrement pour décrire au mieux le rôle et les missions (en constante évolution) de l'intégrateur web. 
+—>
