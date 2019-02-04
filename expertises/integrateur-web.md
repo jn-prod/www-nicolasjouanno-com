@@ -32,37 +32,29 @@ A ce stade, le projet ne contient que des données factices (appelées «lorem»
 
 Le développeur web va utiliser la maquette fonctionnelle réalisée par l’intégrateur web comme squelette visuel. Il va remplacer les données factices par le contenus réels et les fonctionnalités nécessaires au projet. Le contenu est généralement stocké dans une base de données. En séparant le code fonctionnel d’un site internet de ses contenus, on peu ainsi modifier les contenus sans modifier le code. Pour créer, modifier et supprimer du contenu facilement de la base de donnée sans savoir coder, il est régulièrement fait le choix de passer par un CMS (Content Manager System), comme Drupal ou WordPress. L’intégrateur web, à l’image d’un développeur web peu lui-même être amené à réaliser la maquette fonctionnelle au CMS ou au serveur.
 
-<!-- Les étapes
+### Les missions de l’intégrateur web
 
-Un intégrateur web a plusieurs missions.
-Produire un code organisé et réutilisable
+### Un code organisé et réutilisable
 
-L'intégrateur web devra créer un code propre, organisé et réutilisable. Ceci afin de pouvoir le modifier facilement par un autre intervenant. Car il est rare qu'un site internet ne subisse pas d'évolution au cours de son existence. L'intégrateur pourra décider de démarrer un projet avec un framework front-end comme Bootstrap ou Foundation.
-Penser multi-plateforme, multi-navigateur
-La contrainte multi-navigateur
+Produire un code propre, organisé et réutilisable est une obligation pour l’intégrateur web. En effet, son code servant de base aux autres développements, il doit pouvoir être facilement modifiable par un autre développeur qui répondra au besoin de mise à jour et d’innovation. Pour gagner en efficacité dans son intégration, l’intégrateur choisir un framework front-end comme Bootstrap ou Foundation pour démarrer son projet.
 
-L'une des missions importantes (et dont le grand public n'a pas conscience) est de produire un site qui soit identique visuellement et qui propose une expérience utilisateur égale que l'on navigue avec Internet Explorer ou Firefox ou encore Chrome. Ces navigateurs interprètent de façon irrégulière le code rédigé en HTML5. Il faut donc tester et créer des correctifs. Ce travail peut être parfois très long à accomplir même si les différences entre les navigateurs tendent à se réduire avec le temps. Sachez que les navigateurs trop vieux ne sont plus pris en compte lors des tests.
-La contrainte multi-plateforme
+### Une intégration responsive design
 
-On entend par multi-plateforme une multitude de terminaux pour consulter le site. Aujourd'hui, il en existe trois principaux :
+L'ordinateur, la tablette, le smartphone sont autant de point d’entré pour un site internet. Mais représentent aussi l’une des plus grosses contraintes de développement. Cette contrainte de développement se répercute sur le travail de l’intégrateur web qui produira un code et une structure de site qui puissent s'adapter aux différentes tailles d’écrans, c’est le responsive design. 
+Une autre option technique peu être adopté selon le cahier des charges initial. Cette version consiste à réaliser des version du site, l’une pour les écrans d’ordinateur et une seconde pour les mobiles et tablettes.
 
-    L'ordinateur de bureau classique
-    La tablette mobile, dont l'iPad évidemment
-    Le mobile ou smartphone, dont l'iPhone, le Galaxy ou le Nexus pour ne citer qu'eux.
+<!-- 
 
-L'intégrateur web devra, selon les spécificités du site à produire, créer un code et une structure de site qui puissent s'adapter au terminal du client. Pour cela, on peut choisir de créer une version unique de site ayant la faculté de s'adapter à la taille de l'écran du terminal. On appelle cela du «responsive design».
-Ou alors, une version complémentaire dédiée au mobile ou tablette sera déclinée. Dans ce dernier cas, le site aura un modèle standard (pour grand écran) et un modèle alternatif pour tablette et/ou mobile.
-Rendre le site accessible ou l'accessibilité
-
-Le code produit par l'intégrateur web devra être lisible et accessible par les personnes utilisant des dispositifs spécifiques pour consulter le site, notamment pour les non voyants. Il existe des normes à respecter, mais d'une façon générale, l'intégrateur devra séparer techniquement l'aspect visuel et le contenu l'un de l'autre. Pour se faire, l'aspect visuel devra entièrement être pris en charge par les feuilles de styles au format CSS3 et le contenu devra être «balisé» par du code HTML5. Cette simple procédure permet de rendre le site plus facilement accessible.
-Être trouver facilement : le référencement ou être «SEO friendly»
+### Un site «SEO friendly»
 
 L'intégrateur web devra également produire un code qui puisse être parcouru par les moteurs de recherche de façon optimale. Pour cela, il devra respecter un certain nombre de protocoles permettant de décrire au mieux le contenu et de le parcourir dans son intégralité avec facilité. On appelle cela de l'optimisation SEO (Search Engine Optimization). Ce travail spécifique est parfois réalisé par une personne spécialisée en SEO.
-Le profil de l'intégrateur web
 
-Il doit avoir de solides connaissances en programmation dédié au web. Le HTML5 et le CSS3 n'ont (presque) pas de secret pour lui. Il maîtrise également le javascript (et jQuery) permettant d'amener des animations et fonctionnalités complémentaires au site. Il suit activement les dernières évolutions et tendances en matière de programmation et design web. Il est curieux, autonome et il est capable de définir les contraintes technique liés à un projet qu'on lui soumet. La plupart du temps, il sait manipuler au moins un CMS comme WordPress et sait aussi parfaitement découper des maquettes graphiques via Photoshop.
+### Un affichage multi-navigateur
 
-Si vous voulez consulter le profil d'un intégrateur web, je vous invite à consulter ma page profil, cela pourra vous en donner une idée concrète !
+L'une des missions importantes (et dont le grand public n'a pas conscience) est de produire un site qui soit identique visuellement et qui propose une expérience utilisateur égale que l'on navigue avec Internet Explorer ou Firefox ou encore Chrome. Ces navigateurs interprètent de façon irrégulière le code rédigé en HTML5. Il faut donc tester et créer des correctifs. Ce travail peut être parfois très long à accomplir même si les différences entre les navigateurs tendent à se réduire avec le temps. Sachez que les navigateurs trop vieux ne sont plus pris en compte lors des tests.
 
-- Cette page sera actualisée régulièrement pour décrire au mieux le rôle et les missions (en constante évolution) de l'intégrateur web. 
-—>
+### L’accessibilité du site
+
+Le code produit par l'intégrateur web devra être lisible et accessible par les personnes utilisant des dispositifs spécifiques pour consulter le site, notamment pour les non voyants. Il existe des normes à respecter, mais d'une façon générale, l'intégrateur devra séparer techniquement l'aspect visuel et le contenu l'un de l'autre. Pour se faire, l'aspect visuel devra entièrement être pris en charge par les feuilles de styles au format CSS3 et le contenu devra être «balisé» par du code HTML5. Cette simple procédure permet de rendre le site plus facilement accessible.
+
+ -->
