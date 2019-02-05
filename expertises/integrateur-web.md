@@ -1,10 +1,10 @@
-----
+---
 layout: expertises
 title: Intégrateur web freelance, développement front-end
 summary: ""
 header-img: "inspiration-5"
 permalink: "/expertises/integrateur-web.html"
-----
+---
 
 ## Qu'est-ce que l'intégration web ?
 
