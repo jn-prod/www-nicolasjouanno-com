@@ -1,11 +1,12 @@
 ---
 layout: expertises
 title: Développeur back-end freelance, création d'une API
-summary: ""
+summary: "Le développeur back-end, cet homme de l'ombre aux supers pouvoirs qui connectent les API pour enrichir l'expérience de vos utilisateurs"
 header-img: "inspiration-5"
 permalink: "/expertises/developpeur-back-end.html"
 ---
 
+*Peu d'entre nous nous demander comment fonctionne l'envers du décors d'un site internet ou d'une application. Le **développeur Back-End**, lui, le sait. Derrière son écran noir et ses ligne de code, il défini le fonctionnement du site internet, les conditions d'échange entre l'utilisateur et la base de données et inter-connect les API pour booster l'usage du site web.*
 
 - [Quel est la différence entre un développeur back-end et un développeur front-end ?](#differences)
 - [Qu'est-ce qu'un développeur back-end ?](#presentation)
@@ -43,7 +44,12 @@ Le développeur back-end peut aussi être amené à s'adapter à une une solutio
 ## Qu'est ce qu'une API ?
 {: .font-primary .mt-5 #etapes}
 
+API est l'acronyme de Application Programming Interface. Le mot qu'il faut retenir est "interface", c'est la notion que nous connaissons le mieux au quotidien. Par exemple, le clavier d'une calculatrice, qui sert d'interface, vour permet de réaliser des opérations en interagissant avec elle au travers des touches que vous frappez. Le clavier vous sert ici à communiquer avec le programme de la calculatrice sans en connaitre le fonctionnement.
+Pour réaliser un calcul vous devez respecter l'interface et l'usage qui en a été définis lors de sa conception.
 
+Une API est donc une interface spécifique aux sites web et applications pour échanger des données. Ces échanges sont réalisés au travers de méthodes programmées par un développeur back-end qui définis les données envoyés ou reçus et leur droits d'accès. Les grands du web comme Facebook, Twitter, Youtube, Linkedin possèdent leur propre API. Les API permettent à d'autres applications et site internet de s'y connecter et d'interagir avec leurs données. Chaque API à ses spécifités et sa réglementation quant à l'accès des données échangées. Les API représentent une opportunité technique pour élargir la gamme de service et enrichir l'expérience utilisateur d'un site web ou d'une application. Facebook login, lecteur de feed Twitter, mur instagram, module de paiement paypal... Vous l'avez compris vous avez déjà utilisé une API sans savoir que s'en était une! Si certaine fonctionnalité ne peuvent qu'être apportée par une application tièrce qu'est qui empèche un développeur back-end de programmer son propre module de paiement? La réponse est simple, son rôle dans l'optimisation technique du site et de gestionnaire des ressources le pousse a utilisé ses resources souvent moins couteuses en temps et en hommes qu'un développement interne.
+
+On comprend rapidement que les API sont des super pouvoirs pour les développeur back-end. Ils peuvent interconnecter les API pour programmer à la vitesse de l'éclaire les fonctionnalités nécessaires à l'amélioration de l'expérience utilisateurs et leur délivrer plus de services. L'usage des API est à la porté de tout développeur qui prend le temps de lire minutieusement la documentation de chaque API qu'il utilise, pour en respecter les usages définis par leurs développeurs.
 
 ## Quels sont les missions du développeur back-end ?
 {: .font-primary .mt-5 #mission}
@@ -52,12 +58,7 @@ Rattahé à un chef de projets technique, un product owner ou un lead développe
 
 Dans cadre de développement agile, le développeur back-end analyse les besoins techniques du projet qui lui est transmis. Il préconise des solutions techniques pour répondre au problématique qui lui sont exposés. Il développe les fonctionnalités techniques du site web et leurs évolutions. Il validara avec son équipe des fonctionnalités développées.
 
-<!-- Le Développeur Back-End, sera également amené à :
-
-Former le client lorsque le site internet lui est livré,
-Apporter un support technique tout au long de la vie du site internet,
-Effectuer de la veille et des corrections suite à des problèmes remontés par le client.
-Les nouveaux CMS permettent néanmoins aux Développeurs de se concentrer davantage sur l’aspect analytique et moins sur la programmation et les opérations de paramétrage et de retouche. Dans certaines enseignes où les informaticiens se font rares, le Développeur Back-End peut même assurer le suivi technique du site. Pour cela il sera amené à rédiger des guides d’utilisations pour les utilisateurs et des notices techniques d’installation. -->
+Le développeur Back-end aura aussi la responsabilité de former le client à la livraison du site internet. Selon le contrat de maintenance qui est établi avec le client, il réalisera le support technique tout au long de la vie du site et corrigera les bugs remontés.
 
 ## Qui est le développeur back-end ?
 {: .font-primary .mt-5 #profil}
