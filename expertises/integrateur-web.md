@@ -10,7 +10,7 @@ permalink: "/expertises/integrateur-web.html"
 
 - [Qu'est-ce que l'intégration web ?](#presentation)
 - [Quels sont les étapes d'intégration web réussite ?](#etapes)
-- [Quels sont missions de l’intégrateur web ?](#mission)
+- [Quels sont les missions de l’intégrateur web ?](#mission)
 
 ## Qu'est-ce que l'intégration web ?
 {: .font-primary .my-5 #presentation}
@@ -42,7 +42,7 @@ Enfin, après s'être assuré de la compatibilité sur toutes les tailles d'écr
 
 Le développeur web va utiliser la maquette fonctionnelle réalisée par l'**intégrateur web** comme squelette visuel. Il va remplacer les données factices par les contenus réels et les fonctionnalités nécessaires au projet. Le contenu est généralement stocké dans une base de données. En séparant le code fonctionnel d'un site internet de ses contenus, on peut ainsi modifier les contenus sans modifier le code. Pour créer, modifier et supprimer du contenu facilement de la base de données sans savoir à coder, il est régulièrement fait le choix de passer par un CMS (Content Manager System), comme Drupal ou WordPress. L'**intégrateur web**, à l'image d'un développeur web peu, lui-même, être amené à relier la maquette fonctionnelle au CMS ou au serveur.
 
-## Quels sont missions de **l’intégrateur web** ?
+## Quels sont les missions de l’intégrateur web ?
 {: .font-primary .mt-5 #mission}
 
 ### Un code organisé et réutilisable

@@ -12,7 +12,7 @@
 - name: "Intégrateur web"
   url: "/expertises/integrateur-web.html"
 - name: "Développeur back-end"
-  url: "#expertises"  
+  url: "/expertises/developpeur-back-end.html"  
 
 #design
 - name: "UX et UI designer" #web design
