@@ -61,10 +61,7 @@ Sans être un expert en SEO, l'intégrateur web devra appliquer toutes les bonne
 
 Chrome, firefox, safary, internet exploreur, ... Tous ces navigateurs internet ont leurs spécifités et apportent leurs lots de contraintes pour une intégration de site internet réussie. Le rôle de l'intégrateur web est alors de garantir que le code qu'il produit procure une expérience identique sur le plan visuel et fonctionnel à tous les utilisateurs du site internet ou de l'application quelque soit son navigateur web. Cette contrainte, méconnu du grand public, est la conséquence de l'interprétation irrégulière par les navigateurs du HTML5, CSS3 et javascript, les langages servant à la programation front-end. Même si les différences tendent à se réduire entre les différents navigateurs internet, et que les navigateurs trops vieux ne sont plus pris en compte pour les tests, cette étape de test d'intégration s'avère parfois longue et fastidieuse. Les frame-work front-end comme Bootstrap permettent d'atténuer fortement ces différences et de gagner du temps en développement.
 
-<!-- 
 ### L’accessibilité du site
 {: .h5 .text-primary .mt-5 .mb-5  #}
 
-Le code produit par l'intégrateur web devra être lisible et accessible par les personnes utilisant des dispositifs spécifiques pour consulter le site, notamment pour les non voyants. Il existe des normes à respecter, mais d'une façon générale, l'intégrateur devra séparer techniquement l'aspect visuel et le contenu l'un de l'autre. Pour se faire, l'aspect visuel devra entièrement être pris en charge par les feuilles de styles au format CSS3 et le contenu devra être «balisé» par du code HTML5. Cette simple procédure permet de rendre le site plus facilement accessible.
-
- -->
+Le développement des intéligences artificielles comme Google Home ou Amazon Alexa, ainsi que des assistants personnels pour les mals-voyants, oblige l'intégrateur web à porter une attention particulière sur le code produit. Le code devra permettre une accessibilité et une lisibilité sans faille par ces assistants. Une excellente connaissance du HTML5 et des richsnipet est alors de mise. Cette attention portée sur l'accessibilité du site internet aura également un impacte positif sur son SEO et donc son bon positionnement dans les moteurs de recherche.
