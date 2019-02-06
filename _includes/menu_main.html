@@ -13,21 +13,15 @@
         <div class="collapse navbar-collapse" id="navbarMediumish">
             <!-- Begin Menu -->
             <ul class="navbar-nav mx-auto">
+              
+              <li class="nav-item">
+              
+                <a class="nav-link btn btn-outline-light {% if page.url == '/studio.html' %}border border-dark{% else %} border-0{% endif %} text-dark" href="{{ site.url }}/studio.html">Studio</a>
 
-              {% if page.url == "/studio.html" %}
-                  <li class="nav-item active">
-              {% else %}
-                  <li class="nav-item">
-              {% endif %}
-                <a class="nav-link btn btn-outline-light border-0" href="{{ site.url }}/studio.html">Studio</a>
               </li>
 
-              {% if page.url == "/toolbox.html" %}
-                  <li class="nav-item active">
-              {% else %}
-                  <li class="nav-item">
-              {% endif %}
-                <a class="nav-link btn btn-outline-light border-0 " href="{{ site.url }}/toolbox.html">
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-light  {% if page.url == '/toolbox.html' %}border border-dark{% else %} border-0{% endif %}   text-dark" href="{{ site.url }}/toolbox.html">
                   <div class="d-flex mx-auto">
                     <div class="d-block mx-auto">
                       <div class="d-flex">
@@ -40,25 +34,13 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link btn btn-outline-light border-0 " href="{{ site.url }}/portfolio.html">
-                  <div class="d-flex mx-auto">
-                    <div class="d-block mx-auto">
-                      <div class="d-flex">
-                        <span class="d-block">Projets</span>
-                      </div>
-                    </div>            
-                  </div>
-                </a>
+
+                <a class="nav-link btn btn-outline-light {% if page.url == '/portfolio.html' %}border border-dark{% else %} border-0{% endif %} text-dark" href="{{ site.url }}/portfolio.html">Projets</a>
+                
               </li>
 
               <li class="nav-item">
-                <a class="nav-link btn btn-outline-light border-0" href="https://blog.nicolasjouanno.com">Stories</a>
-              </li>
-
-              <li class="nav-item d-md-none d-sm-flex">
-                <a class="nav-link btn btn-outline-light mr-2" href="#newsletter"><i class="far fa-envelope"></i>Newsletter</a>
-                <a class="btn btn-outline-light mr-2" href="{{ site.data.authors.nicolas.linkedin }}" target="_blank"><i class="fa-2x fab fa-linkedin"></i></a>
-                <a class="btn btn-outline-light mr-2" href="{{ site.data.authors.nicolas.twitter }}" target="_blank"><i class="fa-2x fab fa-twitter"></i></a>
+                <a class="nav-link btn btn-primary mr-2  {% if page.url == '/newsletter.html' %}border border-dark{% else %} border-0{% endif %} text-white" href="{{ site.url }}/newsletter.html"><i class="far fa-envelope mr-2"></i>Newsletter</a>
               </li>
 
           </ul>

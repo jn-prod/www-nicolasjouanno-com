@@ -16,7 +16,7 @@
       short_description: ''
       freemium: true
     - name: 'Google Sheet'
-      logo: 'http://www.stickpng.com/assets/images/5b3c8f349357a48ff2188196.png'
+      logo: 'https://2.bp.blogspot.com/-3eY6zWAiMzY/VuXMpsx-g4I/AAAAAAAAUMc/f0e4AhklcI4QtlO-ekX63_59yOkhOrlXACPcB/s1600/google-sheets-512.png'
       short_description: ''
       freemium: true
     - name: 'Typeform'
@@ -186,7 +186,7 @@
 #       freemium: false
 - name: 'SEO'
   description: "Optimizer son référencement seul est mission impossible. Voici ma sélection d'outils pour menez a bien le suivi de votre stratégie seo."
-  id: 'rseo'
+  id: 'seo'
   tools:
     - name: 'Answer The Public'
       logo: 'https://c-marketing.eu/wp-content/uploads/2017/09/Answer-the-public-e1523605803266.jpg'
@@ -210,6 +210,10 @@
       freemium: false
     - name: 'Pagespeedinsight'
       logo: 'https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/104683649/original/e8103e2ca25d70ea541beca47617a6ec4eeab46f/make-your-site-above-84-in-google-pagespeed-insight.png'
+      short_description: ''
+      freemium: true
+    - name: 'seobility'
+      logo: 'https://3hundrd.com/wp-content/uploads/2017/07/SEOBility-review-768x495.png'
       short_description: ''
       freemium: true
 - name: 'Support & Relation Client'

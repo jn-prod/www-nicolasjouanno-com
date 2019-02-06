@@ -1,6 +1,6 @@
 var posts = () => {
   $(function () {
-    if ($('.latest-posts').children.length >= 1) {
+    if ($('.latest-posts').length >= 1) {
       var postbox = (post) => {
         var categoriesFormated = []
         var categories = post.categories

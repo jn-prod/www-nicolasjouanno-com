@@ -4,6 +4,7 @@ title: Développeur back-end freelance, création d'une API
 summary: "Le développeur back-end, cet homme de l'ombre aux supers pouvoirs qui connectent les API pour enrichir l'expérience de vos utilisateurs"
 header-img: "inspiration-5"
 permalink: "/expertises/developpeur-back-end.html"
+footer_cta: "Vous avez un projet d'API ou des développement back-end à réaliser sur votre site internet ou application mobile ? Commençons à en parler maintenant."
 ---
 
 *Peu d'entre nous nous demander comment fonctionne l'envers du décors d'un site internet ou d'une application. Le **développeur Back-End**, lui, le sait. Derrière son écran noir et ses ligne de code, il défini le fonctionnement du site internet, les conditions d'échange entre l'utilisateur et la base de données et inter-connect les API pour booster l'usage du site web.*

@@ -3,6 +3,7 @@ layout: expertises
 title: "Création de site internet, chef de projet web freelance"
 summary: "Chef de projet web freelance, du design et à la création de votre site internet pour votre entreprise ou votre association. Je vous aide à améliorer votre présence en ligne."
 permalink: "/creation-site-internet.html"
+footer_cta: Startup, freelance, PME ou assocation, vous souhaitez créer un site internet qui répond à vos objectifs marketing? C'est le moment d'en parler ensemble.
 ---
 
 ## Quelques projets
@@ -75,7 +76,7 @@ N’hésitez pas à consulter mon <a href="/portfolio.html">portfolio</a> ou à 
 ### Comment moderniser mon site web en fonction de mon activité?
 {: .h5 .text-primary .my-5 #moderniser}
 
-**Site static en html, CMS (Wordpress, prestashop, etc..), développement personnalisé**, je peux vous aider à remplir vos objectifs marketing en travaillant sur votre tunnel de vente page après page. En association avec votre équipe ou de vos prestataires, je réaliserai le suivi (et/ou réalisation) de votre projet de **création de site internet** avec les équipes de design, de développement et marketing. Vous garantissant ainsi la coordination des choix stratégiques et ergonomiques (UI et UX) qui permettront à votre site de vous apporter le retour sur investissement marketing visé sur internet et les réseaux sociaux.
+**Site static en html, CMS** (Wordpress, prestashop, etc..), **développement personnalisé**, je peux vous aider à remplir vos objectifs marketing en travaillant sur votre tunnel de vente page après page. En association avec votre équipe ou de vos prestataires, je réaliserai le suivi (et/ou réalisation) de votre projet de **création de site internet** avec les équipes de design, de développement et marketing. Vous garantissant ainsi la coordination des choix stratégiques et ergonomiques (UI et UX) qui permettront à votre site de vous apporter le retour sur investissement marketing visé sur internet et les réseaux sociaux.
 
 ### Quelle solution technique choisir pour mon site internet ?
 {: .h5 .text-primary .my-5 #choisir}
