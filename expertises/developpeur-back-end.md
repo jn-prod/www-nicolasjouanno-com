@@ -7,7 +7,7 @@ permalink: "/expertises/developpeur-back-end.html"
 footer_cta: "Vous avez un projet d'API ou des développement back-end à réaliser sur votre site internet ou application mobile ? Commençons à en parler maintenant."
 ---
 
-*Peu d'entre nous nous demander comment fonctionne l'envers du décors d'un site internet ou d'une application. Le **développeur Back-End**, lui, le sait. Derrière son écran noir et ses ligne de code, il défini le fonctionnement du site internet, les conditions d'échange entre l'utilisateur et la base de données et inter-connect les API pour booster l'usage du site web.*
+*Peu d'entre nous nous demander comment fonctionne l'envers du décors d'un site internet ou d'une application. Le **développeur Back-End**, lui, le sait. Derrière son écran noir et ses lignes de code, il définit le fonctionnement du site internet, les conditions d'échange entre l'utilisateur et la base de données et inter-connect les API pour booster l'usage du site web.*
 
 - [Quel est la différence entre un développeur back-end et un développeur front-end ?](#differences)
 - [Qu'est-ce qu'un développeur back-end ?](#presentation)
@@ -21,26 +21,26 @@ footer_cta: "Vous avez un projet d'API ou des développement back-end à réalis
 ### Développeur front-end
 {: .h5 .text-primary .my-5}
 
-Un développeur front-end s'attache à l'ergonomie du site internet, et à l'intégration de son design. Il doit produire un code offrant une interface claire, simple et universelle pour les internautes.
+Un développeur front-end s'attache à l'ergonomie du site internet et à l'intégration de son design. Il doit produire un code offrant une interface claire, simple et universelle pour les internautes.
 
 ### Développeur back-end
 {: .h5 .text-primary .my-5}
 
-Le développeur back-end ne s'occupe que des fonctionnalités d'un site web ou d'une application. C'est au travers des aspects technique et fonctionnel que se travailleur de l'ombre s'exprime. Il travail sur le back-office du site web ou de l'application, c'est donc grâce à lui que le contenu peut-être injecter dans site internet. Il peut concevoir un site web et en réaliser l'architecture technique ou passer par un CMS ou framework existant et en adapter les fonctionnalités pour s'adapter au cahier des charges techniques.
+Le développeur back-end ne s'occupe que des fonctionnalités d'un site web ou d'une application. C'est au travers des aspects techniques et fonctionnels que ce travailleur de l'ombre s'exprime. Il travaille sur le back-office du site web ou de l'application, c'est donc grâce à lui que le contenu peut-être injecter dans site internet. Il peut concevoir un site web et en réaliser l'architecture technique ou passer par un CMS ou framework existant et en adapter les fonctionnalités pour s'adapter au cahier des charges techniques.
 
 ### Développeur full-stack
 {: .h5 .text-primary .my-5}
 
-A la croisé de ces deux monde, se trouve le développeur full-stack. Le développeur full-stack peut quant à lui intervenir aussi sur le code lié au design et à l'expérience utilisateur que sur le code lié aux fonctionnalités et aux parties technique du site internet et de l'application.
+A la croisé de ces deux mondes, se trouve le développeur full-stack. Le développeur full-stack peut quant à lui intervenir aussi sur le code lié au design et à l'expérience utilisateur que sur le code lié aux fonctionnalités et aux parties techniques du site internet et de l'application.
 
 ## Qu'est-ce qu'un développeur back-end ?
 {: .font-primary .my-5 #presentation}
 
-Lorsque le développeur back-end conçoie un site internet en partant de zéro, il doit mesurer les forces et les faiblesses des choix techniques qu'il réalise. La difficulté étant de trouver le juste mileu entre performance technique et stabilité de la solution choisis pour répondre au cahier des charges fonctionnel réalisé par le chef de projet. Même en freelance, c'est donc en prenant en compte le délai et les ressources materiels, humaines et budgetaires dont il dispose qu'il réalisera les choix techniques correspondant au projet.
+Lorsque le développeur back-end conçois un site internet en partant de zéro, il doit mesurer les forces et les faiblesses des choix techniques qu'il réalise. La difficulté étant de trouver le juste mileu entre performance technique et stabilité de la solution choisie pour répondre au cahier des charges fonctionnel réalisé par le chef de projet. Même en freelance, c'est donc en prenant en compte le délai et les ressources matérielles, humaines et budgétaires dont il dispose qu'il réalisera les choix techniques correspondant au projet.
 
-En véritable "problem solver", le développeur back-end est le garant des solutions techniques qu'il apporte et doit être source de solutions aux problèmatiques qui lui sont raportés. Il doit aussi savoir dire non aux exigences déraisonnables de ses supérieurs ou du client, pour garantir à l'utilisateur final une plateforme sûre et stable. Plus, sa participation sera en amont du projet plus le chef de projet ou product manager s'assure de la faisabilité des fonctionnalités qu'il propose à son client et de son coût (humain, financier, horaire). C'est donc la force de proposition du développeur back-end qui permettra au projet et son équipe d'avancer en orientant et argumentant sur ses contraintes techniques.
+En véritable "problem solver", le développeur back-end est le garant des solutions techniques qu'il apporte et doit être source de solutions aux problématiques qui lui sont rapportées. Il doit aussi savoir dire non aux exigences déraisonnables de ses supérieurs ou du client, pour garantir à l'utilisateur final une plateforme sûre et stable. Plus, sa participation sera en amont du projet plus le chef de projet ou product manager s'assure de la faisabilité des fonctionnalités qu'il propose à son client et de son coût (humain, financier, horaire). C'est donc la force de proposition du développeur back-end qui permettra au projet et son équipe d'avancer en orientant et argumentant sur ses contraintes techniques.
 
-Le développeur back-end peut aussi être amené à s'adapter à une une solution déjà existante de type Framework ou CMS (Content Management System). Ce choix technique est principalement réaliser pour gagner du temps de développement en partant de fonctionnalités pré-conçus, voir parfois pré-existante chez le client. Pour éviter le coût lié à la refonte d'un site, le développeur back-end doit être capable d'analyser la solution technique existante et d'apporter des solutions adaptés (création de modules, d'options, ...).
+Le développeur back-end peut aussi être amené à s'adapter à une solution déjà existante de type Framework ou CMS (Content Management System). Ce choix technique est principalement réalisé pour gagner du temps de développement en partant de fonctionnalités pré-conçus, voir parfois pré-existante chez le client. Pour éviter le coût lié à la refonte d'un site, le développeur back-end doit être capable d'analyser la solution technique existante et d'apporter des solutions adaptées (création de modules, d'options, ...).
 
 ## Qu'est ce qu'une API ?
 {: .font-primary .mt-5 #etapes}
