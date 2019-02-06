@@ -2,7 +2,8 @@
 locale           : "fr-FR"
 title            : "Nicolas Jouanno"
 headline         : "Générateur d'expériences digitales"
-siteurl          : https://nicolasjouanno.com
+siteurl          : "https://nicolasjouanno.com"
+url              : "https://nicolasjouanno.com"
 logo             : 'assets/public/images/brand/logo.png'
 comments:
   disqus: 
