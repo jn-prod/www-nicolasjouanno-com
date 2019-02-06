@@ -6,8 +6,8 @@ header-img: "inspiration-5"
 permalink: "/expertises/developpeur-back-end.html"
 footer_cta: "Vous avez un projet d'API ou des développement back-end à réaliser sur votre site internet ou application mobile ? Commençons à en parler maintenant."
 ---
-
-*Peu d'entre nous nous demander comment fonctionne l'envers du décors d'un site internet ou d'une application. Le **développeur Back-End**, lui, le sait. Derrière son écran noir et ses lignes de code, il définit le fonctionnement du site internet, les conditions d'échange entre l'utilisateur et la base de données et inter-connect les API pour booster l'usage du site web.*
+{: .text-muted}
+*Peu d'entre nous nous demandons comment fonctionne l'envers du décors d'un site internet ou d'une application. Le **développeur Back-End**, lui, le sait. Derrière son écran noir et ses lignes de code, il définit le fonctionnement du site internet, les conditions d'échange entre l'utilisateur et la base de données et inter-connect les API pour booster l'usage du site web.*
 
 - [Quel est la différence entre un développeur back-end et un développeur front-end ?](#differences)
 - [Qu'est-ce qu'un développeur back-end ?](#presentation)

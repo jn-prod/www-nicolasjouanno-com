@@ -1,32 +1,48 @@
 <div class="col-md-4">
-           
-    <h3 class=" bg-light border border-muted pt-3 pb-3">
 
-      {% if page.url == "/" %}
+  <div class="d-flex flex-column w-100 h-100">
 
-        {{ offre.name }}
+    <div class="d-flex flex-column mx-auto w-100">
 
-      {% else %}
+      <h3 class="shadow bg-light border border-muted pt-3 pb-3">
 
-        <a href="{{ offre.url }}" class="text-dark d-block">{{ offre.name }}</a>
+        {% if page.url == "/" %}
+
+          {{ offre.name }}
+
+        {% else %}
+
+          <a href="{{ offre.url }}" class="text-dark d-block">{{ offre.name }}</a>
+
+        {% endif %}
+
+        
+      </h3>
+
+      <img src="{{ offre.img }}" alt="{{ offre.name }}" class="img-fluid mx-auto" style="max-width: 300px; max-height: 200px;">
+             
+      {% for feature in offre.features %}
+             
+        <div class="d-block text-muted text-center">{{ feature.name }}</div>
+             
+      {% endfor %}       
+
+    </div>
+        
+    <div class="d-flex flex-column align-items-end h-100">
+
+      {% if page.url != "/" %}
+
+        <div class="d-flex mt-auto mx-auto">
+
+          <a href="{{ offre.url }}" class="shadow btn btn-primary my-3">Je m'intéresse à un {{ offre.name }}</a>
+
+        </div>
 
       {% endif %}
 
-      
-    </h3>
+    </div>
 
-    <img src="{{ offre.img }}" alt="{{ offre.name }}" class="img-fluid" style="max-width: 300px; max-height: 200px;">
-           
-    {% for feature in offre.features %}
-           
-      <div class="d-block text-muted">{{ feature.name }}</div>
-           
-    {% endfor %} 
-
-    {% if page.url != "/" %}
-
-      <a href="{{ offre.url }}" class="btn btn-primary my-3">Je m'intéresse à un {{ offre.name }}</a>
-
-    {% endif %}
-       
+  </div>
+   
 </div>

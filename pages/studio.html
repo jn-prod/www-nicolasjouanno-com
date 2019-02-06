@@ -47,22 +47,36 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 <div class="row bg-light pt-5 pb-5 text-center">
   <div class="col-12">
     <div class="container text-center" id="expertises">
-        <div class="row ">
-          <div class="col-12">
-            <h2 class="mb-5">Mes Expertises</h2>
-          </div>
-        </div>
-      <div class="row text-center">
+      <div class="row ">
         <div class="col-12">
-
-          {% for expertise in site.data.expertises %}
-
-            <a href="{{expertise.url}}" class="btn btn-outline-primary m-2">{{expertise.name}}</a>
-
-          {% endfor %}
-
+          <h2 class="mb-5">Mes Expertises</h2>
         </div>
       </div>
+
+      {% for expertise in site.data.expertises %}
+
+        <div class="row shadow rounded border border-muted my-3 p-5 bg-white">        
+
+          <div class="col-md-4 my-auto">
+
+            <h3 class="h4"><a href="{{expertise.url}}" class="font-primary m-2">{{ expertise.name }}</a></h3>
+
+          </div>
+
+          <div class="col-md-8 my-auto">
+
+            <span class="text-muted">
+
+              {{ expertise.summary }} <a href="{{ expertise.url }}" class="border border-top-0 border-right-0 border-left-0 border-primary ml-2 border-bottom-bold "><span class="font-weight-bold">En savoir +</span></a>
+
+            </span>
+
+          </div>
+
+        </div>
+
+      {% endfor %}
+
     </div>   
   </div>
 </div>

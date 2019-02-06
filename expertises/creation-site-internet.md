@@ -1,7 +1,7 @@
 ---
 layout: expertises
 title: "Création de site internet, chef de projet web freelance"
-summary: "Chef de projet web freelance, du design et à la création de votre site internet pour votre entreprise ou votre association. Je vous aide à améliorer votre présence en ligne."
+summary: "Chef de projet web freelance, du design et à la création de votre site internet pour votre entreprise ou votre association. Je vous aide à améliorer votre présence en ligne"
 permalink: "/creation-site-internet.html"
 footer_cta: Startup, freelance, PME ou assocation, vous souhaitez créer un site internet qui répond à vos objectifs marketing? C'est le moment d'en parler ensemble.
 ---

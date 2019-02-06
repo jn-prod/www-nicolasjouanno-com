@@ -10,6 +10,14 @@
     color: rgb(0, 144, 142) !important;
 }
 
+.border-primary {
+    border-color: rgb(0, 144, 142) !important;
+}
+
+.border-bottom-bold {
+    border-bottom: solid 3px !important;
+}
+
 .btn {
     border-radius: 0px;
 }

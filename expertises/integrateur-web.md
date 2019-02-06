@@ -6,7 +6,7 @@ header-img: "inspiration-5"
 permalink: "/expertises/integrateur-web.html"
 footer_cta: "Vous avez déjà le design de votre site internet ou application pour votre futur startup, votre PME ou activité de freelance ? Commençons mainetant à étudier ensemble votre projet."
 ---
-
+{: .text-muted}
 *L'**intégrateur web** est la première étape clé nécessaire à la mise en ligne d'un site internet. Il est le traducteur du designer pour les navigateurs web et pose les premières pierres du SEO du site internet.*
 
 - [Qu'est-ce que l'intégration web ?](#presentation)

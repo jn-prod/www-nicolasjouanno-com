@@ -4,6 +4,8 @@ title: "Site vitrine"
 summary: "Je suis attaché à la qualité technique et graphique des sites que je réalisent. C’est pour cela que mes réalisations sont créées de A à Z. Mes clients me choisissent car je sais leur poser les bonnes questions."
 permalink: "/offres/site-vitrine.html"
 header-img: "inspiration-4"
+cta: "Demander une devis"
+footer_cta: ""
 ---
 Je suis attaché à la qualité technique et graphique des sites que je réalisent. C’est pour cela que je développer les sites internet de A à Z. Mes clients me choisissent car je sais leur poser les bonnes questions:
 

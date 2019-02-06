@@ -21,6 +21,8 @@ layout: default
 
             <h2 class="font-secondary h3 text-muted pb-3">{{ page.summary }}.</h2>  
 
+            <a href="{{ site.devis_link }}" class="shadow btn btn-primary mb-3 p-3 font-weight-bold">{{ page.cta }}</a>  
+
           </div>
 
         </div>
@@ -47,6 +49,8 @@ layout: default
       </article>
 
     </section>
+
+    {% include footer-cta.html %}
 
   </div>
 
