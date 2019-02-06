@@ -13,9 +13,13 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
 
       <div class="col-md-6 py-5 px-4 bg-white">
 
-        <h1 class='d-block font-primary pt-5 mb-5 text-center' itemprop="name">{{ site.headline }}.</h1>
+        <strong class="d-block pt-5 mb-5 text-center h3 text-primary font-secondary font-weight-bold" itemprop="name">{{ site.title }}</strong>
 
-        <h2 class="h5 text-muted pb-5 font-secondary text-justify">Salut, moi c'est Nicolas Jouanno, sportif et créateur digital. Avec vous, je partage  chaque défis et développe de nouveaux projets.</h2>
+        <h1 class="font-primary pb-5 text-justify">Souhaitez-vous développer votre activité grâce au digital ?</h1>
+
+        <p class="text-muted">Designer et développer un site internet ou une application, optimiser son activité grâce aux outils numériques c'est du chinois pour vous ? Laissez faire l'expert.</p>
+
+        <a href="#help" class="btn btn-primary p-3 mt-3">Oui, j'ai besoin de conseils</a>
 
       </div>
 
@@ -27,7 +31,7 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
 
 <!-- All CTA
 ================================================== -->
-<div class="container-fluid pt-5 pb-5 bg-light">
+<div class="container-fluid pt-5 pb-5 bg-light" id="help">
   <div class="text-center">
     <div class="row mt-5">
       <div class="col-12 mb-5">
@@ -59,7 +63,7 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
           </a>
         </div>       -->     
         <div class="col-md-4 mt-2 text-center h-100 bg-white">
-          <a href="https://blog.nicolasjouanno.com#cta" class="text-center p-5 d-block text-dark">
+          <a href="{{site.url}}/newsletter.html" class="text-center p-5 d-block text-dark">
             <h3 class="h4">Trouver l'inspiration</h3>
             <small class="text-muted d-block py-3">Une story chaque semaine</small>
             <span class="btn btn-dark">M'inscrire à la newsletter <i class="fas fa-arrow-right ml-2"></i></span>

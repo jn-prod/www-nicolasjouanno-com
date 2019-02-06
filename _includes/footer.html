@@ -41,6 +41,7 @@
                 <a href="https://blog.nicolasjouanno.com" class="d-block text-muted mr-3 my-auto">Stories</a>
                 <a href="{{ site.url }}/about.html" class="d-block text-muted mr-3 my-auto">Contact</a>
                 <a href="{{ site.url }}/devis.html" class="btn btn-outline-dark p-3 d-block mb-3 my-auto">Demander un devis</a>
+                <a href="{% if page.url == '/' %}#cta{% else %}#nav-top{% endif %}" class="p-3 d-block mb-3 my-auto"><i class="fa-2x fas fa-arrow-up"></i></a>
             </div>
         </div>
 
