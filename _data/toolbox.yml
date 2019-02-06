@@ -74,14 +74,14 @@
       logo: 'http://d26gg7w375vuv5.cloudfront.net/Design+Assets/black+Wix+Logo+Assets/Black+Wix+logo+Assets.png'
       short_description: ''
       freemium: true
-- name: 'Finances & Administratif'
-  description: ''
-  id: 'fintech'
-  tools:
-    - name: ''
-      logo: ''
-      short_description: ''
-      freemium: false
+# - name: 'Finances & Administratif'
+#   description: ''
+#   id: 'fintech'
+#   tools:
+#     - name: ''
+#       logo: ''
+#       short_description: ''
+#       freemium: false
 - name: 'Growth Hacking'
   description: ''
   id: 'growth'
@@ -176,14 +176,14 @@
       logo: 'https://picksaas.com/storage/app/uploads/public/5a9/6cb/fa3/thumb_1721_1200x630_0_0_auto.png'
       short_description: ''
       freemium: true
-- name: 'Ressources Humaines'
-  description: ''
-  id: 'rh'
-  tools:
-    - name: ''
-      logo: ''
-      short_description: ''
-      freemium: false
+# - name: 'Ressources Humaines'
+#   description: ''
+#   id: 'rh'
+#   tools:
+#     - name: ''
+#       logo: ''
+#       short_description: ''
+#       freemium: false
 - name: 'SEO'
   description: "Optimizer son référencement seul est mission impossible. Voici ma sélection d'outils pour menez a bien le suivi de votre stratégie seo."
   id: 'rseo'
