@@ -35,7 +35,11 @@ layout: default
 
               <div class="pt-3 mb-5">
 
-                {% include sidebar-bio.html %}
+                {% if page.url == "/about.html" %}
+
+                  {% include sidebar-bio.html %}
+                  
+                {% endif %}
 
                 {% include sidebar-activities.html %}
 
