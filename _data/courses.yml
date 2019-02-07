@@ -1,0 +1,9 @@
+- name: "Créer un site internet sans coder"
+  summary: "Créer un site internet est la porté de tout le monde, le tout est de savoir par commencer. Suivez le guide, ici je vous dis tout."
+  url: "/cours/creer-site-web-sans-coder.html"
+  disponibility: "Disponible au printemps 2019"
+  price: "free" #"50€"
+  modules:
+    - name: "Choisir son outil"
+      summary: 
+      url: 
