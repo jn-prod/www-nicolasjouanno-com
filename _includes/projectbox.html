@@ -24,7 +24,14 @@
 
       </h3>
       
-      <span class="my-3 d-block text-muted text-left font-weight-bold">Type: <a href="/offres/{{ project.type.url }}" class="text-dark">{{ project.type.name }}</a></span>
+      <span class="my-3 d-block text-muted text-left font-weight-bold">
+        Type: 
+        {% if page.url != "/" %}
+          <a href="/offres/{{ project.type.url }}" class="text-dark">{{ project.type.name }}</a>
+        {% else %}
+          <span class="text-dark">{{ project.type.name }}</span>
+        {% endif %}
+      </span>
 
       {% if page.url == "/portfolio.html" %}
         <em class="d-block mb-3 text-justify">{{ project.description }}</em>
