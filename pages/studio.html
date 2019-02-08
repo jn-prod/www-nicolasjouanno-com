@@ -67,7 +67,10 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 
             <span class="text-muted">
 
-              {{ expertise.summary }} <a href="{{ expertise.url }}" class="border border-top-0 border-right-0 border-left-0 border-primary ml-2 border-bottom-bold "><span class="font-weight-bold">En savoir +</span></a>
+              {{ expertise.summary }}
+              <span class="font-weight-bold d-block mt-3">
+                <a href="{{ site.url }}{{ expertise.url }}" class="border border-top-0 border-right-0 border-left-0 border-primary ml-2 border-bottom-bold ">{{ expertise.cta }}<i class="fas fa-arrow-right ml-2"></i></span>
+                </a>
 
             </span>
 

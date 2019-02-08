@@ -51,7 +51,12 @@
         {% endfor %} 
 
         <div class="d-block text-center mt-5">
-          <a href="{{project.url}}" class="shadow btn btn-primary p-3" target="_blank">Découvrir <i class="fas fa-arrow-right ml-2"></i></a>
+
+          {% if project.url %}
+
+            <a href="{{project.url}}" class="shadow btn btn-primary p-3" target="_blank">Découvrir <i class="fas fa-arrow-right ml-2"></i></a>
+          
+          {% endif %}
 
           <span class="d-block mt-3 text-muted">Vous souhaitez réaliser un projet comme celui-ci ? <a href="{{site.devis_link}}" rel="nofollow" target="_blank">Demander un devis maintenant</a>.</span>
 

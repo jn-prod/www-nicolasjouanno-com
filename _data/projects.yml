@@ -1,8 +1,8 @@
-- name: "Feezify.me"
+- name: "Feezify:me"
   type: 
     name: "Site applicatif"
     url: "site-applicatif.html"
-  description: "Création d'une web app permettant aux sportifs de centraliser toutes leurs données d'entrainement et de suivre leur forme physique et mentale."
+  description: "Au printemps 2018, je me remet à la course à pieds et en parlant avec des amis ont ce dit qu'il y en a marre d'Excel, des envoies de fichier par e-mail, alors qu'en parallèle on utilise Strava. Alors, c'est en side project que je développe et code cette application web au fure et à mesure de mes besoins de sportifs. Mon objectif est d'avoir un outil simple et ludique pour mesurer ma fatigue physique et mentale, plannifier ma saison et suivre l'évolution des mes classements."
   mission: "Création du site internet"
   expertises: 
     - "Product Management"
@@ -17,7 +17,7 @@
   type: 
     name: "Site applicatif"
     url: "site-applicatif.html"
-  description: "Création d'une marketplace sur laquelle les organisateurs vendent les entrées/dossards pour leurs événements sportifs aux participants."
+  description: "Event.izir.fr est un site applicatif qui permet aux sportifs de s'inscrire à des événements sportifs que les organisateurs auront au préalable créés sur la plate-forme. Je réalise le product management de cette plate-forme depuis ces débuts, réalise le développement back-end et front-end, ainsi que la recherche utilisateur et le design."
   mission: "project management"
   expertises: 
     - "Product Management"
@@ -51,7 +51,7 @@
   type: 
     name: "Site vitrine"
     url: "site-vitrine.html"
-  description: "Création et mise à jour d'un site internet vitrine."
+  description: "Lorsque Gael m'a contacté, il n'avais pas de présence en ligne. Comme pour tout athlète de haut niveau, ses supporteurs veulent connaître l'avancement de sa saison de façon centralisée. C'est ce rôle que tiendra désormais son site internet. Il m'a demandé s'il était possible de créer un site internet simple en français et en anglais, qui lui permetterait de partager ses dernières actualités, classements et son programme de courses à venir. Ce site lui permet également de mettre en avant ses partenariat et sponsors."
   mission: "Création du site internet"
   expertises: 
     - "Gestion de projet"
@@ -73,6 +73,5 @@
     - "Intégration HTML5/CSS3"
     - "Optimisation SEO"
     - "Wordpress"
-  url: "#"
   images: 
     - "/assets/public/images/projets/ext-5.png"

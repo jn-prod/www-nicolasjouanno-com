@@ -71,7 +71,7 @@
       short_description: ''
       freemium: true
     - name: 'wix'
-      logo: 'http://d26gg7w375vuv5.cloudfront.net/Design+Assets/black+Wix+Logo+Assets/Black+Wix+logo+Assets.png'
+      logo: 'https://logos-download.com/wp-content/uploads/2016/05/Wix_logo.png'
       short_description: ''
       freemium: true
 # - name: 'Finances & Administratif'
@@ -100,7 +100,7 @@
   id: 'marketing'
   tools:
     - name: 'Mention'
-      logo: 'http://datarecrutement.fr/wp-content/uploads/2016/03/mention-logo.png'
+      logo: 'https://zdtqg3h0l2yrz5yd19tb2tnm-wpengine.netdna-ssl.com/wp-content/themes/mention/img/press/blue-bg-logo-txt.png'
       short_description: ''
       freemium: false
     - name: 'Sendinblue'
@@ -153,11 +153,11 @@
       short_description: ''
       freemium: true
     - name: 'Appear.in'
-      logo: 'http://www.stickpng.com/assets/images/58820bfd00d0fb8ae435ec5b.png'
+      logo: 'https://appear.in/i/static/images/appearin-preview-1200x630.png'
       short_description: ''
       freemium: true
     - name: 'Asana'
-      logo: 'http://www.stickpng.com/assets/images/586ae70bb6fc1117b60b278d.png'
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Asana_logo.svg/1280px-Asana_logo.svg.png'
       short_description: ''
       freemium: true
     - name: 'Trello'
@@ -193,7 +193,7 @@
       short_description: ''
       freemium: true
     - name: 'SEMRUSH'
-      logo: 'http://consultant-seo.eu/wp-content/uploads/2017/05/logo-sem-rush.png'
+      logo: 'https://assets.pcmag.com/media/images/438177-semrush-logo.jpg?width=810&height=456'
       short_description: ''
       freemium: true
     - name: 'UBERSUGGEST'
@@ -201,7 +201,7 @@
       short_description: ''
       freemium: true
     - name: 'MOZ'
-      logo: 'http://www.stickpng.com/assets/images/5841c4aba6515b1e0ad75aa7.png'
+      logo: 'https://theloopmarketing.com/wp-content/uploads/2018/02/moz-logo-blue.png'
       short_description: ''
       freemium: true
     - name: 'Ahrefs'

@@ -1,6 +1,6 @@
 ---
 layout: offres
-title: "Site E-commerce"
+title: "Création de site E-commerce"
 summary: "Avec des parts de marché dépassant les 20% dans plusieurs domaines cumulant 72 milliards d'euros, un site e-commerce est une opportunité de croissance pour toutes les entreprises dynamiques."
 permalink: "/offres/site-e-commerce.html"
 header-img: "inspiration-4"
