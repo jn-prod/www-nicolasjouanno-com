@@ -1,5 +1,3 @@
-- name: "Edito"
-  url: "/edito.html"
 - name: "Studio"
   url: "/studio.html"
 - name: "On Demand"
@@ -16,3 +14,5 @@
   url: "/portfolio.html"
 - name: "Bio / Contact"
   url: "/about.html"
+- name: "Edito"
+  url: "/edito.html"

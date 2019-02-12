@@ -25,13 +25,30 @@ post_class: post-template
                         
                         <!-- Post Title -->
                         <header>
-                            <h1 class="posttitle">{{ page.title }}</h1> 
+                            <div class="d-block">
+                                <small>
+                                    <a href="{{ site.url }}" class="text-muted">Nicolas Jouanno</a> > <a href="{{ site.url }}/academy.html" class="text-muted">Academy</a> >  <a href="{{ site.url }}/cours.html" class="text-muted">Cours</a> > <a href="{{ site.url }}{{ page.course_url }}" class="text-muted">{{ page.course_title }}</a> > <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+                                </small>                                
+                            </div>
+
+                            <h1 class="posttitle mt-3">{{ page.title }}</h1> 
+                                                    <!-- Post Date -->
+                            <p>
+                                <small>
+                                    <span class="post-date"><time class="post-date" itemprop="date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+                                    {% if page.last_modified_at %}
+                                        (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+                                    {% endif %}
+                                </small>
+                            </p>
                         </header>
 
                     </div>
 
                     <!-- Post Featured Image -->
-                    {% if page.image %}<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
+                    {% if page.image %}
+                        <img class="featured-image img-fluid" src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
+                    {% endif %}
                     <!-- End Featured Image -->
 
                     <!-- Post Content -->
@@ -39,14 +56,15 @@ post_class: post-template
                         {{content}}
                         {% if page.author %}
                             <hr />
-                            <p><strong>Tu as aimé cet article ?</strong> {{ author.post_cta}} <a href="{{ site.baseurl }}/index.html#cta">Commence à la recevoir</a>.</p>
+                            <p><strong>Tu as aimé cette leçon?</strong> {{ author.post_cta}} <a href="{{ site.baseurl }}/newsletter.html">Commence à les recevoir</a>.</p>
                         {% endif %}
-                        
+                    
                     </div>
-              
+                    <!-- coaching cta -->
+                    {% include coaching-cta.html %}                  
                     <!-- Author Box -->
                     {% if page.author %}                
-                    <div class="row post-top-meta">
+                    <div class="row post-top-meta mt-5">
                         <div class="col-md-2">
                             <img class="author-thumb" src="{{ author.avatar }}" alt="{{ author.display_name }}">
                         </div>
@@ -57,17 +75,7 @@ post_class: post-template
                     </div>              
                     {% endif %}
 
-                    <footer>
-                        <!-- Post Date -->
-                        <p>
-                        <small>
-                            <span class="post-date"><time class="post-date" itemprop="date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
-                            {% if page.last_modified_at %}
-                            (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
-                            {% endif %}
-                            </small>
-                        </p>
-                        
+                    <footer>                        
                         <!-- Post Categories -->
                         <div class="after-post-tags">
                             <ul class="tags">
@@ -80,10 +88,13 @@ post_class: post-template
                             </ul>
                         </div>
                         <!-- End Categories -->
-                        
+
+
+
                         <!-- Prev/Next -->
                         {% include footer-nav.html %}
                         <!-- End Categories -->
+
                     </footer>
                 </section>
             </div>

@@ -79,7 +79,7 @@ address :
 devis_link: "/devis.html"
 
 # Outputting
-permalink : /:title:output_ext
+permalink : /lessons/:title:output_ext
 # paginate: 9
 # paginate_path: /page:num/
 

@@ -1,0 +1,112 @@
+---
+layout: landing
+title: L'academy de la gestion de projet web
+summary: "Créer et piloter votre stratégie digitale n'aura plus de secret. Mes cours sont conçus à partir de mes expériences professionneles. Ils s'orientent autour de la gestion de projet web, du growth hacking et du design."
+permalink: "/academy.html"
+bg: inspiration-1
+h1: Apprenez à diriger votre stratégie digitale.
+h2: Créer et piloter votre stratégie digitale n'aura plus de secret.
+---
+<div class="container mb-5">
+
+  <div class="row my-5">
+
+    <div class="col-12">
+
+      <h2>Les cours</h2>
+
+    </div>
+
+  </div>
+
+   {% for course in site.data.courses limit: 3 %}
+
+    <a href="{{ site.url }}{{course.url}}">
+
+      <div class="row my-5 shadow border border-muted p-5 rounded">
+
+        <div class="col-md-12">
+
+          <div class="d-block">
+
+            <h2 class="d-inline-block">
+
+              {{ course.name }}
+
+            </h2>
+
+            {% if course.disponibility %}
+
+              <span class="d-inline-block ml-3 font-weight-bold text-muted">{{ course.disponibility }}</span>
+
+            {% endif %} 
+
+          </div>
+
+          <p class="text-dark d-block">{{ course.summary }}</p>
+
+          <span class="d-block">
+
+            {% if course.price == "free" %}
+
+              <span class="text-muted">Gratuit:</span> <i class="fas fa-check text-success ml-2"></i>
+
+            {% else %}
+
+              <span class="text-primary font-weight-bold">{{ course.price }}
+
+            {% endif %}
+
+          </span>
+
+        </div>
+
+      </div> 
+
+    </a>
+
+  {% endfor %}
+
+  <div class="row">
+
+    <div class="col-12">
+
+      <a href="{{ site.url }}/cours.html">Voir tous les cours <i class="fas fa-arrow-right ml-2"></i></a>
+
+    </div>
+
+  </div>
+
+  <div class="row my-5">
+
+    <div class="col-12">
+
+      <h2>Les leçons</h2>
+
+    </div>
+    
+  </div>
+
+  <div class="row listrecent mb-3">
+
+    {% for post in site.posts limit: 3%}
+
+      {% include postbox.html type=page.entries_layout %}
+
+    {% endfor %}
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-12">
+
+      <a href="{{ site.url }}/lessons/">Voir toutes les leçons <i class="fas fa-arrow-right ml-2"></i></a>
+
+    </div>
+
+  </div>
+
+</div>
+
+{% include coaching-cta.html %}
