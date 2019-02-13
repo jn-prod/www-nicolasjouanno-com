@@ -8,20 +8,36 @@ post_class: post-template
 <!-- Begin Article
 ================================================== -->
 {% assign author = site.data.authors[page.author] %}
+
 <article itemscope itemtype="http://schema.org/BlogPosting" itemref="author_box review_box">
     <div class="container">
     	<div class="row">
 
             <div class="col-12">
+                
                 <!-- post header -->
                 <section>
+
                     <div class="row mainheading">
+
                         <div class="col-md-6">
-                            <div class="d-block">
-                                <span>
-                                    <a href="{{ site.url }}{{ page.course_url }}" class="text-muted text-uppercase">{{ page.course_title }}</a>
-                                </span>                                
-                            </div>
+
+                            {% if page.expertise_url %}
+
+                                {% for expertise in site.data.expertises %}
+
+                                    {% if expertise.url == page.expertise_url %}
+
+                                        <div class="d-block">
+
+                                            <a href="{{ site.url }}{{ expertise.url }}" class="text-muted text-uppercase">{{ expertise.name }}</a>
+
+                                        </div>
+                                    {% endif %}
+
+                                {% endfor %}
+
+                            {% endif %}
 
                             <h1 class="posttitle my-5">{{ page.title }}</h1> 
 
