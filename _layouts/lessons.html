@@ -41,7 +41,10 @@ post_class: post-template
                                                 (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
                                             {% endif %}                                                
                                         </div>
-                                        <a target="_blank" href="{{ author.twitter }}" class="d-block"><i class="fab fa-twitter mr-2"></i>{{ author.handle }}</a>                                                
+                                        <a target="_blank" href="{{ author.twitter }}" class="d-flex my-auto">
+                                            <i class="fab fa-twitter mx-2 my-auto"></i>
+                                            <div class="d-inline-block">{{ author.handle }}</div>
+                                        </a>                                                
                                     </div>                    
                                     
                                 </div>
