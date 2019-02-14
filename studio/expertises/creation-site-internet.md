@@ -76,7 +76,7 @@ N’hésitez pas à consulter mon <a href="/portfolio.html">portfolio</a> ou à 
 ### Comment moderniser mon site web en fonction de mon activité?
 {: .h5 .text-primary .my-5 #moderniser}
 
-**Site static en html, CMS** (Wordpress, prestashop, etc..), **développement personnalisé**, je peux vous aider à remplir vos objectifs marketing en travaillant sur votre tunnel de vente page après page. En association avec votre équipe ou de vos prestataires, je réaliserai le suivi (et/ou réalisation) de votre projet de **création de site internet** avec les équipes de design, de développement et marketing. Vous garantissant ainsi la coordination des choix stratégiques et ergonomiques (UI et UX) qui permettront à votre site de vous apporter le retour sur investissement marketing visé sur internet et les réseaux sociaux.
+**Site static en html, CMS** (Wordpress, prestashop, etc..), **développement personnalisé**, je peux vous aider à remplir vos objectifs marketing en travaillant sur votre tunnel de vente page après page. En association avec votre équipe ou de vos prestataires, je réaliserai le suivi (et/ou réalisation) de votre projet de création de site internet avec les équipes de design, de développement et marketing. Vous garantissant ainsi la coordination des choix stratégiques et ergonomiques (UI et UX) qui permettront à votre site de vous apporter le retour sur investissement marketing visé sur internet et les réseaux sociaux.
 
 ### Quelle solution technique choisir pour mon site internet ?
 {: .h5 .text-primary .my-5 #choisir}
@@ -86,7 +86,7 @@ Voilà une vaste question. Qui, à l'image de votre marketing-mix, n'a pas de r�
 ### Et pour mon hébergement de sites internet, référencement, intégration?
 {: .h5 .text-primary .my-5 #referencement}
 
-**L'hébergement, le référencement et l'intégration** sont des points communs de tous les projets de refonte ou une création et de **création de site internet**. Je vous conseillerais un hébergement adapté à vos besoins et objectifs. Expérimentant en référencement naturel (SEO) depuis plusieurs années, j'adapterais les meilleures pratiques à votre projet. Gardant toujours en tête qu'un site commercialement performant doit avoir un design propre et soigné, je réaliserais les maquettes hautes-définition avant l'intégration, selon ces critères de réussite.
+**L'hébergement, le référencement et l'intégration** sont des points communs de tous les projets de refonte ou une création et de création de site internet. Je vous conseillerais un hébergement adapté à vos besoins et objectifs. Expérimentant en référencement naturel (SEO) depuis plusieurs années, j'adapterais les meilleures pratiques à votre projet. Gardant toujours en tête qu'un site commercialement performant doit avoir un design propre et soigné, je réaliserais les maquettes hautes-définition avant l'intégration, selon ces critères de réussite.
 
 ### Et si j'ai besoin d'autres prestataires ?
 {: .h5 .text-primary .my-5 #prestatires}

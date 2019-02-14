@@ -16,7 +16,10 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
     <div class="row text-center">
       <div class="col-md-8 mx-auto">
         <h2 class="mb-5">Le studio</h2>
-        <big class="d-block mb-5">Moi c'est Nicolas, 31 ans et à la recherche de challenges. Je me nourris des dernières tendances marketing, design et technologique numérique pour offrir à votre entreprise des services digitals innovants et une expérience de la qualité à vos utilisateurs. Je suis spécialisé dans le product management de sites applicatifs et d'applications mobiles.</big>    
+        <big class="d-block mb-5">
+          <p>Moi c'est Nicolas, 31 ans et à la recherche de challenges. Je me nourris des dernières tendances marketing, design et technologique numérique pour offrir à votre entreprise des services digitals innovants et une expérience de la qualité à vos utilisateurs. Je suis spécialisé dans le product management de sites applicatifs et d'applications mobiles.</p>
+          <p>J'utilise les les meilleures méthodes et outils du marché : Lean Startup, Design Thinking, Agile & Lean UX. J'interviens sur tout le cycle de vie d'un Produit : de la stratégie Produit, au design et la production du Produit (UX/UI & Product Ownership) jusqu'à la recherche de leviers de croissance (Growth Marketing).</p> 
+        </big>    
       </div>
     </div>    
   </div>
@@ -61,7 +64,7 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 
         {% if expertise.url == "/product-manager.html" %}
 
-          <div class="row shadow rounded border border-muted my-3 p-5 bg-white">        
+          <div class="row shadow rounded border border-muted my-5 p-5 bg-white">        
 
             <div class="col-md-4 my-auto">
 
@@ -90,6 +93,26 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 
       {% endfor %}
 
+      <div class="row ">
+        <div class="col-12">
+          <h2 class="my-5">Mes Méthodologies</h2>
+        </div>
+      </div>
+      <div class="row ">
+
+        {% for methode in site.data.methodologies %}
+
+          <div class="col-3">
+
+            <h3 class="my-3 font-secondary h3">{{ methode.name }}</h3>
+
+            <span class="text-muted">{{ methode.excerpt }}</span>
+
+          </div>
+
+        {% endfor %}
+
+      </div>
     </div>   
   </div>
 </div>
