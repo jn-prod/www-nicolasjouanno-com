@@ -1,42 +1,46 @@
 ---
 layout: landing
 title: Le studio
-summary: "Chef de projet digital et Product Manager freelance en Bretagne, j’ai 31 ans dont 8 ans d’expérience dans la gestion de projet digital."
+summary: "Product Manager freelance remote, j’ai 31 ans dont 8 ans d’expérience dans la gestion de projet digital."
 permalink: "/studio.html"
 bg: inspiration-1
-h1: Développez votre activité en ligne et améliorez votre expérience client.
-h2: Mon savoir-faire en gestion de projet digital permet à votre entreprise de créer et valoriser son activité en ligne.
+h1: Développez votre produit digital et améliorez votre expérience client.
+h2: Mon savoir-faire marketing, design et tech permet à votre entreprise de créer un produit en ligne impactant pour vos utilisateurs.
 cta: Demander un devis
-footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondre à vos interrogations et à vous aider à développer votre présence en ligne.
+footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondre à vos interrogations et à vous aider à développer votre projet.
 ---
 
 <!-- presentation -->
-<div class="row bg-light pt-5 pb-5 text-center">
-  <div class="col-12">
+<div class="row bg-light py-5 text-center shadow">
+  <div class="col-12 my-5">
     <div class="row text-center">
       <div class="col-md-8 mx-auto">
         <h2 class="mb-5">Le studio</h2>
-        <big>Moi c'est Nicolas, je suis à la recherche de challenges. Je me nourris des dernières tendances marketing, design et technologique du web pour offrir de l'innovation et de la qualité à mes clients. Je suis spécialisé dans la gestion de projet et la réalisation de sites vitrines, e-commerces et sites applicatifs sur-mesures.</big>    
+        <big class="d-block mb-5">Moi c'est Nicolas, 31 ans et à la recherche de challenges. Je me nourris des dernières tendances marketing, design et technologique numérique pour offrir à votre entreprise des services digitals innovants et une expérience de la qualité à vos utilisateurs. Je suis spécialisé dans le product management de sites applicatifs et d'applications mobiles.</big>    
       </div>
     </div>    
   </div>
 </div>
 
 <!-- projet -->
-<div class="text-center" id="offres">
+<div class="text-center d-block py-5" id="skills">
   
-  <div class="row mt-5">
-    <div class="col-12">
-      <h2 class="mb-5">Votre projet</h2>
-      <p>Vous développez une application ou un site internet pour votre startup et êtes à la recherche d'un product manager? Vous avez besoin d'un professionnel pour gérer vos projets sur internet ? Vous voulez activer des leviers de growth pour votre business en ligne ? Découvrez comment je peux vous aider dans vos projets:</p>
+  <div class="container">
+    
+    <div class="row mt-5">
+      <div class="col-12">
+        <h2 class="mb-5">Votre projet</h2>
+        <p>Vous développez une application mobile ou un site internet pour votre startup et êtes à la recherche d'un product manager? Vous avez besoin d'un professionnel pour améliorer l'expérience de vos utilisateurs ? Vous voulez activer des leviers de growth pour votre business en ligne ? Découvrez comment je peux vous aider dans vos projets:</p>
+      </div>
     </div>
+
   </div>
 
   <div class="row mb-5 mt-5">
 
-    {% for offre in site.data.offres %}
+    {% for skills in site.data.product-skills %}
       
-      {% include offresbox.html %}
+      {% include productskillsbox.html %}
 
     {% endfor %}
 
@@ -44,39 +48,45 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 </div>
 
 <!-- Expertises -->
-<div class="row bg-light pt-5 pb-5 text-center">
-  <div class="col-12">
+<div class="row bg-light py-5 text-center shadow">
+  <div class="col-12 py-5">
     <div class="container text-center" id="expertises">
       <div class="row ">
         <div class="col-12">
-          <h2 class="mb-5">Mes Expertises</h2>
+          <h2 class="mb-5">Mon Expertise</h2>
         </div>
       </div>
 
       {% for expertise in site.data.expertises %}
 
-        <div class="row shadow rounded border border-muted my-3 p-5 bg-white">        
+        {% if expertise.url == "/product-manager.html" %}
 
-          <div class="col-md-4 my-auto">
+          <div class="row shadow rounded border border-muted my-3 p-5 bg-white">        
 
-            <h3 class="h4"><a href="{{expertise.url}}" class="font-primary m-2">{{ expertise.name }}</a></h3>
+            <div class="col-md-4 my-auto">
+
+              <h3 class="h4"><a href="{{expertise.url}}" class="font-primary m-2">{{ expertise.name }}</a></h3>
+
+            </div>
+
+            <div class="col-md-8 my-auto">
+
+              <span class="text-muted">
+
+                {{ expertise.summary }}
+
+                <span class="font-weight-bold d-block mt-3">
+                  
+                  <a href="{{ site.url }}{{ expertise.url }}" class="border border-top-0 border-right-0 border-left-0 border-primary ml-2 border-bottom-bold ">{{ expertise.cta }}<i class="fas fa-arrow-right ml-2"></i></span>
+                  </a>
+
+              </span>
+
+            </div>
 
           </div>
 
-          <div class="col-md-8 my-auto">
-
-            <span class="text-muted">
-
-              {{ expertise.summary }}
-              <span class="font-weight-bold d-block mt-3">
-                <a href="{{ site.url }}{{ expertise.url }}" class="border border-top-0 border-right-0 border-left-0 border-primary ml-2 border-bottom-bold ">{{ expertise.cta }}<i class="fas fa-arrow-right ml-2"></i></span>
-                </a>
-
-            </span>
-
-          </div>
-
-        </div>
+        {% endif %}
 
       {% endfor %}
 
@@ -85,7 +95,7 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 </div>
 
 <!-- Technologies -->
-<div class="container pt-5 pb-5 text-center" id="technologies">
+<div class="container my-5 py-5 text-center" id="technologies">
   <div class="row">
     <div class="col-12">
       <h2 class="mb-5">Les Technologies</h2>

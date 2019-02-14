@@ -1,0 +1,27 @@
+- name: "Marketing"
+  url: "#"
+  img: "fas fa-chart-line"
+  features: 
+    - name: "Data analytics"
+    - name: "KPI tracking"
+    - name: "Product Roadmap"
+    - name: "Product Backlog"
+    - name: "Content marketing"
+- name: "UX/UI Design"
+  url: "#"
+  img: "fas fa-pencil-alt"
+  features: 
+    - name: "Design thinking"
+    - name: "User Research & User Journey"
+    - name: "User flow map"
+    - name: "Wireframe & Prototyping"
+    - name: 'Design sense'
+- name: "Technologique"
+  url: "#"
+  img: "fas fa-code"
+  features: 
+    - name: "Front-end HTML5 - CSS3 - JS"
+    - name: "Back-end NodeJS"
+    - name: "Database MongoDB"
+    - name: "Unit Test"
+    - name: "Git - Github"

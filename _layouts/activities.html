@@ -39,6 +39,12 @@ layout: default
 
               <div class="pt-3 mb-5">
 
+                {% if page.url == "/portfolio.html" %}
+
+                  {% include sidebar-offres.html %}
+
+                {% endif %}
+
                 {% if page.url == "/about.html" %}
 
                   {% include sidebar-bio.html %}
@@ -46,7 +52,7 @@ layout: default
                 {% endif %}
 
                 {% include sidebar-activities.html %}
-
+                
               </div>
             </div>
 
@@ -59,31 +65,8 @@ layout: default
           </div>  
                   
         </div>
-        
 
-
-
-      </article>
-
-      <section>
-
-        <article class="text-center">
-
-          <h2>Les prestations</h2>
-
-          <div class="row mb-5 mt-5">
-                   
-            {% for offre in site.data.offres %}
-                   
-              {% include offresbox.html %}
-                   
-            {% endfor %}
-                   
-          </div>        
-    
-        </article>
-
-      </section>      
+      </article>   
 
       <div class="row mt-3">
         <div class="col-lg-6">
