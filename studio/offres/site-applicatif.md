@@ -17,7 +17,7 @@ footer_cta: ""
 {: .my-5 #site-applicatif}
 ## Qu'est ce qu'un site applicatif ?
 
-Là où un site vitrine ou un site e-commerce est précisement définissable, un site applicatif n'a pas de définition précise. Le site applicatif répondra d'avantage à des problématique d'usage et demande généralement des besoins de développement sur mesure.
+Là où un site vitrine ou un site e-commerce est précisement définissable, un site applicatif n'a pas de définition précise. Le site applicatif répondra d'avantage à des problématique d'usage et demande généralement des besoins de développement sur mesure. Un site applicatif se décompose en fonctionnalités répondant aux problématiques de  des utilisateurs.
 
 Il peut prendre la forme d'une place de marché (ou market place), d'une application web (web app), d'une plateforme de financement participatif (crowdfunding) ou encore d'un réseau social.
 
