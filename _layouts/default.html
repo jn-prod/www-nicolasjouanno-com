@@ -3,14 +3,14 @@
 
     <!-- Head
     ================================================== -->
-    {% include head.html %}
+    {% include /header/head.html %}
     
     <!-- body -->
     {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
     <body class="{{ layout }}" itemscope itemtype="http://schema.org/WebPage">
         <!-- Head
         ================================================== -->
-        {% include header.html %} 
+        {% include /header/header.html %} 
         
 
         <!-- Content
@@ -23,7 +23,7 @@
 
         <!-- Footer
         ================================================== -->
-        {% include footer.html %}
+        {% include /footer/footer.html %}
 
         <!-- JavaScript
         ================================================== -->            

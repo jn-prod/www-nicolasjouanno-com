@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+
+<div class="container py-5">
+
+    <div class="row h-100">
+
+        <div class="col-md-10 mx-auto h-100">
+
+            <div class="row h-100">
+
+                <div class="col-md-4">
+
+                    <div class="d-block">
+
+                        <span class="text-white py-3 d-block text-center mb-5 bg-primary shadow">
+
+                            {% if page.url == "/" and page.url =="/index.html" %}
+
+                                <h1 class="">Stories</h1>
+                            
+                            {% else %}
+
+                                <span class="h1">Stories</span>
+
+                            {% endif %}
+
+                        </span>
+
+                    </div>
+
+                    <div class="d-block mb-5 text-center">
+
+                        <img src="{{ site.url }}/assets/public/images/profile.png" alt="nicolas jouanno" class="d-block img-fluid mb-3 mx-auto text-center" style="max-height:90px;"> 
+
+                        <span class="text-primary h5 d-block font-secondary">Par {{ site.title }}</span>  
+
+                        <span class="d-block text-muted">
+                            Ex-cycliste professionnel, Runner, Surfeur, Photographe & Createur.
+                        </span> 
+
+                    </div>
+                    
+                    <div class="sticky-top d-block p-3 mb-5 bg-light rounded">
+
+                        <p class="d-block text-muted">
+                            <span class="h2">"</span>
+                            Au travers de ses stories, Nicolas nous envoie puiser au fond de nous-même pour retrouver l'essence du sport et de la vie en général.
+                        </p>
+
+                        <a href="https://www.gael-lebellec.bzh" class="d-block" target="_blank">- @Gael Le bellec</a>
+                        
+                        <span class="text-muted d-block">3x champion du monde de diathlon & invité des stories</span>                        
+                    </div>
+
+                </div>
+
+                <div class="col-md-8">
+
+                  {{ content }}
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</div>

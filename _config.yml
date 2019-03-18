@@ -1,7 +1,7 @@
 # Site Settings
 locale           : "fr-FR"
 title            : "Nicolas Jouanno"
-headline         : "Product manager freelance remote"
+headline         : "Product manager & outdoor enthusiast."
 siteurl          : "https://nicolasjouanno.com"
 url              : "https://nicolasjouanno.com"
 logo             : 'assets/public/images/brand/logo.png'
@@ -39,6 +39,11 @@ google_verification :
 bing_verification   :
 yandex_verification :
 naver_verification  :
+
+# Post settings
+imgpost   : assets/public/images/posts
+subscriber_number : "3 500"
+ads_booking_link: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSTrV8CdtVRmUyoENBgfA3kv_PpQeSXvvzh71M-QoY5vIslAU9EzmdRbyxShSkpyAqlmV_QC6_YJU43/pubhtml?gid=0&single=true"
 
 # Analytics
 google_analytics: 'UA-33078029-1'
@@ -79,15 +84,15 @@ address :
 devis_link: "/devis.html"
 
 # Outputting
-permalink : /lessons/:title:output_ext
-# paginate: 9
-# paginate_path: /page:num/
+permalink : /:title:output_ext
+paginate: 9
+paginate_path: /stories/latest/page:num/
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  # - jekyll-paginate
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
   # - jekyll-archives  
@@ -109,8 +114,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-
 
 # Minification
 # jekyll-minifier:

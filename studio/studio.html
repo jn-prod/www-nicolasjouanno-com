@@ -43,7 +43,7 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 
     {% for skills in site.data.product-skills %}
       
-      {% include productskillsbox.html %}
+      {% include /boxes/skills.html %}
 
     {% endfor %}
 
@@ -151,4 +151,37 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
   </div>
 </div>
 
-{% include footer-cta.html %}
+<!-- toolbox -->
+<div class="container my-5 text-center" id="technologies">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="mb-5">La toolbox</h2>
+    </div>
+  </div>
+  <div class="row text-center">
+
+    {% for tools in site.data.toolbox %}
+
+      {% for tool in tools.tools %}
+
+        {% if tool.feature == true %}
+
+          {% include /boxes/tool.html %}
+
+        {% endif %}
+
+      {% endfor %}
+
+
+    {% endfor %}
+
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-12">
+      <a href="{{ site.url }}/toolbox.html" class="btn btn-primary shadow">Découvrir plus d'outils <i class="fas fa-arrow-right ml-2"></i></a>
+    </div>
+  </div>
+</div>
+
+{% include /cta/footer.html %}

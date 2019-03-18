@@ -1,0 +1,31 @@
+{% if page.url != "/" %}
+    <header class="container">
+
+      <div id="" class="d-block fixed-top bg-white border-bottom border-primary text-center text-dark py-3 shadow">
+
+        Recevez une nouvelle <a href="{{ site.url }}" class="bg-primary-light p-2 h3 text-primary mx-2">Stories</a> chaque vendredi dans votre boite email, rien d'autre. <a href="{{ site.url}}/stories.html" class="btn btn-primary p-2 ml-3 mr-2">S'inscrire ici<i class="fas fa-arrow-right ml-2"></i> </a>
+          
+      </div>
+
+        <div id="nav-top" class="row bg-white mt-5 pt-5 mb-3">
+
+            <div class="col-12 d-flex justify-content-between">
+
+                <a href="{{ site.url }}" class="px-3">  <!-- {% if page.url == '/' %}mx-auto{% endif %} -->
+
+                  <span class="sitetitle d-block text-center text-capitalize pt-3 pb-2 text-dark h1">
+
+                    {{ site.title }}
+
+                  </span>
+
+                </a>
+
+                {% include /header/menu_main.html %}
+
+            </div>
+            
+        </div>
+
+    </header>
+{% endif %}

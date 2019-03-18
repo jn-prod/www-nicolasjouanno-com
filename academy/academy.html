@@ -89,9 +89,9 @@ h2: Créer et piloter votre stratégie produit n'aura plus de secret.
 
   <div class="row listrecent mb-3">
 
-    {% for post in site.posts limit: 3%}
+    {% for post in site.lessons limit: 3 %}
 
-      {% include postbox.html type=page.entries_layout %}
+      {% include /boxes/post.html type=page.entries_layout %}
 
     {% endfor %}
 
@@ -109,4 +109,4 @@ h2: Créer et piloter votre stratégie produit n'aura plus de secret.
 
 </div>
 
-{% include coaching-cta.html %}
+{% include /cta/coaching.html %}
