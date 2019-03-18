@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Palmarès Nicolas Jouanno
+permalink: /results.html
 ---
 
 ## Les temps forts
