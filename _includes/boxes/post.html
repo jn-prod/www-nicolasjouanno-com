@@ -1,29 +1,60 @@
 <!-- begin post -->
 {% assign author = site.data.authors[post.author] %}
-
-<div class="col-lg-4 col-md-6 mb-30px card-group postbox">
+<article class="col-lg-4 col-md-6 mb-30px card-group postbox" itemscope="" itemtype="http://schema.org/BlogPosting">
     <div class="card h-100 shadow">
         <div class="maxthumb">
             <a href="{{ post.url | absolute_url }}">
-                {% if post.image %} <img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{ post.title }}"> {% endif %}
+                {% if post.image %} <img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{ post.title }}" itemprop="image thumbnailUrl"> {% endif %}
             </a>
         </div>
         <div class="card-body">
-            <h3 class="card-title"><a class="text-dark" href="{{ post.url | absolute_url }}">{{ post.title }}</a></h3>
-            <span class="badge badge-light">{% for category in post.categories %}{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
-            <p class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</p>            
+            <h2 class="card-title h5" itemprop="headline">
+                <a class="text-dark" href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+            </h2>
+            <meta itemprop="url mainEntityOfPage" content="{{ site.url}}{{post.url }}">
+            <section itemprop="articleBody">
+                <div class="d-block mb-3 text-center">
+                    {% for category in post.categories %}
+                        <h3 class="badge"><a href="{{ site.baseurl }}/categories/{{ category  | downcase }}.html">#{{ category }}</a></h3>
+                    {% endfor %}
+                </div>
+                <div class="card-text">
+                    {{ post.excerpt | strip_html | truncatewords:30 }}
+                </div>
+            </section>            
         </div>
-        <div class="card-footer bg-white">
+        <footer class="card-footer bg-white">
             <div class="wrapfooter">
                 {% if post.author %}
                 <span class="meta-footer-thumb">
-                <img class="author-thumb" src="{{ author.avatar }}" alt="{{ author.display_name }}">
+                    <img class="author-thumb" src="{{ author.avatar }}" alt="{{ author.display_name }}">
                 </span>                
                 <span class="author-meta">
-                <span class="post-name text-muted">{{ author.display_name }}</span><br/>
-                {% endif %}
+                    <meta itemprop="author creator" content="{{ author.display_name }}">
+                    <span class="post-name d-block" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                        <span itemprop="name">{{ author.display_name }}</span>
+                        <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                            <meta itemprop="url" content="{{ site.url }}/{{ site.logo }}">
+                            <meta itemprop="width" content="60">
+                            <meta itemprop="height" content="60">
+                        </span>
+                        <meta itemprop="url" content="{{site.url}}">
+                    </span>
+                    {% endif %}
+                    <span class="post-date" itemprop="dateCreated datePublished dateModified">{{ post.date | date_to_string }}</span>
+                </span>
+                <span class="post-read-more">
+                    <a target="_blank" href="https://www.instagram.com/{{ author.instagram }} " rel="nofollow">
+                        <i class="logo-instagram fab fa-instagram mr-2 fa-2x"></i>
+                    </a>
+                    <a target="_blank" href="{{ author.facebook }} " rel="nofollow">
+                        <i class="logo-instagram fab fa-facebook mr-2 fa-2x"></i>
+                    </a>
+                </span>
+                <div class="clearfix"></div>
             </div>
-        </div>
-    </div>
-</div>
+        </footer>
+    </div> 
+</article>
+
 <!-- end post -->
