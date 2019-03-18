@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Palmarès Nicolas Jouanno
+title: Palmarès cycliste
 permalink: /results.html
 ---
 

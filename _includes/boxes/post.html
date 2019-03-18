@@ -15,7 +15,7 @@
             <section itemprop="articleBody">
                 <div class="d-block mb-3 text-center">
                     {% for category in post.categories %}
-                        <h3 class="badge"><a href="{{ site.baseurl }}/categories/{{ category  | downcase }}.html">#{{ category }}</a></h3>
+                        <h3 class="badge text-primary">#{{ category }}</h3>
                     {% endfor %}
                 </div>
                 <div class="card-text">
@@ -44,10 +44,10 @@
                     <span class="post-date" itemprop="dateCreated datePublished dateModified">{{ post.date | date_to_string }}</span>
                 </span>
                 <span class="post-read-more">
-                    <a target="_blank" href="https://www.instagram.com/{{ author.instagram }} " rel="nofollow">
+                    <a target="_blank" href="https://www.instagram.com/{{ author.instagram }} " rel="me">
                         <i class="logo-instagram fab fa-instagram mr-2 fa-2x"></i>
                     </a>
-                    <a target="_blank" href="{{ author.facebook }} " rel="nofollow">
+                    <a target="_blank" href="{{ author.facebook }} " rel="me">
                         <i class="logo-instagram fab fa-facebook mr-2 fa-2x"></i>
                     </a>
                 </span>
