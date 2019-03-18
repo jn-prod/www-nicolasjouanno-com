@@ -129,11 +129,11 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
     {% for technologie in site.data.technologies %}
 
       <div class="col-md-3 col-sm-6 mx-auto">
-        <a href="{{technologie.url}}" class="d-inline-block m-3 tech-icon">
+        <div class="d-inline-block m-3 tech-icon">
 
           {% if technologie.fontawesome %}
 
-            <i class="{{technologie.fontawesome}} fa-3x"></i>
+            <i class="{{technologie.fontawesome}} fa-3x text-primary"></i>
 
           {% else if technologie.icon %}
 
@@ -143,7 +143,7 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 
           <h4 class="text-muted d-block text-center font-secondary h6 font-weight-bold mt-2 icon-title">{{technologie.name}}</h4>
           <small class="text-muted">{{technologie.description}}</small>
-        </a>
+        </div>
       </div>
 
     {% endfor %}
