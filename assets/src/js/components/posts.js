@@ -54,7 +54,7 @@ var posts = () => {
       }
 
       // Load the JSON file containing all URLs
-      $.getJSON('https://blog.nicolasjouanno.com/api/posts.json', (data) => {
+      $.getJSON('https://nicolasjouanno.com/api/posts.json', (data) => {
         var posts = data['posts']
 
         posts.forEach((post) => {

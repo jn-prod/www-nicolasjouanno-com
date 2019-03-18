@@ -15,7 +15,7 @@ tags:
 author: nicolas
 image: assets/public/images/posts/batman-blesse.jpg
 ---
-<em>Si tu fais partie de ceux qui sont restés sur leur fin à la lecture de la <a href="https://blog.nicolasjouanno.com/pourquoi-tombons-nous.html">première partie de cette story</a> bonne lecture. bonne lecture. Sinon bon rattrapage et bonne lecture !</em>
+<em>Si tu fais partie de ceux qui sont restés sur leur fin à la lecture de la <a href="/pourquoi-tombons-nous.html">première partie de cette story</a> bonne lecture. bonne lecture. Sinon bon rattrapage et bonne lecture !</em>
 
 Malgré tout le monde qui m’entourait, je ne me suis jamais senti aussi seul. Il n’y a rien de pire que d’être dans l’attente. L’attente d’une expression sur un visage, l’attente d’une parole, l’attente d’un avis médical. Encore sonné par le choc et shooté par les antidouleurs, je me repose pendant que les infirmiers panses mes plais. Sur la hanche, les bras, les mains et le visage… la liste s’allonge à chaque moment de lucidité. Quelques minutes plus tard, je pars avec le brancardier à la découverte des couloirs de l’hôpital, quittant les urgences pour réaliser quelques examens. Les médecins veulent en savoir plus sur ce qui se passe dans mon corps et moi aussi. Je veux aussi comprendre d’où viennent ces douleurs et savoir quand je pourrais remonter sur un vélo.
 
