@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Pourquoi tombons-nous ? - partie 1"
+date: 2018-12-14 09:00:00.000000000 +02:00
+type: post
+
+categories:
+- Inspiration
+
+tags:
+- Sport
+- Chute
+
+author: nicolas
+image: assets/public/images/posts/route-de-montagne.jpg
+---
+<em>Ce n'est pas la première fois que vous dit que le sport est une école de la vie. Aujourd'hui, encore, cet article en sera un parfait exemple. Le programme du jour est simple, est parfaitement décrite par l'une de mes citations favorites tirée de Batman. Il s'agit de cette phrase prononcée par Alfred: "Pourquoi tombons-nous M. Wayne? Pour apprendre à mieux se relever."</em>
+
+J'ai voulu commencé par cette citation parce que je la trouve si représentative de la vie d'un sportif, mais aussi, plus largement, de la condition humaine. Les chutes sont formatrices. Je me souviendrais toute ma vie de ce surnom donné par le CTR (ndlr: Conseillé Technique Régional, entendez par là sélectionneur) de Bretagne Samuel Monnerais. Nous sortions d'un stage à Camors en vue d'une sélection pour le championnat de France. Alors sur la ligne de départ avec les meilleurs cadets bretons (oui, ce souvenir n'est pas tout jeune), j'étais gonflé à bloc. Enfin au sens littérale, j'avais 4 bars dans le pneus de mon vélo de cyclo-cross. Sur le circuit gras et gravillonneux de Camors, ce choix technique n'était pas des plus judicieux. Je n'ai plus précisément en tête mon classement du jour, mais ce qui est sûr c'est que je n'ai pas gagné. Une chute sur une partie glissante, sans gravité, causée par une trop classique perte d'adhérence, m'auras valu ce surnom de "4 bars" et la perte de quelques places et du podium! Inutile de vous dire qu'à partir de ce jour-là, je n'ai plus jamais négligé la pression dans mes pneus et inspiré quelques moqueries !
+
+Une autre chute qui m'aura marquée quelques années plus tard, était sur route, à Plumelin. Lorsque je tombe dans les derniers kilomètres de la course, nous n'étions plus que deux en tête, avec une confortable avance. Je m'en souviens non pas parce que j'ai été éliminé sur sur chute, mais parce que mon conccurent à eu la sportivité de m'attendre ne voulant pas gagner d'une façon "anti-sport". Bilan de l'histoire, après cette glissade, on termine tous les deux dans un sprint que je gagne. Ce jour-là, mon intrépidité aurait pu me coûter bien plus que de simples bleu. J'aurais au moins appris qu'il n'était pas utile de prendre autant de risques pour deux secondes alors qu'il y en avait bien plus à perdre.
+
+Mais "la chute", c'est aussi comme l'institutrice, à l'école, qui te dit rabâche sans cesse qu'il ne faut pas oublier le "s" derrière les "tu" pour en prendre l'automatisme. Sauf que j'ai été mal éduqué, ou habitué, par les chutes (et même l'orhographe!). Des chutes, dans ma carrière, finalement, je n'en ai connue que très peu, préférant surfer sur mon agilité et une certaine "ruse" pour les éviter. Si je préférais m'échapper rapidement des pelotons pour éviter de trop frotter avec mes 1m72 et 62kg. Parfois, même souvent, finalement, chez les professionnels, rester au chaud dans le peloton était inévitable. Alors, je m'étais mis à prendre comme jeu les sprints massif, servant souvent de poisson pilote à nos sprinteurs, parfois me classant, slalomant entre les vélos à terre et m'appuyant sur les armoires de belges pour rester en selle. Je profitais des descentes de col pour faire des pointes de vitesse et "travailler" de belles trajectoires extérieur-intérieur-extérieur.
+
+Seulement, à force de jouer avec le feu on se brûle! Un jour de mars 2010, ma bonne étoile avait décidée de me donner une leçon. Et une bonne pour le coup! Comme un gamin en Corse, pour le départ du critérium international aux cotés de Lance Amstrong, Alberto Contador, ... bref la crème de la crème. Ce n'est pas dans une échappé que j'aurais passé ma journée, ni dans le peloton, mais dans le gruppetto. Cette première étape, qui nous amenait dans les cols du centre de l'ile de beauté, pourtant ,je l'attendais avec impatience. Avec en tête les bons souvenirs passés sur la Route du Sud l'année précédente, j'espérais y trouver mes premières "bonnes" sensations en montagne. A défault de les trouver dans les montés, je les ai cherchées dans la descente. Les routes de Corses nous font traverser des paysages magnifiques, alors, incrédule, j'y ai cherché un plaisir de pilotage dans les épingles. Si j'avais su que cette épingle avait des gravillons dans son intérieur, que mon boyau arrière se décollerait sous la chaleur du gros freinage nécessaire pour rétablir la trajectoire. Si je l'avais su, j'aurais tempéré mes ardeurs, m'évitant l'inévitable: la paroi du col que nous descendions quelques minutes derrière le peloton.
+
+Les minutes qui suivent sont vagues. Je me réveille dans les bras de l'un de nos accompagnateurs qui fermait la marche et qui me disait de ne pas bouger, d'attendre l'ambulance. Ce qu'il ignorait, c'est que même avec la plus grande des volontés, je ne pouvais le contre-dire, je ne pouvais, simplement, pas bouger. J'avais mal partout: la tête, les bras, la hanche. Je savais que quelque chose n'allait pas. Mais je ne savais pas quoi. Mon casque était cassé, mes lunettes aussi. Je n'avais jamais connu pareille violence. Pourtant, j'avais laissé, par le passé, quelques dents sur le bitume d'un skate-park. Quelques flashs, plus tard, je me réveille à l'hôpital, sous anti-douleurs. Face à moi, se positionnait le manager de l'équipe, de médecin de l'équipe et quelques membres du staff de l'équipe qui servait d'îlot directionnel aux services médicaux de l'hôpital.
+
+<em>Pour lire la suite, il faudra attendre l'email de la semaine prochaine. En attendant, vous pouvez transférer cet article à votre liste de contacts et le partagez sur vos réseaux sociaux. L'histoire ne fait que commencer, vous me parlez d'un livre ... Mais à quel point le voulez-vous? Dites-le moi en réponse à cet email, montrez-le moi sur les réseaux.</em>

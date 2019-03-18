@@ -1,0 +1,58 @@
+---
+layout: default
+title: Stories
+---
+    
+<!-- Posts Index
+================================================== -->
+<section class="recent-posts">
+
+    <div class="row">
+
+        {% include stories-header.html %}
+
+    </div>
+
+    <div class="container mt-5">
+
+        <div class="section-title">
+            
+            <h1 class="mt-5 mb-5 text-center font-primary">Toutes les <span class="bg-primary-light p-3 text-primary border-primary">stories</span></h1>
+            
+        </div>
+        
+        <div class="row pt-2">
+
+            {% for post in paginator.posts %}
+
+                {% include postbox.html %}
+
+            {% endfor %}
+            
+        </div>
+
+        <!-- Pagination
+        ================================================== -->
+        <div class="bottompagination mt-3 mb-5">
+            <div class="pointerup">
+                <i class="fa fa-caret-up"></i>
+            </div>
+            <div class="navigation text-center" role="navigation">
+                {% include pagination.html %}
+            </div>
+        </div>  
+
+    </div>
+    
+</section>
+
+<aside>
+    <!-- Newsletter
+    ================================================== -->
+    <div class="container">
+
+        {% include newsletter.html %} 
+        
+    </div>
+
+</aside>
