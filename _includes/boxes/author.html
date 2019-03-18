@@ -1,0 +1,50 @@
+<!-- Author Box -->     
+
+<div class="d-flex mb-3 px-5">
+    <div class="d-inline">
+        <img class="img-fluid mx-auto d-inline" src="{{ author.avatar }}" alt="{{ author.display_name }}" style="max-height: 90px; width: auto;">
+        <meta itemprop="author creator" content="{{ author.display_name }}">
+    </div>
+    <div class="d-inline my-auto ml-3 text-muted">  
+        <div class="d-block">
+            <!-- Post Categories -->
+            <span class="text-center text-primary pt-2">
+                {% for category in page.categories %}
+                <a href="{{site.baseurl}}/categories/{{category}}.html" class="mr-2">#{{category}}</a>
+                {% endfor %}
+            </span>            
+        </div>  
+
+        <div class="d-block">
+            <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                <span itemprop="name" class="font-weight-bold text-dark d-inline">Par {{ author.display_name }},</span>
+                
+                <!-- Post Date -->
+                {% if page.date %}
+                    <span class="">
+                        <time class="post-date" itemprop="dateCreated datePublished dateModified" datetime="{{ page.date | date:"%Y-%m-%d" }}">le {{ page.date | date_to_string }}</time>
+                    </span>
+                {% endif %} 
+
+                <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                    <meta itemprop="url" content="{{ site.url }}/{{ site.logo }}">
+                    <meta itemprop="width" content="60">
+                    <meta itemprop="height" content="60">
+                </span>
+                <meta itemprop="url" content="{{site.url}}">
+            </span>                
+        </div>
+
+        <div class="d-block">
+            <a target="_blank" class="link-dark ml-1" href="{{ author.facebook }}" rel="nofollow">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a target="_blank" class="link-dark ml-1" href="https://www.instagram.com/{{ author.instagram }}/" rel="nofollow">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a target="_blank" class="link-dark ml-1" href="{{ author.twitter }}/" rel="nofollow">
+              <i class="fab fa-twitter"></i>
+            </a>            
+        </div>            
+    </div>
+</div>

@@ -41,17 +41,17 @@ layout: default
 
                 {% if page.url == "/portfolio.html" %}
 
-                  {% include sidebar-offres.html %}
+                  {% include /sidebar/offres.html %}
 
                 {% endif %}
 
                 {% if page.url == "/about.html" %}
 
-                  {% include sidebar-bio.html %}
+                  {% include /sidebar/bio.html %}
                   
                 {% endif %}
 
-                {% include sidebar-activities.html %}
+                {% include /sidebar/activities.html %}
                 
               </div>
             </div>
@@ -84,7 +84,7 @@ layout: default
             </div>
           </div>
           
-          {% include cv.html %}
+          {% include /plugins/cv.html %}
 
         </div>
       </div>

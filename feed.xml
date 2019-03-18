@@ -5,8 +5,8 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.meta_description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <description>{{ site.headline | xml_escape }}</description>
+    <link>{{ site.url }}/</link>
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
@@ -16,9 +16,13 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <description>
             {% if post.image %}
-                <![CDATA[<img src="{{ post.image | cdata_escape }}" alt="{{ post.title | xml_escape }}"/>]]>
+                <![CDATA[<a href="{{ site.url }}{{ post.url }}" target="_blank"><img src="{{ site.url }}/{{ post.image | cdata_escape }}" alt="{{ post.title | xml_escape }}"/></a><br><p><em>Salut,</em></p><br>]]>
             {% endif %}
-            {{ post.content | xml_escape }}</description>
+
+            {{ post.content | xml_escape }}
+
+            <![CDATA[<p>Bonne route !</p><p>Initialement publié sur <a href="{{ site.url }}{{ post.url }}" target="_blank">blog.nicolasjouanno.com</a></p>]]>
+        </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>

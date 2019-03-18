@@ -1,0 +1,49 @@
+---
+layout: default
+title: Archive
+---
+
+<!-- Begin List Posts
+================================================== -->
+<section class="recent-posts">
+
+  <div class="row">
+
+    {% include /boxes/labels.html %}
+
+  </div>
+
+  <div class="container mt-5">
+
+    <div class="section-title py-3">
+
+        <h1 class="font-primary text-center mb-5">Stories de la <span>{{ page.type }} <a href="{{page.url}}" class="bg-primary-light p-2 text-primary border-primary">#{{ page.title }}</a></span></h1>
+        
+    </div>
+
+    <div class="row listrecent pt-2">
+
+      {% for post in site.posts %}
+
+          {% if post.categories contains page.title %}
+
+            {% include /boxes/post.html type=page.entries_layout %}
+
+          {% endif %}
+
+      {% endfor %}
+
+    </div>    
+  </div>
+
+</section>
+
+<aside>
+
+  <div class="container">
+    <!-- Newsletter
+    ================================================== -->
+    {% include /plugins/newsletter.html %}   
+    
+  </div>
+</aside>  

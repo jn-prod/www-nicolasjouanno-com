@@ -17,9 +17,11 @@ title: Archive
 
   <div class="row listrecent">
 
-    {% for post in site.posts %}
+    {% assign lessons = site.posts | where: "categories","academy" %}
 
-      {% include postbox.html type=page.entries_layout %}
+    {% for post in lessons %}
+
+      {% include /boxes/post.html type=page.entries_layout %}
 
     {% endfor %}
 

@@ -2,3 +2,53 @@
   max-height: 90px;
   border: none !important;
 }
+
+.bg-light-transparent {
+    background-color: #f8f9facc !important
+}
+
+.bg-index {
+  background-color: #0015;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+  color: #FFF;
+  background-size: cover;
+  background-position: 50%;
+  text-shadow: 1px 1px 2px black;
+}
+
+.bg-header {
+    background-image: url(./images/header.jpg);
+    background-size: cover;
+    background-position: 50%;    
+}
+
+.bg-coulisse {
+  background-image: url(./images/coulisse.jpg);
+}
+
+.bg-atelier {
+  background-image: url(./images/atelier.jpg);
+}
+
+.bg-aventure {
+  background-image: url(./images/aventure.jpg);
+}
+
+.bg-inspiration {
+  background-image: url(./images/inspiration.jpg);
+}
+
+.bg-coach {
+  background-image: url(./images/coach.jpg);
+}
+
+.bg-vestiaire {
+  background-image: url(./images/vestiaire.jpg);
+}
+
+.bg-podcast {
+  background-image: url(./images/podcast.jpg)
+}

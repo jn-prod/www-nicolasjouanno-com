@@ -15,9 +15,9 @@ cta: Demander un devis
 
     <div class="pt-3 mb-5 d-block sticky-top">
 
-      {% include sidebar-toolbox.html %}
+      {% include /sidebar/toolbox.html %}
 
-      {% include sidebar-activities.html %}
+      {% include /sidebar/activities.html %}
 
     </div>
   </div>
@@ -39,7 +39,7 @@ cta: Demander un devis
 
           {% for tool in category.tools %}
 
-            {% include toolbox.html %}
+            {% include /boxes/tool.html %}
 
           {% endfor %} 
 
