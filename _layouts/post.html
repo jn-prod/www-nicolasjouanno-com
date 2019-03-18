@@ -73,7 +73,7 @@ post_class: post-template
                 </div>
 
                 <!-- Post Content -->
-                <section class="article-post text-justify" itemprop="articleBody">
+                <section class="text-justify" itemprop="articleBody">
                     
                     {% include /boxes/ads.html %}
 
@@ -87,13 +87,17 @@ post_class: post-template
 
                     {% endif %}
 
-                    <em class="d-block mb-2">Bonjour,</em><br>
+                    <div class="article-post">
+                        
+                        <em class="d-block mb-2">Bonjour,</em><br>
 
-                    {{content}}
+                        {{content}}
 
-                    <p>Bonne route !</p>
+                        <p>Bonne route !</p>
 
-                    <p>- Nicolas</p>   
+                        <p>- Nicolas</p>   
+
+                    </div>
 
                 </section>
 
