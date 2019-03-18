@@ -89,7 +89,9 @@ h2: Créer et piloter votre stratégie produit n'aura plus de secret.
 
   <div class="row listrecent mb-3">
 
-    {% for post in site.lessons limit: 3 %}
+    {% assign lessons = site.posts | where: "categories","academy" %}
+
+    {% for post in lessons limit: 3 %}
 
       {% include /boxes/post.html type=page.entries_layout %}
 

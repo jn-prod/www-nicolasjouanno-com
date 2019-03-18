@@ -24,8 +24,12 @@ title: Stories
         <div class="row pt-2">
 
             {% for post in paginator.posts %}
+            
+                {% unless post.categories contains 'academy' %}
 
-                {% include /boxes/post.html %}
+                    {% include /boxes/post.html %}
+
+                {% endunless %}
 
             {% endfor %}
             
