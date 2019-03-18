@@ -1,5 +1,7 @@
 ---
 layout: stories/landing
+title: "Conditions des publicités dans les stories"
+seo_description: "Conditions des publicités dans les stories"
 name: Conditions de publicité
 permalink: /advertise/terms.html
 ---

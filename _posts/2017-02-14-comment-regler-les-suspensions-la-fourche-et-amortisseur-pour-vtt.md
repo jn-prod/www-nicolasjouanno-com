@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Suspension VTT: Tout savoir sur le réglage de la fourche et de l’amortisseur'
+title: 'Comment régler les suspensions de son VTT, de la fourche à l’amortisseur'
 date: 2017-02-14 07:48:53.000000000 +01:00
 type: post
 

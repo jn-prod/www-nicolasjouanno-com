@@ -85,7 +85,7 @@ devis_link: "/devis.html"
 
 # Outputting
 permalink : /:title:output_ext
-paginate: 9
+paginate: 24
 paginate_path: /stories/latest/page:num/
 
 # Plugins

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Dois-je changer de roues de mon VTT et choisir les Mavic Crossmax ?'
+title: '8 raisons de choisir les roues de VTT Mavic Crossmax'
 date: 2014-08-10 21:02:19.000000000 +02:00
 type: post
 
@@ -21,7 +21,7 @@ image: "assets/public/images/posts/9c05d-05lwfpqvtdkfbts1o.jpg"
 ## Au programme
 
 1. [Changer les roues de votre VTT](#preambule)
-2. [8 raisons de choisir les roue Crossmax SLR (27,5/29 pouces)](#raisons)
+2. [8 raisons de choisir les roues Crossmax SLR (27,5/29 pouces)](#raisons)
 3. [Le choix des pilotes professionnel](#mavic-crossmax)
 
 ## Changer les roues de votre VTT {#preambule}
@@ -30,7 +30,7 @@ Vient alors l’obsession de chercher à faire faire un régime à son VTT … 
 
 Nous vous conseillons de changer votre <strong>paire de roues</strong> au <strong>poids et qualités mécaniques</strong> plus que douteuses. Pour 8 raisons que vous découvrirez plus bas, opter pour la firme française: <strong>Mavic</strong> et le look agressif de sa <strong>Crossmax SLR</strong> que vous soyez en roues de 29" ou 27,5".
 
-## 8 raisons de choisir les roue Crossmax SLR (27,5/29 pouces) {#raisons}
+## 8 raisons de choisir les roues Crossmax SLR (27,5/29 pouces) {#raisons}
 
 ### 1) Roues avec des jantes en usinage 3D
 

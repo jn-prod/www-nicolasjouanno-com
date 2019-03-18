@@ -1,14 +1,16 @@
 # main
-- name: 'Podcast'
-  home: true
-  navigation: true
-  link: 'podcast.html'
-  bg-class: 'bg-podcast'
 - name: 'Inspiration'
   home: true
   navigation: true
   link: 'inspiration.html'
   bg-class: 'bg-inspiration'
+
+- name: 'Podcast'
+  home: true
+  navigation: true
+  link: 'podcast.html'
+  bg-class: 'bg-podcast'
+  
 - name: 'Atelier'
   home: true
   navigation: true
