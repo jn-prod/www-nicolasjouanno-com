@@ -21,8 +21,8 @@
                 
                 <!-- Post Date -->
                 {% if page.date %}
-                    <span class="">
-                        <time class="post-date" itemprop="dateCreated datePublished dateModified" datetime="{{ page.date | date:"%Y-%m-%d" }}">le {{ page.date | date_to_string }}</time>
+                    <span class="post-date">
+                        le <time itemprop="dateCreated datePublished dateModified">{{ page.date | date_to_string }}</time>
                     </span>
                 {% endif %} 
 

@@ -84,7 +84,13 @@
     <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}">
 
     <!-- open graph card-->
-    <meta property="og:title" content="{{ page.title }} | {{site.title}}">
+
+    {% if page.title %}
+        <meta property="og:title" content="{{ page.title }} | {{site.title}}">
+    {% else %}
+        <meta property="og:title" content="{{ site.headline }} | {{site.title}}">
+    {% endif %}
+
     <meta property="og:type" content="article">
     {% if page.image %}
         <meta property="og:image" content="{{ site.url }}/{{ page.image }}">
