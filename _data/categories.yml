@@ -17,11 +17,11 @@
   link: 'life.html'
   bg-class: 'bg-life'
 
-- name: 'Podcast'
+- name: 'Culture'
   home: true
   navigation: true
-  link: 'podcast.html'
-  bg-class: 'bg-podcast'
+  link: 'culture.html'
+  bg-class: 'bg-culture'
 
 # secondary
 - name: 'Business'
@@ -85,3 +85,9 @@
   navigation: false
   link: 'tech.html'
   bg-class: 'bg-coulisse'
+
+- name: 'Podcast'
+  home: false
+  navigation: false
+  link: 'podcast.html'
+  bg-class: 'bg-podcast'
