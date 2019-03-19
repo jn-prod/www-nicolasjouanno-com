@@ -6,6 +6,7 @@ type: post
 image: assets/public/images/posts/e0a38-10yto40xd793dweahzoxsta.jpeg
 
 categories:
+- Digital
 - Productivité
 - Personal-growth
 - Experience
