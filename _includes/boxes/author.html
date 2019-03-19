@@ -22,7 +22,12 @@
                 <!-- Post Date -->
                 {% if page.date %}
                     <span class="post-date">
-                        le <time itemprop="dateCreated datePublished dateModified">{{ page.date | date_to_string }}</time>
+                        le 
+                        {% if page.layout == "post" %}
+                            <time>{{ page.date | date_to_string }}</time>
+                        {% else %}
+                            <time class="" itemprop="dateCreated datePublished dateModified" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
+                        {% endif %}
                     </span>
                 {% endif %} 
 
