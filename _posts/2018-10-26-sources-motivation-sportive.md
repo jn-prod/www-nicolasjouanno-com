@@ -35,7 +35,7 @@ On garde tous notre âme d'enfant.
 
 Regardez comment le monde n'existe plus pour un enfant quand il découvre une nouvelle chose. Encore plus, lorsqu' il s'approprie un nouveau jouet ! Je pense que le sport préserve notre âme d'enfant. On est tous à la recherche du plaisir lorsque l'on fait du sport. Nos équipements y contribuent pleinement, comme des jouets. Ils nous replongent en enfance quand nous les découvrons, les sortons et les entretenons. Ils améliorent nos sensations quand nous les choisissons pour leur technique. Ils nous donnent un style quand on les choisit avec goût. Ils rendent jaloux nous amis quand il s'agit d'une nouveauté.
 
-Bref ! Besoin d'idées pour votre prochain équipement, <a href="/shop/index.html">regardez le mien</a>.
+Bref ! Besoin d'idées pour votre prochain équipement, <a href="/shop.html">regardez le mien</a>.
 
 ## La météo {#meteo}
 
