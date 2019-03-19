@@ -6,7 +6,7 @@ type: post
 image: assets/public/images/posts/d5fc1-15p2d6fclh0dt9hc4wri4hw.jpeg
 
 categories:
-- Tech
+- Digital
 - Personal-growth
 - Experience
 - Coulisses

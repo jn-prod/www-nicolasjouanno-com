@@ -1,27 +1,27 @@
 # main
-- name: 'Inspiration'
+- name: 'Sport'
   home: true
   navigation: true
-  link: 'inspiration.html'
+  link: 'sport.html'
   bg-class: 'bg-inspiration'
+  
+- name: 'Digital'
+  home: true
+  navigation: true
+  link: 'digital.html'
+  bg-class: 'bg-coulisse'
+
+- name: 'Life'
+  home: true
+  navigation: true
+  link: 'life.html'
+  bg-class: 'bg-life'
 
 - name: 'Podcast'
   home: true
   navigation: true
   link: 'podcast.html'
   bg-class: 'bg-podcast'
-  
-- name: 'Atelier'
-  home: true
-  navigation: true
-  link: 'atelier.html'
-  bg-class: 'bg-atelier'
-
-- name: 'Coulisses'
-  home: true
-  navigation: true
-  link: 'coulisses.html'
-  bg-class: 'bg-coulisse'
 
 # secondary
 - name: 'Business'
@@ -49,15 +49,15 @@
   navigation: false
   link: '/productivite.html'
   bg-class: ''
-- name: 'Sport'
+- name: 'Inspiration'
   home: false
   navigation: false
-  link: '/sport.html'
+  link: 'inspiration.html'
   bg-class: ''
-- name: 'Tech'
+- name: 'Coulisses'
   home: false
   navigation: false
-  link: '/tech.html'
+  link: 'coulisses.html'
   bg-class: ''
 - name: 'Aventure'
   home: false
@@ -74,3 +74,14 @@
   navigation: false
   link: 'vestiaire.html'
   bg-class: 'bg-vestiaire'
+- name: 'Atelier'
+  home: false
+  navigation: false
+  link: 'atelier.html'
+  bg-class: 'bg-atelier'
+
+- name: 'Tech'
+  home: false
+  navigation: false
+  link: 'tech.html'
+  bg-class: 'bg-coulisse'

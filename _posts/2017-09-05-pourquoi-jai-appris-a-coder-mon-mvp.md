@@ -6,7 +6,8 @@ type: post
 image: assets/public/images/posts/ee0f0-1runhnmhrsyxmx90d-rppoa.jpeg
 
 categories:
-- Tech
+- Life
+- Digital
 - Coulisses
 
 tags:

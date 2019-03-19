@@ -6,6 +6,8 @@ type: post
 image: assets/public/images/posts/bb521-1zb2niurufsj65pccswxi7q.jpeg
 
 categories:
+- Life
+- Digital
 - Personal-growth
 - Experience
 - Coulisses

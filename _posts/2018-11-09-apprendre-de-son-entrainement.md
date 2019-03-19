@@ -8,7 +8,7 @@ categories:
 - Sport
 - Inspiration
 - Coach
-- Tech
+- Digital
 
 tags:
 - Sport
