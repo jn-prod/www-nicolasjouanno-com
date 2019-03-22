@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Je change mes habitudes sportives pendant l'inter-saison. Et vous ?"
+title: "#24 - Je change mes habitudes sportives pendant l'inter-saison. Et vous ?"
 date: 2018-10-19 09:00:00.000000000 +02:00
 type: post
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pourquoi j’ai appris à coder mon MVP ?
+title: #12 - Pourquoi j’ai appris à coder mon MVP ?
 date: 2017-09-05 17:17:22.000000000 +02:00
 type: post
 image: assets/public/images/posts/ee0f0-1runhnmhrsyxmx90d-rppoa.jpeg

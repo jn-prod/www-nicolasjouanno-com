@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Pourquoi je suis passé de Wordpress à Medium ?'
+title: '#13 - Pourquoi je suis passé de Wordpress à Medium ?'
 date: 2017-09-26 05:36:01.000000000 +02:00
 type: post
 image: assets/public/images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.png
