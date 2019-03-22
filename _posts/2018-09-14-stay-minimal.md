@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stay minimal ! Le début de la victoire."
+title: "#19 - Stay minimal ! Le début de la victoire."
 date: 2018-09-14 07:00:00.000000000 +01:00
 type: post
 

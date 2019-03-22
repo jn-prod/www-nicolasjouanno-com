@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Commencez à apprendre de votre entrainement."
+title: "#26 - Commencez à apprendre de votre entrainement."
 date: 2018-11-09 09:00:00.000000000 +02:00
 type: post
 
