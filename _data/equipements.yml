@@ -19,6 +19,7 @@
     - "trail"
     - "running"
   affilate_url: "http://track.effiliation.com/servlet/effi.redir?id_compteur=12855409&url=https://www.alltricks.fr/F-11912-chaussures-running/P-459359-new_balance_fresh_foam_hierro_v3_jaune_noir_homme"
+  featured: true
 - nom: "Haut Manches Longues Odlo Blackcomb Noir"
   marque: "Odlo"
   images:
@@ -56,6 +57,7 @@
   sports:
     - "cyclisme"
   affilate_url: "http://track.effiliation.com/servlet/effi.redir?id_compteur=12855409&url=https://www.alltricks.fr/F-10007-casques/P-50873-casque_giro_atmos_2_blanc_mat_noir"
+  featured: true
 - nom: "Lunettes OAKLEY Radar EV Path Blanc - PRIZM LowLight OO9208-6538"
   marque: "Oakley"
   images:
@@ -65,6 +67,7 @@
   sports:
     - "cyclisme"
   affilate_url: "http://track.effiliation.com/servlet/effi.redir?id_compteur=12855409&url=https://www.alltricks.fr/F-32745-masques-_-lunettes/P-338878-lunettes_oakley_radar_ev_path_blanc___prizm_lowlight_oo9208_6538"
+  featured: true
 - nom: "Selle Brooks B17 Special Marron"
   marque: "Brooks"
   images:

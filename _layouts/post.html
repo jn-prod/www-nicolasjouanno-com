@@ -61,7 +61,7 @@ post_class: post-template
                         <!-- Author Box -->
                         {% if page.author %}
 
-                            <div class="d-block border boder-muted border-bottom-0 border-right-0 border-left-0 pt-4">
+                            <div class="d-block pt-4">
                                
                                {% include /boxes/author.html %}  
 
@@ -177,6 +177,44 @@ post_class: post-template
 
             {% include /plugins/commentaires.html %}
 
+        </div>
+
+        <div class="d-block bg-light p-5 shadow rounded">
+
+            <div class="row mb-5 text-center">
+
+                <div class="col-12">
+
+                    <span class="h2">Découvrez la <a href="{{site.url}}/shop.html" class="bg-primary-light py-2 px-3 text-primary border-primary px-2">Vitrine</a></span>
+
+                </div>
+            </div>
+
+
+            <div class="row">
+
+                {% for equipement in site.data.equipements %}
+
+                    {% if equipement.featured == true %}
+
+                        <div class="col-md-4">
+
+                            {% include /boxes/featured-product.html %}
+
+                        </div>
+
+                    {% endif %}
+
+                {% endfor %}
+                
+            </div>
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="{{site.url}}/shop.html" class="btn btn-outline-primary">Tous les produits</a>
+                </div>
+            </div>
+            
         </div>
 
     </div>
