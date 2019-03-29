@@ -31,7 +31,7 @@ tags:
 - Vélobox
 
 ---
-*Aujourd'hui, découvrez la punchline de Yoann Stuck, une semaine d'avant course à avec Ryan Sandes, les 25 meilleures destinations pour randonner, s'entrainer sans courir, la vélobox.*
+*Aujourd'hui, découvrez la punchline de Yoann Stuck, une semaine d'avant course avec Ryan Sandes, les 25 meilleures destinations pour randonner, s'entrainer sans courir, la vélobox.*
 
 - [Yoann Stuck](https://www.anotherlife.fr) est un traileur français connus pour son parcours atypique et sa philosophie: "Avant, j’aimais la vie mais j’étais quelqu’un de mort. Aujourd’hui, je suis vivant." Avant de se mettre à la course à pieds, il performait dans "le levé de coude" et pesait 90 kilos pour un peu plus d’1 mètre 80. En 2018, il [remportait les 83Km](https://www.oxybol.fr/detail-de-la-course/crs_id/672/) de [BELLE ILE EN TRAIL](https://www.belle-ile-en-trail.org/). Découvrez son parcours atypique au micro des podcasts [ultra talk](https://podtail.com/fr/podcast/podcast-ultra-talk/-9-yoann-stuck-je-prefere-le-partage-a-la-victoire/) et [dans la tête d'un coureur](http://danslateteduncoureur.fr/yoann-stuck-podcast/)
 
