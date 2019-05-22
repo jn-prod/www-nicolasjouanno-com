@@ -19,6 +19,10 @@
   url: 
   fontawesome: "fab fa-node"
   description: "Framework Javascript"
+- name: "Ruby"
+  url: 
+  icon: "ruby.png"
+  description: "Langage de programmation"
 - name: "MONGO DB"
   url: 
   icon: "mongodb.png"
