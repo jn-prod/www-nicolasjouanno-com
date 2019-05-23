@@ -60,3 +60,7 @@
 .bg-culture {
   background-image: url(./images/culture.jpg)
 }
+
+.contact {
+  cursor: pointer;
+}
