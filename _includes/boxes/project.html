@@ -1,63 +1,95 @@
-<div class="row {% if page.url == "/portfolio.html" %}pb-5 border-bottom{% endif %} ">
+<div class="row {% if page.url == "/portfolio.html" %}pb-5 border-bottom mt-5{% endif %} ">
 
-  <div class="col-12 p-2 text-center mx-auto {% if page.url == "/portfolio.html" %}mt-5{% endif %}">
+  <div class="col-md-7 my-4 p-2 text-center mx-auto">
 
-    <span class="d-block p-2">
-
-      <img src="{{ project.images[0] }}" alt="{{ project.name }}" class="img-fluid">
-
-      <h3 class="mt-4 mb-4 h4 text-center">
-
-        <a href="{{ project.url }}" class="text-dark" target="_blank">
-
-          {{ project.name }}
-
-        </a>
-
-      </h3>
-      
-      <span class="my-3 d-block text-muted text-left font-weight-bold">
-        Type: 
-        {% if page.url != "/" %}
-          <a href="/offres/{{ project.type.url }}" class="text-dark">{{ project.type.name }}</a>
-        {% else %}
-          <span class="text-dark">{{ project.type.name }}</span>
-        {% endif %}
-      </span>
+    <div class="d-block p-2">
 
       {% if page.url == "/portfolio.html" %}
-        <em class="d-block mb-3 text-justify">{{ project.description }}</em>
+
+      <div class="row">
+        <div class="col-md-6 my-auto">
+          <h3 class="mb-4 h4 text-sm-center text-md-left">
+
+            <a href="{{ project.url }}" class="text-dark" target="_blank">
+
+              {{ project.name }}
+
+            </a>
+
+          </h3>          
+        </div>
+        <div class="col-md-6">
+          <span class="my-3 d-block text-muted text-sm-center text-md-right font-weight-bold">
+            Type: <span class="text-dark">{{ project.type.name }}</span>
+          </span>
+          <span class="my-3 d-block text-muted text-sm-center text-md-right font-weight-bold">
+            Année: <span class="text-dark">{{project.year}}</span>
+          </span>          
+        </div>
+      </div>
+
+      {% else %}
+
+        <h3 class="mb-4 h4 text-center">
+
+          <a href="{{ project.url }}" class="text-dark" target="_blank">
+
+            {{ project.name }}
+
+          </a>
+
+        </h3>          
+
+        <span class="my-3 d-block text-muted text-center font-weight-bold">
+          Type: <span class="text-dark">{{ project.type.name }}</span>
+        </span>   
+
+      {% endif %}
+      
+
+
+      {% if page.url == "/portfolio.html" %}
+        <p class="d-block mb-3 text-justify">{{ project.description }}</p>
 
         {% for expertise in project.expertises %}
 
-          <span class="font-weight-bold text-primary">
+          <span class="font-weight-bold btn btn-outline-primary border-top-0 border-left-0 border-right-0 border-bottom-bold mx-2">
 
             {{expertise}}
 
           </span>
 
-          {% if forloop.last == false %}
-           - 
-          {% endif %}
-
         {% endfor %} 
+        
 
-        <div class="d-block text-center mt-5">
+        {% if project.url %}
 
-          {% if project.url %}
+          <div class="d-block text-center mt-5">
 
             <a href="{{project.url}}" class="shadow btn btn-primary p-3" target="_blank">Découvrir <i class="fas fa-arrow-right ml-2"></i></a>
-          
-          {% endif %}
 
-          <span class="d-block mt-3 text-muted">Vous souhaitez réaliser un projet comme celui-ci ? <a href="{{site.devis_link}}" rel="nofollow" target="_blank">Demander un devis maintenant</a>.</span>
+          </div>
 
-        </div>
+        {% endif %}
+
+      {% else %}
+
+        <a href="{{ site.url }}/portfolio.html#{{ project.name }}" class="font-weight-bold btn btn-outline-primary border-top-0 border-left-0 border-right-0 border-bottom-bold">
+
+          détails du projet
+
+        </a>
 
       {% endif %}
 
-    </span>
+    </div>
 
-  </div> 
+  </div>
+
+  <div class="col-md-5 my-auto text-center py-2">
+    
+    <img src="{{ project.images[0] }}" alt="{{ project.name }}" class="img-fluid">
+  
+  </div>
 
 </div>  

@@ -1,26 +1,29 @@
 ---
-layout: activities
+layout: landing
 title: "Découvrez le portfolio des projets réalisés"
-summary: "Portfolio de Nicolas Jouanno, chef de projet web, webmarketing & webdesign freelance à Pontivy, Loudéac. Découvrez quelques projets réalisés en tant que product manager ou chef de projet marketing en entreprise ou en freelance durant ces dernières années."
+summary: "Portfolio de Nicolas Jouanno, chef de projet web, webmarketing & webdesign freelance à Pontivy, Bretagne. Découvrez quelques projets réalisés en tant que product manager ou chef de projet marketing en entreprise ou en freelance durant ces dernières années."
 permalink: "/portfolio.html"
+bg: profile-bg
+h1: Product Developper Fullstack
+h2: Je maitrise les problématiques marketing, design et tech. J'aime garder les choses simples et procurer une expérience propre et fonctionnel à vos clients.
+cta: Travaillons ensemble →
+footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondre à vos interrogations et à vous aider à développer votre projet.
 ---        
 <div class="main-content">
-  <div class="container-fluid ">
+  <div class="container">
 
     <!-- content -->
     <section>
 
-      <article>
+      {% for project in site.data.projects %}
 
-        <h2 class="my-5">Les projets récents</h2>
-
-        {% for project in site.data.projects %}
-        
-          {% include /boxes/project.html %}
+        <article id="{{ project.name }}">
           
-        {% endfor %}          
-  
-      </article>
+            {% include /boxes/project.html %}
+    
+        </article>
+      
+      {% endfor %}          
 
     </section>
 
@@ -28,3 +31,4 @@ permalink: "/portfolio.html"
 
 </div>
 
+{% include /cta/footer.html %}
