@@ -83,7 +83,7 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 
                 <span class="font-weight-bold d-block mt-3">
                   
-                  <a href="{{ site.url }}{{ expertise.url }}" class="border border-top-0 border-right-0 border-left-0 border-primary ml-2 border-bottom-bold ">
+                  <a href="{{ site.url }}{{ expertise.url }}" class="btn btn-outline-primary border-top-0 border-right-0 border-left-0 border-primary ml-2 border-bottom-bold font-weight-bold">
                     {{ expertise.cta }}<i class="fas fa-arrow-right ml-2"></i>
                   </a>
 
@@ -185,6 +185,38 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
   <div class="row mt-5">
     <div class="col-12">
       <a href="{{ site.url }}/toolbox.html" class="btn btn-primary shadow">Découvrir plus d'outils <i class="fas fa-arrow-right ml-2"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- projects -->
+<div class="container mb-5">
+  <div class="row">
+    <div class="col-12">
+      <h3 class="mt-5 pt-5 pb-2">Les derniers projets</h3>
+    </div>
+      {% for project in site.data.projects %}
+
+        {% if project.profile == true %}
+
+          <div class="col-md-6 text-center p-2">
+
+            <div class="d-block bg-light shadow border-muted rounded">
+              
+              {% include /boxes/project.html %}
+            
+            </div>
+          
+          </div>
+
+        {% endif %}
+        
+      {% endfor %}  
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-12 text-center">
+      <a href="{{ site.url }}/portfolio.html" class="btn btn-primary shadow">Découvrir plus de projets <i class="fas fa-arrow-right ml-2"></i></a>
     </div>
   </div>
 </div>

@@ -1,4 +1,5 @@
 - name: "Feezify:me"
+  year: "2018"
   profile: true
   type: 
     name: "Site applicatif"
@@ -7,14 +8,17 @@
   mission: "Création du site internet"
   expertises: 
     - "Product Management"
-    - "Développement d'une web app Node JS / MongoDB"
+    - "Développement fullstack"
     - "Growth Hacking"
-    - "UX/UI"
+    - "Design"
+    - "Content"
+    - "UX / UI"
     - "Side project"
   url: "https://app.nicolasjouanno.com"
   images: 
     - "/assets/public/images/projets/ext-3.png"
 - name: "Izir.fr"
+  year: "2014 - Aujourd'hui"
   profile: true
   type: 
     name: "Site applicatif"
@@ -23,15 +27,17 @@
   mission: "project management"
   expertises: 
     - "Product Management"
-    - "Développement d'une web app Node JS / MongoDB"
+    - "Développement fullstack"
     - "Gestion de projet agile"
-    - "UX/UI"
-    - "Analytics et Automation"
-    - "Paiement stripe"
+    - "Branding"
+    - "UX / UI"
+    - "Analytics"
+    - "Automation"
   url: "https://event.izir.fr"
   images:
     - "/assets/public/images/projets/ext-1.jpg"
 - name: "GO Sport"
+  year: "2016 - Aujourd'hui"
   profile: false
   type:
     name: "Site applicatif"
@@ -40,17 +46,18 @@
   mission: "Gestion de projet marketing et Création d'un intranet"
   expertises: 
     - "Gestion de projet"
-    - "Création et suivi de tableaux de bord"
-    - "Suivi du planning promotionnel"
-    - "Création des supports print" 
+    - "Reporting"
+    - "Print" 
     - "Email Marketing"
     - "Social Media Marketing"
-    - "Développement d'une web app Node JS / MongoDB"
-    - "Analytics et Automation"
+    - "Développement fullstack"
+    - "Analytics"
+    - "Automation"
   url: "#"
   images: 
     - "/assets/public/images/projets/ext-2.png"
 - name: "gael-lebellec.bzh"
+  year: "2017"
   profile: false
   type: 
     name: "Site vitrine"
@@ -59,13 +66,15 @@
   mission: "Création du site internet"
   expertises: 
     - "Gestion de projet"
-    - "Développement de site internet vitrine"
+    - "Développement front-end"
+    - "Design"
     - "API Google docs"
     - "Multilangue"
   url: "http://www.gael-lebellec.bzh/"
   images: 
     - "/assets/public/images/projets/ext-4.png"
 - name: "joliesbulles.com"
+  year: "2013"
   profile: false
   type: 
     name: "Site vitrine"
@@ -74,7 +83,7 @@
   mission: "Création du site internet"
   expertises: 
     - "Gestion de projet"
-    - "Création de site internet vitrine"
+    - "Webmaster"
     - "Intégration HTML5/CSS3"
     - "Optimisation SEO"
     - "Wordpress"

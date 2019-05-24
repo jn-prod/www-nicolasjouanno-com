@@ -52,9 +52,13 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 
         {% if project.profile == true %}
 
-          <div class="col-md-6 text-center">
+          <div class="col-md-6 text-center p-2">
+
+            <div class="d-block bg-light shadow border-muted rounded">
+              
+              {% include /boxes/project.html %}
             
-            {% include /boxes/project.html %}
+            </div>
           
           </div>
 
