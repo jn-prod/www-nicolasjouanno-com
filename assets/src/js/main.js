@@ -29,7 +29,7 @@ import '../css/icon.css'
 // import '../css/main.scss'
 
 // images
-import '../images/header.jpg'
+import '../images/profile-bg.jpg'
 import '../images/jumbotron.jpg'
 import '../images/vestiaire.jpg'
 import '../images/aventure.jpg'

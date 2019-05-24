@@ -3,87 +3,109 @@
   url: 
   fontawesome: "fab fa-html5"
   description: "HyperText Markup Language"
+  profile: true
 - name: "CSS 3"
   url: 
   fontawesome: "fab fa-css3-alt"
   description: "Feuilles de style"
+  profile: true
 - name: "JAVASCRIPT 5"
   url: 
   fontawesome: "fab fa-js"
   description: "Language de script"
+  profile: true
 - name: "JQUERY"
   url: 
   icon: "Jquery.png"
   description: "Librairie Javascript"
+  profile: true
 - name: "NODE JS"
   url: 
   fontawesome: "fab fa-node"
   description: "Framework Javascript"
+  profile: true
 - name: "Ruby"
   url: 
   icon: "ruby.png"
   description: "Langage de programmation"
+  profile: true
 - name: "MONGO DB"
   url: 
   icon: "mongodb.png"
   description: "Base de données"
+  profile: true
 - name: "BOOTSTRAP"
   url: 
   icon: "bootstrap.png"
   description: "Framework Front-End"
+  profile: true
 - name: "WEBPACK"
   url: 
   icon: "webpack.png"
   description: "Compileur Javascript"
+  profile: true
 - name: "GIT & GITHUB"
   url: 
   fontawesome: "fab fa-github"
   description: "Gestion de projet / versionning"
+  profile: true
 - name: "HEROKU"
   url: 
   icon: "heroku.png"
   description: "Hébergement"
+  profile: true
 - name: "STRIPE"
   url: 
   fontawesome: "fab fa-stripe"
   description: "Paiement en ligne"
+  profile: false
 - name: "MAILCHIMP"
   url: 
   fontawesome: "fab fa-mailchimp"
   description: "Mailing / Newsletter"
+  profile: false
 - name: "Convertkit"
   url: 
   icon: "convertkit.png"
   description: "Mailing / Newsletter"
+  profile: false
 - name: "ASANA"
   url: 
   icon: "asana.png"
   description: "Gestion de projet"
+  profile: false
 - name: "SKETCH"
   url: 
   fontawesome: "fab fa-sketch"
   description: "Design / Wireframe"
+  profile: false
 - name: "In-VISION"
   url: 
   fontawesome: "fab fa-invision"
   description: "Prototyping"
+  profile: false
 - name: "GOOGLE ANALYTICS"
   url: 
   fontawesome: "fab fa-google"
   description: "Tracking / Reporting"
+  profile: true
 - name: "SLACK"
   url: 
   fontawesome: "fab fa-slack-hash"
   description: "Gestion de projet"
+  profile: false
 - name: "JEKYLL"
   url: 
   icon: "jekyll.png"
   description: "Gestion de contenu"
+  profile: false
 - name: "WORDPRESS"
   url: 
   fontawesome: "fab fa-wordpress"
   description: "Gestion de contenu"
+  profile: false
 - name: "SHOPIFY"
   url: 
   icon: "shopify.png"
   description: "E-Commerce"
+  profile: false

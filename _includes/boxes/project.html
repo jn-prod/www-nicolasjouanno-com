@@ -1,6 +1,6 @@
-<div class="row pb-5 {% if page.url == "/portfolio.html" %}border-bottom{% endif %} ">
+<div class="row {% if page.url == "/portfolio.html" %}pb-5 border-bottom{% endif %} ">
 
-  <div class="col-12 p-2 text-center mx-auto mt-5">
+  <div class="col-12 p-2 text-center mx-auto {% if page.url == "/portfolio.html" %}mt-5{% endif %}">
 
     <span class="d-block p-2">
 
@@ -8,19 +8,11 @@
 
       <h3 class="mt-4 mb-4 h4 text-center">
 
-        {% if page.url == "/portfolio.html" %}
-
-          <a href="{{ project.url }}" class="text-dark" target="_blank">
-
-            {{ project.name }}
-
-          </a>
-
-        {% else %}
+        <a href="{{ project.url }}" class="text-dark" target="_blank">
 
           {{ project.name }}
 
-        {% endif %}
+        </a>
 
       </h3>
       
