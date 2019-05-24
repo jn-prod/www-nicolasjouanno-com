@@ -1,4 +1,5 @@
 - name: "Feezify:me"
+  profile: true
   type: 
     name: "Site applicatif"
     url: "site-applicatif.html"
@@ -14,6 +15,7 @@
   images: 
     - "/assets/public/images/projets/ext-3.png"
 - name: "Izir.fr"
+  profile: true
   type: 
     name: "Site applicatif"
     url: "site-applicatif.html"
@@ -30,6 +32,7 @@
   images:
     - "/assets/public/images/projets/ext-1.jpg"
 - name: "GO Sport"
+  profile: false
   type:
     name: "Site applicatif"
     url: "site-applicatif.html"
@@ -48,6 +51,7 @@
   images: 
     - "/assets/public/images/projets/ext-2.png"
 - name: "gael-lebellec.bzh"
+  profile: false
   type: 
     name: "Site vitrine"
     url: "site-vitrine.html"
@@ -62,6 +66,7 @@
   images: 
     - "/assets/public/images/projets/ext-4.png"
 - name: "joliesbulles.com"
+  profile: false
   type: 
     name: "Site vitrine"
     url: "site-vitrine.html"

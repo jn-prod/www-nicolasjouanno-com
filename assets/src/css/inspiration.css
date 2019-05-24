@@ -3,6 +3,10 @@
   background-position: 50%;
 }
 
+.profile-bg {
+  background-image: url(./images/profile-bg.jpg);
+}
+
 .inspiration-1 {
   background-image: url(./images/inspiration-1.jpg);
 }
