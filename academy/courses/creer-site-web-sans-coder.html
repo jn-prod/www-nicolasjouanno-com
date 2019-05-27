@@ -5,6 +5,7 @@ summary: "Créer un site internet est la porté de tout le monde, le tout est de
 permalink: "/cours/creer-site-web-sans-coder.html"
 form_portalId: "5421786"
 form_formId: "138f9ba6-2933-426b-a467-c1c08e495bca"
+id: 01
 ---
 
 <div class="row bg-light shadow p-5">
@@ -41,25 +42,25 @@ form_formId: "138f9ba6-2933-426b-a467-c1c08e495bca"
 
 <div class="row">
   <div class="col-12 px-5">
-    <h3 class="h4 text-primary my-3 ml-4">Partie 1. Définition du contenu</h3>
-    <p class="text-muted text-justify">Débutez avec la définition du contenu: définissez votre buyer personna, construisez votre "customer journey map", écrivez les "user stories", benchmarkez la concurence et cartographiez les flux utilisateur ("user flows")</p>
-    <h3 class="h4 text-primary my-3 ml-4">Partie 2. Organiser le contenu</h3>
-    <p class="text-muted text-justify">Définissez les objectifs marketing de chaque page, réalisez vos wire-frames (maquettes à main levé) et décrivez les fonctionnalités nécessaires.</p>
-    <h3 class="h4 text-primary my-3 ml-4">Partie 3. Prototyper le site</h3>
-    <p class="text-muted text-justify">C'est le moment de sélectionner le design qui correspond à votre cahier des charges et d'intégrer votre contenu final à votre travail.</p>
-    <h3 class="h4 text-primary my-3 ml-4">Partie 4. Mise en ligne du site</h3>
-    <p class="text-muted text-justify">Mettre en ligne son site ne prend que quelques minutes, pourtant le choix des mises à jours ne se fait pas en fonction de l'humeur, découvrez comment les prioriser.</p>
+    {% for lesson in site.data.courses %}
+      {% if lesson.id == page.id %}
+        {% for module in lesson.modules %}
+          <h3 class="h4 text-primary mt-5 mb-3 ml-4">{{ module.name }}</h3>
+          <p class="text-muted text-justify">{{ module.summary }}</p>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
   </div>
 </div>
 
 <div class="row my-5">
-  <div class="col-12">
+  <div class="col-12 px-5">
     <h2 class="mb-5">FAQ</h2>
-    <h3 class="text-primary my-3 h4">Faut-il savoir coder ?</h3>
+    <h3 class="text-primary my-3 h4 ml-4">Faut-il savoir coder ?</h3>
     <p>Non. Les parties 1 à 3 se réalise avec des outils simples comme la suite office ou google docs. La partie 4 utilise un CMS en ligne clé en main.</p>
-    <h3 class="text-primary my-3 h4">Les logiciels utilisés dans le cours sont-ils payant ?</h3>
+    <h3 class="text-primary my-3 h4 ml-4">Les logiciels utilisés dans le cours sont-ils payant ?</h3>
     <p>Non. Tout les outils utilisés dans ce cours sont libre de droit ou disposent de tarification freemium.</p>
-    <h3 class="text-primary my-3 h4">Ce cours est-il accompagner d'un suivi personnalisé ?</h3>
+    <h3 class="text-primary my-3 h4 ml-4">Ce cours est-il accompagner d'un suivi personnalisé ?</h3>
     <p>Non. Les cours et les coaching sont des services distinct. Pour profiter d'un suivi personnalisé rendez-vous sur l'espace de <a href="{{ site.url }}/coaching.html">coaching</a>.</p>
   </div>
 </div>
