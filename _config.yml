@@ -1,7 +1,7 @@
 # Site Settings
 locale           : "fr-FR"
 title            : "Nicolas Jouanno"
-headline         : "Fullstack Digital Project Manager reaching businesses goals."
+headline         : "Full Stack Digital Project Manager reaching businesses goals."
 url              : "https://nicolasjouanno.com"
 logo             : 'assets/public/images/brand/logo.png'
 comments:
