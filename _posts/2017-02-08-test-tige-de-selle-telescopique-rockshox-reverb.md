@@ -123,7 +123,7 @@ Un prix public TTC annoncé à 350€ le rockshox Reverb ne sera pas offerte à 
 Découvrez par vous le même le plaisir de rouler sur une <strong>tige de selle télescopique</strong> <strong>ROCKSHOX REVERB</strong> et profitez des bonnes adresses suivantes et de leurs <strong>prix attractifs</strong>:
 
 <figure>
-  <img alt="Tige de Selle Télescopique ROCKSHOX REVERB" src="{{ site.baseurl }}/assets/public/images/posts/2154b-0on0ct9jh4z8cleqj.jpg" />
+  <img alt="Tige de Selle Télescopique ROCKSHOX REVERB" src="{{ site.url }}/assets/public/images/posts/2154b-0on0ct9jh4z8cleqj.jpg" />
   <figcaption>Tige de Selle Télescopique ROCKSHOX REVERB</figcaption>
 </figure>
 <a href="http://track.effiliation.com/servlet/effi.redir?id_compteur=12855409&amp;url=https://www.alltricks.fr/Acheter/ROCKSHOX%2BREVERB" target="_blank" rel="nofollow" class="btn btn-outline-primary text-center">Acheter chez Alltricks</a>

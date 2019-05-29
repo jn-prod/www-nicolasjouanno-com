@@ -70,7 +70,7 @@ post_class: post-template
                         <div class="col-md-6">
                             <!-- Post Featured Image -->
                             {% if page.image %}
-                                <img class="featured-image img-fluid" src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
+                                <img class="featured-image img-fluid" src="{{ site.url }}{{ page.image }}" alt="{{ page.title }}">
                             {% endif %}
                             <!-- End Featured Image -->                                    
                         </div>
@@ -109,7 +109,7 @@ post_class: post-template
                         {{content}}
                         {% if page.author %}
                             <hr />
-                            <p><strong>Tu as aimé cette leçon?</strong> {{ author.post_cta}} <a href="{{ site.baseurl }}/newsletter.html">Commence à les recevoir</a>.</p>
+                            <p><strong>Tu as aimé cette leçon?</strong> {{ author.post_cta}} <a href="{{ site.url }}/newsletter.html">Commence à les recevoir</a>.</p>
                         {% endif %}
                     
                     </div>
@@ -138,7 +138,7 @@ post_class: post-template
                                 {% assign sortedCategories = page.tags | sort %}
                                 {% for category in sortedCategories %}
                                 <li>
-                                 <span href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</span>
+                                 <span href="{{ site.url }}/category/{{ category | slugify }}/">{{ category }}</span>
                                 </li>
                                 {% endfor %}
                             </ul>

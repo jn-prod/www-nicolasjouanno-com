@@ -39,7 +39,7 @@ J’ai fait le choix de rester sur un langage que je connaissais : le JavaScrip
 
 
 ## NodeJS: npm install
-<figure class="wp-caption"><img src="{{ site.siteurl }}/{{ site.imgpost }}/74ddb-1utch2gz4b5xfvt2dxhgnvq2x.jpeg" />
+<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/74ddb-1utch2gz4b5xfvt2dxhgnvq2x.jpeg" />
 <figcaption class="wp-caption-text">Node JS</figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ Les packages disponibles sous NodeJS ont été d’une grande utilité et leur d
 
 
 ## MongoDB la base de donnée NoSQL
-<figure class="wp-caption"><img src="{{ site.siteurl }}/{{ site.imgpost }}/16e54-1ta4qkthto-rmupnr08mbg.jpeg" />
+<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/16e54-1ta4qkthto-rmupnr08mbg.jpeg" />
 <figcaption class="wp-caption-text">MongoDB</figcaption>
 </figure>
 

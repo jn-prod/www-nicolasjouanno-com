@@ -51,7 +51,7 @@ Productlearn me permet de continuer le travail fait sur ma digitalisation à la 
 Productlearn c’est aussi l’occasion pour moi de me lancer un nouveau défi, avoir une voix internationale en parlant anglais. En effet, 90% des ressources qui le font avancer sont en anglais, l’anglais comme le code est universel.
 
 Je veux ainsi me créer de nouvelles opportunités d’audience. Il a à un grand nombre de créateurs, qui comme moi, qui ont soif d’apprendre de nouvelles choses et d’approfondir leurs compétences. Mais aussi de personnes qui peuvent avoir besoin de personnes compétentes pour aller plus loin plus vite.
-<figure><img src="{{ site.siteurl }}/{{ site.imgpost }}/f5775-132padbpxo-jwdxcnxynd6a.jpeg" /></figure>
+<figure><img src="{{ site.url }}/{{ site.imgpost }}/f5775-132padbpxo-jwdxcnxynd6a.jpeg" /></figure>
 
 ### Mon side project, la fusion de feezify:me + vtt.bzh
 

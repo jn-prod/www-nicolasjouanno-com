@@ -31,7 +31,7 @@ Dans ma première expérience entrepreneuriale, je me suis clairement laissé d�
 Il en était de même pour les emails qu’ils soient de clients ou de tierces, au mieux répondue avec un délai interminable, au pire, rester sans réponses. Inutile de vous faire un dessin sur la conséquence de cette méthode et sur l’image qu’elle projette. Je ne dirais pas que ça à coulé ma boite, mais ça ne l’a pas tirée vers le haut ! Sans compter la sensation désagréable de toujours courir après les mails sans savoir par où commencer quand j’ouvrais ma boite mail. Pire l’appréhension montante de voir de nouveaux emails arriver.
 
 C’est donc pour me débarrasser de ce vieux démons, qu’avant d’entamer une nouvelle expérience professionnelle, j’ai adopté radicalement du jour au lendemain l’inbox 0. C’est avec simplicité que j’ai archivé sans tri ni relecture tous les emails de plus d’un mois. Pour les emails de moins d’un mois, le tri était simple, un passage direct à la poubelle pour toutes les newsletters. Une relecture de tous les emails restant un à un que ce concluait soit par un archivage soit par une réponse.
-<figure><img src="{{ site.siteurl }}/{{ site.imgpost }}/0c183-1_g8fkft15lcn-3j_75pfaq.jpeg" />
+<figure><img src="{{ site.url }}/{{ site.imgpost }}/0c183-1_g8fkft15lcn-3j_75pfaq.jpeg" />
 </figure>
 
 Cela fait donc deux ans que j’applique quotidiennement l’inbox 0 (j’ai de façon certaine beaucoup moins de mail que Jean). Ma journée de travail commence sans comparaison plus positivement après avoir traité tous les emails et me procure un sentiment d’apaisement et de clairvoyance pour le reste de la journée.
