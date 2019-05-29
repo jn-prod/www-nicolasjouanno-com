@@ -39,7 +39,7 @@ Vous avez dit un site web ? Oui mais je ne sais pas coder, je ne suis pas déve
 Un CMS opensource type Wordpress, Joomla, Prestashop, Magento … que l’on héberge soit même chez OVH ou autre, coût de l’opération 5€/mois une flexibilité à 50% quand on ne sait pas coder avec un kit de module long comme mon bras. Vous aurez d’avantage de temps pour réfléchir à votre projet, comptez minimum 1 jour à 1 semaine et peu être quelques cheveux perdus en route !
 
 Lacé de passer des heures à configurer l’hébergement, la base de données, le CMS, le thème … payer un an d’hébergement pour un projet qui meurt quelques mois plus tard quand il n’atteint pas le marché. Les mois passent, les factures s’accumulent, le business modèle ne se valide pas, et “flop”, un autre projet qui n’a pas atteint son équilibre financier au cimetière.
-<figure class="wp-caption"><img src="{{ site.siteurl }}/{{ site.imgpost }}/189a1-1eanj7r6w5dwjh7wivduuda.jpeg" />
+<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/189a1-1eanj7r6w5dwjh7wivduuda.jpeg" />
 <figcaption class="wp-caption-text">HTML 5</figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ Et là, c’est l’évidence, c’est la JUNGLE!! Des langages, toujours plus d
 Je commence par le HTML5 “finger in the nose”. Il faut dire que les années à retoucher les thèmes Wordpress m’ont bien aidées. Ensuite, j’enchaîne direct sur le CSS3 découvre “flex” et la création d’un vrai thème responsive. Et pour gagner en rapidité je m’initie à Twitter Bootstrap et Fontawesome.
 
 Géniale maintenant, s’en est fini de la recherche DU thème responsive qui me convient, de la vectorisation d’image sur Skecth pour faire des icones qui ressemblent finalement aux standards actuels. Ça devient aussi simple que de se lancer sur squarespace. En plus, comme je comprends mon code, il m’est super simple de le faire évoluer et de l’optimiser pour le SEO.
-<figure class="wp-caption"><img src="{{ site.siteurl }}/{{ site.imgpost }}/fa4c1-1dhztb_t6gjm6j8ouhwcqxa.png" />
+<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/fa4c1-1dhztb_t6gjm6j8ouhwcqxa.png" />
 <figcaption class="wp-caption-text">GITHUB</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ C’est cool, j’ai appris à coder une page web statique en même pas un mois.
 L’économie de temps: “check” ! Bon, maintenant, il faut aller au bout de l’idée en économisant encore plus de $$$. Je paye un nom de domaine 1€, oui encore, mais c’est inévitable ! Je ne cède pas sur l’hébergement et ne l’ajoute pas à mon panier! Je me dis qu’il doit bien y avoir un moyen de ne pas payer d’hébergement trop cher quand on sait coder.
 
 Je découvre Github et son service Github pages et là c’est la révélation! Je dois rajouter une ligne à mon fil rouge: le versioning ! Car, oui, si l’on peut héberger une page statique avec ce service, ce n’est pas le but premier de celui-ci ! Quelques heures plus tard, les bases de Git et GitHub en poche, le site est en ligne et une nouvelle aventure commence.
-<figure class="wp-caption"><img src="{{ site.siteurl }}/{{ site.imgpost }}/e8b22-11czy1ngfc50mjx7vxlphqa.png" />
+<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/e8b22-11czy1ngfc50mjx7vxlphqa.png" />
 <figcaption class="wp-caption-text">NODE JS</figcaption>
 </figure>
 

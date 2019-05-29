@@ -36,7 +36,7 @@ Si Wordpress est un CMS véloce et flexible dans sa version de base plusieurs pi
 Un blog wordpress c’est comme un vélo du tour de France sur lequel on est tenté d’ajouter une panoplie d’accessoires ! Il faut savoir rester à l’essentiel ou faire proprement.</blockquote>
 
 Sur Medium, fini les thèmes mal codés et la liste de plugins à rallonge. Medium par son coté bridé offre un outil nativement optimisé et dégraissé. Faites un test GTmetrix entre ce post Medium et un de vos posts Wordpress… Les performances devraient à coup sûr vous faire rougir ! En plus, Medium optimise les images !
-<figure class="wp-caption"><img src="{{ site.siteurl }}/{{ site.imgpost }}/89321-1ocsggd4uae2pqgogfhhthq.png" />
+<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/89321-1ocsggd4uae2pqgogfhhthq.png" />
 <figcaption class="wp-caption-text">Test de performance gtmetrix.com</figcaption>
 </figure>
 <hr />

@@ -1,8 +1,7 @@
 # Site Settings
 locale           : "fr-FR"
 title            : "Nicolas Jouanno"
-headline         : "Product Developper Fullstack reaching positives goals."
-siteurl          : "https://nicolasjouanno.com"
+headline         : "Fullstack Digital Project Manager reaching businesses goals."
 url              : "https://nicolasjouanno.com"
 logo             : 'assets/public/images/brand/logo.png'
 comments:
