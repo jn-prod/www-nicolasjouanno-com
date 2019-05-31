@@ -2,7 +2,8 @@ nicolas:
     # global
     name             : "Nicolas"
     display_name     : "Nicolas Jouanno"
-    bio              : "Product Manager @izir.fr (ex-cycliste professionnel) - Quand je ne suis pas avec ma famille, je passe mon temps à faire du sport, écrire, coder, apprendre ..."
+    current_job      : "Chef de Projet Web Full Stack"
+    bio              : "Chef de Projet Web  Full Stack @izir.fr (ex-cycliste professionnel) - Quand je ne suis pas avec ma famille, je passe mon temps à faire du sport, écrire, coder, apprendre ..."
     age              : "31 ans"
     location         : "Pontivy"
     avatar           : "https://nicolasjouanno.com/assets/public/images/profile.png"
