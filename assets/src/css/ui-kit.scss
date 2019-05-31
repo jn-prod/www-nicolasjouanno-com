@@ -1,0 +1,332 @@
+@import '_colors';
+@import '_typography';
+
+/*colors*/
+.color-primary {
+  color: $primary-color !important;
+}
+
+/*default*/
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: $font-primary !important;
+}
+
+html, body, p, button {
+    font-family: $font-secondary !important;
+}
+
+a {
+ color:$primary-color;
+ transition:all 0.2s;
+}
+a:hover {
+  color: $secondary-color;
+  text-decoration:none;
+}
+ pre {
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   margin: 0 0 1.75em 0;
+   border: #E3EDF3 1px solid;
+   width: 100%;
+   padding: 10px;
+   font-size: 14px;
+   white-space: pre;
+   overflow: auto;
+   background: #F7FAFB;
+   border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .sitetitle {
+    font-size: .8rem !important;
+  }
+}
+
+/*font*/
+.font-primary {
+  font-family: $font-primary !important;
+  font-weight: 400 !important;
+}
+
+.font-secondary {
+  font-family: $font-secondary !important;
+}
+
+.text-secondary {
+  color: $primary-color !important;
+}
+
+.text-primary {
+  color: $primary-color !important;
+}
+
+/*buttons*/
+.btn {
+  border-radius: 0px;
+}
+
+.btn-primary {
+  background-color: $primary-color !important;
+  border-color: $primary-color !important;
+}
+
+.btn-primary:hover {
+  background-color: $secondary-color !important;
+  border-color: $secondary-color !important;
+}
+
+.btn-secondary {
+  background-color: $primary-color !important;
+  border-color: $primary-color !important;
+}
+
+.btn-secondary:hover {
+  background-color: $secondary-color !important;
+  border-color: $secondary-color !important;
+}
+
+.btn-outline-primary {
+  color: $primary-color !important;
+  border-color: $primary-color !important;
+}
+
+.btn-outline-primary:hover, .btn-outline-secondary:hover {
+  color: #FFF !important;
+  border-color: $secondary-color !important;
+  background-color: $secondary-color !important;
+}
+
+.btn-outline-secondary {
+  color: $primary-color !important;
+  border-color: $primary-color !important;
+}
+
+.btn-outline-primary, .btn-outline-secondary {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 3px;
+}
+
+.btn-outline-primary:hover, .btn-outline-secondary:hover {
+  color: #FFF !important;
+  border-color: $primary-color !important;
+  background-color: $primary-color !important;
+}
+
+/*links*/
+
+/*borders*/
+.border-primary {
+  border-color: $primary-color !important;
+}
+
+.border-bottom-bold {
+  border-bottom: solid 3px !important;
+}
+
+/*backgrounds*/
+.bg-primary {
+    background-color: $primary-color !important;
+}
+
+a.bg-primary:hover {
+    background-color: #000 !important;
+}
+
+.img-header-h {
+  height: 200px;
+}
+
+.inspiration-1, .inspiration-2, .inspiration-3, .inspiration-4, .inspiration-5 {
+  background-size: cover;
+  background-position: 50%;
+}
+
+.bg-profile {
+  background-image: url(./images/profile-bg.jpg);
+}
+
+.inspiration-1 {
+  background-image: url(./images/inspiration-1.jpg);
+}
+
+.inspiration-2 {
+  background-image: url(./images/inspiration-2.jpg);
+}
+
+.inspiration-3 {
+  background-image: url(./images/inspiration-3.jpg);
+}
+
+.inspiration-4 {
+  background-image: url(./images/inspiration-4.jpg);
+}
+
+.inspiration-5 {
+  background-image: url(./images/inspiration-5.jpg);
+}
+
+.bg-light-transparent {
+  background-color: #f8f9facc !important
+}
+
+.bg-index {
+  background-color: #0015;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+  color: #FFF;
+  background-size: cover;
+  background-position: 50%;
+  text-shadow: 1px 1px 2px black;
+}
+
+.bg-header {
+    background-image: url(./images/header.jpg);
+    background-size: cover;
+    background-position: 50%;    
+}
+
+.bg-coulisse {
+  background-image: url(./images/coulisse.jpg);
+}
+
+.bg-atelier {
+  background-image: url(./images/atelier.jpg);
+}
+
+.bg-aventure {
+  background-image: url(./images/aventure.jpg);
+}
+
+.bg-inspiration {
+  background-image: url(./images/inspiration.jpg);
+}
+
+.bg-coach {
+  background-image: url(./images/coach.jpg);
+}
+
+.bg-vestiaire {
+  background-image: url(./images/vestiaire.jpg);
+}
+
+.bg-podcast {
+  background-image: url(./images/podcast.jpg)
+}
+
+.bg-life {
+  background-image: url(./images/life.png)
+}
+
+.bg-culture {
+  background-image: url(./images/culture.jpg)
+}
+
+@media (max-width: 768px) {
+  .img-header-h {
+    height: 200px;
+  }
+}
+
+
+/*icons*/
+.tech-icon > img{
+  height: 48px;
+  width: auto;
+}
+
+.tech-icon:hover {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  border-radius: 3px;
+}
+
+.logo-instagram {
+    vertical-align: middle !important;
+}
+
+/*components*/
+#nav-top {
+    text-transform: uppercase;
+}
+
+#nav-top a {
+  font-weight: 900;
+  font-size: 0.8rem;
+  color: $dark-color;
+}
+
+.nav-link {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 3px #FFF;
+}
+
+.nav-link:hover, .nav-link-active {
+  border-bottom: solid 3px $primary-color;
+}
+
+.badge {
+    font-weight: 400 !important
+}
+
+.jumbotron {
+  background-color: #e9ecefb3 !important;
+  border-radius: 0 !important;
+}
+
+.contact {
+  cursor: pointer;
+}
+
+.img-thumbnail {
+  max-height: 90px;
+  border: none !important;
+}
+
+.card .img-fluid {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  max-height: 200px;
+}
+
+ @media (min-width:768px) {
+    .jumbotron.bg-footer {
+         background-image: url(./images/jumbotron.jpg);
+         background-size:cover;
+         background-position: center;
+    }
+     .jumbotron.fortags .col-md-4 {
+         background:rgba(0,0,0,0.75);
+         color:#fff;
+         height:350px;
+         margin-left:0;
+         padding-left:0;
+         padding-top:13%;
+    }
+     .jumbotron.fortags .row {
+         margin:0;
+    }
+}
+ .jumbotron.fortags span {
+     padding: 5px 10px 7px;
+     background: #222;
+     border-radius: 30px;
+     color: #fff;
+     text-transform: lowercase;
+     font-size: 0.8rem;
+}
+
+/*layouts*/
+@media (max-width: 768px) {
+  .sticky-top {
+    position: inherit !important;
+  }
+}
+

@@ -8,13 +8,11 @@ let cssConfig = []
 
 // global config
 if (!env) {
-  console.log('dev mode')
-  // DEVELOPPEMENT CONFIG
+  console.log('DEVELOPPEMENT CONFIG') // DEVELOPPEMENT CONFIG
   config = require('./webpack-config/dev')
   cssConfig.push('style-loader')
 } else {
-  console.log('prod mode')
-  // PRODUCTION CONFIG
+  console.log('PRODUCTION CONFIG') // PRODUCTION CONFIG
   config = require('./webpack-config/prod')
 }
 
@@ -29,7 +27,10 @@ cssConfig.push(
       minimize: true,
       sourceMap: true
     }
-  }
+  },
+  {
+    loader: 'sass-loader'
+  },
 )
 
 // global loader config

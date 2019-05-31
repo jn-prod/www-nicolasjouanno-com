@@ -49,11 +49,11 @@
 
 
       {% if page.url == "/portfolio.html" %}
-        <p class="d-block mb-3 text-justify">{{ project.description }}</p>
+        <p class="d-block mb-3 text-left">{{ project.description }}</p>
 
         {% for expertise in project.expertises %}
 
-          <span class="font-weight-bold btn btn-outline-primary border-top-0 border-left-0 border-right-0 border-bottom-bold mx-2">
+          <span class="font-weight-bold btn btn-outline-primary mx-2">
 
             {{expertise}}
 
@@ -74,7 +74,7 @@
 
       {% else %}
 
-        <a href="{{ site.url }}/portfolio.html#{{ project.name }}" class="font-weight-bold btn btn-outline-primary border-top-0 border-left-0 border-right-0 border-bottom-bold">
+        <a href="{{ site.url }}/portfolio.html#{{ project.name }}" class="font-weight-bold btn btn-outline-primary">
 
           détails du projet
 

@@ -22,24 +22,24 @@
           
           <li class="nav-item">
           
-            <a class="nav-link px-3 btn btn-outline-light {% if page.url == '/studio.html' %}border border-dark{% else %} border-0{% endif %} text-dark" href="{{ site.url }}/studio.html">Studio</a>
+            <a class="nav-link px-3 btn {% if page.url == '/studio.html' %}nav-link-active{% endif %}" href="{{ site.url }}/studio.html">Studio</a>
 
           </li>
 
           <li class="nav-item">
-            <a class="nav-link px-3 btn btn-outline-light {% if page.url == '/coaching.html' %}border border-dark{% else %} border-0{% endif %} text-dark" href="{{ site.url }}/coaching.html">On Demand</a>
+            <a class="nav-link px-3 btn {% if page.url == '/coaching.html' %}nav-link-active{% endif %}" href="{{ site.url }}/coaching.html">On Demand</a>
           </li>  
 
           <li class="nav-item">
-            <a class="nav-link px-3 btn btn-outline-light {% if page.url == '/academy.html' %}border border-dark{% else %} border-0{% endif %} text-dark" href="{{ site.url }}/academy.html">Academy</a>
+            <a class="nav-link px-3 btn {% if page.url == '/academy.html' %}nav-link-active{% endif %}" href="{{ site.url }}/academy.html">Academy</a>
           </li>  
 
           <li class="nav-item">
-            <a class="nav-link px-3 btn btn-outline-light {% if page.url contains 'stories' or page.url contains 'categories' or page.layout == 'post' %}border border border-dark{% else %} border-0{% endif %} text-dark" href="{{ site.url }}/stories.html">Stories</a>
+            <a class="nav-link px-3 btn {% if page.url contains 'stories' or page.url contains 'categories' or page.layout == 'post' %}nav-link-active{% endif %}" href="{{ site.url }}/stories.html">Stories</a>
           </li>     
 
           <li class="nav-item">
-            <a class="nav-link px-3 btn btn-primary ml-2 shadow {% if page.url == '/about.html' %}border border-dark{% else %} border-0{% endif %} text-white" href="{{ site.url }}/about.html">
+            <a class="nav-link px-3 bt ml-2 shadow {% if page.url == '/about.html' %}btn-outline-primary{% else %}btn-primary{% endif %} text-white" href="{{ site.url }}/about.html">
               <i class="fas fa-user mr-2"></i>Profile
             </a>
           </li>
