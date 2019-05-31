@@ -1,7 +1,7 @@
 ---
 layout: expertises
-title: Développeur back-end freelance, création d'une API
-summary: "Le développeur back-end, cet homme de l'ombre aux supers pouvoirs qui connectent les API pour enrichir l'expérience de vos utilisateurs"
+title: Développeur Back-end Freelance, création d'une API
+summary: "Le Développeur Back-end Freelance, cet homme de l'ombre aux supers pouvoirs qui connectent les API pour enrichir l'expérience de vos utilisateurs"
 header-img: "inspiration-5"
 permalink: "/expertises/developpeur-back-end.html"
 footer_cta: "Vous avez un projet d'API ou des développement back-end à réaliser sur votre site internet ou application mobile ? Commençons à en parler maintenant."
