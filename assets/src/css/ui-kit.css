@@ -1,0 +1,222 @@
+/*colors*/
+.color-primary {
+    color: rgb(0, 144, 142) !important;
+}
+
+/*buttons*/
+.btn {
+    border-radius: 0px;
+}
+
+.bg-primary {
+    background-color: #00908e !important;
+}
+
+.bg-primary-light {
+    background-color: #00908e33 !important;
+}
+
+.btn-primary {
+    background-color: rgb(0, 144, 142) !important;
+    border-color: rgb(0, 144, 142) !important;
+}
+
+.btn-primary:hover {
+    background-color: #00ab6b !important;
+    border-color: #00ab6b !important;
+}
+
+.btn-outline-primary {
+    color: rgb(0, 144, 142) !important;
+    border-color: rgb(0, 144, 142) !important;
+}
+
+.btn-outline-primary:hover, .btn-outline-secondary:hover {
+    color: #FFF !important;
+    border-color: #00ab6b !important;
+    background-color: #00ab6b !important;
+}
+
+.btn-secondary {
+    background-color: rgb(0, 144, 142) !important;
+    border-color: rgb(0, 144, 142) !important;
+}
+
+.btn-secondary:hover {
+    background-color: #00ab6b !important;
+    border-color: #00ab6b !important;
+}
+
+.btn-outline-secondary {
+    color: rgb(0, 144, 142) !important;
+    border-color: rgb(0, 144, 142) !important;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn-primary {
+    background-color: rgb(0, 144, 142) !important;
+    border-color: rgb(0, 144, 142) !important;
+}
+
+.btn-primary:hover {
+    background-color: #00ab6b !important;
+    border-color: #00ab6b !important;
+}
+
+.btn-outline-primary {
+    color: rgb(0, 144, 142) !important;
+    border-color: rgb(0, 144, 142) !important;
+}
+
+.btn-secondary {
+    background-color: #00ab6b !important;
+    border-color: #00ab6b !important;
+}
+
+.btn-secondary:hover {
+    background-color: #00ea93 !important;
+    border-color: #00ea93 !important;
+}
+
+.btn-outline-secondary {
+    color: #00ab6b !important;
+    border-color: #00ab6b !important;
+}
+
+.btn-outline-primary:hover, .btn-outline-secondary:hover {
+    color: #FFF !important;
+    border-color: #00ab6b !important;
+    background-color: #00ab6b !important;
+}
+
+/*headings*/
+
+/*links*/
+
+/*borders*/
+.border-primary {
+    border-color: #00908e !important;
+}
+
+.border-primary {
+    border-color: rgb(0, 144, 142) !important;
+}
+
+.border-bottom-bold {
+    border-bottom: solid 3px !important;
+}
+
+/*backgrounds*/
+.bg-primary {
+    background-color: rgb(0, 144, 142) !important;
+}
+
+a.bg-primary:hover {
+    background-color: #000 !important;
+}
+
+a.bg-primary-light:hover {
+    background-color: #00908e !important;
+    color: #FFF !important;
+}
+
+.img-header-h {
+   height: 200px;
+}
+
+.inspiration-1, .inspiration-2, .inspiration-3, .inspiration-4, .inspiration-5 {
+  background-size: cover;
+  background-position: 50%;
+}
+
+.profile-bg {
+  background-image: url(./images/profile-bg.jpg);
+}
+
+.inspiration-1 {
+  background-image: url(./images/inspiration-1.jpg);
+}
+
+.inspiration-2 {
+  background-image: url(./images/inspiration-2.jpg);
+}
+
+.inspiration-3 {
+  background-image: url(./images/inspiration-3.jpg);
+}
+
+.inspiration-4 {
+  background-image: url(./images/inspiration-4.jpg);
+}
+
+.inspiration-5 {
+  background-image: url(./images/inspiration-5.jpg);
+}
+
+@media (max-width: 768px) {
+  .img-header-h {
+    height: 200px;
+  }
+}
+
+
+/*icons*/
+.tech-icon > img{
+  height: 48px;
+  width: auto;
+}
+
+.tech-icon {
+  transition: 0s;
+}
+
+.tech-icon h4 {
+  border-bottom: solid 1px white;
+}
+
+.tech-icon:hover {
+  transition: filter 0s;
+  filter: hue-rotate(327deg) brightness(108%);
+}
+
+.tech-icon:hover > h4 {
+  border-bottom: solid 1px grey;
+}
+
+.logo-instagram {
+    vertical-align: middle !important;
+}
+
+/*components*/
+.badge {
+    font-weight: 400 !important
+}
+
+.jumbotron {
+  background-color: #e9ecefb3 !important;
+  border-radius: 0 !important;
+}
+
+.card .img-fluid {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  max-height: 200px;
+}
+
+/*layouts*/
+@media (max-width: 768px) {
+  .sticky-top {
+    position: inherit !important;
+  }
+}
+
+
+
+
+
+
+
