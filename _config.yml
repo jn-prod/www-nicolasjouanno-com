@@ -122,3 +122,5 @@ tag_archive:
 markdown: kramdown
 highlighter: rouge
 future: false
+sass:
+  style: compact # possible values: nested expanded compact compressed
