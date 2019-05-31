@@ -240,21 +240,9 @@ a.bg-primary:hover {
   width: auto;
 }
 
-.tech-icon {
-  transition: 0s;
-}
-
-.tech-icon h4 {
-  border-bottom: solid 1px white;
-}
-
 .tech-icon:hover {
-  transition: filter 0s;
-  filter: hue-rotate(327deg) brightness(108%);
-}
-
-.tech-icon:hover > h4 {
-  border-bottom: solid 1px grey;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  border-radius: 3px;
 }
 
 .logo-instagram {
@@ -267,8 +255,20 @@ a.bg-primary:hover {
 }
 
 #nav-top a {
-    font-weight: 900;
-    font-size: 0.8rem;
+  font-weight: 900;
+  font-size: 0.8rem;
+  color: $dark-color;
+}
+
+.nav-link {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 3px #FFF;
+}
+
+.nav-link:hover, .nav-link-active {
+  border-bottom: solid 3px $primary-color;
 }
 
 .badge {
