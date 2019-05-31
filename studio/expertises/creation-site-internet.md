@@ -6,26 +6,30 @@ permalink: "/creation-site-internet.html"
 footer_cta: Startup, freelance, PME ou assocation, vous souhaitez créer un site internet qui répond à vos objectifs marketing? C'est le moment d'en parler ensemble.
 ---
 
-## Quelques projets
-{: .mt-3 .mb-5 .font-primary .text-center}
+<div class="row">
+  <div class="col-12">
+    <h2 class="my-2 ml-4">Les derniers projets</h2>
+  </div>
+    {% for project in site.data.projects %}
 
-<div class="row mt-3 mb-5">
+      {% if project.profile == true %}
 
-  {% for project in site.data.projects limit:3 %}
+        <div class="col-md-6 text-center p-2">
 
-    <div class="col-md-4">
+          <div class="d-block bg-light shadow border-muted rounded">
+            
+            {% include /boxes/project.html %}
+          
+          </div>
+        
+        </div>
 
-      <img src="{{ project.images[0] }}" alt="{{ project.name }}" class="img-fluid">
-      <h3 class="h5 text-center mt-3">{{ project.mission }}</h3>
-      <span class="text-primary text-center d-block">{{ project.name }}</span>
-
-    </div>
-  
-  {% endfor %}
-
+      {% endif %}
+      
+    {% endfor %}  
 </div>
 
-<div class="row mb-5">
+<div class="row my-5">
   <div class="col-12 text-center">
     <a href="/portfolio.html" class="btn btn-outline-secondary">Voir + de projets</a>
   </div>
