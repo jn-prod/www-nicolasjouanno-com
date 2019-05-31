@@ -1,30 +1,8 @@
-html, body, p, button {
-    font-family: 'Lato' !important;
-}
+@import '_colors';
+@import '_typography';
 
- .mainheading {
+.mainheading {
      padding:1rem 0rem;
-}
- a {
-     color:#00908e;
-     transition:all 0.2s;
-}
- a:hover {
-     color: #00ab6b;
-     text-decoration:none;
-}
- pre {
-     -moz-box-sizing: border-box;
-     box-sizing: border-box;
-     margin: 0 0 1.75em 0;
-     border: #E3EDF3 1px solid;
-     width: 100%;
-     padding: 10px;
-     font-size: 14px;
-     white-space: pre;
-     overflow: auto;
-     background: #F7FAFB;
-     border-radius: 3px;
 }
 
  .main-content {
@@ -173,7 +151,7 @@ html, body, p, button {
 }
 
  .mainheading span.sitetitle {
-    font-family: 'Abril Fatface';
+    font-family: $font-primary;
     text-transform: lowercase;
     color: #000;
 }
@@ -197,7 +175,7 @@ html, body, p, button {
      color:rgba(0,0,0,.8);
 }
  blockquote {
-     border-left:4px solid #00908e;
+     border-left:4px solid $primary-color;
      padding:0 20px;
      font-style:italic;
      color:rgba(0,0,0,.5);
@@ -246,17 +224,17 @@ html, body, p, button {
 }
  @media (max-width:999px) {
      .alertbar {
-         position:relative !Important;
+         position:relative !important;
          margin-bottom:20px;
          margin-top:20px;
-         box-shadow:none !Important;
-         padding-right: 14px !Important;
+         box-shadow:none !important;
+         padding-right: 14px !important;
     }
      #comments {
          margin-right: 15px;
      }
      .jumbotron.fortags {
-        margin-bottom:0 !Important;
+        margin-bottom:0 !important;
     }
      .alertbar form {
         margin-top:20px;
@@ -265,12 +243,12 @@ html, body, p, button {
          display: block;
      }
      .alertbar button {
-         border-radius:3px !Important;
+         border-radius:3px !important;
      }
      .alertbar input[type="email"], .alertbar input[type="text"] {
-        margin-right:0px !Important;
+        margin-right:0px !important;
         display:block;
-        border-right:1px solid #ddd !Important;
+        border-right:1px solid #ddd !important;
         margin-bottom:10px;
     }
      .jumbotron {
@@ -356,8 +334,8 @@ html, body, p, button {
      margin-bottom:1.2rem;
 }
  .btn.follow {
-     border-color:#00b4b1;
-     color:#00908e;
+     border-color:$secondary-color;
+     color:$primary-color;
      padding:3px 10px;
      text-align:center;
      border-radius:999em;
@@ -365,8 +343,8 @@ html, body, p, button {
      display:inline-block;
 }
  .btn.subscribe {
-     background-color:#00908e;
-     border-color:#00908e;
+     background-color:$primary-color;
+     border-color:$primary-color;
      color:rgba(255,255,255,1);
      fill:rgba(255,255,255,1);
      border-radius:30px;
@@ -405,8 +383,8 @@ html, body, p, button {
      margin-left:5px;
 }
  .alertbar button {
-     background-color:#00908e;
-     border:1px solid #00908e;
+     background-color:$primary-color;
+     border:1px solid $primary-color;
      color:rgba(255,255,255,1);
      fill:rgba(255,255,255,1);
      font-size:0.85rem;
@@ -479,9 +457,7 @@ html, body, p, button {
      margin-top: 3rem;
      margin-bottom: 1.5rem;
 }
- .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-     font-family: 'Abril Fatface' !important;
-}
+
  .article-post .h1, .article-post .h2, .article-post .h3, .article-post .h4, .article-post .h5, .article-post .h6, .article-post h1, .article-post h2, .article-post h3, .article-post h4, .article-post h5, .article-post h6 {
     margin-bottom: 3rem;
     margin-top: 3rem;
@@ -512,32 +488,7 @@ html, body, p, button {
  iframe {
     max-width:100%;
 }
- @media (min-width:768px) {
-     .jumbotron.bg-footer {
-         background-image: url(./images/jumbotron.jpg);
-         background-size:cover;
-         background-position: center;
-    }
-     .jumbotron.fortags .col-md-4 {
-         background:rgba(0,0,0,0.75);
-         color:#fff;
-         height:350px;
-         margin-left:0;
-         padding-left:0;
-         padding-top:13%;
-    }
-     .jumbotron.fortags .row {
-         margin:0;
-    }
-}
- .jumbotron.fortags span {
-     padding: 5px 10px 7px;
-     background: #222;
-     border-radius: 30px;
-     color: #fff;
-     text-transform: lowercase;
-     font-size: 0.8rem;
-}
+
  .layout-page .jumbotron.fortags {
     display:none;
 }

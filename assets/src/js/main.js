@@ -16,15 +16,13 @@ import './components/target-blank'
 
 // css
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../css/style.css'
+import '../css/_colors.scss'
+import '../css/_typography.scss'
 import '../css/infinite-spinner.css'
-import '../css/shop.css'
-import '../css/menu.css'
-import '../css/index.css'
-import '../css/font.css'
 import '../css/post.css'
-import '../css/ui-kit.css'
-// import '../css/main.scss'
+import '../css/shop.css'
+import '../css/style.scss'
+import '../css/ui-kit.scss'
 
 // images
 import '../images/profile-bg.jpg'
