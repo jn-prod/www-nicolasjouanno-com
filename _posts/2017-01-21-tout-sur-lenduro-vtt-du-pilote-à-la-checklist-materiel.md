@@ -162,6 +162,6 @@ Voilà maintenant <strong>les bases de l’Enduro VTT</strong> n’ont plus de s
 
 Si vous ne savez pas quoi faire de votre prochaine journée de repos, passez faire un tour chez votre vélociste vous équiper un peu et prenez juste votre VTT pour profitez des chemins en testant vos limites raisonablement et surtout <strong>SORTEZ COUVERT!</strong>
 
-N’oubliez pas de lire<a href="/elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html" title="MATOS: Les 20 éléments indispensables à avoir dans votre sac de Rando / Raid / Enduro VTT" target="_blank"> cet article </a>pour plus d’info sur le <strong>contenu du sac pour une grosse sortie de VTT Enduro.</strong>
+N’oubliez pas de lire<a href="/20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html" title="MATOS: Les 20 éléments indispensables à avoir dans votre sac de Rando / Raid / Enduro VTT" target="_blank"> cet article </a>pour plus d’info sur le <strong>contenu du sac pour une grosse sortie de VTT Enduro.</strong>
 
 <em>ps: Ceci n’est qu’une première base de réflexion ce n’est pas un cour pour passer un BAC ENDURO, l’enduro est une question de compromis pour chaque style de pilotage, un style qui vous appartiens; on ne retrouvera jamais en Enduro 2 VTT identiques… Prenez ce qui vous intéresse et jetez le reste! (enfin ni votre PC, ni votre tablette et autre smartphone …)</em>
