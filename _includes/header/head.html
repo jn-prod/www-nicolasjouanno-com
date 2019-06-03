@@ -13,7 +13,7 @@
     {% if page.seo_description %}
         <meta name="description" content="{{ page.seo_description }} | {{site.title}}">
     {% else %}
-        <meta name="description" content="{{ content | strip_html | truncatewords:20 }}">   
+        <meta name="description" content="{{ content | strip_html | truncatewords:19 }}">   
     {% endif %}
 
     <meta name="keywords" content="{% for kw in site.meta_keywords %}{{ kw }},{% endfor %}">
