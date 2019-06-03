@@ -5,11 +5,80 @@ summary: "Créer et piloter votre projet digital n'aura plus de secret. Mes cour
 permalink: "/academy.html"
 bg: inspiration-1
 h1: Apprenez à diriger votre projet digital.
-h2: Créer et piloter votre stratégie produit n'aura plus de secret.
+h2: Créer et piloter votre stratégie produit n'aura plus de secret. Voici de précieuses ressources pour commencer.
 ---
+<div class="row border-bottom border-muted bg-white sticky-top">
+  <div class="col text-center">
+    <a href="#books" class="btn btn-outline-primary my-2">Les livres</a>
+    <a href="#podcasts" class="btn btn-outline-primary my-2">Les podacsts</a>
+    <a href="#courses" class="btn btn-outline-primary my-2">Les cours</a>
+    <a href="#lessons" class="btn btn-outline-primary my-2">Les leçons</a>
+  </div>
+</div>
+
 <div class="container mb-5">
 
+  <!-- books -->
+  <div class="row my-5" id="books">
+
+    <div class="col-12">
+
+      <h2>Les Livres</h2>
+
+    </div>
+
+  </div>
+
   <div class="row my-5">
+
+    {% for book in site.data.books %}
+
+      <div class="col-md-3 mx-auto text-center">
+
+        {{ book }}
+        
+      </div>
+
+    {% endfor %}
+  </div>
+
+  <!-- podcasts -->
+  <div class="row my-5 pt-3" id="podcasts">
+
+    <div class="col-12">
+
+      <h2>Les podcasts</h2>
+
+    </div>
+
+  </div>
+
+  <div class="row my-5 ">
+
+    {% for podcast in site.data.podcasts %}
+
+      <div class="col-md-3 text-center mx-auto px-3 pb-3">
+
+        <a href="{{ podcast.url }}" target="_blank">
+
+          <div class="font-weight-bold d-block mb-2">
+
+            {{ podcast.name }}
+
+          </div>
+
+          <img src="{{ podcast.img }}" alt="{{ podcast.name }}" class="img-fluid">
+
+        </a>
+        
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+  <!-- courses -->
+  <div class="row my-5 pt-3" id="courses">
 
     <div class="col-12">
 
@@ -71,13 +140,14 @@ h2: Créer et piloter votre stratégie produit n'aura plus de secret.
 
     <div class="col-12">
 
-      <a href="{{ site.url }}/cours.html">Voir tous les cours <i class="fas fa-arrow-right ml-2"></i></a>
+      <a href="{{ site.url }}/cours.html" class="btn btn-outline-primary">Voir tous les cours <i class="fas fa-arrow-right ml-2"></i></a>
 
     </div>
 
   </div>
 
-  <div class="row my-5">
+  <!-- lessons -->
+  <div class="row my-5 pt-3" id="lessons">
 
     <div class="col-12">
 
@@ -103,7 +173,7 @@ h2: Créer et piloter votre stratégie produit n'aura plus de secret.
 
     <div class="col-12">
 
-      <a href="{{ site.url }}/lessons/">Voir toutes les leçons <i class="fas fa-arrow-right ml-2"></i></a>
+      <a href="{{ site.url }}/lessons/" class="btn btn-outline-primary">Voir toutes les leçons <i class="fas fa-arrow-right ml-2"></i></a>
 
     </div>
 
