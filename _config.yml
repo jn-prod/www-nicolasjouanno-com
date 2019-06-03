@@ -68,6 +68,10 @@ viadeo:
   publisher : "https://fr.viadeo.com/fr/profile/nicolas.jouanno"
 pinterest: 
   publisher : "https://www.pinterest.fr/nicolasjouanno/"
+dribble:
+  publisher :  "https://dribbble.com/nicolasjouanno"
+github:
+  publisher : "https://github.com/jn-prod"
 social:
   type  : # Person or Organization (defaults to Person)
   name  : # If the user or organization name differs from the site's name
