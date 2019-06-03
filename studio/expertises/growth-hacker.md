@@ -5,11 +5,13 @@ summary: "Le Growth Hacker Freelance accompagne développement des start up en i
 permalink: "/growth-hacker.html"
 header-img: "inspiration-5"
 footer_cta: "Envie d'un growth hacker pour faire grossir votre start up ? Commençons à en parler ensemble maintenant."
+h1: "Growth Hacker Freelance"
+h2: "Par où commencer le Growth Hacking ?"
 bg: inspiration-1
 cta: Travaillons ensemble →
 ---
 <div class="row border-bottom border-muted bg-white sticky-top">
-  <div class="col">
+  <div class="col text-center">
     <a href="#acquisition" class="btn btn-outline-primary my-2">Acquisition</a>
     <a href="#conversion" class="btn btn-outline-primary my-2">Optimisation des conversions</a>
     <a href="#retention" class="btn btn-outline-primary my-2">Engagement & Rétention</a>
