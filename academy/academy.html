@@ -6,6 +6,7 @@ permalink: "/academy.html"
 bg: inspiration-1
 h1: Apprenez à diriger votre projet digital.
 h2: Créer et piloter votre stratégie produit n'aura plus de secret. Voici de précieuses ressources pour commencer.
+cta: Travaillons ensemble →
 ---
 <div class="row border-bottom border-muted bg-white sticky-top">
   <div class="col text-center">
@@ -23,7 +24,7 @@ h2: Créer et piloter votre stratégie produit n'aura plus de secret. Voici de p
 
     <div class="col-12">
 
-      <h2>Les Livres</h2>
+      <h2>Les Livres <a href="#mentions">*</a></h2>
 
     </div>
 
@@ -35,11 +36,18 @@ h2: Créer et piloter votre stratégie produit n'aura plus de secret. Voici de p
 
       <div class="col-md-3 mx-auto text-center">
 
-        {{ book }}
-        
+        <div class="d-block text-capitalize font-weight-bold text-primary pb-3">{{ book.name }}</div>
+
+        <div class="d-block">
+
+          {{ book.link }}
+
+        </div>
+
       </div>
 
     {% endfor %}
+
   </div>
 
   <!-- podcasts -->
@@ -182,3 +190,11 @@ h2: Créer et piloter votre stratégie produit n'aura plus de secret. Voici de p
 </div>
 
 {% include /cta/coaching.html %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 my-5">
+      <small class="d-block text-muted" id="mentions">* Cette rubrique peut contenir des liens faisant partie d'un programme d'affiliation amazon.fr.</small>
+    </div>
+  </div>
+</div>
