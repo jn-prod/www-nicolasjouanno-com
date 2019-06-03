@@ -1,6 +1,6 @@
 ---
 layout: expertises
-title: "Création de site internet"
+title: "Création de Site Internet"
 summary: "Du re-design et à la création de votre site internet pour votre entreprise ou votre startup, le Chef de projet web freelance vous aide à améliorer votre présence en ligne."
 permalink: "/creation-site-internet.html"
 footer_cta: Startup, freelance, PME ou assocation, vous souhaitez créer un site internet qui répond à vos objectifs marketing? C'est le moment d'en parler ensemble.

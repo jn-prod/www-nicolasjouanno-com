@@ -1,7 +1,7 @@
 ---
 layout: expertises
-title: Intégrateur web freelance, développement front-end
-summary: "Entre le mockup et le développement front-end, l'intégration web permet de poser les premières lignes de codes et de structurer le site internet"
+title: Intégrateur Web Freelance, développement front-end
+summary: "Entre le mockup et le développement front-end, l'Intégration Web Freelance permet de poser les premières lignes de codes et de structurer le site internet"
 header-img: "inspiration-5"
 permalink: "/expertises/integrateur-web.html"
 footer_cta: "Vous avez déjà le design de votre site internet ou application pour votre futur startup, votre PME ou activité de freelance ? Commençons mainetant à étudier ensemble votre projet."

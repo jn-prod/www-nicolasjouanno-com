@@ -1,7 +1,7 @@
 ---
 layout: expertises
-title: "Product Manager freelance"
-summary: "Product Manager, PM, Manager Produit sont autant de dénomination de ce nouveau CEO du produit digital. Plus technique qu'un Chef de Produit Marketing, le Product Manager coordonne les équipe marketing, techniques et design."
+title: "Product Manager Freelance"
+summary: "Le Product Manager Freelance, aussi nommé PM ou Manager Produit est le nouveau CEO du produit digital. Plus technique qu'un Chef de Produit Marketing, le Product Manager coordonne les équipe marketing, techniques et design."
 permalink: "/product-manager.html"
 header-img: "inspiration-5"
 footer_cta: "Vous recherchez un product manager pour piloter le développement de votre application ou site internet? Commençons à en parler ensemble maintenant."
