@@ -16,6 +16,9 @@
         <!-- Content
         ================================================== --> 
         <main class="container-fluid">
+            
+            <!-- stripe error message -->
+            <div id="error-message"></div>
 
             {{ content }}
             
@@ -26,8 +29,12 @@
         {% include /footer/footer.html %}
 
         <!-- JavaScript
-        ================================================== -->            
+        ================================================== -->
         
+        <!-- Load Stripe.js on your website. -->
+        <input type="hidden" id="stripe_key" value="{{ site.stripe_key }}">
+        <script src="https://js.stripe.com/v3"></script>
+                
         {% if site.url == "http://localhost:4000" %}
           <script src="http://localhost:8000/app.js"></script>
         {% else %}
@@ -37,10 +44,7 @@
             <!-- End of HubSpot Embed Code -->            
         {% endif %}
 
-        {% if page.gumroad == true %}
-            <script src="https://gumroad.com/js/gumroad.js"></script>
-        {% endif %}
-        
+
         <script id="dsq-count-scr" src="//{{site.comments.disqus.shortname}}.disqus.com/count.js" async></script>
 
     </body>

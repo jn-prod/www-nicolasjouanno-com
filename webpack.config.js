@@ -92,4 +92,9 @@ config.plugins.push(
   new CleanWebpackPlugin(['assets/public/app.js', 'assets/public/main.css', 'assets/public/fonts'])
 )
 
+// external js
+config.externals = {
+    Stripe: 'Stripe'
+  }
+
 module.exports = config

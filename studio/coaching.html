@@ -6,8 +6,9 @@ permalink: "/coaching.html"
 bg: inspiration-1
 h1: Un Chef de Projet Digital, à la demande
 h2: Définissez votre stratégie et attachez votre ceinture, c'est le moment de faire avancer votre produit.
-gumroad_url: "https://gum.co/HNnUc"
-gumroad: true
+
+stripe_cta: "S'inscrire maintenant"
+stripe_product: "plan_FC2RdLO5SaJP7N"
 ---
 
 <!-- presentation -->
@@ -47,7 +48,7 @@ gumroad: true
     <span class="text-muted">Faites vous accompagner par un expert en product management pour {{ site.data.prices.coaching }} par mois.</span>
   </div>
   <div class="col-md-4 my-auto">
-    <a href="{{ page.gumroad_url }}" class="shadow btn btn-primary mb-3 p-3 font-weight-bold my-auto m-sm-3">S'inscrire maintenant</a>   
+    {% include /plugins/stripe.html product = page.stripe_product cta = page.stripe_cta %} 
   </div>
 </div>
 
@@ -72,5 +73,5 @@ gumroad: true
 </div>
 
 <div class="shadow row p-5 bg-light text-center">
-    <a href="{{ page.gumroad_url }}" class="shadow btn btn-primary mb-3 p-3 font-weight-bold my-auto mx-auto ">S'inscrire maintenant</a>   
+  {% include /plugins/stripe.html product = page.stripe_product cta = page.stripe_cta %}
 </div>
