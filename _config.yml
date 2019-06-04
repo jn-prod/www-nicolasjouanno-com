@@ -47,6 +47,9 @@ ads_booking_link: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSTrV8CdtVRmU
 # Analytics
 google_analytics: 'UA-33078029-1'
 
+# Stripe
+stripe_key: 'pk_live_MY9HfrJhZytU4TfhtBV5EbcD' #'pk_test_R7XIuRuyxXYdSxKZL7ZjPNds'
+
 # Social sharing
 og_image: "assets/public/images/jumbotron.jpg" # Open Graph/Twitter default site image
 twitter:

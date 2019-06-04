@@ -5,6 +5,7 @@ import 'bootstrap'
 import '@fortawesome/fontawesome-free/js/all'
 import './components/instagram'
 import './components/contact'
+import './components/stripe'
 import './components/target-blank'
 // import './components/infinite-scroll'
 
