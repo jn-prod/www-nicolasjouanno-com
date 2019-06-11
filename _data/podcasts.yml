@@ -16,3 +16,6 @@
 - name: 'Nouvelle Ecole'
   url: 'https://nouvelleecole.org/'
   img: '/assets/public/images/podcasts/nouvelle-ecole.png'
+- name: 'Génération Do It Yourself'
+  url: 'https://www.gdiy.fr/'
+  img: '/assets/public/images/podcasts/generation-diy.jpg'
