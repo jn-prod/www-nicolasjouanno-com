@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: expertises
 title: "Growth Hacker Freelance"
 summary: "Le Growth Hacker Freelance accompagne développement des start up en identifiant les meilleurs leviers, pour une croissance durable et rentable"
 permalink: "/growth-hacker.html"
