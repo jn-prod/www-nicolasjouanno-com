@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: default
 title: Mon cv
 seo_description: "Developpeur MongoDB / ExpressJS / NodeJS, j’ai 31 ans dont 8 ans d’expérience dans la gestion de projet digital."
 permalink: "/cv.html"
@@ -7,9 +7,66 @@ bg: bg-profile
 h1: Nicolas Jouanno
 h2: Developpeur Web
 ---
-<div class="container">
 
-  <h3 class="mt-5 mb-3">Parcours</h3>
+<div class="row pb-5 bg-header">
+
+  <div class="col-12">
+
+    <div class="bg-white-light row shadow mb-5 py-5">
+
+      <div class="col-md-6">
+
+        <h1 class="font-secondary">{{ page.h1 }}</h1>
+
+        <h2>{{ page.h2 }}</h2>
+
+      </div>
+
+      <div class="col-md-6 my-auto">
+        
+        {% for behaviour in site.data.cv.behaviours %}
+
+          <span class="d-inline">#{{ behaviour }}</span>
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+
+    <div class="row">
+      
+      <div class="col-md-3 my-auto">
+
+        <img src="{{ site.url }}/assets/public/images/profile.png" alt="{{ site.data.authors.nicolas.display_name }}, {{ site.data.authors.nicolas.current_job }}" class="img-fluid">
+
+      </div>
+
+      <div class="col-md-9 p-5 my-auto">
+
+        <div class="d-bloc bg-white-light shadow p-5">
+          
+          {{ site.data.authors.nicolas.age }} | Passions: {{ site.data.authors.nicolas.passions }}. <br>
+          {{ site.data.authors.nicolas.fone }} | {{ site.data.authors.nicolas.email }} | {{ site.data.authors.nicolas.handle }}. <br>
+          {{ site.url }} | github: {{ site.data.authors.nicolas.github }}. <br>
+          <img src="{{ site.url }}/assets/public/images/flag.jpg" alt="languages" class="d-block">
+          {{ site.data.authors.nicolas.location }}
+
+        </div>
+
+      </div> 
+
+    </div>
+    
+  </div>
+
+</div>
+
+<div class="container pt-5">
+
+  <h3 class="mb-3 d-inline">Parcours</h3>
+
+  <p class="d-inline ml-3"><a href="{{ site.data.authors.nicolas.linkedin }}" target="_blank" class="text-muted">Voir le détail sur linkedin →</a></p>
 
   <div class="row">
 
