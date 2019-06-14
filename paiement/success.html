@@ -1,11 +1,19 @@
 ---
-layout: paiement
+layout: default
 title: "Votre paiement est validée"
 seo_description: "Votre paiement est validée"
 name: Une erreur est survenue lors du paiement
 ---
-<h1 class="mb-5">
-  Merci pour votre commande !
-  <br>
-  Votre paiement à bien été pris en compte.
-</h1>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="mb-5">
+        Merci pour votre commande !
+        <br>
+        Votre paiement à bien été pris en compte.
+      </h1>
+
+      {% include plugins/paiement-helper.html %}
+    </div>
+  </div>
+</div>

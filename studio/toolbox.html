@@ -8,51 +8,92 @@ h1: Trouver l'outil numérique idéal n'a jamais été aussi simple.
 h2: Ne perdez plus une minute à cherche l'arme ultime pour développer votre activité, je le fait pour vous.
 cta: Demander un devis
 ---   
-
-<div class="row text-left">
-
-  <div class="col-md-4">
-
-    <div class="pt-3 mb-5 d-block sticky-top">
-
-      {% include /sidebar/toolbox.html %}
-
-      {% include /sidebar/activities.html %}
-
-    </div>
-  </div>
-
-  <div class="col-md-8 mb-5">
+<div class="main-content">
+  
+  <div class="container-fluid ">
 
     <!-- content -->
-    <section>
+    <section class="">
 
       <article>
-      
-      {% for category in site.data.toolbox %}
 
-        <h2 class="pt-5 pb-3" id="{{ category.id }}">{{ category.name }}</h2>
+        <div class="row mb-3 bg-light">
 
-        <p>{{ category.description }}</p>
+          <div class="col-12 mt-5 mb-5">
 
-        <div class="row">
+            <h1 class="font-primary mt-2 text-center">{{ page.title }}</h1>
 
-          {% for tool in category.tools %}
+            <div class="d-block text-center">
 
-            {% include /boxes/tool.html %}
+              <em>{{ page.summary }}</em>
 
-          {% endfor %} 
+            </div>
+
+          </div>
+
+        </div>
+        
+        <div class="row text-left">
+
+          <div class="col-12 mb-5">
+
+            <div class="row text-left">
+
+              <div class="col-md-4">
+
+                <div class="pt-3 mb-5 d-block">
+
+                  {% include sidebar/toolbox.html %}
+
+                  {% include sidebar/expertises.html %}
+
+                </div>
+                
+              </div>
+
+              <div class="col-md-8 mb-5">
+
+                <!-- content -->
+                <section>
+
+                  <article>
+                  
+                  {% for category in site.data.toolbox %}
+
+                    <h2 class="pt-5 pb-3" id="{{ category.id }}">{{ category.name }}</h2>
+
+                    <p>{{ category.description }}</p>
+
+                    <div class="row">
+
+                      {% for tool in category.tools %}
+
+                        {% include /boxes/tool.html %}
+
+                      {% endfor %} 
+
+                    </div>
+
+                    <span class="d-block mt-3 mb-5 text-muted">Vous avez besoin d'aide pour paramêtrer ou adapter à votre activité l'un des ces outils ? <a href="{{site.devis_link}}" rel="nofollow" target="_blank">Demander un devis maintenant</a>.</span>
+
+                  {% endfor %}
+              
+                  </article>
+
+                </section>
+                  
+              </div>
+
+            </div>
+              
+          </div>
 
         </div>
 
-        <span class="d-block mt-3 mb-5 text-muted">Vous avez besoin d'aide pour paramêtrer ou adapter à votre activité l'un des ces outils ? <a href="{{site.devis_link}}" rel="nofollow" target="_blank">Demander un devis maintenant</a>.</span>
-
-      {% endfor %}
-  
       </article>
 
     </section>
-      
+
   </div>
 
 </div>

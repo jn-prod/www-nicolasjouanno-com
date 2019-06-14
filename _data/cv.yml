@@ -1,0 +1,52 @@
+jobs: 
+  - entreprise: "Izir.fr"
+    posts:
+      - titre: "Chef de Projet Digital Full Stack : Marketing, Code et Design"
+        date: "2017 - Ajourd’hui"
+        stack : "NodeJS / ExpressJS / MongoDB / HandlebarJS / Webpack"
+      - titre: "Webmaster Prestashop"
+        date: "2016 - 17"
+  - entreprise: "Cyclesportnature.fr"
+    posts:
+      - titre: "CEO & Founder"
+        date: "2013 - 2016"
+  - entreprise: "Freelance"
+    posts:
+      - titre: "Chef de Projet Digital Full Stack : Marketing, Code et Design"
+        date: "2013 - Ajourd’hui"
+  - entreprise: "Twinner"
+    posts:
+      - titre: "Responsable Communication et Marketing"
+        date: "2011 - 13"
+      - titre: "Vendeur"
+        date: "2011"
+      - titre: "Webmaster Wordpress"
+        date: "2009 - 10"
+  - entreprise: "Bretagne Schuller"
+    posts:
+      - titre: "Cycliste Professionnel"
+        date: "2008 - 10"
+  - entreprise: "Twinner"
+    posts:
+      - titre: "Vendeur"
+        date: "2007 - 08"
+studies:
+  - graduation: "BTS Management des unités Commerciales"
+    year: "2007 - 08"
+  - graduation: "BAC Siences et Technologies Tertiaires"
+    year: "2005 - 06"
+projects:
+  - name: "vtt.bzh"
+    year:  "2013 - 17"
+    stack: "NodeJS / ExpressJS / NightmareJS / MongoDB / jQuery / Middleman"
+  - name: "feezify:me"
+    year: "2017 - 19"
+    stack: "NodeJS / ExpressJS / MongoDB / HandlebarJS / Webpack / Forestadmin"
+skills:
+  - "Maîtrise des langages JavaScript/NodeJS/jQuery, CSS3, HTML5, JSON, YML et connaisances en Ruby."
+  - "Maîtres du framework ExpressJS et connaissances en Ruby On Rails."
+  - "Maîtres de la librairie Bootstrap."
+  - "Maitrise en gestion de projet en cascade et connaissance de la méthodologie agile, de l’intégration continues, du versionning et en UX/UI."
+  - "Compréhension des protocoles, normes Web internationaux et cybersécurité (scrore rootme: 565pts). Utilisation de Webpack, API, Asana, Trello, Notion, Slack, Github, Figma, Sketch, Heroku ..."
+  - "Certification Openclassrooms du parcours intégrateur web, ainsi que plusieurs certifications sur des modules en développement web."
+
