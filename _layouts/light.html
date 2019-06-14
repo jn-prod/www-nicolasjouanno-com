@@ -17,7 +17,7 @@ layout: default
 
             <div class="container">
               
-              <h1 class="font-primary mt-2 text-center mb-5">{{ page.title }}</h1>
+              <h1 class="font-primary mt-5 text-center mb-5">{{ page.title }}</h1>
 
               <div class="d-block text-center">
 
@@ -35,7 +35,7 @@ layout: default
 
           <div class="row text-left">
 
-            <div class="col-md-4">
+            <div class="col-md-3">
 
               <div class="pt-3 mb-5">
 
@@ -56,7 +56,7 @@ layout: default
               </div>
             </div>
 
-            <div class="col-md-8 mb-5">
+            <div class="col-md-9 mb-5">
 
               {{ content }}
                 
@@ -66,28 +66,7 @@ layout: default
                   
         </div>
 
-      </article>   
-
-      <div class="row mt-3">
-        <div class="col-lg-6">
-          <h2 class="h4 pb-2 mb-3 text-center  border border-top-0 border-right-0 border-left-0">Expertises freelance</h2>
-          <ul class=" list-inline text-center">
-            {% for expertise in site.data.expertises %}
-              <li class="list-inline-item"><a href="{{expertise.url}}" class="btn btn-outline-primary mb-2">{{ expertise.name }}</a></li>
-            {% endfor %}
-          </ul>                       
-        </div>
-        <div class="col-lg-6">
-          <div class="row mb-3">
-            <div class="col-12">
-              <h2 class="h4 pb-2 text-center border border-top-0 border-right-0 border-left-0">Parcours et CV</h2>
-            </div>
-          </div>
-          
-          {% include /plugins/cv.html %}
-
-        </div>
-      </div>
+      </article>
 
     </section>
 

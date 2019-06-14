@@ -1,0 +1,109 @@
+---
+layout: landing
+title: Mon cv
+seo_description: "Developpeur MongoDB / ExpressJS / NodeJS, j’ai 31 ans dont 8 ans d’expérience dans la gestion de projet digital."
+permalink: "/cv.html"
+bg: bg-profile
+h1: Nicolas Jouanno
+h2: Developpeur Web
+---
+<div class="container">
+
+  <h3 class="mt-5 mb-3">Parcours</h3>
+
+  <div class="row">
+
+    <div class="col-12">
+
+      {% for job in site.data.cv.jobs %}
+
+        <small class="d-block mt-3">{{ job.entreprise }}</small>
+
+        {% for post in job.posts %}
+
+          <span class="d-block">{{ post.date }} | {{ post.titre }}</span>
+
+          {% if post.stack %}
+
+            <span class="d-block ml-5">Stack de développement → {{ post.stack }}</span>
+
+          {% endif %}
+
+        {% endfor %}
+
+      {% endfor %}
+      
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-6">
+      
+      <h3 class="mt-5 mb-3">Etudes</h3>
+
+      <div class="row">
+
+        <div class="col-12">
+
+          {% for study in site.data.cv.studies %}
+
+            <span class="d-block">{{ study.year }} | {{ study.graduation }}</span>
+
+          {% endfor %}
+          
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-6">
+
+      <h3 class="mt-5 mb-3">Projets Annexes</h3>
+
+      <div class="row">
+
+        <div class="col-12">
+
+          {% for project in site.data.cv.projects %}
+
+            <span class="d-block">{{ project.year }} | {{ project.name }} : stack → {{ project.stack }}</span>
+
+          {% endfor %}
+          
+        </div>
+
+      </div>  
+
+    </div>
+
+  </div>
+
+
+  <div class="row">
+    
+    <div class="col-12">
+      
+      <h3 class="mt-5 mb-3">Autres aptitudes et intérêts</h3>
+
+      <div class="row">
+
+        <div class="col-12">
+
+          {% for skill in site.data.cv.skills %}
+
+            <span class="d-block">{{ skill }}</span>
+
+          {% endfor %}
+          
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
