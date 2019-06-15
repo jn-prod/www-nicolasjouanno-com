@@ -1,12 +1,12 @@
 - name: "Feezify:me"
-  year: "2018"
+  year: "2018 - 19"
   city: "Pontivy"
   profile: true
   type: 
     name: "Site applicatif"
     url: "site-applicatif.html"
   description: "Au printemps 2018, je me remet à la course à pieds et en parlant avec des amis ont ce dit qu'il y en a marre d'Excel, des envoies de fichier par e-mail, alors qu'en parallèle on utilise Strava. Alors, c'est en side project que je développe et code cette application web au fure et à mesure de mes besoins de sportifs. Mon objectif est d'avoir un outil simple et ludique pour mesurer ma fatigue physique et mentale, plannifier ma saison et suivre l'évolution des mes classements."
-  mission: "Création du site internet"
+  mission: "Projet personnel"
   expertises: 
     - "Product Management"
     - "Développement full stack"
@@ -94,3 +94,22 @@
     - "Wordpress"
   images: 
     - "/assets/public/images/projets/ext-5.png"
+- name: "vtt.bzh"
+  year: "2013 - 17"
+  city: "Auray"
+  profile: false
+  type: 
+    name: "Blog"
+    url: "site-vitrine.html"
+  description: "Création et optimisation SEO d'un site internet vitrine."
+  mission: "Projet personnel"
+  expertises: 
+    - "Gestion de projet"
+    - "V1: Wordpress / V2: Middleman"
+    - "Intégration HTML5/CSS3"
+    - "Optimisation SEO"
+    - "Scrapper NodeJS / MongoDB / ExpressJS / NightmareJS"
+    - "UX / UI"
+    - "Analytics"
+  images: 
+    - "/assets/public/images/projets/ext-6.png"
