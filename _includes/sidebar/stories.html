@@ -1,0 +1,49 @@
+{% if page.url == "/" and page.url =="index.html" %}
+
+    <div class="d-block">
+
+        <div class="d-block">
+
+            {% if page.url == "/stories.html" %}
+
+                <h1 class="">Stories</h1>
+            
+            {% else %}
+
+                <span class="h1">Stories</span>
+
+            {% endif %}
+
+        </div>
+
+    </div>
+
+{% endif %}
+
+<div class="d-block my-5 text-center">
+
+    <div class="d-block my-3 px-5">
+        
+        <img src="{{ site.url }}/assets/public/images/profile.png" alt="{{ site.data.authors.nicolas.display_name }}, {{ site.data.authors.nicolas.current_job }}" class="img-fluid">
+        
+    </div>
+
+    <h3 class="mb-2">Nicolas Jouanno</h3>
+    <span class="d-block text-muted">
+        <a href="{{ site.url }}/results.html">Ex-cycliste professionnel</a>, Runner, Surfeur, Photographe & Createur.
+    </span> 
+    <span class="d-block my-2 text-muted">{{ site.data.authors.nicolas.age }}, {{ site.data.authors.nicolas.location }}</span>
+    <div class="d-block">
+        <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.twitter }}" target="_blank" rel="me"><i class="fa-2x fab fa-twitter"></i></a>
+        <a class="mr-2 text-muted" href="https://instagram.com/{{ site.data.authors.nicolas.instagram }}" target="_blank" rel="me"><i class="fa-2x fab fa-instagram"></i></a>
+        <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.facebook }}" target="_blank" rel="me"><i class="fa-2x fab fa-facebook"></i></a>
+        <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.strava }}" target="_blank" rel="me"><i class="fa-2x fab fa-strava"></i></a>
+    </div>
+
+</div>
+
+<div class="sticky-top d-block p-3 mb-5 bg-light rounded">
+
+    {% include boxes/stories-testimonials.html %}
+
+</div>

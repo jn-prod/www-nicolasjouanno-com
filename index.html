@@ -1,7 +1,17 @@
 ---
 layout: default
 seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec vous, je partage chaque défis et développe de nouveaux projets."
-
+categories:
+- Mobilité
+- Vélo urbain
+- Art de vivre
+- Randonnée à vélo
+- Matériel de vélo
+- Voyage à vélo
+- Histoire de cycliste
+- Vélo taf
+- Startup vélo
+- Vélo et écologie
 ---
 
 <!-- Newsletter
@@ -119,4 +129,88 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
       </div>    
     </div>    
   </div>
+</div>
+
+<!-- Stories
+================================================== -->
+<div class="container py-5">
+
+  <div class="row my-5">
+
+    <div class="col-12 text-center">
+
+      <h2>La "Story" hebdomadaire</h2>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+
+      <div class="d-block p-3 mb-5 bg-light rounded">
+
+          {% include boxes/stories-testimonials.html %}
+
+      </div>
+
+      <div class="d-block my-5">
+
+          <strong class="d-block mb-2">Derniers sujets</strong>
+
+          <ul class="list-inline">
+
+              {% for category in page.categories %}
+
+                  <li class="list-inline-item m-0">
+
+                  {{ category }}
+
+                  {% unless forloop.last == true %}
+
+                      <span class="mx-2 text-muted">/</span>
+
+                  {% endunless %}
+
+                  </li> 
+
+              {% endfor %} 
+
+          </ul>
+
+      </div>  
+
+    </div>
+
+    <div class="col-md-8">
+
+      <div class="d-block shadow p-5 rounded bg-light">
+
+          <h2 class="font-secondary mb-5" style="line-height: 3rem;">Une newsletter hebdomadaire pour découvrir des aventures inspirantes & des projets citoyens.</h2>
+              
+          {% include /plugins/newsletter.html %} 
+
+      </div>                    
+
+      <big class="d-block mt-5" itemprop="description">
+          Rejoins les {{ site.subscriber_number }} lecteurs et reçois une sélection de liens insprirants et pratiques, un mix d'histoires, de produits et d'actualités sur la mobilité à vélo, chaque vendredi.
+      </big>
+
+      <div class="d-block my-5">
+
+          <a href="/stories.html" class="my-5 d-inline h5 btn btn-outline-secondary p-2">
+
+              Voir les dernières stories & archives <i class="fas fa-arrow-right ml-2"></i> 
+
+          </a>
+
+      </div>
+
+      <span class="text-muted mt-5 d-block">Suivez-moi sur <a href="{{ site.data.authors.nicolas.twitter }}" target="_blank">Twitter</a> pour être informé des dernières stories. Les stories sont publiées par <a href="{{ site.url }}/about.html">Nicolas Jouanno</a>, la personnes derrière <a href="https://app.nicolasjouanno.com" target="_blank">feezify:me</a>. En savoir plus sur <a href="{{ site.url }}/advertise.html" class="border-primary border-bottom">les publicités</a> dans les stories.</span>
+      
+    </div>
+  </div>
+
+
+  
 </div>
