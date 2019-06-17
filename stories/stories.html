@@ -5,6 +5,8 @@ seo_description: Stories, by Nicolas Jouanno, le rendez-vous hebdomadaire pour t
 permalink: stories.html
 ---
 
+<h2 class="my-5">Session de rattrapage</h2>
+
 {% for post in site.posts limit:3 %} 
 
     <div class="row">
@@ -15,7 +17,7 @@ permalink: stories.html
 
 {% endfor %}               
 
-<div class="d-block mb-5">
+<div class="d-block mb-5 text-right">
 
     <a href="/stories/latest/index.html" class="my-5 d-inline h5 btn btn-outline-secondary p-2">
 
@@ -31,7 +33,7 @@ permalink: stories.html
 
         <h2 class="d-block font-primary">Pas encore inscrit aux "Stories" ?</h2>
 
-        <p>Rejoins les {{ site.subscriber_number }} lecteurs et reçois une sélection de liens insprirants et pratiques, un mix d'histoires, de produits et d'actualités sur la mobilité à vélo, chaque vendredi.</p>
+        <p>{{ site.data.authors.nicolas.post_cta }}</p>
 
         {% include /plugins/newsletter.html %} 
 
@@ -39,30 +41,4 @@ permalink: stories.html
 
 </div>
 
-<div class="d-block my-5">
-
-    <strong class="d-block mb-2">Derniers sujets</strong>
-
-    <ul class="list-inline">
-
-        {% for thematic in site.data.thematics %}
-
-            <li class="list-inline-item m-0">
-
-            {{ thematic.name }}
-
-            {% unless forloop.last == true %}
-
-                <span class="mx-2 text-muted">/</span>
-
-            {% endunless %}
-
-            </li> 
-
-        {% endfor %}     
-
-    </ul>
-
-</div>
-
-<span class="text-muted mt-5 d-block">Suivez-moi sur <a href="{{ site.data.authors.nicolas.facebook }}" target="_blank">Facebook</a> pour être informé des dernières stories. Les stories sont publiées par <a href="{{ site.url }}/about.html">Nicolas Jouanno</a>, la personnes derrière <a href="https://app.nicolasjouanno.com" target="_blank">feezify:me</a> et <a href="{{ site.url }}/shop.html">la vitrine</a>. En savoir plus sur <a href="{{ site.url }}/club.html" class="border-primary border-bottom">le club</a> et  sur <a href="{{ site.url }}/advertise.html" class="border-primary border-bottom">les publicités</a> dans les stories.</span>
+{% include boxes/stories-mentions.html %}

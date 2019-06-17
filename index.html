@@ -224,14 +224,14 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
 
       <div class="d-block shadow p-5 rounded bg-light">
 
-          <h2 class="font-secondary mb-5" style="line-height: 3rem;">Une newsletter hebdomadaire pour découvrir des aventures inspirantes & des projets citoyens.</h2>
+          <h2 class="font-secondary mb-5" style="line-height: 3rem;">Une newsletter hebdomadaire pour découvrir des hommes et des femmes aux projets originaux et inspirants.</h2>
               
           {% include /plugins/newsletter.html %} 
 
       </div>                    
 
       <big class="d-block mt-5" itemprop="description">
-          Rejoins les {{ site.subscriber_number }} lecteurs et reçois une sélection de liens insprirants et pratiques, un mix d'histoires, de produits et d'actualités sur la mobilité à vélo, chaque vendredi.
+        {{ site.data.authors.nicolas.post_cta }}
       </big>
 
       <div class="d-block my-5">
@@ -244,7 +244,7 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
 
       </div>
 
-      <span class="text-muted mt-5 d-block">Suivez-moi sur <a href="{{ site.data.authors.nicolas.twitter }}" target="_blank">Twitter</a> pour être informé des dernières stories. Les stories sont publiées par <a href="{{ site.url }}/about.html">Nicolas Jouanno</a>, la personnes derrière <a href="https://app.nicolasjouanno.com" target="_blank">feezify:me</a>. En savoir plus sur <a href="{{ site.url }}/advertise.html" class="border-primary border-bottom">les publicités</a> dans les stories.</span>
+      {% include boxes/stories-mentions.html %}
       
     </div>
 
