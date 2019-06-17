@@ -27,13 +27,14 @@ title: Archive
 
           {% if post.categories contains page.title %}
 
-            {% include /boxes/post.html type=page.entries_layout %}
+            {% include /boxes/post.html type=page.entries_layout class="col-lg-4 col-md-6" %}
 
           {% endif %}
 
       {% endfor %}
 
-    </div>    
+    </div>  
+  
   </div>
 
 </section>

@@ -1,6 +1,6 @@
 <!-- begin post -->
 {% assign author = site.data.authors[post.author] %}
-<article class="col-lg-4 col-md-6 mb-30px card-group postbox" itemscope="" itemtype="http://schema.org/BlogPosting">
+<article class="{{ include.class }} mb-30px card-group postbox" itemscope="" itemtype="http://schema.org/BlogPosting">
     <div class="card h-100 shadow">
         <div class="maxthumb">
             <a href="{{ post.url | absolute_url }}">

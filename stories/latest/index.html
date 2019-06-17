@@ -27,7 +27,7 @@ title: Stories
             
                 {% unless post.categories contains 'academy' %}
 
-                    {% include /boxes/post.html %}
+                    {% include /boxes/post.html class="col-lg-4 col-md-6" %}
 
                 {% endunless %}
 
@@ -38,12 +38,19 @@ title: Stories
         <!-- Pagination
         ================================================== -->
         <div class="bottompagination mt-3 mb-5">
+
             <div class="pointerup">
+
                 <i class="fa fa-caret-up"></i>
+
             </div>
+
             <div class="navigation text-center" role="navigation">
+
                 {% include /plugins/pagination.html %}
+
             </div>
+
         </div>  
 
     </div>
