@@ -20,7 +20,7 @@
 
 {% endif %}
 
-<div class="d-block my-5 text-center">
+<div class="d-block mt-5 mb-2 text-center">
 
     <div class="d-block my-3 px-5">
         
@@ -42,8 +42,38 @@
 
 </div>
 
-<div class="sticky-top d-block p-3 mb-5 bg-light rounded">
+<div class="sticky-top d-block pt-3">
+    
+    <div class="d-block p-3 mb-5 bg-light rounded">
 
-    {% include boxes/stories-testimonials.html %}
+        {% include boxes/stories-testimonials.html %}
+
+    </div>
+
+    <div class="d-block my-5">
+
+        <strong class="d-block mb-2">Derniers sujets</strong>
+
+        <ul class="list-inline">
+
+            {% for thematic in site.data.thematics %}
+
+                <li class="list-inline-item m-0">
+
+                {{ thematic.name }}
+
+                {% unless forloop.last == true %}
+
+                    <span class="mx-2 text-muted">/</span>
+
+                {% endunless %}
+
+                </li> 
+
+            {% endfor %}     
+
+        </ul>
+
+    </div>
 
 </div>
