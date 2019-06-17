@@ -13,57 +13,7 @@ layout: default
 
                 <div class="col-md-4">
 
-                    <div class="d-block">
-
-                        <div class="text-white py-3 d-block text-center bg-primary shadow">
-
-                            {% if page.url == "/stories.html" %}
-
-                                <h1 class="">Stories</h1>
-                            
-                            {% else %}
-
-                                <span class="h1">Stories</span>
-
-                            {% endif %}
-
-                        </div>
-
-                    </div>
-
-                    <div class="d-block my-5 text-center">
-
-                        <div class="d-block my-3 px-5">
-                            
-                            <img src="{{ site.url }}/assets/public/images/profile.png" alt="{{ site.data.authors.nicolas.display_name }}, {{ site.data.authors.nicolas.current_job }}" class="img-fluid">
-                            
-                        </div>
-
-                        <h3 class="mb-2">Nicolas Jouanno</h3>
-                        <span class="d-block text-muted">
-                            <a href="{{ site.url }}/results.html">Ex-cycliste professionnel</a>, Runner, Surfeur, Photographe & Createur.
-                        </span> 
-                        <span class="d-block my-2 text-muted">{{ site.data.authors.nicolas.age }}, {{ site.data.authors.nicolas.location }}</span>
-                        <div class="d-block">
-                            <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.twitter }}" target="_blank" rel="me"><i class="fa-2x fab fa-twitter"></i></a>
-                            <a class="mr-2 text-muted" href="https://instagram.com/{{ site.data.authors.nicolas.instagram }}" target="_blank" rel="me"><i class="fa-2x fab fa-instagram"></i></a>
-                            <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.facebook }}" target="_blank" rel="me"><i class="fa-2x fab fa-facebook"></i></a>
-                            <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.strava }}" target="_blank" rel="me"><i class="fa-2x fab fa-strava"></i></a>
-                        </div>
-
-                    </div>
-                    
-                    <div class="sticky-top d-block p-3 mb-5 bg-light rounded">
-
-                        <p class="d-block text-muted">
-                            <span class="h2">"</span>
-                            Au travers de ses stories, Nicolas nous envoie puiser au fond de nous-même pour retrouver l'essence du sport et de la vie en général.
-                        </p>
-
-                        <a href="https://www.gael-lebellec.bzh" class="d-block" target="_blank">- @Gael Le bellec</a>
-                        
-                        <span class="text-muted d-block">3x champion du monde de duathlon & invité des stories</span>                        
-                    </div>
+                    {% include sidebar/stories.html %}
 
                 </div>
 
