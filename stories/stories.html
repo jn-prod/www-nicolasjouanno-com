@@ -16,36 +16,64 @@ categories:
 - Vélo et écologie
 ---
 
-<div class="d-block shadow p-5 rounded">
+{% for post in site.posts limit:3 %} 
 
-    <h2 class="font-secondary mb-5" style="line-height: 3rem;">Une newsletter hebdomadaire pour <span class="border-bottom border-primary text-primary">découvrir des aventures & projets citoyens</span>.</h2>
-        
-    {% include /plugins/newsletter.html %} 
+    <div class="row">
 
-</div>                    
+        {% include boxes/post.html class="col-12" %} 
 
-<big class="d-block mt-5" itemprop="description">
-    Rejoins les {{ site.subscriber_number }} lecteurs et reçois une sélection de liens insprirants et pratiques, un mix d'histoires, de produits et d'actualités sur la mobilité à vélo, chaque vendredi.
-</big>
+    </div>
 
-<div class="d-block my-5">
+{% endfor %}               
+
+<div class="d-block mb-5">
+
     <a href="/stories/latest/index.html" class="my-5 d-inline h5 btn btn-outline-secondary p-2">
-        Voir les dernières stories & archives <i class="fas fa-arrow-right ml-2"></i> 
+
+        Voir toutes les archives <i class="fas fa-arrow-right ml-2"></i> 
+
     </a>
+
+</div>
+
+<div class="newsletter row bg-light p-5 text-center shadow rounded">
+
+    <div class="col-12">
+
+        <h2 class="d-block font-primary">Pas encore inscrit aux "Stories" ?</h2>
+
+        <p>Rejoins les {{ site.subscriber_number }} lecteurs et reçois une sélection de liens insprirants et pratiques, un mix d'histoires, de produits et d'actualités sur la mobilité à vélo, chaque vendredi.</p>
+
+        {% include /plugins/newsletter.html %} 
+
+    </div>
+
 </div>
 
 <div class="d-block my-5">
+
     <strong class="d-block mb-2">Derniers sujets</strong>
+
     <ul class="list-inline">
+
         {% for category in page.categories %}
+
             <li class="list-inline-item m-0">
+
             {{ category }}
+
             {% unless forloop.last == true %}
+
                 <span class="mx-2 text-muted">/</span>
+
             {% endunless %}
+
             </li> 
-        {% endfor %}        
+
+        {% endfor %}     
+
     </ul>
+
 </div>
 
 <span class="text-muted mt-5 d-block">Suivez-moi sur <a href="{{ site.data.authors.nicolas.facebook }}" target="_blank">Facebook</a> pour être informé des dernières stories. Les stories sont publiées par <a href="{{ site.url }}/about.html">Nicolas Jouanno</a>, la personnes derrière <a href="https://app.nicolasjouanno.com" target="_blank">feezify:me</a> et <a href="{{ site.url }}/shop.html">la vitrine</a>. En savoir plus sur <a href="{{ site.url }}/club.html" class="border-primary border-bottom">le club</a> et  sur <a href="{{ site.url }}/advertise.html" class="border-primary border-bottom">les publicités</a> dans les stories.</span>
