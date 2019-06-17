@@ -3,17 +3,6 @@ layout: stories/landing
 title: L'histoire inspirante d'un sportif
 seo_description: Stories, by Nicolas Jouanno, le rendez-vous hebdomadaire pour te mettre en selle avec panache et inspiration.
 permalink: stories.html
-categories:
-- Mobilité
-- Vélo urbain
-- Art de vivre
-- Randonnée à vélo
-- Matériel de vélo
-- Voyage à vélo
-- Histoire de cycliste
-- Vélo taf
-- Startup vélo
-- Vélo et écologie
 ---
 
 {% for post in site.posts limit:3 %} 
@@ -56,11 +45,11 @@ categories:
 
     <ul class="list-inline">
 
-        {% for category in page.categories %}
+        {% for thematic in site.data.thematics %}
 
             <li class="list-inline-item m-0">
 
-            {{ category }}
+            {{ thematic.name }}
 
             {% unless forloop.last == true %}
 
