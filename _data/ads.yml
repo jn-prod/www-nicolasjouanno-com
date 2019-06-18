@@ -1,9 +1,9 @@
 default:
-  name: "Alltricks.fr"
-  title: "L’univers vélo, running et outdoor"
-  link: "http://track.effiliation.com/servlet/effi.redir?id_compteur=12855409&url=https://www.alltricks.fr/"
-  description: "Alltricks est le spécialiste de la distribution de vélo, pièces vélo, pièces VTT et d’équipement running sur internet. Son offre de matériel de vélo s’est élargie au running, offrant aux sportifs un choix complet d’articles pour rouler et courir. Amateurs de vitesse, de sensations fortes, mordus de bitume ou de mobiliers urbains, amoureux de la petite reine ou pratiquant occasionnel, vous trouverez tout ce dont vous aurez besoin sur le site vélo Alltricks.fr"
-  img: "https://www.alltricks.fr/dwn/blog/content/uploads/2019/02/xRival-22-action_9-350x250_c.jpg.pagespeed.ic.LHKcmT_4iO.jpg\" alt=\"Alltricks.fr"
+  name: "Amazon.fr"
+  title: "livres, high-tech, informatique plus encore !"
+  link: "https://amzn.to/31FOQWh"
+  description: "Achat et vente en ligne parmi des millions de produits en stock. Livraison gratuite à partir de 25€. Vos articles à petits prix : culture, high-tech, mode, jouets, sport, maison et bien plus !"
+  img: "assets/public/images/ads/logo-amazon.jpg"
 
 S12-2019:
   name: "Alltricks.fr"
