@@ -94,7 +94,35 @@ post_class: post-template
 
                         {{content}}
 
-                        <p>Bonne route !</p>
+                        {% if page.podcast %}
+
+                            {% include boxes/stories-podcast.html %}
+
+                        {% endif %}
+
+                        {% if page.course %}
+
+                            {% include boxes/stories-course.html %}
+
+                        {% endif %}
+
+                        {% if page.newsfeed %}
+
+                            <hr />
+
+                            <div class="d-flex justify-content-between mb-3">
+
+                              <h2 class="m-0">Newsfeed</h2>
+                              
+                            </div>
+
+                            {% for news in page.newsfeed %}
+
+                                {% include boxes/stories-newsfeed.html %}
+
+                            {% endfor %}
+
+                        {% endif %}
 
                         <p>- Nicolas</p>   
 
@@ -106,18 +134,15 @@ post_class: post-template
                 <footer>
 
                     <!-- Post Categories -->
-                    <div class="after-post-tags mt-3">
+                    <div class="after-post-tags my-5 text-center">
 
-                        <ul class="tags">
+                        {% assign sortedCategories = page.tags | sort %}
 
-                            {% assign sortedCategories = page.tags | sort %}
-                            {% for category in sortedCategories %}
-                            <li>
-                             <span>{{ category }}</span>
-                            </li>
-                            {% endfor %}
+                        {% for category in sortedCategories %}
 
-                        </ul>
+                            <small class="m-1 d-inline-block bg-light text-muted p-1 shadow rounded">{{ category }}</small>
+
+                        {% endfor %}
 
                     </div> 
 
