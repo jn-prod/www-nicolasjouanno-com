@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#37 - Taig Khris l'autodidacte révolutionne la téléphonie mobile"
+title: "#37 - Taig Khris, l'autodidacte qui révolutionne la téléphonie mobile"
 date: 2019-06-18 09:00:00.000000000 +02:00
 type: post
 
