@@ -1,11 +1,11 @@
 ---
 layout: landing
 title: Le studio
-summary: "Product Manager freelance remote, j’ai 31 ans dont 8 ans d’expérience dans la gestion de projet digital."
+summary: "Développeur web freelance remote, j’ai 31 ans dont 8 ans d’expérience dans la gestion de projet digital."
 permalink: "/studio.html"
 bg: inspiration-1
 h1: Développez votre projet digital et améliorez votre présence en ligne.
-h2: Je suis un chef de projet full-stack maitrisant les problématiques marketing, design et tech. J'aime garder les choses simples et procurer une expérience propre et fonctionnel à vos clients.
+h2: Je développe votre application web avec la maitrise des problématiques marketing, design et tech. J'aime garder les choses simples et procurer une expérience propre et fonctionnel à vos clients.
 cta: Travaillons ensemble →
 footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondre à vos interrogations et à vous aider à développer votre projet.
 ---
@@ -18,7 +18,7 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
         <h2 class="mb-5">Le studio</h2>
         <big class="d-block mb-5">
 
-          <p>Moi c'est <a href="{{ site.url }}/about.html" class="border-bottom border-primary">Nicolas</a>, à 31 ans, je suis à la recherche de nouveaux challenges. Je me nourris des dernières tendances marketing, design et technologique de l'écosystème numérique pour offrir à votre projet des services digitaux innovant et une expérience utilisateurs de qualité. Je suis spécialisé dans la gestion de projet digital et le web-marketing.</p>
+          <p>Moi c'est <a href="{{ site.url }}/about.html" class="border-bottom border-primary">Nicolas</a>, à 31 ans, je suis à la recherche de nouveaux challenges. Je me nourris des dernières tendances marketing, design et technologique de l'écosystème numérique pour offrir à votre projet des services digitaux innovant et une expérience utilisateurs de qualité. Je suis spécialisé et <a href="{{ site.url }}/certifications.html" class="border-bottom border-primary">certifié</a> dans la création de site applicatif.</p>
 
           <p>J'utilise les meilleures méthodes et outils du marché : Lean Startup, Design Thinking, Agile & Lean UX. J'interviens sur tout le cycle de vie d'un projet : de la stratégie Marketing, au design et la production des outils (UX/UI, développement & Product Ownership) jusqu'à la recherche de leviers de croissance (Growth Marketing).</p>
           <p>Je développe avec vous votre identitée digitale (site web, site applicatif, application mobile, médias sociaux, ...), demandez votre <a href="{{ site.devis_link }}" class="border-bottom border-primary">devis</a> maintenant. Je vous accompagne et vous conseil mensuellement dans votre projet numérique, c'est <a href="{{ site.url }}/coaching.html" class="border-bottom border-primary">OnDemand</a>. Et je partage mes connaissances techniques, stratégiques et opérationnelles dans l'<a href="{{ site.url }}/academy.html" class="border-bottom border-primary">Academy</a>.</p>
@@ -119,6 +119,37 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
         {% endfor %}
 
       </div>
+
+      <div class="row ">
+        <div class="col-12">
+          <h2 class="my-5">Mes Certifications</h2>
+        </div>
+      </div>
+      <div class="row ">
+
+        {% for certification in site.data.certifications %}
+
+          {% if certification.featured == true %}
+            <div class="col-md-4">
+
+              <span class="my-3 font-secondary font-weight-bold d-block mb-2">{{ certification.title }}</span>
+
+              <span class="text-muted">{{ certification.category }}</span>
+
+            </div>
+          {% endif %}
+        {% endfor %}
+
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <a href="{{ site.url }}/certifications.html" class="btn btn-outline-primary my-5 font-weight-bold">
+            Voir mes {{ site.data.certifications.size }} certifications<i class="fas fa-arrow-right ml-2"></i>
+          </a>
+        </div>
+      </div>
+
     </div>   
   </div>
 </div>
