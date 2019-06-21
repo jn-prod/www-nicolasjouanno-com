@@ -1,3 +1,9 @@
+# certifications
+- name: "Mes certifications"
+  url: "/certifications.html"
+  summary: "Plusieurs organismes proposent des formations en ligne (e-Learning) qui permettent d’obtenir des certifications."
+  cta: "Voir mes certifications"
+
 # Chef de projet
 - name: "Le Chef de Projet Digital"
   url: "/chef-projet-digital.html"

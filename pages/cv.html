@@ -94,6 +94,30 @@ h2: Developpeur Web
 
   </div>
 
+  <div class="row mt-5">
+    <div class="col-12">
+      <h3 class="mt-5 mb-3 d-inline">Mes certifications</h3>
+      <p class="d-inline ml-3"><a href="{{ site.url }}/certifications.html" class="text-muted">Voir mes {{ site.data.certifications.size }} certifications →</a></p>
+    </div>
+  </div>
+
+  <div class="row ">
+
+    {% for certification in site.data.certifications %}
+
+      {% if certification.featured == true %}
+        <div class="col-md-4">
+
+          <span class="my-3 font-secondary font-weight-bold d-block mb-2">{{ certification.title }}</span>
+
+          <span class="text-muted">{{ certification.category }}</span>
+
+        </div>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
   <div class="row">
 
     <div class="col-md-6">
