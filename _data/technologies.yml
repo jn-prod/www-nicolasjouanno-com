@@ -29,6 +29,16 @@
   icon: "ruby.png"
   description: "Langage de programmation"
   profile: true
+- name: "PHP"
+  url: 
+  fontawesome: "fab fa-php"
+  description: "Langage de programmation"
+  profile: true
+- name: "Python"
+  url: 
+  fontawesome: "fab fa-python"
+  description: "Langage de programmation"
+  profile: true
 - name: "MONGO DB"
   url: 
   icon: "mongodb.png"
