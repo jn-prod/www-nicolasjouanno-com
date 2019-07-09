@@ -105,12 +105,12 @@
   mission: "Projet personnel"
   expertises: 
     - "Gestion de projet"
-    - "V1: Wordpress / V2: Middleman"
+    - "V1: Wordpress / V2: Middleman, NodeJS, MongoDB / V3: en construction"
     - "Intégration HTML5/CSS3"
     - "Optimisation SEO"
-    - "Scrapper NodeJS / MongoDB / ExpressJS / NightmareJS"
+    - "Python, JavaScript"
     - "UX / UI"
     - "Analytics"
-  url: "https://github.com/jn-prod/api-vtt-bzh_archived"
+  url: "https://vtt.bzh"
   images: 
     - "/assets/public/images/projets/ext-6.png"
