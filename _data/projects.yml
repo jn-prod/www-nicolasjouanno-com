@@ -82,8 +82,8 @@
   city: "Vannes"
   profile: false
   type: 
-    name: "Site vitrine"
-    url: "site-vitrine.html"
+    name: "Site applicatif"
+    url: "site-applicatif.html"
   description: "Création et optimisation SEO d'un site internet vitrine."
   mission: "Création du site internet"
   expertises: 
