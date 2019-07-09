@@ -1,5 +1,5 @@
 - name: "Feezify:me"
-  year: "2018 - 19"
+  year: "2018 - aujourd’hui"
   city: "Pontivy"
   profile: true
   type: 
@@ -95,7 +95,7 @@
   images: 
     - "/assets/public/images/projets/ext-5.png"
 - name: "vtt.bzh"
-  year: "2013 - 17"
+  year: "2013 - aujourd’hui"
   city: "Auray"
   profile: false
   type: 
