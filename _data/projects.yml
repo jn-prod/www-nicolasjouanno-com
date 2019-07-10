@@ -105,10 +105,9 @@
   mission: "Projet personnel"
   expertises: 
     - "Gestion de projet"
-    - "V1: Wordpress / V2: Middleman, NodeJS, MongoDB / V3: en construction"
+    - "V1: Wordpress / V2: Middleman, NodeJS, MongoDB, jQuery / V3: actuelle - Python, Jekyll, VueJS "
     - "Intégration HTML5/CSS3"
     - "Optimisation SEO"
-    - "Python, JavaScript"
     - "UX / UI"
     - "Analytics"
   url: "https://vtt.bzh"
