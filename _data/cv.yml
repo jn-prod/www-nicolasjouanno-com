@@ -1,47 +1,53 @@
-jobs: 
+experiences:
   - entreprise: "Izir.fr"
-    posts:
-      - titre: "Chef de Projet Digital Full Stack : Marketing, Code et Design"
-        date: "2017 - Ajourd’hui"
-        stack : "NodeJS / ExpressJS / MongoDB / HandlebarJS / Webpack"
-      - titre: "Webmaster Prestashop"
-        date: "2016 - 17"
-  - entreprise: "Cyclesportnature.fr"
-    posts:
-      - titre: "CEO & Founder"
-        date: "2013 - 2016"
+    format: "SITE APPLICATIF"
+    side_project: false
+    date: "2017 - Aujourd’hui"
+    description: "Création d’un site applicatif d’inscription en ligne pour les événements sportifs. "
+    skills: "NodeJS, ExpressJS, MongoDB, Bootstrap, Webpack, UX, UI, Marketing, Gestion de projet."
+  - entreprise: "Intranet Prioux"
+    format: "SITE APPLICATIF"
+    side_project: false
+    date: " 2018 - Aujourd’hui"
+    description: "Création d’un dashboard de suivis de l’activité commerciale. "
+    skills: "NodeJS, ExpressJS, MongoDB, Bootstrap. "
+  - entreprise: "feezify:me"
+    format: "SITE APPLICATIF"
+    side_project: true
+    date: "2017 - 19"
+    description: "Création d’une application web de suivi d’entrainement sportif. Actuellement en beta. "
+    skills: "NodeJS, ExpressJS, MongoDB, Bootstrap, Webpack, API, UX, UI, Product Management."
+  - entreprise: "vtt.bzh"
+    format: "SITE APPLICATIF"
+    side_project: true
+    date: "2013 - aujourd’hui"
+    description: "Création d’une application web partageant le calendrier des randonnées VTT de bretagne, basé sur un scraper. Jusqu’à 10 000 visiteurs/mois. Actuellement en V3."
+    skills: "Python, VueJS, Jekyll, Webpack, UX, UI, SEO. "
+  - entreprise: "shop.izir.fr"
+    format: "SITE E-COMMERCE"
+    side_project: false
+    date: "2016 - Aujourd’hui "
+    description: "Création d’un site e-commerce avec un CMS. Création et intégration de l’UI. "
+    skills: "UX, UI, Intégration, Shopify, Bootstrap, Marketing, Gestion de Projet. "
+  - entreprise: "cyclesportnature.fr"
+    format: "SITE E-COMMERCE"
+    side_project: false
+    date: "2013 - 2016"
+    description: "Création d’un site e-commerce avec un CMS. Création et intégration de l’UI. "
+    skills: "UX, UI, Intégration, Prestashop, Bootstrap, Marketing, Gestion de Projet. "
   - entreprise: "Freelance"
-    posts:
-      - titre: "Chef de Projet Digital Full Stack : Marketing, Code et Design"
-        date: "2013 - Ajourd’hui"
-  - entreprise: "Twinner"
-    posts:
-      - titre: "Responsable Communication et Marketing"
-        date: "2011 - 13"
-      - titre: "Vendeur"
-        date: "2011"
-      - titre: "Webmaster Wordpress"
-        date: "2009 - 10"
-  - entreprise: "Bretagne Schuller"
-    posts:
-      - titre: "Cycliste Professionnel"
-        date: "2008 - 10"
-  - entreprise: "Twinner"
-    posts:
-      - titre: "Vendeur"
-        date: "2007 - 08"
-studies:
-  - graduation: "BTS Management des unités Commerciales"
-    year: "2007 - 08"
-  - graduation: "BAC Siences et Technologies Tertiaires"
-    year: "2005 - 06"
-projects:
-  - name: "vtt.bzh"
-    year:  "2013 - 17"
-    stack: "NodeJS / ExpressJS / NightmareJS / MongoDB / jQuery / Middleman"
-  - name: "feezify:me"
-    year: "2017 - 19"
-    stack: "NodeJS / ExpressJS / MongoDB / HandlebarJS / Webpack / Forestadmin"
+    format: "SITE VITRINE"
+    side_project: false
+    date: "2008 - Aujourd’hui"
+    description: "Création de site vitrine pour des sportifs, freelances, magasins et restaurants. "
+    skills: "Wordpress, Jekyll, Javascript, Gestion de Projet, Design, Marketing. "
+  - entreprise: ""
+    format: "SCRIPTS"
+    side_project: false
+    date: "2019"
+    description: "Création d’un script pour pointer les paiement stripe depuis les APIs de Stribe et MLab. "
+    skills: "Ruby, API. "
+
 skills:
   - "Maîtrise des langages JavaScript/NodeJS/jQuery, CSS3, HTML5, JSON, YML et connaisances en Ruby."
   - "Maîtres du framework ExpressJS et connaissances en Ruby On Rails."
@@ -49,9 +55,14 @@ skills:
   - "Maitrise en gestion de projet en cascade et connaissance de la méthodologie agile, de l’intégration continues, du versionning et en UX/UI."
   - "Compréhension des protocoles, normes Web internationaux et cybersécurité (scrore rootme: 565pts). Utilisation de Webpack, API, Asana, Trello, Notion, Slack, Github, Figma, Sketch, Heroku ..."
   - "Certification Openclassrooms du parcours intégrateur web, ainsi que plusieurs certifications sur des modules en développement web."
-behaviours:
-  - "Pasionné"
-  - "Créatif"
-  - "Rigoureux"
-  - "Persévérant"
-  - "Organisé"
+studies:
+  - graduation: "Certification Intégrateur Web Openclassrooms"
+    year: "2019"
+  - graduation: "BTS Management des unités Commerciales"
+    year: "2007 - 08"
+  - graduation: "BAC Siences et Technologies Tertiaires"
+    year: "2005 - 06"
+hobbies:
+  - "Sports: Running, Cyclisme, Surf, Randonnée."
+  - "Art: Photographie, Musique (guitare et MAO), Graphisme."
+  - "Voyage, Jardinage, Bricolage."
