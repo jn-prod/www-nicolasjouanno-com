@@ -8,88 +8,97 @@ h1: Nicolas Jouanno
 h2: Developpeur Web
 ---
 
-<div class="row pb-5 bg-header">
+<div class="row py-5 bg-header">
 
-  <div class="col-12">
+  <div class="col-md-3 mt-3">
 
-    <div class="bg-white-light row shadow mb-5 py-5">
+    <img src="{{ site.url }}/assets/public/images/profile.png" alt="{{ site.data.authors.nicolas.display_name }}, {{ site.data.authors.nicolas.current_job }}" class="img-fluid">
 
-      <div class="col-md-6">
-
-        <h1 class="font-secondary">{{ page.h1 }}</h1>
-
-        <h2>{{ page.h2 }}</h2>
-
-      </div>
-
-      <div class="col-md-6 my-auto">
-        
-        {% for behaviour in site.data.cv.behaviours %}
-
-          <span class="d-inline">#{{ behaviour }}</span>
-
-        {% endfor %}
-
-      </div>
-
-    </div>
-
-    <div class="row">
-      
-      <div class="col-md-3 my-auto">
-
-        <img src="{{ site.url }}/assets/public/images/profile.png" alt="{{ site.data.authors.nicolas.display_name }}, {{ site.data.authors.nicolas.current_job }}" class="img-fluid">
-
-      </div>
-
-      <div class="col-md-9 p-5 my-auto">
-
-        <div class="d-bloc bg-white-light shadow p-5">
-          
-          {{ site.data.authors.nicolas.age }} | Passions: {{ site.data.authors.nicolas.passions }}. <br>
-          {{ site.data.authors.nicolas.fone }} | {{ site.data.authors.nicolas.email }} | {{ site.data.authors.nicolas.handle }}. <br>
-          {{ site.url }} | github: {{ site.data.authors.nicolas.github }}. <br>
-          <img src="{{ site.url }}/assets/public/images/flag.jpg" alt="languages" class="d-block">
-          {{ site.data.authors.nicolas.location }}
-
-        </div>
-
-      </div> 
-
-    </div>
-    
   </div>
+
+  <div class="col-md-9 mt-5 pt-5 px-5">
+
+    <div class="d-bloc bg-white-light shadow p-5">
+
+      <h1 class="font-secondary d-inline">{{ page.h1 }}</h1> <h2 class="d-inline ml-3">{{ page.h2 }}</h2>
+
+      <div class="d-block">
+        {{ site.data.authors.nicolas.location }} | {{ site.data.authors.nicolas.email }} | {{ site.data.authors.nicolas.fone }} <br>
+        {{ site.data.authors.nicolas.handle }} | {{ site.url }} | github: {{ site.data.authors.nicolas.github }}.    
+      </div>
+
+    </div>
+
+  </div> 
 
 </div>
 
 <div class="container pt-5">
 
-  <h3 class="mb-3 d-inline">Parcours</h3>
+  <h3>Expertises et Compétences</h3>
+
+  <div class="row">
+    <div class="col-md-6">
+      Développement: Web, Scripts. <br>
+      Langages: Python, Ruby, PHP, Javascript / NodeJS, HTML5, CSS3. <br>
+      Bases de données: MySQL, MongoDB. <br>
+      Framework: Django, ExpressJS, Flask et VueJS. <br>
+      Libraries; Bootsrap. <br>
+      Dev Ops: Git, Github,  Webpack, Babel, Eslint, Pylint, TravisCI, Pytest, Mocha, Chai, Heroku, API. <br>
+      CMS: Wordpress, Prestashop. <br>
+      Cybersécurité: 565pts sur rootme <br>
+    </div>
+    <div class="col-md-6">
+      Projet: Gestion de projet en cascade et méthodologie agile. <br>
+      Marché: B2B, B2C. <br>
+      Marketing: SEO, SEA, SMO,  Affiliation, E-mailing, Analytics. <br>
+      Design: UX/UI, Design Thinking. <br>
+      Outils: Asana, Trello, Notion, Slack, Github, Figma, Sketch,  ... <br>
+      Langues: Français natif, Anglais lu et écrit. <br>
+
+      <div class="mt-2 text-primary">
+        +20 certifications en développement web dont : Intégrateur Web, la strucuture MVC, la POO et pour chaque langage de programation précités.
+      </div>
+      
+    </div>
+  </div>
+
+
+  <h3 class="mb-3 d-inline">Expériences</h3>
 
   <p class="d-inline ml-3"><a href="{{ site.data.authors.nicolas.linkedin }}" target="_blank" class="text-muted">Voir le détail sur linkedin →</a></p>
 
   <div class="row">
 
-    <div class="col-12">
-
-      {% for job in site.data.cv.jobs %}
-
-        <small class="d-block mt-3">{{ job.entreprise }}</small>
-
-        {% for post in job.posts %}
-
-          <span class="d-block">{{ post.date }} | {{ post.titre }}</span>
-
-          {% if post.stack %}
-
-            <span class="d-block ml-5">Stack de développement → {{ post.stack }}</span>
-
-          {% endif %}
-
-        {% endfor %}
-
-      {% endfor %}
-      
+    <div class="col-md-6">
+      <h4 class="text-muted font-weight-bold my-2">SITE APPLICATIF</h4>
+      event.izir.fr | 2017 - Aujourd’hui : Création d’un site applicatif d’inscription en ligne pour les événements sportifs. <br>
+      NodeJS, ExpressJS, MongoDB, Bootstrap, Webpack, UX, UI, Marketing, Gestion de projet. <br>
+ <br>
+      Intranet Prioux |  2018 - Aujourd’hui : Création d’un dashboard de suivis de l’activité commerciale. <br>
+      NodeJS, ExpressJS, MongoDB, Bootstrap. <br>
+ <br>
+      @projet_personnel <br>
+      feezify:me | 2017 - 19 :  Création d’une application web de suivi d’entrainement sportif. Actuellement en beta. <br>
+      NodeJS, ExpressJS, MongoDB, Bootstrap, Webpack, API, UX, UI, Product Management. <br>
+ <br>
+      @projet_personnel <br>
+      vtt.bzh | 2013 - aujourd’hui :  Création d’une application web  partageant le calendrier des randonnées  VTT de bretagne, basé sur un scraper. Jusqu’à 10 000 visiteurs/mois. Actuellement en V3.<br>
+      Python, VueJS, Jekyll, Webpack, UX, UI, SEO.
+    </div>
+    <div class="col-md-6">
+      <h4 class="text-muted font-weight-bold my-2">SITE E-COMMERCE</h4>
+shop.izir.fr | 2016 - Aujourd’hui :  Création d’un site e-commerce avec un CMS. Création et intégration de l’UI. <br>
+UX, UI, Intégration, Shopify, Bootstrap, Marketing, Gestion de Projet. <br>
+ <br>
+cyclesportnature.fr | 2013 - 2016 :  Création d’un site e-commerce avec un CMS. Création et intégration de l’UI. <br>
+UX, UI, Intégration, Prestashop, Bootstrap, Marketing, Gestion de Projet.
+      <h4 class="text-muted font-weight-bold my-2">SITE VITRINE</h4>
+Freelance | 2008 - Aujourd’hui :  Création de site vitrine pour des sportifs, freelances, magasins et restaurants. <br>
+Wordpress, Jekyll, Javascript, Gestion de Projet, Design, Marketing.
+      <h4 class="text-muted font-weight-bold my-2">SCRIPTS</h4>
+2019 : Création d’un script pour pointer les paiement stripe depuis les APIs de Stribe et MLab. <br>
+Ruby, API.
     </div>
 
   </div>
@@ -142,46 +151,16 @@ h2: Developpeur Web
 
     <div class="col-md-6">
 
-      <h3 class="mt-5 mb-3">Projets Annexes</h3>
+      <h3 class="mt-5 mb-3"></h3>
 
       <div class="row">
 
         <div class="col-12">
 
-          {% for project in site.data.cv.projects %}
-
-            <span class="d-block">{{ project.year }} | {{ project.name }} : stack → {{ project.stack }}</span>
-
-          {% endfor %}
           
         </div>
 
       </div>  
-
-    </div>
-
-  </div>
-
-
-  <div class="row">
-    
-    <div class="col-12">
-      
-      <h3 class="mt-5 mb-3">Autres aptitudes et intérêts</h3>
-
-      <div class="row">
-
-        <div class="col-12">
-
-          {% for skill in site.data.cv.skills %}
-
-            <span class="d-block">{{ skill }}</span>
-
-          {% endfor %}
-          
-        </div>
-
-      </div>
 
     </div>
 
