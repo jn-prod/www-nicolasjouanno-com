@@ -95,7 +95,7 @@
   images: 
     - "/assets/public/images/projets/ext-5.png"
 - name: "vtt.bzh"
-  year: "2013 - 17"
+  year: "2013 - Aujourd'hui"
   city: "Auray"
   profile: false
   type: 
@@ -105,12 +105,13 @@
   mission: "Projet personnel"
   expertises: 
     - "Gestion de projet"
-    - "V1: Wordpress / V2: Middleman"
+    - "V1: Wordpress / V2: Middleman / NodeJS / MongoDB"
+    - "V3: Python / Jekyll / VueJS"
     - "Intégration HTML5/CSS3"
     - "Optimisation SEO"
-    - "Scrapper NodeJS / MongoDB / ExpressJS / NightmareJS"
     - "UX / UI"
     - "Analytics"
-  url: "https://github.com/jn-prod/api-vtt-bzh_archived"
+    - "Side project"
+  url: "https://vtt.vzh"
   images: 
     - "/assets/public/images/projets/ext-6.png"
