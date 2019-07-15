@@ -39,23 +39,18 @@ h2: Developpeur Web
 
   <div class="row">
     <div class="col-md-6">
-      Développement: Web, Scripts. <br>
-      Langages: Python, Ruby, PHP, Javascript / NodeJS, HTML5, CSS3. <br>
-      Bases de données: MySQL, MongoDB. <br>
-      Framework: Django, ExpressJS, Flask et VueJS. <br>
-      Libraries; Bootsrap. <br>
-      Dev Ops: Git, Github,  Webpack, Babel, Eslint, Pylint, TravisCI, Pytest, Mocha, Chai, Heroku, API. <br>
-      CMS: Wordpress, Prestashop. <br>
-      Cybersécurité: 565pts sur rootme <br>
+      {% for skill in site.data.cv.skills.developpment %}
+        <div class="d-block">
+          {{ skill }}
+        </div>
+      {% endfor %}
     </div>
     <div class="col-md-6">
-      Projet: Gestion de projet en cascade et méthodologie agile. <br>
-      Marché: B2B, B2C. <br>
-      Marketing: SEO, SEA, SMO,  Affiliation, E-mailing, Analytics. <br>
-      Design: UX/UI, Design Thinking. <br>
-      Outils: Asana, Trello, Notion, Slack, Github, Figma, Sketch,  ... <br>
-      Langues: Français natif, Anglais lu et écrit. <br>
-
+      {% for skill in site.data.cv.skills.other %}
+        <div class="d-block">
+          {{ skill }}
+        </div>
+      {% endfor %}
       <div class="mt-2 text-primary">
         +20 certifications en développement web dont : Intégrateur Web, la strucuture MVC, la POO et pour chaque langage de programation précités.
       </div>
