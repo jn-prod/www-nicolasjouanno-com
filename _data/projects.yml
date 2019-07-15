@@ -1,5 +1,5 @@
 - name: "Feezify:me"
-  year: "2018 - 19"
+  year: "2018 - aujourd’hui"
   city: "Pontivy"
   profile: true
   type: 
@@ -9,6 +9,7 @@
   mission: "Projet personnel"
   expertises: 
     - "Product Management"
+    - "NodeJS, MongoDB, ExpressJS"
     - "Développement full stack"
     - "Growth Hacking"
     - "Design"
@@ -82,8 +83,8 @@
   city: "Vannes"
   profile: false
   type: 
-    name: "Site vitrine"
-    url: "site-vitrine.html"
+    name: "Site applicatif"
+    url: "site-applicatif.html"
   description: "Création et optimisation SEO d'un site internet vitrine."
   mission: "Création du site internet"
   expertises: 
@@ -105,8 +106,7 @@
   mission: "Projet personnel"
   expertises: 
     - "Gestion de projet"
-    - "V1: Wordpress / V2: Middleman / NodeJS / MongoDB"
-    - "V3: Python / Jekyll / VueJS"
+    - "V1: Wordpress / V2: Middleman, NodeJS, MongoDB, jQuery / V3: actuelle - Python, Jekyll, VueJS "
     - "Intégration HTML5/CSS3"
     - "Optimisation SEO"
     - "UX / UI"
