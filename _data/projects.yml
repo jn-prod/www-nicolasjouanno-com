@@ -96,7 +96,7 @@
   images: 
     - "/assets/public/images/projets/ext-5.png"
 - name: "vtt.bzh"
-  year: "2013 - aujourd’hui"
+  year: "2013 - Aujourd'hui"
   city: "Auray"
   profile: false
   type: 
@@ -111,6 +111,7 @@
     - "Optimisation SEO"
     - "UX / UI"
     - "Analytics"
-  url: "https://vtt.bzh"
+    - "Side project"
+  url: "https://vtt.vzh"
   images: 
     - "/assets/public/images/projets/ext-6.png"
