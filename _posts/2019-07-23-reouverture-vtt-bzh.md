@@ -5,7 +5,7 @@ date: 2019-07-23 09:00:00.000000000 +02:00
 type: post
 
 author: nicolas
-image: assets/public/images/posts/taig-khris.jpg
+image: assets/public/images/posts/vttbzh.png
 
 categories:
 - Productivité
@@ -43,7 +43,7 @@ course:
   - "Productivite"
   - "PersonnalGrowth "
   - "Academy"
-  description: "Dans cette vidéo, tu vas découvrir la méthode GTD inventée par David Allen et qui est pour moi la clé du succès pour tous ceux et celles qui ont la "tête qui fume...".Tu sais: lorsque tu as l'impression d'être dépassé, de ne plus gérer son stress et si peu de temps pour tant de choses à faire 😱"
+  description: "Dans cette vidéo, tu vas découvrir la méthode GTD inventée par David Allen et qui est pour moi la clé du succès pour tous ceux et celles qui ont la \"tête qui fume...\".Tu sais: lorsque tu as l'impression d'être dépassé, de ne plus gérer son stress et si peu de temps pour tant de choses à faire 😱"
 
 ---
 Aujourd’hui, ceux qui ne me suivent pas sur facebook vont redécouvrir un projet né en 2013: vtt.bzh, que je mettais hors-ligne il y a un an.
