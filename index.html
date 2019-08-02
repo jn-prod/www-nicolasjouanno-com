@@ -49,13 +49,38 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
       <h2 class="h1">Je développe des produits digitaux.</h2>
     </div>
     <div class="col-lg-4 col-md-6">
-      <p>Enfant, je fabriquais des cabanes, bricolais mon vélo. A mon adolescence, j'ai découvert les pouvoirs de l'informatique, cet univers de tous les possibles, où l'imagination est sans limites.</p>
+      <p>Enfant, je fabriquais des cabanes, bricolais mon vélo. A mon adolescence, j'ai découvert les pouvoirs de l'informatique, cet univers de tous les possibles, où les possibilités sont sans limites.</p>
       <p>Si l'école m'a apporté un bagage initial de connaissances, ce que je sais du développement de produit digitaux, je le dois à Internet.</p>
     </div>
     <div class="col-lg-4 col-md-6">
-      <p>C'est pour partager mes connaissances, expériences et ressources que j'ai commencé ce blog. Ce site me permet de partager avec vous ce voyage et comme-moi développer votre projet digital</p>
+      <p>C'est pour partager mes connaissances, expériences et ressources que j'ai commencé ce blog. Ce site me permet de partager avec vous ce voyage et contribuera au développement de votre projet digital.</p>
       <p><a href="{{ site.url }}/about.html" class="btn btn-outline-primary font-weight-bold">En savoir plus sur moi <i class="fas fa-arrow-right ml-2"></i></a></p>
     </div>
+  </div>
+  <div class="row">
+
+    {% for technologie in site.data.technologies limit:10  %}
+
+      {% if technologie.profile == true %}
+
+        <div class="col-3 col-md-1 my-3 mx-auto text-center tech-icon">
+
+          {% if technologie.fontawesome %}
+
+            <i class="{{technologie.fontawesome}} fa-3x text-primary"></i>
+
+          {% else if technologie.icon %}
+
+            <img src="/assets/public/images/technologies/{{technologie.icon}}" alt="{{technologie.name}}">
+
+          {% endif %}
+
+        </div>
+
+      {% endif %}
+
+    {% endfor %}         
+
   </div>
 </div>
 
@@ -90,8 +115,11 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
           {% endif %}
           
         {% endfor %}  
+
         <a href="{{ site.url }}/portfolio.html" class="btn btn-outline-primary font-weight-bold mt-3 ml-auto">Découvrir plus de projets <i class="fas fa-arrow-right ml-2"></i></a>
+        
       </div>
+      
     </div>
   </div>
 </div>

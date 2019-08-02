@@ -14,11 +14,16 @@
   fontawesome: "fab fa-js"
   description: "Language de script"
   profile: true
+- name: "VueJS"
+  url: 
+  fontawesome: "fab fa-vuejs"
+  description: "Librairie Javascript"
+  profile: true
 - name: "JQUERY"
   url: 
   icon: "Jquery.png"
   description: "Librairie Javascript"
-  profile: true
+  profile: false
 - name: "NODE JS"
   url: 
   fontawesome: "fab fa-node"
