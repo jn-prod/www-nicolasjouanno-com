@@ -22,7 +22,7 @@
 - name: "Izir.fr"
   year: "2014 - Aujourd'hui"
   city: "Pontivy"
-  profile: true
+  profile: false
   type: 
     name: "Site applicatif"
     url: "site-applicatif.html"
@@ -98,9 +98,9 @@
 - name: "vtt.bzh"
   year: "2013 - Aujourd'hui"
   city: "Auray"
-  profile: false
+  profile: true
   type: 
-    name: "Blog"
+    name: "Site applicatif"
     url: "site-vitrine.html"
   description: "Création et optimisation SEO d'un site internet vitrine."
   mission: "Projet personnel"

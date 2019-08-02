@@ -5,9 +5,9 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
 
 <!-- Header
 ================================================== -->
-<div id="cta" class="container-fluid d-block pb-5 pt-5 bg-primary">
+<div id="cta" class="container-fluid p-0 d-block pb-5 pt-5 bg-primary">
 
-  <div class="container">
+  <div class="container p-0">
 
     <div class="d-block pb-4 mt-lg-5 mb-5">
             
@@ -15,17 +15,18 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
 
         <div class="col-lg-8 p-5 my-auto order-sm-2 order-lg-1">      
 
-          <h1 class="font-primary pb-5 text-left text-white pr-5">Développeur Full Stack JS</h1>
+          <h1 class="font-primary pb-5 text-left text-white pr-5">Bonjour, moi c'est Nicolas Jouanno.</h1>
 
-          <h2 class="font-secondary pb-5 text-left text-white pr-5">MongoDB / NodeJS / ExpressJS / VueJS</h2>
+          <h2 class="font-secondary pb-5 text-left text-white pr-5">Je suis développeur web freelance & créateur digital.</h2>
 
-          <p class="text-white">Je suis développeur web freelance spécialisé dans la conception et le développement d'application web en Javascript.</p>
+          <p class="text-white">{{ site.data.authors.nicolas.post_cta }}</p>
 
-          <a href="#help" class="shadow btn btn-dark p-3 mt-3">Suivez le guide <i class="fas fa-arrow-down ml-2"></i></a>
+          <!-- <a href="#help" class="shadow btn btn-dark p-3 mt-3">Suivez le guide <i class="fas fa-arrow-down ml-2"></i></a> -->
+          {% include /plugins/newsletter.html btn-color="btn-dark" btn-text="M'inscrire" %} 
 
         </div>
 
-        <div class="col-lg-4 text-center order-sm-1 order-lg-2">
+        <div class="col-lg-4 text-center order-sm-1 order-lg-2 my-auto">
 
           <img src="{{ site.url }}/assets/public/images/profile.png" alt="{{ site.data.authors.nicolas.display_name }}, {{ site.data.authors.nicolas.current_job }}" class="img-fluid">
 
@@ -39,215 +40,89 @@ seo_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec 
 
 </div>
 
-<!-- Hobbies
+<!-- About
+================================================== -->
+
+<div class="container bg-light p-5 shadow mt-5">
+  <div class="row my-5">
+    <div class="col-lg-4 col-md-12">
+      <h2 class="h1">Je développe des produits digitaux.</h2>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <p>Enfant, je fabriquais des cabanes, bricolais mon vélo. A mon adolescence, j'ai découvert les pouvoirs de l'informatique, cet univers de tous les possibles, où l'imagination est sans limites.</p>
+      <p>Si l'école m'a apporté un bagage initial de connaissances, ce que je sais du développement de produit digitaux, je le dois à Internet.</p>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <p>C'est pour partager mes connaissances, expériences et ressources que j'ai commencé ce blog. Ce site me permet de partager avec vous ce voyage et comme-moi développer votre projet digital</p>
+      <p><a href="{{ site.url }}/about.html" class="btn btn-outline-primary font-weight-bold">En savoir plus sur moi <i class="fas fa-arrow-right ml-2"></i></a></p>
+    </div>
+  </div>
+</div>
+
+<!-- Latest Projects
 ================================================== -->
 <div class="container">
+  <div class="row mt-5 pt-5">
+    <div class="col-12">
+      <h2 class="h1 mb-3">Les derniers projets personnels.</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-12 my-auto">
+      <p>J'ai commencer sur la toile en tant que web-marketeur. Rapidement frustré de ne pouvoir offrir une éxpérience utilisateur sur-mesure aux <strong>10 000 visiteurs mensuel de vtt.bzh</strong>, je me suisi ouvert aux mondes du Design et du Développement web. Créant ainsi mes premiers produits digitaux.</p>
+    </div>
+    <div class="col-lg-8 col-md-12">
+      <div class="row">
+        {% for project in site.data.projects %}
 
-  <div class="row my-5 pt-5">
+          {% if project.profile == true %}
+
+            <div class="col-md-6 text-center p-2">
+
+              <div class="d-block bg-light shadow border-muted rounded">
+                
+                {% include /boxes/project.html %}
+              
+              </div>
+            
+            </div>
+
+          {% endif %}
+          
+        {% endfor %}  
+        <a href="{{ site.url }}/portfolio.html" class="btn btn-outline-primary font-weight-bold mt-3 ml-auto">Découvrir plus de projets <i class="fas fa-arrow-right ml-2"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Latest Stories
+================================================== -->
+
+<div class="container my-5">
+
+  <div class="row">
+
+    <h2 class="h1 mb-5">Les dernières stories</h2>
 
     <div class="col-12">
 
-      <h3 class="h3 font-primary mb-3 text-center">Les domaines qui me passionnent</h3>
+      <div class="row">
 
-    </div>
+        {% for post in site.posts limit:3 %} 
 
-  </div>
+          {% include boxes/post.html class="col-lg-4" %} 
 
-  <div class="row">
-
-    <div class="col-12 pb-5 mb-5">
-
-      <div class="d-block d-md-flex justify-content-between text-center">
-
-        {% for hobby in site.data.hobbies %}
-
-          <div class="d-block font-weight-bold p-3">
-
-            <span class="d-block mb-5">{{ hobby.name }}</span>
-
-            <img src="{{ site.url }}/{{ hobby.img }}" alt="{{ hobby.name }}" class="img-fluid">
-
-          </div>       
-
-        {% endfor %}
-
+        {% endfor %}               
+        
       </div>
 
     </div>
 
+    <a href="/stories/latest/index.html" class="mb-5 ml-auto h5 btn btn-outline-secondary p-2">
+
+      Voir plus de stories <i class="fas fa-arrow-right ml-2"></i> 
+
+    </a>   
   </div>
-
-</div>
-
-
-<!-- CTAs
-================================================== -->
-<div class="container-fluid pt-5 pb-5 bg-light shadow" id="help">
-
-  <div class="container">
-
-    <div class="text-center">
-
-      <div class="row mt-5">
-
-        <div class="col-12 mb-5">
-
-          <h2 class="h3 font-primary mb-3">Ce que l'on peut faire ensemble</h2>
-
-        </div>
-
-      </div>
-
-      <div class=" d-block p-md-3">
-
-        <div class="row mb-5">
-
-          <div class="col-lg-6 mt-2 text-center h-100 bg-primary shadow">
-
-            <a href="{{site.url}}/studio.html" class=" text-center p-2 p-md-5 d-block text-white">
-
-              <h3 class="h4">Lancer un nouveau projet digital</h3>
-
-              <small class="text-white d-block py-3">Design, développerment web, gestion de projet...</small>
-
-              <span class="shadow btn btn-light">Missionner le studio<i class="fas fa-arrow-right ml-2"></i></span>
-
-            </a>
-
-          </div>
-
-          <div class="col-lg-6 mt-2 text-center h-100 bg-white shadow">
-
-            <a href="{{site.url}}/academy.html" class=" text-center p-2 p-md-5 d-block text-dark">
-
-              <h3 class="h4">Me former au digital</h3>
-
-              <small class="text-muted d-block py-3">Découvrez une selection de ressources passionnantes.</small>
-
-              <span class="btn btn-dark shadow">Entrer dans l'academy<i class="fas fa-arrow-right ml-2"></i></span>
-
-            </a>
-
-          </div>
-
-          <div class="col-lg-6 mt-2 text-center h-100 bg-white shadow">
-
-            <a href="{{site.url}}/coaching.html" class="text-center p-2 p-md-5 d-block text-dark">
-
-              <h3 class="h4">Etre conseillé</h3>
-
-              <small class="text-muted d-block py-3">Un suivi mensuel pour developper ma présence en ligne.</small>
-
-              <span class="shadow btn btn-dark">Souscire au coaching<i class="fas fa-arrow-right ml-2"></i></span>
-
-            </a>
-
-          </div> 
-
-          <div class="col-lg-6 mt-2 text-center h-100 bg-dark shadow">
-
-            <a href="{{site.url}}/toolbox.html" class=" text-center p-2 p-md-5 d-block text-white">
-
-              <h3 class="h4">Optimiser mon temps</h3>
-
-              <small class="text-white d-block py-3">Je veux trouver l'outil idéal.</small>
-
-              <span class="shadow btn btn-light">Chercher un outil<i class="fas fa-arrow-right ml-2"></i></span>
-
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>  
-
-    </div> 
-
-  </div>
-
-</div>
-
-<!-- Stories
-================================================== -->
-<div class="container py-5" id="stories">
-
-  <div class="row my-5">
-
-    <div class="col-12 text-center">
-
-      <h2>La "Story" hebdomadaire</h2>
-
-    </div>
-
-  </div>
-
-  <div class="row">
-
-    <div class="col-md-4">
-
-      <div class="d-block p-3 mb-5 bg-light rounded">
-
-          {% include boxes/stories-testimonials.html %}
-
-      </div>
-
-      <div class="d-block my-5">
-
-          <strong class="d-block mb-2">Derniers sujets</strong>
-
-          <ul class="list-inline">
-
-              {% for thematics in site.data.thematics %}
-
-                  <li class="list-inline-item m-0">
-
-                  {{ thematics.name }}
-
-                  {% unless forloop.last == true %}
-
-                      <span class="mx-2 text-muted">/</span>
-
-                  {% endunless %}
-
-                  </li> 
-
-              {% endfor %} 
-
-          </ul>
-
-      </div>  
-
-    </div>
-
-    <div class="col-md-8">
-
-      <div class="d-block shadow p-5 rounded bg-light">
-
-          <h2 class="font-secondary mb-5" style="line-height: 3rem;">Une newsletter hebdomadaire pour mettre #Aventure #Defis #Innovation au coeur de votre projet. Rien de plus.</h2>
-              
-          {% include /plugins/newsletter.html %} 
-
-      </div>                    
-
-      <big class="d-block mt-5" itemprop="description">
-        {{ site.data.authors.nicolas.post_cta }}
-      </big>
-
-      <div class="d-block my-5">
-
-          <a href="/stories.html" class="my-5 d-inline h5 btn btn-outline-secondary p-2">
-
-              Voir les dernières stories & archives <i class="fas fa-arrow-right ml-2"></i> 
-
-          </a>
-
-      </div>
-
-      {% include boxes/stories-mentions.html %}
-      
-    </div>
-
-  </div>
-
 </div>
