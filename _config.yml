@@ -88,6 +88,7 @@ address :
   city: "Pontivy, France"
 
 devis_link: "/devis.html"
+call_link: "https://bit.ly/2Z4jFpb"
 
 # Outputting
 permalink : /:title:output_ext
