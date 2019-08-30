@@ -2,7 +2,7 @@
   file: ""
   organisme: "Openclassrooms"
   category: "Développement Web"
-  featured: true
+  featured: false
 - title: "Comprendre le Web"
   url: "https://openclassrooms.com/fr/courses/1946386-comprendre-le-web"
   file: ""
@@ -135,17 +135,12 @@
   file: ""
   organisme: "Openclassrooms"
   category: "Développement Web"
-- title: ""
-  url: ""
-  file: ""
-  organisme: "Openclassrooms"
-  category: "Développement Web"
 - title: "Concevez un site avec Flask"
   url: "https://openclassrooms.com/fr/courses/4425066-concevez-un-site-avec-flask"
   file: ""
   organisme: "Openclassrooms"
   category: "Développement Web"
-  featured: false
+  featured: true
 - title: "Découvrez le framework Django"
   url: "https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django"
   file: ""
