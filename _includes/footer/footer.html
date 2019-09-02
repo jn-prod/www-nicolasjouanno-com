@@ -2,22 +2,6 @@
 ================================================== -->
 <footer class="footer mt-5">
 
-    {% if page.layout != "landing" and page.url != "/" and page.url != "/index.html" %}
-
-      <!-- instafeed -->
-      <div class="container">
-          <div class="row mt-5 mb-5" id="instafeed">
-              <div class="col-lg-2 col-sm-4 mx-auto mb-2">
-                <a href="https://www.instagram.com/{{ site.data.authors.nicolas.instagram }}/" rel="nofollow" target="_blank" class="d-block text-center pt-2 mb-2">
-                    <i class="fab fa-instagram fa-3x"></i><br><span class="d-block mt-2 font-primary h3 text-dark">Instagram</span><span>@nicolasjouanno</span>
-                </a>
-              </div>
-          </div>    
-      </div>
-
-    {% endif %}
-
-
     <!-- signature -->
     <div class="jumbotron bg-footer">
         <div class="row pb-5 pt-5">
@@ -49,7 +33,7 @@
                     <a href="{{ site.url }}/about.html" class="d-block text-muted mr-3 my-auto">A propos</a>
                 </div>
                 <div class="d-flex">
-                    <a href="{{ site.url }}/cv.html" class="shadow btn btn-outline-dark p-3 d-block mb-3 my-auto">Voir mon cv →</a>
+                    <a href="{{ site.data.authors.nicolas.linkedin }}" class="shadow btn btn-outline-dark p-3 d-block mb-3 my-auto" target="_blank" rel="me">Voir mon cv →</a>
                     <a href="{% if page.url == '/' %}#cta{% else %}#nav-top{% endif %}" class="p-3 d-block mb-3 my-auto"><i class="fa-2x fas fa-arrow-up"></i></a>    
                 </div>
             </div>
@@ -63,11 +47,6 @@
                 <span class="mr-3 d-sm-block d-md-inline-block text-right ml-md-auto pb-2">Restons en contact sur → </span>
                 <div class="d-md-flex d-sm-block">
                     <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.twitter }}" target="_blank" rel="me"><i class="fa-2x fab fa-twitter"></i></a>
-                    <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.linkedin }}" target="_blank" rel="me"><i class="fa-2x fab fa-linkedin"></i></a>
-                    <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.facebook }}" target="_blank" rel="me"><i class="fa-2x fab fa-facebook"></i></a>
-                    <a class="mr-2 text-muted" href="https://instagram.com/{{ site.data.authors.nicolas.instagram }}" target="_blank" rel="me"><i class="fa-2x fab fa-instagram"></i></a>
-                    <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.github }}" target="_blank" rel="me"><i class="fa-2x fab fa-github"></i></a>
-                    <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.dribble }}" target="_blank" rel="me"><i class="fa-2x fas fa-basketball-ball"></i></a>
                     <a class="mr-2 text-muted" href="{{ site.url }}/feed.xml" type="application/rss+xml"><i class="fas fa-rss fa-2x"></i></a>
                 </div>
             </div>
