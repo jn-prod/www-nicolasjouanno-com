@@ -7,7 +7,7 @@
     - name: "Wireframe & Prototyping"
     - name: "KPI tracking"
     - name: "Product Roadmap"
-- name: "Développement Full-Stack"
+- name: "Développement Back-end"
   url: "#"
   img: "fas fa-pencil-alt"
   features: 
