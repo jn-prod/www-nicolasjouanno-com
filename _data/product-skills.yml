@@ -13,9 +13,9 @@
   features: 
     - name: "Front-end HTML5 - CSS3 - JS"
     - name: "Back-end NodeJS - PHP - Python - Ruby"
-    - name: "Database MongoDB - MySQL"
-    - name: "Unit Test"
-    - name: "Git - Github"
+    - name: "Database MongoDB - MySQL - PostgreSQL"
+    - name: "Unit Test - Git - Github"
+    - name: "POO - MVC"
 - name: "Automatisation"
   url: "#"
   img: "fas fa-code"
