@@ -4,7 +4,7 @@
   profile: true
   type: 
     name: "Newsletter"
-    url: "#"
+    url: "/"
   description: "\"Volt!\" est une newslletter hebdomadaire qui regroupe mes liens coups de coeur. Un mix de conseils, de produits et d'histoires qui te motivera à laisser ta voiture au garage !"
   mission: "Side project"
   expertises: 
