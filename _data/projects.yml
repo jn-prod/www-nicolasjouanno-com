@@ -1,7 +1,45 @@
-- name: "Feezify:me"
-  year: "2018 - aujourd’hui"
+- name: "Volt!"
+  year: "2019 - Aujourd'hui"
   city: "Pontivy"
   profile: true
+  type: 
+    name: "Newsletter"
+    url: "#"
+  description: "\"Volt!\" est une newslletter hebdomadaire qui regroupe mes liens coups de coeur. Un mix de conseils, de produits et d'histoires qui te motivera à laisser ta voiture au garage !"
+  mission: "Side project"
+  expertises: 
+    - "Branding"
+    - "UX / UI"
+    - "Analytics"
+    - "Automation"
+    - "Newsletter"
+  url: "#"
+  images:
+    - "/assets/public/images/projets/ext-7.jpg"
+- name: "Izir.fr"
+  year: "2014 - Aujourd'hui"
+  city: "Pontivy"
+  profile: false
+  type: 
+    name: "Site applicatif"
+    url: "site-applicatif.html"
+  description: "Event.izir.fr est un site applicatif qui permet aux sportifs de s'inscrire à des événements sportifs que les organisateurs auront au préalable créés sur la plate-forme. Je réalise le product management de cette plate-forme depuis ces débuts, réalise le développement back-end et front-end, ainsi que la recherche utilisateur et le design."
+  mission: "Side project"
+  expertises: 
+    - "Product Management"
+    - "Développement full stack"
+    - "Gestion de projet agile"
+    - "Branding"
+    - "UX / UI"
+    - "Analytics"
+    - "Automation"
+  url: "https://event.izir.fr"
+  images:
+    - "/assets/public/images/projets/ext-1.jpg"
+- name: "Feezify:me"
+  year: "2018"
+  city: "Pontivy"
+  profile: false
   type: 
     name: "Site applicatif"
     url: "site-applicatif.html"
@@ -19,26 +57,6 @@
   url: "https://app.nicolasjouanno.com"
   images: 
     - "/assets/public/images/projets/ext-3.png"
-- name: "Izir.fr"
-  year: "2014 - Aujourd'hui"
-  city: "Pontivy"
-  profile: false
-  type: 
-    name: "Site applicatif"
-    url: "site-applicatif.html"
-  description: "Event.izir.fr est un site applicatif qui permet aux sportifs de s'inscrire à des événements sportifs que les organisateurs auront au préalable créés sur la plate-forme. Je réalise le product management de cette plate-forme depuis ces débuts, réalise le développement back-end et front-end, ainsi que la recherche utilisateur et le design."
-  mission: "project management"
-  expertises: 
-    - "Product Management"
-    - "Développement full stack"
-    - "Gestion de projet agile"
-    - "Branding"
-    - "UX / UI"
-    - "Analytics"
-    - "Automation"
-  url: "https://event.izir.fr"
-  images:
-    - "/assets/public/images/projets/ext-1.jpg"
 - name: "GO Sport"
   year: "2016 - Aujourd'hui"
   city: "Cap Malo, Laval, Lorient, Mellac, Muzillac, Pontivy, Saint Meen Le Grand, Redon"
@@ -102,7 +120,7 @@
     name: "Site applicatif"
     url: "site-vitrine.html"
   description: "Création et optimisation SEO d'un site internet vitrine."
-  mission: "Projet personnel"
+  mission: "Side project"
   expertises: 
     - "Gestion de projet"
     - "V1: Wordpress / V2: Middleman, NodeJS, MongoDB, jQuery / V3: actuelle - Python, Jekyll, VueJS "
