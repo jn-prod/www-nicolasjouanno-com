@@ -5,7 +5,11 @@
   type: 
     name: "Newsletter"
     url: "#"
-  description: "\"Volt!\" est une newslletter hebdomadaire qui regroupe mes liens coups de coeur. Un mix de conseils, de produits et d'histoires qui te motivera à laisser ta voiture au garage !"
+  problem: >-
+    "\"Volt!\" est une newslletter hebdomadaire qui regroupe mes liens coups de coeur.
+    Un mix de conseils, de produits et d'histoires qui te motivera à laisser ta voiture au garage !"
+  solution: >-
+    ""
   mission: "Side project"
   expertises: 
     - "Branding"
@@ -23,7 +27,8 @@
   type: 
     name: "Site applicatif"
     url: "site-applicatif.html"
-  description: "Au printemps 2018, je me remet à la course à pieds et en parlant avec des amis ont ce dit qu'il y en a marre d'Excel, des envoies de fichier par e-mail, alors qu'en parallèle on utilise Strava. Alors, c'est en side project que je développe et code cette application web au fure et à mesure de mes besoins de sportifs. Mon objectif est d'avoir un outil simple et ludique pour mesurer ma fatigue physique et mentale, plannifier ma saison et suivre l'évolution des mes classements."
+  problem: >-
+    "Au printemps 2018, je me remet à la course à pieds et en parlant avec des amis ont ce dit qu'il y en a marre d'Excel, des envoies de fichier par e-mail, alors qu'en parallèle on utilise Strava. Alors, c'est en side project que je développe et code cette application web au fure et à mesure de mes besoins de sportifs. Mon objectif est d'avoir un outil simple et ludique pour mesurer ma fatigue physique et mentale, plannifier ma saison et suivre l'évolution des mes classements."
   mission: "Projet personnel"
   expertises: 
     - "Product Management"
@@ -44,7 +49,8 @@
   type:
     name: "Site applicatif"
     url: "site-applicatif.html"
-  description: "Création d'un intranet permettant de simplifier la communication des tableaux de bords et des informations sur les opérations commerciales aux responsables de magasins et acheteurs d'un groupement de 7 magasins. Celui-ci vient se substituer aux outils plus classiques que sont les tableurs Excel et les e-mails, devenus difficilement maintenables."
+  problem: >-
+    "Création d'un intranet permettant de simplifier la communication des tableaux de bords et des informations sur les opérations commerciales aux responsables de magasins et acheteurs d'un groupement de 7 magasins. Celui-ci vient se substituer aux outils plus classiques que sont les tableurs Excel et les e-mails, devenus difficilement maintenables."
   mission: "Gestion de projet marketing et Création d'un intranet"
   expertises: 
     - "Gestion de projet"
@@ -64,7 +70,8 @@
   type: 
     name: "Site applicatif"
     url: "site-applicatif.html"
-  description: "Event.izir.fr est un site applicatif qui permet aux sportifs de s'inscrire à des événements sportifs que les organisateurs auront au préalable créés sur la plate-forme. Je réalise le product management de cette plate-forme depuis ces débuts, réalise le développement back-end et front-end, ainsi que la recherche utilisateur et le design."
+  problem: >-
+    "Event.izir.fr est un site applicatif qui permet aux sportifs de s'inscrire à des événements sportifs que les organisateurs auront au préalable créés sur la plate-forme. Je réalise le product management de cette plate-forme depuis ces débuts, réalise le développement back-end et front-end, ainsi que la recherche utilisateur et le design."
   mission: "Side project"
   expertises: 
     - "Product Management"
@@ -84,7 +91,8 @@
   type: 
     name: "Site vitrine"
     url: "site-vitrine.html"
-  description: "Lorsque Gael m'a contacté, il n'avais pas de présence en ligne. Comme pour tout athlète de haut niveau, ses supporteurs veulent connaître l'avancement de sa saison de façon centralisée. C'est ce rôle que tiendra désormais son site internet. Il m'a demandé s'il était possible de créer un site internet simple en français et en anglais, qui lui permetterait de partager ses dernières actualités, classements et son programme de courses à venir. Ce site lui permet également de mettre en avant ses partenariat et sponsors."
+  problem: >-
+    "Lorsque Gael m'a contacté, il n'avais pas de présence en ligne. Comme pour tout athlète de haut niveau, ses supporteurs veulent connaître l'avancement de sa saison de façon centralisée. C'est ce rôle que tiendra désormais son site internet. Il m'a demandé s'il était possible de créer un site internet simple en français et en anglais, qui lui permetterait de partager ses dernières actualités, classements et son programme de courses à venir. Ce site lui permet également de mettre en avant ses partenariat et sponsors."
   mission: "Création du site internet"
   expertises: 
     - "Gestion de projet"
@@ -102,7 +110,8 @@
   type: 
     name: "Site applicatif"
     url: "site-applicatif.html"
-  description: "Création et optimisation SEO d'un site internet vitrine."
+  problem: >-
+    "Création et optimisation SEO d'un site internet vitrine."
   mission: "Side project"
   expertises: 
     - "Gestion de projet"
@@ -122,7 +131,8 @@
   type: 
     name: "Site applicatif"
     url: "site-applicatif.html"
-  description: "Création et optimisation SEO d'un site internet vitrine."
+  problem: >-
+    "Création et optimisation SEO d'un site internet vitrine."
   mission: "Création du site internet"
   expertises: 
     - "Gestion de projet"
