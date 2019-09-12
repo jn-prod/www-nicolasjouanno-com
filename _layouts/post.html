@@ -187,44 +187,6 @@ post_class: post-template
 
         </div>
 
-        <div class="d-block bg-light p-5 shadow rounded">
-
-            <div class="row mb-5 text-center">
-
-                <div class="col-12">
-
-                    <span class="h2">Découvrez la <a href="{{site.url}}/shop.html" class="py-2 px-3 text-primary border-primary px-2">Vitrine</a></span>
-
-                </div>
-            </div>
-
-
-            <div class="row">
-
-                {% for equipement in site.data.equipements %}
-
-                    {% if equipement.featured == true %}
-
-                        <div class="col-md-4">
-
-                            {% include /boxes/featured-product.html %}
-
-                        </div>
-
-                    {% endif %}
-
-                {% endfor %}
-                
-            </div>
-
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="{{site.url}}/shop.html" class="btn btn-outline-primary">Tous les produits</a>
-                </div>
-            </div>
-            
-        </div>
-
     </div>
 
 </aside>
