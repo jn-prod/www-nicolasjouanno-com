@@ -20,5 +20,5 @@ OpenClassrooms (ex- Site Du Zero) est une école française en ligne offrant des
 **Voici mes {{ site.data.certifications.size }} certifications :**
 
 {% for certification in site.data.certifications %}
-  - <span class="text-muted">{{ certification.category }} -</span> {% if certification.url %}<a href="{{certification.url}}">{{certification.title}}</a> {% else %} {{certification.title}} {% endif %} \| <a href="{{site.data.authors.nicolas.certifications_folder}}">Mon certificat →</a>
+  - <span class="text-muted">{{ certification.category }} -</span> {% if certification.url %}<a href="{{certification.url}}">{{certification.title}}</a> {% else %} {{certification.title}} {% endif %} \| <a href="{{site.data.authors.nicolas.certifications_folder}}" target="_blank">Mon certificat →</a>
 {% endfor %}
