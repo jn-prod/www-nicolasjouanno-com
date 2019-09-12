@@ -129,10 +129,18 @@ seo_description: "Développeur Web Freelance en Remote. Développement de site W
 
           {% if project.profile == true %}
 
-            <div class="col-md-6 text-center m-2 bg-light shadow border-muted rounded">
+            <div class="col-md-6 p-2">
+              
+              <div class="row">
+
+                  <div class="col-12 text-center bg-light shadow border-muted rounded">  
+                    
+                    {% include /boxes/project.html %}
+                    
+                  </div>
                 
-                {% include /boxes/project.html %}
-            
+              </div>
+
             </div>
 
           {% endif %}
