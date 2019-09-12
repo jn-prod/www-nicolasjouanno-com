@@ -29,18 +29,6 @@ permalink: stories.html
 
 </div>
 
-<div class="newsletter row bg-light p-5 text-center shadow rounded">
-
-    <div class="col-12">
-
-        <h2 class="d-block font-primary">Pas encore inscrit aux "Stories" ?</h2>
-
-        <p>{{ site.data.authors.nicolas.post_cta }}</p>
-
-        {% include /plugins/newsletter.html %} 
-
-    </div>
-
-</div>
+{% include /boxes/subscribe.html %} 
 
 {% include boxes/stories-mentions.html %}
