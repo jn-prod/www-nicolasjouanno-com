@@ -62,16 +62,6 @@
       
         <p class="d-block mb-3 text-left">{{ project.solution }}</p>
 
-        {% for expertise in project.expertises %}
-
-          <span class="font-weight-bold btn btn-outline-primary mx-2">
-
-            {{expertise}}
-
-          </span>
-
-        {% endfor %} 
-
       {% else %}
 
         <a href="{{ site.url }}/portfolio.html#{{ project.name }}" class="font-weight-bold btn btn-outline-primary">
@@ -110,7 +100,7 @@
       
       {% if project.url %}
 
-        <div class="d-block text-center mt-5">
+        <div class="d-block w-100 text-center mt-5">
 
           <a href="{{project.url}}" class="shadow btn btn-primary p-3 rounded-pill" target="_blank">Découvrir <i class="fas fa-arrow-right ml-2"></i></a>
 
