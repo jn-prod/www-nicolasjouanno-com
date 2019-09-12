@@ -53,7 +53,14 @@
 
 
       {% if page.url == "/portfolio.html" %}
-        <p class="d-block mb-3 text-left">{{ project.description }}</p>
+      
+        <h4 class="my-2">Problème</h4>
+      
+        <p class="d-block mb-3 text-left">{{ project.problem }}</p>
+      
+        <h4 class="my-2">Solution</h4>
+      
+        <p class="d-block mb-3 text-left">{{ project.solution }}</p>
 
         {% for expertise in project.expertises %}
 
