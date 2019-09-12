@@ -45,19 +45,33 @@ seo_description: "Développeur Web Freelance en Remote. Développement de site W
 ================================================== -->
 
 <div class="container bg-light p-5 shadow mt-5">
+  
   <div class="row my-5">
+    
     <div class="col-lg-4 col-md-12">
+      
       <h2 class="h1">Je développe des produits digitaux.</h2>
+    
     </div>
+    
     <div class="col-lg-4 col-md-6">
+      
       <p>Enfant, je fabriquais des cabanes, bricolais mon vélo. A mon adolescence, j'ai découvert les pouvoirs de l'informatique, cet univers de tous les possibles, où les idées prennent vie.</p>
+      
       <p>Si l'école m'a apporté un bagage initial de connaissances, ce que je sais du développement de produit digitaux, je le dois à Internet.</p>
+    
     </div>
+    
     <div class="col-lg-4 col-md-6">
+      
       <p>C'est pour partager mes connaissances, expériences et ressources que j'ai commencé ce blog. Ce site me permet de partager avec vous ce voyage et contribuera au développement de votre projet digital.</p>
+      
       <p><a href="{{ site.url }}/about.html" class="btn btn-outline-primary font-weight-bold">En savoir plus sur moi <i class="fas fa-arrow-right ml-2"></i></a></p>
+    
     </div>
+    
   </div>
+  
   <div class="row">
 
     {% for technologie in site.data.technologies limit:10  %}
@@ -83,33 +97,41 @@ seo_description: "Développeur Web Freelance en Remote. Développement de site W
     {% endfor %}         
 
   </div>
+  
 </div>
 
 <!-- Latest Projects
 ================================================== -->
 <div class="container">
+  
   <div class="row mt-5 pt-5">
+    
     <div class="col-12">
+      
       <h2 class="h1 mb-3">Projets personnels actuels.</h2>
+      
     </div>
+    
   </div>
+  
   <div class="row">
+    
     <div class="col-lg-4 col-md-12 my-auto">
+      
       <p>J'ai commencer sur la toile en tant que web-marketeur. Rapidement frustré de ne pouvoir offrir une éxpérience utilisateur sur-mesure aux <strong>10 000 visiteurs mensuel de vtt.bzh</strong>, je me suisi ouvert aux mondes du Design et du Développement web. Créant ainsi mes premiers produits digitaux.</p>
     </div>
+    
     <div class="col-lg-8 col-md-12">
+      
       <div class="row">
+        
         {% for project in site.data.projects %}
 
           {% if project.profile == true %}
 
-            <div class="col-md-6 text-center p-2">
-
-              <div class="d-block bg-light shadow border-muted rounded">
+            <div class="col-md-6 text-center m-2 bg-light shadow border-muted rounded">
                 
                 {% include /boxes/project.html %}
-              
-              </div>
             
             </div>
 
