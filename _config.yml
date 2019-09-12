@@ -1,7 +1,7 @@
 # Site Settings
 locale           : "fr-FR"
 title            : "Nicolas Jouanno"
-headline         : "Développeur Back-end | NodeJS - Python - Ruby - MongoDB - PostgreSQL"
+headline         : "Développeur Back-end Freelance Remote | NodeJS - MongoDB - Django - Flask"
 url              : "https://nicolasjouanno.com"
 logo             : 'assets/public/images/brand/logo.png'
 comments:
