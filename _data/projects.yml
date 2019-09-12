@@ -16,26 +16,6 @@
   url: "/"
   images:
     - "/assets/public/images/projets/ext-7.png"
-- name: "Izir.fr"
-  year: "2014 - Aujourd'hui"
-  city: "Pontivy"
-  profile: false
-  type: 
-    name: "Site applicatif"
-    url: "site-applicatif.html"
-  description: "Event.izir.fr est un site applicatif qui permet aux sportifs de s'inscrire à des événements sportifs que les organisateurs auront au préalable créés sur la plate-forme. Je réalise le product management de cette plate-forme depuis ces débuts, réalise le développement back-end et front-end, ainsi que la recherche utilisateur et le design."
-  mission: "Side project"
-  expertises: 
-    - "Product Management"
-    - "Développement full stack"
-    - "Gestion de projet agile"
-    - "Branding"
-    - "UX / UI"
-    - "Analytics"
-    - "Automation"
-  url: "https://event.izir.fr"
-  images:
-    - "/assets/public/images/projets/ext-1.jpg"
 - name: "Feezify:me"
   year: "2018"
   city: "Pontivy"
@@ -58,7 +38,7 @@
   images: 
     - "/assets/public/images/projets/ext-3.png"
 - name: "GO Sport"
-  year: "2016 - Aujourd'hui"
+  year: "2018"
   city: "Cap Malo, Laval, Lorient, Mellac, Muzillac, Pontivy, Saint Meen Le Grand, Redon"
   profile: false
   type:
@@ -77,6 +57,26 @@
     - "Automation"
   images: 
     - "/assets/public/images/projets/ext-2.png"
+- name: "Izir.fr"
+  year: "2017 - Aujourd'hui"
+  city: "Pontivy"
+  profile: false
+  type: 
+    name: "Site applicatif"
+    url: "site-applicatif.html"
+  description: "Event.izir.fr est un site applicatif qui permet aux sportifs de s'inscrire à des événements sportifs que les organisateurs auront au préalable créés sur la plate-forme. Je réalise le product management de cette plate-forme depuis ces débuts, réalise le développement back-end et front-end, ainsi que la recherche utilisateur et le design."
+  mission: "Side project"
+  expertises: 
+    - "Product Management"
+    - "Développement full stack"
+    - "Gestion de projet agile"
+    - "Branding"
+    - "UX / UI"
+    - "Analytics"
+    - "Automation"
+  url: "https://event.izir.fr"
+  images:
+    - "/assets/public/images/projets/ext-1.jpg"
 - name: "gael-lebellec.bzh"
   year: "2017"
   city: "Loudéac"
@@ -95,6 +95,26 @@
   url: "http://www.gael-lebellec.bzh/"
   images: 
     - "/assets/public/images/projets/ext-4.png"
+- name: "vtt.bzh"
+  year: "2013 - Aujourd'hui"
+  city: "Pontivy"
+  profile: true
+  type: 
+    name: "Site applicatif"
+    url: "site-applicatif.html"
+  description: "Création et optimisation SEO d'un site internet vitrine."
+  mission: "Side project"
+  expertises: 
+    - "Gestion de projet"
+    - "V1: Wordpress / V2: Middleman, NodeJS, MongoDB, jQuery / V3: actuelle - Python, Jekyll, VueJS "
+    - "Intégration HTML5/CSS3"
+    - "Optimisation SEO"
+    - "UX / UI"
+    - "Analytics"
+    - "Side project"
+  url: "https://vtt.bzh"
+  images: 
+    - "/assets/public/images/projets/ext-6.png"
 - name: "joliesbulles.com"
   year: "2013"
   city: "Vannes"
@@ -112,23 +132,3 @@
     - "Wordpress"
   images: 
     - "/assets/public/images/projets/ext-5.png"
-- name: "vtt.bzh"
-  year: "2013 - Aujourd'hui"
-  city: "Auray"
-  profile: true
-  type: 
-    name: "Site applicatif"
-    url: "site-vitrine.html"
-  description: "Création et optimisation SEO d'un site internet vitrine."
-  mission: "Side project"
-  expertises: 
-    - "Gestion de projet"
-    - "V1: Wordpress / V2: Middleman, NodeJS, MongoDB, jQuery / V3: actuelle - Python, Jekyll, VueJS "
-    - "Intégration HTML5/CSS3"
-    - "Optimisation SEO"
-    - "UX / UI"
-    - "Analytics"
-    - "Side project"
-  url: "https://vtt.vzh"
-  images: 
-    - "/assets/public/images/projets/ext-6.png"
