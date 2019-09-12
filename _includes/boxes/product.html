@@ -13,11 +13,8 @@
 		</a>
 
 	{% endfor %}
-	<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-		<a itemprop="url" href="{{ equipement.affilate_url }} " class="d-block text-uppercase product-title" target="_blank" rel="nofollow">
-			<h3 class="h6 m-0 mt-2" itemprop="name">{{ equipement.nom }}</h3>
-		</a>
-  	</div>
+	
+	<h3 class="h6 m-0 mt-2" itemprop="name">{{ equipement.nom }}</h3>
 
 	<section itemprop="description">
 
@@ -40,8 +37,10 @@
 			{% endfor %}	
 
 		</div>
-
-		<a href="{{ equipement.affilate_url }}" class="btn btn-outline-primary" rel="nofollow" target="_blank">Acheter</a>		
+		<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+			<a itemprop="url" href="{{ equipement.affilate_url }}" class="btn btn-outline-primary" rel="nofollow" target="_blank">Acheter</a>
+		</div>
+				
 	</section>
 
 	
