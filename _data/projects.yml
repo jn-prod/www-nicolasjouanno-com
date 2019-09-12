@@ -12,7 +12,7 @@
   solution: >-
     "Volt!" est une newslletter hebdomadaire qui regroupe mes liens coups de coeur.
     Un mix de conseils, de produits et d'histoires qui te motivera à laisser ta voiture au garage !
-  mission: "Side project"
+  mission: "Création d'une newsletter (Side project)"
   expertises: 
     - "Branding"
     - "UX / UI"
@@ -30,13 +30,20 @@
     name: "Site applicatif"
     url: "site-applicatif.html"
   problem: >-
-    Au printemps 2018, je me remet à la course à pieds et en parlant avec des amis ont ce dit qu'il y en a marre d'Excel,
-    des envoies de fichier par e-mail, alors qu'en parallèle on utilise Strava. Alors, c'est en side project que je développe
-    et code cette application web au fure et à mesure de mes besoins de sportifs. Mon objectif est d'avoir un outil simple et
-    ludique pour mesurer ma fatigue physique et mentale, plannifier ma saison et suivre l'évolution des mes classements.
+    Au printemps 2018, je me remet à la course à pieds. C'est en parlant avec des amis qu'on exprime notre lassitude de
+    copier/coller nos metrics clés enregistrées par nos smartphones et montres connectés sur Excel. Sans compter qu'ensuite il faut
+    envoier le fichier par e-mail à son entraineur.
   solution: >-
-    ""
-  mission: "Side project"
+    Strava permet de synchroniser ses donner avec les principaus consteur de montre connectées pour la pratique sportive et
+    est l'application de premier choix pour les sportifs qui ont des objectifs de performance.
+    
+    En plus, Strava met à disposition une API qui permet de récupérer toures ses données une fois synchroniser avec son profil.
+    J'ai donc développer une web-app qui se connect au profil Strava du sportif. Y récupère ses metrics clef d'activités. Le sportif
+    peut configurer son compte pour que son entraineur accède directement à ses données d'activité.
+    
+    L'objectif est d'avoir un outil simple et ludique pour mesurer ma fatigue physique et mentale, plannifier sa saison et
+    suivre l'évolution de son planning de compétition et ses classements.
+  mission: "Création d'une web-app (Side project)"
   expertises: 
     - "Product Management"
     - "NodeJS, MongoDB, ExpressJS"
@@ -45,7 +52,6 @@
     - "Design"
     - "Content"
     - "UX / UI"
-    - "Side project"
   url: "https://app.nicolasjouanno.com"
   images: 
     - "/assets/public/images/projets/ext-3.png"
@@ -135,7 +141,7 @@
     Création et optimisation SEO d'un site internet vitrine.
   solution: >-
     ""
-  mission: "Side project"
+  mission: "Création d'une web-app (Side project)"
   expertises: 
     - "Gestion de projet"
     - "V1: Wordpress / V2: Middleman, NodeJS, MongoDB, jQuery / V3: actuelle - Python, Jekyll, VueJS "
@@ -143,7 +149,6 @@
     - "Optimisation SEO"
     - "UX / UI"
     - "Analytics"
-    - "Side project"
   url: "https://vtt.bzh"
   images: 
     - "/assets/public/images/projets/ext-6.png"
