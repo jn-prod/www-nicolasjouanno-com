@@ -71,17 +71,6 @@
           </span>
 
         {% endfor %} 
-        
-
-        {% if project.url %}
-
-          <div class="d-block text-center mt-5">
-
-            <a href="{{project.url}}" class="shadow btn btn-primary p-3 rounded-pill" target="_blank">Découvrir <i class="fas fa-arrow-right ml-2"></i></a>
-
-          </div>
-
-        {% endif %}
 
       {% else %}
 
@@ -100,7 +89,35 @@
   <div class="col-md-5 my-auto text-center py-2">
     
     <img src="{{ project.images[0] }}" alt="{{ project.name }}" class="img-fluid">
-  
-  </div>
+    
+    {% if page.url == "/portfolio.html" %}
 
+        {% for expertise in project.expertises %}
+
+          <span class="font-weight-bold btn btn-outline-primary mx-2">
+
+            {{expertise}}
+
+          </span>
+
+        {% endfor %} 
+    
+    {% endif %}
+    
+  </div>
+  
+  {% if page.url == "/portfolio.html" %}
+      
+      {% if project.url %}
+
+        <div class="d-block text-center mt-5">
+
+          <a href="{{project.url}}" class="shadow btn btn-primary p-3 rounded-pill" target="_blank">Découvrir <i class="fas fa-arrow-right ml-2"></i></a>
+
+        </div>
+  
+      {% endif %}
+
+   {% endif %}
+  
 </div>  
