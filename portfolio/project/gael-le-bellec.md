@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Gael Le Bellec - Création d'une page web athlète"
-seo_description: ""
+seo_description: "Gestion du projet de création du mini site de Gael Le Bellec. Développement front-end javascript et intégration avec jekyll."
 permalink: "/portfolio/project/gael-le-bellec.html"
 img: "/assets/public/images/projets/ext-4.png"
 context: >-
