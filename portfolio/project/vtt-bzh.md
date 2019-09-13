@@ -50,14 +50,14 @@ Bien qu'il soit simple de comprendre le rôle de chacune d'elle comportement du 
 
 En séparant le code lié à la donnée du rendu, on assure le maintient des fonctionnalités de rendu et augmente les possibilités de filtre de la recherche.
 
-Une séparation permise par les frameworks javascript moderne comme VueJS, ReactJS et Angular, favorisant l'ajout incrémental de feature.
+Une séparation permise par les frameworks javascript moderne comme VueJS, [ReactJS](https://fr.reactjs.org/) et [Angular](https://angular.io/), favorisant l'ajout incrémental de feature.
 
 Je choisi donc de passer du javascript natif à une structure SPA (Single Page Application).
 
 <!--3. Solutions et choix technique-->
 ## D'une application full JS à une stack Python - VueJS
 
-Après un peu de recherche éclairé par ma précédente veuille, je décide de réécrire tout le scrapper en Python avec la librairie [scrapy](https://scrapy.org/) reconnu pour sa performance.
+Après un peu de recherche éclairé par ma précédente veuille, je décide de réécrire tout le scrapper en [Python](https://www.python.org/) avec la librairie [scrapy](https://scrapy.org/) reconnu pour sa performance.
 
 Séduit par la promesse de [VueJS](https://vuejs.org/) d'être pris en main en une journée. C'est donc guidé par mon objectif de temps que je m'oriente pour cette solution à un ReactJS ou AngularJS qui sont reconnus pour leur learning curve plus abrupte au début.
 
