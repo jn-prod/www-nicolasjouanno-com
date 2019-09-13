@@ -1,8 +1,13 @@
 ---
 layout: project
-title: vtt.bzh - Création et développement d'un site applicatif
+title: vtt.bzh - Refonte full-stack Python/VueJS d'un site applicatif
 seo_description:
 permalink: /portfolio/project/vtt-bzh.html
+img: ""
+summary: >-
+  "..."
+job: "Side Project"
+year: "2019"
 
 ---
 ## Présentation
