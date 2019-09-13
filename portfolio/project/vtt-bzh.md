@@ -8,6 +8,9 @@ summary: >-
   "Création et optimisation SEO d'un site internet vitrine."
 job: "Side Project"
 year: "2019"
+type: 
+  name: "Site applicatif"
+  url: "site-applicatif.html"
 
 ---
 ## Présentation
