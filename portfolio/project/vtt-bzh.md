@@ -1,8 +1,8 @@
 ---
 layout: project
 title: vtt.bzh - Refonte full-stack Python/VueJS d'une web-app
-seo_description: "Refonte full-stack de la web-app vtt.bzh, création d'un scraper python et développement front VueJS.
-permalink: /portfolio/project/vtt-bzh.html
+seo_description: "Refonte full-stack de la web-app vtt.bzh, création d'un scraper python et développement front VueJS."
+permalink: "/portfolio/project/vtt-bzh.html"
 img: "/assets/public/images/projets/ext-6.png"
 context: >-
   Créé en 2013, vtt.bzh a connu jusqu'à 10.000 visiteurs /mois. Le MVP que j'avais créé sous Wordpress était
