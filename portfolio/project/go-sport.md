@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Go Sport - Création d'un intranet pour le partage des tableaux de bord commerciaux"
-seo_description: ""
+seo_description: "Gestion du projet de création d'un intranet Go Sport. Développement full-stack NodeJS, MongodDB, ExpressJS."
 permalink: "/portfolio/project/go-sport.html"
 img: "/assets/public/images/projets/ext-2.png"
 context: >-
