@@ -20,6 +20,7 @@ link:
   name: "vtt.bzh"
   
 ---
+
 <!--1. Scope et contraintes-->
 ## Scope et contraintes
 Vtt.bzh étant un side project, j'ai l'ownership de l'UX/UI et de l'ensemble de la stack technique.
