@@ -149,26 +149,6 @@
     - "Optimisation SEO"
     - "UX / UI"
     - "Analytics"
-  url: "https://vtt.bzh"
+  url: "portfolio/project/vtt-bzh.html"
   images: 
     - "/assets/public/images/projets/ext-6.png"
-- name: "joliesbulles.com"
-  year: "2013"
-  city: "Vannes"
-  profile: false
-  type: 
-    name: "Site applicatif"
-    url: "site-applicatif.html"
-  problem: >-
-    Création et optimisation SEO d'un site internet vitrine.
-  solution: >-
-    ""
-  mission: "Création du site internet (Freelance)"
-  expertises: 
-    - "Gestion de projet"
-    - "Webmaster"
-    - "Intégration HTML5/CSS3"
-    - "Optimisation SEO"
-    - "Wordpress"
-  images: 
-    - "/assets/public/images/projets/ext-5.png"
