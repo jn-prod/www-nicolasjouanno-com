@@ -1,26 +1,35 @@
 <div class="row {% if page.url == "/portfolio.html" %}pb-5 border-bottom mt-5{% endif %} ">
-
-  <div class="col-md-5 my-auto text-center py-2">
-    
-    <img src="{{ project.images[0] }}" alt="{{ project.name }}" class="img-fluid">
-    
-  </div>  
   
-  <div class="col-md-7 my-4 p-4 text-center mx-auto">
+  <!-- column 1 -->
+  {% if page.url != "/portfolio.html" %}
 
-    <div class="row">
+    <div class="col-12 my-auto text-center py-2">
 
-      <div class="col-md-6 my-auto text-sm-center text-md-left">
+  {% else %}
 
-        <h3 class="mb-2">{{ project.name }}</h3>  
+    <div class="col-md-5 my-auto text-center py-2">
+    
+  {% endif %}
 
-        <span class="text-muted">{{ project.mission }}, {{ project.year }}</span>  
+      <img src="{{ project.images[0] }}" alt="{{ project.name }}" class="img-fluid">
 
-      </div>
+  </div>  
 
-    </div>
+  <!-- column 2 -->
+  {% if page.url != "/portfolio.html" %}
 
-    {% if page.url != "/portfolio.html" %}
+    <div class="col-12 px-4 mx-auto">
+
+  {% else %}
+
+    <div class="col-md-7 px-4 mx-auto">
+    
+  {% endif %}  
+  
+
+    <h3 class="mb-2">{{ project.name }}</h3> 
+
+    {% if page.url != "/portfolio.html" %} 
 
       <a href="{{ project.url }}" class="font-weight-bold btn btn-outline-primary">
 
@@ -30,32 +39,30 @@
 
     {% else %}
 
+      <div class="text-muted mb-2">{{ project.mission }}, {{ project.year }}</div> 
+
       {% for expertise in project.expertises %}
 
         <span class="font-weight-bold btn btn-outline-primary mx-2">
 
-          {{expertise}}
+          {{ expertise }}
 
         </span>
 
       {% endfor %} 
 
-    {% endif %}
-
-  </div>
-  
-  {% if page.url == "/portfolio.html" %}
-      
       {% if project.url %}
 
-        <div class="d-block w-100 text-center mt-2">
+        <div>
 
-          <a href="{{ project.url }}" class="shadow btn btn-primary p-3 rounded-pill">Découvrir <i class="fas fa-arrow-right ml-2"></i></a>
+          <a href="{{ project.url }}" class=" mt-3 mb-2 shadow btn btn-primary p-3 rounded-pill">Découvrir <i class="fas fa-arrow-right ml-2"></i></a>
 
         </div>
   
       {% endif %}
 
-   {% endif %}
+    {% endif %}
+
+  </div>
   
 </div>  
