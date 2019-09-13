@@ -19,6 +19,7 @@ link:
 ---
 <!--1. Scope et contraintes-->
 ## Scope et contraintes
+
 Sur le projet Gael m'a laissé l'ownership du design et de la partie tech.
 
 Il souhaitait que le site soit multilingue, qu'il affiche dynamiquement des news, son calendrier des épreives à venir et ses classements.
