@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Event Izir - Création d'une plate-forme d'inscription pour les événements sportifs"
-seo_description: ""
+seo_description: "Gestion du projet de création de web-app Event Izir. Développement full-stack NodeJS, MongodDB, ExpressJS."
 permalink: "/portfolio/project/event-izir.html"
 img: "/assets/public/images/projets/ext-1.jpg"
 context: >-
