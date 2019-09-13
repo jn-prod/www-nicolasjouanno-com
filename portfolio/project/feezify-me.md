@@ -48,4 +48,4 @@ Le sportif à ensuite accès à un espace utilisateur tournant sur un serveur [N
 
 Le POC atteind son objectif en toute transparence et simplicité pour l'utilisateur.
 
-L'application prenant une forte orientation analytique et mathématique, le MVP gagnerait à être recoder en Python pour profiter des librairies mathématique de ce langage, gagnerait en maintenabilité avec un paradigme objet et en productivité avec un syntaxe plus light.
+L'application prenant une forte orientation analytique et mathématique, le MVP gagnerait à être recoder en [Python](https://www.python.org/) pour profiter des librairies mathématique de ce langage comme [panda](https://pandas.pydata.org/), gagnerait en maintenabilité avec un paradigme objet et en productivité avec un syntaxe plus light.
