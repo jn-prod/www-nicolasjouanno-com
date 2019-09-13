@@ -100,9 +100,10 @@
     - "Développement full stack"
     - "Analytics"
     - "Automation"
+  url: "portfolio/project/go-sport.html"
   images: 
     - "/assets/public/images/projets/ext-2.png"
-- name: "Izir.fr"
+- name: "Event.izir.fr"
   year: "2017 - Aujourd'hui"
   city: "Pontivy"
   profile: false
@@ -124,7 +125,7 @@
     - "UX / UI"
     - "Analytics"
     - "Automation"
-  url: "https://event.izir.fr"
+  url: "portfolio/project/event-izir.html"
   images:
     - "/assets/public/images/projets/ext-1.jpg"
 - name: "gael-lebellec.bzh"
@@ -149,6 +150,6 @@
     - "Design"
     - "API Google docs"
     - "Multilangue"
-  url: "http://www.gael-lebellec.bzh/"
+  url: "portfolio/project/gael-le-bellec.html
   images: 
     - "/assets/public/images/projets/ext-4.png"
