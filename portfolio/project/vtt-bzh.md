@@ -4,7 +4,7 @@ title: vtt.bzh - Refonte full-stack Python/VueJS d'une web-app
 seo_description:
 permalink: /portfolio/project/vtt-bzh.html
 img: "/assets/public/images/projets/ext-6.png"
-summary: >-
+context: >-
   Créé en 2013, vtt.bzh a connu jusqu'à 10.000 visiteurs /mois. Le MVP que j'avais créé sous Wordpress était
   très "do things that don't scale". Je réalisais manuellement une curation des randonnées régionnales, que je listais
   manuelement sur le site. En 2016, je faisais mes premières armes en javascript et développa un scrapper en
