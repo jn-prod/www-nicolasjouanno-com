@@ -1,3 +1,25 @@
+- name: "vtt.bzh"
+  year: "2013 - Aujourd'hui"
+  city: "Pontivy"
+  profile: true
+  type: 
+    name: "Site applicatif"
+    url: "site-applicatif.html"
+  problem: >-
+    Création et optimisation SEO d'un site internet vitrine.
+  solution: >-
+    ""
+  mission: "Création d'une web-app (Side project)"
+  expertises: 
+    - "Gestion de projet"
+    - "V1: Wordpress / V2: Middleman, NodeJS, MongoDB, jQuery / V3: actuelle - Python, Jekyll, VueJS "
+    - "Intégration HTML5/CSS3"
+    - "Optimisation SEO"
+    - "UX / UI"
+    - "Analytics"
+  url: "portfolio/project/vtt-bzh.html"
+  images: 
+    - "/assets/public/images/projets/ext-6.png"
 - name: "Volt!"
   year: "2019 - Aujourd'hui"
   city: "Pontivy"
@@ -130,25 +152,3 @@
   url: "http://www.gael-lebellec.bzh/"
   images: 
     - "/assets/public/images/projets/ext-4.png"
-- name: "vtt.bzh"
-  year: "2013 - Aujourd'hui"
-  city: "Pontivy"
-  profile: true
-  type: 
-    name: "Site applicatif"
-    url: "site-applicatif.html"
-  problem: >-
-    Création et optimisation SEO d'un site internet vitrine.
-  solution: >-
-    ""
-  mission: "Création d'une web-app (Side project)"
-  expertises: 
-    - "Gestion de projet"
-    - "V1: Wordpress / V2: Middleman, NodeJS, MongoDB, jQuery / V3: actuelle - Python, Jekyll, VueJS "
-    - "Intégration HTML5/CSS3"
-    - "Optimisation SEO"
-    - "UX / UI"
-    - "Analytics"
-  url: "portfolio/project/vtt-bzh.html"
-  images: 
-    - "/assets/public/images/projets/ext-6.png"
