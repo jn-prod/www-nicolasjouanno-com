@@ -3,7 +3,7 @@ layout: project
 title: "Event Izir - Création d'une plate-forme d'inscription pour les événements sportifs"
 seo_description: ""
 permalink: "/portfolio/project/event-izir.html"
-img: "/assets/public/images/projets/ext-1.png"
+img: "/assets/public/images/projets/ext-1.jpg"
 context: >-
 job: "Chef de Projet Full-stack (CDI)"
 year: "2017 -  Aujourd'hui"
