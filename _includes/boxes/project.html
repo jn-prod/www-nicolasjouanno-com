@@ -1,99 +1,47 @@
 <div class="row {% if page.url == "/portfolio.html" %}pb-5 border-bottom mt-5{% endif %} ">
 
-  <div class="col-md-7 my-4 p-2 text-center mx-auto">
-
-    <div class="d-block p-2">
-
-      {% if page.url == "/portfolio.html" %}
-
-      <div class="row">
-        <div class="col-md-6 my-auto text-sm-center text-md-left">
-          <h3 class="mb-2">
-
-            <a href="{{ project.url }}" class="text-dark" target="_blank">
-
-              {{ project.name }}
-
-            </a>
-
-          </h3>  
-          <span class="text-muted">Mission: {{ project.mission }}</span>        
-        </div>
-        <div class="col-md-6">
-          <span class="my-3 d-block text-muted text-sm-center text-md-right font-weight-bold">
-            Type: <span class="text-dark">{{ project.type.name }}</span>
-          </span>
-          <span class="my-3 d-block text-muted text-sm-center text-md-right font-weight-bold">
-            Année: <span class="text-dark">{{ project.year }}</span>
-          </span>  
-          <span class="my-3 d-block text-muted text-sm-center text-md-right font-weight-bold">
-            Ville: <span class="text-dark">{{ project.city }}</span>
-          </span>          
-        </div>
-      </div>
-
-      {% else %}
-
-        <h3 class="mb-4 h4 text-center">
-
-          <a href="{{ project.url }}" class="text-dark" target="_blank">
-
-            {{ project.name }}
-
-          </a>
-
-        </h3>          
-
-        <span class="my-3 d-block text-muted text-center font-weight-bold">
-          Type: <span class="text-dark">{{ project.type.name }}</span>
-        </span>   
-
-      {% endif %}
-      
-
-
-      {% if page.url == "/portfolio.html" %}
-      
-        <h4 class="my-2 text-left">Problème</h4>
-      
-        <p class="d-block mb-3 text-left">{{ project.problem }}</p>
-      
-        <h4 class="my-2 text-left">Solution</h4>
-      
-        <p class="d-block mb-3 text-left">{{ project.solution }}</p>
-
-      {% else %}
-
-        <a href="{{ site.url }}/portfolio.html#{{ project.name }}" class="font-weight-bold btn btn-outline-primary">
-
-          détails du projet
-
-        </a>
-
-      {% endif %}
-
-    </div>
-
-  </div>
-
   <div class="col-md-5 my-auto text-center py-2">
     
     <img src="{{ project.images[0] }}" alt="{{ project.name }}" class="img-fluid">
     
-    {% if page.url == "/portfolio.html" %}
+  </div>  
+  
+  <div class="col-md-7 my-4 p-4 text-center mx-auto">
 
-        {% for expertise in project.expertises %}
+    <div class="row">
 
-          <span class="font-weight-bold btn btn-outline-primary mx-2">
+      <div class="col-md-6 my-auto text-sm-center text-md-left">
 
-            {{expertise}}
+        <h3 class="mb-2">{{ project.name }}</h3>  
 
-          </span>
+        <span class="text-muted">{{ project.mission }}, {{ project.year }}</span>  
 
-        {% endfor %} 
-    
+      </div>
+
+    </div>
+
+    {% if page.url != "/portfolio.html" %}
+
+      <a href="{{ project.url }}" class="font-weight-bold btn btn-outline-primary">
+
+        détails du projet
+
+      </a>
+
+    {% else %}
+
+      {% for expertise in project.expertises %}
+
+        <span class="font-weight-bold btn btn-outline-primary mx-2">
+
+          {{expertise}}
+
+        </span>
+
+      {% endfor %} 
+
     {% endif %}
-    
+
   </div>
   
   {% if page.url == "/portfolio.html" %}
@@ -102,7 +50,7 @@
 
         <div class="d-block w-100 text-center mt-2">
 
-          <a href="{{project.url}}" class="shadow btn btn-primary p-3 rounded-pill">Découvrir <i class="fas fa-arrow-right ml-2"></i></a>
+          <a href="{{ project.url }}" class="shadow btn btn-primary p-3 rounded-pill">Découvrir <i class="fas fa-arrow-right ml-2"></i></a>
 
         </div>
   
