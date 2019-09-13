@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Volt! - création d'une newsletter sur la modilité alternative
-seo_description: ""
+seo_description: "Gestion du projet de création de la newsletter Volt!. Automatisation du user flow."
 permalink: "/portfolio/project/volt.html"
 img: "/assets/public/images/projets/ext-7.png"
 context: >-
