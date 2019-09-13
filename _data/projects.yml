@@ -126,7 +126,7 @@
     - "Analytics"
     - "Automation"
   url: "portfolio/project/event-izir.html"
-  images:
+  images: 
     - "/assets/public/images/projets/ext-1.jpg"
 - name: "gael-lebellec.bzh"
   year: "2017"
