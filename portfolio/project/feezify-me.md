@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Feezify:me Création d'une web-app pour la gestion des entrainements"
-seo_description: ""
+seo_description: "Product management de la web-app Feezify:me. Développement full-stack NodeJS, MongodDB, ExpressJS."
 permalink: "/portfolio/project/feezify-me.html"
 img: "/assets/public/images/projets/ext-3.png"
 context: >-
