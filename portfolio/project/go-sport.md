@@ -24,7 +24,7 @@ En charge de l'extraction de données de l'outil de GRC et de leur intégration 
 
 <!--2. Problème-->
 ## Problème
-Après deux ans, le fichier c'était complexifier et son maintient très compliqué par l'usage même d'Excel(formules cassées, répétées, complexe, ...) et par le volume de données traitées. L'objectif est donc d'avoir un outil qui comprend:
+Après deux ans, le fichier c'était complexifier et son maintient très compliqué par l'usage même d'[Excel](https://products.office.com/fr-fr/excel) (formules cassées, répétées, complexe, ...) et par le volume de données traitées. L'objectif est donc d'avoir un outil qui comprend:
 - les formules de performances commerciales dans un fichier,
 - une base de données propre pour les séparer de l'application et profiter d'outils de requètes
 - supprimer la répétition de ce qui correspondrait à des composants
@@ -32,9 +32,9 @@ Après deux ans, le fichier c'était complexifier et son maintient très compliq
 <!--3. Solutions et choix technique-->
 ## Solutions et choix technique
 La création d'un intranet permet de simplifier la communication avec des tableaux de bords mis à jours en temps reel, finis les erratum. 
-Création d'une application MVC en NodeJS/MongoDB.
+Création d'une application MVC en [NodeJS](https://nodejs.org/en/) - [MongoDB](https://www.mongodb.com/fr) - [ExpressJS](https://expressjs.com/fr/).
 
 <!--4. Résultats et leçons-->
 ## Résultats et leçons
 L'application permet de diminuer par 3 le temps de traitement et de façon exponentiel chaque modification. La création et la mise à jours de challenges, d'indice est simplifiées.
-Cette application reposant sur des besoins mathématique gagnerait a tirer profit des librairies Python et de son paradygme objet.
+Cette application reposant sur des besoins mathématique gagnerait a tirer profit des librairies [Python](https://www.python.org/) et de son paradygme objet.
