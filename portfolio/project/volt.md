@@ -18,7 +18,7 @@ link:
 <!--1. Scope et contraintes-->
 
 <!--2. Problème-->
-##Problème
+## Problème
 
 Adolescent j'étais passionné par le milieu underground du street (roller, skate, BMX, ...). En vieillissant, le temps a passé et la technologie a fait son entrée sur nos trotoires avec des "jouets" motorisés électriquement (trotinnettes, giropodes, ...). Comment créer un média qui garde cette culture underground et parle de produits pour les geeks à moustache ?
 
