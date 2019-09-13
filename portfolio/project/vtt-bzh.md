@@ -1,11 +1,11 @@
 ---
 layout: project
-title: vtt.bzh - Refonte full-stack Python/VueJS d'un site applicatif
+title: vtt.bzh - Refonte full-stack Python/VueJS d'une web-app
 seo_description:
 permalink: /portfolio/project/vtt-bzh.html
-img: ""
+img: "/assets/public/images/projets/ext-6.png"
 summary: >-
-  "..."
+  "Création et optimisation SEO d'un site internet vitrine."
 job: "Side Project"
 year: "2019"
 
