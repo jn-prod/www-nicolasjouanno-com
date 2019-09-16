@@ -6,6 +6,7 @@ type: post
 
 categories:
 - Experience
+- Tech
 
 tags:
 - learning
