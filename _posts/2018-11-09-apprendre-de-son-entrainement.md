@@ -6,9 +6,7 @@ type: post
 
 categories:
 - Sport
-- Inspiration
-- Coach
-- Digital
+- Experience
 
 tags:
 - Sport
