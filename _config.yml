@@ -92,7 +92,7 @@ call_link: "https://bit.ly/2Z4jFpb"
 
 # Outputting
 permalink : /:title:output_ext
-paginate: 24
+paginate: 12
 paginate_path: /stories/latest/page:num/
 
 # Plugins
