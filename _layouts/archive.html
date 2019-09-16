@@ -20,7 +20,7 @@ title: Archive
 
         <div class="col-md-10 col-lg-8 mx-auto">
 
-            <h2 class="d-block font-primary mb-5">Pas encore inscrit aux <span class="py-2 px-3 text-primary border-primary px-2">Stories</span> ?</h2>
+            <div class="d-block font-primary mb-5 h2">Pas encore inscrit a <span class="py-2 px-3 text-primary border-primary px-2">"Volt!"</span> ?</div>
 
             <p class="mb-4">{{ site.data.authors.nicolas.post_cta}}</p>
 
@@ -31,25 +31,43 @@ title: Archive
     </div>  
     
     <div class="section-title py-3">
-
-        <h1 class="font-primary text-center mb-5">Stories de la <span>{{ page.type }} <a href="{{site.url}}{{page.url}}" class="p-2 text-primary border-primary">#{{ page.title }}</a></span></h1>
+      
+      <!-- Default Header + Posts
+      ================================================== -->
+      {% if page.url != "/stories.html" %}
+      
+          <h1 class="font-primary text-center mb-5">Stories de la <span>{{ page.type }} <a href="{{site.url}}{{page.url}}" class="p-2 text-primary border-primary">#{{ page.title }}</a></span></h1>
         
-    </div>
+         <div class="row listrecent pt-2">
 
-    <div class="row listrecent pt-2">
+           {% for post in site.posts %}
 
-      {% for post in site.posts %}
+              {% if post.categories contains page.title %}
 
-          {% if post.categories contains page.title %}
+                {% include /boxes/post.html type=page.entries_layout class="col-lg-4 col-md-6" %}
 
-            {% include /boxes/post.html type=page.entries_layout class="col-lg-4 col-md-6" %}
+              {% endif %}
 
-          {% endif %}
+          {% endfor %}    
 
-      {% endfor %}
+         </div>  
 
-    </div>  
+      {% endif %}
+      
+      <!-- Page Content
+      ================================================== -->
+      <div class="row">
+        
+        <div class="col-12">
+          
+          {{ content }}
+          
+        </div>
+        
+      </div>
   
+     </div>
+
   </div>
 
 </section>
