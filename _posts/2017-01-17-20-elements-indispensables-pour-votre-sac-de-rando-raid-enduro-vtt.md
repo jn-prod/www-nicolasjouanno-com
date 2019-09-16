@@ -6,8 +6,6 @@ type: post
 
 categories: 
 - Sport
-- Inspiration
-- Vestiaire
 
 tags:
 - VTT

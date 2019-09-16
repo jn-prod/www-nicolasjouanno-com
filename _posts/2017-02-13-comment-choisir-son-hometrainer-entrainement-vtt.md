@@ -6,8 +6,6 @@ type: post
 
 categories:
 - Sport
-- Atelier
-- Coach
 
 tags:
 - VTT

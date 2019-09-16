@@ -6,7 +6,6 @@ type: post
 
 categories: 
 - Sport
-- Inspiration
 
 tags:
 - VTT
