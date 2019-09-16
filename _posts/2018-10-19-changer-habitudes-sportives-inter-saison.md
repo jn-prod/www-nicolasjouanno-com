@@ -11,10 +11,6 @@ categories:
 
 tags:
 - Sport
-- Activités sportives
-- Original
-- Inter-saison
-- Coupure sportive
 
 author: nicolas
 image: assets/public/images/posts/habitude-intersaison.jpg
