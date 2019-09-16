@@ -6,10 +6,7 @@ type: post
 
 categories:
 - Sport
-- Inspiration
-- Design
-- Vestiaire
-- Life
+- Experience
 
 tags:
 - Textile
