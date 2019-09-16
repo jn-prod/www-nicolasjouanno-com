@@ -7,6 +7,8 @@ permalink: stories.html
 
 <h1 class="my-5">Session de rattrapage</h1>
 
+{% include /boxes/subscribe.html %} 
+
 <div class="row">
 
     {% for post in site.posts limit:3 %} 
@@ -28,7 +30,5 @@ permalink: stories.html
     </a>
 
 </div>
-
-{% include /boxes/subscribe.html %} 
 
 {% include boxes/stories-mentions.html %}
