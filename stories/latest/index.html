@@ -1,66 +1,32 @@
 ---
-layout: default
+layout: archive
 title: Stories
 ---
-<!-- Posts Index
+        
+<div class="row pt-2">
+
+    {% for post in paginator.posts %}
+
+        {% include /boxes/post.html class="col-lg-4 col-md-6" %}
+
+    {% endfor %}
+
+</div>
+
+<!-- Pagination
 ================================================== -->
-<section class="recent-posts container-fluid">
+<div class="bottompagination mt-3 mb-5">
 
-    <div class="row">
+    <div class="pointerup">
 
-        {% include /boxes/labels.html %}
-
-    </div>
-    
-    <div class="container mt-5">
-
-        <!-- Newsletter
-        ================================================== -->
-        <div class="my-5">
-
-            {% include /boxes/subscribe.html %} 
-
-        </div> 
-        
-        <div class="section-title">
-            
-            <h1 class="mt-5 mb-5 text-center font-primary">Toutes les dernières <span class="bg-primary-light p-3 text-primary border-primary">stories</span></h1>
-            
-        </div>
-        
-        <div class="row pt-2">
-
-            {% for post in paginator.posts %}
-            
-                {% unless post.categories contains 'academy' %}
-
-                    {% include /boxes/post.html class="col-lg-4 col-md-6" %}
-
-                {% endunless %}
-
-            {% endfor %}
-            
-        </div>
-
-        <!-- Pagination
-        ================================================== -->
-        <div class="bottompagination mt-3 mb-5">
-
-            <div class="pointerup">
-
-                <i class="fa fa-caret-up"></i>
-
-            </div>
-
-            <div class="navigation text-center" role="navigation">
-
-                {% include /plugins/pagination.html %}
-
-            </div>
-
-        </div>  
+        <i class="fa fa-caret-up"></i>
 
     </div>
-    
-</section>
 
+    <div class="navigation text-center" role="navigation">
+
+        {% include /plugins/pagination.html %}
+
+    </div>
+
+</div>
