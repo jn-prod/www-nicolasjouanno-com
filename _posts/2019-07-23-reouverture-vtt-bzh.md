@@ -8,11 +8,8 @@ author: nicolas
 image: assets/public/images/posts/vttbzh.png
 
 categories:
-- Productivité
 - Sport
-- Business
-- Coulisses
-- Podcast
+- Experience
 
 tags:
 - Nouvelle Ecole
