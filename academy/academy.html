@@ -154,39 +154,6 @@ cta: Travaillons ensemble →
 
   </div>
 
-  <!-- lessons -->
-  <div class="row my-5 pt-3" id="lessons">
-
-    <div class="col-12">
-
-      <h2>Les leçons</h2>
-
-    </div>
-    
-  </div>
-
-  <div class="row listrecent mb-3">
-
-    {% assign lessons = site.posts | where: "categories","academy" %}
-
-    {% for post in lessons limit: 3 %}
-
-      {% include /boxes/post.html type=page.entries_layout class="col-lg-4 col-md-6" %}
-
-    {% endfor %}
-
-  </div>
-
-  <div class="row">
-
-    <div class="col-12">
-
-      <a href="{{ site.url }}/lessons/" class="btn btn-outline-primary">Voir toutes les leçons <i class="fas fa-arrow-right ml-2"></i></a>
-
-    </div>
-
-  </div>
-
 </div>
 
 {% include /cta/coaching.html %}
