@@ -16,19 +16,6 @@
   url: "portfolio/project/vtt-bzh.html"
   images: 
     - "/assets/public/images/projets/ext-6.png"
-- name: "Volt!"
-  year: "2019 - Aujourd'hui"
-  profile: true
-  mission: "Création d'une newsletter (Side project)"
-  expertises: 
-    - "Branding"
-    - "UX / UI"
-    - "Analytics"
-    - "Automation"
-    - "Newsletter"
-  url: "portfolio/project/volt.html"
-  images:
-    - "/assets/public/images/projets/ext-7.png"
 - name: "Feezify:me"
   year: "2018"
   profile: false
