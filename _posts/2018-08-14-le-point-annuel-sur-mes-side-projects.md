@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #18 - Le point annuel sur mes side projects.
+title: "#18 - Le point annuel sur mes side projects."
 date: 2018-08-14 16:01:01.000000000 +02:00
 type: post
 image: assets/public/images/posts/bb521-1zb2niurufsj65pccswxi7q.jpeg
