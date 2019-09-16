@@ -3,117 +3,119 @@ layout: default
 title: Adhésion au club
 permalink: /club.html
 ---
-<div class="row">
-  <div class="col-12">
-    <em class="text-muted">Tout d'abord : MERCI ! Le simple fait que vous visitiez cette page est peut-être un détail pour vous, mais pour moi ça veut dire beaucoup. Ça veut dire que vous trouvez du sens dans la passion que je met dans mes projets.</em>
-    
-    <div class="d-sm-block d-md-flex justify-content-between bg-primary text-white p-3 my-3 shadow py-auto">
-      <h1 class="d-flex align-items-center">Adhésion au club privé</h1>
-      <div class="d-flex justify-content-around">
-        <div class="d-flex align-items-center">
-          à partir de 2€ /mois
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <em class="text-muted">Tout d'abord : MERCI ! Le simple fait que vous visitiez cette page est peut-être un détail pour vous, mais pour moi ça veut dire beaucoup. Ça veut dire que vous trouvez du sens dans la passion que je met dans mes projets.</em>
+
+      <div class="d-sm-block d-md-flex justify-content-between bg-primary text-white p-3 my-3 shadow py-auto">
+        <h1 class="d-flex align-items-center">Adhésion au club privé</h1>
+        <div class="d-flex justify-content-around">
+          <div class="d-flex align-items-center">
+            à partir de 2€ /mois
+          </div>
+          <a href="#subscription" class="btn btn-light ml-2 my-auto shadow">Rejoindre</a>
         </div>
-        <a href="#subscription" class="btn btn-light ml-2 my-auto shadow">Rejoindre</a>
+      </div>
+
+      <h2 class="my-5 font-secondary text-muted text-center">Aidez-mois à produire les "Stories" & "Feezify:me"</h2>
+
+      <h3>Edito</h3>
+      <p>Derrière tous les services de nicolasjouanno.com, il n'y a pas d'équipe, pas de label, juste moi et mes idées qui se battent pour aller le plus loin possible. Je passe une dixaine d'heure chaque semaine, en moyenne, pour donner vie à mes idées sur mon temps libre. </p>
+
+      <p>Il n'y a pas de publicités intrusive (ex: bannières, popup, ...) sur tous les sites (blog, application , ...), je n'aime pas ça ! Je préfère préserver votre expérience de lecture et d'utilisation, mais aussi préserver ma liberté d'écriture. Même s'il m'arrive d'utiliser des liens d'affiliation et de mettre en avant des <a href="{{ site.url }}/advertise.html">sponsors</a> de façon transparente.</p>
+
+      <p>Cette page est l'opportunité pour vous de m'aider à continuer l'aventure, en participant au financement du projet, des serveurs, des outils et du matériel. De cette façon, je peux continuer à ne pas mettre de pub et m'y consacrer de plus en plus. Le rêve ? En vivre !</p>
+
+      <p>Les dons commencent à 2€ par mois (l'équivalent d'un café). Vous pouvez donner autant que vous voulez, faites selon vos moyens. Et si vous ne pouvez pas donner, aucun souci, la story reste gratuite.</p>
+
+      <p>Merci à tous ! </p>
+
+      <p class="text-muted">- <a href="{{ site.url }}/about.html" class="text-muted">Nicolas</a></p>
+    </div>
+  </div>
+
+  <div class="row my-5 bg-light p-5 shadow">
+    <div class="col-12 ">
+      <div class="d-block w-100">
+        Vous voir rejoindre le club pour moi ça veut d'abord dire ceci:
+        <br>
+        <span>"Nicolas, ce que tu fais est cool et je veux que tes idées touchent encore plus de monde."</span>      
+      </div>
+
+      <span class="d-block my-3">En {{ site.time | date: "%Y" }}, être membre du club signifie:</span>
+      <ul>
+        <li>Recevoir la <a href="{{ site.url }}/stories.html">"Story"</a> chaque semaine</li>
+        <li>Encourager le développement de l'application <a href="https://app.nicolasjouanno.com" target="_blank">"Feezify:me"</a></li>
+        <li>Continuer de documenter et partager sous différents formats (texts, vidéos, photos, ...) mes expériences outdoor (Randonnées, Trails, Surf, Cyclisme, ...)</li>
+      </ul>
+      <span class="d-block my-3">Votre adhésion m'est d'une grande aide pour rendre tout cela possible.</span>
+
+    </div>
+  </div>
+
+  <div class="row pt-5" id="subscription">
+    <div class="col-12 mx-auto">
+      Déjà membre ?<a class="border-bottom border-primary d-inline" href="https://gumroad.com/library" target="_blank"> Voir votre compte</a>
+      <br>
+      Questions ? Email <a href="mailto:storie@nicolasjouanno.com" class="border-bottom border-primary d-inline">storie@nicolasjouanno.com</a>
+    </div>  
+  </div>
+
+  <div class="row py-5" >
+    <div class="col-md-4 h-100">
+      <div class="p-4 mx-auto border-bottom border-primary shadow shadow  h-100 d-block bg-light text-center" style="border-width: 5px !important;">
+        <span class="h5 d-inline d-block">Session</span>
+        <span class="text-muted d-block mb-3">2€ /mois</span>
+        {% include /plugins/stripe.html product = "plan_FC2aP3jtBblYHH" cta = "Rejoindre →" %} 
       </div>
     </div>
 
-    <h2 class="my-5 font-secondary text-muted text-center">Aidez-mois à produire les "Stories" & "Feezify:me"</h2>
-    
-    <h3>Edito</h3>
-    <p>Derrière tous les services de nicolasjouanno.com, il n'y a pas d'équipe, pas de label, juste moi et mes idées qui se battent pour aller le plus loin possible. Je passe une dixaine d'heure chaque semaine, en moyenne, pour donner vie à mes idées sur mon temps libre. </p>
-    
-    <p>Il n'y a pas de publicités intrusive (ex: bannières, popup, ...) sur tous les sites (blog, application , ...), je n'aime pas ça ! Je préfère préserver votre expérience de lecture et d'utilisation, mais aussi préserver ma liberté d'écriture. Même s'il m'arrive d'utiliser des liens d'affiliation et de mettre en avant des <a href="{{ site.url }}/advertise.html">sponsors</a> de façon transparente.</p>
-    
-    <p>Cette page est l'opportunité pour vous de m'aider à continuer l'aventure, en participant au financement du projet, des serveurs, des outils et du matériel. De cette façon, je peux continuer à ne pas mettre de pub et m'y consacrer de plus en plus. Le rêve ? En vivre !</p>
-    
-    <p>Les dons commencent à 2€ par mois (l'équivalent d'un café). Vous pouvez donner autant que vous voulez, faites selon vos moyens. Et si vous ne pouvez pas donner, aucun souci, la story reste gratuite.</p>
-    
-    <p>Merci à tous ! </p>
-    
-    <p class="text-muted">- <a href="{{ site.url }}/about.html" class="text-muted">Nicolas</a></p>
-  </div>
-</div>
-
-<div class="row my-5 bg-light p-5 shadow">
-  <div class="col-12 ">
-    <div class="d-block w-100">
-      Vous voir rejoindre le club pour moi ça veut d'abord dire ceci:
-      <br>
-      <span>"Nicolas, ce que tu fais est cool et je veux que tes idées touchent encore plus de monde."</span>      
+    <div class="col-md-4 h-100">
+      <div class="p-4 mx-auto border-bottom border-primary shadow shadow  h-100 d-block bg-light text-center" style="border-width: 5px !important;">
+        <span class="h5 d-inline d-block ">Race</span>
+        <span class="text-muted d-block mb-3">100€ /an</span>
+        {% include /plugins/stripe.html product = "plan_FC2dQN1WQxKg6V" cta = "Rejoindre →" %} 
+      </div>
     </div>
-    
-    <span class="d-block my-3">En {{ site.time | date: "%Y" }}, être membre du club signifie:</span>
-    <ul>
-      <li>Recevoir la <a href="{{ site.url }}/stories.html">"Story"</a> chaque semaine</li>
-      <li>Encourager le développement de l'application <a href="https://app.nicolasjouanno.com" target="_blank">"Feezify:me"</a></li>
-      <li>Continuer de documenter et partager sous différents formats (texts, vidéos, photos, ...) mes expériences outdoor (Randonnées, Trails, Surf, Cyclisme, ...)</li>
-    </ul>
-    <span class="d-block my-3">Votre adhésion m'est d'une grande aide pour rendre tout cela possible.</span>
 
-  </div>
-</div>
-
-<div class="row pt-5" id="subscription">
-  <div class="col-12 mx-auto">
-    Déjà membre ?<a class="border-bottom border-primary d-inline" href="https://gumroad.com/library" target="_blank"> Voir votre compte</a>
-    <br>
-    Questions ? Email <a href="mailto:storie@nicolasjouanno.com" class="border-bottom border-primary d-inline">storie@nicolasjouanno.com</a>
-  </div>  
-</div>
-
-<div class="row py-5" >
-  <div class="col-md-4 h-100">
-    <div class="p-4 mx-auto border-bottom border-primary shadow shadow  h-100 d-block bg-light text-center" style="border-width: 5px !important;">
-      <span class="h5 d-inline d-block">Session</span>
-      <span class="text-muted d-block mb-3">2€ /mois</span>
-      {% include /plugins/stripe.html product = "plan_FC2aP3jtBblYHH" cta = "Rejoindre →" %} 
+    <div class="col-md-4 h-100">
+      <div class="p-4 mx-auto border-bottom border-primary shadow shadow  h-100 d-block bg-light text-center" style="border-width: 5px !important;">
+        <span class="h5 d-inline d-block ">Ultra</span>
+        <span class="text-muted d-block mb-3">1 000€ /vie</span>
+        {% include /plugins/stripe.html product = "sku_FC2eTTV6v2x7sa" cta = "Rejoindre →" %} 
+      </div>
+    </div>
+    <div class="row mt-4 text-center">
+      <div class="col-12">
+        <span class="text-muted"></span>
+      </div>
     </div>
   </div>
 
-  <div class="col-md-4 h-100">
-    <div class="p-4 mx-auto border-bottom border-primary shadow shadow  h-100 d-block bg-light text-center" style="border-width: 5px !important;">
-      <span class="h5 d-inline d-block ">Race</span>
-      <span class="text-muted d-block mb-3">100€ /an</span>
-      {% include /plugins/stripe.html product = "plan_FC2dQN1WQxKg6V" cta = "Rejoindre →" %} 
+  <div class="row">
+    <div class="col-12 text-muted text-center">
+  <!--     <p>Vous pouvez aussi choisir <a href="https://gum.co/okbUA" class="text-muted border-bottom border-muted" data-gumroad-single-product="true">l'offre "Initiation" à 2€ /mois</a> pour soutenir les projets.</p> -->
+      <p>* Tous les tarifs sont indiqués hors-taxes</p>
     </div>
   </div>
 
-  <div class="col-md-4 h-100">
-    <div class="p-4 mx-auto border-bottom border-primary shadow shadow  h-100 d-block bg-light text-center" style="border-width: 5px !important;">
-      <span class="h5 d-inline d-block ">Ultra</span>
-      <span class="text-muted d-block mb-3">1 000€ /vie</span>
-      {% include /plugins/stripe.html product = "sku_FC2eTTV6v2x7sa" cta = "Rejoindre →" %} 
-    </div>
-  </div>
-  <div class="row mt-4 text-center">
+  <div class="row mt-5">
     <div class="col-12">
-      <span class="text-muted"></span>
+      <h3 class="mb-3 d-block">Hypotétiques Questions Posées</h3>
+      <p class="font-weight-bold">Je viens juste de découvrir ton site, je n'ai jamais entendu parlé de toi avant. Avant de devenir membre, où puis-je en savoir plus sur toi ?</p>
+      <p>Cela dépend de ce qui t'intéresse. La majorité de mes activités tournent autour des sujets suivants: sport, technologie, design, photographie. Ici, <a href="{{ site.url }}/about.html" class="border-bottom border-primary">je me présente</a>.</p>
+      <p>Pour en savoir sur mon passé de cycliste professionnel, vous pouvez consulter ma <a href="https://www.directvelo.com/coureur/1201/nicolas-jouanno" target="_blank" class="border-bottom border-primary">page athlète</a> sur Direct Velo .</p>
+      <p>Pour en savoir plus sur ma découverte du trail <a href="{{ site.url }}/premier-trail.html" class="border-bottom border-primary">cet article</a> est le point de départ.</p>
+      <p class="font-weight-bold">Comment sont gérés les paiements ?</p>
+      <p>En plus du fait que cette page est sur mon site sécurisé, les abonnements sont gérés par <a href="https://stripe.com/" class="border-bottom border-primary">Stripe</a>. Les carts des crédits sont débités par <a href="https://stripe.com/fr" class="border-bottom border-primary">Stripe</a>. Tout est sécurisé. Je ne vois, ni ai accès à vos informations de paiement. L'intégralité du processus est hautement protégé sur les serveurs des "million-dollar" entreprise.</p>
+      <p>L'annulation peut se faire à tout moment en deux click depuis cette page.</p>
+      <p class="font-weight-bold">Avez-vous une méthode alternative de paiement ?</p>
+      <p>Vous pouvez aussi choisir votre compte <a href="https://www.paypal.com/fr/home" class="border-bottom border-primary">Paypal</a> dans le processus d'abonnement pour adhérer au club.</p>
+      <p class="font-weight-bold">Comment puis-je soutenir tes projets sans prendre d'abonnement ?</p>
+      <p>Tu peux aussi aussi me soutenir en achetant l'un des produits suggérés sur <a href="{{ site.url }}/shop.html" class="border-bottom border-primary">l'espace shopping</a>. Par ce biais, tu peux suivre les liens d'affiliation pour les produits que j'utilise et les acheter sur le site partenaire ou acheter directement mes créations sur le site prestataire.</p>
+      <p class="font-weight-bold">1 000€ à vie ? Ce n'est pas exagérer ?</p>
+      <p>Je publie sérieusement des contenues ici de plus de six ans, mais en réalité je crée des contenus sur internet depuis plus de dix ans, donc je compte bien le faire au minimum encore 10 ans. Et comme le bon vin qui se bonifie avec le temps, mes meilleures créations n'ont pas encore vue la lumière du jour.</p>
     </div>
   </div>
-</div>
-
-<div class="row">
-  <div class="col-12 text-muted text-center">
-<!--     <p>Vous pouvez aussi choisir <a href="https://gum.co/okbUA" class="text-muted border-bottom border-muted" data-gumroad-single-product="true">l'offre "Initiation" à 2€ /mois</a> pour soutenir les projets.</p> -->
-    <p>* Tous les tarifs sont indiqués hors-taxes</p>
-  </div>
-</div>
-
-<div class="row mt-5">
-  <div class="col-12">
-    <h3 class="mb-3 d-block">Hypotétiques Questions Posées</h3>
-    <p class="font-weight-bold">Je viens juste de découvrir ton site, je n'ai jamais entendu parlé de toi avant. Avant de devenir membre, où puis-je en savoir plus sur toi ?</p>
-    <p>Cela dépend de ce qui t'intéresse. La majorité de mes activités tournent autour des sujets suivants: sport, technologie, design, photographie. Ici, <a href="{{ site.url }}/about.html" class="border-bottom border-primary">je me présente</a>.</p>
-    <p>Pour en savoir sur mon passé de cycliste professionnel, vous pouvez consulter ma <a href="https://www.directvelo.com/coureur/1201/nicolas-jouanno" target="_blank" class="border-bottom border-primary">page athlète</a> sur Direct Velo .</p>
-    <p>Pour en savoir plus sur ma découverte du trail <a href="{{ site.url }}/premier-trail.html" class="border-bottom border-primary">cet article</a> est le point de départ.</p>
-    <p class="font-weight-bold">Comment sont gérés les paiements ?</p>
-    <p>En plus du fait que cette page est sur mon site sécurisé, les abonnements sont gérés par <a href="https://stripe.com/" class="border-bottom border-primary">Stripe</a>. Les carts des crédits sont débités par <a href="https://stripe.com/fr" class="border-bottom border-primary">Stripe</a>. Tout est sécurisé. Je ne vois, ni ai accès à vos informations de paiement. L'intégralité du processus est hautement protégé sur les serveurs des "million-dollar" entreprise.</p>
-    <p>L'annulation peut se faire à tout moment en deux click depuis cette page.</p>
-    <p class="font-weight-bold">Avez-vous une méthode alternative de paiement ?</p>
-    <p>Vous pouvez aussi choisir votre compte <a href="https://www.paypal.com/fr/home" class="border-bottom border-primary">Paypal</a> dans le processus d'abonnement pour adhérer au club.</p>
-    <p class="font-weight-bold">Comment puis-je soutenir tes projets sans prendre d'abonnement ?</p>
-    <p>Tu peux aussi aussi me soutenir en achetant l'un des produits suggérés sur <a href="{{ site.url }}/shop.html" class="border-bottom border-primary">l'espace shopping</a>. Par ce biais, tu peux suivre les liens d'affiliation pour les produits que j'utilise et les acheter sur le site partenaire ou acheter directement mes créations sur le site prestataire.</p>
-    <p class="font-weight-bold">1 000€ à vie ? Ce n'est pas exagérer ?</p>
-    <p>Je publie sérieusement des contenues ici de plus de six ans, mais en réalité je crée des contenus sur internet depuis plus de dix ans, donc je compte bien le faire au minimum encore 10 ans. Et comme le bon vin qui se bonifie avec le temps, mes meilleures créations n'ont pas encore vue la lumière du jour.</p>
-  </div>
-</div>
+ </div>
