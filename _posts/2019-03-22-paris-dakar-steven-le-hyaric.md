@@ -10,8 +10,8 @@ image: assets/public/images/posts/steven-le-hyaric.jpg
 
 categories:
 - Sport
-- Podcast
-- Digital
+- Experience
+- Tech
 
 tags:
 - Steven Le Hyaric
