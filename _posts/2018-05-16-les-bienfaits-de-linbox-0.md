@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #16 - Les bienfaits de l’inbox 0
+title: "#16 - Les bienfaits de l’inbox 0"
 date: 2018-05-16 14:31:01.000000000 +02:00
 type: post
 image: assets/public/images/posts/e0a38-10yto40xd793dweahzoxsta.jpeg
