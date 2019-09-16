@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #17 - Hacker la formation en ligne du Wagon c’est possible
+title: "#17 - Hacker la formation en ligne du Wagon c’est possible"
 date: 2018-05-17 10:34:31.000000000 +02:00
 type: post
 image: assets/public/images/posts/c5003-1kssthhideej19hixqnerug.png
