@@ -6,9 +6,6 @@ type: post
 
 categories:
 - Sport
-- Inspiration
-- Coach
-- Personal-growth
 
 tags:
 - Sport
