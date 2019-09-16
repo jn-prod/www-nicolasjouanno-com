@@ -1,5 +1,5 @@
 ---
-layout: stories/landing
+layout: dafault
 title: "Conditions des publicités dans les stories"
 seo_description: "Conditions des publicités dans les stories"
 name: Conditions de publicité
