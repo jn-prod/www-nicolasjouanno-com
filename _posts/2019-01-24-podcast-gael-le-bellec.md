@@ -9,10 +9,7 @@ categories:
 - Podcast
 
 tags:
-- Coulisses
-- Retroscpectives
-- Podcast
-- Blogging
+- Sport
 
 ads: S12-2019
 
