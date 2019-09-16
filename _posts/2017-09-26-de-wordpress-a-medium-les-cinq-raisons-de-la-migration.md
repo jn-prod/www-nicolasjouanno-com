@@ -6,8 +6,8 @@ type: post
 image: assets/public/images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.png
 
 categories:
-- Digital
-- Coulisses
+- Experience
+- Tech
 
 tags:
 - business
