@@ -2,29 +2,6 @@
 layout: default
 title: Archive
 ---
-<aside>
-
-  <div class="container">
-    <!-- Newsletter
-    ================================================== -->
-    <div class="newsletter row bg-light py-5 text-center shadow rounded">
-
-        <div class="col-md-10 col-lg-8 mx-auto">
-
-            <h2 class="d-block font-primary mb-5">Pas encore inscrit aux <span class="py-2 px-3 text-primary border-primary px-2">Stories</span> ?</h2>
-            
-            <p class="mb-4">{{author.post_cta}}</p>
-
-            {% include /plugins/newsletter.html %} 
-
-        </div>
-
-    </div>  
-    
-  </div>
-  
-</aside>  
-
 <!-- Begin List Posts
 ================================================== -->
 <section class="recent-posts container-fluid">
@@ -37,6 +14,22 @@ title: Archive
 
   <div class="container mt-5">
 
+    <!-- Newsletter
+    ================================================== -->
+    <div class="newsletter row bg-light py-5 my-5 text-center shadow rounded">
+
+        <div class="col-md-10 col-lg-8 mx-auto">
+
+            <h2 class="d-block font-primary mb-5">Pas encore inscrit aux <span class="py-2 px-3 text-primary border-primary px-2">Stories</span> ?</h2>
+
+            <p class="mb-4">{{author.post_cta}}</p>
+
+            {% include /plugins/newsletter.html %} 
+
+        </div>
+
+    </div>  
+    
     <div class="section-title py-3">
 
         <h1 class="font-primary text-center mb-5">Stories de la <span>{{ page.type }} <a href="{{site.url}}{{page.url}}" class="p-2 text-primary border-primary">#{{ page.title }}</a></span></h1>
