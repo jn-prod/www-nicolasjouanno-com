@@ -8,11 +8,8 @@ author: nicolas
 image: assets/public/images/posts/taig-khris.jpg
 
 categories:
-- Digitale
-- Life
-- Business
-- Personnal growth
-- Podcast
+- Tech
+- Experience
 
 tags:
 - Koudetat
