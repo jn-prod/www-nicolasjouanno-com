@@ -6,10 +6,8 @@ type: post
 image: assets/public/images/posts/c5003-1kssthhideej19hixqnerug.png
 
 categories:
-- Digital
-- Personal-growth
 - Experience
-- Coulisses
+- Tech
 
 tags:
 - Web Development
