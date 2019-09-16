@@ -5,11 +5,7 @@ date: 2018-09-14 07:00:00.000000000 +01:00
 type: post
 
 categories:
-- Digital
-- Life
-- Personal-growth
 - Experience
-- Coulisses
 
 tags:
 - learning
