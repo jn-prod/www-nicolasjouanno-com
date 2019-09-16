@@ -12,8 +12,10 @@
 
     {% if page.seo_description %}
         <meta name="description" content="{{ page.seo_description }} | {{site.title}}">
+    {% elsif page.type == "catégorie" %}
+        <meta name="description" content=">Stories de la {{ page.type }} {{ page.title }} | {{site.title}}">    
     {% else %}
-        <meta name="description" content="{{ content | strip_html | truncatewords:19 }}">   
+        <meta name="description" content="{{ content | strip_html | truncatewords:19 }} | {{site.title}}">   
     {% endif %}
 
     <meta name="keywords" content="{% for kw in site.meta_keywords %}{{ kw }},{% endfor %}">
