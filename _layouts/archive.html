@@ -56,15 +56,37 @@ title: Archive
       
       <!-- Page Content
       ================================================== -->
-      <div class="row">
-        
-        <div class="col-12">
-          
-          {{ content }}
-          
+      {% if page.url != "/stories.html" %}
+      
+        <div class="row">
+
+          <div class="col-12">
+
+            {{ content }}
+
+          </div>
+
+        </div>  
+      
+      {% else %}
+      
+        <div class="row h-100">
+
+            <div class="col-md-4">
+
+                {% include sidebar/stories.html %}
+
+            </div>
+
+            <div class="col-md-8">
+
+              {{ content }}
+
+            </div>
+
         </div>
-        
-      </div>
+      
+      {% endif %}
   
      </div>
 
