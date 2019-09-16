@@ -10,8 +10,6 @@ image: assets/public/images/posts/yoann-stuck.jpeg
 
 categories:
 - Sport
-- Podcast
-- Life
 
 tags:
 - Yoann Stuck
