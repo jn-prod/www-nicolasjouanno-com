@@ -89,8 +89,6 @@ post_class: post-template
                     {% endif %}
 
                     <div class="article-post">
-                        
-                        <em class="d-block mb-2">Bonjour,</em><br>
 
                         {{content}}
 
@@ -132,19 +130,6 @@ post_class: post-template
 
                 <!-- article footer -->
                 <footer>
-
-                    <!-- Post Categories -->
-                    <div class="after-post-tags my-5 text-center">
-
-                        {% assign sortedCategories = page.tags | sort %}
-
-                        {% for category in sortedCategories %}
-
-                            <small class="m-1 d-inline-block bg-light text-muted p-1 shadow rounded">{{ category }}</small>
-
-                        {% endfor %}
-
-                    </div> 
 
                     <!-- Newsletter
                     ================================================== -->
