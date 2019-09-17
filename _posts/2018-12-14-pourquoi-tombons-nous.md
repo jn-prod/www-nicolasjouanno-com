@@ -4,6 +4,7 @@ redirect_from:
     - "/cyclo-cross-gravel-souvenirs-hasbeen.html"
     - "/pourquoi-tombons-nous-partie-2.html"
     - "/souvenirs-paris-tour-2008.html"
+    - "/cycliste-et-diplome.html"
 layout: post
 title: "Pourquoi tombons-nous ?"
 date: 2018-12-14 09:00:00.000000000 +02:00
