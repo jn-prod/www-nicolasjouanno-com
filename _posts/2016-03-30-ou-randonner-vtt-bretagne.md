@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quelques idées pour randonner à VTT en Bretagne ?"
+title: "Quelques idées de circuits de randonnée VTT en Bretagne"
 date: 2016-03-30 16:40:10.000000000 +02:00
 type: post
 
