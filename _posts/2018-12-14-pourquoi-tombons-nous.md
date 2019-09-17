@@ -1,5 +1,6 @@
 ---
 redirect_from:
+    - "/points-commun-cycliste-super-hero.html"
     - "/cyclo-cross-gravel-souvenirs-hasbeen.html"
     - "/pourquoi-tombons-nous-partie-2.html"
     - "/souvenirs-paris-tour-2008.html"
