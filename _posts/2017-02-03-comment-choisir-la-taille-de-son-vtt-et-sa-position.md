@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#6 - Comment choisir la taille de son VTT et sa position ?'
+title: 'Comment choisir la taille de son VTT et sa position ?'
 date: 2017-02-03 23:00:22.000000000 +01:00
 type: post
 
