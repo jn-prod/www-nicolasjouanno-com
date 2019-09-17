@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#16 - Les bienfaits de l’inbox 0"
+title: "Les bienfaits de l’inbox 0"
 date: 2018-05-16 14:31:01.000000000 +02:00
 type: post
 image: assets/public/images/posts/e0a38-10yto40xd793dweahzoxsta.jpeg
@@ -38,6 +38,7 @@ Une fois de plus ma méthode de tri est simple, pour traiter les emails vite et 
 Mon Gmail est paramétré pour archiver tous les emails auquel je réponds. Etant donné la quantité de communication qui passe par email dans l’entreprise, une fois tous les emails traité, ma journée commence en étant globalement à jour, l’esprit libre et léger, prêt à attaquer les taches qui demandent de la concentration.
 
 Cette méthode crée un cercle vertueux. La satisfaction d’avoir terminer quelque chose dès le début de la journée, qui conditionne positivement le reste de la journée. Projette une image professionnelle. Me fait passer pour une machine qui n’oublie jamais rien. Et me permet de savoir par où crocher quand je reviens de vacances. En plus, j’ai pris le pli pour le traitement papier ce qui me permet d’avoir un espace de travail hyper épurer avec seulement un ordi et une tasse de café.
+
 ## Bonus
 
 Pour gagner encore plus de temps dans le traitement de mes emails, j’utilise StreakCRM en complément de mon Gmail. Cela me permet deux choses importantes.
