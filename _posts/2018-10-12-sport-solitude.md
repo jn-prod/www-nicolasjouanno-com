@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#23 - Sport et solitude, tout est dit non ?"
+title: "Sport et solitude, tout est dit non ?"
 date: 2018-10-12 09:00:00.000000000 +02:00
 type: post
 
