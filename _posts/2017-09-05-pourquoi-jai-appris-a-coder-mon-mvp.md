@@ -4,7 +4,7 @@ redirect_from:
     - "/pourquoi-jai-code-mon-premier-site-web-dynamique-en-nodejs-de-0-a-1.html"
     - "/en-2017-je-serai-grand-et-product-manager.html"
 layout: post
-title: "MVP : Growth hacking ou Product management?"
+title: "MVP, sujet de Growth hacking ou Product management ? A coder."
 date: 2017-09-05 17:17:22.000000000 +02:00
 type: post
 image: assets/public/images/posts/ee0f0-1runhnmhrsyxmx90d-rppoa.jpeg
