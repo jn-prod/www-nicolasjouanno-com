@@ -83,6 +83,10 @@ Ce que j’ai appris avant tout, c'est à apprendre. Le développement ne se lim
 
 Mais n'oublions pas pourquoi je me suis lancé ce challenge: développer un produit digital qui à de la valeur pour ses utilisateurs. 
 
+<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/e8b22-11czy1ngfc50mjx7vxlphqa.png" alt="NODE JS" />
+<figcaption class="wp-caption-text">NODE JS</figcaption>
+</figure>
+
 ## MVP init
 
 Un verre de vin entre amis, un café entre collègues, un film inspirant, … Avec une idée de produit c'est bien, savoir s'il à de la valeur c'est mieux. C'est le moment de créer son MVP (Minimum Valuable Product).
@@ -101,137 +105,36 @@ Si vous avez des connaissances techniques, vous pouvez vous lancer avec un CMS o
 
 Mais ne perdez pas votre temps à développer votre produit dans votre garage. Il n'y a que Steve Jobs pour convaince les gens que le produits qu'il à imaginé est un "must have". Confrontez votre produit le plus rapidement possible à son marché, qu'il soit au stade de la maquette, du prototype où mieux encore avant même qu'il existe.
 
-<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/189a1-1eanj7r6w5dwjh7wivduuda.jpeg" alt="HTML 5" />
-<figcaption class="wp-caption-text">HTML 5</figcaption>
-</figure>
+Comme moi, commencer à parler de votre MVP sur une landing page, en écrivant un post sur medium, en prenant la parole dans un groupe Facebook ou sur une channel Slack, ... Mieux, créez une liste d'attente pour mesurer l'attente de vos futurs acheteurs et voilà votre première base de données. Et la validation ultime, que les gens paye avant même que votre produit soit créé. Poussez la distribution à fonds, créez une communoté.
 
-## C’est le moment de bootstrapper le MVP
+Bref, établissez votre camp de base pour mobilisez vos futurs users. Créez un niveau d'engagement tel qu'ils viendraient eux-mêmes défendre votre idée à l'assemblée nationale.
 
-Seulement voilà, les idées sont tenassent, en voilà une nouvelle… F\*\*\*ck ! Un instant de frustration en visualisant les ressources engagées avant même de passer à l’exécution: le temps, l’argent.
-
-BREF ! Motivé, le couteau entre les dents, un matin, je prends le taureau par les cornes. J’ouvre safari, j’arrête de taper dans le moteur de recherche “comparatif création de site internet” pour utiliser le meilleur outil du moment et je tape à la place “apprendre à coder”.
-
-Et là, c’est l’évidence, c’est la JUNGLE!! Des langages, toujours plus de langages… STOP ! Il faut se structurer! Je retiens qu’il faut connaitre trois langages basiques pour faire des landing pages statiques: HTML, CSS, Javascript et pour le dynamique on verra dans un prochain article. J’ouvre une note et je me crée mon fil rouge.
-
-Je commence par le HTML5 “finger in the nose”. Il faut dire que les années à retoucher les thèmes Wordpress m’ont bien aidées. Ensuite, j’enchaîne direct sur le CSS3 découvre “flex” et la création d’un vrai thème responsive. Et pour gagner en rapidité je m’initie à Twitter Bootstrap et Fontawesome.
-
-Géniale maintenant, s’en est fini de la recherche DU thème responsive qui me convient, de la vectorisation d’image sur Skecth pour faire des icones qui ressemblent finalement aux standards actuels. Ça devient aussi simple que de se lancer sur squarespace. En plus, comme je comprends mon code, il m’est super simple de le faire évoluer et de l’optimiser pour le SEO.
-<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/fa4c1-1dhztb_t6gjm6j8ouhwcqxa.png" alt="GITHUB"/>
-<figcaption class="wp-caption-text">GITHUB</figcaption>
-</figure>
-
-## Please “git push origin master” mon MVP
-
-C’est cool, j’ai appris à coder une page web statique en même pas un mois. Mon projet prend un mois de retard, la motivation est toujours là: “Celui-là, je le lance” ! Je le bootstrap en 1 heure, j’ai même le temps de configurer au millimètre ma newsletter et de profiter d’une soirée en amoureux. GENIAL !
-
-L’économie de temps: “check” ! Bon, maintenant, il faut aller au bout de l’idée en économisant encore plus de $$$. Je paye un nom de domaine 1€, oui encore, mais c’est inévitable ! Je ne cède pas sur l’hébergement et ne l’ajoute pas à mon panier! Je me dis qu’il doit bien y avoir un moyen de ne pas payer d’hébergement trop cher quand on sait coder.
-
-Je découvre Github et son service Github pages et là c’est la révélation! Je dois rajouter une ligne à mon fil rouge: le versioning ! Car, oui, si l’on peut héberger une page statique avec ce service, ce n’est pas le but premier de celui-ci ! Quelques heures plus tard, les bases de Git et GitHub en poche, le site est en ligne et une nouvelle aventure commence.
-<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/e8b22-11czy1ngfc50mjx7vxlphqa.png" alt="NODE JS" />
-<figcaption class="wp-caption-text">NODE JS</figcaption>
-</figure>
-
-## Le code c’est cool mais il faut du SWAG !
-
-Je me lance dans Javascript, dur dur les débuts car là ça devient de la VRAI programmation ! De quoi se décourager, mais je reste concentré. Je crée rapidement mon premier algorithme. Découvre les manipulations du DOM. Et je comprends que ce n’est plus simplement du code que je réalise, mais de la “programmation front-end” comme disent les dev’, pluteau SWAG le nom! Mes pages deviennent interactives et je me découvre une nouvelle passion !
-
-En plus, en fouillant, je découvre que le langage Javascript permet de paramétrer un serveur. Du coup, je raille PHP de ma liste et je continue d’apprendre le Javascript en passant coté serveur, avec NodeJS. Je concerve d’ailleur aussi la logique des objets Javascript pour la gestion de la base de données en apprenant MongoDB, un système de gestion de base de donnée NoSQL qui correspond parfaitement au projets qui avance dans le brouillard comme les miens !
-
-Trois mois sont passés et je suis autonome dans la mise en page WEB de mes idées, fini la lourdeur des CMS, les risques de piratages du fait d’un code non maîtrise, les coût inutiles. Repousser les limites de mes connaissances m’a toujours passionné et ce n’est pas finis car on en apprend tout les jours et chaque nouvelle idée à ses défis techniques.
-
-## Hacker la formation en ligne du Wagon c’est possible
-
-<em>Voulant toujours aller plus loin dans mes growth-hack la programmation devenait incontournable. Attiré par la track en ligne growth-hack de Le Wagon, je n’ai jamais terminé l’achat de ma formation, pourtant c’est comme si je l’avais suivi.</em>
-
-Il y a un an, alors que ma frustration de ne pas savoir coder était à son maximum, j’ai découvert <a href="https://medium.com/u/2fc79969c8eb" target="_blank" rel="nofollow">Le Wagon</a>. Passionné par la growth, les hacks, les startups, beaucoup de ressources m’ont incité à me lancer dans l’apprentissage du développement web en javascript. Le Wagon, alors étoile montante de la formation de développeurs en herbe, m’inspire en répondant à l’acquisition de ce skill.
-
-Leur programme, hyper alléchant, super clair et structuré m’a permis de comprendre les étapes à suivre dans l’apprentissage du développement web. Je n’ai pas d’explication logique, mais le sommaire de la formation m’a donné le sentiment que s’était possible d’apprendre à coder, là où d’autres sites me perdaient.
-
-Malgré tout passer à la caisse n’était pas d’actualité pour moi. Je me suis donc tourné vers des tutos en ligne et d’autres ressources avec découragement et sans résultat.
-
-Je découvre aussi openclassrooms et son parcours certifiant de développeur web junior. A la différence de la formation en ligne du Wagon, si la certification est payante, les cours sont gratuits et avec des exercices corrigés. Seulement le parcours proposé ne me plaisait pas. Il était composé de php côté serveur et le passage par wordpress/CMS que j’utilisais déjà depuis une dizaine d’année. Et aussi, surement inconsciemment influencé par un bon ami développeur qui a une stack Javascript / Ruby.
-
-Je vois que je rame, ça fait un mois que je suis hyper motiver à apprendre à coder, mais je n’ai toujours pas codé une seule ligne. Je re-bascule sur le Wagon, attiré par le Bootcamp, mais je ne voulais pas m’éloigner de ma famille. Je continue une introspection sur ce que je veux faire et comment je veux le faire.
-
-Vient le moment où je me suis dit “OK, je suis motivé à fond. Je veux apprendre à coder, je veux le faire à domicile, j’aime la track du wagon”. Je détails le sommaire de la track du wagon, je compare quand même avec les ressources sur openclassrooms. Je constate que tous les skills de la track du Wagon sont sur openclassrooms.
-
-Je suis donc le programme en ligne du wagon via les ressources disponibles sur openclassrooms. Je complète avec des ressources sur youtube (certaines du youtube du wagon d’ailleurs pour rester fidèle à mon petit génie), le MDN de Mozilla et les docs techniques des technos et frameworks.
-
-Je me donne pour objectif d’apprendre une skills par semaine. Surtout, je garde le rythme, mon objectif était simple, j’ai quatre mois avant la naissance de mon fils, à sa naissance, je veux savoir coder. Comme lorsque j’apprenais la guitare, où je faisais 1h de guitare par jour, je me suis mis le même rythme minimum pour l’apprentissage du code. Que ce soit le matin avant d’aller bosser, à la pause dèj’ ou le soir à la place de la TV.
-
-Au final, oui je n’ai pas suivi la formation du Wagon, mais c’est bien le Wagon qui a inspiré et structuré mon apprentissage du code. J’aurais été tellement fier de dire que cette formation que j’ai suivi. Mais, c’est bien grâce aux cours d’openclassrooms que j’ai acquis mes skills tech en allant jusqu’au bout de chacun d’eux (quizz et TP). Mais c’est surtout grâce à moi que je sais coder maintenant, car comme pour apprendre à faire du vélo ou de la natation, il faut du courage et de la ténacité pour atteindre la marche qui mène au plaisir de pratiquer.
-
-Ce que j’ai appris avant tout de ce hack, c’est que le code ne se limite pas à un cours en ligne à acheter. Le développement web, s’est donner le meilleur de soit même chaque jour, de la même manière qu’un sportif qui s’entraîne quotidiennement. Le développement web s’est travailler ses points faibles pour se perfectionner. Le développement web s’est accepter l’échec pour se perfectionner en corrigeant ses beugs. Le développement web s’est libérer la créativité.
-
-Et surtout, développer un produit web s’est créer de la valeur pour les utilisateurs qui vont interagir avec le produit. Pour moi, les formations du Wagon et d’Openclassrooms on une valeur inestimable pour moi tant je suis fier de savoir coder et de donner vie à des projets qui changeront la vie d’autre personnes.
-
-## Pourquoi j’ai codé mon premier site web dynamique en NodeJS, de A à Z.
-
-<em>Si je m’amuse du développement front-end d’un site internet, mixant : HTML, CSS et JavaScript, me lancer dans le développement back-end fait naître chez moi d’avantage de questions, de l’apprentissage de langages à la gestion de bases données en passant par l’utilisation de framework.</em>
-<hr />
-
-Vous avez peu être déjà lu mon article :
-
-- <a href="/pourquoi-jai-appris-a-coder-mon-mvp.html" target="_blank" rel="nofollow"><strong>Pourquoi j’ai appris à coder mon MVP ?</strong></a>
-
-Dans la même logique, je continue de prendre de l’autonomie sur mes projets web. Mon but avoir la main à 100% sur la roadmap et maîtriser son développement.
-
-Si l’on faquer le coté dynamique d’un site web statique avec des requettes ajax sur des documents JSON et des API. Ce fonctionnement ne peut fonctionner qu’avec un petit volume de donnée puisque les opérations sont réalisées dans le navigateur.
-
-La question de réaliser des opérations coté serveur peu vite se poser pour améliorer la rapidité de réponse de sa webapp et l’expérience de son utilisateur. Mais aussi pour des projets nécessitant une structure transactionnelle (ex: ecommerce, marketplace).
-
-Seulement voilà, au moment ou je me pose la question, je ne sais pas coder coté serveur. Je connais le javascript coté navigateur. J’entends parler de Ruby et son framework Ruby On rails avec un ami développeur. Je lit beaucoup de Python et son framework Django est assez accessible. Que PHP est omniprésent dans les CMS, comme wordpress que j’ai déjà utilisé sans coder.
-
-J’ai fait le choix de rester sur un langage que je connaissais : le JavaScript, pour écrire rapidement les premières lignes de code, avoir mes premier succès pour garder la motivation et éviter une gymnastique de langage front-end / back-end.
-<hr />
-
-
-### NodeJS: npm install
 <figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/74ddb-1utch2gz4b5xfvt2dxhgnvq2x.jpeg" alt="Node JS" />
 <figcaption class="wp-caption-text">Node JS</figcaption>
 </figure>
 
-Le JavaScript avec sa surcouche NodeJS coté serveur, présente avantages qui en fond une librairie de premier et non par défault:
+## Développer la béta de votre produit.
 
-- Il est asynchrone, ce qui le rend plus véloce.
-- Il gère nativement le http/https, qui facilite la configuration des urls.
-- Il est performant, en scallant lors du déploiement.
-- Il facilite l’utilisation et la création d’API REST.
-- Il est facilement utilisable pour crawler et scrapper des sites.
+*Si utiliser un CMS pour gérer la partie marketing de votre projet vous fait déjà peur, attendez de voir les questions que soulève le développement de votre produit. On parle non seulement de l'UI et de l'UX du front-end d’un site internet, mais aussi de son architecture, des dépendenses et du développement de son back-end.*
 
-Pris de passion pour ce nouveau challenge, je structure ma liste connaissances coté serveur nécessaire pour maîtriser la logique de bases. J’écume les ressources disponibles, apprends, me forme et surtout applique grâce à ce projet! Ce choix m’aura permis d’atteindre mon premier objectif: écrire rapidement les premières lignes de code et de sortir une version bêta en 2 mois.
+Il vous faut lister tous ces besoins et toutes ces problématiques. Puis les prioriser dans une roadmap. Pour en maîtriser son développement et analyser l'impact des features sur votre produit.
 
-Grâce à la bibliothèque disponible pour NodeJS: NPM, j’ai pu intégrer et gérer rapidement sans programmation complexe:
+Ne vous lancer dans le choix de vos technologies seul si vous n'avez pas de recul sur cet univers.
 
+Sur les premiers projets où je suis intervenu en tant que developpeur, ceux-ci était soit des sides-project soit des projets où j'avais un large scope. Ils incluaient souvent le marketing, le design et la tech. Ne connaissant au debut qu'un seul langage de programmation: le Javascript, je l'utilisais à toutes les sauces. J'utilisais donc [NodeJS](https://nodejs.org/en/) (sa surcouche coté serveur) à tout va, pour gagner du temps et par mode. Je reculais le moment d'apprendre un nouveau langage.
+
+NodeJS est très puissant pour développer rapidement des APIs REST véloces. Il embarque une librairie de modules dense, qui vous permetra de gérer:
 - la création de compte utilisateur,
 - la gestion des droits d’accès,
 - le hashage de mot de passe,
 - la redirection https,
 - les notifications par e-mails …
 
-Les packages disponibles sous NodeJS ont été d’une grande utilité et leur documentation suffisamment accessible et étayée pour en simplifier l’intégration. L‘incontournable reste, selon moi, le choix du package de templating. J’ai opté pour «handlebars», s’il n’est pas le moins verbeux, le fait qu’il reprenne la structure HTML m’a permis de l’utiliser rapidement. Pour stabiliser l’app et gérer les erreurs (non pris en charge nativement par NodeJS), j’utilise le package PM2. Bluebird est très pratique pour gérer les promise et rendre synchrone les taches asynchrones sans callback hell.
-<hr />
+Mais, il manque cruellement de fonctionalités pour réaliser rapidement un MVP quand on le compare à des frameworks comme [Laravel](https://laravel.com/), [Ruby On Rails](https://rubyonrails.org/), [Django](https://www.djangoproject.com/), ... A celà j'ajouterais l'asynchronocité de NodeJS ne correspondant pas à tous les cas d'usage et ajoute de la complexité.
 
+Pensez également à bien choisir vos services tiers. Fournissent-ils des APIs qui vous permettrons d'automatiser des tâches crutiales dans votre croissances. Quel est leur coup à plus grande échelle? La migration est-elle simple ou complexe ? Je prends l'exemple de [Mailchimp](https://mailchimp.com/) que j'adore et que tout le monde recommande. Lorsque ma base d'email à dépasser les 2 000 abonnées, j'ai pleuré en voyant le coût du service. J'ai du recréer tout mon workflow sur un autre outil: [mailerlite](https://www.mailerlite.com/).
 
-### MongoDB la base de donnée NoSQL
-<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/16e54-1ta4qkthto-rmupnr08mbg.jpeg" alt="MongoDB" />
-<figcaption class="wp-caption-text">MongoDB</figcaption>
-</figure>
-
-L’autre point essentiel, qui est au centre de la structure, était le choix de la base de données. Partant sur un projet avec un cahier des charges très peu défini et peu garni, j’ai opté pour une base de données NoSQL mongoDB. Cela avait deux avantages:
-
-- La base mongoDB noSQL permet de faire évoluer plus facilement la structure de la base de données,
-- Le requête dans nodeJS se font sous forme d’objets JavaScript.
-- Facilement implémentable dans NodeJS avec le package mongoose
-<hr />
-
-### Ce n’est que le début du chemin
-
-Pour toutes ces raisons, rester sur un environnement JavaScript côté serveur me permet de poser les bases des futurs projets avec une solution relativement simple, rassurante et efficace.
-
-Pour aller plus loin et continuer de développer ma stack technique je m’intéresse désormais à Redis et à la façon de le mixer avec MongoDB pour gagner en temps de clacul coté BDD. VueJS et ReactJS m’intéresse pour gérer les vue conditionnelles du front. Ruby On Rails et Python Django reste deux framework qui m’intéressent aussi fortement pour leur accessibilité reconnue.
-
-Impossible de tout apprendre d’un coup. Donc je préfère avancer de façon pragmatique, selon mes besoins, pour pratiquer. Je trouve que c’est comme cela qu’on apprend le plus vite : analyser les problèmes, idéaliser une solution, tester, analyser …
+Alors ne perdez pas des yeux votre objectif principal: diminuer votre feedback loop. C'est le moyen le plus efficace pour itérer le plus rapidement possible sur votre produit. Vos choix technologiques doivent vous permettre d'accéler votre croissance et non la ralentir.
 
 ## Garder les choses simples
 
