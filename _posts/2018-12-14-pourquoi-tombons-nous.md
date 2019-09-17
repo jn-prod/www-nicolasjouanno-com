@@ -100,7 +100,7 @@ Les vingt derniers kilomètres passent à une vitesse folle. On arrive vite aux 
 
 Une porte se tourne sur la saison 2008. J'ai rendez-vous dans quelques jours à Lanion pour signer mon premier contrat pro avec l'équipe Bretagne-Schuller. Ponctuant ainsi les mois de stages passés avec l'équipe en cette fin de saison. Mettant aussi un point final à mes études. Me tournant vers de nouveaux défis sportifs mais aussi humains. Débutant un véritable parcours initiatique dans le monde des "grands".
 
-## Doit-on avoir le BAC pour être cycliste ?
+## Chapitre 3 : Doit-on avoir le BAC pour être cycliste ?
 
 *>La réponse donnée par les parents à toutes les lubis d'adolescent est toujours la même: "passe ton BAC et après on verra". Les sportifs en herbe n'y échappent pas ! J'ai eu la chance de passer mon BAC en "sport-étude", puis mon BTS de la même manière. Au final, j'ai un BTS et j'ai été cycliste professionnel. En quoi mon BTS m'a servie pour être cycliste?*
 
