@@ -23,95 +23,71 @@ tags:
 author: nicolas
 image: assets/public/images/posts/maxresdefault.jpg
 ---
-##
+## A la rencontre du growth hacking
 
-<em>Dix ans après mon dernier diplôme, je continue de me former et d’apprendre <strong>tous les</strong> jours. Qu’<strong>il s’agisse</strong> de se perfectionner, mettre à jour une compétence ou en acquérir de nouvelles : le Marketing, le Design et la <strong><em>Tech</em></strong> sont <strong>des domaines qui me passionnent</strong> au point que leur apprentissage est naturel. Je me <em>qualifierais</em> plus <strong>d’</strong>autodidacte que d’un résultat des bancs de l’école.</em>
+*Revenons un peu en arrière. Nous sommes en 2018, je quitte l'école avec un diplôme de marketing. J'ai l'impression de n'avoir rien appris du monde du digital qui me passionnait tant. L'histoire est connue. Alors comme mes pairs, je continuer d’apprendre et de me former avec des ressources différentes: livres, blog, youtubes... Qu’il s’agisse de se perfectionner ou d'acquérir de nouvelles compétences en Marketing, Design et Tech. Si je ne suis pas encore un "T-shape", je ne me restreins pas mon scope pour avoir une vision à 360 degrés d'un produit digital.*
 
-En 2016, je fermais ma première entreprise. Un commerce local de sport. Pendant longtemps, j’ai cru que le sport serait le fil conducteur de ma carrière. Cycliste professionnel, puis responsable dans un magasin de sport. A 25 ans, je décidais d’être mon propre patron … dans le sport. Un aboutissement à la mesure de mes compétences professionnelles et une suite logique à ma carrière sportive.
+En 2016, je baissais une dernière fois le rideau de ma première entreprise: un commerce local de sport outdoor. Une expérience enrichissantes m'a prouvée que rien n'était acquis. Ce n'est pas parce que tu es reconnus sur ton marché, que tu le connais ainsi que ses leviers que l'entreprise sera florissante. Avec toute mon arrogances, je me suis heurté à la réalité du commerce physique, ses coûts élevés, ses marges faibles. Le choc a été violant.
 
-Avec le recul, je dirais que je venais donc de donner vie à un projet pour lequel j’étais conditionné, mais pas passionné. On me promettait de grands exploits comme ceux réalisés quelques années plus tôt sur ma bicyclette. Pourtant, en 2016, je fermais la boutique, prenant un nouveau départ, apprenant de mes erreurs et me fixant de nouveaux objectifs.
-
-Au 1er janvier 2017, vient l’heure des résolutions avec des changements à prendre en compte. Le premier, je vais être papa pour la première fois (la plus belle chose de ma vie). Le deuxième, je vais avoir trente ans (et je sais enfin dire non!)? Le troisième, avec ma femme nous construisons notre futur chez NOUS (YES!).
-<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/2877c-1eithqetbmyn8u933ipzsmg.jpeg" alt="©Thinkstock" />
-<figcaption class="wp-caption-text">©Thinkstock</figcaption>
-</figure>
-<blockquote>
-« Réfléchir, construire et capitaliser. Voilà ce qui devient important pour moi. »</blockquote>
-
-Pendant 10 ans, je me suis dit qu’avec des études de marketing, un passif dans le sport et un CV de “M. Tout Le Monde” dans le retail de sport, il me serait impossible de sortir des railles. C’est-à-dire, à longueur de journée, dressez des Excel, réaliser des allés-retour de maquette des prochaines promotions et rédiger nombre de comptes rendus. Mais je suis un battant.
-
-A côté de mon activité professionnelle, ça fait aussi 10 ans que je m’amuse à lancer, «bootstrap», des projets personnels sur fond de site internet sans apprendre à coder, limité par les outils disponibles et le plus souvent par leur coût.
 <figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/77a9b-1fhdbbyabl24dcabgexhpow.png" alt="Chaine youtube the family" />
 <figcaption class="wp-caption-text"><a href="https://www.youtube.com/user/Startupfood" target="_blank" rel="nofollow">Chaine youtube the family</a></figcaption>
 </figure>
-<blockquote>
-« 2017 sera l’annnée du pivot vers la tech »</blockquote>
 
-Debut 2017, je découvrais “THE FAMILY” et leur <a href="https://medium.com/lion-by-thefamily/comment-devenir-growth-hacker-8b5387c4c767" target="_blank" rel="nofollow">mindest growth</a>, en même temps, je me prenais de passion pour les startups et leurs histoires. En m’imprégnant de ressources sur le growth hacking, je me rendais rapidement compte que cette discipline est le croisement entre les mondes de la tech et du marketing. Ce que je trouvais parfait, venant du marketing, je me disais que je pouvais ce croisement. Je dévorais donc nombre de ressources sur la discipline, me demandant quels skills pouvaient me manquer pour briller dans ce métier. Lisant et entendant à plusieurs reprises qu’il est mieux de savoir coder je me demandais lors : Apprendre à coder, pour quoi faire?
+### « Réfléchir, construire et capitaliser. Voilà ce qui devient important pour moi. »
 
-A ce moment-là, ce que je savais plus que tout, était que mon idéal professionnel se trouvait sur internet. Je ne veux plus retourner en magasin, je veux découvrir d’autres façons de travailler, trouver de nouveau challenge, découvrir l’instantanéité du web. Je n’aurais jamais été aussi sûr de ce chois que le jour où j’ai refusé 2000€/mois pour une nouvelle aventure professionnelle dans le commerce.
+Lorsqu'on débute une entreprise on se projette sur le long terme. En comparaison trois ans, c'est court. Sans bouée de sauvetage, je devais rebondir, srotir des sentiers battus, penser différement (comme le dit Steve Jobs).
+
+Depuis mon adolescence, je fais de sites internet pour m'amuser, avec le goût du défis et parfois pour rendre service à d'autres entrepreneurs.
+
+D'ailleurs, en 2013, je crée mon premier side project: [vtt.bzh](https://vtt.bzh). Un site qui me permet d'expérimenter ce que j'apprends du digital au détour de la magie du web 2.0. Un moment d'évasion dans ce flow quotidien de retailer. Ce site internet réaliser avec Wordpress enregistre vite ses premiers succès, pour atteindre 10 000 visiteurs mensuel. Il ne scale pas, car je fais ma curation à la main. Il est lent car, ne sachant pas coder, je lui ai ajouter 70+ plugins pour lui ajouter des features. Il se perd dans un quantités de features cumulées mais jamais abandonnées.
+
 <figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/8f833-1glqrdjmo0myyuik5d1idxg.png" alt="site web du wagon" />
 <figcaption class="wp-caption-text"><a href="https://www.lewagon.com/fr" target="_blank" rel="nofollow">site web du wagon</a></figcaption>
 </figure>
-<blockquote>
-« Openclassrooms, le Wagon, Youtube et Medium deviennent donc mes nouvelles bibles en 2017. »</blockquote>
 
-Maintenant, que je commence à savoir ce que je veux, il est donc temps de construire un plan d’action. La première étape de celui-ci est bien évidemment d’apprendre à coder. Openclassrooms, le Wagon, Youtube et Medium deviennent donc mes nouvelles bibles en 2017. HTML, CSS &amp; JAVASCRIPT, j’apprends les bases et plus. Je refont mes side-projects grâce à mes nouvelles compétences. Je publie mon code sur <a href="http://github.com/jn-prod" target="_blank" rel="nofollow">GitHub</a>. Je crée mes APIs en scrappant en NODEjs des données sur le web. Bref, je m’éclate !
+### « 2016, à la rencontre du Growth Hacking et du Product Management »
 
-Bien sûr, je n’ai pas la prétention d’être ou de devenir un ingénieur. Je sais que dans ce domaine, j’ai encore beaucoup d’autres choses à apprendre. Mais, je sais aussi ce que je suis maintenant capable de faire : un MVP (Minimum Valuable Prodcut), une API, … mais surtout passer de l’idée à la réalisation.
+C'est pendant la liquidation de mon magasin en mai 2016 que je découvre [Koudetat](https://www.koudetat.co/) [The Family](https://www.thefamily.co/) et leur "mindest growth". Au même moment, je me prenais de passion pour les startups et leurs histoires.
+
+Pris de curiosité pour le growth hacking. J'ai découvert une discipline croisement entre les mondes de la tech et du marketing. Une révélation pour moi en quête d'inspiration pour mon nouveau projet professionnel.
+
+Ne sachant pas si mes connaissances en marketing suffisent à réaliser ce pivot, je me demandant quels skills pouvaient me manquer. A l'évidence, il fallait apprendre à minima à coder.
+
+Lors de mes recherches, c'est au détour d'un article sur [cette page métier](https://www.welcometothejungle.co/professions/product-manager) de welcometothejungle, que je découvre un nouveau concept qui me plait tout autant : <strong>le Product Management</strong>. Là encore un metier hybride, entre le Marketing, la Tech et le Design. Là encore, s'il y a un domaine où je ne connais rien c'est le développement web.
+
+Voilà, comment j'arrive à la conclusion que pour m'épanouir professionnelement dans le domaine de la gestion de projet web et avoir une casquette d'avantage "product" que "projet", il me faut avoir des connaissances solides en développement.
+
 <figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/21d8e-1qcj1veggw6yciebqwl3q7w.png" alt="welcometothejungle" />
 <figcaption class="wp-caption-text"><a href="https://www.welcometothejungle.co/professions/product-manager" target="_blank" rel="nofollow">fiche metier de product manager sur welcometothejungle</a></figcaption>
 </figure>
-<blockquote>
-« Product Manager, mon AHA MOMENT »</blockquote>
 
-En 2017, je prends conscience que plus que le marketing, le growth hacking et le développement de site (ou application web), ce qui me passionne par-dessus tout est de gérer un projet web. En faisant un tour sur <a href="https://www.welcometothejungle.co/professions/product-manager" target="_blank" rel="nofollow">cette page métier de <strong>welcometothejungle</strong></a>, je comprends que mon job idéal est : <strong>Product Manager</strong>.
+### « Openclassrooms, le Wagon, Youtube et Medium deviennent donc mes nouvelles bibles en 2017. »
 
-Alors, en 2018, il me reste encore des choses à apprendre professionnellement sur l’UX/UI, la méthode Agile et le développement web et personnellement d’accroître ma stack technique: redis, Ruby on Rails, ReactJS. Avec un passif de marketing, d’entrepreneur et la motivation d’un métier qui me passionne, je sais que je vais encore passer de longues heures à apprendre et à exécuter ces nouvelles méthodes, techniques, bref utiliser ces nouveaux Savoirs au profit de mes side-projects et de l’entreprise dans laquelle j’évolue en tant que <strong>Product Manager</strong>.
-<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/271c7-1ifym3opmtqfg1epk-fzeyg.jpeg" alt="Bradley Wiggins" />
-<figcaption class="wp-caption-text">Bradley Wiggins est le cycliste éclectique et anti-conformiste qui me passione le plus … <a href="https://fr.wikipedia.org/wiki/Bradley_Wiggins" target="_blank" rel="nofollow">lien wikipedia</a></figcaption>
-</figure>
-<blockquote>
-« Me battre part passion »</blockquote>
+Maintenant, je commence à savoir où je dois aller. Il est donc temps de construire un plan d’action. La première étape de celui-ci est bien évidemment d’apprendre à coder. Openclassrooms, le Wagon, Youtube et Medium forment ma bible.
 
-Je veux réaliser de grandes choses pour des sujets qui me passionnent, comme le sport, l’éducation et l’entrepreneuriat, et sans cesse repousser mes limites. C’est ce que m’a appris le sport lors de mon adolescence, c ’est ce que je sais faire de mieux : me battre part passion.
+J'assoie d'abord mes bases en HTML, CSS que je cotoie depuis 2008.
 
-## Hacker la formation en ligne du Wagon c’est possible
+Puis vient le sujet de la programmation, la vraie ! Avec le javascript, ce langage qui s'execute coté navigateur et qui permet d'augmenter l'interactivité d'une page. Bien sûr, je n’ai pas la prétention de devenir ingénieur. Je sais que dans ce domaine, j’ai beaucoup de choses à apprendre. Mais, je veux pouvoir réaliser des POC (Proof Of Concept), ou mieux des MVP (Minimum Valuable Prodcut), connecter des API, … mais surtout passer de l’idée à la réalisation, de 0 à 1. Et si possible au delà.
 
-<em>Voulant toujours aller plus loin dans mes growth-hack la programmation devenait incontournable. Attiré par la track en ligne growth-hack de Le Wagon, je n’ai jamais terminé l’achat de ma formation, pourtant c’est comme si je l’avais suivi.</em>
+A la rechecherche de solutions pour apprendre à coder rapidement, je découvre [Le Wagon](https://www.lewagon.com/fr). Mais ne pouvant pas mettre mes projet en veille pendant deux mois, je décide de prendre un chemin plus long et plus solitaire. J'avais trouvé bien contruite leur track en ligne [growth-hack](https://ondemand.lewagon.com/tracks/comprenez-enfin-javascript/go). Sans l'avoir suivi, elle m'à permise d'établir un plan de formation minimum.
 
-Il y a un an, alors que ma frustration de ne pas savoir coder était à son maximum, j’ai découvert <a href="https://medium.com/u/2fc79969c8eb" target="_blank" rel="nofollow">Le Wagon</a>. Passionné par la growth, les hacks, les startups, beaucoup de ressources m’ont incité à me lancer dans l’apprentissage du développement web en javascript. Le Wagon, alors étoile montante de la formation de développeurs en herbe, m’inspire en répondant à l’acquisition de ce skill.
+Suivre le plan du Wagon, alors étoile montante de la formation de développeurs pour les startup, me rassure dans l’acquisition de ce skill. Leur programme clair et structuré m’a permis de comprendre les étapes clés à suivre dans l’apprentissage du développement web.
 
-Leur programme, hyper alléchant, super clair et structuré m’a permis de comprendre les étapes à suivre dans l’apprentissage du développement web. Je n’ai pas d’explication logique, mais le sommaire de la formation m’a donné le sentiment que s’était possible d’apprendre à coder, là où d’autres sites me perdaient.
+Je découvre aussi openclassrooms et son parcours développeur web junior qui est certifiant, contrairement à la formation en ligne du Wagon. Même si le parcours proposé ne me plaisait pas à 100%, j'en vient au terme. Pas simple de subir, l'influence d'amis, eux mêmes développeurs ruby, et de l'écosystème.
 
-Malgré tout passer à la caisse n’était pas d’actualité pour moi. Je me suis donc tourné vers des tutos en ligne et d’autres ressources avec découragement et sans résultat.
-
-Je découvre aussi openclassrooms et son parcours certifiant de développeur web junior. A la différence de la formation en ligne du Wagon, si la certification est payante, les cours sont gratuits et avec des exercices corrigés. Seulement le parcours proposé ne me plaisait pas. Il était composé de php côté serveur et le passage par wordpress/CMS que j’utilisais déjà depuis une dizaine d’année. Et aussi, surement inconsciemment influencé par un bon ami développeur qui a une stack Javascript / Ruby.
-
-Je vois que je rame, ça fait un mois que je suis hyper motiver à apprendre à coder, mais je n’ai toujours pas codé une seule ligne. Je re-bascule sur le Wagon, attiré par le Bootcamp, mais je ne voulais pas m’éloigner de ma famille. Je continue une introspection sur ce que je veux faire et comment je veux le faire.
-
-Vient le moment où je me suis dit “OK, je suis motivé à fond. Je veux apprendre à coder, je veux le faire à domicile, j’aime la track du wagon”. Je détails le sommaire de la track du wagon, je compare quand même avec les ressources sur openclassrooms. Je constate que tous les skills de la track du Wagon sont sur openclassrooms.
-
-Je suis donc le programme en ligne du wagon via les ressources disponibles sur openclassrooms. Je complète avec des ressources sur youtube (certaines du youtube du wagon d’ailleurs pour rester fidèle à mon petit génie), le MDN de Mozilla et les docs techniques des technos et frameworks.
+Ma motivation d'apprendre le [PHP](https://www.php.net/) était faible comparé à [Ruby](https://www.ruby-lang.org/fr/) (le langage des startups), [Python](https://www.python.org/) et [Javascript](https://www.javascript.com/) (les langages des growth hacker). Mais cumuller l'apprentissage de tous ces langages et leurs spécifités était très enrichissant.
 
 Je me donne pour objectif d’apprendre une skills par semaine. Surtout, je garde le rythme, mon objectif était simple, j’ai quatre mois avant la naissance de mon fils, à sa naissance, je veux savoir coder. Comme lorsque j’apprenais la guitare, où je faisais 1h de guitare par jour, je me suis mis le même rythme minimum pour l’apprentissage du code. Que ce soit le matin avant d’aller bosser, à la pause dèj’ ou le soir à la place de la TV.
 
-Au final, oui je n’ai pas suivi la formation du Wagon, mais c’est bien le Wagon qui a inspiré et structuré mon apprentissage du code. J’aurais été tellement fier de dire que cette formation que j’ai suivi. Mais, c’est bien grâce aux cours d’openclassrooms que j’ai acquis mes skills tech en allant jusqu’au bout de chacun d’eux (quizz et TP). Mais c’est surtout grâce à moi que je sais coder maintenant, car comme pour apprendre à faire du vélo ou de la natation, il faut du courage et de la ténacité pour atteindre la marche qui mène au plaisir de pratiquer.
+Ce que j’ai appris avant tout, c'est à apprendre. Le développement ne se limite pas à un cours en ligne à acheter. Le développement web, s’est donner le meilleur de soit même chaque jour, de la même manière qu’un sportif qui s’entraîne quotidiennement. Le développement web s’est travailler ses points faibles pour se perfectionner. Le développement web s’est accepter l’échec pour se perfectionner en corrigeant ses beugs. Le développement web s’est libérer sa créativité. J'ai ainsi pu réaliser une refonte mon side-project vtt.bzh, désormais scalable. Je publie mon code sur [GitHub](http://github.com/jn-prod). Je crée mes APIs en scrappant en NODEjs des données sur le web. Bref, je m’éclate !
 
-Ce que j’ai appris avant tout de ce hack, c’est que le code ne se limite pas à un cours en ligne à acheter. Le développement web, s’est donner le meilleur de soit même chaque jour, de la même manière qu’un sportif qui s’entraîne quotidiennement. Le développement web s’est travailler ses points faibles pour se perfectionner. Le développement web s’est accepter l’échec pour se perfectionner en corrigeant ses beugs. Le développement web s’est libérer la créativité.
-
-Et surtout, développer un produit web s’est créer de la valeur pour les utilisateurs qui vont interagir avec le produit. Pour moi, les formations du Wagon et d’Openclassrooms on une valeur inestimable pour moi tant je suis fier de savoir coder et de donner vie à des projets qui changeront la vie d’autre personnes.
-
-##
-
-<em>Après 10 ans de création de sites internet sans notion de code, je décide d’apprendre à coder pour pour tester mes idées.
-
-Après avoir fait le tour des CMS, outils Saas et autres logiciels de création de site internet (cela dit en passant, ils sont tous plus géniaux les uns que les autres !), je décide de ne plus commencer un seul projet en devant faire un benchmark des CMS disponibles pour savoir lequel est le plus adapter à mon projet mais aussi qui me coûtera le moins cher.</em>
+Mais n'oublions pas pourquoi je me suis lancé ce challenge: développer un produit digital qui à de la valeur pour ses utilisateurs. 
 
 ## MVP init
 
-Un verre de vin avec ma chérie, un café entre amis, un film inspirant, … Une nouvelle idée et une feuille blanche qui se remplie c’est cool ! Quelle soit lue c’est mieux. Vient donc le moment de créer son MVP (Minimum Valuable Product):
+Un verre de vin entre amis, un café entre collègues, un film inspirant, … Avec une idée de produit c'est bien, savoir s'il à de la valeur c'est mieux. C'est le moment de créer son MVP (Minimum Valuable Product).
 
+Il peut prendre différentes formes:
 - Un blog
 - Une page Facebook
 - Une chaine slack
@@ -119,11 +95,12 @@ Un verre de vin avec ma chérie, un café entre amis, un film inspirant, … Un
 - …
 - Un site web
 
-Vous avez dit un site web ? Oui mais je ne sais pas coder, je ne suis pas développeur. Dans ce cas on se tourne souvent vers un ami ou on met les mains dans le cambouis. Avec des CMS SAAS comme Squarespace, Strinkingly, Wix, … le choix de la simplicité et de la rapidité est légion. Le coût lui est mensuel lui est de 10–20€ pour les offres de bases et la flexibilité elle de 0%, mais votre site est en ligne dans 1h. Moins cher que le loyé de la boulangerie place de l’église mais cherchons encore.
+Vous avez dit créer un site web ? Si vous n'êtes pas développeur tournez-vous vers des CMS SAAS clef en main, simple à utiliser, comme Squarespace, Webflow, Wix, … le choix de la simplicité et de la rapidité est légion. Le coût lui est mensuel lui est de 10–20€ pour les offres de bases. S'il ne vous permettrons pas de créer le future Facebook, ils ont le mérite de vous permettre de mettre en ligne votre site en 1h et d'acheter vos premiers mots-clés sur [adwords](https://ads.google.com/intl/fr_fr/home/).
 
-Un CMS opensource type Wordpress, Joomla, Prestashop, Magento … que l’on héberge soit même chez OVH ou autre, coût de l’opération 5€/mois une flexibilité à 50% quand on ne sait pas coder avec un kit de module long comme mon bras. Vous aurez d’avantage de temps pour réfléchir à votre projet, comptez minimum 1 jour à 1 semaine et peu être quelques cheveux perdus en route !
+Si vous avez des connaissances techniques, vous pouvez vous lancer avec un CMS opensource flexible type Wordpress, Joomla, Prestashop, Magento … que vous héberge vous-même chez OVH ou autre, coût de l’opération 5€/mois. Vous aurez d’avantage de temps pour réfléchir à votre projet, comptez minimum 1 jour à 1 semaine et peu être quelques cheveux perdus en route !
 
-Lacé de passer des heures à configurer l’hébergement, la base de données, le CMS, le thème … payer un an d’hébergement pour un projet qui meurt quelques mois plus tard quand il n’atteint pas le marché. Les mois passent, les factures s’accumulent, le business modèle ne se valide pas, et “flop”, un autre projet qui n’a pas atteint son équilibre financier au cimetière.
+Mais ne perdez pas votre temps à développer votre produit dans votre garage. Il n'y a que Steve Jobs pour convaince les gens que le produits qu'il à imaginé est un "must have". Confrontez votre produit le plus rapidement possible à son marché, qu'il soit au stade de la maquette, du prototype où mieux encore avant même qu'il existe.
+
 <figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/189a1-1eanj7r6w5dwjh7wivduuda.jpeg" alt="HTML 5" />
 <figcaption class="wp-caption-text">HTML 5</figcaption>
 </figure>
