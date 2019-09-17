@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#7 - Les meilleurs pneus vtt spéciale boue pour l'hiver"
+title: "Les meilleurs pneus vtt spéciale boue pour l'hiver"
 date: 2017-02-07 18:03:13.000000000 +01:00
 type: post
 
