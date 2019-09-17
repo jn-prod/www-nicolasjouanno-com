@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#34 - podcast #1 - Gael Le Bellec, 3x champion du monde de duathlon"
+title: "Podcast #1 - Gael Le Bellec, 3x champion du monde de duathlon"
 date: 2019-01-24 09:00:00.000000000 +02:00
 type: post
 
