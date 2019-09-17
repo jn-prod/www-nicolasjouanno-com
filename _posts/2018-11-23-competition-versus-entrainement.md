@@ -4,7 +4,7 @@ redirect_from:
     - "/changer-habitudes-sportives-inter-saison.html"
     - "/apprendre-de-son-entrainement.html"
 layout: post
-title: "#28 - Je n'ai pas besoin de compétition pour m'entraîner"
+title: "Je n'ai pas besoin de compétition pour m'entraîner"
 date: 2018-11-23 09:00:00.000000000 +02:00
 type: post
 
