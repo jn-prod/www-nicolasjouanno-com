@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#8 - Test de la tige de selle telescopique Rockshox Reverb'
+title: 'Test de la tige de selle telescopique Rockshox Reverb'
 date: 2017-02-08 08:00:51.000000000 +01:00
 type: post
 
