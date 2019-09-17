@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '#1 - 8 raisons de choisir les roues de VTT Mavic Crossmax'
+title: '8 raisons de choisir les roues de VTT Mavic Crossmax'
 date: 2014-08-10 21:02:19.000000000 +02:00
 type: post
 
