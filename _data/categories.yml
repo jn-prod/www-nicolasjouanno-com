@@ -3,7 +3,7 @@
   home: true
   navigation: true
   link: 'startup.html'
-  bg-class: 'bg-life'
+  bg-class: 'bg-startup'
 
 - name: 'Tech'
   home: true
