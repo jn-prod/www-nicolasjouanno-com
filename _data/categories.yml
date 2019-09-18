@@ -1,8 +1,8 @@
 # main
-- name: 'Experience'
+- name: 'Startup Growth'
   home: true
   navigation: true
-  link: 'experience.html'
+  link: 'startup-growth.html'
   bg-class: 'bg-life'
 
 - name: 'Tech'
@@ -11,10 +11,10 @@
   link: 'tech.html'
   bg-class: 'bg-coulisse'
 
-- name: 'Design'
+- name: 'Product Management'
   home: true
   navigation: true
-  link: 'design.html'
+  link: 'product-management.html'
   bg-class: 'bg-culture'
 
 - name: 'Sport'
@@ -22,77 +22,3 @@
   navigation: true
   link: 'sport.html'
   bg-class: 'bg-inspiration'
-
-# secondary
-- name: 'Life'
-  home: false
-  navigation: false
-  link: 'life.html'
-  bg-class: 'bg-life'
-- name: 'Business'
-  home: false
-  navigation: false
-  link: '/business.html'
-  bg-class: ''
-
-- name: 'Culture'
-  home: false
-  navigation: false
-  link: 'culture.html'
-  bg-class: 'bg-culture'
-- name: 'Experience'
-  home: false
-  navigation: false
-  link: 'experience.html'
-  bg-class: ''
-- name: 'Personnal growth'
-  home: false
-  navigation: false
-  link: 'personnal-growth.html'
-  bg-class: ''
-- name: 'Productivite'
-  home: false
-  navigation: false
-  link: 'productivite.html'
-  bg-class: ''
-- name: 'Inspiration'
-  home: false
-  navigation: false
-  link: 'inspiration.html'
-  bg-class: ''
-- name: 'Coulisses'
-  home: false
-  navigation: false
-  link: 'coulisses.html'
-  bg-class: ''
-- name: 'Aventure'
-  home: false
-  navigation: false
-  link: 'aventure.html'
-  bg-class: 'bg-aventure'
-- name: 'Coach'
-  home: false
-  navigation: false
-  link: 'coach.html'
-  bg-class: 'bg-coach'
-- name: 'Vestiaire'
-  home: false
-  navigation: false
-  link: 'vestiaire.html'
-  bg-class: 'bg-vestiaire'
-- name: 'Atelier'
-  home: false
-  navigation: false
-  link: 'atelier.html'
-  bg-class: 'bg-atelier'
-
-- name: 'Digital'
-  home: false
-  navigation: false
-  link: 'digital.html'
-  bg-class: 'bg-coulisse'
-- name: 'Podcast'
-  home: false
-  navigation: false
-  link: 'podcast.html'
-  bg-class: 'bg-podcast'
