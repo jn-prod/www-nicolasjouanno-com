@@ -6,12 +6,7 @@ type: post
 image: assets/public/images/posts/e0a38-10yto40xd793dweahzoxsta.jpeg
 
 categories:
-- Experience
-- Tech
-
-tags:
-- Personnal Development
-- Tools
+- Startup Growth
 
 author: nicolas
 ---
