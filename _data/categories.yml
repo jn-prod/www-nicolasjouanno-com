@@ -2,7 +2,7 @@
 - name: 'Startup Growth'
   home: true
   navigation: true
-  link: 'startup-growth.html'
+  link: 'startup.html'
   bg-class: 'bg-life'
 
 - name: 'Tech'
