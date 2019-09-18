@@ -221,15 +221,19 @@ a.bg-primary:hover {
 }
 
 .bg-podcast {
-  background-image: url(./images/podcast.jpg)
+  background-image: url(./images/podcast.jpg);
 }
 
 .bg-life {
-  background-image: url(./images/life.png)
+  background-image: url(./images/life.png);
+}
+
+.bg-startup{
+  background-image:url(./images/startup.png);
 }
 
 .bg-culture {
-  background-image: url(./images/culture.jpg)
+  background-image: url(./images/culture.jpg);
 }
 
 @media (max-width: 768px) {
