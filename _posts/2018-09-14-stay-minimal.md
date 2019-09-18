@@ -16,8 +16,7 @@ date: 2018-09-14 07:00:00.000000000 +01:00
 type: "post"
 
 categories:
-- Experience
-- Tech
+- Product Management
 
 author: "nicolas"
 image: "assets/public/images/posts/maxresdefault.jpg"
