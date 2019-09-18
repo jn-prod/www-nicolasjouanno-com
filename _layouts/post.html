@@ -92,36 +92,6 @@ post_class: post-template
 
                         {{content}}
 
-                        {% if page.podcast %}
-
-                            {% include boxes/stories-podcast.html %}
-
-                        {% endif %}
-
-                        {% if page.course %}
-
-                            {% include boxes/stories-course.html %}
-
-                        {% endif %}
-
-                        {% if page.newsfeed %}
-
-                            <hr />
-
-                            <div class="d-flex justify-content-between mb-3">
-
-                              <h2 class="m-0">Newsfeed</h2>
-                              
-                            </div>
-
-                            {% for news in page.newsfeed %}
-
-                                {% include boxes/stories-newsfeed.html %}
-
-                            {% endfor %}
-
-                        {% endif %}
-
                         <p>- Nicolas</p>   
 
                     </div>
