@@ -7,6 +7,9 @@ redirect_from:
     - "/le-point-annuel-sur-mes-side-projects.html"
     - "/le-programme-de-2019.html"
     - "/reouverture-vtt-bzh.html"
+    - "/taig-khris-autodidacte.html"
+    - "/la-punchline-de-yoann-stuck.html"
+    - "/paris-dakar-steven-le-hyaric.html"
 layout: "post"
 title: "Coder son MVP, sujet de Growth hacking ou de Product management ?"
 date: 2018-09-14 07:00:00.000000000 +01:00
