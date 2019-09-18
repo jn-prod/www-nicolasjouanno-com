@@ -14,7 +14,7 @@
     - name: "Front-end HTML5 - CSS3 - JS"
     - name: "Back-end NodeJS - PHP - Python - Ruby"
     - name: "Database MongoDB - MySQL - PostgreSQL"
-    - name: "ExpressJS - Django"
+    - name: "ExpressJS - Django - Flask"
     - name: "Unit Test - Git - Github"
     - name: "POO - MVC"
 - name: "Automatisation"
