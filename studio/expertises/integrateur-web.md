@@ -1,6 +1,7 @@
 ---
 layout: expertises
 title: Intégrateur Web Freelance, développement front-end
+seo_description: "L'intégrateur web donne vie à vos design et permet les premières intérations sur la toile en quelques lignes de code."
 summary: "Entre le mockup et le développement front-end, l'Intégration Web Freelance permet de poser les premières lignes de codes et de structurer le site internet"
 header-img: "inspiration-5"
 permalink: "/expertises/integrateur-web.html"
