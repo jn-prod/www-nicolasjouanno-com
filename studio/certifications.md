@@ -1,6 +1,7 @@
 ---
 layout: expertises
 title: "Certifications en Developpement web"
+seo_description: "Développeur Web certifié en Javascript, Python, Ruby, PHP et sur les frameworks django et flask."
 summary: "La programmation est un vaste domaine en constante évolution, plusieurs organismes proposent des formations en ligne (e-Learning) qui permettent d’obtenir des certifications sur leurs outils ainsi que sur des compétences techniques"
 permalink: "/certifications.html"
 header-img: "inspiration-1"
