@@ -53,6 +53,6 @@ Medium est complet, la plateforme intègre nativement un outil de statistique sy
 
 *Review à venir*
 
-**Fixez-vous des objectifs et trouvez l’outil qui vous permet de les atteindre efficacement, Medium, Wordpress, Jekyll sont des pistes parmi tant d’autres: Linkedin, Youtube, etc …**
+*Fixez-vous des objectifs et trouvez l’outil qui vous permet de les atteindre efficacement, Medium, Wordpress, Jekyll sont des pistes parmi tant d’autres: Linkedin, Youtube, etc …*
 
-*Article mise à jour le 17/09/1019*
+*Article mis à jour le 17/09/1019*
