@@ -1,4 +1,5 @@
 ---
+redirect_to: "https://vtt.bzh/entraînement-5-points-pour-progresser-physiquement-en-vtt.html"
 layout: post
 title: "5 points pour progresser rapidement en vtt."
 date: 2017-02-12 18:14:32.000000000 +01:00
