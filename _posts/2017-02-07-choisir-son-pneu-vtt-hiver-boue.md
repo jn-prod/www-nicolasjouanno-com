@@ -1,4 +1,5 @@
 ---
+redirect_to: "https://vtt.bzh/choisir-son-pneu-vtt-hiver-boue.html"
 layout: post
 title: "Les meilleurs pneus vtt spéciale boue pour l'hiver"
 date: 2017-02-07 18:03:13.000000000 +01:00
