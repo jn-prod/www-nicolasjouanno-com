@@ -1,4 +1,5 @@
 ---
+redirect_to: "https://vtt.bzh/comment-choisir-la-taille-de-son-vtt-et-sa-position.html"
 layout: post
 title: 'Comment choisir la taille de son VTT et sa position ?'
 date: 2017-02-03 23:00:22.000000000 +01:00
