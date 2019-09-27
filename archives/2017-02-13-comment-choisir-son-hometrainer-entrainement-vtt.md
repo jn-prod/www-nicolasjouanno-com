@@ -1,5 +1,6 @@
 ---
 redirect_to: "https://vtt.bzh/comment-choisir-son-hometrainer-entrainement-vtt.html"
+permalink: "/comment-choisir-son-hometrainer-entrainement-vtt.html"
 layout: post
 title: 'Comment choisir son home-trainer VTT ?'
 date: 2017-02-13 12:56:48.000000000 +01:00
