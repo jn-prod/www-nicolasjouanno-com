@@ -55,7 +55,7 @@ footer_cta: Startup, freelance, PME ou assocation, vous souhaitez créer un site
 ### Pourquoi un site internet ?
 {: .h5 .text-primary .my-5 #pourquoi}
 
-A l'heure où vos commerciaux sont déjà couchés, votre site internet est ouvert. Votre site web reçois plusieurs visites à minutes et répond à toutes les principales questions que vos clients se posent et que vous avez soigneusement répertorier. Qu'il s'agisse d'un <a href="/offres/site-vitrine.html"></a>site vitrine, <a href="/offres/site-e-commerce.html"></a>site e-commerce ou d'un <a href="/offres/site-applicatif.html"></a>site applicatif, vous permettera développer votre activité en ligne.
+A l'heure où vos commerciaux sont déjà couchés, votre site internet est ouvert. Votre site web reçois plusieurs visites à minutes et répond à toutes les principales questions que vos clients se posent et que vous avez soigneusement répertorier. Qu'il s'agisse d'un [site vitrine](/offres/site-vitrine.html), [site e-commerce](/offres/site-e-commerce.html) ou d'un [site applicatif](/offres/site-applicatif.html), vous permettera développer votre activité en ligne.
 
 ### Comment trouve-t-il ces informations sur votre site web ?
 {: .h5 .text-primary .my-5 #informations}
@@ -72,7 +72,7 @@ Grâce à un **site internet ergonomique, bien réfléchis** par un professionne
 
 Dynamisant ainsi votre image sur internet, vous pourrez mettre en place des actions marketing cross-canal mêlant communication off-line (print) et on-line (web, social média). Vous ne savez encore comment mesurer l'efficacité marketing de vos actions ? Il suffit de demander, en adéquation aux objectifs commerciaux et marketing de votre entreprise, je vous conseillerais les meilleurs indicateurs de mesures (KPI) et mettrai en place des tableaux de bords adaptés
 
-N’hésitez pas à consulter mon <a href="/portfolio.html">portfolio</a> ou à me <a href="mailto:{{ site.data.authors.nicolas.email }}">demander un devis</a>.
+N’hésitez pas à consulter mon [portfolio](/portfolio.html) ou à me [demander un devis](mailto:{{ site.data.authors.nicolas.email }}).
 
 ## Design graphique et réalisation du site internet.
 {: .mt-3 .mb-5 .font-primary .text-center}
