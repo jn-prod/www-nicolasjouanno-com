@@ -1,5 +1,6 @@
 ---
 redirect_to: "https://vtt.bzh/pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.html"
+permalink: "/pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.html"
 layout: post
 title: '8 raisons de choisir les roues de VTT Mavic Crossmax'
 date: 2014-08-10 21:02:19.000000000 +02:00

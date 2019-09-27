@@ -1,5 +1,6 @@
 ---
 redirect_to: "https://vtt.bzh/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html"
+permalink: "/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html"
 layout: post
 title: 'Comment régler les suspensions de son VTT, de la fourche à l’amortisseur'
 date: 2017-02-14 07:48:53.000000000 +01:00

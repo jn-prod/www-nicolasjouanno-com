@@ -1,5 +1,6 @@
 ---
 redirect_to: "https://vtt.bzh/vtt-pédales-automatiques-ou-pédales-plates-comment-choisir.html"
+permalink: "/vtt-pédales-automatiques-ou-pédales-plates-comment-choisir.html"
 layout: post
 title: 'Comment choisir entre pédales automatiques et plates de VTT?'
 date: 2017-01-29 22:12:37.000000000 +01:00

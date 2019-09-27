@@ -1,5 +1,6 @@
 ---
 redirect_to: "https://vtt.bzh/20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html"
+permalink: "/20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html"
 layout: post
 title: "Checklist - L'équipement indispensable à avoir dans son sac à dos de VTT"
 date: 2017-01-17 16:59:59.000000000 +01:00
