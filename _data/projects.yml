@@ -74,6 +74,23 @@
   url: "portfolio/project/event-izir.html"
   images: 
     - "/assets/public/images/projets/ext-1.jpg"
+- name: "breizhtraining.bzh"
+  year: "2019"
+  profile: false
+  mission: "Création d'une landing page (Freelance)"
+  expertises: 
+    - "Gestion de projet"
+    - "Jekyll"
+    - "API"
+    - "HTML5"
+    - "CSS3"
+    - "Bootstrap"
+    - "UX / UI"
+    - "API Google docs"
+    - "Landing Page"
+  url: "#"
+  images: 
+    - "/assets/public/images/projets/breizhtraining_bzh.png"
 - name: "gael-lebellec.bzh"
   year: "2017"
   profile: false
