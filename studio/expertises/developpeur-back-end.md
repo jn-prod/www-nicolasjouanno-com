@@ -1,8 +1,8 @@
 ---
 layout: expertises
-title: Développeur Back-end Freelance, création d'une API
+title: Développeur Back-end, création d'une API
 seo_description: "Le développeur back-end vous permet d'automatiser, scaller et connecter votre back-office en Python, NodeJS et Ruby."
-summary: "Le Développeur Back-end Freelance, cet homme de l'ombre aux supers pouvoirs qui connectent les API pour enrichir l'expérience de vos utilisateurs"
+summary: "Le Développeur Back-end, cet homme de l'ombre aux supers pouvoirs qui connectent les API pour enrichir l'expérience de vos utilisateurs"
 header-img: "inspiration-5"
 permalink: "/expertises/developpeur-back-end.html"
 footer_cta: "Vous avez un projet d'API ou des développement back-end à réaliser sur votre site internet ou application mobile ? Commençons à en parler maintenant."
@@ -37,7 +37,7 @@ A la croisé de ces deux mondes, se trouve le développeur full-stack. Le dével
 ## Qu'est-ce qu'un développeur back-end ?
 {: .font-primary .my-5 #presentation}
 
-Lorsque le développeur back-end conçois un site internet en partant de zéro, il doit mesurer les forces et les faiblesses des choix techniques qu'il réalise. La difficulté étant de trouver le juste mileu entre performance technique et stabilité de la solution choisie pour répondre au cahier des charges fonctionnel réalisé par le chef de projet. Même en freelance, c'est donc en prenant en compte le délai et les ressources matérielles, humaines et budgétaires dont il dispose qu'il réalisera les choix techniques correspondant au projet.
+Lorsque le développeur back-end conçois un site internet en partant de zéro, il doit mesurer les forces et les faiblesses des choix techniques qu'il réalise. La difficulté étant de trouver le juste mileu entre performance technique et stabilité de la solution choisie pour répondre au cahier des charges fonctionnel réalisé par le chef de projet. C'est donc en prenant en compte le délai et les ressources matérielles, humaines et budgétaires dont il dispose qu'il réalisera les choix techniques correspondant au projet.
 
 En véritable "problem solver", le développeur back-end est le garant des solutions techniques qu'il apporte et doit être source de solutions aux problématiques qui lui sont rapportées. Il doit aussi savoir dire non aux exigences déraisonnables de ses supérieurs ou du client, pour garantir à l'utilisateur final une plateforme sûre et stable. Plus, sa participation sera en amont du projet plus le chef de projet ou product manager s'assure de la faisabilité des fonctionnalités qu'il propose à son client et de son coût (humain, financier, horaire). C'est donc la force de proposition du développeur back-end qui permettra au projet et son équipe d'avancer en orientant et argumentant sur ses contraintes techniques.
 
