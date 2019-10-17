@@ -1,7 +1,7 @@
 ---
 layout: project
-title: vtt.bzh - Refonte full-stack Python/VueJS d'une web-app
-seo_description: "Refonte full-stack de la web-app vtt.bzh, création d'un scraper python et développement front VueJS."
+title: vtt.bzh - Refonte full-stack Python/AngularJS d'une web-app
+seo_description: "Refonte full-stack de la web-app vtt.bzh, création d'un scraper python et développement front AngularJS."
 permalink: "/portfolio/project/vtt-bzh.html"
 img: "/assets/public/images/projets/ext-6.png"
 context: >-
