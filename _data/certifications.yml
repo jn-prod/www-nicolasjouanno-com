@@ -153,6 +153,11 @@
   organisme: "Openclassrooms"
   category: "Développement Web"
   featured: false
+- title: "Cybersécurité"
+  file: ""
+  organisme: "ANSSI"
+  category: "Développement Web"
+  featured: false
 - title: "Gérez un projet digital avec une méthodologie en cascade"
   url: "https://openclassrooms.com/fr/courses/4296701-gerez-un-projet-digital-avec-une-methodologie-en-cascade"
   file: ""
