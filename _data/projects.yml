@@ -32,7 +32,7 @@
     - "Multilangue"
   url: "portfolio/project/breizhtraining.html"
   images: 
-    - "/assets/public/images/projets/ext-7.png"
+    - "/assets/public/images/projets/breizhtraining_bzh.png"
 - name: "Feezify:me"
   year: "2018"
   profile: false
