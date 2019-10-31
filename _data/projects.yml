@@ -16,6 +16,23 @@
   url: "portfolio/project/vtt-bzh.html"
   images: 
     - "/assets/public/images/projets/ext-6.png"
+- name: "breizhtraining.bzh"
+  year: "2019"
+  profile: false
+  mission: "Création du site internet (Freelance)"
+  expertises: 
+    - "Gestion de projet"
+    - "Jekyll"
+    - "API"
+    - "HTML5"
+    - "CSS3"
+    - "Bootstrap"
+    - "UX / UI"
+    - "API Google docs"
+    - "Multilangue"
+  url: "portfolio/project/breizhtraining.html"
+  images: 
+    - "/assets/public/images/projets/breizhtraining_bzh.png"
 - name: "Feezify:me"
   year: "2018"
   profile: false
