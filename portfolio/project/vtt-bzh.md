@@ -1,7 +1,7 @@
 ---
 layout: project
-title: vtt.bzh - Refonte full-stack Python/VueJS d'une web-app
-seo_description: "Refonte full-stack de la web-app vtt.bzh, création d'un scraper python et développement front VueJS."
+title: vtt.bzh - Refonte full-stack Python/AngularJS d'une web-app
+seo_description: "Refonte full-stack de la web-app vtt.bzh, création d'un scraper python et développement front AngularJS."
 permalink: "/portfolio/project/vtt-bzh.html"
 img: "/assets/public/images/projets/ext-6.png"
 context: >-
@@ -50,16 +50,16 @@ Bien qu'il soit simple de comprendre le rôle de chacune d'elle comportement du 
 
 En séparant le code lié à la donnée du rendu, on assure le maintient des fonctionnalités de rendu et augmente les possibilités de filtre de la recherche.
 
-Une séparation permise par les frameworks javascript moderne comme VueJS, [ReactJS](https://fr.reactjs.org/) et [Angular](https://angular.io/), favorisant l'ajout incrémental de feature.
+Une séparation permise par les frameworks javascript moderne comme VueJS, [ReactJS](https://fr.reactjs.org/) et [Angular](https://angular.io/). Ils favorisent l'ajout incrémental de feature.
 
 Je choisi donc de passer du javascript natif à une structure SPA (Single Page Application).
 
 <!--3. Solutions et choix technique-->
-## D'une application full JS à une stack Python - VueJS
+## D'une application full JS à une stack Python - AngularJS
 
 Après un peu de recherche éclairé par ma précédente veuille, je décide de réécrire tout le scrapper en [Python](https://www.python.org/) avec la librairie [scrapy](https://scrapy.org/) reconnu pour sa performance.
 
-Séduit par la promesse de [VueJS](https://vuejs.org/) d'être pris en main en une journée. C'est donc guidé par mon objectif de temps que je m'oriente pour cette solution à un ReactJS ou AngularJS qui sont reconnus pour leur learning curve plus abrupte au début.
+Séduit par la promesse de [VueJS](https://vuejs.org/) d'être pris en main en une journée. Contraint par le temps, je realise un premier contact avec les SPA avec VueJS. Mais attiré par la popularité des frameworks ReactJS et AngularJS, je décide finalement de repartir à nouveau à zéro. La version actuelle est donc sous AngularJS. La learning curve d'AngularJS est effectivement plus abrupte au début.
 
 <!--4. Résultats et leçons-->
 ## Une app plus simple et plus rapide
@@ -68,4 +68,4 @@ Le premier gain se compte en ligne de code, la grosseur du scraper passant d'une
 
 Le deuxième gain est la vélocité du scraper, qui met désormais 1 à 2 minutes une fois lancé pour terminer son travail.
 
-Enfin, refaire en VueJS le moteur de recherche en une journée était effectivement réaliste. La logique composent correspondant mieux aux interactions, les points UX en attente ont, par la même occasion, été résolus.
+Enfin, refaire en VueJS le moteur de recherche en une journée était effectivement réaliste. Mais la logique composent correspondant mieux aux interactions en AngularJS, les points UX en attente ont, par la même occasion, été résolus.

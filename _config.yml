@@ -1,7 +1,7 @@
 # Site Settings
 locale           : "fr-FR"
 title            : "Nicolas Jouanno"
-headline         : "Développeur Back-end Freelance Remote | NodeJS - MongoDB - Django - Flask"
+headline         : "Développeur Full-Stack JS | NodeJS - MongoDB"
 url              : "https://nicolasjouanno.com"
 logo             : 'assets/public/images/brand/logo.png'
 comments:
@@ -19,21 +19,16 @@ imgpost   : assets/public/images/posts
 meta_description : "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec vous, je partage chaque défi et développe de nouveaux projets."
 meta_keywords    : 
   - "product management"
-  - "product manager freelance"
-  - "chef de projet web freelance"
-  - "chef de projet digital freelance"
-  - "digital product"
+  - "développeur web"
+  - "développeur full-stack"
+  - "développeur full-stack JS"
+  - "développeur NodeJS"
+  - "product design"
   - "startup"
-  - "freelance"
-  - "indie hacker"
-  - "solopreneur"
   - "nicolas jouanno"
-  - "tech"
-  - "business"
-  - "marketing"
-  - "marketer"
   - "web-developper"
-  - "designer"
+  - "UX / UI Design"
+  - "design thinking"
 google_verification :
 bing_verification   :
 yandex_verification :

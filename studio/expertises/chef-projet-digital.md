@@ -1,7 +1,7 @@
 ---
 layout: expertises
-title: "Chef de Projet Digital Freelance"
-summary: "Chaque équipe a son rôle à jouer dans un projet digital et mon objectif de Chef de Projet Digital Freelance est d'amener tout le monde à travailler dans le même sens, tout en gardant en tête les objectifs clients et les préférences des utilisateurs."
+title: "Chef de Projet Digital"
+summary: "Chaque équipe a son rôle à jouer dans un projet digital et mon objectif de Chef de Projet Digital est d'amener tout le monde à travailler dans le même sens, tout en gardant en tête les objectifs clients et les préférences des utilisateurs."
 permalink: "/chef-projet-digital.html"
 header-img: "inspiration-4"
 footer_cta: "Vous avez un projet digital pour votre startup, PME ou activité de freelance ? Et si nous en parlions ensemble pour vous aider à atteindre vos objectifs."
