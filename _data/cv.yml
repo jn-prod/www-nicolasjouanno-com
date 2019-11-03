@@ -2,13 +2,13 @@ experiences:
   - entreprise: "Izir.fr"
     format: "SITE APPLICATIF"
     side_project: false
-    date: "2017 - Aujourd’hui"
+    date: "2017 - 2019"
     description: "Création d’un site applicatif d’inscription en ligne pour les événements sportifs. "
     skills: "NodeJS, ExpressJS, MongoDB, Bootstrap, Webpack, UX, UI, Marketing, Gestion de projet."
   - entreprise: "Intranet Prioux"
     format: "SITE APPLICATIF"
     side_project: false
-    date: " 2018 - Aujourd’hui"
+    date: " 2018 - 2019"
     description: "Création d’un dashboard de suivis de l’activité commerciale. "
     skills: "NodeJS, ExpressJS, MongoDB, Bootstrap. "
   - entreprise: "feezify:me"
@@ -26,7 +26,7 @@ experiences:
   - entreprise: "shop.izir.fr"
     format: "SITE E-COMMERCE"
     side_project: false
-    date: "2016 - Aujourd’hui "
+    date: "2016 - 2019 "
     description: "Création d’un site e-commerce avec un CMS. Création et intégration de l’UI. "
     skills: "UX, UI, Intégration, Shopify, Bootstrap, Marketing, Gestion de Projet. "
   - entreprise: "cyclesportnature.fr"
