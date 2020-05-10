@@ -34,13 +34,6 @@
 
         <!-- JavaScript
         ================================================== -->
-        <!-- Fontawesome -->
-        <script src="https://kit.fontawesome.com/407f9c44bd.js" crossorigin="anonymous"></script>
-        
-        <!-- Load Stripe.js on your website. -->
-        <input type="hidden" id="stripe_key" value="{{ site.stripe_key }}">
-        <script src="https://js.stripe.com/v3" async></script>
-                
         {% if site.url == "http://localhost:4000" %}
           <script src="http://localhost:8000/app.js" async></script>
         {% else %}
@@ -50,6 +43,12 @@
             <!-- End of HubSpot Embed Code -->            
         {% endif %}
 
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/407f9c44bd.js" crossorigin="anonymous"></script>
+        
+        <!-- Load Stripe.js on your website. -->
+        <input type="hidden" id="stripe_key" value="{{ site.stripe_key }}">
+        <script src="https://js.stripe.com/v3" async></script>
 
         <script id="dsq-count-scr" src="//{{site.comments.disqus.shortname}}.disqus.com/count.js" async defer></script>
 
