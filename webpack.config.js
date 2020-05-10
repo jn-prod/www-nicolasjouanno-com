@@ -24,13 +24,12 @@ cssConfig.push(
     loader: 'css-loader',
     options: {
       url: false,
-      minimize: true,
       sourceMap: true
     }
   },
   {
     loader: 'sass-loader'
-  },
+  }
 )
 
 // global loader config
@@ -94,7 +93,7 @@ config.plugins.push(
 
 // external js
 config.externals = {
-    Stripe: 'Stripe'
-  }
+  Stripe: 'Stripe'
+}
 
 module.exports = config

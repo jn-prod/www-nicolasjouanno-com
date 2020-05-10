@@ -44,22 +44,14 @@ Je choisis donc de challenger cette librairie.
 ### Utiliser le framework front-end VueJS
 {: .font-secondary}
 
-Pour améliorer le moteur de recherche, il faut entrer dans un fichier javascript riche en fonction qui intéragissent entre elles.
+A a suite d'une longue veilles sur les frameworks front-end, incluant: [VueJS](https://vuejs.org/), [ReactJS](https://fr.reactjs.org/) et [Angular](https://angular.io/). C'est séduit par le design de VueJS que je choisi donc de migrer mon POC du javascript natif à une SPA (Single Page Application) VUE. *(une version non officelle a été également développée en AngularJS).*
 
-Bien qu'il soit simple de comprendre le rôle de chacune d'elle comportement du moteur de recherche et son rendu procédural s'entremêle.
-
-En séparant le code lié à la donnée du rendu, on assure le maintient des fonctionnalités de rendu et augmente les possibilités de filtre de la recherche.
-
-Une séparation permise par les frameworks javascript moderne comme VueJS, [ReactJS](https://fr.reactjs.org/) et [Angular](https://angular.io/). Ils favorisent l'ajout incrémental de feature.
-
-Je choisi donc de passer du javascript natif à une structure SPA (Single Page Application).
+Le résultat est sans appel, une application fluide, une navigation intuitive et un code maintenable grace a l'architecture composant.
 
 <!--3. Solutions et choix technique-->
-## D'une application full JS à une stack Python - AngularJS
+## D'une application full JS à une stack Python - VueJS
 
-Après un peu de recherche éclairé par ma précédente veuille, je décide de réécrire tout le scrapper en [Python](https://www.python.org/) avec la librairie [scrapy](https://scrapy.org/) reconnu pour sa performance.
-
-Séduit par la promesse de [VueJS](https://vuejs.org/) d'être pris en main en une journée. Contraint par le temps, je realise un premier contact avec les SPA avec VueJS. Mais attiré par la popularité des frameworks ReactJS et AngularJS, je décide finalement de repartir à nouveau à zéro. La version actuelle est donc sous AngularJS. La learning curve d'AngularJS est effectivement plus abrupte au début.
+Après un peu de recherche éclairé par ma précédente veuille, je décide de réécrire tout le scrapper en [Python](https://www.python.org/) avec la librairie [scrapy](https://scrapy.org/) reconnu pour sa performance dans le domaine.
 
 <!--4. Résultats et leçons-->
 ## Une app plus simple et plus rapide

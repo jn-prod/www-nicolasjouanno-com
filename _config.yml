@@ -1,7 +1,7 @@
 # Site Settings
 locale           : "fr-FR"
 title            : "Nicolas Jouanno"
-headline         : "Développeur Full-Stack JS | NodeJS - MongoDB"
+headline         : "Développeur Full-Stack JS | NodeJS - MongoDB - VueJS"
 url              : "https://nicolasjouanno.com"
 logo             : 'assets/public/images/brand/logo.png'
 comments:

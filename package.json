@@ -6,11 +6,10 @@
   "scripts": {
     "webpack": "./node_modules/.bin/webpack",
     "pretest": "./node_modules/.bin/eslint --ignore-path .eslintignore .",
-    "app:server": "bundle exec jekyll serve --watch",
-    "webpack:server": "webpack-dev-server -d --hot --config webpack.config.js --watch",
-    "dev:server": "concurrently \"npm run webpack:server\" \"npm run app:server\"",
-    "build:osx": "NODE_ENV=production webpack --config webpack.config.js",
-    "build:win": "set NODE_ENV=production&& webpack --config webpack.config.js"
+    "server:dev": "bundle exec jekyll serve --livereload",
+    "client:dev": "webpack-dev-server -d --hot --config webpack.config.js --watch",
+    "client:build": "NODE_ENV=production webpack --config webpack.config.js",
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\""
   },
   "repository": {
     "type": "git",
@@ -35,8 +34,8 @@
     "babel-preset-env": "*",
     "bootstrap": "^4.3.1",
     "clean-webpack-plugin": "^1.0.1",
-    "concurrently": "^4.1.0",
-    "css-loader": "^0.28.11",
+    "concurrently": "^5.2.0",
+    "css-loader": "^3.5.3",
     "eslint": "^5.15.2",
     "eslint-config-standard": "^12.0.0-alpha.0",
     "eslint-loader": "^2.1.2",
@@ -49,16 +48,16 @@
     "html-webpack-plugin": "*",
     "jquery": "^3.4.1",
     "mini-css-extract-plugin": "^0.4.5",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.14.1",
     "popper.js": "^1.14.7",
     "postcss-loader": "^3.0.0",
     "resolve-url-loader": "^2.3.2",
-    "sass": "^1.20.1",
+    "sass": "^1.26.5",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
     "webpack-hot-middleware": "^2.24.3"
   },
   "dependencies": {

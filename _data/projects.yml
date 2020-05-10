@@ -6,7 +6,7 @@
     - "Gestion de projet"
     - "Python"
     - "Jekyll"
-    - "AngularJS"
+    - "VueJS"
     - "Bootstrap"
     - "HTML5"
     - "CSS3"
@@ -71,7 +71,7 @@
     - "/assets/public/images/projets/ext-2.png"
 - name: "Event.izir.fr"
   year: "2017 - 2019"
-  profile: true
+  profile: false
   mission: "Chef de projet digital full-stack (CDI)"
   expertises: 
     - "Product Management"
