@@ -2,8 +2,6 @@
   url: "/studio.html"
 - name: "Stories"
   url: "/stories.html"
-- name: "On Demand"
-  url: "/coaching.html"
 - name: "Toolbox"
   url: "/toolbox.html"  
 - name: "Academy"
