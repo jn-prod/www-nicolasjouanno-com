@@ -1,50 +1,56 @@
 <!-- Begin Menu Navigation
 ================================================== -->
-<nav id="nav-top" class="navbar navbar-expand-lg">
+<nav id="nav-top" class="navbar navbar-expand-lg" role="navigation">
 
-      <a href="{{ site.url }}" class="navbar-brand">  <!-- {% if page.url == '/' %}mx-auto{% endif %} -->
+  <a href="{{ site.url }}" class="navbar-brand">
+    <!-- {% if page.url == '/' %}mx-auto{% endif %} -->
 
-        <span class="sitetitle d-block text-center text-capitalize pt-3 pb-2 text-dark h1">
+    <span class="sitetitle d-block text-center text-capitalize pt-3 pb-2 text-dark h1">
 
-          {{ site.title }}
+      {{ site.title }}
 
-        </span>
+    </span>
 
-      </a>
+  </a>
 
-      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars text-dark float-right"></i>
-      </button>
-      
-      <div class="navbar-collapse collapse " id="mainMenu">
-        <!-- Begin Menu -->
-        <ul class="navbar-nav ml-auto">
+  <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#mainMenu"
+    aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars text-dark float-right"></i>
+  </button>
 
-          <li class="nav-item">
-            <a class="nav-link px-3 btn {% if page.url == '/portfolio.html' %}nav-link-active{% endif %}" href="{{ site.url }}/portfolio.html">Portfolio</a>
-          </li>  
+  <div class="navbar-collapse collapse " id="mainMenu">
+    <!-- Begin Menu -->
+    <ul class="navbar-nav ml-auto">
 
-          <li class="nav-item">
-            <a class="nav-link px-3 btn {% if page.url == '/stories.html' %}nav-link-active{% endif %}" href="{{ site.url }}/stories.html">Blog</a>
-          </li>
+      <li class="nav-item">
+        <a class="nav-link px-3 btn {% if page.url == '/portfolio.html' %}nav-link-active{% endif %}"
+          href="{{ site.url }}/portfolio.html">Portfolio</a>
+      </li>
 
-          <li class="nav-item">
-            <a class="nav-link px-3 btn {% if page.url == '/about.html' %}nav-link-active{% endif %}" href="{{ site.url }}/about.html">About</a>
-          </li>
+      <li class="nav-item">
+        <a class="nav-link px-3 btn {% if page.url == '/stories.html' %}nav-link-active{% endif %}"
+          href="{{ site.url }}/stories.html">Blog</a>
+      </li>
 
-          <li class="nav-item">
-            <a class="nav-link px-3 bt ml-2 shadow btn-primary text-white text-center rounded-pill" href="http://bit.ly/2Z4jFpb" target="_blank">
-              <i class="fas fa-phone mr-2"></i>Contact
-            </a>
-          </li>
+      <li class="nav-item">
+        <a class="nav-link px-3 btn {% if page.url == '/about.html' %}nav-link-active{% endif %}"
+          href="{{ site.url }}/about.html">About</a>
+      </li>
 
-        </ul>
-        <!-- End Menu -->
-      </div>
+      <li class="nav-item">
+        <a class="nav-link px-3 bt ml-2 shadow btn-primary text-white text-center rounded-pill"
+          href="http://bit.ly/2Z4jFpb" target="_blank">
+          <i class="fas fa-phone mr-2"></i>Contact
+        </a>
+      </li>
 
-    <div id="mobile-menu"></div>
-    
+    </ul>
+    <!-- End Menu -->
+  </div>
+
+  <div id="mobile-menu"></div>
+
 </nav>
- 
+
 <!-- End Navigation
-================================================== -->  
+================================================== -->

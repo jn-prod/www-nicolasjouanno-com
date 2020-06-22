@@ -1,6 +1,6 @@
 <!-- Categories Jumbotron
 ================================================== -->
-<footer class="footer mt-5">
+<footer class="footer mt-5" role="contentinfo">
 
     <!-- signature -->
     <div class="jumbotron bg-footer">
@@ -25,17 +25,31 @@
                 <small class="d-block text-primary">{{ site.headline }}</small>
             </div>
             <div class="col-md-9 text-muted d-md-block d-lg-flex ">
-                <div class="d-md-flex ml-md-auto">
-                    <a href="{{ site.url }}/studio.html" class="d-block btn-sm text-muted mr-3 my-auto">Développeur JS</a>
-                    <a href="{{ site.url }}/coaching.html" class="d-block btn-sm text-muted mr-3 my-auto">Consulting</a>
-                    <a href="{{ site.url }}/stories.html" class="d-block btn-sm text-muted mr-3 my-auto">Blog</a>
-                    <a href="{{ site.url }}/academy.html" class="d-block btn-sm text-muted mr-3 my-auto">Ressources</a>
-                    <a href="{{ site.url }}/about.html" class="d-block btn-sm text-muted mr-3 my-auto">A propos</a>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <a href="{{ site.data.authors.nicolas.linkedin }}" class="shadow btn btn-outline-dark p-3 d-block mb-3 my-auto" target="_blank" rel="me">Voir mon cv →</a>
-                    <a href="{% if page.url == '/' %}#cta{% else %}#nav-top{% endif %}" class="p-3 d-block mb-3 my-auto"><i class="fa-2x fas fa-arrow-up"></i></a>    
-                </div>
+                <ul class="d-md-flex ml-md-auto list-unstyled">
+                    <li class="my-auto">
+                        <a href="{{ site.url }}/studio.html" class="d-block btn-sm text-muted mr-3 my-auto">Développeur JS</a>
+                    </li>
+                    <li class="my-auto">
+                        <a href="{{ site.url }}/coaching.html" class="d-block btn-sm text-muted mr-3 my-auto">Consulting</a>
+                    </li>
+                    <li class="my-auto">
+                        <a href="{{ site.url }}/stories.html" class="d-block btn-sm text-muted mr-3 my-auto">Blog</a>
+                    </li>
+                    <li class="my-auto">
+                        <a href="{{ site.url }}/academy.html" class="d-block btn-sm text-muted mr-3 my-auto">Ressources</a>
+                    </li>
+                    <li class="my-auto">
+                        <a href="{{ site.url }}/about.html" class="d-block btn-sm text-muted mr-3 my-auto">A propos</a>
+                    </li>
+                </ul>
+                <ul class="d-flex justify-content-center list-unstyled">
+                    <li class="my-auto">
+                        <a href="{{ site.data.authors.nicolas.linkedin }}" class="shadow btn btn-outline-dark p-3 d-block mb-3 my-auto" target="_blank" rel="me">Voir mon cv →</a>
+                    </li>
+                    <li class="my-auto">
+                        <a href="{% if page.url == '/' %}#cta{% else %}#nav-top{% endif %}" class="p-3 d-block mb-3 my-auto"><i class="fa-2x fas fa-arrow-up"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -45,11 +59,17 @@
             </div>
             <div class="col-md-6 text-sm-center text-lg-right text-muted d-sm-block d-md-flex my-2">
                 <span class="mr-3 d-sm-block d-md-inline-block text-right ml-md-auto pb-2">Restons en contact sur → </span>
-                <div class="d-md-flex d-sm-block">
-                    <a class="mr-2 text-muted btn-sm" href="{{ site.data.authors.nicolas.twitter }}" target="_blank" rel="me"><i class="fa-2x fab fa-twitter"></i></a>
-                    <a class="mr-2 text-muted btn-sm" href="{{ site.data.authors.nicolas.linkedin }}" target="_blank" rel="me"><i class="fa-2x fab fa-linkedin"></i></a>
-                    <a class="mr-2 text-muted btn-sm" href="{{ site.url }}/feed.xml" type="application/rss+xml"><i class="fas fa-rss fa-2x"></i></a>
-                </div>
+                <ul class="d-md-flex d-sm-block list-unstyled">
+                    <li class="my-auto">
+                        <a class="mr-2 text-muted btn-sm" href="{{ site.data.authors.nicolas.twitter }}" target="_blank" rel="me"><i class="fa-2x fab fa-twitter"></i></a>
+                    </li>
+                    <li class="my-auto">
+                        <a class="mr-2 text-muted btn-sm" href="{{ site.data.authors.nicolas.linkedin }}" target="_blank" rel="me"><i class="fa-2x fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="my-auto">
+                        <a class="mr-2 text-muted btn-sm" href="{{ site.url }}/feed.xml" type="application/rss+xml"><i class="fas fa-rss fa-2x"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
 
