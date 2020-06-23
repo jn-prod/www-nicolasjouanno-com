@@ -47,4 +47,4 @@ Il y a autant d'exemples que d'applications disponibles créées. Les grandes fa
 
 Plusieurs éditeurs développent des applications qui permettent à votre entreprise d'optimiser ses activités: Sales, Marketing, RH, Comptabilité ... Vous pouvez trouver l'application qui répondra le mieux à vos problématiques business dans la rubrique <a href="{{ site.url }}/toolbox.html">toolbox</a>.
 
-Vos besoins peuvent également être plus précis et nécessiter des développements spécifiques pour profiter d'<a href="{{ site.url }}/studio.html">outils numériques sur mesure</a>.
+Vos besoins peuvent également être plus précis et nécessiter des développements spécifiques pour profiter d'<a href="{{ site.url }}/work.html">outils numériques sur mesure</a>.

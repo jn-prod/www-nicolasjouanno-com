@@ -1,8 +1,10 @@
 ---
+redirect_from:
+  - "/studio.html"
 layout: landing
 title: Le studio
 summary: "Développeur Full-Stack JS, à 31 ans dont 8 ans d’expérience dans la création et le développement de site internet."
-permalink: "/studio.html"
+permalink: "/work.html"
 bg: inspiration-1
 h1: Développez votre projet digital et améliorez votre présence en ligne.
 h2: Je développe votre application web avec la maitrise des problématiques marketing, design et tech. J'aime garder les choses simples et procurer une expérience propre et fonctionnel à vos utilisateurs.
@@ -185,38 +187,6 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 
     {% endfor %}
 
-  </div>
-</div>
-
-<!-- toolbox -->
-<div class="container my-5 text-center" id="toolbox">
-  <div class="row">
-    <div class="col-12">
-      <h2 class="mb-5">La toolbox</h2>
-    </div>
-  </div>
-  <div class="row text-center">
-
-    {% for tools in site.data.toolbox %}
-
-      {% for tool in tools.tools %}
-
-        {% if tool.feature == true %}
-
-          {% include /boxes/tool.html %}
-
-        {% endif %}
-
-      {% endfor %}
-
-    {% endfor %}
-
-  </div>
-
-  <div class="row mt-5">
-    <div class="col-12">
-      <a href="{{ site.url }}/toolbox.html" class="font-weight-bold btn btn-outline-primary">Découvrir plus d'outils <i class="fas fa-arrow-right ml-2"></i></a>
-    </div>
   </div>
 </div>
 
