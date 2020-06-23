@@ -7,7 +7,7 @@ summary: "Développeur Full-Stack JS, à 31 ans dont 8 ans d’expérience dans 
 permalink: "/work.html"
 bg: inspiration-1
 h1: Développez votre projet digital et améliorez votre présence en ligne.
-h2: Je développe votre application web avec la maitrise des problématiques marketing, design et tech. J'aime garder les choses simples et procurer une expérience propre et fonctionnel à vos utilisateurs.
+h2: Je conçois votre application web. J'aime garder les choses simples et procurer une expérience propre et fonctionnel à vos utilisateurs.
 cta: Demander mon audit gratuit →
 footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondre à vos interrogations et à vous aider à développer votre projet.
 ---
@@ -17,16 +17,49 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
   <div class="col-12 my-5">
     <div class="row text-center">
       <div class="col-md-8 mx-auto">
-        <h2 class="mb-5">Le studio</h2>
+        <h2 class="mb-5">Développeur Full-Stack JS</h2>
         <p class="d-block mb-5">
           <p>Moi c'est <a href="{{ site.url }}/about.html" class="border-bottom border-primary">Nicolas</a>, à 31 ans, je suis à la recherche de nouveaux challenges. Je me nourris des dernières tendances marketing, design et technologique de l'écosystème startup pour offrir à votre projet des services digitaux innovant et une expérience utilisateurs de qualité. Je suis spécialisé et <a href="{{ site.url }}/certifications.html" class="border-bottom border-primary">certifié</a> dans la création de site applicatif.</p>
           <p>J'utilise les meilleures méthodes et outils des plus grandes startups, comme Lean Startup, le Design Thinking, la méthode Agile & le Lean UX.</p>
-          <p>J'interviens sur tout le cycle de vie d'un produit numérique : de la création de votre POC (Proof Of Concept) à l'automatisation de votre stratégie de Growth Marketing, en passant par l'incrémentation de nouvelles features à votre MVP (Minimum Viable Product) et la création de landing pages.</p>
+          <p>J'interviens sur tout le cycle de vie d'un produit numérique : de la création de votre POC (Proof Of Concept) à l'automatisation de votre <a href="/expertises/developpeur-back-end.html">back-end</a> pour votre stratégie de Growth Marketing, en passant par l'incrémentation de nouvelles features à votre MVP (Minimum Viable Product) et la création de landing pages.</p>
           <p>Je développe avec vous une web app scalable qui tient compte de vos objectifs de rétention et contraintes métier.</p>
           <p>Commençons à en parler ensemble <a href="{{ site.call_link }}" class="border-bottom border-primary">en visio</a>. Enfin, je partage mes connaissances techniques, stratégiques et opérationnelles sur <a href="{{ site.url }}/stories.html" class="border-bottom border-primary">le blog</a>.</p>
         </p>    
       </div>
     </div>    
+  </div>
+</div>
+
+<!-- Technologies -->
+<div class="container mt-5 pt-5 text-center" id="technologies">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="mb-5">Les Technologies</h2>
+    </div>
+  </div>
+  <div class="row text-center">
+    {% for technologie in site.data.technologies limit:10  %}
+
+      {% if technologie.profile == true %}
+
+        <div class="col-3 col-md-1 my-3 mx-auto text-center tech-icon">
+
+          {% if technologie.fontawesome %}
+
+            <i class="{{technologie.fontawesome}} fa-3x text-primary"></i>
+
+          {% else if technologie.icon %}
+
+            <img src="/assets/public/images/technologies/{{technologie.icon}}" alt="{{technologie.name}}">
+
+          {% endif %}
+
+        </div>
+
+      {% endif %}
+
+    {% endfor %}
+
   </div>
 </div>
 
@@ -56,51 +89,9 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 </div>
 
 <!-- Expertises -->
-<div class="row bg-light py-5 text-center shadow">
+<div class="row bg-light py-5 mt-5 text-center shadow">
   <div class="col-12 py-5">
     <div class="container text-center" id="expertises">
-      <div class="row ">
-        <div class="col-12">
-          <h2 class="mb-5">Mon Expertise</h2>
-        </div>
-      </div>
-
-      {% for expertise in site.data.expertises %}
-
-        {% if expertise.url == "/expertises/developpeur-back-end.html" %}
-
-          <div class="row shadow rounded border border-muted my-5 p-5 bg-white">        
-
-            <div class="col-md-4 my-auto">
-
-              <h3 class="h4"><a href="{{expertise.url}}" class="font-primary m-2">{{ expertise.name }}</a></h3>
-
-            </div>
-
-            <div class="col-md-8 my-auto">
-
-              <span class="text-muted">
-
-                {{ expertise.summary }}
-
-                <span class="font-weight-bold d-block mt-3">
-                  
-                  <a href="{{ site.url }}{{ expertise.url }}" class="btn btn-outline-primary ml-2 font-weight-bold">
-                    {{ expertise.cta }}<i class="fas fa-arrow-right ml-2"></i>
-                  </a>
-
-                </span>
-
-              </span>
-
-            </div>
-
-          </div>
-
-        {% endif %}
-
-      {% endfor %}
-
       <div class="row ">
         <div class="col-12">
           <h2 class="my-5">Mes Méthodologies</h2>
@@ -122,71 +113,7 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
 
       </div>
 
-      <div class="row ">
-        <div class="col-12">
-          <h2 class="my-5">Mes Certifications</h2>
-        </div>
-      </div>
-      <div class="row ">
-
-        {% for certification in site.data.certifications %}
-
-          {% if certification.featured == true %}
-            <div class="col-md-4">
-
-              <span class="my-3 font-secondary font-weight-bold d-block mb-2">{{ certification.title }}</span>
-
-              <span class="text-muted">{{ certification.category }}</span>
-
-            </div>
-          {% endif %}
-        {% endfor %}
-
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <a href="{{ site.url }}/certifications.html" class="btn btn-outline-primary my-5 font-weight-bold">
-            Voir mes {{ site.data.certifications.size }} certifications<i class="fas fa-arrow-right ml-2"></i>
-          </a>
-        </div>
-      </div>
-
     </div>   
-  </div>
-</div>
-
-<!-- Technologies -->
-<div class="container my-5 py-5 text-center" id="technologies">
-  <div class="row">
-    <div class="col-12">
-      <h2 class="mb-5">Les Technologies</h2>
-    </div>
-  </div>
-  <div class="row text-center">
-
-    {% for technologie in site.data.technologies %}
-
-      <div class="col-md-3 col-sm-6 mx-auto">
-        <div class="d-inline-block p-3 tech-icon">
-
-          {% if technologie.fontawesome %}
-
-            <i class="{{technologie.fontawesome}} fa-3x text-primary"></i>
-
-          {% else if technologie.icon %}
-
-            <img src="/assets/public/images/technologies/{{technologie.icon}}" alt="{{technologie.name}}">
-
-          {% endif %}
-
-          <h4 class="text-muted d-block text-center font-secondary h6 font-weight-bold mt-2 icon-title">{{technologie.name}}</h4>
-          <small class="text-muted">{{technologie.description}}</small>
-        </div>
-      </div>
-
-    {% endfor %}
-
   </div>
 </div>
 

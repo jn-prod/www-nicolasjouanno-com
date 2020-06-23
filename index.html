@@ -9,6 +9,17 @@ title: "Développeur Full-Stack JS"
 layout: default
 seo_description: "Développeur Full-Stack JS pour les Startups en Remote. Création de site Web et Application NodeJS, MongoDB et VueJS."
 ---
+<!-- set vtt_bzh variable -->
+{% for project in site.data.projects %}
+
+  {% if project.name == 'vtt.bzh' %}
+
+    {% assign vtt_bzh = project %}
+
+  {% endif %}
+
+{% endfor %}
+
 
 <!-- Header
 ================================================== -->
@@ -20,17 +31,17 @@ seo_description: "Développeur Full-Stack JS pour les Startups en Remote. Créat
             
       <div class="row">
 
-        <div class="col-lg-8 p-5 my-auto order-sm-2 order-lg-1">      
+        <div class="col-lg-8 p-md-5 my-auto order-sm-2 order-lg-1">      
 
           <h1 class="font-primary pb-5 text-left pr-5">Je conçois des sites aimés par les utilisateurs qui répondent à vos objectifs business.</h1>
 
-          <p>Moi c'est <a href="{{ site.url }}/about.html" rel="me">Nicolas Jouanno</a>, développeur Full-Stack JS @MGDIS et design enthousiaste. Je suis aussi ex-cycliste professionnel, maintenant freerider 🏃🚴‍♂️🏄‍♂️. Je prends des photos & joue de la musique. Créateur de <a href="http://vtt.bzh" target="_blank">vtt.bzh</a>.</p>
+          <p>Moi c'est <a href="{{ site.url }}/about.html" rel="me">Nicolas Jouanno</a>, développeur Full-Stack JS @MGDIS et design enthousiaste. Je suis aussi ex-cycliste professionnel, maintenant freerider 🏃🚴‍♂️🏄‍♂️. Je prends des photos & joue de la musique. Créateur de <a href="{{ vtt_bzh.url }}">vtt.bzh</a>.</p>
 
         </div>
 
         <div class="col-lg-4 text-center order-sm-1 order-lg-2 my-auto">
 
-          <img src="{{ site.data.authors.nicolas.avatar }}" alt="{{ site.data.authors.nicolas.display_name }}, {{ site.data.authors.nicolas.current_job }}" class="img-fluid">
+          <img src="{{ site.data.authors.nicolas.avatar }}" alt="" class="img-fluid">
 
         </div>
 
@@ -65,7 +76,7 @@ seo_description: "Développeur Full-Stack JS pour les Startups en Remote. Créat
     
     <div class="col-lg-4 col-md-6">
       
-      <p>Mon expertise du langage de programmation Javascript, de son ecosytème et de ses frameworks comme NodeJS et VueJS me permettent d'avoir de l'impact sur le front-end et le back-end de votre application.</p>
+      <p>Mon expertise du langage de programmation Javascript, de son ecosytème et de ses frameworks (ex: NodeJS, AngularJS, VueJS, ...) me permettent de réaliser les développements front-end et back-end de votre application.</p>
       
       <p>Ils me permettent de vous donner les clefs pour réussir le développement de votre projet SAAS.</p>
       
@@ -75,6 +86,7 @@ seo_description: "Développeur Full-Stack JS pour les Startups en Remote. Créat
     
   </div>
   
+  <!-- technologies -->
   <div class="row">
 
     {% for technologie in site.data.technologies limit:10  %}
@@ -119,12 +131,16 @@ seo_description: "Développeur Full-Stack JS pour les Startups en Remote. Créat
   
   <div class="row">
     
-    <div class="col-lg-4 col-md-12 my-auto">
+    <div class="col-lg-4 col-md-12 my-auto px-3 py-5">
+
+      <div class="p-5 bg-light shadow border-muted rounded">
+
+        <p>J'expérimente moi-même énormément sur des side-projects avec un état d'esprit "fake it until you make it". Mon side project phare: vtt.bzh à compter jusqu'à <strong>10 000 visiteurs mensuel</strong>. Le lean startup et le Design Thinking sont des leviers puissants. Tous mes projets sont réalisés avec amour et passion.</p>
+        
+        <a href="{{ site.url }}/work.html" class="btn btn-outline-primary font-weight-bold mt-3">Découvrir mon travail <i class="fas fa-arrow-right ml-2"></i></a>
+
+      </div>
       
-      <p>J'expérimente moi-même énormément sur des side-projects avec un état d'esprit "fake it until you make it". Mon side project phare: vtt.bzh à compter jusqu'à <strong>10 000 visiteurs mensuel</strong>. Le lean startup et le Design Thinking sont des leviers puissants. Tous mes projets sont réalisés avec amour et passion.</p>
-      
-      <a href="{{ site.url }}/work.html" class="btn btn-outline-primary font-weight-bold mt-3 float-right">Découvrir mon travail <i class="fas fa-arrow-right ml-2"></i></a>
-    
     </div>
     
     <div class="col-lg-8 col-md-12">
@@ -139,7 +155,7 @@ seo_description: "Développeur Full-Stack JS pour les Startups en Remote. Créat
               
               <div class="row m-2 h-100">
 
-                  <div class="col-12 text-center p-3 bg-light shadow border-muted rounded">  
+                  <div class="col-12 text-center">  
                     
                     {% include /boxes/project.html %}
                     
