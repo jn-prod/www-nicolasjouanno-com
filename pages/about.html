@@ -221,26 +221,6 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
         </div>
       </div>      
     </div> 
-  </div> 
-
-  <!-- Toolbox
-  ================================================== -->
-  <div class="row text-center my-5 pt-5 pb-2">
-
-    {% for tools in site.data.toolbox %}
-
-      {% for tool in tools.tools %}
-
-        {% if tool.feature == true %}
-
-          {% include /boxes/tool.html %}
-
-        {% endif %}
-
-      {% endfor %}
-
-    {% endfor %}
-
   </div>
 
   <!-- Contact
