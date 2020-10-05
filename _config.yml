@@ -82,8 +82,6 @@ address :
   coutry : "FR"
   city: "Pontivy, France"
 
-call_link: "https://bit.ly/2Z4jFpb"
-
 # Outputting
 permalink : /:title:output_ext
 paginate: 12

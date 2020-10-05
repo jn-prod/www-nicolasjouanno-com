@@ -35,7 +35,7 @@ Si les outils sont de plus en plus accessibles pour créer son site internet. L'
 
 Le cahier des charges est la première étape clef d'un projet de site internet. Le cahier des charges reprend les contraintes techniques et de design de votre site e-commerce en reprennant les bonnes pratiques actuelles du domaine.
 
-En plus des problématiques techniques et de design, l'un des points clef pour la réussite d'un e-commrce est aussi la stratégie marketing que vous mettez en place: SEM, SEO, SEO, content marketing, social média marketing, ... Une agence web ou un <a href="{{ site.url }}/work.html">freelance</a> est justement là pour vous aider à cibler et construire la stratégie numérique en adéquation avec votre cahier des charges qui se nourira de cette stratégie. En réalisant cette étape avec le plus grand soin vous vous assurez que votre site internet correspond au mieux à votre secteur d'activité.
+En plus des problématiques techniques et de design, l'un des points clef pour la réussite d'un e-commrce est aussi la stratégie marketing que vous mettez en place: SEM, SEO, SEO, content marketing, social média marketing, ... Une agence web ou un <a href="{{ site.url }}/about.html">freelance</a> est justement là pour vous aider à cibler et construire la stratégie numérique en adéquation avec votre cahier des charges qui se nourira de cette stratégie. En réalisant cette étape avec le plus grand soin vous vous assurez que votre site internet correspond au mieux à votre secteur d'activité.
 
 {: .my-5 #externaliser}
 ## Faut-il externaliser la conception et la maintenance d'un site e-commerce
