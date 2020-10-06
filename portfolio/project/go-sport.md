@@ -24,7 +24,7 @@ En charge de l'extraction de données de l'outil de GRC et de leur intégration 
 
 <!--2. Problème-->
 ## Problème
-Après deux ans, le fichier c'était complexifier et son maintient très compliqué par l'usage même d'[Excel](https://products.office.com/fr-fr/excel) (formules cassées, répétées, complexe, ...) et par le volume de données traitées. L'objectif est donc d'avoir un outil qui comprend:
+Après deux ans, le fichier c'était complexifier et son maintient très compliqué par l'usage même d'Excel (formules cassées, répétées, complexe, ...) et par le volume de données traitées. L'objectif est donc d'avoir un outil qui comprend:
 - les formules de performances commerciales dans un fichier,
 - une base de données propre pour les séparer de l'application et profiter d'outils de requètes
 - supprimer la répétition de ce qui correspondrait à des composants

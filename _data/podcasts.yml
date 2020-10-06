@@ -14,7 +14,7 @@
   url: 'http://www.lafrenchtouch.fm/'
   img: '/assets/public/images/podcasts/la-french-touch.jpg'
 - name: 'Nouvelle Ecole'
-  url: 'https://nouvelleecole.org/'
+  url: '#'
   img: '/assets/public/images/podcasts/nouvelle-ecole.png'
 - name: 'Génération Do It Yourself'
   url: 'https://www.gdiy.fr/'

@@ -15,7 +15,7 @@ type:
   name: "Web app"
   url: "site-applicatif.html"
 link:
-  url: "https://event.izir.fr/"
+  url: "#"
   name: "event.izir.fr"
   
 ---

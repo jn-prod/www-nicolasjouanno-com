@@ -52,7 +52,7 @@ Pris de curiosité pour le growth hacking. J'ai découvert une discipline croise
 
 Ne sachant pas si mes connaissances en marketing suffisent à réaliser ce pivot, je me demandant quels skills pouvaient me manquer. A l'évidence, il fallait apprendre à minima à coder.
 
-Lors de mes recherches, c'est au détour d'un article sur [cette page métier](https://www.welcometothejungle.co/professions/product-manager) de welcometothejungle, que je découvre un nouveau concept qui me plait tout autant : <strong>le Product Management</strong>. Là encore un metier hybride, entre le Marketing, la Tech et le Design. Là encore, s'il y a un domaine où je ne connais rien c'est le développement web.
+Lors de mes recherches, c'est au détour d'un article sur welcometothejungle, que je découvre un nouveau concept qui me plait tout autant : <strong>le Product Management</strong>. Là encore un metier hybride, entre le Marketing, la Tech et le Design. Là encore, s'il y a un domaine où je ne connais rien c'est le développement web.
 
 Voilà, comment j'arrive à la conclusion que pour m'épanouir professionnelement dans le domaine de la gestion de projet web et avoir une casquette d'avantage "product" que "projet", il me faut avoir des connaissances solides en développement.
 

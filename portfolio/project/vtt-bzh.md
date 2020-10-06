@@ -56,7 +56,7 @@ Après un peu de recherche éclairé par ma précédente veuille, je décide de 
 <!--4. Résultats et leçons-->
 ## Une app plus simple et plus rapide
 
-Le premier gain se compte en ligne de code, la grosseur du scraper passant d'une dizaine de fichier d'une cinquantaine de ligne à un [fichier](https://github.com/jn-prod/www-vtt-bzh/blob/gh-pages/spider.py) d'une cinquantaine de ligne. Ce qui en fait un outil mieux maintenable et plus évolutif.
+Le premier gain se compte en ligne de code, la grosseur du scraper passant d'une dizaine de fichier d'une cinquantaine de ligne à un [fichier](https://github.com/jn-prod/vttbzh_scraper/blob/master/vttbzh_scraper/spiders/nafix.py) d'une cinquantaine de ligne. Ce qui en fait un outil mieux maintenable et plus évolutif.
 
 Le deuxième gain est la vélocité du scraper, qui met désormais 1 à 2 minutes une fois lancé pour terminer son travail.
 
