@@ -13,26 +13,29 @@ h2: Je donne vie à vos idées. J'aime garder les choses simples et procurer une
 cta: Travaillons ensemble →
 footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondre à vos interrogations et à vous aider à développer votre projet.
 ---
-<div class="container my-5">
+<section class="container my-5">
   <!-- Presentation
   ================================================== -->
-  <div class="row">
-    <div class="col-md-3 p-5 text-center">
+  <article class="row">
+    <article class="col-md-3 p-5 text-center">
       <img src="{{ site.data.authors.nicolas.avatar }}" alt="{{ site.data.authors.nicolas.display_name }}, {{ site.data.authors.nicolas.current_job }}"  class="img-fluid">
       <h2 class="my-2 h3">{{ site.data.authors.nicolas.display_name }}</h2>
-      <h3 class="d-block my-2 h5 font-secondary">{{ site.data.authors.nicolas.current_job }}</h3>
-      <span class="d-block my-2 text-muted">{{ site.data.authors.nicolas.age }}, {{ site.data.authors.nicolas.location }}</span>
-      <div class="mb-5">
-        <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.twitter }}" target="_blank" rel="me"><i class="fa-2x fab fa-twitter"></i></a>
-        <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.linkedin }}" target="_blank" rel="me"><i class="fa-2x fab fa-linkedin"></i></a>
-        <a class="mr-2 text-muted" href="{{ site.data.authors.nicolas.github }}" target="_blank" rel="me"><i class="fa-2x fab fa-github"></i></a>
-      </div>
-      <div class="text-center">
+      <h3 class=" my-2 h5 font-secondary">{{ site.data.authors.nicolas.current_job }}</h3>
+      <div class="my-2 text-muted">{{ site.data.authors.nicolas.age }}, {{ site.data.authors.nicolas.location }}</div>
+      <ul class="mb-5 list-unstyled my-auto">
+        <li class="mr-2 d-inline">
+          <a class="text-muted" href="{{ site.data.authors.nicolas.linkedin }}" target="_blank" rel="me"><i class="fa-2x fab fa-linkedin"></i></a>
+        </li>
+        <li class="mr-2 d-inline">
+          <a class="text-muted" href="{{ site.data.authors.nicolas.github }}" target="_blank" rel="me"><i class="fa-2x fab fa-github"></i></a>
+        </li>
+      </ul>
+      <ul class="text-center list-unstyled">
         {% for technologie in site.data.technologies limit:10  %}
   
           {% if technologie.profile == true %}
   
-            <span class="d-md-block my-3 mx-2 text-center tech-icon">
+            <li class="my-3 mx-2 tech-icon">
   
               {% if technologie.fontawesome %}
   
@@ -44,15 +47,15 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
   
               {% endif %}
   
-            </span>
+            </li>
   
           {% endif %}
   
         {% endfor %}
   
-      </div>
-    </div>
-    <div class="col-md-9">
+      </ul>
+    </article>
+    <article class="col-md-9">
       <div class="p-md-5 row bg-light rounded shadow">
         <div class="col-12 py-sm-3 p-md-5">
           <p>
@@ -79,47 +82,39 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
           </p>
         </div>
       </div>
-    </div>
-  </div>
+    </article>
+  </article>
 
   <!-- Hobbies
   ================================================== -->
-  <div class="row">
+  <article class="mb-5 text-center">
 
-    <div class="col-12 mb-5 text-center">
-      <h3 class="mt-5 py-5">Les domaines qui me passionnent.</h3>
-      <div class="d-block d-md-flex justify-content-between text-center">
+    <h3 class="mt-5 py-5">Les domaines qui me passionnent.</h3>
 
-        {% for hobby in site.data.hobbies %}
+    <ul class="d-md-flex justify-content-between text-center list-unstyled">
 
-          <div class="d-block font-weight-bold p-3">
+      {% for hobby in site.data.hobbies %}
 
-            <span class="d-block mb-5">{{ hobby.name }}</span>
+        <li class="font-weight-bold p-3">
 
-            <img src="{{ site.url }}/{{ hobby.img }}" alt="{{ hobby.name }}" class="img-fluid">
+          <span class="d-block mb-5">{{ hobby.name }}</span>
 
-          </div>       
+          <img src="{{ site.url }}/{{ hobby.img }}" alt="{{ hobby.name }}" class="img-fluid">
 
-        {% endfor %}
+        </li>       
 
-      </div>
+      {% endfor %}
 
-    </div>
+    </ul>
 
-  </div>
+  </article>
 
   <!-- projet -->
-  <div class="py-5" id="skills">
+  <article class="py-5" id="skills">
     
-    <div class="container">
-      
-      <div class="row mt-5 text-center">
-        <div class="col-12">
-          <h3 class="mb-5">Vous accompagner à chaque étape de votre application web.</h3>
-          <p>Vous développez une <a href="/offres/site-applicatif.html">application mobile</a> ou un <a href="/offres/site-vitrine.html">site internet</a> pour votre startup ? Vous avez besoin d'un professionnel pour développer votre produit ? Vous souhaitez créer votre MVP pour séduire de nouveaux utilisateurs et/ou investisseurs ? Découvrez comment je peux vous aider dans vos projets:</p>
-        </div>
-      </div>
-
+    <div class="mt-5 text-center">
+      <h3 class="mb-5">Vous accompagner à chaque étape de votre application web.</h3>
+      <p>Vous développez une <a href="/offres/site-applicatif.html">application mobile</a> ou un <a href="/offres/site-vitrine.html">site internet</a> pour votre startup ? Vous avez besoin d'un professionnel pour développer votre produit ? Vous souhaitez créer votre MVP pour séduire de nouveaux utilisateurs et/ou investisseurs ? Découvrez comment je peux vous aider dans vos projets:</p>
     </div>
 
     <div class="row mb-5 mt-5 text-center">
@@ -131,80 +126,67 @@ footer_cta: Quelle que soit votre activité, je me ferais un plaisir de répondr
       {% endfor %}
 
     </div>    
-  </div>
+  </article>
 
   <!-- Expertises -->
-  <div class="row bg-light shadow">
-    <div class="col-12 pb-5">
-      <div class="container text-center" id="expertises">
-        <div class="row ">
-          <div class="col-12">
-            <h2 class="my-5">Les méthodologies que j'affectionne.</h2>
-          </div>
-        </div>
-        <div class="row">
+  <article class="py-5 bg-light shadow text-center" id="expertises">
+    <h2 class="mb-4">Les méthodologies que j'affectionne.</h2>
 
-          {% for methode in site.data.methodologies %}
+    <div class="row">
 
-            <div class="col-md-3">
+      {% for methode in site.data.methodologies %}
 
-              <h3 class="my-3 font-secondary h3">{{ methode.name }}</h3>
+        <article class="col-md-3">
 
-              <span class="text-muted">{{ methode.excerpt }}</span>
+          <h3 class="my-3 font-secondary h3">{{ methode.name }}</h3>
 
-            </div>
+          <p class="text-muted px-2">{{ methode.excerpt }}</p>
 
-          {% endfor %}
+        </article>
 
-        </div>
+      {% endfor %}
 
-      </div>   
     </div>
-  </div>
+
+  </article>
 
   <!-- Projets
   ================================================== -->
-  <div class="row">
-    <div class="col-12 text-center">
-      <h3 class="mt-5 py-5">Les derniers projets.</h3>
-    </div>
-    {% for project in site.data.projects %}
+  <section>
+    <h3 class="mt-5 py-5 text-center">Les derniers projets.</h3>
+    <div>
+      {% for project in site.data.projects %}
+  
+        {% if project.profile == true %}
 
-      {% if project.profile == true %}
+          <article class="col-md-6 text-center p-2">
 
-        <div class="col-md-6 text-center p-2">
-
-          <div class="d-block bg-light shadow border-muted rounded">
+            <div class="d-block bg-light shadow border-muted rounded">
+              
+              {% include /boxes/project.html %}
             
-            {% include /boxes/project.html %}
+            </div>
           
-          </div>
+          </article>
+
+        {% endif %}
         
-        </div>
+      {% endfor %}  
 
-      {% endif %}
-      
-    {% endfor %}  
-  </div>
-
-  <div class="row mt-5">
-    <div class="col-12 text-center">
+    </div>
+  
+    <div class="mt-5 text-center">
       <a href="{{ site.url }}/portfolio.html" class="btn btn-outline-primary font-weight-bold">Découvrir plus de projets <i class="fas fa-arrow-right ml-2"></i></a>
     </div>
-  </div>
+  </section>
 
   <!-- Contact
   ================================================== -->
-  <div class="row">
-    <div class="col-12 text-center my-5">
+  <article class="text-center my-5">
+    <h3 class="my-5" id="contact">Me contacter.</h3>
+    <p>Vous pouvez me contacter <span class="text-primary contact">directement par mail</span> ou sur <a href="{{ site.data.authors.nicolas.twitter }}">Twitter</a>.</p>        
+  </article>
 
-      <h3 class="my-5" id="contact">Me contacter.</h3>
-
-      <p>Vous pouvez me contacter <span class="text-primary contact">directement par mail</span> ou sur <a href="{{ site.data.authors.nicolas.twitter }}">Twitter</a>.</p>        
-    </div>
-
-  </div>
-
-</div>
+</section>
 
 

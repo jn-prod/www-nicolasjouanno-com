@@ -51,17 +51,17 @@ Aucune palaces dans le top 20 en raison d'une blessure :-(
 ### victoires
 
 - Général Trophée Crédit Agricole (E)
-- Crach (123) 
+- Crach (123)
 - Marzan (123)
 
 ### 2nd
 
 - flèche de locminé (E)
 - Val d'Ille U Classic (E) 
- - prix de pluvigner (123)
- - Ploemel (123)
- - Vice champion du morbihan espoir (123)
- - Prix Auray (123)
+- prix de pluvigner (123)
+- Ploemel (123)
+- Vice champion du morbihan espoir (123)
+- Prix Auray (123)
 - Cléguérec (123)
 
 ### 3ème
@@ -72,7 +72,7 @@ Aucune palaces dans le top 20 en raison d'une blessure :-(
 
 ### 4ème
 
-- Route bretonne (E)  Championnat du Morbihan (123)
+- Route bretonne (E) Championnat du Morbihan (123)
 
 ### 5ème
 

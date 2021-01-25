@@ -51,13 +51,11 @@ twitter:
   username  : "@nicolasjouanno"
   publisher : "https://twitter.com/NicolasJouanno"
 facebook:
-  profil_url  : "https://www.facebook.com/njouanno"
-  app_id    : 870898643116106
-  publisher  : "https://www.facebook.com/blog.nicolasjouanno/"
+  profil_url  : 
+  app_id    : 
+  publisher  : 
 instagram :
-  publisher : "http://instagram.com/nicolasjouanno/"
-google_plus : 
-  publisher : "https://plus.google.com/u/0/101743465600034380035"
+  publisher : 
 mediumcom   : 
   publisher : "https://medium.com/@nicolasjouanno"
 linkedin: 

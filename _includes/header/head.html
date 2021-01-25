@@ -110,14 +110,7 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:locale" content="{{ site.locale }}">
     <meta property="og:site_name" content="{{ site.title }}">
-    <link rel="publisher" href="{{ site.data.authors.nicolas.google_plus }}">
     <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}">
-    
-    <!-- facebook card -->
-    <meta property="fb:app_id" content="{{ site.facebook.app_id }}"> 
-    <meta property="article:author" content="{{ site.facebook.profil_url }}">
-    <meta property="article:publisher" content="{{ site.facebook.publisher }}">
-    <meta property="article:published_time" content="{{ page.date }}">
 
     <script type="application/ld+json">
         {
@@ -142,9 +135,6 @@
             "url":"{{ site.url }}",
             "sameAs" : [
                 "{{site.twitter.publisher}}",
-                "{{site.facebook.publisher}}",
-                "{{site.instagram.publisher}}",
-                "{{site.google_plus.publisher}}",
                 "{{site.mediumcom.publisher}}",
                 "{{site.linkedin.publisher}}",
                 "{{site.viadeo.publisher}}",
