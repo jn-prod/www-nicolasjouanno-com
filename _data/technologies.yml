@@ -1,33 +1,28 @@
 # technologies
+- name: "VueJS"
+  url: 
+  fontawesome: "fab fa-vuejs"
+  description: "Librairie Javascript"
+  profile: true
+- name: "ReactJS"
+  url: 
+  fontawesome: "fab fa-react"
+  description: "Librairie Javascript"
+  profile: true
 - name: "NODE JS"
   url: 
   fontawesome: "fab fa-node"
   description: "Framework Javascript"
   profile: true
-- name: "Python"
+- name: "Rust"
   url: 
-  fontawesome: "fab fa-python"
-  description: "Langage de programmation"
-  profile: false
-- name: "Ruby"
-  url: 
-  icon: "ruby.png"
-  description: "Langage de programmation"
-  profile: false
-- name: "PHP"
-  url: 
-  fontawesome: "fab fa-php"
+  fontawesome: "fab fa-rust"
   description: "Langage de programmation"
   profile: false
 - name: "MONGO DB"
   url: 
   icon: "mongodb.png"
   description: "Base de données"
-  profile: true
-- name: "VueJS"
-  url: 
-  fontawesome: "fab fa-vuejs"
-  description: "Librairie Javascript"
   profile: true
 - name: "BOOTSTRAP"
   url: 
@@ -49,80 +44,33 @@
   fontawesome: "fab fa-js"
   description: "Language de script"
   profile: true
-
-- name: "JQUERY"
-  url: 
-  icon: "Jquery.png"
-  description: "Librairie Javascript"
-  profile: false
-
 - name: "WEBPACK"
   url: 
   icon: "webpack.png"
   description: "Compileur Javascript"
   profile: true
-- name: "GIT & GITHUB"
-  url: 
-  fontawesome: "fab fa-github"
-  description: "Gestion de projet / versionning"
-  profile: true
-- name: "HEROKU"
-  url: 
-  icon: "heroku.png"
-  description: "Hébergement"
-  profile: true
-- name: "STRIPE"
-  url: 
-  fontawesome: "fab fa-stripe"
-  description: "Paiement en ligne"
-  profile: false
-- name: "MAILCHIMP"
-  url: 
-  fontawesome: "fab fa-mailchimp"
-  description: "Mailing / Newsletter"
-  profile: false
-- name: "Convertkit"
-  url: 
-  icon: "convertkit.png"
-  description: "Mailing / Newsletter"
-  profile: false
-- name: "ASANA"
-  url: 
-  icon: "asana.png"
-  description: "Gestion de projet"
-  profile: false
-- name: "SKETCH"
-  url: 
-  fontawesome: "fab fa-sketch"
-  description: "Design / Wireframe"
-  profile: false
-- name: "In-VISION"
-  url: 
-  fontawesome: "fab fa-invision"
-  description: "Prototyping"
-  profile: false
-- name: "GOOGLE ANALYTICS"
-  url: 
-  fontawesome: "fab fa-google"
-  description: "Tracking / Reporting"
-  profile: true
-- name: "SLACK"
-  url: 
-  fontawesome: "fab fa-slack-hash"
-  description: "Gestion de projet"
-  profile: false
 - name: "JEKYLL"
   url: 
   icon: "jekyll.png"
   description: "Gestion de contenu"
   profile: false
-- name: "WORDPRESS"
+- name: "GIT & GITHUB"
   url: 
-  fontawesome: "fab fa-wordpress"
-  description: "Gestion de contenu"
+  fontawesome: "fab fa-github"
+  description: "Gestion de projet / versionning"
+  profile: true
+- name: "AWS"
+  url: 
+  fontawesome: "fab fa-aws"
+  description: "Hébergement"
+  profile: true
+- name: "JIRA"
+  url: 
+  fontawesome: "fab fa-jira"
+  description: "Gestion de projet"
   profile: false
-- name: "SHOPIFY"
+- name: "FIGMA"
   url: 
-  icon: "shopify.png"
-  description: "E-Commerce"
+  fontawesome: "fab fa-figma"
+  description: "Design / Wireframe"
   profile: false

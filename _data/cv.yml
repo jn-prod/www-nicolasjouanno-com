@@ -22,7 +22,7 @@ experiences:
     side_project: true
     date: "2013 - aujourd’hui"
     description: "Création d’une application web partageant le calendrier des randonnées VTT de bretagne, basé sur un scraper. Jusqu’à 10 000 visiteurs/mois. Actuellement en V3."
-    skills: "Python, VueJS, Jekyll, Webpack, UX, UI, SEO. "
+    skills: "NodeJS, VueJS, Jekyll, Webpack, AWS lambda, UX, UI, SEO, Accessibilité. "
   - entreprise: "shop.izir.fr"
     format: "SITE E-COMMERCE"
     side_project: false
@@ -45,7 +45,7 @@ experiences:
     format: "SCRIPTS"
     side_project: false
     date: "2019"
-    description: "Création d’un script pour pointer les paiement stripe depuis les APIs de Stribe et MLab. "
+    description: "Création d’un script pour pointer les paiement stripe depuis les APIs de Stripe et MLab. "
     skills: "Ruby, API. "
 
 skills:
@@ -53,19 +53,15 @@ skills:
     - title: "Développement"
       content: "Web, Scripts."
     - title: "Langages"
-      content: "Python, Ruby, PHP, Javascript / NodeJS, HTML5, CSS3."
+      content: "Javascript / NodeJS, HTML5, CSS3, Rust."
     - title: "Bases de données"
-      content: "MySQL, PostgreSQL, MongoDB."
+      content: "MongoDB, MySQL, PostgreSQL."
     - title: "Framework"
-      content: "Django, ExpressJS, Flask et VueJS."
+      content: "VueJS, ReactJS, ExpressJS."
     - title: "Libraries"
       content: "Bootsrap."
     - title: "Dev Ops"
       content: "Git, Github,  Webpack, Babel, Eslint, Pylint, TravisCI, Pytest, Mocha, Chai, Heroku, API."
-    - title: "CMS"
-      content: "Wordpress, Prestashop."
-    - title: "Cybersécurité"
-      content: "565pts sur rootme"
   other:
     - title: "Projet"
       content: "Gestion de projet en cascade et méthodologie agile."
@@ -88,6 +84,6 @@ studies:
   - graduation: "BAC Siences et Technologies Tertiaires"
     year: "2005 - 06"
 hobbies:
-  - "Sports: Running, Cyclisme, Surf, Randonnée."
+  - "Sports: Trail, VTT, Surf, Randonnée."
   - "Art: Photographie, Musique (guitare et MAO), Graphisme."
   - "Voyage, Jardinage, Bricolage."
