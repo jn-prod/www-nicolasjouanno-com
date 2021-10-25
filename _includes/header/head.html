@@ -80,7 +80,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- twitter card-->
-    <meta name="twitter:card" content="summary_large_image">
+    <!-- <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="{{ site.twitter.username }}">
     <meta name="twitter:site" content="{{ site.twitter.username }}">
     {% if page.image %}
@@ -90,7 +90,7 @@
     {% endif %}
     
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{site.title}}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}"> -->
 
     <!-- open graph card-->
 
@@ -134,11 +134,8 @@
             "name":"{{ site.data.authors.nicolas.display_name }}",
             "url":"{{ site.url }}",
             "sameAs" : [
-                "{{site.twitter.publisher}}",
                 "{{site.mediumcom.publisher}}",
                 "{{site.linkedin.publisher}}",
-                "{{site.viadeo.publisher}}",
-                "{{site.pinterest.publisher}}",
                 "{{site.dribble.publisher}}",
                 "{{site.github.publisher}}"
             ],
