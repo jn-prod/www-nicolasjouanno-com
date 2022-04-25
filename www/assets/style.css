@@ -1,0 +1,46 @@
+@import url(/node_modules/normalize.css/normalize.css);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:400,700,900);
+:root {
+  /* Fonts */
+  --font-size: 1.3rem;
+  --line-height: 1.4;
+  --font-family: 'Lato', sans-serif;
+  --font-family-heading: 'Abril Fatface', sans-serif;
+  /* colors */
+  --color-primary: #008f8f;
+  --color-secondary: #71323e;
+  --color-dark: #343a40; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  -webkit-font-smoothing: antialiased; }
+
+/**
+ * A11Y
+ */
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important; }
+
+*:focus:not(:focus-visible) {
+  outline: none; }
+
