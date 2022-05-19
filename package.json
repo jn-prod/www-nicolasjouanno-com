@@ -2,11 +2,11 @@
   "name": "www-nicolasjouanno-com",
   "version": "1.0.0",
   "description": "Portfolio de Nicolas Jouanno",
-  "main": "client-v2/src/index.ts",
+  "main": "client/src/index.ts",
   "scripts": {
-    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "dev:server": "bundle exec jekyll serve --livereload",
-    "dev:client": "cd client-v2 && npm run dev",
+    "dev:client": "cd client && npm run dev",
     "client:build": "rm -rf www/assets && cd client && npm run build && rm dist/index.html && cp -R dist ../www/assets"
   },
   "repository": {

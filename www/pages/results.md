@@ -1,8 +1,10 @@
 ---
-layout: light
+layout: page
 title: Palmarès cycliste de Nicolas Jouanno
 permalink: /results.html
 ---
+
+# Palmarès cycliste
 
 ## Les temps forts
 

@@ -88,7 +88,7 @@
   id: 'growth'
   tools:
     - name: 'zapier'
-      logo: 'https://zapier.com/brand/assets/images/logos/zapier-logo.png'
+      logo: 'https://zapier.com/brand/images/logos/zapier-logo.png'
       short_description: ''
       freemium: true
       feature: false
@@ -117,7 +117,7 @@
       short_description: ''
       freemium: true
     - name: 'Convertkit'
-      logo: 'https://3j6x6z2bx1qq1aawwt3b6y0a-wpengine.netdna-ssl.com/wp-content/themes/ConvertKit/assets/images/logos/convertkit-stacked.png'
+      logo: 'https://3j6x6z2bx1qq1aawwt3b6y0a-wpengine.netdna-ssl.com/wp-content/themes/ConvertKit/images/logos/convertkit-stacked.png'
       short_description: ''
       freemium: false
     - name: 'Buffer'

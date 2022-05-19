@@ -4,82 +4,56 @@ title: Archive
 ---
 <!-- Begin List Posts
 ================================================== -->
-<section class="container-fluid">
+<section>
+  {% if page.url != "/stories.html" %}
+    <h1>Stories de la {{ page.type }} <a href="{{site.url}}{{page.url}}">#{{ page.title }}</a></h1>
+  {% else %}  
+    <h1>Stories</h1>
+  {% endif %}  
 
-  <div class="row">
+  <nav>
+    <ul>
+      {% for category in site.data.categories %}  
+        {% if category.home == true %}
+          <li>
+            <a href="/categories/{{ category.link | downcase }}">#{{ category.name }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
 
-    {% include /boxes/labels.html %}
-
-  </div>
-
-  <div class="container mt-5">
-
-    <!-- Newsletter
+  <div>
+    <!-- Default Categories Page Posts
     ================================================== -->
-    {% include /boxes/subscribe.html %} 
-    
-    <div class="py-3">
-      
-      <!-- Default Header
-      ================================================== -->
-      {% if page.url != "/stories.html" %}
-      
-          <h1 class="font-primary text-center mb-5">Stories de la <span>{{ page.type }} <a href="{{site.url}}{{page.url}}" class="p-2 text-primary border-primary">#{{ page.title }}</a></span></h1>
-      
-      {% endif %}  
-      
-      <!-- Default Categories Page Posts
-      ================================================== -->
-       <div class="row listrecent pt-2">
-
-         {% for post in site.posts %}
-
-            {% if post.categories contains page.title %}
-
-              {% include /boxes/post.html type=page.entries_layout class="col-lg-4 col-md-6" %}
-
-            {% endif %}
-
-        {% endfor %}    
-
-       </div>  
-      
-      <!-- Page Content
-      ================================================== -->
-      {% if page.url != "/stories.html" %}
-      
-        <div class="row">
-
-          <div class="col-12">
-
-            {{ content }}
-
-          </div>
-
-        </div>  
-      
-      {% else %}
-      
-        <div class="row h-100">
-
-            <div class="col-md-4">
-
-                {% include sidebar/stories.html %}
-
-            </div>
-
-            <div class="col-md-8">
-
-              {{ content }}
-
-            </div>
-
-        </div>
-      
-      {% endif %}
+    <div>
+      {% for post in site.posts %}
+        {% if post.categories contains page.title %}
+          {% include /boxes/post.html type=page.entries_layout class="col-lg-4 col-md-6" %}
+        {% endif %}
+      {% endfor %}    
+    </div>  
   
-     </div>
-
-  </div>
-
+    <!-- Page Content
+    ================================================== -->
+    {% if page.url != "/stories.html" %}
+      <div>
+        {{ content }}
+      </div>
+    {% else %}
+      <div>
+        {% for post in site.posts %}
+            {% include /boxes/post.html type=page.entries_layout class="col-lg-4 col-md-6" %}
+        {% endfor %}  
+      </div>
+      <div>
+        {{ content }}
+      </div>
+    {% endif %}
+    </div>
+    <!-- Pagination
+  ================================================== -->
+  <nav class="navigation text-center" role="navigation">
+    {% include /plugins/pagination.html %}
+  </nav>
 </section>

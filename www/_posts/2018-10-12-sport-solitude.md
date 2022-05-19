@@ -13,7 +13,7 @@ tags:
 - Sentiments
 
 author: nicolas
-image: assets/images/posts/living-alone.jpg
+image: images/posts/living-alone.jpg
 ---
 <em>Je ne me suis jamais senti aussi seul que sur mon vélo, mon surf ou avec mes baskets. Le sport, c'est aussi ça: la solitude. Lorsque j'étais cycliste professionnel, une sitation ma marqué, au point que je m'en souvient encore aujourd'hui ... onze années après! </em>
 

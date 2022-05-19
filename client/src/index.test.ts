@@ -1,4 +1,4 @@
-import mountApp from './index';
+import run from './index';
 import createApp from './utils/test.utils';
 
 describe('index', () => {
@@ -6,7 +6,7 @@ describe('index', () => {
     createApp();
   });
   test('testMessage', () => {
-    mountApp();
+    run();
 
     expect(document.body).toMatchSnapshot();
   });

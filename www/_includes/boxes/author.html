@@ -5,15 +5,7 @@
         <img class="img-fluid mx-auto d-inline" src="{{ author.avatar }}" alt="{{ site.data.authors.nicolas.display_name }}, {{ site.data.authors.nicolas.current_job }}"  style="max-height: 90px; width: auto;">
         <meta itemprop="author creator" content="{{ author.display_name }}">
     </div>
-    <div class="d-inline my-auto ml-3 text-muted">  
-        <div class="d-block">
-            <!-- Post Categories -->
-            <span class="text-center text-primary pt-2">
-                {% for category in page.categories %}
-                    #{{category}}
-                {% endfor %}
-            </span>            
-        </div>  
+    <div class="d-inline my-auto ml-3 text-muted">
 
         <div class="d-block">
             <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">

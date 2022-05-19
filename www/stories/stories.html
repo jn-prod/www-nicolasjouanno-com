@@ -1,5 +1,7 @@
 ---
 redirect_from:
+    - "/stories/latest/index.html"
+    - "/club.html"
     - "/shop.html"
     - "/categories/atelier.html"
     - "/categories/aventure.html"
@@ -17,29 +19,3 @@ title: L'histoire inspirante d'un sportif
 seo_description: Stories, by Nicolas Jouanno, le rendez-vous hebdomadaire pour te mettre en selle avec panache et inspiration.
 permalink: stories.html
 ---
-
-<h1 class="my-5">Session de rattrapage</h1>
-
-<div class="row">
-
-    {% for post in site.posts limit:3 %} 
-
-
-        {% include boxes/post.html class="col-12" %} 
- 
-
-    {% endfor %} 
-
-</div>
-
-<div class="d-block mb-5 text-right">
-
-    <a href="/stories/latest/index.html" class="my-5 d-inline h5 btn btn-outline-secondary p-2">
-
-        Voir toutes les archives <i class="fas fa-arrow-right ml-2"></i> 
-
-    </a>
-
-</div>
-
-{% include boxes/stories-mentions.html %}

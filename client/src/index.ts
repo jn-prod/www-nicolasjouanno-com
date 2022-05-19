@@ -1,10 +1,16 @@
 /* eslint-disable no-console */
 import './styles/global.scss';
+import { messages } from './locales';
 
+/**
+ * Atoms
+ */
 import hello from './components/atoms/hello/hello';
 
-const mountApp = (): void => {
-  const testMessage = `${hello} TypeScript works second`;
+import './app/app';
+
+const run = (): void => {
+  const testMessage = `${hello} ${messages.welcome}`;
 
   console.log(testMessage);
 
@@ -13,6 +19,6 @@ const mountApp = (): void => {
   if (app) app.textContent = testMessage;
 };
 
-mountApp();
+run();
 
-export default mountApp;
+export default run;

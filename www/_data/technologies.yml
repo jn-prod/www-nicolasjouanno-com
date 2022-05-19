@@ -19,6 +19,11 @@
   fontawesome: "fab fa-node"
   description: "Framework Javascript"
   profile: true
+- name: "Typescript"
+  url: 
+  fontawesome: "fab fa-ts"
+  description: "Langage de programmation"
+  profile: false
 - name: "Rust"
   url: 
   fontawesome: "fab fa-rust"
@@ -28,7 +33,7 @@
   url: 
   icon: "mongodb.png"
   description: "Base de données"
-  profile: true
+  profile: false
 - name: "BOOTSTRAP"
   url: 
   icon: "bootstrap.png"

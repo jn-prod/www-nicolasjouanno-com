@@ -1,28 +1,27 @@
 ---
-layout: expertises
+layout: page
 title: "Product Manager Freelance"
 summary: "Le Product Manager Freelance, aussi nommé PM ou Manager Produit est le nouveau CEO du produit digital. Plus technique qu'un Chef de Produit Marketing, le Product Manager coordonne les équipe marketing, techniques et design."
 permalink: "/product-manager.html"
-header-img: "inspiration-5"
-footer_cta: "Vous recherchez un product manager pour piloter le développement de votre application ou site internet? Commençons à en parler ensemble maintenant."
 ---
 
+# Product Manager
+
+## Le Product Manager, aussi nommé PM ou Manager Produit est le nouveau CEO du produit digital. Plus technique qu'un Chef de Produit Marketing, le Product Manager coordonne les équipe marketing, techniques et design.
+
 *Le **Product Manager** est le couteaux-suisses de l'organisation qui défini avec précision les : quand, comment, quoi et pourquoi d’un nouveau produit digital. Ce touche-à-tout est à la croisée du marketing, du business, du design et de la technologie.*
-{: .text-muted}
 
-{: .mt-5}
-  - <a href="#product-manager">Qu’est-ce qu’un Product Manager ?</a>
-  - <a href="#product-management">Qu'est-ce qu'un product management réussi ?</a>
-  - <a href="#missions">Que fait le Product Manager ?</a>
-  - <a href="#bonnes-pratiques">Quelles sont les bonnes pratiques du Product Manager ?</a>
-  - <a href="#qui-est">Qui est le Product Manager ?</a>
-  - <a href="#experiences">Mon expérience de Product Manager ?</a>
 
-##  Le coordinateur des équipes marketing, techniques et design. 
-{: .font-primary .mt-5}
+- <a href="#product-manager">Qu’est-ce qu’un Product Manager ?</a>
+- <a href="#product-management">Qu'est-ce qu'un product management réussi ?</a>
+- <a href="#missions">Que fait le Product Manager ?</a>
+- <a href="#bonnes-pratiques">Quelles sont les bonnes pratiques du Product Manager ?</a>
+- <a href="#qui-est">Qui est le Product Manager ?</a>
+
+##  Le coordinateur des équipes marketing, techniques et design.
 
 ### Qu’est-ce qu’un Product Manager ?
-{: .h5 .text-primary .mt-5 .mb-5  #product-manager}
+{: #product-manager}
 
 Dans l'industrie et la distribution, le Chef de Produit avait à l'origine une fonction principalement marketing. La révolution numérique à fait évolué son rôle chez les professionnel du digital. Le Product Manager est maintenant le point de pivot entre l'entreprise et ses utilisateurs finaux. Sans être un manager général, il est le leader d'équipes pluridisciplinaires (design, ingénierie, marketing) qu'il fédère autour d'un projet digital.
 
@@ -37,14 +36,14 @@ Le Product Manager privilégiera une gestion de projet Agile Scrum. Cette métho
 La nécessité de compétences toutes plus éclectiques les unes que les autres font qu'il est difficile d'être Product Manager en début de carrière. Le métier de Product Manager requiert de l'expérience qu'elle soit d'ordre professionnelle ou personnelle avec des side projects développés en parallèle.
 
 ### Qu'est-ce qu'un product management réussi ?
-{: .h5 .text-primary .mt-5 .mb-5  #product-management}
+{: #product-management}
 
 Comme tout rôle clé dans une entreprise, le Product Manager doit dépendre de son propre département. Il sera alors sous la direction d'un Head of Product ou Chief Product Officier. Cela lui assure une disponibilité total sur le produit et une neutralité dans sa mission. Ce qui ne peut-être le cas s'il dépend du département marketing, technique ou design. Où il aura tendance à privilégier et défendre les intérêts de sa direction et non de l'utilisateur final.
 
 Une fois que le Product Manager a en mains les objectifs de son département celui-ci peut alors mener sa stratégie produit en toute objectivité et neutralité. Sa vision user centric lui permet de prioriser les nouvelles fonctionnalités et de délivrer régulièrement les améliorations attendues par l'utilisateur. Ainsi, il satisfait l'utilisateur et contribue en parallèle à la création de valeur pour l'entreprise. La meilleure façon de mesurer si un product management est réussi est de faire la différence entre gagner ou fidéliser et perdre un client.
 
 ### Que fait le Product Manager ?
-{: .h5 .text-primary .mt-5 .mb-5  #missions}
+{: #missions}
 
 Premièrement, le **Product Manager collecte**  les idées d’évolution et d’amélioration de l’existant sous forme de Story. Ces idées peuvent venir de ressources internes (brainstorming avec les équipes, retours du service client et des commerciaux, data) ou externes (entretiens utilisateur, veille marché, club utilisateur, brainstorming avec les clients). Il enregistre et organise les idées dans un Backlog en méthode Agile. Chaque idée doit être claire et spécifier le bénéfice apporté.
 
@@ -55,7 +54,7 @@ Le product manager peut ensuite s'attaquer aux **spécifications** de chacune de
 En bon manager, le Product Manager documente les features pour respecter les délais, les contraintes des parties prenantes et les attentes des utilisateurs. Cette documentation permettra d'onboarder l'utilisateur et les personnes pertinentes en interne et en externe.
 
 ### Quelles sont les bonnes pratiques du Product Manager ?
-{: .h5 .text-primary .mt-5 .mb-5  #bonnes-pratiques}
+{: #bonnes-pratiques}
 
 #### Faire preuve d’empathie
 
@@ -77,11 +76,8 @@ Pour insuffler la culture produit, dont il est garant, autour de lui en internet
 
 Le rôle transversal du Product Manager à la limite de l'opérationnel et de la stratégie est très prenant. Pour garder une vision d'ensemble sur le produit et s'assurer de sa bonne conduite il doit prendre du recul avec celui-ci. Pour ré-élargir son champ de vision, le Product Manager se remettant en question, changeant ses habitudes et cassant les codes.  Après l'incubation et la digestion de tous ces éléments et toutes ces pensées, il reprend son rôle de coeur du produit et continue d'insuffler une dynamique constructive.
 
-## Je suis le Product Manager de votre projet digital
-{: .mt-5 .font-primary}
-
-### Qui est le Product Manager ?
-{: .h5 .text-primary .mt-5 .mb-5 #qui-est}
+## Qui est le Product Manager ?
+{: #qui-est}
 
 Quotidiennement le Product Manager s'assure de la bonne coordination des projets en flux tendus. Il traite les retours des clients. Réalise des arbitrages de dernière minute avec l'équipe technique et/ou marketing. Mais surtout dans le cadre d'un développement de produit agile en méthode Scrum, il y a des évènements qui ponctuent sa semaine au-delà des moments qu'il se garde pour la réflexion et l'anticipation de problèmes de demain. Le tout en restant disponible et assidue à penser les petits bobos du quotidien en bon père de famille.
 
@@ -92,20 +88,3 @@ La maitrise des chiffre par le Product Manager, lui permet de mettre en place le
 Pour récolter ces précieuses données quantitatives, le Product Manager à une infinité d'outils analytics accessibles en ligne. Il devra par contre mobiliser son temps pour recueillir des données qualitatives. Il fera le plus souvent appel à un panel d'utilisateur représentatif dans des entretiens courts et scénarisés. Il pourra également mettre en place des questionnaires, recueillir le NPS ou étudier les questions posées au support client par email ou via le chat.
 
 Le Product Manager doit être passionné par l'ensemble des aspects du produit digital. Il sait faire preuve d'empathie avec l'utilisateur pour répondre au mieux à ses besoins. Sa polyvalence lui permet de communiquer et travailler efficacement avec toutes les équipes de production. Ses capacités de persuasion lui permettrons de convaincre du bien fondé des propositions et de ces décisions auprès des parties prenantes. Son agilité lui permet de passer rapidement des sujets stratégiques aux sujets opérationnels et vice-versa.
-
-### Mon expérience de Product Manager
-{: .h5 .text-primary .mt-5 .mb-5 #experiences}
-
-  - Définition de la stratégie produit
-  - Elaboration et validation du business modèle
-  - Organisation de tous les éléments d'un projet
-  - Pilotage de l'équipe avec une gestion de projet agile
-  - Réalisation de la recherche utilisateur
-  - Maquetter des interfaces utilisateurs
-  - Concevoir et tester des prototypes
-  - Développement du Minimum Viable Product
-  - Priorisation du backlog produit
-  - Création du plan de lancement 
-
-**Vous voulez en <a href="/chef-projet-digital.html">savoir plus sur mes expertises ?</a>**
-{: .mt-5}

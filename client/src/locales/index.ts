@@ -1,4 +1,3 @@
-
 // eslint-disable-next-line import/extensions
 import en = require('./en/messages.json');
 

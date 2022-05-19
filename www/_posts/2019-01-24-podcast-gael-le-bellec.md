@@ -16,7 +16,7 @@ ads: S12-2019
 youtube_video_id: "YX4ip_bAdx4"
 
 author: nicolas
-image: assets/images/posts/Podcast_1-Gael_Le_Bellec.jpg
+image: images/posts/Podcast_1-Gael_Le_Bellec.jpg
 ---
 Aujourd'hui, je reçois au micro du podcast Gael Le Bellec, notre breton triple champion du monde de duathlon.
 

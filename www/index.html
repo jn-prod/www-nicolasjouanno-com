@@ -9,210 +9,131 @@ title: "Développeur Full-Stack JS"
 layout: default
 seo_description: "Développeur Full-Stack JS pour les Startups en Remote. Création de site Web et Application NodeJS, MongoDB et VueJS."
 ---
+
 <!-- set vtt_bzh variable -->
-{% for project in site.data.projects %}
-
-  {% if project.name == 'vtt.bzh' %}
-
-    {% assign vtt_bzh = project %}
-
-  {% endif %}
-
-{% endfor %}
-
+{% for project in site.data.projects %} {% if project.name == 'vtt.bzh' %} {%
+assign vtt_bzh = project %} {% endif %} {% endfor %}
 
 <!-- Header
 ================================================== -->
-<div id="cta" class="container-fluid px-0 py-5">
+<section id="cta" class="c-section c-section--main">
+  <div class="c-section__text">
+    <h1 class="c-section__title">
+      Je conçois l'interface web pensée avec votre équipe design dans le soucie
+      de l'expérience utilisateur.
+    </h1>
 
-  <div class="container">
-
-    <div class="pb-lg-4 mt-lg-5 mb-md-5">
-            
-      <div class="row">
-
-        <div class="col-lg-4 my-auto text-center order-lg-2">
-
-          <img src="{{ site.data.authors.nicolas.avatar }}" alt="" class="img-fluid">
-
-        </div>
-
-        <div class="col-lg-8 pt-md-5 pt-sm-3 my-auto order-lg-1">      
-
-          <h1 class="font-primary pb-5 text-left pr-5">Je conçois l'interface web pensée avec votre équipe design dans le soucie de l'expérience utilisateur.</h1>
-
-          <p>Moi c'est <a href="{{ site.url }}/about.html" rel="me">Nicolas Jouanno</a>, développeur Full-Stack JS @MGDIS et design enthousiaste. Je suis aussi ex-cycliste professionnel, maintenant freerider 🏃🚴‍♂️🏄‍♂️. Je prends des photos. Créateur de <a href="{{ vtt_bzh.url }}">vtt.bzh</a>.</p>
-
-        </div>
-
-      </div>
-
-    </div>
-    
+    <p>
+      Moi c'est
+      <a href="{{ site.url }}/about.html" rel="me">Nicolas Jouanno</a>,
+      développeur front-end @MGDIS et design enthousiaste. Je travail sur les
+      design-system, je joue avec la JAM Stack et je m'intéresse a WASM. Je suis
+      aussi ex-cycliste professionnel, maintenant freerider 🏃🚴‍♂️🏄‍♂️. Je prends
+      des photos. Créateur de <a href="{{ vtt_bzh.url }}">vtt.bzh</a>.
+    </p>
   </div>
 
-</div>
+  <img
+    class="c-section__image"
+    src="{{ site.data.authors.nicolas.avatar }}"
+    alt="{{ site.data.authors.nicolas.display_name }}"
+  />
+</section>
 
 <!-- About
 ================================================== -->
 
-<div class="container bg-light py-5 px-md-5 shadow">
-  
-  <div class="row">
-    
-    <div class="col-lg-4 col-md-12">
-      
-      <h2>Du MVP à l'automatisation.</h2>
-    
-    </div>
-    
-    <div class="col-lg-4 col-md-6">
-      
-      <p>Vous êtes une startup ou une PME ? Vous voulez créer votre MVP pour toucher vos premiers utilisateur. Vous avez peut-être déjà trouvé votre Product Market Fit ou avez besoin de scaler pour suivre votre growth ?</p>
-      
-      <p>J'écris du HTML, CSS et JavaScript, et je prends soin de créer une expérience utilisateur agréable et accessible sur le web.</p>
-    
-    </div>
-    
-    <div class="col-lg-4 col-md-6">
-      
-      <p>Mon expertise de la stack de programmation Javascript, de son ecosytème et de ses frameworks (ex: NodeJS, AngularJS, VueJS, ...) me permettent de réaliser les développements front-end et back-end de votre application web.</p>
-      
-      <p>Ils me permettent de vous donner les clefs pour réussir le développement de votre projet SAAS.</p>
-      
-      <p><a href="{{ site.url }}/about.html" rel="me" class="btn btn-outline-primary font-weight-bold">En savoir plus sur moi <i class="fas fa-arrow-right ml-2"></i></a></p>
-    
-    </div>
-    
-  </div>
-  
+<section class="c-section c-section--primary">
+  <h2>Du MVP à l'automatisation.</h2>
+  <p>
+    Vous êtes une startup ou une PME ? Vous voulez créer votre MVP pour toucher
+    vos premiers utilisateur. Vous avez peut-être déjà trouvé votre Product
+    Market Fit ou avez besoin de scaler pour suivre votre growth ?
+  </p>
+
+  <p>
+    J'écris du HTML, CSS et JavaScript, et je prends soin de créer une
+    expérience utilisateur agréable et accessible sur le web.
+  </p>
+  <p>
+    Mon expertise de la stack de programmation Javascript, de son ecosytème et
+    de ses frameworks (ex: NodeJS, AngularJS, VueJS, ...) me permettent de
+    réaliser les développements front-end et back-end de votre application web.
+  </p>
+
+  <p>
+    Ils me permettent de vous donner les clefs pour réussir le développement de
+    votre projet SAAS.
+  </p>
+
+  <a href="{{ site.url }}/about.html" rel="me" class="c-button c-button--dark"
+    >En savoir plus sur moi <i class="fas fa-arrow-right ml-2"></i
+  ></a>
+
   <!-- technologies -->
-  <div class="row">
+  <ul class="c-icons-list">
+    {% for technologie in site.data.technologies limit:10 %} {% if
+    technologie.profile == true %}
 
-    {% for technologie in site.data.technologies limit:10  %}
+    <li class="c-icons-list__element">
+      <i class="{{technologie.fontawesome}} fa-3x "></i>
+    </li>
 
-      {% if technologie.profile == true %}
-
-        <div class="col-3 col-md-1 my-3 mx-auto text-center tech-icon">
-
-          {% if technologie.fontawesome %}
-
-            <i class="{{technologie.fontawesome}} fa-3x text-primary"></i>
-
-          {% else if technologie.icon %}
-
-            <img src="/assets/images/technologies/{{technologie.icon}}" alt="{{technologie.name}}">
-
-          {% endif %}
-
-        </div>
-
-      {% endif %}
-
-    {% endfor %}         
-
-  </div>
-  
-</div>
+    {% endif %} {% endfor %}
+  </ul>
+</section>
 
 <!-- Latest Projects
 ================================================== -->
-<div class="container">
-  
-  <div class="row mt-5 pt-5">
-    
-    <div class="col-12">
-      
-      <h2 class="h1 mb-3">Projects.</h2>
-      
+<section class="c-section">
+  <h2 class="">Projects.</h2>
+
+  <div class="u-grid">
+    <div class="u-grid__col-4">
+      <p>
+        J'expérimente moi-même énormément sur des side-projects avec un état
+        d'esprit "fake it until you make it". Mon side project phare: vtt.bzh à
+        compter jusqu'à <strong>10 000 visiteurs mensuel</strong>. Le lean
+        startup et le Design Thinking sont des leviers puissants. Tous mes
+        projets sont réalisés avec amour et passion.
+      </p>
+
+      <a href="{{ site.url }}/about.html" class="c-button c-button--primary"
+        >Découvrir mon travail <i class="fas fa-arrow-right ml-2"></i
+      ></a>
     </div>
-    
-  </div>
-  
-  <div class="row">
-    
-    <div class="col-lg-4 col-md-12 my-auto px-3 py-5">
 
-      <div class="p-5 bg-light shadow border-muted rounded">
-
-        <p>J'expérimente moi-même énormément sur des side-projects avec un état d'esprit "fake it until you make it". Mon side project phare: vtt.bzh à compter jusqu'à <strong>10 000 visiteurs mensuel</strong>. Le lean startup et le Design Thinking sont des leviers puissants. Tous mes projets sont réalisés avec amour et passion.</p>
-        
-        <a href="{{ site.url }}/portfolio.html" class="btn btn-outline-primary font-weight-bold mt-3">Découvrir mon travail <i class="fas fa-arrow-right ml-2"></i></a>
-
-      </div>
-      
-    </div>
-    
-    <div class="col-lg-8 col-md-12">
-      
-      <div class="row">
-        
-        {% for project in site.data.projects %}
-
-          {% if project.profile == true %}
-
-            <div class="col-md-12 my-2">
-              
-              <div class="row m-2 h-100">
-
-                  <div class="col-12 text-center">  
-                    
-                    {% include /boxes/project.html %}
-                    
-                  </div>
-                
-              </div>
-
-            </div>
-
-          {% endif %}
-          
-        {% endfor %}  
-        
-      </div>
-      
+    <div class="u-grid__col-8">
+      <img
+      src="/images/projets/ext-6.png"
+      alt="vtt.bzh"
+      />
+      <h3 class="c-section__title c-section__title--center">
+        <a href="portfolio/project/vtt-bzh.html"
+          >vtt.bzh</a
+        >
+      </h3>
     </div>
   </div>
-</div>
+</section>
 
 <!-- Latest Stories
 ================================================== -->
 
-<div class="container my-5">
+<section class="c-section">
+  <h2 class="h1 mb-5">Stories.</h2>
 
-  <div class="row">
-
-    <div class="col-12">
-      
-      <h2 class="h1 mb-5">Stories.</h2>
-
-      <div class="row">
-
-        {% for post in site.posts limit:3 %} 
-
-          {% include boxes/post.html class="col-lg-4" %} 
-
-        {% endfor %}               
-        
-      </div>
-
-    </div>
-
-  
+  <div class="c-section__post-list">
+    {% for post in site.posts limit:3 %} {% include boxes/post.html
+    class="col-lg-4" %} {% endfor %}
   </div>
-  
-  <div class="row">
 
-    <div class="col-12">
-
-       <a href="/stories/latest/index.html" class="mb-5 float-right h5 btn btn-outline-secondary p-2">
-
-            Voir plus de stories <i class="fas fa-arrow-right ml-2"></i> 
-
-        </a> 
-      
-    </div>
-
+  <div class="c-section__cta c-section__cta--center">
+    <a
+      href="/stories.html"
+      class="c-button c-button--primary"
+    >
+      Voir plus de stories <i class="fas fa-arrow-right ml-2"></i>
+    </a>
   </div>
-  
-</div>
+</section>

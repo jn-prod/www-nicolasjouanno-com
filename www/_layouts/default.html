@@ -1,53 +1,421 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-    <!-- Head
+  <!-- Head
     ================================================== -->
-    {% include /header/head.html %}
-    
-    <!-- body -->
-    {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-    <body class="{{ layout }}" itemscope itemtype="http://schema.org/WebPage">
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCGTN6W"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-        <!-- Head
-        ================================================== -->
-        {% include /header/header.html %} 
-        
+    {% if page.title %}
+    <title>{{ page.title }} | {{site.title}}</title>
+    <meta name="title" content="{{ page.title }} | {{site.title}}" />
+    {% else %}
+    <title>{{ site.headline }} | {{site.title}}</title>
+    <meta name="title" content="{{ site.headline }} | {{site.title}}" />
+    {% endif %} {% if page.seo_description %}
+    <meta
+      name="description"
+      content="{{ page.seo_description }} | {{site.title}}"
+    />
+    {% elsif page.type == "catégorie" %}
+    <meta
+      name="description"
+      content=">Stories de la {{ page.type }} {{ page.title }} | {{site.title}}"
+    />
+    {% else %}
+    <meta
+      name="description"
+      content="{{ content | strip_html | truncatewords:19 }} | {{site.title}}"
+    />
+    {% endif %}
 
-        <!-- Content
-        ================================================== --> 
-        <main role="main" class="">
-            
-            <!-- stripe error message -->
-            <div id="error-message"></div>
+    <meta
+      name="keywords"
+      content="{% for kw in site.meta_keywords %}{{ kw }},{% endfor %}"
+    />
 
-            {{ content }}
-            
-        </main>
+    <!-- icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="{{ site.url }}/images/brand/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="{{ site.url }}/images/brand/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="{{ site.url }}/images/brand/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="{{ site.url }}/images/brand/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="{{ site.url }}/images/brand/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="{{ site.url }}/images/brand/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="{{ site.url }}/images/brand/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="{{ site.url }}/images/brand/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{{ site.url }}/images/brand/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ site.url }}/images/brand/favicon-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ site.url }}/images/brand/favicon-160x160.png"
+      sizes="160x160"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ site.url }}/images/brand/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ site.url }}/images/brand/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ site.url }}/images/brand/favicon-32x32.png"
+      sizes="32x32"
+    />
 
-        <!-- Footer
-        ================================================== -->
-        {% include /footer/footer.html %}
+    <!-- style -->
+    {% if site.url == "http://localhost:4000" %}
 
-        <!-- JavaScript
-        ================================================== -->
-        {% if site.url == "http://localhost:4000" %}
-          <script src="http://localhost:8000/app.js" async></script>
+    <link href="http://localhost:8080/style.css" rel="stylesheet" />
+
+    {% else %}
+
+    <link href="{{ site.url }}/assets/style.css" rel="stylesheet" />
+
+    <!-- GA script -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "{{site.google_analytics}}", "auto");
+      ga("send", "pageview");
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-TCGTN6W");
+    </script>
+
+    {% endif %}
+
+    <!-- rss -->
+    <link
+      id="feedLink"
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="{{ site.url }}/feed.xml"
+    />
+
+    <!-- SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta name="referrer" content="always" />
+    <meta name="theme-color" content="#000000" />
+    {% if site.google_verification %}
+    <meta
+      name="google-site-verification"
+      content="{{ site.google_verification }}"
+    />
+    {% endif %}
+    <link
+      rel="canonical"
+      href="{{ page.url | replace:'index.html','' | prepend: site.url }}"
+    />
+    <meta
+      name="author"
+      content="{{ site.data.authors.nicolas.display_name }}"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- twitter card-->
+    <!-- <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:creator" content="{{ site.twitter.username }}">
+        <meta name="twitter:site" content="{{ site.twitter.username }}">
+        {% if page.image %}
+            <meta name="twitter:image:src" content="{{ site.url }}/{{ page.image }}">
         {% else %}
-            <script src="{{ site.url }}/assets/public/app.js" async></script>           
+            <meta name="twitter:image:src" content="{{ site.url }}/images/jumbotron.jpg" />
         {% endif %}
-
-        <!-- Fontawesome -->
-        <script src="https://kit.fontawesome.com/407f9c44bd.js" crossorigin="anonymous"></script>
         
-        <!-- Load Stripe.js on your website. -->
-        <input type="hidden" id="stripe_key" value="{{ site.stripe_key }}">
-        <script src="https://js.stripe.com/v3" async></script>
+        <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{site.title}}{% else %}{{ site.title }}{% endif %}">
+        <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}"> -->
 
-        <script id="dsq-count-scr" src="//{{site.comments.disqus.shortname}}.disqus.com/count.js" async defer></script>
+    <!-- open graph card-->
 
-    </body>
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }} | {{site.title}}" />
+    {% else %}
+    <meta property="og:title" content="{{ site.headline }} | {{site.title}}" />
+    {% endif %}
+
+    <meta property="og:type" content="article" />
+    {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.image }}" />
+    {% else %}
+    <meta property="og:image" content="{{ site.url }}/{{ site.og_image }}" />
+    {% endif %}
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:locale" content="{{ site.locale }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta
+      property="og:description"
+      content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "{{site.address.city}}",
+          "streetAddress": "{{site.address.street}}",
+          "postalCode": "{{site.address.code}}",
+          "addressCountry": "{{site.address.coutry}}"
+        },
+        "email": "pro(at)nicolasjouanno.com",
+        "founder": [
+          {
+            "@type": "Person",
+            "name": "{{ site.data.authors.nicolas.display_name }}",
+            "url": "{{ site.data.authors.nicolas.web }}"
+          }
+        ],
+        "name": "{{ site.data.authors.nicolas.display_name }}",
+        "url": "{{ site.url }}",
+        "sameAs": [
+          "{{site.mediumcom.publisher}}",
+          "{{site.linkedin.publisher}}",
+          "{{site.dribble.publisher}}",
+          "{{site.github.publisher}}"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "width": 60,
+          "height": 60,
+          "url": "{{ site.url }}/{{ site.logo }}"
+        }
+      }
+    </script>
+  </head>
+
+  <!-- body -->
+  {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{%
+  endcapture %}
+  <body
+    class="c-layout c-layout--{{ layout }}"
+    itemscope
+    itemtype="http://schema.org/WebPage"
+  >
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TCGTN6W"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+
+    <header role="banner" class="c-layout__header">
+      <nav role="navigation" class="c-navigation">
+        <a href="{{ site.url }}" class="c-navigation__title">
+          {{ site.title }}
+        </a>
+
+        <ul class="c-navigation__link-list">
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button {% if page.url == '/about.html' %}c-button--active{% endif %}"
+              href="{{ site.url }}/about.html"
+              >Work</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button {% if page.url == '/results.html' %}c-button--active{% endif %}"
+              href="{{ site.url }}/results.html"
+              >Sport</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button {% if page.url == '/stories.html' %}c-button--active{% endif %}"
+              href="{{ site.url }}/stories.html"
+              >Writing</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button c-button--primary"
+              href="{{ site.data.authors.nicolas.linkedin }}"
+              rel="me"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+              CV
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Content
+        ================================================== -->
+    <main role="main" class="c-layout__content">{{ content }}</main>
+
+    <footer role="contentinfo" class="c-layout__footer">
+      <!-- signature -->
+      <article
+        itemscope
+        itemtype="http://schema.org/Quotation"
+        class="c-jumbotron"
+      >
+        <div class="c-jumbotron__content">
+          <div itemprop="text" class="c-jumbotron__citation">
+            "Pourquoi rejoindre la marine quand vous pouvez être un pirate ?"
+          </div>
+          <div
+            itemscope
+            itemtype="http://schema.org/Organization"
+            class="c-jumbotron__author"
+          >
+            <em> - <span itemprop="name">Steve Jobs</span> </em>
+          </div>
+        </div>
+      </article>
+
+      <!-- credit -->
+
+      <article class="c-footer-nav">
+        <div>
+          <a href="/" class="c-footer-nav__title">{{ site.title }}</a>
+          <div class="c-footer-nav__headline">{{ site.headline }}</div>
+        </div>
+        <ul class="c-navigation__link-list">
+          <li class="c-navigation__link-list-element">
+            <a href="{{ site.url }}/about.html" class="c-button"
+              >Développeur Front-end</a
+            >
+          </li>
+          <li class="c-navigation__link-list-element">
+            <a href="{{ site.url }}/stories.html" class="c-button"
+              >Blog</a
+            >
+          </li>
+          <li class="c-navigation__link-list-element">
+            <a href="{{ site.url }}/academy.html" class="c-button"
+              >Ressources</a
+            >
+          </li>
+          <li class="c-navigation__link-list-element">
+            <a
+              href="{{ site.data.authors.nicolas.linkedin }}"
+              class="c-button c-button--primary"
+              target="_blank"
+              rel="me"
+              ><i class="fab fa-linkedin"></i>Me contacter</a
+            >
+          </li>
+        </ul>
+      </article>
+
+      <article class="c-layout__legals">
+        <span>
+          © 2013 - {{ site.time | date: "%Y" }}. Design et développement: {{ site.data.authors.nicolas.display_name }}</span
+        >
+
+        <span>Restons en contact sur → <a
+            href="{{ site.data.authors.nicolas.linkedin }}"
+            target="_blank"
+            rel="me"
+            ><i class="fab fa-linkedin fa-2x"></i
+              ></a>
+              <a href="{{ site.url }}/feed.xml" type="application/rss+xml"
+              ><i class="fas fa-rss fa-2x"></i
+            ></a>
+        </span>
+      </article>
+    </footer>
+
+    <!-- JavaScript
+        ================================================== -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    {% if site.url == "http://localhost:4000" %}
+    <script src="http://localhost:8080/main.js" async></script>
+    {% else %}
+    <script src="{{ site.url }}/assets/main.js" async></script>
+    {% endif %}
+  </body>
 </html>

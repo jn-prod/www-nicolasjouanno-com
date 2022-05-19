@@ -1,13 +1,14 @@
 ---
-layout: offres
+layout: page
 title: "Création de site applicatif"
 summary: "Le site applicatif répondra d'avantage à des problématique d'usage et demande généralement des besoins de développement sur mesure"
 permalink: "/offres/site-applicatif.html"
-header-img: "inspiration-4"
-header_cta: "Demander une devis"
-footer_cta: ""
 ---
-{: .mb-5}
+
+# Création de site applicatif
+
+Le site applicatif répondra d'avantage à des problématique d'usage et demande généralement des besoins de développement sur mesure
+
 ## Les questions que vous pouvez vous poser :
 - [Qu'est ce qu'un site applicatif ?](#site-applicatif)
 - [Qu'est ce qu'une application web ?](#application-web)

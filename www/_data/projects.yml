@@ -16,7 +16,7 @@
     - "Analytics"
   url: "portfolio/project/vtt-bzh.html"
   images: 
-    - "/assets/images/projets/ext-6.png"
+    - "/images/projets/ext-6.png"
 - name: "breizhtraining.bzh"
   year: "2019"
   profile: false
@@ -33,7 +33,7 @@
     - "Multilangue"
   url: "portfolio/project/breizhtraining.html"
   images: 
-    - "/assets/images/projets/breizhtraining_bzh.png"
+    - "/images/projets/breizhtraining_bzh.png"
 - name: "Feezify:me"
   year: "2018"
   profile: false
@@ -53,7 +53,7 @@
     - "UX / UI"
   url: "portfolio/project/feezify-me.html"
   images: 
-    - "/assets/images/projets/ext-3.png"
+    - "/images/projets/ext-3.png"
 - name: "GO Sport"
   year: "2018"
   profile: false
@@ -69,7 +69,7 @@
     - "Automation"
   url: "portfolio/project/go-sport.html"
   images: 
-    - "/assets/images/projets/ext-2.png"
+    - "/images/projets/ext-2.png"
 - name: "Event.izir.fr"
   year: "2017 - 2019"
   profile: false
@@ -91,7 +91,7 @@
     - "Automation"
   url: "portfolio/project/event-izir.html"
   images: 
-    - "/assets/images/projets/ext-1.jpg"
+    - "/images/projets/ext-1.jpg"
 - name: "gael-lebellec.bzh"
   year: "2017"
   profile: false
@@ -108,4 +108,4 @@
     - "Multilangue"
   url: "portfolio/project/gael-le-bellec.html"
   images: 
-    - "/assets/images/projets/ext-4.png"
+    - "/images/projets/ext-4.png"

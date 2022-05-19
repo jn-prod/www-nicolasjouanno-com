@@ -1,49 +1,20 @@
 ---
-layout: default
+layout: page
 ---
 <!-- content -->
-<section class="container-fluid">
+<section>
 
   <article>
+    <h1 >{{ page.title }}</h1>
 
-    <div class="row mb-3 bg-light shadow">
+    <img src="{{ page.img }}" alt="{{ page.title }}">
+    
+    <p >{{ page.job }}, {{ page.year }} - <a href="{{ site.url }}/offres/{{ page.type.url }}">{{ page.type.name }}</a> - <a href="{{ page.link.url }}" target="_blank">{{ page.link.name }}</a></p>
 
-      <div class="col-12 mt-5 mb-5">
+    <p>{{ page.context }}</p>
 
-        <div class="container">
-          
-          <img src="{{ page.img }}" class="rounded mx-auto d-block" alt="{{ page.title }}" style="max-height: 35vh;">
-          
-          <div class="h3 font-secondary mt-5 text-muted">Case study — </div>
-          
-          <h1 class="font-primary my-2">{{ page.title }}</h1>
-          
-          <div class="text-muted mb-5">{{ page.job }}, {{ page.year }} - <a href="{{ site.url }}/offres/{{ page.type.url }}">{{ page.type.name }}</a> - <a href="{{ page.link.url }}" target="_blank">{{ page.link.name }}</a></div>
-
-          <div class="d-block text-center">
-
-            <em>{{ page.context }}</em>
-
-          </div>  
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-12 my-5">
-
-          {{ content }}
-
-        </div>
-
-      </div>  
-
+    <div>
+      {{ content }}
     </div>
 
   </article>
