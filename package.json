@@ -1,66 +1,19 @@
 {
-  "name": "index_nicolasjouanno",
+  "name": "www-nicolasjouanno-com",
   "version": "1.0.0",
-  "description": "feezify frontend optimisation\u001b[D\u001b[D\u001b[D\u001b[D\u001b[z",
-  "main": "app.js",
+  "description": "Portfolio de Nicolas Jouanno",
+  "main": "client/src/index.ts",
   "scripts": {
-    "webpack": "./node_modules/.bin/webpack",
-    "pretest": "./node_modules/.bin/eslint --ignore-path .eslintignore .",
-    "server:dev": "bundle exec jekyll serve --livereload",
-    "client:dev": "webpack-dev-server -d --hot --config webpack.config.js --watch",
-    "client:build": "NODE_ENV=production webpack --config webpack.config.js",
-    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\""
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "bundle exec jekyll serve --livereload",
+    "dev:client": "cd client && npm run dev",
+    "client:build": "rm -rf www/assets && cd client && npm run build && rm dist/index.html && cp -R dist ../www/assets"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jn-prod/blog_feezify_me.git"
+    "url": "git+https://github.com/jn-prod/www-nicolasjouanno-com"
   },
   "author": "nicolas jouanno",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jn-prod/blog_feezify_me/issues"
-  },
-  "homepage": "https://github.com/jn-prod/blog_feezify_me#readme",
-  "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@fortawesome/fontawesome-free": "^5.15.2",
-    "autoprefixer": "^9.8.6",
-    "babel-cli": "*",
-    "babel-core": "*",
-    "babel-eslint": "^10.1.0",
-    "babel-loader": "^8.2.2",
-    "babel-minify-webpack-plugin": "^0.3.1",
-    "babel-preset-env": "*",
-    "bootstrap": "^4.6.0",
-    "clean-webpack-plugin": "^1.0.1",
-    "concurrently": "^5.3.0",
-    "css-loader": "^3.6.0",
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0-alpha.0",
-    "eslint-loader": "^2.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^5.0.0",
-    "file-loader": "^1.1.11",
-    "google-maps": "^4.3.3",
-    "html-webpack-plugin": "^4.5.1",
-    "jquery": "^3.5.1",
-    "mini-css-extract-plugin": "^0.4.5",
-    "node-sass": "^4.14.1",
-    "popper.js": "^1.16.1",
-    "postcss-loader": "^3.0.0",
-    "resolve-url-loader": "^2.3.2",
-    "sass": "^1.32.5",
-    "sass-loader": "^7.3.1",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.2",
-    "webpack-hot-middleware": "^2.25.0"
-  },
-  "dependencies": {
-    "path": "^0.12.7"
-  }
+  "homepage": "https://nicolasjouanno.com"
 }

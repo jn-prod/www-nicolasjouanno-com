@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+$hN: 1, 2, 3, 4, 5, 6;
+
+@each $n in $hN {
+  h#{$n} {
+    font-weight: normal;
+  }
+}
+
+h1 {
+  font-size: calc(var(--font-size) * 2.5);
+  line-height: calc(var(--line-height) * 2.5);
+}
+
+h2 {
+  font-size: calc(var(--font-size) * 1.8);
+  line-height: calc(var(--line-height) * 1.8);
+}

@@ -1,0 +1,88 @@
+---
+layout: default
+disqus: true
+archive: false
+post_class: post-template
+---
+
+<!-- Begin Article
+================================================== -->
+
+{% assign author = site.data.authors[page.author] %}
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <time itemprop="dateCreated datePublished dateModified" datetime="{{ page.date | date:"%Y-%m-%d" }}"></time>
+
+    <!-- Post heading -->
+    <h1 itemprop="name headline">{{ page.title }}</h1>
+    <meta itemprop="url mainEntityOfPage" content="{{ site.url}}{{page.url }}">
+    <!-- Post Featured Image -->
+    {% if page.image %}
+        <img itemprop="image thumbnailUrl" src="{{ site.url }}/{{ page.image }}" alt="{{ page.title }}">    
+    {% endif %}
+    <p>
+        Partager !
+        <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+→&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#disqus_thread"></a>
+        {% for category in page.categories %}
+            #{{category}}
+        {% endfor %}
+    </p>
+
+    <!-- Post Content -->
+    <div itemprop="articleBody">
+        {% if page.youtube_video_id %}
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ page.youtube_video_id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {% endif %}
+
+        {{content}}
+
+        <p>- Nicolas</p>
+        {% if page.author %}
+            {% include /boxes/author.html %}
+        {% endif %}
+    </div>
+
+</article>
+
+<!-- End Article
+================================================== -->
+
+<aside>
+    <div class="container">
+        <!-- Prev/Next -->
+        <div class="row justify-content-end mt-3">
+            <div class="col-md-9">
+                <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+                    {% if page.previous.url %}
+                      <a class="prev d-block col-md-6" href="{{page.previous.url | absolute_url}}"> &laquo; {{page.previous.title}}</a>
+                    {% endif %}
+                    {% if page.next.url %}
+                      <a class="next d-block col-md-6 text-lg-right" href="{{page.next.url | absolute_url}}">{{page.next.title}} &raquo; </a>
+                    {% endif %}
+                    <div class="clearfix"></div>
+                  </div>
+            </div>
+        </div>
+
+        <!-- Comments -->
+        <section class="disqus">
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                var disqus_shortname = '{{site.comments.disqus.shortname}}'; 
+                var disqus_developer = 0;
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </section>
+    </div>
+</aside>

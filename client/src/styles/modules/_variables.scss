@@ -1,0 +1,22 @@
+:root {
+  /* Fonts */
+  --font-size: 1.5rem;
+  --line-height: 1.9rem;
+
+  --font-family: 'Lato', sans-serif;
+  --font-family-heading: 'Abril Fatface', sans-serif;
+
+  /* colors */
+  --color-primary: #008f8f;
+  --color-secondary: #71323e;
+  --color-dark: #343a40;
+  --color-light: #ffffff;
+  --color-dark-light: hsl(0deg 0% 0% / 44%);
+
+  --color-primary-with: var(--color-light);
+  --color-secondary-with: var(--color-light);
+  --color-dark-with: var(--color-light);
+  --color-light-with: var(--color-dark);
+
+  --box-shadow: 0.5rem 0.3rem 1rem 0.3rem #343a4040;
+}

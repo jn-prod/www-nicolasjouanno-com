@@ -1,0 +1,22 @@
+---
+layout: page
+---
+<!-- content -->
+<section>
+
+  <article>
+    <h1 >{{ page.title }}</h1>
+
+    <img src="{{ page.img }}" alt="{{ page.title }}">
+    
+    <p >{{ page.job }}, {{ page.year }} - <a href="{{ site.url }}/offres/{{ page.type.url }}">{{ page.type.name }}</a> - <a href="{{ page.link.url }}" target="_blank">{{ page.link.name }}</a></p>
+
+    <p>{{ page.context }}</p>
+
+    <div>
+      {{ content }}
+    </div>
+
+  </article>
+
+</section>

@@ -1,0 +1,33 @@
+$grid-columns: 12;
+
+@function col-width($i) {
+  $width: calc((#{$i} * 100 / #{$grid-columns}) * 1% - 1%);
+  @return #{$width};
+}
+
+@mixin col($columns, $mobile) {
+  .u-grid {
+    @for $i from 1 through $columns {
+      >.u-grid__col-#{$i} {
+        @if $mobile {
+          flex-basis: 100%;
+        } @else {
+          flex-basis: col-width($i);
+        }
+      }
+    }
+  }
+}
+
+.u-grid {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@include col($grid-columns, $mobile: false);
+
+@media screen and (max-width: 900px) {
+  @include col($grid-columns, $mobile: true);
+}
