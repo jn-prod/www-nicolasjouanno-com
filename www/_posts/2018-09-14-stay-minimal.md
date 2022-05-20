@@ -28,7 +28,7 @@ image: "images/posts/maxresdefault.jpg"
 
 En 2016, je baissais une dernière fois le rideau de ma première entreprise: un commerce local de sport outdoor. Une expérience enrichissantes m'a prouvée que rien n'était acquis. Ce n'est pas parce que tu es reconnus sur ton marché, que tu le connais ainsi que ses leviers que l'entreprise sera florissante. Avec toute mon arrogances, je me suis heurté à la réalité du commerce physique, ses coûts élevés, ses marges faibles. Le choc a été violant.
 
-<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/77a9b-1fhdbbyabl24dcabgexhpow.png" alt="Chaine youtube the family" />
+<figure class="wp-caption"><img src="{{ site.data.config.url }}/{{ site.imgpost }}/77a9b-1fhdbbyabl24dcabgexhpow.png" alt="Chaine youtube the family" />
 <figcaption class="wp-caption-text"><a href="https://www.youtube.com/user/Startupfood" target="_blank" rel="nofollow">Chaine youtube the family</a></figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Depuis mon adolescence, je fais de sites internet pour m'amuser, avec le goût d
 
 D'ailleurs, en 2013, je crée mon premier side project: [vtt.bzh](https://vtt.bzh). Un site qui me permet d'expérimenter ce que j'apprends du digital au détour de la magie du web 2.0. Un moment d'évasion dans ce flow quotidien de retailer. Ce site internet réaliser avec Wordpress enregistre vite ses premiers succès, pour atteindre 10 000 visiteurs mensuel. Il ne scale pas, car je fais ma curation à la main. Il est lent car, ne sachant pas coder, je lui ai ajouter 70+ plugins pour lui ajouter des features. Il se perd dans un quantités de features cumulées mais jamais abandonnées.
 
-<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/8f833-1glqrdjmo0myyuik5d1idxg.png" alt="site web du wagon" />
+<figure class="wp-caption"><img src="{{ site.data.config.url }}/{{ site.imgpost }}/8f833-1glqrdjmo0myyuik5d1idxg.png" alt="site web du wagon" />
 <figcaption class="wp-caption-text"><a href="https://www.lewagon.com/fr" target="_blank" rel="nofollow">site web du wagon</a></figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Lors de mes recherches, c'est au détour d'un article sur welcometothejungle, qu
 
 Voilà, comment j'arrive à la conclusion que pour m'épanouir professionnelement dans le domaine de la gestion de projet web et avoir une casquette d'avantage "product" que "projet", il me faut avoir des connaissances solides en développement.
 
-<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/21d8e-1qcj1veggw6yciebqwl3q7w.png" alt="welcometothejungle" />
+<figure class="wp-caption"><img src="{{ site.data.config.url }}/{{ site.imgpost }}/21d8e-1qcj1veggw6yciebqwl3q7w.png" alt="welcometothejungle" />
 <figcaption class="wp-caption-text"><a href="https://www.welcometothejungle.co/professions/product-manager" target="_blank" rel="nofollow">fiche metier de product manager sur welcometothejungle</a></figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ Ce que j’ai appris avant tout, c'est à apprendre. Le développement ne se lim
 
 Mais n'oublions pas pourquoi je me suis lancé ce challenge: développer un produit digital qui à de la valeur pour ses utilisateurs. 
 
-<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/e8b22-11czy1ngfc50mjx7vxlphqa.png" alt="NODE JS" />
+<figure class="wp-caption"><img src="{{ site.data.config.url }}/{{ site.imgpost }}/e8b22-11czy1ngfc50mjx7vxlphqa.png" alt="NODE JS" />
 <figcaption class="wp-caption-text">NODE JS</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ Comme moi, commencer à parler de votre MVP sur une landing page, en écrivant u
 
 Bref, établissez votre camp de base pour mobilisez vos futurs users. Créez un niveau d'engagement tel qu'ils viendraient eux-mêmes défendre votre idée à l'assemblée nationale.
 
-<figure class="wp-caption"><img src="{{ site.url }}/{{ site.imgpost }}/74ddb-1utch2gz4b5xfvt2dxhgnvq2x.jpeg" alt="Node JS" />
+<figure class="wp-caption"><img src="{{ site.data.config.url }}/{{ site.imgpost }}/74ddb-1utch2gz4b5xfvt2dxhgnvq2x.jpeg" alt="Node JS" />
 <figcaption class="wp-caption-text">Node JS</figcaption>
 </figure>
 

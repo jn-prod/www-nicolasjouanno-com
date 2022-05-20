@@ -29,7 +29,7 @@ Est-il possible de créer seul son site vitrine ?
 
 Wix, Webflow, Squarespace, Strinkingly, … Pour créer seul votre site internet vous avez le choix. Ces CMS (Content Management System) ont des possibilités de design et de fonctionnalités suffisamment avancées pour créer un site vitrine efficace pour seduire vos clients en une semaine.
 
-Mais attention le design et les fonctionnalités ne font pas le succès d'un site internet. La structure d'un site, la navigation et la création d'un tunnel marketing auront tout autant d'impact sur votre clientèle. C'est justement le rôle d'une agence ou d'un <a href="{{ site.url }}/about.html">freelance</a> que de structurer votre site pour le rendre efficient aux vus de vos objectifs marketing.
+Mais attention le design et les fonctionnalités ne font pas le succès d'un site internet. La structure d'un site, la navigation et la création d'un tunnel marketing auront tout autant d'impact sur votre clientèle. C'est justement le rôle d'une agence ou d'un <a href="{{ site.data.config.url }}/about.html">freelance</a> que de structurer votre site pour le rendre efficient aux vus de vos objectifs marketing.
 
 
 ## Mon site n'est pas visible sur Google comment faire ?

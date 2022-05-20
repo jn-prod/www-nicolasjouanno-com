@@ -30,7 +30,7 @@ Je suis <a href="/">développeur front-end</a>, je co-conçois des <a href="/off
 
 Ma trajectoire professionnel s'inscrit dans le domaine sportif. Après une carrière de <a href="/results.html">cycliste professionnel</a>, je deviens Responsable Communication et Webmaster chez Twinner Sport. J'ai créé et dévelopé mon entreprise de vente d'article de sport outdoor cross-canal. Puis je suis devenu <a href="/chef-projet-digital.html">Chef de Projet Digital Full Stack</a> pour un groupement, dans lequel j'ai développé une plate-forme d'inscription en ligne <a href="/portfolio/project/event-izir.html"></a>event.izir.fr</a> et un portail intranet pour piloter la stratégie commerciale du groupe.
 
-Maintenant, je suis développeur full-stack JS (NodeJS, MongoDB, AngularJS & VueJS) chez MGDIS. Une entreprise Bretonne qui aide les collectivités à gérer les aides publiques. Passioné par les interfaces réussitent, j'aime échanger sur cette thématique avec les autres memblre de la guilde UX/UI de l'entreprise. Curieux, je continue de me former et de m'informer sur les nouvelles technologies, frameworks et relève le defis des <a href="{{ site.url }}/certifications.html">certifications</a>.
+Maintenant, je suis développeur full-stack JS (NodeJS, MongoDB, AngularJS & VueJS) chez MGDIS. Une entreprise Bretonne qui aide les collectivités à gérer les aides publiques. Passioné par les interfaces réussitent, j'aime échanger sur cette thématique avec les autres memblre de la guilde UX/UI de l'entreprise. Curieux, je continue de me former et de m'informer sur les nouvelles technologies, frameworks et relève le defis des <a href="{{ site.data.config.url }}/certifications.html">certifications</a>.
 
 Je partage ma veille et parle de sport, mobilité, productivité, minimalsime et d'environnement sous le pseudo <a href="{{ site.data.authors.nicolas.linkedin }}">{{ site.data.authors.nicolas.handle }}</a> sur Linkedin.
 
@@ -40,7 +40,7 @@ J'interviens sur tout le cycle de vie d'un produit numérique : de la création 
 
 Je développe avec vous une web app scalable qui tient compte de vos objectifs de rétention, des contraintes métier et de vos utilisateurs.
 
-Commençons par <a href="{{ site.data.authors.nicolas.linkedin }}">en parler</a> ensemble. Enfin, je partage mes connaissances techniques, stratégiques et opérationnelles sur <a href="{{ site.url }}/stories.html">le blog</a>.
+Commençons par <a href="{{ site.data.authors.nicolas.linkedin }}">en parler</a> ensemble. Enfin, je partage mes connaissances techniques, stratégiques et opérationnelles sur <a href="{{ site.data.config.url }}/stories.html">le blog</a>.
 
 
 ## Vous accompagner à chaque étape de votre application web.

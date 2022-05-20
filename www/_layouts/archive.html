@@ -6,7 +6,7 @@ title: Archive
 ================================================== -->
 <section>
   {% if page.url != "/stories.html" %}
-    <h1>Stories de la {{ page.type }} <a href="{{site.url}}{{page.url}}">#{{ page.title }}</a></h1>
+    <h1>Stories de la {{ page.type }} <a href="{{site.data.config.url}}{{page.url}}">#{{ page.title }}</a></h1>
   {% else %}  
     <h1>Stories</h1>
   {% endif %}  

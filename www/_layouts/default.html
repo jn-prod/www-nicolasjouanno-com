@@ -10,25 +10,25 @@
     />
 
     {% if page.title %}
-    <title>{{ page.title }} | {{site.title}}</title>
-    <meta name="title" content="{{ page.title }} | {{site.title}}" />
+    <title>{{ page.title }} | {{site.data.config.title}}</title>
+    <meta name="title" content="{{ page.title }} | {{site.data.config.title}}" />
     {% else %}
-    <title>{{ site.headline }} | {{site.title}}</title>
-    <meta name="title" content="{{ site.headline }} | {{site.title}}" />
+    <title>{{ site.data.config.headline }} | {{site.data.config.title}}</title>
+    <meta name="title" content="{{ site.data.config.headline }} | {{site.data.config.title}}" />
     {% endif %} {% if page.seo_description %}
     <meta
       name="description"
-      content="{{ page.seo_description }} | {{site.title}}"
+      content="{{ page.seo_description }} | {{site.data.config.title}}"
     />
     {% elsif page.type == "catégorie" %}
     <meta
       name="description"
-      content=">Stories de la {{ page.type }} {{ page.title }} | {{site.title}}"
+      content=">Stories de la {{ page.type }} {{ page.title }} | {{site.data.config.title}}"
     />
     {% else %}
     <meta
       name="description"
-      content="{{ content | strip_html | truncatewords:19 }} | {{site.title}}"
+      content="{{ content | strip_html | truncatewords:19 }} | {{site.data.config.title}}"
     />
     {% endif %}
 
@@ -41,87 +41,87 @@
     <link
       rel="apple-touch-icon"
       sizes="57x57"
-      href="{{ site.url }}/images/brand/apple-touch-icon-57x57.png"
+      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-57x57.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="114x114"
-      href="{{ site.url }}/images/brand/apple-touch-icon-114x114.png"
+      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-114x114.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="72x72"
-      href="{{ site.url }}/images/brand/apple-touch-icon-72x72.png"
+      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-72x72.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="144x144"
-      href="{{ site.url }}/images/brand/apple-touch-icon-144x144.png"
+      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-144x144.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="60x60"
-      href="{{ site.url }}/images/brand/apple-touch-icon-60x60.png"
+      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-60x60.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="120x120"
-      href="{{ site.url }}/images/brand/apple-touch-icon-120x120.png"
+      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-120x120.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="76x76"
-      href="{{ site.url }}/images/brand/apple-touch-icon-76x76.png"
+      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-76x76.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="152x152"
-      href="{{ site.url }}/images/brand/apple-touch-icon-152x152.png"
+      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-152x152.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="{{ site.url }}/images/brand/apple-touch-icon-180x180.png"
+      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-180x180.png"
     />
     <link
       rel="icon"
       type="image/png"
-      href="{{ site.url }}/images/brand/favicon-192x192.png"
+      href="{{ site.data.config.url }}/images/brand/favicon-192x192.png"
       sizes="192x192"
     />
     <link
       rel="icon"
       type="image/png"
-      href="{{ site.url }}/images/brand/favicon-160x160.png"
+      href="{{ site.data.config.url }}/images/brand/favicon-160x160.png"
       sizes="160x160"
     />
     <link
       rel="icon"
       type="image/png"
-      href="{{ site.url }}/images/brand/favicon-96x96.png"
+      href="{{ site.data.config.url }}/images/brand/favicon-96x96.png"
       sizes="96x96"
     />
     <link
       rel="icon"
       type="image/png"
-      href="{{ site.url }}/images/brand/favicon-16x16.png"
+      href="{{ site.data.config.url }}/images/brand/favicon-16x16.png"
       sizes="16x16"
     />
     <link
       rel="icon"
       type="image/png"
-      href="{{ site.url }}/images/brand/favicon-32x32.png"
+      href="{{ site.data.config.url }}/images/brand/favicon-32x32.png"
       sizes="32x32"
     />
 
     <!-- style -->
-    {% if site.url == "http://localhost:4000" %}
+    {% if site.data.config.url == "http://localhost:4000" %}
 
     <link href="http://localhost:8080/style.css" rel="stylesheet" />
 
     {% else %}
 
-    <link href="{{ site.url }}/assets/style.css" rel="stylesheet" />
+    <link href="{{ site.data.config.url }}/assets/style.css" rel="stylesheet" />
 
     <!-- GA script -->
     <script>
@@ -171,7 +171,7 @@
       rel="alternate"
       type="application/rss+xml"
       title="RSS"
-      href="{{ site.url }}/feed.xml"
+      href="{{ site.data.config.url }}/feed.xml"
     />
 
     <!-- SEO -->
@@ -186,7 +186,7 @@
     {% endif %}
     <link
       rel="canonical"
-      href="{{ page.url | replace:'index.html','' | prepend: site.url }}"
+      href="{{ page.url | replace:'index.html','' | prepend: site.data.config.url }}"
     />
     <meta
       name="author"
@@ -199,32 +199,32 @@
         <meta name="twitter:creator" content="{{ site.twitter.username }}">
         <meta name="twitter:site" content="{{ site.twitter.username }}">
         {% if page.image %}
-            <meta name="twitter:image:src" content="{{ site.url }}/{{ page.image }}">
+            <meta name="twitter:image:src" content="{{ site.data.config.url }}/{{ page.image }}">
         {% else %}
-            <meta name="twitter:image:src" content="{{ site.url }}/images/jumbotron.jpg" />
+            <meta name="twitter:image:src" content="{{ site.data.config.url }}/images/jumbotron.jpg" />
         {% endif %}
         
-        <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{site.title}}{% else %}{{ site.title }}{% endif %}">
+        <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{site.data.config.title}}{% else %}{{ site.data.config.title }}{% endif %}">
         <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}"> -->
 
     <!-- open graph card-->
 
     {% if page.title %}
-    <meta property="og:title" content="{{ page.title }} | {{site.title}}" />
+    <meta property="og:title" content="{{ page.title }} | {{site.data.config.title}}" />
     {% else %}
-    <meta property="og:title" content="{{ site.headline }} | {{site.title}}" />
+    <meta property="og:title" content="{{ site.data.config.headline }} | {{site.data.config.title}}" />
     {% endif %}
 
     <meta property="og:type" content="article" />
     {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}/{{ page.image }}" />
+    <meta property="og:image" content="{{ site.data.config.url }}/{{ page.image }}" />
     {% else %}
-    <meta property="og:image" content="{{ site.url }}/{{ site.og_image }}" />
+    <meta property="og:image" content="{{ site.data.config.url }}/{{ site.og_image }}" />
     {% endif %}
 
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:url" content="{{ site.data.config.url }}{{ page.url }}" />
     <meta property="og:locale" content="{{ site.locale }}" />
-    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:site_name" content="{{ site.data.config.title }}" />
     <meta
       property="og:description"
       content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.meta_description }}{% endif %}"
@@ -250,7 +250,7 @@
           }
         ],
         "name": "{{ site.data.authors.nicolas.display_name }}",
-        "url": "{{ site.url }}",
+        "url": "{{ site.data.config.url }}",
         "sameAs": [
           "{{site.mediumcom.publisher}}",
           "{{site.linkedin.publisher}}",
@@ -261,7 +261,7 @@
           "@type": "ImageObject",
           "width": 60,
           "height": 60,
-          "url": "{{ site.url }}/{{ site.logo }}"
+          "url": "{{ site.data.config.url }}/{{ site.logo }}"
         }
       }
     </script>
@@ -287,15 +287,15 @@
 
     <header role="banner" class="c-layout__header">
       <nav role="navigation" class="c-navigation">
-        <a href="{{ site.url }}" class="c-navigation__title">
-          {{ site.title }}
+        <a href="{{ site.data.config.url }}" class="c-navigation__title">
+          {{ site.data.config.title }}
         </a>
 
         <ul class="c-navigation__link-list">
           <li class="c-navigation__link-list-element">
             <a
               class="c-button {% if page.url == '/about.html' %}c-button--active{% endif %}"
-              href="{{ site.url }}/about.html"
+              href="{{ site.data.config.url }}/about.html"
               >Work</a
             >
           </li>
@@ -303,7 +303,7 @@
           <li class="c-navigation__link-list-element">
             <a
               class="c-button {% if page.url == '/results.html' %}c-button--active{% endif %}"
-              href="{{ site.url }}/results.html"
+              href="{{ site.data.config.url }}/results.html"
               >Sport</a
             >
           </li>
@@ -311,7 +311,7 @@
           <li class="c-navigation__link-list-element">
             <a
               class="c-button {% if page.url == '/stories.html' %}c-button--active{% endif %}"
-              href="{{ site.url }}/stories.html"
+              href="{{ site.data.config.url }}/stories.html"
               >Writing</a
             >
           </li>
@@ -360,22 +360,22 @@
 
       <article class="c-footer-nav">
         <div>
-          <a href="/" class="c-footer-nav__title">{{ site.title }}</a>
-          <div class="c-footer-nav__headline">{{ site.headline }}</div>
+          <a href="/" class="c-footer-nav__title">{{ site.data.config.title }}</a>
+          <div class="c-footer-nav__headline">{{ site.data.config.headline }}</div>
         </div>
         <ul class="c-navigation__link-list">
           <li class="c-navigation__link-list-element">
-            <a href="{{ site.url }}/about.html" class="c-button"
+            <a href="{{ site.data.config.url }}/about.html" class="c-button"
               >Développeur Front-end</a
             >
           </li>
           <li class="c-navigation__link-list-element">
-            <a href="{{ site.url }}/stories.html" class="c-button"
+            <a href="{{ site.data.config.url }}/stories.html" class="c-button"
               >Blog</a
             >
           </li>
           <li class="c-navigation__link-list-element">
-            <a href="{{ site.url }}/academy.html" class="c-button"
+            <a href="{{ site.data.config.url }}/academy.html" class="c-button"
               >Ressources</a
             >
           </li>
@@ -402,7 +402,7 @@
             rel="me"
             ><i class="fab fa-linkedin fa-2x"></i
               ></a>
-              <a href="{{ site.url }}/feed.xml" type="application/rss+xml"
+              <a href="{{ site.data.config.url }}/feed.xml" type="application/rss+xml"
               ><i class="fas fa-rss fa-2x"></i
             ></a>
         </span>
@@ -412,10 +412,10 @@
     <!-- JavaScript
         ================================================== -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    {% if site.url == "http://localhost:4000" %}
+    {% if site.data.config.url == "http://localhost:4000" %}
     <script src="http://localhost:8080/main.js" async></script>
     {% else %}
-    <script src="{{ site.url }}/assets/main.js" async></script>
+    <script src="{{ site.data.config.url }}/assets/main.js" async></script>
     {% endif %}
   </body>
 </html>

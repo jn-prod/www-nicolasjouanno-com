@@ -1,7 +1,7 @@
 {% if paginator.total_pages > 1 %}
 <div class="c-pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.url }}">&laquo; Prev</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.data.config.url }}">&laquo; Prev</a>
   {% else %}
     <span>&laquo; Prev</span>
   {% endif %}
@@ -10,7 +10,7 @@
     {% if page == paginator.page %}
       <em>{{ page }}</em>
     {% elsif page == 1 %}
-      <a href="{{ site.url }}/stories/latest/">
+      <a href="{{ site.data.config.url }}/stories/latest/">
         {{ page }}
       </a>
     {% else %}
@@ -21,7 +21,7 @@
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.url }}">Next &raquo;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.data.config.url }}">Next &raquo;</a>
   {% else %}
     <span>Next &raquo;</span>
   {% endif %}

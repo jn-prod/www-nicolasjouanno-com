@@ -14,10 +14,10 @@ post_class: post-template
 
     <!-- Post heading -->
     <h1 itemprop="name headline">{{ page.title }}</h1>
-    <meta itemprop="url mainEntityOfPage" content="{{ site.url}}{{page.url }}">
+    <meta itemprop="url mainEntityOfPage" content="{{ site.data.config.url}}{{page.url }}">
     <!-- Post Featured Image -->
     {% if page.image %}
-        <img itemprop="image thumbnailUrl" src="{{ site.url }}/{{ page.image }}" alt="{{ page.title }}">    
+        <img itemprop="image thumbnailUrl" src="{{ site.data.config.url }}/{{ page.image }}" alt="{{ page.title }}">    
     {% endif %}
     <p>
         Partager !

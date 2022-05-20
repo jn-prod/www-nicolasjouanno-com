@@ -101,7 +101,7 @@ bg: inspiration-1
 
    {% for course in site.data.courses limit: 3 %}
 
-    <a href="{{ site.url }}{{course.url}}">
+    <a href="{{ site.data.config.url }}{{course.url}}">
 
       <div class="row my-5 shadow border border-muted p-5 rounded">
 

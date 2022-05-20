@@ -421,7 +421,7 @@ h6 {
   gap: 1rem; }
 
 .c-jumbotron {
-  background-image: url(/images/jumbotron.jpg);
+  background-image: url(/assets/images/jumbotron.jpg);
   background-size: cover;
   background-position: center;
   padding: 5rem 10rem; }
