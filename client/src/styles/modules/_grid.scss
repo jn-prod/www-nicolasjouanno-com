@@ -8,7 +8,7 @@ $grid-columns: 12;
 @mixin col($columns, $mobile) {
   .u-grid {
     @for $i from 1 through $columns {
-      >.u-grid__col-#{$i} {
+      > .u-grid__col-#{$i} {
         @if $mobile {
           flex-basis: 100%;
         } @else {

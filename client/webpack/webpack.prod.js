@@ -40,7 +40,7 @@ module.exports = {
             options: {
               name: '[name].[ext]',
               outputPath: 'images/',
-              publicPath: '/assets/images/'
+              publicPath: '/assets/images/',
             },
           },
         ],
@@ -64,7 +64,7 @@ module.exports = {
             loader: MiniCssExtractPlugin.loader,
             options: {
               publicPath: '/',
-            }
+            },
           },
           {
             loader: 'css-loader',

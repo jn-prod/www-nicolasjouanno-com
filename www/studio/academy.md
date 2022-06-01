@@ -129,7 +129,7 @@ bg: inspiration-1
 
             {% if course.price == "free" %}
 
-              <span class="text-muted">Gratuit:</span> <i class="fas fa-check text-success ml-2"></i>
+              <span class="text-muted">Gratuit:</span> <span class="fas fa-check text-success ml-2"></span>
 
             {% else %}
 

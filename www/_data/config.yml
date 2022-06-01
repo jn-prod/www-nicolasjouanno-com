@@ -1,9 +1,9 @@
 # Site Settings
 locale           : "fr-FR"
 title            : "Nicolas Jouanno"
+headline         : "Développeur fontend | Design system - JAM stack"
 url              : "https://nicolasjouanno.com"
-headline         : "Développeur Full-Stack JS | NodeJS - MongoDB - VueJS"
-url              : "https://nicolasjouanno.com"
+# url              : "http://localhost:4000"
 logo             : 'images/brand/logo.png'
 comments:
   disqus: 
