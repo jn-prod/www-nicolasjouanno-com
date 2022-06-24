@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <!-- Head
+    ================================================== -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    
+    <title>Event Izir - Création d'une plate-forme d'inscription pour les événements sportifs | Nicolas Jouanno</title>
+    <meta name="title" content="Event Izir - Création d'une plate-forme d'inscription pour les événements sportifs | Nicolas Jouanno" />
+     
+    <meta
+      name="description"
+      content="Gestion du projet de création de web-app Event Izir. Développement full-stack NodeJS, MongodDB, ExpressJS. | Nicolas Jouanno"
+    />
+    
+
+    <meta
+      name="keywords"
+      content=""
+    />
+
+    <!-- icons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="https://nicolasjouanno.com/images/brand/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="https://nicolasjouanno.com/images/brand/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="https://nicolasjouanno.com/images/brand/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="https://nicolasjouanno.com/images/brand/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="https://nicolasjouanno.com/images/brand/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="https://nicolasjouanno.com/images/brand/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="https://nicolasjouanno.com/images/brand/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="https://nicolasjouanno.com/images/brand/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://nicolasjouanno.com/images/brand/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://nicolasjouanno.com/images/brand/favicon-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://nicolasjouanno.com/images/brand/favicon-160x160.png"
+      sizes="160x160"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://nicolasjouanno.com/images/brand/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://nicolasjouanno.com/images/brand/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://nicolasjouanno.com/images/brand/favicon-32x32.png"
+      sizes="32x32"
+    />
+
+    <!-- style -->
+    
+
+    <link href="https://nicolasjouanno.com/assets/style.css" rel="stylesheet" />
+
+    <!-- GA script -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "", "auto");
+      ga("send", "pageview");
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-TCGTN6W");
+    </script>
+
+    
+
+    <!-- rss -->
+    <link
+      id="feedLink"
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="https://nicolasjouanno.com/feed.xml"
+    />
+
+    <!-- SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta name="referrer" content="always" />
+    <meta name="theme-color" content="#000000" />
+    
+    <link
+      rel="canonical"
+      href="https://nicolasjouanno.com/portfolio/project/event-izir.html"
+    />
+    <meta
+      name="author"
+      content="Nicolas Jouanno"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- twitter card-->
+    <!-- <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:creator" content="">
+        <meta name="twitter:site" content="">
+        
+            <meta name="twitter:image:src" content="https://nicolasjouanno.com/images/jumbotron.jpg" />
+        
+        
+        <meta name="twitter:title" content="Event Izir - Création d'une plate-forme d'inscription pour les événements sportifs | Nicolas Jouanno">
+        <meta name="twitter:description" content=""> -->
+
+    <!-- open graph card-->
+
+    
+    <meta property="og:title" content="Event Izir - Création d'une plate-forme d'inscription pour les événements sportifs | Nicolas Jouanno" />
+    
+
+    <meta property="og:type" content="article" />
+    
+    <meta property="og:image" content="https://nicolasjouanno.com/" />
+    
+
+    <meta property="og:url" content="https://nicolasjouanno.com/portfolio/project/event-izir.html" />
+    <meta property="og:locale" content="" />
+    <meta property="og:site_name" content="Nicolas Jouanno" />
+    <meta
+      property="og:description"
+      content=""
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "",
+          "streetAddress": "",
+          "postalCode": "",
+          "addressCountry": ""
+        },
+        "email": "pro(at)nicolasjouanno.com",
+        "founder": [
+          {
+            "@type": "Person",
+            "name": "Nicolas Jouanno",
+            "url": "https://nicolasjouanno.com/about.html"
+          }
+        ],
+        "name": "Nicolas Jouanno",
+        "url": "https://nicolasjouanno.com",
+        "sameAs": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "width": 60,
+          "height": 60,
+          "url": "https://nicolasjouanno.com/"
+        }
+      }
+    </script>
+  </head>
+
+  <!-- body -->
+  
+  <body
+    class="c-layout c-layout--layout-project"
+    itemscope
+    itemtype="http://schema.org/WebPage"
+  >
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TCGTN6W"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+
+    <header role="banner" class="c-layout__header">
+      <nav role="navigation" class="c-navigation">
+        <a href="https://nicolasjouanno.com" class="c-navigation__title">
+          Nicolas Jouanno
+        </a>
+
+        <ul class="c-navigation__link-list">
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button "
+              href="https://nicolasjouanno.com/about.html"
+              >Work</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button "
+              href="https://nicolasjouanno.com/results.html"
+              >Sport</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button "
+              href="https://nicolasjouanno.com/stories.html"
+              >Writing</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button"
+              href="https://github.com/jn-prod"
+              rel="me"
+              target="_blank"
+              > <span class="fab fa-github"></span> Github</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button c-button--primary"
+              href="https://www.linkedin.com/in/nicolasjouanno/"
+              rel="me"
+              target="_blank"
+            >
+              <span class="fab fa-linkedin"></span>
+              CV
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Content
+        ================================================== -->
+    <main role="main" class="c-layout__content"><!-- content -->
+<section>
+
+  <article>
+    <h1 >Event Izir - Création d'une plate-forme d'inscription pour les événements sportifs</h1>
+
+    <img src="/images/projets/ext-1.jpg" alt="Event Izir - Création d'une plate-forme d'inscription pour les événements sportifs">
+    
+    <p >Chef de Projet Full-stack (CDI), 2017 -  Aujourd'hui - <a href="https://nicolasjouanno.com/offres/site-applicatif.html">Web app</a> - <a href="#" target="_blank">event.izir.fr</a></p>
+
+    <p>Irir.fr est un site e-commerce créé en 2014 positionné sur les marchés du running, du vélo et de la randonnée. L'acquisition de clients de la plate-forme e-commerce se faisant par les comparateurs de prix, le besoin de performances du mix produit/prix était prioritaire. En recherche d'idées novatrices pour toucher ses pratiquants que l'on retrouve chaque week-end sur les événements régionnaux, l'idée d'une plate-forme d'inscriptions pour ces événements germa.</p>
+
+    <div>
+      <!--1. Scope et contraintes-->
+<h2 id="scope-et-contraintes">Scope et contraintes</h2>
+
+<p>En charge de la gestion de ce projet avec pour renfort un commercial, sans ligne de budget autre que mon temps, je devais prendre l’ownership des parties design, marketing et tech. Imaginé en juin 2017 et validé en aout 2017, nous avions trouvé la confiance d’un premier événement qui allait se dérouler en janvier 2018. Période que nous mettre au profit de ce POC (Proof of concept)</p>
+
+<!--2. Problème-->
+<h2 id="problème-et-solutions-technique">Problème et solutions technique</h2>
+
+<p>Event.izir.fr doit permettre aux sportifs de s’inscrire à des événements sportifs que les organisateurs auront au préalable créés sur la plate-forme.</p>
+
+<p>Nous devions d’abord aller à la rencontre des organisateurs et chronométreurs pour élaborer un premier cahier des charges énumérant et priorisant leur besoins. A partir de là, nous connaissions les informations à récolter auprès des participants.</p>
+
+<p>Les inscriptions au événements étant sujet à des pic d’activité, je suis parti sur le PAAS <a href="https://www.heroku.com/">Heroku</a> pour pouvoir géré plus facilement les montés en charge au besoin et garder des coups faibles le rest du temps.</p>
+
+<p>L’élaboration du cahier des charges était rendu difficile par le manque de confiance des organisateurs pour une plate-forme qui n’a pas encore d’activité officiele. Difficile dès lors de pouvoir se présenter une base de données, je me suis donc orienté vers du noSQL avec <a href="https://www.mongodb.com/fr">MongoDB</a>.</p>
+
+<p>De là en découle le choix de monter un serveur <a href="https://nodejs.org/en/">NodeJS</a>.</p>
+
+<p>S’il m’était tentant de vouloir profiter de la puissance d’une stack <a href="http://meanjs.org/">MEAN</a> ou MERN. Le fait de devoir gérer et produire l’intégralité de la stack projet m’a fait m’orienter sur une génération des vues côté serveur. C’est donc sur une architecture MVC monolitique de repose l’application.</p>
+
+<!--4. Résultats et leçons-->
+<h2 id="résultats-et-leçons">Résultats et leçons</h2>
+
+<p>Le MVP a vu le jour dans les temps et à repondu aux besoin de base des organisateurs.</p>
+
+<p>L’évolution de la base de données restait magré tout un sujet sensible.</p>
+
+<p>NodeJS, même enrichie d’ExpressJS, étant un outil brut j’ai passé beaucoup de temps à développer des outils qui sont embarqués sur des framework comme <a href="https://www.djangoproject.com/">Django</a> ou <a href="https://rubyonrails.org/">RoR</a>.</p>
+
+<p>Le tout sans pouvoir tirer profit d’une stack complète MEAN et du gain de temps long terme de l’usage de composant. Le fait de ne pas avoir pu mener de recherche utilisateurs poussée m’a aussi empêcher de tirer profit de la puissance de la POO.</p>
+
+    </div>
+
+  </article>
+
+</section>
+
+
+<p>
+    Vous voulez en <a href="/about.html">savoir plus sur mes expertises ?</a>
+</p>
+</main>
+
+    <footer role="contentinfo" class="c-layout__footer">
+      <!-- signature -->
+      <article
+        itemscope
+        itemtype="http://schema.org/Quotation"
+        class="c-jumbotron"
+      >
+        <div class="c-jumbotron__content">
+          <div itemprop="text" class="c-jumbotron__citation">
+            "Pourquoi rejoindre la marine quand vous pouvez être un pirate ?"
+          </div>
+          <div
+            itemscope
+            itemtype="http://schema.org/Organization"
+            class="c-jumbotron__author"
+          >
+            <em> - <span itemprop="name">Steve Jobs</span> </em>
+          </div>
+        </div>
+      </article>
+
+      <!-- credit -->
+
+      <article class="c-footer-nav">
+        <div>
+          <a href="/" class="c-footer-nav__title">Nicolas Jouanno</a>
+          <div class="c-footer-nav__headline">Développeur fontend | Design system - JAM stack</div>
+        </div>
+        <ul class="c-navigation__link-list">
+          <li class="c-navigation__link-list-element">
+            <a href="https://nicolasjouanno.com/about.html" class="c-button"
+              >Développeur Front-end</a
+            >
+          </li>
+          <li class="c-navigation__link-list-element">
+            <a href="https://nicolasjouanno.com/stories.html" class="c-button"
+              >Blog</a
+            >
+          </li>
+          <li class="c-navigation__link-list-element">
+            <a href="https://nicolasjouanno.com/academy.html" class="c-button"
+              >Ressources</a
+            >
+          </li>
+          <li class="c-navigation__link-list-element">
+            <a
+              href="https://www.linkedin.com/in/nicolasjouanno/"
+              class="c-button c-button--primary"
+              target="_blank"
+              rel="me"
+              ><span class="fab fa-linkedin"></span>Me contacter</a
+            >
+          </li>
+        </ul>
+      </article>
+
+      <article class="c-layout__legals">
+        <span>
+          © 2013 - 2022. Design et développement: Nicolas Jouanno</span
+        >
+
+        <span>Restons en contact sur → <a
+            href="https://www.linkedin.com/in/nicolasjouanno/"
+            target="_blank"
+            rel="me"
+            ><span class="fab fa-linkedin fa-2x"></span
+              ></a>
+              <a href="https://nicolasjouanno.com/feed.xml" type="application/rss+xml"
+              ><span class="fas fa-rss fa-2x"></span
+            ></a>
+        </span>
+      </article>
+    </footer>
+
+    <!-- JavaScript
+        ================================================== -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="https://nicolasjouanno.com/assets/main.js" async></script>
+    
+  </body>
+</html>
