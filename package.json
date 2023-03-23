@@ -1,23 +1,22 @@
 {
-  "name": "www-nicolasjouanno-com",
-  "version": "1.0.0",
-  "description": "Portfolio de Nicolas Jouanno",
-  "main": "client/src/index.ts",
+  "name": "new",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "postinstall": "cd client && npm ci",
-    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
-    "dev:server": "bundle exec jekyll serve --livereload",
-    "dev:client": "cd client && npm run dev",
-    "client:build": "rm -rf www/assets && cd client && npm run build && rm dist/index.html && cp -R dist ../www/assets"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jn-prod/www-nicolasjouanno-com"
-  },
-  "author": "nicolas jouanno",
-  "license": "ISC",
-  "homepage": "https://nicolasjouanno.com",
-  "devDependencies": {
-    "npm-run-all": "^4.1.5"
+  "dependencies": {
+    "@types/node": "18.14.6",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.3",
+    "next": "13.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.5"
   }
 }
