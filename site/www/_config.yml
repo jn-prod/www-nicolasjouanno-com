@@ -1,7 +1,6 @@
 # Outputting
 lsi: false
 safe: true
-source: www 
 permalink : /:title:output_ext
 paginate: 12
 paginate_path: /stories/latest/page:num/
