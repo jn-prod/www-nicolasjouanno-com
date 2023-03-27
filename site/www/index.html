@@ -1,43 +1,33 @@
 ---
 redirect_from:
-  - "/portfolio/project/volt.html"
-  - "/toolbox.html"
-  - "/coaching.html"
-  - "/cours.html"
-  - "/cours/creer-site-web-sans-coder.html"
-title: "Développeur frontend"
+  - '/portfolio/project/volt.html'
+  - '/toolbox.html'
+  - '/coaching.html'
+  - '/cours.html'
+  - '/cours/creer-site-web-sans-coder.html'
+title: 'Développeur frontend'
 layout: default
 seo_description: "Développeur frontend. Je travail sur les design-system, je joue avec la JAM Stack et je m'intéresse a WASM."
 ---
 
 <!-- set vtt_bzh variable -->
-{% for project in site.data.projects %} {% if project.name == 'vtt.bzh' %} {%
-assign vtt_bzh = project %} {% endif %} {% endfor %}
+{% for project in site.data.projects %} {% if project.name == 'vtt.bzh' %} {% assign vtt_bzh = project %} {% endif %} {% endfor %}
 
 <!-- Header
 ================================================== -->
 <section id="cta" class="c-section c-section--main">
   <div class="c-section__text">
-    <h1 class="c-section__title">
-      Je conçois l'interface web pensée avec votre équipe design dans le soucie
-      de l'expérience utilisateur.
-    </h1>
+    <h1 class="c-section__title">Je conçois l'interface web pensée avec votre équipe design dans le soucie de l'expérience utilisateur.</h1>
 
     <p>
       Moi c'est
-      <a href="{{ site.data.config.url }}/about.html" rel="me">Nicolas Jouanno</a>,
-      développeur front-end @MGDIS et design enthousiaste. Je travail sur les
-      design-system, je joue avec la JAM Stack et je m'intéresse a WASM. Je suis
-      aussi ex-cycliste professionnel, maintenant freerider 🏃🚴‍♂️🏄‍♂️. Je prends
-      des photos. Créateur de <a href="{{ vtt_bzh.url }}">vtt.bzh</a>.
+      <a href="{{ site.data.config.url }}/about.html" rel="me">Nicolas Jouanno</a>, développeur front-end @MGDIS et design enthousiaste. Je travail sur les design-system, je joue
+      avec la JAM Stack et je m'intéresse a WASM. Je suis aussi ex-cycliste professionnel, maintenant freerider 🏃🚴‍♂️🏄‍♂️. Je prends des photos. Créateur de
+      <a href="{{ vtt_bzh.url }}">vtt.bzh</a>.
     </p>
   </div>
 
-  <img
-    class="c-section__image"
-    src="{{ site.data.authors.nicolas.avatar }}"
-    alt="{{ site.data.authors.nicolas.display_name }}"
-  />
+  <img class="c-section__image" src="{{ site.data.authors.nicolas.avatar }}" alt="{{ site.data.authors.nicolas.display_name }}" />
 </section>
 
 <!-- About
@@ -46,34 +36,23 @@ assign vtt_bzh = project %} {% endif %} {% endfor %}
 <section class="c-section c-section--primary">
   <h2>Du MVP à l'automatisation.</h2>
   <p>
-    Vous êtes une startup ou une PME ? Vous voulez créer votre MVP pour toucher
-    vos premiers utilisateur. Vous avez peut-être déjà trouvé votre Product
-    Market Fit ou avez besoin de scaler pour suivre votre growth ?
+    Vous êtes une startup ou une PME ? Vous voulez créer votre MVP pour toucher vos premiers utilisateur. Vous avez peut-être déjà trouvé votre Product Market Fit ou avez besoin de
+    scaler pour suivre votre growth ?
   </p>
 
+  <p>J'écris du HTML, CSS et JavaScript, et je prends soin de créer une expérience utilisateur agréable et accessible sur le web.</p>
   <p>
-    J'écris du HTML, CSS et JavaScript, et je prends soin de créer une
-    expérience utilisateur agréable et accessible sur le web.
-  </p>
-  <p>
-    Mon expertise de la stack de programmation Javascript, de son ecosytème et
-    de ses frameworks (ex: NodeJS, AngularJS, VueJS, ...) me permettent de
-    réaliser les développements front-end et back-end de votre application web.
+    Mon expertise de la stack de programmation Javascript, de son ecosytème et de ses frameworks (ex: NodeJS, AngularJS, VueJS, ...) me permettent de réaliser les développements
+    front-end et back-end de votre application web.
   </p>
 
-  <p>
-    Ils me permettent de vous donner les clefs pour réussir le développement de
-    votre projet SAAS.
-  </p>
+  <p>Ils me permettent de vous donner les clefs pour réussir le développement de votre projet SAAS.</p>
 
-  <a href="{{ site.data.config.url }}/about.html" rel="me" class="c-button c-button--dark"
-    >En savoir plus sur moi <span class="fas fa-arrow-right ml-2"></span
-  ></a>
+  <a href="{{ site.data.config.url }}/about.html" rel="me" class="c-button c-button--dark">En savoir plus sur moi <span class="fas fa-arrow-right ml-2"></span></a>
 
   <!-- technologies -->
   <ul class="c-icons-list">
-    {% for technologie in site.data.technologies limit:10 %} {% if
-    technologie.profile == true %}
+    {% for technologie in site.data.technologies limit:10 %} {% if technologie.profile == true %}
 
     <li class="c-icons-list__element">
       <i class="{{technologie.fontawesome}} fa-3x "></i>
@@ -91,27 +70,17 @@ assign vtt_bzh = project %} {% endif %} {% endfor %}
   <div class="u-grid">
     <div class="u-grid__col-4">
       <p>
-        J'expérimente moi-même énormément sur des side-projects avec un état
-        d'esprit "fake it until you make it". Mon side project phare: vtt.bzh à
-        compter jusqu'à <strong>10 000 visiteurs mensuel</strong>. Le lean
-        startup et le Design Thinking sont des leviers puissants. Tous mes
-        projets sont réalisés avec amour et passion.
+        J'expérimente moi-même énormément sur des side-projects avec un état d'esprit "fake it until you make it". Mon side project phare: vtt.bzh à compter jusqu'à
+        <strong>10 000 visiteurs mensuel</strong>. Le lean startup et le Design Thinking sont des leviers puissants. Tous mes projets sont réalisés avec amour et passion.
       </p>
 
-      <a href="{{ site.data.config.url }}/about.html" class="c-button c-button--primary"
-        >Découvrir mon travail <span class="fas fa-arrow-right ml-2"></span
-      ></a>
+      <a href="{{ site.data.config.url }}/about.html" class="c-button c-button--primary">Découvrir mon travail <span class="fas fa-arrow-right ml-2"></span></a>
     </div>
 
     <div class="u-grid__col-8">
-      <img
-      src="/images/projets/ext-6.png"
-      alt="vtt.bzh"
-      />
+      <img src="/images/projets/ext-6.png" alt="vtt.bzh" />
       <h3 class="c-section__title c-section__title--center">
-        <a href="portfolio/project/vtt-bzh.html"
-          >vtt.bzh</a
-        >
+        <a href="portfolio/project/vtt-bzh.html">vtt.bzh</a>
       </h3>
     </div>
   </div>
@@ -123,17 +92,9 @@ assign vtt_bzh = project %} {% endif %} {% endfor %}
 <section class="c-section">
   <h2 class="h1 mb-5">Stories.</h2>
 
-  <div class="c-section__post-list">
-    {% for post in site.posts limit:3 %} {% include boxes/post.html
-    class="col-lg-4" %} {% endfor %}
-  </div>
+  <div class="c-section__post-list">{% for post in site.posts limit:3 %} {% include boxes/post.html class="col-lg-4" %} {% endfor %}</div>
 
   <div class="c-section__cta c-section__cta--center">
-    <a
-      href="/stories.html"
-      class="c-button c-button--primary"
-    >
-      Voir plus de stories <span class="fas fa-arrow-right ml-2"></span>
-    </a>
+    <a href="/stories.html" class="c-button c-button--primary"> Voir plus de stories <span class="fas fa-arrow-right ml-2"></span> </a>
   </div>
 </section>
