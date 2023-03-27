@@ -1,6 +1,8 @@
 node_modules
+dist
 _site
 .sass-cache
 .jekyll-metadata
 .env
 .DS_Store
+.turbo

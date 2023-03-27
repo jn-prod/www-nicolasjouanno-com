@@ -1,0 +1,38 @@
+{% assign author = site.data.authors[post.author] %}
+<article class="c-post-card" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <a href="{{ post.url | absolute_url }}">
+    {% if post.image %} <img class="c-post-card__image" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{
+    post.title }}" itemprop="image thumbnailUrl"> {% endif %}
+  </a>
+  <div class="c-post-card__content">
+    <h2 itemprop="headline" class="c-post-card__headline">
+      <a class="c-post-card__title" href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+    </h2>
+    <meta itemprop="url mainEntityOfPage" content="{{ site.data.config.url}}{{post.url }}" />
+    <section itemprop="articleBody" class="c-post-card__tags">
+      {% for category in post.categories %}
+      <h3 class="c-post-card__tag">#{{ category }}</h3>
+      {% endfor %}
+    </section>
+    <section>{{ post.excerpt | strip_html | truncatewords:30 }}</section>
+  </div>
+  <footer class="c-post-card__footer">
+    <div class="c-post-card__author">
+      <img class="c-post-card__avatar" src="{{ author.avatar }}" alt="{{ author.display_name }}" />
+      <meta itemprop="author creator" content="{{ author.display_name }}" />
+      <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <span itemprop="name">{{ author.display_name }}</span>
+        <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+          <meta itemprop="url" content="{{ site.data.config.url }}/{{ site.logo }}" />
+          <meta itemprop="width" content="60" />
+          <meta itemprop="height" content="60" />
+        </span>
+        <meta itemprop="url" content="{{site.data.config.url}}" />
+        <div class="c-post-card__post-date" itemprop="dateCreated datePublished dateModified">{{ post.date | date_to_string }}</div>
+      </div>
+    </div>
+    <a target="_blank" href="{{ author.linkedin }} " rel="me">
+      <span class="fab fa-linkedin fa-2x c-post-card__social"></span>
+    </a>
+  </footer>
+</article>

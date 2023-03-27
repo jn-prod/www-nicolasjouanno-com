@@ -1,0 +1,36 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "🚀 this client boilerplate include: Webpack, ES6+, typescript, babel, eslint, prettier, SASS, jest.",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "author": "mwieth",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "run-s lint:es lint:prettier",
+    "lint:fix": "run-s lint:es:fix lint:prettier:fix",
+    "lint:es": "eslint src/**/*.{js,ts,tsx}",
+    "lint:es:fix": "eslint src/**/*.{js,ts,tsx} --fix",
+    "lint:prettier": "prettier --check **/*.{css,scss,html,mdx,json}",
+    "lint:prettier:fix": "prettier --write **/*.{css,scss,html,mdx,json}"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "npm-run-all": "^4.1.5",
+    "sass": "latest",
+    "jest": "latest",
+    "eslint": "8",
+    "eslint-config-jnprod": "latest",
+    "prettier": "latest"
+  }
+}
