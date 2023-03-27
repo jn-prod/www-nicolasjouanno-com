@@ -1,44 +1,43 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Build and deploy site to GitHub Pages
 
 on:
   push:
     branches:
-      - main # or master before October 2020
+      - main
 
 jobs:
-  jekyll:
+  deploy:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18]
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Cache node modules
-      uses: actions/cache@v2
+    - uses: actions/checkout@v3
+    - name: Use ruby
+      uses: ruby/setup-ruby@v1
       with:
-        path: node_modules
-        key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.OS }}-build-
-          ${{ runner.OS }}-
-
-    - name: Install
-      run: npm ci
-
-    # - name: Lint
-    #   run: npm run client:lint
-
+        ruby-version: '2.5'
+        bundler-cache: true
+    - name: Use pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: 7
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'pnpm'
+    - name: Install node dependencies
+      run: pnpm install
+    - name: Install ruby dependencies
+      run: cd ./site/www && bundle install && cd ../..
+    - name: Lint
+      run: pnpm lint
     - name: Build
-      run: npm run client:build
-
-    # Use GitHub Actions' cache to shorten build times and decrease load on servers
-    - uses: actions/cache@v2
+      run: pnpm prod
+    - name: Deploy GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
-
-    # Standard usage
-    - uses:  helaili/jekyll-action@v2
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        jekyll_src: 'www'
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+        cname: www.nicolasjouanno.com
