@@ -17,7 +17,8 @@
     "prod": "run-s build bundle-packages",
     "lint": "turbo lint",
     "lint:fix": "turbo lint:fix",
-    "bundle-packages": "rm -rf ./dist && cp -R ./site/www/_site/ ./dist && cp -R ./packages/client/dist/assets/ ./dist/assets "
+    "clean-dist": "rm ./dist/package.json && rm ./dist/CHANGELOG.md",
+    "bundle-packages": "rm -rf ./dist && cp -R ./site/www/_site/ ./dist && cp -R ./packages/client/dist/assets/ ./dist/assets && pnpm clean-dist"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
