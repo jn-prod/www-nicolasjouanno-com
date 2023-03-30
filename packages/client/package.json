@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "🚀 this client boilerplate include: Webpack, ES6+, typescript, babel, eslint, prettier, SASS, jest.",
   "main": "dist/index.js",
   "module": "src/index.js",
