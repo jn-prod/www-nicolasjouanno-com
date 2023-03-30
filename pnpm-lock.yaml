@@ -51,7 +51,7 @@ importers:
       eslint: 8.36.0
       eslint-config-jnprod: 1.1.1_iyvj6y5rr7tba4p7i7r5ucbrie
       npm-run-all: 4.1.5
-      prettier: 2.8.6
+      prettier: 2.8.7
 
 packages:
 
@@ -2142,7 +2142,7 @@ packages:
       '@typescript-eslint/parser': 5.56.0_eslint@8.36.0
       eslint: 8.36.0
       npm-run-all: 4.1.5
-      prettier: 2.8.6
+      prettier: 2.8.7
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3877,12 +3877,6 @@ packages:
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
-    dev: true
-
-  /prettier/2.8.6:
-    resolution: {integrity: sha512-mtuzdiBbHwPEgl7NxWlqOkithPyp4VN93V7VeHVWBF+ad3I5avc0RVDT4oImXQy9H/AqxA2NSQH8pSxHW6FYbQ==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
     dev: true
 
   /prettier/2.8.7:
