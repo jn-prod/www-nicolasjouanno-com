@@ -12,9 +12,10 @@
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
+    "build:prod": "run-s build bundle-packages",
+    "build:preview": "python3 -m http.server -d ./dist",
     "change": "changeset",
     "release": "changeset version",
-    "prod": "run-s build bundle-packages",
     "lint": "turbo lint",
     "lint:fix": "turbo lint:fix",
     "clean-dist": "rm ./dist/package.json && rm ./dist/CHANGELOG.md",
