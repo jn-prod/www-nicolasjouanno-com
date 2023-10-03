@@ -39,49 +39,7 @@
     <link rel="icon" type="image/png" href="{{ site.data.config.url }}/images/brand/favicon-32x32.png" sizes="32x32" />
 
     <!-- style -->
-    {% if site.data.config.url == "http://localhost:4000" %}
-
-    <link href="http://localhost:8080/style.css" rel="stylesheet" />
-
-    {% else %}
-
-    <link href="{{ site.data.config.url }}/assets/style.css" rel="stylesheet" />
-
-    <!-- GA script -->
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        (i[r] =
-          i[r] ||
-          function () {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-      ga('create', '{{site.google_analytics}}', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ 'gtm.start': new Date().getTime(), 'event': 'gtm.js' });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-TCGTN6W');
-    </script>
-
-    {% endif %}
+    <link href="/assets/index.css" rel="stylesheet" />
 
     <!-- rss -->
     <link id="feedLink" rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.data.config.url }}/feed.xml" />
@@ -165,20 +123,13 @@
   <!-- body -->
   {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
   <body class="c-layout c-layout--{{ layout }}" itemscope itemtype="http://schema.org/WebPage">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCGTN6W" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
-
     <header role="banner" class="c-layout__header">
-      <nav role="navigation" class="c-navigation">
+      <nav role="navigation" class="c-navigation c-navigation--main">
         <a href="{{ site.data.config.url }}" class="c-navigation__title"> {{ site.data.config.title }} </a>
 
         <ul class="c-navigation__link-list">
           <li class="c-navigation__link-list-element">
             <a class="c-button {% if page.url == '/about.html' %}c-button--active{% endif %}" href="{{ site.data.config.url }}/about.html">Work</a>
-          </li>
-
-          <li class="c-navigation__link-list-element">
-            <a class="c-button {% if page.url == '/results.html' %}c-button--active{% endif %}" href="{{ site.data.config.url }}/results.html">Sport</a>
           </li>
 
           <li class="c-navigation__link-list-element">
@@ -229,6 +180,9 @@
             <a href="{{ site.data.config.url }}/stories.html" class="c-button">Blog</a>
           </li>
           <li class="c-navigation__link-list-element">
+            <a href="{{ site.data.config.url }}/results.html" class="c-button">Sport</a>
+          </li>
+          <li class="c-navigation__link-list-element">
             <a href="{{ site.data.config.url }}/academy.html" class="c-button">Ressources</a>
           </li>
           <li class="c-navigation__link-list-element">
@@ -255,10 +209,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    {% if site.data.config.url == "http://localhost:4000" %}
-    <script src="http://localhost:8080/main.js" async></script>
-    {% else %}
-    <script src="{{ site.data.config.url }}/assets/main.js" async></script>
-    {% endif %}
+    <script src="/assets/index.js" async></script>
   </body>
 </html>
