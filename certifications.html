@@ -32,45 +32,7 @@
     <link rel="icon" type="image/png" href="https://nicolasjouanno.com/images/brand/favicon-32x32.png" sizes="32x32" />
 
     <!-- style -->
-    
-
-    <link href="https://nicolasjouanno.com/assets/style.css" rel="stylesheet" />
-
-    <!-- GA script -->
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        (i[r] =
-          i[r] ||
-          function () {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-      ga('create', '', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ 'gtm.start': new Date().getTime(), 'event': 'gtm.js' });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-TCGTN6W');
-    </script>
-
-    
+    <link href="/assets/index.css" rel="stylesheet" />
 
     <!-- rss -->
     <link id="feedLink" rel="alternate" type="application/rss+xml" title="RSS" href="https://nicolasjouanno.com/feed.xml" />
@@ -146,20 +108,13 @@
   <!-- body -->
   
   <body class="c-layout c-layout--layout-page" itemscope itemtype="http://schema.org/WebPage">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCGTN6W" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
-
     <header role="banner" class="c-layout__header">
-      <nav role="navigation" class="c-navigation">
+      <nav role="navigation" class="c-navigation c-navigation--main">
         <a href="https://nicolasjouanno.com" class="c-navigation__title"> Nicolas Jouanno </a>
 
         <ul class="c-navigation__link-list">
           <li class="c-navigation__link-list-element">
             <a class="c-button " href="https://nicolasjouanno.com/about.html">Work</a>
-          </li>
-
-          <li class="c-navigation__link-list-element">
-            <a class="c-button " href="https://nicolasjouanno.com/results.html">Sport</a>
           </li>
 
           <li class="c-navigation__link-list-element">
@@ -382,6 +337,9 @@
             <a href="https://nicolasjouanno.com/stories.html" class="c-button">Blog</a>
           </li>
           <li class="c-navigation__link-list-element">
+            <a href="https://nicolasjouanno.com/results.html" class="c-button">Sport</a>
+          </li>
+          <li class="c-navigation__link-list-element">
             <a href="https://nicolasjouanno.com/academy.html" class="c-button">Ressources</a>
           </li>
           <li class="c-navigation__link-list-element">
@@ -408,8 +366,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    
-    <script src="https://nicolasjouanno.com/assets/main.js" async></script>
-    
+    <script src="/assets/index.js" async></script>
   </body>
 </html>
