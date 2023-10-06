@@ -24,9 +24,9 @@ a {
   color: var(--color-primary);
 }
 
-$hN: 1, 2, 3, 4, 5, 6;
+$h-n: 1, 2, 3, 4, 5, 6;
 
-@each $n in $hN {
+@each $n in $h-n {
   h#{$n} {
     font-weight: normal;
   }

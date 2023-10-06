@@ -1,0 +1,17 @@
+$sizes: 2, 3;
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  fill: var(--icon-color, currentColor);
+
+  @each $size in $sizes {
+    &.icon--x#{$size} {
+      width: calc(var(--icon-size) * $size);
+      height: calc(var(--icon-size) * $size);
+    }
+  }
+}

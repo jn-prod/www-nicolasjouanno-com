@@ -2,8 +2,8 @@ nicolas:
     # global
     name             : "Nicolas"
     display_name     : "Nicolas Jouanno"
-    current_job      : "Développeur Full-Stack JS @mgdis"
-    bio              : "Développeur Full-Stack JS & ex-cycliste professionnel - Quand je ne suis pas avec ma famille, je passe mon temps à faire du sport, écrire, coder, apprendre ..."
+    current_job      : "Développeur front-end JS @mgdis"
+    bio              : "Développeur front-end JS & ex-cycliste professionnel - Quand je ne suis pas avec ma famille, je passe mon temps à faire du sport, écrire, coder, apprendre ..."
     age              : "33 ans"
     fone             : "06.63.45.29.38"
     passions         : "Sports outdoor, Photographie, Jardinage"
