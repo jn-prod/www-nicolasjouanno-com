@@ -6,17 +6,16 @@ $card-border-radius: 1rem;
   display: flex;
   flex-direction: column;
   margin: 2rem;
+  padding: 2rem;
   box-shadow: 0 0.5rem 1rem #00000080;
   border-radius: $card-border-radius;
   &__content {
     flex: 1 1 auto;
-    padding: 1.5rem 1rem;
   }
   &__footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
   }
   &__headline {
     margin: 0 0 1rem 0;
@@ -68,5 +67,6 @@ $card-border-radius: 1rem;
 @media screen and (max-width: 900px) {
   .c-post-card {
     flex-wrap: wrap;
+    margin: 0;
   }
 }

@@ -1,81 +1,66 @@
 # technologies
-- name: "JAVASCRIPT 5"
+- name: "Javascript"
   url: 
-  fontawesome: "fab fa-js"
+  icon: "icon icon--js"
   description: "Language de script"
+  profile: true
+- name: "Typescript"
+  url: 
+  icon: "icon icon--ts"
+  description: "Langage de programmation"
+  profile: true
+- name: "Rust"
+  url: 
+  icon: "icon icon--rust"
+  description: "Langage de programmation"
   profile: true
 - name: "VueJS"
   url: 
-  fontawesome: "fab fa-vuejs"
+  icon: "icon icon--vuejs"
   description: "Librairie Javascript"
   profile: true
 - name: "ReactJS"
   url: 
-  fontawesome: "fab fa-react"
+  icon: "icon icon--react"
   description: "Librairie Javascript"
   profile: true
 - name: "NODE JS"
   url: 
-  fontawesome: "fab fa-node"
+  icon: "icon icon--node"
   description: "Framework Javascript"
-  profile: true
-- name: "Typescript"
-  url: 
-  fontawesome: "fab fa-ts"
-  description: "Langage de programmation"
-  profile: false
-- name: "Rust"
-  url: 
-  fontawesome: "fab fa-rust"
-  description: "Langage de programmation"
-  profile: true
-- name: "MONGO DB"
-  url: 
-  icon: "mongodb.png"
-  description: "Base de données"
-  profile: false
-- name: "BOOTSTRAP"
-  url: 
-  icon: "bootstrap.png"
-  description: "Framework Front-End"
   profile: false
 - name: "HTML 5"
   url: 
-  fontawesome: "fab fa-html5"
+  icon: "icon icon--html5"
   description: "HyperText Markup Language"
   profile: true
 - name: "CSS 3"
   url: 
-  fontawesome: "fab fa-css3-alt"
+  icon: "icon icon--css3"
   description: "Feuilles de style"
   profile: true
-- name: "WEBPACK"
+- name: "SASS"
   url: 
-  icon: "webpack.png"
-  description: "Compileur Javascript"
-  profile: false
-- name: "JEKYLL"
-  url: 
-  icon: "jekyll.png"
-  description: "Gestion de contenu"
-  profile: false
+  icon: "icon icon--sass"
+  description: "Feuilles de style"
+  profile: true
 - name: "GIT & GITHUB"
   url: 
-  fontawesome: "fab fa-github"
+  icon: "icon icon--github"
   description: "Gestion de projet / versionning"
-  profile: true
+  profile: false
 - name: "AWS"
   url: 
-  fontawesome: "fab fa-aws"
+  icon: "icon icon--aws"
   description: "Hébergement"
   profile: true
 - name: "JIRA"
   url: 
-  fontawesome: "fab fa-jira"
+  icon: "icon icon--jira"
   description: "Gestion de projet"
   profile: false
 - name: "FIGMA"
   url: 
-  fontawesome: "fab fa-figma"
+  icon: "icon icon--figma"
   description: "Design / Wireframe"
   profile: false
