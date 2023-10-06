@@ -15,7 +15,7 @@ seo_description: "Développeur frontend. Je travail sur les design-system, je jo
 
 <!-- Header
 ================================================== -->
-<section id="cta" class="c-section c-section--main">
+<section id="cta" class="c-section c-section--main c-section--row">
   <div class="c-section__text">
     <h1 class="c-section__title">Je conçois l'interface web pensée avec votre équipe design dans le soucie de l'expérience utilisateur.</h1>
 
@@ -55,14 +55,14 @@ seo_description: "Développeur frontend. Je travail sur les design-system, je jo
 
   <p>Ils me permettent de vous donner les clefs pour réussir le développement de votre projet SAAS.</p>
 
-  <a href="{{ site.data.config.url }}/about.html" rel="me" class="c-button c-button--dark">En savoir plus sur moi <span class="fas fa-arrow-right ml-2"></span></a>
+  <a href="{{ site.data.config.url }}/about.html" rel="me" class="c-button c-button--dark">En savoir plus sur moi <span class="icon icon--arrow-right"></span></a>
 
   <!-- technologies -->
   <ul class="c-icons-list">
     {% for technologie in site.data.technologies limit:10 %} {% if technologie.profile == true %}
 
     <li class="c-icons-list__element">
-      <i class="{{technologie.fontawesome}} fa-3x "></i>
+      <i class="{{technologie.icon}} icon--x3"></i>
     </li>
 
     {% endif %} {% endfor %}
@@ -81,7 +81,7 @@ seo_description: "Développeur frontend. Je travail sur les design-system, je jo
         <strong>10 000 visiteurs mensuel</strong>. Le lean startup et le Design Thinking sont des leviers puissants. Tous mes projets sont réalisés avec amour et passion.
       </p>
 
-      <a href="{{ site.data.config.url }}/about.html" class="c-button c-button--primary">Découvrir mon travail <span class="fas fa-arrow-right ml-2"></span></a>
+      <a href="{{ site.data.config.url }}/about.html" class="c-button c-button--primary">Découvrir mon travail <span class="icon icon--arrow-right"></span></a>
     </div>
 
     <div class="u-grid__col-8">
@@ -102,6 +102,6 @@ seo_description: "Développeur frontend. Je travail sur les design-system, je jo
   <div class="c-section__post-list">{% for post in site.posts limit:3 %} {% include boxes/post.html class="col-lg-4" %} {% endfor %}</div>
 
   <div class="c-section__cta c-section__cta--center">
-    <a href="/stories.html" class="c-button c-button--primary"> Voir plus de stories <span class="fas fa-arrow-right ml-2"></span> </a>
+    <a href="/stories.html" class="c-button c-button--primary"> Voir plus de stories <span class="icon icon--arrow-right"></span> </a>
   </div>
 </section>

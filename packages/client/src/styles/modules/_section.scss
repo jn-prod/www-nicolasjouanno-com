@@ -13,11 +13,13 @@ $variants: 'primary', 'secondary', 'dark', 'light';
 
 .c-section {
   padding: $section-padding;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   &__title.c-section__title--center {
     text-align: center;
   }
   &__cta {
-    margin: 2rem 0;
     display: flex;
     &--center {
       justify-content: center;
@@ -37,6 +39,9 @@ $variants: 'primary', 'secondary', 'dark', 'light';
       font-size: calc(var(--font-size) * 3);
       line-height: calc(var(--line-height) * 3);
     }
+  }
+  &.c-section--row {
+    flex-direction: row;
   }
   @include section-variantes($variants);
 }

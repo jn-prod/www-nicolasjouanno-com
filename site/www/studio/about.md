@@ -18,7 +18,7 @@ permalink: "/about.html"
   technologie.profile == true %}
 
   <li class="c-icons-list__element">
-    <i class="{{technologie.fontawesome}} fa-3x "></i>
+    <i class="{{technologie.icon}} icon--x3 "></i>
   </li>
 
   {% endif %} {% endfor %}

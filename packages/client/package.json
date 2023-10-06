@@ -24,13 +24,14 @@
     "@types/jest": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
-    "typescript": "latest",
-    "vite": "latest",
     "npm-run-all": "^4.1.5",
-    "sass": "latest",
-    "jest": "latest",
+    "icons": "workspace:*",
     "eslint": "8",
     "eslint-config-jnprod": "latest",
-    "prettier": "latest"
+    "jest": "latest",
+    "prettier": "latest",
+    "sass": "latest",
+    "typescript": "latest",
+    "vite": "latest"
   }
 }

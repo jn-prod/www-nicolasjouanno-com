@@ -56,12 +56,15 @@ $section-padding: 2rem 6rem;
 
 @media screen and (max-width: 900px) {
   .c-layout:not(.c-layout--layout-default) .c-layout__content {
-    padding: 2rem 5rem;
+    padding: 2rem;
   }
   .c-layout__legals {
     flex-direction: column;
     &:first-child {
       order: 1;
     }
+  }
+  .c-layout__footer {
+    padding-bottom: 5rem;
   }
 }
