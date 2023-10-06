@@ -2,30 +2,34 @@ $card-border-radius: 1rem;
 
 .c-post-card {
   flex: 1;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   display: flex;
-  flex-direction: column;
   margin: 2rem;
   padding: 2rem;
   box-shadow: 0 0.5rem 1rem #00000080;
   border-radius: $card-border-radius;
+
   &__content {
     flex: 1 1 auto;
   }
+
   &__footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   &__headline {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1rem;
   }
+
   &__title {
     color: var(--color-dark);
     text-decoration: none;
     font-size: calc(var(--font-size) * 1.5);
     line-height: calc(var(--line-height) * 1.2);
   }
+
   &__image {
     object-fit: cover;
     width: 100%;
@@ -34,12 +38,14 @@ $card-border-radius: 1rem;
     border-top-left-radius: $card-border-radius;
     border-top-right-radius: $card-border-radius;
   }
+
   &__avatar {
     width: 4rem;
     height: 4rem;
     border-radius: 100%;
     vertical-align: top;
   }
+
   &__tags {
     display: flex;
     flex-wrap: wrap;
@@ -47,24 +53,28 @@ $card-border-radius: 1rem;
     margin: 2rem 0;
     justify-content: center;
   }
+
   &__tag {
     margin: 0;
     color: var(--color-primary);
   }
+
   &__author {
     display: flex;
     align-items: center;
   }
+
   &__post-date {
     font-size: calc(var(--font-size) * 0.8);
     color: var(--color-dark-light);
   }
+
   &__social {
     color: var(--color-dark-light);
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (width <= 900px) {
   .c-post-card {
     flex-wrap: wrap;
     margin: 0;

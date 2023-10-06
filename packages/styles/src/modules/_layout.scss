@@ -6,9 +6,11 @@ $section-padding: 2rem 6rem;
     margin-bottom: 2rem;
     box-shadow: 0 1rem 1rem 0 #343a4040;
   }
+
   &__footer {
     --font-size: 1.4rem;
     --line-height: 1.5rem;
+
     margin-top: 2rem;
     box-shadow: 0 -1rem 1rem 0 #343a4040;
   }
@@ -22,6 +24,7 @@ $section-padding: 2rem 6rem;
 .c-layout.c-layout--layout-project {
   h2 {
     padding: 3rem 0;
+
     &:first-of-type {
       padding: 4rem;
       margin: 5rem 0;
@@ -47,6 +50,7 @@ $section-padding: 2rem 6rem;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+
   & > * {
     display: flex;
     align-items: center;
@@ -54,16 +58,19 @@ $section-padding: 2rem 6rem;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (width <= 900px) {
   .c-layout:not(.c-layout--layout-default) .c-layout__content {
     padding: 2rem;
   }
+
   .c-layout__legals {
     flex-direction: column;
+
     &:first-child {
       order: 1;
     }
   }
+
   .c-layout__footer {
     padding-bottom: 5rem;
   }

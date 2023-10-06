@@ -2,6 +2,7 @@ $grid-columns: 12;
 
 @function col-width($i) {
   $width: calc((#{$i} * 100 / #{$grid-columns}) * 1% - 1%);
+
   @return #{$width};
 }
 
@@ -26,8 +27,9 @@ $grid-columns: 12;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 @include col($grid-columns, $mobile: false);
 
-@media screen and (max-width: 900px) {
+@media screen and (width <= 900px) {
   @include col($grid-columns, $mobile: true);
 }
