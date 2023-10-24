@@ -11,22 +11,18 @@
   "homepage": "https://nicolasjouanno.com",
   "scripts": {
     "dev": "turbo dev",
-    "build": "turbo build",
-    "build:prod": "run-s build bundle-packages",
+    "build": "turbo build && ./scripts/bundle.sh",
     "build:preview": "python3 -m http.server -d ./dist",
     "change": "changeset",
     "release": "changeset version",
     "lint": "turbo lint",
-    "lint:fix": "turbo lint:fix",
-    "clean-dist": "rm ./dist/package.json && rm ./dist/CHANGELOG.md",
-    "bundle-packages": "rm -rf ./dist && cp -R ./site/www/_site/ ./dist && cp -R ./packages/client/dist/assets/ ./dist/assets && pnpm clean-dist"
+    "lint:fix": "turbo lint:fix"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
     "eslint": "8",
     "eslint-config-jnprod": "latest",
     "prettier": "latest",
-    "npm-run-all": "^4.1.5",
     "turbo": "latest"
   }
 }

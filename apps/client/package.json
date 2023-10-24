@@ -1,8 +1,8 @@
 {
   "name": "client",
   "version": "2.0.1",
-  "description": "🚀 this client boilerplate include: Webpack, ES6+, typescript, babel, eslint, prettier, SASS, jest.",
-  "main": "dist/index.js",
+  "description": "Bundle client packages",
+  "main": "dist/assets/index.js",
   "module": "src/index.js",
   "author": "mwieth",
   "license": "MIT",
@@ -10,23 +10,21 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "run-s lint:es lint:prettier",
-    "lint:fix": "run-s lint:es:fix lint:prettier:fix",
+    "lint": "pnpm lint:es && pnpm lint:prettier",
+    "lint:fix": "pnpm lint:es:fix && pnpm lint:prettier:fix",
     "lint:es": "eslint src/**/*.{js,ts,tsx}",
     "lint:es:fix": "eslint src/**/*.{js,ts,tsx} --fix",
     "lint:prettier": "prettier --check src/**/*.{ts,js,css,html,mdx,json}",
     "lint:prettier:fix": "prettier --write src/**/*.{ts,js,css,html,mdx,json}"
   },
   "dependencies": {
-    "styles": "workspace:*"
+    "styles": "workspace:*",
+    "icons": "workspace:*"
   },
   "devDependencies": {
-    "@types/jest": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
     "eslint": "8",
-    "icons": "workspace:*",
-    "jest": "latest",
     "typescript": "latest",
     "vite": "latest"
   }
