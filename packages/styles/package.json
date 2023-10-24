@@ -5,8 +5,8 @@
   "scripts": {
     "build": "sass src:dist --style=compressed",
     "dev": "sass src:dist --watch",
-    "lint": "run-s lint:stylelint lint:prettier",
-    "lint:fix": "run-s lint:stylelint:fix lint:prettier:fix",
+    "lint": "pnpm lint:stylelint && pnpm lint:prettier",
+    "lint:fix": "pnpm lint:stylelint:fix && pnpm lint:prettier:fix",
     "lint:stylelint": "stylelint \"./src/**/*.scss\"",
     "lint:stylelint:fix": "stylelint \"./src/**/*.scss\" --fix",
     "lint:prettier": "prettier --check **/*.{scss,html}",
