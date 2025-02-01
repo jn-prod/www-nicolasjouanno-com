@@ -9,7 +9,7 @@
     "lint:prettier:fix": "prettier --write **/*.{css,scss,html,mdx,json}"
   },
   "devDependencies": {
-    "eslint": "8",
+    "eslint": "9",
     "eslint-config-jnprod": "latest",
     "prettier": "latest"
   }
