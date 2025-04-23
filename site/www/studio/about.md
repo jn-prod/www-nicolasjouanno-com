@@ -53,7 +53,7 @@ Vous développez une <a href="/offres/site-applicatif.html">application mobile</
   <article id="{{ project.name }}" class="u-grid">
     <div class="u-grid__col-6">
       <h3>
-        <a href="{{ project.url }}">{{ project.name }}</a>
+        <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
       </h3>
       <img
         src="{{ project.images[0] }}"
