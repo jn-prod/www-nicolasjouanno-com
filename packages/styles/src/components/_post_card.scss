@@ -6,7 +6,7 @@ $card-border-radius: 1rem;
   display: flex;
   margin: 2rem;
   padding: 2rem;
-  box-shadow: 0 0.5rem 1rem #00000080;
+  border: solid var(--color-dark-light);
   border-radius: $card-border-radius;
 
   &__content {
