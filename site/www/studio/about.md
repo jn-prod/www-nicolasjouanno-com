@@ -40,32 +40,15 @@ permalink: "/about.html"
 <!-- About
 ================================================== -->
 
-<section class="c-section c-section--primary">
-  <h2>Du MVP à l'automatisation.</h2>
-  <p>
-    Vous êtes une startup ou une PME ? Vous voulez créer votre MVP pour toucher vos premiers utilisateur. Vous avez peut-être déjà trouvé votre Product Market Fit ou avez besoin de
-    scaler pour suivre votre growth ?
-  </p>
+## Du MVP à l'automatisation.
 
-  <p>J'écris du HTML, CSS et JavaScript, et je prends soin de créer une expérience utilisateur agréable et accessible sur le web.</p>
-  <p>
-    Mon expertise de la stack de programmation Javascript, de son ecosytème et de ses frameworks (ex: NodeJS, AngularJS, VueJS, ...) me permettent de réaliser les développements
-    front-end et back-end de votre application web.
-  </p>
+Vous êtes une startup ou une PME ? Vous voulez créer votre MVP pour toucher vos premiers utilisateur. Vous avez peut-être déjà trouvé votre Product Market Fit ou avez besoin de scaler pour suivre votre growth ?
 
-  <p>Ils me permettent de vous donner les clefs pour réussir le développement de votre projet SAAS.</p>
+J'écris du HTML, CSS et JavaScript, et je prends soin de créer une expérience utilisateur agréable et accessible sur le web.
 
-  <!-- technologies -->
-  <ul class="c-icons-list">
-    {% for technologie in site.data.technologies limit:10 %} {% if technologie.profile == true %}
+Mon expertise de la stack de programmation Javascript, de son ecosytème et de ses frameworks (ex: NodeJS, AngularJS, VueJS, ...) me permettent de réaliser les développements front-end et back-end de votre application web.
 
-    <li class="c-icons-list__element">
-      <i class="{{technologie.icon}} icon--x3"></i>
-    </li>
-
-    {% endif %} {% endfor %}
-  </ul>
-</section>
+Ils me permettent de vous donner les clefs pour réussir le développement de votre projet SAAS.
 
 <!-- technologies -->
 <ul class="c-icons-list">
