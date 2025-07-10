@@ -30,8 +30,7 @@ $variants: 'primary', 'secondary', 'dark', 'light';
 
   &__post-list {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     align-items: stretch;
     list-style:none;
     gap: 1rem;
