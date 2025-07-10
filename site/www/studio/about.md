@@ -10,7 +10,62 @@ summary: "Développeur frontend et créateur d'interfaces qui plaisent a vos uti
 permalink: "/about.html"
 ---
 
-# Je développe des interfaces accessibles pour vos utilisateurs.
+<!-- set vtt_bzh variable -->
+{% for project in site.data.projects %} {% if project.name == 'vtt.bzh' %} {% assign vtt_bzh = project %} {% endif %} {% endfor %}
+
+<!-- Header
+================================================== -->
+<section id="cta" class="c-section c-section--main c-section--row">
+  <div class="c-section__text">
+    <h1 class="c-section__title">Je conçois l'interface web pensée avec votre équipe design dans le soucie de l'expérience utilisateur.</h1>
+
+    <p>
+      Moi c'est
+      <a href="{{ site.data.config.url }}/about.html" rel="me">Nicolas Jouanno</a>, Lead front-end @MGDIS. Je conçois un design-system et travail sur l'outillage pour des micro frontends.
+    </p>
+    <p>
+      Je suis attentif à l'accessibilité et à l'éco-conception.
+    </p>
+    <p>
+      Je joue avec la JAM Stack et je m'intéresse a WASM.
+    </p>
+    <p>
+      Créateur de <a href="{{ vtt_bzh.url }}" target="_blank">vtt.bzh</a>.
+    </p>
+  </div>
+
+  <img class="c-section__image" src="{{ site.data.authors.nicolas.avatar }}" alt="{{ site.data.authors.nicolas.display_name }}" />
+</section>
+
+<!-- About
+================================================== -->
+
+<section class="c-section c-section--primary">
+  <h2>Du MVP à l'automatisation.</h2>
+  <p>
+    Vous êtes une startup ou une PME ? Vous voulez créer votre MVP pour toucher vos premiers utilisateur. Vous avez peut-être déjà trouvé votre Product Market Fit ou avez besoin de
+    scaler pour suivre votre growth ?
+  </p>
+
+  <p>J'écris du HTML, CSS et JavaScript, et je prends soin de créer une expérience utilisateur agréable et accessible sur le web.</p>
+  <p>
+    Mon expertise de la stack de programmation Javascript, de son ecosytème et de ses frameworks (ex: NodeJS, AngularJS, VueJS, ...) me permettent de réaliser les développements
+    front-end et back-end de votre application web.
+  </p>
+
+  <p>Ils me permettent de vous donner les clefs pour réussir le développement de votre projet SAAS.</p>
+
+  <!-- technologies -->
+  <ul class="c-icons-list">
+    {% for technologie in site.data.technologies limit:10 %} {% if technologie.profile == true %}
+
+    <li class="c-icons-list__element">
+      <i class="{{technologie.icon}} icon--x3"></i>
+    </li>
+
+    {% endif %} {% endfor %}
+  </ul>
+</section>
 
 <!-- technologies -->
 <ul class="c-icons-list">
