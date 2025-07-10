@@ -30,6 +30,7 @@ $variants: 'primary', 'secondary', 'dark', 'light';
 
   &__post-list {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: stretch;
     gap: 1rem;
@@ -56,10 +57,6 @@ $variants: 'primary', 'secondary', 'dark', 'light';
 @media screen and (width <= 900px) {
   .c-section {
     padding: 2rem;
-
-    &__post-list {
-      flex-direction: column;
-    }
   }
 
   .c-section--main.c-section {
