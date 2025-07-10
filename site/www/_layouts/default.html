@@ -129,11 +129,7 @@
 
         <ul class="c-navigation__link-list">
           <li class="c-navigation__link-list-element">
-            <a class="c-button {% if page.url == '/about.html' %}c-button--active{% endif %}" href="{{ site.data.config.url }}/about.html">Work</a>
-          </li>
-
-          <li class="c-navigation__link-list-element">
-            <a class="c-button {% if page.url == '/stories.html' %}c-button--active{% endif %}" href="{{ site.data.config.url }}/stories.html">Stories</a>
+            <a class="c-button {% if page.url == '/about.html' %}c-button--active{% endif %}" href="{{ site.data.config.url }}/about.html">Profil</a>
           </li>
 
           <li class="c-navigation__link-list-element">
@@ -155,18 +151,7 @@
     <main role="main" class="c-layout__content">{{ content }}</main>
 
     <footer role="contentinfo" class="c-layout__footer">
-      <!-- signature -->
-      <article itemscope itemtype="http://schema.org/Quotation" class="c-jumbotron">
-        <div class="c-jumbotron__content">
-          <div itemprop="text" class="c-jumbotron__citation">"Pourquoi rejoindre la marine quand vous pouvez être un pirate ?"</div>
-          <div itemscope itemtype="http://schema.org/Organization" class="c-jumbotron__author">
-            <em> - <span itemprop="name">Steve Jobs</span> </em>
-          </div>
-        </div>
-      </article>
-
       <!-- credit -->
-
       <article class="c-footer-nav">
         <div>
           <a href="/" class="c-footer-nav__title">{{ site.data.config.title }}</a>
