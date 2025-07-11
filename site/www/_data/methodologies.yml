@@ -1,7 +1,7 @@
 - name: "Design Thinking"
   excerpt: "Le Design Thinking implique systématiquement, dans le processus de création d'un produit ou d'un service, le retour de l’utilisateur pour en avoir une compréhension profonde."
 - name: "Lean Startup & Lean UX"
-  excerpt: "Pour atteindre le Product Market Fit, il faut confronter le plus rapidement possible ses solutions au marché via une boucle \"build-measure-learn\" très courte."
+  excerpt: 'Pour atteindre le Product Market Fit, il faut confronter le plus rapidement possible ses solutions au marché via une boucle "build-measure-learn" très courte.'
 - name: "Agile UX"
   excerpt: "L'intégration de l'UX dans les process de développement agiles tels que Scrum et Kanban. "
 - name: "Scrum & Kanban"

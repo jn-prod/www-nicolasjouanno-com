@@ -11,25 +11,27 @@ context: >-
   l'on retrouve chaque week-end sur les événements régionnaux, l'idée d'une plate-forme d'inscriptions pour ces événements germa.
 job: "Chef de Projet Full-stack (CDI)"
 year: "2017 -  Aujourd'hui"
-type: 
+type:
   name: "Web app"
   url: "site-applicatif.html"
 link:
   url: "#"
   name: "event.izir.fr"
-  
 ---
+
 <!--1. Scope et contraintes-->
+
 ## Scope et contraintes
 
 En charge de la gestion de ce projet avec pour renfort un commercial, sans ligne de budget autre que mon temps, je devais prendre l'ownership des parties design, marketing et tech. Imaginé en juin 2017 et validé en aout 2017, nous avions trouvé la confiance d'un premier événement qui allait se dérouler en janvier 2018. Période que nous mettre au profit de ce POC (Proof of concept)
 
 <!--2. Problème-->
+
 ## Problème et solutions technique
 
 Event.izir.fr doit permettre aux sportifs de s'inscrire à des événements sportifs que les organisateurs auront au préalable créés sur la plate-forme.
 
-Nous devions d'abord aller à la rencontre des organisateurs et chronométreurs pour élaborer un premier cahier des charges énumérant et priorisant leur besoins. A partir de là, nous connaissions les informations à récolter auprès des participants. 
+Nous devions d'abord aller à la rencontre des organisateurs et chronométreurs pour élaborer un premier cahier des charges énumérant et priorisant leur besoins. A partir de là, nous connaissions les informations à récolter auprès des participants.
 
 Les inscriptions au événements étant sujet à des pic d'activité, je suis parti sur le PAAS [Heroku](https://www.heroku.com/) pour pouvoir géré plus facilement les montés en charge au besoin et garder des coups faibles le rest du temps.
 
@@ -40,6 +42,7 @@ De là en découle le choix de monter un serveur [NodeJS](https://nodejs.org/en/
 S'il m'était tentant de vouloir profiter de la puissance d'une stack [MEAN](http://meanjs.org/) ou MERN. Le fait de devoir gérer et produire l'intégralité de la stack projet m'a fait m'orienter sur une génération des vues côté serveur. C'est donc sur une architecture MVC monolitique de repose l'application.
 
 <!--4. Résultats et leçons-->
+
 ## Résultats et leçons
 
 Le MVP a vu le jour dans les temps et à repondu aux besoin de base des organisateurs.

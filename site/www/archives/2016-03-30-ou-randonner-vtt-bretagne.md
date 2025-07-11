@@ -6,12 +6,12 @@ title: "Quelques idées de circuits de randonnée VTT en Bretagne"
 date: 2016-03-30 16:40:10.000000000 +02:00
 type: post
 
-categories: 
-- Sport
+categories:
+  - Sport
 
 tags:
-- VTT
-- randonnée
+  - VTT
+  - randonnée
 
 author: nicolas
 image: "images/posts/bf91f-04tn2madty8ffu2ug.jpg"
@@ -44,9 +44,10 @@ Envie de plus d’aventure? L’inscription à une randonnée organisée vous co
 
 <strong>Toutes les randonnées VTT organisées valent le détour</strong>, ne serais-ce que pour la sueur qui a coulé sur le front des bénévoles, les convivialité des pilotes à rencontrer, mais aussi pour leur authenticité. Bien sur vous ne pourrez pas toutes les faire le même week-end mais au <strong>fil des années vous commencerez à connaitre de nombreux chemins où la pratique du VTT est possible</strong>.
 
-<em>Vous ne savez pas quelle randonnée VTT choisir? Voici un petit tour de Bretagne à vélo et de bonnes idées..</em> 
+<em>Vous ne savez pas quelle randonnée VTT choisir? Voici un petit tour de Bretagne à vélo et de bonnes idées..</em>
 
 ## 2/ Les randos de la côte Nord de Bretagne à VTT de Brest au Mont-Saint-Michel (Finistère, Côtes d’Armor, Ille et Vilaine) {#cote-nord}
+
 <figure>
 	<img alt="Randonnée VTT au mont st michel" src="{{ site.data.config.url }}/images/posts/04f42-0nrby8alnuktzebeg.jpg" /><br />
 </figure>
@@ -109,7 +110,7 @@ balise site VTT FFC
 
 - Nombre de circuits : 9 (1 circuit « bleu », 6 circuits « rouges »)
 - Distance des circuits : 187 kms
-- Points d’accueil : Syndicat de la Vallée du Blavet ZI de Kermarrec BP 43–56150 Baud 
+- Points d’accueil : Syndicat de la Vallée du Blavet ZI de Kermarrec BP 43–56150 Baud
 - Contact : 02 97 51 09 37 / Fax : 02.97.39.07.23 / contact@blavet.com
 
 ### Espace randonnée VTT de Cornouaille
@@ -123,27 +124,25 @@ balise site VTT FFC
 
 - Nombre de circuits : 8
 - Distance des circuits : 257 kms
-- Points d’accueil : Hébergement clubs : Centre La Baie du Mont-Saint-Michel — Auberge de Jeunesse 19, rue de Normandie 35610 Pleine-Fougères 
+- Points d’accueil : Hébergement clubs : Centre La Baie du Mont-Saint-Michel — Auberge de Jeunesse 19, rue de Normandie 35610 Pleine-Fougères
 - Contact : 02 99 48 69 19 / Fax :02 99 48 52 75 / pleine-fougeres@fuaj.org
 - Date d’ouverture : Du 1/04 au 31/10
 
-### Espace randonnée VTT du Pays d’Iroise n°158: 
+### Espace randonnée VTT du Pays d’Iroise n°158:
 
 - Nombre de circuits : 12
 - Distance des circuits : 364kms
 - Points d’accueil : Communauté de Communes du Pays d’Iroise. Tel : 02 98 84 41 15 - Office de Tourisme Place du vieux marché 29290 Saint-Renan (Tel. : 02 98 84 23 78 / Fax :02 98 84 60 18) — Office de tourisme rue F. Squiban 29830 Ploudalmézeau — Tél : 02.98.48.73.19 — Tourisme en Iroise, quai de Cambarell 29840 Lanildut — Tél : 02.98.48.12.88 — Office de tourisme Bd de la mer, 29217 Plougonvelin : 02 98 48 30 18 — Office de Tourisme, Parc de Beauséjour, 29217 Le Conquet : 02 98 89 11 31
 - Contact : tourisme@ccpi.fr
-- Site internet : <a rel="nofollow" href="http://www.pays-iroise.com" target="_blank">www.pays-iroise.com</a> 
-
-
+- Site internet : <a rel="nofollow" href="http://www.pays-iroise.com" target="_blank">www.pays-iroise.com</a>
 
 ### Espace randonnée VTT Morlaix Mont d’Arrée
 
 - Nombre de circuits : 9
 - Distance des circuits : 180kms
 - Points d’accueil :
-    - Pavillon de la Randonnée — Place des Otages 29600 Morlaix 
-    - Office de tourisme de Morlaix — Parvis St Melaine — 29600 Morlaix
+  - Pavillon de la Randonnée — Place des Otages 29600 Morlaix
+  - Office de tourisme de Morlaix — Parvis St Melaine — 29600 Morlaix
 - Contact :
   - 02 98 63 87 82 / velo.rando@tourisme.morlaix.fr
   - 02 98 62 14 94 / Fax : 02 98 63 84 87 / nh@tourisme-morlaix.fr
@@ -171,17 +170,17 @@ balise site VTT FFC
 - Site internet :
   - www.tourisme-arc-sud-bretagne.com
   - www.vtt-bretagne.com"
-  - Facebook “Site VTT Le Roche Bernard” —  
+  - Facebook “Site VTT Le Roche Bernard” — 
 
-### Espace randonnée VTT du Pays de la Gacilly: 
+### Espace randonnée VTT du Pays de la Gacilly:
 
 - Nombre de circuits : 6 (2 parcours bleus, 3 parcours rouges et 1 parcours noir)
 - Distance des circuits : 200 kms
 - Points d’accueil : Office de Tourisme du Pays de la Gacilly Le bout du pont 56200 La Gacilly
 - Contact : 02 99 08 21 75 / tourisme@cc-payslagacilly.fr
-- Site internet : <a rel="nofollow" href="http://www.paysdelagacilly.com" target="_blank">www.paysdelagacilly.com</a> 
+- Site internet : <a rel="nofollow" href="http://www.paysdelagacilly.com" target="_blank">www.paysdelagacilly.com</a>
 
-### Espace randonnée Cyclosport « Pays de Jean Robic “: 
+### Espace randonnée Cyclosport « Pays de Jean Robic “:
 
 - Nombre de circuits : 7
 - Distance des circuits : 155kms
@@ -190,6 +189,7 @@ balise site VTT FFC
 - Site internet : <a rel="nofollow" href="http://www.pontivy-communaute.fr" target="_blank">www.pontivy-communaute.fr</a>
 
 ### Espace randonnée VTT DÉPARTEMENTALE SECTEUR VIOREAU
+
 - Point d’accueil: Club de Nature Sport Vioreau “Les Hardais” 44440 Joué Sur Erdre
 - Contact : 06 83 41 61 59
 - Site internet : <a rel="nofollow" href="http://www.asso.ffv.fr/nsc-voile/" target="_blank">http://www.asso.ffv.fr/nsc-voile/</a>

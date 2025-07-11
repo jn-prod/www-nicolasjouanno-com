@@ -5,11 +5,11 @@ date: 2019-01-24 09:00:00.000000000 +02:00
 type: post
 
 categories:
-- Sport
-- Podcast
+  - Sport
+  - Podcast
 
 tags:
-- Sport
+  - Sport
 
 ads: S12-2019
 
@@ -18,6 +18,7 @@ youtube_video_id: "YX4ip_bAdx4"
 author: nicolas
 image: images/posts/Podcast_1-Gael_Le_Bellec.jpg
 ---
+
 Aujourd'hui, je reçois au micro du podcast Gael Le Bellec, notre breton triple champion du monde de duathlon.
 
 Dans cet épisode, Gael nous parle de son passé de coureur cycliste, de sa transition au duathlon.

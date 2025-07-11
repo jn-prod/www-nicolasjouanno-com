@@ -7,15 +7,16 @@ date: 2017-02-07 18:03:13.000000000 +01:00
 type: post
 
 categories:
-- Sport
+  - Sport
 
 tags:
-- VTT
-- matériel
+  - VTT
+  - matériel
 
 author: nicolas
 image: "images/posts/d6a09-0klmuoxlc_xyukmmx.jpg"
 ---
+
 <em>Changement d’heure, changement de temps, changement de pneus… c’est la dure réalité des VTTistes quand l’hiver arrive, quand les chemins deviennent boueux, n’évacuent plus l’eau et que les feuilles tombent, votre pilotage change, plus en glisse. Mais combien d’entre vous gardent les mêmes pneus sur leur VTT l’hiver que l’été? A tord… l’adhérence est un gage de sécurité que l’on soit un pilote engagé ou simple randonneur.</em>
 
 ## Au programme :
@@ -39,7 +40,6 @@ Un <strong>pneu de VTT</strong> est composé de ces éléments:
 - sa <strong>carcasse</strong>
 - une <strong>bande de roulement</strong>
 
-
 Les <strong>tringles d’un pneu de VTT </strong>détermineront le diamètre de votre pneu et assurera sa tenue sur la jante.
 
 La <strong>carcasse</strong> <strong>d’un pneu de VTT</strong> varie de 24 à 120 tpi en moyenne, cette valeur représentera la densité du tissu de votre pneu et sa qualité, un pneu a 60 TPI, avec sa densité moyenne permet d’avoir une épaisseur de fibre puissante avec un tissage serré sera un pneu plus résistant.
@@ -49,6 +49,7 @@ La <strong>bande de roulement</strong> <strong>d’un pneu de VTT </strong>peut-
 Généralement votre <strong>pneu</strong> aura un sens de <strong>rotation</strong>, une indication présente sur le flanc, un élément essentiel au bon usage de pneumatique et au respect de son efficacité.
 
 De même, sur le flanc vous retrouverez une indication des <strong>pressions</strong> minimum et maximum recommander, très important pour votre sécurité ce paramètre vous évitera de déjanter ou encore d’abimer vos jantes…
+
 <blockquote>
 	Certaines marque de pneus, comme <strong>Maxxis</strong>, affichent fièrement dans leurs noms de modèles une “référence” supplémentaire avec une unité représentée par un “a” qui correspond au <strong>Shore A</strong>, un <strong>indice de dureté de la gomme</strong> qui compose un <strong>pneu</strong>. Cette information aura une incidence sur <strong>l’adhérence et le confort de votre pneu</strong>.</blockquote>
 <hr />
@@ -92,9 +93,11 @@ Il faut commencer par dire que chaque fabriquant met à disposition un référen
 ### Pneu VTT de randonné et d’XC pour terrain gras l’hiver et la boue:
 
 les pneus les plus polyvalent sur le marché sont, au choix, l’hutchinson Toro en 2.15 et le schwalbe nobby nic les deux modèles montés dans ces côtes à l’avant et à l’arrière
+
 <blockquote>
 
 <strong>les +</strong> : L’accroche latérale sécurisante dans la boue, la motricité sur les surfaces meubles, le bon débourrage.</blockquote>
+
 <blockquote>
 
 <strong>Les - </strong>: un peu lourd à trainer sur la route et terrain sec</blockquote>
@@ -104,15 +107,18 @@ Variante possible pour plus de rendement avec votre VTT: Hutchinson cougar 2.00 
 Variante possible pour plus d’accroche avec votre VTT: si le pneu est moins large, 1.80 par exemple et bien il y a une meilleure force d’accroche, il ira chercher le dur sous la boue comme l’on dit. Un toro avant en 2.15 et un toro arrière en 1.85 ou un maxxis medusa 1.80, le pneu VTT boue par excellence.
 
 ### Pneu VTT d’enduro et d’all mountain pour terrain gras l’hiver et la boue:
+
 <figure class="wp-caption">
 	<img alt="Le VTT de Jared Graves monté en Maxxis" src="{{ site.data.config.url }}/images/posts/3a012-0jfkexwvknlk36spt.jpg" />
 	<figcaption class="wp-caption-text">Le VTT de Jared Graves monté en Maxxis</figcaption>
 </figure>
 
 Les pneus qui vous donneront le meilleur rapport rendement/accroche inhérent à la pratique du VTT en montagne l’hiver et dans la boue sont le schwalbe nobby nic avant de 2.25, à l’arriére un Hutchinson 2.15 toro
+
 <blockquote>
 
 <strong>les +</strong> : L’accroche latérale sécurisante dans la boue, la motricité sur les surfaces meubles, le bon débourrage.</blockquote>
+
 <blockquote>
 
 <strong>Les - </strong>: Peut vite manquer de grip sur les sections délicates, pas très adapté sur la roche, un peu lourd sur les part-feu</blockquote>
@@ -126,6 +132,7 @@ En VTT DH le montage le plus polyvalent reste un High Roller en 2.50 super tacky
 <hr />
 
 ## 6/ Les meilleurs pneus VTT d'hiver pour vaincre la boue {#best-of}
+
 <figure>
 	<img alt="Pneu HUTCHINSON TORO" src="{{ site.data.config.url }}/images/posts/57126-0c6n1i609mgd_3rm7.jpg" />
   <figcaption>Pneu HUTCHINSON TORO <strong>(Loisir / XC)</strong></figcaption>

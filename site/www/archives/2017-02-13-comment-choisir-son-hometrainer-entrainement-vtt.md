@@ -2,16 +2,16 @@
 redirect_to: "https://vtt.bzh/comment-choisir-son-hometrainer-entrainement-vtt.html"
 permalink: "/comment-choisir-son-hometrainer-entrainement-vtt.html"
 layout: post
-title: 'Comment choisir son home-trainer VTT ?'
+title: "Comment choisir son home-trainer VTT ?"
 date: 2017-02-13 12:56:48.000000000 +01:00
 type: post
 
 categories:
-- Sport
+  - Sport
 
 tags:
-- VTT
-- matériel
+  - VTT
+  - matériel
 
 author: nicolas
 image: "images/posts/dec76-0cscharjawldysi56.jpg"
@@ -52,41 +52,41 @@ Il existe trois familles de home-trainer :
 
 ### Home-trainer avec système à air :
 
-+ La <strong>résistance</strong> permet de simuler une montée plus ou moins raide. Gestion de la difficulté se gère simplement avec les plateaux et les vitesses du VTT.
+- La <strong>résistance</strong> permet de simuler une montée plus ou moins raide. Gestion de la difficulté se gère simplement avec les plateaux et les vitesses du VTT.
 
-- Assez <strong>bruyant</strong> et peu ou pas de résistance au pédalage. Absence de réglage de résistance
+* Assez <strong>bruyant</strong> et peu ou pas de résistance au pédalage. Absence de réglage de résistance
 
 ### Home-trainer avec système Magnétique :
 
-+ Bon rapport qualité/prix. Permet une résistance sportive au pédalage.
+- Bon rapport qualité/prix. Permet une résistance sportive au pédalage.
 
-- <strong>Bruyant</strong>
+* <strong>Bruyant</strong>
 
 ### Home-trainer avec système fluide :
 
-+ <strong>Silencieux</strong>, <strong>souple</strong> et <strong>réaliste</strong> avec des gestions de puissances élevées.
+- <strong>Silencieux</strong>, <strong>souple</strong> et <strong>réaliste</strong> avec des gestions de puissances élevées.
 
-- Prix
+* Prix
 
 ## 2/ Avantages et Inconvénients des différents rouleaux d’home-trainer {#avantagnes-inconvenients}
 
 ### Rouleau home-trainer plastique
 
-+ bon marché, faible consommation de pneu
+- bon marché, faible consommation de pneu
 
-- adhérence limitée, bruyant
+* adhérence limitée, bruyant
 
 ### Rouleau home-trainer métal
 
-+ bonne adhérence, résistance et durée de vie
+- bonne adhérence, résistance et durée de vie
 
-- consommation des pneus forte
+* consommation des pneus forte
 
 ### Rouleau home-trainer gel
 
-+ bonne adhérence, économise les pneus, absorbe les vibrations et peu bruyant
+- bonne adhérence, économise les pneus, absorbe les vibrations et peu bruyant
 
-- budget
+* budget
 
 ## 3/ L’home-trainer jusqu’aux limites de la réalité virtuelle {#realite-virutelle}
 
@@ -140,7 +140,7 @@ Optez pour un modèle d’home-trainer qui <strong>se plie et se range facilemen
 ### Nettoyage
 
 Choisissez un modèle d’home-trainer qui se nettoie facilement est un plus.
- 
+
 ## 5/ Quelques conseils d’utilisation de votre home-trainer {#conseils}
 
 <figure>
@@ -182,13 +182,13 @@ l’<strong>home-trainer</strong> par son frottement brule la gomme de votre pne
 
 #### Points forts
 
-+ Le frein magnétique du Blue Matic comprend deux disques présentant 6 aimants permanents chacun.
-+ Manette de résistance au guidon à 10 positions: vous pouvez régler le positionnement des aimants.
-+ Durant l’entraînement, la résistance augmente quand vous roulez plus vite ou dans un mode plus résistant.
-+ Système très simple de montage qui permet une fixation aisée et rapide de votre vélo.
-+ Résistance maximale de 700 W.
-+ Compatible roues: 650, 700, 26 et 29 (si utilisation d’un pneu spécifique à petit profil)
-+ Livré avec serrage rapide.
+- Le frein magnétique du Blue Matic comprend deux disques présentant 6 aimants permanents chacun.
+- Manette de résistance au guidon à 10 positions: vous pouvez régler le positionnement des aimants.
+- Durant l’entraînement, la résistance augmente quand vous roulez plus vite ou dans un mode plus résistant.
+- Système très simple de montage qui permet une fixation aisée et rapide de votre vélo.
+- Résistance maximale de 700 W.
+- Compatible roues: 650, 700, 26 et 29 (si utilisation d’un pneu spécifique à petit profil)
+- Livré avec serrage rapide.
 
 ### Home Trainer TACX I-FLOW T2270 (Ergo-trainer)
 
@@ -200,14 +200,14 @@ l’<strong>home-trainer</strong> par son frottement brule la gomme de votre pne
 
 #### Points forts
 
-+ Entraînement avec PC, logiciel Tacx Trainer software 4 basic (Vista ou Windows 7) ;
-+ Calcule la puissance, la cadence, le rythme cardiaque, la distance… ;
-+ Interface de guidon ;
-+ Support de roue avant Skyliner compris ;
-+ Frein électromagnétique silencieux (6 aimants permanents, 6 électro-aimants réglables, volant d’inertie de 2 kg) ;
-+ Puissance maximale : 800 watts (réglables en pourcentages) ;
-+ Vitesse virtuelle signalée en cas de dépassement des capacités du frein sur un parcours.
-+ Livré avec serrage rapide.
+- Entraînement avec PC, logiciel Tacx Trainer software 4 basic (Vista ou Windows 7) ;
+- Calcule la puissance, la cadence, le rythme cardiaque, la distance… ;
+- Interface de guidon ;
+- Support de roue avant Skyliner compris ;
+- Frein électromagnétique silencieux (6 aimants permanents, 6 électro-aimants réglables, volant d’inertie de 2 kg) ;
+- Puissance maximale : 800 watts (réglables en pourcentages) ;
+- Vitesse virtuelle signalée en cas de dépassement des capacités du frein sur un parcours.
+- Livré avec serrage rapide.
 
 ### Home Trainer TACX BUSHIDO Smart T2780 (Virtual trainer)
 
@@ -227,11 +227,12 @@ Cette application permet notamment de prendre part à des courses cyclistes clas
 
 #### Points forts
 
-+ Très grande résistance pour un réalisme maximal
-+ Interactivité des applications Tacx Cycling
-+ Connectivité sans fil
+- Très grande résistance pour un réalisme maximal
+- Interactivité des applications Tacx Cycling
+- Connectivité sans fil
 
 ### Home Trainer TACX I-GENIUS Multiplayer Smart T2010 (Virtual trainer)
+
 <figure>
 	<img alt="Home Trainer TACX I-GENIUS Multiplayer Smart T2010" src="{{ site.data.config.url }}/images/posts/042f2-0naxiwzfmybfepba7.jpg" />
   <figcaption>Home Trainer TACX I-GENIUS Multiplayer Smart T2010</figcaption>
@@ -240,7 +241,7 @@ Cette application permet notamment de prendre part à des courses cyclistes clas
 
 #### Points forts
 
-+ Frein motorisé repoduisant fidèlement la pression exercée sur la roue arrière ;
-+ Simulation de pente réaliste ;
-+ Connectivité totale ;
-+ Pack complet pour une intercativité totale et un confort d’utilisation maximal.
+- Frein motorisé repoduisant fidèlement la pression exercée sur la roue arrière ;
+- Simulation de pente réaliste ;
+- Connectivité totale ;
+- Pack complet pour une intercativité totale et un confort d’utilisation maximal.

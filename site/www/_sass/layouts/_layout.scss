@@ -1,0 +1,49 @@
+.c-layout {
+  &__header {
+    padding: var(--section-spacing);
+  }
+
+  &__footer {
+    --font-size: 1.4rem;
+    --line-height: 1.5rem;
+
+    margin-top: 2rem;
+  }
+
+  &__legals {
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &:not(.c-layout--layout-default) .c-layout__content {
+    padding: var(--section-spacing);
+  }
+
+  &.c-layout--layout-page,
+  &.c-layout--layout-project {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      text-decoration: underline;
+    }
+
+    p {
+      padding-bottom: 1rem;
+    }
+  }
+
+  @media screen and (width <= 900px) {
+    &:not(.c-layout--layout-default) .c-layout__content {
+      padding: 2rem;
+    }
+
+    &__footer {
+      padding-bottom: 5rem;
+    }
+  }
+}

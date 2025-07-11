@@ -1,7 +1,7 @@
 # Outputting
 lsi: false
 safe: true
-permalink : /:title:output_ext
+permalink: /:title:output_ext
 paginate: 12
 paginate_path: /stories/latest/page:num/
 
@@ -12,12 +12,12 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
-  # - jekyll-archives  
+  # - jekyll-archives
   # - jekyll-minifier
 
 whitelist:
   - jekyll-paginate
-    
+
 # Archives
 # jekyll-archives:
 #   enabled:
@@ -35,10 +35,10 @@ tag_archive:
 # Minification
 # jekyll-minifier:
 #   exclude: 'feed.xml'
-    
+
 # Other
 markdown: kramdown
 highlighter: rouge
 future: false
 sass:
-  style: compact # possible values: nested expanded compact compressed
+  style: compressed

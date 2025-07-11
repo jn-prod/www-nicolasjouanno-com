@@ -6,12 +6,12 @@ title: "Checklist - L'équipement indispensable à avoir dans son sac à dos de 
 date: 2017-01-17 16:59:59.000000000 +01:00
 type: post
 
-categories: 
-- Sport
+categories:
+  - Sport
 
 tags:
-- VTT
-- matériel
+  - VTT
+  - matériel
 
 author: nicolas
 image: images/posts/jervol.jpg
@@ -20,6 +20,7 @@ image: images/posts/jervol.jpg
 <em>L’un des plus grands plaisir du VTT est de partir la journée, toujours plus loin, toujours plus vite dans les bois où vous ne pouvez aller lorsque vous êtes à pied. Cela signifie aussi que lorsqu’il vous arrive quelque chose, comme une blessure, un problème mécanique, il vous sera compliqué de compter sur quelqu’un d’autre que sur vous-même.</em>
 
 ## Au programme :
+
 1. [Les 20 éléments indispensables à avoir dans votre sac de Rando / Enduro VTT](#preambule)
 2. [Chambre à air de rechange ](#chambre-air)
 3. [Kit de rustines](#rustines)
@@ -59,7 +60,6 @@ Comme beaucoup d’outils, ces objets sont très utiles si vous savez les utilis
 - Régler votre dérailleur avant
 - Régler ou ajuster votre dérailleur arrière
 
-
 ## 1/ Chambre à air de rechange (x2) {#chambre-air}
 
 <figure>
@@ -73,7 +73,6 @@ Prévoir deux chambres à air dans votre sac est essentiel pour les longues sort
 Le double crevaison ça arrive! Habituellement une fraction de seconde après avoir crié à vos compagnons de route “Hé! Regardez ça!” en parlant d’une descente à grande vitesse à travers les rocailles et des sauts sont connus pour pincer les chambres à air de votre VTT.
 
 Quand je roule avec un groupe, je ne prend que la taille et le modèle de chambre à air adapté à mon VTT (2 dans le sac c’est déjà pas mal en place et en poids!). Alors que mes collègues peuvent avoir des VTT en 26", 650B, 29" en valve presta ou shrader, il est de plus en plus compliqué de compter sur l’aide d’autrui pour une chambre. Il ne vous restera en option plus qu’à mettre une/des rustines en espérant que cela correspond à votre crevaison.
-
 
 ## 2/ Kit de rustines {#rustines}
 

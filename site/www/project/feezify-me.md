@@ -10,15 +10,16 @@ context: >-
   qu'ensuite il faut envoier le fichier par e-mail à son entraineur.
 job: "Side Project"
 year: "2018"
-type: 
+type:
   name: "Web app"
   url: "site-applicatif.html"
 link:
   url: "https://app.nicolasjouanno.com"
   name: "Feezify:me"
-  
 ---
+
 <!--1. Scope et contraintes-->
+
 ## Scope et contraintes
 
 Seul sur le projet. Je profite des conseils d'un ami qui est entraineur sportif pour le choix de KPI pertinent, puis part à leur recherche sur le net.
@@ -26,6 +27,7 @@ Seul sur le projet. Je profite des conseils d'un ami qui est entraineur sportif 
 Je gère donc ce projet de A à Z de la recherche utilisateurs au développement et le design de l'application, en dehors de mes heures de travail.
 
 <!--2. Problème-->
+
 ## Problème
 
 Je dois donc trouver le moyen de récuperer les données du sportif. Puis lui permettre partager les données d'entrainement avec son entraineur.
@@ -35,6 +37,7 @@ Le sportif à le choix des marques de montre et des applications pour enregistre
 L'objectif est d'avoir un outil simple et ludique pour mesurer ma fatigue physique et mentale, plannifier sa saison et suivre l'évolution de son planning de compétition et ses classements.
 
 <!--3. Solutions et choix technique-->
+
 ## Solutions et choix technique
 
 [Strava](https://www.strava.com/) permet de synchroniser ses données avec les principaux fabriquants de montre connectées pour la pratique sportive. C'est aussi l'application de premier choix pour les sportifs qui ont des objectifs de performance. En plus, Strava met à disposition une API qui permet de récupérer toures ses données une fois synchroniser avec son profil.
@@ -44,6 +47,7 @@ Le POC doit donc se connecter au profil Strava du sportif, y récupèrer ses met
 Le sportif à ensuite accès à un espace utilisateur tournant sur un serveur [NodeJS](https://nodejs.org/en/) et peut configurer son compte pour que son entraineur accède directement à ses données d'activité.
 
 <!--4. Résultats et leçons-->
+
 ## Résultats et leçons
 
 Le POC atteind son objectif en toute transparence et simplicité pour l'utilisateur.

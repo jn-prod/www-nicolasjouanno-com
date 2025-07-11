@@ -2,21 +2,23 @@
 redirect_to: "https://vtt.bzh/test-tige-de-selle-telescopique-rockshox-reverb.html"
 permalink: "/test-tige-de-selle-telescopique-rockshox-reverb.html"
 layout: post
-title: 'Test de la tige de selle telescopique Rockshox Reverb'
+title: "Test de la tige de selle telescopique Rockshox Reverb"
 date: 2017-02-08 08:00:51.000000000 +01:00
 type: post
 
 categories:
-- Sport
+  - Sport
 
 tags:
-- VTT
-- matériel
+  - VTT
+  - matériel
 
 author: nicolas
 image: images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.jpg
 ---
+
 <em>Une Tige de selle télescopique à quoi ça sert? La tige de selle télescopique, un accessoire de mode ou l’arme ultime dans les passages techniques?</em>
+
 <hr />
 
 ## Au programme :
@@ -51,6 +53,7 @@ Pour vous présenter les Tiges de Selle télescopiques, je me suis arrêté sur 
 <strong>(modèle de test, la Reverb existe dans d’autres diamètres et longueurs)</strong>
 
 Débattement : 125mm<br />Matériau : Alu 7050 forgé 3D, chariot en Alu 7050 forgé<br />Poids vérifié : 538 grammes (pesé sur une tige de 380 mm et 30.9 mm de diamètre)<br />Longueur : 380 mm<br />Pour tube de selle de 190 mm minimum<br />Diamètre : 31.6mm<br />Longeur de durite 145 cm<br />Finition : Noire anodisée<br />Tige de selle droite, 2 vis de fixation, Commande au guidon qui permet de doser la vitesse et la hauteur du retour de la tige.<br /><strong><em>Fournie avec collier gauche et option Matchmaker </em></strong>: Le matchmaker est un collier permettant la fixation d’un trigger Sram sur la commande au guidon. Attention, seulement compatible avec les triggers suivants : X7 (à partir de 2010), X9, XO et XX.
+
 <hr />
 
 ## 3/ Pose et entretien de la Tige de selle ROCKSHOX REVERB {#pose}
@@ -58,6 +61,7 @@ Débattement : 125mm<br />Matériau : Alu 7050 forgé 3D, chariot en Alu 7050 
 ### Installer la tige de selle ROCKSHOX REVERB et racourcir la durite
 
 Dans cette vidéo découvrez comment <strong>installer</strong> et <strong>raccourcir la durite de votre tige de selle Rockshox Reverb</strong> vous même.
+
 <iframe src="https://player.vimeo.com/video/105743742" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <a href="https://vimeo.com/105743742" target="_blank" rel="nofollow">TECH VIDEO - Installation compl&egrave;te d&#039;une tige de selle Rockshox Reverb sur un cadre de META V4</a> from COMMENCAL on Vimeo.
@@ -65,6 +69,7 @@ Dans cette vidéo découvrez comment <strong>installer</strong> et <strong>racco
 ### Purger une tige de selle ROCKSHOX REVERB:
 
 Dans cette vidéo découvrez comment <strong>purger votre tige de selle Rockshox Reverb</strong> vous même.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wlfFJuGFEkE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <hr />
 
@@ -117,6 +122,7 @@ Le poids, la question incontournable, alors oui oubliez les 100 grammes de votre
 #### Prix
 
 Un prix public TTC annoncé à 350€ le rockshox Reverb ne sera pas offerte à tout le monde aux pieds du sapin. A éviter sur un vélo d’une valeur inférieure à 1500€ sauf objectif sportifs précis, je pense… Loin d’un gadget, le confort apporté vaut vraiment ces quelques billets à tous niveaux et plus encore lorsque notre pilotage est hésitant.
+
 <hr />
 
 ## 5/ Les bons plans pour acheter votre tige de selle Rockshox Reverb {#acheter}

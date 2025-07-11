@@ -81,7 +81,7 @@ bg: inspiration-1
           <img src="{{ podcast.img }}" alt="{{ podcast.name }}" class="img-fluid">
 
         </a>
-        
+
       </div>
 
     {% endfor %}
@@ -99,7 +99,7 @@ bg: inspiration-1
 
   </div>
 
-   {% for course in site.data.courses limit: 3 %}
+{% for course in site.data.courses limit: 3 %}
 
     <a href="{{ site.data.config.url }}{{course.url}}">
 
@@ -119,7 +119,7 @@ bg: inspiration-1
 
               <span class="d-inline-block ml-3 font-weight-bold text-muted">{{ course.disponibility }}</span>
 
-            {% endif %} 
+            {% endif %}
 
           </div>
 
@@ -141,11 +141,11 @@ bg: inspiration-1
 
         </div>
 
-      </div> 
+      </div>
 
     </a>
 
-  {% endfor %}
+{% endfor %}
 
 </div>
 

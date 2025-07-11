@@ -1,0 +1,11 @@
+.u-list {
+  &.u-list--none {
+    list-style: none;
+    padding: 0;
+  }
+
+  &.u-list--inline {
+    display: flex;
+    gap: 1rem;
+  }
+}

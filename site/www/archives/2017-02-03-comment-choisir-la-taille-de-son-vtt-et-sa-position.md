@@ -2,20 +2,21 @@
 redirect_to: "https://vtt.bzh/comment-choisir-la-taille-de-son-vtt-et-sa-position.html"
 permalink: "/comment-choisir-la-taille-de-son-vtt-et-sa-position.html"
 layout: post
-title: 'Comment choisir la taille de son VTT et sa position ?'
+title: "Comment choisir la taille de son VTT et sa position ?"
 date: 2017-02-03 23:00:22.000000000 +01:00
 type: post
 
 categories:
-- Sport
+  - Sport
 
 tags:
-- VTT
-- matériel
+  - VTT
+  - matériel
 
 author: nicolas
 image: "images/posts/90cc1-0wscg_9_yafgnydvo.jpg"
 ---
+
 <em>Le choix de la taille de votre VTT est essentiel dans votre pratique, qu’elle soit loisir ou de compétition. Cela peut vous permettre de gagner rapidement en efficacité sur votre VTT. De manière certaine, une meilleure position améliorera vos performances pour plusieurs raisons qui seront dévoilées plus bas.</em>
 
 <hr />
@@ -39,6 +40,7 @@ Combien d’entre vous ont déjà acheté leur VTT sans se poser la question de 
 A l’opposé, vous pouvez aussi avoir la chance d’avoir près de chez vous un vélociste et/ou podologue qui propose des études posturales. Ainsi, plus de souci concernant votre position, conseillé par un professionnel, votre VTT vous semblera avoir été spécialement conçu pour vous.
 
 <strong>Ici, nous allons voir comment choisir la taille de votre VTT vous-même. Une fois avoir découvert qu’elle est la taille de VTT la plus adaptée à votre morphologie, vous apprendrez comment vous positionner sur votre VTT.</strong>
+
 <hr />
 
 ## 2/ Comment choisir la taille de son VTT ? {#taille}
@@ -85,6 +87,7 @@ Le pouce est l’unité de mesure d’un cadre, il équivaut à 2,54 cm. On mesu
 <blockquote>
 
 <strong>Astuce n°1: </strong>Pour être sûr de la taille de votre VTT, enjambez-le, tenez-vous debout au-dessus du tube supérieur, il doit y avoir un espace de 6 à 8 cm entre le tube « horizontal » et votre entrejambe.</blockquote>
+
 <blockquote>
 
 <strong>Astuce n°2: </strong>Pour un meilleur équilibre de votre VTT, il vaut mieux miser sur la taille plus petite taille en restant proche de votre taille idéale. Surtout si vous êtes entre deux tailles de cadre par rapport à la giométrie du vélo que vous avez choisis, ou encore si vous optez pour un VTT en roues de 29".</blockquote>
@@ -92,6 +95,7 @@ Le pouce est l’unité de mesure d’un cadre, il équivaut à 2,54 cm. On mesu
 ### Etape 4: Calcul de la longueur du VTT:
 
 On évalue la longueur du cadre en prenant en compte des proportions du corps entier, en particulier de la taille du buste et des bras.
+
 <blockquote>
 Longueur du cadre = (taille du buste + Longueur du bras)/2,4</blockquote>
 
@@ -104,26 +108,22 @@ La hauteur de selle correspond à la distance entre la partie supérieure, plane
 Pour calculer la hauteur de selle de votre VTT reportez-vous au calcul suivant:
 
 Entrejambe (E) x 0,885 (hauteur théorique route et VTT, généralement en VTT on enlève 0,5cm)
+
 <blockquote>
 
 <strong>Astuce: </strong>Si vous n’avez pas accès à un mètre pour divers raison, vous pouvez également régler la hauteur de selle comme suit: la pointe des pieds doit toucher le sol ou en pédalent vers l’arrière votre talon sur la pédale le genou sera légèrement fléchi.</blockquote>
+
 <hr />
 
 ## 3/ Comment finaliser les réglages de taille de votre VTT et de votre position ? {#reglage}
 
-
 ### Etape 6: Mesurez-vous!
 
-- 
-<strong>entrejambe</strong>: (vu ci-dessus)
-- 
-<strong>longueur du bras:</strong> placez-vous assis, le bras formant un angle droit, le dos contre un mur puis mesurez du haut de l’épaule à la pointe du coude.
-- 
-<strong>buste:</strong> placez-vous assis, sur une table, le buste droit, le dos contre un mur puis mesurez du sommet de la tête jusqu’au-dessus de la table.
-- 
-<strong>longueur de fémur</strong>, placez-vous assis, les cuisses horizontales, les fesses contre un mur, puis mesurez la distance entre le mur et l’extrémité du genou
-- 
-<strong>largeur d’épaule</strong>: mesurez d’axe en axe, de l’articulation de l’épaule gauche à celle de l’épaule droite
+- <strong>entrejambe</strong>: (vu ci-dessus)
+- <strong>longueur du bras:</strong> placez-vous assis, le bras formant un angle droit, le dos contre un mur puis mesurez du haut de l’épaule à la pointe du coude.
+- <strong>buste:</strong> placez-vous assis, sur une table, le buste droit, le dos contre un mur puis mesurez du sommet de la tête jusqu’au-dessus de la table.
+- <strong>longueur de fémur</strong>, placez-vous assis, les cuisses horizontales, les fesses contre un mur, puis mesurez la distance entre le mur et l’extrémité du genou
+- <strong>largeur d’épaule</strong>: mesurez d’axe en axe, de l’articulation de l’épaule gauche à celle de l’épaule droite
 
 ### Etape 7: Les pièces permettant de modifier votre position sur votre VTT:
 
@@ -138,9 +138,11 @@ Une potence plus courte, raccourcira la longueur du poste de pilotage de votre V
 ### Position tige de selle + selle:
 
 La théorie veut qu’un recul de selle en arrière augmentera le confort de votre position sur votre VTT. Ce recul sera au détriment du rendement et de la puissance. A l’inverse, un recul de selle sur l’avant, aura plus de rendement, procurera un coup de pédale plus puissant mais moins économique en énergie.
+
 <blockquote>
 
 <strong>astuce:</strong> <em>Lors du positionnement de votre selle, pour avoir un recul de selle neutre, mettez-vous sur home-trainer, aider de quelqu’un, en tenue de vélo, avec un fil lesté (ficelle blanche lestée avec votre clef a rayon par exemple). Pédalez 1 min dans le sens des aiguilles d’une montre. Stoppez les pédales à l’horizontal sans corriger la position de vos talons, chevilles, genoux,… Votre “assistant”positionnera le fil lesté sur le devant de votre rotule. La partie lesté tombant en-dessous de l’axe de la pédale de votre VTT. Votre recul sur votre VTT sera idéal lorsque la rotule l’axe de votre pédale et votre métatarse seront aligné sur le fil lesté a +/- 0,5cm. (un genou trop en avant par rapport à l’axe de la pédale signifie que votre selle est trop avancée, par exemple)</em>
+
 </blockquote>
 
 Il existe des tiges de selle pour VTT avec + ou — de recul afin de peaufiner ce réglage.
@@ -148,10 +150,10 @@ Il existe des tiges de selle pour VTT avec + ou — de recul afin de peaufin
 Idéalement l’inclinaison de la selle sera neutre (de niveau) ou légèrement vers l’avant.
 
 <strong>Tige de selle télescopique</strong>: <a href="/test-tige-de-selle-telescopique-rockshox-reverb" target="_blank">lire l’article sur les tiges de selle télescopiques, écrit précédemment.</a>
+
 <hr />
 
 ## 4/ Conclusion sur le choix de la taille de votre VTT et de votre position : {#conclusion}
-
 
 <figure class="wp-caption">
 	<img alt="Régler la position de votre VTT" src="{{ site.data.config.url }}/images/posts/c3412-0q9h0y5sobcadmm5g.jpg" />
@@ -165,10 +167,10 @@ De plus, en VTT, la diversité des disciplines fait que chacune d’entre elles 
 En cas de doute, de douleurs ou par curiosité, vous pouvez prendre rendez-vous chez un vélociste certifié ou un podologue du sport pour réaliser une étude de votre position approfondie. Cette étude vous permettra d’avoir des bases concrètes et adaptées à votre morphologie pour améliorer votre position sur votre VTT. N’hésitez pas non plus à essayer votre prochain vélo pour voir si la position et sa géométrie vous convient!
 
 Il faudra retenir qu’un mauvais vélo bien ajusté est préférable à un bon vélo mal ajusté.
+
 <hr />
 
 ## 5/ Notre sélection pour améliorer votre position en VTT : {#best-of}
-
 
 <figure>
 	<img alt="TIGE DE SELLE TÉLESCOPIQUE ROCKSHOX REVERB " src="{{ site.data.config.url }}/images/posts/e5da7-0xj0yqcv6lzqqklhv.jpg" />

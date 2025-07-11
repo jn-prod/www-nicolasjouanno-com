@@ -1,29 +1,29 @@
 ---
 redirect_from:
-    - "/points-commun-cycliste-super-hero.html"
-    - "/cyclo-cross-gravel-souvenirs-hasbeen.html"
-    - "/pourquoi-tombons-nous-partie-2.html"
-    - "/souvenirs-paris-tour-2008.html"
-    - "/cycliste-et-diplome.html"
+  - "/points-commun-cycliste-super-hero.html"
+  - "/cyclo-cross-gravel-souvenirs-hasbeen.html"
+  - "/pourquoi-tombons-nous-partie-2.html"
+  - "/souvenirs-paris-tour-2008.html"
+  - "/cycliste-et-diplome.html"
 layout: post
 title: "Pourquoi tombons-nous ?"
 date: 2018-12-14 09:00:00.000000000 +02:00
 type: post
 
 categories:
-- Sport
+  - Sport
 
 tags:
-- Sport
-- Chute
+  - Sport
+  - Chute
 
 author: nicolas
 image: images/posts/route-de-montagne.jpg
 ---
-<!--CX-->
+
 ## Chapitre 1 : Une adolescence dans les sous-bois
 
-*A 10 ans, je me passionne pour le VTT et débute sa pratique en "ecole de VTT". C'est la discipline qui m'amenera à découvrir la compétition au niveau regionnal. Limité par une saison qui va de mars à octobre, je me tourne vers le cyclo-cross à 15 ans pour faire durer le plaisir.*
+_A 10 ans, je me passionne pour le VTT et débute sa pratique en "ecole de VTT". C'est la discipline qui m'amenera à découvrir la compétition au niveau regionnal. Limité par une saison qui va de mars à octobre, je me tourne vers le cyclo-cross à 15 ans pour faire durer le plaisir._
 
 De contûme, les jeunes cyclo-crossman viennent de l'école de vélo de route. Si je m'y suis mis "sur le tard", d'autre s'y essaye depuis leurs 10 ans.
 
@@ -67,8 +67,7 @@ Le jour où j'ai repris un vélo de cyclo-cross en compétition comme entraineme
 
 ## Chapitre 2 : Paris-Tours Espoirs le rituel de fin de saison
 
-*aujourd'hui, je vais vous parler de quelques souvenirs que m'évoquent le mois d'octobre. Plus que de belles couleurs , des coucher de soleil et des châtaignes qui ornent les routes, voici quelques souvenirs au coeur du peloton.*
-
+_aujourd'hui, je vais vous parler de quelques souvenirs que m'évoquent le mois d'octobre. Plus que de belles couleurs , des coucher de soleil et des châtaignes qui ornent les routes, voici quelques souvenirs au coeur du peloton._
 
 Paris-tours restera mon dernier souvenir de cycliste amateur. Avec ces 179Kms de l'édition 2008 et une quantité innombrable de longues et larges lignes droites, Paris-Tours est, pour les amateurs comme les professionnel, le dernier rendez-vous de la saison. Comme un point final, la dernière chance de briller, c'est avant tout la dernière opportunité offrete à quelque 180 chanceux d'avoir la confiance de leur équipe.
 
@@ -102,7 +101,7 @@ Une porte se tourne sur la saison 2008. J'ai rendez-vous dans quelques jours à 
 
 ## Chapitre 3 : Doit-on avoir le BAC pour être cycliste ?
 
-*>La réponse donnée par les parents à toutes les lubis d'adolescent est toujours la même: "passe ton BAC et après on verra". Les sportifs en herbe n'y échappent pas ! J'ai eu la chance de passer mon BAC en "sport-étude", puis mon BTS de la même manière. Au final, j'ai un BTS et j'ai été cycliste professionnel. En quoi mon BTS m'a servie pour être cycliste?*
+_>La réponse donnée par les parents à toutes les lubis d'adolescent est toujours la même: "passe ton BAC et après on verra". Les sportifs en herbe n'y échappent pas ! J'ai eu la chance de passer mon BAC en "sport-étude", puis mon BTS de la même manière. Au final, j'ai un BTS et j'ai été cycliste professionnel. En quoi mon BTS m'a servie pour être cycliste?_
 
 Je suis entrée au "sport-étude" de "Lorient Bretagne Sud" lors de ma deuxième seconde. Oui, j'ai "retapé" et j'assume. D'ailleurs, je dois vous dire que ce fut plus une chance qu'un échec. En effet, à l'époque de ma première seconde je voulais m'orienter vers le dessin industriel. L'équation de la réflexion était simple, j'aimais le dessin, j'aimais le vélo et l'univers matériel qui en découlais. Du coup, avec les copains nous passions plus de temps à dessiner des vélos sur bancs d'école qu'à écouter les profs. Une réflexion bien trop court-termiste qui m'a amené à redoubler.
 
@@ -125,6 +124,7 @@ Alors, à la question "faut-il avoir le BAC pour être cycliste professionnel?".
 Aujourd'hui, en "bon actif", je regarde mon cv et je n'ai pas à rougir de ma formation initiale. Un BAC+2 et des certifications, certes ça n'équivaut en rien un BAC+5, une école de commerce ou une quelque grande école que ce soit. Mais, ce goût pour l'apprentissage et l'organisation, que m'a procuré le "sport-etude", me permet de me former et d'apprendre quotidiennement. Bien malin celui qui, en 2008, aurait prédit que je serais un jour capable de coder une application web pour suivre mon activité sportive comme <a href="https://app.nicolasjouanno.com">feezify:me</a> ou encore, que j'aurais entrepris la création d'un magasin de vélo. Dans la vie, comme dans le sport, c'est en faisant qu'on apprend, qu'on repousse ses limites et qu'on se donne des objectifs, mais le sport est une excellente école de la vie.
 
 ## Chapitre 4 : La chute
+
 <em>Ce n'est pas la première fois que vous dit que le sport est une école de la vie. Aujourd'hui, encore, cet article en sera un parfait exemple. Le programme du jour est simple, est parfaitement décrite par l'une de mes citations favorites tirée de Batman. Il s'agit de cette phrase prononcée par Alfred: "Pourquoi tombons-nous M. Wayne? Pour apprendre à mieux se relever."</em>
 
 J'ai voulu commencé par cette citation parce que je la trouve si représentative de la vie d'un sportif, mais aussi, plus largement, de la condition humaine. Les chutes sont formatrices. Je me souviendrais toute ma vie de ce surnom donné par le CTR (ndlr: Conseillé Technique Régional, entendez par là sélectionneur) de Bretagne Samuel Monnerais. Nous sortions d'un stage à Camors en vue d'une sélection pour le championnat de France. Alors sur la ligne de départ avec les meilleurs cadets bretons (oui, ce souvenir n'est pas tout jeune), j'étais gonflé à bloc. Enfin au sens littérale, j'avais 4 bars dans le pneus de mon vélo de cyclo-cross. Sur le circuit gras et gravillonneux de Camors, ce choix technique n'était pas des plus judicieux. Je n'ai plus précisément en tête mon classement du jour, mais ce qui est sûr c'est que je n'ai pas gagné. Une chute sur une partie glissante, sans gravité, causée par une trop classique perte d'adhérence, m'auras valu ce surnom de "4 bars" et la perte de quelques places et du podium! Inutile de vous dire qu'à partir de ce jour-là, je n'ai plus jamais négligé la pression dans mes pneus et inspiré quelques moqueries !

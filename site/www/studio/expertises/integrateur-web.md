@@ -10,20 +10,22 @@ permalink: "/expertises/integrateur-web.html"
 
 ## "Entre le mockup et le développement front-end, l'Intégration Web permet de poser les premières lignes de codes et de structurer le site internet"
 
-*L'**intégrateur web** est la première étape clé nécessaire à la mise en ligne d'un site internet. Il est le traducteur du designer pour les navigateurs web et pose les premières pierres du SEO du site internet.*
+_L'**intégrateur web** est la première étape clé nécessaire à la mise en ligne d'un site internet. Il est le traducteur du designer pour les navigateurs web et pose les premières pierres du SEO du site internet._
 
 - [Qu'est-ce que l'intégration web ?](#presentation)
 - [Quels sont les étapes d'intégration web réussite ?](#etapes)
 - [Quels sont les missions de l’intégrateur web ?](#mission)
 
 ## Qu'est-ce que l'intégration web ?
-{:  #presentation}
+
+{: #presentation}
 
 L'intégrateur web transpose la maquette graphique réalisée par le web designer en code informatique. C'est au travers de langage comme le HTML, CSS et Javascript que le développeur front-end donne vie à chaque page maquettée par les équipes de design puis validé par le client. Chaque choix graphique du designer sera transformé en ligne de code grâce à un éditeur de texte. Le travail du développeur web est alors de traduire le langage graphique en langage internet.
 
 Une **intégration réussite** est un travail d'équipe. Le designer doit comprendre les contraintes métier du développeur, de même que le développeur doit comprendre la réflexion du designer. L'étape de l'intégration étant clef dans la réalisation d'un site internet, une bonne communication et connaissance des contraintes métiers du designer et du développeur est essentiel.
 
 ## Quels sont les étapes d'intégration web réussite ?
+
 {: #etapes}
 
 ### Pré-requis: Du wireframe au mockup
@@ -45,6 +47,7 @@ Enfin, après s'être assuré de la compatibilité sur toutes les tailles d'écr
 Le développeur web va utiliser la maquette fonctionnelle réalisée par l'intégrateur web comme squelette visuel. Il va remplacer les données factices par les contenus réels et les fonctionnalités nécessaires au projet. Le contenu est généralement stocké dans une base de données. En séparant le code fonctionnel d'un site internet de ses contenus, on peut ainsi modifier les contenus sans modifier le code. Pour créer, modifier et supprimer du contenu facilement de la base de données sans savoir à coder, il est régulièrement fait le choix de passer par un CMS (Content Manager System), comme Drupal ou WordPress. L'intégrateur web, à l'image d'un développeur web peu, lui-même, être amené à relier la maquette fonctionnelle au CMS ou au serveur.
 
 ## Quels sont les missions de l’intégrateur web ?
+
 {: #mission}
 
 ### Un code organisé et réutilisable
@@ -58,7 +61,6 @@ Ordinateurs, tablettes et smartphones sont autant de points d'entré pour un sit
 ### Un site «SEO friendly»
 
 Sans être un expert en SEO, l'intégrateur web devra appliquer toutes les bonnes pratiques de code pour optimiser l'accès à l'information aux moteurs de recherche. C'est ce qu'on appelle le Search Engine Optimization. Pour cela, il pourra s'appuyer sur un cahier des charges transmis par un freelance ou une agence spécialisée en SEO. En respectant ainsi ces contraintes le site internet profitera le plus naturellement possible d'un trafic depuis les moteurs de recherche.
-
 
 ### Un affichage multi-navigateur
 

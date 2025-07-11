@@ -1,30 +1,30 @@
 ---
 redirect_from:
-    - "/hacker-la-formation-en-ligne-du-wagon-cest-possible.html"
-    - "/pourquoi-jai-code-mon-premier-site-web-dynamique-en-nodejs-de-0-a-1.html"
-    - "/en-2017-je-serai-grand-et-product-manager.html"
-    - "/pourquoi-jai-appris-a-coder-mon-mvp.html"
-    - "/le-point-annuel-sur-mes-side-projects.html"
-    - "/le-programme-de-2019.html"
-    - "/reouverture-vtt-bzh.html"
-    - "/taig-khris-autodidacte.html"
-    - "/la-punchline-de-yoann-stuck.html"
-    - "/paris-dakar-steven-le-hyaric.html"
+  - "/hacker-la-formation-en-ligne-du-wagon-cest-possible.html"
+  - "/pourquoi-jai-code-mon-premier-site-web-dynamique-en-nodejs-de-0-a-1.html"
+  - "/en-2017-je-serai-grand-et-product-manager.html"
+  - "/pourquoi-jai-appris-a-coder-mon-mvp.html"
+  - "/le-point-annuel-sur-mes-side-projects.html"
+  - "/le-programme-de-2019.html"
+  - "/reouverture-vtt-bzh.html"
+  - "/taig-khris-autodidacte.html"
+  - "/la-punchline-de-yoann-stuck.html"
+  - "/paris-dakar-steven-le-hyaric.html"
 layout: "post"
 title: "Coder son MVP, sujet de Growth hacking ou de Product management ?"
 date: 2018-09-14 07:00:00.000000000 +01:00
 type: "post"
 
 categories:
-- Product Management
+  - Product Management
 
 author: "nicolas"
 image: "images/posts/maxresdefault.jpg"
-
 ---
+
 ## A la rencontre du growth hacking
 
-*Revenons un peu en arrière. Nous sommes en 2018, je quitte l'école avec un diplôme de marketing. J'ai l'impression de n'avoir rien appris du monde du digital qui me passionnait tant. L'histoire est connue. Alors comme mes pairs, je continuer d’apprendre et de me former avec des ressources différentes: livres, blog, youtubes... Qu’il s’agisse de se perfectionner ou d'acquérir de nouvelles compétences en Marketing, Design et Tech. Si je ne suis pas encore un "T-shape", je ne me restreins pas mon scope pour avoir une vision à 360 degrés d'un produit digital.*
+_Revenons un peu en arrière. Nous sommes en 2018, je quitte l'école avec un diplôme de marketing. J'ai l'impression de n'avoir rien appris du monde du digital qui me passionnait tant. L'histoire est connue. Alors comme mes pairs, je continuer d’apprendre et de me former avec des ressources différentes: livres, blog, youtubes... Qu’il s’agisse de se perfectionner ou d'acquérir de nouvelles compétences en Marketing, Design et Tech. Si je ne suis pas encore un "T-shape", je ne me restreins pas mon scope pour avoir une vision à 360 degrés d'un produit digital._
 
 En 2016, je baissais une dernière fois le rideau de ma première entreprise: un commerce local de sport outdoor. Une expérience enrichissantes m'a prouvée que rien n'était acquis. Ce n'est pas parce que tu es reconnus sur ton marché, que tu le connais ainsi que ses leviers que l'entreprise sera florissante. Avec toute mon arrogances, je me suis heurté à la réalité du commerce physique, ses coûts élevés, ses marges faibles. Le choc a été violant.
 
@@ -80,7 +80,7 @@ Je me donne pour objectif d’apprendre une skills par semaine. Surtout, je gard
 
 Ce que j’ai appris avant tout, c'est à apprendre. Le développement ne se limite pas à un cours en ligne à acheter. Le développement web, s’est donner le meilleur de soit même chaque jour, de la même manière qu’un sportif qui s’entraîne quotidiennement. Le développement web s’est travailler ses points faibles pour se perfectionner. Le développement web s’est accepter l’échec pour se perfectionner en corrigeant ses beugs. Le développement web s’est libérer sa créativité. J'ai ainsi pu réaliser une refonte mon side-project vtt.bzh, désormais scalable. Je publie mon code sur [GitHub](http://github.com/jn-prod). Je crée mes APIs en scrappant en NODEjs des données sur le web. Bref, je m’éclate !
 
-Mais n'oublions pas pourquoi je me suis lancé ce challenge: développer un produit digital qui à de la valeur pour ses utilisateurs. 
+Mais n'oublions pas pourquoi je me suis lancé ce challenge: développer un produit digital qui à de la valeur pour ses utilisateurs.
 
 <figure class="wp-caption"><img src="{{ site.data.config.url }}/{{ site.imgpost }}/e8b22-11czy1ngfc50mjx7vxlphqa.png" alt="NODE JS" />
 <figcaption class="wp-caption-text">NODE JS</figcaption>
@@ -91,6 +91,7 @@ Mais n'oublions pas pourquoi je me suis lancé ce challenge: développer un prod
 Un verre de vin entre amis, un café entre collègues, un film inspirant, … Avec une idée de produit c'est bien, savoir s'il à de la valeur c'est mieux. C'est le moment de créer son MVP (Minimum Valuable Product).
 
 Il peut prendre différentes formes:
+
 - Un blog
 - Une page Facebook
 - Une chaine slack
@@ -114,7 +115,7 @@ Bref, établissez votre camp de base pour mobilisez vos futurs users. Créez un 
 
 ## Développer la béta de votre produit.
 
-*Si utiliser un CMS pour gérer la partie marketing de votre projet vous fait déjà peur, attendez de voir les questions que soulève le développement de votre produit. On parle non seulement de l'UI et de l'UX du front-end d’un site internet, mais aussi de son architecture, des dépendenses et du développement de son back-end.*
+_Si utiliser un CMS pour gérer la partie marketing de votre projet vous fait déjà peur, attendez de voir les questions que soulève le développement de votre produit. On parle non seulement de l'UI et de l'UX du front-end d’un site internet, mais aussi de son architecture, des dépendenses et du développement de son back-end._
 
 Il vous faut lister tous ces besoins et toutes ces problématiques. Puis les prioriser dans une roadmap. Pour en maîtriser son développement et analyser l'impact des features sur votre produit.
 
@@ -123,6 +124,7 @@ Ne vous lancer dans le choix de vos technologies seul si vous n'avez pas de recu
 Sur les premiers projets où je suis intervenu en tant que developpeur, ceux-ci était soit des sides-project soit des projets où j'avais un large scope. Ils incluaient souvent le marketing, le design et la tech. Ne connaissant au debut qu'un seul langage de programmation: le Javascript, je l'utilisais à toutes les sauces. J'utilisais donc [NodeJS](https://nodejs.org/en/) (sa surcouche coté serveur) à tout va, pour gagner du temps et par mode. Je reculais le moment d'apprendre un nouveau langage.
 
 NodeJS est très puissant pour développer rapidement des APIs REST véloces. Il embarque une librairie de modules dense, qui vous permetra de gérer:
+
 - la création de compte utilisateur,
 - la gestion des droits d’accès,
 - le hashage de mot de passe,
@@ -137,13 +139,13 @@ Alors ne perdez pas des yeux votre objectif principal: diminuer votre feedback l
 
 ## Garder les choses simples
 
-*Dernièrement, j'ai pris du recul sur mes objectifs produits et les moyens que j'utilise les atteindres. "Keep things simple" s'est imposé comme un nouveau mantra. Si cela peu paraitre un peu cliché, il ne faut pas y voir un sens réducteur ou facilitateur, mais plutôt qu'il faut faire des choix pour se focaliser sur l'essence même de l'objectif.*
+_Dernièrement, j'ai pris du recul sur mes objectifs produits et les moyens que j'utilise les atteindres. "Keep things simple" s'est imposé comme un nouveau mantra. Si cela peu paraitre un peu cliché, il ne faut pas y voir un sens réducteur ou facilitateur, mais plutôt qu'il faut faire des choix pour se focaliser sur l'essence même de l'objectif._
 
 S'il est facile procrastiner toute une journée devant son ordinateur voguant de fil Facebook aux vidéos Youtube, en faisant quelques pauses café sur son feed Instagram. Il est plus dur de se lever chaque matin en se donnant un objectif que l'on s'oblige à tenir avant de se mettre au lit.
 
 Avant de devenir cycliste professionnel, mon Coach me répétait souvent: "il n'y a pas de petite victoire". Mais finalement une victoire c'est quoi ? Passer la ligne en premier, gagner un prix de grimpeur, un classement jeune ? Je pense qu'une victoire à un sens plus large, qu'elle dépend de l'objectif que l'on se fixe.
 
-En marketing on parle d'[objectif SMART](https://www.manager-go.com/vente/methode-smart.htm). Pour le définir, il  faut qu'il soit spécifique, mesurable, ambition, réaliste et délimitable dans le temps.
+En marketing on parle d'[objectif SMART](https://www.manager-go.com/vente/methode-smart.htm). Pour le définir, il faut qu'il soit spécifique, mesurable, ambition, réaliste et délimitable dans le temps.
 
 J'ai arrêté la compétition depuis de nombreuses années pourtant, je n'ai jamais arrêté d'avoir de petites victoires. J'ai appris à coder seul. Je ne me suis jamais découragé, non seulement parce que j'en avais profondément envie, mais aussi parce que je me suis fixé un objectif inconsciemment SMART: coder une heure par jour, en était un. A la fin de chaque semaine, je pouvais me gratifier d'avoir réussis cet objectif.
 

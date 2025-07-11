@@ -6,16 +6,17 @@ title: "GUIDE: L'enduro VTT de A à Z."
 date: 2017-01-21 12:24:49.000000000 +01:00
 type: post
 
-categories: 
-- Sport
+categories:
+  - Sport
 
 tags:
-- VTT
-- matériel
+  - VTT
+  - matériel
 
 author: nicolas
 image: images/posts/p5pb12718966.jpg
 ---
+
 ## Au programme :
 
 1. [Le VTT enduro Qu’est que-c’est ?](#preambule)
@@ -25,7 +26,6 @@ image: images/posts/p5pb12718966.jpg
 5. [Quel équipement pilote choisir pour la pratique du VTT Enduro?](#equipement)
 6. [ENDURO VTT: la checklist d’avant sortie](#checklist)
 7. [Conclusion](#conclusion)
-
 
 ## 1/ Le VTT enduro Qu’est que-c’est ? {#preambule}
 
@@ -56,16 +56,18 @@ Vous l’avez donc compris L’enduro VTT est une discipline Hybride entre deux 
 - L’Enduro VTT : recherche de confort et de performance. Tu peux te battre contre le chrono en départs différés avec plusieurs spéciales (comme en rally) ou en “mass-start” sur une épreuve de masse ou tout le monde par en même temps. L’épreuve de “mass-start” la plus connue est la Mégavalanche, une course rassemblant plus de 1500 pilotes venus de tous les horizons qui avalent depuis un glacier la pente à flancs de montagne, sur leur VTT, pendant 1–2h.
 
 <strong>L’enduro VTT n’est pas la recherche d’endurance à outrance</strong>, la recherche de la distance à un public qui se partage des Raids VTT et des épreuves XC Marathon qui se déroulent sur plus de 80kms à 120kms en moyenne.
+
 <figure>
 
 <img alt="départ enduro Mondraker serie" src="{{ site.data.config.url }}/images/posts/7cfbe-02oodqud9goosydgh.jpg" /><br />
+
 </figure>
 
 départ enduro Mondraker serie
 
 ## 3/ Le VTT enduro c’est pour qui ? {#pilote}
 
-Au final l’Enduro VTT n’a pas de cible en particulier, le principal est d’aimer se faire plaisir sur un VTT, en compétition ou non. L’enduro VTT est la culture de la belle trace, du challenge contre soit-même et la montagne. Une recherche perpétuelle de polyvalence et d’équilibre entre le rendement et la technique. 
+Au final l’Enduro VTT n’a pas de cible en particulier, le principal est d’aimer se faire plaisir sur un VTT, en compétition ou non. L’enduro VTT est la culture de la belle trace, du challenge contre soit-même et la montagne. Une recherche perpétuelle de polyvalence et d’équilibre entre le rendement et la technique.
 
 L’Enduro VTT est une affaire d’expérience, une culture du VTT dont on s’imprègne sortie-après-sortie conviviale et sans prise de tête pour le commun des mortels comme nous.
 
@@ -92,36 +94,42 @@ Bon en recommence en fait le <strong>VTT d’Enduro idéal</strong>, c’est un 
 ## b) Une sélection de VTT Enduro de prédilections :
 
 <strong>ROCKY MOUNTAIN — Altitude 790 MSL</strong>
+
 <figure>
 	<img alt="ROCKY MOUNTAIN - Altitude 790 MSL" src="{{ site.data.config.url }}/images/posts/99f11-0ld6lpmg4f8ssdgry.jpg" /><br />
 	<figcaption class="wp-caption-text">ROCKY MOUNTAIN — Altitude 790 MSL</figcaption>
 </figure>
 
 <strong>Santa Cruz — Bronson</strong>
+
 <figure class="wp-caption">
 	<img alt="Santa Cruz - Bronson" src="{{ site.data.config.url }}/images/posts/8bd9c-03stysmi7roqgusmy.jpg" />
 	<figcaption class="wp-caption-text">Santa Cruz — Bronson</figcaption>
 </figure>
 
 <strong>GT — Force</strong>
+
 <figure class="wp-caption">
 	<img alt="GT - Force" src="{{ site.data.config.url }}/images/posts/abeff-0rpvf5myfinn3x2y3.jpg" />
 	<figcaption class="wp-caption-text">GT Force</figcaption>
 </figure>
 
 <strong>LAPIERRE — Zesty</strong>
+
 <figure class="wp-caption">
 	<img alt="Lapierre - Zesty 650B" src="{{ site.data.config.url }}/images/posts/e4db0-0w-ax1ybapqa3r8-e.jpg" />
 	<figcaption class="wp-caption-text">Lapierre — Zesty 650B</figcaption>
 </figure>
 
 <strong>COMMENCAL — Meta AM</strong>
+
 <figure class="wp-caption">
 	<img alt="Commencal - Meta AM 650B" src="{{ site.data.config.url }}/images/posts/acf30-0_3e-mfzpfaer0cka.jpg" />
 	<figcaption class="wp-caption-text">Commencal — Meta AM 650B</figcaption>
 </figure>
 
 <strong>CANYON — Strive</strong>
+
 <figure class="wp-caption">
 	<img alt="canyon - stryve" src="{{ site.data.config.url }}/images/posts/0a3c7-0fdsmrbuwp54gpwwd.jpg" />
 	<figcaption class="wp-caption-text">canyon — stryve</figcaption>

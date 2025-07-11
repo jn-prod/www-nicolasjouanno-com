@@ -1,5 +1,5 @@
 ---
-redirect_from: 
+redirect_from:
   - "/edito.html"
   - "/studio.html"
   - "/devis.html"
@@ -11,6 +11,7 @@ permalink: "/about.html"
 ---
 
 <!-- set vtt_bzh variable -->
+
 {% for project in site.data.projects %} {% if project.name == 'vtt.bzh' %} {% assign vtt_bzh = project %} {% endif %} {% endfor %}
 
 <!-- Header
@@ -32,6 +33,7 @@ permalink: "/about.html"
     <p>
       Créateur de <a href="{{ vtt_bzh.url }}" target="_blank">vtt.bzh</a>.
     </p>
+
   </div>
 
   <img class="c-section__image" src="{{ site.data.authors.nicolas.avatar }}" alt="{{ site.data.authors.nicolas.display_name }}" />
@@ -59,12 +61,13 @@ Ils me permettent de vous donner les clefs pour réussir le développement de vo
     <i class="{{technologie.icon}} icon--x3 "></i>
   </li>
 
-  {% endif %} {% endfor %}
+{% endif %} {% endfor %}
+
 </ul>
 
 ## Je suis un developpeur front-end qui donne vie à vos idées. J'aime garder les choses simples et procurer une expérience propre et fonctionnelle à vos utilisateurs.
 
-Je suis <a href="/">développeur front-end</a>, je co-conçois des <a href="/offres/site-applicatif.html">sites web applicatif et applications mobile</a> avec votre équipe produit. Je suis aussi l'homme derrière <a href="https://vtt.bzh">vtt.bzh</a>, une application web pour trouver une nouvelle randonnée chaque week-end en Bretagne. 
+Je suis <a href="/">développeur front-end</a>, je co-conçois des <a href="/offres/site-applicatif.html">sites web applicatif et applications mobile</a> avec votre équipe produit. Je suis aussi l'homme derrière <a href="https://vtt.bzh">vtt.bzh</a>, une application web pour trouver une nouvelle randonnée chaque week-end en Bretagne.
 
 Ma trajectoire professionnel s'inscrit dans le domaine sportif. Après une carrière de <a href="/results.html">cycliste professionnel</a>, je deviens Responsable Communication et Webmaster chez Twinner Sport. J'ai créé et dévelopé mon entreprise de vente d'article de sport outdoor cross-canal. Puis je suis devenu <a href="/creation-site-internet.html">Concepteur Développeur Web</a> pour un groupement, dans lequel j'ai notamment développé une application web d'inscription en ligne <a href="/portfolio/project/event-izir.html">event.izir.fr</a> et un portail intranet pour piloter la stratégie commerciale du groupe.
 
@@ -80,7 +83,6 @@ Je développe avec vous une web app scalable qui tient compte de vos objectifs d
 
 Commençons par <a href="{{ site.data.authors.nicolas.linkedin }}">en parler</a> ensemble. Enfin, je partage mes connaissances techniques, stratégiques et opérationnelles sur <a href="{{ site.data.config.url }}/stories.html">le blog</a>.
 
-
 ## Vous accompagner à chaque étape de votre application web.
 
 Vous développez une <a href="/offres/site-applicatif.html">application mobile</a> ou un <a href="/offres/site-vitrine.html">site internet</a> pour votre startup ? Vous avez besoin d'un professionnel pour développer votre produit ? Vous souhaitez créer votre MVP pour séduire de nouveaux utilisateurs et/ou investisseurs ? Découvrez comment je peux vous aider dans vos projets:
@@ -88,6 +90,7 @@ Vous développez une <a href="/offres/site-applicatif.html">application mobile</
 ## Mes projets
 
 {% for project in site.data.projects %}
+
   <article id="{{ project.name }}" class="u-grid">
     <div class="u-grid__col-6">
       <h3>
@@ -107,7 +110,7 @@ Vous développez une <a href="/offres/site-applicatif.html">application mobile</
       </ul>
     </div>
   </article>
-{% endfor %}   
+{% endfor %}
 
 ## Me contacter.
 

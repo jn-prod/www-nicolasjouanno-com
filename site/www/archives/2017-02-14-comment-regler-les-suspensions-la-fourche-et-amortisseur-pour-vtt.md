@@ -2,22 +2,23 @@
 redirect_to: "https://vtt.bzh/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html"
 permalink: "/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html"
 layout: post
-title: 'Comment régler les suspensions de son VTT, de la fourche à l’amortisseur'
+title: "Comment régler les suspensions de son VTT, de la fourche à l’amortisseur"
 date: 2017-02-14 07:48:53.000000000 +01:00
 type: post
 
 categories:
-- Sport
+  - Sport
 
 tags:
-- VTT
-- matériel
+  - VTT
+  - matériel
 
 author: nicolas
 image: images/posts/a3d50-0omp6q8ru_v_v0drm.jpg
 featured: false
 ---
-<em>Comment régler la fourche et l’amortisseur de votre VTT ? XC Marathon, enduro, DH, … de 100 à 200mm et plus, nos <strong>VTT</strong> sont tous, ou presque, équipés d’une <strong>fourche</strong> télescopique et d’un <strong>amortisseur</strong>. Gagner en stabilité, augmenter le confort, l’adhérence… votre <strong>VTT</strong> tout-suspendu à de nombreux avantages, mais faut-il encore que vos <strong>suspensions</strong> soit bien réglées! Découvrez ici les astuces et méthodes simples pour régler <strong>la fourche</strong> et <strong>l’amortisseur</strong> de votre <strong>VTT</strong>.</em> 
+
+<em>Comment régler la fourche et l’amortisseur de votre VTT ? XC Marathon, enduro, DH, … de 100 à 200mm et plus, nos <strong>VTT</strong> sont tous, ou presque, équipés d’une <strong>fourche</strong> télescopique et d’un <strong>amortisseur</strong>. Gagner en stabilité, augmenter le confort, l’adhérence… votre <strong>VTT</strong> tout-suspendu à de nombreux avantages, mais faut-il encore que vos <strong>suspensions</strong> soit bien réglées! Découvrez ici les astuces et méthodes simples pour régler <strong>la fourche</strong> et <strong>l’amortisseur</strong> de votre <strong>VTT</strong>.</em>
 
 ## Au Programme :
 
@@ -59,7 +60,6 @@ Pour les <strong>fourches</strong> de <strong>VTT</strong> à élastomère/resso
 - La valeur idéale du SAG est un enfoncement à l’arrêt et sous votre seul poids de 15/20 % du débattement pour une pratique XC et de 20/30 % pour une pratique plus engagée, enduro à DH.
 - Ajustez à l’aide de la pompe haute pression et noter la valeur.
 
-
 ### Précaution de réglage
 
 - un ressort trop dur, va empêcher votre <strong>suspension</strong> de fonctionner correctement, vous allez complètement perdre l’avantage des <strong>réglages</strong> de compression et détente.
@@ -70,6 +70,7 @@ Pour les <strong>fourches</strong> de <strong>VTT</strong> à élastomère/resso
 </figure>
 
 Jared Graves — action Championnat du monde de DH 2013 — Crédits photos @ yeticycles.com
+
 <hr />
 
 ## 2/ La compression de la suspension {#compression}
@@ -82,6 +83,7 @@ La compression de votre <strong>suspension</strong> est un <strong>réglage</str
 Pour <strong>régler</strong> cette molette bleue, positionnez là en là tournant au max vers le “-”, puis conté les crans en la tournant au max jusqu’au “+” et revenez de 1/3 ou de 1/2 vers le “-”. Vous garderez ainsi une compression dynamique avec <strong>la fourche et/ou amortisseur de votre VTT</strong> et pourrez affiner le <strong>réglage</strong> de la <strong>suspension</strong> à la sensation en roulant.
 
 Une compression forte ralentie la <strong>suspension</strong> sur des gros chocs et améliore la capacité de la <strong>suspension</strong> à encaisser ces gros chocs. Une compression trop lente oblige le pilote à compenser les plus gros chocs avec son corps et le <strong>VTT</strong> sera moins stable à haute vitesse.
+
 <hr />
 
 ## 3/ Le blocage de la compression de la suspension {#blocage}
@@ -115,11 +117,13 @@ Le fonctionnement: Dans la phase de détente la <strong>suspension</strong> reto
 ### Réglage de la détente de suspension méthode 2 conseillée:
 
 Pour<strong> la fourche et l’amortisseur de votre VTT</strong>: Pour <strong>régler</strong> cette molette rouge, positionnez là en là tournant au max vers le “-”, puis conté les crans en la tournant au max jusqu’au “+” et revenez de 1/3 vers le “-” (ex: du “-” au “+”, 12 crans pour arriver au max “+”, revenir de 4 crans vers le “-”. Vous garderez ainsi une détente dynamique avec votre <strong>fourche et/ou amortisseur</strong> et pourrez affiner le <strong>réglage</strong> de la <strong>suspension</strong> à la sensation en roulant.
+
 <hr />
 
 ## 5/ Le débattement variable {#debattement}
 
 L’objectif est de faire correspondre l’assiette du vélo à la nature de la pente et d’adapter la fourche à la géométrie du vélo. Très apprécié dans les montés de pentes abruptes. Les fonctions de bases proposes 3 à 5 positions quand d’autres en propose une multitude.
+
 <hr />
 
 ## Conclusion
@@ -127,6 +131,7 @@ L’objectif est de faire correspondre l’assiette du vélo à la nature de la 
 Malgré le nombre de <strong>réglage</strong> grandissant sur les fourches et les différents systèmes proposés par les marques, le <strong>réglage</strong> des <strong>suspensions</strong>: <strong>Fourches</strong> et <strong>Amortisseurs</strong>, reste simple a condition de rester méthodique et suivant la chronologie suivante lors du <strong>réglage</strong> de la fourche. D’abord <strong>régler</strong> le SAG de la <strong>suspension</strong>, ensuite la compression de la <strong>suspension</strong> (molette bleue) de même que l’ajustement du blocage de la fourche, enfin <strong>régler</strong> la détente de la <strong>suspension</strong>. Ne pas oublier d’adapter votre réglage au terrain, vos contraintes de pilotage et enfin aux températures extérieurs.
 
 Ainsi le fonctionnement des <strong>suspensions</strong> de votre <strong>VTT</strong>: <strong>Fourche</strong> et <strong>Amortisseur</strong>, n’ont plus de secret pour vous, mais pour aller plus loin en images voici quelques vidéos réalisées par nos confrères Anglo-saxons reprenant les différents éléments et réglages de l’article.
+
 <hr />
 
 ## Ma sélection de fourches et amortisseurs:

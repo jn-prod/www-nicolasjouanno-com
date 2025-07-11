@@ -7,7 +7,10 @@ title: Archive
 ================================================== -->
 <section>
   {% if page.url != "/stories.html" %}
-  <h1>Stories de la {{ page.type }} <a href="{{site.data.config.url}}{{page.url}}">#{{ page.title }}</a></h1>
+  <h1>
+    Stories de la {{ page.type }}
+    <a href="{{site.data.config.url}}{{page.url}}">#{{ page.title }}</a>
+  </h1>
   {% else %}
   <h1>Stories</h1>
   {% endif %}
@@ -16,7 +19,9 @@ title: Archive
     <ul>
       {% for category in site.data.categories %} {% if category.home == true %}
       <li>
-        <a href="/categories/{{ category.link | downcase }}">#{{ category.name }}</a>
+        <a href="/categories/{{ category.link | downcase }}"
+          >#{{ category.name }}</a
+        >
       </li>
       {% endif %} {% endfor %}
     </ul>
@@ -26,8 +31,9 @@ title: Archive
     <!-- Default Categories Page Posts
     ================================================== -->
     <div>
-      {% for post in site.posts %} {% if post.categories contains page.title %} {% include /boxes/post.html type=page.entries_layout class="col-lg-4 col-md-6" %} {% endif %} {%
-      endfor %}
+      {% for post in site.posts %} {% if post.categories contains page.title %}
+      {% include /boxes/post.html type=page.entries_layout class="col-lg-4
+      col-md-6" %} {% endif %} {% endfor %}
     </div>
 
     <!-- Page Content
@@ -35,11 +41,16 @@ title: Archive
     {% if page.url != "/stories.html" %}
     <div>{{ content }}</div>
     {% else %}
-    <div>{% for post in site.posts %} {% include /boxes/post.html type=page.entries_layout class="col-lg-4 col-md-6" %} {% endfor %}</div>
+    <div>
+      {% for post in site.posts %} {% include /boxes/post.html
+      type=page.entries_layout class="col-lg-4 col-md-6" %} {% endfor %}
+    </div>
     <div>{{ content }}</div>
     {% endif %}
   </div>
   <!-- Pagination
   ================================================== -->
-  <nav class="navigation text-center" role="navigation">{% include /plugins/pagination.html %}</nav>
+  <nav class="navigation text-center" role="navigation">
+    {% include /plugins/pagination.html %}
+  </nav>
 </section>

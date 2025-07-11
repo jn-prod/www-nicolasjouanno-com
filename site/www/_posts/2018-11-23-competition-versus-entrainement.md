@@ -1,26 +1,27 @@
 ---
 redirect_from:
-    - "/sources-motivation-sportive.html"
-    - "/changer-habitudes-sportives-inter-saison.html"
-    - "/apprendre-de-son-entrainement.html"
+  - "/sources-motivation-sportive.html"
+  - "/changer-habitudes-sportives-inter-saison.html"
+  - "/apprendre-de-son-entrainement.html"
 layout: post
 title: "Comment progresser sans compétition ?"
 date: 2018-11-23 09:00:00.000000000 +02:00
 type: post
 
 categories:
-- Sport
+  - Sport
 
 tags:
-- Sport
-- Compétition
-- Reconversion
-- Entrainement
+  - Sport
+  - Compétition
+  - Reconversion
+  - Entrainement
 
 author: nicolas
 image: images/posts/1029035155.jpg
 ---
-*Ce n'est pas toujours simple de trouver la motivation. Dans cet article, je vais partager avec vous ce qui me motive le plus pour me bouger, mais aussi ce qui me peut transformer une sortie de running en sortie de vélo, une balade en bord en mer en session de surf...*
+
+_Ce n'est pas toujours simple de trouver la motivation. Dans cet article, je vais partager avec vous ce qui me motive le plus pour me bouger, mais aussi ce qui me peut transformer une sortie de running en sortie de vélo, une balade en bord en mer en session de surf..._
 
 ## Mes principales sources de motivation pour faire du sport.
 
@@ -94,7 +95,6 @@ En bonus, pour les cyclistes plus hipster, allez rouler en pignon fixe! Bien ava
 
 Je sais que ce n'est pas toujours simple de suivre son volume d'activité quand elles sont multiples. C'est pour répondre à mon propre problème que j'ai développé cet été une application web que j'ai appelée <a href="https://app.nicolasjouanno.com" target="_blank" rel="nofollow">Feezify:me</a>. Elle me permet de suivre mes activités sportives et de récupération. Je peux aussi évaluer ma forme du jour pour savoir quel point je dois prioriser: physique vs récupération. Je l'ai connecté avec Strava pour ne pas créer l'activité sur deux plateformes. Je mets "feezify:me" à disposition, <a href="https://app.nicolasjouanno.com" target="_blank" rel="nofollow">gratuitement ici</a>. Si tu as des idées pour la faire évoluer n'hésite pas à me le dire en réponse à cette story.
 
-
 ## Je ne m'entraine pas, je pratique.
 
 <em>Depuis 10 ans, je ne compte plus le nombre de personnes qui, au détour d'un couloir ou autour d'un verre, ont voulu me faire accrocher, à nouveau, un dossard. Si la flatterie n'a jamais marché pour me lancer ce nouveau défi sportif, c'est parce que je ne ressent plus le besoin de me confronter aux autres. C'est aussi parce que l'a carotte du classement n'a aucun effet sur ma motivation.</em>
@@ -119,7 +119,7 @@ Alors non je n'ai pas besoin de compétition pour m'entraîner car j'ai trouvé 
 
 ## Commencez à apprendre de votre entrainement
 
-*Vous avez dû noter mon silence de la semaine passée. Peut-être que vous pensez que c'est à cause du pont de la Toussain. Oui j'ai fait le pont ... Mais la raison est un peu plus originale. Vous ne le savez surement pas, j'écris mes articles au fil des semaines. Alors, si je vous dis que j'ai utilisé mon temps de créativité à ajouter une nouvelle fonctionnalité à l'application [feezify:me](https://app.nicolasjouanno.com) vous comprendrez que je ne peux pas courir plusieurs lièvres.*
+_Vous avez dû noter mon silence de la semaine passée. Peut-être que vous pensez que c'est à cause du pont de la Toussain. Oui j'ai fait le pont ... Mais la raison est un peu plus originale. Vous ne le savez surement pas, j'écris mes articles au fil des semaines. Alors, si je vous dis que j'ai utilisé mon temps de créativité à ajouter une nouvelle fonctionnalité à l'application [feezify:me](https://app.nicolasjouanno.com) vous comprendrez que je ne peux pas courir plusieurs lièvres._
 
 Aujourd'hui, je n'agrafe presque plus de dossard. Alors, je ne vais pas prendre un entraineur pour suivre mon entrainement comme avant. Je connais les basics, peut-être même plus. Alors, quand je parle d'entrainement autour de moi, je me pose toujours les mêmes questions:
 

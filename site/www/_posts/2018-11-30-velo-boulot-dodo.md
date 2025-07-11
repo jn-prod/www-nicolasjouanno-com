@@ -5,18 +5,19 @@ date: 2018-11-30 09:00:00.000000000 +02:00
 type: post
 
 categories:
-- Sport
-- Experience
+  - Sport
+  - Experience
 
 tags:
-- Textile
-- T-shirt
-- Création
-- Projet
+  - Textile
+  - T-shirt
+  - Création
+  - Projet
 
 author: nicolas
 image: images/posts/tshirt_velo-boulot-dodo.png
 ---
+
 <em>Vous connaissez sûrement plus la citation "Métro, Boulot, Dodo" que je me suis ré-approprié. Depuis que j'habite à Pontivy, j'ai la chance de pouvoir aller tous les jours au boulot à vélo, parcourant les 2km500 séparant mon domicile du bureau, en longeant le canal, quatre fois par jour. Fraîchement l'hiver et chaudement l'été, vous me croirez, ou non, mais prendre le vélo conditionne une bonne journée!</em>
 
 J'ai découvert le vélo urbain sur le tard, lors d'un week-end en amoureux sur Nantes, il y a maintenant 5 ans. Jusque là, le vélo pour moi était soit fait pour les sportifs, soit fait pour les "papys" ou les "bobos". Le cliché ! Mais à Nantes, on s'est vite rendu compte avec ma chérie que le centre-ville était vaste et qu'utiliser leur "Bicloo" nous permettrais de le découvrir très rapidement, en long, en large et en travers. Et franchement, Nantes à vélo ça le fait carrément, c'est tellement adapté! Grace à cet usage urbain du vélo, on s'est vraiment imprégné de la ville et avons eu le temps de faire de superbes photos.

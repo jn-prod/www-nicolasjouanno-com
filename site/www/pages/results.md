@@ -8,14 +8,13 @@ permalink: /results.html
 
 ## Les temps forts
 
-Participation à 5 championnats de France : 
+Participation à 5 championnats de France :
 
 - Championnat de France Route Professionnel 2010
 - Championnat de France Route Professionnel 2009
 - Championnat de France Route amateur 2008
 - Championnat de France Route espoir 2007
 - Championnat de France Cyclo-cross  2004
-
 
 ## 2010 (Professionnel - Bretagne Schuller)
 
@@ -59,7 +58,7 @@ Aucune palaces dans le top 20 en raison d'une blessure :-(
 ### 2nd
 
 - flèche de locminé (E)
-- Val d'Ille U Classic (E) 
+- Val d'Ille U Classic (E)
 - prix de pluvigner (123)
 - Ploemel (123)
 - Vice champion du morbihan espoir (123)
@@ -68,7 +67,7 @@ Aucune palaces dans le top 20 en raison d'une blessure :-(
 
 ### 3ème
 
-- La roche Foucaud - finale de la coupe de france DN2/espoire (E) 
+- La roche Foucaud - finale de la coupe de france DN2/espoire (E)
 - Général de la cabri tour (E)
 - Contre le montre par équipe tro div ster (123)
 
@@ -78,7 +77,7 @@ Aucune palaces dans le top 20 en raison d'une blessure :-(
 
 ### 5ème
 
-- Prix d’Armorique, Ploudalmézeau(E) 
+- Prix d’Armorique, Ploudalmézeau(E)
 - Locoal Mendon (123)
 
 ### 6ème
@@ -98,7 +97,7 @@ Aucune palaces dans le top 20 en raison d'une blessure :-(
 
 ### 10ème
 
-- Général des 3 jours de Cherbourg (3ème jeune) 
+- Général des 3 jours de Cherbourg (3ème jeune)
 
 ### 11ème
 

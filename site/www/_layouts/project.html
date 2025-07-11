@@ -10,7 +10,11 @@ layout: page
     <img src="{{ page.img }}" alt="{{ page.title }}" />
 
     <p>
-      {{ page.job }}, {{ page.year }} - <a href="{{ site.data.config.url }}/offres/{{ page.type.url }}">{{ page.type.name }}</a> -
+      {{ page.job }}, {{ page.year }} -
+      <a href="{{ site.data.config.url }}/offres/{{ page.type.url }}"
+        >{{ page.type.name }}</a
+      >
+      -
       <a href="{{ page.link.url }}" target="_blank">{{ page.link.name }}</a>
     </p>
 

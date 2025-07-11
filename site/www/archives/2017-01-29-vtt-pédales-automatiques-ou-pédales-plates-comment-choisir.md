@@ -2,20 +2,21 @@
 redirect_to: "https://vtt.bzh/vtt-pédales-automatiques-ou-pédales-plates-comment-choisir.html"
 permalink: "/vtt-pédales-automatiques-ou-pédales-plates-comment-choisir.html"
 layout: post
-title: 'Comment choisir entre pédales automatiques et plates de VTT?'
+title: "Comment choisir entre pédales automatiques et plates de VTT?"
 date: 2017-01-29 22:12:37.000000000 +01:00
 type: post
 
-categories: 
-- Sport
+categories:
+  - Sport
 
 tags:
-- VTT
-- matériel
+  - VTT
+  - matériel
 
 author: nicolas
 image: images/posts/ccs-62657-0-58346000-1479391864.jpg
 ---
+
 ## Au programme :
 
 1. [Faut-il changer ses pédales plates pour des pédales automatiques?](#preambule)
@@ -30,6 +31,7 @@ image: images/posts/ccs-62657-0-58346000-1479391864.jpg
 A 15 ans ou à 75 ans,<strong> lorsque l’on veut progresser en VTT ou que vous souhaitez faire évoluer votre pratique. </strong>Dès lors une longue et fastidieuse quête à <strong>l’information</strong> commence: amis, forum, vendeurs, … tous les avis sont bons pour choisir entre: rester en <strong>pédales plates</strong> ou avoir la sensation de réapprendre le VTT à cause des <strong>pédales automatiques</strong>, pendant quelques temps.
 
 Comment choisir entre les <strong>pédales plates et les pédales automatiques</strong>? Cette question sépare les pratiquants de VTT en deux camps, tous deux bien formalisés avec leur réponse tant elle leur semble évidente, d’un coté les aficionados de la pédale plate et de l’autre ceux de la pédale automatique.
+
 <hr />
 
 ## 2/ Avantages / inconvénients de la pédale plate traditionnelle : {#pedales-plates}
@@ -102,6 +104,7 @@ Pour utiliser des pédales automatiques, il vous faudra des <strong>chaussures s
 ### c) Quelques conseils aux débutants VTT en pédales auto:
 
 Exercez-vous à plat et avec de la place et clipsez et declipssez un bon nombre de fois avant de prendre les sentiers. Allez-y par paliers de difficultés et d’engagements. Vous éviterez ainsi quelques bonnes boites vexantes et inutiles.
+
 <hr />
 
 ## 4/ Connaissez-vous les pédales automatiques “hybrides” ? {#pedales-hybrides}
@@ -115,6 +118,7 @@ Cet équipement conviendra parfaitement pour ceux qui cherchent un pédalage eff
 La conclusion est simple pour ce type de pédale, retrouvez tous les avantages de la pédales plate lorsque vous êtes déclipé, et tous ceux de la pédale automatique lorsque vous êtes clipé.
 
 En inconvénient hormis le poids, difficile d’en trouver d’autres!
+
 <hr />
 
 ## 5/ Conclusion: La pédale automatique c’est pour qui? {#conclusion}
@@ -126,6 +130,7 @@ Rouler en pédale automatique reste moins naturel que la pédale plate.
 Si vous parcourez des Km tous les week-end en <strong>rando, Cross Country, Enduro</strong>, essayez les <strong>pédales automatiques</strong> dès lors que vous maîtrisez votre VTT et vous vous ferez votre propre avis, mais gardez en tête que <strong>sans elles vous perdrez en rendement à forces égales avec vos collègues.</strong>
 
 Pour la <strong>descente</strong>, chacun à sa réponse en fonction de son pilotage, il faut garder en tête que <strong>la pédale automatique permettra un meilleur rendement et plus de précision dans ses appuis</strong>.
+
 <hr />
 
 ## 6/ Notre sélection de pédales VTT {#best-of}

@@ -1,19 +1,20 @@
 ---
 redirect_from:
-    - "/de-wordpress-a-medium-les-cinq-raisons-de-la-migration.html"
+  - "/de-wordpress-a-medium-les-cinq-raisons-de-la-migration.html"
 layout: post
-title: 'Wordpress vs Medium'
+title: "Wordpress vs Medium"
 date: 2017-09-26 05:36:01.000000000 +02:00
 type: post
 image: images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.png
 
 categories:
-- Experience
-- Tech
+  - Experience
+  - Tech
 
 author: nicolas
 ---
-*J'ai commencé à bloguer à l'époque des skyblog, ensuite j'ai découvert Wordpress un outil puissant, puis Medium un outil simple. Maintenant je blog grâce à Jekyll. Voici ce que vous pourrez (ou pas) faire avec chacun d'eux.*
+
+_J'ai commencé à bloguer à l'époque des skyblog, ensuite j'ai découvert Wordpress un outil puissant, puis Medium un outil simple. Maintenant je blog grâce à Jekyll. Voici ce que vous pourrez (ou pas) faire avec chacun d'eux._
 
 ## [Wordpress](https://fr.wordpress.org/), pour l'equipe marketing
 
@@ -51,8 +52,8 @@ Medium est complet, la plateforme intègre nativement un outil de statistique sy
 
 ## Jekyll, pour l'equipe tech
 
-*Review à venir*
+_Review à venir_
 
-*Fixez-vous des objectifs et trouvez l’outil qui vous permet de les atteindre efficacement, Medium, Wordpress, Jekyll sont des pistes parmi tant d’autres: Linkedin, Youtube, etc …*
+_Fixez-vous des objectifs et trouvez l’outil qui vous permet de les atteindre efficacement, Medium, Wordpress, Jekyll sont des pistes parmi tant d’autres: Linkedin, Youtube, etc …_
 
-*Article mis à jour le 17/09/1019*
+_Article mis à jour le 17/09/1019_

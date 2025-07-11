@@ -5,17 +5,18 @@ date: 2018-12-07 09:00:00.000000000 +02:00
 type: post
 
 categories:
-- Sport
-- Experience
+  - Sport
+  - Experience
 
 tags:
-- Trail
-- Competition
-- Debut
+  - Trail
+  - Competition
+  - Debut
 
 author: nicolas
 image: images/posts/homme_trail_foret.jpg
 ---
+
 <em>Je suis plein de contradiction, ceux qui me connaissent le savent. Il y a quelques semaines, je publiais un article disant que je n'ai pas besoin de compétition pour m'entraîner. Cette même semaine, je prenais le départ de ma première course à pied, un trail de 12km qui avait lieu derrière chez moi. Dans cet article, je vous parle de ma préparation, des questions que je me suis posé et, bien sûr, de ma course !</em>
 
 J'ai longtemps manqué de régularité dans ma pratique du running. A l'époque où j'étais cycliste, depuis le pôle espoirs, je ne courrais qu'à l'inter-saison, une à deux heures par semaine, sur les petites routes derrière chez mes parents ou en ville. Ensuite, j'avais pris l'habitude de courir, en ville, 1h le lundi soir pendant les journées courtes d'hiver. Les promesses du running étaient pour moi: une bonne façon de transpirer, prendre ma dose d'endorphine et pouvoir pratiquer de jour comme de nuit. Finalement, sans jamais réellement y trouver du plaisir, je ne m'y suis pas intéressé, voyant toujours ce sport comme un "à côté" ou un déculpabilisateur de sédentarité.

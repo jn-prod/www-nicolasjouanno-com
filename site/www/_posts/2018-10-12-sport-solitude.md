@@ -5,16 +5,17 @@ date: 2018-10-12 09:00:00.000000000 +02:00
 type: post
 
 categories:
-- Sport
+  - Sport
 
 tags:
-- Sport
-- Solitude
-- Sentiments
+  - Sport
+  - Solitude
+  - Sentiments
 
 author: nicolas
 image: images/posts/living-alone.jpg
 ---
+
 <em>Je ne me suis jamais senti aussi seul que sur mon vélo, mon surf ou avec mes baskets. Le sport, c'est aussi ça: la solitude. Lorsque j'étais cycliste professionnel, une sitation ma marqué, au point que je m'en souvient encore aujourd'hui ... onze années après! </em>
 
 <blockquote>"La solitude est l'élément déterminant de la condition humaine, seul l'homme se rend compte qu'il est seul." Le Labyrinthe de la solitude - Ocatio Paz</blockquote>
