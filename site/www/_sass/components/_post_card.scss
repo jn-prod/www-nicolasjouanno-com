@@ -59,6 +59,11 @@
     &-name {
       flex: 1 0 auto;
       margin-right: 1rem;
+      color: var(--color-dark);
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
