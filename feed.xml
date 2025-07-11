@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nicolas Jouanno</title>
-    <description>Développeur font-end @mgdis. Design system, a11y, éco-conception, JAM stack.</description>
+    <description>Développeur font-end @mgdis.&lt;br&gt;Design system, a11y, éco-conception, JAM stack.</description>
     <link>https://nicolasjouanno.com/</link>
     <atom:link href="https://nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Jul 2025 08:40:18 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Jul 2025 08:40:18 +0000</lastBuildDate>
-    <generator>Jekyll v4.2.2</generator>
+    <pubDate>Fri, 11 Jul 2025 11:10:30 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Jul 2025 11:10:30 +0000</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
     
       <item>
         <title>Podcast #1 - Gael Le Bellec, 3x champion du monde de duathlon</title>
@@ -48,6 +48,7 @@
             
 
             &lt;!--CX--&gt;
+
 &lt;h2 id=&quot;chapitre-1--une-adolescence-dans-les-sous-bois&quot;&gt;Chapitre 1 : Une adolescence dans les sous-bois&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;A 10 ans, je me passionne pour le VTT et débute sa pratique en “ecole de VTT”. C’est la discipline qui m’amenera à découvrir la compétition au niveau regionnal. Limité par une saison qui va de mars à octobre, je me tourne vers le cyclo-cross à 15 ans pour faire durer le plaisir.&lt;/em&gt;&lt;/p&gt;
@@ -70,7 +71,7 @@
 
 &lt;p&gt;Le cyclo-cross est un monde familial et bienveillant. C’est d’ailleurs ce qui me plaisait le plus dans cette discipline. Rapprochez d’un club ou comité de cycliste départemental ou régional prêt de chez vous. Ils répondront à toutes vos questions sur les licences et le règlement. Parler, au compétiteur et accompagnateur sur le bord des circuits.&lt;/p&gt;
 
-&lt;blockquote&gt;Pro tip: Surtout, la première fois arrivée avec de l'avance, 2h peuvent suffire. Vous aurez ainsi le temps de vous repérer le parcours, vous échauffer seureinement pour ce départ explosif qui vous attend et épingler votre dossard !&lt;/blockquote&gt;
+&lt;blockquote&gt;Pro tip: Surtout, la première fois arrivée avec de l&apos;avance, 2h peuvent suffire. Vous aurez ainsi le temps de vous repérer le parcours, vous échauffer seureinement pour ce départ explosif qui vous attend et épingler votre dossard !&lt;/blockquote&gt;
 
 &lt;p&gt;Le cyclo-cross est un sport festif, alors prenez votre temps, restez parler après votre épreuve, encourager les autres participants. J’ai encore des souvenirs de mon passage en spectateur sur le championnat du Monde à Lanarvily où l’on se serait cru au festival des Vieilles Charues, juste ENORME !&lt;/p&gt;
 
@@ -151,6 +152,7 @@
 &lt;p&gt;Aujourd’hui, en “bon actif”, je regarde mon cv et je n’ai pas à rougir de ma formation initiale. Un BAC+2 et des certifications, certes ça n’équivaut en rien un BAC+5, une école de commerce ou une quelque grande école que ce soit. Mais, ce goût pour l’apprentissage et l’organisation, que m’a procuré le “sport-etude”, me permet de me former et d’apprendre quotidiennement. Bien malin celui qui, en 2008, aurait prédit que je serais un jour capable de coder une application web pour suivre mon activité sportive comme &lt;a href=&quot;https://app.nicolasjouanno.com&quot;&gt;feezify:me&lt;/a&gt; ou encore, que j’aurais entrepris la création d’un magasin de vélo. Dans la vie, comme dans le sport, c’est en faisant qu’on apprend, qu’on repousse ses limites et qu’on se donne des objectifs, mais le sport est une excellente école de la vie.&lt;/p&gt;
 
 &lt;h2 id=&quot;chapitre-4--la-chute&quot;&gt;Chapitre 4 : La chute&lt;/h2&gt;
+
 &lt;p&gt;&lt;em&gt;Ce n’est pas la première fois que vous dit que le sport est une école de la vie. Aujourd’hui, encore, cet article en sera un parfait exemple. Le programme du jour est simple, est parfaitement décrite par l’une de mes citations favorites tirée de Batman. Il s’agit de cette phrase prononcée par Alfred: “Pourquoi tombons-nous M. Wayne? Pour apprendre à mieux se relever.”&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;J’ai voulu commencé par cette citation parce que je la trouve si représentative de la vie d’un sportif, mais aussi, plus largement, de la condition humaine. Les chutes sont formatrices. Je me souviendrais toute ma vie de ce surnom donné par le CTR (ndlr: Conseillé Technique Régional, entendez par là sélectionneur) de Bretagne Samuel Monnerais. Nous sortions d’un stage à Camors en vue d’une sélection pour le championnat de France. Alors sur la ligne de départ avec les meilleurs cadets bretons (oui, ce souvenir n’est pas tout jeune), j’étais gonflé à bloc. Enfin au sens littérale, j’avais 4 bars dans le pneus de mon vélo de cyclo-cross. Sur le circuit gras et gravillonneux de Camors, ce choix technique n’était pas des plus judicieux. Je n’ai plus précisément en tête mon classement du jour, mais ce qui est sûr c’est que je n’ai pas gagné. Une chute sur une partie glissante, sans gravité, causée par une trop classique perte d’adhérence, m’auras valu ce surnom de “4 bars” et la perte de quelques places et du podium! Inutile de vous dire qu’à partir de ce jour-là, je n’ai plus jamais négligé la pression dans mes pneus et inspiré quelques moqueries !&lt;/p&gt;
@@ -458,7 +460,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
 
             &lt;p&gt;&lt;em&gt;Je ne me suis jamais senti aussi seul que sur mon vélo, mon surf ou avec mes baskets. Le sport, c’est aussi ça: la solitude. Lorsque j’étais cycliste professionnel, une sitation ma marqué, au point que je m’en souvient encore aujourd’hui … onze années après! &lt;/em&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;&quot;La solitude est l'élément déterminant de la condition humaine, seul l'homme se rend compte qu'il est seul.&quot; Le Labyrinthe de la solitude - Ocatio Paz&lt;/blockquote&gt;
+&lt;blockquote&gt;&quot;La solitude est l&apos;élément déterminant de la condition humaine, seul l&apos;homme se rend compte qu&apos;il est seul.&quot; Le Labyrinthe de la solitude - Ocatio Paz&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;au-programme-&quot;&gt;Au programme :&lt;/h2&gt;
 
@@ -585,6 +587,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
 &lt;p&gt;Un verre de vin entre amis, un café entre collègues, un film inspirant, … Avec une idée de produit c’est bien, savoir s’il à de la valeur c’est mieux. C’est le moment de créer son MVP (Minimum Valuable Product).&lt;/p&gt;
 
 &lt;p&gt;Il peut prendre différentes formes:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Un blog&lt;/li&gt;
   &lt;li&gt;Une page Facebook&lt;/li&gt;
@@ -619,6 +622,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
 &lt;p&gt;Sur les premiers projets où je suis intervenu en tant que developpeur, ceux-ci était soit des sides-project soit des projets où j’avais un large scope. Ils incluaient souvent le marketing, le design et la tech. Ne connaissant au debut qu’un seul langage de programmation: le Javascript, je l’utilisais à toutes les sauces. J’utilisais donc &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;NodeJS&lt;/a&gt; (sa surcouche coté serveur) à tout va, pour gagner du temps et par mode. Je reculais le moment d’apprendre un nouveau langage.&lt;/p&gt;
 
 &lt;p&gt;NodeJS est très puissant pour développer rapidement des APIs REST véloces. Il embarque une librairie de modules dense, qui vous permetra de gérer:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;la création de compte utilisateur,&lt;/li&gt;
   &lt;li&gt;la gestion des droits d’accès,&lt;/li&gt;
@@ -641,7 +645,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
 
 &lt;p&gt;Avant de devenir cycliste professionnel, mon Coach me répétait souvent: “il n’y a pas de petite victoire”. Mais finalement une victoire c’est quoi ? Passer la ligne en premier, gagner un prix de grimpeur, un classement jeune ? Je pense qu’une victoire à un sens plus large, qu’elle dépend de l’objectif que l’on se fixe.&lt;/p&gt;
 
-&lt;p&gt;En marketing on parle d’&lt;a href=&quot;https://www.manager-go.com/vente/methode-smart.htm&quot;&gt;objectif SMART&lt;/a&gt;. Pour le définir, il  faut qu’il soit spécifique, mesurable, ambition, réaliste et délimitable dans le temps.&lt;/p&gt;
+&lt;p&gt;En marketing on parle d’&lt;a href=&quot;https://www.manager-go.com/vente/methode-smart.htm&quot;&gt;objectif SMART&lt;/a&gt;. Pour le définir, il faut qu’il soit spécifique, mesurable, ambition, réaliste et délimitable dans le temps.&lt;/p&gt;
 
 &lt;p&gt;J’ai arrêté la compétition depuis de nombreuses années pourtant, je n’ai jamais arrêté d’avoir de petites victoires. J’ai appris à coder seul. Je ne me suis jamais découragé, non seulement parce que j’en avais profondément envie, mais aussi parce que je me suis fixé un objectif inconsciemment SMART: coder une heure par jour, en était un. A la fin de chaque semaine, je pouvais me gratifier d’avoir réussis cet objectif.&lt;/p&gt;
 
@@ -677,6 +681,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
 &lt;p&gt;C’est en regardant en 2016 &lt;a href=&quot;https://www.youtube.com/watch?v=O7FGTTCj42w&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;ce meetup&lt;/a&gt; de &lt;a href=&quot;https://medium.com/u/ccc6ada1ac8e&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Jean de La Rochebrochard&lt;/a&gt; chez &lt;a href=&quot;https://medium.com/u/c0ef96e7e6c5&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;The Family&lt;/a&gt; que j’ai découvert le principe de “l’inbox 0” (pour rappel “l’inbox 0” consiste à avoir à intervalle régulier une boite de réception email à 0).&lt;/p&gt;
 
 &lt;p&gt;Ce concept de productivité est avant toute chose accessible à tous et fait preuve de bon sens. Après tout, qui est capable de travailler sereinement avec une pille interminable de papiers sur son bureau ? Il en est de même pour les supports numérique.&lt;/p&gt;
+
 &lt;blockquote&gt;
 “ Less is more “ Mies van der Rohe&lt;/blockquote&gt;
 
@@ -685,6 +690,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
 &lt;p&gt;Il en était de même pour les emails qu’ils soient de clients ou de tierces, au mieux répondue avec un délai interminable, au pire, rester sans réponses. Inutile de vous faire un dessin sur la conséquence de cette méthode et sur l’image qu’elle projette. Je ne dirais pas que ça à coulé ma boite, mais ça ne l’a pas tirée vers le haut ! Sans compter la sensation désagréable de toujours courir après les mails sans savoir par où commencer quand j’ouvrais ma boite mail. Pire l’appréhension montante de voir de nouveaux emails arriver.&lt;/p&gt;
 
 &lt;p&gt;C’est donc pour me débarrasser de ce vieux démons, qu’avant d’entamer une nouvelle expérience professionnelle, j’ai adopté radicalement du jour au lendemain l’inbox 0. C’est avec simplicité que j’ai archivé sans tri ni relecture tous les emails de plus d’un mois. Pour les emails de moins d’un mois, le tri était simple, un passage direct à la poubelle pour toutes les newsletters. Une relecture de tous les emails restant un à un que ce concluait soit par un archivage soit par une réponse.&lt;/p&gt;
+
 &lt;figure&gt;&lt;img src=&quot;https://nicolasjouanno.com//0c183-1_g8fkft15lcn-3j_75pfaq.jpeg&quot; alt=&quot;inbox zero&quot; /&gt;
 &lt;/figure&gt;
 
@@ -702,7 +708,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
 
 &lt;p&gt;Un, avoir un tracker d’ouverture d’e-mail pour savoir si mes emails importants ont bien été lu par le destinataire. Ainsi, suivant l’objectif de l’email cela me permet d’ajuster l’email de relance.&lt;/p&gt;
 
-&lt;p&gt;Deux, pouvoir profiter d’une base d’email pré-enregistré qui me permet de ne pas avoir à ré-écrire et/ou re-structurer un email envoyé de façon répétée (reporting, transmission de docs, …). Fonctionnalité disponible également dans les outils Gmail qui est moins intuitif que Streak (  paramètre   labos   Réponses standardisées).&lt;/p&gt;
+&lt;p&gt;Deux, pouvoir profiter d’une base d’email pré-enregistré qui me permet de ne pas avoir à ré-écrire et/ou re-structurer un email envoyé de façon répétée (reporting, transmission de docs, …). Fonctionnalité disponible également dans les outils Gmail qui est moins intuitif que Streak ( paramètre labos Réponses standardisées).&lt;/p&gt;
 
 &lt;p&gt;Une autre fonctionnalité qui est intéressante pour le démarchage que je n’utilise que très rarement est le suivi d’email dans un tunnel : Sales, Support.&lt;/p&gt;
 
