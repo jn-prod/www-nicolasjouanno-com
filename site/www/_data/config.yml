@@ -1,7 +1,7 @@
 # Site Settings
 locale           : "fr-FR"
 title            : "Nicolas Jouanno"
-headline         : "Développeur font-end | Design system - JAM stack"
+headline         : "Développeur font-end @mgdis. Design system, a11y, éco-conception, JAM stack."
 url              : "https://nicolasjouanno.com"
 # url              : "http://localhost:4000"
 logo             : 'images/brand/logo.png'
