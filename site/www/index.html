@@ -27,6 +27,6 @@ seo_description: "Développeur front-end. Je travail sur les design-system, je j
 <section class="c-section">
   <h2 class="h1 mb-5">Posts</h2>
 
-  <ul class="c-section__post-list">{% for post in site.posts %} {% include /boxes/post.html type=page.entries_layout %} {% endfor %}</il>
+  <ul class="c-section__post-list">{% for post in site.posts %} <li class="c-section__post-item">{% include /boxes/post.html type=page.entries_layout %}</li> {% endfor %}</il>
 
 </section>
