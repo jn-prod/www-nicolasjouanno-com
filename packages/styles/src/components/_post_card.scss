@@ -58,6 +58,12 @@ $card-border-radius: 1rem;
   &__author {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+
+    &-name {
+      flex: 1 0 auto;
+      margin-right: 1rem;
+    }
   }
 
   &__post-date {
