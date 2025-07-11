@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nicolas Jouanno</title>
-    <description>Développeur font-end | Design system - JAM stack</description>
+    <description>Développeur font-end @mgdis. Design system, a11y, éco-conception, JAM stack.</description>
     <link>https://nicolasjouanno.com/</link>
     <atom:link href="https://nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Jul 2025 06:19:25 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Jul 2025 06:19:25 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Jul 2025 06:23:22 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Jul 2025 06:23:22 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
