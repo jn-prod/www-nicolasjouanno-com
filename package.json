@@ -1,5 +1,10 @@
 {
   "name": "www-nicolasjouanno-com",
+  "packageManager": "pnpm@10.13.1",
+  "engines": {
+    "pnpm": "10.x",
+    "node": "22.x"
+  },
   "version": "1.0.0",
   "description": "Portfolio de Nicolas Jouanno",
   "repository": {
@@ -10,19 +15,18 @@
   "license": "ISC",
   "homepage": "https://nicolasjouanno.com",
   "scripts": {
-    "dev": "turbo dev",
-    "build": "turbo build && ./scripts/bundle.sh",
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build && ./scripts/bundle.sh",
     "build:preview": "python3 -m http.server -d ./dist",
     "change": "changeset",
     "release": "changeset version",
-    "lint": "turbo lint",
-    "lint:fix": "turbo lint:fix"
+    "lint": "pnpm -r lint",
+    "lint:fix": "pnpm -r lint:fix"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
     "eslint": "8",
     "eslint-config-jnprod": "latest",
-    "prettier": "latest",
-    "turbo": "latest"
+    "prettier": "latest"
   }
 }
