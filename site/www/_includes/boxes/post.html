@@ -3,9 +3,9 @@
 <article class="c-post-card" itemscope="" itemtype="http://schema.org/BlogPosting">
   <header class="c-post-card__header">
     <div class="c-post-card__author">
-      <img class="c-post-card__avatar" src="{{ author.avatar }}" alt="{{ author.display_name }}" />
+      <img class="c-post-card__avatar" src="{{ author.avatar }}" alt="{{ author.display_name }}" aria-hidden="true" />
       <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <span itemprop="name">{{ author.display_name }}</span>
+        <span class="c-post-card__author-name" itemprop="name">{{ author.display_name }}</span>
         <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
           <meta itemprop="url" content="{{ site.data.config.url }}/{{ site.logo }}" />
           <meta itemprop="width" content="60" />
@@ -25,7 +25,7 @@
     {{ post.excerpt | strip_html | truncatewords:30 }}
   </p>
   <footer class="c-post-card__footer">
-    <ul>
+    <ul class="u-list u-list--none u-list--inline">
       {% for category in post.categories %}
         <li class="c-post-card__tag">#{{ category }}</li>
       {% endfor %}
