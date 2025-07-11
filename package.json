@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
-    "eslint": "8",
+    "eslint": "9",
     "eslint-config-jnprod": "latest",
     "prettier": "latest"
   }
