@@ -171,16 +171,16 @@
             <a href="{{ site.data.config.url }}/academy.html" class="c-button">Ressources</a>
           </li>
           <li class="c-navigation__link-list-element">
-            <a href="{{ site.data.authors.nicolas.linkedin }}" class="c-button" target="_blank" rel="me"><span class="icon icon--linkedin"></span>Me contacter</a>
+            <a href="{{ site.data.authors.nicolas.linkedin }}" class="c-button" target="_blank" rel="me">Me contacter</a>
+          </li>
+          <li class="c-navigation__link-list-element">
+            <a href="{{ site.data.config.url }}/feed.xml" type="application/rss+xml" class="c-button c-button--primary" >Suivre<span class="icon icon--rss icon--2x"></span></a>
           </li>
         </ul>
       </article>
 
       <article class="c-layout__legals">
-        <span> © 2013 - {{ site.time | date: "%Y" }}. Design et développement: {{ site.data.authors.nicolas.display_name }}</span>
-
-        <span><a href="{{ site.data.config.url }}/feed.xml" type="application/rss+xml" class="c-button c-button--primary" >Suivre<span class="icon icon--rss icon--2x"></span></a>
-        </span>
+        <p> © 2013 - {{ site.time | date: "%Y" }}. Design et développement: {{ site.data.authors.nicolas.display_name }}</p>
       </article>
     </footer>
 
