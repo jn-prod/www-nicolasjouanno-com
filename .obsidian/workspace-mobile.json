@@ -11,10 +11,24 @@
             "id": "d9315f8300d0b357",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "site/www/archives/2017-02-14-comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2017-02-14-comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt"
             }
           }
         ]
@@ -146,6 +160,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d9315f8300d0b357",
+  "active": "467161e2017e7d2c",
   "lastOpenFiles": []
 }
