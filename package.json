@@ -6,6 +6,7 @@
     "node": "22.x"
   },
   "version": "1.0.0",
+  "private": "true",
   "description": "Portfolio de Nicolas Jouanno",
   "repository": {
     "type": "git",

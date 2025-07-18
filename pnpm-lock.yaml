@@ -12,7 +12,9 @@ importers:
         specifier: ^2.26.1
         version: 2.29.5
 
-  site/www:
+  configs/obsidian: {}
+
+  www:
     dependencies:
       modern-normalize:
         specifier: ^3.0.1
