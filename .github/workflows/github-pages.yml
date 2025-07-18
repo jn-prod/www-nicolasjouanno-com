@@ -27,7 +27,7 @@ jobs:
     - name: Install node dependencies
       run: pnpm install
     - name: Install ruby dependencies
-      run: cd ./site/www && bundle install && cd ../..
+      run: cd ./www && bundle install && cd ../..
     #- name: Lint
     #  run: pnpm lint
     - name: Build
