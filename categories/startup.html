@@ -289,6 +289,7 @@
       
 
 <article
+  id="/les-bienfaits-de-linbox-0.html"
   class="c-post-card"
   itemscope=""
   itemtype="http://schema.org/BlogPosting"
@@ -344,8 +345,41 @@
       <li class="c-post-card__tag">#Startup Growth</li>
       
     </ul>
+    <ul class="u-list u-list--none u-list--inline">
+      <li>
+        <!-- Email -->
+        <a href="mailto:?subject=Les bienfaits de l’inbox 0&body=Je voulais te partager ce lien : /les-bienfaits-de-linbox-0.html">
+          Commenter
+        </a>
+      </li>
+ 
+      <li>
+        <!-- Copier lien -->
+        <button onclick="navigator.clipboard.writeText('/les-bienfaits-de-linbox-0.html'); alert('Lien copié 👍');">
+          Copier
+        </button>
+      </li>
+
+      <li>
+        <!-- Web Share API -->
+        <button onclick="sharePost(Les bienfaits de l’inbox 0, /les-bienfaits-de-linbox-0.html)">Partager</button>
+      </li>
+    </ul>
   </footer>
 </article>
+<script>
+  function sharePost(title, url) {
+    if (navigator.share) {
+      navigator.share({
+        title,
+        text: 'Je voulais te partager ce post',
+        url,
+      }).catch((error) => console.log('Erreur de partage', error));
+    } else {
+      alert("Le partage via l'appareil n'est pas supporté sur ce navigateur.");
+    }
+  }
+</script>
     
     </div>
 

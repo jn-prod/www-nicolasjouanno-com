@@ -289,6 +289,7 @@
       
 
 <article
+  id="/premier-trail.html"
   class="c-post-card"
   itemscope=""
   itemtype="http://schema.org/BlogPosting"
@@ -345,12 +346,46 @@
       <li class="c-post-card__tag">#Experience</li>
       
     </ul>
+    <ul class="u-list u-list--none u-list--inline">
+      <li>
+        <!-- Email -->
+        <a href="mailto:?subject=Mon premier trail&body=Je voulais te partager ce lien : /premier-trail.html">
+          Commenter
+        </a>
+      </li>
+ 
+      <li>
+        <!-- Copier lien -->
+        <button onclick="navigator.clipboard.writeText('/premier-trail.html'); alert('Lien copié 👍');">
+          Copier
+        </button>
+      </li>
+
+      <li>
+        <!-- Web Share API -->
+        <button onclick="sharePost(Mon premier trail, /premier-trail.html)">Partager</button>
+      </li>
+    </ul>
   </footer>
 </article>
+<script>
+  function sharePost(title, url) {
+    if (navigator.share) {
+      navigator.share({
+        title,
+        text: 'Je voulais te partager ce post',
+        url,
+      }).catch((error) => console.log('Erreur de partage', error));
+    } else {
+      alert("Le partage via l'appareil n'est pas supporté sur ce navigateur.");
+    }
+  }
+</script>
    
       
 
 <article
+  id="/velo-boulot-dodo.html"
   class="c-post-card"
   itemscope=""
   itemtype="http://schema.org/BlogPosting"
@@ -407,12 +442,46 @@
       <li class="c-post-card__tag">#Experience</li>
       
     </ul>
+    <ul class="u-list u-list--none u-list--inline">
+      <li>
+        <!-- Email -->
+        <a href="mailto:?subject=Vélo, Boulot, Dodo&body=Je voulais te partager ce lien : /velo-boulot-dodo.html">
+          Commenter
+        </a>
+      </li>
+ 
+      <li>
+        <!-- Copier lien -->
+        <button onclick="navigator.clipboard.writeText('/velo-boulot-dodo.html'); alert('Lien copié 👍');">
+          Copier
+        </button>
+      </li>
+
+      <li>
+        <!-- Web Share API -->
+        <button onclick="sharePost(Vélo, Boulot, Dodo, /velo-boulot-dodo.html)">Partager</button>
+      </li>
+    </ul>
   </footer>
 </article>
+<script>
+  function sharePost(title, url) {
+    if (navigator.share) {
+      navigator.share({
+        title,
+        text: 'Je voulais te partager ce post',
+        url,
+      }).catch((error) => console.log('Erreur de partage', error));
+    } else {
+      alert("Le partage via l'appareil n'est pas supporté sur ce navigateur.");
+    }
+  }
+</script>
            
       
 
 <article
+  id="/wordpress-medium-jekyll.html"
   class="c-post-card"
   itemscope=""
   itemtype="http://schema.org/BlogPosting"
@@ -469,8 +538,41 @@
       <li class="c-post-card__tag">#Tech</li>
       
     </ul>
+    <ul class="u-list u-list--none u-list--inline">
+      <li>
+        <!-- Email -->
+        <a href="mailto:?subject=Wordpress vs Medium&body=Je voulais te partager ce lien : /wordpress-medium-jekyll.html">
+          Commenter
+        </a>
+      </li>
+ 
+      <li>
+        <!-- Copier lien -->
+        <button onclick="navigator.clipboard.writeText('/wordpress-medium-jekyll.html'); alert('Lien copié 👍');">
+          Copier
+        </button>
+      </li>
+
+      <li>
+        <!-- Web Share API -->
+        <button onclick="sharePost(Wordpress vs Medium, /wordpress-medium-jekyll.html)">Partager</button>
+      </li>
+    </ul>
   </footer>
 </article>
+<script>
+  function sharePost(title, url) {
+    if (navigator.share) {
+      navigator.share({
+        title,
+        text: 'Je voulais te partager ce post',
+        url,
+      }).catch((error) => console.log('Erreur de partage', error));
+    } else {
+      alert("Le partage via l'appareil n'est pas supporté sur ce navigateur.");
+    }
+  }
+</script>
   
     </div>
 
