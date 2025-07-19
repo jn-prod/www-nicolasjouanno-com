@@ -31,23 +31,24 @@
       {% endfor %}
     </ul>
     <ul class="u-list u-list--none u-list--inline">
+      <!-- Email
       <li>
-        <!-- Email -->
+         
         <a href="mailto:?subject={{post.title}}&body=Je voulais te partager ce lien : {{post.url}}">
           Commenter
         </a>
-      </li>
+      </li>-->
  
       <li>
         <!-- Copier lien -->
-        <button onclick="navigator.clipboard.writeText('{{post.url}}'); alert('Lien copié 👍');">
+        <button class="c-button" onclick="navigator.clipboard.writeText('{{post.url}}'); alert('Lien copié 👍');">
           Copier
         </button>
       </li>
 
       <li>
         <!-- Web Share API -->
-        <button onclick="sharePost({{post.title}}, {{post.url}})">Partager</button>
+        <button class="c-button" onclick="sharePost({{post.title}}, {{post.url}})">Partager</button>
       </li>
     </ul>
   </footer>
