@@ -1,6 +1,7 @@
 {% assign author = site.data.authors[post.author] %}
 
 <article
+  id="{{post.url}}"
   class="c-post-card"
   itemscope=""
   itemtype="http://schema.org/BlogPosting"
@@ -29,5 +30,38 @@
       <li class="c-post-card__tag">#{{ category }}</li>
       {% endfor %}
     </ul>
+    <ul class="u-list u-list--none u-list--inline">
+      <li>
+        <!-- Email -->
+        <a href="mailto:?subject={{post.title}}&body=Je voulais te partager ce lien : {{post.url}}">
+          Commenter
+        </a>
+      </li>
+ 
+      <li>
+        <!-- Copier lien -->
+        <button onclick="navigator.clipboard.writeText('{{post.url}}'); alert('Lien copié 👍');">
+          Copier
+        </button>
+      </li>
+
+      <li>
+        <!-- Web Share API -->
+        <button onclick="sharePost({{post.title}}, {{post.url}})">Partager</button>
+      </li>
+    </ul>
   </footer>
 </article>
+<script>
+  function sharePost(title, url) {
+    if (navigator.share) {
+      navigator.share({
+        title,
+        text: 'Je voulais te partager ce post',
+        url,
+      }).catch((error) => console.log('Erreur de partage', error));
+    } else {
+      alert("Le partage via l'appareil n'est pas supporté sur ce navigateur.");
+    }
+  }
+</script>
