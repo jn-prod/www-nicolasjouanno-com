@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "06af28c59762a63a",
+        "id": "1767a033ebfd198c",
         "type": "tabs",
         "children": [
           {
-            "id": "d9315f8300d0b357",
+            "id": "1455a26d40d78034",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "site/www/pages/results.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "results"
+              "title": "New tab"
             }
           }
         ]
@@ -94,6 +80,20 @@
           "icon": "lucide-bookmark",
           "title": "Bookmarks"
         }
+      },
+      {
+        "id": "425af256b9356de1",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
       }
     ],
     "currentTab": 0
@@ -154,15 +154,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "zk-prefixer:Create new unique note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "d9315f8300d0b357",
+  "active": "1455a26d40d78034",
   "lastOpenFiles": [
+    "configs/obsidian/templates/post.md",
+    "www/_drafts/test.md",
+    "www/CHANGELOG.md",
+    "configs/obsidian/templates",
+    "www/_drafts",
+    "site/www/studio/about.md",
+    "site/www/pages/results.md",
     "site/www/archives/2017-02-14-comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.md"
   ]
 }
