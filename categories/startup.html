@@ -345,43 +345,14 @@
       <li class="c-post-card__tag">#Startup Growth</li>
       
     </ul>
-    <ul class="u-list u-list--none u-list--inline">
-      <!-- Email -->
-      <li>
-        <a class="c-button"
-           href="mailto:?subject=Les+bienfaits+de+l%E2%80%99inbox+0
-           &body=Je+voulais+te+partager+ce+post+%3A%5Cn%5Cn%2Fles-bienfaits-de-linbox-0.html%5Cn%5CnL%E2%80%99inbox+0%2C+plus+qu%E2%80%99une+r%C3%A8gle+c%E2%80%99est+un+%C3%A9tat+d%E2%80%99esprit+de+productivit%C3%A9+que+j%E2%80%99applique+au+quotidien.%0A">
-          Partager
-        </a>
-      </li>
- 
-      <!-- Copier lien 
-      <li>
-        <button class="c-button" onclick="navigator.clipboard.writeText('/les-bienfaits-de-linbox-0.html'); alert('Lien copié 👍');">
-          Copier
-        </button>
-      </li>-->
-      
-      <!-- Web Share API 
-      <li>
-        <button class="c-button" onclick="sharePost(Les bienfaits de l’inbox 0, /les-bienfaits-de-linbox-0.html)">Partager</button>
-      </li>-->
-    </ul>
+    <a class="c-button"
+       href="mailto:?subject=Les+bienfaits+de+l%E2%80%99inbox+0
+       &body=Je+voulais+te+partager+ce+post+%3A%250A%250Ahttps%3A%2F%2Fnicolasjouanno.com%2Fles-bienfaits-de-linbox-0.html%250A%250AL%E2%80%99inbox+0%2C+plus+qu%E2%80%99une+r%C3%A8gle+c%E2%80%99est+un+%C3%A9tat+d%E2%80%99esprit+de+productivit%C3%A9+que+j%E2%80%99applique+au+quotidien.%0A>
+      Partager
+    </a>
   </footer>
 </article>
-<script>
-  function sharePost(title, url) {
-    if (navigator.share) {
-      navigator.share({
-        title,
-        text: 'Je voulais te partager ce post',
-        url,
-      }).catch((error) => console.log('Erreur de partage', error));
-    } else {
-      alert("Le partage via l'appareil n'est pas supporté sur ce navigateur.");
-    }
-  }
-</script>
+
     
     </div>
 

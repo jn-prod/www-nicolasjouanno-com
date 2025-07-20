@@ -346,43 +346,14 @@
       <li class="c-post-card__tag">#Tech</li>
       
     </ul>
-    <ul class="u-list u-list--none u-list--inline">
-      <!-- Email -->
-      <li>
-        <a class="c-button"
-           href="mailto:?subject=Wordpress+vs+Medium
-           &body=Je+voulais+te+partager+ce+post+%3A%5Cn%5Cn%2Fwordpress-medium-jekyll.html%5Cn%5CnJ%E2%80%99ai+commenc%C3%A9+%C3%A0+bloguer+%C3%A0+l%E2%80%99%C3%A9poque+des+skyblog%2C+ensuite+j%E2%80%99ai+d%C3%A9couvert+Wordpress+un+outil+puissant%2C+puis+Medium+un+outil+simple.+Maintenant+je+blog+gr%C3%A2ce...">
-          Partager
-        </a>
-      </li>
- 
-      <!-- Copier lien 
-      <li>
-        <button class="c-button" onclick="navigator.clipboard.writeText('/wordpress-medium-jekyll.html'); alert('Lien copié 👍');">
-          Copier
-        </button>
-      </li>-->
-      
-      <!-- Web Share API 
-      <li>
-        <button class="c-button" onclick="sharePost(Wordpress vs Medium, /wordpress-medium-jekyll.html)">Partager</button>
-      </li>-->
-    </ul>
+    <a class="c-button"
+       href="mailto:?subject=Wordpress+vs+Medium
+       &body=Je+voulais+te+partager+ce+post+%3A%250A%250Ahttps%3A%2F%2Fnicolasjouanno.com%2Fwordpress-medium-jekyll.html%250A%250AJ%E2%80%99ai+commenc%C3%A9+%C3%A0+bloguer+%C3%A0+l%E2%80%99%C3%A9poque+des+skyblog%2C+ensuite+j%E2%80%99ai+d%C3%A9couvert+Wordpress+un+outil+puissant%2C+puis+Medium+un+outil+simple.+Maintenant+je+blog+gr%C3%A2ce...>
+      Partager
+    </a>
   </footer>
 </article>
-<script>
-  function sharePost(title, url) {
-    if (navigator.share) {
-      navigator.share({
-        title,
-        text: 'Je voulais te partager ce post',
-        url,
-      }).catch((error) => console.log('Erreur de partage', error));
-    } else {
-      alert("Le partage via l'appareil n'est pas supporté sur ce navigateur.");
-    }
-  }
-</script>
+
   
     </div>
 

@@ -345,43 +345,14 @@
       <li class="c-post-card__tag">#Product Management</li>
       
     </ul>
-    <ul class="u-list u-list--none u-list--inline">
-      <!-- Email -->
-      <li>
-        <a class="c-button"
-           href="mailto:?subject=Coder+son+MVP%2C+sujet+de+Growth+hacking+ou+de+Product+management+%3F
-           &body=Je+voulais+te+partager+ce+post+%3A%5Cn%5Cn%2Fstay-minimal.html%5Cn%5CnA+la+rencontre+du+growth+hacking%0A">
-          Partager
-        </a>
-      </li>
- 
-      <!-- Copier lien 
-      <li>
-        <button class="c-button" onclick="navigator.clipboard.writeText('/stay-minimal.html'); alert('Lien copié 👍');">
-          Copier
-        </button>
-      </li>-->
-      
-      <!-- Web Share API 
-      <li>
-        <button class="c-button" onclick="sharePost(Coder son MVP, sujet de Growth hacking ou de Product management ?, /stay-minimal.html)">Partager</button>
-      </li>-->
-    </ul>
+    <a class="c-button"
+       href="mailto:?subject=Coder+son+MVP%2C+sujet+de+Growth+hacking+ou+de+Product+management+%3F
+       &body=Je+voulais+te+partager+ce+post+%3A%250A%250Ahttps%3A%2F%2Fnicolasjouanno.com%2Fstay-minimal.html%250A%250AA+la+rencontre+du+growth+hacking%0A>
+      Partager
+    </a>
   </footer>
 </article>
-<script>
-  function sharePost(title, url) {
-    if (navigator.share) {
-      navigator.share({
-        title,
-        text: 'Je voulais te partager ce post',
-        url,
-      }).catch((error) => console.log('Erreur de partage', error));
-    } else {
-      alert("Le partage via l'appareil n'est pas supporté sur ce navigateur.");
-    }
-  }
-</script>
+
       
     </div>
 
