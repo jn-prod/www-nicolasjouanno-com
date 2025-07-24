@@ -53,4 +53,4 @@ Il y a autant d'exemples que d'applications disponibles créées. Les grandes fa
 
 Plusieurs éditeurs développent des applications qui permettent à votre entreprise d'optimiser ses activités: Sales, Marketing, RH, Comptabilité ...
 
-Vos besoins peuvent également être plus précis et nécessiter des développements spécifiques pour profiter d'<a href="{{ site.data.config.url }}/about.html">outils numériques sur mesure</a>.
+Vos besoins peuvent également être plus précis et nécessiter des développements spécifiques pour profiter d'<a href="{{ site.url }}/about.html">outils numériques sur mesure</a>.

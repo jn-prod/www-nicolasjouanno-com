@@ -10,7 +10,7 @@ permalink: /advertise/terms.html
 
 # Conditions de publicité
 
-Les conditions suivantes sont appliquées à toutes les publicités diffusées sur "{{ site.data.config.title }}", publié par Nicolas Jouanno, 1 rue du resteu vihan, 56300 Pontivy, France.
+Les conditions suivantes sont appliquées à toutes les publicités diffusées sur "{{ site.title }}", publié par Nicolas Jouanno, 1 rue du resteu vihan, 56300 Pontivy, France.
 
 {:my-5}
 

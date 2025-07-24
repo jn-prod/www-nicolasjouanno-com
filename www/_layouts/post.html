@@ -8,7 +8,7 @@ post_class: post-template
 <!-- Begin Article
 ================================================== -->
 
-{% assign author = site.data.authors[page.author] %}
+{% assign author = site.author %}
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <time
     itemprop="dateCreated datePublished dateModified"
@@ -17,15 +17,12 @@ post_class: post-template
 
   <!-- Post heading -->
   <h1 itemprop="name headline">{{ page.title }}</h1>
-  <meta
-    itemprop="url mainEntityOfPage"
-    content="{{ site.data.config.url}}{{page.url }}"
-  />
+  <meta itemprop="url mainEntityOfPage" content="{{ site.url}}{{page.url }}" />
   <!-- Post Featured Image -->
   {% if page.image %}
   <img
     itemprop="image thumbnailUrl"
-    src="{{ site.data.config.url }}/{{ page.image }}"
+    src="{{ site.url }}/{{ page.image }}"
     alt="{{ page.title }}"
   />
   {% endif %}

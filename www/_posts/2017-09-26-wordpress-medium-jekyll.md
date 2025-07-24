@@ -10,8 +10,6 @@ image: assets/images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.png
 categories:
   - Experience
   - Tech
-
-author: nicolas
 ---
 
 _J'ai commencé à bloguer à l'époque des skyblog, ensuite j'ai découvert Wordpress un outil puissant, puis Medium un outil simple. Maintenant je blog grâce à Jekyll. Voici ce que vous pourrez (ou pas) faire avec chacun d'eux._

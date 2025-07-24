@@ -13,7 +13,6 @@ tags:
   - VTT
   - matériel
 
-author: nicolas
 image: "assets/images/posts/90cc1-0wscg_9_yafgnydvo.jpg"
 ---
 
@@ -50,7 +49,7 @@ A l’opposé, vous pouvez aussi avoir la chance d’avoir près de chez vous un
 ### Etape 1: mesure de l’entrejambe
 
 <figure class="wp-caption">
-	<img alt="mesurer l'entrejambe" src="{{ site.data.config.url }}/assets/images/posts/be51c-0hfcgbqmgeoo9jz4_.jpg" />
+	<img alt="mesurer l'entrejambe" src="{{ site.url }}/assets/images/posts/be51c-0hfcgbqmgeoo9jz4_.jpg" />
 	<figcaption class="wp-caption-text">mesurer l’entrejambe</figcaption>
 </figure>
 
@@ -156,7 +155,7 @@ Idéalement l’inclinaison de la selle sera neutre (de niveau) ou légèrement 
 ## 4/ Conclusion sur le choix de la taille de votre VTT et de votre position : {#conclusion}
 
 <figure class="wp-caption">
-	<img alt="Régler la position de votre VTT" src="{{ site.data.config.url }}/assets/images/posts/c3412-0q9h0y5sobcadmm5g.jpg" />
+	<img alt="Régler la position de votre VTT" src="{{ site.url }}/assets/images/posts/c3412-0q9h0y5sobcadmm5g.jpg" />
 	<figcaption class="wp-caption-text">Régler la position de votre VTT</figcaption>
 </figure>
 
@@ -173,19 +172,19 @@ Il faudra retenir qu’un mauvais vélo bien ajusté est préférable à un bon 
 ## 5/ Notre sélection pour améliorer votre position en VTT : {#best-of}
 
 <figure>
-	<img alt="TIGE DE SELLE TÉLESCOPIQUE ROCKSHOX REVERB " src="{{ site.data.config.url }}/assets/images/posts/e5da7-0xj0yqcv6lzqqklhv.jpg" />
+	<img alt="TIGE DE SELLE TÉLESCOPIQUE ROCKSHOX REVERB " src="{{ site.url }}/assets/images/posts/e5da7-0xj0yqcv6lzqqklhv.jpg" />
   <figcaption>TIGE DE SELLE TÉLESCOPIQUE ROCKSHOX REVERB</figcaption>
 </figure>
 <a href="http://track.effiliation.com/servlet/effi.redir?id_compteur=12855409&amp;url=https://www.alltricks.fr/Acheter/ROCKSHOX%2BREVERB" target="_blank" rel="nofollow" class="btn btn-outline-primary text-center">Acheter chez Alltricks</a>
 
 <figure>
-	<img alt="SELLE FIZIK VTT" src="{{ site.data.config.url }}/assets/images/posts/987f5-0l7go23ijzjg1tfbl.jpg" />
+	<img alt="SELLE FIZIK VTT" src="{{ site.url }}/assets/images/posts/987f5-0l7go23ijzjg1tfbl.jpg" />
   <figcaption>SELLE FIZIK VTT</figcaption>
 </figure>
 <a href="http://track.effiliation.com/servlet/effi.redir?id_compteur=12855409&amp;url=https://www.alltricks.fr/Acheter/SELLE%2BFIZIK%2BVTT" target="_blank" rel="nofollow" class="btn btn-outline-primary text-center">Acheter chez Alltricks</a>
 
 <figure>
-	<img alt="CINTRE RACE FACE" src="{{ site.data.config.url }}/assets/images/posts/3675d-02lcpym5czygodzpr.jpg" />
+	<img alt="CINTRE RACE FACE" src="{{ site.url }}/assets/images/posts/3675d-02lcpym5czygodzpr.jpg" />
   <figcaption>CINTRE RACE FAC</figcaption>
 </figure>
 <a href="http://track.effiliation.com/servlet/effi.redir?id_compteur=12855409&amp;url=https://www.alltricks.fr/Acheter/CINTRE%2BRACE%2BFACE" target="_blank" rel="nofollow" class="btn btn-outline-primary text-center">Acheter chez Alltricks</a>

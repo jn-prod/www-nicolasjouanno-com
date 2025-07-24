@@ -12,7 +12,6 @@ tags:
   - Solitude
   - Sentiments
 
-author: nicolas
 image: assets/images/posts/living-alone.jpg
 ---
 

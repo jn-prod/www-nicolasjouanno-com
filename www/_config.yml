@@ -1,3 +1,59 @@
+# Site Settings
+title: "Nicolas Jouanno"
+headline: "Développeur font-end @mgdis.<br>Design system, a11y, éco-conception, JAM stack."
+url: "https://nicolasjouanno.com"
+
+# SEO Related
+meta_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec vous, je partage chaque défi et développe de nouveaux projets."
+meta_keywords:
+  - "développeur web"
+  - "développeur full-stack"
+  - "développeur full-stack JS"
+  - "développeur NodeJS"
+  - "product design"
+  - "startup"
+  - "nicolas jouanno"
+  - "web-developper"
+  - "UX / UI Design"
+  - "design thinking"
+
+# author
+author:
+  name: "Nicolas JOUANNO DANIEL"
+  bio: "Développeur front-end JS & ex-cycliste professionnel - Quand je ne suis pas avec ma famille, je passe mon temps à faire du sport, écrire, coder, apprendre ..."
+  location: "Pontivy, Bretagne, France"
+  avatar: "/assets/images/profile.jpeg"
+  email: "pro@nicolasjouanno.com"
+  web: "https://nicolasjouanno.com/about.html"
+  certifications_folder: "https://drive.google.com/open?id=14JiH6ytQDige_iIOZPUUYq-W38VPaWTo"
+
+  # social
+  handle: "@nicolasjouanno"
+  bitbucket:
+  codepen:
+  dribble: "https://dribbble.com/nicolasjouanno"
+  flickr:
+  facebook:
+  foursquare:
+  github: "https://github.com/jn-prod"
+  gitlab:
+  keybase:
+  instagram:
+  lastfm:
+  linkedin: "https://www.linkedin.com/in/nicolasjouanno/"
+  mediumcom: "https://medium.com/@nicolasjouanno"
+  pinterest:
+  soundcloud:
+  stackoverflow: # "123456/username" (the last part of your profile   url, e.g. https://stackoverflow.com/users/123456/username)
+  steam: # "steamId" (the last part of your profile   url, e.g. https://steamcommunity.com/id/steamId/)
+  strava:
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  xing:
+  youtube: "https://www.youtube.com/channel/UCcvmBtY40bompka9CkjrmLg"
+
 # Outputting
 lsi: false
 safe: true

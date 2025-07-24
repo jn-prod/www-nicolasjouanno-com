@@ -1,4 +1,4 @@
-{% assign author = site.data.authors[post.author] %}
+{% assign author = site.author %}
 
 <article
   id="{{post.url}}"
@@ -17,7 +17,7 @@
       </h2>
       <meta
         itemprop="url mainEntityOfPage"
-        content="{{ site.data.config.url}}{{post.url }}"
+        content="{{ site.url}}{{post.url }}"
       />
     </div>
   </header>
@@ -29,7 +29,7 @@
       <li>
         <a
           class="c-button"
-          href="mailto:?subject={{ post.title | url_encode }}&body={{ 'Je voulais te partager ce post :' | url_encode}}%0A%0A{{ site.data.config.url | append: post.url | url_encode}}%0A%0A{{post.excerpt | strip_html | truncatewords:30 | url_encode}}"
+          href="mailto:?subject={{ post.title | url_encode }}&body={{ 'Je voulais te partager ce post :' | url_encode}}%0A%0A{{ site.url | append: post.url | url_encode}}%0A%0A{{post.excerpt | strip_html | truncatewords:30 | url_encode}}"
           >Partager
         </a>
       </li>

@@ -17,7 +17,6 @@ tags:
   - Reconversion
   - Entrainement
 
-author: nicolas
 image: assets/images/posts/1029035155.jpg
 ---
 

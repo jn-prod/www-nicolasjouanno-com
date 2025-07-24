@@ -22,7 +22,7 @@ permalink: "/about.html"
 
     <p>
       Moi c'est
-      <a href="{{ site.data.config.url }}/about.html" rel="me">Nicolas Jouanno</a>, Lead front-end @MGDIS. Je conçois un design-system et travail sur l'outillage pour des micro frontends.
+      <a href="{{ site.url }}/about.html" rel="me">Nicolas Jouanno</a>, Lead front-end @MGDIS. Je conçois un design-system et travail sur l'outillage pour des micro frontends.
     </p>
     <p>
       Je suis attentif à l'accessibilité et à l'éco-conception.
@@ -36,7 +36,7 @@ permalink: "/about.html"
 
   </div>
 
-  <img class="c-section__image" src="{{ site.data.authors.nicolas.avatar }}" alt="{{ site.data.authors.nicolas.display_name }}" />
+  <img class="c-section__image" src="{{ site.author.avatar }}" alt="{{ site.author.name }}" />
 </section>
 
 <!-- About
@@ -71,9 +71,9 @@ Je suis <a href="/">développeur front-end</a>, je co-conçois des <a href="/off
 
 Ma trajectoire professionnel s'inscrit dans le domaine sportif. Après une carrière de <a href="/results.html">cycliste professionnel</a>, je deviens Responsable Communication et Webmaster chez Twinner Sport. J'ai créé et dévelopé mon entreprise de vente d'article de sport outdoor cross-canal. Puis je suis devenu <a href="/creation-site-internet.html">Concepteur Développeur Web</a> pour un groupement, dans lequel j'ai notamment développé une application web d'inscription en ligne <a href="/portfolio/project/event-izir.html">event.izir.fr</a> et un portail intranet pour piloter la stratégie commerciale du groupe.
 
-Maintenant, je suis développeur full-stack JS (NodeJS, MongoDB, AngularJS & VueJS) chez MGDIS. Une entreprise Bretonne qui aide les collectivités à gérer les aides publiques. Passioné par les interfaces réussitent, j'aime échanger sur cette thématique avec les autres membre de la guilde UX/UI de l'entreprise. Curieux, je continue de me former et de m'informer sur les nouvelles technologies, frameworks et relève le defis des <a href="{{ site.data.config.url }}/certifications.html">certifications</a>.
+Maintenant, je suis développeur full-stack JS (NodeJS, MongoDB, AngularJS & VueJS) chez MGDIS. Une entreprise Bretonne qui aide les collectivités à gérer les aides publiques. Passioné par les interfaces réussitent, j'aime échanger sur cette thématique avec les autres membre de la guilde UX/UI de l'entreprise. Curieux, je continue de me former et de m'informer sur les nouvelles technologies, frameworks et relève le defis des <a href="{{ site.url }}/certifications.html">certifications</a>.
 
-Je partage ma veille et parle de sport, mobilité, productivité, minimalsime et d'environnement sous le pseudo <a href="{{ site.data.authors.nicolas.linkedin }}">{{ site.data.authors.nicolas.handle }}</a> sur Linkedin.
+Je partage ma veille et parle de sport, mobilité, productivité, minimalsime et d'environnement sous le pseudo <a href="{{ site.author.linkedin }}">{{ site.author.handle }}</a> sur Linkedin.
 
 J'aime pratiquer les best practices des plus grandes entreprises tech, comme Lean Startup, le Design Thinking, la méthode Agile & le Lean UX.
 
@@ -81,7 +81,7 @@ J'interviens sur tout le cycle de vie d'un produit numérique : de la création 
 
 Je développe avec vous une web app scalable qui tient compte de vos objectifs de rétention, des contraintes métier et de vos utilisateurs.
 
-Commençons par <a href="{{ site.data.authors.nicolas.linkedin }}">en parler</a> ensemble. Enfin, je partage mes connaissances techniques, stratégiques et opérationnelles sur <a href="{{ site.data.config.url }}/stories.html">le blog</a>.
+Commençons par <a href="{{ site.author.linkedin }}">en parler</a> ensemble. Enfin, je partage mes connaissances techniques, stratégiques et opérationnelles sur <a href="{{ site.url }}/stories.html">le blog</a>.
 
 ## Vous accompagner à chaque étape de votre application web.
 
@@ -114,4 +114,4 @@ Vous développez une <a href="/offres/site-applicatif.html">application mobile</
 
 ## Me contacter.
 
-Vous pouvez me contacter sur <a href="{{ site.data.authors.nicolas.linkedin }}">Linkedin</a>.
+Vous pouvez me contacter sur <a href="{{ site.author.linkedin }}">Linkedin</a>.

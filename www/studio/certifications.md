@@ -8,7 +8,7 @@ permalink: "/certifications.html"
 
 _Je réalise régulièrement des certifications afin de valider mes compétences en Digital et plus particulèrement en Développement web. Ce qui me permet d'accompagner au mieux mes clients sur leurs problèmatiques digital._
 
-_Je vous présente mes différentes certifications, que vous retrouverez également sur mon profil <a href="{{ site.data.authors.nicolas.linkedin }}" rel="me" target="blank">LinkedIn</a>._
+_Je vous présente mes différentes certifications, que vous retrouverez également sur mon profil <a href="{{ site.author.linkedin }}" rel="me" target="blank">LinkedIn</a>._
 
 ## Certifications OpenClassrooms
 
@@ -18,5 +18,5 @@ OpenClassrooms (ex- Site Du Zero) est une école française en ligne offrant des
 
 {% for certification in site.data.certifications %}
 
-- <span class="text-muted">{{ certification.category }} -</span> {% if certification.url %}<a href="{{certification.url}}">{{certification.title}}</a> {% else %} {{certification.title}} {% endif %} \| <a href="{{site.data.authors.nicolas.certifications_folder}}" target="_blank">Mon certificat →</a>
+- <span class="text-muted">{{ certification.category }} -</span> {% if certification.url %}<a href="{{certification.url}}">{{certification.title}}</a> {% else %} {{certification.title}} {% endif %} \| <a href="{{site.author.certifications_folder}}" target="_blank">Mon certificat →</a>
   {% endfor %}

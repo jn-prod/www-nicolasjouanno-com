@@ -17,7 +17,6 @@ tags:
   - Sport
   - Chute
 
-author: nicolas
 image: assets/images/posts/route-de-montagne.jpg
 ---
 

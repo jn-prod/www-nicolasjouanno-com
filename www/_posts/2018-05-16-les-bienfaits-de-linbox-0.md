@@ -7,8 +7,6 @@ image: assets/images/posts/e0a38-10yto40xd793dweahzoxsta.jpeg
 
 categories:
   - Startup Growth
-
-author: nicolas
 ---
 
 ## L’inbox 0, plus qu’une règle c’est un état d’esprit de productivité que j’applique au quotidien.
@@ -26,7 +24,7 @@ Il en était de même pour les emails qu’ils soient de clients ou de tierces, 
 
 C’est donc pour me débarrasser de ce vieux démons, qu’avant d’entamer une nouvelle expérience professionnelle, j’ai adopté radicalement du jour au lendemain l’inbox 0. C’est avec simplicité que j’ai archivé sans tri ni relecture tous les emails de plus d’un mois. Pour les emails de moins d’un mois, le tri était simple, un passage direct à la poubelle pour toutes les newsletters. Une relecture de tous les emails restant un à un que ce concluait soit par un archivage soit par une réponse.
 
-<figure><img src="{{ site.data.config.url }}/{{ site.imgpost }}/0c183-1_g8fkft15lcn-3j_75pfaq.jpeg" alt="inbox zero" />
+<figure><img src="{{ site.url }}/{{ site.imgpost }}/0c183-1_g8fkft15lcn-3j_75pfaq.jpeg" alt="inbox zero" />
 </figure>
 
 Cela fait donc deux ans que j’applique quotidiennement l’inbox 0 (j’ai de façon certaine beaucoup moins de mail que Jean). Ma journée de travail commence sans comparaison plus positivement après avoir traité tous les emails et me procure un sentiment d’apaisement et de clairvoyance pour le reste de la journée.

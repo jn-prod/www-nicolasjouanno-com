@@ -13,7 +13,6 @@ tags:
   - VTT
   - entrainement
 
-author: nicolas
 image: assets/images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.png
 featured: true
 ---

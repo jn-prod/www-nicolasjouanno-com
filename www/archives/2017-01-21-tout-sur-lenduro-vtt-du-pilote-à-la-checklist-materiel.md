@@ -13,7 +13,6 @@ tags:
   - VTT
   - matériel
 
-author: nicolas
 image: assets/images/posts/p5pb12718966.jpg
 ---
 
@@ -30,7 +29,7 @@ image: assets/images/posts/p5pb12718966.jpg
 ## 1/ Le VTT enduro Qu’est que-c’est ? {#preambule}
 
 <figure>
-	<img alt="jerome clementz l'un des meilleurs pilotes Enduro de sa génération" src="{{ site.data.config.url }}/assets/images/posts/de923-0ox0m4w6j-q1hpkxf.jpg" /><br />
+	<img alt="jerome clementz l'un des meilleurs pilotes Enduro de sa génération" src="{{ site.url }}/assets/images/posts/de923-0ox0m4w6j-q1hpkxf.jpg" /><br />
 </figure>
 
 jerome clementz l’un des meilleurs pilotes Enduro de sa génération
@@ -59,7 +58,7 @@ Vous l’avez donc compris L’enduro VTT est une discipline Hybride entre deux 
 
 <figure>
 
-<img alt="départ enduro Mondraker serie" src="{{ site.data.config.url }}/assets/images/posts/7cfbe-02oodqud9goosydgh.jpg" /><br />
+<img alt="départ enduro Mondraker serie" src="{{ site.url }}/assets/images/posts/7cfbe-02oodqud9goosydgh.jpg" /><br />
 
 </figure>
 
@@ -96,42 +95,42 @@ Bon en recommence en fait le <strong>VTT d’Enduro idéal</strong>, c’est un 
 <strong>ROCKY MOUNTAIN — Altitude 790 MSL</strong>
 
 <figure>
-	<img alt="ROCKY MOUNTAIN - Altitude 790 MSL" src="{{ site.data.config.url }}/assets/images/posts/99f11-0ld6lpmg4f8ssdgry.jpg" /><br />
+	<img alt="ROCKY MOUNTAIN - Altitude 790 MSL" src="{{ site.url }}/assets/images/posts/99f11-0ld6lpmg4f8ssdgry.jpg" /><br />
 	<figcaption class="wp-caption-text">ROCKY MOUNTAIN — Altitude 790 MSL</figcaption>
 </figure>
 
 <strong>Santa Cruz — Bronson</strong>
 
 <figure class="wp-caption">
-	<img alt="Santa Cruz - Bronson" src="{{ site.data.config.url }}/assets/images/posts/8bd9c-03stysmi7roqgusmy.jpg" />
+	<img alt="Santa Cruz - Bronson" src="{{ site.url }}/assets/images/posts/8bd9c-03stysmi7roqgusmy.jpg" />
 	<figcaption class="wp-caption-text">Santa Cruz — Bronson</figcaption>
 </figure>
 
 <strong>GT — Force</strong>
 
 <figure class="wp-caption">
-	<img alt="GT - Force" src="{{ site.data.config.url }}/assets/images/posts/abeff-0rpvf5myfinn3x2y3.jpg" />
+	<img alt="GT - Force" src="{{ site.url }}/assets/images/posts/abeff-0rpvf5myfinn3x2y3.jpg" />
 	<figcaption class="wp-caption-text">GT Force</figcaption>
 </figure>
 
 <strong>LAPIERRE — Zesty</strong>
 
 <figure class="wp-caption">
-	<img alt="Lapierre - Zesty 650B" src="{{ site.data.config.url }}/assets/images/posts/e4db0-0w-ax1ybapqa3r8-e.jpg" />
+	<img alt="Lapierre - Zesty 650B" src="{{ site.url }}/assets/images/posts/e4db0-0w-ax1ybapqa3r8-e.jpg" />
 	<figcaption class="wp-caption-text">Lapierre — Zesty 650B</figcaption>
 </figure>
 
 <strong>COMMENCAL — Meta AM</strong>
 
 <figure class="wp-caption">
-	<img alt="Commencal - Meta AM 650B" src="{{ site.data.config.url }}/assets/images/posts/acf30-0_3e-mfzpfaer0cka.jpg" />
+	<img alt="Commencal - Meta AM 650B" src="{{ site.url }}/assets/images/posts/acf30-0_3e-mfzpfaer0cka.jpg" />
 	<figcaption class="wp-caption-text">Commencal — Meta AM 650B</figcaption>
 </figure>
 
 <strong>CANYON — Strive</strong>
 
 <figure class="wp-caption">
-	<img alt="canyon - stryve" src="{{ site.data.config.url }}/assets/images/posts/0a3c7-0fdsmrbuwp54gpwwd.jpg" />
+	<img alt="canyon - stryve" src="{{ site.url }}/assets/images/posts/0a3c7-0fdsmrbuwp54gpwwd.jpg" />
 	<figcaption class="wp-caption-text">canyon — stryve</figcaption>
 </figure>
 
@@ -144,7 +143,7 @@ Bon en recommence en fait le <strong>VTT d’Enduro idéal</strong>, c’est un 
 ## 6/ ENDURO VTT: la checklist d’avant sortie {#checklist}
 
 <figure>
-	<img alt="VTT Enduro: se préparer à une épreuve" src="{{ site.data.config.url }}/assets/images/posts/7dc32-0wxgebvuxq5bcl684.jpg" /><br />
+	<img alt="VTT Enduro: se préparer à une épreuve" src="{{ site.url }}/assets/images/posts/7dc32-0wxgebvuxq5bcl684.jpg" /><br />
 </figure>
 
 - casque intégrale ou avc mantionière amovible

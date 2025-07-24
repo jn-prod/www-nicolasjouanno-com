@@ -14,7 +14,6 @@ tags:
   - Création
   - Projet
 
-author: nicolas
 image: assets/images/posts/tshirt_velo-boulot-dodo.png
 ---
 

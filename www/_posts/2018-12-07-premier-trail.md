@@ -13,7 +13,6 @@ tags:
   - Competition
   - Debut
 
-author: nicolas
 image: assets/images/posts/homme_trail_foret.jpg
 ---
 

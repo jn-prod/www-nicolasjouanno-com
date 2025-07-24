@@ -46,7 +46,7 @@ Grâce à un **site internet ergonomique, bien réfléchis** par un professionne
 
 Dynamisant ainsi votre image sur internet, vous pourrez mettre en place des actions marketing cross-canal mêlant communication off-line (print) et on-line (web, social média). Vous ne savez encore comment mesurer l'efficacité marketing de vos actions ? Il suffit de demander, en adéquation aux objectifs commerciaux et marketing de votre entreprise, je vous conseillerais les meilleurs indicateurs de mesures (KPI) et mettrai en place des tableaux de bords adaptés
 
-N’hésitez pas à consulter mon [portfolio](/portfolio.html) ou à me [demander un devis](mailto:{{ site.data.authors.nicolas.email }}).
+N’hésitez pas à consulter mon [portfolio](/portfolio.html) ou à me [demander un devis](mailto:{{ site.author.email }}).
 
 ## Design graphique et réalisation du site internet.
 
