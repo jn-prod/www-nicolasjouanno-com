@@ -29,7 +29,7 @@
   --border: solid var(--color-dark-light) 1px;
 
   /* icons */
-  --icon-size: var(--font-size, --size-16);
+  --icon-size: var(--font-size, var(--size-16));
 
   /* section */
   --section-spacing-x: var(--size-128);

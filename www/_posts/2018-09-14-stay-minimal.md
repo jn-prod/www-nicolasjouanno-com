@@ -19,7 +19,7 @@ categories:
   - Product Management
 
 author: "nicolas"
-image: "images/posts/maxresdefault.jpg"
+image: "assets/images/posts/maxresdefault.jpg"
 ---
 
 ## A la rencontre du growth hacking

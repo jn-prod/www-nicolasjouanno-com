@@ -12,7 +12,7 @@
       short_description: ""
       freemium: true
     - name: "Hotjar"
-      logo: "https://seeklogo.com/images/H/hotjar-logo-7F1ECF09D5-seeklogo.com.png"
+      logo: "https://seeklogo.com/assets/images/H/hotjar-logo-7F1ECF09D5-seeklogo.com.png"
       short_description: ""
       freemium: true
     - name: "Google Sheet"
@@ -60,7 +60,7 @@
       short_description: ""
       freemium: true
     - name: "Wordpress"
-      logo: "https://s.w.org/style/images/about/WordPress-logotype-alternative.png"
+      logo: "https://s.w.org/style/assets/images/about/WordPress-logotype-alternative.png"
       short_description: ""
       freemium: true
     - name: "Strinkingly"
@@ -88,7 +88,7 @@
   id: "growth"
   tools:
     - name: "zapier"
-      logo: "https://zapier.com/brand/images/logos/zapier-logo.png"
+      logo: "https://zapier.com/brand/assets/images/logos/zapier-logo.png"
       short_description: ""
       freemium: true
       feature: false
@@ -117,7 +117,7 @@
       short_description: ""
       freemium: true
     - name: "Convertkit"
-      logo: "https://3j6x6z2bx1qq1aawwt3b6y0a-wpengine.netdna-ssl.com/wp-content/themes/ConvertKit/images/logos/convertkit-stacked.png"
+      logo: "https://3j6x6z2bx1qq1aawwt3b6y0a-wpengine.netdna-ssl.com/wp-content/themes/ConvertKit/assets/images/logos/convertkit-stacked.png"
       short_description: ""
       freemium: false
     - name: "Buffer"
@@ -130,7 +130,7 @@
       feature: true
       freemium: true
     - name: "Hootsuite"
-      logo: "https://w8v6v9q2.stackpathcdn.com/images/wp-images/2018/05/hootsuite-logo-.png"
+      logo: "https://w8v6v9q2.stackpathcdn.com/assets/images/wp-images/2018/05/hootsuite-logo-.png"
       short_description: ""
       freemium: true
     - name: "Buzzsumo"
@@ -154,7 +154,7 @@
       short_description: ""
       freemium: true
     - name: "Appear.in"
-      logo: "https://appear.in/i/static/images/appearin-preview-1200x630.png"
+      logo: "https://appear.in/i/static/assets/images/appearin-preview-1200x630.png"
       short_description: ""
       freemium: true
     - name: "Asana"
@@ -162,7 +162,7 @@
       short_description: ""
       freemium: true
     - name: "Trello"
-      logo: "https://d2k1ftgv7pobq7.cloudfront.net/meta/u/res/images/brand-assets/Logos/0099ec3754bf473d2bbf317204ab6fea/trello-logo-blue.png"
+      logo: "https://d2k1ftgv7pobq7.cloudfront.net/meta/u/res/assets/images/brand-assets/Logos/0099ec3754bf473d2bbf317204ab6fea/trello-logo-blue.png"
       short_description: ""
       freemium: true
     - name: "Slack"
@@ -194,7 +194,7 @@
       short_description: ""
       freemium: true
     - name: "SEMRUSH"
-      logo: "https://assets.pcmag.com/media/images/438177-semrush-logo.jpg?width=810&height=456"
+      logo: "https://assets.pcmag.com/media/assets/images/438177-semrush-logo.jpg?width=810&height=456"
       short_description: ""
       freemium: true
     - name: "UBERSUGGEST"
@@ -210,7 +210,7 @@
       short_description: ""
       freemium: false
     - name: "Pagespeedinsight"
-      logo: "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/104683649/original/e8103e2ca25d70ea541beca47617a6ec4eeab46f/make-your-site-above-84-in-google-pagespeed-insight.png"
+      logo: "https://fiverr-res.cloudinary.com/assets/images/t_main1,q_auto,f_auto/gigs/104683649/original/e8103e2ca25d70ea541beca47617a6ec4eeab46f/make-your-site-above-84-in-google-pagespeed-insight.png"
       short_description: ""
       freemium: true
     - name: "seobility"
@@ -238,7 +238,7 @@
       short_description: ""
       freemium: true
     - name: "Zoho CRM"
-      logo: "https://www.zoho.com/branding/images/zoho-logo-512px.png"
+      logo: "https://www.zoho.com/branding/assets/images/zoho-logo-512px.png"
       short_description: ""
       freemium: true
     - name: "Sellsy"

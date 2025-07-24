@@ -3,7 +3,7 @@ layout: project
 title: "Feezify:me Création d'une web-app pour la gestion des entrainements"
 seo_description: "Product management de la web-app Feezify:me. Développement full-stack NodeJS, MongodDB, ExpressJS."
 permalink: "/portfolio/project/feezify-me.html"
-img: "/images/projets/ext-3.png"
+img: "/assets/images/projets/ext-3.png"
 context: >-
   Au printemps 2018, je me remet à la course à pieds. C'est en parlant avec des amis qu'on exprime notre lassitude
   de copier/coller nos metrics clés enregistrées par nos smartphones et montres connectés sur Excel. Sans compter

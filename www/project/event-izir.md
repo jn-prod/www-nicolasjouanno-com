@@ -3,7 +3,7 @@ layout: project
 title: "Event Izir - Création d'une plate-forme d'inscription pour les événements sportifs"
 seo_description: "Gestion du projet de création de web-app Event Izir. Développement full-stack NodeJS, MongodDB, ExpressJS."
 permalink: "/portfolio/project/event-izir.html"
-img: "/images/projets/ext-1.jpg"
+img: "/assets/images/projets/ext-1.jpg"
 context: >-
   Irir.fr est un site e-commerce créé en 2014 positionné sur les marchés du running, du vélo et de la randonnée.
   L'acquisition de clients de la plate-forme e-commerce se faisant par les comparateurs de prix, le besoin de

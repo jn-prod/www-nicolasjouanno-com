@@ -3,7 +3,7 @@ layout: project
 title: "Go Sport - Création d'un intranet pour le partage des tableaux de bord commerciaux"
 seo_description: "Gestion du projet de création d'un intranet Go Sport. Développement full-stack NodeJS, MongodDB, ExpressJS."
 permalink: "/portfolio/project/go-sport.html"
-img: "/images/projets/ext-2.png"
+img: "/assets/images/projets/ext-2.png"
 context: >-
   Lors de mon arrivé en 2016 dans un groupement de 7 magasins GO Sport indépendant, l'une de mes tâches consistait à maintenir à jour un 
   fichier Excel. Le maintien de ce fichier Excel était d'une priorité absolu car servant de tableau de bord hébdomadaire et mensuel

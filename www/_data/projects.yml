@@ -16,7 +16,7 @@
     - "Analytics"
   url: "https://github.com/jn-prod/www-vtt-bzh"
   images:
-    - "/images/projets/ext-6.png"
+    - "/assets/images/projets/ext-6.png"
 - name: "breizhtraining.bzh"
   year: "2019"
   profile: false
@@ -31,7 +31,7 @@
     - "UX / UI"
   url: "https://github.com/jn-prod/www-breizhtraining-bzh"
   images:
-    - "/images/projets/breizhtraining_bzh.png"
+    - "/assets/images/projets/breizhtraining_bzh.png"
 - name: "gael-lebellec.bzh"
   year: "2017"
   profile: false
@@ -47,4 +47,4 @@
     - "Multilangue"
   url: "https://github.com/jn-prod/www-gaellebellec-bzh"
   images:
-    - "/images/projets/ext-4.png"
+    - "/assets/images/projets/ext-4.png"

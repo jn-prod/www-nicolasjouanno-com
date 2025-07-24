@@ -3,7 +3,7 @@ layout: project
 title: "breizhtraining.bzh - Création d'une page web entreprise"
 seo_description: "Gestion du projet de création du mini site de breizhtraining. Développement front-end javascript et intégration avec jekyll."
 permalink: "/portfolio/project/breizhtraining.html"
-img: "/images/projets/breizhtraining_bzh.png"
+img: "/assets/images/projets/breizhtraining_bzh.png"
 context: >-
   Gael, Grégoire et moi avont porté ensemble, chez les jeunes, le maillot de la sélection Bretonne de cyclisme. Lorsqu'ils m'ont parlé de leur nouveau projet et de leur besoin de visiblité en ligne, j'avais vraiment envie de les aider.
   Ils avaient besoin d'un site vitrine qui leur serve de carte de visite et de relai commercial.

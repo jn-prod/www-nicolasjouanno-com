@@ -27,16 +27,10 @@
   <footer class="c-post-card__footer">
     <ul class="u-list u-list--none u-list--inline">
       <li>
-        <a class="c-button"
-         href="mailto:?subject={{ post.title | url_encode }}
-         &body={{ 
-           "Je voulais te partager ce post :" | url_encode
-         }}%0A%0A{{ 
-           site.data.config.url | append: post.url | url_encode
-         }}%0A%0A{{
-           post.excerpt | strip_html | truncatewords:30 | url_encode
-         }}">
-          Partager
+        <a
+          class="c-button"
+          href="mailto:?subject={{ post.title | url_encode }}&body={{ 'Je voulais te partager ce post :' | url_encode}}%0A%0A{{ site.data.config.url | append: post.url | url_encode}}%0A%0A{{post.excerpt | strip_html | truncatewords:30 | url_encode}}"
+          >Partager
         </a>
       </li>
       {% for category in post.categories %}
@@ -45,4 +39,3 @@
     </ul>
   </footer>
 </article>
-

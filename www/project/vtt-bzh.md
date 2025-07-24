@@ -3,7 +3,7 @@ layout: project
 title: vtt.bzh - Conception d'une web-app NodeJS/VueJS
 seo_description: "Conception full-stack de la web-app vtt.bzh, réalisation d'un scraper nodeJS et développement front en VueJS."
 permalink: "/portfolio/project/vtt-bzh.html"
-img: "/images/projets/ext-6.png"
+img: "/assets/images/projets/ext-6.png"
 context: >-
   Créé en 2013, vtt.bzh a connu jusqu'à 10.000 visiteurs /mois. Le MVP que j'avais créé sous Wordpress était
   très "do things that don't scale". Je réalisais manuellement une curation des randonnées régionnales, que je listais

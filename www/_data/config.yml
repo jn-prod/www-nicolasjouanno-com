@@ -32,7 +32,7 @@ meta_keywords:
 #naver_verification  :
 
 # Post settings
-imgpost: "images/posts"
+imgpost: "assets/images/posts"
 subscriber_number: "3 500"
 ads_booking_link: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSTrV8CdtVRmUyoENBgfA3kv_PpQeSXvvzh71M-QoY5vIslAU9EzmdRbyxShSkpyAqlmV_QC6_YJU43/pubhtml?gid=0&single=true"
 

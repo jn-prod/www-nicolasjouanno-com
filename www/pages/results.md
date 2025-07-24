@@ -3,6 +3,7 @@ layout: page
 title: Parcours sportif de Nicolas JOUANNO DANIEL
 permalink: /results.html
 ---
+
 # Parcours sportif
 
 Avant de devenir développeur, j’ai passé ma jeunesse à faire du vélo, sérieusement : compétitions, entraînements quotidiens, stages, saisons…

@@ -3,7 +3,7 @@ layout: project
 title: "Gael Le Bellec - Création d'une page web athlète"
 seo_description: "Gestion du projet de création du mini site de Gael Le Bellec. Développement front-end javascript et intégration avec jekyll."
 permalink: "/portfolio/project/gael-le-bellec.html"
-img: "/images/projets/ext-4.png"
+img: "/assets/images/projets/ext-4.png"
 context: >-
   Lorsque Gael m'a contacté en septembre 2017, il n'avais pas de présence en ligne. Comme pour tout athlète de haut niveau, ses
   supporteurs veulent connaître l'avancement de sa saison de façon centralisée. C'est ce rôle que tiendra désormais son site internet.

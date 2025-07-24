@@ -50,27 +50,26 @@ post_class: post-template
 <!-- End Article
 ================================================== -->
 
-
-    <!-- Prev/Next -->
-      <aside>
-        <ul class="u-list u-list--none u-list--inline">
-          {% if page.previous.url %}
-          <li>
-            <a
-              class="prev d-block col-md-6"
-              href="{{page.previous.url | absolute_url}}"
-            >
-              &laquo; {{page.previous.title}}</a
-            >
-          </li>
-          {% endif %} {% if page.next.url %}
-          <li>
-            <a
-              class="next d-block col-md-6 text-lg-right"
-              href="{{page.next.url | absolute_url}}"
-              >{{page.next.title}} &raquo;
-            </a>
-          </li>
-          {% endif %}
-        </ul>
-      </aside>
+<!-- Prev/Next -->
+<aside>
+  <ul class="u-list u-list--none u-list--inline">
+    {% if page.previous.url %}
+    <li>
+      <a
+        class="prev d-block col-md-6"
+        href="{{page.previous.url | absolute_url}}"
+      >
+        &laquo; {{page.previous.title}}</a
+      >
+    </li>
+    {% endif %} {% if page.next.url %}
+    <li>
+      <a
+        class="next d-block col-md-6 text-lg-right"
+        href="{{page.next.url | absolute_url}}"
+        >{{page.next.title}} &raquo;
+      </a>
+    </li>
+    {% endif %}
+  </ul>
+</aside>

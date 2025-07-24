@@ -18,7 +18,7 @@ tags:
   - Entrainement
 
 author: nicolas
-image: images/posts/1029035155.jpg
+image: assets/images/posts/1029035155.jpg
 ---
 
 _Ce n'est pas toujours simple de trouver la motivation. Dans cet article, je vais partager avec vous ce qui me motive le plus pour me bouger, mais aussi ce qui me peut transformer une sortie de running en sortie de vélo, une balade en bord en mer en session de surf..._

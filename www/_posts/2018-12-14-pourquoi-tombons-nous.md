@@ -18,7 +18,7 @@ tags:
   - Chute
 
 author: nicolas
-image: images/posts/route-de-montagne.jpg
+image: assets/images/posts/route-de-montagne.jpg
 ---
 
 ## Chapitre 1 : Une adolescence dans les sous-bois

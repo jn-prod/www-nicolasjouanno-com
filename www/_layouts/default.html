@@ -44,76 +44,76 @@
     <link
       rel="apple-touch-icon"
       sizes="57x57"
-      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-57x57.png"
+      href="{{ site.data.config.url }}/assets/images/brand/apple-touch-icon-57x57.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="114x114"
-      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-114x114.png"
+      href="{{ site.data.config.url }}/assets/images/brand/apple-touch-icon-114x114.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="72x72"
-      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-72x72.png"
+      href="{{ site.data.config.url }}/assets/images/brand/apple-touch-icon-72x72.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="144x144"
-      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-144x144.png"
+      href="{{ site.data.config.url }}/assets/images/brand/apple-touch-icon-144x144.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="60x60"
-      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-60x60.png"
+      href="{{ site.data.config.url }}/assets/images/brand/apple-touch-icon-60x60.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="120x120"
-      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-120x120.png"
+      href="{{ site.data.config.url }}/assets/images/brand/apple-touch-icon-120x120.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="76x76"
-      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-76x76.png"
+      href="{{ site.data.config.url }}/assets/images/brand/apple-touch-icon-76x76.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="152x152"
-      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-152x152.png"
+      href="{{ site.data.config.url }}/assets/images/brand/apple-touch-icon-152x152.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="{{ site.data.config.url }}/images/brand/apple-touch-icon-180x180.png"
+      href="{{ site.data.config.url }}/assets/images/brand/apple-touch-icon-180x180.png"
     />
     <link
       rel="icon"
       type="image/png"
-      href="{{ site.data.config.url }}/images/brand/favicon-192x192.png"
+      href="{{ site.data.config.url }}/assets/images/brand/favicon-192x192.png"
       sizes="192x192"
     />
     <link
       rel="icon"
       type="image/png"
-      href="{{ site.data.config.url }}/images/brand/favicon-160x160.png"
+      href="{{ site.data.config.url }}/assets/images/brand/favicon-160x160.png"
       sizes="160x160"
     />
     <link
       rel="icon"
       type="image/png"
-      href="{{ site.data.config.url }}/images/brand/favicon-96x96.png"
+      href="{{ site.data.config.url }}/assets/images/brand/favicon-96x96.png"
       sizes="96x96"
     />
     <link
       rel="icon"
       type="image/png"
-      href="{{ site.data.config.url }}/images/brand/favicon-16x16.png"
+      href="{{ site.data.config.url }}/assets/images/brand/favicon-16x16.png"
       sizes="16x16"
     />
     <link
       rel="icon"
       type="image/png"
-      href="{{ site.data.config.url }}/images/brand/favicon-32x32.png"
+      href="{{ site.data.config.url }}/assets/images/brand/favicon-32x32.png"
       sizes="32x32"
     />
 
@@ -156,7 +156,7 @@
         {% if page.image %}
             <meta name="twitter:image:src" content="{{ site.data.config.url }}/{{ page.image }}">
         {% else %}
-            <meta name="twitter:image:src" content="{{ site.data.config.url }}/images/jumbotron.jpg" />
+            <meta name="twitter:image:src" content="{{ site.data.config.url }}/assets/images/jumbotron.jpg" />
         {% endif %}
         
         <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{site.data.config.title}}{% else %}{{ site.data.config.title }}{% endif %}">
@@ -268,24 +268,25 @@
               >Suivre
             </a>
           </li>
-
         </ul>
       </nav>
     </header>
-    
+
     <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
       <ol>
         <li>
-          <a href="{{ site.data.config.url }}"
-             aria-current="{% if page.url == '/' or page.url == '/index.html' %}page{% else %}false{% endif %}">
+          <a
+            href="{{ site.data.config.url }}"
+            aria-current="{% if page.url == '/' or page.url == '/index.html' %}page{% else %}false{% endif %}"
+          >
             Accueil
           </a>
         </li>
-    
+
         {% unless page.url == '/' or page.url == '/index.html' %}
-          <li>
-            <a href="" aria-current="page">{{ page.title }}</a>
-          </li>
+        <li>
+          <a href="" aria-current="page">{{ page.title }}</a>
+        </li>
         {% endunless %}
       </ol>
     </nav>
@@ -331,20 +332,21 @@
       <article class="c-layout__legals">
         <p>
           © 2013 - {{ site.time | date: "%Y" }}. Design et développement: {{
-          site.data.authors.nicolas.display_name }}. <a href="/sitemap.html">Plan de site<a/>. Me retrouver sur: 
+          site.data.authors.nicolas.display_name }}.
+          <a href="/sitemap.html">Plan de site</a>. Me retrouver sur:
           <a
             href="{{ site.data.authors.nicolas.github }}"
             rel="me"
             target="_blank"
-          >Github</a
-          >, 
+            >Github</a
+          >,
           <a
             href="{{ site.data.authors.nicolas.linkedin }}"
             rel="me"
             target="_blank"
           >
-            Linkedin
-          </a>.
+            Linkedin </a
+          >.
         </p>
       </article>
     </footer>
