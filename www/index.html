@@ -1,0 +1,43 @@
+---
+redirect_from:
+  - "/portfolio/project/volt.html"
+  - "/toolbox.html"
+  - "/coaching.html"
+  - "/cours.html"
+  - "/cours/creer-site-web-sans-coder.html"
+  - "/stories"
+title: "Développeur front-end"
+layout: default
+seo_description: "Développeur front-end. Je travail sur les design-system, je joue avec la JAM Stack et je m'intéresse a WASM."
+---
+
+<!-- signature -->
+<aside itemscope itemtype="http://schema.org/Quotation" class="c-jumbotron">
+  <article class="c-jumbotron__content">
+    <blockquote class="c-jumbotron__citation-container" itemprop="text">
+      <p class="c-jumbotron__citation">
+        "Pourquoi rejoindre la marine quand vous pouvez être un pirate ?"
+      </p>
+    </blockquote>
+    <p
+      itemscope
+      itemtype="http://schema.org/Organization"
+      class="c-jumbotron__author"
+    >
+      <em itemprop="name">—Steve Jobs</em>
+    </p>
+  </article>
+</aside>
+
+<!-- Latest Stories
+================================================== -->
+
+<section class="c-section">
+  <h2 class="h1 mb-5">Posts</h2>
+
+  <ul class="c-section__post-list">
+    {% for post in site.posts %}
+    <li class="c-section__post-item">{% include /boxes/post.html %}</li>
+    {% endfor %}
+  </ul>
+</section>

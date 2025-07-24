@@ -1,0 +1,26 @@
+.c-footer-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--size-8);
+
+  &__title {
+    font-family: var(--font-family-heading);
+    font-size: 2.5rem;
+    margin-bottom: var(--size-8);
+    text-decoration: none;
+    color: var(--color-dark);
+  }
+
+  &__headline {
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    color: var(--color-primary);
+  }
+}
+
+@media screen and (width <= 900px) {
+  .c-footer-nav {
+    flex-direction: column;
+  }
+}

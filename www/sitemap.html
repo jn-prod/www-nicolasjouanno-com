@@ -1,0 +1,57 @@
+---
+layout: page
+title: Plan du site
+---
+  <h1>Plan du site</h1>
+
+  <h2>Pages</h2>
+  <!-- Pages HTML regroupées par dossier -->
+  {% assign pages = site.pages | sort: "path" %}
+  {% assign current_folder = "" %}
+  {% assign is_first = true %}
+  
+  {% for page in pages %}
+  
+    {% if page.title != nil and page.url != "/404.html" and page.url != '/sitemap.html' %}
+      {% assign folder = page.path | split: '/' | slice: 0, 1 | first %}
+  
+      {% if folder != current_folder %}
+        {% unless is_first %}
+          </ul>
+        {% endunless %}
+        {% if folder != "index.html" %}
+          <h3>{{ folder | capitalize }}</h3>
+        {% else %}
+          <h3>Principales</h3>
+        {% endif %}
+        <ul>
+        {% assign current_folder = folder %}
+        {% assign is_first = false %}
+      {% endif %}
+  
+      <li>
+        <a href="{{ page.url | relative_url }}">{{ page.title | default: page.url }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+  
+  {% unless is_first %}
+    </ul>
+  {% endunless %}
+  
+  <!-- Articles de blog regroupés par année -->
+  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  <h2>Articles</h2>
+    {% for year in posts_by_year %}
+      <h3>{{ year.name }}</h3>
+      <ul>
+        {% for post in year.items %}
+          {% if post.published != false and post.sitemap != false %}
+            <li>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <small>({{ post.date | date: "%d/%m/%Y" }})</small>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endfor %}

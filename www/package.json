@@ -1,0 +1,31 @@
+{
+  "name": "website",
+  "version": "2.0.1",
+  "description": "Portfolio de Nicolas Jouanno",
+  "scripts": {
+    "dev": "bundle exec jekyll serve --livereload",
+    "build": "jekyll build",
+    "lint": "pnpm lint:es && pnpm lint:stylelint && pnpm lint:prettier",
+    "lint:fix": "pnpm lint:es:fix && pnpm lint:stylelint:fix && pnpm lint:prettier:fix",
+    "lint:stylelint": "stylelint \"./_sass/**/*.scss\"",
+    "lint:stylelint:fix": "pnpm lint:stylelint --fix",
+    "lint:prettier": "prettier --check **/*.{html,md,json,yml}",
+    "lint:prettier:fix": "pnpm lint:prettier --write",
+    "lint:es": "eslint 'assets/**/*.js'",
+    "lint:es:fix": "pnpm lint:es --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@shopify/prettier-plugin-liquid": "^1.9.3",
+    "eslint": "^9.30.1",
+    "eslint-config-jnprod": "latest",
+    "globals": "^16.3.0",
+    "prettier": "latest",
+    "stylelint": "^16.21.1",
+    "stylelint-config-standard-scss": "^15.0.1",
+    "typescript-eslint": "^8.36.0"
+  },
+  "dependencies": {
+    "modern-normalize": "^3.0.1"
+  }
+}

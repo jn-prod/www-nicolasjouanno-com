@@ -1,0 +1,29 @@
+.c-sitemap {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: var(--size-32);
+}
+
+.c-sitemap > li {
+  margin-top: var(--size-16);
+  font-weight: 600;
+}
+
+.c-sitemap ul {
+  list-style: disc;
+  margin-left: var(--size-16);
+  padding-left: 0;
+}
+
+.c-sitemap li {
+  margin: var(--size-16) 0;
+}
+
+.c-sitemap a {
+  text-decoration: none;
+}
+
+.c-sitemap small {
+  margin-left: var(--size-4);
+  font-size: var(--size-8);
+}

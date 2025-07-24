@@ -1,0 +1,24 @@
+# main
+- name: "Startup Growth"
+  home: true
+  navigation: true
+  link: "startup.html"
+  bg-class: "bg-startup"
+
+- name: "Tech"
+  home: true
+  navigation: true
+  link: "tech.html"
+  bg-class: "bg-coulisse"
+
+- name: "Product Management"
+  home: true
+  navigation: true
+  link: "product-management.html"
+  bg-class: "bg-culture"
+
+- name: "Sport"
+  home: true
+  navigation: true
+  link: "sport.html"
+  bg-class: "bg-inspiration"

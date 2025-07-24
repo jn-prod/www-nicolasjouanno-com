@@ -1,0 +1,12 @@
+.u-list {
+  &.u-list--none {
+    list-style: none;
+    padding: 0;
+  }
+
+  &.u-list--inline {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}

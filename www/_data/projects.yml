@@ -1,0 +1,50 @@
+- name: "vtt.bzh"
+  year: "2013 - Aujourd'hui"
+  profile: true
+  mission: "Création d'une web-app (Side project)"
+  expertises:
+    - "Gestion de projet"
+    - "NodeJS"
+    - "Jekyll"
+    - "VueJS"
+    - "Bootstrap"
+    - "HTML5"
+    - "CSS3"
+    - "SEO"
+    - "Supabase"
+    - "UX / UI"
+    - "Analytics"
+  url: "https://github.com/jn-prod/www-vtt-bzh"
+  images:
+    - "/images/projets/ext-6.png"
+- name: "breizhtraining.bzh"
+  year: "2019"
+  profile: false
+  mission: "Création du site internet (Freelance)"
+  expertises:
+    - "Gestion de projet"
+    - "NextJS"
+    - "API"
+    - "HTML5"
+    - "CSS3"
+    - "Bootstrap"
+    - "UX / UI"
+  url: "https://github.com/jn-prod/www-breizhtraining-bzh"
+  images:
+    - "/images/projets/breizhtraining_bzh.png"
+- name: "gael-lebellec.bzh"
+  year: "2017"
+  profile: false
+  mission: "Création du site internet (Freelance)"
+  expertises:
+    - "Gestion de projet"
+    - "NextJS"
+    - "API"
+    - "HTML5"
+    - "CSS3"
+    - "Bootstrap"
+    - "UX / UI"
+    - "Multilangue"
+  url: "https://github.com/jn-prod/www-gaellebellec-bzh"
+  images:
+    - "/images/projets/ext-4.png"

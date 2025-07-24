@@ -1,0 +1,13 @@
+.c-icons-list {
+  display: flex;
+  justify-content: space-around;
+  gap: var(--size-16);
+  flex-wrap: wrap;
+  list-style: none;
+  padding: var(--size-32) 0;
+  margin: 0;
+
+  &__element {
+    display: inline-block;
+  }
+}

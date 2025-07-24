@@ -1,0 +1,26 @@
+<img
+  class="c-post-card__avatar"
+  src="{{ author.avatar }}"
+  alt="{{ author.display_name }}"
+  aria-hidden="true"
+/>
+<div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+  <a href="{{ author.web }}" class="c-post-card__author-name">
+    <span itemprop="name">
+      {{ author.display_name }}
+    </span>
+  </a>
+  <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="{{ site.data.config.url }}/{{ site.logo }}" />
+    <meta itemprop="width" content="60" />
+    <meta itemprop="height" content="60" />
+  </span>
+  <meta itemprop="url" content="{{site.data.config.url}}" />
+  <div
+    class="c-post-card__post-date"
+    itemprop="dateCreated datePublished dateModified"
+  >
+    {{ include.post.date | date_to_string }}
+  </div>
+</div>
+<meta itemprop="author creator" content="{{ author.display_name }}" />
