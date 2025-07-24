@@ -1,0 +1,76 @@
+---
+layout: default
+disqus: true
+archive: false
+post_class: post-template
+---
+
+<!-- Begin Article
+================================================== -->
+
+{% assign author = site.data.authors[page.author] %}
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <time
+    itemprop="dateCreated datePublished dateModified"
+    datetime="{{ page.date | date:'%Y-%m-%d' }}"
+  ></time>
+
+  <!-- Post heading -->
+  <h1 itemprop="name headline">{{ page.title }}</h1>
+  <meta
+    itemprop="url mainEntityOfPage"
+    content="{{ site.data.config.url}}{{page.url }}"
+  />
+  <!-- Post Featured Image -->
+  {% if page.image %}
+  <img
+    itemprop="image thumbnailUrl"
+    src="{{ site.data.config.url }}/{{ page.image }}"
+    alt="{{ page.title }}"
+  />
+  {% endif %}
+  <p>{% for category in page.categories %} #{{category}} {% endfor %}</p>
+
+  <!-- Post Content -->
+  <div itemprop="articleBody">
+    {% if page.youtube_video_id %}
+    <iframe
+      width="100%"
+      height="315"
+      src="https://www.youtube.com/embed/{{ page.youtube_video_id }}"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    {% endif %} {{content}} {% if page.author %} {% include /boxes/author.html
+    post=page %} {% endif %}
+  </div>
+</article>
+
+<!-- End Article
+================================================== -->
+
+
+    <!-- Prev/Next -->
+      <aside>
+        <ul class="u-list u-list--none u-list--inline">
+          {% if page.previous.url %}
+          <li>
+            <a
+              class="prev d-block col-md-6"
+              href="{{page.previous.url | absolute_url}}"
+            >
+              &laquo; {{page.previous.title}}</a
+            >
+          </li>
+          {% endif %} {% if page.next.url %}
+          <li>
+            <a
+              class="next d-block col-md-6 text-lg-right"
+              href="{{page.next.url | absolute_url}}"
+              >{{page.next.title}} &raquo;
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </aside>

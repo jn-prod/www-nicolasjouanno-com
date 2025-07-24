@@ -1,0 +1,48 @@
+{% assign author = site.data.authors[post.author] %}
+
+<article
+  id="{{post.url}}"
+  class="c-post-card"
+  itemscope=""
+  itemtype="http://schema.org/BlogPosting"
+>
+  <header class="c-post-card__header">
+    <div class="c-post-card__author">
+      {% include /boxes/author.html author=author post=post %}
+
+      <h2 itemprop="headline" class="c-post-card__header-title">
+        <a class="c-post-card__post-link" href="{{ post.url | absolute_url }}"
+          >{{ post.title }}</a
+        >
+      </h2>
+      <meta
+        itemprop="url mainEntityOfPage"
+        content="{{ site.data.config.url}}{{post.url }}"
+      />
+    </div>
+  </header>
+  <p class="c-post-card__content">
+    {{ post.excerpt | strip_html | truncatewords:30 }}
+  </p>
+  <footer class="c-post-card__footer">
+    <ul class="u-list u-list--none u-list--inline">
+      <li>
+        <a class="c-button"
+         href="mailto:?subject={{ post.title | url_encode }}
+         &body={{ 
+           "Je voulais te partager ce post :" | url_encode
+         }}%0A%0A{{ 
+           site.data.config.url | append: post.url | url_encode
+         }}%0A%0A{{
+           post.excerpt | strip_html | truncatewords:30 | url_encode
+         }}">
+          Partager
+        </a>
+      </li>
+      {% for category in post.categories %}
+      <li class="c-post-card__tag">#{{ category }}</li>
+      {% endfor %}
+    </ul>
+  </footer>
+</article>
+

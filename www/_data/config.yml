@@ -1,0 +1,78 @@
+# Site Settings
+locale: "fr-FR"
+title: "Nicolas Jouanno"
+headline: "Développeur font-end @mgdis.<br>Design system, a11y, éco-conception, JAM stack."
+url: "https://nicolasjouanno.com"
+# url              : "http://localhost:4000"
+logo: "images/brand/logo.png"
+comments:
+  disqus:
+    shortname: "nicolasjouanno-com"
+reCaptcha:
+  siteKey:
+  secret:
+default_date: "01-01-2013"
+
+# SEO Related
+meta_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec vous, je partage chaque défi et développe de nouveaux projets."
+meta_keywords:
+  - "développeur web"
+  - "développeur full-stack"
+  - "développeur full-stack JS"
+  - "développeur NodeJS"
+  - "product design"
+  - "startup"
+  - "nicolas jouanno"
+  - "web-developper"
+  - "UX / UI Design"
+  - "design thinking"
+#google_verification :
+#bing_verification   :
+#yandex_verification :
+#naver_verification  :
+
+# Post settings
+imgpost: "images/posts"
+subscriber_number: "3 500"
+ads_booking_link: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSTrV8CdtVRmUyoENBgfA3kv_PpQeSXvvzh71M-QoY5vIslAU9EzmdRbyxShSkpyAqlmV_QC6_YJU43/pubhtml?gid=0&single=true"
+
+# Analytics
+google_analytics: "UA-33078029-1"
+
+# Stripe
+stripe_key: "pk_live_MY9HfrJhZytU4TfhtBV5EbcD" #'pk_test_R7XIuRuyxXYdSxKZL7ZjPNds'
+
+# Social sharing
+og_image: "images/jumbotron.jpg" # Open Graph/Twitter default site image
+twitter:
+  username: # "@nicolasjouanno"
+  publisher: # "https://twitter.com/NicolasJouanno"
+facebook:
+  profil_url:
+  app_id:
+  publisher:
+instagram:
+  publisher:
+mediumcom:
+  publisher: #"https://medium.com/@nicolasjouanno"
+linkedin:
+  publisher: "https://fr.linkedin.com/in/nicolasjouanno"
+viadeo:
+  publisher: #"https://fr.viadeo.com/fr/profile/nicolas.jouanno"
+pinterest:
+  publisher: # "https://www.pinterest.fr/nicolasjouanno/"
+dribble:
+  publisher: "https://dribbble.com/nicolasjouanno"
+github:
+  publisher: "https://github.com/jn-prod"
+social:
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# address
+address:
+  street: "rue du resteu vihan"
+  code: "56300"
+  coutry: "FR"
+  city: "Pontivy, France"
