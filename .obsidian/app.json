@@ -2,5 +2,6 @@
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "www/_drafts"
+  "newFileFolderPath": "www/_drafts",
+  "attachmentFolderPath": "www/assets"
 }
