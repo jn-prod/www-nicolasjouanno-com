@@ -1,0 +1,46 @@
+---
+layout: default
+categories: 
+tags: 
+redirect_from: 
+permalink: contact.html
+---
+# Formulaire de contact
+
+Une question, une idée, ou simplement envie d’échanger ?
+
+Écrivez-moi via ce formulaire, je réponds toujours avec plaisir.
+
+<form action="https://formsubmit.co/me@nicolasjouanno.com" method="POST">
+
+      <!-- Champs visibles -->
+
+      <label for="name">Nom *</label><br>
+
+      <input type="text" id="name" name="name" required><br><br>
+
+  
+
+      <label for="email">Votre e-mail *</label><br>
+
+      <input type="email" id="email" name="replyto" required><br><br>
+
+  
+
+      <label for="message">Message *</label><br>
+
+      <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+  
+
+      <!-- Champs cachés -->
+
+      <input type="hidden" name="_next" value="https://nicolasjouanno.com/">
+
+      <input type="hidden" name="_subject" value="formulaire de contact nicolasjouanno.com">
+
+  
+
+      <button type="submit">Envoyer</button>
+
+</form>

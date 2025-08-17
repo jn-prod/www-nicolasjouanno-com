@@ -11,10 +11,24 @@
             "id": "1455a26d40d78034",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "www/pages/contact.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "contact"
             }
           }
         ]
@@ -165,6 +179,7 @@
   },
   "active": "1455a26d40d78034",
   "lastOpenFiles": [
+    "www/pages/contact.md",
     "configs/obsidian/templates/post.md",
     "www/_drafts/test.md",
     "www/CHANGELOG.md",
