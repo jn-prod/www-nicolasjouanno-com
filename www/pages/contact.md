@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 categories: 
 tags: 
 redirect_from: 
