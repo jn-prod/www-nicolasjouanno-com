@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Parcours sportif de Nicolas JOUANNO DANIEL
-permalink: /results.html
+permalink:
 ---
 
 # Parcours sportif

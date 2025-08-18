@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1767a033ebfd198c",
+        "id": "700a767b8256db54",
         "type": "tabs",
         "children": [
           {
-            "id": "1455a26d40d78034",
+            "id": "01a90b5a816affba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "www/pages/contact.md",
+                "file": "www/about.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "contact"
+              "title": "about"
             }
           }
         ]
@@ -177,13 +177,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1455a26d40d78034",
+  "active": "01a90b5a816affba",
   "lastOpenFiles": [
+    "www/CHANGELOG.md",
+    "www/about.md",
+    "www/studio/certifications.md",
+    "www/contact.md",
+    "www/results.md",
     "configs/obsidian/templates/page.md",
     "configs/obsidian/templates/post.md",
-    "www/pages/contact.md",
     "www/_drafts/test.md",
-    "www/CHANGELOG.md",
     "configs/obsidian/templates",
     "www/_drafts",
     "site/www/studio/about.md",

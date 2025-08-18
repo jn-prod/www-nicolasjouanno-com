@@ -1,13 +1,13 @@
 ---
 redirect_from:
-  - "/edito.html"
-  - "/studio.html"
-  - "/devis.html"
-  - "/portfolio.html"
+  - /edito.html
+  - /studio.html
+  - /devis.html
+  - /portfolio.html
 layout: page
 title: Découvrir mon histoire et mes projets
-summary: "Développeur frontend et créateur d'interfaces qui plaisent a vos utilisateurs."
-permalink: "/about.html"
+summary: Développeur frontend et créateur d'interfaces qui plaisent a vos utilisateurs.
+permalink:
 ---
 
 <!-- set vtt_bzh variable -->
