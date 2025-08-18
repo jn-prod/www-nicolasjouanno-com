@@ -154,7 +154,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "site/www/pages/results.md",
+            "file": "www/pages/contact.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -179,8 +179,9 @@
   },
   "active": "1455a26d40d78034",
   "lastOpenFiles": [
-    "www/pages/contact.md",
+    "configs/obsidian/templates/page.md",
     "configs/obsidian/templates/post.md",
+    "www/pages/contact.md",
     "www/_drafts/test.md",
     "www/CHANGELOG.md",
     "configs/obsidian/templates",

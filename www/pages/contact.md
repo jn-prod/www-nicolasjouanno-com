@@ -1,9 +1,10 @@
 ---
 layout: page
+title: Formulaire de contact
+permalink: contact.html
 categories: 
 tags: 
-redirect_from: 
-permalink: contact.html
+redirect_from:
 ---
 # Formulaire de contact
 
