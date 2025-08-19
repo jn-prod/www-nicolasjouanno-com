@@ -21,11 +21,28 @@
       />
     </div>
   </header>
-  <p class="c-post-card__content">
-    {{ post.excerpt | strip_html | truncatewords:30 }}
+
+  {% assign content = post.content | strip_html %}
+  {% assign excerpt = content | truncatewords: 70 %}
+
+  {% if excerpt %}
+  <p>
+    {{excerpt}}
+    {% if content != excerpt %}
+      <a href="{{ post.url | absolute_url }}">
+        Voir plus
+      </a>
+    {% endif %}
   </p>
+  {% endif %}
+
   <footer class="c-post-card__footer">
     <ul class="u-list u-list--none u-list--inline">
+      <li>
+        <a class="c-button" href="{{ post.url | absolute_url }}">
+          Lire
+        </a>
+      </li>
       <li>
         <a
           class="c-button"
@@ -33,6 +50,7 @@
           >Partager
         </a>
       </li>
+      
       {% for category in post.categories %}
       <li class="c-post-card__tag">#{{ category }}</li>
       {% endfor %}

@@ -21,16 +21,7 @@ archive: false
 
   <!-- Post Content -->
   <div itemprop="articleBody">
-    {% if page.youtube_video_id %}
-    <iframe
-      width="100%"
-      height="315"
-      src="https://www.youtube.com/embed/{{ page.youtube_video_id }}"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-    {% endif %} {{content}} {% if page.author %} {% include /boxes/author.html
+    {{content}} {% if page.author %} {% include /boxes/author.html
     post=page %} {% endif %}
   </div>
 </article>
