@@ -2,7 +2,7 @@
 redirect_to: "https://www.linkedin.com/in/nicolasjouanno/"
 layout: default
 title: Mon cv
-seo_description: "{{ site.author.bio }} "
+description: "{{ site.author.bio }} "
 permalink: "/cv.html"
 bg: bg-profile
 h1: Nicolas Jouanno

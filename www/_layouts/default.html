@@ -12,10 +12,10 @@
     {% else %}
     <title>{{ site.headline }} | {{site.title}}</title>
     <meta name="title" content="{{ site.headline }} | {{site.title}}" />
-    {% endif %} {% if page.seo_description %}
+    {% endif %} {% if page.description %}
     <meta
       name="description"
-      content="{{ page.seo_description }} | {{site.title}}"
+      content="{{ page.description }} | {{site.title}}"
     />
     {% elsif page.type == "catégorie" %}
     <meta
@@ -222,6 +222,25 @@
     itemtype="http://schema.org/WebPage"
   >
     <header role="banner" class="c-layout__header">
+      <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
+        <ol>
+          <li>
+            <a
+              href="{{ site.url }}"
+              aria-current="{% if page.url == '/' or page.url == '/index.html' %}page{% else %}false{% endif %}"
+            >
+              Accueil
+            </a>
+          </li>
+
+          {% unless page.url == '/' or page.url == '/index.html' %}
+          <li>
+            <a href="" aria-current="page">{{ page.title }}</a>
+          </li>
+          {% endunless %}
+        </ol>
+      </nav>
+
       <nav role="navigation" class="c-navigation c-navigation--main">
         <a href="{{ site.url }}" class="c-navigation__title">
           {{ site.title }}
@@ -230,9 +249,9 @@
         <ul class="c-navigation__link-list">
           <li class="c-navigation__link-list-element">
             <a
-              class="c-button {% if page.url == '/about.html' %}c-button--active{% endif %}"
-              href="{{ site.url }}/about.html"
-              >Profil</a
+              class="c-button {% if page.url == '/contact.html' %}c-button--active{% endif %}"
+              href="{{ site.url }}/contact.html"
+              >Contact</a
             >
           </li>
 
@@ -249,61 +268,25 @@
       </nav>
     </header>
 
-    <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
-      <ol>
-        <li>
-          <a
-            href="{{ site.url }}"
-            aria-current="{% if page.url == '/' or page.url == '/index.html' %}page{% else %}false{% endif %}"
-          >
-            Accueil
-          </a>
-        </li>
-
-        {% unless page.url == '/' or page.url == '/index.html' %}
-        <li>
-          <a href="" aria-current="page">{{ page.title }}</a>
-        </li>
-        {% endunless %}
-      </ol>
-    </nav>
-
     <!-- Content
         ================================================== -->
     <main role="main" class="c-layout__content">{{ content }}</main>
 
-    <footer role="contentinfo" class="c-layout__footer c-section">
-      <!-- credit -->
-      <article class="c-footer-nav">
-        <div>
-          <a href="/" class="c-footer-nav__title">{{ site.title }}</a>
-          <div class="c-footer-nav__headline">{{ site.headline }}</div>
-        </div>
-        <ul class="c-navigation__link-list">
-          <li class="c-navigation__link-list-element">
-            <a href="{{ site.url }}/about.html" class="c-button"
-              >Développeur Front-end</a
-            >
-          </li>
-          <li class="c-navigation__link-list-element">
-            <a href="{{ site.url }}/results.html" class="c-button">Sportif</a>
-          </li>
-        </ul>
-      </article>
-
-      <article class="c-layout__legals">
-        <p>
-          © 2013 - {{ site.time | date: "%Y" }}. Design et développement: {{
-          site.author.name }} à {{ site.author.location}}. <a href="{{ site.url }}/contact.html">Me contacter</a>. 
-           Me retrouver sur:
-          <a href="{{ site.author.github }}" rel="me" target="_blank">Github</a
-          >,
-          <a href="{{ site.author.linkedin }}" rel="me" target="_blank">
-            Linkedin</a
-          >.
-          <a href="/sitemap.html">Plan de site</a>.
-        </p>
-      </article>
+    <footer
+      role="contentinfo"
+      class="c-layout__footer c-section c-section--compact"
+    >
+      <p>
+        © 2013 - {{ site.time | date: "%Y" }}. Design et développement:
+        <a href="{{ site.url }}/about">{{ site.author.name }}</a> à {{
+        site.author.location}}.
+        <a href="{{ site.url }}/contact.html">Me contacter</a>. Me retrouver
+        sur:
+        <a href="{{ site.author.github }}" rel="me" target="_blank">Github</a>,
+        <a href="{{ site.author.linkedin }}" rel="me" target="_blank">
+          Linkedin</a
+        >. <a href="/sitemap.html">Plan de site</a>.
+      </p>
     </footer>
 
     <!-- JavaScript

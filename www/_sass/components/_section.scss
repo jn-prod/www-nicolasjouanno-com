@@ -32,6 +32,10 @@ $variants: 'primary', 'secondary', 'dark', 'light';
       padding-bottom: var(--size-16);
       margin-bottom: var(--size-8);
 
+      &:last-child {
+        margin-bottom: 0;
+      }
+
       &:not(.c-section__post-item:last-child) {
         border-bottom: solid var(--color-dark-light) 1px;
       }
@@ -59,8 +63,10 @@ $variants: 'primary', 'secondary', 'dark', 'light';
     }
   }
 
-  &.c-section--row {
-    flex-direction: row;
+  &.c-section--compact {
+    p {
+      margin: 0;
+    }
   }
 
   @include section-variantes($variants);

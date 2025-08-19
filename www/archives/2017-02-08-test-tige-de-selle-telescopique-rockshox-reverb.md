@@ -4,7 +4,6 @@ permalink: "/test-tige-de-selle-telescopique-rockshox-reverb.html"
 layout: post
 title: "Test de la tige de selle telescopique Rockshox Reverb"
 date: 2017-02-08 08:00:51.000000000 +01:00
-type: post
 
 categories:
   - Sport

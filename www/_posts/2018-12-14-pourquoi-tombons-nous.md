@@ -8,7 +8,6 @@ redirect_from:
 layout: post
 title: "Pourquoi tombons-nous ?"
 date: 2018-12-14 09:00:00.000000000 +02:00
-type: post
 
 categories:
   - Sport

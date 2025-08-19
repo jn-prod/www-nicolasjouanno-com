@@ -13,7 +13,6 @@ redirect_from:
 layout: "post"
 title: "Coder son MVP, sujet de Growth hacking ou de Product management ?"
 date: 2018-09-14 07:00:00.000000000 +01:00
-type: "post"
 
 categories:
   - Product Management

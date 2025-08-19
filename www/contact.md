@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Formulaire de contact
-permalink: 
-categories: 
-tags: 
+permalink:
+categories:
+tags:
 redirect_from:
 ---
+
 # Formulaire de contact
 
 Une question, une idée, ou simplement envie d’échanger ?
@@ -16,31 +17,23 @@ Une question, une idée, ou simplement envie d’échanger ?
 
       <!-- Champs visibles -->
 
-      <label for="name">Nom *</label><br>
+      <label for="name">Nom \*</label><br>
 
       <input type="text" id="name" name="name" required><br><br>
 
-  
-
-      <label for="email">Votre e-mail *</label><br>
+      <label for="email">Votre e-mail \*</label><br>
 
       <input type="email" id="email" name="replyto" required><br><br>
 
-  
-
-      <label for="message">Message *</label><br>
+      <label for="message">Message \*</label><br>
 
       <textarea id="message" name="message" rows="6" required></textarea><br><br>
-
-  
 
       <!-- Champs cachés -->
 
       <input type="hidden" name="_next" value="https://nicolasjouanno.com/">
 
       <input type="hidden" name="_subject" value="formulaire de contact nicolasjouanno.com">
-
-  
 
       <button type="submit">Envoyer</button>
 

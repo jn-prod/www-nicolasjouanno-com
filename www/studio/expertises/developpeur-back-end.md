@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Développeur Back-end, création d'une API
-seo_description: "Le développeur back-end vous permet d'automatiser, scaller et connecter votre back-office en Python, NodeJS et Ruby."
+description: "Le développeur back-end vous permet d'automatiser, scaller et connecter votre back-office en Python, NodeJS et Ruby."
 summary: "Le Développeur Back-end, cet homme de l'ombre aux supers pouvoirs qui connectent les API pour enrichir l'expérience de vos utilisateurs"
 permalink: "/expertises/developpeur-back-end.html"
 ---

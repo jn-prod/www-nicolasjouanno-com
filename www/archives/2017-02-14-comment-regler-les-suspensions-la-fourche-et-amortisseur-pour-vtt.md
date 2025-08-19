@@ -4,7 +4,6 @@ permalink: "/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.h
 layout: post
 title: "Comment régler les suspensions de son VTT, de la fourche à l’amortisseur"
 date: 2017-02-14 07:48:53.000000000 +01:00
-type: post
 
 categories:
   - Sport

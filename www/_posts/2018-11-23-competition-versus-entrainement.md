@@ -6,7 +6,6 @@ redirect_from:
 layout: post
 title: "Comment progresser sans compétition ?"
 date: 2018-11-23 09:00:00.000000000 +02:00
-type: post
 
 categories:
   - Sport

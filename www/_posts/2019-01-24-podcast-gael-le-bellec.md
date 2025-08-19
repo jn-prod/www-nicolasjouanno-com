@@ -2,7 +2,6 @@
 layout: post
 title: "Podcast #1 - Gael Le Bellec, 3x champion du monde de duathlon"
 date: 2019-01-24 09:00:00.000000000 +02:00
-type: post
 
 categories:
   - Sport
@@ -14,9 +13,9 @@ tags:
 ads: S12-2019
 
 youtube_video_id: "YX4ip_bAdx4"
-
-image: assets/images/posts/Podcast_1-Gael_Le_Bellec.jpg
 ---
+
+![](assets/images/posts/Podcast_1-Gael_Le_Bellec.jpg)
 
 Aujourd'hui, je reçois au micro du podcast Gael Le Bellec, notre breton triple champion du monde de duathlon.
 

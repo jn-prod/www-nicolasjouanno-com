@@ -1,11 +1,18 @@
 @use '../node_modules/modern-normalize/modern-normalize.css';
+
+// globals
 @use 'variables';
 @use 'main';
 @use 'typography';
+@use 'layouts/layout';
+
+// utils
 @use 'utils/a11y';
 @use 'utils/grid';
 @use 'utils/list';
-@use 'layouts/layout';
+@use 'utils/img';
+
+// components
 @use 'components/jumbotron';
 @use 'components/button';
 @use 'components/section';
