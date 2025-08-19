@@ -5,8 +5,8 @@
     <description>Développeur font-end @mgdis.&lt;br&gt;Design system, a11y, éco-conception, JAM stack.</description>
     <link>https://nicolasjouanno.com/</link>
     <atom:link href="https://nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Aug 2025 13:45:19 +0000</pubDate>
-    <lastBuildDate>Tue, 19 Aug 2025 13:45:19 +0000</lastBuildDate>
+    <pubDate>Tue, 19 Aug 2025 14:40:00 +0000</pubDate>
+    <lastBuildDate>Tue, 19 Aug 2025 14:40:00 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
@@ -14,9 +14,7 @@
         <description>
             
 
-            &lt;h1 id=&quot;podcast-1---gael-le-bellec-3x-champion-du-monde-de-duathlon&quot;&gt;Podcast #1 - Gael Le Bellec, 3x champion du monde de duathlon&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/posts/Podcast_1-Gael_Le_Bellec.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+            &lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/YX4ip_bAdx4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Aujourd’hui, je reçois au micro du podcast Gael Le Bellec, notre breton triple champion du monde de duathlon.&lt;/p&gt;
 
