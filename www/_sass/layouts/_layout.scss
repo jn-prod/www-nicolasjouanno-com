@@ -37,6 +37,10 @@
     --line-height: 1.5rem;
   }
 
+  &__author {
+    display: flex;
+  }
+
   &__legals {
     font-size: var(--font-size);
     line-height: var(--line-height);
@@ -56,8 +60,7 @@
     }
   }
 
-  &.c-layout--layout-page,
-  &.c-layout--layout-project {
+  &.c-layout--layout-page {
     p {
       padding-bottom: var(--size-8);
     }
