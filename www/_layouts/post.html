@@ -14,11 +14,14 @@ layout: page
   ></time>
 
   <!-- Post heading -->
-  <h1 itemprop="name headline">{{ page.title }}</h1>
-  {% include /boxes/author.html post=page %}
-  <meta itemprop="url mainEntityOfPage" content="{{ site.url}}{{page.url }}" />
-  <p>{% for category in page.categories %} #{{category}} {% endfor %}</p>
-
+  <header>
+    <h1 itemprop="name headline">{{ page.title }}</h1>
+    <div class="c-layout__author">
+      {% include /boxes/author.html post=page %}
+    </div>
+    <meta itemprop="url mainEntityOfPage" content="{{ site.url}}{{page.url }}" />
+    <p>{% for category in page.categories %} #{{category}} {% endfor %}</p>
+  </header>
   <!-- Post Content -->
   <div itemprop="articleBody">
     {{content}}
