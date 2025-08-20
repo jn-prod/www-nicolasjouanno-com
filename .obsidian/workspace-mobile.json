@@ -110,7 +110,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "bbbdfce5626363b4",
@@ -177,8 +177,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f442e0dcd95404d7",
+  "active": "1cc5eddfa1b8fb0f",
   "lastOpenFiles": [
+    "configs/obsidian/templates/post.md",
+    "www/_posts/2018-12-14-pourquoi-tombons-nous.md",
     "www/_posts/2018-12-07-premier-trail.md",
     "www/_posts/2018-11-30-velo-boulot-dodo.md",
     "www/_posts/2018-11-23-competition-versus-entrainement.md",
@@ -197,14 +199,12 @@
     "www/archives/2017-01-17-20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.md",
     "www/archives/2016-03-30-ou-randonner-vtt-bretagne.md",
     "www/archives/2014-08-10-pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.md",
-    "configs/obsidian/templates/post.md",
     "configs/obsidian/templates/page.md",
     "www/studio/offres/site-vitrine.md",
     "www/studio/offres/site-e-commerce.md",
     "www/studio/offres/site-applicatif.md",
     "www/studio/expertises/product-manager.md",
     "www/studio/expertises/integrateur-web.md",
-    "www/studio/expertises/growth-hacker.md",
     "configs/obsidian/templates",
     "www/_drafts"
   ]
