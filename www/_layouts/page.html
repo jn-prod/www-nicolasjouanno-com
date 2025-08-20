@@ -2,4 +2,23 @@
 layout: default
 ---
 
+      <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
+        <ol>
+          <li>
+            <a
+              href="{{ site.url }}"
+              aria-current="{% if page.url == '/' or page.url == '/index.html' %}page{% else %}false{% endif %}"
+            >
+              Accueil
+            </a>
+          </li>
+
+          {% unless page.url == '/' or page.url == '/index.html' %}
+          <li>
+            <a href="" aria-current="page">{{ page.title }}</a>
+          </li>
+          {% endunless %}
+        </ol>
+      </nav>
+
 {{ content }}
