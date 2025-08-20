@@ -7,8 +7,7 @@ layout: page
 
 {% assign author = site.author %}
 <article itemscope itemtype="http://schema.org/BlogPosting">
-  {% include /boxes/author.html post=page %}
-  
+
   <time
     itemprop="dateCreated datePublished dateModified"
     datetime="{{ page.date | date:'%Y-%m-%d' }}"
@@ -16,6 +15,7 @@ layout: page
 
   <!-- Post heading -->
   <h1 itemprop="name headline">{{ page.title }}</h1>
+  {% include /boxes/author.html post=page %}
   <meta itemprop="url mainEntityOfPage" content="{{ site.url}}{{page.url }}" />
   <p>{% for category in page.categories %} #{{category}} {% endfor %}</p>
 
