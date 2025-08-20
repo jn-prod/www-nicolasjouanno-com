@@ -23,7 +23,7 @@ layout: page
     <p>{% for category in page.categories %} #{{category}} {% endfor %}</p>
   </header>
   
-  {% if post.images %}
+  {% if page.images %}
     <div class="c-layout__medias">
       {% for img in post.images %}
         <img src="{{ img | relative_url }}" alt="" loading="lazy" />
