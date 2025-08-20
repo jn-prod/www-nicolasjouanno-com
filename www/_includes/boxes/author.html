@@ -17,9 +17,9 @@
   <div class="c-post-card__meta">
     <span>{{ author.handle }}</span>
     ·
-    <span itemprop="dateCreated datePublished dateModified"
-      >{{ include.post.date | date_to_string }}</span
-    >
+    <time itemprop="dateCreated datePublished dateModified" datetime="{{ include.post.date | date_to_xmlschema }}">
+      {{ include.post.date | date_to_string }}
+    </time>
   </div>
 </div>
 <meta itemprop="author creator" content="{{ author.name }}" />
