@@ -32,12 +32,17 @@
   {% if excerpt %}
   <p>
     {{excerpt}}
-    {% if content != excerpt %}
-      <a href="{{ post.url | absolute_url }}">
-        Voir plus
-      </a>
-    {% endif %}
   </p>
+  {% endif %}
+  
+  {% if post.content != post.excerpt or post.images.size > 0 %}
+    <a class="c-button" href="{{ post.url | absolute_url }}">
+      Voir plus
+    </a>
+  {% else %}
+    <a class="c-button" href="{{ post.url | absolute_url }}">
+      Lire l’article
+    </a>
   {% endif %}
 
   <footer class="c-post-card__footer">
