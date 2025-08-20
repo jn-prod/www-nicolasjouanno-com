@@ -3,7 +3,6 @@ redirect_to: https://vtt.bzh/tout-sur-lenduro-vtt-du-pilote-à-la-checklist-mate
 permalink: /tout-sur-lenduro-vtt-du-pilote-à-la-checklist-materiel.html
 layout: post
 title: "GUIDE: L'enduro VTT de A à Z."
-date: 2017-01-21 12:24:49.000000000 +01:00
 categories:
   - Sport
 tags:

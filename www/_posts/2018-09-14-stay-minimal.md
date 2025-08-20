@@ -12,7 +12,6 @@ redirect_from:
   - /paris-dakar-steven-le-hyaric.html
 layout: post
 title: Coder son MVP, sujet de Growth hacking ou de Product management ?
-date: 2018-09-14 07:00:00.000000000 +01:00
 categories:
   - Product Management
 images:

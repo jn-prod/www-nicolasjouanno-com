@@ -3,7 +3,6 @@ redirect_from:
   - /de-wordpress-a-medium-les-cinq-raisons-de-la-migration.html
 layout: post
 title: Wordpress vs Medium
-date: 2017-09-26 05:36:01.000000000 +02:00
 images:
   - assets/images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.png
 categories:

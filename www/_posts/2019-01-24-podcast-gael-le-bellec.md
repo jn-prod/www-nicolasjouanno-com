@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "Podcast #1 - Gael Le Bellec, 3x champion du monde de duathlon"
-date: 2019-01-24 09:00:00.000000000 +02:00
-
 categories:
   - Sport
   - Podcast
-
 tags:
   - Sport
 ---

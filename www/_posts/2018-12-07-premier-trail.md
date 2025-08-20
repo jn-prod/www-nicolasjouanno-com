@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Mon premier trail
-date: 2018-12-07 09:00:00.000000000 +02:00
 categories:
   - Sport
   - Experience
