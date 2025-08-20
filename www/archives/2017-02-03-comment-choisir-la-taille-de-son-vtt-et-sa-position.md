@@ -1,18 +1,16 @@
 ---
-redirect_to: "https://vtt.bzh/comment-choisir-la-taille-de-son-vtt-et-sa-position.html"
-permalink: "/comment-choisir-la-taille-de-son-vtt-et-sa-position.html"
+redirect_to: https://vtt.bzh/comment-choisir-la-taille-de-son-vtt-et-sa-position.html
+permalink: /comment-choisir-la-taille-de-son-vtt-et-sa-position.html
 layout: post
-title: "Comment choisir la taille de son VTT et sa position ?"
+title: Comment choisir la taille de son VTT et sa position ?
 date: 2017-02-03 23:00:22.000000000 +01:00
-
 categories:
   - Sport
-
 tags:
   - VTT
   - matériel
-
-image: "assets/images/posts/90cc1-0wscg_9_yafgnydvo.jpg"
+images:
+  - assets/images/posts/90cc1-0wscg_9_yafgnydvo.jpg
 ---
 
 <em>Le choix de la taille de votre VTT est essentiel dans votre pratique, qu’elle soit loisir ou de compétition. Cela peut vous permettre de gagner rapidement en efficacité sur votre VTT. De manière certaine, une meilleure position améliorera vos performances pour plusieurs raisons qui seront dévoilées plus bas.</em>

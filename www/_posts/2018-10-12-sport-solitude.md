@@ -1,17 +1,15 @@
 ---
 layout: post
-title: "Sport et solitude, tout est dit non ?"
+title: Sport et solitude, tout est dit non ?
 date: 2018-10-12 09:00:00.000000000 +02:00
-
 categories:
   - Sport
-
 tags:
   - Sport
   - Solitude
   - Sentiments
-
-image: assets/images/posts/living-alone.jpg
+images:
+  - assets/images/posts/living-alone.jpg
 ---
 
 <em>Je ne me suis jamais senti aussi seul que sur mon vélo, mon surf ou avec mes baskets. Le sport, c'est aussi ça: la solitude. Lorsque j'étais cycliste professionnel, une sitation ma marqué, au point que je m'en souvient encore aujourd'hui ... onze années après! </em>

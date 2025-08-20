@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Growth Hacker Freelance"
-summary: "Le Growth Hacker Freelance accompagne développement des start up en identifiant les meilleurs leviers, pour une croissance durable et rentable"
-permalink: "/growth-hacker.html"
+title: Growth Hacker Freelance
+description: Le Growth Hacker Freelance accompagne développement des start up en identifiant les meilleurs leviers, pour une croissance durable et rentable
+permalink: /growth-hacker.html
 ---
 
 # Growth Hacker

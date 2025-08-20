@@ -1,22 +1,20 @@
 ---
 redirect_from:
-  - "/points-commun-cycliste-super-hero.html"
-  - "/cyclo-cross-gravel-souvenirs-hasbeen.html"
-  - "/pourquoi-tombons-nous-partie-2.html"
-  - "/souvenirs-paris-tour-2008.html"
-  - "/cycliste-et-diplome.html"
+  - /points-commun-cycliste-super-hero.html
+  - /cyclo-cross-gravel-souvenirs-hasbeen.html
+  - /pourquoi-tombons-nous-partie-2.html
+  - /souvenirs-paris-tour-2008.html
+  - /cycliste-et-diplome.html
 layout: post
-title: "Pourquoi tombons-nous ?"
+title: Pourquoi tombons-nous ?
 date: 2018-12-14 09:00:00.000000000 +02:00
-
 categories:
   - Sport
-
 tags:
   - Sport
   - Chute
-
-image: assets/images/posts/route-de-montagne.jpg
+images:
+  - assets/images/posts/route-de-montagne.jpg
 ---
 
 ## Chapitre 1 : Une adolescence dans les sous-bois

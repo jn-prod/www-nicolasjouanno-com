@@ -1,19 +1,16 @@
 ---
-redirect_to: "https://vtt.bzh/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html"
-permalink: "/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html"
+redirect_to: https://vtt.bzh/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html
+permalink: /comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html
 layout: post
-title: "Comment régler les suspensions de son VTT, de la fourche à l’amortisseur"
+title: Comment régler les suspensions de son VTT, de la fourche à l’amortisseur
 date: 2017-02-14 07:48:53.000000000 +01:00
-
 categories:
   - Sport
-
 tags:
   - VTT
   - matériel
-
-image: assets/images/posts/a3d50-0omp6q8ru_v_v0drm.jpg
-featured: false
+images:
+  - assets/images/posts/a3d50-0omp6q8ru_v_v0drm.jpg
 ---
 
 <em>Comment régler la fourche et l’amortisseur de votre VTT ? XC Marathon, enduro, DH, … de 100 à 200mm et plus, nos <strong>VTT</strong> sont tous, ou presque, équipés d’une <strong>fourche</strong> télescopique et d’un <strong>amortisseur</strong>. Gagner en stabilité, augmenter le confort, l’adhérence… votre <strong>VTT</strong> tout-suspendu à de nombreux avantages, mais faut-il encore que vos <strong>suspensions</strong> soit bien réglées! Découvrez ici les astuces et méthodes simples pour régler <strong>la fourche</strong> et <strong>l’amortisseur</strong> de votre <strong>VTT</strong>.</em>

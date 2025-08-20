@@ -3,5 +3,6 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "www/_drafts",
-  "attachmentFolderPath": "www/assets"
+  "attachmentFolderPath": "www/assets",
+  "propertiesInDocument": "visible"
 }

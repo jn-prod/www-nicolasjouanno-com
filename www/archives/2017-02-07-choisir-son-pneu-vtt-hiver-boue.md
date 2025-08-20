@@ -1,18 +1,16 @@
 ---
-redirect_to: "https://vtt.bzh/choisir-son-pneu-vtt-hiver-boue.html"
-permalink: "/choisir-son-pneu-vtt-hiver-boue.html"
+redirect_to: https://vtt.bzh/choisir-son-pneu-vtt-hiver-boue.html
+permalink: /choisir-son-pneu-vtt-hiver-boue.html
 layout: post
-title: "Les meilleurs pneus vtt spéciale boue pour l'hiver"
+title: Les meilleurs pneus vtt spéciale boue pour l'hiver
 date: 2017-02-07 18:03:13.000000000 +01:00
-
 categories:
   - Sport
-
 tags:
   - VTT
   - matériel
-
-image: "assets/images/posts/d6a09-0klmuoxlc_xyukmmx.jpg"
+images:
+  - assets/images/posts/d6a09-0klmuoxlc_xyukmmx.jpg
 ---
 
 <em>Changement d’heure, changement de temps, changement de pneus… c’est la dure réalité des VTTistes quand l’hiver arrive, quand les chemins deviennent boueux, n’évacuent plus l’eau et que les feuilles tombent, votre pilotage change, plus en glisse. Mais combien d’entre vous gardent les mêmes pneus sur leur VTT l’hiver que l’été? A tord… l’adhérence est un gage de sécurité que l’on soit un pilote engagé ou simple randonneur.</em>

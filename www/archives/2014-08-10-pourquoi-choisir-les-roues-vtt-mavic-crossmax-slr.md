@@ -1,19 +1,17 @@
 ---
-redirect_to: "https://vtt.bzh/pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.html"
-permalink: "/pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.html"
+redirect_to: https://vtt.bzh/pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.html
+permalink: /pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.html
 layout: post
-title: "8 raisons de choisir les roues de VTT Mavic Crossmax"
+title: 8 raisons de choisir les roues de VTT Mavic Crossmax
 date: 2014-08-10 21:02:19.000000000 +02:00
-
 categories:
   - Sport
-
 tags:
   - VTT
   - matériel
   - test
-
-image: "assets/images/posts/9c05d-05lwfpqvtdkfbts1o.jpg"
+images:
+  - assets/images/posts/9c05d-05lwfpqvtdkfbts1o.jpg
 ---
 
 <em>Il est toujours difficile de choisir quelles sont les <strong>roues</strong> qui remplaceront celles montées d’origine sur <strong>VTT</strong>. Encore plus lorsque l’on a raccroché son bon vieux VTT 26" au placard et que l’on trouve son <strong>nouveau VTT aux grandes roues de 27,5 et 29 pouces</strong>, comme il en est de coutume maintenant, un VTT qui a pris du poids et qui descends plus difficilement sur la balance en dessous de la ligne des 11 kilos qu’il soit en <strong>aluminium</strong> ou en <strong>carbone</strong>.</em>

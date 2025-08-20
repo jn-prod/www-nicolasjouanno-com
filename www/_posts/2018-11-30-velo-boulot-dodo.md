@@ -1,19 +1,17 @@
 ---
 layout: post
-title: "Vélo, Boulot, Dodo"
+title: Vélo, Boulot, Dodo
 date: 2018-11-30 09:00:00.000000000 +02:00
-
 categories:
   - Sport
   - Experience
-
 tags:
   - Textile
   - T-shirt
   - Création
   - Projet
-
-image: assets/images/posts/tshirt_velo-boulot-dodo.png
+images:
+  - assets/images/posts/tshirt_velo-boulot-dodo.png
 ---
 
 <em>Vous connaissez sûrement plus la citation "Métro, Boulot, Dodo" que je me suis ré-approprié. Depuis que j'habite à Pontivy, j'ai la chance de pouvoir aller tous les jours au boulot à vélo, parcourant les 2km500 séparant mon domicile du bureau, en longeant le canal, quatre fois par jour. Fraîchement l'hiver et chaudement l'été, vous me croirez, ou non, mais prendre le vélo conditionne une bonne journée!</em>

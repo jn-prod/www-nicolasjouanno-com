@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Création de Site Internet"
-summary: "Du re-design et à la création de votre site internet pour votre entreprise ou votre startup, le Chef de projet web freelance vous aide à améliorer votre présence en ligne."
-permalink: "/creation-site-internet.html"
+title: Création de Site Internet
+description: Du re-design et à la création de votre site internet pour votre entreprise ou votre startup, le Chef de projet web freelance vous aide à améliorer votre présence en ligne.
+permalink: /creation-site-internet.html
 ---
 
 # Création de Site Internet

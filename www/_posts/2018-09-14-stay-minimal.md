@@ -1,24 +1,22 @@
 ---
 redirect_from:
-  - "/hacker-la-formation-en-ligne-du-wagon-cest-possible.html"
-  - "/pourquoi-jai-code-mon-premier-site-web-dynamique-en-nodejs-de-0-a-1.html"
-  - "/en-2017-je-serai-grand-et-product-manager.html"
-  - "/pourquoi-jai-appris-a-coder-mon-mvp.html"
-  - "/le-point-annuel-sur-mes-side-projects.html"
-  - "/le-programme-de-2019.html"
-  - "/reouverture-vtt-bzh.html"
-  - "/taig-khris-autodidacte.html"
-  - "/la-punchline-de-yoann-stuck.html"
-  - "/paris-dakar-steven-le-hyaric.html"
-layout: "post"
-title: "Coder son MVP, sujet de Growth hacking ou de Product management ?"
+  - /hacker-la-formation-en-ligne-du-wagon-cest-possible.html
+  - /pourquoi-jai-code-mon-premier-site-web-dynamique-en-nodejs-de-0-a-1.html
+  - /en-2017-je-serai-grand-et-product-manager.html
+  - /pourquoi-jai-appris-a-coder-mon-mvp.html
+  - /le-point-annuel-sur-mes-side-projects.html
+  - /le-programme-de-2019.html
+  - /reouverture-vtt-bzh.html
+  - /taig-khris-autodidacte.html
+  - /la-punchline-de-yoann-stuck.html
+  - /paris-dakar-steven-le-hyaric.html
+layout: post
+title: Coder son MVP, sujet de Growth hacking ou de Product management ?
 date: 2018-09-14 07:00:00.000000000 +01:00
-
 categories:
   - Product Management
-
-author: "nicolas"
-image: "assets/images/posts/maxresdefault.jpg"
+images:
+  - assets/images/posts/maxresdefault.jpg
 ---
 
 ## A la rencontre du growth hacking

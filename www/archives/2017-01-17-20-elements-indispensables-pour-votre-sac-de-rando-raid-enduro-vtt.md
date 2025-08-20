@@ -1,18 +1,16 @@
 ---
-redirect_to: "https://vtt.bzh/20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html"
-permalink: "/20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html"
+redirect_to: https://vtt.bzh/20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html
+permalink: /20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html
 layout: post
-title: "Checklist - L'équipement indispensable à avoir dans son sac à dos de VTT"
+title: Checklist - L'équipement indispensable à avoir dans son sac à dos de VTT
 date: 2017-01-17 16:59:59.000000000 +01:00
-
 categories:
   - Sport
-
 tags:
   - VTT
   - matériel
-
-image: assets/images/posts/jervol.jpg
+images:
+  - assets/images/posts/jervol.jpg
 ---
 
 <em>L’un des plus grands plaisir du VTT est de partir la journée, toujours plus loin, toujours plus vite dans les bois où vous ne pouvez aller lorsque vous êtes à pied. Cela signifie aussi que lorsqu’il vous arrive quelque chose, comme une blessure, un problème mécanique, il vous sera compliqué de compter sur quelqu’un d’autre que sur vous-même.</em>

@@ -1,9 +1,8 @@
 ---
 layout: page
-description: "L'intégrateur web donne vie à vos design et permet les premières intérations sur la toile en quelques lignes de code."
+description: L'intégrateur web donne vie à vos design et permet les premières intérations sur la toile en quelques lignes de code.
 title: Intégrateur Web, développement front-end
-summary: "Entre le mockup et le développement front-end, l'Intégration Web permet de poser les premières lignes de codes et de structurer le site internet"
-permalink: "/expertises/integrateur-web.html"
+permalink: /expertises/integrateur-web.html
 ---
 
 # Intégrateur Web, développement front-end

@@ -1,19 +1,16 @@
 ---
-redirect_to: "https://vtt.bzh/entraînement-5-points-pour-progresser-physiquement-en-vtt.html"
-permalink: "/entraînement-5-points-pour-progresser-physiquement-en-vtt.html"
+redirect_to: https://vtt.bzh/entraînement-5-points-pour-progresser-physiquement-en-vtt.html
+permalink: /entraînement-5-points-pour-progresser-physiquement-en-vtt.html
 layout: post
-title: "5 points pour progresser rapidement en vtt."
+title: 5 points pour progresser rapidement en vtt.
 date: 2017-02-12 18:14:32.000000000 +01:00
-
 categories:
   - Sport
-
 tags:
   - VTT
   - entrainement
-
-image: assets/images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.png
-featured: true
+images:
+  - assets/images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.png
 ---
 
 <em>Pour progresser rapidement sur le point physique à VTT, il vous faudra agir sur différents éléments clefs de la condition physique.</em>

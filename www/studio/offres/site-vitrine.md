@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Création de site vitrine"
-summary: "Je suis attaché à la qualité technique et graphique des sites que je réalisent. C’est pour cela que mes réalisations sont créées de A à Z. Mes clients me choisissent car je sais leur poser les bonnes questions."
-permalink: "/offres/site-vitrine.html"
+title: Création de site vitrine
+description: Je suis attaché à la qualité technique et graphique des sites que je réalisent. C’est pour cela que mes réalisations sont créées de A à Z. Mes clients me choisissent car je sais leur poser les bonnes questions.
+permalink: /offres/site-vitrine.html
 ---
 
 # Création de site vitrine

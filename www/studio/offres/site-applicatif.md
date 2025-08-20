@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Création de site applicatif"
-summary: "Le site applicatif répondra d'avantage à des problématique d'usage et demande généralement des besoins de développement sur mesure"
-permalink: "/offres/site-applicatif.html"
+title: Création de site applicatif
+description: Le site applicatif répondra d'avantage à des problématique d'usage et demande généralement des besoins de développement sur mesure
+permalink: /offres/site-applicatif.html
 ---
 
 # Création de site applicatif

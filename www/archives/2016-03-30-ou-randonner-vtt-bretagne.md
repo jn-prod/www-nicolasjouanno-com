@@ -1,18 +1,16 @@
 ---
-redirect_to: "https://vtt.bzh/ou-randonner-vtt-bretagne.html"
-permalink: "/ou-randonner-vtt-bretagne.html"
+redirect_to: https://vtt.bzh/ou-randonner-vtt-bretagne.html
+permalink: /ou-randonner-vtt-bretagne.html
 layout: post
-title: "Quelques idées de circuits de randonnée VTT en Bretagne"
+title: Quelques idées de circuits de randonnée VTT en Bretagne
 date: 2016-03-30 16:40:10.000000000 +02:00
-
 categories:
   - Sport
-
 tags:
   - VTT
   - randonnée
-
-image: "assets/images/posts/bf91f-04tn2madty8ffu2ug.jpg"
+images:
+  - assets/images/posts/bf91f-04tn2madty8ffu2ug.jpg
 ---
 
 <em>En 2015, les différentes épreuves des <strong>Roc’h des monts d’Arrée</strong> totalisaient plus de 6200 VTTisites au départ du Huelgouat, <strong>Bretagne</strong>. Ce rassemblement, point d’orgue de la saison des <strong>randos en Bretagne</strong>, permet aux VTTistes de tous âges de s’exprimer à leur niveau sur des distances allant jusqu’à 120 kilomètres. Une goutte d’eau dans l’Océan si l’on sait qu’en Bretagne, chaque week-end, ce sont plus d’une dizaine de <strong>randonnées VTT</strong> qui ont Lieu.</em>

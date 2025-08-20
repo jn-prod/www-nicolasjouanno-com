@@ -1,18 +1,16 @@
 ---
-redirect_to: "https://vtt.bzh/test-tige-de-selle-telescopique-rockshox-reverb.html"
-permalink: "/test-tige-de-selle-telescopique-rockshox-reverb.html"
+redirect_to: https://vtt.bzh/test-tige-de-selle-telescopique-rockshox-reverb.html
+permalink: /test-tige-de-selle-telescopique-rockshox-reverb.html
 layout: post
-title: "Test de la tige de selle telescopique Rockshox Reverb"
+title: Test de la tige de selle telescopique Rockshox Reverb
 date: 2017-02-08 08:00:51.000000000 +01:00
-
 categories:
   - Sport
-
 tags:
   - VTT
   - matériel
-
-image: assets/images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.jpg
+images:
+  - assets/images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.jpg
 ---
 
 <em>Une Tige de selle télescopique à quoi ça sert? La tige de selle télescopique, un accessoire de mode ou l’arme ultime dans les passages techniques?</em>

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Chef de Projet Digital"
-summary: "Chaque équipe a son rôle à jouer dans un projet digital et mon objectif de Chef de Projet Digital est d'amener tout le monde à travailler dans le même sens, tout en gardant en tête les objectifs clients et les préférences des utilisateurs."
-permalink: "/chef-projet-digital.html"
+title: Chef de Projet Digital
+description: Chaque équipe a son rôle à jouer dans un projet digital et mon objectif de Chef de Projet Digital est d'amener tout le monde à travailler dans le même sens, tout en gardant en tête les objectifs clients et les préférences des utilisateurs.
+permalink: /chef-projet-digital.html
 ---
 
 # Chef de Projet Digital

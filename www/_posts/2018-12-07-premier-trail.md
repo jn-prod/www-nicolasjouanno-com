@@ -1,18 +1,16 @@
 ---
 layout: post
-title: "Mon premier trail"
+title: Mon premier trail
 date: 2018-12-07 09:00:00.000000000 +02:00
-
 categories:
   - Sport
   - Experience
-
 tags:
   - Trail
   - Competition
   - Debut
-
-image: assets/images/posts/homme_trail_foret.jpg
+images:
+  - assets/images/posts/homme_trail_foret.jpg
 ---
 
 <em>Je suis plein de contradiction, ceux qui me connaissent le savent. Il y a quelques semaines, je publiais un article disant que je n'ai pas besoin de compétition pour m'entraîner. Cette même semaine, je prenais le départ de ma première course à pied, un trail de 12km qui avait lieu derrière chez moi. Dans cet article, je vous parle de ma préparation, des questions que je me suis posé et, bien sûr, de ma course !</em>

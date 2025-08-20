@@ -6,124 +6,124 @@ redirect_from:
   - /portfolio.html
 layout: page
 title: Découvrir mon histoire et mes projets
-summary: Développeur frontend et créateur d'interfaces qui plaisent a vos utilisateurs.
+description: Développeur frontend et créateur d'interfaces qui plaisent a vos utilisateurs.
 technologies:
-  - name: "Javascript"
-    url:
-    icon: "icon icon--js"
-    description: "Language de script"
+  - name: Javascript
+    url: 
+    icon: icon icon--js
+    description: Language de script
     profile: true
-  - name: "Typescript"
-    url:
-    icon: "icon icon--ts"
-    description: "Langage de programmation"
+  - name: Typescript
+    url: 
+    icon: icon icon--ts
+    description: Langage de programmation
     profile: true
-  - name: "Rust"
-    url:
-    icon: "icon icon--rust"
-    description: "Langage de programmation"
+  - name: Rust
+    url: 
+    icon: icon icon--rust
+    description: Langage de programmation
     profile: true
-  - name: "VueJS"
-    url:
-    icon: "icon icon--vuejs"
-    description: "Librairie Javascript"
+  - name: VueJS
+    url: 
+    icon: icon icon--vuejs
+    description: Librairie Javascript
     profile: true
-  - name: "ReactJS"
-    url:
-    icon: "icon icon--react"
-    description: "Librairie Javascript"
+  - name: ReactJS
+    url: 
+    icon: icon icon--react
+    description: Librairie Javascript
     profile: true
-  - name: "NODE JS"
-    url:
-    icon: "icon icon--node"
-    description: "Framework Javascript"
+  - name: NODE JS
+    url: 
+    icon: icon icon--node
+    description: Framework Javascript
     profile: false
-  - name: "HTML 5"
-    url:
-    icon: "icon icon--html5"
-    description: "HyperText Markup Language"
+  - name: HTML 5
+    url: 
+    icon: icon icon--html5
+    description: HyperText Markup Language
     profile: true
-  - name: "CSS 3"
-    url:
-    icon: "icon icon--css3"
-    description: "Feuilles de style"
+  - name: CSS 3
+    url: 
+    icon: icon icon--css3
+    description: Feuilles de style
     profile: true
-  - name: "SASS"
-    url:
-    icon: "icon icon--sass"
-    description: "Feuilles de style"
+  - name: SASS
+    url: 
+    icon: icon icon--sass
+    description: Feuilles de style
     profile: true
-  - name: "GIT & GITHUB"
-    url:
-    icon: "icon icon--github"
-    description: "Gestion de projet / versionning"
+  - name: GIT & GITHUB
+    url: 
+    icon: icon icon--github
+    description: Gestion de projet / versionning
     profile: false
-  - name: "AWS"
-    url:
-    icon: "icon icon--aws"
-    description: "Hébergement"
+  - name: AWS
+    url: 
+    icon: icon icon--aws
+    description: Hébergement
     profile: true
-  - name: "JIRA"
-    url:
-    icon: "icon icon--jira"
-    description: "Gestion de projet"
+  - name: JIRA
+    url: 
+    icon: icon icon--jira
+    description: Gestion de projet
     profile: false
-  - name: "FIGMA"
-    url:
-    icon: "icon icon--figma"
-    description: "Design / Wireframe"
+  - name: FIGMA
+    url: 
+    icon: icon icon--figma
+    description: Design / Wireframe
     profile: false
 projects:
-  - name: "vtt.bzh"
-    year: "2013 - Aujourd'hui"
+  - name: vtt.bzh
+    year: 2013 - Aujourd'hui
     profile: true
-    mission: "Création d'une web-app (Side project)"
+    mission: Création d'une web-app (Side project)
     expertises:
-      - "Gestion de projet"
-      - "NodeJS"
-      - "Jekyll"
-      - "VueJS"
-      - "Bootstrap"
-      - "HTML5"
-      - "CSS3"
-      - "SEO"
-      - "Supabase"
-      - "UX / UI"
-      - "Analytics"
-    url: "https://github.com/jn-prod/www-vtt-bzh"
+      - Gestion de projet
+      - NodeJS
+      - Jekyll
+      - VueJS
+      - Bootstrap
+      - HTML5
+      - CSS3
+      - SEO
+      - Supabase
+      - UX / UI
+      - Analytics
+    url: https://github.com/jn-prod/www-vtt-bzh
     images:
-      - "/assets/images/projets/ext-6.png"
-  - name: "breizhtraining.bzh"
+      - /assets/images/projets/ext-6.png
+  - name: breizhtraining.bzh
     year: "2019"
     profile: false
-    mission: "Création du site internet (Freelance)"
+    mission: Création du site internet (Freelance)
     expertises:
-      - "Gestion de projet"
-      - "NextJS"
-      - "API"
-      - "HTML5"
-      - "CSS3"
-      - "Bootstrap"
-      - "UX / UI"
-    url: "https://github.com/jn-prod/www-breizhtraining-bzh"
+      - Gestion de projet
+      - NextJS
+      - API
+      - HTML5
+      - CSS3
+      - Bootstrap
+      - UX / UI
+    url: https://github.com/jn-prod/www-breizhtraining-bzh
     images:
-      - "/assets/images/projets/breizhtraining_bzh.png"
-  - name: "gael-lebellec.bzh"
+      - /assets/images/projets/breizhtraining_bzh.png
+  - name: gael-lebellec.bzh
     year: "2017"
     profile: false
-    mission: "Création du site internet (Freelance)"
+    mission: Création du site internet (Freelance)
     expertises:
-      - "Gestion de projet"
-      - "NextJS"
-      - "API"
-      - "HTML5"
-      - "CSS3"
-      - "Bootstrap"
-      - "UX / UI"
-      - "Multilangue"
-    url: "https://github.com/jn-prod/www-gaellebellec-bzh"
+      - Gestion de projet
+      - NextJS
+      - API
+      - HTML5
+      - CSS3
+      - Bootstrap
+      - UX / UI
+      - Multilangue
+    url: https://github.com/jn-prod/www-gaellebellec-bzh
     images:
-      - "/assets/images/projets/ext-4.png"
+      - /assets/images/projets/ext-4.png
 ---
 
 <!-- set vtt_bzh variable -->

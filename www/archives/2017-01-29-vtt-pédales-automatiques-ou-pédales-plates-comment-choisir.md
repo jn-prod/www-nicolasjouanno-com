@@ -1,18 +1,16 @@
 ---
-redirect_to: "https://vtt.bzh/vtt-pédales-automatiques-ou-pédales-plates-comment-choisir.html"
-permalink: "/vtt-pédales-automatiques-ou-pédales-plates-comment-choisir.html"
+redirect_to: https://vtt.bzh/vtt-pédales-automatiques-ou-pédales-plates-comment-choisir.html
+permalink: /vtt-pédales-automatiques-ou-pédales-plates-comment-choisir.html
 layout: post
-title: "Comment choisir entre pédales automatiques et plates de VTT?"
+title: Comment choisir entre pédales automatiques et plates de VTT?
 date: 2017-01-29 22:12:37.000000000 +01:00
-
 categories:
   - Sport
-
 tags:
   - VTT
   - matériel
-
-image: assets/images/posts/ccs-62657-0-58346000-1479391864.jpg
+images:
+  - assets/images/posts/ccs-62657-0-58346000-1479391864.jpg
 ---
 
 ## Au programme :
