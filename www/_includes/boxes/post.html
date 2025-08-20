@@ -34,15 +34,16 @@
     {{excerpt}}
   </p>
   {% endif %}
-  
-  {% if post.content != post.excerpt or post.images.size > 0 %}
-    <a class="c-button" href="{{ post.url | absolute_url }}">
-      Voir plus
-    </a>
-  {% endif %}
 
   <footer class="c-post-card__footer">
     <ul class="u-list u-list--none u-list--inline">
+      {% if post.content != post.excerpt or post.images.size > 0 %}
+      <li>
+        <a class="c-button c-button--primary" href="{{ post.url | absolute_url }}">
+          Voir plus
+        </a>
+      </li>
+      {% endif %}
       <li>
         <a class="c-button" href="{{ post.url | absolute_url }}">
           Lire
