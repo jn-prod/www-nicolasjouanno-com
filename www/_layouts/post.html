@@ -25,7 +25,7 @@ layout: page
   
   {% if page.images %}
     <div class="c-layout__medias">
-      {% for img in post.images %}
+      {% for img in page.images %}
         <img src="{{ img | relative_url }}" alt="" loading="lazy" />
       {% endfor %}
     </div>
