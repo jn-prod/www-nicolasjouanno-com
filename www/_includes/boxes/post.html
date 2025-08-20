@@ -22,27 +22,33 @@
     </div>
   </header>
 
+  {% if post.images.size > 0 %}
+    <img class="c-post-card__media" src="{{ post.images[0] | relative_url }}" alt="{{ post.title }}" loading="lazy" />
+  {% endif %}
+
   {% assign content = post.content | strip_html %}
   {% assign excerpt = content | truncatewords: 70 %}
 
   {% if excerpt %}
   <p>
     {{excerpt}}
-    {% if content != excerpt %}
-      <a href="{{ post.url | absolute_url }}">
-        Voir plus
-      </a>
-    {% endif %}
   </p>
   {% endif %}
 
   <footer class="c-post-card__footer">
     <ul class="u-list u-list--none u-list--inline">
       <li>
+      {% if post.content != post.excerpt or post.images.size > 0 %}
+        <a class="c-button c-button--primary" href="{{ post.url | absolute_url }}">
+          Voir plus
+        </a>
+      {% else %}
         <a class="c-button" href="{{ post.url | absolute_url }}">
           Lire
         </a>
+      {% endif %}
       </li>
+
       <li>
         <a
           class="c-button"

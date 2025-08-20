@@ -8,5 +8,10 @@
     display: inline-flex;
     align-items: center;
     gap: 1rem;
+    flex-wrap: wrap;
+
+    li {
+        flex: 1 100%;
+    }
   }
 }
