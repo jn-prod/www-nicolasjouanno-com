@@ -6,24 +6,31 @@
   itemscope=""
   itemtype="http://schema.org/BlogPosting"
 >
+  <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}" />
+  <meta itemprop="author" content="{{ site.author.name }}" />
+  {% if post.images and post.images.size > 0 %}
+    <meta itemprop="image" content="{{ post.images[0] | absolute_url }}" />
+  {% endif %}
+  <meta itemprop="headline" content="{{ post.title }}" />
+  <meta itemprop="mainEntityOfPage" content="{{ site.url }}{{ post.url }}" />
   <header class="c-post-card__header">
     <div class="c-post-card__author">
       {% include /boxes/author.html author=author post=post %}
 
-      <h2 itemprop="headline" class="c-post-card__header-title">
+      <h2 class="c-post-card__header-title">
         <a class="c-post-card__post-link" href="{{ post.url | absolute_url }}"
           >{{ post.title }}</a
         >
       </h2>
       <meta
-        itemprop="url mainEntityOfPage"
+        itemprop="url"
         content="{{ site.url}}{{post.url }}"
       />
     </div>
   </header>
 
   {% if post.images.size > 0 %}
-    <img class="c-post-card__media" src="{{ post.images[0] | relative_url }}" alt="{{ post.title }}" loading="lazy" />
+    <img class="c-post-card__media" src="{{ post.images[0] | relative_url }}" alt="" loading="lazy" />
   {% endif %}
 
   {% assign content = post.content | strip_html %}
@@ -38,21 +45,15 @@
   <footer class="c-post-card__footer">
     <ul class="u-list u-list--none u-list--inline">
       <li>
-      {% if post.content != post.excerpt or post.images.size > 0 %}
         <a class="c-button c-button--primary" href="{{ post.url | absolute_url }}">
-          Voir plus
+          Continuer
         </a>
-      {% else %}
-        <a class="c-button" href="{{ post.url | absolute_url }}">
-          Lire
-        </a>
-      {% endif %}
       </li>
 
       <li>
         <a
           class="c-button"
-          href="mailto:?subject={{ post.title | url_encode }}&body={{ 'Je voulais te partager ce post :' | url_encode}}%0A%0A{{ site.url | append: post.url | url_encode}}%0A%0A{{post.excerpt | strip_html | truncatewords:30 | url_encode}}"
+          href="mailto:?subject={{ post.title | url_encode }}&body={{ 'Je voulais te partager ce post :' | url_encode}}%0A%0A{{ site.url | append: post.url | url_encode}}%0A%0A{{excerpt | url_encode}}"
           >Partager
         </a>
       </li>

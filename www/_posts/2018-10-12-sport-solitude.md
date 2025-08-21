@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Sport et solitude, tout est dit non ?
-date: 2018-10-12 09:00:00.000000000 +02:00
 categories:
   - Sport
 tags:

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Vélo, Boulot, Dodo
-date: 2018-11-30 09:00:00.000000000 +02:00
 categories:
   - Sport
   - Experience

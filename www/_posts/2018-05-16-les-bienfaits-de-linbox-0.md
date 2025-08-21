@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Les bienfaits de l’inbox 0
-date: 2018-05-16 14:31:01.000000000 +02:00
 images:
   - assets/images/posts/e0a38-10yto40xd793dweahzoxsta.jpeg
 categories:

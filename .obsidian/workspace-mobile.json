@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "www/_posts/2018-12-14-pourquoi-tombons-nous.md",
+                "file": "www/_posts/2019-01-24-podcast-gael-le-bellec.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2018-12-14-pourquoi-tombons-nous"
+              "title": "2019-01-24-podcast-gael-le-bellec"
             }
           }
         ]
@@ -59,7 +59,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "[\"date\"]",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -110,7 +110,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "bbbdfce5626363b4",
@@ -179,7 +179,6 @@
   },
   "active": "1cc5eddfa1b8fb0f",
   "lastOpenFiles": [
-    "configs/obsidian/templates/post.md",
     "www/_posts/2018-12-14-pourquoi-tombons-nous.md",
     "www/_posts/2018-12-07-premier-trail.md",
     "www/_posts/2018-11-30-velo-boulot-dodo.md",
@@ -199,6 +198,7 @@
     "www/archives/2017-01-17-20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.md",
     "www/archives/2016-03-30-ou-randonner-vtt-bretagne.md",
     "www/archives/2014-08-10-pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.md",
+    "configs/obsidian/templates/post.md",
     "configs/obsidian/templates/page.md",
     "www/studio/offres/site-vitrine.md",
     "www/studio/offres/site-e-commerce.md",
