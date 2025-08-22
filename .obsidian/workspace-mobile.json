@@ -110,7 +110,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "bbbdfce5626363b4",
@@ -205,6 +205,8 @@
     "www/archives/2017-01-17-20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.md",
     "www/archives/2016-03-30-ou-randonner-vtt-bretagne.md",
     "www/archives/2014-08-10-pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.md",
+    "configs/obsidian/templates/post.md",
+    "configs/obsidian/templates/page.md",
     "www/studio/offres/site-vitrine.md",
     "www/studio/offres/site-e-commerce.md",
     "configs/obsidian/templates",
