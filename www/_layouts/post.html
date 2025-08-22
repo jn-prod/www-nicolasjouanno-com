@@ -7,7 +7,6 @@ layout: page
 
 {% assign author = site.author %}
 <article itemscope itemtype="http://schema.org/BlogPosting">
-
   <time
     itemprop="dateCreated datePublished dateModified"
     datetime="{{ page.date | date:'%Y-%m-%d' }}"
@@ -19,22 +18,23 @@ layout: page
     <div class="c-layout__author">
       {% include /boxes/author.html post=page %}
     </div>
-    <meta itemprop="url mainEntityOfPage" content="{{ site.url}}{{page.url }}" />
+    <meta
+      itemprop="url mainEntityOfPage"
+      content="{{ site.url}}{{page.url }}"
+    />
     <p>{% for category in page.categories %} #{{category}} {% endfor %}</p>
   </header>
-  
+
   {% if page.images %}
-    <div class="c-layout__medias">
-      {% for img in page.images %}
-        <img src="{{ img | relative_url }}" alt="" loading="lazy" />
-      {% endfor %}
-    </div>
+  <div class="c-layout__medias">
+    {% for img in page.images %}
+    <img src="{{ img | relative_url }}" alt="" loading="lazy" />
+    {% endfor %}
+  </div>
   {% endif %}
 
   <!-- Post Content -->
-  <div itemprop="articleBody">
-    {{content}}
-  </div>
+  <div itemprop="articleBody">{{content}}</div>
 </article>
 
 <!-- End Article

@@ -9,67 +9,67 @@ title: Découvrir mon histoire et mes projets
 description: Développeur frontend et créateur d'interfaces qui plaisent a vos utilisateurs.
 technologies:
   - name: Javascript
-    url: 
+    url:
     icon: icon icon--js
     description: Language de script
     profile: true
   - name: Typescript
-    url: 
+    url:
     icon: icon icon--ts
     description: Langage de programmation
     profile: true
   - name: Rust
-    url: 
+    url:
     icon: icon icon--rust
     description: Langage de programmation
     profile: true
   - name: VueJS
-    url: 
+    url:
     icon: icon icon--vuejs
     description: Librairie Javascript
     profile: true
   - name: ReactJS
-    url: 
+    url:
     icon: icon icon--react
     description: Librairie Javascript
     profile: true
   - name: NODE JS
-    url: 
+    url:
     icon: icon icon--node
     description: Framework Javascript
     profile: false
   - name: HTML 5
-    url: 
+    url:
     icon: icon icon--html5
     description: HyperText Markup Language
     profile: true
   - name: CSS 3
-    url: 
+    url:
     icon: icon icon--css3
     description: Feuilles de style
     profile: true
   - name: SASS
-    url: 
+    url:
     icon: icon icon--sass
     description: Feuilles de style
     profile: true
   - name: GIT & GITHUB
-    url: 
+    url:
     icon: icon icon--github
     description: Gestion de projet / versionning
     profile: false
   - name: AWS
-    url: 
+    url:
     icon: icon icon--aws
     description: Hébergement
     profile: true
   - name: JIRA
-    url: 
+    url:
     icon: icon icon--jira
     description: Gestion de projet
     profile: false
   - name: FIGMA
-    url: 
+    url:
     icon: icon icon--figma
     description: Design / Wireframe
     profile: false
