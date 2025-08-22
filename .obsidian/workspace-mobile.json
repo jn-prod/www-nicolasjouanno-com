@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8413b2d883448d27",
+        "id": "c10e04d29faa7aee",
         "type": "tabs",
         "children": [
           {
-            "id": "1cc5eddfa1b8fb0f",
+            "id": "23ddfdd2cca2af46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "www/_posts/2019-01-24-podcast-gael-le-bellec.md",
+                "file": "www/_posts/2025-08-22-paris-web-preview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2019-01-24-podcast-gael-le-bellec"
+              "title": "2025-08-22-paris-web-preview"
             }
           }
         ]
@@ -110,7 +110,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "bbbdfce5626363b4",
@@ -154,7 +154,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "www/_posts/2018-12-14-pourquoi-tombons-nous.md",
+            "file": "www/_posts/2025-08-22-paris-web-preview.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -168,6 +168,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "zk-prefixer:Create new unique note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -177,8 +178,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1cc5eddfa1b8fb0f",
+  "active": "467161e2017e7d2c",
   "lastOpenFiles": [
+    "www/_posts/2019-01-24-podcast-gael-le-bellec.md",
+    "www/CHANGELOG.md",
+    "www/_posts/2025-08-22-paris-web-preview.md",
+    "www/_drafts",
+    "configs/obsidian/templates/page.md",
+    "configs/obsidian/templates/post.md",
     "www/_posts/2018-12-14-pourquoi-tombons-nous.md",
     "www/_posts/2018-12-07-premier-trail.md",
     "www/_posts/2018-11-30-velo-boulot-dodo.md",
@@ -198,13 +205,8 @@
     "www/archives/2017-01-17-20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.md",
     "www/archives/2016-03-30-ou-randonner-vtt-bretagne.md",
     "www/archives/2014-08-10-pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.md",
-    "configs/obsidian/templates/post.md",
-    "configs/obsidian/templates/page.md",
     "www/studio/offres/site-vitrine.md",
     "www/studio/offres/site-e-commerce.md",
-    "www/studio/offres/site-applicatif.md",
-    "www/studio/expertises/product-manager.md",
-    "www/studio/expertises/integrateur-web.md",
     "configs/obsidian/templates",
     "www/_drafts"
   ]

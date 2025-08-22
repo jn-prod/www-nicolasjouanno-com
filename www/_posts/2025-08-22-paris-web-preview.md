@@ -1,0 +1,23 @@
+---
+layout: post
+title: M-1 avant ma première prise de parole à Paris-Web
+description:
+categories:
+  - Work
+tags:
+  - accessibilite
+  - web-components
+  - rex
+images:
+---
+Depuis deux ans, je participe à Paris-Web avec mon collègue Simon Duhem grâce à notre employeur MGDIS. Cette année, l’histoire est un peu différente : nous ne venons pas seulement écouter, mais aussi parler.
+
+Nous allons partager notre expérience autour des web-components et de l’accessibilité : comment construire des interfaces modernes, réutilisables, et inclusives.
+
+La candidature a été portée par Simon, avec qui j’ai la chance de travailler depuis plusieurs années. Paris-Web sera pour nous une aventure partagée, comme un relais.
+
+Comme dans le sport ou dans les voyages en van, ce genre de défi nous apprend à simplifier, à partager et à rester attentifs aux autres.
+
+Hâte de retrouver la communauté Paris-Web et de partager cette expérience.
+
+📅 Rendez-vous le 26 septembre pour notre conférence: « Les Web Components et l’accessibilité ».

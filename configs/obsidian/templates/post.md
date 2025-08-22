@@ -1,6 +1,8 @@
 ---
 layout: post
-categories: 
-tags: 
+title:
+description:
+categories:
+tags:
 images:
 ---
