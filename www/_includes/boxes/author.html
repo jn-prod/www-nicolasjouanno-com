@@ -1,8 +1,4 @@
-<img
-  class="c-post-card__avatar"
-  src="{{ author.avatar }}"
-  alt=""
-/>
+<img class="c-post-card__avatar" src="{{ author.avatar }}" alt="" />
 <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
   <a href="{{ author.web }}" class="c-post-card__author-name">
     <span itemprop="name">{{ author.name }}</span>
@@ -16,7 +12,10 @@
   <div class="c-post-card__meta">
     <span>{{ author.handle }}</span>
     ·
-    <time itemprop="dateCreated datePublished dateModified" datetime="{{ include.post.date | date_to_xmlschema }}">
+    <time
+      itemprop="dateCreated datePublished dateModified"
+      datetime="{{ include.post.date | date_to_xmlschema }}"
+    >
       {{ include.post.date | date: "%d %B %Y" }}
     </time>
   </div>
