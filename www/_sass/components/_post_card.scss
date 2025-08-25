@@ -68,6 +68,13 @@
     color: var(--color-dark-light);
   }
 
+  &__media {
+    width: 100%;
+    max-height: calc(var(--size-16) * 20);
+    object-fit: cover;
+    border-radius: var(--size-16);
+  }
+
   &__social {
     color: var(--color-dark-light);
   }
