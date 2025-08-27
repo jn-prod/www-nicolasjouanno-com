@@ -73,84 +73,7 @@ technologies:
     icon: icon icon--figma
     description: Design / Wireframe
     profile: false
-projects:
-  - name: vtt.bzh
-    year: 2013 - Aujourd'hui
-    profile: true
-    mission: Création d'une web-app (Side project)
-    expertises:
-      - Gestion de projet
-      - NodeJS
-      - Jekyll
-      - VueJS
-      - Bootstrap
-      - HTML5
-      - CSS3
-      - SEO
-      - Supabase
-      - UX / UI
-      - Analytics
-    url: https://github.com/jn-prod/www-vtt-bzh
-    images:
-      - /assets/images/projets/ext-6.png
-  - name: breizhtraining.bzh
-    year: "2019"
-    profile: false
-    mission: Création du site internet (Freelance)
-    expertises:
-      - Gestion de projet
-      - NextJS
-      - API
-      - HTML5
-      - CSS3
-      - Bootstrap
-      - UX / UI
-    url: https://github.com/jn-prod/www-breizhtraining-bzh
-    images:
-      - /assets/images/projets/breizhtraining_bzh.png
-  - name: gael-lebellec.bzh
-    year: "2017"
-    profile: false
-    mission: Création du site internet (Freelance)
-    expertises:
-      - Gestion de projet
-      - NextJS
-      - API
-      - HTML5
-      - CSS3
-      - Bootstrap
-      - UX / UI
-      - Multilangue
-    url: https://github.com/jn-prod/www-gaellebellec-bzh
-    images:
-      - /assets/images/projets/ext-4.png
 ---
-
-<!-- set vtt_bzh variable -->
-
-{% for project in page.projects %} {% if project.name == 'vtt.bzh' %} {% assign vtt_bzh = project %} {% endif %} {% endfor %}
-
-<img class="u-image-center" src="{{ site.author.avatar }}" alt="{{ site.author.name }}" />
-
-# Je conçois l'interface web pensée avec votre équipe design dans le soucie de l'expérience utilisateur.
-
-Moi c'est <a href="{{ site.url }}/about.html" rel="me">Nicolas Jouanno</a>, Lead front-end @MGDIS. Je conçois un design-system et travail sur l'outillage pour des micro frontends.
-
-Je suis attentif à l'accessibilité et à l'éco-conception.
-
-Je joue avec la JAM Stack et je m'intéresse a WASM.
-
-Créateur de <a href="{{ vtt_bzh.url }}" target="_blank">vtt.bzh</a>.
-
-## Du MVP à l'automatisation.
-
-Vous êtes une startup ou une PME ? Vous voulez créer votre MVP pour toucher vos premiers utilisateur. Vous avez peut-être déjà trouvé votre Product Market Fit ou avez besoin de scaler pour suivre votre growth ?
-
-J'écris du HTML, CSS et JavaScript, et je prends soin de créer une expérience utilisateur agréable et accessible sur le web.
-
-Mon expertise de la stack de programmation Javascript, de son ecosytème et de ses frameworks (ex: NodeJS, AngularJS, VueJS, ...) me permettent de réaliser les développements front-end et back-end de votre application web.
-
-Ils me permettent de vous donner les clefs pour réussir le développement de votre projet SAAS.
 
 <!-- technologies -->
 <ul class="c-icons-list">
@@ -165,53 +88,117 @@ Ils me permettent de vous donner les clefs pour réussir le développement de vo
 
 </ul>
 
-## Je suis un developpeur front-end qui donne vie à vos idées. J'aime garder les choses simples et procurer une expérience propre et fonctionnelle à vos utilisateurs.
+# Nicolas Jouanno — Développeur Frontend & Sportif Outdoor
 
-Je suis <a href="/">développeur front-end</a>, je co-conçois des <a href="/offres/site-applicatif.html">sites web applicatif et applications mobile</a> avec votre équipe produit. Je suis aussi l'homme derrière <a href="https://vtt.bzh">vtt.bzh</a>, une application web pour trouver une nouvelle randonnée chaque week-end en Bretagne.
+Je suis développeur frontend spécialisé dans les design systems, l’accessibilité et les architectures modernes (Web Composants, micro-frontends, Jamstack).
 
-Ma trajectoire professionnel s'inscrit dans le domaine sportif. Après une carrière de <a href="/results.html">cycliste professionnel</a>, je deviens Responsable Communication et Webmaster chez Twinner Sport. J'ai créé et dévelopé mon entreprise de vente d'article de sport outdoor cross-canal. Puis je suis devenu <a href="/creation-site-internet.html">Concepteur Développeur Web</a> pour un groupement, dans lequel j'ai notamment développé une application web d'inscription en ligne <a href="/portfolio/project/event-izir.html">event.izir.fr</a> et un portail intranet pour piloter la stratégie commerciale du groupe.
+Lead Frontend @MGDIS, je crée des interfaces accessibles et performantes, avec une attention particulière à l’éco-conception et à l’expérience utilisateur.
 
-Maintenant, je suis développeur full-stack JS (NodeJS, MongoDB, AngularJS & VueJS) chez MGDIS. Une entreprise Bretonne qui aide les collectivités à gérer les aides publiques. Passioné par les interfaces réussitent, j'aime échanger sur cette thématique avec les autres membre de la guilde UX/UI de l'entreprise. Curieux, je continue de me former et de m'informer sur les nouvelles technologies, frameworks et relève le defis des <a href="{{ site.url }}/certifications.html">certifications</a>.
+Créateur de [VTT.bzh](https://vtt.bzh/), un projet personnel autour du VTT en Bretagne, je développe aussi mon site personnel [nicolasjouanno.com](https://nicolasjouanno.com/) comme terrain d’expérimentation UX et minimalisme digital.
 
-Je partage ma veille et parle de sport, mobilité, productivité, minimalsime et d'environnement sous le pseudo <a href="{{ site.author.linkedin }}">{{ site.author.handle }}</a> sur Linkedin.
+## En bref
 
-J'aime pratiquer les best practices des plus grandes entreprises tech, comme Lean Startup, le Design Thinking, la méthode Agile & le Lean UX.
+- 📍 Pontivy, Bretagne
+- 🌱 Minimalisme & frugalité numérique
+- 🚴 Discipline & endurance issues du sport de haut niveau
 
-J'interviens sur tout le cycle de vie d'un produit numérique : de la création de POC (Proof Of Concept) à <a href="/expertises/developpeur-back-end.html">l'automatisation de taches</a> pour des besoins de Growth Marketing, en passant par l'incrémentation de nouvelles features à un produit ou MVP (Minimum Viable Product).
+## Expérience professionnelle
 
-Je développe avec vous une web app scalable qui tient compte de vos objectifs de rétention, des contraintes métier et de vos utilisateurs.
+### Développeur Frontend — MGDIS (2019 – aujourd’hui)
 
-Commençons par <a href="{{ site.author.linkedin }}">en parler</a> ensemble. Enfin, je partage mes connaissances techniques, stratégiques et opérationnelles sur <a href="{{ site.url }}/stories.html">le blog</a>.
+Membre de la core team, responsable de l’outillage pour l’industrialisation du développement d’applications web basées sur des micro-services.
 
-## Vous accompagner à chaque étape de votre application web.
+Missions principales :
 
-Vous développez une <a href="/offres/site-applicatif.html">application mobile</a> ou un <a href="/offres/site-vitrine.html">site internet</a> pour votre startup ? Vous avez besoin d'un professionnel pour développer votre produit ? Vous souhaitez créer votre MVP pour séduire de nouveaux utilisateurs et/ou investisseurs ? Découvrez comment je peux vous aider dans vos projets:
+- Conception, maintenance et déploiement de librairies, dont un design system de Web Components (StencilJS, SCSS) et son outillage.
+- Résolution des problématiques frontend en cohérence avec la vision de l’architecte.
+- Garant de l’accessibilité, homogénéité et qualité des livrables.
+- Accompagnement et sensibilisation des développeurs.
+- Validation technique des choix ergonomiques et graphiques.
 
-## Mes projets
+Stack : JavaScript, TypeScript, AngularJS, Vue, StencilJS, Jest, Puppeteer, Playwright, CSS3/SCSS, NodeJS, GitLab, Docker…
 
-{% for project in page.projects %}
+### Concepteur Développeur Web — REF SPORT PONTIVY (2016–2019)
 
-  <article id="{{ project.name }}" class="u-grid">
-    <div class="u-grid__col-6">
-      <h3>
-        <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
-      </h3>
-      <img
-        src="{{ project.images[0] }}"
-        alt="{{ project.name }}"
-      />
-    </div>
-    <div class="u-grid__col-6">
-      <p>{{ project.mission }}, {{ project.year }}</p>
-      <ul>
-        {% for expertise in project.expertises %}
-          <li>{{ expertise }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  </article>
-{% endfor %}
+Pilotage et développement de projets digitaux :
 
-## Me contacter.
+- Applications web SAAS (Node.js, MongoDB, jQuery).
+- Sites e-commerce (Prestashop, Shopify).
+- Intranet & outils métiers.
+- SEO, Analytics, blogs WordPress.
 
-Vous pouvez me contacter sur <a href="{{ site.author.linkedin }}">Linkedin</a>.
+Missions : 
+- gestion de projet digital,
+- analyse des besoins,
+- prototypage, 
+- développement full-stack, 
+- automatisation, 
+- support utilisateur.
+
+### Entrepreneur - [cyclesportnature.fr](http://cyclesportnature.fr/)  (2013–2016)
+
+Commerce spécialisé indépendant (vente/réparation de vélos).
+
+- Création et pilotage d’un business model combinant boutique physique et e-commerce.
+- Stratégie digitale : acquisition (SEA, SEO, comparateurs), partenariats, newsletters.
+- Management d’équipe (vente, SAV, CRM).
+- Développement plateforme e-commerce & automatisations.
+
+### Responsable Communication & Digital – Twinner Sport (2011 – 2013)
+
+- Élaboration et mise en œuvre de la stratégie de communication en lien avec la direction.
+- Gestion du budget marketing et coordination du plan média multicanal (print, web, événementiel).
+- Pilotage et animation du site e-commerce (gestion du catalogue, mises à jour de contenus, suivi SEO).
+- Animation digitale : newsletters, campagnes en ligne, réseaux sociaux.
+- Maintenance et évolution du site WordPress (mises à jour, intégration de contenus).
+- Management : recrutement, formation et accompagnement de l’équipe.
+- Suivi et analyse des performances marketing et digitales.
+
+### Webmaster — Twinner Sport (2009–2011)
+
+- Création, administration et maintenance technique du site WordPress (mise en place initiale, mises à jour de la plateforme et des plugins).
+- Intégration et mise à jour régulière des contenus (textes, visuels, fiches produits, actualités).
+- Développement et intégration de nouvelles fonctionnalités (CSS/HTML, modules WordPress).
+- Création de visuels et habillages graphiques pour le site.
+- Optimisation SEO de base (métadonnées, structuration des contenus, référencement naturel).
+
+### Cycliste professionnel — Bretagne Schuller (2008–2010)
+
+[Découvrez mon palmarès sportif](/results.html)
+
+### Vendeur — Twinner Sport (2007–2008)
+
+## Projets personnels
+
+- [VTT.bzh](https://vtt.bzh/) : calendrier communautaire VTT en Bretagne.
+- [nicolasjouanno.com](https://nicolasjouanno.com/) : expérimentation UX & minimalisme digital.
+
+## Compétences
+
+- Frontend : JavaScript (ESNext), TypeScript, StencilJs, Vue.js, Web Components, SASS, HTML5, CSS3.
+- Architecture : micro-frontends, Jamstack, monorepo, PNPM.
+- Qualité & accessibilité : a11y, performance web, Green IT.
+- Outils & DevOps : GitHub Actions, ViteJS, Jekyll, Cloudflare.
+
+## Conférences & publications
+
+- Paris-Web 2025 — Accessibilité et Web Components (intervenant).
+- Participation régulière : Paris-Web 2023 & 2024 (auditeur).
+
+## Formations
+
+- Auditer l’accessibilité numérique — Empreinte Digitale (2024).
+- Figma UI / prototypage — M2i Formation (2023).
+- Design System — Usabilis (2022).
+- TypeScript — Zenika (2022).
+- Accessibilité multimédia — Access42 (2021).
+- VueJS — Zenika (2020).
+- Conception sites accessibles — Atalan (2020).
+- BTS Management des Unités Commerciales (2008).
+- Baccalauréat STT (2006).
+
+## Valeurs et approche
+
+- Discipline & endurance issues du sport de haut niveau.
+- Minimalisme & frugalité numérique.
+- Goût pour l’innovation et l’expérimentation.
