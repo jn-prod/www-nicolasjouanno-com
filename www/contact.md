@@ -16,18 +16,19 @@ Une question, une idée, ou simplement envie d’échanger ?
 <form action="https://formsubmit.co/me@nicolasjouanno.com" method="POST">
 
       <!-- Champs visibles -->
+      <p>Tous les champs sont obligatoire</p>
 
-      <label for="name">Nom \*</label><br>
+      <label for="name">Nom</label>
 
-      <input type="text" id="name" name="name" required><br><br>
+      <input type="text" id="name" name="name" required>
 
-      <label for="email">Votre e-mail \*</label><br>
+      <label for="email">Votre e-mail</label>
 
-      <input type="email" id="email" name="replyto" required><br><br>
+      <input type="email" id="email" name="replyto" required>
 
-      <label for="message">Message \*</label><br>
+      <label for="message">Message</label>
 
-      <textarea id="message" name="message" rows="6" required></textarea><br><br>
+      <textarea id="message" name="message" rows="6" required></textarea>
 
       <!-- Champs cachés -->
 
@@ -35,6 +36,6 @@ Une question, une idée, ou simplement envie d’échanger ?
 
       <input type="hidden" name="_subject" value="formulaire de contact nicolasjouanno.com">
 
-      <button type="submit">Envoyer</button>
+      <button type="submit" class="c-button c-button--primary">Envoyer</button>
 
 </form>
