@@ -18,18 +18,19 @@ Une question, une idée, ou simplement envie d’échanger ?
       <!-- Champs visibles -->
       <p>Tous les champs sont obligatoires</p>
 
-      <label for="name">Nom</label>
+      <div>
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+      </div>
 
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Votre e-mail</label>
-
-      <input type="email" id="email" name="replyto" required>
-
-      <label for="message">Message</label>
-
-      <textarea id="message" name="message" rows="6" required></textarea>
-
+      <div>
+            <label for="email">Votre e-mail</label>
+            <input type="email" id="email" name="replyto" required>
+      </div>
+      <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
       <!-- Champs cachés -->
 
       <input type="hidden" name="_next" value="https://nicolasjouanno.com/">
