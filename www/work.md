@@ -120,39 +120,43 @@ Stack : JavaScript, TypeScript, AngularJS, Vue, StencilJS, Jest, Puppeteer, Play
 
 ### Concepteur Développeur Web — REF SPORT PONTIVY (2016–2019)
 
-Pilotage et développement de projets digitaux :
+Pilotage et développement des projets digitaux de l’entreprise (rôle d’agence interne).
 
-- Applications web SAAS (Node.js, MongoDB, jQuery).
-- Sites e-commerce (Prestashop, Shopify).
-- Intranet & outils métiers.
-- SEO, Analytics, blogs WordPress.
+- Développement d’applications web SaaS (Node.js, MongoDB, jQuery).
+- Conception et maintenance de sites e-commerce (Prestashop, Shopify).
+- Création et évolution d’un intranet et d’outils métiers.
+- Production de supports digitaux et print (graphisme, newsletters, documents commerciaux).
+- Animation des canaux digitaux : réseaux sociaux, blogs WordPress, SEO, analytics.
 
-Missions : 
-- gestion de projet digital,
-- analyse des besoins,
-- prototypage, 
-- développement full-stack, 
-- automatisation, 
-- support utilisateur.
+Missions transverses :
+
+- Gestion de projet digital : coordination des besoins métiers et suivi des livrables.
+- Analyse des besoins et prototypage (mockups, design thinking).
+- Développement full-stack (front & back), automatisations.
+- Support et accompagnement des utilisateurs internes.
 
 ### Entrepreneur - [cyclesportnature.fr](http://cyclesportnature.fr/)  (2013–2016)
 
-Commerce spécialisé indépendant (vente/réparation de vélos).
+Reprise et développement d’un commerce spécialisé indépendant (vente et réparation de vélos)
 
-- Création et pilotage d’un business model combinant boutique physique et e-commerce.
-- Stratégie digitale : acquisition (SEA, SEO, comparateurs), partenariats, newsletters.
-- Management d’équipe (vente, SAV, CRM).
-- Développement plateforme e-commerce & automatisations.
+- Conception et pilotage d’un business model hybride : boutique physique + e-commerce national.
+- Développement et gestion de la plateforme e-commerce (Prestashop) : mise en place technique, intégration produits, automatisations.
+- Définition et exécution de la stratégie digitale : SEO, réseaux sociaux, campagnes SEA (Google Ads, Facebook Ads, comparateurs), newsletters, partenariats.
+- Gestion produit et approvisionnements : choix de la gamme, relations fournisseurs, suivi des ventes et des stocks.
+- Management d’une équipe de 2–3 collaborateurs (vente, SAV, relation client/CRM).
+- Supervision des opérations commerciales et logistiques : organisation des flux, coordination fournisseurs, service client.
 
 ### Responsable Communication & Digital – Twinner Sport (2011 – 2013)
 
-- Élaboration et mise en œuvre de la stratégie de communication en lien avec la direction.
-- Gestion du budget marketing et coordination du plan média multicanal (print, web, événementiel).
-- Pilotage et animation du site e-commerce (gestion du catalogue, mises à jour de contenus, suivi SEO).
-- Animation digitale : newsletters, campagnes en ligne, réseaux sociaux.
+- Élaboration et mise en œuvre de la stratégie de communication et marketing en lien avec la direction (print & digital).
+- Pilotage et animation du site e-commerce en coordination avec l’agence web. (gestion du catalogue, mises à jour de contenus, suivi SEO).
+- Pilotage et animation des canaux digitaux : site vitrine, newsletters, campagnes en ligne, réseaux sociaux.
+- Suivi et analyse des performances marketing et digitales (SEO, Analytics, reporting).
+- Organisation et coordination du plan média et des événements marketing locaux.
 - Maintenance et évolution du site WordPress (mises à jour, intégration de contenus).
+- Création et intégration de contenus visuels et éditoriaux (graphisme, HTML/CSS, newsletters).
+- Encadrement ponctuel de prestataires et partenaires.
 - Management : recrutement, formation et accompagnement de l’équipe.
-- Suivi et analyse des performances marketing et digitales.
 
 ### Webmaster — Twinner Sport (2009–2011)
 
@@ -165,7 +169,6 @@ Commerce spécialisé indépendant (vente/réparation de vélos).
 ### Cycliste professionnel — Bretagne Schuller (2008–2010)
 
 [Découvrez mon palmarès sportif](/results.html)
-
 ### Vendeur — Twinner Sport (2007–2008)
 
 ## Projets personnels
