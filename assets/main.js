@@ -31,17 +31,17 @@ const getClasslistValues = (classlist) => Array.from(Array.from(classlist).value
 const renderIcon = (element) => {
   const icon = getClasslistValues(element.classList)
     .flatMap(value => value.split('--'))
-    .find(value => iconsName.includes(value))
+    .find(value => iconsName.includes(value));
   if (!icon) { throw new Error(`icon - cannot find associate icon for ${getClasslistValues(element.classList).join(',')}`) }
   element.innerHTML = icons[icon] || '';
 }
 
 const setup = async () => {
-    console.log('run')
-
   Array
     .from(document.querySelectorAll('.icon'))
-    .forEach(renderIcon)
+    .forEach(renderIcon);
 }
 
-document.addEventListener('DOMContentLoaded', setup)
+document.addEventListener('DOMContentLoaded', setup);
+
+setup();
