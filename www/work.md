@@ -7,85 +7,25 @@ redirect_from:
 layout: page
 title: Découvrir mon parcours et mes projets
 description: Développeur frontend et créateur d'interfaces qui plaisent a vos utilisateurs.
-technologies:
-  - name: Javascript
-    url:
-    icon: icon icon--js
-    description: Language de script
-    profile: true
-  - name: Typescript
-    url:
-    icon: icon icon--ts
-    description: Langage de programmation
-    profile: true
-  - name: Rust
-    url:
-    icon: icon icon--rust
-    description: Langage de programmation
-    profile: true
-  - name: VueJS
-    url:
-    icon: icon icon--vuejs
-    description: Librairie Javascript
-    profile: true
-  - name: ReactJS
-    url:
-    icon: icon icon--react
-    description: Librairie Javascript
-    profile: true
-  - name: NODE JS
-    url:
-    icon: icon icon--node
-    description: Framework Javascript
-    profile: false
-  - name: HTML 5
-    url:
-    icon: icon icon--html5
-    description: HyperText Markup Language
-    profile: true
-  - name: CSS 3
-    url:
-    icon: icon icon--css3
-    description: Feuilles de style
-    profile: true
-  - name: SASS
-    url:
-    icon: icon icon--sass
-    description: Feuilles de style
-    profile: true
-  - name: GIT & GITHUB
-    url:
-    icon: icon icon--github
-    description: Gestion de projet / versionning
-    profile: false
-  - name: AWS
-    url:
-    icon: icon icon--aws
-    description: Hébergement
-    profile: true
-  - name: JIRA
-    url:
-    icon: icon icon--jira
-    description: Gestion de projet
-    profile: false
-  - name: FIGMA
-    url:
-    icon: icon icon--figma
-    description: Design / Wireframe
-    profile: false
+icons:
+  - "js"
+  - "ts"
+  - "vuejs"
+  - "react"
+  - "html5"
+  - "css3"
+  - "sass"
 ---
 
 <!-- technologies -->
 <ul class="c-icons-list">
-  {% for technologie in page.technologies limit:10 %} {% if
-  technologie.profile == true %}
+  {% for icon in page.icons %}
 
   <li class="c-icons-list__element">
-    <i class="{{technologie.icon}} icon--x3 "></i>
+    <i class="icon icon--{{icon}} icon--x3 "></i>
   </li>
 
-{% endif %} {% endfor %}
-
+  {% endfor %}
 </ul>
 
 # Nicolas Jouanno — Développeur Frontend & Sportif Outdoor
