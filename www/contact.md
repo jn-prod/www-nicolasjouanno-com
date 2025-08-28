@@ -16,7 +16,7 @@ Une question, une idée, ou simplement envie d’échanger ?
 <form action="https://formsubmit.co/me@nicolasjouanno.com" method="POST">
 
       <!-- Champs visibles -->
-      <p>Tous les champs sont obligatoire</p>
+      <p>Tous les champs sont obligatoires</p>
 
       <label for="name">Nom</label>
 
