@@ -21,4 +21,16 @@ layout: default
   </ol>
 </nav>
 
+{% if page.icons %}
+<ul class="c-icons-list">
+  {% for icon in page.icons %}
+
+  <li class="c-icons-list__element">
+    <i class="icon icon--{{icon}} icon--x3 "></i>
+  </li>
+
+  {% endfor %}
+</ul>
+{% endif %}
+
 {{ content }}
