@@ -11,8 +11,9 @@ icons:
   - js
   - ts
   - vuejs
-  - react
   - sass
+  - stencil
+aliases:
 ---
 
 # Nicolas Jouanno — Développeur Frontend & Sportif Outdoor
