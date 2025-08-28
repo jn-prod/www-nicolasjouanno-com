@@ -8,13 +8,11 @@ layout: page
 title: Découvrir mon parcours et mes projets
 description: Développeur frontend et créateur d'interfaces qui plaisent a vos utilisateurs.
 icons:
-  - "js"
-  - "ts"
-  - "vuejs"
-  - "react"
-  - "html5"
-  - "css3"
-  - "sass"
+  - js
+  - ts
+  - vuejs
+  - react
+  - sass
 ---
 
 # Nicolas Jouanno — Développeur Frontend & Sportif Outdoor
