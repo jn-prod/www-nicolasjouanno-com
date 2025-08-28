@@ -17,17 +17,6 @@ icons:
   - "sass"
 ---
 
-<!-- technologies -->
-<ul class="c-icons-list">
-  {% for icon in page.icons %}
-
-  <li class="c-icons-list__element">
-    <i class="icon icon--{{icon}} icon--x3 "></i>
-  </li>
-
-  {% endfor %}
-</ul>
-
 # Nicolas Jouanno — Développeur Frontend & Sportif Outdoor
 
 Je suis développeur frontend spécialisé dans les design systems, l’accessibilité et les architectures modernes (Web Composants, micro-frontends, Jamstack).
