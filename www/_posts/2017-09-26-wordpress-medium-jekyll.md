@@ -1,6 +1,7 @@
 ---
 redirect_from:
   - /de-wordpress-a-medium-les-cinq-raisons-de-la-migration.html
+  - /experience/tech/2017/09/26/wordpress-medium-jekyll.html
 layout: post
 title: Wordpress vs Medium
 images:
