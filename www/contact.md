@@ -13,7 +13,7 @@ Une question, une idée, ou simplement envie d’échanger ?
 
 Écrivez-moi via ce formulaire, je réponds toujours avec plaisir.
 
-<form action="https://formsubmit.co/me@nicolasjouanno.com" method="POST">
+<form action="https://formsubmit.co/674587a4dfca39e2907b37e886ff93ad" method="POST">
 
       <!-- Champs visibles -->
       <p>Tous les champs sont obligatoires</p>
