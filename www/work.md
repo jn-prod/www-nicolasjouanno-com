@@ -4,6 +4,8 @@ redirect_from:
   - /studio.html
   - /devis.html
   - /portfolio.html
+  - /portfolio/project/gael-le-bellec.html
+  - /portfolio/project/breizhtraining.html
 layout: page
 title: Découvrir mon parcours et mes projets
 description: Développeur frontend et créateur d'interfaces qui plaisent a vos utilisateurs.
