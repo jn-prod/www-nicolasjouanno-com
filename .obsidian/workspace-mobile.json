@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "follow.md",
+                "file": "www/follow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -179,7 +179,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "follow.md",
+            "file": "www/follow.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -203,10 +203,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "44a48c39cd9106cb",
+  "active": "467161e2017e7d2c",
   "lastOpenFiles": [
     "www/work.md",
-    "follow.md",
+    "www/follow.md",
     "www/about.md",
     "www/_posts/2017-02-12-entraînement-5-points-pour-progresser-physiquement-en-vtt.md",
     "www/_posts/2014-08-10-pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.md",
