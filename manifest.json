@@ -1,0 +1,21 @@
+{
+  "name": "Nicolas Jouanno Daniel",
+  "short_name": "byNicolasJD",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "Site personnel de Nicolas Jouanno — développeur frontend, sportif outdoor, vanlife & minimalisme digital.",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
