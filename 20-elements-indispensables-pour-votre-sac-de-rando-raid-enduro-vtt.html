@@ -607,6 +607,7 @@
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
+    <!-- disqus --> 
     
     <script id="dsq-count-scr" src="//nicolasjouanno-com.disqus.com/count.js" async></script>
     <script>
@@ -626,6 +627,47 @@
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+    <!-- webmentions --> 
+    
+    <script>
+      async function loadWebmentions() {
+        const target = "https://nicolasjouanno.com/20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html";
+        const api = `https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(target)}`;
+    
+        try {
+          const response = await fetch(api);
+          const data = await response.json();
+    
+          const container = document.getElementById("webmentions-list");
+          container.innerHTML = "";
+    
+          if (!data.children || data.children.length === 0) {
+            container.innerHTML = "<p>Aucune mention reçue pour le moment.</p>";
+            return;
+          }
+    
+          const list = document.createElement("ul");
+          data.children.forEach((mention) => {
+            const li = document.createElement("li");
+            const author = mention.author?.name || "Quelqu’un";
+            const url = mention.url || "#";
+            const content = mention.content?.text || "(mention sans texte)";
+    
+            li.innerHTML = `<strong>${author}</strong> a mentionné cet article : 
+              <a href="${url}" target="_blank">${content}</a>`;
+            list.appendChild(li);
+          });
+    
+          container.appendChild(list);
+        } catch (err) {
+          console.error("Erreur chargement Webmentions:", err);
+        }
+      }
+    
+      loadWebmentions();
+    </script>
     
   </body>
 </html>
