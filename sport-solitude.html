@@ -332,7 +332,39 @@
 
 <p>La solitude, c’est un rendez-vous avec vous-même. Face à vos questions, vos peurs … C’est une des plus grandes chances qu’il est donné aux sportifs qui savent s’attribuer ce petit moment hors du temps. Ceux qui savent en tirer une force là où elle peut devenir une faiblesse. Cette coupure dans notre quotidien, cette chance d’évasion qu’on nous promet à chaque coin de rue. Alors, provoquez-le, ne ratez pas ce rendez pour quelque raison que ce soit et vous en sortirez plus fort !</p>
 </div>
-  <div id="disqus_thread"></div>
+  
+  <!-- webmentions --> 
+  <section class="c-webmentions">
+    <h3>💬 Mentions & réactions</h3>
+    <p>
+      Si vous avez écrit une réponse ou mentionné cet article sur votre propre site,
+      vous pouvez le poster ici via <a href="https://indieweb.org/Webmention">Webmention</a>.
+    </p>
+  
+    <form
+      action="https://webmention.io/nicolasjouanno.com/webmention"
+      method="post"
+      class="c-webmentions__form"
+    >
+      <label for="source">URL de votre page :</label>
+      <input
+        id="source"
+        name="source"
+        type="url"
+        placeholder="https://exemple.com/ma-reponse"
+        required
+      />
+      <input type="hidden" name="target" value="https://nicolasjouanno.com/sport-solitude.html" />
+      <button type="submit" class="c-button">Envoyer</button>
+    </form>
+  
+    <div id="webmentions-list">
+      <p>Chargement des réactions…</p>
+    </div>
+  </section>
+  
+  <!-- disqus --> 
+  <section id="disqus_thread"></section>
 </article>
 
 <!-- End Article

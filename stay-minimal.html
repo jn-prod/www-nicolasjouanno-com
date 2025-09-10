@@ -436,7 +436,39 @@
 
 <p>Finalement, growth hacking ou product management, pour moi c’est le même combat, les deux doivent permettre une croissance exponentielle de votre produit. Les deux touche au design, au marketing et la tech. Les deux doivent être scalable. Les deux doivent parler à vos utilisateurs pour synchroniser le produit autour de leurs besoins. Alors garder les choses simples et concentrez-vous sur le produit.</p>
 </div>
-  <div id="disqus_thread"></div>
+  
+  <!-- webmentions --> 
+  <section class="c-webmentions">
+    <h3>💬 Mentions & réactions</h3>
+    <p>
+      Si vous avez écrit une réponse ou mentionné cet article sur votre propre site,
+      vous pouvez le poster ici via <a href="https://indieweb.org/Webmention">Webmention</a>.
+    </p>
+  
+    <form
+      action="https://webmention.io/nicolasjouanno.com/webmention"
+      method="post"
+      class="c-webmentions__form"
+    >
+      <label for="source">URL de votre page :</label>
+      <input
+        id="source"
+        name="source"
+        type="url"
+        placeholder="https://exemple.com/ma-reponse"
+        required
+      />
+      <input type="hidden" name="target" value="https://nicolasjouanno.com/stay-minimal.html" />
+      <button type="submit" class="c-button">Envoyer</button>
+    </form>
+  
+    <div id="webmentions-list">
+      <p>Chargement des réactions…</p>
+    </div>
+  </section>
+  
+  <!-- disqus --> 
+  <section id="disqus_thread"></section>
 </article>
 
 <!-- End Article

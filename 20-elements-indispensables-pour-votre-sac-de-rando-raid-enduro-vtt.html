@@ -548,7 +548,39 @@
 
 <p>S’il y a une chance que vous ne serez pas à la maison avant la nuit, une petite lumière, juste assez lumineux pour éclairer votre chemin, vous mènera en toute sécurité à la maison.</p>
 </div>
-  <div id="disqus_thread"></div>
+  
+  <!-- webmentions --> 
+  <section class="c-webmentions">
+    <h3>💬 Mentions & réactions</h3>
+    <p>
+      Si vous avez écrit une réponse ou mentionné cet article sur votre propre site,
+      vous pouvez le poster ici via <a href="https://indieweb.org/Webmention">Webmention</a>.
+    </p>
+  
+    <form
+      action="https://webmention.io/nicolasjouanno.com/webmention"
+      method="post"
+      class="c-webmentions__form"
+    >
+      <label for="source">URL de votre page :</label>
+      <input
+        id="source"
+        name="source"
+        type="url"
+        placeholder="https://exemple.com/ma-reponse"
+        required
+      />
+      <input type="hidden" name="target" value="https://nicolasjouanno.com/20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html" />
+      <button type="submit" class="c-button">Envoyer</button>
+    </form>
+  
+    <div id="webmentions-list">
+      <p>Chargement des réactions…</p>
+    </div>
+  </section>
+  
+  <!-- disqus --> 
+  <section id="disqus_thread"></section>
 </article>
 
 <!-- End Article
