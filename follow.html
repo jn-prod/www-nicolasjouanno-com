@@ -244,50 +244,109 @@
 Tout se passe ici, sur mon site.<br />
 Si vous souhaitez rester connecté, plusieurs options simples et durables sont disponibles :</p>
 
+<h2 id="-par-email-recommandé">📧 Par email (recommandé)</h2>
+
+<p>Le plus pratique : recevez mes nouveaux articles directement dans votre boîte mail.<br />
+Service automatique basé sur mon flux RSS, sans inscription complexe.</p>
+
+<p>➡️ <a href="https://blogtrottr.com/?subscribe=https://nicolasjouanno.com/feed.xml">S’abonner par email</a></p>
+
 <h2 id="-flux-rss">📡 Flux RSS</h2>
+
 <p>Le moyen le plus simple et le plus universel.<br />
-Ajoutez mon flux RSS à votre lecteur favori pour recevoir mes publications en temps réel.</p>
+Ajoutez mon flux RSS à votre lecteur favori (Feedly, NetNewsWire, Inoreader…).</p>
 
 <p>➡️ <a href="/feed.xml">S’abonner au flux RSS</a></p>
 
 <!-- TODO: mettre en place la génération JSON Feed
 ## 📝 JSON Feed
 Une alternative moderne au RSS, lisible par certains lecteurs.  
-➡️ [S’abonner en JSON Feed](/feed.json)  
+➡️ [S'abonner en JSON Feed](/feed.json)  
  -->
 
 <!-- TODO: générer un flux ICS
 ## 📅 Flux Calendrier (ICS)
 Idéal si vous voulez suivre mes sorties, voyages ou événements.  
-Ajoutez le flux à votre application d’agenda (Google Calendar, iCal, Outlook…).  
+Ajoutez le flux à votre application d'agenda (Google Calendar, iCal, Outlook…).  
 
 ➡️ [Ajouter à mon agenda (ICS)](/feed.ics)  
  -->
 
-<h2 id="-raccourci-mobile">📱 Raccourci mobile</h2>
-<p>Vous pouvez aussi ajouter mon site directement à votre écran d’accueil pour l’ouvrir comme une application.</p>
+<h2 id="-ajouter-aux-favoris">📌 Ajouter aux favoris</h2>
 
-<p>👉 Sur votre navigateur mobile :</p>
+<p>Tous les navigateurs permettent d’ajouter un site en favoris depuis leur menu principal.<br />
+C’est une manière simple et universelle de garder ce site à portée de clic.</p>
+
+<h2 id="-application-mobile">📱 Application mobile</h2>
+
+<p>Ajoutez mon site directement à votre écran d’accueil pour l’ouvrir comme une application native.</p>
+
+<p>👉 <strong>Sur votre navigateur mobile :</strong></p>
+
 <ul>
-  <li><strong>iOS (Safari)</strong> : bouton <em>Partager</em> → <em>Ajouter à l’écran d’accueil</em>.</li>
-  <li><strong>Android (Chrome/Firefox)</strong> : menu ⋮ → <em>Ajouter à l’écran d’accueil</em>.</li>
+  <li><strong>iOS (Safari)</strong> : bouton <em>Partager</em> → <em>Ajouter à l’écran d’accueil</em></li>
+  <li><strong>Android (Chrome/Firefox)</strong> : menu ⋮ → <em>Ajouter à l’écran d’accueil</em></li>
+  <li><strong>Bureau</strong> : favoris ou raccourci sur le bureau</li>
 </ul>
 
+<h2 id="-notifications-optionnel">🔔 Notifications (optionnel)</h2>
+
+<p>Pour les plus connectés, activez les notifications push web :</p>
+
+<p><button id="subscribe-notifications" style="padding: 8px 16px; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer;">
+  🔔 Activer les notifications
+</button></p>
+
+<script>
+document.getElementById('subscribe-notifications').addEventListener('click', function() {
+  if ('Notification' in window && 'serviceWorker' in navigator) {
+    Notification.requestPermission().then(permission => {
+      if (permission === 'granted') {
+        this.textContent = '✅ Notifications activées';
+        this.disabled = true;
+      } else {
+        this.textContent = '❌ Permissions refusées';
+      }
+    });
+  } else {
+    this.textContent = '❌ Non supporté par ce navigateur';
+  }
+});
+</script>
+
 <h2 id="-interactions">💬 Interactions</h2>
+
 <p>Je construis une expérience simple et respectueuse de vos données.<br />
-Pour l’instant, vous pouvez :</p>
+Vous pouvez maintenant :</p>
+
 <ul>
-  <li>Partager les publications depuis la timeline,</li>
-  <li>M’envoyer un message via le <a href="/contact.html">formulaire de contact</a>.</li>
+  <li><strong>Commenter</strong> les articles (système Disqus intégré)</li>
+  <li><strong>Partager</strong> les publications depuis la timeline</li>
+  <li><strong>Réagir</strong> avec des likes sur les articles</li>
+  <li>M’envoyer un message via le <a href="/contact.html">formulaire de contact</a></li>
 </ul>
 
 <!-- TODO: ajouter WebSub pour notifications automatiques -->
+
 <!-- TODO: envisager Webmention pour réponses/likes cross-site -->
 
 <h2 id="-esprit-slow-web">🌱 Esprit slow web</h2>
+
 <p>Ici, pas d’algorithme, pas de pub, pas de suivi intrusif.<br />
-Vous choisissez comment et quand suivre mes publications.<br />
-C’est une approche minimaliste, durable et indépendante des plateformes sociales.</p>
+<strong>Vous choisissez comment et quand suivre mes publications.</strong></p>
+
+<p>C’est une approche minimaliste, durable et indépendante des plateformes sociales.<br />
+Votre attention n’est pas un produit, c’est un cadeau que je respecte.</p>
+
+<hr />
+
+<h2 id="-besoin-daide-">❓ Besoin d’aide ?</h2>
+
+<ul>
+  <li><strong>RSS, c’est quoi ?</strong> → <a href="https://aboutfeeds.com/">Guide débutant RSS</a></li>
+  <li><strong>Lecteurs RSS que j’utilise</strong> → <a href="https://feedly.com">Feedly</a> (web,mobile)</li>
+  <li><strong>Questions ?</strong> → <a href="/contact.html">Me contacter</a></li>
+</ul>
 
 </main>
 
