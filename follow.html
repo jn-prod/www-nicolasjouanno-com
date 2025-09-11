@@ -184,8 +184,9 @@ Ajoutez mon flux RSS à votre lecteur favori (Feedly, NetNewsWire, Inoreader…)
 <p>➡️ <a href="/feed.xml">S’abonner au flux RSS</a></p>
 
 <h2 id="-json-feed">📝 JSON Feed</h2>
-<p>Une alternative moderne au RSS, lisible par certains lecteurs.<br />
-➡️ <a href="/feed.json">S’abonner en JSON Feed</a></p>
+<p>Une alternative moderne au RSS, lisible par certains lecteurs.</p>
+
+<p>➡️ <a href="/feed.json">S’abonner en JSON Feed</a></p>
 
 <!-- TODO: générer un flux ICS
 ## 📅 Flux Calendrier (ICS)
@@ -217,25 +218,8 @@ C’est une manière simple et universelle de garder ce site à portée de clic.
 <p>Pour les plus connectés, activez les notifications push web :</p>
 
 <p><button id="subscribe-notifications" class="c-button c-button--dark">
-  🔔 Activer les notifications
+  Activer les notifications
 </button></p>
-
-<script>
-document.getElementById('subscribe-notifications').addEventListener('click', function() {
-  if ('Notification' in window && 'serviceWorker' in navigator) {
-    Notification.requestPermission().then(permission => {
-      if (permission === 'granted') {
-        this.textContent = '✅ Notifications activées';
-        this.disabled = true;
-      } else {
-        this.textContent = '❌ Permissions refusées';
-      }
-    });
-  } else {
-    this.textContent = '❌ Non supporté par ce navigateur';
-  }
-});
-</script>
 
 <h2 id="-partager-mes-articles">📤 Partager mes articles</h2>
 
@@ -287,6 +271,25 @@ Votre attention n’est pas un produit, c’est un cadeau que je respecte.</p>
   <li><strong>Lecteurs RSS que j’utilise</strong> → <a href="https://feedly.com">Feedly</a> (web,mobile)</li>
   <li><strong>Questions ?</strong> → <a href="/contact.html">Me contacter</a></li>
 </ul>
+
+<script>
+// browser notification
+document.getElementById('subscribe-notifications').addEventListener('click', function() {
+  if ('Notification' in window && 'serviceWorker' in navigator) {
+    Notification.requestPermission().then(permission => {
+      if (permission === 'granted') {
+        this.textContent = '✅ Notifications activées';
+        this.disabled = true;
+      } else {
+        this.textContent = '❌ Permissions refusées';
+      }
+    });
+  } else {
+    this.textContent = '❌ Non supporté par ce navigateur';
+  }
+});
+</script>
+
 
 </main>
 
