@@ -1,3 +1,3 @@
 User-agent : *
 Allow : /
-Sitemap: https://nicolasjouanno.com/sitemap.xml
+Sitemap: https://www.nicolasjouanno.com/sitemap.xml
