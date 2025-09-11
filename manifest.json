@@ -1,12 +1,12 @@
 {
-  "name": "{{ site.author.name }}",
-  "short_name": "{{ site.author.handle }}",
+  "name": "Nicolas Jouanno Daniel",
+  "short_name": "@byNicolasJD",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#ffffff",
   "theme_color": "#000000",
-  "description": "{{ site.author.bio }}",
+  "description": "Site personnel de Nicolas Jouanno — développeur frontend, sportif outdoor, vanlife & minimalisme digital.",
   "lang": "fr",
   "scope": "/",
   "categories": ["lifestyle", "sports", "technology"],
@@ -94,6 +94,20 @@
           "sizes": "192x192"
         }
       ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshots/desktop-wide.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/assets/screenshots/mobile-narrow.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
     }
   ]
 }
