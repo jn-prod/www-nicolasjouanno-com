@@ -11,7 +11,7 @@ tags:
 images:
 ---
 
-Depuis deux ans, je participe à Paris-Web avec mon collègue Simon Duhem grâce à notre employeur MGDIS. Cette année, l’histoire est un peu différente : nous ne venons pas seulement écouter, mais aussi parler.
+Depuis deux ans, je participe à [Paris-Web](/events/paris-web-2025.html) avec mon collègue Simon Duhem grâce à notre employeur MGDIS. Cette année, l’histoire est un peu différente : nous ne venons pas seulement écouter, mais aussi parler.
 
 Nous allons partager notre expérience autour des web-components et de l’accessibilité : comment construire des interfaces modernes, réutilisables, et inclusives.
 

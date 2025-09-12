@@ -1,0 +1,35 @@
+---
+layout: null
+permalink: /events.json
+---
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Agenda — {{ site.title | escape }}",
+  "home_page_url": "{{ site.url }}/agenda/",
+  "feed_url": "{{ site.url }}/events.json",
+  "description": "Événements et participations de {{ site.author.name }}",
+  "language": "fr",
+  "author": {
+    "name": "{{ site.author.name | escape }}",
+    "url": "{{ site.url }}",
+    "avatar": "{{ site.url }}/{{ site.author.avatar }}"
+  },
+  "items": [
+    {% assign events_sorted = site.events | sort: "start" %}
+    {% for event in events_sorted %}
+    {
+      "id": "{{ site.url }}{{ event.url }}",
+      "url": "{{ site.url }}{{ event.url }}",
+      "title": {{ event.title | jsonify }},
+      "content_text": {{ event.description | jsonify }},
+      "date_published": "{{ event.start | date_to_xmlschema }}",
+      {% if event.end %}
+      "date_modified": "{{ event.end | date_to_xmlschema }}",
+      {% endif %}
+      "tags": [
+        {% if event.location %}{{ event.location | jsonify }}{% endif %}
+      ]
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

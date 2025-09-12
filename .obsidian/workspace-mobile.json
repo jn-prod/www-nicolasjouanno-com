@@ -203,8 +203,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "467161e2017e7d2c",
+  "active": "44a48c39cd9106cb",
   "lastOpenFiles": [
+    "www/manifest.json",
     "www/work.md",
     "www/follow.md",
     "www/about.md",
@@ -231,7 +232,6 @@
     "www/_posts/2018-11-23-competition-versus-entrainement.md",
     "www/_posts/2018-10-12-sport-solitude.md",
     "www/_posts/2018-09-14-stay-minimal.md",
-    "www/_posts/2018-05-16-les-bienfaits-de-linbox-0.md",
     "configs/obsidian/templates",
     "www/_drafts"
   ]

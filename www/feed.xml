@@ -2,30 +2,44 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
+    <language>fr</language>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.headline | xml_escape }}</description>
     <link>{{ site.url }}/</link>
     <atom:link href="{{ "/feed.xml" | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <sy:updatePeriod>daily</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v{{ jekyll.version }}</generator>
+
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>
-            {% if post.images.size > 0 %}
-                <![CDATA[<a href="{{ site.url }}{{ post.url }}" target="_blank"><img src="{{ site.url }}/{{ post.images[0] | cdata_escape }}" alt="{{ post.title | xml_escape }}"/></a>]]>
-            {% endif %}
-
-            {{ post.content | xml_escape }}
-
-            <![CDATA[<p>Bonne route !</p><p>Initialement publié sur <a href="{{ site.url }}{{ post.url }}" target="_blank">nicolasjouanno.com</a></p>]]>
-        </description>
+        <description><![CDATA[
+          {% if post.images.size > 0 %}
+            <a href="{{ site.url }}{{ post.url }}" target="_blank">
+              <img src="{{ site.url }}{{ post.images[0] }}" alt="{{ post.title | xml_escape }}"/>
+            </a>
+          {% endif %}
+          {{ post.excerpt | strip_html | truncatewords: 50 }}
+          <p>Initialement publié sur <a href="{{ site.url }}{{ post.url }}" target="_blank">nicolasjouanno.com</a></p>
+        ]]></description>
+        <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+        <dc:creator>{{ site.author.name | xml_escape }}</dc:creator>
+        {% if post.images.size > 0 %}
+        <enclosure url="{{ site.url }}{{ post.images[0] }}" type="image/*"/>
+        {% endif %}
         {% for tag in post.tags %}
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}

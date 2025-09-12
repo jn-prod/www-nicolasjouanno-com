@@ -35,6 +35,39 @@ layout: page
 
   <!-- Post Content -->
   <div itemprop="articleBody">{{content}}</div>
+  
+  <!-- webmentions --> 
+  <section class="c-webmentions">
+    <h3>💬 Mentions & réactions</h3>
+    <p>
+      Si vous avez écrit une réponse ou mentionné cet article sur votre propre site,
+      vous pouvez le poster ici via <a href="https://indieweb.org/Webmention" rel="nofollow">Webmention</a>.
+    </p>
+  
+    <form
+      action="{{ site.author.webmention }}"
+      method="post"
+      class="c-webmentions__form"
+    >
+      <label for="source">URL de votre page :</label>
+      <input
+        id="source"
+        name="source"
+        type="url"
+        placeholder="https://exemple.com/ma-reponse"
+        required
+      />
+      <input type="hidden" name="target" value="{{ page.url | absolute_url }}" />
+      <button type="submit" class="c-button c-button--dark">Envoyer</button>
+    </form>
+  
+    <div id="webmentions-list">
+      <p>Chargement des réactions…</p>
+    </div>
+  </section>
+  
+  <!-- disqus --> 
+  <section id="disqus_thread"></section>
 </article>
 
 <!-- End Article

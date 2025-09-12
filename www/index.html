@@ -13,6 +13,7 @@ redirect_from:
 title: "Développeur front-end et sportif ourdoor"
 layout: default
 description: "Développeur front-end et sportif ourdoor. Amateur de nature, de photographie et de vie simple en famille."
+disqus: true
 ---
 
 <!-- signature -->
@@ -33,13 +34,27 @@ description: "Développeur front-end et sportif ourdoor. Amateur de nature, de p
   </article>
 </aside>
 
+{% assign upcoming_events = site.events | where_exp: "event", "event.start >= site.time" | sort: "start" | limit: 1 %}
+
+<section class="c-section c-section--compact c-section--primary">
+  <p>
+  {% if upcoming_events.size > 0 %}
+    {% assign next_event = upcoming_events[0] %}
+      📅 Prochain évènement: <span>{{ next_event.start | date: "%d %B %Y" }}</span>
+      <a href="{{ next_event.url }}">{{ next_event.title }}</a>
+      <span>{{ next_event.location }}</span>.
+    {% endif %}
+    <a href="/agenda/" class="c-button c-button--light">Voir l'agenda</a>
+  </p>
+</section>
+
 <section class="c-section c-section--compact">
   <p>
     <a href="{{ site.url }}/work.html">Développeur Frontend</a> @MGDIS et
     ancien <a href="{{ site.url }}/results.html">cycliste professionnel</a>,
     passionné de sports outdoor. Amateur de voyages en van, de photographie et
     de minimalisme, je partage une vie simple tournée vers la nature et la
-    famille. Basé à Pontivy, Bretagne.
+    famille. Je publie en ligne depuis 2008. Basé à Pontivy, Bretagne.
   </p>
 </section>
 
@@ -47,7 +62,7 @@ description: "Développeur front-end et sportif ourdoor. Amateur de nature, de p
 ================================================== -->
 
 <section class="c-section">
-  <h1>Posts</h1>
+  <h1 id="posts">Posts</h1>
 
   <ul class="c-section__post-list">
     {% for post in site.posts %}
