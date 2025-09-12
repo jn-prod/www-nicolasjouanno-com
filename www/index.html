@@ -36,7 +36,7 @@ disqus: true
 
 {% assign upcoming_events = site.events | where_exp: "event", "event.start >= site.time" | sort: "start" | limit: 1 %}
 
-<section class="c-section c-section--compact c-section--primary">
+<section class="c-section c-section--compact c-section--primary u-text--center">
   <p>
   {% if upcoming_events.size > 0 %}
     {% assign next_event = upcoming_events[0] %}
