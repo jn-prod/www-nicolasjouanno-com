@@ -4,7 +4,9 @@ $variants: 'primary', 'secondary', 'dark', 'light';
   @each $variant in $variants {
     &.c-section--#{$variant} {
       background-color: var(--color-#{$variant});
-      color: var(--color-#{$variant}-with);
+      &, a:not(.c-button) {
+        color: var(--color-#{$variant}-with);
+      }
     }
   }
 }

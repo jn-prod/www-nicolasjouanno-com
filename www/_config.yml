@@ -1,33 +1,20 @@
 # Site Settings
 title: "Nicolas Jouanno"
 headline: "Développeur font-end @mgdis.<br>Design system, a11y, éco-conception, JAM stack."
-url: "https://nicolasjouanno.com"
-
-# SEO Related
-meta_description: "Moi c'est Nicolas Jouanno, sportif et créateur digital. Avec vous, je partage chaque défi et développe de nouveaux projets."
-meta_keywords:
-  - "développeur web"
-  - "développeur full-stack"
-  - "développeur full-stack JS"
-  - "développeur NodeJS"
-  - "product design"
-  - "startup"
-  - "nicolas jouanno"
-  - "web-developper"
-  - "UX / UI Design"
-  - "design thinking"
+url: "https://www.nicolasjouanno.com"
 
 # author
 author:
   name: "Nicolas JOUANNO DANIEL"
   bio: "Développeur front-end JS & ex-cycliste professionnel - Quand je ne suis pas avec ma famille, je passe mon temps à faire du sport, écrire, coder, apprendre ..."
   location: "Pontivy, Bretagne, France"
-  avatar: "/assets/images/profile.jpeg"
+  country: "France"
   email: "pro@nicolasjouanno.com"
   web: "https://nicolasjouanno.com/about.html"
   certifications_folder: "https://drive.google.com/open?id=14JiH6ytQDige_iIOZPUUYq-W38VPaWTo"
 
   # social
+  webmention: "https://webmention.io/www.nicolasjouanno.com/webmention"
   handle: "@bynicolasjd"
   bitbucket:
   codepen:
@@ -38,19 +25,34 @@ author:
   github: "https://github.com/jn-prod"
   gitlab:
   keybase:
-  instagram:
+  instagram: "https://www.instagram.com/bynicolasjd/"
   lastfm:
   linkedin: "https://www.linkedin.com/in/nicolasjouanno/"
   mediumcom: "https://medium.com/@nicolasjouanno"
-  pinterest:
-  soundcloud:
+  pinterest: "https://fr.pinterest.com/nicolasjouanno/"
+  soundcloud: "https://soundcloud.com/nicolasjouanno"
   stackoverflow: # "123456/username" (the last part of your profile   url, e.g. https://stackoverflow.com/users/123456/username)
   steam: # "steamId" (the last part of your profile   url, e.g. https://steamcommunity.com/id/steamId/)
-  strava:
+  strava: "https://www.strava.com/athletes/njouanno"
   substack: "https://bynicolasjd.substack.com/welcome"
   tumblr:
-  twitter:
+  twitter: "https://x.com/byNicolasJD"
+  wikipedia: "https://fr.wikipedia.org/wiki/Nicolas_Jouanno"
   youtube: "https://www.youtube.com/channel/UCcvmBtY40bompka9CkjrmLg"
+
+# collections
+collections:
+  events:
+    output: true
+    permalink: /events/:slug.html
+    sort_by: start
+
+defaults:
+  - scope:
+      path: "_events"
+      type: "events"
+    values:
+      layout: "event"
 
 # Outputting
 lsi: false

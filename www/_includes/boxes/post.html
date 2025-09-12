@@ -62,6 +62,16 @@
         </a>
       </li>
 
+      <li>
+        <a
+          class="c-button"
+          href="{{ post.url | absolute_url }}#disqus_thread"
+          aria-describedby="{{post.slug}}-title"
+         >
+          Commenter
+        </a>
+      </li>
+
       {% for category in post.categories %}
       <li class="c-post-card__tag">#{{ category }}</li>
       {% endfor %}

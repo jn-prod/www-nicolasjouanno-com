@@ -1,0 +1,33 @@
+---
+layout: null
+permalink: /events.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agenda — {{ site.title | xml_escape }}</title>
+    <link>{{ site.url }}/agenda/</link>
+    <description>Événements et participations de {{ site.author.name }}</description>
+    <language>fr</language>
+    <atom:link href="{{ site.url }}/events.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+
+    {% assign events_sorted = site.events | sort: "start" %}
+    {% for event in events_sorted %}
+    <item>
+      <title>{{ event.title | xml_escape }}</title>
+      <link>{{ site.url }}{{ event.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ event.url }}</guid>
+      <description><![CDATA[
+        📅 {{ event.start | date: "%d %B %Y" }}{% if event.end %} → {{ event.end | date: "%d %B %Y" }}{% endif %}<br>
+        📍 {{ event.location }}<br>
+        {{ event.description }}
+      ]]></description>
+      <pubDate>{{ event.start | date_to_rfc822 }}</pubDate>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
