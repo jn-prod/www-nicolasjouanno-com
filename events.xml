@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agenda — Nicolas Jouanno</title>
+    <link>https://www.nicolasjouanno.com/agenda/</link>
+    <description>Événements et participations de Nicolas JOUANNO DANIEL</description>
+    <language>fr</language>
+    <atom:link href="https://www.nicolasjouanno.com/events.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 12 Sep 2025 11:01:55 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Sep 2025 11:01:55 +0000</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+
+    
+    
+    <item>
+      <title>Meetup chez LocService / Sujet WebComponents et l’accessibilité</title>
+      <link>https://www.nicolasjouanno.com/events/meetup-accessibilite.html</link>
+      <guid isPermaLink="true">https://www.nicolasjouanno.com/events/meetup-accessibilite.html</guid>
+      <description><![CDATA[
+        📅 26 August 2025 → 26 August 2025<br>
+        📍 Vannes, France<br>
+        Preview de la conférence sur l’accessibilité et les web components qui sera donnée a Paris-Web.
+      ]]></description>
+      <pubDate>Tue, 26 Aug 2025 18:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Paris Web 2025</title>
+      <link>https://www.nicolasjouanno.com/events/paris-web-2025.html</link>
+      <guid isPermaLink="true">https://www.nicolasjouanno.com/events/paris-web-2025.html</guid>
+      <description><![CDATA[
+        📅 25 September 2025 → 26 September 2025<br>
+        📍 Paris, France<br>
+        Conférence sur l’accessibilité et les web components.
+      ]]></description>
+      <pubDate>Thu, 25 Sep 2025 09:00:00 +0000</pubDate>
+    </item>
+    
+  </channel>
+</rss>

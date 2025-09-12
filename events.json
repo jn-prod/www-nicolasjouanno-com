@@ -1,0 +1,45 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Agenda — Nicolas Jouanno",
+  "home_page_url": "https://www.nicolasjouanno.com/agenda/",
+  "feed_url": "https://www.nicolasjouanno.com/events.json",
+  "description": "Événements et participations de Nicolas JOUANNO DANIEL",
+  "language": "fr",
+  "author": {
+    "name": "Nicolas JOUANNO DANIEL",
+    "url": "https://www.nicolasjouanno.com",
+    "avatar": "https://www.nicolasjouanno.com/"
+  },
+  "items": [
+    
+    
+    {
+      "id": "https://www.nicolasjouanno.com/events/meetup-accessibilite.html",
+      "url": "https://www.nicolasjouanno.com/events/meetup-accessibilite.html",
+      "title": "Meetup chez LocService / Sujet WebComponents et l’accessibilité",
+      "content_text": "Preview de la conférence sur l’accessibilité et les web components qui sera donnée a Paris-Web.",
+      "date_published": "2025-08-26T18:00:00+00:00",
+      
+      "date_modified": "2025-08-26T19:00:00+00:00",
+      
+      "tags": [
+        "Vannes, France"
+      ]
+    },
+    
+    {
+      "id": "https://www.nicolasjouanno.com/events/paris-web-2025.html",
+      "url": "https://www.nicolasjouanno.com/events/paris-web-2025.html",
+      "title": "Paris Web 2025",
+      "content_text": "Conférence sur l’accessibilité et les web components.",
+      "date_published": "2025-09-25T09:00:00+00:00",
+      
+      "date_modified": "2025-09-26T18:00:00+00:00",
+      
+      "tags": [
+        "Paris, France"
+      ]
+    }
+    
+  ]
+}
