@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "www/follow.md",
+                "file": "www/_posts/2025-08-22-paris-web-preview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "follow"
+              "title": "2025-08-22-paris-web-preview"
             }
           }
         ],
@@ -179,7 +179,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "www/follow.md",
+            "file": "www/_posts/2025-08-22-paris-web-preview.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -205,9 +205,11 @@
   },
   "active": "44a48c39cd9106cb",
   "lastOpenFiles": [
+    "www/_events/paris-web-2025.md",
+    "www/_events/2025-08-26-meetup-accessibilite.md",
+    "www/follow.md",
     "www/manifest.json",
     "www/work.md",
-    "www/follow.md",
     "www/about.md",
     "www/_posts/2017-02-12-entraînement-5-points-pour-progresser-physiquement-en-vtt.md",
     "www/_posts/2014-08-10-pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.md",
@@ -231,7 +233,6 @@
     "www/_posts/2018-11-30-velo-boulot-dodo.md",
     "www/_posts/2018-11-23-competition-versus-entrainement.md",
     "www/_posts/2018-10-12-sport-solitude.md",
-    "www/_posts/2018-09-14-stay-minimal.md",
     "configs/obsidian/templates",
     "www/_drafts"
   ]

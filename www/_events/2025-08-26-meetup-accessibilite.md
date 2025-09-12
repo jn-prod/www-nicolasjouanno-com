@@ -7,7 +7,7 @@ description: "Preview de la conférence sur l’accessibilité et les web compon
 link: https://www.meetup.com/fr-FR/theremotetribe/events/309015304/
 ---
 
-Je co-présente avec Simon Duhem un sujet sur les "WebComponents et l’accessibilité", en avance de la conf  Paris Web.
+Je co-présente avec [Simon Duhem](https://www.linkedin.com/in/simonduhem?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) un sujet sur les "WebComponents et l’accessibilité", en avance de la conf  Paris Web.
 Les Web Components (composants web) représentent une avancée dans le développement web moderne, permettant la création de composants réutilisables et encapsulés. Cependant, l’utilisation du Shadow DOM introduit des complexités pour garantir l’accessibilité.
 
 [Plus ici](/events/paris-web-2025.html)
