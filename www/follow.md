@@ -31,7 +31,7 @@ Une alternative moderne au RSS, lisible par certains lecteurs.
 
 ## 📅 Flux Calendrier (ICS)
 
-Idéal si vous voulez suivre mes sorties, voyages ou événements.  
+Idéal si vous voulez suivre mes sorties, voyages ou événements. [Voir l’agenda](/agenda/)
 Ajoutez le flux à votre application d'agenda (Google Calendar, iCal, Outlook…).  
 
 ➡️ [Ajouter à mon agenda (ICS)](/agenda.ics)  

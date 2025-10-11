@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "www/_posts/2025-09-17-Retrouver-le-fil.md",
+                "file": "www/follow.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-17-Retrouver-le-fil"
+              "title": "follow"
             }
           }
         ],
@@ -205,8 +205,8 @@
   },
   "active": "44a48c39cd9106cb",
   "lastOpenFiles": [
-    "www/_posts/2025-08-22-paris-web-preview.md",
     "www/_posts/2025-09-17-Retrouver-le-fil.md",
+    "www/_posts/2025-08-22-paris-web-preview.md",
     "www/_events/paris-web-2025.md",
     "www/_events/2025-08-26-meetup-accessibilite.md",
     "www/follow.md",
