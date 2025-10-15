@@ -36,20 +36,19 @@ disqus: true
 
 {% assign upcoming_events = site.events | where_exp: "event", "event.start >= site.time" | sort: "start" | limit: 1 %}
 
+{% if upcoming_events.size > 0 %}
 <section class="c-section c-section--compact c-section--primary u-text--center">
-  
-  {% if upcoming_events.size > 0 %}
   <p>
   {% assign next_event = upcoming_events[0] %}
       📅 Prochain évènement: <span>{{ next_event.start | date: "%d %B %Y" }}</span>
       <a href="{{ next_event.url }}">{{ next_event.title }}</a>
       <span>{{ next_event.location }}</span>.
   </p>
-  {% endif %}
   <p>
     <a href="/agenda/" class="c-button c-button--light">Voir l'agenda</a>
   </p>
 </section>
+{% endif %}
 
 <section class="c-section c-section--compact">
   <p>
