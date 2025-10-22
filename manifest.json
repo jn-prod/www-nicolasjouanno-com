@@ -75,7 +75,7 @@
       "name": "À propos",
       "short_name": "About",
       "description": "En savoir plus sur Nicolas",
-      "url": "/about.html",
+      "url": "/#about",
       "icons": [
         {
           "src": "/assets/icons/shortcut-about.png",
