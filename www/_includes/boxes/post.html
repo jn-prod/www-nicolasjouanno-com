@@ -20,11 +20,11 @@
     <div class="c-post-card__author">
       {% include /boxes/author.html author=author post=post %}
 
-      <h2 class="c-post-card__header-title" id="{{post.slug}}-title">
+      <h3 class="c-post-card__header-title" id="{{post.slug}}-title">
         <a class="c-post-card__post-link" href="{{ post.url | absolute_url }}"
           >{{ post.title }}</a
         >
-      </h2>
+      </h3>
       <meta itemprop="url" content="{{ site.url}}{{post.url }}" />
     </div>
   </header>
