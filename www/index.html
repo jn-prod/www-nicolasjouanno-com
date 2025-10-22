@@ -9,6 +9,7 @@ redirect_from:
   - "/academy.html"
   - "/advertise/terms.html"
   - "/advertise.html"
+  - "/about.html"
   - "/categories/sport.html"
 title: "Développeur front-end et sportif ourdoor"
 layout: default
@@ -38,6 +39,7 @@ disqus: true
 
 {% if upcoming_events.size > 0 %}
 <section class="c-section c-section--compact c-section--primary u-text--center">
+  <h1 id="about"><span class="u-visually-hidden">{{ site.title }}, </span>{{ site.headline }}</h1>
   <p>
   {% assign next_event = upcoming_events[0] %}
       📅 Prochain évènement: <span>{{ next_event.start | date: "%d %B %Y" }}</span>
@@ -69,7 +71,7 @@ disqus: true
 ================================================== -->
 
 <section class="c-section">
-  <h1 id="posts">Posts</h1>
+  <h2 id="posts">Posts</h2>
 
   <ul class="c-section__post-list">
     {% for post in site.posts %}
