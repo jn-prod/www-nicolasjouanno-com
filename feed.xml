@@ -7,12 +7,12 @@
   <channel>
     <language>fr</language>
     <title>Nicolas Jouanno</title>
-    <description>Développeur font-end @mgdis.&lt;br&gt;Design system, a11y, éco-conception, JAM stack.</description>
+    <description>Développeur frontend, ancien cycliste professionnel et amateur de voyageur.</description>
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Wed, 22 Oct 2025 18:15:41 +0000</pubDate>
-    <lastBuildDate>Wed, 22 Oct 2025 18:15:41 +0000</lastBuildDate>
+    <pubDate>Wed, 22 Oct 2025 18:16:59 +0000</pubDate>
+    <lastBuildDate>Wed, 22 Oct 2025 18:16:59 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
