@@ -39,8 +39,6 @@ disqus: true
 
 {% if upcoming_events.size > 0 %}
 <section class="c-section c-section--compact c-section--primary u-text--center">
-  <h1 id="about"><span class="u-visually-hidden">{{ site.title }}, </span>{{ site.headline }}</h1>
-
   <p>
   {% assign next_event = upcoming_events[0] %}
       📅 Prochain évènement: <span>{{ next_event.start | date: "%d %B %Y" }}</span>
@@ -54,6 +52,7 @@ disqus: true
 {% endif %}
 
 <section class="c-section c-section--compact">
+  <h1 id="about"><span class="u-visually-hidden">{{ site.title }}, </span>{{ site.headline }}</h1>
   <p>
     Moi c’est Nicolas. Depuis une vingtaine d’années, je publie et <a href="{{ site.url }}/work.html">développe des projets</a> sur le web. 
   </p>
