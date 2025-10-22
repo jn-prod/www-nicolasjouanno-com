@@ -10,7 +10,7 @@ permalink: /manifest.json
   "orientation": "portrait-primary",
   "background_color": "#ffffff",
   "theme_color": "#000000",
-  "description": "{{ site.author.bio | escape }}",
+  "description": "{{ site.headline | escape }}",
   "lang": "fr",
   "scope": "/",
   "categories": ["lifestyle", "sports", "technology"],
