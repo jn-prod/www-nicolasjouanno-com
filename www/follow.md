@@ -15,7 +15,7 @@ Si vous souhaitez rester connecté, plusieurs options simples et durables sont d
 Le plus pratique : recevez mes nouveaux articles directement dans votre boîte mail.  
 Service automatique basé sur mon flux RSS, sans inscription complexe.
 
-➡️ [S’abonner par email](https://blogtrottr.com/?subscribe=https://nicolasjouanno.com/feed.xml)
+➡️ [S’abonner par email]({{site.author.newsletter}})
 
 ## 📡 Flux RSS
 
