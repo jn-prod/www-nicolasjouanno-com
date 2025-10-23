@@ -1,7 +1,12 @@
 .u-image {
+    width: var(--size-128);
+    height: auto;
     &-center {
         margin-left: auto;
         margin-right: auto;
         display: block;
+    }
+    &.u-image--large {
+        width: calc(var(--size-128) * 2);
     }
   }

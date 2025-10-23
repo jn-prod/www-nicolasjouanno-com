@@ -2,6 +2,7 @@
 layout: post
 title: M-1 avant ma première prise de parole à Paris-Web
 description:
+featured: true
 categories:
   - Work
 tags:

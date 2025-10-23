@@ -6,6 +6,8 @@ redirect_from:
   - /portfolio.html
   - /portfolio/project/gael-le-bellec.html
   - /portfolio/project/breizhtraining.html
+  - /cv.html
+  - /certifications.html
 layout: page
 title: Découvrir mon parcours et mes projets
 description: Développeur frontend et créateur d'interfaces qui plaisent a vos utilisateurs.
@@ -99,6 +101,7 @@ Reprise et développement d’un commerce spécialisé indépendant (vente et r�
 ### Cycliste professionnel — Bretagne Schuller (2008–2010)
 
 [Découvrez mon palmarès sportif](/results.html)
+
 ### Vendeur — Twinner Sport (2007–2008)
 
 ## Projets personnels

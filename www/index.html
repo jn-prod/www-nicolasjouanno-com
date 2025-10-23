@@ -9,31 +9,13 @@ redirect_from:
   - "/academy.html"
   - "/advertise/terms.html"
   - "/advertise.html"
-  - "/about.html"
   - "/categories/sport.html"
+  - "/sitemap.html"
 title: "Développeur front-end et sportif ourdoor"
 layout: default
 description: "Développeur front-end et sportif ourdoor. Amateur de nature, de photographie et de vie simple en famille."
 disqus: true
 ---
-
-<!-- signature -->
-<aside itemscope itemtype="http://schema.org/Quotation" class="c-jumbotron">
-  <article class="c-jumbotron__content">
-    <blockquote class="c-jumbotron__citation-container" itemprop="text">
-      <p class="c-jumbotron__citation">
-        "Pourquoi rejoindre la marine quand vous pouvez être un pirate ?"
-      </p>
-    </blockquote>
-    <p
-      itemscope
-      itemtype="http://schema.org/Organization"
-      class="c-jumbotron__author"
-    >
-      <em itemprop="name">—Steve Jobs</em>
-    </p>
-  </article>
-</aside>
 
 {% assign upcoming_events = site.events | where_exp: "event", "event.start >= site.time" | sort: "start" | limit: 1 %}
 
@@ -53,8 +35,9 @@ disqus: true
 
 <section class="c-section c-section--compact">
   <h1 id="about" class="u-visually-hidden">{{ site.title }}, {{ site.headline }}</h1>
+  <img class="u-image u-image-center u-image--large" src="/assets/icons/avatar.svg" alt="" />
   <p>
-    Moi c’est Nicolas. Depuis une vingtaine d’années, je publie et <a href="{{ site.url }}/work.html">développe des projets</a> sur le web. 
+    👋 Moi c’est Nicolas. Depuis une vingtaine d’années, je <a href="{{ site.url }}/posts.html">publie</a> et <a href="{{ site.url }}/work.html">développe des projets</a> sur le web. 
   </p>
   <p>
     Ancien <a href="{{ site.url }}/results.html">cycliste professionnel</a> et passionné de sports outdoor, je suis attentif à notre environnement et à l’impact qu’a le numérique sur celui-ci.
@@ -63,7 +46,7 @@ disqus: true
     Je m’intéresse aux façons de rendre le web plus humain et plus durable.
   </p>
   <p> 
-    Amateur de voyages, de photographie et de minimalisme. C’est depuis Pontivy en Bretagne, que je partage une vie simple sans algorithme ni intelligence artificielle. 
+    Amateur de voyages, de photographie et de minimalisme. C’est depuis Pontivy en Bretagne, que je <a href="{{ site.url }}/follow.html">partage</a> une vie simple sans algorithme ni intelligence artificielle. 
   </p>
 </section>
 
@@ -73,9 +56,33 @@ disqus: true
 <section class="c-section">
   <h2 id="posts">Posts</h2>
 
-  <ul class="c-section__post-list">
-    {% for post in site.posts %}
-    <li class="c-section__post-item">{% include /boxes/post.html %}</li>
+  <p>Voici une sélection de mes <a href="{{ site.url }}/posts.html">publications</a>:</p>
+
+  {% assign featured_posts = site.posts | where: "featured", true %}
+
+  <ul class="c-section__post-list c-section__post-list--compact">
+    {% for post in featured_posts | limit: 3%}
+      {% if post.featured %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y" }})</li>
+      {% endif %}
     {% endfor %}
   </ul>
 </section>
+
+<!-- signature -->
+<aside itemscope itemtype="http://schema.org/Quotation" class="c-jumbotron">
+  <article class="c-jumbotron__content">
+    <blockquote class="c-jumbotron__citation-container" itemprop="text">
+      <p class="c-jumbotron__citation">
+        "Pourquoi rejoindre la marine quand vous pouvez être un pirate ?"
+      </p>
+    </blockquote>
+    <p
+      itemscope
+      itemtype="http://schema.org/Organization"
+      class="c-jumbotron__author"
+    >
+      <em itemprop="name">—Steve Jobs</em>
+    </p>
+  </article>
+</aside>
