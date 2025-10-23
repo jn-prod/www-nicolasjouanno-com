@@ -12,8 +12,7 @@ Si vous souhaitez rester connecté, plusieurs options simples et durables sont d
 
 ## 📧 Par email (recommandé)
 
-Le plus pratique : recevez mes nouveaux articles directement dans votre boîte mail.  
-Service automatique basé sur mon flux RSS, sans inscription complexe.
+Je partage mon travail gratuitement, mais je refuse de dépendre des algorithmes: Instagram, Google... T’inscrire est le meilleur moyen de soutenir mes projets et d'être notifier de leurs avancés, ainsi je peux continuer à créer en toute indépendance.
 
 ➡️ [S’abonner par email]({{site.author.newsletter}})
 
