@@ -63,7 +63,7 @@
       "name": "Articles récents",
       "short_name": "Articles",
       "description": "Accéder directement aux derniers articles",
-      "url": "/#posts",
+      "url": "/posts.html",
       "icons": [
         {
           "src": "/assets/icons/shortcut-articles.png",
@@ -75,7 +75,7 @@
       "name": "À propos",
       "short_name": "About",
       "description": "En savoir plus sur Nicolas",
-      "url": "/#about",
+      "url": "/about.html",
       "icons": [
         {
           "src": "/assets/icons/shortcut-about.png",
