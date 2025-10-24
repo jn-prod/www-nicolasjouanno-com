@@ -14,13 +14,13 @@
 
 <script>
   (() => {
-    document.querySelector('.p-newsletter').addEventListener('submit', (event) => {
+    document.querySelector('.p-newsletter').addEventListener('submit', async (event) => {
       event.preventDefault();
       const form = event.target;
       const body = new FormData(form);
 
       try {
-        fetch(form.action, {method: form.method.toUpperCase(), body});
+        await fetch(form.action, {method: form.method.toUpperCase(), body});
         try {
           window.top.location.href = 'https://www.nicolasjouanno.com/subscribe/confirm.html';
         } catch (e) {
