@@ -1,14 +1,38 @@
-<!-- End MailerLite Universal -->
-<div class="ml-embedded" data-form="lUBVe3"></div>
+<form class="p-newsletter" action="https://assets.mailerlite.com/jsonp/1875119/forms/169054446083376677/subscribe" data-code="" method="post">
+  <label for="newsletter-email" class="u-visually-hidden">Email</label>
+  <input id="newsletter-email" type="email" required data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
+  <input type="hidden" name="ml-submit" value="1">
+  <input type="hidden" name="anticsrf" value="true">
+  <button type="submit" class="c-button c-button--primary">S'inscrire</button>
+</form>
+
+<!-- Custom details -->
 <details>
   <summary>Pourquoi une newsletter ?</summary>
   <p>Je partage mon travail gratuitement, mais je refuse de dépendre des algorithmes: Instagram, Google... T’inscrire est le meilleur moyen de soutenir mes projets et d'être notifier de leurs avancés, ainsi je peux continuer à créer en toute indépendance.</p>
 </details>
-<!-- MailerLite Universal -->
+
 <script>
-    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-    (window,document,'script','[https://assets.mailerlite.com/js/universal.js','ml');](https://assets.mailerlite.com/js/universal.js','ml');)
-    ml('account', '1875119');
+  (() => {
+    document.querySelector('.p-newsletter').addEventListener('submit', (event) => {
+      event.preventDefault();
+      const form = event.target;
+      const body = new FormData(form);
+
+      try {
+        fetch(form.action, {method: form.method.toUpperCase(), body});
+        try {
+          window.top.location.href = 'https://www.nicolasjouanno.com/subscribe/confirm.html';
+        } catch (e) {
+          window.location.href = 'https://www.nicolasjouanno.com/subscribe/confirm.html';
+        }
+      } catch (e) {
+        console.log(e)
+      }
+    })
+  })();
+</script>
+<script src="https://groot.mailerlite.com/js/w/webforms.min.js?v176e10baa5e7ed80d35ae235be3d5024" type="text/javascript"></script>
+<script>
+  fetch("https://assets.mailerlite.com/jsonp/1875119/forms/169054446083376677/takel")
 </script>
