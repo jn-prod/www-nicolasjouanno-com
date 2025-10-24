@@ -1,17 +1,12 @@
 ---
 layout: page
-title: "Action requise pour votre inscription à Volt!"
-description: "Action requise pour votre inscription à Volt!"
+title: "Action requise pour votre inscription"
+description: "Action requise pour votre inscription"
 ---
 
-<img src="/assets/images/projets/ext-7.png" alt="Volt!" />
+# Une dernière étape ✉️
 
-# Il reste une étape pour finaliser votre inscription
+Je viens de t’envoyer un email de confirmation.
+Clique sur le lien dans cet email pour valider ton inscription et recevoir ta première newsletter.
 
-Merci de vérifier vos emails
-
-Vous ne recevrez aucune edition de "Volt!" tant que vous n'aurez pas validé votre email en cliquant sur le lien de vérification présent dans l'email que je viens de vous envoyer.
-
-(Vérifiez vos dossiers "spam" et "promotions" si vous ne trouvez pas notre email dans la minute environ.)
-
-<a href="{{ site.url }}" class="btn btn-outline-dark rounded-0 my-5"><span class="icon icon--arrow-left"></span>Retour</a>
+(Pense à vérifier tes dossiers « spam » et « promotions » si tu ne le trouves pas d’ici 1-2 minutes.)

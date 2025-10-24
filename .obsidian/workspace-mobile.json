@@ -37,9 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "www/follow.md",
+                "file": "www/subscribe/on-hold.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "follow"
+              "title": "on-hold"
             }
           }
         ],
@@ -179,7 +179,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "www/_posts/2025-08-22-paris-web-preview.md",
+            "file": "www/subscribe/on-hold.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -203,13 +203,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "44a48c39cd9106cb",
+  "active": "467161e2017e7d2c",
   "lastOpenFiles": [
+    "www/subscribe/confirm.md",
+    "www/follow.md",
     "www/_posts/2025-09-17-Retrouver-le-fil.md",
     "www/_posts/2025-08-22-paris-web-preview.md",
     "www/_events/paris-web-2025.md",
     "www/_events/2025-08-26-meetup-accessibilite.md",
-    "www/follow.md",
     "www/manifest.json",
     "www/work.md",
     "www/about.md",
@@ -232,7 +233,6 @@
     "www/_posts/2018-12-14-pourquoi-tombons-nous.md",
     "www/_posts/2018-12-07-premier-trail.md",
     "www/_posts/2018-11-30-velo-boulot-dodo.md",
-    "www/_posts/2018-11-23-competition-versus-entrainement.md",
     "configs/obsidian/templates",
     "www/_drafts"
   ]

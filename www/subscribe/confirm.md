@@ -1,17 +1,15 @@
 ---
 layout: page
-title: "Confirmation d'inscription à Volt!"
-description: "Confirmation d'inscription à Volt!"
+title: "Confirmation d'inscription à la newsletter"
+description: "Confirmation d'inscription à la newsletter"
 ---
 
-<img src="/assets/images/projets/ext-7.png" alt="Volt!" />
+# Confirmation d'inscription
 
-# Confirmation d'inscription à Volt!
+Merci ! Tu es maintenant inscrit·e à la newsletter.
 
-Merci ! Vous êtes maintenant inscrit à "Volt!".
+1x par mois, je t'enverrai mes dernières publications par email. N’oublie pas de vérifier tes dossiers « spam » et « promotions » si tu ne reçois rien d'ici quelques semaines.
 
-Chaque vendredi, je vous enverrai une nouvelle édition de "Volt!" par email. N'oubliez pas de vérifier vos dossiers "spam" et "promotions" si vous n'avez rien lu de nous depuis un moment.
+<a href="{{site.url}}/posts.html">Tu peux découvrir toutes les archives en suivant ce lien.</a>
 
-Vous voulez être certain de ne rater aucune sortie ? Rejoingnez-moi sur <a href="{{ site.author.linkedin }}" target="_blank">Linkedin</a>, vous pourrez prendre part à la discution.
-
-<a href="{{ site.url }}" class="btn btn-outline-dark rounded-0 my-5"><span class="icon icon--arrow-left"></span>Retour</a>
+Tu veux être certain·e de ne rater aucune sortie ? <a href="{{ site.url }}/follow.html">Découvre les autres moyens de me suivre.</a>
