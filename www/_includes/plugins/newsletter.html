@@ -22,9 +22,9 @@
       try {
         await fetch(form.action, {method: form.method.toUpperCase(), body});
         try {
-          window.top.location.href = 'https://www.nicolasjouanno.com/subscribe/confirm.html';
+          window.top.location.href = '{{site.url}}/subscribe/on-hold.html';
         } catch (e) {
-          window.location.href = 'https://www.nicolasjouanno.com/subscribe/confirm.html';
+          window.location.href = '{{site.url}}/subscribe/on-hold.html';
         }
       } catch (e) {
         console.log(e)
