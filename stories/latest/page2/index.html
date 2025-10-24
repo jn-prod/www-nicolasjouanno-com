@@ -214,13 +214,13 @@
 
 <script>
   (() => {
-    document.querySelector('.p-newsletter').addEventListener('submit', (event) => {
+    document.querySelector('.p-newsletter').addEventListener('submit', async (event) => {
       event.preventDefault();
       const form = event.target;
       const body = new FormData(form);
 
       try {
-        fetch(form.action, {method: form.method.toUpperCase(), body});
+        await fetch(form.action, {method: form.method.toUpperCase(), body});
         try {
           window.top.location.href = 'https://www.nicolasjouanno.com/subscribe/confirm.html';
         } catch (e) {
@@ -236,6 +236,7 @@
 <script>
   fetch("https://assets.mailerlite.com/jsonp/1875119/forms/169054446083376677/takel")
 </script>
+
   <p><small><a href="https://www.nicolasjouanno.com/posts.html">Ou consulter toutes les archives</a></small></p>
 
 </section>
