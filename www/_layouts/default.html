@@ -9,10 +9,14 @@
     <!-- Titre et description -->
     {% if page.title %}
       <title>{{ page.title }} | {{ site.title }}</title>
-      <meta name="description" content="{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 }} | {{ site.title }}">
     {% else %}
       <title>{{ site.headline }} | {{ site.title }}</title>
-      <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    
+    {% if page.description %}
+      <meta name="description" content="{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 }} | {{ site.title }}">
+    {% else %}
+      <meta name="description" content="{{ site.headline }} | {{ site.title }}">
     {% endif %}
     
     <!-- Icônes -->
