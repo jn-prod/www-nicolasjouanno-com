@@ -68,8 +68,8 @@
     {% endif %}
     
     <!-- Open Graph -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.headline }}{% endif %}">
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 30 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 30 }}{% else %}{{ site.headline }}{% endif %}">
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
     <meta property="og:site_name" content="{{ site.title }}">
@@ -89,8 +89,8 @@
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.headline }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 30 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 30 }}{% else %}{{ site.headline }}{% endif %}">
     {% if page.image or page.images.size > 0 or site.og_image %}
       <meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% elsif page.images.size > 0 %}{{ page.images[0] | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}">
       <meta name="twitter:image:alt" content="{{ page.title }}">
