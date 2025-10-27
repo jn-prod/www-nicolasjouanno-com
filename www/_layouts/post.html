@@ -82,7 +82,7 @@ layout: page
         class="prev d-block col-md-6"
         href="{{page.previous.url | absolute_url}}"
       >
-        &laquo; {{page.previous.title}}</a
+        ⏮️ {{page.previous.title}}</a
       >
     </li>
     {% endif %} {% if page.next.url %}
@@ -90,7 +90,7 @@ layout: page
       <a
         class="next d-block col-md-6 text-lg-right"
         href="{{page.next.url | absolute_url}}"
-        >{{page.next.title}} &raquo;
+        >{{page.next.title}} ⏭️
       </a>
     </li>
     {% endif %}
