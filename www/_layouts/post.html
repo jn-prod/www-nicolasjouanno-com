@@ -74,25 +74,23 @@ layout: page
 ================================================== -->
 
 <!-- Prev/Next -->
+{% if page.previous.url or page.next.url %} %}
 <aside>
   <ul class="u-list u-list--none u-list--inline">
     {% if page.previous.url %}
     <li>
-      <a
-        class="prev d-block col-md-6"
-        href="{{page.previous.url | absolute_url}}"
-      >
-        ⏮️ {{page.previous.title}}</a
-      >
+      <a href="{{page.previous.url | absolute_url}}">
+        ⏮️ {{page.previous.title}}
+      </a>
     </li>
-    {% endif %} {% if page.next.url %}
+    {% endif %}
+    {% if page.next.url %}
     <li>
-      <a
-        class="next d-block col-md-6 text-lg-right"
-        href="{{page.next.url | absolute_url}}"
-        >{{page.next.title}} ⏭️
+      <a href="{{page.next.url | absolute_url}}">
+        {{page.next.title}} ⏭️
       </a>
     </li>
     {% endif %}
   </ul>
 </aside>
+{% endif %}
