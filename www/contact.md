@@ -16,7 +16,7 @@ Une question, une idée, ou simplement envie d’échanger ?
 <form action="https://formsubmit.co/674587a4dfca39e2907b37e886ff93ad" method="POST">
 
       <!-- Champs visibles -->
-      <p>Tous les champs sont obligatoires</p>
+<p>Tous les champs sont obligatoires</p>
 
       <div>
             <label for="name">Nom</label>
@@ -31,6 +31,7 @@ Une question, une idée, ou simplement envie d’échanger ?
             <label for="message">Message</label>
             <textarea id="message" name="message" rows="6" required></textarea>
       </div>
+
       <!-- Champs cachés -->
 
       <input type="hidden" name="_next" value="https://nicolasjouanno.com/">

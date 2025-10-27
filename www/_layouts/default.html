@@ -3,151 +3,201 @@
   <!-- Head
     ================================================== -->
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Titre et description -->
     {% if page.title %}
-      <title>{{ page.title }} | {{ site.title }}</title>
+    <title>{{ page.title }} | {{ site.title }}</title>
     {% else %}
-      <title>{{ site.headline }} | {{ site.title }}</title>
-    {% endif %}
-    
-    {% if page.description %}
-      <meta name="description" content="{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 }} | {{ site.title }}">
+    <title>{{ site.headline }} | {{ site.title }}</title>
+    {% endif %} {% if page.description %}
+    <meta
+      name="description"
+      content="{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 }} | {{ site.title }}"
+    />
     {% else %}
-      <meta name="description" content="{{ site.headline }} | {{ site.title }}">
+    <meta name="description" content="{{ site.headline }} | {{ site.title }}" />
     {% endif %}
-    
+
     <!-- Icônes -->
-    <link rel="icon" href="/assets/icons/icon.ico" sizes="any">
-    <link rel="icon" href="/assets/icons/avatar.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/assets/icons/icon-180.png">
-    
+    <link rel="icon" href="/assets/icons/icon.ico" sizes="any" />
+    <link rel="icon" href="/assets/icons/avatar.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/assets/icons/icon-180.png" />
+
     <!-- PWA -->
-    <link rel="manifest" href="/manifest.json">
-    <meta name="theme-color" content="#000000">
-    
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#000000" />
+
     <!-- IndieWeb -->
-    <link rel="webmention" href="{{ site.author.webmention }}">
-    <link rel="hub" href="https://pubsubhubbub.appspot.com/">
+    <link rel="webmention" href="{{ site.author.webmention }}" />
+    <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
 
     <!-- linked party -->
-    <link rel="me" href="{{ site.author.dribble }}">
-    <link rel="me" href="{{ site.author.instagram }}">
-    <link rel="me" href="{{ site.author.linkedin }}">
-    <link rel="me" href="{{ site.author.github }}">
-    <link rel="me" href="{{ site.author.mediumcom }}">
-    <link rel="me" href="{{ site.author.pinterest }}">
-    <link rel="me" href="{{ site.author.soundcloud }}">
-    <link rel="me" href="{{ site.author.strava }}">
-    <link rel="me" href="{{ site.author.substack }}">
-    <link rel="me" href="{{ site.author.twitter }}">
-    <link rel="me" href="{{ site.author.wikipedia }}">
-    <link rel="me" href="{{ site.author.youtube }}">
-    <link rel="me" href="mailto:{{ site.author.email }}">
-    
+    <link rel="me" href="{{ site.author.dribble }}" />
+    <link rel="me" href="{{ site.author.instagram }}" />
+    <link rel="me" href="{{ site.author.linkedin }}" />
+    <link rel="me" href="{{ site.author.github }}" />
+    <link rel="me" href="{{ site.author.mediumcom }}" />
+    <link rel="me" href="{{ site.author.pinterest }}" />
+    <link rel="me" href="{{ site.author.soundcloud }}" />
+    <link rel="me" href="{{ site.author.strava }}" />
+    <link rel="me" href="{{ site.author.substack }}" />
+    <link rel="me" href="{{ site.author.twitter }}" />
+    <link rel="me" href="{{ site.author.wikipedia }}" />
+    <link rel="me" href="{{ site.author.youtube }}" />
+    <link rel="me" href="mailto:{{ site.author.email }}" />
+
     <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
-    <link rel="alternate" type="application/feed+json" title="JSON Feed" href="/feed.json">
-    
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="/feed.xml"
+    />
+    <link
+      rel="alternate"
+      type="application/feed+json"
+      title="JSON Feed"
+      href="/feed.json"
+    />
+
     <!-- calendar -->
-    <link rel="alternate" type="text/calendar" title="Agenda ICS" href="/agenda.ics">
-    <link rel="alternate" type="application/rss+xml" title="Agenda RSS" href="/events.xml">
-    <link rel="alternate" type="application/feed+json" title="Agenda JSON Feed" href="/events.json">
+    <link
+      rel="alternate"
+      type="text/calendar"
+      title="Agenda ICS"
+      href="/agenda.ics"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Agenda RSS"
+      href="/events.xml"
+    />
+    <link
+      rel="alternate"
+      type="application/feed+json"
+      title="Agenda JSON Feed"
+      href="/events.json"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-    
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+
     <!-- SEO basique -->
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-    <meta name="author" content="{{ site.author.name }}">
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="canonical"
+      href="{{ page.url | replace:'index.html','' | absolute_url }}"
+    />
+    <meta name="author" content="{{ site.author.name }}" />
     {% if site.google_verification %}
-      <meta name="google-site-verification" content="{{ site.google_verification }}">
+    <meta
+      name="google-site-verification"
+      content="{{ site.google_verification }}"
+    />
     {% endif %}
-    
+
     <!-- Open Graph -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 30 }}{% else %}{{ site.headline }}{% endif %}">
-    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:locale" content="fr_FR">
-    
+    <meta
+      property="og:title"
+      content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
+    />
+    <meta
+      property="og:description"
+      content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 30 }}{% else %}{{ site.headline }}{% endif %}"
+    />
+    <meta
+      property="og:type"
+      content="{% if page.layout == 'post' %}article{% else %}website{% endif %}"
+    />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:locale" content="fr_FR" />
+
     <!-- Image Open Graph -->
     {% if page.image %}
-      <meta property="og:image" content="{{ page.image | absolute_url }}">
-      <meta property="og:image:alt" content="{{ page.title }}">
+    <meta property="og:image" content="{{ page.image | absolute_url }}" />
+    <meta property="og:image:alt" content="{{ page.title }}" />
     {% elsif page.images.size > 0 %}
-      <meta property="og:image" content="{{ page.images[0] | absolute_url }}">
-      <meta property="og:image:alt" content="{{ page.title }}">
+    <meta property="og:image" content="{{ page.images[0] | absolute_url }}" />
+    <meta property="og:image:alt" content="{{ page.title }}" />
     {% else %}
-      <meta property="og:image" content="{{ site.og_image | absolute_url }}">
-      <meta property="og:image:alt" content="{{ site.title }}">
+    <meta property="og:image" content="{{ site.og_image | absolute_url }}" />
+    <meta property="og:image:alt" content="{{ site.title }}" />
     {% endif %}
-    
+
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 30 }}{% else %}{{ site.headline }}{% endif %}">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
+    />
+    <meta
+      name="twitter:description"
+      content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 30 }}{% else %}{{ site.headline }}{% endif %}"
+    />
     {% if page.image or page.images.size > 0 or site.og_image %}
-      <meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% elsif page.images.size > 0 %}{{ page.images[0] | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}">
-      <meta name="twitter:image:alt" content="{{ page.title }}">
+    <meta
+      name="twitter:image"
+      content="{% if page.image %}{{ page.image | absolute_url }}{% elsif page.images.size > 0 %}{{ page.images[0] | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}"
+    />
+    <meta name="twitter:image:alt" content="{{ page.title }}" />
     {% endif %}
-    
+
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}Person{% endif %}",
-      {% if page.layout == 'post' %}
-        "headline": "{{ page.title }}",
-        "description": "{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 }}",
-        "datePublished": "{{ page.date | date_to_xmlschema }}",
-        "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-        "author": {
-          "@type": "Person",
+      {
+        "@context": "https://schema.org",
+        "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}Person{% endif %}",
+        {% if page.layout == 'post' %}
+          "headline": "{{ page.title }}",
+          "description": "{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 }}",
+          "datePublished": "{{ page.date | date_to_xmlschema }}",
+          "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+          "author": {
+            "@type": "Person",
+            "name": "{{ site.author.name }}",
+            "url": "{{ site.url }}"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "{{ site.author.name }}",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "{{ site.logo | absolute_url }}"
+            }
+          },
+          {% if page.image or page.images.size > 0 %}
+            "image": "{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ page.images[0] | absolute_url }}{% endif %}",
+          {% endif %}
+          "url": "{{ page.url | absolute_url }}"
+        {% else %}
           "name": "{{ site.author.name }}",
-          "url": "{{ site.url }}"
-        },
-        "publisher": {
-          "@type": "Person",
-          "name": "{{ site.author.name }}",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "{{ site.logo | absolute_url }}"
-          }
-        },
-        {% if page.image or page.images.size > 0 %}
-          "image": "{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ page.images[0] | absolute_url }}{% endif %}",
+          "url": "{{ site.url }}",
+          "email": "{{ site.author.email }}",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "{{ site.author.location }}",
+            "addressCountry": "{{ site.author.country }}"
+          },
+          "sameAs": [
+            "{{ site.author.dribble }}",
+            "{{ site.author.instagram }}",
+            "{{ site.author.linkedin }}",
+            "{{ site.author.github }}",
+            "{{ site.author.mediumcom }}",
+            "{{ site.author.pinterest }}",
+            "{{ site.author.soundcloud }}",
+            "{{ site.author.strava }}",
+            "{{ site.author.substack }}",
+            "{{ site.author.twitter }}",
+            "{{ site.author.wikipedia }}",
+            "{{ site.author.youtube }}"
+          ]
         {% endif %}
-        "url": "{{ page.url | absolute_url }}"
-      {% else %}
-        "name": "{{ site.author.name }}",
-        "url": "{{ site.url }}",
-        "email": "{{ site.author.email }}",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "{{ site.author.location }}",
-          "addressCountry": "{{ site.author.country }}"
-        },
-        "sameAs": [
-          "{{ site.author.dribble }}",
-          "{{ site.author.instagram }}",
-          "{{ site.author.linkedin }}",
-          "{{ site.author.github }}",
-          "{{ site.author.mediumcom }}",
-          "{{ site.author.pinterest }}",
-          "{{ site.author.soundcloud }}",
-          "{{ site.author.strava }}",
-          "{{ site.author.substack }}",
-          "{{ site.author.twitter }}",
-          "{{ site.author.wikipedia }}",
-          "{{ site.author.youtube }}"
-        ]
-      {% endif %}
-    }
+      }
     </script>
   </head>
 
@@ -190,12 +240,34 @@
         ================================================== -->
     <main role="main" class="c-layout__content">{{ content }}</main>
 
+    <!-- signature -->
+    {% if page.signature %}
+    <aside itemscope itemtype="http://schema.org/Quotation" class="c-jumbotron">
+      <article class="c-jumbotron__content">
+        <blockquote class="c-jumbotron__citation-container" itemprop="text">
+          <p class="c-jumbotron__citation">
+            "Pourquoi rejoindre la marine quand vous pouvez être un pirate ?"
+          </p>
+        </blockquote>
+        <p
+          itemscope
+          itemtype="http://schema.org/Organization"
+          class="c-jumbotron__author"
+        >
+          <em itemprop="name">—Steve Jobs</em>
+        </p>
+      </article>
+    </aside>
+    {% endif %}
+
     <footer
       role="contentinfo"
       class="c-layout__footer c-section c-section--compact"
     >
       <p>
-        © 2008 - {{ site.time | date: "%Y" }}, <a href="{{ site.url }}/follow.html">{{ site.author.name }}</a>. Tous droits réservés.
+        © 2008 - {{ site.time | date: "%Y" }},
+        <a href="{{ site.url }}/follow.html">{{ site.author.name }}</a>. Tous
+        droits réservés.
       </p>
     </footer>
 
@@ -210,65 +282,76 @@
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
-    <!-- disqus --> 
+    <!-- disqus -->
     {% if page.disqus or page.layout == "post" %}
-    <script id="dsq-count-scr" src="//nicolasjouanno-com.disqus.com/count.js" async></script>
+    <script
+      id="dsq-count-scr"
+      src="//nicolasjouanno-com.disqus.com/count.js"
+      async
+    ></script>
     <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    
-        */
-        const disqus_config = function () {
-          this.page.url = "{{ page.url | absolute_url }}";  // Replace PAGE_URL with your page's canonical URL variable
-          this.page.identifier = "{{ page.slug }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://nicolasjouanno-com.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+       */
+      const disqus_config = function () {
+        this.page.url = "{{ page.url | absolute_url }}"; // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = "{{ page.slug }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      (function () {
+        // DON'T EDIT BELOW THIS LINE
+        var d = document,
+          s = d.createElement("script");
+        s.src = "https://nicolasjouanno-com.disqus.com/embed.js";
+        s.setAttribute("data-timestamp", +new Date());
         (d.head || d.body).appendChild(s);
-        })();
+      })();
     </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <noscript
+      >Please enable JavaScript to view the
+      <a href="https://disqus.com/?ref_noscript"
+        >comments powered by Disqus.</a
+      ></noscript
+    >
     {% endif %}
-    
-    <!-- webmentions --> 
+
+    <!-- webmentions -->
     {% if page.layout == "post" %}
     <script>
       async function loadWebmentions() {
         const target = "{{ page.url | absolute_url }}";
         const api = `https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(target)}`;
-    
+
         try {
           const response = await fetch(api);
           const data = await response.json();
-    
+
           const container = document.getElementById("webmentions-list");
           container.innerHTML = "";
-    
+
           if (!data.children || data.children.length === 0) {
             container.innerHTML = "<p>Aucune mention reçue pour le moment.</p>";
             return;
           }
-    
+
           const list = document.createElement("ul");
           data.children.forEach((mention) => {
             const li = document.createElement("li");
             const author = mention.author?.name || "Quelqu’un";
             const url = mention.url || "#";
             const content = mention.content?.text || "(mention sans texte)";
-    
+
             li.innerHTML = `<strong>${author}</strong> a mentionné cet article : 
               <a href="${url}" target="_blank">${content}</a>`;
             list.appendChild(li);
           });
-    
+
           container.appendChild(list);
         } catch (err) {
           console.error("Erreur chargement Webmentions:", err);
         }
       }
-    
+
       loadWebmentions();
     </script>
     {% endif %}

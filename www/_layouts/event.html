@@ -1,14 +1,19 @@
 ---
 layout: page
 ---
+
 <section class="section">
   <h1>{{ page.title }}</h1>
-  <p><strong>📅 Dates :</strong> {{ page.start | date: "%d %B %Y" }}{% if page.end %} → {{ page.end | date: "%d %B %Y" }}{% endif %}</p>
+  <p>
+    <strong>📅 Dates :</strong> {{ page.start | date: "%d %B %Y" }}{% if
+    page.end %} → {{ page.end | date: "%d %B %Y" }}{% endif %}
+  </p>
   <p><strong>📍 Lieu :</strong> {{ page.location }}</p>
   {% if page.link %}
-  <p><strong>🔗 Lien :</strong> <a href="{{ page.link }}" target="_blank">{{ page.link }}</a></p>
+  <p>
+    <strong>🔗 Lien :</strong>
+    <a href="{{ page.link }}" target="_blank">{{ page.link }}</a>
+  </p>
   {% endif %}
-  <div class="event-description">
-    {{ page.content }}
-  </div>
+  <div class="event-description">{{ page.content }}</div>
 </section>

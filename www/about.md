@@ -1,4 +1,4 @@
 ---
-redirect_to: '/#about'
-permalink: '/about.html'
+redirect_to: "/#about"
+permalink: "/about.html"
 ---

@@ -4,6 +4,7 @@ permalink: /follow.html
 title: Suivre mes publications
 description: Tout se passe ici, sur mon site.  Si vous souhaitez rester connecté, plusieurs options simples et durables sont disponibles
 ---
+
 # Suivre mes publications
 
 Je ne suis pas présent sur les réseaux sociaux traditionnels.  
@@ -24,16 +25,17 @@ Ajoutez mon flux RSS à votre lecteur favori (Feedly, NetNewsWire, Inoreader…)
 ➡️ [S’abonner au flux RSS](/feed.xml)
 
 ## 📝 JSON Feed
+
 Une alternative moderne au RSS, lisible par certains lecteurs.
 
-➡️ [S'abonner en JSON Feed](/feed.json)  
+➡️ [S'abonner en JSON Feed](/feed.json)
 
 ## 📅 Flux Calendrier (ICS)
 
 Idéal si vous voulez suivre mes sorties, voyages ou événements. [Voir l’agenda](/agenda/)
-Ajoutez le flux à votre application d'agenda (Google Calendar, iCal, Outlook…).  
+Ajoutez le flux à votre application d'agenda (Google Calendar, iCal, Outlook…).
 
-➡️ [Ajouter à mon agenda (ICS)](/agenda.ics)  
+➡️ [Ajouter à mon agenda (ICS)](/agenda.ics)
 
 ## 📌 Ajouter aux favoris
 
@@ -46,8 +48,8 @@ Ajoutez mon site directement à votre écran d’accueil pour l’ouvrir comme u
 
 ### 👉 Sur votre navigateur mobile :
 
-- **iOS (Safari)** : bouton *Partager* → *Ajouter à l’écran d’accueil*
-- **Android (Chrome/Firefox)** : menu ⋮ → *Ajouter à l’écran d’accueil*
+- **iOS (Safari)** : bouton _Partager_ → _Ajouter à l’écran d’accueil_
+- **Android (Chrome/Firefox)** : menu ⋮ → _Ajouter à l’écran d’accueil_
 - **Bureau** : favoris ou raccourci sur le bureau
 
 ## 🔔 Notifications (optionnel)
@@ -61,6 +63,7 @@ Pour les plus connectés, activez les notifications push web :
 ## 📤 Partager mes articles
 
 Pas besoin de boutons : votre navigateur fait ça très bien !
+
 ### 👉 Sur mobile :
 
 - Bouton Partager natif dans la barre du navigateur
@@ -69,7 +72,7 @@ Pas besoin de boutons : votre navigateur fait ça très bien !
 ### 👉 Sur ordinateur :
 
 - Copier l’URL depuis la barre d’adresse
-- Glisser-déposer l’onglet dans un email/message/reseau social favoris 
+- Glisser-déposer l’onglet dans un email/message/reseau social favoris
 - Ctrl+L puis Ctrl+C (raccourci rapide)
 
 ## 💬 Interactions
@@ -93,7 +96,7 @@ Ici, pas d’algorithme, pas de pub, pas de suivi intrusif.
 C’est une approche minimaliste, durable et indépendante des plateformes sociales.  
 Votre attention n’est pas un produit, c’est un cadeau que je respecte.
 
------
+---
 
 ## ❓ Besoin d’aide ?
 

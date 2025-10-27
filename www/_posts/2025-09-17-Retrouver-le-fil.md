@@ -9,11 +9,12 @@ tags:
   - creation
 images:
 ---
+
 Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.
 
 Chaque projet avait son site : un pour le vélo, un pour mes expérimentations web, un autre pour partager des vidéos…
 
-C’était la logique du moment : 
+C’était la logique du moment :
 séparer, cloisonner, multiplier les adresses.
 
 Mais à force de fermer des projets, de changer de plateformes ou de quitter des réseaux sociaux, j’ai fini par perdre une grande partie de ce que j’avais publié.

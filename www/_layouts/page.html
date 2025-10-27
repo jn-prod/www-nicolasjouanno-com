@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% if page.breadcrumb_hide != true %}
 <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
   <ol>
     <li>
@@ -20,8 +21,7 @@ layout: default
     {% endunless %}
   </ol>
 </nav>
-
-{% if page.icons %}
+{% endif %} {% if page.icons %}
 <ul class="c-icons-list">
   {% for icon in page.icons %}
 
@@ -31,6 +31,4 @@ layout: default
 
   {% endfor %}
 </ul>
-{% endif %}
-
-{{ content }}
+{% endif %} {{ content }}
