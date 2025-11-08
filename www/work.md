@@ -9,8 +9,8 @@ redirect_from:
   - /cv.html
   - /certifications.html
 layout: page
-title: Découvrir mon parcours et mes projets
-description: Développeur frontend et créateur d'interfaces qui plaisent a vos utilisateurs.
+title: Découvrir mon parcours de cycliste à développeu, ainsi que mes projets
+description: Développeur frontend et créateur d'interfaces accessibles qui plaisent a vos utilisateurs.
 icons:
   - js
   - ts
@@ -19,20 +19,13 @@ icons:
   - stencil
 aliases:
 ---
-
-# Nicolas Jouanno — Développeur Frontend & Sportif Outdoor
+# Développeur Frontend spécialisé en Design System, Web Composants et Accessibilité 
 
 Je suis développeur frontend spécialisé dans les design systems, l’accessibilité et les architectures modernes (Web Composants, micro-frontends, Jamstack).
 
-Lead Frontend @MGDIS, je crée des interfaces accessibles et performantes, avec une attention particulière à l’éco-conception et à l’expérience utilisateur.
+Lead Frontend MGDIS, je crée des interfaces accessibles et performantes, avec une attention particulière à l’éco-conception et à l’expérience utilisateur.
 
-Créateur de [VTT.bzh](https://vtt.bzh/), un projet personnel autour du VTT en Bretagne, je développe aussi mon site personnel [nicolasjouanno.com](https://nicolasjouanno.com/) comme terrain d’expérimentation UX et minimalisme digital.
-
-## En bref
-
-- 📍 Pontivy, Bretagne
-- 🌱 Minimalisme & frugalité numérique
-- 🚴 Discipline & endurance issues du sport de haut niveau
+Créateur de [VTT.bzh](https://vtt.bzh/), un projet personnel autour du VTT en Bretagne, je développe aussi mon [site personnel]({{ site.url }}) comme terrain d’expérimentation UX et minimalisme digital.
 
 ## Expérience professionnelle
 

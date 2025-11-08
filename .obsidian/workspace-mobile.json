@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c10e04d29faa7aee",
+        "id": "c9543dd5a79d7f13",
         "type": "tabs",
         "children": [
           {
-            "id": "cd7bcc3dddbb42f8",
+            "id": "43f03c74abd37ec0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "www/work.md",
+                "file": "www/contact.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "work"
-            }
-          },
-          {
-            "id": "44a48c39cd9106cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "www/subscribe/on-hold.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "on-hold"
+              "title": "contact"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +154,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "www/subscribe/on-hold.md",
+            "file": "www/index.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -205,6 +180,13 @@
   },
   "active": "467161e2017e7d2c",
   "lastOpenFiles": [
+    "www/index.md",
+    "www/results.md",
+    "www/work.md",
+    "www/agenda.md",
+    "www/subscribe/newsletter.md",
+    "www/CHANGELOG.md",
+    "www/subscribe/on-hold.md",
     "www/subscribe/confirm.md",
     "www/follow.md",
     "www/_posts/2025-09-17-Retrouver-le-fil.md",
@@ -212,7 +194,6 @@
     "www/_events/paris-web-2025.md",
     "www/_events/2025-08-26-meetup-accessibilite.md",
     "www/manifest.json",
-    "www/work.md",
     "www/about.md",
     "www/_posts/2017-02-12-entraînement-5-points-pour-progresser-physiquement-en-vtt.md",
     "www/_posts/2014-08-10-pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.md",
@@ -226,13 +207,7 @@
     "www/_posts/2017-01-17-20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.md",
     "www/_posts/2017-02-07-choisir-son-pneu-vtt-hiver-boue.md",
     "www/_posts/2019-01-24-podcast-gael-le-bellec.md",
-    "www/CHANGELOG.md",
     "www/_drafts",
-    "configs/obsidian/templates/page.md",
-    "configs/obsidian/templates/post.md",
-    "www/_posts/2018-12-14-pourquoi-tombons-nous.md",
-    "www/_posts/2018-12-07-premier-trail.md",
-    "www/_posts/2018-11-30-velo-boulot-dodo.md",
     "configs/obsidian/templates",
     "www/_drafts"
   ]

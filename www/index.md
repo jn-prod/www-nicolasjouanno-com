@@ -1,36 +1,40 @@
 ---
 redirect_from:
-  - "/portfolio/project/volt.html"
-  - "/toolbox.html"
-  - "/coaching.html"
-  - "/cours.html"
-  - "/cours/creer-site-web-sans-coder.html"
-  - "/stories"
-  - "/academy.html"
-  - "/advertise/terms.html"
-  - "/advertise.html"
-  - "/categories/sport.html"
-  - "/sitemap.html"
-title: "Photographe de voyage en famille et van life | Développeur web et ancien cycliste professionnel"
-layout: "page"
-description: "Photographe de voyage en famille et développeur web. Je documente notre vie nomade en van à travers l'Europe : récits, conseils photo et réflexions sur un numérique plus humain."
-permalink: "/index.html"
+  - /portfolio/project/volt.html
+  - /toolbox.html
+  - /coaching.html
+  - /cours.html
+  - /cours/creer-site-web-sans-coder.html
+  - /stories
+  - /academy.html
+  - /advertise/terms.html
+  - /advertise.html
+  - /categories/sport.html
+  - /sitemap.html
+title: Développeur frontend, ancien cycliste professionnel, photographe de voyage en famille et van life.
+layout: page
+description: "Développeur frontend et photographe de voyage en famille. Je documente notre vie nomade en van à travers l'Europe : récits, conseils photo et réflexions sur un numérique plus humain."
+permalink: /index.html
 breadcrumb_hide: true
 signature: true
 ---
 
-<h1 id="about" class="u-visually-hidden">{{ site.title }}, {{ site.headline }}</h1>
-
+<h1 id="about" class="u-visually-hidden">{{ site.title }}. Père d’une famille d’aventuriers. Nous parcourons l’Europe en van.</h1>
 <img class="u-image u-image-center u-image--large" src="/assets/icons/avatar.svg" alt="" />
 
-👋 Moi c’est Nicolas. Depuis une vingtaine d’années, je [publie]({{ site.url }}/posts.html) et [développe des projets]({{ site.url }}/work.html) sur le web.
+👋 Moi c'est Nicolas. Je [publie]({{ site.url }}/posts.html) et [développe des projets]({{ site.url }}/work.html) sur le web depuis une vingtaine d'années. Attentif à notre environnement et à l'impact du numérique sur celui-ci, je m'intéresse aux façons de rendre le web plus humain et plus durable.
 
-Ancien [cycliste professionnel]({{ site.url }}/results.html) et passionné de sports outdoor, je suis attentif à notre environnement et à l’impact qu’a le numérique sur celui-ci.
+Ancien [cycliste professionnel]({{ site.url }}/results.html), j'aime l'action, l'effort et repousser les limites.
 
-Je m’intéresse aux façons de rendre le web plus humain et plus durable.
+À pied, en courant ou en roulant, vous pouvez me croiser avec ma famille sur les sentiers. Nous explorons l'Europe au rythme des vacances lors de nos voyages en van. Ce sont des moments privilégiés pour se rapprocher de la nature, transmettre le goût de l'aventure et vivre autrement notre quotidien.
 
-Amateur de voyages, de photographie et de minimalisme. C’est depuis Pontivy en Bretagne, que je [partage]({{ site.url }}/follow.html) une vie simple sans algorithme ni intelligence artificielle.
+Ici, je [partage]({{ site.url }}/follow.html) nos voyages, mes projets et mes réflexions sur le numérique, le sport et la vie simple. Depuis Pontivy, en Bretagne.
 
+## En bref
+
+- 📍 Pontivy, Bretagne
+- 🌱 Minimalisme & frugalité numérique
+- 🚴 Discipline & endurance issues du sport de haut niveau
 <h2 id="posts">Posts</h2>
 
 Voici une sélection de mes publications:

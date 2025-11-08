@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Formulaire de contact
-permalink:
+permalink: /contact.html
 categories:
 tags:
 redirect_from:
+redirect_to: mailto:contact@nicolasjouanno.com
 ---
 
 # Formulaire de contact

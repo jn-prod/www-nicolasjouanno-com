@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Parcours sportif de Nicolas JOUANNO DANIEL
+title: De cycliste professionnel à sportif outdoor
+description:
 permalink:
 ---
 
