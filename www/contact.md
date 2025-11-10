@@ -11,7 +11,7 @@ redirect_from:
 
 Une question, une idée, ou simplement envie d’échanger ?
 
-Écrivez-moi via le formulaire ci-dessous ou par <a href="mailto:{{site.author.email}}">email</a>, je réponds toujours avec plaisir.
+Envoyer-moi un <a href="mailto:{{site.author.email}}">email</a> ou écrivez-moi via le formulaire ci-dessous, je réponds toujours avec plaisir.
 
 <form action="https://formsubmit.co/674587a4dfca39e2907b37e886ff93ad" method="POST">
 
