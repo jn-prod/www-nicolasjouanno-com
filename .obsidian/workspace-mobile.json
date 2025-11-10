@@ -154,7 +154,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "www/index.md",
+            "file": "www/contact.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -178,7 +178,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "467161e2017e7d2c",
+  "active": "43f03c74abd37ec0",
   "lastOpenFiles": [
     "www/index.md",
     "www/results.md",

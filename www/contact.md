@@ -5,14 +5,13 @@ permalink: /contact.html
 categories:
 tags:
 redirect_from:
-redirect_to: mailto:contact@nicolasjouanno.com
 ---
 
 # Formulaire de contact
 
 Une question, une idée, ou simplement envie d’échanger ?
 
-Écrivez-moi via ce formulaire, je réponds toujours avec plaisir.
+Écrivez-moi via le formulaire ci-dessous ou par <a href="mailto:{{site.author.email}}">email</a>, je réponds toujours avec plaisir.
 
 <form action="https://formsubmit.co/674587a4dfca39e2907b37e886ff93ad" method="POST">
 
