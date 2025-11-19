@@ -1,4 +1,7 @@
 :root {
+  /* Breakpoints */
+  --breakpoint-m: 90rem;
+
   /* Fonts */
   --font-size: 1.6rem;
   --line-height: calc(var(--font-size) * 1.4);
