@@ -79,7 +79,7 @@ $variants: 'primary', 'secondary', 'dark', 'light';
   @include section-variantes($variants);
 }
 
-@media screen and (width <= var(--breakpoint-m)) {
+@media screen and (width <= 90rem) {
   .c-section {
     padding: var(--size-16);
   }

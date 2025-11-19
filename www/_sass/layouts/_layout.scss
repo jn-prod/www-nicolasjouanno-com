@@ -44,6 +44,10 @@
     padding: var(--section-spacing-y) var(--size-16);
     max-width: var(--breakpoint-m);
     margin: auto;
+
+    p, ul:not(.c-section__post-list) {
+      font-family: var(--font-family-reading);
+    }
   }
 
   &.c-layout--layout-default {
@@ -58,7 +62,7 @@
     }
   }
 
-  @media screen and (width <= var(--breakpoint-m)) {
+  @media screen and (width <= 90rem) {
     &__footer {
       padding-bottom: var(--size-64) !important;
     }
