@@ -40,7 +40,7 @@
   --section-spacing: var(--section-spacing-y) var(--section-spacing-x);
 
   /* responsive */
-  @media screen and (width <= 900px) {
+  @media screen and (width <= var(--breakpoint-m)) {
     --section-spacing-x: var(--size-16);
   }
 }
