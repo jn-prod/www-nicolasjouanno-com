@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (width <= 900px) {
+@media screen and (width <= var(--breakpoint-m)) {
   .c-jumbotron {
     padding: var(--size-16);
 
