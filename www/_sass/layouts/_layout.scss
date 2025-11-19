@@ -56,7 +56,7 @@
     }
   }
 
-  @media screen and (width <= 900px) {
+  @media screen and (width <= var(--breakpoint-m)) {
     &__footer {
       padding-bottom: var(--size-64) !important;
     }
