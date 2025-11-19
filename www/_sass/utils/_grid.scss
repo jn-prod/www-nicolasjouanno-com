@@ -30,6 +30,6 @@ $grid-columns: 12;
 
 @include col($grid-columns, $mobile: false);
 
-@media screen and (width <= 900px) {
+@media screen and (width <= var(--breakpoint-m)) {
   @include col($grid-columns, $mobile: true);
 }
