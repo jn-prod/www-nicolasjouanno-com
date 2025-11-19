@@ -41,7 +41,9 @@
   }
 
   &__content {
-    padding: var(--section-spacing);
+    padding: var(--section-spacing-y) var(--size-16);
+    max-width: var(--breakpoint-m);
+    margin: auto;
   }
 
   &.c-layout--layout-default {
