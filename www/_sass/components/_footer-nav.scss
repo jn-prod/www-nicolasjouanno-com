@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (width <= 900px) {
+@media screen and (width <= var(--breakpoint-m)) {
   .c-footer-nav {
     flex-direction: column;
   }
