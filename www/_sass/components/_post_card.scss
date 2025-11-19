@@ -78,7 +78,7 @@
   }
 }
 
-@media screen and (width <= 900px) {
+@media screen and (width <= var(--breakpoint-m)) {
   .c-post-card {
     flex-wrap: wrap;
     margin: 0;
