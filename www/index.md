@@ -40,9 +40,9 @@ Voici une sélection de mes publications:
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% for post in featured_posts | limit: 3 %}
-  {% if post.featured %}
-    - [{{ post.title }}]({{ post.url }} ({{ post.date | date: "%Y" }}))
-  {% endif %}
+{% if post.featured %}
+- [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%Y" }})
+{% endif %}
 {% endfor %}
 
 <h3 id="newsletter" class="u-visually-hidden">📬 Newsletter</h3>
