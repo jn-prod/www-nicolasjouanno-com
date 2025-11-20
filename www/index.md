@@ -39,11 +39,15 @@ Ici, je [partage]({{ site.url }}/follow.html) nos récits de voyages a travers l
 Voici une sélection de mes publications:
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
-{% for post in featured_posts | limit: 3 %}
-{% if post.featured %}
-- [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%Y" }})
-{% endif %}
-{% endfor %}
+<ul>
+  {% for post in featured_posts limit: 3 %}
+    {% if post.featured %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y" }})
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 <h3 id="newsletter" class="u-visually-hidden">📬 Newsletter</h3>
 
