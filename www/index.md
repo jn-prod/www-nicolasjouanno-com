@@ -34,20 +34,16 @@ Ici, je [partage]({{ site.url }}/follow.html) nos récits de voyages a travers l
 - 🌱 Minimalisme
 - ⛰️ Aventure, Endurance & Discipline
 
-
 <h2 id="posts">Posts</h2>
 
 Voici une sélection de mes publications:
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
-
-<ul class="c-section__post-list c-section__post-list--compact">
-  {% for post in featured_posts | limit: 3 %}
-    {% if post.featured %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y" }})</li>
-    {% endif %}
-  {% endfor %}
-</ul>
+{% for post in featured_posts | limit: 3 %}
+  {% if post.featured %}
+    - [{{ post.title }}]({{ post.url }} ({{ post.date | date: "%Y" }}))
+  {% endif %}
+{% endfor %}
 
 <h3 id="newsletter" class="u-visually-hidden">📬 Newsletter</h3>
 
