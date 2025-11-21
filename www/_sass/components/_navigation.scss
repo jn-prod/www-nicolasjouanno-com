@@ -4,6 +4,8 @@
   justify-content: space-between;
   align-items: center;
   gap: var(--size-8);
+  max-width: var(--breakpoint-m);
+  margin: auto;
 
   &__title {
     color: var(--color-dark);
