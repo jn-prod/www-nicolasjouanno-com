@@ -36,6 +36,32 @@ layout: page
   <!-- Post Content -->
   <div itemprop="articleBody">{{content}}</div>
 
+  <!-- Newsletter et Recommendations -->
+ <section>
+  <h3>📬 Recommendations</h3>
+
+  <p>Certains contenus sont réservés aux abonnés.</p>
+  <p>
+    <a href="{{ '/newsletter.html' | absolute_url }}">Inscris-toi</a> pour recevoir mes publications (web, voyages, photo, sport), pas de spam, 1 e-mail/mois maximum.
+  </p>
+
+  {% if page.previous or page.next %}
+  <p>Envie de lire d'autres publications avant ? Voici une sélection d'articles à découvrir :</p>
+  <ul>
+    {% if page.previous %}
+    <li>
+      <a href="{{ page.previous.url | absolute_url }}">{{ page.previous.title }}</a>
+    </li>
+    {% endif %}
+    {% if page.next %}
+    <li>
+      <a href="{{ page.next.url | absolute_url }}">{{ page.next.title }}</a>
+    </li>
+    {% endif %}
+  </ul>
+  {% endif %}
+</section>
+
   <!-- webmentions -->
   <section class="c-webmentions">
     <h3>💬 Mentions & réactions</h3>
@@ -74,25 +100,3 @@ layout: page
   <!-- disqus -->
   <section id="disqus_thread"></section>
 </article>
-
-<!-- End Article
-================================================== -->
-
-<!-- Prev/Next -->
-{% if page.previous.url or page.next.url %}
-<aside>
-  <ul class="u-list u-list--none u-list--inline">
-    {% if page.previous.url %}
-    <li>
-      <a href="{{page.previous.url | absolute_url}}">
-        ⏮️ {{page.previous.title}}
-      </a>
-    </li>
-    {% endif %} {% if page.next.url %}
-    <li>
-      <a href="{{page.next.url | absolute_url}}"> {{page.next.title}} ⏭️ </a>
-    </li>
-    {% endif %}
-  </ul>
-</aside>
-{% endif %}

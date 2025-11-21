@@ -8,6 +8,8 @@
   &__content {
     padding: var(--size-16);
     background-color: var(--color-light);
+    max-width: var(--breakpoint-m);
+    margin: auto;
   }
 
   &__citation {
