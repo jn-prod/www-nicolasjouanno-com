@@ -49,12 +49,4 @@ Voici une sélection de mes publications:
   {% endfor %}
 </ul>
 
-<!--
-<h3 id="newsletter" class="u-visually-hidden">📬 Newsletter</h3>
-
-Les 3 articles ci-dessus sont en accès libre. Inscris-toi à la newsletter, pour lire l'intégralité de mes publications, (développement, cyclisme, productivité). Pas de spam, juste mes meilleures publications 1x/mois.
-
-{% include /plugins/newsletter.html %}
---> 
-
 <p><a href="{{ site.url }}/posts.html">Ou consulter toutes mes archives</a></p>
