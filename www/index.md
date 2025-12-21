@@ -49,4 +49,4 @@ Voici une sélection de mes publications:
   {% endfor %}
 </ul>
 
-<p><a href="{{ site.url }}/posts.html">Ou consulte toutes mes archives</a></p>
+<a href="{{ site.url }}/posts.html">Consulter mes archives</a>
