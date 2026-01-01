@@ -7,24 +7,47 @@ description: Tout se passe ici, sur mon site.  Si vous souhaitez rester connect�
 
 # Suivre mes publications
 
-Je ne suis pas présent sur les réseaux sociaux traditionnels.  
-Tout se passe ici, sur mon site.  
-Si vous souhaitez rester connecté, plusieurs options simples et durables sont disponibles :
+Je ne suis pas présent sur les réseaux sociaux traditionnels. Je refuse de dépendre des plateformes qui nous enferment: Instagram, Facebook, X, ...
 
-## 📧 Par email (recommandé)
+## 🌱 Esprit slow web
 
-Je partage mon travail gratuitement, mais je refuse de dépendre des algorithmes: Instagram, Google... T’inscrire est le meilleur moyen de soutenir mes projets et d'être notifier de leurs avancés, ainsi je peux continuer à créer en toute indépendance.
+Ici, pas d’algorithme, pas de pub, pas de suivi intrusif. **Vous choisissez comment et quand suivre mes publications.**
 
-➡️ [S’abonner par email]({{site.author.newsletter}})
+C’est une approche **minimaliste, durable et indépendante**.  
+Votre attention n’est pas un produit, c’est un cadeau que je respecte.
 
-## 📡 Flux RSS
+Internet est pour moi un espace ouvert de liberté. Tout se passe ici, sur mon site, sur lequel je partage mon travail. 
+
+Vous souhaitez rester connecté et soutenir mes projets ? Plusieurs options simples et durables sont disponibles :
+
+## 📡 Flux RSS (recommandé)
 
 Le moyen le plus simple et le plus universel.  
 Ajoutez mon flux RSS à votre lecteur favori (Feedly, NetNewsWire, Inoreader…).
 
 ➡️ [S’abonner au flux RSS](/feed.xml)
 
-## 📝 JSON Feed
+### RSS, c’est quoi ?
+
+- [Guide débutant RSS](https://aboutfeeds.com/)
+- [Feedly, le lecteurs RSS que j’utilise](https://feedly.com) (web,mobile)
+
+## 📌 Ajouter aux favoris (vintage)
+
+Tous les navigateurs permettent d’ajouter un site en favoris depuis leur menu principal.  
+C’est une manière simple et universelle de garder ce site à portée de clic.
+
+## 📱 Application mobile (moderne)
+
+Ajoutez mon site directement à votre écran d’accueil pour l’ouvrir comme une application native.
+
+### 👉 Sur votre navigateur mobile :
+
+- **iOS (Safari)** : bouton _Partager_ → _Ajouter à l’écran d’accueil_
+- **Android (Chrome/Firefox)** : menu ⋮ → _Ajouter à l’écran d’accueil_
+- **Bureau** : favoris ou raccourci sur le bureau
+
+## 📝 JSON Feed (geek)
 
 Une alternative moderne au RSS, lisible par certains lecteurs.
 
@@ -36,21 +59,6 @@ Idéal si vous voulez suivre mes sorties, voyages ou événements. [Voir l’age
 Ajoutez le flux à votre application d'agenda (Google Calendar, iCal, Outlook…).
 
 ➡️ [Ajouter à mon agenda (ICS)](/agenda.ics)
-
-## 📌 Ajouter aux favoris
-
-Tous les navigateurs permettent d’ajouter un site en favoris depuis leur menu principal.  
-C’est une manière simple et universelle de garder ce site à portée de clic.
-
-## 📱 Application mobile
-
-Ajoutez mon site directement à votre écran d’accueil pour l’ouvrir comme une application native.
-
-### 👉 Sur votre navigateur mobile :
-
-- **iOS (Safari)** : bouton _Partager_ → _Ajouter à l’écran d’accueil_
-- **Android (Chrome/Firefox)** : menu ⋮ → _Ajouter à l’écran d’accueil_
-- **Bureau** : favoris ou raccourci sur le bureau
 
 ## 🔔 Notifications (optionnel)
 
@@ -88,21 +96,11 @@ Vous pouvez maintenant :
 
 <!-- TODO: envisager Webmention pour réponses/likes cross-site -->
 
-## 🌱 Esprit slow web
-
-Ici, pas d’algorithme, pas de pub, pas de suivi intrusif.  
-**Vous choisissez comment et quand suivre mes publications.**
-
-C’est une approche minimaliste, durable et indépendante des plateformes sociales.  
-Votre attention n’est pas un produit, c’est un cadeau que je respecte.
-
 ---
 
 ## ❓ Besoin d’aide ?
 
-- **RSS, c’est quoi ?** → [Guide débutant RSS](https://aboutfeeds.com/)
-- **Lecteurs RSS que j’utilise** → [Feedly](https://feedly.com) (web,mobile)
-- **Questions ?** → [Me contacter](/contact.html)
+- [Me contacter](/contact.html)
 
 <script>
 // browser notification

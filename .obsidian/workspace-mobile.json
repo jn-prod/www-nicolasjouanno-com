@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "www/contact.md",
+                "file": "www/subscribe/newsletter.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "contact"
+              "title": "newsletter"
             }
           }
         ]
@@ -178,13 +178,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "43f03c74abd37ec0",
+  "active": "467161e2017e7d2c",
   "lastOpenFiles": [
+    "www/contact.md",
+    "www/agenda.md",
+    "www/studio/offres/site-applicatif.md",
+    "www/studio/expertises/integrateur-web.md",
+    "www/subscribe/newsletter.md",
     "www/index.md",
     "www/results.md",
     "www/work.md",
-    "www/agenda.md",
-    "www/subscribe/newsletter.md",
     "www/CHANGELOG.md",
     "www/subscribe/on-hold.md",
     "www/subscribe/confirm.md",
@@ -204,9 +207,6 @@
     "www/_posts/2017-02-14-comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.md",
     "www/_posts/2017-01-29-vtt-pédales-automatiques-ou-pédales-plates-comment-choisir.md",
     "www/_posts/2017-02-03-comment-choisir-la-taille-de-son-vtt-et-sa-position.md",
-    "www/_posts/2017-01-17-20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.md",
-    "www/_posts/2017-02-07-choisir-son-pneu-vtt-hiver-boue.md",
-    "www/_posts/2019-01-24-podcast-gael-le-bellec.md",
     "www/_drafts",
     "configs/obsidian/templates",
     "www/_drafts"
