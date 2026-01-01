@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /follow.html
+redirect_from: /newsletter.html
 title: Suivre mes publications
 description: Tout se passe ici, sur mon site.  Si vous souhaitez rester connecté, plusieurs options simples et durables sont disponibles
 ---
@@ -32,7 +33,7 @@ Ajoutez mon flux RSS à votre lecteur favori (Feedly, NetNewsWire, Inoreader…)
 - [Guide débutant RSS](https://aboutfeeds.com/)
 - [Feedly, le lecteurs RSS que j’utilise](https://feedly.com) (web,mobile)
 
-## 📌 Ajouter aux favoris (vintage)
+## 📌 Ajouter aux favoris (simple)
 
 Tous les navigateurs permettent d’ajouter un site en favoris depuis leur menu principal.  
 C’est une manière simple et universelle de garder ce site à portée de clic.
