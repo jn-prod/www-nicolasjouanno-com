@@ -1,0 +1,723 @@
+permalink: /apps/gluten-not-gluten.html
+---
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gluten ou Pas Gluten ? - Quiz</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+```
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.container {
+  background: white;
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  max-width: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.start-screen {
+  text-align: center;
+}
+
+.difficulty-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 1.25rem 2rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+}
+
+.btn-easy {
+  background: #10b981;
+  color: white;
+}
+
+.btn-medium {
+  background: #f59e0b;
+  color: white;
+}
+
+.btn-hard {
+  background: #ef4444;
+  color: white;
+}
+
+.btn-easy:hover, .btn-medium:hover, .btn-hard:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.quiz-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #f3f4f6;
+  border-radius: 0.75rem;
+}
+
+.quiz-info div {
+  text-align: center;
+}
+
+.quiz-info .label {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.quiz-info .value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.question-card {
+  background: #f9fafb;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.question-number {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.question-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.question-emoji {
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+
+.answer-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.answer-btn {
+  padding: 2rem 1rem;
+  border: 3px solid transparent;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: white;
+}
+
+.answer-btn.gluten {
+  border-color: #ef4444;
+  color: #ef4444;
+}
+
+.answer-btn.no-gluten {
+  border-color: #10b981;
+  color: #10b981;
+}
+
+.answer-btn:hover {
+  transform: scale(1.05);
+}
+
+.answer-btn.correct {
+  background: #10b981;
+  color: white;
+  border-color: #10b981;
+}
+
+.answer-btn.incorrect {
+  background: #ef4444;
+  color: white;
+  border-color: #ef4444;
+}
+
+.answer-btn:disabled {
+  cursor: not-allowed;
+}
+
+.explanation {
+  background: #eff6ff;
+  border-left: 4px solid #3b82f6;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  display: none;
+}
+
+.explanation.show {
+  display: block;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; max-height: 0; }
+  to { opacity: 1; max-height: 200px; }
+}
+
+.explanation-title {
+  font-weight: 600;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+}
+
+.explanation-text {
+  color: #1e40af;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.next-btn {
+  margin-top: 1.5rem;
+  display: none;
+}
+
+.next-btn.show {
+  display: block;
+}
+
+.result-screen {
+  text-align: center;
+}
+
+.score-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  color: white;
+}
+
+.score-value {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.score-label {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.result-message {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.result-details {
+  background: #f3f4f6;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.result-stat {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.result-stat:last-child {
+  margin-bottom: 0;
+}
+
+.result-stat .label {
+  color: #6b7280;
+}
+
+.result-stat .value {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.btn-share {
+  flex: 1;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-twitter {
+  background: #1da1f2;
+  color: white;
+}
+
+.btn-facebook {
+  background: #1877f2;
+  color: white;
+}
+
+.btn-share:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.3s ease;
+}
+
+@media (max-width: 640px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .question-text {
+    font-size: 1.5rem;
+  }
+
+  .question-emoji {
+    font-size: 3rem;
+  }
+
+  .answer-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .share-buttons {
+    flex-direction: column;
+  }
+}
+```
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🌾 Gluten ou Pas Gluten ?</h1>
+      <p>Testez vos connaissances !</p>
+    </div>
+
+```
+<div class="content">
+  <!-- Écran de démarrage -->
+  <div id="startScreen" class="screen active">
+    <div class="start-screen">
+      <p style="font-size: 1.125rem; color: #6b7280; margin-bottom: 2rem;">
+        Êtes-vous capable de reconnaître les aliments qui contiennent du gluten ? 
+        Choisissez votre niveau et commencez le défi !
+      </p>
+      <div class="difficulty-buttons">
+        <button class="btn btn-easy" onclick="startQuiz('easy')">
+          😊 Facile - 10 questions
+        </button>
+        <button class="btn btn-medium" onclick="startQuiz('medium')">
+          🤔 Moyen - 15 questions
+        </button>
+        <button class="btn btn-hard" onclick="startQuiz('hard')">
+          🔥 Difficile - 20 questions
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Écran de quiz -->
+  <div id="quizScreen" class="screen">
+    <div class="progress-bar">
+      <div id="progressFill" class="progress-fill" style="width: 0%"></div>
+    </div>
+
+    <div class="quiz-info">
+      <div>
+        <div class="label">Question</div>
+        <div class="value"><span id="currentQuestion">1</span>/<span id="totalQuestions">10</span></div>
+      </div>
+      <div>
+        <div class="label">Score</div>
+        <div class="value" id="currentScore">0</div>
+      </div>
+      <div>
+        <div class="label">Série</div>
+        <div class="value" id="streak">0</div>
+      </div>
+    </div>
+
+    <div class="question-card">
+      <div class="question-number" id="questionCategory"></div>
+      <div class="question-emoji" id="questionEmoji">🍞</div>
+      <div class="question-text" id="questionText">Pain</div>
+    </div>
+
+    <div class="answer-buttons">
+      <button class="answer-btn gluten" onclick="checkAnswer(true)">
+        ❌ Contient du gluten
+      </button>
+      <button class="answer-btn no-gluten" onclick="checkAnswer(false)">
+        ✅ Sans gluten
+      </button>
+    </div>
+
+    <div id="explanation" class="explanation">
+      <div class="explanation-title">💡 Le saviez-vous ?</div>
+      <div class="explanation-text" id="explanationText"></div>
+    </div>
+
+    <button id="nextBtn" class="btn btn-primary next-btn" onclick="nextQuestion()">
+      Question suivante →
+    </button>
+  </div>
+
+  <!-- Écran de résultats -->
+  <div id="resultScreen" class="screen">
+    <div class="result-screen">
+      <div class="score-circle">
+        <div class="score-value" id="finalScore">0</div>
+        <div class="score-label">points</div>
+      </div>
+
+      <div class="result-message" id="resultMessage"></div>
+
+      <div class="result-details">
+        <div class="result-stat">
+          <span class="label">Bonnes réponses</span>
+          <span class="value" id="correctAnswers">0/10</span>
+        </div>
+        <div class="result-stat">
+          <span class="label">Meilleure série</span>
+          <span class="value"><span id="bestStreak">0</span> 🔥</span>
+        </div>
+        <div class="result-stat">
+          <span class="label">Précision</span>
+          <span class="value" id="accuracy">0%</span>
+        </div>
+      </div>
+
+      <div class="share-buttons">
+        <button class="btn-share btn-twitter" onclick="shareTwitter()">
+          🐦 Partager sur Twitter
+        </button>
+        <button class="btn-share btn-facebook" onclick="shareFacebook()">
+          📘 Partager sur Facebook
+        </button>
+      </div>
+
+      <button class="btn btn-primary" style="margin-top: 1.5rem; width: 100%;" onclick="restartQuiz()">
+        🔄 Rejouer
+      </button>
+    </div>
+  </div>
+</div>
+```
+
+  </div>
+
+  <script>
+    const questions = {
+      easy: [
+        { text: 'Pain', emoji: '🍞', hasGluten: true, explanation: 'Le pain classique est fait avec de la farine de blé qui contient du gluten.' },
+        { text: 'Riz', emoji: '🍚', hasGluten: false, explanation: 'Le riz est naturellement sans gluten et peut être consommé sans danger.' },
+        { text: 'Pâtes', emoji: '🍝', hasGluten: true, explanation: 'Les pâtes traditionnelles sont faites de blé dur et contiennent du gluten.' },
+        { text: 'Pomme', emoji: '🍎', hasGluten: false, explanation: 'Les fruits frais sont tous naturellement sans gluten.' },
+        { text: 'Bière', emoji: '🍺', hasGluten: true, explanation: 'La bière classique est brassée à partir d\'orge qui contient du gluten.' },
+        { text: 'Viande', emoji: '🥩', hasGluten: false, explanation: 'La viande fraîche non transformée est naturellement sans gluten.' },
+        { text: 'Croissant', emoji: '🥐', hasGluten: true, explanation: 'Les viennoiseries sont faites avec de la farine de blé riche en gluten.' },
+        { text: 'Carotte', emoji: '🥕', hasGluten: false, explanation: 'Tous les légumes frais sont naturellement sans gluten.' },
+        { text: 'Pizza', emoji: '🍕', hasGluten: true, explanation: 'La pâte à pizza classique contient de la farine de blé avec gluten.' },
+        { text: 'Œuf', emoji: '🥚', hasGluten: false, explanation: 'Les œufs sont naturellement sans gluten.' }
+      ],
+      medium: [
+        { text: 'Soja sauce', emoji: '🥫', hasGluten: true, explanation: 'La sauce soja traditionnelle contient du blé fermenté.' },
+        { text: 'Quinoa', emoji: '🌾', hasGluten: false, explanation: 'Le quinoa est une pseudo-céréale naturellement sans gluten.' },
+        { text: 'Couscous', emoji: '🍲', hasGluten: true, explanation: 'Le couscous est fait de semoule de blé dur qui contient du gluten.' },
+        { text: 'Avoine', emoji: '🌾', hasGluten: false, explanation: 'L\'avoine pure est sans gluten, mais attention à la contamination croisée !' },
+        { text: 'Biscuits', emoji: '🍪', hasGluten: true, explanation: 'Les biscuits classiques sont faits avec de la farine de blé.' },
+        { text: 'Maïs', emoji: '🌽', hasGluten: false, explanation: 'Le maïs est naturellement sans gluten.' },
+        { text: 'Seitan', emoji: '🥙', hasGluten: true, explanation: 'Le seitan est fait de gluten de blé pur ! C\'est du gluten à 100%.' },
+        { text: 'Lait', emoji: '🥛', hasGluten: false, explanation: 'Le lait nature ne contient pas de gluten.' },
+        { text: 'Céréales', emoji: '🥣', hasGluten: true, explanation: 'La plupart des céréales du commerce contiennent du blé, de l\'orge ou du malt.' },
+        { text: 'Tofu', emoji: '🧊', hasGluten: false, explanation: 'Le tofu nature est fait de soja et ne contient pas de gluten.' },
+        { text: 'Orge', emoji: '🌾', hasGluten: true, explanation: 'L\'orge contient du gluten et doit être évitée par les cœliaques.' },
+        { text: 'Patate douce', emoji: '🍠', hasGluten: false, explanation: 'Les tubercules comme la patate douce sont sans gluten.' },
+        { text: 'Burger', emoji: '🍔', hasGluten: true, explanation: 'Le pain du burger contient généralement du gluten.' },
+        { text: 'Yaourt', emoji: '🥛', hasGluten: false, explanation: 'Le yaourt nature est sans gluten, mais vérifiez les additifs.' },
+        { text: 'Crêpe', emoji: '🥞', hasGluten: true, explanation: 'Les crêpes traditionnelles sont faites avec de la farine de blé.' }
+      ],
+      hard: [
+        { text: 'Amidon modifié', emoji: '🧪', hasGluten: true, explanation: 'L\'amidon modifié peut provenir du blé et contenir du gluten.' },
+        { text: 'Sarrasin', emoji: '🌾', hasGluten: false, explanation: 'Malgré son nom, le sarrasin est sans gluten. Attention à la contamination !' },
+        { text: 'Épeautre', emoji: '🌾', hasGluten: true, explanation: 'L\'épeautre est une ancienne variété de blé qui contient du gluten.' },
+        { text: 'Kamut', emoji: '🌾', hasGluten: true, explanation: 'Le kamut est un blé ancien qui contient du gluten.' },
+        { text: 'Malt', emoji: '🍺', hasGluten: true, explanation: 'Le malt est fait d\'orge germée et contient du gluten.' },
+        { text: 'Amarante', emoji: '🌾', hasGluten: false, explanation: 'L\'amarante est une pseudo-céréale sans gluten.' },
+        { text: 'Sauce Tamari', emoji: '🥫', hasGluten: false, explanation: 'Le tamari est une sauce soja sans blé, donc sans gluten.' },
+        { text: 'Seigle', emoji: '🌾', hasGluten: true, explanation: 'Le seigle contient du gluten et doit être évité.' },
+        { text: 'Teff', emoji: '🌾', hasGluten: false, explanation: 'Le teff est une céréale éthiopienne naturellement sans gluten.' },
+        { text: 'Sirop de malt', emoji: '🍯', hasGluten: true, explanation: 'Le sirop de malt provient de l\'orge et contient du gluten.' },
+        { text: 'Farine de pois chiche', emoji: '🥙', hasGluten: false, explanation: 'La farine de pois chiche est sans gluten.' },
+        { text: 'Matzo', emoji: '🍞', hasGluten: true, explanation: 'Le pain azyme (matzo) traditionnel est fait de blé avec gluten.' },
+        { text: 'Millet', emoji: '🌾', hasGluten: false, explanation: 'Le millet est une céréale sans gluten.' },
+        { text: 'Triticale', emoji: '🌾', hasGluten: true, explanation: 'Le triticale est un hybride blé-seigle qui contient du gluten.' },
+        { text: 'Sorgho', emoji: '🌾', hasGluten: false, explanation: 'Le sorgho est une céréale sans gluten utilisée en Afrique.' },
+        { text: 'Hydrolysat de protéines', emoji: '🧪', hasGluten: true, explanation: 'Peut provenir du blé. Toujours vérifier l\'étiquette !' },
+        { text: 'Tapioca', emoji: '🥔', hasGluten: false, explanation: 'Le tapioca est extrait du manioc et est sans gluten.' },
+        { text: 'Farro', emoji: '🌾', hasGluten: true, explanation: 'Le farro est une variété de blé ancien qui contient du gluten.' },
+        { text: 'Arrow-root', emoji: '🥔', hasGluten: false, explanation: 'L\'arrow-root est une fécule sans gluten utilisée comme épaississant.' },
+        { text: 'Maltodextrine', emoji: '🧪', hasGluten: false, explanation: 'En Europe, la maltodextrine est généralement sans gluten même si issue du blé.' }
+      ]
+    };
+
+    let currentDifficulty = 'easy';
+    let currentQuestionIndex = 0;
+    let score = 0;
+    let streak = 0;
+    let bestStreak = 0;
+    let correctCount = 0;
+    let shuffledQuestions = [];
+
+    function startQuiz(difficulty) {
+      currentDifficulty = difficulty;
+      currentQuestionIndex = 0;
+      score = 0;
+      streak = 0;
+      bestStreak = 0;
+      correctCount = 0;
+
+      shuffledQuestions = shuffleArray(questions[difficulty].slice());
+
+      document.getElementById('startScreen').classList.remove('active');
+      document.getElementById('quizScreen').classList.add('active');
+      document.getElementById('totalQuestions').textContent = shuffledQuestions.length;
+
+      loadQuestion();
+    }
+
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function loadQuestion() {
+      const question = shuffledQuestions[currentQuestionIndex];
+      
+      document.getElementById('currentQuestion').textContent = currentQuestionIndex + 1;
+      document.getElementById('questionEmoji').textContent = question.emoji;
+      document.getElementById('questionText').textContent = question.text;
+      document.getElementById('questionCategory').textContent = 'Aliment';
+      
+      document.getElementById('explanation').classList.remove('show');
+      document.getElementById('nextBtn').classList.remove('show');
+      
+      const buttons = document.querySelectorAll('.answer-btn');
+      buttons.forEach(function(btn) {
+        btn.classList.remove('correct', 'incorrect');
+        btn.disabled = false;
+      });
+
+      updateProgress();
+    }
+
+    function checkAnswer(userAnswer) {
+      const question = shuffledQuestions[currentQuestionIndex];
+      const correct = userAnswer === question.hasGluten;
+
+      const buttons = document.querySelectorAll('.answer-btn');
+      buttons.forEach(function(btn) {
+        btn.disabled = true;
+      });
+
+      if (correct) {
+        correctCount++;
+        score += 10;
+        streak++;
+        if (streak > bestStreak) {
+          bestStreak = streak;
+        }
+        
+        if (userAnswer) {
+          buttons[0].classList.add('correct');
+        } else {
+          buttons[1].classList.add('correct');
+        }
+      } else {
+        streak = 0;
+        
+        if (userAnswer) {
+          buttons[0].classList.add('incorrect');
+          buttons[1].classList.add('correct');
+        } else {
+          buttons[1].classList.add('incorrect');
+          buttons[0].classList.add('correct');
+        }
+      }
+
+      document.getElementById('currentScore').textContent = score;
+      document.getElementById('streak').textContent = streak;
+
+      document.getElementById('explanationText').textContent = question.explanation;
+      document.getElementById('explanation').classList.add('show');
+      document.getElementById('nextBtn').classList.add('show');
+    }
+
+    function nextQuestion() {
+      currentQuestionIndex++;
+
+      if (currentQuestionIndex < shuffledQuestions.length) {
+        loadQuestion();
+      } else {
+        showResults();
+      }
+    }
+
+    function updateProgress() {
+      const progress = ((currentQuestionIndex + 1) / shuffledQuestions.length) * 100;
+      document.getElementById('progressFill').style.width = progress + '%';
+    }
+
+    function showResults() {
+      document.getElementById('quizScreen').classList.remove('active');
+      document.getElementById('resultScreen').classList.add('active');
+
+      document.getElementById('finalScore').textContent = score;
+      document.getElementById('correctAnswers').textContent = correctCount + '/' + shuffledQuestions.length;
+      document.getElementById('bestStreak').textContent = bestStreak;
+      
+      const accuracy = Math.round((correctCount / shuffledQuestions.length) * 100);
+      document.getElementById('accuracy').textContent = accuracy + '%';
+
+      let message = '';
+      if (accuracy === 100) {
+        message = '🏆 Parfait ! Expert sans gluten !';
+      } else if (accuracy >= 80) {
+        message = '🌟 Excellent ! Vous maîtrisez bien !';
+      } else if (accuracy >= 60) {
+        message = '👍 Bien joué ! Continuez d\'apprendre !';
+      } else {
+        message = '💪 Bon début ! Retentez votre chance !';
+      }
+      document.getElementById('resultMessage').textContent = message;
+    }
+
+    function shareTwitter() {
+      const text = 'J\'ai obtenu ' + score + ' points au quiz Gluten ou Pas Gluten ! 🌾 Testez vos connaissances !';
+      const url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text);
+      window.open(url, '_blank');
+    }
+
+    function shareFacebook() {
+      const url = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href);
+      window.open(url, '_blank');
+    }
+
+    function restartQuiz() {
+      document.getElementById('resultScreen').classList.remove('active');
+      document.getElementById('startScreen').classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
