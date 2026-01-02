@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Générateur de Carte Cœliaque</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: #718096;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.panel {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.panel h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #2d3748;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #4299e1;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.language-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.language-btn {
+  padding: 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.5rem;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: #4a5568;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.language-btn:hover {
+  border-color: #cbd5e0;
+  background: #f7fafc;
+}
+
+.language-btn.active {
+  border-color: #4299e1;
+  background: #ebf8ff;
+  color: #2c5282;
+}
+
+.template-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.template-btn {
+  padding: 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.5rem;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+}
+
+.template-btn:hover {
+  border-color: #cbd5e0;
+  background: #f7fafc;
+}
+
+.template-btn.active {
+  border-color: #48bb78;
+  background: #f0fff4;
+}
+
+.template-title {
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 0.25rem;
+}
+
+.template-desc {
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+.card-preview {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 2rem;
+}
+
+.card-preview h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+}
+
+#cardCanvas {
+  width: 100%;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  margin-bottom: 1.5rem;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.btn {
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-primary {
+  background: #4299e1;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #3182ce;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: #48bb78;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #38a169;
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: white;
+  color: #4a5568;
+  border: 2px solid #e2e8f0;
+}
+
+.btn-outline:hover {
+  background: #f7fafc;
+  border-color: #cbd5e0;
+}
+
+.format-selector {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.format-btn {
+  flex: 1;
+  padding: 0.75rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.5rem;
+  background: white;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.format-btn.active {
+  border-color: #4299e1;
+  background: #ebf8ff;
+  color: #2c5282;
+}
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  color: #718096;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+
+  .card-preview {
+    position: static;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .language-grid {
+    grid-template-columns: 1fr;
+  }
+}
+```
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🏥 Carte Cœliaque</h1>
+      <p class="subtitle">Créez votre carte d'information pour les restaurants</p>
+    </header>
+
+```
+<div class="main-content">
+  <div>
+    <div class="panel">
+      <h2>🌍 Langue</h2>
+      <div class="language-grid">
+        <button class="language-btn active" onclick="selectLanguage('fr')">
+          🇫🇷 Français
+        </button>
+        <button class="language-btn" onclick="selectLanguage('en')">
+          🇬🇧 English
+        </button>
+        <button class="language-btn" onclick="selectLanguage('es')">
+          🇪🇸 Español
+        </button>
+        <button class="language-btn" onclick="selectLanguage('it')">
+          🇮🇹 Italiano
+        </button>
+        <button class="language-btn" onclick="selectLanguage('de')">
+          🇩🇪 Deutsch
+        </button>
+        <button class="language-btn" onclick="selectLanguage('pt')">
+          🇵🇹 Português
+        </button>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top: 2rem;">
+      <h2>📝 Modèle</h2>
+      <div class="template-grid">
+        <button class="template-btn active" onclick="selectTemplate('standard')">
+          <div class="template-title">Standard</div>
+          <div class="template-desc">Explication simple et claire</div>
+        </button>
+        <button class="template-btn" onclick="selectTemplate('detailed')">
+          <div class="template-title">Détaillé</div>
+          <div class="template-desc">Informations médicales complètes</div>
+        </button>
+        <button class="template-btn" onclick="selectTemplate('urgent')">
+          <div class="template-title">Urgence</div>
+          <div class="template-desc">Message d'alerte visible</div>
+        </button>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top: 2rem;">
+      <h2>✏️ Personnalisation</h2>
+      <div class="form-group">
+        <label>Nom (optionnel)</label>
+        <input type="text" id="nameInput" placeholder="Votre nom" oninput="updateCard()">
+      </div>
+      <div class="form-group">
+        <label>Message personnalisé (optionnel)</label>
+        <textarea id="customMessage" placeholder="Ajoutez une note personnelle..." oninput="updateCard()"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-preview">
+    <h2>Aperçu</h2>
+    
+    <div class="format-selector">
+      <button class="format-btn active" onclick="selectFormat('card')">Carte</button>
+      <button class="format-btn" onclick="selectFormat('wide')">Large</button>
+    </div>
+
+    <canvas id="cardCanvas"></canvas>
+
+    <div class="action-buttons">
+      <button class="btn btn-primary" onclick="downloadCard()">
+        📥 Télécharger PNG
+      </button>
+      <button class="btn btn-secondary" onclick="shareCard()">
+        📤 Partager
+      </button>
+      <button class="btn btn-outline" onclick="printCard()">
+        🖨️ Imprimer
+      </button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>Un outil pour faciliter votre vie avec la maladie cœliaque</p>
+  <p style="margin-top: 0.5rem; font-size: 0.75rem;">Informations fournies à titre indicatif · Consultez votre médecin</p>
+</footer>
+```
+
+  </div>
+
+  <script>
+    const translations = {
+      fr: {
+        standard: {
+          title: 'MALADIE CŒLIAQUE',
+          subtitle: 'Intolérance au gluten',
+          body: 'Je suis atteint de la maladie cœliaque. Je ne peux consommer aucun aliment contenant du gluten (blé, orge, seigle).\n\nMerci de préparer mon repas sans gluten et d\'éviter toute contamination croisée.',
+          allergens: 'Allergènes à éviter : Blé • Orge • Seigle • Épeautre',
+          thanks: 'Merci de votre compréhension'
+        },
+        detailed: {
+          title: 'MALADIE CŒLIAQUE',
+          subtitle: 'Pathologie auto-immune',
+          body: 'Je suis atteint de la maladie cœliaque, une pathologie auto-immune sérieuse.\n\nJe ne peux consommer AUCUNE trace de gluten (blé, orge, seigle, épeautre).\n\nAttention aux contaminations croisées :\n• Ustensiles séparés\n• Surface de préparation propre\n• Huile de friture dédiée',
+          allergens: 'Gluten strictement interdit',
+          thanks: 'Votre aide est essentielle pour ma santé'
+        },
+        urgent: {
+          title: '⚠️ ALLERGIE SÉVÈRE',
+          subtitle: 'MALADIE CŒLIAQUE',
+          body: 'AUCUN GLUTEN\n\nÉviter absolument :\n• Blé, orge, seigle\n• Pain, pâtes, sauces\n• Contamination croisée\n\nRéaction grave possible',
+          allergens: 'SANS GLUTEN OBLIGATOIRE',
+          thanks: 'Merci - C\'est vital pour moi'
+        }
+      },
+      en: {
+        standard: {
+          title: 'CELIAC DISEASE',
+          subtitle: 'Gluten intolerance',
+          body: 'I have celiac disease. I cannot consume any food containing gluten (wheat, barley, rye).\n\nPlease prepare my meal gluten-free and avoid cross-contamination.',
+          allergens: 'Allergens to avoid: Wheat • Barley • Rye • Spelt',
+          thanks: 'Thank you for your understanding'
+        },
+        detailed: {
+          title: 'CELIAC DISEASE',
+          subtitle: 'Autoimmune condition',
+          body: 'I have celiac disease, a serious autoimmune condition.\n\nI cannot consume ANY trace of gluten (wheat, barley, rye, spelt).\n\nCross-contamination precautions:\n• Separate utensils\n• Clean preparation surface\n• Dedicated fryer oil',
+          allergens: 'Gluten strictly forbidden',
+          thanks: 'Your help is essential for my health'
+        },
+        urgent: {
+          title: '⚠️ SEVERE ALLERGY',
+          subtitle: 'CELIAC DISEASE',
+          body: 'NO GLUTEN\n\nAvoid absolutely:\n• Wheat, barley, rye\n• Bread, pasta, sauces\n• Cross-contamination\n\nSerious reaction possible',
+          allergens: 'GLUTEN-FREE MANDATORY',
+          thanks: 'Thank you - It\'s vital for me'
+        }
+      },
+      es: {
+        standard: {
+          title: 'ENFERMEDAD CELÍACA',
+          subtitle: 'Intolerancia al gluten',
+          body: 'Tengo enfermedad celíaca. No puedo consumir ningún alimento que contenga gluten (trigo, cebada, centeno).\n\nPor favor prepare mi comida sin gluten y evite la contaminación cruzada.',
+          allergens: 'Alérgenos a evitar: Trigo • Cebada • Centeno • Espelta',
+          thanks: 'Gracias por su comprensión'
+        },
+        detailed: {
+          title: 'ENFERMEDAD CELÍACA',
+          subtitle: 'Patología autoinmune',
+          body: 'Tengo enfermedad celíaca, una patología autoinmune seria.\n\nNo puedo consumir NINGÚN rastro de gluten (trigo, cebada, centeno, espelta).\n\nPrecauciones contra contaminación:\n• Utensilios separados\n• Superficie limpia\n• Aceite de freír dedicado',
+          allergens: 'Gluten estrictamente prohibido',
+          thanks: 'Su ayuda es esencial para mi salud'
+        },
+        urgent: {
+          title: '⚠️ ALERGIA GRAVE',
+          subtitle: 'ENFERMEDAD CELÍACA',
+          body: 'SIN GLUTEN\n\nEvitar absolutamente:\n• Trigo, cebada, centeno\n• Pan, pasta, salsas\n• Contaminación cruzada\n\nReacción grave posible',
+          allergens: 'SIN GLUTEN OBLIGATORIO',
+          thanks: 'Gracias - Es vital para mí'
+        }
+      },
+      it: {
+        standard: {
+          title: 'CELIACHIA',
+          subtitle: 'Intolleranza al glutine',
+          body: 'Ho la celiachia. Non posso consumare alcun alimento contenente glutine (frumento, orzo, segale).\n\nPer favore prepari il mio pasto senza glutine ed eviti la contaminazione crociata.',
+          allergens: 'Allergeni da evitare: Frumento • Orzo • Segale • Farro',
+          thanks: 'Grazie per la comprensione'
+        },
+        detailed: {
+          title: 'CELIACHIA',
+          subtitle: 'Patologia autoimmune',
+          body: 'Ho la celiachia, una patologia autoimmune seria.\n\nNon posso consumare ALCUNA traccia di glutine (frumento, orzo, segale, farro).\n\nPrecauzioni contro contaminazione:\n• Utensili separati\n• Superficie pulita\n• Olio per friggere dedicato',
+          allergens: 'Glutine severamente vietato',
+          thanks: 'Il vostro aiuto è essenziale per la mia salute'
+        },
+        urgent: {
+          title: '⚠️ ALLERGIA GRAVE',
+          subtitle: 'CELIACHIA',
+          body: 'NESSUN GLUTINE\n\nEvitare assolutamente:\n• Frumento, orzo, segale\n• Pane, pasta, salse\n• Contaminazione crociata\n\nReazione grave possibile',
+          allergens: 'SENZA GLUTINE OBBLIGATORIO',
+          thanks: 'Grazie - È vitale per me'
+        }
+      },
+      de: {
+        standard: {
+          title: 'ZÖLIAKIE',
+          subtitle: 'Glutenunverträglichkeit',
+          body: 'Ich habe Zöliakie. Ich kann keine Lebensmittel mit Gluten (Weizen, Gerste, Roggen) konsumieren.\n\nBitte bereiten Sie mein Essen glutenfrei zu und vermeiden Sie Kreuzkontamination.',
+          allergens: 'Zu vermeidende Allergene: Weizen • Gerste • Roggen • Dinkel',
+          thanks: 'Vielen Dank für Ihr Verständnis'
+        },
+        detailed: {
+          title: 'ZÖLIAKIE',
+          subtitle: 'Autoimmunerkrankung',
+          body: 'Ich habe Zöliakie, eine ernsthafte Autoimmunerkrankung.\n\nIch kann KEINE Spur von Gluten (Weizen, Gerste, Roggen, Dinkel) konsumieren.\n\nVorsichtsmaßnahmen gegen Kontamination:\n• Getrennte Utensilien\n• Saubere Oberfläche\n• Spezielles Frittieröl',
+          allergens: 'Gluten streng verboten',
+          thanks: 'Ihre Hilfe ist wichtig für meine Gesundheit'
+        },
+        urgent: {
+          title: '⚠️ SCHWERE ALLERGIE',
+          subtitle: 'ZÖLIAKIE',
+          body: 'KEIN GLUTEN\n\nUnbedingt vermeiden:\n• Weizen, Gerste, Roggen\n• Brot, Nudeln, Saucen\n• Kreuzkontamination\n\nSchwere Reaktion möglich',
+          allergens: 'GLUTENFREI OBLIGATORISCH',
+          thanks: 'Danke - Es ist lebenswichtig'
+        }
+      },
+      pt: {
+        standard: {
+          title: 'DOENÇA CELÍACA',
+          subtitle: 'Intolerância ao glúten',
+          body: 'Tenho doença celíaca. Não posso consumir nenhum alimento que contenha glúten (trigo, cevada, centeio).\n\nPor favor prepare minha refeição sem glúten e evite contaminação cruzada.',
+          allergens: 'Alérgenos a evitar: Trigo • Cevada • Centeio • Espelta',
+          thanks: 'Obrigado pela compreensão'
+        },
+        detailed: {
+          title: 'DOENÇA CELÍACA',
+          subtitle: 'Patologia autoimune',
+          body: 'Tenho doença celíaca, uma patologia autoimune séria.\n\nNão posso consumir NENHUM traço de glúten (trigo, cevada, centeio, espelta).\n\nPrecauções contra contaminação:\n• Utensílios separados\n• Superfície limpa\n• Óleo de fritura dedicado',
+          allergens: 'Glúten estritamente proibido',
+          thanks: 'Sua ajuda é essencial para minha saúde'
+        },
+        urgent: {
+          title: '⚠️ ALERGIA GRAVE',
+          subtitle: 'DOENÇA CELÍACA',
+          body: 'SEM GLÚTEN\n\nEvitar absolutamente:\n• Trigo, cevada, centeio\n• Pão, massa, molhos\n• Contaminação cruzada\n\nReação grave possível',
+          allergens: 'SEM GLÚTEN OBRIGATÓRIO',
+          thanks: 'Obrigado - É vital para mim'
+        }
+      }
+    };
+
+    let currentLanguage = 'fr';
+    let currentTemplate = 'standard';
+    let currentFormat = 'card';
+
+    function selectLanguage(lang) {
+      currentLanguage = lang;
+      document.querySelectorAll('.language-btn').forEach(function(btn) {
+        btn.classList.remove('active');
+      });
+      event.target.closest('.language-btn').classList.add('active');
+      updateCard();
+    }
+
+    function selectTemplate(template) {
+      currentTemplate = template;
+      document.querySelectorAll('.template-btn').forEach(function(btn) {
+        btn.classList.remove('active');
+      });
+      event.target.closest('.template-btn').classList.add('active');
+      updateCard();
+    }
+
+    function selectFormat(format) {
+      currentFormat = format;
+      document.querySelectorAll('.format-btn').forEach(function(btn) {
+        btn.classList.remove('active');
+      });
+      event.target.classList.add('active');
+      updateCard();
+    }
+
+    function updateCard() {
+      const canvas = document.getElementById('cardCanvas');
+      const ctx = canvas.getContext('2d');
+      
+      const width = currentFormat === 'card' ? 600 : 800;
+      const height = currentFormat === 'card' ? 900 : 600;
+      
+      canvas.width = width;
+      canvas.height = height;
+
+      const content = translations[currentLanguage][currentTemplate];
+      const userName = document.getElementById('nameInput').value;
+      const customMessage = document.getElementById('customMessage').value;
+
+      // Couleurs selon le template
+      let headerColor = '#4299e1';
+      let accentColor = '#2c5282';
+      
+      if (currentTemplate === 'urgent') {
+        headerColor = '#f56565';
+        accentColor = '#c53030';
+      } else if (currentTemplate === 'detailed') {
+        headerColor = '#48bb78';
+        accentColor = '#2f855a';
+      }
+
+      // Fond
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, width, height);
+
+      // En-tête coloré
+      ctx.fillStyle = headerColor;
+      ctx.fillRect(0, 0, width, 120);
+
+      // Titre
+      ctx.fillStyle = '#ffffff';
+      ctx.font = 'bold 36px Arial, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText(content.title, width / 2, 50);
+
+      // Sous-titre
+      ctx.font = '20px Arial, sans-serif';
+      ctx.fillText(content.subtitle, width / 2, 85);
+
+      // Nom si présent
+      if (userName) {
+        ctx.fillStyle = accentColor;
+        ctx.font = 'bold 24px Arial, sans-serif';
+        ctx.fillText(userName, width / 2, 160);
+      }
+
+      // Corps du texte
+      const startY = userName ? 200 : 160;
+      ctx.fillStyle = '#2d3748';
+      ctx.font = '18px Arial, sans-serif';
+      ctx.textAlign = 'left';
+      
+      const lines = content.body.split('\n');
+      let currentY = startY;
+      const lineHeight = 28;
+      const margin = 40;
+      
+      lines.forEach(function(line) {
+        const words = line.split(' ');
+        let currentLine = '';
+        
+        words.forEach(function(word) {
+          const testLine = currentLine + word + ' ';
+          const metrics = ctx.measureText(testLine);
+          
+          if (metrics.width > width - margin * 2 && currentLine !== '') {
+            ctx.fillText(currentLine, margin, currentY);
+            currentY += lineHeight;
+            currentLine = word + ' ';
+          } else {
+            currentLine = testLine;
+          }
+        });
+        
+        ctx.fillText(currentLine, margin, currentY);
+        currentY += lineHeight;
+      });
+
+      // Encadré allergènes
+      currentY += 20;
+      ctx.fillStyle = '#fed7d7';
+      ctx.fillRect(margin, currentY, width - margin * 2, 60);
+      
+      ctx.fillStyle = '#c53030';
+      ctx.font = 'bold 16px Arial, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText(content.allergens, width / 2, currentY + 35);
+
+      // Message personnalisé
+      if (customMessage) {
+        currentY += 80;
+        ctx.fillStyle = '#4a5568';
+        ctx.font = 'italic 16px Arial, sans-serif';
+        ctx.textAlign = 'center';
+        
+        const customLines = wrapText(ctx, customMessage, width - margin * 2);
+        customLines.forEach(function(line) {
+          ctx.fillText(line, width / 2, currentY);
+          currentY += 24;
+        });
+      }
+
+      // Remerciement
+      ctx.fillStyle = accentColor;
+      ctx.font = 'bold 20px Arial, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText(content.thanks, width / 2, height - 40);
+
+      // Bordure
+      ctx.strokeStyle = accentColor;
+      ctx.lineWidth = 4;
+      ctx.strokeRect(2, 2, width - 4, height - 4);
+    }
+
+    function wrapText(ctx, text, maxWidth) {
+      const words = text.split(' ');
+      const lines = [];
+      let currentLine = '';
+
+      words.forEach(function(word) {
+        const testLine = currentLine + word + ' ';
+        const metrics = ctx.measureText(testLine);
+        
+        if (metrics.width > maxWidth && currentLine !== '') {
+          lines.push(currentLine);
+          currentLine = word + ' ';
+        } else {
+          currentLine = testLine;
+        }
+      });
+      
+      lines.push(currentLine);
+      return lines;
+    }
+
+    function downloadCard() {
+      const canvas = document.getElementById('cardCanvas');
+      canvas.toBlob(function(blob) {
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'carte-celiaque-' + currentLanguage + '.png';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        setTimeout(function() {
+          URL.revokeObjectURL(url);
+        }, 100);
+      }, 'image/png');
+    }
+
+    function shareCard() {
+      const canvas = document.getElementById('cardCanvas');
+      
+      canvas.toBlob(function(blob) {
+        const file = new File([blob], 'carte-celiaque.png', { type: 'image/png' });
+        
+        if (navigator.share) {
+          navigator.share({
+            files: [file],
+            title: 'Ma carte cœliaque',
+            text: 'Carte d\'information maladie cœliaque'
+          }).catch(function(err) {
+            if (err.name !== 'AbortError') {
+              downloadCard();
+            }
+          });
+        } else {
+          downloadCard();
+        }
+      }, 'image/png');
+    }
+
+    function printCard() {
+      const canvas = document.getElementById('cardCanvas');
+      const dataUrl = canvas.toDataURL('image/png');
+      
+      const printWindow = window.open('', '_blank');
+      printWindow.document.write('<html><head><title>Carte Cœliaque</title>');
+      printWindow.document.write('<style>body{margin:0;display:flex;justify-content:center;align-items:center;min-height:100vh;}img{max-width:100%;height:auto;}</style>');
+
+```
+  printWindow.document.write('</head><body>');
+  printWindow.document.write('<img src="' + dataUrl + '" />');
+  printWindow.document.write('</body></html>');
+  printWindow.document.close();
+  
+  setTimeout(function() {
+    printWindow.print();
+  }, 250);
+}
+
+// Initialiser
+updateCard();
+
+
+  </script>
+</body>
+</html>
