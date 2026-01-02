@@ -60,7 +60,7 @@ Missions transverses :
 - Développement full-stack (front & back), automatisations.
 - Support et accompagnement des utilisateurs internes.
 
-### Entrepreneur - [cyclesportnature.fr](http://cyclesportnature.fr/)  (2013–2016)
+### Entrepreneur - cyclesportnature.fr (2013–2016)
 
 Reprise et développement d’un commerce spécialisé indépendant (vente et réparation de vélos)
 
@@ -97,10 +97,16 @@ Reprise et développement d’un commerce spécialisé indépendant (vente et r�
 
 ### Vendeur — Twinner Sport (2007–2008)
 
-## Projets personnels
+## Projets
+
+### Personnel
 
 - [VTT.bzh](https://vtt.bzh/) : calendrier communautaire VTT en Bretagne.
-- [nicolasjouanno.com](https://nicolasjouanno.com/) : expérimentation UX & minimalisme digital.
+
+### Communauté
+
+- [Site athlète: GAËL LE BELLEC](https://www.gael-lebellec.bzh/)
+- [Site vitrine: BREIZH TRAINING](https://www.breizhtraining.bzh/)
 
 ## Compétences
 

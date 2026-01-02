@@ -4,7 +4,7 @@ title: Posts
 permalink: "/posts.html"
 ---
 
-<h1>Posts</h1>
+# Posts
 
 <ul class="c-section__post-list">
   {% for post in site.posts %}

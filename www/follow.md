@@ -12,12 +12,9 @@ Je ne suis pas présent sur les réseaux sociaux traditionnels. Je refuse de dé
 
 ## 🌱 Esprit slow web
 
-Ici, pas d’algorithme, pas de pub, pas de suivi intrusif. **Vous choisissez comment et quand suivre mes publications.**
+Ici, pas d’algorithme, pas de pub, pas de suivi intrusif. **Vous choisissez comment et quand suivre mes publications.** C’est une approche **minimaliste, durable et indépendante**. Votre attention n’est pas un produit, c’est un cadeau que je respecte.
 
-C’est une approche **minimaliste, durable et indépendante**.  
-Votre attention n’est pas un produit, c’est un cadeau que je respecte.
-
-Internet est pour moi un espace ouvert de liberté. Tout se passe ici, sur mon site, sur lequel je partage mon travail. 
+Internet est pour moi un espace ouvert de liberté. Tout se passe sur mon site où je partage mon travail. 
 
 Vous souhaitez rester connecté et soutenir mes projets ? Plusieurs options simples et durables sont disponibles :
 
@@ -31,7 +28,7 @@ Ajoutez mon flux RSS à votre lecteur favori (Feedly, NetNewsWire, Inoreader…)
 ### RSS, c’est quoi ?
 
 - [Guide débutant RSS](https://aboutfeeds.com/)
-- [Feedly, le lecteurs RSS que j’utilise](https://feedly.com) (web,mobile)
+- [Feedly, le lecteur RSS que j’utilise](https://feedly.com) (web,mobile)
 
 ## 📌 Ajouter aux favoris (simple)
 
