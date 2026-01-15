@@ -11,12 +11,112 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Sat, 03 Jan 2026 13:02:57 +0000</pubDate>
-    <lastBuildDate>Sat, 03 Jan 2026 13:02:57 +0000</lastBuildDate>
+    <pubDate>Thu, 15 Jan 2026 19:57:45 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Jan 2026 19:57:45 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
 
+    
+      <item>
+        <title></title>
+        <description><![CDATA[
+          
+          
+          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/2026-01-15-buzz-galette-des-rois-sans-gluten.html" target="_blank">nicolasjouanno.com</a></p>
+        ]]></description>
+        <content:encoded><![CDATA[<p>Hier, j’ai signalé, via les outils de signalement des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :</p>
+<ul>
+  <li><a href="https://www.instagram.com/reel/DTdXxP3jU50/?igsh=Z3QxYTY4anBrMGpy">une publication de Laurent Wauquiez, président du groupe Les Républicains à l’Assemblée nationale</a></li>
+  <li><a href="https://www.instagram.com/reel/DTfbypiCH3H/?igsh=MXhoaXM2aG1kaDNieg==">une publication de François Lenglet, journaliste sur RTL</a></li>
+</ul>
+
+<p>Ces contenus ont alimenté un véritable bad buzz autour de l’idée que la galette des rois sans gluten serait remboursée par la Sécurité sociale. Ils créent un amalgame entre :</p>
+<ol>
+  <li>La maladie cœliaque — une maladie auto-immune reconnue</li>
+  <li>La consommation de produits “sans gluten”, une catégorie alimentaire qui n’est pas spécifique à la maladie</li>
+</ol>
+
+<p>Ce flou entretient encore davantage la confusion autour du régime sans gluten, déjà fragilisé par des discours non médicaux sur les réseaux sociaux.</p>
+
+<h2 id="linformation-vs-la-rapidité">L’information vs la rapidité</h2>
+
+<p>Ce qui me choque aujourd’hui, c’est qu’aucune grande rédaction nationale ne semble avoir repris le sujet avec précision, malgré son ampleur dans les réseaux. Ce qui entretient la confusion sur le sujet.</p>
+
+<p>Lorsque l’on travaille dans l’information, vérifier ses sources et restituer fidèlement les faits n’est pas une option : c’est une obligation, même (et surtout) quand le temps manque.</p>
+
+<p>Je ne remets pas en cause le travail des journalistes : la pression d’être le premier à publier, ou de générer des clics pour alimenter des revenus publicitaires, peut détourner de l’essentiel qui est de produire une information vérifiée et précise.</p>
+
+<h2 id="le-mythe-du-montant-du-remboursement-de-la-galette">Le mythe du “montant du remboursement de la galette”</h2>
+
+<ul>
+  <li>Prix de la galette (330g): 18,95€ TTC</li>
+  <li>Base de remboursement selon le <a href="https://www.ameli.fr/etablissement/exercice-professionnel/nomenclatures-codage/lpp">LPPR</a>: 3,81€</li>
+  <li>Taux de remboursement Sécu sur la base de remboursement: 60%</li>
+  <li>Résultat: 3,81€ x 60% = 2,29€</li>
+</ul>
+
+<p>Le fabricant indiquant vouloir en vendre 3000 (source <a href="https://www.franceinfo.fr/sante/alimentation/une-galette-des-rois-remboursee-en-partie-par-la-securite-sociale-si-vous-avez-la-maladie-c-liaque_7738714.html">France Info</a>). Cela représente un coût potentiel maximum pour la Sécurité sociale de 6 870€, 
+en supposant que :</p>
+<ul>
+  <li>tous les acheteurs soient des malades cœliaques</li>
+  <li>tous ces malades soient reconnus en ALD</li>
+  <li>tous ces acheteurs reconnus envoient leur demande de remboursement</li>
+</ul>
+
+<p>Il est important de rappeler que la Sécurité sociale plafonne le remboursement des produits certifié sans gluten par mois :</p>
+
+<blockquote>
+  <p>“Pour un adulte, cette prise en charge est plafonnée à 45,73 euros par mois. Le plafond est de 33,54 euros pour un enfant de moins de 10 ans.”</p>
+</blockquote>
+
+<p>À la question “quelles sont les alternatives à ce produit pour un malade cœliaque ?”, la réponse est : aucune. Qu’il ait 8 ou 78 ans, il ne peut pas non plus choisir entre frangipane, pomme ou autre garniture. Il a celle-là, ou la frustration de ne pas pouvoir participer à ce moment de partage.</p>
+
+<h2 id="un-angle-trop-rarement-abordé">Un angle trop rarement abordé</h2>
+
+<p>Plutôt que d’évoquer un “trou de la Sécurité sociale”, on pourrait pointer le véritable problème : l’offre industrielle.</p>
+
+<p>➡️ Beaucoup de produits vendus en grande distribution portent la mention “peut contenir des traces de gluten”. Cette mention protège légalement les industriels, mais exclut de fait les personnes réellement cœliaques, qui doivent éviter toute trace, pas seulement la protéine elle-même.</p>
+
+<p>Cela concerne :</p>
+<ul>
+  <li>des épices</li>
+  <li>des céréales du petit déjeuner</li>
+  <li>des plats préparés</li>
+  <li>même… des boulettes de viande</li>
+</ul>
+
+<p>Pour illustrer concrètement, voici <a href="https://www.maviesansgluten.bio/10-aliments-ou-lon-ne-sattend-pas-a-trouver-du-gluten/">un article</a> qui liste des produits où l’on ne s’attend pas à trouver du gluten, mais qui peuvent en contenir.</p>
+
+<h2 id="une-réalité-rencontrée">Une réalité rencontrée</h2>
+
+<p>Je suis adhérent de l’AFDIAG. Lors des réunions, je rencontre régulièrement des personnes qui, bien qu’elles suivent un régime sans gluten pour des raisons de santé, n’ont pas de diagnostic médical officiel. Elles n’ont donc pas accès au remboursement des aliments certifiés sans gluten.</p>
+
+<p>Cela soulève une question importante : combien de personnes pourraient être diagnostiquées, mais ne le sont pas ? Et combien de familles se retrouvent sans soutien alors qu’une prise en charge existe pour les malades reconnus ?</p>
+
+<h2 id="et-maintenant-">Et maintenant ?</h2>
+
+<p>Il y a quelques semaine, j’ai créer un petit <a href="https://www.nicolasjouanno.com/apps/gluten-not-gluten">quizz qui permet de tester ses connaissances sur la présence de gluten dans les aliments</a>. Prêt à relever le défi ?</p>
+
+<h2 id="sources">Sources</h2>
+
+<p>Voici des sources fiables pour s’informer correctement sur la thématique abordée :</p>
+
+<ul>
+  <li><a href="https://fr.wikipedia.org/wiki/Maladie_c%C5%93liaque">🧠 Wikipédia – Maladie cœliaque</a></li>
+  <li><a href="https://www.ameli.fr/assure/remboursements/rembourse/medicaments-vaccins-dispositifs-medicaux/remboursement-aliments-sans-gluten-ameli">💳 Ameli – Règles de prise en charge des aliments sans gluten</a></li>
+  <li><a href="https://www.afdiag.fr/fr/">🤝 AFDIAG – Association Française Des Intolérants Au Gluten</a></li>
+  <li><a href="https://www.le-petit-minotier.fr/produit/galette-sans-lactose-aux-amandes">🥐 La galette des rois sans gluten certifiée AFDIAG en question</a></li>
+</ul>
+]]></content:encoded>
+        <pubDate>Thu, 15 Jan 2026 19:57:45 +0000</pubDate>
+        <link>https://www.nicolasjouanno.com/2026-01-15-buzz-galette-des-rois-sans-gluten.html</link>
+        <guid isPermaLink="true">https://www.nicolasjouanno.com/2026-01-15-buzz-galette-des-rois-sans-gluten.html</guid>
+        <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
+        
+        
+        
+      </item>
     
       <item>
         <title>Retrouver le fil - pourquoi je recentre tout sur un seul site</title>
@@ -791,67 +891,6 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
         
         
         <category>Product Management</category>
-        
-      </item>
-    
-      <item>
-        <title>Les bienfaits de l’inbox 0</title>
-        <description><![CDATA[
-          
-            <a href="https://www.nicolasjouanno.com/les-bienfaits-de-linbox-0.html" target="_blank">
-              <img src="https://www.nicolasjouanno.comassets/images/posts/e0a38-10yto40xd793dweahzoxsta.jpeg" alt="Les bienfaits de l’inbox 0"/>
-            </a>
-          
-          L’inbox 0, plus qu’une règle c’est un état d’esprit de productivité que j’applique au quotidien.
-
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/les-bienfaits-de-linbox-0.html" target="_blank">nicolasjouanno.com</a></p>
-        ]]></description>
-        <content:encoded><![CDATA[<h2 id="linbox-0-plus-quune-règle-cest-un-état-desprit-de-productivité-que-japplique-au-quotidien">L’inbox 0, plus qu’une règle c’est un état d’esprit de productivité que j’applique au quotidien.</h2>
-
-<p>C’est en regardant en 2016 <a href="https://www.youtube.com/watch?v=O7FGTTCj42w" target="_blank" rel="nofollow">ce meetup</a> de <a href="https://medium.com/u/ccc6ada1ac8e" target="_blank" rel="nofollow">Jean de La Rochebrochard</a> chez <a href="https://medium.com/u/c0ef96e7e6c5" target="_blank" rel="nofollow">The Family</a> que j’ai découvert le principe de “l’inbox 0” (pour rappel “l’inbox 0” consiste à avoir à intervalle régulier une boite de réception email à 0).</p>
-
-<p>Ce concept de productivité est avant toute chose accessible à tous et fait preuve de bon sens. Après tout, qui est capable de travailler sereinement avec une pille interminable de papiers sur son bureau ? Il en est de même pour les supports numérique.</p>
-
-<blockquote>
-“ Less is more “ Mies van der Rohe</blockquote>
-
-<p>Dans ma première expérience entrepreneuriale, je me suis clairement laissé dépassé par la paperasse en la laissant en attente, qu’elle soit dématérialisée ou non. Les conséquences de cette méthode aléatoire sont multiples, mais apportent rarement du positif.</p>
-
-<p>Il en était de même pour les emails qu’ils soient de clients ou de tierces, au mieux répondue avec un délai interminable, au pire, rester sans réponses. Inutile de vous faire un dessin sur la conséquence de cette méthode et sur l’image qu’elle projette. Je ne dirais pas que ça à coulé ma boite, mais ça ne l’a pas tirée vers le haut ! Sans compter la sensation désagréable de toujours courir après les mails sans savoir par où commencer quand j’ouvrais ma boite mail. Pire l’appréhension montante de voir de nouveaux emails arriver.</p>
-
-<p>C’est donc pour me débarrasser de ce vieux démons, qu’avant d’entamer une nouvelle expérience professionnelle, j’ai adopté radicalement du jour au lendemain l’inbox 0. C’est avec simplicité que j’ai archivé sans tri ni relecture tous les emails de plus d’un mois. Pour les emails de moins d’un mois, le tri était simple, un passage direct à la poubelle pour toutes les newsletters. Une relecture de tous les emails restant un à un que ce concluait soit par un archivage soit par une réponse.</p>
-
-<figure><img src="https://www.nicolasjouanno.com//0c183-1_g8fkft15lcn-3j_75pfaq.jpeg" alt="inbox zero" />
-</figure>
-
-<p>Cela fait donc deux ans que j’applique quotidiennement l’inbox 0 (j’ai de façon certaine beaucoup moins de mail que Jean). Ma journée de travail commence sans comparaison plus positivement après avoir traité tous les emails et me procure un sentiment d’apaisement et de clairvoyance pour le reste de la journée.</p>
-
-<p>Une fois de plus ma méthode de tri est simple, pour traiter les emails vite et bien. Je commence par les newsletters, regarde l’accroche et sauvegarde dans mon Pocket les liens qui m’intéressent avant de supprimer l’email. Ensuite, je lis les emails de mes contacts avec deux options, soit l’email nécessite une réponse, auquel cas je m’y attelle directement, soit c’est un “todo” auquel cas que l’ajoute et le priorise dans mon Asana (ou Trello), soit il n’y a rien à faire et je l’archive.</p>
-
-<p>Mon Gmail est paramétré pour archiver tous les emails auquel je réponds. Etant donné la quantité de communication qui passe par email dans l’entreprise, une fois tous les emails traité, ma journée commence en étant globalement à jour, l’esprit libre et léger, prêt à attaquer les taches qui demandent de la concentration.</p>
-
-<p>Cette méthode crée un cercle vertueux. La satisfaction d’avoir terminer quelque chose dès le début de la journée, qui conditionne positivement le reste de la journée. Projette une image professionnelle. Me fait passer pour une machine qui n’oublie jamais rien. Et me permet de savoir par où crocher quand je reviens de vacances. En plus, j’ai pris le pli pour le traitement papier ce qui me permet d’avoir un espace de travail hyper épurer avec seulement un ordi et une tasse de café.</p>
-
-<h2 id="bonus">Bonus</h2>
-
-<p>Pour gagner encore plus de temps dans le traitement de mes emails, j’utilise StreakCRM en complément de mon Gmail. Cela me permet deux choses importantes.</p>
-
-<p>Un, avoir un tracker d’ouverture d’e-mail pour savoir si mes emails importants ont bien été lu par le destinataire. Ainsi, suivant l’objectif de l’email cela me permet d’ajuster l’email de relance.</p>
-
-<p>Deux, pouvoir profiter d’une base d’email pré-enregistré qui me permet de ne pas avoir à ré-écrire et/ou re-structurer un email envoyé de façon répétée (reporting, transmission de docs, …). Fonctionnalité disponible également dans les outils Gmail qui est moins intuitif que Streak ( paramètre labos Réponses standardisées).</p>
-
-<p>Une autre fonctionnalité qui est intéressante pour le démarchage que je n’utilise que très rarement est le suivi d’email dans un tunnel : Sales, Support.</p>
-]]></content:encoded>
-        <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
-        <link>https://www.nicolasjouanno.com/les-bienfaits-de-linbox-0.html</link>
-        <guid isPermaLink="true">https://www.nicolasjouanno.com/les-bienfaits-de-linbox-0.html</guid>
-        <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
-        
-        <enclosure url="https://www.nicolasjouanno.comassets/images/posts/e0a38-10yto40xd793dweahzoxsta.jpeg" type="image/*"/>
-        
-        
-        
-        <category>Startup Growth</category>
         
       </item>
     
