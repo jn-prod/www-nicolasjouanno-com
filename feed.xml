@@ -11,19 +11,24 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Thu, 15 Jan 2026 19:58:51 +0000</pubDate>
-    <lastBuildDate>Thu, 15 Jan 2026 19:58:51 +0000</lastBuildDate>
+    <pubDate>Thu, 15 Jan 2026 20:00:37 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Jan 2026 20:00:37 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
 
     
       <item>
-        <title></title>
+        <title>RE : (Bad) BUZZ et désinformation autour du remboursement de la galette des rois sans gluten</title>
         <description><![CDATA[
           
-          
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/2026-01-15-buzz-galette-des-rois-sans-gluten.html" target="_blank">nicolasjouanno.com</a></p>
+          Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :
+
+  une publication de Laurent Wauquiez, président du groupe Les Républicains à l’Assemblée nationale
+  une publication de François Lenglet, journaliste sur RTL
+
+
+          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html" target="_blank">nicolasjouanno.com</a></p>
         ]]></description>
         <content:encoded><![CDATA[<p>Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :</p>
 <ul>
@@ -109,11 +114,17 @@ en supposant que :</p>
   <li><a href="https://www.le-petit-minotier.fr/produit/galette-sans-lactose-aux-amandes">🥐 La galette des rois sans gluten certifiée AFDIAG en question</a></li>
 </ul>
 ]]></content:encoded>
-        <pubDate>Thu, 15 Jan 2026 19:58:51 +0000</pubDate>
-        <link>https://www.nicolasjouanno.com/2026-01-15-buzz-galette-des-rois-sans-gluten.html</link>
-        <guid isPermaLink="true">https://www.nicolasjouanno.com/2026-01-15-buzz-galette-des-rois-sans-gluten.html</guid>
+        <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+        <link>https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html</link>
+        <guid isPermaLink="true">https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html</guid>
         <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
         
+        
+        <category>sans-gluten</category>
+        
+        <category>sécu</category>
+        
+        <category>santé</category>
         
         
       </item>
