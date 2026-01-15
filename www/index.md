@@ -36,17 +36,10 @@ Ici, je [partage]({{ site.url }}/follow.html) nos récits de voyages a travers l
 
 <h2 id="posts">Posts</h2>
 
-Voici une sélection de mes publications:
+Découvrez mes dernières publications:
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
-<ul>
-  {% for post in featured_posts limit: 3 %}
-    {% if post.featured %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y" }})
-    </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+{% for post in site.posts limit: 3 %}
+- [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%Y" }})
+{% endfor %}
 
-<a href="{{ site.url }}/posts.html">Consulter mes archives</a>
+<a href="{{ site.url }}/posts.html">Consulter toutes mes archives</a>
