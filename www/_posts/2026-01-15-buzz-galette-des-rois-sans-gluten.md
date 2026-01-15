@@ -9,7 +9,7 @@ tags:
 images:
 ---
 
-Hier, j’ai signalé, via les outils de signalement des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :
+Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :
 - [une publication de Laurent Wauquiez, président du groupe Les Républicains à l’Assemblée nationale](https://www.instagram.com/reel/DTdXxP3jU50/?igsh=Z3QxYTY4anBrMGpy)
 - [une publication de François Lenglet, journaliste sur RTL](https://www.instagram.com/reel/DTfbypiCH3H/?igsh=MXhoaXM2aG1kaDNieg==)
 
