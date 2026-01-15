@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'RE : (Bad) BUZZ et désinformation autour du remboursement de la galette des rois sans gluten'
+title: "RE : (Bad) BUZZ et désinformation autour du remboursement de la galette des rois sans gluten"
 categories:
 tags:
   - sans-gluten
