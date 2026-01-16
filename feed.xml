@@ -11,8 +11,8 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Fri, 16 Jan 2026 07:39:25 +0000</pubDate>
-    <lastBuildDate>Fri, 16 Jan 2026 07:39:25 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Jan 2026 12:20:15 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Jan 2026 12:20:15 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
@@ -24,19 +24,17 @@
           
           Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :
 
-  une publication de Laurent Wauquiez, président du groupe Les Républicains à l’Assemblée nationale
-  une publication de François Lenglet, journaliste sur RTL
-
-
           <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html" target="_blank">nicolasjouanno.com</a></p>
         ]]></description>
         <content:encoded><![CDATA[<p>Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :</p>
+
 <ul>
   <li><a href="https://www.instagram.com/reel/DTdXxP3jU50/?igsh=Z3QxYTY4anBrMGpy">une publication de Laurent Wauquiez, président du groupe Les Républicains à l’Assemblée nationale</a></li>
   <li><a href="https://www.instagram.com/reel/DTfbypiCH3H/?igsh=MXhoaXM2aG1kaDNieg==">une publication de François Lenglet, journaliste sur RTL</a></li>
 </ul>
 
 <p>Ces contenus ont alimenté un véritable bad buzz autour de l’idée que la galette des rois sans gluten serait remboursée par la Sécurité sociale. Ils créent un amalgame entre :</p>
+
 <ol>
   <li>La maladie cœliaque — une maladie auto-immune reconnue</li>
   <li>La consommation de produits “sans gluten”, une catégorie alimentaire qui n’est pas spécifique à la maladie</li>
@@ -61,8 +59,9 @@
   <li>Résultat: 3,81€ x 60% = 2,29€</li>
 </ul>
 
-<p>Le fabricant indiquant vouloir en vendre 3000 (source <a href="https://www.franceinfo.fr/sante/alimentation/une-galette-des-rois-remboursee-en-partie-par-la-securite-sociale-si-vous-avez-la-maladie-c-liaque_7738714.html">France Info</a>). Cela représente un coût potentiel maximum pour la Sécurité sociale de 6 870€, 
+<p>Le fabricant indiquant vouloir en vendre 3000 (source <a href="https://www.franceinfo.fr/sante/alimentation/une-galette-des-rois-remboursee-en-partie-par-la-securite-sociale-si-vous-avez-la-maladie-c-liaque_7738714.html">France Info</a>). Cela représente un coût potentiel maximum pour la Sécurité sociale de 6 870€,
 en supposant que :</p>
+
 <ul>
   <li>tous les acheteurs soient des malades cœliaques</li>
   <li>tous ces malades soient reconnus en ALD</li>
@@ -84,6 +83,7 @@ en supposant que :</p>
 <p>➡️ Beaucoup de produits vendus en grande distribution portent la mention “peut contenir des traces de gluten”. Cette mention protège légalement les industriels, mais exclut de fait les personnes réellement cœliaques, qui doivent éviter toute trace, pas seulement la protéine elle-même.</p>
 
 <p>Cela concerne :</p>
+
 <ul>
   <li>des épices</li>
   <li>des céréales du petit déjeuner</li>
