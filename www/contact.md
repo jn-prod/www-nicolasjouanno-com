@@ -16,6 +16,7 @@ Envoyer-moi un <a href="mailto:{{site.author.email}}">email</a> ou écrivez-moi 
 <form action="https://formsubmit.co/674587a4dfca39e2907b37e886ff93ad" method="POST">
 
       <!-- Champs visibles -->
+
 <p>Tous les champs sont obligatoires</p>
 
       <div>

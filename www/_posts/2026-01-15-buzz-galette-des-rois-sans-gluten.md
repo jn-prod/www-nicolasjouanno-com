@@ -5,15 +5,17 @@ categories:
 tags:
   - sans-gluten
   - sécu
-  - santé 
+  - santé
 images:
 ---
 
 Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :
+
 - [une publication de Laurent Wauquiez, président du groupe Les Républicains à l’Assemblée nationale](https://www.instagram.com/reel/DTdXxP3jU50/?igsh=Z3QxYTY4anBrMGpy)
 - [une publication de François Lenglet, journaliste sur RTL](https://www.instagram.com/reel/DTfbypiCH3H/?igsh=MXhoaXM2aG1kaDNieg==)
 
 Ces contenus ont alimenté un véritable bad buzz autour de l’idée que la galette des rois sans gluten serait remboursée par la Sécurité sociale. Ils créent un amalgame entre :
+
 1. La maladie cœliaque — une maladie auto-immune reconnue
 2. La consommation de produits “sans gluten”, une catégorie alimentaire qui n’est pas spécifique à la maladie
 
@@ -34,8 +36,9 @@ Je ne remets pas en cause le travail des journalistes : la pression d’être le
 - Taux de remboursement Sécu sur la base de remboursement: 60%
 - Résultat: 3,81€ x 60% = 2,29€
 
-Le fabricant indiquant vouloir en vendre 3000 (source [France Info](https://www.franceinfo.fr/sante/alimentation/une-galette-des-rois-remboursee-en-partie-par-la-securite-sociale-si-vous-avez-la-maladie-c-liaque_7738714.html)). Cela représente un coût potentiel maximum pour la Sécurité sociale de 6 870€, 
+Le fabricant indiquant vouloir en vendre 3000 (source [France Info](https://www.franceinfo.fr/sante/alimentation/une-galette-des-rois-remboursee-en-partie-par-la-securite-sociale-si-vous-avez-la-maladie-c-liaque_7738714.html)). Cela représente un coût potentiel maximum pour la Sécurité sociale de 6 870€,
 en supposant que :
+
 - tous les acheteurs soient des malades cœliaques
 - tous ces malades soient reconnus en ALD
 - tous ces acheteurs reconnus envoient leur demande de remboursement
@@ -53,6 +56,7 @@ Plutôt que d’évoquer un “trou de la Sécurité sociale”, on pourrait poi
 ➡️ Beaucoup de produits vendus en grande distribution portent la mention “peut contenir des traces de gluten”. Cette mention protège légalement les industriels, mais exclut de fait les personnes réellement cœliaques, qui doivent éviter toute trace, pas seulement la protéine elle-même.
 
 Cela concerne :
+
 - des épices
 - des céréales du petit déjeuner
 - des plats préparés

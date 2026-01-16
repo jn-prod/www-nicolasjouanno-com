@@ -21,7 +21,7 @@ $variants: 'primary', 'secondary', 'dark', 'light';
 
         &:hover,
         &:focus {
-          border: 1px solid var(--color-dark);
+          border: var(--border);
         }
       }
     }
@@ -34,7 +34,8 @@ $variants: 'primary', 'secondary', 'dark', 'light';
   gap: var(--size-8);
   width: fit-content;
   padding: var(--size-8) var(--size-16);
-  border: 1px solid transparent;
+  border: var(--border);
+  border-color: transparent;
   border-radius: var(--size-32);
   text-decoration: none;
   color: var(--color-dark);

@@ -16,7 +16,7 @@ layout: page
   <header>
     <h1 itemprop="name headline">{{ page.title }}</h1>
     <div class="c-layout__author">
-      {% include /boxes/author.html post=page %}
+      {% include /components/author.html post=page %}
     </div>
     <meta
       itemprop="url mainEntityOfPage"
@@ -43,18 +43,23 @@ layout: page
 
   <p>Certains contenus sont réservés aux abonnés.</p>
   <p>
-    <a href="{{ '/follow.html' | absolute_url }}">Suis-moi</a> pour recevoir mes publications (web, voyages, photo, sport).
+    <a href="{{ '/follow.html' | absolute_url }}">Suis-moi</a> pour recevoir mes
+    publications (web, voyages, photo, sport).
   </p>
 
   {% if page.previous or page.next %}
-  <p>Envie de lire d'autres publications avant ? Voici une sélection d'articles à découvrir :</p>
+  <p>
+    Envie de lire d'autres publications avant ? Voici une sélection d'articles à
+    découvrir :
+  </p>
   <ul>
     {% if page.previous %}
     <li>
-      <a href="{{ page.previous.url | absolute_url }}">{{ page.previous.title }}</a>
+      <a href="{{ page.previous.url | absolute_url }}"
+        >{{ page.previous.title }}</a
+      >
     </li>
-    {% endif %}
-    {% if page.next %}
+    {% endif %} {% if page.next %}
     <li>
       <a href="{{ page.next.url | absolute_url }}">{{ page.next.title }}</a>
     </li>
@@ -65,38 +70,34 @@ layout: page
 
 <!-- webmentions -->
 <section class="c-webmentions">
-    <h2>💬 Mentions & réactions</h2>
-    <p>
-      Si vous avez écrit une réponse ou mentionné cet article sur votre propre
-      site, vous pouvez le poster ici via
-      <a href="https://indieweb.org/Webmention" rel="nofollow">Webmention</a>.
-    </p>
+  <h2>💬 Mentions & réactions</h2>
+  <p>
+    Si vous avez écrit une réponse ou mentionné cet article sur votre propre
+    site, vous pouvez le poster ici via
+    <a href="https://indieweb.org/Webmention" rel="nofollow">Webmention</a>.
+  </p>
 
-    <form
-      action="{{ site.author.webmention }}"
-      method="post"
-      class="c-webmentions__form"
-    >
-      <label for="source">URL de votre page :</label>
-      <input
-        id="source"
-        name="source"
-        type="url"
-        placeholder="https://exemple.com/ma-reponse"
-        required
-      />
-      <input
-        type="hidden"
-        name="target"
-        value="{{ page.url | absolute_url }}"
-      />
-      <button type="submit" class="c-button c-button--dark">Envoyer</button>
-    </form>
+  <form
+    action="{{ site.author.webmention }}"
+    method="post"
+    class="c-webmentions__form"
+  >
+    <label for="source">URL de votre page :</label>
+    <input
+      id="source"
+      name="source"
+      type="url"
+      placeholder="https://exemple.com/ma-reponse"
+      required
+    />
+    <input type="hidden" name="target" value="{{ page.url | absolute_url }}" />
+    <button type="submit" class="c-button c-button--dark">Envoyer</button>
+  </form>
 
-    <div id="webmentions-list">
-      <p>Chargement des réactions…</p>
-    </div>
-  </section>
+  <div id="webmentions-list">
+    <p>Chargement des réactions…</p>
+  </div>
+</section>
 
-  <!-- disqus -->
+<!-- disqus -->
 <section id="disqus_thread"></section>

@@ -46,7 +46,7 @@
 
     &.c-navigation--main {
       .c-navigation__link-list {
-        border-top: solid var(--color-dark-light) 1px;
+        border-top: var(--border);
         flex-direction: row;
         position: fixed;
         bottom: 0;

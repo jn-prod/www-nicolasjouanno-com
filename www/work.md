@@ -19,7 +19,8 @@ icons:
   - stencil
 aliases:
 ---
-# Développeur Frontend spécialisé en Design System, Web Composants et Accessibilité 
+
+# Développeur Frontend spécialisé en Design System, Web Composants et Accessibilité
 
 Je suis développeur frontend spécialisé dans les design systems, l’accessibilité et les architectures modernes (Web Composants, micro-frontends, Jamstack).
 

@@ -4,23 +4,29 @@
 
   /* Fonts */
   --font-size: 1.6rem;
-  --line-height: calc(var(--font-size) * 1.4);
+  --font-size-h1: calc(var(--font-size) * 1.6);
+  --font-size-h2: calc(var(--font-size) * 1.5);
+  --font-size-h3: calc(var(--font-size) * 1.4);
+  --font-size-h4: calc(var(--font-size) * 1.3);
+  --font-size-h5: calc(var(--font-size) * 1.2);
+  --font-size-h6: calc(var(--font-size) * 1.1);
+  --line-height: 1.4;
   --font-family: 'Lato', sans-serif;
   --font-family-heading: 'Abril Fatface', sans-serif;
-  --font-family-reading: 'Source Serif 4', Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-family-reading: 'Source Serif 4', georgia, cambria, "Times New Roman", times, serif;
 
   /* colors */
   --color-primary: #09645f;
   --color-secondary: #71323e;
   --color-dark: #343a40;
   --color-light: #fff;
-  --color-dark-light: hsl(0deg 0% 0% / 44%);
   --color-primary-with: var(--color-light);
   --color-secondary-with: var(--color-light);
   --color-dark-with: var(--color-light);
   --color-light-with: var(--color-dark);
 
   /* size */
+  --size-1: 1px;
   --size-4: 4px;
   --size-8: 8px;
   --size-16: 16px;
@@ -29,8 +35,8 @@
   --size-128: 128px;
 
   /* decoration */
-  --box-shadow: 0.5rem 0.3rem 1rem 0.3rem #343a4040;
-  --border: solid var(--color-dark-light) 1px;
+  --box-shadow: 0.5rem 0.3rem 1rem 0.3rem var(--color-dark);
+  --border: solid color-mix(in srgb,var(--color-dark), white 80%) var(--size-1);
 
   /* icons */
   --icon-size: var(--font-size, var(--size-16));

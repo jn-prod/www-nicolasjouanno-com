@@ -38,8 +38,10 @@ Ici, je [partage]({{ site.url }}/follow.html) nos récits de voyages a travers l
 
 Découvrez mes dernières publications:
 
-{% for post in site.posts limit: 3 %}
-- [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%Y" }})
-{% endfor %}
+<ul>
+  {% for post in site.posts limit: 3 %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y" }})</li>
+  {% endfor %}
+</ul>
 
 <a href="{{ site.url }}/posts.html">Consulter toutes mes archives</a>

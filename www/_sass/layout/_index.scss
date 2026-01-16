@@ -20,7 +20,8 @@
       display: inline-block;
       margin: 0 var(--size-4);
       transform: rotate(15deg);
-      border-right: 0.1em solid currentcolor;
+      border-right: var(--border);
+      border-color: currentcolor;
       height: var(--size-8);
       content: "";
     }

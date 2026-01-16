@@ -15,7 +15,6 @@
   &__citation {
     font-family: var(--font-family-heading);
     font-size: calc(var(--font-size) * 3);
-    line-height: calc(var(--line-height) * 3);
     margin: 0;
 
     &-container {
@@ -26,7 +25,6 @@
   &__author {
     font-family: var(--font-family-heading);
     font-size: calc(var(--font-size) * 2);
-    line-height: calc(var(--line-height) * 2);
   }
 }
 
@@ -36,12 +34,10 @@
 
     &__author {
       font-size: calc(var(--font-size) * 1.5);
-      line-height: calc(var(--line-height) * 1.5);
     }
 
     &__citation {
       font-size: calc(var(--font-size) * 2);
-      line-height: calc(var(--line-height) * 2);
     }
   }
 }

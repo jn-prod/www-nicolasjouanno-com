@@ -14,7 +14,7 @@ Je ne suis pas présent sur les réseaux sociaux traditionnels. Je refuse de dé
 
 Ici, pas d’algorithme, pas de pub, pas de suivi intrusif. **Vous choisissez comment et quand suivre mes publications.** C’est une approche **minimaliste, durable et indépendante**. Votre attention n’est pas un produit, c’est un cadeau que je respecte.
 
-Internet est pour moi un espace ouvert de liberté. Tout se passe sur mon site où je partage mon travail. 
+Internet est pour moi un espace ouvert de liberté. Tout se passe sur mon site où je partage mon travail.
 
 Vous souhaitez rester connecté et soutenir mes projets ? Plusieurs options simples et durables sont disponibles :
 
