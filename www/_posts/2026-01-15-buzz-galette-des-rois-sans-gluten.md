@@ -21,7 +21,7 @@ Ces contenus ont alimenté un véritable bad buzz autour de l’idée que la gal
 
 Ce flou entretient encore davantage la confusion autour du régime sans gluten, déjà fragilisé par des discours non médicaux sur les réseaux sociaux.
 
-*Modifications du 2026-01-17*: [RTL a publié un nouveau post](https://www.instagram.com/reel/DTiAbfIkpYT/?igsh=bnQ4NWM0MzA0NTEx). Il s’agit d’un extrait de l’interview du Dr Jimmy Mohamed qui pose les faits et rétablit la vérité : « La polémique n’a pas lieu d’être ».​​​​​​​​​​​​​​​​
+*Mise à jour du 2026-01-17*: [RTL a publié un nouveau post](https://www.instagram.com/reel/DTiAbfIkpYT/?igsh=bnQ4NWM0MzA0NTEx). Il s’agit d’un extrait de l’interview du Dr Jimmy Mohamed qui pose les faits et rétablit la vérité : « La polémique n’a pas lieu d’être ».​​​​​​​​​​​​​​​​
 
 ## L’information vs la rapidité
 
