@@ -11,12 +11,53 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Sat, 17 Jan 2026 08:12:52 +0000</pubDate>
-    <lastBuildDate>Sat, 17 Jan 2026 08:12:52 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Feb 2026 19:55:47 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Feb 2026 19:55:47 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
 
+    
+      <item>
+        <title>Conférence: Les Web Components et l’accessibilité, co-speaker avec Simon @ Paris Web 2025</title>
+        <description><![CDATA[
+          
+          
+
+          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/conference-les-web-components-et-accessibilite.html" target="_blank">nicolasjouanno.com</a></p>
+        ]]></description>
+        <content:encoded><![CDATA[<iframe title="Les Web Components et l’accessibilité" width="100%" height="315" src="https://indymotion.fr/videos/embed/89VPLWMNhtZiFqmwK16qZd" style="border: 0px;" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+
+<p>Le 26 septembre dernier, avec <a href="https://simon.duhem.fr/">Simon</a>, nous nous sommes lancés dans le grand bain des conférences. C’est lors de la vingtième édition de <a href="https://www.paris-web.fr/">Paris Web</a>, la conférence francophone de référence sur les standards du web et l’accessibilité, que nous avons présenté notre sujet : <a href="https://www.paris-web.fr/2025/conference/les-web-components-et-laccessibilite">Les Web Components et l’accessibilité</a>.</p>
+
+<p>Depuis 2022, avec Simon et l’équipe de designers produit de MGDIS, nous développons un <a href="https://github.com/MGDIS/core-ui">design system</a> qui se veut accessible by design. Les différents produits de l’entreprise ayant des socles techniques différents (AngularJS, Vue 2, Vue 3), nous devions (et voulions) produire un seul livrable interopérable. C’est pourquoi nous avons fait le choix d’une technologie native : les web components. L’autre avantage de ce choix est sa pérennité, puisque qui dit natif dit standard, et les standards du W3C, s’ils évoluent constamment, ne changent pas de paradigme a l’image de technologies telles que React, Vue… Nous avons malgré tout ajouté une couche par-dessus en utilisant <a href="https://stenciljs.com/">stencilJS</a> pour faciliter le développement de ces composants et gérer la réactivité, les polyfills pour Internet Explorer, et d’autres points.</p>
+
+<p>Au pays des bisounours (👋 coucou Paris Web), on aime les intrigues. La nôtre est un retour d’expérience sur les contraintes qu’imposent les web components et leur shadow DOM pour répondre aux besoins d’accessibilité. La vie des web components (et leur accessibilité) n’est pas si simple, voici l’objet de notre conférence.</p>
+
+<p>En visionnant le replay, je retrouve l’ambiance Paris Web avec les sous-titres qui rappellent la vélotypie et l’interprète LSF qui partage la scène. C’est pourquoi j’ai attendu sa mise en ligne plutôt que d’en faire la transcription sans âme dans cet article. N’hésitez pas à vivre ou à revivre ce moment passionnant.</p>
+
+<p>De la même manière que lors des questions ou des « informelles » qui ont suivi la conférence, nous pouvons continuer de discuter de ce sujet dans les commentaires de ce post ou en me contactant.</p>
+
+<p>J’ai mené cette aventure avec soin et passion. Ce « grand oral » sur les web components et l’accessibilité m’a sorti de ma zone de confort et n’a fait qu’amplifier le respect que je porte aux speakers. Monter sur scène m’aura permis de me rendre compte des progrès qu’il me reste à faire dans cet exercice et que c’est un me compétence à part entière. 
+Je n’aurais pas osé le faire si je n’avais pu constater par moi-même la bienveillance du public lors des deux dernières éditions.</p>
+
+<p>Je remercie :</p>
+<ul>
+  <li>l’équipe de Paris Web pour l’accueil et l’attention qu’ils portent à leurs speakers,</li>
+  <li>le public de Paris Web et les enrichissants échanges que nous avons pu avoir avec eux,</li>
+  <li>tous les prestataires qui rendent cette conférence possible et accessible au plus grand nombre,</li>
+  <li>Simon pour la confiance accordée pour co-présenter ce sujet,</li>
+  <li>le soutien de ma famille dans cette aventure.</li>
+</ul>
+]]></content:encoded>
+        <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+        <link>https://www.nicolasjouanno.com/conference-les-web-components-et-accessibilite.html</link>
+        <guid isPermaLink="true">https://www.nicolasjouanno.com/conference-les-web-components-et-accessibilite.html</guid>
+        <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
+        
+        
+        
+      </item>
     
       <item>
         <title>RE : (Bad) BUZZ et désinformation autour du remboursement de la galette des rois sans gluten</title>
@@ -740,170 +781,6 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
         
         
         <category>Sport</category>
-        
-      </item>
-    
-      <item>
-        <title>Coder son MVP, sujet de Growth hacking ou de Product management ?</title>
-        <description><![CDATA[
-          
-            <a href="https://www.nicolasjouanno.com/stay-minimal.html" target="_blank">
-              <img src="https://www.nicolasjouanno.comassets/images/posts/maxresdefault.jpg" alt="Coder son MVP, sujet de Growth hacking ou de Product management ?"/>
-            </a>
-          
-          A la rencontre du growth hacking
-
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/stay-minimal.html" target="_blank">nicolasjouanno.com</a></p>
-        ]]></description>
-        <content:encoded><![CDATA[<h2 id="a-la-rencontre-du-growth-hacking">A la rencontre du growth hacking</h2>
-
-<p><em>Revenons un peu en arrière. Nous sommes en 2018, je quitte l’école avec un diplôme de marketing. J’ai l’impression de n’avoir rien appris du monde du digital qui me passionnait tant. L’histoire est connue. Alors comme mes pairs, je continuer d’apprendre et de me former avec des ressources différentes: livres, blog, youtubes… Qu’il s’agisse de se perfectionner ou d’acquérir de nouvelles compétences en Marketing, Design et Tech. Si je ne suis pas encore un “T-shape”, je ne me restreins pas mon scope pour avoir une vision à 360 degrés d’un produit digital.</em></p>
-
-<p>En 2016, je baissais une dernière fois le rideau de ma première entreprise: un commerce local de sport outdoor. Une expérience enrichissantes m’a prouvée que rien n’était acquis. Ce n’est pas parce que tu es reconnus sur ton marché, que tu le connais ainsi que ses leviers que l’entreprise sera florissante. Avec toute mon arrogances, je me suis heurté à la réalité du commerce physique, ses coûts élevés, ses marges faibles. Le choc a été violant.</p>
-
-<figure class="wp-caption"><img src="https://www.nicolasjouanno.com//77a9b-1fhdbbyabl24dcabgexhpow.png" alt="Chaine youtube the family" />
-<figcaption class="wp-caption-text"><a href="https://www.youtube.com/user/Startupfood" target="_blank" rel="nofollow">Chaine youtube the family</a></figcaption>
-</figure>
-
-<h3 id="réfléchir-construire-et-capitaliser-voilà-ce-qui-devient-important-pour-moi">« Réfléchir, construire et capitaliser. Voilà ce qui devient important pour moi. »</h3>
-
-<p>Lorsqu’on débute une entreprise on se projette sur le long terme. En comparaison trois ans, c’est court. Sans bouée de sauvetage, je devais rebondir, srotir des sentiers battus, penser différement (comme le dit Steve Jobs).</p>
-
-<p>Depuis mon adolescence, je fais de sites internet pour m’amuser, avec le goût du défis et parfois pour rendre service à d’autres entrepreneurs.</p>
-
-<p>D’ailleurs, en 2013, je crée mon premier side project: <a href="https://vtt.bzh">vtt.bzh</a>. Un site qui me permet d’expérimenter ce que j’apprends du digital au détour de la magie du web 2.0. Un moment d’évasion dans ce flow quotidien de retailer. Ce site internet réaliser avec Wordpress enregistre vite ses premiers succès, pour atteindre 10 000 visiteurs mensuel. Il ne scale pas, car je fais ma curation à la main. Il est lent car, ne sachant pas coder, je lui ai ajouter 70+ plugins pour lui ajouter des features. Il se perd dans un quantités de features cumulées mais jamais abandonnées.</p>
-
-<figure class="wp-caption"><img src="https://www.nicolasjouanno.com//8f833-1glqrdjmo0myyuik5d1idxg.png" alt="site web du wagon" />
-<figcaption class="wp-caption-text"><a href="https://www.lewagon.com/fr" target="_blank" rel="nofollow">site web du wagon</a></figcaption>
-</figure>
-
-<h3 id="2016-à-la-rencontre-du-growth-hacking-et-du-product-management">« 2016, à la rencontre du Growth Hacking et du Product Management »</h3>
-
-<p>C’est pendant la liquidation de mon magasin en mai 2016 que je découvre <a href="https://www.koudetat.co/">Koudetat</a> <a href="https://www.thefamily.co/">The Family</a> et leur “mindest growth”. Au même moment, je me prenais de passion pour les startups et leurs histoires.</p>
-
-<p>Pris de curiosité pour le growth hacking. J’ai découvert une discipline croisement entre les mondes de la tech et du marketing. Une révélation pour moi en quête d’inspiration pour mon nouveau projet professionnel.</p>
-
-<p>Ne sachant pas si mes connaissances en marketing suffisent à réaliser ce pivot, je me demandant quels skills pouvaient me manquer. A l’évidence, il fallait apprendre à minima à coder.</p>
-
-<p>Lors de mes recherches, c’est au détour d’un article sur welcometothejungle, que je découvre un nouveau concept qui me plait tout autant : <strong>le Product Management</strong>. Là encore un metier hybride, entre le Marketing, la Tech et le Design. Là encore, s’il y a un domaine où je ne connais rien c’est le développement web.</p>
-
-<p>Voilà, comment j’arrive à la conclusion que pour m’épanouir professionnelement dans le domaine de la gestion de projet web et avoir une casquette d’avantage “product” que “projet”, il me faut avoir des connaissances solides en développement.</p>
-
-<figure class="wp-caption"><img src="https://www.nicolasjouanno.com//21d8e-1qcj1veggw6yciebqwl3q7w.png" alt="welcometothejungle" />
-<figcaption class="wp-caption-text"><a href="https://www.welcometothejungle.co/professions/product-manager" target="_blank" rel="nofollow">fiche metier de product manager sur welcometothejungle</a></figcaption>
-</figure>
-
-<h3 id="openclassrooms-le-wagon-youtube-et-medium-deviennent-donc-mes-nouvelles-bibles-en-2017">« Openclassrooms, le Wagon, Youtube et Medium deviennent donc mes nouvelles bibles en 2017. »</h3>
-
-<p>Maintenant, je commence à savoir où je dois aller. Il est donc temps de construire un plan d’action. La première étape de celui-ci est bien évidemment d’apprendre à coder. Openclassrooms, le Wagon, Youtube et Medium forment ma bible.</p>
-
-<p>J’assoie d’abord mes bases en HTML, CSS que je cotoie depuis 2008.</p>
-
-<p>Puis vient le sujet de la programmation, la vraie ! Avec le javascript, ce langage qui s’execute coté navigateur et qui permet d’augmenter l’interactivité d’une page. Bien sûr, je n’ai pas la prétention de devenir ingénieur. Je sais que dans ce domaine, j’ai beaucoup de choses à apprendre. Mais, je veux pouvoir réaliser des POC (Proof Of Concept), ou mieux des MVP (Minimum Valuable Prodcut), connecter des API, … mais surtout passer de l’idée à la réalisation, de 0 à 1. Et si possible au delà.</p>
-
-<p>A la rechecherche de solutions pour apprendre à coder rapidement, je découvre <a href="https://www.lewagon.com/fr">Le Wagon</a>. Mais ne pouvant pas mettre mes projet en veille pendant deux mois, je décide de prendre un chemin plus long et plus solitaire. J’avais trouvé bien contruite leur track en ligne <a href="https://ondemand.lewagon.com/tracks/comprenez-enfin-javascript/go">growth-hack</a>. Sans l’avoir suivi, elle m’à permise d’établir un plan de formation minimum.</p>
-
-<p>Suivre le plan du Wagon, alors étoile montante de la formation de développeurs pour les startup, me rassure dans l’acquisition de ce skill. Leur programme clair et structuré m’a permis de comprendre les étapes clés à suivre dans l’apprentissage du développement web.</p>
-
-<p>Je découvre aussi openclassrooms et son parcours développeur web junior qui est certifiant, contrairement à la formation en ligne du Wagon. Même si le parcours proposé ne me plaisait pas à 100%, j’en vient au terme. Pas simple de subir, l’influence d’amis, eux mêmes développeurs ruby, et de l’écosystème.</p>
-
-<p>Ma motivation d’apprendre le <a href="https://www.php.net/">PHP</a> était faible comparé à <a href="https://www.ruby-lang.org/fr/">Ruby</a> (le langage des startups), <a href="https://www.python.org/">Python</a> et <a href="https://www.javascript.com/">Javascript</a> (les langages des growth hacker). Mais cumuller l’apprentissage de tous ces langages et leurs spécifités était très enrichissant.</p>
-
-<p>Je me donne pour objectif d’apprendre une skills par semaine. Surtout, je garde le rythme, mon objectif était simple, j’ai quatre mois avant la naissance de mon fils, à sa naissance, je veux savoir coder. Comme lorsque j’apprenais la guitare, où je faisais 1h de guitare par jour, je me suis mis le même rythme minimum pour l’apprentissage du code. Que ce soit le matin avant d’aller bosser, à la pause dèj’ ou le soir à la place de la TV.</p>
-
-<p>Ce que j’ai appris avant tout, c’est à apprendre. Le développement ne se limite pas à un cours en ligne à acheter. Le développement web, s’est donner le meilleur de soit même chaque jour, de la même manière qu’un sportif qui s’entraîne quotidiennement. Le développement web s’est travailler ses points faibles pour se perfectionner. Le développement web s’est accepter l’échec pour se perfectionner en corrigeant ses beugs. Le développement web s’est libérer sa créativité. J’ai ainsi pu réaliser une refonte mon side-project vtt.bzh, désormais scalable. Je publie mon code sur <a href="http://github.com/jn-prod">GitHub</a>. Je crée mes APIs en scrappant en NODEjs des données sur le web. Bref, je m’éclate !</p>
-
-<p>Mais n’oublions pas pourquoi je me suis lancé ce challenge: développer un produit digital qui à de la valeur pour ses utilisateurs.</p>
-
-<figure class="wp-caption"><img src="https://www.nicolasjouanno.com//e8b22-11czy1ngfc50mjx7vxlphqa.png" alt="NODE JS" />
-<figcaption class="wp-caption-text">NODE JS</figcaption>
-</figure>
-
-<h2 id="mvp-init">MVP init</h2>
-
-<p>Un verre de vin entre amis, un café entre collègues, un film inspirant, … Avec une idée de produit c’est bien, savoir s’il à de la valeur c’est mieux. C’est le moment de créer son MVP (Minimum Valuable Product).</p>
-
-<p>Il peut prendre différentes formes:</p>
-
-<ul>
-  <li>Un blog</li>
-  <li>Une page Facebook</li>
-  <li>Une chaine slack</li>
-  <li>Un mix d’API avec Zapier</li>
-  <li>…</li>
-  <li>Un site web</li>
-</ul>
-
-<p>Vous avez dit créer un site web ? Si vous n’êtes pas développeur tournez-vous vers des CMS SAAS clef en main, simple à utiliser, comme Squarespace, Webflow, Wix, … le choix de la simplicité et de la rapidité est légion. Le coût lui est mensuel lui est de 10–20€ pour les offres de bases. S’il ne vous permettrons pas de créer le future Facebook, ils ont le mérite de vous permettre de mettre en ligne votre site en 1h et d’acheter vos premiers mots-clés sur <a href="https://ads.google.com/intl/fr_fr/home/">adwords</a>.</p>
-
-<p>Si vous avez des connaissances techniques, vous pouvez vous lancer avec un CMS opensource flexible type Wordpress, Joomla, Prestashop, Magento … que vous héberge vous-même chez OVH ou autre, coût de l’opération 5€/mois. Vous aurez d’avantage de temps pour réfléchir à votre projet, comptez minimum 1 jour à 1 semaine et peu être quelques cheveux perdus en route !</p>
-
-<p>Mais ne perdez pas votre temps à développer votre produit dans votre garage. Il n’y a que Steve Jobs pour convaince les gens que le produits qu’il à imaginé est un “must have”. Confrontez votre produit le plus rapidement possible à son marché, qu’il soit au stade de la maquette, du prototype où mieux encore avant même qu’il existe.</p>
-
-<p>Comme moi, commencer à parler de votre MVP sur une landing page, en écrivant un post sur medium, en prenant la parole dans un groupe Facebook ou sur une channel Slack, … Mieux, créez une liste d’attente pour mesurer l’attente de vos futurs acheteurs et voilà votre première base de données. Et la validation ultime, que les gens paye avant même que votre produit soit créé. Poussez la distribution à fonds, créez une communoté.</p>
-
-<p>Bref, établissez votre camp de base pour mobilisez vos futurs users. Créez un niveau d’engagement tel qu’ils viendraient eux-mêmes défendre votre idée à l’assemblée nationale.</p>
-
-<figure class="wp-caption"><img src="https://www.nicolasjouanno.com//74ddb-1utch2gz4b5xfvt2dxhgnvq2x.jpeg" alt="Node JS" />
-<figcaption class="wp-caption-text">Node JS</figcaption>
-</figure>
-
-<h2 id="développer-la-béta-de-votre-produit">Développer la béta de votre produit.</h2>
-
-<p><em>Si utiliser un CMS pour gérer la partie marketing de votre projet vous fait déjà peur, attendez de voir les questions que soulève le développement de votre produit. On parle non seulement de l’UI et de l’UX du front-end d’un site internet, mais aussi de son architecture, des dépendenses et du développement de son back-end.</em></p>
-
-<p>Il vous faut lister tous ces besoins et toutes ces problématiques. Puis les prioriser dans une roadmap. Pour en maîtriser son développement et analyser l’impact des features sur votre produit.</p>
-
-<p>Ne vous lancer dans le choix de vos technologies seul si vous n’avez pas de recul sur cet univers.</p>
-
-<p>Sur les premiers projets où je suis intervenu en tant que developpeur, ceux-ci était soit des sides-project soit des projets où j’avais un large scope. Ils incluaient souvent le marketing, le design et la tech. Ne connaissant au debut qu’un seul langage de programmation: le Javascript, je l’utilisais à toutes les sauces. J’utilisais donc <a href="https://nodejs.org/en/">NodeJS</a> (sa surcouche coté serveur) à tout va, pour gagner du temps et par mode. Je reculais le moment d’apprendre un nouveau langage.</p>
-
-<p>NodeJS est très puissant pour développer rapidement des APIs REST véloces. Il embarque une librairie de modules dense, qui vous permetra de gérer:</p>
-
-<ul>
-  <li>la création de compte utilisateur,</li>
-  <li>la gestion des droits d’accès,</li>
-  <li>le hashage de mot de passe,</li>
-  <li>la redirection https,</li>
-  <li>les notifications par e-mails …</li>
-</ul>
-
-<p>Mais, il manque cruellement de fonctionalités pour réaliser rapidement un MVP quand on le compare à des frameworks comme <a href="https://laravel.com/">Laravel</a>, <a href="https://rubyonrails.org/">Ruby On Rails</a>, <a href="https://www.djangoproject.com/">Django</a>, … A celà j’ajouterais l’asynchronocité de NodeJS ne correspondant pas à tous les cas d’usage et ajoute de la complexité.</p>
-
-<p>Pensez également à bien choisir vos services tiers. Fournissent-ils des APIs qui vous permettrons d’automatiser des tâches crutiales dans votre croissances. Quel est leur coup à plus grande échelle? La migration est-elle simple ou complexe ? Je prends l’exemple de <a href="https://mailchimp.com/">Mailchimp</a> que j’adore et que tout le monde recommande. Lorsque ma base d’email à dépasser les 2 000 abonnées, j’ai pleuré en voyant le coût du service. J’ai du recréer tout mon workflow sur un autre outil: <a href="https://www.mailerlite.com/">mailerlite</a>.</p>
-
-<p>Alors ne perdez pas des yeux votre objectif principal: diminuer votre feedback loop. C’est le moyen le plus efficace pour itérer le plus rapidement possible sur votre produit. Vos choix technologiques doivent vous permettre d’accéler votre croissance et non la ralentir.</p>
-
-<h2 id="garder-les-choses-simples">Garder les choses simples</h2>
-
-<p><em>Dernièrement, j’ai pris du recul sur mes objectifs produits et les moyens que j’utilise les atteindres. “Keep things simple” s’est imposé comme un nouveau mantra. Si cela peu paraitre un peu cliché, il ne faut pas y voir un sens réducteur ou facilitateur, mais plutôt qu’il faut faire des choix pour se focaliser sur l’essence même de l’objectif.</em></p>
-
-<p>S’il est facile procrastiner toute une journée devant son ordinateur voguant de fil Facebook aux vidéos Youtube, en faisant quelques pauses café sur son feed Instagram. Il est plus dur de se lever chaque matin en se donnant un objectif que l’on s’oblige à tenir avant de se mettre au lit.</p>
-
-<p>Avant de devenir cycliste professionnel, mon Coach me répétait souvent: “il n’y a pas de petite victoire”. Mais finalement une victoire c’est quoi ? Passer la ligne en premier, gagner un prix de grimpeur, un classement jeune ? Je pense qu’une victoire à un sens plus large, qu’elle dépend de l’objectif que l’on se fixe.</p>
-
-<p>En marketing on parle d’<a href="https://www.manager-go.com/vente/methode-smart.htm">objectif SMART</a>. Pour le définir, il faut qu’il soit spécifique, mesurable, ambition, réaliste et délimitable dans le temps.</p>
-
-<p>J’ai arrêté la compétition depuis de nombreuses années pourtant, je n’ai jamais arrêté d’avoir de petites victoires. J’ai appris à coder seul. Je ne me suis jamais découragé, non seulement parce que j’en avais profondément envie, mais aussi parce que je me suis fixé un objectif inconsciemment SMART: coder une heure par jour, en était un. A la fin de chaque semaine, je pouvais me gratifier d’avoir réussis cet objectif.</p>
-
-<p>Mais pour qu’un objectif soit attaignable vous devez avoir les ressources correspondantes: Humaines, Horaires, Financières, Matériel… sont celles qui reveniennent le plus souvent. Difficile de se lancer dans le référencement de son site web si personnes de votre équipe n’en connait les principes, pire, s’ils n’en ont pas le temps.</p>
-
-<p>Se fixer des objectifs SMART avec un framework growth comme <a href="https://deux.io/framework-aarrr/">AARRR</a> peut changer radicalement la vision et l’impact de votre produit. En se fixant des objectifs sur différentes partie du cycle de vie de vos utilisateurs vous vous assurez que votre roadmap conduira à la croissance de votre entreprise.</p>
-
-<p>En 2013, lorsque je lançais vtt.bzh, je voulais en faire un blog qui résonne dans l’écosystème du VTT. Mais je n’avais ni ojectif concret, ni stratégie. Par chance mon bon sens m’a fait faire des choses impactentes sur le temps terme. J’avais travailler l’acquisition via le SEO, l’activation et la rétention via une newsletter, le referal avec facebook et la monétisation avec de l’affiliation. C’est aujourd’hui, grâce à ça que j’explique la réussite de ce projet régionnal qui a impacté jusqu’à 10 000 visiteurs mensuel.</p>
-
-<p>Finalement, growth hacking ou product management, pour moi c’est le même combat, les deux doivent permettre une croissance exponentielle de votre produit. Les deux touche au design, au marketing et la tech. Les deux doivent être scalable. Les deux doivent parler à vos utilisateurs pour synchroniser le produit autour de leurs besoins. Alors garder les choses simples et concentrez-vous sur le produit.</p>
-]]></content:encoded>
-        <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
-        <link>https://www.nicolasjouanno.com/stay-minimal.html</link>
-        <guid isPermaLink="true">https://www.nicolasjouanno.com/stay-minimal.html</guid>
-        <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
-        
-        <enclosure url="https://www.nicolasjouanno.comassets/images/posts/maxresdefault.jpg" type="image/*"/>
-        
-        
-        
-        <category>Product Management</category>
         
       </item>
     
