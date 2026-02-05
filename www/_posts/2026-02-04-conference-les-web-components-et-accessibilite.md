@@ -16,7 +16,7 @@ En visionnant le replay, je retrouve l'ambiance Paris Web avec les sous-titres q
 
 De la même manière que lors des questions ou des « informelles » qui ont suivi la conférence, nous pouvons continuer de discuter de ce sujet dans les commentaires de ce post ou en me contactant.
 
-J’ai mené cette aventure avec soin et passion. Ce « grand oral » sur les web components et l’accessibilité m’a sorti de ma zone de confort et n’a fait qu’amplifier le respect que je porte aux speakers. Monter sur scène m’aura permis de me rendre compte des progrès qu’il me reste à faire dans cet exercice et que c’est un me compétence à part entière. 
+J’ai mené cette aventure avec soin et passion. Ce « grand oral » sur les web components et l’accessibilité m’a sorti de ma zone de confort et n’a fait qu’amplifier le respect que je porte aux speakers. Monter sur scène m’aura permis de me rendre compte des progrès qu’il me reste à faire dans cet exercice et que c’est une compétence à part entière. 
 Je n’aurais pas osé le faire si je n’avais pu constater par moi-même la bienveillance du public lors des deux dernières éditions.
 
 Je remercie :
