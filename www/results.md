@@ -15,7 +15,14 @@ Ce parcours m’a forgé bien au-delà du sport. Il m’a appris à avancer avec
 
 Même si je ne cours plus en compétition, je continue à rouler, courir, randonner — seul ou en famille.
 
-J’ai aussi créé et développé [VTT.bzh](https://vtt.bzh/) : c’est à la fois un outil, un terrain de jeu, et une façon de partager ma passion du vélo.
+J’ai créé et développé [VTT.bzh](https://vtt.bzh/) : c’est à la fois un outil, un terrain de jeu, et une façon de partager ma passion du vélo. Je publie des articles sur la pratique sportive outdoor:
+
+- [Quel entrainement pour progresser en VTT ?](/entrainement-vtt.html)
+- [Les meilleurs pneus vtt spéciale boue pour l'hiver](/choisir-son-pneu-vtt-hiver-boue.html)
+- [Comment choisir la taille de son VTT et sa position ?](/comment-choisir-la-taille-de-son-vtt-et-sa-position.html)
+
+[Découvrir les archives](/posts.html)
+
 
 ## Palmarès cycliste
 
