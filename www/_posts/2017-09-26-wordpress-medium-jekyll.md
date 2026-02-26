@@ -5,7 +5,7 @@ redirect_from:
 layout: post
 title: Wordpress vs Medium
 images:
-  - assets/images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.png
+  - images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.webp
 categories:
   - Experience
   - Tech

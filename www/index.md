@@ -20,7 +20,7 @@ signature: true
 ---
 
 <h1 id="about" class="u-visually-hidden">{{ site.title }}. Père d’une famille d’aventuriers. Nous parcourons l’Europe en van.</h1>
-<img class="u-image u-image-center u-image--large" src="/assets/icons/avatar.svg" alt="" />
+<img class="u-image u-image-center u-image--large" src="/images/icons/avatar.svg" alt="" />
 
 👋 Moi c'est Nicolas. Je [publie]({{ site.url }}/posts.html) et [développe des projets]({{ site.url }}/work.html) sur le web depuis une vingtaine d'années. Attentif à notre environnement et à l'impact du numérique, je cherche des manières de rendre le web plus humain, plus simple et plus durable.
 

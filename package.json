@@ -17,8 +17,10 @@
   "homepage": "https://www.nicolasjouanno.com",
   "scripts": {
     "dev": "pnpm -r dev",
-    "build": "pnpm -r build",
-    "build:preview": "pnpm build && ./www && python3 -m http.server -d ./_site",
+    "build:apps": "pnpm -r --filter='./apps/**' build",
+    "build:packages": "pnpm -r --filter='./packages/**' build",
+    "build:www": "pnpm --filter='website' build",
+    "build": "pnpm build:packages && pnpm build:apps && pnpm build:www",
     "change": "changeset",
     "release": "changeset version",
     "lint": "pnpm -r lint",

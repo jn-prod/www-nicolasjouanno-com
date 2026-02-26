@@ -74,7 +74,7 @@ Cela soulève une question importante : combien de personnes pourraient être di
 
 ## Et maintenant ?
 
-Il y a quelques semaine, j’ai créer un petit [quizz qui permet de tester ses connaissances sur la présence de gluten dans les aliments]({{site.url}}/apps/gluten-not-gluten). Prêt à relever le défi ?
+Il y a quelques semaine, j’ai créer un petit [quizz qui permet de tester ses connaissances sur la présence de gluten dans les aliments]({{site.url}}/apps/gluten-not-gluten/). Prêt à relever le défi ?
 
 ## Sources
 

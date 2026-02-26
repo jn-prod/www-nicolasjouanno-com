@@ -13,7 +13,7 @@ tags:
   - Sport
   - Chute
 images:
-  - assets/images/posts/route-de-montagne.jpg
+  - images/posts/route-de-montagne.webp
 ---
 
 ## Chapitre 1 : Une adolescence dans les sous-bois

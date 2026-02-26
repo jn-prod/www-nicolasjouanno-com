@@ -5,7 +5,7 @@ description: "Quels sont les avantages d'une tige de selle télescopique ? Pourq
 tags: "tige de selle télescopique, tige de selle rockshox, rockshox reverb, tige de selle vtt"
 
 images:
-  - assets/images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.jpg
+  - images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.webp
 ---
 
 <em>Une Tige de selle télescopique à quoi ça sert? La tige de selle télescopique, un accessoire de mode ou l’arme ultime dans les passages techniques?</em>
@@ -121,6 +121,6 @@ Un prix public TTC annoncé à 350€ le rockshox Reverb ne sera pas offerte à 
 Découvrez par vous le même le plaisir de rouler sur une tige de selle télescopique ROCKSHOX REVERB et profitez des bonnes adresses suivantes et de leurs prix attractifs:
 
 <figure>
-  <img alt="Tige de Selle Télescopique ROCKSHOX REVERB" src="{{ site.url }}/assets/images/posts/2154b-0on0ct9jh4z8cleqj.jpg" class="img-fluid"/>
+  <img alt="Tige de Selle Télescopique ROCKSHOX REVERB" src="{{ site.url }}/images/posts/2154b-0on0ct9jh4z8cleqj.webp" class="img-fluid"/>
   <figcaption>Tige de Selle Télescopique ROCKSHOX REVERB</figcaption>
 </figure>

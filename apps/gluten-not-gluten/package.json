@@ -1,0 +1,8 @@
+{
+  "name": "gluten-not-gluten",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rm -rf ./dist && cp -r ./src ./dist"
+  },
+  "license": "ISC"
+}

@@ -6,7 +6,7 @@ tags: "entrainement vtt, progresser vtt, entrainement technique vtt, entrainemen
 permalink: "/entrainement-vtt.html"
 featured: true
 images:
-  - assets/images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.png
+  - images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.webp
 ---
 
 Le VTT est une discipline complète. Puissance, endurance, équilibre et explosivité sont des compétences à travailler à l'entrainement. En alternant avec des périodes de récupération, vous observerez une progression constante.

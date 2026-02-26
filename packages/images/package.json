@@ -1,0 +1,15 @@
+{
+  "name": "images",
+  "version": "1.0.0",
+  "scripts": {
+    "build:prepare": "rm -rf ./dist && cp ./src/ ./dist -r",
+    "build:images": "sharp -i './dist/**/*.{jpg,jpeg,png}' -o {dir} -f webp && find ./dist -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' | xargs rm",
+    "build:svg": "svgo -r -f ./dist -o ./dist",
+    "build": "pnpm build:prepare && pnpm build:images && pnpm build:svg"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5",
+    "sharp-cli": "^5.2.0",
+    "svgo": "^4.0.0"
+  }
+}

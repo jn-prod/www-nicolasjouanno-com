@@ -6,7 +6,7 @@ description: "Le guide ultime pour faire son choix entre le pédales plates et l
 tags: "pédales vtt, pédales plate vtt, pédales automatique vtt, choisir pédales vtt"
 
 images:
-  - assets/images/posts/ccs-62657-0-58346000-1479391864.jpg
+  - images/posts/ccs-62657-0-58346000-1479391864.webp
 ---
 
 ## Au programme :
@@ -29,7 +29,7 @@ Comment choisir entre les pédales plates et les pédales automatiques? Cette qu
 ## 2/ Avantages / inconvénients de la pédale plate traditionnelle : {#pedales-plates}
 
 <figure>
-  <img alt="Pédales SHIMANO SAINT PD-MX80 " src="{{ site.url }}/assets/images/posts/1e33e-0me9njiu_fhg0h5fc.jpg" class="img-fluid"/>
+  <img alt="Pédales SHIMANO SAINT PD-MX80 " src="{{ site.url }}/images/posts/1e33e-0me9njiu_fhg0h5fc.webp" class="img-fluid"/>
   <figcaption>Pédales plates - SHIMANO SAINT PD-MX80</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ Les pédales plates restent avant tout des pédales idéales pour débuter et se
 ## 3/ Avantages / inconvénients de la pédale automatique : {#pedales-automatiques}
 
 <figure>
-  <img alt="Pédale automatique VTT : Crankbrothers - Egg Beater" src="{{ site.url }}/assets/images/posts/7c850-0mtwevjri_e7fkdab.jpg" class="img-fluid"/>
+  <img alt="Pédale automatique VTT : Crankbrothers - Egg Beater" src="{{ site.url }}/images/posts/7c850-0mtwevjri_e7fkdab.webp" class="img-fluid"/>
   <figcaption>Pédale automatique VTT    Crankbrothers — Egg Beater</figcaption>
 </figure>
 
@@ -124,21 +124,21 @@ Pour la descente, chacun à sa réponse en fonction de son pilotage, il faut gar
 ## 6/ Notre sélection de pédales VTT {#best-of}
 
 <figure>
-  <img alt="PAIRE DE PÉDALES SHIMANO SPD-M520 ARGENT " src="{{ site.url }}/assets/images/posts/af16b-0y_u7-3bbkdtbx_aa.jpg" class="img-fluid"/>
+  <img alt="PAIRE DE PÉDALES SHIMANO SPD-M520 ARGENT " src="{{ site.url }}/images/posts/af16b-0y_u7-3bbkdtbx_aa.webp" class="img-fluid"/>
   <figcaption>PAIRE DE PÉDALES SHIMANO SPD-M520 ARGENT (économique)</figcaption>
 </figure>
 
 <figure>
-  <img alt="CRANKBROTHERS PAIRE DE PÉDALES CANDY 3 " src="{{ site.url }}/assets/images/posts/9724d-0qj-pgpuwr39vwzbm.jpg" class="img-fluid"/>
+  <img alt="CRANKBROTHERS PAIRE DE PÉDALES CANDY 3 " src="{{ site.url }}/images/posts/9724d-0qj-pgpuwr39vwzbm.webp" class="img-fluid"/>
   <figcaption>CRANKBROTHERS PAIRE DE PÉDALES CANDY 3 (XC/ENDURO)</figcaption>
 </figure>
 
 <figure>
-  <img alt="PAIRE DE PÉDALES CRANKBROTHERS MALLET 2" src="{{ site.url }}/assets/images/posts/0120e-0pdui5pnl2zcxsxum.jpg" class="img-fluid"/>
+  <img alt="PAIRE DE PÉDALES CRANKBROTHERS MALLET 2" src="{{ site.url }}/images/posts/0120e-0pdui5pnl2zcxsxum.webp" class="img-fluid"/>
   <figcaption>PAIRE DE PÉDALES CRANKBROTHERS MALLET 2 (ENDURO/DH)</figcaption>
 </figure>
 
 <figure>
-  <img alt="Pédales SHIMANO SAINT PD-MX80 " src="{{ site.url }}/assets/images/posts/c9250-0hirkgovxa7gjzone.jpg" class="img-fluid"/>
+  <img alt="Pédales SHIMANO SAINT PD-MX80 " src="{{ site.url }}/images/posts/c9250-0hirkgovxa7gjzone.webp" class="img-fluid"/>
   <figcaption>Pédales SHIMANO SAINT PD-MX80 (ENDURO/DH)</figcaption>
 </figure>
