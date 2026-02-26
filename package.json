@@ -1,6 +1,6 @@
 {
   "name": "www-nicolasjouanno-com",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.30.3",
   "engines": {
     "pnpm": "10.x",
     "node": "22.x"
