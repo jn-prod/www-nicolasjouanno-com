@@ -11,8 +11,8 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Mon, 23 Feb 2026 20:10:51 +0000</pubDate>
-    <lastBuildDate>Mon, 23 Feb 2026 20:10:51 +0000</lastBuildDate>
+    <pubDate>Thu, 26 Feb 2026 11:51:46 +0000</pubDate>
+    <lastBuildDate>Thu, 26 Feb 2026 11:51:46 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
@@ -144,7 +144,7 @@ en supposant que :</p>
 
 <h2 id="et-maintenant-">Et maintenant ?</h2>
 
-<p>Il y a quelques semaine, j’ai créer un petit <a href="https://www.nicolasjouanno.com/apps/gluten-not-gluten">quizz qui permet de tester ses connaissances sur la présence de gluten dans les aliments</a>. Prêt à relever le défi ?</p>
+<p>Il y a quelques semaine, j’ai créer un petit <a href="https://www.nicolasjouanno.com/apps/gluten-not-gluten/">quizz qui permet de tester ses connaissances sur la présence de gluten dans les aliments</a>. Prêt à relever le défi ?</p>
 
 <h2 id="sources">Sources</h2>
 
@@ -293,7 +293,7 @@ séparer, cloisonner, multiplier les adresses.</p>
         <description><![CDATA[
           
             <a href="https://www.nicolasjouanno.com/pourquoi-tombons-nous.html" target="_blank">
-              <img src="https://www.nicolasjouanno.comassets/images/posts/route-de-montagne.jpg" alt="Pourquoi tombons-nous ?"/>
+              <img src="https://www.nicolasjouanno.comimages/posts/route-de-montagne.webp" alt="Pourquoi tombons-nous ?"/>
             </a>
           
           Chapitre 1 : Une adolescence dans les sous-bois
@@ -435,7 +435,7 @@ séparer, cloisonner, multiplier les adresses.</p>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/pourquoi-tombons-nous.html</guid>
         <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
         
-        <enclosure url="https://www.nicolasjouanno.comassets/images/posts/route-de-montagne.jpg" type="image/*"/>
+        <enclosure url="https://www.nicolasjouanno.comimages/posts/route-de-montagne.webp" type="image/*"/>
         
         
         <category>Sport</category>
@@ -452,7 +452,7 @@ séparer, cloisonner, multiplier les adresses.</p>
         <description><![CDATA[
           
             <a href="https://www.nicolasjouanno.com/premier-trail.html" target="_blank">
-              <img src="https://www.nicolasjouanno.comassets/images/posts/homme_trail_foret.jpg" alt="Mon premier trail"/>
+              <img src="https://www.nicolasjouanno.comimages/posts/homme_trail_foret.webp" alt="Mon premier trail"/>
             </a>
           
           Je suis plein de contradiction, ceux qui me connaissent le savent. Il y a quelques semaines, je publiais un article disant que je n’ai pas besoin de compétition pour m’entraîner. Cette même semaine, je prenais le départ de ma première course à pied, un trail de 12km qui avait lieu...
@@ -491,7 +491,7 @@ séparer, cloisonner, multiplier les adresses.</p>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/premier-trail.html</guid>
         <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
         
-        <enclosure url="https://www.nicolasjouanno.comassets/images/posts/homme_trail_foret.jpg" type="image/*"/>
+        <enclosure url="https://www.nicolasjouanno.comimages/posts/homme_trail_foret.webp" type="image/*"/>
         
         
         <category>Trail</category>
@@ -512,7 +512,7 @@ séparer, cloisonner, multiplier les adresses.</p>
         <description><![CDATA[
           
             <a href="https://www.nicolasjouanno.com/velo-boulot-dodo.html" target="_blank">
-              <img src="https://www.nicolasjouanno.comassets/images/posts/tshirt_velo-boulot-dodo.png" alt="Vélo, Boulot, Dodo"/>
+              <img src="https://www.nicolasjouanno.comimages/posts/tshirt_velo-boulot-dodo.webp" alt="Vélo, Boulot, Dodo"/>
             </a>
           
           Vous connaissez sûrement plus la citation “Métro, Boulot, Dodo” que je me suis ré-approprié. Depuis que j’habite à Pontivy, j’ai la chance de pouvoir aller tous les jours au boulot à vélo, parcourant les 2km500 séparant mon domicile du bureau, en longeant le canal, quatre fois par jour. Fraîchement l’hiver...
@@ -539,7 +539,7 @@ séparer, cloisonner, multiplier les adresses.</p>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/velo-boulot-dodo.html</guid>
         <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
         
-        <enclosure url="https://www.nicolasjouanno.comassets/images/posts/tshirt_velo-boulot-dodo.png" type="image/*"/>
+        <enclosure url="https://www.nicolasjouanno.comimages/posts/tshirt_velo-boulot-dodo.webp" type="image/*"/>
         
         
         <category>Textile</category>
@@ -562,7 +562,7 @@ séparer, cloisonner, multiplier les adresses.</p>
         <description><![CDATA[
           
             <a href="https://www.nicolasjouanno.com/competition-versus-entrainement.html" target="_blank">
-              <img src="https://www.nicolasjouanno.comassets/images/posts/1029035155.jpg" alt="Comment progresser sans compétition ?"/>
+              <img src="https://www.nicolasjouanno.comimages/posts/1029035155.webp" alt="Comment progresser sans compétition ?"/>
             </a>
           
           Ce n’est pas toujours simple de trouver la motivation. Dans cet article, je vais partager avec vous ce qui me motive le plus pour me bouger, mais aussi ce qui me peut transformer une sortie de running en sortie de vélo, une balade en bord en mer en session de...
@@ -702,7 +702,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
         <guid isPermaLink="true">https://www.nicolasjouanno.com/competition-versus-entrainement.html</guid>
         <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
         
-        <enclosure url="https://www.nicolasjouanno.comassets/images/posts/1029035155.jpg" type="image/*"/>
+        <enclosure url="https://www.nicolasjouanno.comimages/posts/1029035155.webp" type="image/*"/>
         
         
         <category>Sport</category>
@@ -723,7 +723,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
         <description><![CDATA[
           
             <a href="https://www.nicolasjouanno.com/sport-solitude.html" target="_blank">
-              <img src="https://www.nicolasjouanno.comassets/images/posts/living-alone.jpg" alt="Sport et solitude, tout est dit non ?"/>
+              <img src="https://www.nicolasjouanno.comimages/posts/living-alone.webp" alt="Sport et solitude, tout est dit non ?"/>
             </a>
           
           Je ne me suis jamais senti aussi seul que sur mon vélo, mon surf ou avec mes baskets. Le sport, c’est aussi ça: la solitude. Lorsque j’étais cycliste professionnel, une sitation ma marqué, au point que je m’en souvient encore aujourd’hui … onze années après! 
@@ -770,7 +770,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
         <guid isPermaLink="true">https://www.nicolasjouanno.com/sport-solitude.html</guid>
         <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
         
-        <enclosure url="https://www.nicolasjouanno.comassets/images/posts/living-alone.jpg" type="image/*"/>
+        <enclosure url="https://www.nicolasjouanno.comimages/posts/living-alone.webp" type="image/*"/>
         
         
         <category>Sport</category>
