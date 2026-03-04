@@ -10,6 +10,6 @@
   "dependencies": {
     "sharp": "^0.34.5",
     "sharp-cli": "^5.2.0",
-    "svgo": "^4.0.0"
+    "svgo": "^4.0.1"
   }
 }
