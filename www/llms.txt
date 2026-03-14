@@ -1,0 +1,52 @@
+---
+layout: none
+permalink: /llms.txt
+---
+# Nicolas Jouanno
+
+Nicolas Jouanno is a frontend developer specialized in design systems, accessibility (RGAA), and modern web architectures. Self-taught over 20 years of web practice, former professional cyclist, minimalist by philosophy. Based in Pontivy, Brittany, France.
+
+## Who is Nicolas
+
+Nicolas applies the same discipline and endurance from his cycling career to his work and projects. His approach to the web is intentional and durable: human, simple, and sustainable. He is a father, adventurer, and van traveler exploring Europe with his family.
+
+- Professional profile: {{ site.url }}/work.html
+- Sports background: {{ site.url }}/results.html
+- Contact: {{ site.url }}/contact.html
+
+## Expertise
+
+- Frontend development: JavaScript, TypeScript, Web Components (StencilJS), Vue.js
+- Design Systems architecture and industrialization
+- Digital accessibility: RGAA, WCAG, a11y audits
+- Eco-design and web performance
+- Jamstack, monorepo, static site architecture
+
+## Current role
+
+Lead Frontend Developer — MGDIS Core Team (2019–present)
+Responsible for design system, Web Components library, accessibility standards, and frontend tooling.
+
+## Latest posts
+
+{% for post in site.posts limit: 3 %}
+- {{ post.title }} ({{ post.date | date: "%Y" }}) — {{ site.url }}{{ post.url }}
+{% endfor %}
+
+All posts: {{ site.url }}/posts.html
+
+## Subscribe
+
+To follow Nicolas's publications, use the RSS feed:
+- RSS/Atom: {{ site.url }}/feed.xml
+
+No mailing list. No social media. RSS is the canonical subscription channel.
+
+## Personal projects
+
+- VTT.bzh — MTB community calendar for Brittany: https://vtt.bzh/
+- nicolasjouanno.com — personal site as UX and minimalist digital experimentation ground
+
+## Values
+
+Minimalism — Discipline — Endurance — Privacy — Ownership
