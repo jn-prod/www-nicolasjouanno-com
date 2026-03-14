@@ -1,0 +1,52 @@
+# Nicolas Jouanno
+
+Nicolas Jouanno is a frontend developer specialized in design systems, accessibility (RGAA), and modern web architectures. Self-taught over 20 years of web practice, former professional cyclist, minimalist by philosophy. Based in Pontivy, Brittany, France.
+
+## Who is Nicolas
+
+Nicolas applies the same discipline and endurance from his cycling career to his work and projects. His approach to the web is intentional and durable: human, simple, and sustainable. He is a father, adventurer, and van traveler exploring Europe with his family.
+
+- Professional profile: https://www.nicolasjouanno.com/work.html
+- Sports background: https://www.nicolasjouanno.com/results.html
+- Contact: https://www.nicolasjouanno.com/contact.html
+
+## Expertise
+
+- Frontend development: JavaScript, TypeScript, Web Components (StencilJS), Vue.js
+- Design Systems architecture and industrialization
+- Digital accessibility: RGAA, WCAG, a11y audits
+- Eco-design and web performance
+- Jamstack, monorepo, static site architecture
+
+## Current role
+
+Lead Frontend Developer — MGDIS Core Team (2019–present)
+Responsible for design system, Web Components library, accessibility standards, and frontend tooling.
+
+## Latest posts
+
+
+- Conférence: Les Web Components et l’accessibilité, co-speaker avec Simon @ Paris Web 2025 (2026) — https://www.nicolasjouanno.com/conference-les-web-components-et-accessibilite.html
+
+- RE : (Bad) BUZZ et désinformation autour du remboursement de la galette des rois sans gluten (2026) — https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html
+
+- Retrouver le fil - pourquoi je recentre tout sur un seul site (2025) — https://www.nicolasjouanno.com/Retrouver-le-fil.html
+
+
+All posts: https://www.nicolasjouanno.com/posts.html
+
+## Subscribe
+
+To follow Nicolas's publications, use the RSS feed:
+- RSS/Atom: https://www.nicolasjouanno.com/feed.xml
+
+No mailing list. No social media. RSS is the canonical subscription channel.
+
+## Personal projects
+
+- VTT.bzh — MTB community calendar for Brittany: https://vtt.bzh/
+- nicolasjouanno.com — personal site as UX and minimalist digital experimentation ground
+
+## Values
+
+Minimalism — Discipline — Endurance — Privacy — Ownership
