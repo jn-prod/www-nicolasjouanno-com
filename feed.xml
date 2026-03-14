@@ -11,8 +11,8 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Sat, 14 Mar 2026 10:01:39 +0000</pubDate>
-    <lastBuildDate>Sat, 14 Mar 2026 10:01:39 +0000</lastBuildDate>
+    <pubDate>Sat, 14 Mar 2026 10:10:48 +0000</pubDate>
+    <lastBuildDate>Sat, 14 Mar 2026 10:10:48 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
@@ -435,7 +435,7 @@ séparer, cloisonner, multiplier les adresses.</p>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/pourquoi-tombons-nous.html</guid>
         <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
         
-        <enclosure url="https://www.nicolasjouanno.comimages/posts/route-de-montagne.webp" type="image/*"/>
+        <enclosure url="https://www.nicolasjouanno.comimages/posts/route-de-montagne.webp" type="image/webp"/>
         
         
         <category>Sport</category>
@@ -455,7 +455,8 @@ séparer, cloisonner, multiplier les adresses.</p>
               <img src="https://www.nicolasjouanno.comimages/posts/homme_trail_foret.webp" alt="Mon premier trail"/>
             </a>
           
-          Je suis plein de contradiction, ceux qui me connaissent le savent. Il y a quelques semaines, je publiais un article disant que je n’ai pas besoin de compétition pour m’entraîner. Cette même semaine, je prenais le départ de ma première course à pied, un trail de 12km qui avait lieu...
+          Je suis plein de contradiction, ceux qui me connaissent le savent. Il y a quelques semaines, je publiais un article disant que je n’ai pas besoin de compétition pour m’entraîner. Cette même semaine, je prenais le départ de ma première course à pied, un trail de 12km qui avait lieu derrière chez moi. Dans cet article, je vous parle de ma préparation, des questions que je me suis posé et, bien sûr, de ma course !
+
           <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/premier-trail.html" target="_blank">nicolasjouanno.com</a></p>
         ]]></description>
         <content:encoded><![CDATA[<p><em>Je suis plein de contradiction, ceux qui me connaissent le savent. Il y a quelques semaines, je publiais un article disant que je n’ai pas besoin de compétition pour m’entraîner. Cette même semaine, je prenais le départ de ma première course à pied, un trail de 12km qui avait lieu derrière chez moi. Dans cet article, je vous parle de ma préparation, des questions que je me suis posé et, bien sûr, de ma course !</em></p>
@@ -491,7 +492,7 @@ séparer, cloisonner, multiplier les adresses.</p>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/premier-trail.html</guid>
         <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
         
-        <enclosure url="https://www.nicolasjouanno.comimages/posts/homme_trail_foret.webp" type="image/*"/>
+        <enclosure url="https://www.nicolasjouanno.comimages/posts/homme_trail_foret.webp" type="image/webp"/>
         
         
         <category>Trail</category>
@@ -515,7 +516,8 @@ séparer, cloisonner, multiplier les adresses.</p>
               <img src="https://www.nicolasjouanno.comimages/posts/tshirt_velo-boulot-dodo.webp" alt="Vélo, Boulot, Dodo"/>
             </a>
           
-          Vous connaissez sûrement plus la citation “Métro, Boulot, Dodo” que je me suis ré-approprié. Depuis que j’habite à Pontivy, j’ai la chance de pouvoir aller tous les jours au boulot à vélo, parcourant les 2km500 séparant mon domicile du bureau, en longeant le canal, quatre fois par jour. Fraîchement l’hiver...
+          Vous connaissez sûrement plus la citation “Métro, Boulot, Dodo” que je me suis ré-approprié. Depuis que j’habite à Pontivy, j’ai la chance de pouvoir aller tous les jours au boulot à vélo, parcourant les 2km500 séparant mon domicile du bureau, en longeant le canal, quatre fois par jour. Fraîchement l’hiver et chaudement l’été, vous me croirez, ou non, mais prendre le vélo conditionne une bonne journée!
+
           <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/velo-boulot-dodo.html" target="_blank">nicolasjouanno.com</a></p>
         ]]></description>
         <content:encoded><![CDATA[<p><em>Vous connaissez sûrement plus la citation “Métro, Boulot, Dodo” que je me suis ré-approprié. Depuis que j’habite à Pontivy, j’ai la chance de pouvoir aller tous les jours au boulot à vélo, parcourant les 2km500 séparant mon domicile du bureau, en longeant le canal, quatre fois par jour. Fraîchement l’hiver et chaudement l’été, vous me croirez, ou non, mais prendre le vélo conditionne une bonne journée!</em></p>
@@ -539,7 +541,7 @@ séparer, cloisonner, multiplier les adresses.</p>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/velo-boulot-dodo.html</guid>
         <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
         
-        <enclosure url="https://www.nicolasjouanno.comimages/posts/tshirt_velo-boulot-dodo.webp" type="image/*"/>
+        <enclosure url="https://www.nicolasjouanno.comimages/posts/tshirt_velo-boulot-dodo.webp" type="image/webp"/>
         
         
         <category>Textile</category>
@@ -565,7 +567,8 @@ séparer, cloisonner, multiplier les adresses.</p>
               <img src="https://www.nicolasjouanno.comimages/posts/1029035155.webp" alt="Comment progresser sans compétition ?"/>
             </a>
           
-          Ce n’est pas toujours simple de trouver la motivation. Dans cet article, je vais partager avec vous ce qui me motive le plus pour me bouger, mais aussi ce qui me peut transformer une sortie de running en sortie de vélo, une balade en bord en mer en session de...
+          Ce n’est pas toujours simple de trouver la motivation. Dans cet article, je vais partager avec vous ce qui me motive le plus pour me bouger, mais aussi ce qui me peut transformer une sortie de running en sortie de vélo, une balade en bord en mer en session de surf…
+
           <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/competition-versus-entrainement.html" target="_blank">nicolasjouanno.com</a></p>
         ]]></description>
         <content:encoded><![CDATA[<p><em>Ce n’est pas toujours simple de trouver la motivation. Dans cet article, je vais partager avec vous ce qui me motive le plus pour me bouger, mais aussi ce qui me peut transformer une sortie de running en sortie de vélo, une balade en bord en mer en session de surf…</em></p>
@@ -702,7 +705,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
         <guid isPermaLink="true">https://www.nicolasjouanno.com/competition-versus-entrainement.html</guid>
         <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
         
-        <enclosure url="https://www.nicolasjouanno.comimages/posts/1029035155.webp" type="image/*"/>
+        <enclosure url="https://www.nicolasjouanno.comimages/posts/1029035155.webp" type="image/webp"/>
         
         
         <category>Sport</category>
@@ -770,7 +773,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
         <guid isPermaLink="true">https://www.nicolasjouanno.com/sport-solitude.html</guid>
         <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
         
-        <enclosure url="https://www.nicolasjouanno.comimages/posts/living-alone.webp" type="image/*"/>
+        <enclosure url="https://www.nicolasjouanno.comimages/posts/living-alone.webp" type="image/webp"/>
         
         
         <category>Sport</category>
