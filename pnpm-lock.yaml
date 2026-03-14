@@ -12,6 +12,8 @@ importers:
         specifier: ^2.26.1
         version: 2.29.5
 
+  apps/gluten-not-gluten: {}
+
   configs/obsidian: {}
 
   packages/images:
