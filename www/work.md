@@ -89,6 +89,8 @@ Stack fullstack JS serverless : Vue, Node, TypeScript, Supabase. CI et scraping 
 
 Stack native web : Jekyll, monorepo. Approche IndieWeb et ownership du contenu. Minimalisme comme contrainte technique et éditoriale.
 
+J’explique [ma démarche dans ce post](/Retrouver-le-fil.html).
+
 ## Compétences
 
 - Frontend : JavaScript (ESNext), TypeScript, StencilJs, Vue.js, Web Components, SASS, HTML5, CSS3.
