@@ -22,7 +22,7 @@ aliases:
 
 # Développeur Frontend - Design System, Accessibilité & Web Components
 
-Venu au développement web par curiosité et engagement terrain, j’ai construit une expertise à l’intersection du design et de l’ingénierie frontend. Je contribue à l’industrialisation d’un design system basé sur des Web Components, sous contraintes d’accessibilité et de performance. Un parcours qui m’a amené à porter ces sujets en tant qu’orateur à Paris-Web 2025.
+Venu au développement web par curiosité et engagement terrain, j’ai construit une expertise à l’intersection du design et de l’ingénierie frontend. Je contribue à l’industrialisation d’un design system basé sur des Web Components, sous contraintes d’accessibilité et de performance. Un parcours qui m’a amené à porter ces sujets en tant qu’[orateur à Paris-Web 2025](/conference-les-web-components-et-accessibilite.html)
 
 ## Expérience professionnelle
 
