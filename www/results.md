@@ -7,15 +7,13 @@ permalink:
 
 # Parcours sportif
 
-Avant de devenir développeur, j’ai passé ma jeunesse à faire du vélo, sérieusement : compétitions, entraînements quotidiens, stages, saisons…
+J’ai passé ma jeunesse à faire du vélo, sérieusement : compétitions, entraînements quotidiens, stages, saisons...
 
 Le goût de l’effort, la discipline et l’endurance m’ont permis de devenir cycliste professionnel, et de vivre ma passion pendant plusieurs saisons.
 
-Ce parcours m’a forgé bien au-delà du sport. Il m’a appris à avancer avec rigueur, à viser l’efficacité, à travailler en équipe.
+Aujourd’hui, je pratique autrement, en solo ou en famille, sur les sentiers bretons ou ailleurs en Europe. Le yoga comme ancrage quotidien, le vélo, la course et la randonnée au gré des saisons et des ciels dégagés. Une façon d’habiter son corps et de se reconnecter à la nature, loin des des chronos.
 
-Même si je ne cours plus en compétition, je continue à rouler, courir, randonner — seul ou en famille.
-
-J’ai créé et développé [VTT.bzh](https://vtt.bzh/) : c’est à la fois un outil, un terrain de jeu, et une façon de partager ma passion du vélo. Je publie des articles sur la pratique sportive outdoor:
+Je publie des articles sur ma pratique sportive outdoor :
 
 - [Quel entrainement pour progresser en VTT ?](/entrainement-vtt.html)
 - [Les meilleurs pneus vtt spéciale boue pour l'hiver](/choisir-son-pneu-vtt-hiver-boue.html)
