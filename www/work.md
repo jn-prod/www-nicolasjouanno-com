@@ -30,9 +30,9 @@ Venu au développement web par curiosité et engagement terrain, j’ai construi
 
 Membre de la core team, responsable de l’outillage pour l’industrialisation du développement d’applications web basées sur des micro-services.
 
-Missions principales :
+#### Missions principales
 
-- Conception, maintenance et déploiement de librairies, dont un design system de Web Components (StencilJS, SCSS) et son outillage.
+- Conception, maintenance et déploiement de librairies, dont un design system de Web Components (StencilJS, SCSS) et son outillage. ([Github](https://github.com/MGDIS/core-ui))
 - Résolution des problématiques frontend en cohérence avec la vision de l’architecte.
 - Garant de l’accessibilité, homogénéité et qualité des livrables.
 - Accompagnement et sensibilisation des développeurs.
