@@ -81,11 +81,11 @@ Première expérience professionnelle web, menée en parallèle de ma carrière 
 
 ## Projets
 
-### [VTT.bzh](https://vtt.bzh/) - Calendrier communautaire VTT en Bretagne. ([Github](https://github.com/jn-prod/www-vtt-bzh))
+### [VTT.bzh](https://vtt.bzh/) - Calendrier communautaire VTT en Bretagne, depuis 2013 ([Github](https://github.com/jn-prod/www-vtt-bzh))
 
-Stack fullstack JS serverless : Vue, Node, TypeScript, Supabase. CI et scraping automatisé via GitHub Actions. 7–10k visiteurs mensuels.
+Stack monorepo fullstack JS native et serverless : Jekyll, vanillaJS, Node, TypeScript, Supabase. CI et scraping automatisé via GitHub Actions. 7–10k visiteurs mensuels.
 
-### nicolasjouanno.com - Hub éditorial personnel.
+### nicolasjouanno.com - Hub éditorial personnel, depuis 2008 ([Github](https://github.com/jn-prod/www-nicolasjouanno-com))
 
 Stack native web : Jekyll, monorepo. Approche IndieWeb et ownership du contenu. Minimalisme comme contrainte technique et éditoriale.
 
