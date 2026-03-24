@@ -1,0 +1,18 @@
+<fieldset class="c-quiz__question-card" data-difficulty="{{ include.question.difficulty }}" data-has-gluten="{{ include.question.hasGluten }}" hidden>
+  <legend class="c-quiz__question-text">
+    <span class="c-quiz__question-emoji" aria-hidden="true">{{ include.question.emoji }}</span>
+    {{ include.question.text }}
+  </legend>
+  <div class="c-quiz__answer-buttons">
+    <input type="radio" id="answerGluten-{{ include.index }}" class="u-visually-hidden" name="answer-{{ include.index }}" value="true">
+    <label for="answerGluten-{{ include.index }}" class="c-button c-button--dark-outline">Contient du gluten</label>
+    <input type="radio" id="answerNoGluten-{{ include.index }}" class="u-visually-hidden" name="answer-{{ include.index }}" value="false">
+    <label for="answerNoGluten-{{ include.index }}" class="c-button c-button--dark-outline">Sans gluten</label>
+  </div>
+  <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <div class="c-callout" role="alert" hidden>
+    <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
+    <p class="c-callout__text">{{ include.question.explanation }}</p>
+  </div>
+</fieldset>

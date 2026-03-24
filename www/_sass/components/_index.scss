@@ -1,5 +1,9 @@
 @use 'jumbotron';
 @use 'button';
+@use 'progress';
+@use 'stat-bar';
+@use 'callout';
+@use 'stat-list';
 @use 'section';
 @use 'navigation';
 @use 'footer-nav';
@@ -8,3 +12,4 @@
 @use 'pagination';
 @use 'icons';
 @use 'sitemap';
+@use 'quiz';

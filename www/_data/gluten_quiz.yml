@@ -1,0 +1,225 @@
+- text: "Pain"
+  emoji: "🍞"
+  hasGluten: true
+  difficulty: low
+  explanation: "Le pain classique est fait avec de la farine de blé qui contient du gluten."
+- text: "Riz"
+  emoji: "🍚"
+  hasGluten: false
+  difficulty: low
+  explanation: "Le riz est naturellement sans gluten et peut être consommé sans danger."
+- text: "Pâtes"
+  emoji: "🍝"
+  hasGluten: true
+  difficulty: low
+  explanation: "Les pâtes traditionnelles sont faites de blé dur et contiennent du gluten."
+- text: "Pomme"
+  emoji: "🍎"
+  hasGluten: false
+  difficulty: low
+  explanation: "Les fruits frais sont tous naturellement sans gluten."
+- text: "Bière"
+  emoji: "🍺"
+  hasGluten: true
+  difficulty: low
+  explanation: "La bière classique est brassée à partir d'orge qui contient du gluten."
+- text: "Viande"
+  emoji: "🥩"
+  hasGluten: false
+  difficulty: low
+  explanation: "La viande fraîche non transformée est naturellement sans gluten."
+- text: "Croissant"
+  emoji: "🥐"
+  hasGluten: true
+  difficulty: low
+  explanation: "Les viennoiseries sont faites avec de la farine de blé riche en gluten."
+- text: "Carotte"
+  emoji: "🥕"
+  hasGluten: false
+  difficulty: low
+  explanation: "Tous les légumes frais sont naturellement sans gluten."
+- text: "Pizza"
+  emoji: "🍕"
+  hasGluten: true
+  difficulty: low
+  explanation: "La pâte à pizza classique contient de la farine de blé avec gluten."
+- text: "Œuf"
+  emoji: "🥚"
+  hasGluten: false
+  difficulty: low
+  explanation: "Les œufs sont naturellement sans gluten."
+- text: "Soja sauce"
+  emoji: "🥫"
+  hasGluten: true
+  difficulty: medium
+  explanation: "La sauce soja traditionnelle contient du blé fermenté."
+- text: "Quinoa"
+  emoji: "🌾"
+  hasGluten: false
+  difficulty: medium
+  explanation: "Le quinoa est une pseudo-céréale naturellement sans gluten."
+- text: "Couscous"
+  emoji: "🍲"
+  hasGluten: true
+  difficulty: medium
+  explanation: "Le couscous est fait de semoule de blé dur qui contient du gluten."
+- text: "Avoine"
+  emoji: "🌾"
+  hasGluten: false
+  difficulty: medium
+  explanation: "L'avoine pure est sans gluten, mais attention à la contamination croisée !"
+- text: "Biscuits"
+  emoji: "🍪"
+  hasGluten: true
+  difficulty: medium
+  explanation: "Les biscuits classiques sont faits avec de la farine de blé."
+- text: "Maïs"
+  emoji: "🌽"
+  hasGluten: false
+  difficulty: medium
+  explanation: "Le maïs est naturellement sans gluten."
+- text: "Seitan"
+  emoji: "🥙"
+  hasGluten: true
+  difficulty: medium
+  explanation: "Le seitan est fait de gluten de blé pur ! C'est du gluten à 100%."
+- text: "Lait"
+  emoji: "🥛"
+  hasGluten: false
+  difficulty: medium
+  explanation: "Le lait nature ne contient pas de gluten."
+- text: "Céréales"
+  emoji: "🥣"
+  hasGluten: true
+  difficulty: medium
+  explanation: "La plupart des céréales du commerce contiennent du blé, de l'orge ou du malt."
+- text: "Tofu"
+  emoji: "🧊"
+  hasGluten: false
+  difficulty: medium
+  explanation: "Le tofu nature est fait de soja et ne contient pas de gluten."
+- text: "Orge"
+  emoji: "🌾"
+  hasGluten: true
+  difficulty: medium
+  explanation: "L'orge contient du gluten et doit être évitée par les cœliaques."
+- text: "Patate douce"
+  emoji: "🍠"
+  hasGluten: false
+  difficulty: medium
+  explanation: "Les tubercules comme la patate douce sont sans gluten."
+- text: "Burger"
+  emoji: "🍔"
+  hasGluten: true
+  difficulty: medium
+  explanation: "Le pain du burger contient généralement du gluten."
+- text: "Yaourt"
+  emoji: "🥛"
+  hasGluten: false
+  difficulty: medium
+  explanation: "Le yaourt nature est sans gluten, mais vérifiez les additifs."
+- text: "Crêpe"
+  emoji: "🥞"
+  hasGluten: true
+  difficulty: medium
+  explanation: "Les crêpes traditionnelles sont faites avec de la farine de blé."
+- text: "Amidon"
+  emoji: "🧪"
+  hasGluten: true
+  difficulty: hard
+  explanation: "L'amidon non modifié peut provenir du blé et contenir du gluten."
+- text: "Sarrasin"
+  emoji: "🌾"
+  hasGluten: false
+  difficulty: hard
+  explanation: "Malgré son nom, le sarrasin est sans gluten. Attention à la contamination !"
+- text: "Épeautre"
+  emoji: "🌾"
+  hasGluten: true
+  difficulty: hard
+  explanation: "L'épeautre est une ancienne variété de blé qui contient du gluten."
+- text: "Kamut"
+  emoji: "🌾"
+  hasGluten: true
+  difficulty: hard
+  explanation: "Le kamut est un blé ancien qui contient du gluten."
+- text: "Malt"
+  emoji: "🍺"
+  hasGluten: true
+  difficulty: hard
+  explanation: "Le malt est fait d'orge germée et contient du gluten."
+- text: "Amarante"
+  emoji: "🌾"
+  hasGluten: false
+  difficulty: hard
+  explanation: "L'amarante est une pseudo-céréale sans gluten."
+- text: "Sauce Tamari"
+  emoji: "🥫"
+  hasGluten: false
+  difficulty: hard
+  explanation: "Le tamari est une sauce soja sans blé, donc sans gluten."
+- text: "Seigle"
+  emoji: "🌾"
+  hasGluten: true
+  difficulty: hard
+  explanation: "Le seigle contient du gluten et doit être évité."
+- text: "Teff"
+  emoji: "🌾"
+  hasGluten: false
+  difficulty: hard
+  explanation: "Le teff est une céréale éthiopienne naturellement sans gluten."
+- text: "Sirop de malt"
+  emoji: "🍯"
+  hasGluten: true
+  difficulty: hard
+  explanation: "Le sirop de malt provient de l'orge et contient du gluten."
+- text: "Farine de pois chiche"
+  emoji: "🥙"
+  hasGluten: false
+  difficulty: hard
+  explanation: "La farine de pois chiche est sans gluten."
+- text: "Matzo"
+  emoji: "🍞"
+  hasGluten: true
+  difficulty: hard
+  explanation: "Le pain azyme (matzo) traditionnel est fait de blé avec gluten."
+- text: "Millet"
+  emoji: "🌾"
+  hasGluten: false
+  difficulty: hard
+  explanation: "Le millet est une céréale sans gluten."
+- text: "Triticale"
+  emoji: "🌾"
+  hasGluten: true
+  difficulty: hard
+  explanation: "Le triticale est un hybride blé-seigle qui contient du gluten."
+- text: "Sorgho"
+  emoji: "🌾"
+  hasGluten: false
+  difficulty: hard
+  explanation: "Le sorgho est une céréale sans gluten utilisée en Afrique."
+- text: "Hydrolysat de protéines"
+  emoji: "🧪"
+  hasGluten: true
+  difficulty: hard
+  explanation: "Peut provenir du blé. Toujours vérifier l'étiquette !"
+- text: "Tapioca"
+  emoji: "🥔"
+  hasGluten: false
+  difficulty: hard
+  explanation: "Le tapioca est extrait du manioc et est sans gluten."
+- text: "Farro"
+  emoji: "🌾"
+  hasGluten: true
+  difficulty: hard
+  explanation: "Le farro est une variété de blé ancien qui contient du gluten."
+- text: "Arrow-root"
+  emoji: "🥔"
+  hasGluten: false
+  difficulty: hard
+  explanation: "L'arrow-root est une fécule sans gluten utilisée comme épaississant."
+- text: "Maltodextrine"
+  emoji: "🧪"
+  hasGluten: false
+  difficulty: hard
+  explanation: "En Europe, la maltodextrine est généralement sans gluten même si issue du blé."

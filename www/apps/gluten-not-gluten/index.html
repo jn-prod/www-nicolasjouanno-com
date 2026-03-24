@@ -1,0 +1,96 @@
+---
+layout: page
+title: "Gluten ou pas Gluten ? - Quiz"
+description: "Testez vos connaissances sur les aliments contenant du gluten"
+permalink: /apps/gluten-not-gluten/
+breadcrumb_hide: true
+---
+
+<div class="c-quiz">
+  <h1 id="quiz-title">🌾 Gluten ou Pas Gluten ? Testez vos connaissances !</h1>
+
+  <!-- Étape 1 : choix du niveau -->
+  <section id="startScreen" class="c-quiz__screen" aria-labelledby="quiz-title">
+    <div class="c-quiz__start">
+      <p>Êtes-vous capable de reconnaître les aliments qui contiennent du gluten ? Choisissez votre niveau et commencez le défi !</p>
+      <fieldset class="c-quiz__difficulty-buttons">
+        <legend class="u-visually-hidden">Choisissez votre niveau de difficulté</legend>
+        <input type="radio" id="diffLow" class="u-visually-hidden" name="difficulty" value="low" onchange="startQuiz(this.value)">
+        <label for="diffLow" class="c-button c-button--dark-outline c-button--fullwidth">😊 Facile - 10 questions</label>
+        <input type="radio" id="diffMedium" class="u-visually-hidden" name="difficulty" value="medium" onchange="startQuiz(this.value)">
+        <label for="diffMedium" class="c-button c-button--dark-outline c-button--fullwidth">🤔 Moyen - 15 questions</label>
+        <input type="radio" id="diffHard" class="u-visually-hidden" name="difficulty" value="hard" onchange="startQuiz(this.value)">
+        <label for="diffHard" class="c-button c-button--dark-outline c-button--fullwidth">🔥 Difficile - 20 questions</label>
+      </fieldset>
+    </div>
+  </section>
+
+  <!-- Étape 2 : questions -->
+  <section id="quizScreen" class="c-quiz__screen" hidden aria-label="Quiz en cours">
+    <progress id="quizProgress" class="c-progress" max="10" value="1">Question 1 sur 10</progress>
+
+    <div class="c-stat-bar" aria-live="polite" aria-atomic="false">
+      <div class="c-stat-bar__item">
+        <span class="c-stat-bar__label" id="labelQuestion">Question</span>
+        <output class="c-stat-bar__value" aria-labelledby="labelQuestion"><span id="currentQuestion">1</span>/<span id="totalQuestions">10</span></output>
+      </div>
+      <div class="c-stat-bar__item">
+        <span class="c-stat-bar__label" id="labelScore">Score</span>
+        <output class="c-stat-bar__value" id="currentScore" aria-labelledby="labelScore">0</output>
+      </div>
+      <div class="c-stat-bar__item">
+        <span class="c-stat-bar__label" id="labelStreak">Série</span>
+        <output class="c-stat-bar__value" id="streak" aria-labelledby="labelStreak">0</output>
+      </div>
+    </div>
+
+    <!-- Cartes questions pré-rendues -->
+    {% for question in site.data.gluten_quiz %}
+      {% include apps/gluten-quiz-card.html question=question index=forloop.index %}
+    {% endfor %}
+
+    <button id="nextBtn" class="c-button c-button--primary c-button--fullwidth" type="button" onclick="nextQuestion()" disabled>
+      Question suivante
+    </button>
+  </section>
+
+  <!-- Étape 3 : résultats -->
+  <section id="resultScreen" class="c-quiz__screen" hidden aria-label="Résultats du quiz">
+    <div class="c-quiz__result">
+      <div class="c-quiz__score-circle">
+        <output class="c-quiz__score-value" id="finalScore">0</output>
+        <p class="c-quiz__score-label" aria-hidden="true">points</p>
+      </div>
+
+      <p class="c-quiz__result-message" id="resultMessage100" role="status" hidden>🏆 Parfait ! Expert sans gluten !</p>
+      <p class="c-quiz__result-message" id="resultMessage80" role="status" hidden>🌟 Excellent ! Vous maîtrisez bien !</p>
+      <p class="c-quiz__result-message" id="resultMessage60" role="status" hidden>👍 Bien joué ! Continuez d'apprendre !</p>
+      <p class="c-quiz__result-message" id="resultMessageDefault" role="status" hidden>💪 Bon début ! Retentez votre chance !</p>
+
+      <dl class="c-stat-list">
+        <div class="c-stat-list__item">
+          <dt class="c-stat-list__label">Bonnes réponses</dt>
+          <dd class="c-stat-list__value" id="correctAnswers">0/10</dd>
+        </div>
+        <div class="c-stat-list__item">
+          <dt class="c-stat-list__label">Meilleure série</dt>
+          <dd class="c-stat-list__value"><output id="bestStreak">0</output> 🔥</dd>
+        </div>
+        <div class="c-stat-list__item">
+          <dt class="c-stat-list__label">Précision</dt>
+          <dd class="c-stat-list__value" id="accuracy">0%</dd>
+        </div>
+      </dl>
+
+      <div class="c-quiz__share-buttons">
+        <button class="c-button c-button--dark c-button--fullwidth" type="button" onclick="shareTwitter()">🐦 Partager sur Twitter</button>
+        <button class="c-button c-button--dark c-button--fullwidth" type="button" onclick="shareFacebook()">📘 Partager sur Facebook</button>
+      </div>
+
+      <button class="c-button c-button--primary c-button--fullwidth" type="button" onclick="restartQuiz()">🔄 Rejouer</button>
+    </div>
+  </section>
+
+</div>
+
+<script src="./index.js"></script>

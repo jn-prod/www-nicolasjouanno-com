@@ -1,0 +1,25 @@
+.c-stat-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--size-16);
+  background: color-mix(in srgb, var(--color-dark), white 92%);
+  border-radius: var(--size-8);
+
+  &__item {
+    text-align: center;
+  }
+
+  &__label {
+    display: block;
+    font-size: calc(var(--font-size) * 0.875);
+    color: color-mix(in srgb, var(--color-dark), white 30%);
+    margin-bottom: var(--size-4);
+  }
+
+  &__value {
+    display: block;
+    font-size: calc(var(--font-size) * 1.5);
+    font-weight: bold;
+    color: var(--color-dark);
+  }
+}

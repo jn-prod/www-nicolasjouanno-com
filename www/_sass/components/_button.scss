@@ -51,3 +51,14 @@ $variants: 'primary', 'secondary', 'dark', 'light';
 
 @include button-variantes($variants, $outline: false);
 @include button-variantes($variants, $outline: true);
+
+.c-button--fullwidth {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.c-button[disabled] {
+  opacity: 0.8;
+  cursor: not-allowed;
+}

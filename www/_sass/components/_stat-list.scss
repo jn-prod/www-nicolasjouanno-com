@@ -1,0 +1,26 @@
+.c-stat-list {
+  background: color-mix(in srgb, var(--color-dark), white 92%);
+  border-radius: var(--size-8);
+  padding: var(--size-16) var(--size-32);
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--size-8) 0;
+    font-size: var(--font-size);
+
+    &:not(:last-child) {
+      border-bottom: var(--border);
+    }
+  }
+
+  &__label {
+    color: color-mix(in srgb, var(--color-dark), white 30%);
+  }
+
+  &__value {
+    font-weight: bold;
+    color: var(--color-dark);
+    margin: 0;
+  }
+}
