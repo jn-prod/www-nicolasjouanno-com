@@ -11,34 +11,4 @@ redirect_from:
 
 Une question, une idée, ou simplement envie d’échanger ?
 
-Envoyer-moi un <a href="mailto:{{site.author.email}}">email</a> ou écrivez-moi via le formulaire ci-dessous, je réponds toujours avec plaisir.
-
-<form action="https://formsubmit.co/674587a4dfca39e2907b37e886ff93ad" method="POST">
-
-      <!-- Champs visibles -->
-
-<p>Tous les champs sont obligatoires</p>
-
-      <div>
-            <label for="name">Nom</label>
-            <input type="text" id="name" name="name" required>
-      </div>
-
-      <div>
-            <label for="email">Votre e-mail</label>
-            <input type="email" id="email" name="replyto" required>
-      </div>
-      <div>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="6" required></textarea>
-      </div>
-
-      <!-- Champs cachés -->
-
-      <input type="hidden" name="_next" value="https://nicolasjouanno.com/">
-
-      <input type="hidden" name="_subject" value="formulaire de contact nicolasjouanno.com">
-
-      <button type="submit" class="c-button c-button--primary">Envoyer</button>
-
-</form>
+Envoyer-moi un e-mail à <a href="mailto:{{site.author.email}}">{{site.author.email}}</a>, je réponds toujours avec plaisir.
