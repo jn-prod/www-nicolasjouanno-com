@@ -25,11 +25,12 @@ signature: true
 
 <h1 class="u-visually-hidden">{{ site.title }}. Père d'une famille d'aventuriers. Nous parcourons l'Europe en van.</h1>
 
-<h2>📬 Un email qui vaut la peine d'être ouvert</h2>
-
 <div id="follow" class="u-grid">
 
   <div class="u-grid__col-6">
+  
+  <h2>📬 Un email qui vaut la peine d'être ouvert</h2>
+  
   <p>Chaque semaine, je partage des choix faits à la main : photos de voyage, lectures, outils web, idées qui nourrissent une vie plus lente. Pas d'algorithme, pas d'urgence, pas de bruit.</p>
   
   {% include /plugins/newsletter.html %}
