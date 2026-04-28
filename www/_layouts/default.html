@@ -218,16 +218,15 @@
         <ul class="c-navigation__link-list">
           <li class="c-navigation__link-list-element">
             <a
-              class="c-button {% if page.url == '/contact.html' %}c-button--active{% endif %}"
-              href="{{ site.url }}/contact.html"
-              target="_blank"
-              >Contact</a
+              class="c-button {% if page.url == '/posts.html' %}c-button--active{% endif %}"
+              href="{{ site.url }}/posts.html"
+              >Posts</a
             >
           </li>
 
           <li class="c-navigation__link-list-element">
             <a
-              href="{{ site.url }}/follow.html"
+              href="{{ site.url }}/#follow"
               rel="me"
               class="c-button c-button--primary"
               >Suivre
@@ -267,8 +266,8 @@
     >
       <p>
         © 2008 - {{ site.time | date: "%Y" }},
-        <a href="{{ site.url }}/follow.html">{{ site.author.name }}</a>. Tous
-        droits réservés.
+        <a href="{{ site.url }}">{{ site.author.name }}</a>. Tous
+        droits réservés. <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
       </p>
     </footer>
 

@@ -79,7 +79,7 @@ permalink: /manifest.json
       "name": "À propos",
       "short_name": "About",
       "description": "En savoir plus sur Nicolas",
-      "url": "/about.html",
+      "url": "/#about",
       "icons": [
         {
           "src": "/images/icons/shortcut-about.webp",
@@ -91,7 +91,7 @@ permalink: /manifest.json
       "name": "Me suivre",
       "short_name": "Follow",
       "description": "Options d'abonnement RSS et email",
-      "url": "/follow.html",
+      "url": "/#follow",
       "icons": [
         {
           "src": "/images/icons/shortcut-follow.webp",
