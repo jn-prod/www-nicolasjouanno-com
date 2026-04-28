@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "4.0.2"
+ruby "4.0.3"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -29,7 +29,8 @@ group :jekyll_plugins do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# [DEPRECATED] Platform :mingw, :mswin, :x64_mingw will be removed in the future. Please use platform :windows instead.
+gem "tzinfo-data", platforms: [:windows, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm" if Gem.win_platform?
