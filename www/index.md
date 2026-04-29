@@ -25,21 +25,22 @@ signature: true
 
 <h1 class="u-visually-hidden">{{ site.title }}. Père d'une famille d'aventuriers. Nous parcourons l'Europe en van.</h1>
 
-<div id="follow" class="u-grid">
+<div  class="u-grid">
 
   <div class="u-grid__col-6">
   
-  <h2>📬 Un email qui vaut la peine d'être ouvert</h2>
+    <h2 id="follow">Mon carnet de voyage : une page par semaine</h2>
   
-  <p>Chaque semaine, je partage des choix faits à la main : photos de voyage, lectures, outils web, idées qui nourrissent une vie plus lente. Pas d'algorithme, pas d'urgence, pas de bruit.</p>
+    <p>Photos, lectures, idées de web sobre. Ce que je glane au fil des semaines, dans le van et derrière l’écran. Pas d'algorithme, pas d'urgence, pas de bruit.</p>
   
-  {% include /plugins/newsletter.html %}
+    {% include /plugins/newsletter.html %}
   
-  <ul>
-    <li>✓ Tous les envois sont publics → <a href="https://mails.nicolasjouanno.com">voir les archives</a></li>
-    <li>✓ Aucun spam, désinscription en un clic</li>
-    <li>✓ Lue par des parents, des créateurs, des voyageurs lents</li>
-  </ul>
+    <ul>
+      <li>✓ Tous les envois sont publics → <a href="https://mails.nicolasjouanno.com">voir les archives</a></li>
+      <li>✓ Aucun spam, désinscription en un clic</li>
+      <li>✓ Lue par des parents, des créateurs, des voyageurs lents</li>
+    </ul>
+
   </div>
 
   <div class="u-grid__col-6"><img class="u-image u-image-center u-image--large" src="/images/icons/avatar.svg" alt="" /></div>
@@ -66,14 +67,14 @@ Ici, pas d'algorithme, pas de pub, pas de suivi intrusif. **Vous choisissez comm
 
 Internet est pour moi un espace ouvert de liberté. Tout se passe sur mon site où je partage mon travail.
 
+  {% include /plugins/newsletter.html %}
+
 ## 📬 Autres façons de suivre
 
 Si vous préférez une autre option que la newsletter, plusieurs moyens simples et durables sont disponibles :
 
-- 📡 [Flux RSS](/feed.xml) — universel, à ajouter dans Feedly, NetNewsWire, Inoreader… ([guide débutant](https://aboutfeeds.com/))
-- 📝 [JSON Feed](/feed.json) — alternative moderne au RSS
+- 🗒️ [Mes articles](/posts.html) Je publie occasionnellement sur des sujets variés
+- 📡 [Flux RSS](/feed.xml) ou [JSON Feed](/feed.json) — universel, à ajouter dans Feedly, NetNewsWire, Inoreader… ([guide débutant](https://aboutfeeds.com/))
 - 📅 [Flux calendrier (ICS)](/agenda.ics) — sorties, voyages et événements
-- 📌 Ajouter ce site aux favoris de votre navigateur
 - 📱 Ajouter à l'écran d'accueil mobile (iOS Safari : _Partager_ → _Ajouter à l'écran d'accueil_ / Android : ⋮ → _Ajouter à l'écran d'accueil_)
-
-[Parcourir les archives](/posts.html) · [Me contacter](/contact.html)
+- 📌 Ajouter ce site aux favoris de votre navigateur

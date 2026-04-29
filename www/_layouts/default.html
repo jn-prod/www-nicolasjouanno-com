@@ -226,6 +226,14 @@
 
           <li class="c-navigation__link-list-element">
             <a
+              class="c-button {% if page.url == '/apps.html' %}c-button--active{% endif %}"
+              href="{{ site.url }}/apps.html"
+              >Apps</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
               href="{{ site.url }}/#follow"
               rel="me"
               class="c-button c-button--primary"
