@@ -73,7 +73,7 @@ Internet est pour moi un espace ouvert de liberté. Tout se passe sur mon site o
 
 Si vous préférez une autre option que la newsletter, plusieurs moyens simples et durables sont disponibles :
 
-- 🗒️ [Mes articles](/posts.html) Je publie occasionnellement sur des sujets variés
+- 🗒️ [Mes articles](/posts.html) — Je publie occasionnellement sur des sujets variés
 - 📡 [Flux RSS](/feed.xml) ou [JSON Feed](/feed.json) — universel, à ajouter dans Feedly, NetNewsWire, Inoreader… ([guide débutant](https://aboutfeeds.com/))
 - 📅 [Flux calendrier (ICS)](/agenda.ics) — sorties, voyages et événements
 - 📱 Ajouter à l'écran d'accueil mobile (iOS Safari : _Partager_ → _Ajouter à l'écran d'accueil_ / Android : ⋮ → _Ajouter à l'écran d'accueil_)
