@@ -15,6 +15,7 @@ $grid-columns: 12;
         } @else {
           flex-basis: col-width($i);
         }
+        flex-grow: 1;
       }
     }
   }
