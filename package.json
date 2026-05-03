@@ -26,6 +26,11 @@
     "lint:fix": "pnpm -r lint:fix"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.26.1"
+    "@changesets/cli": "^2.31.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "glob": ">=11.1.0"
+    }
   }
 }
