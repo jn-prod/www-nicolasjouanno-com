@@ -1,8 +1,18 @@
 # Site Settings
 title: "Nicolas Jouanno"
 description: "Père, développeur et sportif. Je documente notre vie de famille nomade en van à travers l’Europe — sport, code, parentalité et aventure."
-headline: "Père, développeur et sportif. Je documente notre vie de famille nomade en van à travers l’Europe."
 url: "https://www.nicolasjouanno.com"
+lang: "fr"
+logo: "/images/icons/avatar.svg"
+og_image: "/images/icons/avatar.svg"
+
+# Webmaster verifications (renseigner les codes au besoin)
+webmaster_verifications:
+  google: # ex: "abcd1234..."
+  bing:
+  yandex:
+  baidu:
+  facebook:
 
 # author
 author:
@@ -57,21 +67,14 @@ defaults:
 lsi: false
 safe: true
 permalink: /:title:output_ext
-paginate: 12
-paginate_path: /stories/latest/page:num/
 
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
   # - jekyll-archives
   # - jekyll-minifier
-
-whitelist:
-  - jekyll-paginate
 
 # Archives
 # jekyll-archives:
