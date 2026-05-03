@@ -79,6 +79,22 @@
       href="/events.json"
     />
 
+    <!-- Fonts (non-bloquant + font-display: swap) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      />
+    </noscript>
+
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/main.css" />
 
@@ -142,33 +158,63 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
+        "@type": "Event",
         
-          "name": "Nicolas JOUANNO DANIEL",
-          "url": "https://www.nicolasjouanno.com",
-          "email": "contact@nicolasjouanno.com",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Pontivy, Bretagne, France",
-            "addressCountry": "France"
+          "name": "Meetup chez LocService / Sujet WebComponents et l’accessibilité",
+          "description": "Preview de la conférence sur l’accessibilité et les web components qui sera donnée a Paris-Web.",
+          "startDate": "2025-08-26T18:00:00+00:00",
+          "endDate": "2025-08-26T19:00:00+00:00",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "name": "Vannes, France",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Vannes",
+              "addressCountry": "France"
+            }
           },
-          "sameAs": [
-            "https://dribbble.com/nicolasjouanno",
-            "https://www.instagram.com/bynicolasjd/",
-            "https://www.linkedin.com/in/nicolasjouanno/",
-            "https://github.com/jn-prod",
-            "https://medium.com/@nicolasjouanno",
-            "https://fr.pinterest.com/nicolasjouanno/",
-            "https://soundcloud.com/nicolasjouanno",
-            "https://www.strava.com/athletes/njouanno",
-            "https://bynicolasjd.substack.com/welcome",
-            "https://x.com/byNicolasJD",
-            "https://fr.wikipedia.org/wiki/Nicolas_Jouanno",
-            "https://www.youtube.com/channel/UCcvmBtY40bompka9CkjrmLg"
-          ]
+          "organizer": {
+            "@type": "Person",
+            "name": "Nicolas JOUANNO DANIEL",
+            "url": "https://www.nicolasjouanno.com"
+          },
+          "performer": {
+            "@type": "Person",
+            "name": "Nicolas JOUANNO DANIEL"
+          },
+          "url": "https://www.nicolasjouanno.com/events/meetup-accessibilite.html"
+          ,
+          "sameAs": "https://www.meetup.com/fr-FR/theremotetribe/events/309015304/"
+          
         
       }
     </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.nicolasjouanno.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Meetup chez LocService / Sujet WebComponents et l’accessibilité",
+            "item": "https://www.nicolasjouanno.com/events/meetup-accessibilite.html"
+          }
+        ]
+      }
+    </script>
+    
   </head>
 
   <!-- body -->
@@ -280,7 +326,7 @@ Les Web Components (composants web) représentent une avancée dans le développ
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
-    <!-- disqus -->
+    <!-- disqus (lazy-load via IntersectionObserver) -->
     
 
     <!-- webmentions -->

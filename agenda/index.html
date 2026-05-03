@@ -10,7 +10,10 @@
     
     <title>Agenda | Nicolas Jouanno</title>
      
-    <meta name="description" content="Père, développeur et sportif. Je documente notre vie de famille nomade en van à travers l’Europe — sport, code, parentalité et aventure." />
+    <meta
+      name="description"
+      content="Mes prochaines conférences, meetups et événements web. Calendrier de mes prises de parole sur l'accessibilité, les Web Components et le design system."
+    />
     
     <meta name="generator" content="Jekyll v4.4.1" />
 
@@ -76,6 +79,22 @@
       href="/events.json"
     />
 
+    <!-- Fonts (non-bloquant + font-display: swap) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      />
+    </noscript>
+
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/main.css" />
 
@@ -97,7 +116,7 @@
     />
     <meta
       property="og:description"
-      content="Père, développeur et sportif. Je documente notre vie de famille nomade en van à travers l’Europe — sport, code, parentalité et aventure."
+      content="Mes prochaines conférences, meetups et événements web. Calendrier de mes prises de parole sur l'accessibilité, les Web Components et le design system."
     />
     <meta
       property="og:type"
@@ -122,7 +141,7 @@
     />
     <meta
       name="twitter:description"
-      content="Père, développeur et sportif. Je documente notre vie de famille nomade en van à travers l’Europe — sport, code, parentalité et aventure."
+      content="Mes prochaines conférences, meetups et événements web. Calendrier de mes prises de parole sur l'accessibilité, les Web Components et le design system."
     />
     
     <meta name="twitter:site" content="@bynicolasjd" />
@@ -166,6 +185,30 @@
         
       }
     </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.nicolasjouanno.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Agenda",
+            "item": "https://www.nicolasjouanno.com/agenda/"
+          }
+        ]
+      }
+    </script>
+    
   </head>
 
   <!-- body -->
@@ -272,7 +315,7 @@
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
-    <!-- disqus -->
+    <!-- disqus (lazy-load via IntersectionObserver) -->
     
 
     <!-- webmentions -->

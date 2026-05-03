@@ -8,11 +8,11 @@
 
     <!-- Titre et description -->
     
-    <title>Découvrir mon parcours de cycliste à développeu, ainsi que mes projets | Nicolas Jouanno</title>
+    <title>Découvrir mon parcours de cycliste à développeur, ainsi que mes projets | Nicolas Jouanno</title>
      
     <meta
       name="description"
-      content="Développeur frontend et créateur d'interfaces accessibles qui plaisent a vos utilisateurs."
+      content="Développeur frontend, lead du design system MGDIS. Je crée des interfaces accessibles (RGAA), durables et performantes — Web Components, JavaScript, Vue.js."
     />
     
     <meta name="generator" content="Jekyll v4.4.1" />
@@ -79,6 +79,22 @@
       href="/events.json"
     />
 
+    <!-- Fonts (non-bloquant + font-display: swap) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      />
+    </noscript>
+
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/main.css" />
 
@@ -96,11 +112,11 @@
     <!-- Open Graph -->
     <meta
       property="og:title"
-      content="Découvrir mon parcours de cycliste à développeu, ainsi que mes projets"
+      content="Découvrir mon parcours de cycliste à développeur, ainsi que mes projets"
     />
     <meta
       property="og:description"
-      content="Développeur frontend et créateur d'interfaces accessibles qui plaisent a vos utilisateurs."
+      content="Développeur frontend, lead du design system MGDIS. Je crée des interfaces accessibles (RGAA), durables et performantes — Web Components, JavaScript, Vue.js."
     />
     <meta
       property="og:type"
@@ -121,11 +137,11 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="Découvrir mon parcours de cycliste à développeu, ainsi que mes projets"
+      content="Découvrir mon parcours de cycliste à développeur, ainsi que mes projets"
     />
     <meta
       name="twitter:description"
-      content="Développeur frontend et créateur d'interfaces accessibles qui plaisent a vos utilisateurs."
+      content="Développeur frontend, lead du design system MGDIS. Je crée des interfaces accessibles (RGAA), durables et performantes — Web Components, JavaScript, Vue.js."
     />
     
     <meta name="twitter:site" content="@bynicolasjd" />
@@ -135,7 +151,7 @@
       name="twitter:image"
       content="https://www.nicolasjouanno.com/images/icons/avatar.svg"
     />
-    <meta name="twitter:image:alt" content="Découvrir mon parcours de cycliste à développeu, ainsi que mes projets" />
+    <meta name="twitter:image:alt" content="Découvrir mon parcours de cycliste à développeur, ainsi que mes projets" />
     
 
     <!-- Schema.org JSON-LD -->
@@ -169,6 +185,30 @@
         
       }
     </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.nicolasjouanno.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Découvrir mon parcours de cycliste à développeur, ainsi que mes projets",
+            "item": "https://www.nicolasjouanno.com/work.html"
+          }
+        ]
+      }
+    </script>
+    
   </head>
 
   <!-- body -->
@@ -229,7 +269,7 @@
 
     
     <li>
-      <a href="" aria-current="page">Découvrir mon parcours de cycliste à développeu, ainsi que mes projets</a>
+      <a href="" aria-current="page">Découvrir mon parcours de cycliste à développeur, ainsi que mes projets</a>
     </li>
     
   </ol>
@@ -414,7 +454,7 @@
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
-    <!-- disqus -->
+    <!-- disqus (lazy-load via IntersectionObserver) -->
     
 
     <!-- webmentions -->

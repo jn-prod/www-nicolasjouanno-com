@@ -79,6 +79,22 @@
       href="/events.json"
     />
 
+    <!-- Fonts (non-bloquant + font-display: swap) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      />
+    </noscript>
+
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/main.css" />
 
@@ -124,25 +140,13 @@
       content="Nicolas JOUANNO DANIEL"
     />
      
-    <meta property="article:tag" content="enduro" />
+    <meta property="article:tag" content="enduro vtt" />
     
-    <meta property="article:tag" content="vtt," />
+    <meta property="article:tag" content="vtt enduro" />
     
-    <meta property="article:tag" content="vtt" />
+    <meta property="article:tag" content="équipement vtt enduro" />
     
-    <meta property="article:tag" content="enduro," />
-    
-    <meta property="article:tag" content="équipement" />
-    
-    <meta property="article:tag" content="vtt" />
-    
-    <meta property="article:tag" content="enduro," />
-    
-    <meta property="article:tag" content="matériel" />
-    
-    <meta property="article:tag" content="vtt" />
-    
-    <meta property="article:tag" content="enduro" />
+    <meta property="article:tag" content="matériel vtt enduro" />
      
 
     <!-- Image Open Graph -->
@@ -206,6 +210,30 @@
         
       }
     </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.nicolasjouanno.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "GUIDE: L'enduro VTT de A à Z.",
+            "item": "https://www.nicolasjouanno.com/enduro-vtt-pilote-checklist-materiel.html"
+          }
+        ]
+      }
+    </script>
+    
   </head>
 
   <!-- body -->
@@ -285,7 +313,7 @@
   <header>
     <h1 itemprop="name headline">GUIDE: L'enduro VTT de A à Z.</h1>
     <div class="c-layout__author">
-      <img class="c-post-card__avatar" src="/images/icons/avatar.svg" alt="" />
+      <img class="c-post-card__avatar" src="/images/icons/avatar.svg" alt="Avatar de Nicolas JOUANNO DANIEL" />
 <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
   <a href="https://www.nicolasjouanno.com" class="c-post-card__author-name">
     <span itemprop="name">Nicolas JOUANNO DANIEL</span>
@@ -296,6 +324,11 @@
     <meta itemprop="height" content="60" />
   </span>
   <meta itemprop="url" content="https://www.nicolasjouanno.com" />
+  <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
+  <link itemprop="sameAs" href="https://github.com/jn-prod" />
+  <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
+  <link itemprop="sameAs" href="https://medium.com/@nicolasjouanno" />
+  <link itemprop="sameAs" href="https://bynicolasjd.substack.com/welcome" />
   <div class="c-post-card__meta">
     <span>@bynicolasjd</span>
     ·
@@ -319,7 +352,11 @@
   
   <div class="c-layout__medias">
     
-    <img src="/images/posts/p5pb12718966.webp" alt="" loading="lazy" />
+    <img
+      src="/images/posts/p5pb12718966.webp"
+      alt="Illustration de l'article : GUIDE: L'enduro VTT de A à Z."
+      loading="lazy"
+    />
     
   </div>
   
@@ -583,7 +620,7 @@
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
-    <!-- disqus -->
+    <!-- disqus (lazy-load via IntersectionObserver) -->
     
     <script
       id="dsq-count-scr"
@@ -591,21 +628,33 @@
       async
     ></script>
     <script>
-      /**
-       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-       */
-      const disqus_config = function () {
-        this.page.url = "https://www.nicolasjouanno.com/enduro-vtt-pilote-checklist-materiel.html"; // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = "tout-sur-lenduro-vtt-du-pilote-à-la-checklist-materiel"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      window.disqus_config = function () {
+        this.page.url = "https://www.nicolasjouanno.com/enduro-vtt-pilote-checklist-materiel.html";
+        this.page.identifier = "tout-sur-lenduro-vtt-du-pilote-à-la-checklist-materiel";
       };
       (function () {
-        // DON'T EDIT BELOW THIS LINE
-        var d = document,
-          s = d.createElement("script");
-        s.src = "https://nicolasjouanno-com.disqus.com/embed.js";
-        s.setAttribute("data-timestamp", +new Date());
-        (d.head || d.body).appendChild(s);
+        const target = document.getElementById("disqus_thread");
+        if (!target) return;
+        const loadDisqus = () => {
+          const s = document.createElement("script");
+          s.src = "https://nicolasjouanno-com.disqus.com/embed.js";
+          s.setAttribute("data-timestamp", +new Date());
+          (document.head || document.body).appendChild(s);
+        };
+        if ("IntersectionObserver" in window) {
+          const io = new IntersectionObserver(
+            (entries, obs) => {
+              if (entries.some((e) => e.isIntersecting)) {
+                loadDisqus();
+                obs.disconnect();
+              }
+            },
+            { rootMargin: "200px" }
+          );
+          io.observe(target);
+        } else {
+          loadDisqus();
+        }
       })();
     </script>
     <noscript

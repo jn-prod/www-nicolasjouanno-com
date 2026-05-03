@@ -79,6 +79,22 @@
       href="/events.json"
     />
 
+    <!-- Fonts (non-bloquant + font-display: swap) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      />
+    </noscript>
+
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/main.css" />
 
@@ -169,6 +185,30 @@
         
       }
     </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.nicolasjouanno.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Création de Site Internet",
+            "item": "https://www.nicolasjouanno.com/creation-site-internet.html"
+          }
+        ]
+      }
+    </script>
+    
   </head>
 
   <!-- body -->
@@ -316,7 +356,7 @@
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
-    <!-- disqus -->
+    <!-- disqus (lazy-load via IntersectionObserver) -->
     
 
     <!-- webmentions -->
