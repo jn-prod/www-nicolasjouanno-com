@@ -7,6 +7,7 @@ redirect_from:
   - /cycliste-et-diplome.html
 layout: post
 title: Pourquoi tombons-nous ?
+description: "Cyclo-cross à 15 ans, cyclisme professionnel, chutes et reconversions : un récit en quatre chapitres sur les épreuves qui forgent un sportif."
 categories:
   - Sport
 tags:

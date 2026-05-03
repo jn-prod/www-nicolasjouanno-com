@@ -1,7 +1,7 @@
 ---
 layout: post
 title: M-1 avant ma première prise de parole à Paris-Web
-description:
+description: "À J-1 de notre conférence à Paris Web 2025 sur les Web Components et l'accessibilité : retour sur ce défi partagé avec Simon après deux ans à l'écoute."
 featured: true
 categories:
   - Work

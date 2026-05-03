@@ -5,6 +5,7 @@ redirect_from:
   - /apprendre-de-son-entrainement.html
 layout: post
 title: Comment progresser sans compétition ?
+description: "Comment rester motivé et progresser sans compétition ? Sources de motivation, gestion des saisons et entraînement intelligent pour les sportifs autodidactes."
 categories:
   - Sport
 tags:

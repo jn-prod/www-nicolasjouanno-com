@@ -1,6 +1,15 @@
 ---
 layout: post 
 title: "Conférence: Les Web Components et l’accessibilité, co-speaker avec Simon @ Paris Web 2025"
+description: "Retour sur notre conférence à Paris Web 2025 : les Web Components, le shadow DOM et l’accessibilité, REX d’un design system interopérable co-présenté avec Simon."
+categories:
+  - Work
+tags:
+  - web-components
+  - accessibilite
+  - paris-web
+  - shadow-dom
+  - design-system
 ---
 
 <iframe title="Les Web Components et l’accessibilité" width="100%" height="315" src="https://indymotion.fr/videos/embed/89VPLWMNhtZiFqmwK16qZd" style="border: 0px;" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Vélo, Boulot, Dodo
+description: "Aller travailler à vélo chaque matin : les bienfaits du vélo-taf sur le moral et la santé, à travers deux ans de pratique quotidienne sur le canal de Pontivy."
 categories:
   - Sport
   - Experience
