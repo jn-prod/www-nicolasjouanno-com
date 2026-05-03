@@ -175,7 +175,7 @@
     <meta property="og:image" content="{{ page.images[0] | absolute_url }}" />
     <meta property="og:image:alt" content="{{ page.title }}" />
     {% else %}
-    <meta property="og:image" content="{{ site.og_image | absolute_url }}" />
+    <meta property="og:image" content="{{ site.logo | absolute_url }}" />
     <meta property="og:image:alt" content="{{ site.title }}" />
     {% endif %}
 
@@ -192,10 +192,10 @@
     {% if site.author.handle %}
     <meta name="twitter:site" content="{{ site.author.handle }}" />
     <meta name="twitter:creator" content="{{ site.author.handle }}" />
-    {% endif %} {% if page.image or page.images.size > 0 or site.og_image %}
+    {% endif %} {% if page.image or page.images.size > 0 or site.logo %}
     <meta
       name="twitter:image"
-      content="{% if page.image %}{{ page.image | absolute_url }}{% elsif page.images.size > 0 %}{{ page.images[0] | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}"
+      content="{% if page.image %}{{ page.image | absolute_url }}{% elsif page.images.size > 0 %}{{ page.images[0] | absolute_url }}{% else %}{{ site.logo | absolute_url }}{% endif %}"
     />
     <meta name="twitter:image:alt" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     {% endif %}
