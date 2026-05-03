@@ -2,8 +2,12 @@
 layout: post
 title: "8 raisons de choisir les roues de VTT Mavic Crossmax"
 description: "Depuis que je roule en VTT avec mes nouvelles roues Mavic Crossmax, je ne veux plus en changer."
-tags: "roues vtt, mavic, crossmax, choisir roues vtt, choisir mavic crossmax"
-
+tags:
+  - roues vtt
+  - mavic
+  - crossmax
+  - choisir roues vtt
+  - choisir mavic crossmax
 images:
   - "images/posts/9c05d-05lwfpqvtdkfbts1o.webp"
 ---

@@ -2,8 +2,14 @@
 layout: post
 title: "Quelques idées de circuits de randonnée VTT en Bretagne"
 description: "Voici une sélection de circuit de randonnées VTT pour parcourir la Bretagne: Morbihan, Cotes d'Armor, Ille et Vilaine, Finistère."
-tags: "vtt, circuits vtt, Bretagne, Morbihan, Cotes d'Armor, Ille et Vilaine, Finistère"
-
+tags:
+  - vtt
+  - circuits vtt
+  - Bretagne
+  - Morbihan
+  - Cotes d'Armor
+  - Ille et Vilaine
+  - Finistère
 images:
   - "images/posts/bf91f-04tn2madty8ffu2ug.webp"
 ---

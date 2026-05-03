@@ -2,8 +2,11 @@
 layout: post
 title: "Comment choisir son home-trainer VTT ?"
 description: "Avant de pouvoir s'entrainement en VTT sur un home-trainer, faut-il encore choisir le modèle le plus adapté."
-tags: "home-trainer, home-trainer vtt, ergo-trainer, virtual-trainer"
-
+tags:
+  - home-trainer
+  - home-trainer vtt
+  - ergo-trainer
+  - virtual-trainer
 images:
   - "images/posts/dec76-0cscharjawldysi56.webp"
 ---

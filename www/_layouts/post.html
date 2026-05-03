@@ -28,7 +28,11 @@ layout: page
   {% if page.images %}
   <div class="c-layout__medias">
     {% for img in page.images %}
-    <img src="{{ img | relative_url }}" alt="" loading="lazy" />
+    <img
+      src="{{ img | relative_url }}"
+      alt="{% if page.image_alt %}{{ page.image_alt }}{% else %}Illustration de l'article : {{ page.title }}{% endif %}"
+      loading="lazy"
+    />
     {% endfor %}
   </div>
   {% endif %}

@@ -2,8 +2,10 @@
 layout: post
 title: "Comment choisir la taille de son VTT et sa position ?"
 description: "La question que tout le monde se pose: quel est la taille idéale de mon VTT ? Quel est ma position idéal?"
-tags: "taille vtt, position vtt, choix la taille vtt"
-
+tags:
+  - taille vtt
+  - position vtt
+  - choix la taille vtt
 images:
   - "images/posts/90cc1-0wscg_9_yafgnydvo.webp"
 ---

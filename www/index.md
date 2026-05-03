@@ -17,7 +17,7 @@ redirect_from:
   - /follow.html
 title: Développeur frontend, ancien cycliste professionnel, photographe de voyage en famille et van life.
 layout: page
-description: "Développeur frontend et photographe de voyage en famille. Je documente notre vie nomade en van à travers l'Europe : récits, conseils photo et réflexions sur un numérique plus humain."
+description: "Développeur frontend et photographe de voyage. Je documente notre vie nomade en van à travers l'Europe : récits, photo et numérique plus humain."
 permalink: /index.html
 breadcrumb_hide: true
 signature: true
@@ -43,7 +43,7 @@ signature: true
 
   </div>
 
-  <div class="u-grid__col-6"><img class="u-image u-image-center u-image--large" src="/images/icons/avatar.svg" alt="" /></div>
+  <div class="u-grid__col-6"><img class="u-image u-image-center u-image--large" src="/images/icons/avatar.svg" alt="Portrait de Nicolas Jouanno" /></div>
 
 </div>
 

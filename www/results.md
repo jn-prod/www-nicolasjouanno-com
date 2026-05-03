@@ -1,8 +1,8 @@
 ---
 layout: page
 title: De cycliste professionnel à sportif outdoor
-description:
-permalink:
+description: "Mon parcours sportif : ancien cycliste professionnel reconverti en pratiquant outdoor — VTT, trail, course à pied. Discipline et endurance comme fil rouge."
+permalink: /results.html
 ---
 
 # Parcours sportif

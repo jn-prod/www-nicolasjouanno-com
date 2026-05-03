@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Posts
+description: "Tous mes articles : développement frontend, accessibilité, design system, voyages en van, photographie, sport et minimalisme numérique."
 permalink: "/posts.html"
 ---
 

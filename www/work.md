@@ -9,8 +9,8 @@ redirect_from:
   - /cv.html
   - /certifications.html
 layout: page
-title: Découvrir mon parcours de cycliste à développeu, ainsi que mes projets
-description: Développeur frontend et créateur d'interfaces accessibles qui plaisent a vos utilisateurs.
+title: Découvrir mon parcours de cycliste à développeur, ainsi que mes projets
+description: "Développeur frontend, lead du design system MGDIS. Je crée des interfaces accessibles (RGAA), durables et performantes — Web Components, JavaScript, Vue.js."
 icons:
   - js
   - ts

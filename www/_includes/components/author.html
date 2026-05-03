@@ -1,4 +1,4 @@
-<img class="c-post-card__avatar" src="/images/icons/avatar.svg" alt="" />
+<img class="c-post-card__avatar" src="/images/icons/avatar.svg" alt="Avatar de {{ author.name }}" />
 <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
   <a href="{{ site.url }}" class="c-post-card__author-name">
     <span itemprop="name">{{ author.name }}</span>
@@ -9,6 +9,11 @@
     <meta itemprop="height" content="60" />
   </span>
   <meta itemprop="url" content="{{ site.url }}" />
+  {% if author.linkedin %}<link itemprop="sameAs" href="{{ author.linkedin }}" />{% endif %}
+  {% if author.github %}<link itemprop="sameAs" href="{{ author.github }}" />{% endif %}
+  {% if author.twitter %}<link itemprop="sameAs" href="{{ author.twitter }}" />{% endif %}
+  {% if author.mediumcom %}<link itemprop="sameAs" href="{{ author.mediumcom }}" />{% endif %}
+  {% if author.substack %}<link itemprop="sameAs" href="{{ author.substack }}" />{% endif %}
   <div class="c-post-card__meta">
     <span>{{ author.handle }}</span>
     ·

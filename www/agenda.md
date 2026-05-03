@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Agenda
+description: "Mes prochaines conférences, meetups et événements web. Calendrier de mes prises de parole sur l'accessibilité, les Web Components et le design system."
 permalink: /agenda/
 ---
 
