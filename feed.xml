@@ -11,8 +11,8 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Wed, 29 Apr 2026 12:00:13 +0000</pubDate>
-    <lastBuildDate>Wed, 29 Apr 2026 12:00:13 +0000</lastBuildDate>
+    <pubDate>Sun, 03 May 2026 08:14:30 +0000</pubDate>
+    <lastBuildDate>Sun, 03 May 2026 08:14:30 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
@@ -56,6 +56,18 @@ Je n’aurais pas osé le faire si je n’avais pu constater par moi-même la bi
         <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
         
         
+        <category>web-components</category>
+        
+        <category>accessibilite</category>
+        
+        <category>paris-web</category>
+        
+        <category>shadow-dom</category>
+        
+        <category>design-system</category>
+        
+        
+        <category>Work</category>
         
       </item>
     
@@ -169,6 +181,12 @@ en supposant que :</p>
         
         <category>santé</category>
         
+        <category>désinformation</category>
+        
+        <category>maladie-coeliaque</category>
+        
+        
+        <category>Santé</category>
         
       </item>
     
