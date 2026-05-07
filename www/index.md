@@ -25,20 +25,20 @@ signature: true
 
 <h1 class="u-visually-hidden">{{ site.title }}. Père d'une famille d'aventuriers. Nous parcourons l'Europe en van.</h1>
 
-<div  class="u-grid">
+<div class="u-grid">
 
   <div class="u-grid__col-6">
-  
-    <h2 id="follow">Mon carnet de voyage : une page par semaine</h2>
-  
-    <p>Photos, lectures, idées de web sobre. Ce que je glane au fil des semaines, dans le van et derrière l’écran. Pas d'algorithme, pas d'urgence, pas de bruit.</p>
-  
-    {% include /plugins/newsletter.html %}
-  
+
+    <h2 id="support">Soutenir mes projets indépendants</h2>
+
+    <p>Je construis et maintiens des projets utiles, simples et indépendants : articles, récits, outils web et services comme vtt.bzh. Si mon travail vous aide ou vous inspire, vous pouvez le soutenir à partir de 2 €/mois.</p>
+
+    <p><a class="c-button c-button--primary" href="{{ site.author.tipeee.url | escape }}" target="_blank" rel="noopener">Soutenir sur Tipeee</a> <a class="c-button c-button--dark-outline" href="#follow">Lire / suivre les publications</a></p>
+
     <ul>
-      <li>✓ Tous les envois sont publics → <a href="https://mails.nicolasjouanno.com">voir les archives</a></li>
-      <li>✓ Aucun spam, désinscription en un clic</li>
-      <li>✓ Lue par des parents, des créateurs, des voyageurs lents</li>
+      <li>✓ Maintenir <a href="https://www.vtt.bzh">vtt.bzh</a>, le calendrier des randos VTT en Bretagne</li>
+      <li>✓ Publier des articles, récits, outils et retours d'expérience ouverts</li>
+      <li>✓ Garder une présence web sobre, indépendante et sans publicité intrusive</li>
     </ul>
 
   </div>
@@ -67,7 +67,15 @@ Ici, pas d'algorithme, pas de pub, pas de suivi intrusif. **Vous choisissez comm
 
 Internet est pour moi un espace ouvert de liberté. Tout se passe sur mon site où je partage mon travail.
 
-  {% include /plugins/newsletter.html %}
+## 📬 Recevoir les nouvelles publications {#follow}
+
+La newsletter reste le moyen le plus simple pour recevoir mes nouveaux textes. Elle passe après le soutien, mais elle reste gratuite et sans pression.
+
+{% include /plugins/newsletter.html %}
+
+- ✓ Tous les envois sont publics → [voir les archives](https://mails.nicolasjouanno.com)
+- ✓ Aucun spam, désinscription en un clic
+- ✓ Lue par des parents, des créateurs, des voyageurs lents
 
 ## 📬 Autres façons de suivre
 

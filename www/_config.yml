@@ -20,6 +20,9 @@ author:
   country: "France"
   email: "contact@nicolasjouanno.com"
   certifications_folder: "https://drive.google.com/open?id=14JiH6ytQDige_iIOZPUUYq-W38VPaWTo"
+  tipeee:
+    label: "Soutenir sur Tipeee"
+    url: "https://fr.tipeee.com/bynicolasjd?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=soutien"
 
   # social
   webmention: "https://webmention.io/www.nicolasjouanno.com/webmention"
