@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Quelques idées de circuits de randonnée VTT en Bretagne"
-description: "Voici une sélection de circuit de randonnées VTT pour parcourir la Bretagne: Morbihan, Cotes d'Armor, Ille et Vilaine, Finistère."
+title: "Où randonner en VTT en Bretagne ? Circuits et randonnées organisées"
+description: "Circuits VTT en Bretagne par région : Finistère, Morbihan, Côtes-d'Armor, Ille-et-Vilaine. 9 espaces VTT FFC labellisés et calendrier des randonnées organisées."
 tags:
   - vtt
   - circuits vtt
@@ -15,6 +15,11 @@ images:
 ---
 
 <em>En 2015, les différentes épreuves des Roc’h des monts d’Arrée totalisaient plus de 6200 VTTisites au départ du Huelgouat, Bretagne. Ce rassemblement, point d’orgue de la saison des randos en Bretagne, permet aux VTTistes de tous âges de s’exprimer à leur niveau sur des distances allant jusqu’à 120 kilomètres. Une goutte d’eau dans l’Océan si l’on sait qu’en Bretagne, chaque week-end, ce sont plus d’une dizaine de randonnées VTT qui ont Lieu.</em>
+
+<aside class="c-callout">
+  <p class="c-callout__title">Calendrier des randonnées VTT en Bretagne</p>
+  <p class="c-callout__text">Retrouvez toutes les prochaines randonnées VTT organisées en Bretagne sur <a href="https://vtt.bzh">vtt.bzh</a> — le calendrier mis à jour chaque semaine avec les distances, dates et inscriptions.</p>
+</aside>
 
 ## Au programme:
 
@@ -193,4 +198,6 @@ balise site VTT FFC
 
 ## 6/ Vous recherchez une randonnée VTT en Bretagne? {#conclusion}
 
-Contribuez à cet article en le commentant afin de partager votre expérience des randonnées VTT en Bretagne. Ainsi, il s’enrichira de précisions par vos connaissances des spots de VTT locaux.
+Vous cherchez une randonnée organisée ce week-end en Bretagne ? Le site [vtt.bzh](https://vtt.bzh) recense le calendrier des randonnées VTT en Bretagne : dates, distances, département, lien vers les inscriptions. Il est mis à jour régulièrement par des passionnés locaux.
+
+Vous organisez ou connaissez une rando non référencée ? Vous pouvez la [proposer directement sur vtt.bzh](https://vtt.bzh/ajouter.html) — c’est gratuit et ouvert à tous les clubs et associations.
