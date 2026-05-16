@@ -1,0 +1,21 @@
+.c-support {
+  background-color: var(--color-primary);
+  border-radius: var(--size-8);
+  padding: var(--size-32);
+  margin-block: var(--size-32);
+  text-align: center;
+
+  &__title {
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-h3);
+    color: var(--color-primary-with);
+    margin-bottom: var(--size-8);
+  }
+
+  &__text {
+    color: var(--color-primary-with);
+    line-height: var(--line-height);
+    margin-bottom: var(--size-16);
+    opacity: 0.9;
+  }
+}
