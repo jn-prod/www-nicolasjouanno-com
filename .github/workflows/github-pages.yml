@@ -13,7 +13,7 @@ jobs:
     - name: Use ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '4.0'
+        ruby-version: '4.0.4'
         bundler-cache: true
     - name: Use pnpm
       uses: pnpm/action-setup@v2
