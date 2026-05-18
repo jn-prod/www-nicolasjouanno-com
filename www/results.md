@@ -1,26 +1,25 @@
 ---
 layout: page
-title: De cycliste professionnel à sportif outdoor
-description: "Mon parcours sportif : ancien cycliste professionnel reconverti en pratiquant outdoor — VTT, trail, course à pied. Discipline et endurance comme fil rouge."
+title: De cycliste professionnel à créateur de projets indépendants
+description: "Ancien cycliste professionnel breton reconverti — je construis depuis 2013 des projets web indépendants, dont vtt.bzh, le calendrier de référence des randos VTT en Bretagne."
 permalink: /results.html
 ---
 
-# Parcours sportif
+Le vélo m’a pris très tôt. Compétitions, stages, saisons — j’ai grimpé les catégories jusqu’à devenir [cycliste professionnel](https://fr.wikipedia.org/wiki/Nicolas_Jouanno) sous les couleurs de Bretagne Schuller. Cinq championnats de France, des courses 2.1 et 2.2, une vie organisée autour du watt et du kilomètre.
 
-J’ai passé ma jeunesse à faire du vélo, sérieusement : compétitions, entraînements quotidiens, stages, saisons...
+La saison 2010 s’est terminée sans résultat — une blessure m’a mis hors course. C’est dans cet arrêt forcé que j’ai retrouvé ce que la compétition m’avait fait oublier : le plaisir de rouler pour rouler. Retour en Bretagne, retour aux sentiers, VTT, trail, course à pied — sans chrono.
 
-Le goût de l’effort, la discipline et l’endurance m’ont permis de devenir cycliste professionnel, et de vivre ma passion pendant plusieurs saisons.
+De cette reconversion est né [vtt.bzh](https://www.vtt.bzh) en 2013 : un calendrier des randos VTT en Bretagne, construit bénévolement, devenu en treize ans la référence de 12 000 vététistes par mois. Un projet de praticien, pas d’éditeur.
 
-Aujourd’hui, je pratique autrement, en solo ou en famille, sur les sentiers bretons ou ailleurs en Europe. Le yoga comme ancrage quotidien, le vélo, la course et la randonnée au gré des saisons et des ciels dégagés. Une façon d’habiter son corps et de se reconnecter à la nature, loin des des chronos.
+Depuis, j’écris, je construis des outils web, je maintiens des projets ouverts. Si ce parcours vous parle, vous pouvez [soutenir mes projets sur Tipeee]({{ site.author.tipeee.url | escape }}).
 
-Je publie des articles sur ma pratique sportive outdoor :
+## Pour aller plus loin
 
-- [Quel entrainement pour progresser en VTT ?](/entrainement-vtt.html)
-- [Les meilleurs pneus vtt spéciale boue pour l'hiver](/choisir-son-pneu-vtt-hiver-boue.html)
-- [Comment choisir la taille de son VTT et sa position ?](/comment-choisir-la-taille-de-son-vtt-et-sa-position.html)
-
-[Découvrir les archives](/posts.html)
-
+- [Pourquoi tombons-nous ?](/pourquoi-tombons-nous.html) — cyclo-cross à 15 ans, chutes et reconversions : un récit en quatre chapitres
+- [Sport et solitude](/sport-solitude.html) — la solitude sur le vélo, le surf, la route
+- [Mon premier trail](/premier-trail.html) — du cyclisme pro au trail : premiers pas sur les chemins bretons
+- [Comment progresser sans compétition ?](/competition-versus-entrainement.html) — rester sportif et motivé après la carrière pro
+- [Retrouver le fil](/Retrouver-le-fil.html) — pourquoi j'ai tout recentré sur un seul site : sport, code, projets
 
 ## Palmarès cycliste
 
