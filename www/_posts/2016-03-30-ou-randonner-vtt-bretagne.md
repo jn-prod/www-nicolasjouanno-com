@@ -16,10 +16,7 @@ images:
 
 <em>En 2015, les différentes épreuves des Roc’h des monts d’Arrée totalisaient plus de 6200 VTTisites au départ du Huelgouat, Bretagne. Ce rassemblement, point d’orgue de la saison des randos en Bretagne, permet aux VTTistes de tous âges de s’exprimer à leur niveau sur des distances allant jusqu’à 120 kilomètres. Une goutte d’eau dans l’Océan si l’on sait qu’en Bretagne, chaque week-end, ce sont plus d’une dizaine de randonnées VTT qui ont Lieu.</em>
 
-<aside class="c-callout">
-  <p class="c-callout__title">Calendrier des randonnées VTT en Bretagne</p>
-  <p class="c-callout__text">Retrouvez toutes les prochaines randonnées VTT organisées en Bretagne sur <a href="https://vtt.bzh">vtt.bzh</a> — le calendrier mis à jour chaque semaine avec les distances, dates et inscriptions.</p>
-</aside>
+{% include components/callout-vttbzh.html title="Calendrier des randonnées VTT en Bretagne" text="Retrouvez toutes les prochaines randonnées VTT organisées en Bretagne — le calendrier mis à jour chaque semaine avec les distances, dates et inscriptions." %}
 
 ## Au programme:
 

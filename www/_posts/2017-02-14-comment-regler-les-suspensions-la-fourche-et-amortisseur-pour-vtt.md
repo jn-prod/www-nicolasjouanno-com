@@ -126,6 +126,8 @@ Malgré le nombre de réglage grandissant sur les fourches et les différents sy
 
 Ainsi le fonctionnement des suspensions de votre VTT: Fourche et Amortisseur, n’ont plus de secret pour vous, mais pour aller plus loin en images voici quelques vidéos réalisées par nos confrères Anglo-saxons reprenant les différents éléments et réglages de l’article.
 
+{% include components/callout-vttbzh.html title="Prêt à tester vos réglages ?" text="vtt.bzh liste les randonnées VTT organisées en Bretagne — de quoi valider vos réglages de fourche et d’amortisseur sur de vrais chemins." %}
+
 <hr />
 
 ## Ma sélection de fourches et amortisseurs:

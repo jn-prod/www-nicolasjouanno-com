@@ -14,6 +14,8 @@ images:
 
 <em>L’un des plus grands plaisir du VTT est de partir la journée, toujours plus loin, toujours plus vite dans les bois où vous ne pouvez aller lorsque vous êtes à pied. Cela signifie aussi que lorsqu’il vous arrive quelque chose, comme une blessure, un problème mécanique, il vous sera compliqué de compter sur quelqu’un d’autre que sur vous-même.</em>
 
+{% include components/callout-vttbzh.html title="Vous préparez une rando VTT en Bretagne ?" text="vtt.bzh recense toutes les randonnées organisées en Bretagne — dates, distances, inscriptions en ligne. Un bon terrain pour tester votre sac." %}
+
 ## Au programme :
 
 1. [Les 20 éléments indispensables à avoir dans votre sac de Rando / Enduro VTT](#preambule)

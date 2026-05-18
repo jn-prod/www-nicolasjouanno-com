@@ -142,3 +142,5 @@ Il faut savoir que le repos est bien souvent le meilleur des remèdes aux blessu
 De nombreux club de VTT bénéficient de personnes diplômés. D'après vos capacités physiques et vos objectifs, ils sauront personnaliser votre entrainement.
 
 Le VTT est à consommer avec modération et sans excès. Pour progresser de manière constante avec le sourire, il faut savoir ménager sa monture pour aller plus loin!
+
+{% include components/callout-vttbzh.html title="Trouver des sorties VTT en Bretagne" text="Pour mettre en pratique ces séances, vtt.bzh recense les randonnées VTT organisées en Bretagne — parcours balisés, dates et distances." %}
