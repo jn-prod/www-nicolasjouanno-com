@@ -84,5 +84,7 @@ Si vous préférez une autre option que la newsletter, plusieurs moyens simples 
 - 🗒️ [Mes articles](/posts.html) — Je publie occasionnellement sur des sujets variés
 - 📡 [Flux RSS](/feed.xml) ou [JSON Feed](/feed.json) — universel, à ajouter dans Feedly, NetNewsWire, Inoreader… ([guide débutant](https://aboutfeeds.com/))
 - 📅 [Flux calendrier (ICS)](/agenda.ics) — sorties, voyages et événements
+- 🐦 [X @bynicolasjd]({{ site.author.twitter }}) — publications courtes et partages
+- 💼 [LinkedIn]({{ site.author.linkedin }}) — profil professionnel
 - 📱 Ajouter à l'écran d'accueil mobile (iOS Safari : _Partager_ → _Ajouter à l'écran d'accueil_ / Android : ⋮ → _Ajouter à l'écran d'accueil_)
 - 📌 Ajouter ce site aux favoris de votre navigateur
