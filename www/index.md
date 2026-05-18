@@ -29,16 +29,16 @@ signature: true
 
   <div class="u-grid__col-6">
 
-    <h2 id="support">Soutenir mes projets indépendants</h2>
+    <h2 id="follow">📬 Recevoir les nouvelles publications</h2>
 
-    <p>Je construis et maintiens des projets utiles, simples et indépendants : articles, récits, outils web et services comme vtt.bzh. Si mon travail vous aide ou vous inspire, vous pouvez le soutenir à partir de 2 €/mois.</p>
+    <p>Gratuite et sans pression.</p>
 
-    <p><a class="c-button c-button--primary" href="{{ site.author.tipeee.url | escape }}" target="_blank" rel="noopener">Soutenir sur Tipeee</a> <a class="c-button c-button--dark-outline" href="#follow">Lire / suivre les publications</a></p>
+    {% include /plugins/newsletter.html %}
 
     <ul>
-      <li>✓ Maintenir <a href="https://www.vtt.bzh">vtt.bzh</a>, le calendrier des randos VTT en Bretagne</li>
-      <li>✓ Publier des articles, récits, outils et retours d'expérience ouverts</li>
-      <li>✓ Garder une présence web sobre, indépendante et sans publicité intrusive</li>
+      <li>✓ Tous les envois sont publics → <a href="https://mails.nicolasjouanno.com">voir les archives</a></li>
+      <li>✓ Aucun spam, désinscription en un clic</li>
+      <li>✓ Lue par des parents, des créateurs, des voyageurs lents</li>
     </ul>
 
   </div>
@@ -66,16 +66,6 @@ Ici, je partage nos récits de voyages a travers l'objectif de mon Fujifilm x70,
 Ici, pas d'algorithme, pas de pub, pas de suivi intrusif. **Vous choisissez comment et quand suivre mes publications.** C'est une approche **minimaliste, durable et indépendante**. Votre attention n'est pas un produit, c'est un cadeau que je respecte.
 
 Internet est pour moi un espace ouvert de liberté. Tout se passe sur mon site où je partage mon travail.
-
-## 📬 Recevoir les nouvelles publications {#follow}
-
-La newsletter reste le moyen le plus simple pour recevoir mes nouveaux textes. Elle passe après le soutien, mais elle reste gratuite et sans pression.
-
-{% include /plugins/newsletter.html %}
-
-- ✓ Tous les envois sont publics → [voir les archives](https://mails.nicolasjouanno.com)
-- ✓ Aucun spam, désinscription en un clic
-- ✓ Lue par des parents, des créateurs, des voyageurs lents
 
 ## 📬 Autres façons de suivre
 
