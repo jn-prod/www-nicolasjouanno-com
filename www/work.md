@@ -23,7 +23,7 @@ Depuis 2019, je contribue au design system de [MGDIS](https://github.com/MGDIS/c
 
 Aujourd'hui, je construis à l'intersection du web, du sport et de l'IA — avec la même rigueur que le sport de haut niveau : régularité, soin des détails, endurance.
 
-Si ce parcours vous parle, vous pouvez [soutenir mes projets sur Tipeee]({{ site.author.tipeee.url | escape }}).
+Si ce parcours vous parle, vous pouvez [soutenir mes projets sur Tipeee]({{ site.author.tipeee.url | escape }}). Pour voir ce sur quoi je travaille en ce moment : [/now](/now.html).
 
 ## Ce que je construis
 
