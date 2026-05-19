@@ -53,6 +53,7 @@ $variants: 'primary', 'secondary', 'dark', 'light';
 @include button-variantes($variants, $outline: true);
 
 .c-button--icon {
+  --icon-size: calc(1em * var(--line-height));
   padding: var(--size-8);
   border-radius: 50%;
   width: calc(var(--icon-size) + 2 * var(--size-8));
