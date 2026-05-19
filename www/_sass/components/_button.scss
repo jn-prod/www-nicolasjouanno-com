@@ -55,7 +55,8 @@ $variants: 'primary', 'secondary', 'dark', 'light';
 .c-button--icon {
   padding: var(--size-8);
   border-radius: 50%;
-  aspect-ratio: 1;
+  width: calc(var(--icon-size) + 2 * var(--size-8));
+  height: calc(var(--icon-size) + 2 * var(--size-8));
   background: transparent;
   border-color: transparent;
   justify-content: center;
