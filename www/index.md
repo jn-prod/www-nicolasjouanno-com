@@ -34,7 +34,7 @@ signature: true
   <li>🎤 Orateur <a href="/conference-les-web-components-et-accessibilite.html">Paris-Web 2025</a></li>
 </ul>
 
-<h3 class="u-visually-hidden">Me trouver</h3>
+## 📬 Me suivre {#follow}
 
 <div class="u-text--center">
   <ul class="u-list u-list--none u-list--inline">
@@ -55,8 +55,6 @@ signature: true
     </li>
   </ul>
 </div>
-
-## 📬 Me suivre {#follow}
 
 Gratuite et sans pression.
 
