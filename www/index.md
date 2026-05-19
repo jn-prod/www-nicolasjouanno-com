@@ -76,6 +76,8 @@ Gratuite et sans pression.
   <li>✓ Lue par des développeurs, des sportifs et des curieux du web indépendant</li>
 </ul>
 
+Vous préférez un autre canal ? Choisissez ce qui vous convient :
+
 - 🗒️ [Mes articles](/posts.html) — Je publie occasionnellement sur des sujets variés
 - 📡 [Flux RSS](/feed.xml) ou [JSON Feed](/feed.json) — universel, à ajouter dans Feedly, NetNewsWire, Inoreader… ([guide débutant](https://aboutfeeds.com/))
 - 📅 [Flux calendrier (ICS)](/agenda.ics) — sorties, voyages et événements
