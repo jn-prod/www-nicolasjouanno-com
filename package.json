@@ -4,7 +4,8 @@
   "description": "Portfolio de Nicolas Jouanno",
   "scripts": {
     "dev": "python3 -m http.server -d ./_site",
-    "build": "bundle exec jekyll build && pnpm build:packages",
+    "build": "pnpm sync:icons && bundle exec jekyll build && pnpm build:packages",
+    "sync:icons": "mkdir -p ./_includes/icons && cp ../packages/images/dist/icons/*.svg ./_includes/icons/",
     "build:packages": "pnpm build:packages:images",
     "build:packages:images": "cp -r ../packages/images/dist ./_site/images",
     "lint": "pnpm lint:es && pnpm lint:stylelint && pnpm lint:prettier",
