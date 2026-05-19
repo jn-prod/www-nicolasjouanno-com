@@ -56,7 +56,7 @@ Cycliste professionnel sous les couleurs de Bretagne Schuller (2008–2010). Dep
 {% for post in site.posts limit:3 %}- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%d %B %Y" }}
 {% endfor %}
 
-[Tous les articles →](/posts.html)
+<a href="/posts.html" class="c-button c-button--dark-outline">Tous les articles →</a>
 
 ## 🌱 Esprit slow web
 
