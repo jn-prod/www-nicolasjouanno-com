@@ -25,27 +25,7 @@ signature: true
 
 <h1 class="u-visually-hidden">{{ site.title }} — développeur frontend, ancien cycliste professionnel, outdoor en famille.</h1>
 
-<div class="u-grid">
-
-  <div class="u-grid__col-6">
-
-    <h2 id="follow">📬 Recevoir les nouvelles publications</h2>
-
-    <p>Gratuite et sans pression.</p>
-
-    {% include /plugins/newsletter.html %}
-
-    <ul>
-      <li>✓ Tous les envois sont publics → <a href="https://mails.nicolasjouanno.com">voir les archives</a></li>
-      <li>✓ Aucun spam, désinscription en un clic</li>
-      <li>✓ Lue par des développeurs, des sportifs et des curieux du web indépendant</li>
-    </ul>
-
-  </div>
-
-  <div class="u-grid__col-6"><img class="u-image u-image-center u-image--large" src="/images/icons/avatar.svg" alt="Portrait de Nicolas Jouanno" /></div>
-
-</div>
+<img class="u-image u-image-center u-image--large" src="/images/icons/avatar.svg" alt="Portrait de Nicolas Jouanno" />
 
 <h2 id="about">👋 Qui suis-je ?</h2>
 
@@ -84,9 +64,18 @@ Ici, pas d'algorithme, pas de pub, pas de suivi intrusif. **Vous choisissez comm
 
 Internet est pour moi un espace ouvert de liberté. Tout se passe sur mon site où je partage mon travail.
 
-## 📬 Me suivre
+## 📬 Me suivre {#follow}
 
-- 📬 [Newsletter](#follow) — gratuite, sans pression, désinscription en un clic
+Gratuite et sans pression.
+
+{% include /plugins/newsletter.html %}
+
+<ul>
+  <li>✓ Tous les envois sont publics → <a href="https://mails.nicolasjouanno.com">voir les archives</a></li>
+  <li>✓ Aucun spam, désinscription en un clic</li>
+  <li>✓ Lue par des développeurs, des sportifs et des curieux du web indépendant</li>
+</ul>
+
 - 🗒️ [Mes articles](/posts.html) — Je publie occasionnellement sur des sujets variés
 - 📡 [Flux RSS](/feed.xml) ou [JSON Feed](/feed.json) — universel, à ajouter dans Feedly, NetNewsWire, Inoreader… ([guide débutant](https://aboutfeeds.com/))
 - 📅 [Flux calendrier (ICS)](/agenda.ics) — sorties, voyages et événements
