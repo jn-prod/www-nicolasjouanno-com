@@ -56,8 +56,6 @@ signature: true
   </ul>
 </div>
 
-Gratuite et sans pression.
-
 {% include /plugins/newsletter.html %}
 
 <ul>
