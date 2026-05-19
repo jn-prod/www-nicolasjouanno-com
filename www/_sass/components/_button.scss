@@ -76,6 +76,10 @@ $variants: 'primary', 'secondary', 'dark', 'light';
   }
 }
 
+.c-button--large {
+  font-size: 3rem;
+}
+
 .c-button--fullwidth {
   display: flex;
   width: 100%;

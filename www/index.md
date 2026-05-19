@@ -27,12 +27,34 @@ signature: true
 
 <img class="u-image u-image-center u-image--large" src="/images/icons/avatar.svg" alt="Portrait de Nicolas Jouanno" />
 
-<p class="u-text--center">Développeur frontend · Cycliste · Outdoor · Bretagne</p>
+<p class="u-text--center">Développeur frontend · Cycliste · Outdoor</p>
 
 <ul class="u-list u-list--none u-list--inline u-text--center">
   <li>🗓️ <a href="{{ site.projects.vtt_bzh.url }}">{{ site.projects.vtt_bzh.name }}</a> — 12 000 vues/mois</li>
   <li>🎤 Orateur <a href="/conference-les-web-components-et-accessibilite.html">Paris-Web 2025</a></li>
 </ul>
+
+<h3 class="u-visually-hidden">Me trouver</h3>
+
+<div class="u-text--center">
+  <ul class="u-list u-list--none u-list--inline">
+    <li>
+      <a href="{{ site.author.twitter }}" class="c-button c-button--icon c-button--large" aria-label="X (Twitter) — @bynicolasjd" target="_blank" rel="noopener">
+        <span class="icon">{% include icons/x.svg %}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.author.linkedin }}" class="c-button c-button--icon c-button--large" aria-label="LinkedIn — Nicolas Jouanno" target="_blank" rel="noopener">
+        <span class="icon">{% include icons/linkedin.svg %}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.author.instagram }}" class="c-button c-button--icon c-button--large" aria-label="Instagram — @bynicolasjd" target="_blank" rel="noopener">
+        <span class="icon">{% include icons/instagram.svg %}</span>
+      </a>
+    </li>
+  </ul>
+</div>
 
 ## 📬 Me suivre {#follow}
 
@@ -44,32 +66,6 @@ Gratuite et sans pression.
   <li>✓ Tous les envois sont publics → <a href="https://mails.nicolasjouanno.com">voir les archives</a></li>
   <li>✓ Aucun spam, désinscription en un clic</li>
   <li>✓ Lue par des développeurs, des sportifs et des curieux du web indépendant</li>
-</ul>
-
-### Lire
-
-- 🗒️ [Mes articles](/posts.html) — publications occasionnelles sur des sujets variés
-- 📡 [Flux RSS](/feed.xml) ou [JSON Feed](/feed.json) — à ajouter dans Feedly, NetNewsWire, Inoreader… ([guide débutant](https://aboutfeeds.com/))
-- 📅 [Flux calendrier (ICS)](/agenda.ics) — sorties, voyages et événements
-
-### Me trouver
-
-<ul class="u-list u-list--none u-list--inline">
-  <li>
-    <a href="{{ site.author.twitter }}" class="c-button c-button--icon" aria-label="X (Twitter) — @bynicolasjd" target="_blank" rel="noopener">
-      <span class="icon">{% include icons/x.svg %}</span>
-    </a>
-  </li>
-  <li>
-    <a href="{{ site.author.linkedin }}" class="c-button c-button--icon" aria-label="LinkedIn — Nicolas Jouanno" target="_blank" rel="noopener">
-      <span class="icon">{% include icons/linkedin.svg %}</span>
-    </a>
-  </li>
-  <li>
-    <a href="{{ site.author.instagram }}" class="c-button c-button--icon" aria-label="Instagram — @bynicolasjd" target="_blank" rel="noopener">
-      <span class="icon">{% include icons/instagram.svg %}</span>
-    </a>
-  </li>
 </ul>
 
 <h2 id="about">👋 Qui suis-je ?</h2>
