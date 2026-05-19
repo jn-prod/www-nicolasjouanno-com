@@ -10,6 +10,7 @@ tags:
   - paris-web
   - shadow-dom
   - design-system
+support_context: "C'est ce qui me permet de continuer à développer, expérimenter et partager sur le web."
 ---
 
 <iframe title="Les Web Components et l’accessibilité" width="100%" height="315" src="https://indymotion.fr/videos/embed/89VPLWMNhtZiFqmwK16qZd" style="border: 0px;" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>

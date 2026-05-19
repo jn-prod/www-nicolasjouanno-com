@@ -15,15 +15,15 @@ redirect_from:
   - /newsletter.html
   - /about.html
   - /follow.html
-title: Développeur frontend, ancien cycliste professionnel, photographe de voyage en famille et van life.
+title: "Nicolas Jouanno — développeur frontend, cycliste & outdoor"
 layout: page
-description: "Développeur frontend et photographe de voyage. Je documente notre vie nomade en van à travers l'Europe : récits, photo et numérique plus humain."
+description: "Hub personnel de Nicolas Jouanno : développeur frontend (MGDIS, design system Web Components), ancien cycliste professionnel reconverti à l'outdoor — VTT, trail, van life en Bretagne."
 permalink: /index.html
 breadcrumb_hide: true
 signature: true
 ---
 
-<h1 class="u-visually-hidden">{{ site.title }}. Père d'une famille d'aventuriers. Nous parcourons l'Europe en van.</h1>
+<h1 class="u-visually-hidden">{{ site.title }} — développeur frontend, ancien cycliste professionnel, outdoor en famille.</h1>
 
 <div class="u-grid">
 
@@ -38,7 +38,7 @@ signature: true
     <ul>
       <li>✓ Tous les envois sont publics → <a href="https://mails.nicolasjouanno.com">voir les archives</a></li>
       <li>✓ Aucun spam, désinscription en un clic</li>
-      <li>✓ Lue par des parents, des créateurs, des voyageurs lents</li>
+      <li>✓ Lue par des développeurs, des sportifs et des curieux du web indépendant</li>
     </ul>
 
   </div>
@@ -49,17 +49,34 @@ signature: true
 
 <h2 id="about">👋 Qui suis-je ?</h2>
 
-Moi c'est Nicolas. Je [publie]({{ site.url }}/posts.html) et [développe des projets]({{ site.url }}/work.html) sur le web depuis une vingtaine d'années. Attentif à notre environnement et à l'impact du numérique, je cherche des manières de rendre le web plus humain, plus simple et plus durable.
-
-Enfant, je découvrais la France au travers des courses cyclistes diffusées à la télévision. C'est en devenant à mon tour [cycliste professionnel]({{ site.url }}/results.html) que je suis passé de l'autre côté de l'écran, dévorant le bitume d'une nouvelle région chaque semaine. Mais pris dans l'action, j'avalais ces paysages de carte postale sans en profiter.
-
-Aujourd'hui, je ralentis. À pied, en courant ou en roulant, vous pouvez me croiser avec ma famille sur les sentiers. Nous explorons l'Europe au rythme des vacances lors de nos voyages en van. Ces moments privilégiés nous rapprochent de la nature, nourrissent le goût de l'aventure et transforment notre quotidien.
-
-Ici, je partage nos récits de voyages a travers l'objectif de mon Fujifilm x70, mes projets et réflexions sur le numérique, mes retours d'expérience sur le sport et la vie simple.
+Moi c'est Nicolas. Je [publie]({{ site.url }}/posts.html) et [développe des projets]({{ site.url }}/work.html) sur le web depuis une vingtaine d'années. Ancien [cycliste professionnel]({{ site.url }}/results.html), je cherche des manières de rendre le web plus humain, plus simple et plus durable.
 
 - 📍 Pontivy, Bretagne
 - 🌱 Minimalisme
 - ⛰️ Aventure, Endurance & Discipline
+
+## 🛠️ Ce sur quoi je travaille
+
+**MGDIS — design system.** Je contribue au design system de [MGDIS](https://github.com/MGDIS/core-ui) : Web Components (StencilJS), accessibilité RGAA, industrialisation frontend à l'échelle. Orateur à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html) sur ce sujet.
+
+**Explorations IA.** J'explore comment les outils d'IA modifient la pratique du développement. Pas de publication pour l'instant — j'apprends, je construis, j'observe.
+
+**[vtt.bzh](https://vtt.bzh).** Calendrier des randos VTT en Bretagne lancé en 2013 — laboratoire d'expérimentation technique. 12 000 vues/mois.
+
+<a href="/work.html" class="c-button c-button--dark-outline">Parcours professionnel complet →</a>
+
+## 🚴 Sport & outdoor
+
+Cycliste professionnel sous les couleurs de Bretagne Schuller (2008–2010). Depuis, j'ai troqué le bitume pour les sentiers — VTT, trail, et maintenant l'Europe en van avec la famille. Le sport reste le fil conducteur : régularité, endurance, soin des détails.
+
+<a href="/results.html" class="c-button c-button--dark-outline">Parcours sportif & outdoor →</a>
+
+## 📝 Derniers articles
+
+{% for post in site.posts limit:3 %}- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%d %B %Y" }}
+{% endfor %}
+
+[Tous les articles →](/posts.html)
 
 ## 🌱 Esprit slow web
 
@@ -67,10 +84,9 @@ Ici, pas d'algorithme, pas de pub, pas de suivi intrusif. **Vous choisissez comm
 
 Internet est pour moi un espace ouvert de liberté. Tout se passe sur mon site où je partage mon travail.
 
-## 📬 Autres façons de suivre
+## 📬 Me suivre
 
-Si vous préférez une autre option que la newsletter, plusieurs moyens simples et durables sont disponibles :
-
+- 📬 [Newsletter](#follow) — gratuite, sans pression, désinscription en un clic
 - 🗒️ [Mes articles](/posts.html) — Je publie occasionnellement sur des sujets variés
 - 📡 [Flux RSS](/feed.xml) ou [JSON Feed](/feed.json) — universel, à ajouter dans Feedly, NetNewsWire, Inoreader… ([guide débutant](https://aboutfeeds.com/))
 - 📅 [Flux calendrier (ICS)](/agenda.ics) — sorties, voyages et événements

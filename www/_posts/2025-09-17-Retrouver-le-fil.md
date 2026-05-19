@@ -7,6 +7,7 @@ tags:
   - minimalisme
   - tech
   - creation
+support_context: "C'est ce qui me permet de continuer à développer, expérimenter et partager sur le web."
 ---
 
 Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.

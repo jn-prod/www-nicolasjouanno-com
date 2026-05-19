@@ -11,6 +11,7 @@ images:
   - images/posts/e0a38-10yto40xd793dweahzoxsta.webp
 categories:
   - Startup Growth
+support_context: "C'est ce qui me permet de continuer à développer, expérimenter et partager sur le web."
 ---
 
 ## L’inbox 0, plus qu’une règle c’est un état d’esprit de productivité que j’applique au quotidien.

@@ -1,27 +1,42 @@
 ---
 layout: page
-title: De cycliste professionnel à créateur de projets indépendants
-description: "Ancien cycliste professionnel breton reconverti — je construis depuis 2013 des projets web indépendants, dont vtt.bzh, le calendrier de référence des randos VTT en Bretagne."
+title: Cycliste professionnel, vttiste & outdoor — parcours sportif
+description: "De la compétition cycliste professionnelle (Bretagne Schuller, 2008–2010) à l’outdoor en famille : VTT, trail, van life. Palmarès et articles sportifs."
 permalink: /results.html
 ---
 
 Le vélo m’a pris très tôt. Compétitions, stages, saisons — j’ai grimpé les catégories jusqu’à devenir [cycliste professionnel](https://fr.wikipedia.org/wiki/Nicolas_Jouanno) sous les couleurs de Bretagne Schuller. Cinq championnats de France, des courses 2.1 et 2.2, une vie organisée autour du watt et du kilomètre.
 
-La saison 2010 s’est terminée sans résultat — une blessure m’a mis hors course. C’est dans cet arrêt forcé que j’ai retrouvé ce que la compétition m’avait fait oublier : le plaisir de rouler pour rouler. Retour en Bretagne, retour aux sentiers, VTT, trail, course à pied — sans chrono.
+La saison 2010 s’est terminée sans résultat — une blessure m’a mis hors course. L’arrêt m’a rendu quelque chose que la compétition m’avait pris : le plaisir de rouler pour rouler. Retour aux sentiers, VTT, trail, course à pied — sans chrono, sans dossard, sans classement.
 
-De cette reconversion est né [vtt.bzh](https://www.vtt.bzh) en 2013 : un calendrier des randos VTT en Bretagne, construit bénévolement, devenu en treize ans la référence de 12 000 vététistes par mois. Un projet de praticien, pas d’éditeur.
+Aujourd’hui, c’est en famille que j’explore l’outdoor : van life à travers l’Europe, sentiers en Bretagne, bivouacs et cols. Le sport comme fil conducteur — à vitesse humaine.
 
-Depuis, j’écris, je construis des outils web, je maintiens des projets ouverts. Si ce parcours vous parle, vous pouvez [soutenir mes projets sur Tipeee]({{ site.author.tipeee.url | escape }}).
+<a href="/work.html" class="c-button c-button--dark-outline">Voir le parcours professionnel →</a>
 
 ## Pour aller plus loin
+
+**Sport & vie :**
 
 - [Pourquoi tombons-nous ?](/pourquoi-tombons-nous.html) — cyclo-cross à 15 ans, chutes et reconversions : un récit en quatre chapitres
 - [Sport et solitude](/sport-solitude.html) — la solitude sur le vélo, le surf, la route
 - [Mon premier trail](/premier-trail.html) — du cyclisme pro au trail : premiers pas sur les chemins bretons
 - [Comment progresser sans compétition ?](/competition-versus-entrainement.html) — rester sportif et motivé après la carrière pro
-- [Retrouver le fil](/Retrouver-le-fil.html) — pourquoi j'ai tout recentré sur un seul site : sport, code, projets
+
+**VTT — guides pratiques :**
+
+- [Où randonner en VTT en Bretagne ?](/ou-randonner-vtt-bretagne.html)
+- [Entraînement VTT](/entrainement-vtt.html)
+- [Enduro VTT — checklist matériel](/enduro-vtt-pilote-checklist-materiel.html)
+
+**Le projet :** [vtt.bzh](https://www.vtt.bzh) — calendrier des randos VTT en Bretagne, 12 000 vues/mois.
+
+Vous aimez le sport et l'outdoor — les publications sont faites pour vous :
+
+{% include /plugins/newsletter.html %}
 
 ## Palmarès cycliste
+
+Historique complet des saisons compétitives, 2007–2010.
 
 ### Les temps forts
 

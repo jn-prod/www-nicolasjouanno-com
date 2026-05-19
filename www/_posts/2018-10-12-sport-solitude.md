@@ -10,6 +10,7 @@ tags:
   - Sentiments
 images:
   - images/posts/living-alone.webp
+support_context: "C'est ce qui me permet de continuer à écrire sur le sport, l'outdoor et la vie simple."
 ---
 
 <em>Je ne me suis jamais senti aussi seul que sur mon vélo, mon surf ou avec mes baskets. Le sport, c'est aussi ça: la solitude. Lorsque j'étais cycliste professionnel, une sitation ma marqué, au point que je m'en souvient encore aujourd'hui ... onze années après! </em>

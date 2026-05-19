@@ -15,6 +15,7 @@ tags:
   - Chute
 images:
   - images/posts/route-de-montagne.webp
+support_context: "C'est ce qui me permet de continuer à écrire sur le sport, l'outdoor et la vie simple."
 ---
 
 ## Chapitre 1 : Une adolescence dans les sous-bois

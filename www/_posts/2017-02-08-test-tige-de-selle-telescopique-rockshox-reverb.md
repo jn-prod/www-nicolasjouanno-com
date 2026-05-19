@@ -9,6 +9,7 @@ tags:
   - tige de selle vtt
 images:
   - images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.webp
+support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 ---
 
 <em>Une Tige de selle télescopique à quoi ça sert? La tige de selle télescopique, un accessoire de mode ou l’arme ultime dans les passages techniques?</em>

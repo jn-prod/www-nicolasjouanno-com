@@ -43,8 +43,8 @@ layout: page
 
 <!-- Support -->
 <aside class="c-support">
-  <p class="c-support__title">Cet article vous a été utile ?</p>
-  <p class="c-support__text">C'est ce qui me permet de continuer à publier du contenu gratuit — VTT, tech, et le reste.</p>
+  <p class="c-support__title">Ce site vit sans pub.</p>
+  <p class="c-support__text">{% if page.support_context %}{{ page.support_context }}{% else %}C'est ce qui me permet de continuer à publier librement — vtt.bzh, articles, projets web.{% endif %}</p>
   <a href="{{ site.author.tipeee.url | escape }}" class="c-button c-button--light" target="_blank" rel="noopener">{{ site.author.tipeee.label }}</a>
 </aside>
 
@@ -52,10 +52,8 @@ layout: page
 <aside>
   <h2>⏭️ À lire ensuite</h2>
 
-  <p>Certains contenus sont réservés aux abonnés.</p>
   <p>
-    <a href="{{ '/#follow' | absolute_url }}">Suis-moi</a> pour recevoir mes
-    publications (web, voyages, photo, sport).
+    <a href="{{ '/#follow' | absolute_url }}">Suis-moi</a> pour ne rien manquer.
   </p>
 
   {% if page.previous or page.next %}

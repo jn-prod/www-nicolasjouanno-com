@@ -10,6 +10,7 @@ tags:
   - santé
   - désinformation
   - maladie-coeliaque
+support_context: "C'est ce qui me permet de continuer à publier librement sur des sujets qui comptent."
 ---
 
 Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :
