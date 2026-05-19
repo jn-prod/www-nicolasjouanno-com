@@ -5,7 +5,7 @@ description: "De la compétition cycliste professionnelle (Bretagne Schuller, 20
 permalink: /results.html
 ---
 
-Le vélo m’a pris très tôt. Compétitions, stages, saisons — j’ai grimpé les catégories jusqu’à devenir [cycliste professionnel](https://fr.wikipedia.org/wiki/Nicolas_Jouanno) sous les couleurs de Bretagne Schuller. Cinq championnats de France, des courses 2.1 et 2.2, une vie organisée autour du watt et du kilomètre.
+Le vélo m’a pris très tôt. Compétitions, stages, saisons — j’ai grimpé les catégories jusqu’à devenir [cycliste professionnel]({{ site.author.wikipedia }}) sous les couleurs de Bretagne Schuller. Cinq championnats de France, des courses 2.1 et 2.2, une vie organisée autour du watt et du kilomètre.
 
 La saison 2010 s’est terminée sans résultat — une blessure m’a mis hors course. L’arrêt m’a rendu quelque chose que la compétition m’avait pris : le plaisir de rouler pour rouler. Retour aux sentiers, VTT, trail, course à pied — sans chrono, sans dossard, sans classement.
 
@@ -28,7 +28,7 @@ Aujourd’hui, c’est en famille que j’explore l’outdoor : van life à trav
 - [Entraînement VTT](/entrainement-vtt.html)
 - [Enduro VTT — checklist matériel](/enduro-vtt-pilote-checklist-materiel.html)
 
-**Le projet :** [vtt.bzh](https://www.vtt.bzh) — calendrier des randos VTT en Bretagne, 12 000 vues/mois.
+**Le projet :** [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — calendrier des randos VTT en Bretagne, 12 000 vues/mois.
 
 Vous aimez le sport et l'outdoor — les publications sont faites pour vous :
 

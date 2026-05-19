@@ -52,6 +52,28 @@ $variants: 'primary', 'secondary', 'dark', 'light';
 @include button-variantes($variants, $outline: false);
 @include button-variantes($variants, $outline: true);
 
+.c-button--icon {
+  padding: var(--size-8);
+  border-radius: 50%;
+  aspect-ratio: 1;
+  background: transparent;
+  border-color: transparent;
+  justify-content: center;
+
+  .icon {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    fill: currentColor;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--color-dark);
+    color: var(--color-dark-with);
+    text-decoration: none;
+  }
+}
+
 .c-button--fullwidth {
   display: flex;
   width: 100%;

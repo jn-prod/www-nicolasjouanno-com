@@ -7,3 +7,4 @@ _site
 .env
 .DS_Store
 .turbo
+www/_includes/icons/

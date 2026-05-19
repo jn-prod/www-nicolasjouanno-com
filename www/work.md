@@ -19,11 +19,11 @@ icons:
   - stencil
 ---
 
-Le vélo d'abord. [Cycliste professionnel](https://fr.wikipedia.org/wiki/Nicolas_Jouanno) sous les couleurs de Bretagne Schuller — cinq championnats de France, des courses 2.1 et 2.2. [Voir le palmarès →](/results.html)
+Le vélo d'abord. [Cycliste professionnel]({{ site.author.wikipedia }}) sous les couleurs de Bretagne Schuller — cinq championnats de France, des courses 2.1 et 2.2. [Voir le palmarès →](/results.html)
 
 Une blessure en 2010 m'a mis hors course. C'est pendant cet arrêt que je suis venu au numérique — par passion. Entrepreneur : boutique physique, e-commerce vélo, P&L, management. Puis communication digitale. Puis le code, appris sur le tas, appliqué en production.
 
-En 2013, j'ai lancé [vtt.bzh](https://vtt.bzh) — un calendrier des randos VTT en Bretagne. Pas un projet éditorial : un outil de praticien, construit pour les pratiquants. Treize ans plus tard, 12 000 vététistes par mois, référence #1 sur Google pour l'intention calendrier VTT breton.
+En 2013, j'ai lancé [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — un calendrier des randos VTT en Bretagne. Pas un projet éditorial : un outil de praticien, construit pour les pratiquants. Treize ans plus tard, 12 000 vététistes par mois, référence #1 sur Google pour l'intention calendrier VTT breton.
 
 Depuis 2019, je contribue au design system de [MGDIS](https://github.com/MGDIS/core-ui) : Web Components, accessibilité RGAA, industrialisation frontend à l'échelle. Orateur à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html).
 
@@ -88,7 +88,7 @@ Première expérience professionnelle web, menée en parallèle de ma carrière 
 
 ## Projets
 
-**[vtt.bzh](https://vtt.bzh)** — Calendrier communautaire VTT en Bretagne, lancé en 2013. ([code source](https://github.com/jn-prod/www-vtt-bzh))
+**[{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }})** — Calendrier communautaire VTT en Bretagne, lancé en 2013. ([code source]({{ site.projects.vtt_bzh.github }}))
 
 **[nicolasjouanno.com](https://www.nicolasjouanno.com)** — Hub éditorial personnel, depuis 2008. ([code source](https://github.com/jn-prod/www-nicolasjouanno-com))
 

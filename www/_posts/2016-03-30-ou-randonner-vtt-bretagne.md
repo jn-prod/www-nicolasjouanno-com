@@ -196,6 +196,6 @@ balise site VTT FFC
 
 ## 6/ Vous recherchez une randonnée VTT en Bretagne? {#conclusion}
 
-Vous cherchez une randonnée organisée ce week-end en Bretagne ? Le site [vtt.bzh](https://vtt.bzh) recense le calendrier des randonnées VTT en Bretagne : dates, distances, département, lien vers les inscriptions. Il est mis à jour régulièrement par des passionnés locaux.
+Vous cherchez une randonnée organisée ce week-end en Bretagne ? Le site [vtt.bzh]({{ site.projects.vtt_bzh.url }}) recense le calendrier des randonnées VTT en Bretagne : dates, distances, département, lien vers les inscriptions. Il est mis à jour régulièrement par des passionnés locaux.
 
-Vous organisez ou connaissez une rando non référencée ? Vous pouvez la [proposer directement sur vtt.bzh](https://vtt.bzh/ajouter.html) — c’est gratuit et ouvert à tous les clubs et associations.
+Vous organisez ou connaissez une rando non référencée ? Vous pouvez la [proposer directement sur vtt.bzh]({{ site.projects.vtt_bzh.ajouter_url }}) — c’est gratuit et ouvert à tous les clubs et associations.

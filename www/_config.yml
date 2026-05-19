@@ -38,7 +38,7 @@ author:
   keybase:
   instagram: "https://www.instagram.com/bynicolasjd/"
   lastfm:
-  linkedin: "https://www.linkedin.com/in/nicolasjouanno/"
+  linkedin: "https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=hub"
   mediumcom: "https://medium.com/@nicolasjouanno"
   pinterest: "https://fr.pinterest.com/nicolasjouanno/"
   soundcloud: "https://soundcloud.com/nicolasjouanno"
@@ -47,9 +47,17 @@ author:
   strava: "https://www.strava.com/athletes/njouanno"
   substack: "https://bynicolasjd.substack.com/welcome"
   tumblr:
-  twitter: "https://x.com/byNicolasJD"
+  twitter: "https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=hub"
   wikipedia: "https://fr.wikipedia.org/wiki/Nicolas_Jouanno"
   youtube: "https://www.youtube.com/channel/UCcvmBtY40bompka9CkjrmLg"
+
+# projects
+projects:
+  vtt_bzh:
+    name: "vtt.bzh"
+    url: "https://vtt.bzh?utm_source=www-nicolasjouanno-com&utm_medium=hub"
+    ajouter_url: "https://vtt.bzh/ajouter.html?utm_source=www-nicolasjouanno-com&utm_medium=hub"
+    github: "https://github.com/jn-prod/www-vtt-bzh"
 
 # collections
 collections:
