@@ -34,6 +34,8 @@ Moi c'est Nicolas. Je [publie]({{ site.url }}/posts.html) et [développe des pro
 - 📍 Pontivy, Bretagne
 - 🌱 Minimalisme
 - ⛰️ Aventure, Endurance & Discipline
+- 🗓️ [vtt.bzh](https://vtt.bzh) — 12 000 vues/mois
+- 🎤 Orateur [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html)
 
 ## 🛠️ Ce sur quoi je travaille
 
