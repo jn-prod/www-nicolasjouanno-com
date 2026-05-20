@@ -27,14 +27,13 @@ signature: true
 
 <img class="u-image u-image-center u-image--large" src="/images/icons/avatar.svg" alt="Portrait de Nicolas Jouanno" />
 
-<p class="u-text--center">Développeur frontend · Cycliste · Outdoor</p>
+<p class="u-text--center">Développeur frontend : orateur <a href="/conference-les-web-components-et-accessibilite.html">Paris-Web 2025</a>, outdoor : <a href="{{ site.projects.vtt_bzh.url }}">{{ site.projects.vtt_bzh.name }}</a> 12 000 vues/mois</p>
 
-<ul class="u-list u-list--none u-list--inline u-text--center">
-  <li>🗓️ <a href="{{ site.projects.vtt_bzh.url }}">{{ site.projects.vtt_bzh.name }}</a> — 12 000 vues/mois</li>
-  <li>🎤 Orateur <a href="/conference-les-web-components-et-accessibilite.html">Paris-Web 2025</a></li>
-</ul>
+<h2 id="follow" class="u-visually-hidden">📬 Me suivre</h2>
 
-## 📬 Me suivre {#follow}
+{% include /plugins/newsletter.html %}
+
+Tous les envois sont publics → [voir les archives](https://mails.nicolasjouanno.com)
 
 <div class="u-text--center">
   <ul class="u-list u-list--none u-list--inline">
@@ -55,14 +54,6 @@ signature: true
     </li>
   </ul>
 </div>
-
-{% include /plugins/newsletter.html %}
-
-<ul>
-  <li>✓ Tous les envois sont publics → <a href="https://mails.nicolasjouanno.com">voir les archives</a></li>
-  <li>✓ Aucun spam, désinscription en un clic</li>
-  <li>✓ Lue par des développeurs, des sportifs et des curieux du web indépendant</li>
-</ul>
 
 <h2 id="about">👋 Qui suis-je ?</h2>
 
@@ -88,15 +79,13 @@ Cycliste professionnel sous les couleurs de Bretagne Schuller (2008–2010). Dep
 
 <a href="/results.html" class="c-button c-button--dark-outline">Parcours sportif & outdoor →</a>
 
-## 📝 Dernier article
+## 📝 Derniers articles
 
-{% assign latest_post = site.posts.first %}
-<article class="c-post-card">
-  <header class="c-post-card__header">
-    <h3 class="c-post-card__header-title"><a href="{{ latest_post.url }}">{{ latest_post.title }}</a></h3>
-  </header>
-  <p>{{ latest_post.date | date: "%d %B %Y" }}</p>
-</article>
+<ul>
+  {% for post in site.posts limit:3 %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y" }})</li>
+  {% endfor %}
+</ul>
 
 <a href="/posts.html" class="c-button c-button--dark-outline">Tous les articles →</a>
 
