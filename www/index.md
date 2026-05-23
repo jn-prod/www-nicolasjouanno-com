@@ -48,6 +48,11 @@ Tous les envois sont publics → [voir les archives](https://mails.nicolasjouann
       </a>
     </li>
     <li>
+      <a href="{{ site.author.github }}" class="c-button c-button--icon c-button--large" aria-label="GitHub — jn-prod" target="_blank" rel="noopener">
+        <span class="icon">{% include icons/github.svg %}</span>
+      </a>
+    </li>
+    <li>
       <a href="{{ site.author.instagram }}" class="c-button c-button--icon c-button--large" aria-label="Instagram — @bynicolasjd" target="_blank" rel="noopener">
         <span class="icon">{% include icons/instagram.svg %}</span>
       </a>
