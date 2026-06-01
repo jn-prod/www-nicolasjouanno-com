@@ -1,29 +1,33 @@
-# Nicolas Jouanno
+# Nicolas Jouanno — Lead développeur frontend
 
-Nicolas Jouanno is a frontend developer specialized in design systems, accessibility (RGAA), and modern web architectures. Self-taught over 20 years of web practice, former professional cyclist, minimalist by philosophy. Based in Pontivy, Brittany, France.
+Nicolas Jouanno est Lead développeur frontend, spécialisé en design systems, accessibilité (RGAA) et architectures web modernes. Autodidacte, plus de 20 ans de pratique du web, ancien cycliste professionnel, minimaliste par philosophie. Basé à Pontivy, Bretagne, France.
 
-## Who is Nicolas
+## Qui est Nicolas
 
-Nicolas applies the same discipline and endurance from his cycling career to his work and projects. His approach to the web is intentional and durable: human, simple, and sustainable. He is a father, adventurer, and van traveler exploring Europe with his family.
+Lead développeur frontend au quotidien, il applique au web la même discipline et la même endurance que celles de sa carrière cycliste : une approche intentionnelle et durable, humaine et simple. L'IA fait partie de ses outils de développement. En side project et en veille, il explore les systèmes agentiques — il les construit pour apprendre et en documente les patterns généralisés.
 
-- Professional profile: https://www.nicolasjouanno.com/work.html
-- Sports background: https://www.nicolasjouanno.com/results.html
-- Contact: https://www.nicolasjouanno.com/contact.html
+- Parcours professionnel : https://www.nicolasjouanno.com/work.html
+- Parcours sportif : https://www.nicolasjouanno.com/results.html
 
 ## Expertise
 
-- Frontend development: JavaScript, TypeScript, Web Components (StencilJS), Vue.js
-- Design Systems architecture and industrialization
-- Digital accessibility: RGAA, WCAG, a11y audits
-- Eco-design and web performance
-- Jamstack, monorepo, static site architecture
+Métier (au quotidien) :
+- Développement frontend : JavaScript, TypeScript, Web Components (StencilJS), Vue.js
+- Architecture et industrialisation de design systems
+- Accessibilité numérique : RGAA, WCAG, audits a11y
+- Éco-conception et performance web
+- Jamstack, monorepo, architecture de sites statiques
+- Orateur Paris-Web 2025 (Web Components et accessibilité)
 
-## Current role
+Side project / veille :
+- Systèmes agentiques : orchestration d'agents, mémoire, MCP, observabilité, gouvernance par décisions (patterns généralisés)
 
-Lead Frontend Developer — MGDIS Core Team (2019–present)
-Responsible for design system, Web Components library, accessibility standards, and frontend tooling.
+## Poste actuel
 
-## Latest posts
+Lead développeur frontend — core team MGDIS (2019–présent).
+Il applique la vision de l'architecte frontend dans le design system et accompagne les équipes dans son implémentation : librairie de Web Components, standards d'accessibilité, outillage frontend.
+
+## Derniers articles
 
 
 - Conférence: Les Web Components et l’accessibilité, co-speaker avec Simon @ Paris Web 2025 (2026) — https://www.nicolasjouanno.com/conference-les-web-components-et-accessibilite.html
@@ -33,20 +37,18 @@ Responsible for design system, Web Components library, accessibility standards, 
 - Retrouver le fil - pourquoi je recentre tout sur un seul site (2025) — https://www.nicolasjouanno.com/Retrouver-le-fil.html
 
 
-All posts: https://www.nicolasjouanno.com/posts.html
+Tous les articles : https://www.nicolasjouanno.com/posts.html
 
-## Subscribe
+## Projets personnels
 
-To follow Nicolas's publications, use the RSS feed:
-- RSS/Atom: https://www.nicolasjouanno.com/feed.xml
+- vtt.bzh — calendrier communautaire VTT en Bretagne : https://vtt.bzh/
+- nicolasjouanno.com — site personnel, terrain d'expérimentation UX et web minimaliste
+- Systèmes agentiques — side project d'exploration (orchestration d'agents, patterns documentés au fil des articles)
 
-No mailing list. No social media. RSS is the canonical subscription channel.
+## Auteur
 
-## Personal projects
+Nicolas Jouanno — Pontivy, Bretagne, France — me@nicolasjouanno.com
 
-- VTT.bzh — MTB community calendar for Brittany: https://vtt.bzh/
-- nicolasjouanno.com — personal site as UX and minimalist digital experimentation ground
+## Valeurs
 
-## Values
-
-Minimalism — Discipline — Endurance — Privacy — Ownership
+Minimalisme — Discipline — Endurance — Vie privée — Indépendance
