@@ -15,19 +15,19 @@ redirect_from:
   - /newsletter.html
   - /about.html
   - /follow.html
-title: "Nicolas Jouanno — développeur frontend, cycliste & outdoor"
+title: "Nicolas Jouanno — Lead développeur frontend"
 layout: page
-description: "Hub personnel de Nicolas Jouanno : développeur frontend (MGDIS, design system Web Components), ancien cycliste professionnel reconverti à l'outdoor — VTT, trail, van life en Bretagne."
+description: "Hub personnel de Nicolas Jouanno : Lead développeur frontend (design system, Web Components, accessibilité RGAA), orateur Paris-Web 2025. J'explore les systèmes agentiques en side project."
 permalink: /index.html
 breadcrumb_hide: true
 signature: true
 ---
 
-<h1 class="u-visually-hidden">{{ site.title }} — développeur frontend, ancien cycliste professionnel, outdoor en famille.</h1>
+<h1 class="u-visually-hidden">{{ site.title }} — Lead développeur frontend, du design system aux systèmes agentiques.</h1>
 
 <img class="u-image u-image-center u-image--large" src="/images/icons/avatar.svg" alt="Portrait de Nicolas Jouanno" />
 
-<p class="u-text--center">Développeur frontend : orateur <a href="/conference-les-web-components-et-accessibilite.html">Paris-Web 2025</a>, outdoor : <a href="{{ site.projects.vtt_bzh.url }}">{{ site.projects.vtt_bzh.name }}</a> 12 000 vues/mois</p>
+<p class="u-text--center">Lead développeur frontend. Du design system aux systèmes agentiques : la même discipline d'ingénierie logicielle, à deux échelles.</p>
 
 <h2 id="follow" class="u-visually-hidden">📬 Me suivre</h2>
 
@@ -52,11 +52,6 @@ Tous les envois sont publics → [voir les archives](https://mails.nicolasjouann
         <span class="icon">{% include icons/github.svg %}</span>
       </a>
     </li>
-    <li>
-      <a href="{{ site.author.instagram }}" class="c-button c-button--icon c-button--large" aria-label="Instagram — @bynicolasjd" target="_blank" rel="noopener">
-        <span class="icon">{% include icons/instagram.svg %}</span>
-      </a>
-    </li>
   </ul>
 </div>
 
@@ -70,9 +65,9 @@ Moi c'est Nicolas. Je [publie]({{ site.url }}/posts.html) et [construis des appl
 
 ## 🛠️ Ce sur quoi je travaille
 
-**MGDIS — design system.** Je contribue au design system de [MGDIS](https://github.com/MGDIS/core-ui) : Web Components (StencilJS), accessibilité RGAA, industrialisation frontend à l'échelle. Orateur à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html) sur ce sujet.
+**Design system, au quotidien.** Je suis Lead développeur frontend chez [MGDIS](https://github.com/MGDIS/core-ui) : j'applique la vision de l'architecte frontend dans le design system (Web Components / StencilJS, accessibilité RGAA, industrialisation à l'échelle) et j'accompagne les équipes dans son implémentation. Orateur à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html) sur ce sujet. L'IA fait partie de mes outils de développement.
 
-**Explorations IA.** J'explore comment les outils d'IA modifient la pratique du développement. Pas de publication pour l'instant — j'apprends, je construis, j'observe.
+**Systèmes agentiques, en side project.** Hors du travail, j'explore les systèmes agentiques : orchestration d'agents, mémoire, gouvernance par décisions. Je les construis pour apprendre, et j'en documente les patterns au fur et à mesure. C'est le fil de ma veille en ce moment.
 
 **[{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}).** Calendrier des randos VTT en Bretagne lancé en 2013 — laboratoire d'expérimentation technique. 12 000 vues/mois.
 

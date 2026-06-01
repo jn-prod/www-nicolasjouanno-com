@@ -10,7 +10,7 @@ redirect_from:
   - /certifications.html
 layout: page
 title: Cycliste professionnel, entrepreneur, développeur — le fil
-description: "De la compétition cycliste professionnelle à la construction de projets web indépendants : 13 ans de vtt.bzh, design system MGDIS, Paris-Web, builder IA."
+description: "De la compétition cycliste professionnelle à la construction de projets web indépendants : 13 ans de vtt.bzh, design system MGDIS, Paris-Web, et une veille active sur les systèmes agentiques en side project."
 icons:
   - js
   - ts
@@ -27,15 +27,15 @@ En 2013, j'ai lancé [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh
 
 Depuis 2019, je contribue au design system de [MGDIS](https://github.com/MGDIS/core-ui) : Web Components, accessibilité RGAA, industrialisation frontend à l'échelle. Orateur à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html).
 
-Aujourd'hui, contributeur core team sur un design system industriel, auteur de projets indépendants ouverts — en veille active sur l'IA et ce qu'elle change à nos pratiques.
+Aujourd'hui, Lead développeur frontend dans la core team d'un design system industriel : j'applique la vision de l'architecte frontend et j'accompagne les équipes dans son implémentation. Auteur de projets indépendants ouverts. L'IA fait partie de mes outils de développement au quotidien. En side project, j'explore plus loin les systèmes agentiques : je les construis pour apprendre et j'en documente les patterns.
 
 Le parcours complet, étape par étape :
 
 ## Expérience professionnelle
 
-### Développeur Frontend - MGDIS (2019 – aujourd'hui)
+### Lead développeur Frontend - MGDIS (2019 – aujourd'hui)
 
-Membre de la core team, responsable de l'outillage pour l'industrialisation du développement d'applications web basées sur des micro-services.
+Membre de la core team : j'applique la vision de l'architecte frontend dans le design system et j'accompagne les équipes dans son implémentation. Responsable de l'outillage pour l'industrialisation du développement d'applications web basées sur des micro-services.
 
 #### Missions principales
 
@@ -92,12 +92,15 @@ Première expérience professionnelle web, menée en parallèle de ma carrière 
 
 **[nicolasjouanno.com](https://www.nicolasjouanno.com)** — Hub éditorial personnel, depuis 2008. ([code source](https://github.com/jn-prod/www-nicolasjouanno-com))
 
+**Systèmes agentiques (side project)** — Un terrain d'expérimentation que je construis pour explorer l'orchestration d'agents, la mémoire, l'observabilité et la gouvernance par décisions. J'en documente les patterns généralisés au fil de mes articles.
+
 ## Compétences
 
 - Frontend : JavaScript (ESNext), TypeScript, StencilJs, Vue.js, Web Components, SASS, HTML5, CSS3.
 - Architecture : micro-frontends, Jamstack, monorepo, PNPM.
 - Qualité & accessibilité : a11y, performance web, Green IT.
 - Outils & DevOps : GitHub Actions, ViteJS, Jekyll, Cloudflare.
+- Systèmes agentiques (side project / veille) : orchestration d'agents, skills, MCP, observabilité.
 
 ## Conférences
 
