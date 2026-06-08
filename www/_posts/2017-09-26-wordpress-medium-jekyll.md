@@ -13,10 +13,9 @@ tags:
   - plateforme
 images:
   - images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.webp
-categories:
-  - Experience
-  - Tech
 support_context: "C'est ce qui me permet de continuer à développer, expérimenter et partager sur le web."
+categories:
+  - Work
 ---
 
 _J'ai commencé à bloguer à l'époque des skyblog, ensuite j'ai découvert Wordpress un outil puissant, puis Medium un outil simple. Maintenant je blog grâce à Jekyll. Voici ce que vous pourrez (ou pas) faire avec chacun d'eux._

@@ -12,6 +12,8 @@ featured: true
 images:
   - images/posts/a3d50-0omp6q8ru_v_v0drm.webp
 support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
+categories:
+  - Sport
 ---
 
 <em>Comment régler la fourche et l’amortisseur de votre VTT ? XC Marathon, enduro, DH, … de 100 à 200mm et plus, nos VTT sont tous, ou presque, équipés d’une fourche télescopique et d’un amortisseur. Gagner en stabilité, augmenter le confort, l’adhérence… votre VTT tout-suspendu à de nombreux avantages, mais faut-il encore que vos suspensions soit bien réglées! Découvrez ici les astuces et méthodes simples pour régler la fourche et l’amortisseur de votre VTT.</em>

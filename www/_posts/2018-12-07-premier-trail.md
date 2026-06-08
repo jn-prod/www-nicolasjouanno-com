@@ -2,9 +2,6 @@
 layout: post
 title: Mon premier trail
 description: "Récit de ma première course de trail : préparation, stratégie de course et retour sur un 13km dans les bois bretons, côté émotions et performances."
-categories:
-  - Sport
-  - Experience
 tags:
   - Trail
   - Competition
@@ -12,6 +9,8 @@ tags:
 images:
   - images/posts/homme_trail_foret.webp
 support_context: "C'est ce qui me permet de continuer à écrire sur le sport, l'outdoor et la vie simple."
+categories:
+  - Sport
 ---
 
 <em>Je suis plein de contradiction, ceux qui me connaissent le savent. Il y a quelques semaines, je publiais un article disant que je n'ai pas besoin de compétition pour m'entraîner. Cette même semaine, je prenais le départ de ma première course à pied, un trail de 12km qui avait lieu derrière chez moi. Dans cet article, je vous parle de ma préparation, des questions que je me suis posé et, bien sûr, de ma course !</em>

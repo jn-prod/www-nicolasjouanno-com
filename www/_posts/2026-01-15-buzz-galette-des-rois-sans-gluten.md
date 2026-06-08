@@ -2,8 +2,6 @@
 layout: post
 title: "RE : (Bad) BUZZ et désinformation autour du remboursement de la galette des rois sans gluten"
 description: "Remboursement de la galette des rois sans gluten : analyse du bad buzz et de la désinformation autour de la maladie cœliaque et du régime sans gluten."
-categories:
-  - Santé
 tags:
   - sans-gluten
   - sécu
@@ -11,6 +9,8 @@ tags:
   - désinformation
   - maladie-coeliaque
 support_context: "C'est ce qui me permet de continuer à publier librement sur des sujets qui comptent."
+categories:
+  - Perso
 ---
 
 Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :

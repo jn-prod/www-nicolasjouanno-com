@@ -3,13 +3,13 @@ layout: post
 title: M-1 avant ma première prise de parole à Paris-Web
 description: "À J-1 de notre conférence à Paris Web 2025 sur les Web Components et l'accessibilité : retour sur ce défi partagé avec Simon après deux ans à l'écoute."
 featured: true
-categories:
-  - Work
 tags:
   - accessibilite
   - web-components
   - rex
 support_context: "C'est ce qui me permet de continuer à développer, expérimenter et partager sur le web."
+categories:
+  - Work
 ---
 
 Depuis deux ans, je participe à [Paris-Web](/events/paris-web-2025.html) avec mon collègue [Simon Duhem](https://www.linkedin.com/in/simonduhem?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) grâce à notre employeur MGDIS. Cette année, l’histoire est un peu différente : nous ne venons pas seulement écouter, mais aussi parler.

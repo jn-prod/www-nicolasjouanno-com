@@ -6,8 +6,6 @@ redirect_from:
 layout: post
 title: Comment progresser sans compétition ?
 description: "Comment rester motivé et progresser sans compétition ? Sources de motivation, gestion des saisons et entraînement intelligent pour les sportifs autodidactes."
-categories:
-  - Sport
 tags:
   - Sport
   - Compétition
@@ -16,6 +14,8 @@ tags:
 images:
   - images/posts/1029035155.webp
 support_context: "C'est ce qui me permet de continuer à écrire sur le sport, l'outdoor et la vie simple."
+categories:
+  - Sport
 ---
 
 _Ce n'est pas toujours simple de trouver la motivation. Dans cet article, je vais partager avec vous ce qui me motive le plus pour me bouger, mais aussi ce qui me peut transformer une sortie de running en sortie de vélo, une balade en bord en mer en session de surf..._

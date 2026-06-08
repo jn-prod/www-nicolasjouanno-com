@@ -8,6 +8,16 @@ redirect_from:
   - /portfolio/project/breizhtraining.html
   - /cv.html
   - /certifications.html
+  - /offres/site-vitrine.html
+  - /offres/site-e-commerce.html
+  - /offres/site-applicatif.html
+  - /expertises/developpeur-back-end.html
+  - /expertises/integrateur-web.html
+  - /growth-hacker.html
+  - /product-manager.html
+  - /chef-projet-digital.html
+  - /creation-site-internet.html
+  - /apps.html
 layout: page
 title: Cycliste professionnel, entrepreneur, développeur — le fil
 description: "De la compétition cycliste professionnelle à la construction de projets web indépendants : 13 ans de vtt.bzh, design system MGDIS, Paris-Web, et une veille active sur les systèmes agentiques en side project."
@@ -28,6 +38,14 @@ En 2013, j'ai lancé [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh
 Depuis 2019, je contribue au design system de [MGDIS](https://github.com/MGDIS/core-ui) : Web Components, accessibilité RGAA, industrialisation frontend à l'échelle. Orateur à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html).
 
 Aujourd'hui, Lead développeur frontend dans la core team d'un design system industriel : j'applique la vision de l'architecte frontend et j'accompagne les équipes dans son implémentation. Auteur de projets indépendants ouverts. L'IA fait partie de mes outils de développement au quotidien. En side project, j'explore plus loin les systèmes agentiques : je les construis pour apprendre et j'en documente les patterns.
+
+## Écrits & conférences
+
+<ul class="c-section__post-list">
+  {% for post in site.categories.Work %}
+  <li class="c-section__post-item">{% include /components/post.html %}</li>
+  {% endfor %}
+</ul>
 
 Le parcours complet, étape par étape :
 

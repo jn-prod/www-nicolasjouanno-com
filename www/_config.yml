@@ -55,8 +55,8 @@ author:
 projects:
   vtt_bzh:
     name: "vtt.bzh"
-    url: "https://vtt.bzh?utm_source=www-nicolasjouanno-com&utm_medium=hub"
-    ajouter_url: "https://vtt.bzh/ajouter.html?utm_source=www-nicolasjouanno-com&utm_medium=hub"
+    url: "https://www.vtt.bzh/?utm_source=www-nicolasjouanno-com&utm_medium=hub"
+    ajouter_url: "https://www.vtt.bzh/ajouter.html?utm_source=www-nicolasjouanno-com&utm_medium=hub"
     github: "https://github.com/jn-prod/www-vtt-bzh"
 
 # collections
