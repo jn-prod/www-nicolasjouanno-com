@@ -11,6 +11,7 @@ tags:
 support_context: "C'est ce qui me permet de continuer à publier librement sur des sujets qui comptent."
 categories:
   - Perso
+  - Sans gluten
 ---
 
 Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :
@@ -79,6 +80,11 @@ Cela soulève une question importante : combien de personnes pourraient être di
 ## Et maintenant ?
 
 Il y a quelques semaine, j’ai créer un petit [quizz qui permet de tester ses connaissances sur la présence de gluten dans les aliments]({{site.url}}/apps/gluten-not-gluten/). Prêt à relever le défi ?
+
+## Pour aller plus loin
+
+- [Vivre sans gluten au quotidien](/sans-gluten.html) — mes repères concrets, par expérience
+- [Gluten ou pas gluten ?](/apps/gluten-not-gluten/) — le quiz pour s'entraîner à repérer le gluten
 
 ## Sources
 

@@ -53,6 +53,10 @@ Le fil m'amène jusqu'au design system de MGDIS, depuis 2019, avec la même envi
   {% endfor %}
 </ul>
 
+J'écris sur le design system, l'accessibilité et les systèmes agentiques — pour suivre mes prochains articles :
+
+{% include /plugins/newsletter.html %}
+
 Le parcours complet, étape par étape :
 
 ## Expérience professionnelle
