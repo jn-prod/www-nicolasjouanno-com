@@ -1,0 +1,8 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#09645f"/>
+  <rect x="0" y="0" width="1200" height="14" fill="#71323e"/>
+  <text x="96" y="266" font-family="DejaVu Sans, sans-serif" font-size="78" font-weight="bold" fill="#ffffff">Nicolas Jouanno</text>
+  <text x="96" y="338" font-family="DejaVu Sans, sans-serif" font-size="40" fill="#cfe6e3">Lead développeur frontend</text>
+  <text x="96" y="466" font-family="DejaVu Sans, sans-serif" font-size="36" fill="#ffffff">Du design system aux systèmes agentiques.</text>
+  <text x="96" y="560" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#a7d0cb">nicolasjouanno.com</text>
+</svg>

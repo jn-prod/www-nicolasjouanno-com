@@ -9,11 +9,12 @@
     <meta itemprop="height" content="60" />
   </span>
   <meta itemprop="url" content="{{ site.url }}" />
-  {% if author.linkedin %}<link itemprop="sameAs" href="{{ author.linkedin }}" />{% endif %}
-  {% if author.github %}<link itemprop="sameAs" href="{{ author.github }}" />{% endif %}
-  {% if author.twitter %}<link itemprop="sameAs" href="{{ author.twitter }}" />{% endif %}
-  {% if author.mediumcom %}<link itemprop="sameAs" href="{{ author.mediumcom }}" />{% endif %}
-  {% if author.substack %}<link itemprop="sameAs" href="{{ author.substack }}" />{% endif %}
+  {% if author.linkedin %}<link itemprop="sameAs" href="{{ author.linkedin | split: '?' | first }}" />{% endif %}
+  {% if author.github %}<link itemprop="sameAs" href="{{ author.github | split: '?' | first }}" />{% endif %}
+  {% if author.twitter %}<link itemprop="sameAs" href="{{ author.twitter | split: '?' | first }}" />{% endif %}
+  {% if author.wikipedia %}<link itemprop="sameAs" href="{{ author.wikipedia | split: '?' | first }}" />{% endif %}
+  {% if author.strava %}<link itemprop="sameAs" href="{{ author.strava | split: '?' | first }}" />{% endif %}
+  {% if author.instagram %}<link itemprop="sameAs" href="{{ author.instagram | split: '?' | first }}" />{% endif %}
   <div class="c-post-card__meta">
     <span>{{ author.handle }}</span>
     ·

@@ -19,8 +19,8 @@ redirect_from:
   - /creation-site-internet.html
   - /apps.html
 layout: page
-title: Cycliste professionnel, entrepreneur, développeur — le fil
-description: "De la compétition cycliste professionnelle à la construction de projets web indépendants : 13 ans de vtt.bzh, design system MGDIS, Paris-Web, et une veille active sur les systèmes agentiques en side project."
+title: Lead développeur frontend — design system & accessibilité RGAA
+description: "Lead développeur frontend dans la core team d'un design system industriel (MGDIS) : Web Components StencilJS, accessibilité RGAA, industrialisation frontend à l'échelle. Orateur Paris-Web 2025. J'explore les systèmes agentiques en side project."
 icons:
   - js
   - ts
@@ -29,15 +29,21 @@ icons:
   - stencil
 ---
 
+<h1>Lead développeur frontend — design system &amp; accessibilité RGAA</h1>
+
+Aujourd'hui, je suis Lead développeur frontend dans la core team du design system de [MGDIS](https://github.com/MGDIS/core-ui). Mon quotidien : des **Web Components** (StencilJS), l'**accessibilité RGAA** comme exigence non négociable, et l'industrialisation du frontend à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. J'en ai parlé sur scène à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html).
+
+L'IA fait partie de mes outils de développement au quotidien. En side project, le soir, j'explore les systèmes agentiques — orchestration d'agents, mémoire, observabilité, gouvernance par décisions. Je les construis pour apprendre.
+
+## Le fil
+
 Le vélo d'abord. [Cycliste professionnel]({{ site.author.wikipedia }}) sous les couleurs de Bretagne Schuller — cinq championnats de France, des courses 2.1 et 2.2. [Voir le palmarès →](/results.html)
 
 Une blessure en 2010 m'a mis hors course. C'est pendant cet arrêt que je suis venu au numérique — par passion. Entrepreneur : boutique physique, e-commerce vélo, P&L, management. Puis communication digitale. Puis le code, appris sur le tas, appliqué en production.
 
-En 2013, j'ai lancé [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — un calendrier des randos VTT en Bretagne. Pas un projet éditorial : un outil de praticien, construit pour les pratiquants. Treize ans plus tard, 12 000 vététistes par mois, référence #1 sur Google pour l'intention calendrier VTT breton.
+En 2013, j'ai lancé [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — un calendrier des randos VTT en Bretagne. Pas un projet éditorial : un outil de praticien, construit pour les pratiquants. Treize ans plus tard, 12 000 vététistes par mois, référence #1 sur Google pour l'intention calendrier VTT breton — et mon laboratoire d'expérimentation technique grandeur nature.
 
-Depuis 2019, je contribue au design system de [MGDIS](https://github.com/MGDIS/core-ui) : Web Components, accessibilité RGAA, industrialisation frontend à l'échelle. Orateur à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html).
-
-Aujourd'hui, Lead développeur frontend dans la core team d'un design system industriel : j'applique la vision de l'architecte frontend et j'accompagne les équipes dans son implémentation. Auteur de projets indépendants ouverts. L'IA fait partie de mes outils de développement au quotidien. En side project, j'explore plus loin les systèmes agentiques : je les construis pour apprendre et j'en documente les patterns.
+Le fil m'amène jusqu'au design system de MGDIS, depuis 2019, avec la même envie intacte : rendre le web plus simple, plus accessible et plus durable.
 
 ## Écrits & conférences
 
@@ -110,13 +116,13 @@ Première expérience professionnelle web, menée en parallèle de ma carrière 
 
 **[nicolasjouanno.com](https://www.nicolasjouanno.com)** — Hub éditorial personnel, depuis 2008. ([code source](https://github.com/jn-prod/www-nicolasjouanno-com))
 
-**Systèmes agentiques (side project)** — Un terrain d'expérimentation que je construis pour explorer l'orchestration d'agents, la mémoire, l'observabilité et la gouvernance par décisions. J'en documente les patterns généralisés au fil de mes articles.
+**Systèmes agentiques (side project)** — Un terrain d'expérimentation que je construis pour explorer l'orchestration d'agents, la mémoire, l'observabilité et la gouvernance par décisions.
 
 ## Compétences
 
 - Frontend : JavaScript (ESNext), TypeScript, StencilJs, Vue.js, Web Components, SASS, HTML5, CSS3.
 - Architecture : micro-frontends, Jamstack, monorepo, PNPM.
-- Qualité & accessibilité : a11y, performance web, Green IT.
+- Accessibilité & qualité : **RGAA** (audit & mise en conformité), a11y, Web Components accessibles, performance web, Green IT.
 - Outils & DevOps : GitHub Actions, ViteJS, Jekyll, Cloudflare.
 - Systèmes agentiques (side project / veille) : orchestration d'agents, skills, MCP, observabilité.
 

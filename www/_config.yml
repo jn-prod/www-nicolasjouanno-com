@@ -4,6 +4,7 @@ description: "Site personnel de Nicolas Jouanno — Lead développeur frontend (
 url: "https://www.nicolasjouanno.com"
 lang: "fr"
 logo: "/images/icons/avatar.svg"
+og_image: "/og/og-default.png" # carte sociale raster 1200x630 (hors pipeline images → survit au build ; SVG/WebP non rendus par les réseaux sociaux)
 
 # Webmaster verifications (renseigner les codes au besoin)
 webmaster_verifications:
@@ -65,6 +66,8 @@ collections:
     output: true
     permalink: /events/:slug.html
     sort_by: start
+  redirects:
+    output: true
 
 defaults:
   - scope:
