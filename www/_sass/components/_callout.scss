@@ -1,19 +1,35 @@
+// Composant unique d'encart / card — style « card Tipeee ».
+// Fond plein primaire, texte clair, CTA optionnel (c-button--light).
+// Absorbe l'ancien c-support (2026-06-10) : un seul style de callout dans le DS.
 .c-callout {
-  background: color-mix(in srgb, var(--color-primary), white 85%);
-  border-left: 4px solid var(--color-primary);
-  padding: var(--size-16);
+  background-color: var(--color-primary);
   border-radius: var(--size-8);
-  text-align: left;
+  padding: var(--size-32);
+  margin-block: var(--size-32);
+  text-align: center;
 
   &__title {
-    font-weight: bold;
-    color: var(--color-primary);
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-h3);
+    color: var(--color-primary-with);
     margin-bottom: var(--size-8);
   }
 
   &__text {
-    color: var(--color-primary);
+    color: var(--color-primary-with);
     line-height: var(--line-height);
-    margin: 0;
+    margin-bottom: var(--size-16);
+    opacity: 0.9;
+
+    // Encart sans CTA (note vtt.bzh, « Le saviez-vous ? ») : le texte est le dernier élément.
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    // Liens inline lisibles sur le fond plein.
+    a {
+      color: var(--color-primary-with);
+      text-decoration: underline;
+    }
   }
 }
