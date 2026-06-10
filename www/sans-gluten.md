@@ -23,7 +23,7 @@ Je suis **parent d'un enfant atteint de la maladie cœliaque**. Chez nous, le sa
 
 ## Les repères
 
-**Ce qui contient du gluten** : surtout le **blé** (froment, épeautre, kamut), l'**orge** et le **seigle** — donc pain, pâtes, semoule, biscuits, bière, et beaucoup de produits transformés.
+**Ce qui contient du gluten** : surtout le **blé** (froment, épeautre, kamut), l'**orge** et le **seigle** — donc pain, pâtes, semoule, biscuits, bière, et beaucoup de produits transformés ([liste de référence, ameli.fr](https://www.ameli.fr/assure/sante/themes/intolerance-gluten-maladie-coeliaque/regime-alimentaire)).
 
 **Ce qui est naturellement sans gluten** : fruits et légumes frais, viandes et poissons non transformés, œufs, produits laitiers nature, légumineuses (lentilles, pois chiches, haricots), et les céréales/pseudo-céréales sûres — **riz, maïs, quinoa, sarrasin, millet, fonio, sorgho**. C'est aussi une bonne base de carburant pour le [sport d'endurance](/results.html) — un sujet que je connais des deux côtés.
 

@@ -22,13 +22,13 @@ Ces deux mondes se rejoignent plus qu'on ne croit.
 
 ## « Sans gluten » : performance ou effet de mode ?
 
-On a beaucoup parlé de sportifs passés au sans-gluten — le vainqueur du Tour 2012 Bradley Wiggins, des équipes pros entières. De quoi laisser penser que c'est un secret de performance.
+On a beaucoup parlé de sportifs passés au sans-gluten. L'équipe pro [Garmin s'y est mise dès 2008](https://www.beyondceliac.org/pro-cycling-team-powered-by-gluten-free-diet/) sous l'impulsion de son physiologiste Allen Lim ; côté coureurs, [Bradley Wiggins, vainqueur du Tour 2012, mangeait sans gluten](https://www.cyclingweekly.com/news/latest-news/is-gluten-free-diet-beneficial-cyclists-285407). De quoi laisser penser que c'est un secret de performance.
 
-Soyons honnêtes : **pour quelqu'un qui n'est pas cœliaque ni sensible au gluten, il n'existe pas de preuve solide qu'un régime sans gluten améliore la performance.** Ce qui aide, c'est souvent l'effet collatéral — manger plus brut, mieux composer ses repas, réduire les produits ultra-transformés. Le gluten n'est pas le coupable ; c'est l'attention portée à l'assiette qui change la donne.
+Soyons honnêtes : **pour quelqu'un qui n'est pas cœliaque ni sensible au gluten, [il n'existe pas de preuve solide qu'un régime sans gluten améliore la performance](https://www.cyclingweekly.com/fitness/are-gluten-free-diets-a-performance-booster-or-just-an-expensive-fad).** Les études ne trouvent aucune différence — sur la performance, le confort digestif ou l'inflammation — entre régime avec et sans gluten chez le non-cœliaque. Ce qui aide, c'est souvent l'effet collatéral — manger plus brut, mieux composer ses repas, réduire les produits ultra-transformés. Le gluten n'est pas le coupable ; c'est l'attention portée à l'assiette qui change la donne.
 
 ## Pour un cœliaque, ce n'est pas une option
 
-La maladie cœliaque, c'est autre chose qu'une tendance : c'est une **maladie auto-immune** où le gluten abîme l'intestin. Le seul traitement, c'est l'éviction **totale et à vie**. Là, pas de débat performance : on enlève le gluten parce qu'il rend malade, point.
+La maladie cœliaque, c'est autre chose qu'une tendance : c'est une [**maladie auto-immune**](https://www.snfge.org/grand-public/maladies-digestives/maladie-coeliaque) où le gluten abîme l'intestin grêle. Le seul traitement, c'est l'éviction **totale et à vie**. Là, pas de débat performance : on enlève le gluten parce qu'il rend malade, point.
 
 La bonne nouvelle — et c'est ce que je veux faire passer — c'est qu'**on peut tout à fait être sportif d'endurance en mangeant sans gluten.** Le carburant de l'effort ne manque pas : riz, pommes de terre, patate douce, quinoa, sarrasin, maïs, fruits. Tout ça est naturellement sans gluten et plein de glucides utiles.
 
