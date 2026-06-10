@@ -13,12 +13,10 @@ Je suis **parent d'un enfant atteint de la maladie cœliaque**. Chez nous, le sa
 
 ## L'app : s'entraîner à repérer le gluten
 
-<aside class="c-callout">
-  <p class="c-callout__title">🌾 Gluten ou pas gluten ?</p>
-  <p class="c-callout__text">
-    Un quiz pour deviner, aliment par aliment, ce qui contient du gluten. Une façon ludique d'aiguiser le réflexe étiquette, en famille ou par curiosité.
-  </p>
-  <a href="/apps/gluten-not-gluten/" class="c-button c-button--dark-outline c-button--large">Jouer maintenant →</a>
+<aside class="c-support">
+  <p class="c-support__title">🌾 Gluten ou pas gluten ?</p>
+  <p class="c-support__text">Un quiz pour s'entraîner à repérer le gluten, aliment par aliment. Une façon ludique d'aiguiser le réflexe étiquette, en famille ou par curiosité.</p>
+  <a href="/apps/gluten-not-gluten/" class="c-button c-button--light">Jouer maintenant →</a>
 </aside>
 
 ## Les repères
