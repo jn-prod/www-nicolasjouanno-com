@@ -39,7 +39,7 @@ const renderIcon = (element) => {
 
 const setup = async () => {
   Array
-    .from(document.querySelectorAll('.icon'))
+    .from(document.querySelectorAll('.c-icon'))
     .forEach(renderIcon);
 }
 
