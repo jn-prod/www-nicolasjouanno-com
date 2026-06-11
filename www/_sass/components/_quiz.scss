@@ -12,7 +12,7 @@
     }
   }
 
-  // Layout via .c-actions-group--stack ; ici, reset du fieldset.
+  // Layout via .u-flex--col ; ici, reset du fieldset.
   &__difficulty-buttons {
     border: none;
     margin: 0;
@@ -20,7 +20,7 @@
   }
 
   // Sélection radio → bouton, commune aux groupes de choix du quiz (réponses + difficulté).
-  .c-actions-group {
+  .u-flex {
     input[type="radio"]:focus-visible + label {
       outline: 2px solid var(--color-primary);
       outline-offset: 2px;
@@ -55,12 +55,6 @@
     }
   }
 
-  &__question-category {
-    font-size: calc(var(--font-size) * 0.875);
-    color: color-mix(in srgb, var(--color-dark), white 30%);
-    margin-bottom: var(--size-16);
-  }
-
   &__question-emoji {
     margin: var(--size-16) 0;
   }
@@ -68,7 +62,6 @@
   &__question-text {
     display: block;
     font-size: var(--font-size-h3);
-    font-family: var(--font-family-heading);
     color: var(--color-dark);
     margin-bottom: var(--size-8);
   }
@@ -103,7 +96,6 @@
   &__score-value {
     display: block;
     font-size: calc(var(--font-size) * 4);
-    font-family: var(--font-family-heading);
   }
 
   &__score-label {
@@ -123,7 +115,7 @@
     margin: var(--size-32) 0;
   }
 
-  // Layout via .c-actions-group ; ici, marges propres au quiz.
+  // Layout via .u-flex ; ici, marges propres au quiz.
   &__share-buttons {
     margin-top: var(--size-32);
     margin-bottom: var(--size-32);

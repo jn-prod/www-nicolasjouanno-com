@@ -19,8 +19,8 @@ redirect_from:
   - /creation-site-internet.html
   - /apps.html
 layout: page
-title: Lead développeur frontend — design system & accessibilité RGAA
-description: "Lead développeur frontend dans la core team d'un design system industriel (MGDIS) : Web Components StencilJS, accessibilité RGAA, industrialisation frontend à l'échelle. Orateur Paris-Web 2025. J'explore les systèmes agentiques en side project."
+title: Lead développeur frontend — design system & RGAA | N. Jouanno
+description: "Lead frontend du design system MGDIS : Web Components StencilJS, accessibilité RGAA, frontend à l'échelle. Orateur Paris-Web 2025, j'explore les systèmes IA agentiques."
 icons:
   - js
   - ts
@@ -33,13 +33,13 @@ icons:
 
 Aujourd'hui, je suis Lead développeur frontend dans la core team du design system de [MGDIS](https://github.com/MGDIS/core-ui). Mon quotidien : des **Web Components** (StencilJS), l'**accessibilité RGAA** comme exigence non négociable, et l'industrialisation du frontend à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. J'en ai parlé sur scène à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html).
 
-L'IA fait partie de mes outils de développement au quotidien. En side project, le soir, j'explore les systèmes agentiques — orchestration d'agents, mémoire, observabilité, gouvernance par décisions. Je les construis pour apprendre.
+L'IA fait partie de mes outils de développement au quotidien. Le soir, en side project, j'explore les systèmes agentiques — orchestration d'agents, mémoire, observabilité, gouvernance par décisions. Je les construis pour comprendre comment ils tiennent.
 
 ## Le fil
 
 Le vélo d'abord. [Cycliste professionnel]({{ site.author.wikipedia }}) sous les couleurs de Bretagne Schuller — cinq championnats de France, des courses 2.1 et 2.2. [Voir le palmarès →](/results.html)
 
-Une blessure en 2010 m'a mis hors course. C'est pendant cet arrêt que je suis venu au numérique — par passion. Entrepreneur : boutique physique, e-commerce vélo, P&L, management. Puis communication digitale. Puis le code, appris sur le tas, appliqué en production.
+Une blessure en 2010 m'a mis hors course. C'est pendant cet arrêt que je suis venu au numérique. Entrepreneur d'abord : boutique physique, e-commerce vélo, P&L, management. Puis la communication digitale. Puis le code — appris sur le tas, appliqué en production.
 
 En 2013, j'ai lancé [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — un calendrier des randos VTT en Bretagne. Pas un projet éditorial : un outil de praticien, construit pour les pratiquants. Treize ans plus tard, 12 000 vététistes par mois, référence #1 sur Google pour l'intention calendrier VTT breton — et mon laboratoire d'expérimentation technique grandeur nature.
 
@@ -53,9 +53,10 @@ Le fil m'amène jusqu'au design system de MGDIS, depuis 2019, avec la même envi
   {% endfor %}
 </ul>
 
-J'écris sur le design system, l'accessibilité et les systèmes agentiques — pour suivre mes prochains articles :
-
-{% include /plugins/newsletter.html %}
+<aside class="c-card c-card--neutral c-card--large">
+  <p>J'écris sur le design system, l'accessibilité et les systèmes agentiques. Pour recevoir les prochains articles :</p>
+  {% include /plugins/newsletter.html %}
+</aside>
 
 Le parcours complet, étape par étape :
 

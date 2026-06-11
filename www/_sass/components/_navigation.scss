@@ -8,15 +8,8 @@
   margin: auto;
 
   &__title {
-    color: var(--color-dark);
-    text-decoration: none;
     font-family: var(--font-family-heading);
     font-size: 3rem;
-
-    &:hover,
-    &:focus {
-      text-decoration: underline;
-    }
   }
 
   &__link-list {

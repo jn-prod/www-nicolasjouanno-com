@@ -1,0 +1,5 @@
+// Méta-information : texte secondaire petit et atténué (date, handle, catégorie…).
+.c-meta {
+  font-size: calc(var(--font-size) * 0.875);
+  color: color-mix(in srgb, var(--color-dark), white 30%);
+}

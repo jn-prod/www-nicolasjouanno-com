@@ -2,7 +2,7 @@
 
 <article
   id="{{post.slug}}"
-  class="c-card c-card--flat c-card--medium c-post-card"
+  class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight"
   itemscope=""
   itemtype="http://schema.org/BlogPosting"
 >
@@ -16,12 +16,12 @@
   {% endif %}
   <meta itemprop="headline" content="{{ post.title }}" />
   <meta itemprop="mainEntityOfPage" content="{{ site.url }}{{ post.url }}" />
-  <header class="c-post-card__header">
-    <div class="c-post-card__author">
+  <header class="u-flex u-flex--between">
+    <div class="u-flex u-flex--tight">
       {% include /components/author.html author=author post=post %}
 
-      <h3 class="c-post-card__header-title" id="{{post.slug}}-title">
-        <a class="c-post-card__post-link" href="{{ post.url | absolute_url }}"
+      <h3 class="u-full u-spacing--0" id="{{post.slug}}-title">
+        <a class="u-link--dark" href="{{ post.url | absolute_url }}"
           >{{ post.title }}</a
         >
       </h3>
@@ -31,7 +31,7 @@
 
   {% if post.images.size > 0 %}
   <img
-    class="c-post-card__media"
+    class="u-img u-img--cover u-img--rounded u-img--banner"
     src="{{ post.images[0] | relative_url }}"
     alt="Illustration de l'article : {{ post.title }}"
     loading="lazy"
@@ -41,8 +41,8 @@
   <p>{{excerpt}}</p>
   {% endif %}
 
-  <footer class="c-post-card__footer">
-    <ul class="c-actions-group">
+  <footer>
+    <ul class="u-flex u-spacing--0">
       <li>
         <a
           class="c-button c-button--primary"
@@ -73,7 +73,7 @@
       </li>
 
       {% for category in post.categories %}
-      <li class="c-post-card__tag">#{{ category }}</li>
+      <li class="c-tag">#{{ category }}</li>
       {% endfor %}
     </ul>
   </footer>

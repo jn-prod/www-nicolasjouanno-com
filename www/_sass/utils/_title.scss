@@ -1,0 +1,5 @@
+// Typo de titre : police d'affichage. À poser sur un élément qu'on veut traiter
+// visuellement comme un titre (la taille reste définie par le contexte).
+.u-title {
+  font-family: var(--font-family-heading);
+}

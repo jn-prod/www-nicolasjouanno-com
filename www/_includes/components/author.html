@@ -1,6 +1,6 @@
 <img class="c-avatar c-avatar--small" src="/images/icons/avatar.svg" alt="Avatar de {{ author.name }}" />
 <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-  <a href="{{ site.url }}" class="c-post-card__author-name">
+  <a href="{{ site.url }}" class="u-link--dark">
     <span itemprop="name">{{ author.name }}</span>
   </a>
   <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
@@ -15,7 +15,7 @@
   {% if author.wikipedia %}<link itemprop="sameAs" href="{{ author.wikipedia | split: '?' | first }}" />{% endif %}
   {% if author.strava %}<link itemprop="sameAs" href="{{ author.strava | split: '?' | first }}" />{% endif %}
   {% if author.instagram %}<link itemprop="sameAs" href="{{ author.instagram | split: '?' | first }}" />{% endif %}
-  <div class="c-post-card__meta">
+  <div class="c-meta">
     <span>{{ author.handle }}</span>
     ·
     <time

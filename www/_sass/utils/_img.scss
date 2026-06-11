@@ -1,0 +1,22 @@
+// Image responsive. Variants composables.
+.u-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+// Recadrage : remplit la largeur et rogne (à coupler avec une contrainte de hauteur).
+.u-img--cover {
+  width: 100%;
+  object-fit: cover;
+}
+
+// Coins arrondis — hérite du radius de la .c-card englobante (--card-radius), sinon fallback.
+.u-img--rounded {
+  border-radius: var(--card-radius, var(--size-8));
+}
+
+// Bannière : plafonne la hauteur (à coupler avec --cover pour recadrer).
+.u-img--banner {
+  max-height: calc(var(--size-16) * 20);
+}

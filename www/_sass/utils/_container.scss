@@ -1,0 +1,5 @@
+// Conteneur centré à la largeur du contenu (même calage que .c-layout__content).
+.u-container {
+  max-inline-size: var(--breakpoint-m);
+  margin-inline: auto;
+}

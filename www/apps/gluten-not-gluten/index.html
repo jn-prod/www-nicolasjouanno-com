@@ -13,7 +13,7 @@ breadcrumb_hide: true
   <section id="startScreen" class="c-quiz__screen" aria-labelledby="quiz-title">
     <div class="c-quiz__start">
       <p>Êtes-vous capable de reconnaître les aliments qui contiennent du gluten ? Choisissez votre niveau et commencez le défi !</p>
-      <fieldset class="c-quiz__difficulty-buttons c-actions-group c-actions-group--stack">
+      <fieldset class="c-quiz__difficulty-buttons u-flex u-flex--col">
         <legend class="u-visually-hidden">Choisissez votre niveau de difficulté</legend>
         <input type="radio" id="diffLow" class="u-visually-hidden" name="difficulty" value="low" onchange="startQuiz(this.value)">
         <label for="diffLow" class="c-button c-button--dark-outline c-button--fullwidth">😊 Facile - 10 questions</label>
@@ -58,7 +58,7 @@ breadcrumb_hide: true
   <section id="resultScreen" class="c-quiz__screen" hidden aria-label="Résultats du quiz">
     <div class="c-quiz__result">
       <div class="c-quiz__score-circle c-card c-card--primary">
-        <output class="c-quiz__score-value" id="finalScore">0</output>
+        <output class="c-quiz__score-value u-title" id="finalScore">0</output>
         <p class="c-quiz__score-label" aria-hidden="true">points</p>
       </div>
 
@@ -82,7 +82,7 @@ breadcrumb_hide: true
         </div>
       </dl>
 
-      <div class="c-quiz__share-buttons c-actions-group">
+      <div class="c-quiz__share-buttons u-flex">
         <button class="c-button c-button--dark c-button--fullwidth" type="button" onclick="shareTwitter()">🐦 Partager sur Twitter</button>
         <button class="c-button c-button--dark c-button--fullwidth" type="button" onclick="shareFacebook()">📘 Partager sur Facebook</button>
       </div>

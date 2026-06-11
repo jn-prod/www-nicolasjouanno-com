@@ -1,0 +1,62 @@
+// Conteneur flex générique réutilisable.
+// Défaut : rangée, wrap, items centrés (axe transverse), gap medium.
+// (Reset margin/padding/list pour usage direct sur <ul>.)
+.u-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--size-16);
+}
+
+// Direction
+.u-flex--col {
+  flex-direction: column;
+}
+
+// Justification (axe principal)
+.u-flex--center {
+  justify-content: center;
+}
+
+.u-flex--between {
+  justify-content: space-between;
+}
+
+.u-flex--around {
+  justify-content: space-around;
+}
+
+.u-flex--end {
+  justify-content: flex-end;
+}
+
+// Alignement (axe transverse ; défaut = center)
+.u-flex--start {
+  align-items: flex-start;
+}
+
+.u-flex--stretch {
+  align-items: stretch;
+}
+
+// Wrap
+.u-flex--nowrap {
+  flex-wrap: nowrap;
+}
+
+// Gap resserré
+.u-flex--tight {
+  gap: var(--size-8);
+}
+
+// Enfants à largeur égale (rangée de boutons pleine largeur)
+.u-flex--fill {
+  flex-wrap: nowrap;
+
+  > .c-button,
+  > li {
+    flex: 1;
+    justify-content: center;
+    width: auto;
+  }
+}

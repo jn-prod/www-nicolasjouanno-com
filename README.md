@@ -68,7 +68,6 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_button.scss` | `.c-button--{variant}-outline` | Variantes contour |
 | `_button.scss` | `.c-button--fullwidth` | Pleine largeur — passe en `display: flex` |
 | `_button.scss` | `.c-button[disabled]` | État désactivé — `opacity: 0.8`, `cursor: not-allowed` |
-| `_actions-group.scss` | `.c-actions-group` + `--{stack\|fill\|center}` | Groupe d'actions (rangée/colonne de boutons espacés) — layout réutilisable, sans état de sélection |
 | `_progress.scss` | `.c-progress` | Barre de progression native stylisée (`display: block`) |
 | `_stat.scss` | `.c-stat` + `.c-stat--{bar\|list}` | Statistiques — **layout seul** (skin via `.c-card`) ; `--bar` (KPI horizontaux), `--list` (lignes label/valeur). Éléments `__label`/`__value` communs |
 | `_card.scss` | `.c-card` | **Skin réutilisable** : fond, bordure, border-radius, spacing. Toute surface à fond/bordure passe par là |
@@ -78,14 +77,23 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_callout.scss` | `.c-callout` | **Couche de contenu** (titre/texte centrés + CTA optionnel) posée sur une `.c-card` ; hérite de `--card-fg` |
 | `_quote.scss` | `.c-quote` + `.c-quote--{size}` | Citation réutilisable, posée sur une `.c-card` ; la taille de typo est une variante propre (`small`/`medium`/`large`), indépendante de la taille de card |
 | `_avatar.scss` | `.c-avatar` + `--{small\|large\|xlarge}` | Avatar rond (image) — tailles 32 / 128 / 256 |
-| `_post_card.scss` | `.c-post-card` | Aperçu d'article — **layout seul**, le skin vient de `.c-card` |
+| `_meta.scss` | `.c-meta` | Méta-information (date, handle, catégorie…) — texte petit et atténué |
+| `_tag.scss` | `.c-tag` | Étiquette / tag (catégorie, mot-clé) |
 | `_quiz.scss` | `.c-quiz` | Layout spécifique au quiz — surcouche contextuelle uniquement |
 
 > **Règle — fonds colorés = `.c-card`.** Aucun composant ne porte son propre `background` / `border` / `border-radius` / `padding` : ce skin est centralisé dans `.c-card`. Un composant à fond coloré compose `c-card c-card--{variant} c-card--{size}` et ne garde que son layout/typo. Si le contenu est un encart centré (titre + texte + CTA), ajouter `.c-callout`.
 >
-> **Règle — newsletter / « Me suivre » = callout primaire.** Tout bloc d'abonnement (`{% include /plugins/newsletter.html %}`) est rendu en `c-card c-card--primary c-card--large c-callout`. L'include porte déjà ces classes ; passer `title=` / `text=` pour intégrer titre et accroche dans la card.
+> **Règle — newsletter / « Me suivre ».** L'include `{% include /plugins/newsletter.html %}` ne contient **que le formulaire**. C'est le **bloc parent** (la section titre + accroche + formulaire) qui est la card — pas l'include :
+> ```html
+> <aside class="c-card c-card--neutral c-card--large">
+>   <h2>…</h2>
+>   <p>…accroche…</p>
+>   {% include /plugins/newsletter.html %}
+> </aside>
+> ```
+> Le titre vit **dans** la card (jamais au-dessus). Variante `neutral` (gris doux).
 >
-> **Règle — radius proportionnel à la taille.** Le `border-radius` n'est jamais codé en dur sur un composant : il découle de `.c-card--{size}` via `--card-radius` (`small` 4, `medium` 8, `large` 16). Le radius `large` (16) = celui des images (`.c-post-card__media`), pour un arrondi cohérent entre cards et médias.
+> **Règle — radius proportionnel à la taille.** Le `border-radius` n'est jamais codé en dur sur un composant : il découle de `.c-card--{size}` via `--card-radius` (`small` 4, `medium` 8, `large` 16). Le radius `large` (16) = celui des images de contenu, pour un arrondi cohérent entre cards et médias.
 >
 > **Règle — nesting de cards : descente d'un seul cran.** Une card imbriquée doit être **exactement une taille en dessous** de sa card parente la plus proche : `large > medium > small`. On **ne saute pas de palier** → `large` contenant directement une `small` est **interdit** (il faut passer par une `medium`). `small` est le plancher (une `small` ne peut contenir qu'une autre `small`). Seuls enfants autorisés : `large→medium`, `medium→small`, `small→small`. _Vérifié automatiquement par le harnais : `site-eval.sh` grader **R12** (ast-grep, `tools/scripts/sg-rules/card-nesting.yml` côté corp-ai) — tout nesting non conforme refuse le push._
 >
@@ -99,6 +107,12 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 |---|---|
 | `.u-visually-hidden` | Masqué visuellement, accessible aux lecteurs d'écran |
 | `.u-text--center` | `text-align: center` |
+| `.u-title` | Typo de titre (police d'affichage `--font-family-heading`) — pour styler en titre un élément non-`h*` (légende, valeur…) |
+| `.u-container` | Conteneur centré à la largeur du contenu (`max-inline-size: breakpoint-m; margin-inline: auto`) — même calage que `.c-layout__content` |
+| `.u-img` + `--cover` / `--rounded` | Image responsive ; `--cover` recadre, `--rounded` hérite du radius de la `.c-card` englobante (`--card-radius`) |
+| `.u-link--dark` | Lien dark sans soulignement, souligné au survol/focus |
+| `.u-flex` (+ modifs) | Conteneur flex **pur** (composable avec `.c-card`). Direction `--col` ; justify `--center`/`--between`/`--around`/`--end` ; align `--start`/`--stretch` ; `--nowrap` ; `--tight` (gap 8) ; `--fill` (enfants largeur égale). Défaut : rangée, wrap, items centrés, gap 16 |
+| `.u-spacing--0` | Reset d'espacement : `margin: 0; padding: 0` (ex. `<ul>` flex, `<figure>`) |
 
 > Les éléments block (`div`, `section`, `legend`, `progress` avec `display: block`…) n'ont pas besoin de `width: 100%` — c'est leur comportement naturel. Ne pas créer d'utilitaire pour ça.
 

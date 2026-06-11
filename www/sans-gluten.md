@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Vivre sans gluten au quotidien — repères, app & articles
-description: "Parent d'un enfant cœliaque, je partage des repères concrets pour vivre sans gluten : aliments naturellement sûrs, pièges des produits transformés, lecture des étiquettes, une app et des articles. Du vécu, pas un avis médical."
+description: "Parent d'un enfant cœliaque, je partage mes repères pour manger sans gluten : aliments sûrs, pièges des produits transformés, étiquettes. Du vécu, pas un avis médical."
 permalink: /sans-gluten.html
 ---
 
 # Vivre sans gluten au quotidien
 
-Je suis **parent d'un enfant atteint de la maladie cœliaque**. Chez nous, le sans-gluten n'est pas un choix de bien-être : c'est une nécessité, tous les jours, à chaque repas. À force de lire des étiquettes et de déjouer des pièges, j'ai accumulé des repères concrets — et je construis des outils pour aider à s'y retrouver.
+Je suis **parent d'un enfant atteint de la maladie cœliaque**. Chez nous, le sans-gluten n'est pas un choix de bien-être : c'est une nécessité, tous les jours, à chaque repas. À force de lire des étiquettes et de repérer les pièges, j'ai accumulé des repères concrets — et je construis des outils pour s'y retrouver.
 
 <aside class="c-card c-card--flat c-card--medium" role="note">
   <p>ℹ️ <strong>Ceci n'est pas un avis médical.</strong> Le diagnostic de la maladie cœliaque relève d'un médecin (et il ne faut <strong>pas</strong> supprimer le gluten avant les tests, sous peine de les fausser). Pour les références fiables : <a href="https://www.ameli.fr/assure/sante/themes/intolerance-gluten-maladie-coeliaque">ameli.fr</a> et l'<a href="https://www.afdiag.fr/">AFDIAG</a>.</p>
@@ -37,8 +37,8 @@ Je suis **parent d'un enfant atteint de la maladie cœliaque**. Chez nous, le sa
   {% endfor %}
 </ul>
 
-## Suivre la suite
-
-De nouveaux articles, et les **nouveautés de mes apps** sans gluten — pour ne rien manquer :
-
-{% include /plugins/newsletter.html %}
+<aside class="c-card c-card--neutral c-card--large">
+  <h2>Suivre la suite</h2>
+  <p>Les nouveaux articles et les <strong>nouveautés de mes apps</strong> sans gluten, directement dans votre boîte :</p>
+  {% include /plugins/newsletter.html %}
+</aside>

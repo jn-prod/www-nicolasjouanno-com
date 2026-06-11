@@ -1,0 +1,10 @@
+// Lien « dark » : couleur dark, sans soulignement, souligné au survol/focus.
+.u-link--dark {
+  color: var(--color-dark);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
