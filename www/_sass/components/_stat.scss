@@ -1,0 +1,49 @@
+// Statistiques — layout uniquement (le skin fond/bordure/spacing vient de .c-card).
+// Deux variantes : --bar (KPI horizontaux centrés) et --list (lignes label/valeur à séparateurs).
+// Élements communs : __label (gris) et __value (gras dark).
+.c-stat {
+  &__label {
+    color: color-mix(in srgb, var(--color-dark), white 30%);
+  }
+
+  &__value {
+    font-weight: bold;
+    color: var(--color-dark);
+    margin: 0;
+  }
+}
+
+// Variante barre : rangée de KPI (score, série…)
+.c-stat--bar {
+  display: flex;
+  justify-content: space-between;
+
+  .c-stat__item {
+    text-align: center;
+  }
+
+  .c-stat__label {
+    display: block;
+    font-size: calc(var(--font-size) * 0.875);
+    margin-bottom: var(--size-4);
+  }
+
+  .c-stat__value {
+    display: block;
+    font-size: calc(var(--font-size) * 1.5);
+  }
+}
+
+// Variante liste : lignes label ↔ valeur avec séparateurs
+.c-stat--list {
+  .c-stat__item {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--size-8) 0;
+    font-size: var(--font-size);
+
+    &:not(:last-child) {
+      border-bottom: var(--border);
+    }
+  }
+}

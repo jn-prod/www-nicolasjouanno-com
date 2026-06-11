@@ -45,8 +45,10 @@ Généralement votre pneu aura un sens de rotation, une indication présente sur
 
 De même, sur le flanc vous retrouverez une indication des pressions minimum et maximum recommander, très important pour votre sécurité ce paramètre vous évitera de déjanter ou encore d’abimer vos jantes…
 
-<blockquote>
-  Certaines marque de pneus, comme Maxxis, affichent fièrement dans leurs noms de modèles une “référence” supplémentaire avec une unité représentée par un “a” qui correspond au Shore A, un indice de dureté de la gomme qui compose un pneu. Cette information aura une incidence sur l’adhérence et le confort de votre pneu.</blockquote>
+<aside class="c-card c-card--flat c-card--small" role="note">
+  <p>
+  Certaines marque de pneus, comme Maxxis, affichent fièrement dans leurs noms de modèles une “référence” supplémentaire avec une unité représentée par un “a” qui correspond au Shore A, un indice de dureté de la gomme qui compose un pneu. Cette information aura une incidence sur l’adhérence et le confort de votre pneu.</p>
+</aside>
 <hr />
 
 ## 2/ La table des duretés de gomme des pneus : {#durete}
@@ -62,9 +64,9 @@ De même, sur le flanc vous retrouverez une indication des pressions minimum et 
 
 Le pneu tubetype sera un pneu utilisé avec des chambres à air et seulement avec des chambres à air, car c’est celle-ci qui lui permet au pneu de tenir en place une fois mise sous pression. Pour pouvoir préserver votre chambre à air des perçages de la jantes et de la tête de rayon et vous évite les crevaisons, il est important de vérifier régulièrement l’état du fond de jante qui peut s’entailler avec le temps, perdre de son efficacité et causer des crevaisons en cisaillant la chambre à air, les autres causes de crevaisons sont: la perforation par un objet, le pincement et les coupures et déchirures. Une chambre air latex ou avec du préventif injecté au préalable à l’intérieur à l’intérieur de celle-ci vous permettra de diminuer les crevaisons.
 
-<figure class="wp-caption">
-  <img alt="Conversion Tubeless" src="{{ site.url }}/images/posts/400bd-0ombzoecns3glpn7a.webp" class="img-fluid"/>
-  <figcaption class="wp-caption-text">Conversion Tubeless</figcaption>
+<figure>
+  <img alt="Conversion Tubeless" src="{{ site.url }}/images/posts/400bd-0ombzoecns3glpn7a.webp"/>
+  <figcaption>Conversion Tubeless</figcaption>
 </figure>
 
 Le pneu tubeless ou tubeless ready (converti) vous permettra à l’inverse de rouler sans chambre à air. Pour ce faire, trois conditions doivent être rassemblées: avoir une jante tubeless (qu’elle n’est pas de perforation pour les têtes de rayon est un repère), ou mettre un kit de conversion tubeless, monter des pneus tubeless ou tubeless ready qui ont une carcasse renforcée (plus lourde) avec une gomme à base de latex pour garantir l’étanchéité à l’air et dans lequel vous mettrez sous forme de préventif un liquide lui aussi à base de latex dans le pneu lors du montage.
@@ -89,13 +91,17 @@ Il faut commencer par dire que chaque fabriquant met à disposition un référen
 
 les pneus les plus polyvalent sur le marché sont, au choix, l’hutchinson Toro en 2.15 et le schwalbe nobby nic les deux modèles montés dans ces côtes à l’avant et à l’arrière
 
-<blockquote>
+<aside class="c-card c-card--flat c-card--small" role="note">
+  <p>
 
-les + : L’accroche latérale sécurisante dans la boue, la motricité sur les surfaces meubles, le bon débourrage.</blockquote>
+les + : L’accroche latérale sécurisante dans la boue, la motricité sur les surfaces meubles, le bon débourrage.</p>
+</aside>
 
-<blockquote>
+<aside class="c-card c-card--flat c-card--small" role="note">
+  <p>
 
-Les - : un peu lourd à trainer sur la route et terrain sec</blockquote>
+Les - : un peu lourd à trainer sur la route et terrain sec</p>
+</aside>
 
 Variante possible pour plus de rendement avec votre VTT: Hutchinson cougar 2.00 ou Schwalbe fat albert monté à l’arrière pour allier rendement et grip ou maxxis ignitor avant et arriére 2.10.
 
@@ -103,20 +109,24 @@ Variante possible pour plus d’accroche avec votre VTT: si le pneu est moins la
 
 ### Pneu VTT d’enduro et d’all mountain pour terrain gras l’hiver et la boue:
 
-<figure class="wp-caption">
-  <img alt="Le VTT de Jared Graves monté en Maxxis" src="{{ site.url }}/images/posts/3a012-0jfkexwvknlk36spt.webp" class="img-fluid"/>
-  <figcaption class="wp-caption-text">Le VTT de Jared Graves monté en Maxxis</figcaption>
+<figure>
+  <img alt="Le VTT de Jared Graves monté en Maxxis" src="{{ site.url }}/images/posts/3a012-0jfkexwvknlk36spt.webp"/>
+  <figcaption>Le VTT de Jared Graves monté en Maxxis</figcaption>
 </figure>
 
 Les pneus qui vous donneront le meilleur rapport rendement/accroche inhérent à la pratique du VTT en montagne l’hiver et dans la boue sont le schwalbe nobby nic avant de 2.25, à l’arriére un Hutchinson 2.15 toro
 
-<blockquote>
+<aside class="c-card c-card--flat c-card--small" role="note">
+  <p>
 
-les + : L’accroche latérale sécurisante dans la boue, la motricité sur les surfaces meubles, le bon débourrage.</blockquote>
+les + : L’accroche latérale sécurisante dans la boue, la motricité sur les surfaces meubles, le bon débourrage.</p>
+</aside>
 
-<blockquote>
+<aside class="c-card c-card--flat c-card--small" role="note">
+  <p>
 
-Les - : Peut vite manquer de grip sur les sections délicates, pas très adapté sur la roche, un peu lourd sur les part-feu</blockquote>
+Les - : Peut vite manquer de grip sur les sections délicates, pas très adapté sur la roche, un peu lourd sur les part-feu</p>
+</aside>
 
 Variante possible: montage à l’arrière d’un maxxis high roller 2.35 pour les terrains rocheux, voir un ikon 2.20 ou larsenn TT en 2.10 pour les plus habiles. Pour plus de grip en hiver un Maxxis medusa 2.10. N’oublions pas le maxxis ardent ou d’autres concurrents.
 
@@ -129,21 +139,21 @@ En VTT DH le montage le plus polyvalent reste un High Roller en 2.50 super tacky
 ## 6/ Les meilleurs pneus VTT d'hiver pour vaincre la boue {#best-of}
 
 <figure>
-  <img alt="Pneu HUTCHINSON TORO" src="{{ site.url }}/images/posts/57126-0c6n1i609mgd_3rm7.webp" class="img-fluid"/>
+  <img alt="Pneu HUTCHINSON TORO" src="{{ site.url }}/images/posts/57126-0c6n1i609mgd_3rm7.webp"/>
   <figcaption>Pneu HUTCHINSON TORO (Loisir / XC)</figcaption>
 </figure>
 
 <figure>
-  <img alt="pneu SCHWALBE NOBBY NIC" src="{{ site.url }}/images/posts/bc2c9-0kuckpd1y2nb3rli6.webp" class="img-fluid"/>
+  <img alt="pneu SCHWALBE NOBBY NIC" src="{{ site.url }}/images/posts/bc2c9-0kuckpd1y2nb3rli6.webp"/>
   <figcaption>pneu SCHWALBE NOBBY NIC (Rando / Enduro)</figcaption>
 </figure>
 
 <figure>
-  <img alt="Pneu MAXXIS MEDUSA" src="{{ site.url }}/images/posts/5722c-0zsdugggwrkpxqmuh.webp" class="img-fluid"/>
+  <img alt="Pneu MAXXIS MEDUSA" src="{{ site.url }}/images/posts/5722c-0zsdugggwrkpxqmuh.webp"/>
   <figcaption>Pneu MAXXIS MEDUSA (XC, rando)</figcaption>
 </figure>
 
 <figure>
-  <img alt="Pneu MAXXIS HIGH ROLLER " src="{{ site.url }}/images/posts/c14c5-04jhnw3ph3ltb3vwi.webp" class="img-fluid"/>
+  <img alt="Pneu MAXXIS HIGH ROLLER " src="{{ site.url }}/images/posts/c14c5-04jhnw3ph3ltb3vwi.webp"/>
   <figcaption>Pneu MAXXIS HIGH ROLLER (Enduro / All Mountain)</figcaption>
 </figure>

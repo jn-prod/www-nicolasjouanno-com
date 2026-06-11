@@ -33,7 +33,7 @@ categories:
 ## 1/ Chaque week-end des milliers de VTTistes sillonnent les sentiers de Bretagne en VTT {#preambule}
 
 <figure>
-  <img alt="Carte des voies vertes accessibles au VTT en Bretagne" src="{{ site.url }}/images/posts/a1019-0eb-pflbqbfbuhb14.webp" class="img-fluid"/><br />
+  <img alt="Carte des voies vertes accessibles au VTT en Bretagne" src="{{ site.url }}/images/posts/a1019-0eb-pflbqbfbuhb14.webp"/><br />
 </figure>
 
 Carte des voies vertes accessibles en randonnée VTT en Bretagne
@@ -51,7 +51,7 @@ Toutes les randonnées VTT organisées valent le détour, ne serais-ce que pour 
 ## 2/ Les randos de la côte Nord de Bretagne à VTT de Brest au Mont-Saint-Michel (Finistère, Côtes d’Armor, Ille et Vilaine) {#cote-nord}
 
 <figure>
-  <img alt="Randonnée VTT au mont st michel" src="{{ site.url }}/images/posts/04f42-0nrby8alnuktzebeg.webp" class="img-fluid"/><br />
+  <img alt="Randonnée VTT au mont st michel" src="{{ site.url }}/images/posts/04f42-0nrby8alnuktzebeg.webp"/><br />
 </figure>
 
 Randonnée VTT au mont st michel ©safrantours.com
@@ -67,7 +67,7 @@ On arrêtera de longer la face de la Bretagne au Mont Saint Michel. On découvri
 ## 3/ Les randos de l’intérieur des Terres à VTT (Finistère, Côtes d’Armor, Ille et Vilaine, Morbihan et Loire Atlantique) {#interieur-bretagne}
 
 <figure>
-  <img alt="Randonnée VTT parc Naturel Régional d'Armorique" src="{{ site.url }}/images/posts/105eb-0-dfntbdaminuvgyn.webp" class="img-fluid"/><br />
+  <img alt="Randonnée VTT parc Naturel Régional d'Armorique" src="{{ site.url }}/images/posts/105eb-0-dfntbdaminuvgyn.webp"/><br />
 </figure>
 
 Randonnée VTT parc Naturel Régional d’Armorique ©<a  href="http://www.tourismebretagne.com/decouvrir-les-destinations/coeur-de-bretagne-kalon-breizh/les-incontournables/les-monts-d-arree" target="_blank">tourismebretagne.com</a>
@@ -87,7 +87,7 @@ On finira un peu plus à l’est de la Bretagne, sur l’espace VTT du Pays de l
 ## 4/ Les randos de la côte Sud à VTT de Brest à Nantes (Finistère, Morbihan, Loire Atlantique) {#sud-bretagne}
 
 <figure>
-  <img alt="Randonnée VTT en Cornouaille ©ouest-cornouaille.com" src="{{ site.url }}/images/posts/f2277-0jmbuxkcfyonj3pxw.webp" class="img-fluid"/><br />
+  <img alt="Randonnée VTT en Cornouaille ©ouest-cornouaille.com" src="{{ site.url }}/images/posts/f2277-0jmbuxkcfyonj3pxw.webp"/><br />
 </figure>
 
 Randonnée VTT en Cornouaille ©<a  href="http://www.ouest-cornouaille.com/randonnees-accompagnees-et-circuits_secteur-ouest-cornouaille/randonnees-vtt-dans-ouest-cornouaille/1111" target="_blank">ouest-cornouaille.com</a>
@@ -103,7 +103,7 @@ On finira notre tour de Bretagne VTT par Nantes, bien qu’en région du Pays de
 ## 5/ Récapitulatif des 9 sites labellisés VTT FFC {#site-ffc}
 
 <figure>
-  <img alt="balise site VTT FFC" src="{{ site.url }}/images/posts/6512f-00uqqunzuq26gp-p3.webp" class="img-fluid"/><br />
+  <img alt="balise site VTT FFC" src="{{ site.url }}/images/posts/6512f-00uqqunzuq26gp-p3.webp"/><br />
 </figure>
 
 balise site VTT FFC

@@ -1,0 +1,23 @@
+// Avatar rond (image). Taille via variante --{small|large|xlarge}. small par défaut.
+.c-avatar {
+  --avatar-size: var(--size-32);
+
+  display: inline-block;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.c-avatar--small {
+  --avatar-size: var(--size-32);
+}
+
+.c-avatar--large {
+  --avatar-size: var(--size-128);
+}
+
+.c-avatar--xlarge {
+  --avatar-size: calc(var(--size-128) * 2);
+}

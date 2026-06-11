@@ -12,15 +12,15 @@
     }
   }
 
+  // Layout via .c-actions-group--stack ; ici, reset du fieldset.
   &__difficulty-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: var(--size-16);
-    margin-top: var(--size-32);
     border: none;
     margin: 0;
     padding: 0;
+  }
 
+  // Sélection radio → bouton, commune aux groupes de choix du quiz (réponses + difficulté).
+  .c-actions-group {
     input[type="radio"]:focus-visible + label {
       outline: 2px solid var(--color-primary);
       outline-offset: 2px;
@@ -37,17 +37,15 @@
     margin-bottom: var(--size-32);
   }
 
-  .c-stat-bar {
+  .c-stat--bar {
     margin-bottom: var(--size-32);
   }
 
+  // Skin (fond, padding, bordure, radius) entièrement porté par .c-card--neutral ;
+  // ici, uniquement les specs propres au quiz (fieldset).
   &__question-card {
-    background: color-mix(in srgb, var(--color-dark), white 95%);
-    border-radius: var(--size-16);
-    padding: var(--size-32);
     margin-bottom: var(--size-32);
     text-align: center;
-    border: none;
     min-inline-size: 0;
 
     &:disabled .c-button {
@@ -75,28 +73,6 @@
     margin-bottom: var(--size-8);
   }
 
-  &__answer-buttons {
-    display: flex;
-    gap: var(--size-16);
-
-    label {
-      flex: 1;
-      justify-content: center;
-      width: auto;
-    }
-
-    input[type="radio"]:focus-visible + label {
-      outline: 2px solid var(--color-primary);
-      outline-offset: 2px;
-    }
-
-    input[type="radio"]:checked + label.c-button--dark-outline {
-      background-color: var(--color-dark);
-      color: var(--color-dark-with);
-      border-color: var(--color-dark);
-    }
-  }
-
   &__feedback {
     font-weight: bold;
     margin-bottom: var(--size-8);
@@ -112,17 +88,16 @@
     text-align: center;
   }
 
+  // Fond/texte portés par .c-card--primary ; ici, forme ronde + dimensions du badge.
   &__score-circle {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: var(--color-primary);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: var(--size-32) auto;
-    color: var(--color-primary-with);
   }
 
   &__score-value {
@@ -144,13 +119,12 @@
     margin-bottom: var(--size-16);
   }
 
-  .c-stat-list {
+  .c-stat--list {
     margin: var(--size-32) 0;
   }
 
+  // Layout via .c-actions-group ; ici, marges propres au quiz.
   &__share-buttons {
-    display: flex;
-    gap: var(--size-8);
     margin-top: var(--size-32);
     margin-bottom: var(--size-32);
   }

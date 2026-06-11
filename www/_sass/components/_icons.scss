@@ -1,6 +1,6 @@
 $sizes: 2, 3;
 
-.icon {
+.c-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +15,7 @@ $sizes: 2, 3;
   }
 
   @each $size in $sizes {
-    &.icon--x#{$size} {
+    &.c-icon--x#{$size} {
       width: calc(var(--icon-size) * $size);
       height: calc(var(--icon-size) * $size);
     }

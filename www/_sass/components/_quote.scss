@@ -1,0 +1,44 @@
+// Citation « display » réutilisable — le skin (fond/bordure/spacing) vient de .c-card.
+// La taille de la typo est une VARIANTE de la quote (indépendante de la taille de card) :
+//   small / medium (défaut) / large.
+.c-quote {
+  --quote-text: calc(var(--font-size) * 2); // medium par défaut
+  --quote-author: calc(var(--font-size) * 1.5);
+
+  max-inline-size: var(--breakpoint-m);
+  margin-inline: auto;
+
+  &__text {
+    margin: 0;
+    font-family: var(--font-family-heading);
+    font-size: var(--quote-text);
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__author {
+    margin: 0;
+    font-family: var(--font-family-heading);
+    font-size: var(--quote-author);
+  }
+}
+
+.c-quote--small {
+  --quote-text: calc(var(--font-size) * 1.5);
+  --quote-author: var(--font-size);
+}
+
+.c-quote--large {
+  --quote-text: calc(var(--font-size) * 3);
+  --quote-author: calc(var(--font-size) * 2);
+}
+
+// Sur mobile, on rabaisse d'un cran la grande variante (ex-comportement jumbotron).
+@media screen and (width <= 90rem) {
+  .c-quote--large {
+    --quote-text: calc(var(--font-size) * 2);
+    --quote-author: calc(var(--font-size) * 1.5);
+  }
+}

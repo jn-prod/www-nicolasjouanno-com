@@ -26,13 +26,17 @@ De contûme, les jeunes cyclo-crossman viennent de l'école de vélo de route. S
 
 Le cyclo-cross est une discipline atypique et hybride. La saison commence dès septembre. Le sol est alors sec. C'est avec mon VTT que je réalise ma première saison. Bien plus sûr pour mois qui était un peu tête brûlée sur un vélo.
 
-<blockquote>Pro tip: pour commencer en vélo de route, optez pour des pneus renforcés, le plus large possible, roulez moins vite dans les virages et surtout ne les gonflez pas trop (3 bars max !)</blockquote>
+<aside class="c-card c-card--flat c-card--small" role="note">
+  <p>Pro tip: pour commencer en vélo de route, optez pour des pneus renforcés, le plus large possible, roulez moins vite dans les virages et surtout ne les gonflez pas trop (3 bars max !)</p>
+</aside>
 
 Débuter en cyclo-cross est assez simple. Commencez par sortir de la route, prenez les chemins de allages, les voies vertes. Moi j'ai commencé comme cela. Ensuite, au fil du temps, vous vous sentirez plus à votre aise sur les sols glissants, vous irez de plus en plus facilement dans les bois. Vous serez peu-être même, à la recherche de cette glisse si présente en cyclo-cross lorsque l'on roule sous la boue et que l'on revient d'une sortie comme si l'on avait fait une séance de bain de boue en thalasso.
 
 Pour ma deuxième saison, mon entraineur de club, le VCP Loudéac, qui faisait partie des meilleurs régionaux, avait accepté de m'entrainer. Ensuite, tout est allé très vite. La saison de cylo-cross est "courte", il faut progresser rapidement en technique et en physique. Si la préparation physique était guidé par l'entrainement fournie. J'ai appris les techniques spécifiques lors de stages organisés par le comité de Bretagne de Cyclisme.
 
-<blockquote>Pro tip: Le cyclo-cross est aussi une des rares disciplines en vélo où des obstacles, le plus souvent, artificiels (escalier, marches, plate-forme, etc...) sont ajoutés sur les tracés. Apprendre à les appréhender et les repérer peut éviter bon nombre de pièges et donne un avantage sportif.</blockquote>
+<aside class="c-card c-card--flat c-card--small" role="note">
+  <p>Pro tip: Le cyclo-cross est aussi une des rares disciplines en vélo où des obstacles, le plus souvent, artificiels (escalier, marches, plate-forme, etc...) sont ajoutés sur les tracés. Apprendre à les appréhender et les repérer peut éviter bon nombre de pièges et donne un avantage sportif.</p>
+</aside>
 
 L'agilité acquise en cyclo-cross est bénéfique pour la pratique du VTT et du vélo de route. Faisant de moi un vrai touche à tout capable m'amuser sur les champs de bosses de BMX, d'appréhender une trajectoire et de controler sa glisse. Bref, tout ce qui vous rend plus fort en cyclo-cross, vous rends également plus fort en vélo de route et en VTT. C'est bien pour cette raison que l'on voit, l'hiver, s'affronter sur les mêmes chemins les champions du tour de France et de la coupe de France de VTT sur les mêmes chemins.
 
@@ -40,7 +44,9 @@ L'entrainement en cyclo-cross est certainement l'un des moments qui procure le p
 
 Le cyclo-cross est un monde familial et bienveillant. C'est d'ailleurs ce qui me plaisait le plus dans cette discipline. Rapprochez d'un club ou comité de cycliste départemental ou régional prêt de chez vous. Ils répondront à toutes vos questions sur les licences et le règlement. Parler, au compétiteur et accompagnateur sur le bord des circuits.
 
-<blockquote>Pro tip: Surtout, la première fois arrivée avec de l'avance, 2h peuvent suffire. Vous aurez ainsi le temps de vous repérer le parcours, vous échauffer seureinement pour ce départ explosif qui vous attend et épingler votre dossard !</blockquote>
+<aside class="c-card c-card--flat c-card--small" role="note">
+  <p>Pro tip: Surtout, la première fois arrivée avec de l'avance, 2h peuvent suffire. Vous aurez ainsi le temps de vous repérer le parcours, vous échauffer seureinement pour ce départ explosif qui vous attend et épingler votre dossard !</p>
+</aside>
 
 Le cyclo-cross est un sport festif, alors prenez votre temps, restez parler après votre épreuve, encourager les autres participants. J'ai encore des souvenirs de mon passage en spectateur sur le championnat du Monde à Lanarvily où l'on se serait cru au festival des Vieilles Charues, juste ENORME !
 

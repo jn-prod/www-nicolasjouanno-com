@@ -15,7 +15,12 @@ categories:
 
 <em>Je ne me suis jamais senti aussi seul que sur mon vélo, mon surf ou avec mes baskets. Le sport, c'est aussi ça: la solitude. Lorsque j'étais cycliste professionnel, une sitation ma marqué, au point que je m'en souvient encore aujourd'hui ... onze années après! </em>
 
-<blockquote>"La solitude est l'élément déterminant de la condition humaine, seul l'homme se rend compte qu'il est seul." Le Labyrinthe de la solitude - Ocatio Paz</blockquote>
+<figure class="c-card c-card--flat c-card--medium c-quote">
+  <blockquote class="c-quote__text">
+    <p>"La solitude est l'élément déterminant de la condition humaine, seul l'homme se rend compte qu'il est seul."</p>
+  </blockquote>
+  <figcaption class="c-quote__author"><cite>Le Labyrinthe de la solitude</cite> — Octavio Paz</figcaption>
+</figure>
 
 ## Au programme :
 

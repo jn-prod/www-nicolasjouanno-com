@@ -53,9 +53,9 @@ Avec une double étanchéité et jeu interne, un système de micro-ajustement ce
 
 Pas besoin d’acheter de nouveaux disques pour votre nouvelles roues, pensez à bien choisir la référence adapté à vos disques en centerlock ou fixation 6 trous de quoi alléger le budget en plus VTT.
 
-<figure class="wp-caption">
-  <img alt="roues Mavic - Crossmax SLR 27,5 et 29" src="{{ site.url }}/images/posts/3a462-02vut69yj9so5bft.webp" class="img-fluid"/>
-  <figcaption class="wp-caption-text">Kit centerlock pour les roues Mavic Crossmax SLR 27,5 et 29</figcaption>
+<figure>
+  <img alt="roues Mavic - Crossmax SLR 27,5 et 29" src="{{ site.url }}/images/posts/3a462-02vut69yj9so5bft.webp"/>
+  <figcaption>Kit centerlock pour les roues Mavic Crossmax SLR 27,5 et 29</figcaption>
 </figure>
 
 ### 5) Roues compatible SRAM XX1
@@ -80,14 +80,14 @@ Pour 76€ de plus, offrez vous l’assistance Mavic avec l’extension de garan
 
 Le règlement du montant du programme MP3 s’effectue uniquement sur le site internet à l’issue de l’enregistrement.
 
-<figure class="wp-caption">
-  <img alt="roues Mavic - Crossmax SLR 27,5 et 29" src="{{ site.url }}/images/posts/51377-0z7xebg9vspdxjeus.webp" class="img-fluid"/>
-  <figcaption class="wp-caption-text">roues Mavic — Crossmax SLR 27,5 et 29</figcaption>
+<figure>
+  <img alt="roues Mavic - Crossmax SLR 27,5 et 29" src="{{ site.url }}/images/posts/51377-0z7xebg9vspdxjeus.webp"/>
+  <figcaption>roues Mavic — Crossmax SLR 27,5 et 29</figcaption>
 </figure>
 
-<figure class="wp-caption">
-  <img alt="roues Mavic - Crossmax SLR 27,5 et 29" src="{{ site.url }}/images/posts/63a64-0eomemo8zjuvqnhxk.webp" class="img-fluid"/>
-  <figcaption class="wp-caption-text">roues Mavic — Crossmax SLR 27,5 et 29</figcaption>
+<figure>
+  <img alt="roues Mavic - Crossmax SLR 27,5 et 29" src="{{ site.url }}/images/posts/63a64-0eomemo8zjuvqnhxk.webp"/>
+  <figcaption>roues Mavic — Crossmax SLR 27,5 et 29</figcaption>
 </figure>
 
 ## Le choix des pilotes professionnel: {#mavic-crossmax}

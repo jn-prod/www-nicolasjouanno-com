@@ -20,8 +20,12 @@ C’est en regardant en 2016 <a href="https://www.youtube.com/watch?v=O7FGTTCj42
 
 Ce concept de productivité est avant toute chose accessible à tous et fait preuve de bon sens. Après tout, qui est capable de travailler sereinement avec une pille interminable de papiers sur son bureau ? Il en est de même pour les supports numérique.
 
-<blockquote>
-“ Less is more “ Mies van der Rohe</blockquote>
+<figure class="c-card c-card--flat c-card--medium c-quote">
+  <blockquote class="c-quote__text">
+    <p>Less is more</p>
+  </blockquote>
+  <figcaption class="c-quote__author">— Mies van der Rohe</figcaption>
+</figure>
 
 Dans ma première expérience entrepreneuriale, je me suis clairement laissé dépassé par la paperasse en la laissant en attente, qu’elle soit dématérialisée ou non. Les conséquences de cette méthode aléatoire sont multiples, mais apportent rarement du positif.
 

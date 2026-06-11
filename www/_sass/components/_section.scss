@@ -31,19 +31,7 @@ $variants: 'primary', 'secondary', 'dark', 'light';
   }
 
   &__post {
-    &-item {
-      padding-bottom: var(--size-16);
-      margin-bottom: var(--size-8);
-
-      &:last-child {
-        margin-bottom: 0;
-      }
-
-      &:not(.c-section__post-item:last-child) {
-        border-bottom: var(--border);
-      }
-    }
-
+    // Chaque article est désormais une .c-card autonome ; l'espacement vient du gap de la liste.
     &-list {
       display: flex;
       flex-flow: column wrap;

@@ -28,7 +28,7 @@ categories:
 ## 1/ Qu’est que le VTT enduro ? {#preambule}
 
 <figure>
-  <img alt="jerome clementz l'un des meilleurs pilotes Enduro de sa génération" src="{{ site.url }}/images/posts/de923-0ox0m4w6j-q1hpkxf.webp" class="img-fluid"/><br />
+  <img alt="jerome clementz l'un des meilleurs pilotes Enduro de sa génération" src="{{ site.url }}/images/posts/de923-0ox0m4w6j-q1hpkxf.webp"/><br />
 </figure>
 
 jerome clementz l’un des meilleurs pilotes Enduro de sa génération
@@ -57,7 +57,7 @@ L’enduro VTT n’est pas la recherche d’endurance à outrance, la recherche 
 
 <figure>
 
-<img alt="départ enduro Mondraker serie" src="{{ site.url }}/images/posts/7cfbe-02oodqud9goosydgh.webp" class="img-fluid"/><br />
+<img alt="départ enduro Mondraker serie" src="{{ site.url }}/images/posts/7cfbe-02oodqud9goosydgh.webp"/><br />
 
 </figure>
 
@@ -94,43 +94,43 @@ Bon en recommence en fait le VTT d’Enduro idéal, c’est un mixe de tout ça,
 ROCKY MOUNTAIN — Altitude 790 MSL
 
 <figure>
-  <img alt="ROCKY MOUNTAIN - Altitude 790 MSL" src="{{ site.url }}/images/posts/99f11-0ld6lpmg4f8ssdgry.webp" class="img-fluid"/><br />
-  <figcaption class="wp-caption-text">ROCKY MOUNTAIN — Altitude 790 MSL</figcaption>
+  <img alt="ROCKY MOUNTAIN - Altitude 790 MSL" src="{{ site.url }}/images/posts/99f11-0ld6lpmg4f8ssdgry.webp"/><br />
+  <figcaption>ROCKY MOUNTAIN — Altitude 790 MSL</figcaption>
 </figure>
 
 Santa Cruz — Bronson
 
-<figure class="wp-caption">
-  <img alt="Santa Cruz - Bronson" src="{{ site.url }}/images/posts/8bd9c-03stysmi7roqgusmy.webp" class="img-fluid"/>
-  <figcaption class="wp-caption-text">Santa Cruz — Bronson</figcaption>
+<figure>
+  <img alt="Santa Cruz - Bronson" src="{{ site.url }}/images/posts/8bd9c-03stysmi7roqgusmy.webp"/>
+  <figcaption>Santa Cruz — Bronson</figcaption>
 </figure>
 
 GT — Force
 
-<figure class="wp-caption">
-  <img alt="GT - Force" src="{{ site.url }}/images/posts/abeff-0rpvf5myfinn3x2y3.webp" class="img-fluid"/>
-  <figcaption class="wp-caption-text">GT Force</figcaption>
+<figure>
+  <img alt="GT - Force" src="{{ site.url }}/images/posts/abeff-0rpvf5myfinn3x2y3.webp"/>
+  <figcaption>GT Force</figcaption>
 </figure>
 
 LAPIERRE — Zesty
 
-<figure class="wp-caption">
-  <img alt="Lapierre - Zesty 650B" src="{{ site.url }}/images/posts/e4db0-0w-ax1ybapqa3r8-e.webp" class="img-fluid"/>
-  <figcaption class="wp-caption-text">Lapierre — Zesty 650B</figcaption>
+<figure>
+  <img alt="Lapierre - Zesty 650B" src="{{ site.url }}/images/posts/e4db0-0w-ax1ybapqa3r8-e.webp"/>
+  <figcaption>Lapierre — Zesty 650B</figcaption>
 </figure>
 
 COMMENCAL — Meta AM
 
-<figure class="wp-caption">
-  <img alt="Commencal - Meta AM 650B" src="{{ site.url }}/images/posts/acf30-0_3e-mfzpfaer0cka.webp" class="img-fluid"/>
-  <figcaption class="wp-caption-text">Commencal — Meta AM 650B</figcaption>
+<figure>
+  <img alt="Commencal - Meta AM 650B" src="{{ site.url }}/images/posts/acf30-0_3e-mfzpfaer0cka.webp"/>
+  <figcaption>Commencal — Meta AM 650B</figcaption>
 </figure>
 
 CANYON — Strive
 
-<figure class="wp-caption">
-  <img alt="canyon - stryve" src="{{ site.url }}/images/posts/0a3c7-0fdsmrbuwp54gpwwd.webp" class="img-fluid"/>
-  <figcaption class="wp-caption-text">canyon — stryve</figcaption>
+<figure>
+  <img alt="canyon - stryve" src="{{ site.url }}/images/posts/0a3c7-0fdsmrbuwp54gpwwd.webp"/>
+  <figcaption>canyon — stryve</figcaption>
 </figure>
 
 ## 5/ Quel équipement pilote choisir pour la pratique du VTT Enduro? {#equipement}
@@ -142,7 +142,7 @@ L’équipement de base du pilote pour pratiquer l’enduro est un casque avec m
 ## 6/ ENDURO VTT: la checklist d’avant sortie {#checklist}
 
 <figure>
-  <img alt="VTT Enduro: se préparer à une épreuve" src="{{ site.url }}/images/posts/7dc32-0wxgebvuxq5bcl684.webp" class="img-fluid"/><br />
+  <img alt="VTT Enduro: se préparer à une épreuve" src="{{ site.url }}/images/posts/7dc32-0wxgebvuxq5bcl684.webp"/><br />
 </figure>
 
 - casque intégrale ou avc mantionière amovible

@@ -22,11 +22,11 @@ layout: default
   </ol>
 </nav>
 {% endif %} {% if page.icons %}
-<ul class="c-icons-list">
+<ul class="u-list u-list--none u-list--inline">
   {% for icon in page.icons %}
 
-  <li class="c-icons-list__element">
-    <i class="icon icon--{{icon}} icon--x3 "></i>
+  <li>
+    <i class="c-icon c-icon--{{icon}} c-icon--x3 "></i>
   </li>
 
   {% endfor %}

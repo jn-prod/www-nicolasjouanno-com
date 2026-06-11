@@ -9,11 +9,13 @@ permalink: /sans-gluten.html
 
 Je suis **parent d'un enfant atteint de la maladie cœliaque**. Chez nous, le sans-gluten n'est pas un choix de bien-être : c'est une nécessité, tous les jours, à chaque repas. À force de lire des étiquettes et de déjouer des pièges, j'ai accumulé des repères concrets — et je construis des outils pour aider à s'y retrouver.
 
-> ℹ️ **Ceci n'est pas un avis médical.** Le diagnostic de la maladie cœliaque relève d'un médecin (et il ne faut **pas** supprimer le gluten avant les tests, sous peine de les fausser). Pour les références fiables : [ameli.fr](https://www.ameli.fr/assure/sante/themes/intolerance-gluten-maladie-coeliaque) et l'[AFDIAG](https://www.afdiag.fr/).
+<aside class="c-card c-card--flat c-card--medium" role="note">
+  <p>ℹ️ <strong>Ceci n'est pas un avis médical.</strong> Le diagnostic de la maladie cœliaque relève d'un médecin (et il ne faut <strong>pas</strong> supprimer le gluten avant les tests, sous peine de les fausser). Pour les références fiables : <a href="https://www.ameli.fr/assure/sante/themes/intolerance-gluten-maladie-coeliaque">ameli.fr</a> et l'<a href="https://www.afdiag.fr/">AFDIAG</a>.</p>
+</aside>
 
 ## L'app : s'entraîner à repérer le gluten
 
-<aside class="c-callout">
+<aside class="c-card c-card--primary c-card--large c-callout">
   <p class="c-callout__title">🌾 Gluten ou pas gluten ?</p>
   <p class="c-callout__text">Un quiz pour s'entraîner à repérer le gluten, aliment par aliment. Une façon ludique d'aiguiser le réflexe étiquette, en famille ou par curiosité.</p>
   <a href="/apps/gluten-not-gluten/" class="c-button c-button--light">Jouer maintenant →</a>

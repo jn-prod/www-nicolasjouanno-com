@@ -28,31 +28,32 @@ signature: true
   <p>Salut, moi c'est Nicolas. Le jour, je conçois des design systems ; le soir, j'explore les systèmes agentiques. Même discipline d'ingénierie, deux échelles.</p>
 </hgroup>
 
-<h2 id="follow">📬 Recevez ma newsletter et mes derniers articles</h2>
-
-{% include /plugins/newsletter.html %}
+{% include /plugins/newsletter.html
+   id="follow"
+   title="📬 Recevez ma newsletter et mes derniers articles"
+   text="Pas d'algorithme, pas de pub : un email quand je publie, c'est tout." %}
 
 <p class="u-text--center">Orateur à <a href="/conference-les-web-components-et-accessibilite.html">Paris-Web 2025</a> (Web Components &amp; accessibilité RGAA) · ex-cycliste pro, 5 championnats de France disputés · je construis pour le web depuis une vingtaine d'années.</p>
 
 Tous les envois sont publics → [voir les archives](https://mails.nicolasjouanno.com)
 
-<img class="u-image u-image-center u-image--large" src="/images/icons/avatar.svg" alt="Portrait de Nicolas Jouanno" />
+<p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/icons/avatar.svg" alt="Portrait de Nicolas Jouanno" /></p>
 
 <div class="u-text--center">
-  <ul class="u-list u-list--none u-list--inline">
+  <ul class="c-actions-group c-actions-group--center">
     <li>
       <a href="{{ site.author.twitter }}" class="c-button c-button--icon c-button--large" aria-label="X (Twitter) — @bynicolasjd" target="_blank" rel="noopener">
-        <span class="icon">{% include icons/x.svg %}</span>
+        <span class="c-icon">{% include icons/x.svg %}</span>
       </a>
     </li>
     <li>
       <a href="{{ site.author.linkedin }}" class="c-button c-button--icon c-button--large" aria-label="LinkedIn — Nicolas Jouanno" target="_blank" rel="noopener">
-        <span class="icon">{% include icons/linkedin.svg %}</span>
+        <span class="c-icon">{% include icons/linkedin.svg %}</span>
       </a>
     </li>
     <li>
       <a href="{{ site.author.github }}" class="c-button c-button--icon c-button--large" aria-label="GitHub — jn-prod" target="_blank" rel="noopener">
-        <span class="icon">{% include icons/github.svg %}</span>
+        <span class="c-icon">{% include icons/github.svg %}</span>
       </a>
     </li>
   </ul>
@@ -92,8 +93,8 @@ Cycliste professionnel sous les couleurs de Bretagne Schuller (2008–2010). Dep
 
 <a href="/posts.html" class="c-button c-button--dark-outline">Tous les articles →</a>
 
-## 🌱 Esprit slow web
-
-Ici, pas d'algorithme, pas de pub, pas de pistage. **Vous choisissez comment et quand me suivre.** Une approche **minimaliste, durable et indépendante** : votre attention n'est pas un produit, c'est un cadeau que je respecte.
-
-Internet, pour moi, c'est un espace de liberté. Tout se passe ici, où je partage mon travail.
+<aside class="c-card c-card--flat c-card--large">
+  <h2>🌱 Esprit slow web</h2>
+  <p>Ici, pas d'algorithme, pas de pub, pas de pistage. <strong>Vous choisissez comment et quand me suivre.</strong> Une approche <strong>minimaliste, durable et indépendante</strong> : votre attention n'est pas un produit, c'est un cadeau que je respecte.</p>
+  <p>Internet, pour moi, c'est un espace de liberté. Tout se passe ici, où je partage mon travail.</p>
+</aside>

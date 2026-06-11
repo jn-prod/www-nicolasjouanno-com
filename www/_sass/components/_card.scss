@@ -1,0 +1,56 @@
+// Composant skin réutilisable : fond, bordure, border-radius, spacing.
+// Le contenu (ex. .c-callout) se pose dessus et lit --card-fg pour la couleur de texte.
+.c-card {
+  --card-bg: transparent;
+  --card-bg-image: none; // si défini (url), s'affiche PAR-DESSUS --card-bg (= couleur de fallback)
+  --card-fg: var(--color-dark);
+  --card-pad: var(--size-16); // medium par défaut
+  --card-radius: var(--size-8); // medium par défaut ; proportionnel à la taille
+
+  background-color: var(--card-bg);
+  background-image: var(--card-bg-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--card-fg);
+  border: var(--border); // toutes les cards sont bordées
+  border-radius: var(--card-radius);
+  padding: var(--card-pad);
+}
+
+// Variantes pleines (fond + couleur de texte contrastée)
+.c-card--flat {
+  --card-bg: var(--color-light);
+  --card-fg: var(--color-light-with);
+}
+
+.c-card--neutral {
+  --card-bg: color-mix(in srgb, var(--color-dark), white 95%);
+  --card-fg: var(--color-dark);
+}
+
+.c-card--primary {
+  --card-bg: var(--color-primary);
+  --card-fg: var(--color-primary-with);
+}
+
+// Modificateur de bordure : bordure dark
+.c-card--outline {
+  border-color: var(--color-dark);
+}
+
+// Spacings — padding + border-radius proportionnels (radius large = radius des images, --size-16)
+.c-card--small {
+  --card-pad: var(--size-8);
+  --card-radius: var(--size-4);
+}
+
+.c-card--medium {
+  --card-pad: var(--size-16);
+  --card-radius: var(--size-8);
+}
+
+.c-card--large {
+  --card-pad: var(--size-32);
+  --card-radius: var(--size-16);
+}

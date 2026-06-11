@@ -120,7 +120,9 @@ _Vous avez dû noter mon silence de la semaine passée. Peut-être que vous pens
 
 Aujourd'hui, je n'agrafe presque plus de dossard. Alors, je ne vais pas prendre un entraineur pour suivre mon entrainement comme avant. Je connais les basics, peut-être même plus. Alors, quand je parle d'entrainement autour de moi, je me pose toujours les mêmes questions:
 
-<blockquote>"Comment être certain de la qualité de ma pratique ? Est-ce que je risque de me blesser ? Puis-je tomber dans le surentrainement en faisant ?"</blockquote>
+<aside class="c-card c-card--flat c-card--small" role="note">
+  <p>"Comment être certain de la qualité de ma pratique ? Est-ce que je risque de me blesser ? Puis-je tomber dans le surentrainement en faisant ?"</p>
+</aside>
 
 Ces questions me ramènent souvent au tableau Excel que je remplissait pour mon entraineur, de façon plus ou moins assidue, plus ou moins franche...
 

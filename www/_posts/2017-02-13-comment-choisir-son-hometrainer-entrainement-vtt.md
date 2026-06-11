@@ -38,9 +38,9 @@ Pour les utilisateurs cherchant un outil d’entrainement performant, regardez d
 
 Sportif amateur ou professionnel, l’home-trainer est aujourd’hui devenu un outil essentiel.
 
-<figure class="wp-caption">
-  <img alt="Home trainer au chaud vs VTT dans la boue?" src="{{ site.url }}/images/posts/dec76-0cscharjawldysi56.webp" class="img-fluid"/>
-  <figcaption class="wp-caption-text">Home trainer au chaud vs VTT dans la boue?</figcaption>
+<figure>
+  <img alt="Home trainer au chaud vs VTT dans la boue?" src="{{ site.url }}/images/posts/dec76-0cscharjawldysi56.webp"/>
+  <figcaption>Home trainer au chaud vs VTT dans la boue?</figcaption>
 </figure>
 
 ## 1/ Choisir son mécanisme d’home-trainer {#mecanisme}
@@ -101,9 +101,9 @@ L’ergotrainer peut celon le modèle évoluer vers un Home Trainer Virtuel grâ
 
 ### Virtual Trainer
 
-<figure class="wp-caption">
-  <img alt="Home Trainer ELITE REALPOWER WIRELESS" src="{{ site.url }}/images/posts/bb212-0bx2pkg9g-z2gzrlm.webp" class="img-fluid"/>
-  <figcaption class="wp-caption-text">Home Trainer ELITE REALPOWER WIRELESS</figcaption>
+<figure>
+  <img alt="Home Trainer ELITE REALPOWER WIRELESS" src="{{ site.url }}/images/posts/bb212-0bx2pkg9g-z2gzrlm.webp"/>
+  <figcaption>Home Trainer ELITE REALPOWER WIRELESS</figcaption>
 </figure>
 
 Le virtual Trainer est un home-trainer qui vous fera voyager sur les pentes les plus prestigieuses du globe, vous frotter au peloton, participer à des courses virtuelles, programmer des entrainements.
@@ -141,7 +141,7 @@ Choisissez un modèle d’home-trainer qui se nettoie facilement est un plus.
 ## 5/ Quelques conseils d’utilisation de votre home-trainer {#conseils}
 
 <figure>
-  <img alt="Home Trainer ELITE REALPOWER WIRELESS" src="{{ site.url }}/images/posts/91fb5-0fgh8hb1_kl1ubyul.webp" class="img-fluid"/>
+  <img alt="Home Trainer ELITE REALPOWER WIRELESS" src="{{ site.url }}/images/posts/91fb5-0fgh8hb1_kl1ubyul.webp"/>
 
 </figure>
 
@@ -172,7 +172,7 @@ l’home-trainer par son frottement brule la gomme de votre pneu arrière plus r
 ### Home Trainer TACX BLUE MATIC T2650 (Cyclo-trainer)
 
 <figure>
-  <img alt="Home Trainer TACX BLUE MATIC T2650" src="{{ site.url }}/images/posts/28b49-0-7a5ib4fvmj9s-fa.webp" class="img-fluid"/>
+  <img alt="Home Trainer TACX BLUE MATIC T2650" src="{{ site.url }}/images/posts/28b49-0-7a5ib4fvmj9s-fa.webp"/>
   <figcaption>Home Trainer TACX BLUE MATIC T2650</figcaption>
 </figure>
 
@@ -189,7 +189,7 @@ l’home-trainer par son frottement brule la gomme de votre pneu arrière plus r
 ### Home Trainer TACX I-FLOW T2270 (Ergo-trainer)
 
 <figure>
-  <img alt="Home Trainer TACX I-FLOW T2270" src="{{ site.url }}/images/posts/eec12-0xbhdkpvkwiznfftv.webp" class="img-fluid"/>
+  <img alt="Home Trainer TACX I-FLOW T2270" src="{{ site.url }}/images/posts/eec12-0xbhdkpvkwiznfftv.webp"/>
   <figcaption>Home Trainer TACX I-FLOW T2270</figcaption>
 </figure>
 
@@ -207,7 +207,7 @@ l’home-trainer par son frottement brule la gomme de votre pneu arrière plus r
 ### Home Trainer TACX BUSHIDO Smart T2780 (Virtual trainer)
 
 <figure>
-  <img alt="Home Trainer TACX BUSHIDO Smart T2780" src="{{ site.url }}/images/posts/d9123-0_f4jzckdyphq0ioy.webp" class="img-fluid"/>
+  <img alt="Home Trainer TACX BUSHIDO Smart T2780" src="{{ site.url }}/images/posts/d9123-0_f4jzckdyphq0ioy.webp"/>
   <figcaption>Home Trainer TACX BUSHIDO Smart T2780</figcaption>
 </figure>
 
@@ -228,7 +228,7 @@ Cette application permet notamment de prendre part à des courses cyclistes clas
 ### Home Trainer TACX I-GENIUS Multiplayer Smart T2010 (Virtual trainer)
 
 <figure>
-  <img alt="Home Trainer TACX I-GENIUS Multiplayer Smart T2010" src="{{ site.url }}/images/posts/042f2-0naxiwzfmybfepba7.webp" class="img-fluid"/>
+  <img alt="Home Trainer TACX I-GENIUS Multiplayer Smart T2010" src="{{ site.url }}/images/posts/042f2-0naxiwzfmybfepba7.webp"/>
   <figcaption>Home Trainer TACX I-GENIUS Multiplayer Smart T2010</figcaption>
 </figure>
 

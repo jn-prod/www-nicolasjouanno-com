@@ -1,22 +1,19 @@
-// Composant unique d'encart / card — style « card Tipeee ».
-// Fond plein primaire, texte clair, CTA optionnel (c-button--light).
-// Absorbe l'ancien c-support (2026-06-10) : un seul style de callout dans le DS.
+// Couche de contenu : titre + texte centrés (+ CTA optionnel), posée sur une .c-card.
+// Le skin (fond, bordure, spacing) est porté par .c-card ; ici on lit --card-fg.
 .c-callout {
-  background-color: var(--color-primary);
-  border-radius: var(--size-8);
-  padding: var(--size-32);
-  margin-block: var(--size-32);
   text-align: center;
+  margin-block: var(--size-32); // rythme externe des encarts autonomes
 
   &__title {
     font-family: var(--font-family-heading);
     font-size: var(--font-size-h3);
-    color: var(--color-primary-with);
+    color: var(--card-fg);
+    margin-top: 0; // neutralise la marge par défaut quand le titre est un <h2>
     margin-bottom: var(--size-8);
   }
 
   &__text {
-    color: var(--color-primary-with);
+    color: var(--card-fg);
     line-height: var(--line-height);
     margin-bottom: var(--size-16);
     opacity: 0.9;
@@ -26,9 +23,9 @@
       margin-bottom: 0;
     }
 
-    // Liens inline lisibles sur le fond plein.
+    // Liens inline lisibles, héritent de la couleur de la card.
     a {
-      color: var(--color-primary-with);
+      color: var(--card-fg);
       text-decoration: underline;
     }
   }
