@@ -209,7 +209,7 @@
     <a href="#main-content" class="skip-link">Aller au contenu</a>
     <header role="banner" class="c-layout__header">
       <nav role="navigation" class="c-navigation c-navigation--main">
-        <a href="https://www.nicolasjouanno.com" class="c-navigation__title">
+        <a href="https://www.nicolasjouanno.com" class="c-navigation__title u-link--dark">
           Nicolas Jouanno
         </a>
 
@@ -250,7 +250,7 @@
   <section id="startScreen" class="c-quiz__screen" aria-labelledby="quiz-title">
     <div class="c-quiz__start">
       <p>Êtes-vous capable de reconnaître les aliments qui contiennent du gluten ? Choisissez votre niveau et commencez le défi !</p>
-      <fieldset class="c-quiz__difficulty-buttons c-actions-group c-actions-group--stack">
+      <fieldset class="c-quiz__difficulty-buttons u-flex u-flex--col">
         <legend class="u-visually-hidden">Choisissez votre niveau de difficulté</legend>
         <input type="radio" id="diffLow" class="u-visually-hidden" name="difficulty" value="low" onchange="startQuiz(this.value)">
         <label for="diffLow" class="c-button c-button--dark-outline c-button--fullwidth">😊 Facile - 10 questions</label>
@@ -284,11 +284,11 @@
     <!-- Cartes questions pré-rendues -->
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍞</span>
     Pain
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-1" class="u-visually-hidden" name="answer-1" value="true">
     <label for="answerGluten-1" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-1" class="u-visually-hidden" name="answer-1" value="false">
@@ -304,11 +304,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍚</span>
     Riz
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-2" class="u-visually-hidden" name="answer-2" value="true">
     <label for="answerGluten-2" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-2" class="u-visually-hidden" name="answer-2" value="false">
@@ -324,11 +324,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍝</span>
     Pâtes
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-3" class="u-visually-hidden" name="answer-3" value="true">
     <label for="answerGluten-3" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-3" class="u-visually-hidden" name="answer-3" value="false">
@@ -344,11 +344,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍎</span>
     Pomme
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-4" class="u-visually-hidden" name="answer-4" value="true">
     <label for="answerGluten-4" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-4" class="u-visually-hidden" name="answer-4" value="false">
@@ -364,11 +364,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍺</span>
     Bière
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-5" class="u-visually-hidden" name="answer-5" value="true">
     <label for="answerGluten-5" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-5" class="u-visually-hidden" name="answer-5" value="false">
@@ -384,11 +384,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥩</span>
     Viande
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-6" class="u-visually-hidden" name="answer-6" value="true">
     <label for="answerGluten-6" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-6" class="u-visually-hidden" name="answer-6" value="false">
@@ -404,11 +404,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥐</span>
     Croissant
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-7" class="u-visually-hidden" name="answer-7" value="true">
     <label for="answerGluten-7" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-7" class="u-visually-hidden" name="answer-7" value="false">
@@ -424,11 +424,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥕</span>
     Carotte
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-8" class="u-visually-hidden" name="answer-8" value="true">
     <label for="answerGluten-8" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-8" class="u-visually-hidden" name="answer-8" value="false">
@@ -444,11 +444,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍕</span>
     Pizza
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-9" class="u-visually-hidden" name="answer-9" value="true">
     <label for="answerGluten-9" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-9" class="u-visually-hidden" name="answer-9" value="false">
@@ -464,11 +464,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥚</span>
     Œuf
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-10" class="u-visually-hidden" name="answer-10" value="true">
     <label for="answerGluten-10" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-10" class="u-visually-hidden" name="answer-10" value="false">
@@ -484,11 +484,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥫</span>
     Soja sauce
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-11" class="u-visually-hidden" name="answer-11" value="true">
     <label for="answerGluten-11" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-11" class="u-visually-hidden" name="answer-11" value="false">
@@ -504,11 +504,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Quinoa
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-12" class="u-visually-hidden" name="answer-12" value="true">
     <label for="answerGluten-12" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-12" class="u-visually-hidden" name="answer-12" value="false">
@@ -524,11 +524,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍲</span>
     Couscous
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-13" class="u-visually-hidden" name="answer-13" value="true">
     <label for="answerGluten-13" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-13" class="u-visually-hidden" name="answer-13" value="false">
@@ -544,11 +544,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Avoine
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-14" class="u-visually-hidden" name="answer-14" value="true">
     <label for="answerGluten-14" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-14" class="u-visually-hidden" name="answer-14" value="false">
@@ -564,11 +564,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍪</span>
     Biscuits
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-15" class="u-visually-hidden" name="answer-15" value="true">
     <label for="answerGluten-15" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-15" class="u-visually-hidden" name="answer-15" value="false">
@@ -584,11 +584,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌽</span>
     Maïs
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-16" class="u-visually-hidden" name="answer-16" value="true">
     <label for="answerGluten-16" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-16" class="u-visually-hidden" name="answer-16" value="false">
@@ -604,11 +604,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥙</span>
     Seitan
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-17" class="u-visually-hidden" name="answer-17" value="true">
     <label for="answerGluten-17" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-17" class="u-visually-hidden" name="answer-17" value="false">
@@ -624,11 +624,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥛</span>
     Lait
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-18" class="u-visually-hidden" name="answer-18" value="true">
     <label for="answerGluten-18" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-18" class="u-visually-hidden" name="answer-18" value="false">
@@ -644,11 +644,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥣</span>
     Céréales
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-19" class="u-visually-hidden" name="answer-19" value="true">
     <label for="answerGluten-19" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-19" class="u-visually-hidden" name="answer-19" value="false">
@@ -664,11 +664,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🧊</span>
     Tofu
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-20" class="u-visually-hidden" name="answer-20" value="true">
     <label for="answerGluten-20" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-20" class="u-visually-hidden" name="answer-20" value="false">
@@ -684,11 +684,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Orge
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-21" class="u-visually-hidden" name="answer-21" value="true">
     <label for="answerGluten-21" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-21" class="u-visually-hidden" name="answer-21" value="false">
@@ -704,11 +704,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍠</span>
     Patate douce
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-22" class="u-visually-hidden" name="answer-22" value="true">
     <label for="answerGluten-22" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-22" class="u-visually-hidden" name="answer-22" value="false">
@@ -724,11 +724,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍔</span>
     Burger
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-23" class="u-visually-hidden" name="answer-23" value="true">
     <label for="answerGluten-23" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-23" class="u-visually-hidden" name="answer-23" value="false">
@@ -744,11 +744,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥛</span>
     Yaourt
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-24" class="u-visually-hidden" name="answer-24" value="true">
     <label for="answerGluten-24" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-24" class="u-visually-hidden" name="answer-24" value="false">
@@ -764,11 +764,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥞</span>
     Crêpe
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-25" class="u-visually-hidden" name="answer-25" value="true">
     <label for="answerGluten-25" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-25" class="u-visually-hidden" name="answer-25" value="false">
@@ -784,11 +784,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🧪</span>
     Amidon
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-26" class="u-visually-hidden" name="answer-26" value="true">
     <label for="answerGluten-26" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-26" class="u-visually-hidden" name="answer-26" value="false">
@@ -804,11 +804,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Sarrasin
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-27" class="u-visually-hidden" name="answer-27" value="true">
     <label for="answerGluten-27" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-27" class="u-visually-hidden" name="answer-27" value="false">
@@ -824,11 +824,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Épeautre
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-28" class="u-visually-hidden" name="answer-28" value="true">
     <label for="answerGluten-28" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-28" class="u-visually-hidden" name="answer-28" value="false">
@@ -844,11 +844,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Kamut
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-29" class="u-visually-hidden" name="answer-29" value="true">
     <label for="answerGluten-29" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-29" class="u-visually-hidden" name="answer-29" value="false">
@@ -864,11 +864,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍺</span>
     Malt
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-30" class="u-visually-hidden" name="answer-30" value="true">
     <label for="answerGluten-30" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-30" class="u-visually-hidden" name="answer-30" value="false">
@@ -884,11 +884,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Amarante
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-31" class="u-visually-hidden" name="answer-31" value="true">
     <label for="answerGluten-31" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-31" class="u-visually-hidden" name="answer-31" value="false">
@@ -904,11 +904,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥫</span>
     Sauce Tamari
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-32" class="u-visually-hidden" name="answer-32" value="true">
     <label for="answerGluten-32" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-32" class="u-visually-hidden" name="answer-32" value="false">
@@ -924,11 +924,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Seigle
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-33" class="u-visually-hidden" name="answer-33" value="true">
     <label for="answerGluten-33" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-33" class="u-visually-hidden" name="answer-33" value="false">
@@ -944,11 +944,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Teff
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-34" class="u-visually-hidden" name="answer-34" value="true">
     <label for="answerGluten-34" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-34" class="u-visually-hidden" name="answer-34" value="false">
@@ -964,11 +964,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍯</span>
     Sirop de malt
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-35" class="u-visually-hidden" name="answer-35" value="true">
     <label for="answerGluten-35" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-35" class="u-visually-hidden" name="answer-35" value="false">
@@ -984,11 +984,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥙</span>
     Farine de pois chiche
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-36" class="u-visually-hidden" name="answer-36" value="true">
     <label for="answerGluten-36" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-36" class="u-visually-hidden" name="answer-36" value="false">
@@ -1004,11 +1004,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍞</span>
     Matzo
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-37" class="u-visually-hidden" name="answer-37" value="true">
     <label for="answerGluten-37" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-37" class="u-visually-hidden" name="answer-37" value="false">
@@ -1024,11 +1024,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Millet
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-38" class="u-visually-hidden" name="answer-38" value="true">
     <label for="answerGluten-38" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-38" class="u-visually-hidden" name="answer-38" value="false">
@@ -1044,11 +1044,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Triticale
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-39" class="u-visually-hidden" name="answer-39" value="true">
     <label for="answerGluten-39" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-39" class="u-visually-hidden" name="answer-39" value="false">
@@ -1064,11 +1064,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Sorgho
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-40" class="u-visually-hidden" name="answer-40" value="true">
     <label for="answerGluten-40" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-40" class="u-visually-hidden" name="answer-40" value="false">
@@ -1084,11 +1084,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🧪</span>
     Hydrolysat de protéines
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-41" class="u-visually-hidden" name="answer-41" value="true">
     <label for="answerGluten-41" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-41" class="u-visually-hidden" name="answer-41" value="false">
@@ -1104,11 +1104,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥔</span>
     Tapioca
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-42" class="u-visually-hidden" name="answer-42" value="true">
     <label for="answerGluten-42" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-42" class="u-visually-hidden" name="answer-42" value="false">
@@ -1124,11 +1124,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Farro
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-43" class="u-visually-hidden" name="answer-43" value="true">
     <label for="answerGluten-43" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-43" class="u-visually-hidden" name="answer-43" value="false">
@@ -1144,11 +1144,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥔</span>
     Arrow-root
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-44" class="u-visually-hidden" name="answer-44" value="true">
     <label for="answerGluten-44" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-44" class="u-visually-hidden" name="answer-44" value="false">
@@ -1164,11 +1164,11 @@
 
     
       <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
-  <legend class="c-quiz__question-text">
+  <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🧪</span>
     Maltodextrine
   </legend>
-  <div class="c-quiz__answer-buttons c-actions-group c-actions-group--fill">
+  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
     <input type="radio" id="answerGluten-45" class="u-visually-hidden" name="answer-45" value="true">
     <label for="answerGluten-45" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-45" class="u-visually-hidden" name="answer-45" value="false">
@@ -1193,7 +1193,7 @@
   <section id="resultScreen" class="c-quiz__screen" hidden aria-label="Résultats du quiz">
     <div class="c-quiz__result">
       <div class="c-quiz__score-circle c-card c-card--primary">
-        <output class="c-quiz__score-value" id="finalScore">0</output>
+        <output class="c-quiz__score-value u-title" id="finalScore">0</output>
         <p class="c-quiz__score-label" aria-hidden="true">points</p>
       </div>
 
@@ -1217,7 +1217,7 @@
         </div>
       </dl>
 
-      <div class="c-quiz__share-buttons c-actions-group">
+      <div class="c-quiz__share-buttons u-flex">
         <button class="c-button c-button--dark c-button--fullwidth" type="button" onclick="shareTwitter()">🐦 Partager sur Twitter</button>
         <button class="c-button c-button--dark c-button--fullwidth" type="button" onclick="shareFacebook()">📘 Partager sur Facebook</button>
       </div>
@@ -1240,7 +1240,7 @@
       class="c-layout__footer c-section c-section--compact"
     >
       <nav aria-label="Plan du site" class="u-text--center">
-        <ul class="c-actions-group c-actions-group--center">
+        <ul class="u-flex u-flex--center u-spacing--0">
           <li><a href="https://www.nicolasjouanno.com/work.html">Work</a></li>
           <li><a href="https://www.nicolasjouanno.com/results.html">Sport</a></li>
           <li><a href="https://www.nicolasjouanno.com/sans-gluten.html">Sans gluten</a></li>
