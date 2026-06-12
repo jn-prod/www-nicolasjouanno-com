@@ -53,7 +53,7 @@ Le fil m'amène jusqu'au design system de MGDIS, depuis 2019, avec la même envi
   {% endfor %}
 </ul>
 
-<aside class="c-card c-card--neutral c-card--large">
+<aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
   <p>J'écris sur le design system, l'accessibilité et les systèmes agentiques. Pour recevoir les prochains articles :</p>
   {% include /plugins/newsletter.html %}
 </aside>

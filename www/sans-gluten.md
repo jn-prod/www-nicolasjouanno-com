@@ -37,7 +37,7 @@ Je suis **parent d'un enfant atteint de la maladie cœliaque**. Chez nous, le sa
   {% endfor %}
 </ul>
 
-<aside class="c-card c-card--neutral c-card--large">
+<aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
   <h2>Suivre la suite</h2>
   <p>Les nouveaux articles et les <strong>nouveautés de mes apps</strong> sans gluten, directement dans votre boîte :</p>
   {% include /plugins/newsletter.html %}

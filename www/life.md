@@ -29,7 +29,7 @@ Parent d'un enfant cœliaque, je construis des outils de sensibilisation et je p
   {% endfor %}
 </ul>
 
-<aside class="c-card c-card--neutral c-card--large">
+<aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
   <h2>Suivre</h2>
   <p>Van life, minimalisme, sans gluten, sport — si ça vous parle, je le raconte au fil de l'eau dans ma newsletter :</p>
   {% include /plugins/newsletter.html %}

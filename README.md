@@ -113,6 +113,13 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `.u-link--dark` | Lien dark sans soulignement, souligné au survol/focus |
 | `.u-flex` (+ modifs) | Conteneur flex **pur** (composable avec `.c-card`). Direction `--col` ; justify `--center`/`--between`/`--around`/`--end` ; align `--start`/`--stretch` ; `--nowrap` ; `--tight` (gap 8) ; `--fill` (enfants largeur égale). Défaut : rangée, wrap, items centrés, gap 16 |
 | `.u-spacing--0` | Reset d'espacement : `margin: 0; padding: 0` (ex. `<ul>` flex, `<figure>`) |
+| `.u-spacing--block-start-{small\|medium\|large}` | Marge logique en haut — `8` / `16` / `32` |
+| `.u-spacing--block-end-{small\|medium\|large}` | Marge logique en bas — `8` / `16` / `32` |
+| `.u-spacing--inline-{small\|medium\|large}` | Marge logique horizontale (gauche + droite) — `8` / `16` / `32` |
+
+> **Règle — spacing en tailles de t-shirt.** Une marge **ad-hoc** (dans le markup, au coup par coup) n'est **jamais codée en dur** (ni `var(--size-*)` brut, ni valeur arbitraire) : on compose une **variante explicite** `small` / `medium` / `large` (= `8` / `16` / `32`), alignée sur la convention t-shirt de `.c-card` / `.c-quote`. Les marges sont **logiques** (`block-start` / `block-end` / `inline`) pour rester correctes en RTL. Échelle définie par une seule source dans `_sass/utils/_spacing.scss` (`$spacing-sizes`). À privilégier quand l'espacement ne peut pas venir du `gap` d'un conteneur flex parent (ex. card CTA isolée après une `.c-section__post-list` à marge nulle).
+>
+> **Portée.** Ces utilitaires visent le spacing **contextuel / ad-hoc**. Le **rythme externe d'un composant réutilisable** (ex. `.c-callout { margin-block: var(--size-32) }`) peut **rester dans son SCSS** s'il mappe sur l'échelle (8/16/32) : une marge possédée par le composant s'applique automatiquement partout (anti-oubli), là où la sortir en utilitaire la rendrait oubliable sur chaque instance. Les **marges internes** entre sous-éléments d'un composant restent **toujours** dans son SCSS (encapsulation).
 
 > Les éléments block (`div`, `section`, `legend`, `progress` avec `display: block`…) n'ont pas besoin de `width: 100%` — c'est leur comportement naturel. Ne pas créer d'utilitaire pour ça.
 

@@ -3,3 +3,27 @@
   margin: 0;
   padding: 0;
 }
+
+// Échelle d'espacement en tailles de t-shirt (alignée sur c-card / c-quote).
+// On ne code jamais une marge en dur dans le flux : on compose une variante
+// explicite. Marges LOGIQUES (block/inline) → safe en RTL.
+//   small = var(--size-8) · medium = var(--size-16) · large = var(--size-32)
+$spacing-sizes: (
+  'small': var(--size-8),
+  'medium': var(--size-16),
+  'large': var(--size-32),
+);
+
+@each $name, $value in $spacing-sizes {
+  .u-spacing--block-start-#{$name} {
+    margin-block-start: $value;
+  }
+
+  .u-spacing--block-end-#{$name} {
+    margin-block-end: $value;
+  }
+
+  .u-spacing--inline-#{$name} {
+    margin-inline: $value;
+  }
+}
