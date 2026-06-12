@@ -46,7 +46,7 @@
     max-width: var(--breakpoint-m);
     margin: auto;
 
-    p, ul:not(.c-section__post-list) {
+    p:not(.c-quote *), ul:not(.c-section__post-list) {
       font-family: var(--font-family-reading);
     }
   }
