@@ -47,7 +47,7 @@ Le fil m'amène jusqu'au design system de MGDIS, depuis 2019, avec la même envi
 
 ## Écrits & conférences
 
-<ul class="c-section__post-list">
+<ul class="u-list c-section__post-list">
   {% for post in site.categories.Work %}
   <li class="c-section__post-item">{% include /components/post.html %}</li>
   {% endfor %}

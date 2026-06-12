@@ -92,7 +92,7 @@ Parent d'un enfant cœliaque, je vis le sans-gluten comme une nécessité, à ch
 
 ## 📝 Derniers articles
 
-<ul>
+<ul class="u-list">
   {% for post in site.posts limit:3 %}
   <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y" }})</li>
   {% endfor %}

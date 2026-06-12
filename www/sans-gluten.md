@@ -31,7 +31,7 @@ Je suis **parent d'un enfant atteint de la maladie cœliaque**. Chez nous, le sa
 
 ## Articles sans gluten
 
-<ul class="c-section__post-list">
+<ul class="u-list c-section__post-list">
   {% for post in site.categories['Sans gluten'] %}
   <li class="c-section__post-item">{% include /components/post.html %}</li>
   {% endfor %}

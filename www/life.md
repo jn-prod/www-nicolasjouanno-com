@@ -23,7 +23,7 @@ Parent d'un enfant cœliaque, je construis des outils de sensibilisation et je p
 
 ## Au fil de l'eau
 
-<ul class="c-section__post-list">
+<ul class="u-list c-section__post-list">
   {% for post in site.categories.Perso %}
   <li class="c-section__post-item">{% include /components/post.html %}</li>
   {% endfor %}

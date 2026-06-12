@@ -41,7 +41,7 @@ Aujourd’hui, j’explore l’outdoor en famille : van life à travers l’Euro
 
 ## Tous les articles sport & outdoor
 
-<ul class="c-section__post-list">
+<ul class="u-list c-section__post-list">
   {% for post in site.categories.Sport %}
   <li class="c-section__post-item">{% include /components/post.html %}</li>
   {% endfor %}
