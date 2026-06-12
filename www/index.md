@@ -41,7 +41,7 @@ Tous les envois sont publics → [voir les archives](https://mails.nicolasjouann
 <p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/icons/avatar.svg" alt="Portrait de Nicolas Jouanno" /></p>
 
 <div class="u-text--center">
-  <ul class="u-flex u-flex--center u-list u-list--none">
+  <ul class="u-flex u-flex--center u-list">
     <li>
       <a href="{{ site.author.twitter }}" class="c-button c-button--icon c-button--large" aria-label="X (Twitter) — @bynicolasjd" target="_blank" rel="noopener">
         <span class="c-icon">{% include icons/x.svg %}</span>
