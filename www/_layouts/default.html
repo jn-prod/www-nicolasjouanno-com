@@ -290,7 +290,8 @@
             "{{ site.author.twitter | split: '?' | first }}",
             "{{ site.author.wikipedia | split: '?' | first }}",
             "{{ site.author.strava | split: '?' | first }}",
-            "{{ site.author.instagram | split: '?' | first }}"
+            "{{ site.author.instagram | split: '?' | first }}",
+            "{{ site.author.youtube | split: '?' | first }}"
           ]
         {% endif %}
       }
@@ -339,9 +340,9 @@
         <ul class="u-list c-navigation__link-list">
           <li class="c-navigation__link-list-element">
             <a
-              class="c-button {% if page.url == '/work.html' %}c-button--active{% endif %}"
-              href="{{ site.url }}/work.html"
-              >Work</a
+              class="c-button {% if page.url == '/results.html' %}c-button--active{% endif %}"
+              href="{{ site.url }}/results.html"
+              >Outdoor</a
             >
           </li>
 
@@ -357,7 +358,7 @@
             <a
               href="/#follow"
               class="c-button c-button--primary"
-              >Newsletter
+              >Suivre
             </a>
           </li>
         </ul>
@@ -399,10 +400,10 @@
     >
       <nav aria-label="Plan du site" class="u-text--center">
         <ul class="u-flex u-flex--center u-list">
-          <li><a href="{{ site.url }}/work.html">Work</a></li>
-          <li><a href="{{ site.url }}/results.html">Sport</a></li>
-          <li><a href="{{ site.url }}/sans-gluten.html">Sans gluten</a></li>
+          <li><a href="{{ site.url }}/results.html">Outdoor</a></li>
+          <li><a href="{{ site.url }}/nutrition.html">Nutrition</a></li>
           <li><a href="{{ site.url }}/life.html">Life</a></li>
+          <li><a href="{{ site.url }}/work.html">Work</a></li>
         </ul>
       </nav>
       <p>

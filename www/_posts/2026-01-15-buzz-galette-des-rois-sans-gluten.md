@@ -12,6 +12,7 @@ support_context: "C'est ce qui me permet de continuer à publier librement sur d
 categories:
   - Perso
   - Sans gluten
+  - Nutrition
 ---
 
 Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :
@@ -83,7 +84,7 @@ Il y a quelques semaine, j’ai créer un petit [quizz qui permet de tester ses 
 
 ## Pour aller plus loin
 
-- [Vivre sans gluten au quotidien](/sans-gluten.html) — mes repères concrets, par expérience
+- [Vivre sans gluten au quotidien](/nutrition.html) — mes repères concrets, par expérience
 - [Gluten ou pas gluten ?](/apps/gluten-not-gluten/) — le quiz pour s'entraîner à repérer le gluten
 
 ## Sources

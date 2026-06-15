@@ -14,6 +14,7 @@ categories:
   - Perso
   - Sport
   - Sans gluten
+  - Nutrition
 ---
 
 J'ai vécu deux rapports très différents à l'assiette. Pendant mes années de [cycliste professionnel](/results.html), tout tournait autour du carburant : combien de glucides, à quel moment, pour tenir le watt sur la durée. Aujourd'hui, en tant que **parent d'un enfant cœliaque**, je lis chaque étiquette avec la même rigueur — mais pour une autre raison : éviter le moindre gramme de gluten.

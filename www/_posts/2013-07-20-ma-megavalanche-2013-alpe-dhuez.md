@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ma Megavalanche 2013 : 2 500 m de pilotage, du Pic Blanc à Allemont"
-description: "Mon récit de la Megavalanche 2013 à l'Alpe d'Huez, sur la Mega Challenger : 2 500 m de dénivelé négatif depuis le Pic Blanc (3 300 m), et mes vidéos onboard."
+description: "Mon récit de la Megavalanche 2013 à l'Alpe d'Huez, sur la Mega Challenger : 2 500 m de dénivelé négatif depuis le Pic Blanc (3 300 m), et ma vidéo onboard."
 tags:
   - megavalanche
   - megavalanche alpe d'huez
@@ -33,10 +33,14 @@ Dossard **305** (KTM France).
 2. Pascal **Minguet** (Cap Vert VTT / Giant) — 0:51:03.620
 3. Jean-Pierre **Bruni** (US Cagnes / Giant) — 0:51:22.410
 
-## Les vidéos onboard
+## On me voit passer
 
-*Mes deux vidéos embarquées de la descente — en cours de réupload.*
+On m'aperçoit (dossard **305**) entre **8:18 et 12:28** dans cette vidéo de la Mega Challenger 2013 :
 
-<!-- PARTIE 1/2 — coller ici le nouvel embed vidéo (ancienne URL morte : vimeo.com/70479181) -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x0Hln_bHNp8?start=498" title="Megavalanche 2013 — Challenger" frameborder="0" allowfullscreen></iframe>
 
-<!-- PARTIE 2/2 — coller ici le nouvel embed vidéo (ancienne URL morte : vimeo.com/70517794) -->
+## Ma vidéo onboard
+
+Ma descente complète en caméra embarquée — les deux parties d'origine fusionnées en une seule :
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_rQjib47eLo" title="Megavalanche 2013 — Mega Challenger (caméra embarquée)" frameborder="0" allowfullscreen></iframe>

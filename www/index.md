@@ -15,26 +15,26 @@ redirect_from:
   - /newsletter.html
   - /about.html
   - /follow.html
-title: "Nicolas Jouanno — Lead frontend : design system & agents IA"
+title: "Nicolas Jouanno — VTT, trail & sans gluten au quotidien"
 layout: page
-description: "Lead frontend chez MGDIS : je conçois un design system (Web Components, accessibilité RGAA) et je construis des systèmes agentiques. Speaker Paris-Web 2025."
+description: "Ancien cycliste pro passé au VTT et au trail, parent d'un enfant cœliaque. Outdoor en famille, alimentation sans gluten au quotidien, et un web à vitesse humaine."
 permalink: /index.html
 breadcrumb_hide: true
 signature: true
 ---
 
 <hgroup class="u-text--center">
-  <h1><span class="u-visually-hidden">{{ site.title }} </span>Lead développeur frontend</h1>
-  <p>Salut, moi c'est Nicolas. Le jour, je conçois des design systems ; le soir, je construis des systèmes agentiques. Deux échelles, une même discipline d'ingénierie.</p>
+  <h1><span class="u-visually-hidden">{{ site.title }} — </span>Sport, outdoor & alimentation sans gluten</h1>
+  <p>Salut, moi c'est Nicolas. Ex-cycliste pro passé aux sentiers, parent d'un enfant cœliaque. Je roule, je cours, je voyage en van en famille — et le sans-gluten rythme nos repas.</p>
 </hgroup>
 
 <aside id="follow" class="c-card c-card--neutral c-card--large">
   <h2>📬 Un email quand je publie</h2>
-  <p>Mes articles sur le design system et les systèmes agentiques, directement dans votre boîte. Pas de rythme imposé : j'écris, vous lisez.</p>
+  <p>VTT et outdoor, alimentation sans gluten, et mes notes de bidouille web. Aucun rythme imposé : j'écris quand j'ai quelque chose à dire, vous lisez quand vous voulez.</p>
   {% include /plugins/newsletter.html %}
 </aside>
 
-<p class="u-text--center">J'ai parlé Web Components &amp; accessibilité RGAA à <a href="/conference-les-web-components-et-accessibilite.html">Paris-Web 2025</a> · ex-coureur cycliste (pro chez Bretagne Schuller, 2008-2010), 5 participations aux championnats de France FFC, des catégories jeunes à l'élite · je construis sur le web depuis une vingtaine d'années.</p>
+<p class="u-text--center">Ex-coureur cycliste — pro chez Bretagne Schuller (2008–2010), 5 participations aux championnats de France, des catégories jeunes à l'élite. Aujourd'hui : VTT, trail et l'Europe en van, en famille.</p>
 
 Tous les envois sont publics → [voir les archives](https://mails.nicolasjouanno.com)
 
@@ -48,13 +48,13 @@ Tous les envois sont publics → [voir les archives](https://mails.nicolasjouann
       </a>
     </li>
     <li>
-      <a href="{{ site.author.linkedin }}" class="c-button c-button--icon c-button--large" aria-label="LinkedIn — Nicolas Jouanno" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/linkedin.svg %}</span>
+      <a href="{{ site.author.instagram }}" class="c-button c-button--icon c-button--large" aria-label="Instagram — @bynicolasjd" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/instagram.svg %}</span>
       </a>
     </li>
     <li>
-      <a href="{{ site.author.github }}" class="c-button c-button--icon c-button--large" aria-label="GitHub — jn-prod" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/github.svg %}</span>
+      <a href="{{ site.author.youtube }}" class="c-button c-button--icon c-button--large" aria-label="YouTube — @byNicolasJD" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/youtube.svg %}</span>
       </a>
     </li>
   </ul>
@@ -62,35 +62,27 @@ Tous les envois sont publics → [voir les archives](https://mails.nicolasjouann
 
 <h2 id="about">👋 Qui suis-je ?</h2>
 
-Ça fait une vingtaine d'années que je [publie]({{ site.url }}/posts.html) et [construis des applications]({{ site.url }}/work.html) sur le web. Ancien [cycliste professionnel]({{ site.url }}/results.html), j'aborde le code comme l'entraînement : des composants qu'on réutilise plutôt qu'on refait, des sites qui durent plus longtemps qu'une mode, du web qu'on garde la main dessus.
+Ancien [cycliste professionnel]({{ site.url }}/results.html), j'ai troqué le bitume pour les sentiers — VTT, trail, van en famille à travers l'Europe. Parent d'un enfant cœliaque, le sans-gluten rythme nos repas. Et je [publie]({{ site.url }}/posts.html) sur ce coin de web depuis une vingtaine d'années, à vitesse humaine.
 
 - 📍 Basé à Pontivy, en Bretagne
 - 🌱 Je préfère retirer que rajouter
 - ⛰️ VTT, trail, van : endurance et soin du détail
 
-## 🛠️ Ce sur quoi je travaille
+## 🚴 Outdoor
 
-**Design system, au quotidien.** Je suis Lead développeur frontend chez [MGDIS](https://github.com/MGDIS/core-ui). Je fais vivre leur design system — Web Components / StencilJS, accessibilité RGAA — et j'épaule les équipes qui l'utilisent. J'en ai parlé sur scène à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html). L'IA fait partie de mes outils de tous les jours.
-
-**Systèmes agentiques, en side project.** Le soir, je construis des systèmes agentiques : orchestration d'agents, mémoire, gouvernance par décisions. Je les fabrique pour comprendre comment ça tient debout. C'est ce qui m'occupe en ce moment.
-
-**[{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}).** Le calendrier des randos VTT en Bretagne que j'ai lancé en 2013, et que je fais tourner depuis. 12 000 vues par mois : mon terrain d'essai technique grandeur nature.
-
-<a href="/work.html" class="c-button c-button--dark-outline">Voir mon parcours professionnel →</a>
-
-## 🚴 Sport & outdoor
-
-Cycliste professionnel sous les couleurs de Bretagne Schuller (2008–2010). Depuis, j'ai quitté le bitume pour les sentiers : VTT, trail, et l'Europe en van avec la famille. Le sport reste mon fil conducteur — la régularité et l'endurance, je les retrouve devant l'écran.
+Cycliste professionnel sous les couleurs de Bretagne Schuller (2008–2010). Depuis, j'ai quitté le bitume pour les sentiers : VTT, trail, l'Europe en van en famille. Le sport est resté mon fil conducteur — cette régularité et cette endurance, je les retrouve aujourd'hui devant l'écran.
 
 Un temps fort : [ma Megavalanche 2013](/ma-megavalanche-2013-alpe-dhuez.html) à l'Alpe d'Huez — 2 500 m de dénivelé négatif depuis le Pic Blanc (3 300 m).
 
+Côté communauté, j'anime [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — le calendrier des randos VTT en Bretagne, 12 000 vues/mois.
+
 <a href="/results.html" class="c-button c-button--dark-outline">Voir mon parcours sportif →</a>
 
-## 🌾 Sans gluten
+## 🌾 Nutrition
 
 Parent d'un enfant cœliaque, je vis le sans-gluten comme une nécessité, à chaque repas. À force de lire des étiquettes et de déjouer des pièges, j'ai accumulé des repères concrets — et je construis des outils pour s'y retrouver. Du vécu de tous les jours, pas un avis médical.
 
-<a href="/sans-gluten.html" class="c-button c-button--dark-outline">Vivre sans gluten →</a>
+<a href="/nutrition.html" class="c-button c-button--dark-outline">Le sans-gluten au quotidien →</a>
 
 ## 📝 Derniers articles
 
@@ -104,6 +96,6 @@ Parent d'un enfant cœliaque, je vis le sans-gluten comme une nécessité, à ch
 
 <aside class="c-card c-card--flat c-card--medium">
   <h2>🌱 Esprit slow web</h2>
-  <p>Ici, pas d'algorithme, pas de pub, pas de pistage. <strong>Vous choisissez comment et quand me suivre.</strong> Votre attention n'est pas un produit que je revends : c'est un temps que vous me donnez, et je le respecte.</p>
+  <p>Ici, pas d'algorithme, pas de pub, pas de pistage. <strong>Vous choisissez comment et quand me suivre.</strong> Votre attention n'est pas un produit que je revends : c'est un temps que vous me donnez. Je le respecte.</p>
   <p>Pas de plateforme entre nous. Tout part d'ici, sur mon propre site, et y reste.</p>
 </aside>

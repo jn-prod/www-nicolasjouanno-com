@@ -13,8 +13,6 @@ La saison 2010 s’est terminée sans résultat — une blessure m’a mis hors 
 
 Aujourd’hui, j’explore l’outdoor en famille : van life à travers l’Europe, sentiers en Bretagne, bivouacs et cols. Le sport est resté le fil conducteur — à vitesse humaine.
 
-<a href="/work.html" class="c-button c-button--dark-outline">Voir le parcours professionnel →</a>
-
 ## Pour aller plus loin
 
 **Sport & vie :**
@@ -36,7 +34,7 @@ Aujourd’hui, j’explore l’outdoor en famille : van life à travers l’Euro
 **Le projet :** [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — calendrier des randos VTT en Bretagne, 12 000 vues/mois.
 
 <aside class="c-card c-card--neutral c-card--large">
-  <p>Le sport et l'outdoor vous parlent ? Je raconte mes sorties et mes réflexions au fil de l'eau :</p>
+  <p>Le sport et l'outdoor vous parlent ? Je raconte mes sorties, mes choix de matériel et mes réflexions au fil de l'eau — un email quand je publie, pas plus.</p>
   {% include /plugins/newsletter.html %}
 </aside>
 
@@ -50,7 +48,7 @@ Aujourd’hui, j’explore l’outdoor en famille : van life à travers l’Euro
 
 ## Palmarès cycliste
 
-Historique complet des saisons compétitives, 2007–2010.
+Historique complet des saisons compétitives, 2004–2010.
 
 ### Les temps forts
 
@@ -64,7 +62,7 @@ Participation à 5 championnats de France :
 
 ### 2010 (Professionnel - Bretagne Schuller)
 
-Aucune palaces dans le top 20 en raison d'une blessure :-(
+Pas de résultat dans le top 20 : une blessure a écourté la saison.
 
 ### 2009 (Professionnel - Bretagne Schuller)
 
@@ -113,13 +111,14 @@ Aucune palaces dans le top 20 en raison d'une blessure :-(
 
 #### 3ème
 
-- La roche Foucaud - finale de la coupe de france DN2/espoire (E)
+- La roche Foucaud - finale de la Coupe de France DN2/espoir (E)
 - Général de la cabri tour (E)
-- Contre le montre par équipe tro div ster (123)
+- Contre la montre par équipe Tro div Ster (123)
 
 #### 4ème
 
-- Route bretonne (E) Championnat du Morbihan (123)
+- Route bretonne (E)
+- Championnat du Morbihan (123)
 
 #### 5ème
 
@@ -134,7 +133,7 @@ Aucune palaces dans le top 20 en raison d'une blessure :-(
 #### 7ème
 
 - 1ère étape cabri tour(E)
-- Coutre la montre cabri tour(E)
+- Contre la montre cabri tour (E)
 - Prix de la moisson Moréac (E)
 
 #### 9ème
@@ -185,7 +184,7 @@ Aucune palaces dans le top 20 en raison d'une blessure :-(
 
 #### 4ème
 
-- Trophé Jean Jacque Quéré (E)
+- Trophée Jean-Jacques Quéré (E)
 - Championnat du Morbihan (123)
 
 #### 5ème
@@ -197,7 +196,7 @@ Aucune palaces dans le top 20 en raison d'une blessure :-(
 
 #### 10ème
 
-- Loire Atlantique espoir dernoère étape (Espoir)
+- Loire Atlantique espoir dernière étape (Espoir)
 
 #### 15ème
 

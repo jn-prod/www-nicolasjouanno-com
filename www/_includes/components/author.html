@@ -15,6 +15,7 @@
   {% if author.wikipedia %}<link itemprop="sameAs" href="{{ author.wikipedia | split: '?' | first }}" />{% endif %}
   {% if author.strava %}<link itemprop="sameAs" href="{{ author.strava | split: '?' | first }}" />{% endif %}
   {% if author.instagram %}<link itemprop="sameAs" href="{{ author.instagram | split: '?' | first }}" />{% endif %}
+  {% if author.youtube %}<link itemprop="sameAs" href="{{ author.youtube | split: '?' | first }}" />{% endif %}
   <div class="c-meta">
     <span>{{ author.handle }}</span>
     ·

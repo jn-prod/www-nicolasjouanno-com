@@ -1,27 +1,29 @@
 ---
 layout: page
-title: Sport, sans gluten & van life — le perso de Nicolas Jouanno
-description: "Loin du clavier : sport & outdoor (ancien cycliste pro), cuisine sans gluten (parent d'un enfant cœliaque), van life en famille en Europe et minimalisme numérique."
+title: Van life, sans gluten & slow web — le perso de Nicolas Jouanno
+description: "En dehors du sport : alimentation sans gluten (parent d'un enfant cœliaque), van life en famille en Europe, et un rapport sobre au numérique — slow web et side projects."
 permalink: /life.html
 ---
 
 # Life
 
-Ce qui me fait avancer loin du clavier. **Sport et outdoor**, **cuisine sans gluten**, **van life** en famille à travers l'Europe, minimalisme numérique — à vitesse humaine.
+Ce qui me fait avancer en dehors du sport : **alimentation sans gluten**, **van life** en famille à travers l'Europe, et un **rapport sobre au numérique** — à vitesse humaine. _(Le sport et l'outdoor ont leur [propre coin](/results.html).)_
 
-## 🚴 Sport & outdoor
+## 🌾 Nutrition
 
-Ancien cycliste professionnel, j'ai quitté le bitume pour les sentiers : VTT, trail, et maintenant l'Europe en van avec la famille. Régularité, endurance, soin du détail.
+Parent d'un enfant cœliaque et ancien cycliste pro, je partage mes repères sans gluten du quotidien et mes tests de nutrition d'effort — et je construis des outils pour s'y retrouver.
 
-<a href="/results.html" class="c-button c-button--dark-outline">Mon parcours sportif & outdoor →</a>
+<a href="/nutrition.html" class="c-button c-button--dark-outline">Le hub nutrition →</a>
 
-## 🌾 Sans gluten
+## 💻 Digital
 
-Parent d'un enfant cœliaque, je construis des outils de sensibilisation et je partage mes repères concrets pour vivre sans gluten au quotidien.
+Le numérique à vitesse humaine : slow web, minimalisme, et l'envie d'un web qui dure plutôt qu'un web qui scale. Je bricole mes propres outils, et le soir j'explore en side project les systèmes agentiques — par curiosité, pour comprendre comment ça tient.
 
-<a href="/sans-gluten.html" class="c-button c-button--dark-outline">Le hub sans gluten →</a>
+<a href="/work.html" class="c-button c-button--dark-outline">Mon parcours & mes projets →</a>
 
-## Au fil de l'eau
+## 🧩 Inclassables
+
+Le reste, au fil de l'eau.
 
 <ul class="u-list c-section__post-list">
   {% for post in site.categories.Perso %}
@@ -31,6 +33,6 @@ Parent d'un enfant cœliaque, je construis des outils de sensibilisation et je p
 
 <aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
   <h2>Suivre</h2>
-  <p>Van life, minimalisme, sans gluten, sport — si ça vous parle, je le raconte au fil de l'eau dans ma newsletter :</p>
+  <p>Van life, minimalisme, alimentation sans gluten — si ça vous parle, je le raconte au fil de l'eau dans ma newsletter.</p>
   {% include /plugins/newsletter.html %}
 </aside>
