@@ -82,6 +82,8 @@ Tous les envois sont publics → [voir les archives](https://mails.nicolasjouann
 
 Cycliste professionnel sous les couleurs de Bretagne Schuller (2008–2010). Depuis, j'ai quitté le bitume pour les sentiers : VTT, trail, et l'Europe en van avec la famille. Le sport reste mon fil conducteur — la régularité et l'endurance, je les retrouve devant l'écran.
 
+Un temps fort : [ma Megavalanche 2013](/ma-megavalanche-2013-alpe-dhuez.html) à l'Alpe d'Huez — 2 500 m de dénivelé négatif depuis le Pic Blanc (3 300 m).
+
 <a href="/results.html" class="c-button c-button--dark-outline">Voir mon parcours sportif →</a>
 
 ## 🌾 Sans gluten

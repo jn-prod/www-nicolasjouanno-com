@@ -23,6 +23,7 @@ Aujourd’hui, j’explore l’outdoor en famille : van life à travers l’Euro
 - [Sport et solitude](/sport-solitude.html) — la solitude sur le vélo, le surf, la route
 - [Mon premier trail](/premier-trail.html) — du cyclisme pro au trail : premiers pas sur les chemins bretons
 - [Comment progresser sans compétition ?](/competition-versus-entrainement.html) — rester sportif et motivé après la carrière pro
+- [Ma Megavalanche 2013](/ma-megavalanche-2013-alpe-dhuez.html) — 110ᵉ de la Mega Challenger, 2 500 m de dénivelé négatif du Pic Blanc à Allemont
 
 **VTT — guides pratiques :**
 
