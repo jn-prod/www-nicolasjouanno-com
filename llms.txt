@@ -30,11 +30,11 @@ Il applique la vision de l'architecte frontend dans le design system et accompag
 ## Derniers articles
 
 
+- Premier 10 km : la méthode d'un champion, le contre-pied d'un coureur par plaisir (2026) — https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html
+
 - Sans gluten et sport d'endurance : ce que le vélo pro et la maladie cœliaque m'ont appris (2026) — https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html
 
 - Conférence: Les Web Components et l’accessibilité, co-speaker avec Simon @ Paris Web 2025 (2026) — https://www.nicolasjouanno.com/conference-les-web-components-et-accessibilite.html
-
-- RE : (Bad) BUZZ et désinformation autour du remboursement de la galette des rois sans gluten (2026) — https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html
 
 
 Tous les articles : https://www.nicolasjouanno.com/posts.html
