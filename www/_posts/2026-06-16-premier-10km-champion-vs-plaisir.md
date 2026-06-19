@@ -56,3 +56,5 @@ Un dernier truc que j'ai découvert tard, à cause de douleurs au dos : **augmen
 Au fond, il n'y a pas une seule bonne route. Tu veux un cadre et un objectif chiffré ? Prends la méthode du champion. Tu veux durer et y prendre goût ? Fais comme moi : sors, varie, écoute tes sensations — et garde-toi de partir trop vite. Le reste, c'est du plaisir.
 
 <em>Pour aller plus loin, écoute <a href="{% post_url 2019-01-24-podcast-gael-le-bellec %}">l'épisode complet avec Gaël Le Bellec</a>.</em>
+
+🚲 *Côté vélo, je réfléchis à un **plan d'entraînement VTT clé en main** à télécharger — même esprit que ce 10 km : progresser à son rythme, sans se prendre la tête. Si l'idée te parle, [dis-le moi sur l'article entraînement VTT](/entrainement-vtt.html) : ça m'aidera à décider de le créer.*
