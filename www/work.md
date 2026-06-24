@@ -45,16 +45,10 @@ En 2013, j'ai lancé [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh
 
 Le fil m'amène jusqu'au design system de MGDIS, depuis 2019, avec la même envie intacte : rendre le web plus simple, plus accessible et plus durable.
 
-## Écrits & conférences
+## Newsletter — dev, accessibilité & IA
 
-<ul class="u-list c-section__post-list">
-  {% for post in site.categories.Work %}
-  <li class="c-section__post-item">{% include /components/post.html %}</li>
-  {% endfor %}
-</ul>
-
-<aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
-  <p>J'écris sur le design system, l'accessibilité et les systèmes agentiques. Pour recevoir les prochains articles :</p>
+<aside class="c-card c-card--neutral c-card--large">
+  <p>J'écris sur le design system, l'accessibilité RGAA et les systèmes IA agentiques. Pour recevoir les prochains write-ups :</p>
   {% include /plugins/newsletter.html %}
 </aside>
 
@@ -123,7 +117,7 @@ Première expérience professionnelle web, menée en parallèle de ma carrière 
 
 **[{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }})** — Calendrier communautaire VTT en Bretagne, lancé en 2013. ([code source]({{ site.projects.vtt_bzh.github }}))
 
-**[nicolasjouanno.com](https://www.nicolasjouanno.com)** — Hub éditorial personnel, depuis 2008. ([code source](https://github.com/jn-prod/www-nicolasjouanno-com))
+**[nicolasjouanno.com](https://www.nicolasjouanno.com)** — Hub éditorial personnel, depuis 2008. ([code source](https://github.com/jn-prod/www-nicolasjouanno-com)) J'y défends un [web possédé, à vitesse humaine](/slow-web.html) (slow web).
 
 **Systèmes agentiques (side project)** — Un terrain d'expérimentation que je construis pour explorer l'orchestration d'agents, la mémoire, l'observabilité et la gouvernance par décisions.
 
@@ -139,11 +133,6 @@ Première expérience professionnelle web, menée en parallèle de ma carrière 
 
 - [Paris-Web 2025 — Accessibilité et Web Components](/conference-les-web-components-et-accessibilite.html) (orateur)
 - Paris-Web 2023 & 2024 (auditeur)
-
-## Articles
-
-- [Wordpress vs Medium vs Jekyll](/wordpress-medium-jekyll.html) — choisir sa plateforme en 2017 (toujours d'actualité)
-- [Retrouver le fil](/Retrouver-le-fil.html) — pourquoi j'ai recentré tout sur un seul hub personnel
 
 ## Formations
 

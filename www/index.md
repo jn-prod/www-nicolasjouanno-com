@@ -98,4 +98,5 @@ Parent d'un enfant cœliaque, je vis le sans-gluten comme une nécessité, à ch
   <h2>🌱 Esprit slow web</h2>
   <p>Ici, pas d'algorithme, pas de pub, pas de pistage. <strong>Vous choisissez comment et quand me suivre.</strong> Votre attention n'est pas un produit que je revends : c'est un temps que vous me donnez. Je le respecte.</p>
   <p>Pas de plateforme entre nous. Tout part d'ici, sur mon propre site, et y reste.</p>
+  <p><a href="/slow-web.html" class="c-button c-button--dark-outline">Le web possédé, à vitesse humaine →</a></p>
 </aside>
