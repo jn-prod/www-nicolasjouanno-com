@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="fr">
+  <!-- Head
+    ================================================== -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Titre et description -->
+    
+    <title>Slow web — un web possédé, à vitesse humaine | Nicolas Jouanno</title>
+     
+    <meta
+      name="description"
+      content="Pourquoi je publie sur mon propre site plutôt que sur une plateforme louée : owned, POSSE, slow web. Un web durable, sans algorithme ni course à la cadence."
+    />
+    
+    <meta name="generator" content="Jekyll v4.4.1" />
+
+    <!-- Icônes -->
+    <link rel="icon" href="/images/icons/icon.ico" sizes="any" />
+    <link rel="icon" href="/images/icons/avatar.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/images/icons/icon-180.webp" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- IndieWeb -->
+    <link rel="webmention" href="https://webmention.io/www.nicolasjouanno.com/webmention" />
+    <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+
+    <!-- linked party -->
+    <link rel="me" href="https://dribbble.com/nicolasjouanno" />
+    <link rel="me" href="https://www.instagram.com/bynicolasjd/" />
+    <link rel="me" href="https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=hub" />
+    <link rel="me" href="https://github.com/jn-prod" />
+    <link rel="me" href="https://medium.com/@nicolasjouanno" />
+    <link rel="me" href="https://fr.pinterest.com/nicolasjouanno/" />
+    <link rel="me" href="https://soundcloud.com/nicolasjouanno" />
+    <link rel="me" href="https://www.strava.com/athletes/njouanno" />
+    <link rel="me" href="https://bynicolasjd.substack.com/welcome" />
+    <link rel="me" href="https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=hub" />
+    <link rel="me" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
+    <link rel="me" href="https://www.youtube.com/@byNicolasJD" />
+    <link rel="me" href="mailto:contact@nicolasjouanno.com" />
+
+    <!-- RSS -->
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="/feed.xml"
+    />
+    <link
+      rel="alternate"
+      type="application/feed+json"
+      title="JSON Feed"
+      href="/feed.json"
+    />
+
+    <!-- calendar -->
+    <link
+      rel="alternate"
+      type="text/calendar"
+      title="Agenda ICS"
+      href="/agenda.ics"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Agenda RSS"
+      href="/events.xml"
+    />
+    <link
+      rel="alternate"
+      type="application/feed+json"
+      title="Agenda JSON Feed"
+      href="/events.json"
+    />
+
+    <!-- Fonts (non-bloquant + font-display: swap) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      />
+    </noscript>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/main.css" />
+
+    <!-- SEO basique -->
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="canonical"
+      href="https://www.nicolasjouanno.com/slow-web.html"
+    />
+    <meta name="author" content="Nicolas JOUANNO DANIEL" />
+
+    <!-- Webmaster verifications -->
+        
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Slow web — un web possédé, à vitesse humaine"
+    />
+    <meta
+      property="og:description"
+      content="Pourquoi je publie sur mon propre site plutôt que sur une plateforme louée : owned, POSSE, slow web. Un web durable, sans algorithme ni course à la cadence."
+    />
+    <meta
+      property="og:type"
+      content="website"
+    />
+    <meta property="og:url" content="https://www.nicolasjouanno.com/slow-web.html" />
+    <meta property="og:site_name" content="Nicolas Jouanno" />
+    <meta property="og:locale" content="fr_FR" />
+    
+
+    <!-- Image Open Graph -->
+    
+    <meta property="og:image" content="https://www.nicolasjouanno.com/og/og-default.png" />
+    <meta property="og:image:alt" content="Nicolas Jouanno" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Slow web — un web possédé, à vitesse humaine"
+    />
+    <meta
+      name="twitter:description"
+      content="Pourquoi je publie sur mon propre site plutôt que sur une plateforme louée : owned, POSSE, slow web. Un web durable, sans algorithme ni course à la cadence."
+    />
+    
+    <meta name="twitter:site" content="@bynicolasjd" />
+    <meta name="twitter:creator" content="@bynicolasjd" />
+     
+    <meta
+      name="twitter:image"
+      content="https://www.nicolasjouanno.com/og/og-default.png"
+    />
+    <meta name="twitter:image:alt" content="Slow web — un web possédé, à vitesse humaine" />
+    
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        
+          "name": "Nicolas JOUANNO DANIEL",
+          "alternateName": "Nicolas Jouanno",
+          "url": "https://www.nicolasjouanno.com",
+          "email": "contact@nicolasjouanno.com",
+          "jobTitle": "Lead développeur frontend",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "MGDIS"
+          },
+          "knowsAbout": [
+            "Design system",
+            "Web Components",
+            "StencilJS",
+            "Accessibilité RGAA",
+            "Systèmes agentiques"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Pontivy, Bretagne, France",
+            "addressCountry": "France"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/nicolasjouanno/",
+            "https://github.com/jn-prod",
+            "https://x.com/byNicolasJD",
+            "https://fr.wikipedia.org/wiki/Nicolas_Jouanno",
+            "https://www.strava.com/athletes/njouanno",
+            "https://www.instagram.com/bynicolasjd/",
+            "https://www.youtube.com/@byNicolasJD"
+          ]
+        
+      }
+    </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.nicolasjouanno.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Slow web — un web possédé, à vitesse humaine",
+            "item": "https://www.nicolasjouanno.com/slow-web.html"
+          }
+        ]
+      }
+    </script>
+    
+  </head>
+
+  <!-- body -->
+  
+  <body
+    class="c-layout c-layout--layout-page"
+    itemscope
+    itemtype="http://schema.org/WebPage"
+  >
+    <a href="#main-content" class="skip-link">Aller au contenu</a>
+    <header role="banner" class="c-layout__header">
+      <nav role="navigation" class="c-navigation c-navigation--main">
+        <a href="https://www.nicolasjouanno.com" class="c-navigation__title u-link--dark">
+          Nicolas Jouanno
+        </a>
+
+        <ul class="u-list c-navigation__link-list">
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button "
+              href="https://www.nicolasjouanno.com/results.html"
+              >Outdoor</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button "
+              href="https://www.nicolasjouanno.com/life.html"
+              >Life</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              href="/#follow"
+              class="c-button c-button--primary"
+              >Suivre
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Content
+        ================================================== -->
+    <main role="main" id="main-content" class="c-layout__content">
+<nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
+  <ol>
+    <li>
+      <a
+        href="https://www.nicolasjouanno.com"
+        aria-current="false"
+      >
+        Accueil
+      </a>
+    </li>
+
+    
+    <li>
+      <a href="" aria-current="page">Slow web — un web possédé, à vitesse humaine</a>
+    </li>
+    
+  </ol>
+</nav>
+  <h1>Slow web — un web à vitesse humaine</h1>
+
+<p>Depuis 2008, je publie sur <strong>mon propre site</strong>, pas sur une plateforme louée. Pas par nostalgie : parce qu’un site qu’on possède est un <strong>coffre</strong> — il ne disparaît pas le jour où une plateforme ferme, change ses règles ou son algorithme. Ce qu’on y écrit nous appartient, et y reste.</p>
+
+<p>C’est ce que j’appelle le <strong>slow web</strong> : un web à <strong>vitesse humaine</strong>, durable, sans pub ni pistage, où l’on écrit quand on a quelque chose à dire — pas pour nourrir une cadence. Tout part d’ici, et y reste.</p>
+
+<h2 id="mes-réflexions-sur-le-web-possédé">Mes réflexions sur le web possédé</h2>
+
+<ul class="u-list c-section__post-list">
+  
+  <li class="c-section__post-item">
+
+<article id="Retrouver-le-fil" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <meta itemprop="datePublished" content="2025-09-17T00:00:00+00:00" />
+  <meta itemprop="author" content="Nicolas JOUANNO DANIEL" />
+  
+  <meta itemprop="headline" content="Retrouver le fil - pourquoi je recentre tout sur un seul site" />
+  <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/Retrouver-le-fil.html" />
+  <header class="u-flex u-flex--between">
+    <div class="u-flex u-flex--tight">
+      <img class="c-avatar c-avatar--small" src="/images/icons/avatar.svg" alt="Avatar de Nicolas JOUANNO DANIEL" />
+<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+  <a href="https://www.nicolasjouanno.com" class="u-link--dark">
+    <span itemprop="name">Nicolas JOUANNO DANIEL</span>
+  </a>
+  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
+    <meta itemprop="width" content="60" />
+    <meta itemprop="height" content="60" />
+  </span>
+  <meta itemprop="url" content="https://www.nicolasjouanno.com" />
+  <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
+  <link itemprop="sameAs" href="https://github.com/jn-prod" />
+  <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
+  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
+  <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
+  <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
+  <link itemprop="sameAs" href="https://www.youtube.com/@byNicolasJD" />
+  <div class="c-meta">
+    <span>@bynicolasjd</span>
+    ·
+    <time itemprop="dateCreated datePublished dateModified" datetime="2025-09-17T00:00:00+00:00">
+      17 September 2025
+    </time>
+  </div>
+</div>
+
+
+      <h3 class="u-full u-spacing--0" id="Retrouver-le-fil-title">
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/Retrouver-le-fil.html">Retrouver le fil - pourquoi je recentre tout sur un seul site</a>
+      </h3>
+      <meta itemprop="url" content="https://www.nicolasjouanno.com/Retrouver-le-fil.html" />
+    </div>
+  </header>
+
+     
+  <p>Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie. Chaque projet avait son site : un pour le vélo, un pour mes expérimentations web, un autre pour partager des vidéos… C’était la logique du moment : séparer, cloisonner, multiplier les adresses. Mais à force de fermer des projets, de changer de plateformes ou de quitter des réseaux sociaux, j’ai fini par perdre une grande partie...</p>
+  
+
+  <footer>
+    <ul class="u-list u-flex">
+      <li>
+        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/Retrouver-le-fil.html" aria-describedby="Retrouver-le-fil-title">
+          Lire
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" aria-describedby="Retrouver-le-fil-title" href="mailto:?subject=Retrouver+le+fil+-+pourquoi+je+recentre+tout+sur+un+seul+site&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2FRetrouver-le-fil.html%0A%0AQuand+j%E2%80%99ai+publi%C3%A9+mes+premiers+contenus+en+2008%2C+je+n%E2%80%99avais+pas+vraiment+de+strat%C3%A9gie.+Chaque+projet+avait+son+site+%3A+un+pour+le+v%C3%A9lo%2C+un+pour+mes+exp%C3%A9rimentations+web%2C+un+autre+pour+partager+des+vid%C3%A9os%E2%80%A6+C%E2%80%99%C3%A9tait+la+logique+du+moment+%3A+s%C3%A9parer%2C+cloisonner%2C+multiplier+les+adresses.+Mais+%C3%A0+force+de+fermer+des+projets%2C+de+changer+de+plateformes+ou+de+quitter+des+r%C3%A9seaux+sociaux%2C+j%E2%80%99ai+fini+par+perdre+une+grande+partie...">Partager
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" href="https://www.nicolasjouanno.com/Retrouver-le-fil.html#disqus_thread" aria-describedby="Retrouver-le-fil-title">
+          Commenter
+        </a>
+      </li>
+
+      
+      <li class="c-tag">#Slow web</li>
+      
+    </ul>
+  </footer>
+</article>
+</li>
+  
+  <li class="c-section__post-item">
+
+<article id="wordpress-medium-jekyll" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <meta itemprop="datePublished" content="2017-09-26T00:00:00+00:00" />
+  <meta itemprop="author" content="Nicolas JOUANNO DANIEL" />
+  
+  <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.webp" />
+  
+  <meta itemprop="headline" content="Wordpress vs Medium" />
+  <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/wordpress-medium-jekyll.html" />
+  <header class="u-flex u-flex--between">
+    <div class="u-flex u-flex--tight">
+      <img class="c-avatar c-avatar--small" src="/images/icons/avatar.svg" alt="Avatar de Nicolas JOUANNO DANIEL" />
+<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+  <a href="https://www.nicolasjouanno.com" class="u-link--dark">
+    <span itemprop="name">Nicolas JOUANNO DANIEL</span>
+  </a>
+  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
+    <meta itemprop="width" content="60" />
+    <meta itemprop="height" content="60" />
+  </span>
+  <meta itemprop="url" content="https://www.nicolasjouanno.com" />
+  <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
+  <link itemprop="sameAs" href="https://github.com/jn-prod" />
+  <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
+  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
+  <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
+  <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
+  <link itemprop="sameAs" href="https://www.youtube.com/@byNicolasJD" />
+  <div class="c-meta">
+    <span>@bynicolasjd</span>
+    ·
+    <time itemprop="dateCreated datePublished dateModified" datetime="2017-09-26T00:00:00+00:00">
+      26 September 2017
+    </time>
+  </div>
+</div>
+
+
+      <h3 class="u-full u-spacing--0" id="wordpress-medium-jekyll-title">
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/wordpress-medium-jekyll.html">Wordpress vs Medium</a>
+      </h3>
+      <meta itemprop="url" content="https://www.nicolasjouanno.com/wordpress-medium-jekyll.html" />
+    </div>
+  </header>
+
+  
+  <img class="u-img u-img--cover u-img--rounded u-img--banner" src="/images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.webp" alt="Illustration de l'article : Wordpress vs Medium" loading="lazy" />
+     
+  <p>J’ai commencé à bloguer à l’époque des skyblog, ensuite j’ai découvert Wordpress un outil puissant, puis Medium un outil simple. Maintenant je blog grâce à Jekyll. Voici ce que vous pourrez (ou pas) faire avec chacun d’eux. Wordpress, pour l’equipe marketing Wordpress est par nature un CMS puissant, véloce et flexible. La création d’un site WordPress pose la question de l’hébergement pour son prix (en moyenne 30€ TTC) et sa...</p>
+  
+
+  <footer>
+    <ul class="u-list u-flex">
+      <li>
+        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/wordpress-medium-jekyll.html" aria-describedby="wordpress-medium-jekyll-title">
+          Lire
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" aria-describedby="wordpress-medium-jekyll-title" href="mailto:?subject=Wordpress+vs+Medium&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fwordpress-medium-jekyll.html%0A%0AJ%E2%80%99ai+commenc%C3%A9+%C3%A0+bloguer+%C3%A0+l%E2%80%99%C3%A9poque+des+skyblog%2C+ensuite+j%E2%80%99ai+d%C3%A9couvert+Wordpress+un+outil+puissant%2C+puis+Medium+un+outil+simple.+Maintenant+je+blog+gr%C3%A2ce+%C3%A0+Jekyll.+Voici+ce+que+vous+pourrez+%28ou+pas%29+faire+avec+chacun+d%E2%80%99eux.+Wordpress%2C+pour+l%E2%80%99equipe+marketing+Wordpress+est+par+nature+un+CMS+puissant%2C+v%C3%A9loce+et+flexible.+La+cr%C3%A9ation+d%E2%80%99un+site+WordPress+pose+la+question+de+l%E2%80%99h%C3%A9bergement+pour+son+prix+%28en+moyenne+30%E2%82%AC+TTC%29+et+sa...">Partager
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" href="https://www.nicolasjouanno.com/wordpress-medium-jekyll.html#disqus_thread" aria-describedby="wordpress-medium-jekyll-title">
+          Commenter
+        </a>
+      </li>
+
+      
+      <li class="c-tag">#Slow web</li>
+      
+    </ul>
+  </footer>
+</article>
+</li>
+  
+</ul>
+
+<aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
+  <p>Si le web possédé, l'<em>owned</em> et le slow vous parlent, je l'écris au fil de l'eau :</p>
+  <script async="" data-uid="5a9cfb81fc" src="https://nicolas-jouanno-daniel.kit.com/5a9cfb81fc/index.js"></script>
+
+</aside>
+
+</main>
+
+    <!-- signature -->
+    
+
+    <footer
+      role="contentinfo"
+      class="c-layout__footer c-section c-section--compact"
+    >
+      <nav aria-label="Plan du site" class="u-text--center">
+        <ul class="u-flex u-flex--center u-list">
+          <li><a href="https://www.nicolasjouanno.com/results.html">Outdoor</a></li>
+          <li><a href="https://www.nicolasjouanno.com/nutrition.html">Nutrition</a></li>
+          <li><a href="https://www.nicolasjouanno.com/life.html">Life</a></li>
+          <li><a href="https://www.nicolasjouanno.com/work.html">Work</a></li>
+          <li><a href="https://www.nicolasjouanno.com/slow-web.html">Slow web</a></li>
+        </ul>
+      </nav>
+      <p>
+        © 2008 - 2026,
+        <a href="https://www.nicolasjouanno.com">Nicolas JOUANNO DANIEL</a>. Tous
+        droits réservés. <a href="mailto:contact@nicolasjouanno.com">contact@nicolasjouanno.com</a>.
+      </p>
+    </footer>
+
+    <!-- JavaScript
+        ================================================== -->
+    <script src="/assets/main.js" async></script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "a5774cce1e6b423a9581953ee8af8766"}'
+    ></script>
+    <!-- End Cloudflare Web Analytics -->
+
+    <!-- disqus (lazy-load via IntersectionObserver) -->
+    
+
+    <!-- webmentions -->
+    
+  </body>
+</html>
