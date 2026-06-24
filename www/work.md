@@ -62,6 +62,10 @@ Le parcours complet, étape par étape :
 
 ## Expérience professionnelle
 
+### 🎤 Orateur Paris-Web 2025 — Les Web Components & l'accessibilité (2025)
+
+Co-présenté avec Simon (MGDIS) à la 20ᵉ édition de Paris-Web, la conférence francophone de référence sur les standards du web et l'accessibilité : retour d'expérience sur un design system de Web Components interopérable et accessible by design. [Voir la conférence →](/conference-les-web-components-et-accessibilite.html)
+
 ### Lead développeur Frontend - MGDIS (2019 – aujourd'hui)
 
 Membre de la core team : j'applique la vision de l'architecte frontend dans le design system et j'accompagne les équipes dans son implémentation. Responsable de l'outillage pour l'industrialisation du développement d'applications web basées sur des micro-services.
@@ -138,8 +142,6 @@ Première expérience professionnelle web, menée en parallèle de ma carrière 
 
 ## Articles
 
-- [Les Web Components et l'accessibilité](/conference-les-web-components-et-accessibilite.html) — retour sur la conférence Paris-Web 2025
-- [M-1 avant Paris-Web](/paris-web-preview.html) — coulisses d'une préparation de conférence
 - [Wordpress vs Medium vs Jekyll](/wordpress-medium-jekyll.html) — choisir sa plateforme en 2017 (toujours d'actualité)
 - [Retrouver le fil](/Retrouver-le-fil.html) — pourquoi j'ai recentré tout sur un seul hub personnel
 
