@@ -21,16 +21,6 @@ Le numérique à vitesse humaine : un web qu'on **possède**, sobre, qui dure pl
 
 <a href="/slow-web.html" class="c-button c-button--dark-outline">Le slow web →</a>
 
-## 🧩 Inclassables
-
-Le reste, au fil de l'eau.
-
-<ul class="u-list c-section__post-list">
-  {% for post in site.categories.Perso %}
-  <li class="c-section__post-item">{% include /components/post.html %}</li>
-  {% endfor %}
-</ul>
-
 <aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
   <h2>Suivre</h2>
   <p>Van life, minimalisme, alimentation sans gluten — si ça vous parle, je le raconte au fil de l'eau dans ma newsletter.</p>

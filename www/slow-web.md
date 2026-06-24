@@ -11,7 +11,7 @@ Depuis 2008, je publie sur **mon propre site**, pas sur une plateforme louée. P
 
 C'est ce que j'appelle le **slow web** : un web à **vitesse humaine**, durable, sans pub ni pistage, où l'on écrit quand on a quelque chose à dire — pas pour nourrir une cadence. Tout part d'ici, et y reste.
 
-## Mes réflexions sur le web possédé
+## Web possédé & numérique à vitesse humaine
 
 <ul class="u-list c-section__post-list">
   {% for post in site.categories['Slow web'] %}

@@ -22,7 +22,7 @@ tags:
 images:
   - images/posts/maxresdefault.webp
 categories:
-  - Perso
+  - Slow web
 ---
 
 ## A la rencontre du growth hacking
