@@ -15,11 +15,11 @@ Parent d'un enfant cœliaque et ancien cycliste pro, je partage mes repères san
 
 <a href="/nutrition.html" class="c-button c-button--dark-outline">Le hub nutrition →</a>
 
-## 💻 Digital
+## 💻 Slow web
 
-Le numérique à vitesse humaine : slow web, minimalisme, et l'envie d'un web qui dure plutôt qu'un web qui scale. Je bricole mes propres outils, et le soir j'explore en side project les systèmes agentiques — par curiosité, pour comprendre comment ça tient.
+Le numérique à vitesse humaine : un web qu'on **possède**, sobre, qui dure plutôt qu'un web qui scale — slow web et minimalisme. Je bricole mes propres outils, et le soir j'explore en [side project](/work.html) les systèmes agentiques, par curiosité, pour comprendre comment ça tient.
 
-<a href="/work.html" class="c-button c-button--dark-outline">Mon parcours & mes projets →</a>
+<a href="/slow-web.html" class="c-button c-button--dark-outline">Le slow web →</a>
 
 ## 🧩 Inclassables
 
