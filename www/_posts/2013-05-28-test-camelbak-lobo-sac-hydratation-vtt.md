@@ -9,7 +9,6 @@ tags:
   - sac à dos vtt
 images:
   - images/posts/1ec09-0r4e75xjf9inhwb23.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---

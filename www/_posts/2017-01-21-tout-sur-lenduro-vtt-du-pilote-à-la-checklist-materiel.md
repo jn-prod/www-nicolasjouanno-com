@@ -10,7 +10,6 @@ tags:
   - matériel vtt enduro
 images:
   - images/posts/p5pb12718966.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---

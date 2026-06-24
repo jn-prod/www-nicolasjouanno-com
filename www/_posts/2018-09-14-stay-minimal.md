@@ -21,7 +21,6 @@ tags:
   - startup
 images:
   - images/posts/maxresdefault.webp
-support_context: "C'est ce qui me permet de continuer à développer, expérimenter et partager sur le web."
 categories:
   - Perso
 ---

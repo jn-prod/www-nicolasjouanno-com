@@ -12,7 +12,6 @@ tags:
   - Finistère
 images:
   - "images/posts/bf91f-04tn2madty8ffu2ug.webp"
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---

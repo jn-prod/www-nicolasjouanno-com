@@ -13,7 +13,6 @@ tags:
   - Entrainement
 images:
   - images/posts/1029035155.webp
-support_context: "C'est ce qui me permet de continuer à écrire sur le sport, l'outdoor et la vie simple."
 waitlist: true
 categories:
   - Sport

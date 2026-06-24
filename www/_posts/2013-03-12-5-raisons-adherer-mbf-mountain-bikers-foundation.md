@@ -9,7 +9,6 @@ tags:
   - vtt responsable
 images:
   - images/posts/b2ad1-0jz8kn8h4cwgy7ytz.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---

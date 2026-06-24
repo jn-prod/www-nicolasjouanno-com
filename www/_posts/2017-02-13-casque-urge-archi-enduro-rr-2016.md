@@ -9,7 +9,6 @@ tags:
   - matériel vtt
 images:
   - images/posts/a88c2-0b7px9w1n1pvqexaf.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---

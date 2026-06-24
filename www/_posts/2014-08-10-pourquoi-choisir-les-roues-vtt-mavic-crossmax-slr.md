@@ -10,7 +10,6 @@ tags:
   - choisir mavic crossmax
 images:
   - "images/posts/9c05d-05lwfpqvtdkfbts1o.webp"
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---

@@ -9,7 +9,6 @@ tags:
   - configuration vtt dh
 images:
   - images/posts/5022a-0k5y25fuce70omq-h.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---

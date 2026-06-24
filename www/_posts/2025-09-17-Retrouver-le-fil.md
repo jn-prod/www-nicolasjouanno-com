@@ -6,7 +6,6 @@ tags:
   - minimalisme
   - tech
   - creation
-support_context: "C'est ce qui me permet de continuer à développer, expérimenter et partager sur le web."
 categories:
   - Perso
 ---

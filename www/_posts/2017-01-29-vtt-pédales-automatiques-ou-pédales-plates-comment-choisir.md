@@ -10,7 +10,6 @@ tags:
   - choisir pédales vtt
 images:
   - images/posts/ccs-62657-0-58346000-1479391864.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---

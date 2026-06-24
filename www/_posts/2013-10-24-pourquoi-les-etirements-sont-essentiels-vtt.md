@@ -9,7 +9,6 @@ tags:
   - étirements vélo
 images:
   - images/posts/fdb77-0homugubvczfir3sy.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---

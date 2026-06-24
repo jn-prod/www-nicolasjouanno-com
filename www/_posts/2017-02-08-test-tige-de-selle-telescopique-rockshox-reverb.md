@@ -9,7 +9,6 @@ tags:
   - tige de selle vtt
 images:
   - images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---

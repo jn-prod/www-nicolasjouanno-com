@@ -9,7 +9,6 @@ tags:
   - préparation rando vtt
 images:
   - images/posts/d8edb-0mw_03xhl0mtujzgh.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 waitlist: true
 categories:
   - Sport

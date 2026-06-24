@@ -8,7 +8,6 @@ tags:
   - Sentiments
 images:
   - images/posts/living-alone.webp
-support_context: "C'est ce qui me permet de continuer à écrire sur le sport, l'outdoor et la vie simple."
 categories:
   - Sport
 ---

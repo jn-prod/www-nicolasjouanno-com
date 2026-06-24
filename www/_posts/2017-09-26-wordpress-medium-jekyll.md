@@ -13,7 +13,6 @@ tags:
   - plateforme
 images:
   - images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.webp
-support_context: "C'est ce qui me permet de continuer à développer, expérimenter et partager sur le web."
 categories:
   - Work
 ---

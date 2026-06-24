@@ -8,7 +8,6 @@ tags:
   - paris-web
   - shadow-dom
   - design-system
-support_context: "C'est ce qui me permet de continuer à développer, expérimenter et partager sur le web."
 categories:
   - Work
 ---

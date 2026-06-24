@@ -11,7 +11,6 @@ tags:
 featured: true
 images:
   - images/posts/a3d50-0omp6q8ru_v_v0drm.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---

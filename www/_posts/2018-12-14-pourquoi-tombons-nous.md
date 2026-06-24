@@ -13,7 +13,6 @@ tags:
   - Chute
 images:
   - images/posts/route-de-montagne.webp
-support_context: "C'est ce qui me permet de continuer à écrire sur le sport, l'outdoor et la vie simple."
 categories:
   - Sport
 ---

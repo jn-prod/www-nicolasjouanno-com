@@ -12,7 +12,6 @@ permalink: "/entrainement-vtt.html"
 featured: true
 images:
   - images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 waitlist: true
 categories:
   - Sport

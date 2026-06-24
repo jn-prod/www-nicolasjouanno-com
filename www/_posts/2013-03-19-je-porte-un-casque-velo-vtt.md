@@ -9,7 +9,6 @@ tags:
   - prévention vélo
 images:
   - images/posts/8a8fb-0hctopcasbp8taxou.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---

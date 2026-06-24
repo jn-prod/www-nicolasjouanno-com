@@ -9,7 +9,6 @@ tags:
   - progresser vtt
 images:
   - images/posts/d379f-0z0tfhj6okz30ro44.webp
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 waitlist: true
 categories:
   - Sport

@@ -7,7 +7,6 @@ tags:
   - megavalanche alpe d'huez
   - mega challenger
   - enduro
-support_context: "C'est ce qui me permet de continuer à entretenir vtt.bzh et à publier des guides VTT gratuits."
 categories:
   - Sport
 ---
