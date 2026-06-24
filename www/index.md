@@ -25,7 +25,7 @@ signature: true
 
 <hgroup class="u-text--center">
   <h1><span class="u-visually-hidden">{{ site.title }} — </span>Sport, outdoor & alimentation sans gluten</h1>
-  <p>Salut, moi c'est Nicolas. Ex-cycliste pro passé aux sentiers, parent d'un enfant cœliaque. Je roule, je cours, je voyage en van en famille — et le sans-gluten rythme nos repas.</p>
+  <p>Salut, moi c'est Nicolas. Ex-cycliste pro passé aux sentiers, parent d'un enfant cœliaque. Je roule, je cours, je voyage en van en famille — et le sans-gluten rythme nos repas. Côté pro : <a href="/work.html">lead développeur frontend</a>, design system &amp; accessibilité.</p>
 </hgroup>
 
 <aside id="follow" class="c-card c-card--neutral c-card--large">
@@ -63,6 +63,8 @@ Tous les envois sont publics → [voir les archives](https://mails.nicolasjouann
 <h2 id="about">👋 Qui suis-je ?</h2>
 
 Ancien [cycliste professionnel]({{ site.url }}/results.html), j'ai troqué le bitume pour les sentiers — VTT, trail, van en famille à travers l'Europe. Parent d'un enfant cœliaque, le sans-gluten rythme nos repas. Et je [publie]({{ site.url }}/posts.html) sur ce coin de web depuis une vingtaine d'années, à vitesse humaine.
+
+Au quotidien, je suis [lead développeur frontend](/work.html) — design system, accessibilité RGAA — et j'explore les systèmes IA agentiques en side project.
 
 - 📍 Basé à Pontivy, en Bretagne
 - 🌱 Je préfère retirer que rajouter
