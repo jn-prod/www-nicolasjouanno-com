@@ -42,3 +42,10 @@ J'ai mené cette aventure avec soin et passion. Ce « grand oral » m'a sorti de
 - les prestataires qui rendent la conférence possible et accessible au plus grand nombre ;
 - Simon, pour la confiance accordée pour co-présenter ce sujet ;
 - ma famille, pour son soutien dans cette aventure.
+
+## Newsletter — dev, accessibilité & IA
+
+<aside class="c-card c-card--neutral c-card--large">
+  <p>J'écris sur le design system, l'accessibilité RGAA et les systèmes IA agentiques. Pour recevoir les prochains write-ups :</p>
+  {% include /plugins/newsletter-pro.html %}
+</aside>

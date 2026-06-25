@@ -38,14 +38,6 @@ Aujourd’hui, j’explore l’outdoor en famille : van life à travers l’Euro
   {% include /plugins/newsletter.html %}
 </aside>
 
-## Tous les articles sport & outdoor
-
-<ul class="u-list c-section__post-list">
-  {% for post in site.categories.Sport %}
-  <li class="c-section__post-item">{% include /components/post.html %}</li>
-  {% endfor %}
-</ul>
-
 ## Palmarès cycliste
 
 Historique complet des saisons compétitives, 2004–2010.
@@ -205,3 +197,11 @@ Pas de résultat dans le top 20 : une blessure a écourté la saison.
 #### 16ème
 
 - Le pertre (E)
+
+## Tous les articles sport & outdoor
+
+<ul class="u-list c-section__post-list">
+  {% for post in site.categories.Sport %}
+  <li class="c-section__post-item">{% include /components/post.html %}</li>
+  {% endfor %}
+</ul>

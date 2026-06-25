@@ -31,95 +31,78 @@ icons:
 
 <h1>Lead développeur frontend — design system &amp; accessibilité RGAA</h1>
 
-Aujourd'hui, je suis Lead développeur frontend dans la core team du design system de [MGDIS](https://github.com/MGDIS/core-ui). Mon quotidien : des **Web Components** (StencilJS), l'**accessibilité RGAA** comme exigence non négociable, et l'industrialisation du frontend à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. J'en ai parlé sur scène à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html).
+Aujourd'hui, je suis Lead développeur frontend dans la core team de [MGDIS](https://github.com/MGDIS/core-ui) : ma mission principale est le développement et le maintien du design system. Mon quotidien : des **Web Components** (StencilJS), l'**accessibilité RGAA** comme exigence non négociable, et l'industrialisation du frontend à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. J'en ai parlé sur scène à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html).
 
 L'IA fait partie de mes outils de développement au quotidien. Le soir, en side project, j'explore les systèmes agentiques — orchestration d'agents, mémoire, observabilité, gouvernance par décisions. Je les construis pour comprendre comment ils tiennent.
 
 ## Le fil
 
-Le vélo d'abord. [Cycliste professionnel]({{ site.author.wikipedia }}) sous les couleurs de Bretagne Schuller — cinq championnats de France, des courses 2.1 et 2.2. [Voir le palmarès →](/results.html)
+Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait basculer dans le numérique. J'y entre par l'entrepreneuriat, j'y apprends la communication digitale, et le code finit par s'imposer — appris sur le tas, tout de suite mis en production. De fil en aiguille, j'arrive au design system de MGDIS, avec la même envie qu'au premier jour : rendre le web plus simple, plus accessible et plus durable.
 
-Une blessure en 2010 m'a mis hors course. C'est pendant cet arrêt que je suis venu au numérique. Entrepreneur d'abord : boutique physique, e-commerce vélo, P&L, management. Puis la communication digitale. Puis le code — appris sur le tas, appliqué en production.
+## Parcours
 
-En 2013, j'ai lancé [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — un calendrier des randos VTT en Bretagne. Pas un projet éditorial : un outil de praticien, construit pour les pratiquants. Treize ans plus tard, 12 000 vététistes par mois, référence #1 sur Google pour l'intention calendrier VTT breton — et mon laboratoire d'expérimentation technique grandeur nature.
-
-Le fil m'amène jusqu'au design system de MGDIS, depuis 2019, avec la même envie intacte : rendre le web plus simple, plus accessible et plus durable.
-
-## Newsletter — dev, accessibilité & IA
-
-<aside class="c-card c-card--neutral c-card--large">
-  <p>J'écris sur le design system, l'accessibilité RGAA et les systèmes IA agentiques. Pour recevoir les prochains write-ups :</p>
-  {% include /plugins/newsletter.html %}
-</aside>
-
-Le parcours complet, étape par étape :
-
-## Expérience professionnelle
-
-### 🎤 Orateur Paris-Web 2025 — Les Web Components & l'accessibilité (2025)
-
-Co-présenté avec Simon (MGDIS) à la 20ᵉ édition de Paris-Web, la conférence francophone de référence sur les standards du web et l'accessibilité : retour d'expérience sur un design system de Web Components interopérable et accessible by design. [Voir la conférence →](/conference-les-web-components-et-accessibilite.html)
-
-### Lead développeur Frontend - MGDIS (2019 – aujourd'hui)
-
-Membre de la core team : j'applique la vision de l'architecte frontend dans le design system et j'accompagne les équipes dans son implémentation. Responsable de l'outillage pour l'industrialisation du développement d'applications web basées sur des micro-services.
-
-#### Missions principales
-
-- Conception, maintenance et déploiement de librairies, dont un design system de Web Components (StencilJS, SCSS) et son outillage. ([Github](https://github.com/MGDIS/core-ui))
-- Résolution des problématiques frontend en cohérence avec la vision de l'architecte.
-- Garant de l'accessibilité, homogénéité et qualité des livrables.
-- Accompagnement et sensibilisation des développeurs.
-- Validation technique des choix ergonomiques et graphiques.
-
-Stack : StencilJS, TypeScript, Vue, Jest, Playwright, CSS3/SCSS, NodeJS, GitLab, Docker…
-
-### Développeur Web - Design, Développement & Produit — REF SPORT PONTIVY (2016–2019)
-
-Rôle d'agence interne : ownership complet des projets digitaux, de la conception au déploiement.
-
-- Conception et développement d'applications web sur stack JavaScript (architecture MVC) : SaaS, e-commerce, outils métiers et intranet.
-- Analyse des besoins, prototypage et design des interfaces.
-- Mise en place d'un pipeline CI/CD : versioning GitHub, déploiement continu sur Heroku avec supervision de l'environnement de production, et environnement de test bêta.
-- Production de supports de communication digitaux et print.
-
-### Entrepreneur - cyclesportnature.fr (2013–2016)
-
-Reprise et développement d'un commerce indépendant : boutique physique et e-commerce national.
-
-- Pilotage complet : stratégie, finance, budget, management (2–3 pers.), relation client et opérations.
-- Développement et gestion de la présence digitale (Prestashop, WordPress) : e-commerce, SEO/SEA, réseaux sociaux, newsletters.
-
-### Responsable Communication & Digital - Twinner Sport (2011–2013)
-
-Exécution de la stratégie communication et digitale définie par la direction.
-
-- Opérations marketing : plan média, campagnes print & digital, événements, newsletters, réseaux sociaux.
-- Management et coordination : équipe interne, prestataires et agence web.
-- Gestion de projet digital : ownership du site WordPress (développement, design, contenus) et pilotage de l'agence web sur le site e-commerce.
-- Suivi des performances : SEO, analytics, reporting.
-
-### Webmaster - Twinner Sport (2009–2011)
-
-Première expérience professionnelle web, menée en parallèle de ma carrière sportive : création et ownership complet du site WordPress de l'entreprise.
-
-- Mise en production, administration et maintenance technique (CMS, plugins, mises à jour).
-- Définition et intégration du design (CSS/HTML, visuels, habillages graphiques).
-- Stratégie et application de la ligne éditoriale : contenus, fiches produits, SEO de base.
-
-### Cycliste professionnel - Bretagne Schuller (2008–2010)
-
-[Découvrez mon palmarès sportif](/results.html)
-
-### Vendeur - Twinner Sport (2007–2008)
-
-## Projets
-
-**[{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }})** — Calendrier communautaire VTT en Bretagne, lancé en 2013. ([code source]({{ site.projects.vtt_bzh.github }}))
-
-**[nicolasjouanno.com](https://www.nicolasjouanno.com)** — Hub éditorial personnel, depuis 2008. ([code source](https://github.com/jn-prod/www-nicolasjouanno-com)) J'y défends un [web possédé, à vitesse humaine](/slow-web.html) (slow web).
-
-**Systèmes agentiques (side project)** — Un terrain d'expérimentation que je construis pour explorer l'orchestration d'agents, la mémoire, l'observabilité et la gouvernance par décisions.
+<ol class="u-list">
+  <li class="u-spacing--block-end-medium">
+    <p>J'ai présenté à <a href="/conference-les-web-components-et-accessibilite.html">Paris-Web 2025</a>, avec Simon, notre retour d'expérience sur un design system accessible by design — après avoir suivi deux éditions comme simple auditeur. J'en retiens que parler en public est une compétence à part entière, et que rendre un sujet technique accessible oblige à le comprendre deux fois mieux.</p>
+    <p class="c-meta"><time datetime="2025">2025</time></p>
+  </li>
+  <li class="u-spacing--block-end-medium">
+    <p>Le soir, en side project, je construis des systèmes d'agents — orchestration, mémoire, observabilité, gouvernance par décisions — pour comprendre, de l'intérieur, comment ils tiennent.</p>
+    <p class="c-meta">depuis <time datetime="2025">2025</time></p>
+  </li>
+  <li class="u-spacing--block-end-medium">
+    <p>Je me forme en continu : audit de l'accessibilité numérique (Empreinte Digitale), Figma UI &amp; prototypage (M2i), Design System (Usabilis), TypeScript et VueJS (Zenika), accessibilité multimédia (Access42), conception de sites accessibles (Atalan).</p>
+    <p class="c-meta"><time datetime="2020">2020</time> – <time datetime="2024">2024</time></p>
+  </li>
+  <li class="u-spacing--block-end-medium">
+    <div class="c-card c-card--neutral c-card--medium">
+      <p>Je suis Lead développeur frontend dans la core team de <a href="https://github.com/MGDIS/core-ui">MGDIS</a>, où je développe et maintiens le design system : des Web Components (StencilJS, SCSS), l'accessibilité RGAA comme exigence non négociable, le tout industrialisé à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. Ce que j'y apprends : à l'échelle, la cohérence et l'accessibilité ne se décrètent pas, elles s'outillent.</p>
+      <p><a href="https://github.com/MGDIS/core-ui" class="c-button c-button--dark-outline">core-ui sur GitHub →</a></p>
+    </div>
+    <p class="c-meta">depuis <time datetime="2019">2019</time></p>
+  </li>
+  <li class="u-spacing--block-end-medium">
+    <p>J'étais développeur web chez REF SPORT (Pontivy), avec l'ownership complet des projets : des applications web JS/MVC — SaaS, e-commerce, outils métiers, intranet — du besoin et du prototypage jusqu'au design d'interface. J'y ai monté le pipeline CI/CD (GitHub → Heroku, prod et bêta) et produit les supports de communication, digital comme print. C'est là que j'ai appris à tenir une production, et non seulement à livrer un site.</p>
+    <p class="c-meta"><time datetime="2016">2016</time> – <time datetime="2019">2019</time></p>
+  </li>
+  <li class="u-spacing--block-end-medium">
+    <div class="c-card c-card--neutral c-card--medium">
+      <p>J'ai lancé <a href="{{ site.projects.vtt_bzh.url }}">{{ site.projects.vtt_bzh.name }}</a> comme un outil de praticien et non comme un projet éditorial : un calendrier des randos VTT en Bretagne, pour ceux qui roulent. Aujourd'hui, 12 000 vététistes par mois et la référence #1 sur l'intention « calendrier VTT breton ». C'est surtout mon laboratoire technique grandeur nature — celui où je teste avant d'appliquer ailleurs.</p>
+      <p><a href="{{ site.projects.vtt_bzh.url }}" class="c-button c-button--dark-outline">Voir {{ site.projects.vtt_bzh.name }} →</a> · <a href="{{ site.projects.vtt_bzh.github }}">code source</a></p>
+    </div>
+    <p class="c-meta">depuis <time datetime="2013">2013</time></p>
+  </li>
+  <li class="u-spacing--block-end-medium">
+    <p>J'ai repris et développé cyclesportnature.fr, un commerce indépendant — boutique physique et e-commerce national. J'en pilotais tout : stratégie, finance, budget, management de deux à trois personnes, relation client, et la présence digitale (Prestashop et WordPress, SEO/SEA, réseaux, newsletters). J'y ai appris le numérique par nécessité, du côté de celui qui doit en vivre.</p>
+    <p class="c-meta"><time datetime="2013">2013</time> – <time datetime="2016">2016</time></p>
+  </li>
+  <li class="u-spacing--block-end-medium">
+    <p>J'étais responsable communication &amp; digital chez Twinner Sport, où je pilotais la stratégie : plan média, campagnes print et digital, événements, newsletters, réseaux. Je coordonnais l'équipe, les prestataires et l'agence, gérais le site WordPress et l'agence e-commerce, et suivais le SEO et les analytics. Le moment où je passe de « faire le site » à « piloter le digital ».</p>
+    <p class="c-meta"><time datetime="2011">2011</time> – <time datetime="2013">2013</time></p>
+  </li>
+  <li class="u-spacing--block-end-medium">
+    <p>J'ai débuté sur le web comme webmaster chez Twinner Sport, en parallèle de ma carrière cycliste : création et ownership complet du site WordPress — mise en production, administration et maintenance du CMS, design CSS/HTML, ligne éditoriale et SEO de base. Le code appris sur le tas, après l'entraînement.</p>
+    <p class="c-meta"><time datetime="2009">2009</time> – <time datetime="2011">2011</time></p>
+  </li>
+  <li class="u-spacing--block-end-medium">
+    <div class="c-card c-card--neutral c-card--medium">
+      <p>Je tiens nicolasjouanno.com, mon hub éditorial, depuis 2008. J'y défends un <a href="/slow-web.html">web possédé, à vitesse humaine</a> — le slow web, l'inverse exact du web qui scale. Mon espace à moi, que j'écris et que je fais évoluer à la main.</p>
+      <p><a href="https://github.com/jn-prod/www-nicolasjouanno-com" class="c-button c-button--dark-outline">code source →</a></p>
+    </div>
+    <p class="c-meta">depuis <time datetime="2008">2008</time></p>
+  </li>
+  <li class="u-spacing--block-end-medium">
+    <p>J'ai été <a href="{{ site.author.wikipedia }}">cycliste professionnel</a> chez Bretagne Schuller : cinq championnats de France, des courses 2.1 et 2.2. Une blessure, en 2010, m'a mis hors course — et m'a ouvert la porte du numérique. <a href="/results.html">Palmarès →</a></p>
+    <p class="c-meta"><time datetime="2008">2008</time> – <time datetime="2010">2010</time></p>
+  </li>
+  <li class="u-spacing--block-end-medium">
+    <p>J'ai commencé comme vendeur chez Twinner Sport, ma première expérience professionnelle, avant de basculer côté web.</p>
+    <p class="c-meta"><time datetime="2007">2007</time> – <time datetime="2008">2008</time></p>
+  </li>
+  <li>
+    <p>Côté diplômes : un BTS Management des Unités Commerciales (<time datetime="2008">2008</time>) et un Baccalauréat STT (<time datetime="2006">2006</time>).</p>
+  </li>
+</ol>
 
 ## Compétences
 
@@ -129,19 +112,9 @@ Première expérience professionnelle web, menée en parallèle de ma carrière 
 - Outils & DevOps : GitHub Actions, ViteJS, Jekyll, Cloudflare.
 - Systèmes agentiques (side project / veille) : orchestration d'agents, skills, MCP, observabilité.
 
-## Conférences
+## Newsletter — dev, accessibilité & IA
 
-- [Paris-Web 2025 — Accessibilité et Web Components](/conference-les-web-components-et-accessibilite.html) (orateur)
-- Paris-Web 2023 & 2024 (auditeur)
-
-## Formations
-
-- Auditer l'accessibilité numérique — Empreinte Digitale (2024).
-- Figma UI / prototypage — M2i Formation (2023).
-- Design System — Usabilis (2022).
-- TypeScript — Zenika (2022).
-- Accessibilité multimédia — Access42 (2021).
-- VueJS — Zenika (2020).
-- Conception sites accessibles — Atalan (2020).
-- BTS Management des Unités Commerciales (2008).
-- Baccalauréat STT (2006).
+<aside class="c-card c-card--neutral c-card--large">
+  <p>J'écris sur le design system, l'accessibilité RGAA et les systèmes IA agentiques. Pour recevoir les prochains write-ups :</p>
+  {% include /plugins/newsletter-pro.html %}
+</aside>
