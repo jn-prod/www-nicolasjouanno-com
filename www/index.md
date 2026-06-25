@@ -28,6 +28,8 @@ signature: true
   <p>Salut, moi c'est Nicolas. Je suis un sportif, créateur, père et développeur.</p>
 </hgroup>
 
+<p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/icons/avatar.svg" alt="Portrait de Nicolas Jouanno" /></p>
+
 <h2 id="about">👋 Qui suis-je ?</h2>
 
 Avant l'écran, il y a eu le vélo. J'ai [couru en professionnel]({{ site.url }}/results.html) chez Bretagne Schuller, de 2008 à 2010, et disputé cinq championnats de France, des catégories jeunes jusqu'à l'élite. Une blessure m'a mis hors course, et c'est par cette porte que je suis entré dans le numérique.
@@ -37,8 +39,6 @@ Depuis, j'ai quitté le bitume pour les sentiers, [en famille]({{ site.url }}/li
 Ce coin de web, je le tiens depuis une vingtaine d'années, [à vitesse humaine]({{ site.url }}/slow-web.html) — j'y [publie]({{ site.url }}/posts.html) quand j'ai quelque chose à dire, et je préfère toujours retirer que rajouter. Le jour, je suis [lead développeur frontend]({{ site.url }}/work.html) : design system, accessibilité RGAA ; le soir, j'explore les systèmes IA agentiques, pour comprendre comment ça tient.
 
 Le tout depuis Pontivy, en Bretagne.
-
-<p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/icons/avatar.svg" alt="Portrait de Nicolas Jouanno" /></p>
 
 <aside id="follow" class="c-card c-card--flat c-card--medium">
   <h2>📬 Un email quand je publie</h2>
