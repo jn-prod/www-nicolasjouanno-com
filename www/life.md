@@ -26,3 +26,18 @@ Le numérique à vitesse humaine : un web qu'on **possède**, sobre, qui dure pl
   <p>Van life, minimalisme, alimentation sans gluten — si ça vous parle, je le raconte au fil de l'eau dans ma newsletter.</p>
   {% include /plugins/newsletter.html %}
 </aside>
+
+<div class="u-text--center">
+  <ul class="u-flex u-flex--center u-list">
+    <li>
+      <a href="{{ site.author.instagram }}" class="c-button c-button--icon c-button--large" aria-label="Instagram — @bynicolasjd" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/instagram.svg %}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.author.youtube }}" class="c-button c-button--icon c-button--large" aria-label="YouTube — @byNicolasJD" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/youtube.svg %}</span>
+      </a>
+    </li>
+  </ul>
+</div>

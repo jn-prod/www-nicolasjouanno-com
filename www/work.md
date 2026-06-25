@@ -118,3 +118,23 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
   <p>J'écris sur le design system, l'accessibilité RGAA et les systèmes IA agentiques. Pour recevoir les prochains write-ups :</p>
   {% include /plugins/newsletter-pro.html %}
 </aside>
+
+<div class="u-text--center">
+  <ul class="u-flex u-flex--center u-list">
+    <li>
+      <a href="{{ site.author.twitter }}" class="c-button c-button--icon c-button--large" aria-label="X (Twitter) — @bynicolasjd" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/x.svg %}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.author.linkedin }}" class="c-button c-button--icon c-button--large" aria-label="LinkedIn — Nicolas Jouanno" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/linkedin.svg %}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.author.github }}" class="c-button c-button--icon c-button--large" aria-label="GitHub — jn-prod" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/github.svg %}</span>
+      </a>
+    </li>
+  </ul>
+</div>
