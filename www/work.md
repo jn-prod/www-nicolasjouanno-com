@@ -43,49 +43,49 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
 
 <ol class="u-list">
   <li class="u-spacing--block-end-medium">
-    <p><strong><time datetime="2025">2025</time></strong> — J'ai présenté à <a href="/conference-les-web-components-et-accessibilite.html">Paris-Web 2025</a>, avec Simon, notre retour d'expérience sur un design system accessible by design — après avoir suivi deux éditions comme simple auditeur. J'en retiens que parler en public est une compétence à part entière, et que rendre un sujet technique accessible oblige à le comprendre deux fois mieux.</p>
+    <p><time datetime="2025">2025</time> — J'ai présenté à <a href="/conference-les-web-components-et-accessibilite.html">Paris-Web 2025</a>, avec Simon, notre retour d'expérience sur un design system accessible by design — après avoir suivi deux éditions comme simple auditeur. J'en retiens que parler en public est une compétence à part entière, et que rendre un sujet technique accessible oblige à le comprendre deux fois mieux.</p>
   </li>
   <li class="u-spacing--block-end-medium">
-    <p><strong>Depuis <time datetime="2025">2025</time></strong> — Le soir, en side project, je construis des systèmes d'agents — orchestration, mémoire, observabilité, gouvernance par décisions — pour comprendre, de l'intérieur, comment ils tiennent.</p>
+    <p>Depuis <time datetime="2025">2025</time> — Le soir, en side project, je construis des systèmes d'agents — orchestration, mémoire, observabilité, gouvernance par décisions — pour comprendre, de l'intérieur, comment ils tiennent.</p>
   </li>
   <li class="u-spacing--block-end-medium">
-    <p><strong><time datetime="2020">2020</time>–<time datetime="2024">2024</time></strong> — Je me forme en continu : audit de l'accessibilité numérique (Empreinte Digitale), Figma UI &amp; prototypage (M2i), Design System (Usabilis), TypeScript et VueJS (Zenika), accessibilité multimédia (Access42), conception de sites accessibles (Atalan).</p>
+    <p><time datetime="2020">2020</time>–<time datetime="2024">2024</time> — Je me forme en continu : audit de l'accessibilité numérique (Empreinte Digitale), Figma UI &amp; prototypage (M2i), Design System (Usabilis), TypeScript et VueJS (Zenika), accessibilité multimédia (Access42), conception de sites accessibles (Atalan).</p>
   </li>
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
-      <p><strong>Depuis <time datetime="2019">2019</time></strong> — Je suis Lead développeur frontend dans la core team de <a href="https://github.com/MGDIS/core-ui">MGDIS</a>, où je développe et maintiens le design system : des Web Components (StencilJS, SCSS), l'accessibilité RGAA comme exigence non négociable, le tout industrialisé à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. Ce que j'y apprends : à l'échelle, la cohérence et l'accessibilité ne se décrètent pas, elles s'outillent.</p>
+      <p>Depuis <time datetime="2019">2019</time> — Je suis Lead développeur frontend dans la core team de <a href="https://github.com/MGDIS/core-ui">MGDIS</a>, où je développe et maintiens le design system : des Web Components (StencilJS, SCSS), l'accessibilité RGAA comme exigence non négociable, le tout industrialisé à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. Ce que j'y apprends : à l'échelle, la cohérence et l'accessibilité ne se décrètent pas, elles s'outillent.</p>
       <p><a href="https://github.com/MGDIS/core-ui" class="c-button c-button--dark-outline">core-ui sur GitHub →</a></p>
     </div>
   </li>
   <li class="u-spacing--block-end-medium">
-    <p><strong><time datetime="2016">2016</time>–<time datetime="2019">2019</time></strong> — J'étais développeur web chez REF SPORT (Pontivy), avec l'ownership complet des projets : des applications web JS/MVC — SaaS, e-commerce, outils métiers, intranet — du besoin et du prototypage jusqu'au design d'interface. J'y ai monté le pipeline CI/CD (GitHub → Heroku, prod et bêta) et produit les supports de communication, digital comme print. C'est là que j'ai appris à tenir une production, et non seulement à livrer un site.</p>
+    <p><time datetime="2016">2016</time>–<time datetime="2019">2019</time> — J'étais développeur web chez REF SPORT (Pontivy), avec l'ownership complet des projets : des applications web JS/MVC — SaaS, e-commerce, outils métiers, intranet — du besoin et du prototypage jusqu'au design d'interface. J'y ai monté le pipeline CI/CD (GitHub → Heroku, prod et bêta) et produit les supports de communication, digital comme print. C'est là que j'ai appris à tenir une production, et non seulement à livrer un site.</p>
   </li>
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
-      <p><strong>Depuis <time datetime="2013">2013</time></strong> — J'ai lancé <a href="{{ site.projects.vtt_bzh.url }}">{{ site.projects.vtt_bzh.name }}</a> comme un outil de praticien et non comme un projet éditorial : un calendrier des randos VTT en Bretagne, pour ceux qui roulent. Aujourd'hui, 12 000 vététistes par mois et la référence #1 sur l'intention « calendrier VTT breton ». C'est surtout mon laboratoire technique grandeur nature — celui où je teste avant d'appliquer ailleurs.</p>
+      <p>Depuis <time datetime="2013">2013</time> — J'ai lancé <a href="{{ site.projects.vtt_bzh.url }}">{{ site.projects.vtt_bzh.name }}</a> comme un outil de praticien et non comme un projet éditorial : un calendrier des randos VTT en Bretagne, pour ceux qui roulent. Aujourd'hui, 12 000 vététistes par mois et la référence #1 sur l'intention « calendrier VTT breton ». C'est surtout mon laboratoire technique grandeur nature — celui où je teste avant d'appliquer ailleurs.</p>
       <p><a href="{{ site.projects.vtt_bzh.url }}" class="c-button c-button--dark-outline">Voir {{ site.projects.vtt_bzh.name }} →</a> · <a href="{{ site.projects.vtt_bzh.github }}">code source</a></p>
     </div>
   </li>
   <li class="u-spacing--block-end-medium">
-    <p><strong><time datetime="2013">2013</time>–<time datetime="2016">2016</time></strong> — J'ai repris et développé cyclesportnature.fr, un commerce indépendant — boutique physique et e-commerce national. J'en pilotais tout : stratégie, finance, budget, management de deux à trois personnes, relation client, et la présence digitale (Prestashop et WordPress, SEO/SEA, réseaux, newsletters). J'y ai appris le numérique par nécessité, du côté de celui qui doit en vivre.</p>
+    <p><time datetime="2013">2013</time>–<time datetime="2016">2016</time> — J'ai repris et développé cyclesportnature.fr, un commerce indépendant — boutique physique et e-commerce national. J'en pilotais tout : stratégie, finance, budget, management de deux à trois personnes, relation client, et la présence digitale (Prestashop et WordPress, SEO/SEA, réseaux, newsletters). J'y ai appris le numérique par nécessité, du côté de celui qui doit en vivre.</p>
   </li>
   <li class="u-spacing--block-end-medium">
-    <p><strong><time datetime="2011">2011</time>–<time datetime="2013">2013</time></strong> — J'étais responsable communication &amp; digital chez Twinner Sport, où je pilotais la stratégie : plan média, campagnes print et digital, événements, newsletters, réseaux. Je coordonnais l'équipe, les prestataires et l'agence, gérais le site WordPress et l'agence e-commerce, et suivais le SEO et les analytics. Le moment où je passe de « faire le site » à « piloter le digital ».</p>
+    <p><time datetime="2011">2011</time>–<time datetime="2013">2013</time> — J'étais responsable communication &amp; digital chez Twinner Sport, où je pilotais la stratégie : plan média, campagnes print et digital, événements, newsletters, réseaux. Je coordonnais l'équipe, les prestataires et l'agence, gérais le site WordPress et l'agence e-commerce, et suivais le SEO et les analytics. Le moment où je passe de « faire le site » à « piloter le digital ».</p>
   </li>
   <li class="u-spacing--block-end-medium">
-    <p><strong><time datetime="2009">2009</time>–<time datetime="2011">2011</time></strong> — J'ai débuté sur le web comme webmaster chez Twinner Sport, en parallèle de ma carrière cycliste : création et ownership complet du site WordPress — mise en production, administration et maintenance du CMS, design CSS/HTML, ligne éditoriale et SEO de base. Le code appris sur le tas, après l'entraînement.</p>
+    <p><time datetime="2009">2009</time>–<time datetime="2011">2011</time> — J'ai débuté sur le web comme webmaster chez Twinner Sport, en parallèle de ma carrière cycliste : création et ownership complet du site WordPress — mise en production, administration et maintenance du CMS, design CSS/HTML, ligne éditoriale et SEO de base. Le code appris sur le tas, après l'entraînement.</p>
   </li>
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
-      <p><strong>Depuis <time datetime="2008">2008</time></strong> — Je tiens nicolasjouanno.com, mon hub éditorial, depuis 2008. J'y défends un <a href="/slow-web.html">web possédé, à vitesse humaine</a> — le slow web, l'inverse exact du web qui scale. Mon espace à moi, que j'écris et que je fais évoluer à la main.</p>
+      <p>Depuis <time datetime="2008">2008</time> — Je tiens nicolasjouanno.com, mon hub éditorial, depuis 2008. J'y défends un <a href="/slow-web.html">web possédé, à vitesse humaine</a> — le slow web, l'inverse exact du web qui scale. Mon espace à moi, que j'écris et que je fais évoluer à la main.</p>
       <p><a href="https://github.com/jn-prod/www-nicolasjouanno-com" class="c-button c-button--dark-outline">code source →</a></p>
     </div>
   </li>
   <li class="u-spacing--block-end-medium">
-    <p><strong><time datetime="2008">2008</time>–<time datetime="2010">2010</time></strong> — J'ai été <a href="{{ site.author.wikipedia }}">cycliste professionnel</a> chez Bretagne Schuller : cinq championnats de France, des courses 2.1 et 2.2. Une blessure, en 2010, m'a mis hors course — et m'a ouvert la porte du numérique. <a href="/results.html">Palmarès →</a></p>
+    <p><time datetime="2008">2008</time>–<time datetime="2010">2010</time> — J'ai été <a href="{{ site.author.wikipedia }}">cycliste professionnel</a> chez Bretagne Schuller : cinq championnats de France, des courses 2.1 et 2.2. Une blessure, en 2010, m'a mis hors course — et m'a ouvert la porte du numérique. <a href="/results.html">Palmarès →</a></p>
   </li>
   <li class="u-spacing--block-end-medium">
-    <p><strong><time datetime="2007">2007</time>–<time datetime="2008">2008</time></strong> — J'ai commencé comme vendeur chez Twinner Sport, ma première expérience professionnelle, avant de basculer côté web.</p>
+    <p><time datetime="2007">2007</time>–<time datetime="2008">2008</time> — J'ai commencé comme vendeur chez Twinner Sport, ma première expérience professionnelle, avant de basculer côté web.</p>
   </li>
   <li>
     <p>Côté diplômes : un BTS Management des Unités Commerciales (<time datetime="2008">2008</time>) et un Baccalauréat STT (<time datetime="2006">2006</time>).</p>
