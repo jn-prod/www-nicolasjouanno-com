@@ -6,11 +6,11 @@ lang: "fr"
 logo: "/images/icons/avatar.svg"
 og_image: "/og/og-default.png" # carte sociale raster 1200x630 (hors pipeline images → survit au build ; SVG/WebP non rendus par les réseaux sociaux)
 
-# Waiting list — test de demande (asset freemium). Form kit.com dédié : _includes/plugins/waitlist.html.
+# Waiting list — avant-première de mon agent IA d'entraînement (feezify). Form kit.com dédié : _includes/plugins/waitlist.html.
 # Un post l'active avec `waitlist: true` (copie ci-dessous) ; override possible via `waitlist: {title, text}`.
 waitlist:
-  title: "Un plan d'entraînement VTT à télécharger, ça t'intéresse ?"
-  text: "J'envisage d'en faire une version clé en main — prête à imprimer et à suivre, séance par séance. Laisse-moi ton email si tu la veux : ça m'aidera à décider de la créer, et tu l'auras en avant-première. Juste pour ça, sans spam."
+  title: "Mon agent IA d'entraînement — tu le veux en avant-première ?"
+  text: "Je reconstruis mon vieux carnet d'entraînement en copilote IA : tu l'installes sur ta propre IA, il croise ta charge et ton ressenti et te dit comment tu vas aujourd'hui — il t'éclaire, c'est toi qui décides. Laisse-moi ton email pour l'avoir en avant-première et suivre le build. Juste pour ça, sans spam."
 
 # Webmaster verifications (renseigner les codes au besoin)
 webmaster_verifications:
