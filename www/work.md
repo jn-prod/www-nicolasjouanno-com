@@ -20,7 +20,7 @@ redirect_from:
   - /apps.html
 layout: page
 title: Lead développeur frontend — design system & RGAA | N. Jouanno
-description: "Lead frontend du design system MGDIS : Web Components StencilJS, accessibilité RGAA, frontend à l'échelle. Orateur Paris-Web 2025, j'explore les systèmes IA agentiques."
+description: "Lead frontend du design system MGDIS : Web Components StencilJS, accessibilité RGAA, frontend à l'échelle. Orateur Paris-Web 2025. En side project, je construis feezify, un copilote d'entraînement IA-native."
 icons:
   - js
   - ts
@@ -33,7 +33,7 @@ icons:
 
 Aujourd'hui, je suis Lead développeur frontend dans la core team de [MGDIS](https://github.com/MGDIS/core-ui) : ma mission principale est le développement et le maintien du design system. Mon quotidien : des **Web Components** (StencilJS), l'**accessibilité RGAA** comme exigence non négociable, et l'industrialisation du frontend à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. J'en ai parlé sur scène à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html).
 
-L'IA fait partie de mes outils de développement au quotidien. Le soir, en side project, j'explore les systèmes agentiques — orchestration d'agents, mémoire, observabilité, gouvernance par décisions. Je les construis pour comprendre comment ils tiennent.
+L'IA fait partie de mes outils de développement au quotidien. Le soir, en side project, je construis [feezify](/feezify.html), un copilote d'entraînement IA-native — orchestration d'agents, mémoire, observabilité, gouvernance par décisions — pour comprendre les systèmes agentiques de l'intérieur.
 
 ## Le fil
 
@@ -46,7 +46,10 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
     <p><time datetime="2025">2025</time> — J'ai présenté à <a href="/conference-les-web-components-et-accessibilite.html">Paris-Web 2025</a>, avec Simon, notre retour d'expérience sur un design system accessible by design — après avoir suivi deux éditions comme simple auditeur. J'en retiens que parler en public est une compétence à part entière, et que rendre un sujet technique accessible oblige à le comprendre deux fois mieux.</p>
   </li>
   <li class="u-spacing--block-end-medium">
-    <p>Depuis <time datetime="2025">2025</time> — Le soir, en side project, je construis des systèmes d'agents — orchestration, mémoire, observabilité, gouvernance par décisions — pour comprendre, de l'intérieur, comment ils tiennent.</p>
+    <div class="c-card c-card--neutral c-card--medium">
+      <p><time datetime="2026">2026</time> — <strong>feezify, le revival.</strong> En <time datetime="2018">2018</time>, j'avais construit feezify : un carnet d'entraînement en SaaS hébergé (Node/Express/Mongo, sync Strava). Je l'ai laissé s'éteindre en 2019. En 2026, je l'ai ressuscité <strong>IA-native</strong> — un copilote d'entraînement comme skill + cœur markdown, qui tourne sur sa propre IA, zéro infra. C'est mon terrain pour comprendre les systèmes agentiques de l'intérieur : orchestration d'agents, mémoire, observabilité, gouvernance par décisions. <em>Beta bientôt.</em></p>
+      <p><a href="/feezify.html" class="c-button c-button--dark-outline">Découvrir feezify →</a> · <a href="https://github.com/jn-prod/feezify" rel="noopener">code source</a></p>
+    </div>
   </li>
   <li class="u-spacing--block-end-medium">
     <p><time datetime="2020">2020</time>–<time datetime="2024">2024</time> — Je me forme en continu : audit de l'accessibilité numérique (Empreinte Digitale), Figma UI &amp; prototypage (M2i), Design System (Usabilis), TypeScript et VueJS (Zenika), accessibilité multimédia (Access42), conception de sites accessibles (Atalan).</p>
@@ -98,7 +101,7 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
 - Architecture : micro-frontends, Jamstack, monorepo, PNPM.
 - Accessibilité & qualité : **RGAA** (audit & mise en conformité), a11y, Web Components accessibles, performance web, Green IT.
 - Outils & DevOps : GitHub Actions, ViteJS, Jekyll, Cloudflare.
-- Systèmes agentiques (side project / veille) : orchestration d'agents, skills, MCP, observabilité.
+- [feezify](/feezify.html), copilote d'entraînement IA-native (side project) : agents, skills, MCP, mémoire, observabilité.
 
 ## Newsletter — dev, accessibilité & IA
 

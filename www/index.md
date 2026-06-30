@@ -36,7 +36,7 @@ Avant l'écran, il y a eu le vélo. J'ai [couru en professionnel]({{ site.url }}
 
 Depuis, j'ai quitté le bitume pour les sentiers, [en famille]({{ site.url }}/life.html). Le sport est resté mon fil — cette endurance et ce soin du détail, je les retrouve aujourd'hui devant l'écran.
 
-Ce coin de web, je le tiens depuis une vingtaine d'années, [à vitesse humaine]({{ site.url }}/slow-web.html) — j'y [publie]({{ site.url }}/posts.html) quand j'ai quelque chose à dire, et je préfère toujours retirer que rajouter. Le jour, je suis [lead développeur frontend]({{ site.url }}/work.html) : design system, accessibilité RGAA ; le soir, j'explore les systèmes IA agentiques, pour comprendre comment ça tient.
+Ce coin de web, je le tiens depuis une vingtaine d'années, [à vitesse humaine]({{ site.url }}/slow-web.html) — j'y [publie]({{ site.url }}/posts.html) quand j'ai quelque chose à dire, et je préfère toujours retirer que rajouter. Le jour, je suis [lead développeur frontend]({{ site.url }}/work.html) : design system, accessibilité RGAA ; le soir, je construis [feezify]({{ site.url }}/feezify.html), un copilote d'entraînement IA-native, pour comprendre les systèmes agentiques de l'intérieur.
 
 Le tout depuis Pontivy, en Bretagne.
 
