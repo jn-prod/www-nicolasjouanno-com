@@ -17,7 +17,7 @@ Parent d'un enfant cœliaque et ancien cycliste pro, je partage mes repères san
 
 ## 💻 Slow web
 
-Le numérique à vitesse humaine : un web qu'on **possède**, sobre, qui dure plutôt qu'un web qui scale — slow web et minimalisme. Je bricole mes propres outils, et le soir j'explore en [side project](/work.html) les systèmes agentiques, par curiosité, pour comprendre comment ça tient.
+Le numérique à vitesse humaine : un web qu'on **possède**, sobre, qui dure plutôt qu'un web qui scale — slow web et minimalisme. Je bricole mes propres outils, et le soir, en [side project](/work.html), je construis [feezify](/feezify.html), un copilote d'entraînement IA-native — pour comprendre les systèmes agentiques de l'intérieur.
 
 <a href="/slow-web.html" class="c-button c-button--dark-outline">Le slow web →</a>
 
