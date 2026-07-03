@@ -441,6 +441,35 @@
   </div>
 </section>
 
+<!-- G2. INSTALLATION — 3 gestes, sans terminal -->
+<section class="c-section" id="installer">
+  <div class="u-container">
+    <h2 class="c-section__title">L'installation ? Trois gestes. Pas de terminal.</h2>
+    <p>Pas besoin de savoir coder. Si tu utilises Claude, tu sais déjà tout faire :</p>
+    <ul class="u-list u-flex u-flex--stretch">
+      <li>
+        <div class="c-card c-card--neutral c-card--large">
+          <h3>1 · Connecte Strava</h3>
+          <p>Dans Claude : Connectors → <strong>Strava</strong> → autoriser. C'est le connecteur officiel de Strava : lecture seule, révocable quand tu veux, aucune clé à manipuler. <span class="c-meta">(Abonnés Strava ; optionnel — feezify sait lire ta journée depuis ton seul journal.)</span></p>
+        </div>
+      </li>
+      <li>
+        <div class="c-card c-card--neutral c-card--large">
+          <h3>2 · Installe la skill</h3>
+          <p>Un fichier zip à télécharger (dispo à l'ouverture de la beta), puis dans Claude : Settings → Skills → <strong>Upload</strong>. Le moteur est embarqué dedans — rien d'autre à installer.</p>
+        </div>
+      </li>
+      <li>
+        <div class="c-card c-card--neutral c-card--large">
+          <h3>3 · Demande ta lecture</h3>
+          <p>« Comment je vais aujourd'hui ? » Au premier échange, feezify crée ton cœur — ton dossier à toi — et te configure en discutant : tes repères, ton sport, ta première entrée de journal.</p>
+        </div>
+      </li>
+    </ul>
+    <p class="c-meta u-spacing--block-start-medium">Tu préfères le terminal ? Le <a href="https://github.com/jn-prod/feezify" rel="noopener" target="_blank">parcours développeur</a> (clone, build, tes propres tokens) reste ouvert — même moteur, et une skill OpenClaw en prime.</p>
+  </div>
+</section>
+
 <!-- H. WAITLIST — conversion primaire -->
 <section class="c-section c-section--primary" id="waitlist">
   <div class="u-container">
@@ -484,6 +513,9 @@
 
     <h3>Quelle IA faut-il pour l'utiliser ?</h3>
     <p>Une IA capable de skills — Claude, ou un agent self-hosté comme OpenClaw. Tu installes feezify dessus, et tu lui demandes comment tu vas aujourd'hui.</p>
+
+    <h3>Faut-il savoir coder ?</h3>
+    <p>Non. Le parcours de base tient en <a href="#installer">trois gestes</a> : connecter le connecteur Strava officiel dans Claude, uploader la skill (un fichier zip), et demander ta lecture. Pas de terminal, pas de clé API. Le parcours développeur existe aussi, pour ceux qui veulent mettre les mains dedans.</p>
 
     <h3>En quoi c'est différent d'analyser Strava à la main ?</h3>
     <p>Strava te donne des chiffres. feezify les <strong>croise</strong> avec ton ressenti, applique une règle (le subjectif arbitre), et te rend une lecture expliquée — pas un tableau de plus à interpréter seul.</p>
@@ -543,6 +575,7 @@
         { "@type": "Question", "name": "Faut-il un abonnement ou un serveur ?", "acceptedAnswer": { "@type": "Answer", "text": "Non. Pas d'appli a heberger, pas de compte. feezify est une skill et un dossier markdown qui tournent sur ta propre IA. Zero infra." } },
         { "@type": "Question", "name": "Ou vont mes donnees ?", "acceptedAnswer": { "@type": "Answer", "text": "Chez toi. Ton coeur est un dossier de markdown sur ta machine. Pas de serveur feezify, pas de telemetrie. Un connecteur comme Strava reste desactive tant que tu ne l'actives pas." } },
         { "@type": "Question", "name": "Quelle IA faut-il pour l'utiliser ?", "acceptedAnswer": { "@type": "Answer", "text": "Une IA capable de skills : Claude, ou un agent self-hoste comme OpenClaw." } },
+        { "@type": "Question", "name": "Faut-il savoir coder ?", "acceptedAnswer": { "@type": "Answer", "text": "Non. Trois gestes : connecter le connecteur Strava officiel dans Claude, uploader la skill (un fichier zip), et demander sa lecture. Pas de terminal, pas de cle API." } },
         { "@type": "Question", "name": "En quoi c'est different d'analyser Strava a la main ?", "acceptedAnswer": { "@type": "Answer", "text": "feezify croise les chiffres avec ton ressenti, applique une regle (le subjectif arbitre), et rend une lecture expliquee." } }
       ]
     }
