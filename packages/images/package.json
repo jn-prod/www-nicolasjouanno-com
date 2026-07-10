@@ -8,7 +8,7 @@
     "build": "pnpm build:prepare && pnpm build:images && pnpm build:svg"
   },
   "dependencies": {
-    "sharp": "^0.34.5",
+    "sharp": "^0.35.0",
     "sharp-cli": "^5.2.0",
     "svgo": "^4.0.1"
   }
