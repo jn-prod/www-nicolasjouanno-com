@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA."
-description: "Le SaaSpocalypse vu d'un dev frontend : ce qui meurt quand l'IA arrive, ce qui survit, et le concept d'app IA-native — le LLM comme nouvelle interface (après le navigateur), l'agent comme nouveau moteur métier, une mémoire en guise de base. Le cas concret de feezify, reconstruit en agent + cœur markdown, zéro infra."
+description: "Le SaaSpocalypse vu d'un dev frontend : ce qui meurt, ce qui survit, et l'app IA-native — LLM interface, agent moteur, mémoire au lieu de base. Le cas concret de feezify, reconstruit en agent, zéro infra."
 tags:
   - ia
   - systèmes agentiques
@@ -9,7 +9,7 @@ tags:
   - création
 categories:
   - Tech & IA
-published: false
+published: true
 ---
 
 On commence à appeler ça le SaaSpocalypse.
@@ -18,7 +18,7 @@ L'idée est simple : pendant quinze ans, on a vendu du logiciel au siège et à 
 
 Mais le krach n'est qu'un symptôme. La bascule de fond, c'est [Satya Nadella](https://officechai.com/stories/saas-applications-will-collapse-in-the-ai-agent-era-microsoft-ceo-satya-nadella/) qui la formule le plus clairement : les applis métier vont « s'effondrer », parce qu'au fond ce ne sont que des bases CRUD entourées de logique — et **cette logique migre dans la couche agent**. (Il n'a pas dit « le SaaS est mort » ; il a dit que la logique change d'étage. La nuance compte.)
 
-Le récit complet de cette semaine où « l'IA a tué le logiciel » est bien raconté ici : [fintechbrainfood](https://www.fintechbrainfood.com/p/the-saaspocalypse). <!-- TODO avant publi : ajouter le lien du documentaire vidéo SaaSpocalypse validé par le fondateur -->
+Le récit complet de cette semaine où « l'IA a tué le logiciel » est bien raconté ici : [fintechbrainfood](https://www.fintechbrainfood.com/p/the-saaspocalypse), et décortiqué en vidéo dans [ce podcast](https://www.youtube.com/watch?v=fHEAJ3ggOqs).
 
 Je ne regarde pas ça en analyste. Je le regarde en dev frontend. Et je viens de le faire, à la main, sur un de mes vieux projets.
 
@@ -77,5 +77,3 @@ Parce que c'est, je crois, le mouvement de fond : on arrête de construire des a
 Si tu lis tes propres données d'entraînement, feezify arrive en beta : la page — avec la liste d'attente pour l'avant-première — est **[ici](/feezify.html)**.
 
 Et si tu construis des choses avec des agents, le dépôt est ouvert : **[github.com/jn-prod/feezify](https://github.com/jn-prod/feezify)**. La méthode est dedans, en clair.
-
-*(Brouillon — version de travail. Liens finalisés à la publication.)*
