@@ -21,7 +21,7 @@ Le 26 septembre 2025, lors de la 20ᵉ édition de [Paris-Web](https://www.paris
 
 ## Le contexte : un design system accessible by design
 
-Depuis 2022, avec Simon et l'équipe de designers produit de MGDIS, nous développons un [design system](https://github.com/MGDIS/core-ui) qui se veut **accessible by design**. Les produits de l'entreprise reposant sur des socles techniques différents (AngularJS, Vue 2, Vue 3), nous devions — et voulions — produire **un seul livrable interopérable**. D'où le choix d'une technologie native : les **Web Components**. Avantage supplémentaire, leur pérennité : qui dit natif dit standard, et les standards du W3C évoluent sans changer de paradigme, contrairement à des technologies comme React ou Vue. Nous avons ajouté par-dessus une couche [StencilJS](https://stenciljs.com/) pour faciliter le développement, gérer la réactivité, les polyfills et d'autres points.
+Depuis 2022, avec Simon et l'équipe de designers produit de MGDIS, nous développons un design system qui se veut **accessible by design**. Les produits de l'entreprise reposant sur des socles techniques différents (AngularJS, Vue 2, Vue 3), nous devions — et voulions — produire **un seul livrable interopérable**. D'où le choix d'une technologie native : les **Web Components**. Avantage supplémentaire, leur pérennité : qui dit natif dit standard, et les standards du W3C évoluent sans changer de paradigme, contrairement à des technologies comme React ou Vue. Nous avons ajouté par-dessus une couche [StencilJS](https://stenciljs.com/) pour faciliter le développement, gérer la réactivité, les polyfills et d'autres points.
 
 ## Le sujet : web components, shadow DOM et accessibilité
 

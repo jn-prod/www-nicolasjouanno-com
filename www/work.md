@@ -31,7 +31,7 @@ icons:
 
 <h1>Lead développeur frontend — design system &amp; accessibilité RGAA</h1>
 
-Aujourd'hui, je suis Lead développeur frontend dans la core team de [MGDIS](https://github.com/MGDIS/core-ui) : ma mission principale est le développement et le maintien du design system. Mon quotidien : des **Web Components** (StencilJS), l'**accessibilité RGAA** comme exigence non négociable, et l'industrialisation du frontend à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. J'en ai parlé sur scène à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html).
+Aujourd'hui, je suis Lead développeur frontend dans la core team de [MGDIS](https://github.com/MGDIS) : ma mission principale est le développement et le maintien du design system. Mon quotidien : des **Web Components** (StencilJS), l'**accessibilité RGAA** comme exigence non négociable, et l'industrialisation du frontend à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. J'en ai parlé sur scène à [Paris-Web 2025](/conference-les-web-components-et-accessibilite.html).
 
 L'IA fait partie de mes outils de développement au quotidien. Le soir, en side project, je construis [feezify](/feezify.html), un copilote d'entraînement IA-native — orchestration d'agents, mémoire, observabilité, gouvernance par décisions — pour comprendre les systèmes agentiques de l'intérieur.
 
@@ -56,8 +56,8 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
   </li>
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
-      <p>Depuis <time datetime="2019">2019</time> — Je suis Lead développeur frontend dans la core team de <a href="https://github.com/MGDIS/core-ui">MGDIS</a>, où je développe et maintiens le design system : des Web Components (StencilJS, SCSS), l'accessibilité RGAA comme exigence non négociable, le tout industrialisé à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. Ce que j'y apprends : à l'échelle, la cohérence et l'accessibilité ne se décrètent pas, elles s'outillent.</p>
-      <p><a href="https://github.com/MGDIS/core-ui" class="c-button c-button--dark-outline">core-ui sur GitHub →</a></p>
+      <p>Depuis <time datetime="2019">2019</time> — Je suis Lead développeur frontend dans la core team de <a href="https://github.com/MGDIS" rel="noopener">MGDIS</a>, où je développe et maintiens le design system : des Web Components (StencilJS, SCSS), l'accessibilité RGAA comme exigence non négociable, le tout industrialisé à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. Ce que j'y apprends : à l'échelle, la cohérence et l'accessibilité ne se décrètent pas, elles s'outillent.</p>
+      <p><a href="/conference-les-web-components-et-accessibilite.html" class="c-button c-button--dark-outline">Le design system en conférence →</a></p>
     </div>
   </li>
   <li class="u-spacing--block-end-medium">
