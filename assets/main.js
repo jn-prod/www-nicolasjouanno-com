@@ -46,3 +46,29 @@ const setup = async () => {
 document.addEventListener('DOMContentLoaded', setup);
 
 setup();
+
+const setupFilters = () => {
+  const container = document.querySelector('.c-filters');
+  const list = document.getElementById('all-posts');
+  if (!container || !list) return;
+  const items = Array.from(list.querySelectorAll('[data-category]'));
+  const buttons = Array.from(container.querySelectorAll('button[data-filter]'));
+
+  const apply = (filter) => {
+    items.forEach((li) => {
+      const cats = (li.dataset.category || '').split(' ');
+      li.hidden = !(filter === 'all' || cats.includes(filter));
+    });
+    buttons.forEach((b) =>
+      b.setAttribute('aria-pressed', String(b.dataset.filter === filter))
+    );
+    history.replaceState(null, '', filter === 'all' ? location.pathname : '#' + filter);
+  };
+
+  buttons.forEach((b) => b.addEventListener('click', () => apply(b.dataset.filter)));
+
+  const initial = (location.hash || '').replace('#', '');
+  apply(buttons.some((b) => b.dataset.filter === initial) ? initial : 'all');
+};
+
+document.addEventListener('DOMContentLoaded', setupFilters);

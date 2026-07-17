@@ -294,9 +294,14 @@
 </nav>
   <h1 id="posts">Posts</h1>
 
-<ul class="u-list c-section__post-list">
-  
-  <li class="c-section__post-item">
+<div class="c-filters" role="group" aria-label="Filtrer par domaine">
+  <button type="button" data-filter="all" aria-pressed="true">Tous</button>
+  <button type="button" data-filter="outdoor" aria-pressed="false">Outdoor</button>
+  <button type="button" data-filter="life" aria-pressed="false">Life</button>
+  <button type="button" data-filter="work" aria-pressed="false">Work</button>
+</div>
+
+<ul class="u-list c-section__post-list" id="all-posts"><li class="c-section__post-item" data-category="work">
 
 <article id="jai-tue-mon-saas-reconstruit-en-agent-ia" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2026-07-10T00:00:00+00:00" />
@@ -365,14 +370,12 @@
       </li>
 
       
-      <li class="c-tag">#Tech &amp; IA</li>
+      <li class="c-tag">#Work</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="premier-10km-champion-vs-plaisir" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2026-06-16T00:00:00+00:00" />
@@ -441,14 +444,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="life outdoor">
 
 <article id="sans-gluten-sport-endurance-velo-coeliaque" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2026-06-09T00:00:00+00:00" />
@@ -517,20 +518,14 @@
       </li>
 
       
-      <li class="c-tag">#Perso</li>
+      <li class="c-tag">#Life</li>
       
-      <li class="c-tag">#Sport</li>
-      
-      <li class="c-tag">#Sans gluten</li>
-      
-      <li class="c-tag">#Nutrition</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="life">
 
 <article id="buzz-galette-des-rois-sans-gluten" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2026-01-15T00:00:00+00:00" />
@@ -599,18 +594,12 @@
       </li>
 
       
-      <li class="c-tag">#Perso</li>
-      
-      <li class="c-tag">#Sans gluten</li>
-      
-      <li class="c-tag">#Nutrition</li>
+      <li class="c-tag">#Life</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="life">
 
 <article id="Retrouver-le-fil" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2025-09-17T00:00:00+00:00" />
@@ -679,14 +668,12 @@
       </li>
 
       
-      <li class="c-tag">#Slow web</li>
+      <li class="c-tag">#Life</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="podcast-gael-le-bellec" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2019-01-24T00:00:00+00:00" />
@@ -755,14 +742,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="pourquoi-tombons-nous" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2018-12-14T00:00:00+00:00" />
@@ -835,14 +820,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="premier-trail" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2018-12-07T00:00:00+00:00" />
@@ -915,14 +898,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="velo-boulot-dodo" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2018-11-30T00:00:00+00:00" />
@@ -995,14 +976,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="competition-versus-entrainement" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2018-11-23T00:00:00+00:00" />
@@ -1075,14 +1054,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="sport-solitude" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2018-10-12T00:00:00+00:00" />
@@ -1155,14 +1132,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="life">
 
 <article id="stay-minimal" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2018-09-14T00:00:00+00:00" />
@@ -1235,14 +1210,12 @@
       </li>
 
       
-      <li class="c-tag">#Slow web</li>
+      <li class="c-tag">#Life</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="life">
 
 <article id="les-bienfaits-de-linbox-0" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2018-05-16T00:00:00+00:00" />
@@ -1315,14 +1288,12 @@
       </li>
 
       
-      <li class="c-tag">#Slow web</li>
+      <li class="c-tag">#Life</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="life">
 
 <article id="wordpress-medium-jekyll" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2017-09-26T00:00:00+00:00" />
@@ -1395,14 +1366,12 @@
       </li>
 
       
-      <li class="c-tag">#Slow web</li>
+      <li class="c-tag">#Life</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2017-02-14T00:00:00+00:00" />
@@ -1475,14 +1444,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="comment-choisir-son-hometrainer-entrainement-vtt" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2017-02-13T00:00:00+00:00" />
@@ -1555,14 +1522,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="casque-urge-archi-enduro-rr-2016" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2017-02-13T00:00:00+00:00" />
@@ -1635,14 +1600,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="entraînement-5-points-pour-progresser-physiquement-en-vtt" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2017-02-12T00:00:00+00:00" />
@@ -1715,14 +1678,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="test-tige-de-selle-telescopique-rockshox-reverb" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2017-02-08T00:00:00+00:00" />
@@ -1795,14 +1756,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="choisir-son-pneu-vtt-hiver-boue" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2017-02-07T00:00:00+00:00" />
@@ -1875,14 +1834,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="comment-choisir-la-taille-de-son-vtt-et-sa-position" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2017-02-03T00:00:00+00:00" />
@@ -1955,14 +1912,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="vtt-pédales-automatiques-ou-pédales-plates-comment-choisir" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2017-01-29T00:00:00+00:00" />
@@ -2035,14 +1990,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="tout-sur-lenduro-vtt-du-pilote-à-la-checklist-materiel" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2017-01-21T00:00:00+00:00" />
@@ -2115,14 +2068,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2017-01-17T00:00:00+00:00" />
@@ -2195,14 +2146,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="ou-randonner-vtt-bretagne" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2016-03-30T00:00:00+00:00" />
@@ -2275,14 +2224,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="4-seances-home-trainer-progresser-vtt" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2015-01-19T00:00:00+00:00" />
@@ -2355,14 +2302,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="mercato-vtt-mouvements-scott-lapierre" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2014-10-29T00:00:00+00:00" />
@@ -2431,14 +2376,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="groupe-shimano-xtr-di2-2015" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2014-09-25T00:00:00+00:00" />
@@ -2511,14 +2454,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2014-08-10T00:00:00+00:00" />
@@ -2591,14 +2532,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="megavalanche-2014-conditions-modifications-parcours" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2014-07-11T00:00:00+00:00" />
@@ -2667,14 +2606,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor life">
 
 <article id="nutrition-vtt-produits-energetiques-high5" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2014-04-30T00:00:00+00:00" />
@@ -2743,16 +2680,14 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
-      <li class="c-tag">#Nutrition</li>
+      <li class="c-tag">#Life</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="plan-entrainement-vtt-rando-40km-2h" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2014-02-17T00:00:00+00:00" />
@@ -2825,14 +2760,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="sante-du-sportif-certificat-medical-interview" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-12-30T00:00:00+00:00" />
@@ -2901,14 +2834,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="megavalanche-reunion-2013-presentation" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-11-29T00:00:00+00:00" />
@@ -2977,14 +2908,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="drift-ghost-s-camera-embarquee-vtt" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-11-22T00:00:00+00:00" />
@@ -3057,14 +2986,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="pourquoi-les-etirements-sont-essentiels-vtt" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-10-24T00:00:00+00:00" />
@@ -3137,14 +3064,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="analyse-pilotage-materiel-coupe-monde-dh-leogang" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-10-09T00:00:00+00:00" />
@@ -3213,14 +3138,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="gopro-hero3-plus-camera-embarquee-vtt" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-10-01T00:00:00+00:00" />
@@ -3293,14 +3216,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="configuration-yeti-sb66c-jared-graves-mondial-dh" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-09-04T00:00:00+00:00" />
@@ -3373,14 +3294,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="analyse-suspensions-remi-thirion-bos-vallnord" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-07-29T00:00:00+00:00" />
@@ -3449,14 +3368,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="ma-megavalanche-2013-alpe-dhuez" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-07-20T00:00:00+00:00" />
@@ -3525,14 +3442,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="prevention-5-risques-du-cycliste-urbain" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-07-04T00:00:00+00:00" />
@@ -3601,14 +3516,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="test-camelbak-lobo-sac-hydratation-vtt" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-05-28T00:00:00+00:00" />
@@ -3681,14 +3594,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="vtt-29-pouces-pourquoi-rouler-grandes-roues" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-05-14T00:00:00+00:00" />
@@ -3761,14 +3672,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="prevention-pathologies-du-sportif" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-03-21T00:00:00+00:00" />
@@ -3837,14 +3746,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="je-porte-un-casque-velo-vtt" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-03-19T00:00:00+00:00" />
@@ -3917,14 +3824,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-  <li class="c-section__post-item">
+</li><li class="c-section__post-item" data-category="outdoor">
 
 <article id="5-raisons-adherer-mbf-mountain-bikers-foundation" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
   <meta itemprop="datePublished" content="2013-03-12T00:00:00+00:00" />
@@ -3997,14 +3902,12 @@
       </li>
 
       
-      <li class="c-tag">#Sport</li>
+      <li class="c-tag">#Outdoor</li>
       
     </ul>
   </footer>
 </article>
-</li>
-  
-</ul>
+</li></ul>
 
 </main>
 
@@ -4018,10 +3921,8 @@
       <nav aria-label="Plan du site" class="u-text--center">
         <ul class="u-flex u-flex--center u-list">
           <li><a href="https://www.nicolasjouanno.com/results.html">Outdoor</a></li>
-          <li><a href="https://www.nicolasjouanno.com/nutrition.html">Nutrition</a></li>
           <li><a href="https://www.nicolasjouanno.com/life.html">Life</a></li>
           <li><a href="https://www.nicolasjouanno.com/work.html">Work</a></li>
-          <li><a href="https://www.nicolasjouanno.com/slow-web.html">Slow web</a></li>
         </ul>
       </nav>
       <p>
