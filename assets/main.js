@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', setup);
 setup();
 
 const setupFilters = () => {
-  const container = document.querySelector('.c-filters');
+  const container = document.getElementById('post-filters');
   const list = document.getElementById('all-posts');
   if (!container || !list) return;
   const items = Array.from(list.querySelectorAll('[data-category]'));
@@ -59,9 +59,12 @@ const setupFilters = () => {
       const cats = (li.dataset.category || '').split(' ');
       li.hidden = !(filter === 'all' || cats.includes(filter));
     });
-    buttons.forEach((b) =>
-      b.setAttribute('aria-pressed', String(b.dataset.filter === filter))
-    );
+    buttons.forEach((b) => {
+      const on = b.dataset.filter === filter;
+      b.setAttribute('aria-pressed', String(on));
+      b.classList.toggle('c-button--dark', on);
+      b.classList.toggle('c-button--dark-outline', !on);
+    });
     history.replaceState(null, '', filter === 'all' ? location.pathname : '#' + filter);
   };
 
@@ -71,4 +74,9 @@ const setupFilters = () => {
   apply(buttons.some((b) => b.dataset.filter === initial) ? initial : 'all');
 };
 
-document.addEventListener('DOMContentLoaded', setupFilters);
+// main.js est chargé en `async` : DOMContentLoaded peut déjà être passé.
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', setupFilters);
+} else {
+  setupFilters();
+}
