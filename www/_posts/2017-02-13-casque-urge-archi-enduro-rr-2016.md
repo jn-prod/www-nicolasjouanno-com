@@ -10,7 +10,7 @@ tags:
 images:
   - images/posts/a88c2-0b7px9w1n1pvqexaf.webp
 categories:
-  - Sport
+  - Outdoor
 ---
 
 <iframe src="https://player.vimeo.com/video/159232425" width="640" height="360" title="Urge Archi-Enduro RR" frameborder="0" allowfullscreen></iframe>

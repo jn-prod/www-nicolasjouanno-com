@@ -8,7 +8,7 @@ tags:
   - frontend
   - création
 categories:
-  - Tech & IA
+  - Work
 published: true
 ---
 

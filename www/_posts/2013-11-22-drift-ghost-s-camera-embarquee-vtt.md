@@ -10,7 +10,7 @@ tags:
 images:
   - images/posts/47161-0rip67q2-z6z_m5fn.webp
 categories:
-  - Sport
+  - Outdoor
 ---
 
 ## Une caméra embarquée haut de gamme pour le sport

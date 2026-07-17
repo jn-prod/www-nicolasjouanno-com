@@ -11,7 +11,7 @@ tags:
 images:
   - images/posts/ccs-62657-0-58346000-1479391864.webp
 categories:
-  - Sport
+  - Outdoor
 ---
 
 ## Au programme :

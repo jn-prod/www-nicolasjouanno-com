@@ -10,7 +10,7 @@ tags:
 images:
   - images/posts/16f6b-0wdbncxwigl4kvfon.webp
 categories:
-  - Sport
+  - Outdoor
 ---
 
 Le VTT 29 pouces est un vélo à grandes roues — oui, mais encore ? Dégrossissons ce qu'est un VTT 29 pouces et quels sont ses avantages.

@@ -10,7 +10,7 @@ tags:
 images:
   - images/posts/e210f-0cl6rllkmratuqcb6.webp
 categories:
-  - Sport
+  - Outdoor
 ---
 
 ## Présentation du groupe Shimano XTR Di2 2015

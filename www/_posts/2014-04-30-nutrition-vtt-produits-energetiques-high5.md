@@ -8,8 +8,8 @@ tags:
   - alimentation effort
   - high5
 categories:
-  - Sport
-  - Nutrition
+  - Outdoor
+  - Life
 ---
 
 À l'approche des épreuves que vous avez cochées sur votre calendrier — Roc d'Azur, 24 h VTT… —, l'entraînement est essentiel pour aborder le jour J sereinement. Mais ce jour-là, il faudra aussi soigner votre apport énergétique. Voici un test de la gamme **High5**, une nutrition d'effort déjà validée par de grands champions comme **Cédric Gracia**.

@@ -10,7 +10,7 @@ tags:
 images:
   - images/posts/8a8fb-0hctopcasbp8taxou.webp
 categories:
-  - Sport
+  - Outdoor
 ---
 
 ## 4 raisons de porter un casque

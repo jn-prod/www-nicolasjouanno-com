@@ -11,7 +11,7 @@ images:
   - images/posts/d379f-0z0tfhj6okz30ro44.webp
 waitlist: true
 categories:
-  - Sport
+  - Outdoor
 ---
 
 ## Comment le home-trainer rend votre entraînement plus efficace

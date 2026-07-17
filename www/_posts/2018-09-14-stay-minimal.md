@@ -22,7 +22,7 @@ tags:
 images:
   - images/posts/maxresdefault.webp
 categories:
-  - Slow web
+  - Life
 ---
 
 ## A la rencontre du growth hacking

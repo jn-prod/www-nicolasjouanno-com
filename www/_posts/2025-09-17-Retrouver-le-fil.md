@@ -7,7 +7,7 @@ tags:
   - tech
   - creation
 categories:
-  - Slow web
+  - Life
 ---
 
 Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.

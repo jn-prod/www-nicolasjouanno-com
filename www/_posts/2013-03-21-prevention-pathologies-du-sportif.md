@@ -8,7 +8,7 @@ tags:
   - surentraînement
   - bienfaits du sport
 categories:
-  - Sport
+  - Outdoor
 ---
 
 ## Les pathologies du sportif, regroupées par thèmes

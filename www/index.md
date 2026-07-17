@@ -36,7 +36,7 @@ Avant l'écran, il y a eu le vélo. J'ai [couru en professionnel]({{ site.url }}
 
 Depuis, j'ai quitté le bitume pour les sentiers, [en famille]({{ site.url }}/life.html). Le sport est resté mon fil — cette endurance et ce soin du détail, je les retrouve aujourd'hui devant l'écran.
 
-Ce coin de web, je le tiens depuis une vingtaine d'années, [à vitesse humaine]({{ site.url }}/slow-web.html) — j'y [publie]({{ site.url }}/posts.html) quand j'ai quelque chose à dire, et je préfère toujours retirer que rajouter. Le jour, je suis [lead développeur frontend]({{ site.url }}/work.html) : design system, accessibilité RGAA ; le soir, je construis [feezify]({{ site.url }}/feezify.html), un copilote d'entraînement IA-native, pour comprendre les systèmes agentiques de l'intérieur.
+Ce coin de web, je le tiens depuis une vingtaine d'années, [à vitesse humaine]({{ site.url }}/life.html#slow-web) — j'y [publie]({{ site.url }}/posts.html) quand j'ai quelque chose à dire, et je préfère toujours retirer que rajouter. Le jour, je suis [lead développeur frontend]({{ site.url }}/work.html) : design system, accessibilité RGAA ; le soir, je construis [feezify]({{ site.url }}/feezify.html), un copilote d'entraînement IA-native, pour comprendre les systèmes agentiques de l'intérieur.
 
 Le tout depuis Pontivy, en Bretagne.
 
@@ -68,7 +68,7 @@ Côté communauté, j'anime [{{ site.projects.vtt_bzh.name }}]({{ site.projects.
 
 Parent d'un enfant cœliaque, je vis le sans-gluten comme une nécessité, à chaque repas. À force de lire des étiquettes et de déjouer des pièges, j'ai accumulé des repères concrets — et je construis des outils pour s'y retrouver. Du vécu de tous les jours, pas un avis médical.
 
-<a href="/nutrition.html" class="c-button c-button--dark-outline">Le sans-gluten au quotidien →</a>
+<a href="/life.html#nutrition" class="c-button c-button--dark-outline">Le sans-gluten au quotidien →</a>
 
 ## 🌱 Esprit slow web
 
@@ -76,4 +76,4 @@ Ici, pas d'algorithme, pas de pub, pas de pistage. **Vous choisissez comment et 
 
 Pas de plateforme entre nous. Tout part d'ici, sur mon propre site, et y reste.
 
-<a href="/slow-web.html" class="c-button c-button--dark-outline">Le web possédé, à vitesse humaine →</a>
+<a href="/life.html#slow-web" class="c-button c-button--dark-outline">Le web possédé, à vitesse humaine →</a>

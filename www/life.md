@@ -3,23 +3,37 @@ layout: page
 title: Van life, sans gluten & slow web — le perso de Nicolas Jouanno
 description: "En dehors du sport : alimentation sans gluten (parent d'un enfant cœliaque), van life en famille en Europe, et un rapport sobre au numérique — slow web et side projects."
 permalink: /life.html
+redirect_from:
+  - /nutrition.html
+  - /slow-web.html
+  - /sans-gluten.html
 ---
 
 # Life
 
 Ce qui me fait avancer en dehors du sport : **alimentation sans gluten**, **van life** en famille à travers l'Europe, et un **rapport sobre au numérique** — à vitesse humaine. _(Le sport et l'outdoor ont leur [propre coin](/results.html).)_
 
-## 🌾 Nutrition
+## 🌾 Nutrition & sans gluten {#nutrition}
 
-Parent d'un enfant cœliaque et ancien cycliste pro, je partage mes repères sans gluten du quotidien et mes tests de nutrition d'effort — et je construis des outils pour s'y retrouver.
+Parent d'un enfant **cœliaque** et ancien cycliste pro, je vis la nutrition des deux côtés : le sans-gluten du quotidien et le ravitaillement d'effort. Des repères concrets, du testé-en-vrai — pas un avis médical.
 
-<a href="/nutrition.html" class="c-button c-button--dark-outline">Le hub nutrition →</a>
+<aside class="c-card c-card--flat c-card--medium" role="note">
+  <p>ℹ️ <strong>Ceci n'est pas un avis médical.</strong> Le diagnostic de la maladie cœliaque relève d'un médecin (et il ne faut <strong>pas</strong> supprimer le gluten avant les tests, sous peine de les fausser). Références fiables : <a href="https://www.ameli.fr/assure/sante/themes/intolerance-gluten-maladie-coeliaque">ameli.fr</a> et l'<a href="https://www.afdiag.fr/">AFDIAG</a>.</p>
+</aside>
 
-## 💻 Slow web
+<aside class="c-card c-card--primary c-card--large c-callout">
+  <p class="c-callout__title">🌾 Gluten ou pas gluten ?</p>
+  <p class="c-callout__text">Un quiz pour s'entraîner à repérer le gluten, aliment par aliment. Une façon ludique d'aiguiser le réflexe étiquette, en famille ou par curiosité.</p>
+  <a href="/apps/gluten-not-gluten/" class="c-button c-button--light">Lancer le quiz →</a>
+</aside>
 
-Le numérique à vitesse humaine : un web qu'on **possède**, sobre, qui dure plutôt qu'un web qui scale — slow web et minimalisme. Je bricole mes propres outils, et le soir, en [side project](/work.html), je construis [feezify](/feezify.html), un copilote d'entraînement IA-native — pour comprendre les systèmes agentiques de l'intérieur.
+## 💻 Slow web {#slow-web}
 
-<a href="/slow-web.html" class="c-button c-button--dark-outline">Le slow web →</a>
+Depuis 2008, je publie sur **mon propre site**, pas sur une plateforme louée — parce qu'un site qu'on possède est un **coffre** : il ne disparaît pas le jour où une plateforme ferme ou change son algorithme. C'est le **slow web** : un web à vitesse humaine, durable, sans pub ni pistage. Je bricole mes propres outils, et le soir, en [side project](/work.html), je construis [feezify](/feezify.html), un copilote d'entraînement IA-native.
+
+## Tous les articles
+
+{% include components/hub-list.html category="Life" archive_url="/posts.html#life" %}
 
 <aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
   <h2>Suivre</h2>

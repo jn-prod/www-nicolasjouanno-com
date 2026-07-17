@@ -9,7 +9,7 @@ tags:
   - entraînement
   - débutant
 categories:
-  - Sport
+  - Outdoor
 ---
 
 <em>On me demande parfois comment « se mettre à la course » et boucler un premier 10 km. J'ai deux aveux et une bonne nouvelle. Aveu n°1 : je n'ai jamais couru de 10 km sur route de ma vie. Aveu n°2 : je m'entraîne à la sensation, pas au plan. La bonne nouvelle : j'ai reçu sur mon <a href="{% post_url 2019-01-24-podcast-gael-le-bellec %}">podcast Gaël Le Bellec</a>, triple champion du monde de duathlon, qui lui sait exactement comment on structure une prépa. Alors plutôt qu'un énième plan tout fait, voici un regard croisé : sa méthode de champion, et mon contre-pied de coureur par plaisir. Prends ce qui te parle.</em>

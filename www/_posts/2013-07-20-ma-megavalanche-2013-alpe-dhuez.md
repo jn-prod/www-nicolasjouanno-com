@@ -8,7 +8,8 @@ tags:
   - mega challenger
   - enduro
 categories:
-  - Sport
+  - Outdoor
+featured: true
 ---
 
 J'ai eu la chance, cette année, de prendre le départ de l'une des courses les plus mythiques du monde du VTT — qui resteront très probablement les meilleurs souvenirs de VTT de ma vie, à renouveler pour sûr ! J'étais engagé sur la **Mega Challenger**.

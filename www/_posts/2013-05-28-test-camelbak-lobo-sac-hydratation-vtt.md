@@ -10,7 +10,7 @@ tags:
 images:
   - images/posts/1ec09-0r4e75xjf9inhwb23.webp
 categories:
-  - Sport
+  - Outdoor
 ---
 
 <img src="{{ site.url }}/images/posts/1ec09-0r4e75xjf9inhwb23.webp" alt="Test du Camelbak Lobo" />

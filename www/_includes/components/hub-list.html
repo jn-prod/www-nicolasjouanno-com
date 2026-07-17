@@ -1,0 +1,26 @@
+{%- comment -%} params: category (requis), limit (défaut 5), archive_url (optionnel) {%- endcomment -%}
+{%- assign posts = site.categories[include.category] -%}
+{%- assign lim = include.limit | default: 5 -%}
+
+{%- assign highlights = posts | where: "featured", true -%}
+{%- if highlights.size > 0 -%}
+  <h2>À lire en premier</h2>
+  <ul class="u-list c-section__post-list">
+    {%- for post in highlights -%}
+      <li class="c-section__post-item">{%- include /components/post.html -%}</li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+
+{%- assign rest = posts | where_exp: "p", "p.featured != true" -%}
+{%- assign shown = rest | slice: 0, lim -%}
+<h2>Derniers articles</h2>
+<ul class="u-list c-section__post-list">
+  {%- for post in shown -%}
+    <li class="c-section__post-item">{%- include /components/post.html -%}</li>
+  {%- endfor -%}
+</ul>
+
+{%- if include.archive_url and rest.size > shown.size -%}
+  <p><a href="{{ include.archive_url }}">Voir tous les articles ({{ posts.size }}) →</a></p>
+{%- endif -%}

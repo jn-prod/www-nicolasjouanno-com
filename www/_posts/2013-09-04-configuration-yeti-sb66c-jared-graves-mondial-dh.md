@@ -10,7 +10,7 @@ tags:
 images:
   - images/posts/5022a-0k5y25fuce70omq-h.webp
 categories:
-  - Sport
+  - Outdoor
 ---
 
 <img src="{{ site.url }}/images/posts/5022a-0k5y25fuce70omq-h.webp" alt="Yeti SB66C de Jared Graves au championnat du monde de descente à Pietermaritzburg" />

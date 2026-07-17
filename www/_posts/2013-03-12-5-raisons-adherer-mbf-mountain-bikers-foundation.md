@@ -10,7 +10,7 @@ tags:
 images:
   - images/posts/b2ad1-0jz8kn8h4cwgy7ytz.webp
 categories:
-  - Sport
+  - Outdoor
 ---
 
 ## La Mountain Bikers Foundation, c'est quoi ?

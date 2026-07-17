@@ -11,7 +11,7 @@ images:
   - images/posts/d8edb-0mw_03xhl0mtujzgh.webp
 waitlist: true
 categories:
-  - Sport
+  - Outdoor
 ---
 
 ## Pré-requis

@@ -11,7 +11,7 @@ images:
   - "images/posts/dec76-0cscharjawldysi56.webp"
 waitlist: true
 categories:
-  - Sport
+  - Outdoor
 ---
 
 Au programme :

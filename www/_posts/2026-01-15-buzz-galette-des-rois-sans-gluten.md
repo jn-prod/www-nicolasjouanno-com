@@ -9,9 +9,7 @@ tags:
   - désinformation
   - maladie-coeliaque
 categories:
-  - Perso
-  - Sans gluten
-  - Nutrition
+  - Life
 ---
 
 Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :

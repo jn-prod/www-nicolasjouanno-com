@@ -10,7 +10,7 @@ tags:
 images:
   - images/posts/fdb77-0homugubvczfir3sy.webp
 categories:
-  - Sport
+  - Outdoor
 ---
 
 ## « Un peu de souplesse ! »

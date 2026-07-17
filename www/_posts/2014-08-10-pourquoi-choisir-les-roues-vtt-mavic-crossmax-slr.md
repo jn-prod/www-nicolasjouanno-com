@@ -11,7 +11,7 @@ tags:
 images:
   - "images/posts/9c05d-05lwfpqvtdkfbts1o.webp"
 categories:
-  - Sport
+  - Outdoor
 ---
 
 _Choisir votre nouvelle paire de **roues de vtt** peu être fastidieux tant les possibilités sont vastes. Les nouveaux standards de roues de VTT en **27,5 pouces** et **29 pouces** nous amène à la recherche du compromis entre la rigidité et la légerté. Pour ma part, j'ai choisi les **roues Mavic Crossmax** et je ne reveiendrais pour rien au monde sur ma décision. Je vous explique pourquoi._

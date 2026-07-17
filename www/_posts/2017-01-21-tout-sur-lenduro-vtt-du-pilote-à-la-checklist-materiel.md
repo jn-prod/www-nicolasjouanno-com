@@ -11,7 +11,8 @@ tags:
 images:
   - images/posts/p5pb12718966.webp
 categories:
-  - Sport
+  - Outdoor
+featured: true
 ---
 
 ## Au programme :

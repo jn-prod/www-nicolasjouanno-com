@@ -80,7 +80,7 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
   </li>
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
-      <p>Depuis <time datetime="2008">2008</time> — Je tiens nicolasjouanno.com, mon hub éditorial, depuis 2008. J'y défends un <a href="/slow-web.html">web possédé, à vitesse humaine</a> — le slow web, l'inverse exact du web qui scale. Mon espace à moi, que j'écris et que je fais évoluer à la main.</p>
+      <p>Depuis <time datetime="2008">2008</time> — Je tiens nicolasjouanno.com, mon hub éditorial, depuis 2008. J'y défends un <a href="/life.html#slow-web">web possédé, à vitesse humaine</a> — le slow web, l'inverse exact du web qui scale. Mon espace à moi, que j'écris et que je fais évoluer à la main.</p>
       <p><a href="https://github.com/jn-prod/www-nicolasjouanno-com" class="c-button c-button--dark-outline">code source →</a></p>
     </div>
   </li>
@@ -102,6 +102,10 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
 - Accessibilité & qualité : **RGAA** (audit & mise en conformité), a11y, Web Components accessibles, performance web, Green IT.
 - Outils & DevOps : GitHub Actions, ViteJS, Jekyll, Cloudflare.
 - [feezify](/feezify.html), copilote d'entraînement IA-native (side project) : agents, skills, MCP, mémoire, observabilité.
+
+## Articles tech & IA
+
+{% include components/hub-list.html category="Work" archive_url="/posts.html#work" %}
 
 ## Newsletter — dev, accessibilité & IA
 

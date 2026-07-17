@@ -13,23 +13,9 @@ La saison 2010 s’est terminée sans résultat — une blessure m’a mis hors 
 
 Aujourd’hui, j’explore l’outdoor en famille : van life à travers l’Europe, sentiers en Bretagne, bivouacs et cols. Le sport est resté le fil conducteur — à vitesse humaine.
 
-## Pour aller plus loin
+## Articles sport & outdoor
 
-**Sport & vie :**
-
-- [Pourquoi tombons-nous ?](/pourquoi-tombons-nous.html) — cyclo-cross à 15 ans, chutes et reconversions : un récit en quatre chapitres
-- [Sport et solitude](/sport-solitude.html) — la solitude sur le vélo, le surf, la route
-- [Mon premier trail](/premier-trail.html) — du cyclisme pro au trail : premiers pas sur les chemins bretons
-- [Comment progresser sans compétition ?](/competition-versus-entrainement.html) — rester sportif et motivé après la carrière pro
-- [Ma Megavalanche 2013](/ma-megavalanche-2013-alpe-dhuez.html) — 110ᵉ de la Mega Challenger, 2 500 m de dénivelé négatif du Pic Blanc à Allemont
-
-**VTT — guides pratiques :**
-
-- [Où randonner en VTT en Bretagne ?](/ou-randonner-vtt-bretagne.html)
-- [Entraînement VTT](/entrainement-vtt.html)
-- [Enduro VTT — checklist matériel](/enduro-vtt-pilote-checklist-materiel.html)
-
-**Côté assiette :** [Sans gluten et sport d'endurance](/sans-gluten-sport-endurance-velo-coeliaque.html) — quand mon vécu de cycliste pro croise celui de parent d'un enfant cœliaque.
+{% include components/hub-list.html category="Outdoor" archive_url="/posts.html#outdoor" %}
 
 **Le projet :** [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — calendrier des randos VTT en Bretagne, 12 000 vues/mois.
 
@@ -197,11 +183,3 @@ Pas de résultat dans le top 20 : une blessure a écourté la saison.
 #### 16ème
 
 - Le pertre (E)
-
-## Tous les articles sport & outdoor
-
-<ul class="u-list c-section__post-list">
-  {% for post in site.categories.Sport %}
-  <li class="c-section__post-item">{% include /components/post.html %}</li>
-  {% endfor %}
-</ul>

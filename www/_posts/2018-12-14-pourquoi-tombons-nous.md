@@ -14,7 +14,8 @@ tags:
 images:
   - images/posts/route-de-montagne.webp
 categories:
-  - Sport
+  - Outdoor
+featured: true
 ---
 
 ## Chapitre 1 : Une adolescence dans les sous-bois

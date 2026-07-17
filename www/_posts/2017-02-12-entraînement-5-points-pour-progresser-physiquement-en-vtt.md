@@ -14,7 +14,7 @@ images:
   - images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.webp
 waitlist: true
 categories:
-  - Sport
+  - Outdoor
 ---
 
 Le VTT est une discipline complète. Puissance, endurance, équilibre et explosivité sont des compétences à travailler à l'entrainement. En alternant avec des périodes de récupération, vous observerez une progression constante.

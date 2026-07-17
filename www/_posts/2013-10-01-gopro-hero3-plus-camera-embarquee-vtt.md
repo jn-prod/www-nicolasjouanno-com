@@ -10,7 +10,7 @@ tags:
 images:
   - images/posts/a074c-0l8pyjzfrgkyirwve.webp
 categories:
-  - Sport
+  - Outdoor
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3wbvpOIIBQA" title="GoPro HERO3+" frameborder="0" allowfullscreen></iframe>
