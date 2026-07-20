@@ -1,0 +1,24 @@
+{%- comment -%}
+  Nav footer par verticale (D-2026-07-20-001, second axe).
+  Ne rend que les verticales visible_footer: true — une verticale vide n'est
+  jamais exposée (règle : 2 articles minimum).
+{%- endcomment -%}
+<nav role="navigation" aria-label="Navigation par thème" class="c-navigation c-navigation--footer">
+  <ul class="u-list c-navigation__link-list">
+    {%- for v in site.data.taxonomie.verticales -%}
+      {%- if v.visible_footer -%}
+        <li class="c-navigation__link-list-element">
+          <a href="{{ v.permalink }}"{% if page.url == v.permalink %} aria-current="page"{% endif %}>{{ v.label }}</a>
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+    {%- comment -%}
+      Le Dossier (identité, histoire, travail, ex-pro) n'est pas une verticale :
+      c'est le « qui », pas le « quoi ». Il porte /work.html et /results.html,
+      qui ne figurent donc pas ici.
+    {%- endcomment -%}
+    <li class="c-navigation__link-list-element">
+      <a href="/life.html"{% if page.url == '/life.html' %} aria-current="page"{% endif %}>Dossier</a>
+    </li>
+  </ul>
+</nav>

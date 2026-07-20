@@ -1,5 +1,7 @@
 ---
 layout: post
+format: recit
+verticale: nutrition
 title: "Santé du sportif et certificat médical : le point avec le médecin"
 description: "Visite médicale annuelle, certificat de non contre-indication, suivi du sportif : entretien avec le Dr Benoît Tanguy sur l'intérêt du contrôle médical."
 tags:

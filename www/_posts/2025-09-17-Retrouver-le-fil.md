@@ -1,5 +1,7 @@
 ---
 layout: post
+format: recit
+verticale: projets
 title: Retrouver le fil - pourquoi je recentre tout sur un seul site
 description: Après des années à disperser mes projets sur différents sites et réseaux, j’ai choisi de tout recentrer sur une timeline unique. Un hub personnel pour ne plus perdre mes créations et raconter mon histoire dans un seul lieu.
 tags:

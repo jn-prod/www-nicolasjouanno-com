@@ -1,5 +1,7 @@
 ---
 layout: post
+format: guide
+verticale: nutrition
 title: "Nutrition VTT : test des produits énergétiques High5"
 description: "Boissons, gels, barres, packs de course et récupération : tour d'horizon de la gamme de nutrition d'effort High5 pour le VTT."
 tags:

@@ -6,6 +6,8 @@ redirect_from:
   - /souvenirs-paris-tour-2008.html
   - /cycliste-et-diplome.html
 layout: post
+format: recit
+verticale: vtt
 title: Pourquoi tombons-nous ?
 description: "Cyclo-cross à 15 ans, cyclisme professionnel, chutes et reconversions : un récit en quatre chapitres sur les épreuves qui forgent un sportif."
 tags:

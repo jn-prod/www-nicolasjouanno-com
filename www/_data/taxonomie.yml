@@ -1,0 +1,49 @@
+# Taxonomie éditoriale nj.com — D-2026-07-20-001.
+# Deux axes orthogonaux : le FORMAT navigue le header, la VERTICALE navigue le footer.
+formats:
+  - slug: recit
+    label: "Récit"
+    permalink: /recits.html
+    description: "Aventure, inspiration, interview — le vécu, à la première personne."
+  - slug: guide
+    label: "Guides"
+    permalink: /guides.html
+    description: "Comment faire : entraînement, réglages, matériel, nutrition."
+  - slug: actu
+    label: "Archive"
+    permalink: /archive.html
+    description: "Actualité datée, conservée pour mémoire. Hors navigation."
+    noindex: true
+
+verticales:
+  - slug: vtt
+    label: "VTT"
+    permalink: /vtt/
+    visible_footer: true
+  - slug: trail
+    label: "Trail"
+    permalink: /trail/
+    visible_footer: true
+  - slug: nutrition
+    label: "Nutrition"
+    permalink: /nutrition/
+    visible_footer: true
+  - slug: projets
+    label: "Projets"
+    permalink: /projets/
+    visible_footer: true
+  # Life n'est pas une verticale éditoriale : 1 seul article au relevé 2026-07-20,
+  # et « van life » / « slow web » n'étaient que du texte de page, pas des articles.
+  # /life.html devient la page Dossier (identité) — portée hors nav-verticales.
+  - slug: life
+    label: "Life"
+    permalink: /life.html
+    visible_footer: false
+  # Rando : verticale prévue par D-2026-07-20-001 mais 0 article au 2026-07-20.
+  # `planned: true` = déclarée mais pas encore créée (R-TAX2 ne l'exige pas).
+  # Règle : à 2 articles publiés, créer /rando/ puis passer planned:false + visible_footer:true.
+  - slug: rando
+    label: "Rando"
+    permalink: /rando/
+    visible_footer: false
+    planned: true

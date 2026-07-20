@@ -4,6 +4,8 @@ redirect_from:
   - /changer-habitudes-sportives-inter-saison.html
   - /apprendre-de-son-entrainement.html
 layout: post
+format: recit
+verticale: vtt
 title: Comment progresser sans compétition ?
 description: "Comment rester motivé et progresser sans compétition ? Sources de motivation, gestion des saisons et entraînement intelligent pour les sportifs autodidactes."
 tags:

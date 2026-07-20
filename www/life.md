@@ -1,43 +1,44 @@
 ---
 layout: page
-title: Van life, sans gluten & slow web — le perso de Nicolas Jouanno
-description: "En dehors du sport : alimentation sans gluten (parent d'un enfant cœliaque), van life en famille en Europe, et un rapport sobre au numérique — slow web et side projects."
+title: "Le dossier — qui je suis, d'où je viens, ce que je fais"
+description: "Identité, histoire, travail et passé de cycliste professionnel. Le « qui » derrière les articles : Pontivy, Bretagne — ex-pro Bretagne Schuller, lead développeur frontend, slow web depuis 2008."
 permalink: /life.html
 redirect_from:
-  - /nutrition.html
   - /slow-web.html
-  - /sans-gluten.html
 ---
 
-# Life
+# Le dossier
 
-Ce qui me fait avancer en dehors du sport : **alimentation sans gluten**, **van life** en famille à travers l'Europe, et un **rapport sobre au numérique** — à vitesse humaine. _(Le sport et l'outdoor ont leur [propre coin](/results.html).)_
+<!-- TODO copywriter (D-2026-06-11-001) — chapô de travail ci-dessous -->
+Le reste du site raconte *ce que je fais*. Cette page raconte *qui le fait*.
 
-## 🌾 Nutrition & sans gluten {#nutrition}
+## 📍 Identité {#identite}
 
-Parent d'un enfant **cœliaque** et ancien cycliste pro, je vis la nutrition des deux côtés : le sans-gluten du quotidien et le ravitaillement d'effort. Des repères concrets, du testé-en-vrai — pas un avis médical.
+Nicolas Jouanno, {{ site.author.location }}. Une famille, un van, des sentiers à moins d'une heure de la maison. Je vis là où je roule — c'est la même géographie qui nourrit le site et les sorties.
 
-<aside class="c-card c-card--flat c-card--medium" role="note">
-  <p>ℹ️ <strong>Ceci n'est pas un avis médical.</strong> Le diagnostic de la maladie cœliaque relève d'un médecin (et il ne faut <strong>pas</strong> supprimer le gluten avant les tests, sous peine de les fausser). Références fiables : <a href="https://www.ameli.fr/assure/sante/themes/intolerance-gluten-maladie-coeliaque">ameli.fr</a> et l'<a href="https://www.afdiag.fr/">AFDIAG</a>.</p>
-</aside>
+## 🧭 Histoire {#histoire}
 
-<aside class="c-card c-card--primary c-card--large c-callout">
-  <p class="c-callout__title">🌾 Gluten ou pas gluten ?</p>
-  <p class="c-callout__text">Un quiz pour s'entraîner à repérer le gluten, aliment par aliment. Une façon ludique d'aiguiser le réflexe étiquette, en famille ou par curiosité.</p>
-  <a href="/apps/gluten-not-gluten/" class="c-button c-button--light">Lancer le quiz →</a>
-</aside>
+Le vélo m'a pris tôt et m'a occupé entièrement, jusqu'à la blessure de 2010 qui a mis fin à la saison et à la suite. L'arrêt m'a rendu ce que la compétition avait pris : rouler pour rouler. C'est aussi par cette porte que je suis entré dans le numérique — et le sport est resté le fil, à vitesse humaine.
+
+## 💼 Travail {#travail}
+
+Le jour, **lead développeur frontend** : design systems, Web Components, accessibilité RGAA, qualité d'interface. Orateur à Paris-Web 2025. Le soir, en side project, je construis [feezify](/feezify.html), un copilote d'entraînement IA-native — pour comprendre les systèmes agentiques de l'intérieur.
+
+<p><a href="/work.html" class="c-button c-button--dark-outline">Le détail du parcours pro →</a></p>
+
+## 🚴 Ex-cycliste professionnel {#ex-pro}
+
+Cinq championnats de France, des courses 2.1 et 2.2, deux saisons professionnelles sous les couleurs de **Bretagne Schuller** (2008-2010). Une vie organisée autour du watt et du kilomètre — c'est ce qui donne aux [guides](/guides.html) ce qu'ils ont de concret.
+
+<p><a href="/results.html" class="c-button c-button--dark-outline">Le palmarès complet, 2004-2010 →</a></p>
 
 ## 💻 Slow web {#slow-web}
 
-Depuis 2008, je publie sur **mon propre site**, pas sur une plateforme louée — parce qu'un site qu'on possède est un **coffre** : il ne disparaît pas le jour où une plateforme ferme ou change son algorithme. C'est le **slow web** : un web à vitesse humaine, durable, sans pub ni pistage. Je bricole mes propres outils, et le soir, en [side project](/work.html), je construis [feezify](/feezify.html), un copilote d'entraînement IA-native.
-
-## Tous les articles
-
-{% include components/hub-list.html category="Life" archive_url="/posts.html#life" %}
+Depuis 2008, je publie sur **mon propre site**, pas sur une plateforme louée — parce qu'un site qu'on possède est un **coffre** : il ne disparaît pas le jour où une plateforme ferme ou change son algorithme. C'est le **slow web** : un web à vitesse humaine, durable, sans pub ni pistage. Pas d'algorithme entre nous, pas de pistage. Tout part d'ici et y reste.
 
 <aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
   <h2>Suivre</h2>
-  <p>Van life, minimalisme, alimentation sans gluten — si ça vous parle, je le raconte au fil de l'eau dans ma newsletter.</p>
+  <p>Sorties, guides, coulisses de projets — je le raconte au fil de l'eau dans ma newsletter. Un email quand je publie, pas plus.</p>
   {% include /plugins/newsletter.html %}
 </aside>
 

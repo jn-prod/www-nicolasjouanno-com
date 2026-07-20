@@ -27,6 +27,15 @@
   }
 }
 
+.c-navigation--footer {
+  justify-content: center;
+
+  .c-navigation__link-list {
+    justify-content: center;
+    gap: var(--size-4) var(--size-8);
+  }
+}
+
 @media screen and (width <= 90rem) {
   .c-navigation {
     justify-content: center;
@@ -52,6 +61,13 @@
         .c-button {
           font-size: 1.2rem;
         }
+      }
+    }
+
+    // Le footer garde une rangée qui passe à la ligne, pas une colonne.
+    &.c-navigation--footer {
+      .c-navigation__link-list {
+        flex-direction: row;
       }
     }
   }

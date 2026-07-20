@@ -1,5 +1,7 @@
 ---
 layout: post
+format: guide
+verticale: vtt
 title: "Pourquoi les étirements sont essentiels pour le VTT"
 description: "À quoi servent vraiment les étirements en VTT, leurs précautions d'usage et une séance type pour gagner en souplesse."
 tags:

@@ -1,5 +1,8 @@
 ---
 layout: post
+format: recit
+verticale: nutrition
+sous_silo: sans-gluten
 title: "RE : (Bad) BUZZ et désinformation autour du remboursement de la galette des rois sans gluten"
 description: "Remboursement de la galette des rois sans gluten : analyse du bad buzz et de la désinformation autour de la maladie cœliaque et du régime sans gluten."
 tags:
@@ -81,7 +84,7 @@ Il y a quelques semaine, j’ai créer un petit [quizz qui permet de tester ses 
 
 ## Pour aller plus loin
 
-- [Vivre sans gluten au quotidien](/nutrition.html) — mes repères concrets, par expérience
+- [Vivre sans gluten au quotidien](/nutrition/sans-gluten.html) — mes repères concrets, par expérience
 - [Gluten ou pas gluten ?](/apps/gluten-not-gluten/) — le quiz pour s'entraîner à repérer le gluten
 
 ## Sources

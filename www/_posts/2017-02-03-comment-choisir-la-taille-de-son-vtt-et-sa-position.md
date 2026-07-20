@@ -1,5 +1,7 @@
 ---
 layout: post
+format: guide
+verticale: vtt
 title: "Comment choisir la taille de son VTT et sa position ?"
 description: "La question que tout le monde se pose: quel est la taille idéale de mon VTT ? Quel est ma position idéal?"
 tags:

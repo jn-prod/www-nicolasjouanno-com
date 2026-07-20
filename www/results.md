@@ -15,9 +15,9 @@ Aujourd’hui, j’explore l’outdoor en famille : van life à travers l’Euro
 
 <p><a href="#palmares" class="c-button c-button--dark-outline">↓ Voir mon palmarès cycliste</a></p>
 
-## Articles sport & outdoor
+## Ce que j'écris aujourd'hui
 
-{% include components/hub-list.html category="Outdoor" archive_url="/posts.html#outdoor" %}
+Le palmarès ci-dessous, c'est l'avant. Ce que je fais maintenant se lit dans les [récits](/recits.html) et les [guides](/guides.html).
 
 **Le projet :** [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — calendrier des randos VTT en Bretagne, 12 000 vues/mois.
 

@@ -103,7 +103,7 @@
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
 
     <!-- SEO basique -->
-    <meta name="robots" content="{% if page.noindex %}noindex, follow{% else %}index, follow{% endif %}" />
+    <meta name="robots" content="{% if page.noindex or page.archive %}noindex, follow{% else %}index, follow{% endif %}" />
     <link
       rel="canonical"
       href="{{ page.url | replace:'index.html','' | absolute_url }}"
@@ -332,7 +332,7 @@
   >
     <a href="#main-content" class="skip-link">Aller au contenu</a>
     <header role="banner" class="c-layout__header">
-      <nav role="navigation" class="c-navigation c-navigation--main">
+      <nav role="navigation" aria-label="Navigation principale" class="c-navigation c-navigation--main">
         <a href="{{ site.url }}" class="c-navigation__title u-link--dark">
           {{ site.title }}
         </a>
@@ -340,25 +340,28 @@
         <ul class="u-list c-navigation__link-list">
           <li class="c-navigation__link-list-element">
             <a
-              class="c-button {% if page.url == '/results.html' %}c-button--active{% endif %}"
-              href="{{ site.url }}/results.html"
-              >Outdoor</a
+              class="c-button {% if page.url == '/recits.html' %}c-button--active{% endif %}"
+              {% if page.url == '/recits.html' %}aria-current="page"{% endif %}
+              href="{{ site.url }}/recits.html"
+              >Récit</a
             >
           </li>
 
           <li class="c-navigation__link-list-element">
             <a
-              class="c-button {% if page.url == '/life.html' %}c-button--active{% endif %}"
-              href="{{ site.url }}/life.html"
-              >Life</a
+              class="c-button {% if page.url == '/guides.html' %}c-button--active{% endif %}"
+              {% if page.url == '/guides.html' %}aria-current="page"{% endif %}
+              href="{{ site.url }}/guides.html"
+              >Guides</a
             >
           </li>
 
           <li class="c-navigation__link-list-element">
             <a
-              class="c-button {% if page.url == '/work.html' %}c-button--active{% endif %}"
-              href="{{ site.url }}/work.html"
-              >Work</a
+              class="c-button {% if page.url == '/outils.html' %}c-button--active{% endif %}"
+              {% if page.url == '/outils.html' %}aria-current="page"{% endif %}
+              href="{{ site.url }}/outils.html"
+              >Outils</a
             >
           </li>
 
@@ -406,6 +409,8 @@
       role="contentinfo"
       class="c-layout__footer c-section c-section--compact"
     >
+      {% include components/nav-verticales.html %}
+
       <p>
         © 2008 - {{ site.time | date: "%Y" }},
         <a href="{{ site.url }}">{{ site.author.name }}</a>. Tous

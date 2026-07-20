@@ -1,5 +1,7 @@
 ---
 layout: post
+format: guide
+verticale: vtt
 title: "Comment régler les suspensions de son VTT, de la fourche à l’amortisseur"
 description: "Voici le guide complet pour régler avec précision la fourche et de l'armotisseur de votre VTT."
 tags:

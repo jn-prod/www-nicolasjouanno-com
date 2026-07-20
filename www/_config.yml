@@ -60,7 +60,9 @@ projects:
   vtt_bzh:
     name: "vtt.bzh"
     url: "https://www.vtt.bzh/?utm_source=www-nicolasjouanno-com&utm_medium=hub"
-    ajouter_url: "https://www.vtt.bzh/ajouter.html?utm_source=www-nicolasjouanno-com&utm_medium=hub"
+    # Le permalink réel est /calendrier/ajouter.html (le fichier source s'appelle ajouter.html).
+    # /ajouter.html renvoie 404 — vérifié 2026-07-20.
+    ajouter_url: "https://www.vtt.bzh/calendrier/ajouter.html?utm_source=www-nicolasjouanno-com&utm_medium=hub"
     github: "https://github.com/jn-prod/www-vtt-bzh"
 
 # collections

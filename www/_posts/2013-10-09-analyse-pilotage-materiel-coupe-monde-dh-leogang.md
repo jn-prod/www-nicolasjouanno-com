@@ -1,5 +1,9 @@
 ---
 layout: post
+format: actu
+verticale: vtt
+archive: true
+sitemap: false
 title: "Analyse : pilotage et matériel des pilotes à la Coupe du Monde de DH de Léogang"
 description: "À Léogang, Marrocco Médias accompagne le team Norco Dirt avec un support d'analyse vidéo. Comment les pilotes traquent les secondes, ligne après ligne."
 tags:

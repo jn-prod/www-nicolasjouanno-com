@@ -1,5 +1,7 @@
 ---
 layout: post
+format: recit
+verticale: trail
 title: "Premier 10 km : la méthode d'un champion, le contre-pied d'un coureur par plaisir"
 description: "Comment préparer son premier 10 km ? Deux regards : la méthode structurée de Gaël Le Bellec, triple champion du monde de duathlon, et mon approche par sensation, en trailer venu du vélo."
 tags:

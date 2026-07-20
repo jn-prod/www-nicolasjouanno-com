@@ -22,7 +22,14 @@ layout: page
       itemprop="url mainEntityOfPage"
       content="{{ site.url}}{{page.url }}"
     />
-    <p>{% for category in page.categories %} #{{category}} {% endfor %}</p>
+    {%- if page.verticale -%}
+      {%- assign v = site.data.taxonomie.verticales | where: "slug", page.verticale | first -%}
+      {%- if v -%}
+        <p class="c-post__breadcrumb">
+          <a href="{{ v.permalink }}">← Tous les articles {{ v.label }}</a>
+        </p>
+      {%- endif -%}
+    {%- endif -%}
   </header>
 
   {% if page.images %}

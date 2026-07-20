@@ -1,5 +1,9 @@
 ---
 layout: post
+format: actu
+verticale: vtt
+archive: true
+sitemap: false
 title: "Megavalanche de la Réunion 2013 : la présentation"
 description: "À 24 h du départ à Saint-Paul, la 19ᵉ Megavalanche de la Réunion réunit l'élite mondiale de l'enduro pour clore la saison entre plages, volcans et montagnes."
 tags:

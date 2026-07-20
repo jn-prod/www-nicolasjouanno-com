@@ -1,5 +1,33 @@
-{%- comment -%} params: category (requis), limit (défaut 5), archive_url (optionnel) {%- endcomment -%}
-{%- assign posts = site.categories[include.category] -%}
+{%- comment -%}
+  params (au moins un filtre requis) :
+    category  — catégorie legacy (Outdoor/Life/Work)
+    format    — recit | guide | actu
+    verticale — vtt | trail | rando | nutrition | projets | life
+    sous_silo — sous-ensemble d'une verticale (ex. sans-gluten dans nutrition)
+    limit     — défaut 5 · archive_url — lien « voir tout » optionnel
+  Les filtres se combinent en ET. Les posts archive:true sont toujours exclus,
+  sauf si format="actu" est explicitement demandé.
+{%- endcomment -%}
+
+{%- if include.category -%}
+  {%- assign posts = site.categories[include.category] -%}
+{%- else -%}
+  {%- assign posts = site.posts -%}
+{%- endif -%}
+
+{%- if include.format -%}
+  {%- assign posts = posts | where: "format", include.format -%}
+{%- endif -%}
+{%- if include.verticale -%}
+  {%- assign posts = posts | where: "verticale", include.verticale -%}
+{%- endif -%}
+{%- if include.sous_silo -%}
+  {%- assign posts = posts | where: "sous_silo", include.sous_silo -%}
+{%- endif -%}
+{%- unless include.format == "actu" -%}
+  {%- assign posts = posts | where_exp: "p", "p.archive != true" -%}
+{%- endunless -%}
+
 {%- assign lim = include.limit | default: 5 -%}
 
 {%- assign highlights = posts | where: "featured", true -%}

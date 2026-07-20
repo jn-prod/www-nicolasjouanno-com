@@ -3,6 +3,8 @@ redirect_from:
   - /de-wordpress-a-medium-les-cinq-raisons-de-la-migration.html
   - /experience/tech/2017/09/26/wordpress-medium-jekyll.html
 layout: post
+format: recit
+verticale: projets
 title: Wordpress vs Medium
 description: "Wordpress, Medium ou Jekyll : quel outil de blogging choisir ? Comparatif des avantages, limites et cas d'usage de chaque plateforme pour créer et gérer votre blog."
 tags:
