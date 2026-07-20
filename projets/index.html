@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="fr">
+  <!-- Head
+    ================================================== -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Titre et description -->
+    
+    <title>Projets — ce que je construis et pourquoi | Nicolas Jouanno</title>
+     
+    <meta
+      name="description"
+      content="Les projets et leurs coulisses : vtt.bzh, feezify, le choix de l'auto-hébergement éditorial, et pourquoi j'ai tué mon SaaS pour le reconstruire en agent IA."
+    />
+    
+    <meta name="generator" content="Jekyll v4.4.1" />
+
+    <!-- Icônes -->
+    <link rel="icon" href="/images/icons/icon.ico" sizes="any" />
+    <link rel="icon" href="/images/icons/avatar.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/images/icons/icon-180.webp" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- IndieWeb -->
+    <link rel="webmention" href="https://webmention.io/www.nicolasjouanno.com/webmention" />
+    <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+
+    <!-- linked party -->
+    <link rel="me" href="https://dribbble.com/nicolasjouanno" />
+    <link rel="me" href="https://www.instagram.com/bynicolasjd/" />
+    <link rel="me" href="https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=hub" />
+    <link rel="me" href="https://github.com/jn-prod" />
+    <link rel="me" href="https://medium.com/@nicolasjouanno" />
+    <link rel="me" href="https://fr.pinterest.com/nicolasjouanno/" />
+    <link rel="me" href="https://soundcloud.com/nicolasjouanno" />
+    <link rel="me" href="https://www.strava.com/athletes/njouanno" />
+    <link rel="me" href="https://bynicolasjd.substack.com/welcome" />
+    <link rel="me" href="https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=hub" />
+    <link rel="me" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
+    <link rel="me" href="https://www.youtube.com/@byNicolasJD" />
+    <link rel="me" href="mailto:contact@nicolasjouanno.com" />
+
+    <!-- RSS -->
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="/feed.xml"
+    />
+    <link
+      rel="alternate"
+      type="application/feed+json"
+      title="JSON Feed"
+      href="/feed.json"
+    />
+
+    <!-- calendar -->
+    <link
+      rel="alternate"
+      type="text/calendar"
+      title="Agenda ICS"
+      href="/agenda.ics"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Agenda RSS"
+      href="/events.xml"
+    />
+    <link
+      rel="alternate"
+      type="application/feed+json"
+      title="Agenda JSON Feed"
+      href="/events.json"
+    />
+
+    <!-- Fonts (non-bloquant + font-display: swap) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      />
+    </noscript>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/main.css" />
+
+    <!-- SEO basique -->
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="canonical"
+      href="https://www.nicolasjouanno.com/projets/"
+    />
+    <meta name="author" content="Nicolas JOUANNO DANIEL" />
+
+    <!-- Webmaster verifications -->
+        
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Projets — ce que je construis et pourquoi"
+    />
+    <meta
+      property="og:description"
+      content="Les projets et leurs coulisses : vtt.bzh, feezify, le choix de l'auto-hébergement éditorial, et pourquoi j'ai tué mon SaaS pour le reconstruire en agent IA."
+    />
+    <meta
+      property="og:type"
+      content="website"
+    />
+    <meta property="og:url" content="https://www.nicolasjouanno.com/projets/" />
+    <meta property="og:site_name" content="Nicolas Jouanno" />
+    <meta property="og:locale" content="fr_FR" />
+    
+
+    <!-- Image Open Graph -->
+    
+    <meta property="og:image" content="https://www.nicolasjouanno.com/og/og-default.png" />
+    <meta property="og:image:alt" content="Nicolas Jouanno" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Projets — ce que je construis et pourquoi"
+    />
+    <meta
+      name="twitter:description"
+      content="Les projets et leurs coulisses : vtt.bzh, feezify, le choix de l'auto-hébergement éditorial, et pourquoi j'ai tué mon SaaS pour le reconstruire en agent IA."
+    />
+    
+    <meta name="twitter:site" content="@bynicolasjd" />
+    <meta name="twitter:creator" content="@bynicolasjd" />
+     
+    <meta
+      name="twitter:image"
+      content="https://www.nicolasjouanno.com/og/og-default.png"
+    />
+    <meta name="twitter:image:alt" content="Projets — ce que je construis et pourquoi" />
+    
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        
+          "name": "Nicolas JOUANNO DANIEL",
+          "alternateName": "Nicolas Jouanno",
+          "url": "https://www.nicolasjouanno.com",
+          "email": "contact@nicolasjouanno.com",
+          "jobTitle": "Lead développeur frontend",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "MGDIS"
+          },
+          "knowsAbout": [
+            "Design system",
+            "Web Components",
+            "StencilJS",
+            "Accessibilité RGAA",
+            "Systèmes agentiques"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Pontivy, Bretagne, France",
+            "addressCountry": "France"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/nicolasjouanno/",
+            "https://github.com/jn-prod",
+            "https://x.com/byNicolasJD",
+            "https://fr.wikipedia.org/wiki/Nicolas_Jouanno",
+            "https://www.strava.com/athletes/njouanno",
+            "https://www.instagram.com/bynicolasjd/",
+            "https://www.youtube.com/@byNicolasJD"
+          ]
+        
+      }
+    </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.nicolasjouanno.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Projets — ce que je construis et pourquoi",
+            "item": "https://www.nicolasjouanno.com/projets/"
+          }
+        ]
+      }
+    </script>
+    
+  </head>
+
+  <!-- body -->
+  
+  <body
+    class="c-layout c-layout--layout-page"
+    itemscope
+    itemtype="http://schema.org/WebPage"
+  >
+    <a href="#main-content" class="skip-link">Aller au contenu</a>
+    <header role="banner" class="c-layout__header">
+      <nav role="navigation" aria-label="Navigation principale" class="c-navigation c-navigation--main">
+        <a href="https://www.nicolasjouanno.com" class="c-navigation__title u-link--dark">
+          Nicolas Jouanno
+        </a>
+
+        <ul class="u-list c-navigation__link-list">
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button "
+              
+              href="https://www.nicolasjouanno.com/recits.html"
+              >Récit</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button "
+              
+              href="https://www.nicolasjouanno.com/guides.html"
+              >Guides</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              class="c-button "
+              
+              href="https://www.nicolasjouanno.com/outils.html"
+              >Outils</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              href="/#follow"
+              class="c-button c-button--primary"
+              >Suivre
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Content
+        ================================================== -->
+    <main role="main" id="main-content" class="c-layout__content">
+<nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
+  <ol>
+    <li>
+      <a
+        href="https://www.nicolasjouanno.com"
+        aria-current="false"
+      >
+        Accueil
+      </a>
+    </li>
+
+    
+    <li>
+      <a href="" aria-current="page">Projets — ce que je construis et pourquoi</a>
+    </li>
+    
+  </ol>
+</nav>
+  <h1 id="projets">Projets</h1>
+
+<!-- TODO copywriter (D-2026-06-11-001) — chapô de travail ci-dessous -->
+<p>Ce que je construis, ce que ça m’apprend, et ce que ça devient. Les outils finis vivent <a href="/outils.html">ici</a> ; ci-dessous, les coulisses.</p>
+
+<h2>Derniers articles</h2>
+<ul class="u-list c-section__post-list"><li class="c-section__post-item">
+
+<article id="jai-tue-mon-saas-reconstruit-en-agent-ia" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <meta itemprop="datePublished" content="2026-07-10T00:00:00+00:00" />
+  <meta itemprop="author" content="Nicolas JOUANNO DANIEL" />
+  
+  <meta itemprop="headline" content="J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA." />
+  <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html" />
+  <header class="u-flex u-flex--between">
+    <div class="u-flex u-flex--tight">
+      <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas JOUANNO DANIEL" width="32" height="32" loading="lazy" />
+<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+  <a href="https://www.nicolasjouanno.com" class="u-link--dark">
+    <span itemprop="name">Nicolas JOUANNO DANIEL</span>
+  </a>
+  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
+    <meta itemprop="width" content="60" />
+    <meta itemprop="height" content="60" />
+  </span>
+  <meta itemprop="url" content="https://www.nicolasjouanno.com" />
+  <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
+  <link itemprop="sameAs" href="https://github.com/jn-prod" />
+  <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
+  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
+  <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
+  <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
+  <link itemprop="sameAs" href="https://www.youtube.com/@byNicolasJD" />
+  <div class="c-meta">
+    <span>@bynicolasjd</span>
+    ·
+    <time itemprop="dateCreated datePublished dateModified" datetime="2026-07-10T00:00:00+00:00">
+      10 July 2026
+    </time>
+  </div>
+</div>
+
+
+      <h3 class="u-full u-spacing--0" id="jai-tue-mon-saas-reconstruit-en-agent-ia-title">
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html">J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA.</a>
+      </h3>
+      <meta itemprop="url" content="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html" />
+    </div>
+  </header>
+
+     
+  <p>On commence à appeler ça le SaaSpocalypse. L’idée est simple : pendant quinze ans, on a vendu du logiciel au siège et à l’abonnement. Une app par problème, un serveur, une base, un compte, un paiement mensuel. L’IA fait fondre ce modèle — littéralement : en février 2026, environ 285 milliards de dollars se sont évaporés des valeurs SaaS en quarante-huit heures (The SaaS CFO ; The Paypers). Le diagnostic...</p>
+  
+
+  <footer>
+    <ul class="u-list u-flex">
+      <li>
+        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html" aria-describedby="jai-tue-mon-saas-reconstruit-en-agent-ia-title">
+          Lire
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" aria-describedby="jai-tue-mon-saas-reconstruit-en-agent-ia-title" href="mailto:?subject=J%27ai+tu%C3%A9+mon+SaaS.+Je+l%27ai+reconstruit+comme+agent+IA.&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fjai-tue-mon-saas-reconstruit-en-agent-ia.html%0A%0AOn+commence+%C3%A0+appeler+%C3%A7a+le+SaaSpocalypse.+L%E2%80%99id%C3%A9e+est+simple+%3A+pendant+quinze+ans%2C+on+a+vendu+du+logiciel+au+si%C3%A8ge+et+%C3%A0+l%E2%80%99abonnement.+Une+app+par+probl%C3%A8me%2C+un+serveur%2C+une+base%2C+un+compte%2C+un+paiement+mensuel.+L%E2%80%99IA+fait+fondre+ce+mod%C3%A8le+%E2%80%94+litt%C3%A9ralement+%3A+en+f%C3%A9vrier+2026%2C+environ+285+milliards+de+dollars+se+sont+%C3%A9vapor%C3%A9s+des+valeurs+SaaS+en+quarante-huit+heures+%28The+SaaS+CFO+%3B+The+Paypers%29.+Le+diagnostic...">Partager
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html#disqus_thread" aria-describedby="jai-tue-mon-saas-reconstruit-en-agent-ia-title">
+          Commenter
+        </a>
+      </li>
+
+      
+      <li class="c-tag">#Work</li>
+      
+    </ul>
+  </footer>
+</article>
+</li><li class="c-section__post-item">
+
+<article id="Retrouver-le-fil" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <meta itemprop="datePublished" content="2025-09-17T00:00:00+00:00" />
+  <meta itemprop="author" content="Nicolas JOUANNO DANIEL" />
+  
+  <meta itemprop="headline" content="Retrouver le fil - pourquoi je recentre tout sur un seul site" />
+  <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/Retrouver-le-fil.html" />
+  <header class="u-flex u-flex--between">
+    <div class="u-flex u-flex--tight">
+      <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas JOUANNO DANIEL" width="32" height="32" loading="lazy" />
+<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+  <a href="https://www.nicolasjouanno.com" class="u-link--dark">
+    <span itemprop="name">Nicolas JOUANNO DANIEL</span>
+  </a>
+  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
+    <meta itemprop="width" content="60" />
+    <meta itemprop="height" content="60" />
+  </span>
+  <meta itemprop="url" content="https://www.nicolasjouanno.com" />
+  <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
+  <link itemprop="sameAs" href="https://github.com/jn-prod" />
+  <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
+  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
+  <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
+  <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
+  <link itemprop="sameAs" href="https://www.youtube.com/@byNicolasJD" />
+  <div class="c-meta">
+    <span>@bynicolasjd</span>
+    ·
+    <time itemprop="dateCreated datePublished dateModified" datetime="2025-09-17T00:00:00+00:00">
+      17 September 2025
+    </time>
+  </div>
+</div>
+
+
+      <h3 class="u-full u-spacing--0" id="Retrouver-le-fil-title">
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/Retrouver-le-fil.html">Retrouver le fil - pourquoi je recentre tout sur un seul site</a>
+      </h3>
+      <meta itemprop="url" content="https://www.nicolasjouanno.com/Retrouver-le-fil.html" />
+    </div>
+  </header>
+
+     
+  <p>Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie. Chaque projet avait son site : un pour le vélo, un pour mes expérimentations web, un autre pour partager des vidéos… C’était la logique du moment : séparer, cloisonner, multiplier les adresses. Mais à force de fermer des projets, de changer de plateformes ou de quitter des réseaux sociaux, j’ai fini par perdre une grande partie...</p>
+  
+
+  <footer>
+    <ul class="u-list u-flex">
+      <li>
+        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/Retrouver-le-fil.html" aria-describedby="Retrouver-le-fil-title">
+          Lire
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" aria-describedby="Retrouver-le-fil-title" href="mailto:?subject=Retrouver+le+fil+-+pourquoi+je+recentre+tout+sur+un+seul+site&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2FRetrouver-le-fil.html%0A%0AQuand+j%E2%80%99ai+publi%C3%A9+mes+premiers+contenus+en+2008%2C+je+n%E2%80%99avais+pas+vraiment+de+strat%C3%A9gie.+Chaque+projet+avait+son+site+%3A+un+pour+le+v%C3%A9lo%2C+un+pour+mes+exp%C3%A9rimentations+web%2C+un+autre+pour+partager+des+vid%C3%A9os%E2%80%A6+C%E2%80%99%C3%A9tait+la+logique+du+moment+%3A+s%C3%A9parer%2C+cloisonner%2C+multiplier+les+adresses.+Mais+%C3%A0+force+de+fermer+des+projets%2C+de+changer+de+plateformes+ou+de+quitter+des+r%C3%A9seaux+sociaux%2C+j%E2%80%99ai+fini+par+perdre+une+grande+partie...">Partager
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" href="https://www.nicolasjouanno.com/Retrouver-le-fil.html#disqus_thread" aria-describedby="Retrouver-le-fil-title">
+          Commenter
+        </a>
+      </li>
+
+      
+      <li class="c-tag">#Life</li>
+      
+    </ul>
+  </footer>
+</article>
+</li><li class="c-section__post-item">
+
+<article id="stay-minimal" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <meta itemprop="datePublished" content="2018-09-14T00:00:00+00:00" />
+  <meta itemprop="author" content="Nicolas JOUANNO DANIEL" />
+  
+  <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/maxresdefault.webp" />
+  
+  <meta itemprop="headline" content="Coder son MVP, sujet de Growth hacking ou de Product management ?" />
+  <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/stay-minimal.html" />
+  <header class="u-flex u-flex--between">
+    <div class="u-flex u-flex--tight">
+      <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas JOUANNO DANIEL" width="32" height="32" loading="lazy" />
+<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+  <a href="https://www.nicolasjouanno.com" class="u-link--dark">
+    <span itemprop="name">Nicolas JOUANNO DANIEL</span>
+  </a>
+  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
+    <meta itemprop="width" content="60" />
+    <meta itemprop="height" content="60" />
+  </span>
+  <meta itemprop="url" content="https://www.nicolasjouanno.com" />
+  <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
+  <link itemprop="sameAs" href="https://github.com/jn-prod" />
+  <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
+  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
+  <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
+  <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
+  <link itemprop="sameAs" href="https://www.youtube.com/@byNicolasJD" />
+  <div class="c-meta">
+    <span>@bynicolasjd</span>
+    ·
+    <time itemprop="dateCreated datePublished dateModified" datetime="2018-09-14T00:00:00+00:00">
+      14 September 2018
+    </time>
+  </div>
+</div>
+
+
+      <h3 class="u-full u-spacing--0" id="stay-minimal-title">
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/stay-minimal.html">Coder son MVP, sujet de Growth hacking ou de Product management ?</a>
+      </h3>
+      <meta itemprop="url" content="https://www.nicolasjouanno.com/stay-minimal.html" />
+    </div>
+  </header>
+
+  
+  <img class="u-img u-img--cover u-img--rounded u-img--banner" src="/images/posts/maxresdefault.webp" alt="Illustration de l'article : Coder son MVP, sujet de Growth hacking ou de Product management ?" loading="lazy" />
+     
+  <p>A la rencontre du growth hacking Revenons un peu en arrière. Nous sommes en 2018, je quitte l’école avec un diplôme de marketing. J’ai l’impression de n’avoir rien appris du monde du digital qui me passionnait tant. L’histoire est connue. Alors comme mes pairs, je continuer d’apprendre et de me former avec des ressources différentes: livres, blog, youtubes… Qu’il s’agisse de se perfectionner ou d’acquérir de nouvelles compétences en Marketing, Design...</p>
+  
+
+  <footer>
+    <ul class="u-list u-flex">
+      <li>
+        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/stay-minimal.html" aria-describedby="stay-minimal-title">
+          Lire
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" aria-describedby="stay-minimal-title" href="mailto:?subject=Coder+son+MVP%2C+sujet+de+Growth+hacking+ou+de+Product+management+%3F&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fstay-minimal.html%0A%0AA+la+rencontre+du+growth+hacking+Revenons+un+peu+en+arri%C3%A8re.+Nous+sommes+en+2018%2C+je+quitte+l%E2%80%99%C3%A9cole+avec+un+dipl%C3%B4me+de+marketing.+J%E2%80%99ai+l%E2%80%99impression+de+n%E2%80%99avoir+rien+appris+du+monde+du+digital+qui+me+passionnait+tant.+L%E2%80%99histoire+est+connue.+Alors+comme+mes+pairs%2C+je+continuer+d%E2%80%99apprendre+et+de+me+former+avec+des+ressources+diff%C3%A9rentes%3A+livres%2C+blog%2C+youtubes%E2%80%A6+Qu%E2%80%99il+s%E2%80%99agisse+de+se+perfectionner+ou+d%E2%80%99acqu%C3%A9rir+de+nouvelles%C2%A0comp%C3%A9tences+en+Marketing%2C+Design...">Partager
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" href="https://www.nicolasjouanno.com/stay-minimal.html#disqus_thread" aria-describedby="stay-minimal-title">
+          Commenter
+        </a>
+      </li>
+
+      
+      <li class="c-tag">#Life</li>
+      
+    </ul>
+  </footer>
+</article>
+</li><li class="c-section__post-item">
+
+<article id="les-bienfaits-de-linbox-0" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <meta itemprop="datePublished" content="2018-05-16T00:00:00+00:00" />
+  <meta itemprop="author" content="Nicolas JOUANNO DANIEL" />
+  
+  <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/e0a38-10yto40xd793dweahzoxsta.webp" />
+  
+  <meta itemprop="headline" content="Les bienfaits de l’inbox 0" />
+  <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/les-bienfaits-de-linbox-0.html" />
+  <header class="u-flex u-flex--between">
+    <div class="u-flex u-flex--tight">
+      <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas JOUANNO DANIEL" width="32" height="32" loading="lazy" />
+<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+  <a href="https://www.nicolasjouanno.com" class="u-link--dark">
+    <span itemprop="name">Nicolas JOUANNO DANIEL</span>
+  </a>
+  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
+    <meta itemprop="width" content="60" />
+    <meta itemprop="height" content="60" />
+  </span>
+  <meta itemprop="url" content="https://www.nicolasjouanno.com" />
+  <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
+  <link itemprop="sameAs" href="https://github.com/jn-prod" />
+  <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
+  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
+  <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
+  <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
+  <link itemprop="sameAs" href="https://www.youtube.com/@byNicolasJD" />
+  <div class="c-meta">
+    <span>@bynicolasjd</span>
+    ·
+    <time itemprop="dateCreated datePublished dateModified" datetime="2018-05-16T00:00:00+00:00">
+      16 May 2018
+    </time>
+  </div>
+</div>
+
+
+      <h3 class="u-full u-spacing--0" id="les-bienfaits-de-linbox-0-title">
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/les-bienfaits-de-linbox-0.html">Les bienfaits de l’inbox 0</a>
+      </h3>
+      <meta itemprop="url" content="https://www.nicolasjouanno.com/les-bienfaits-de-linbox-0.html" />
+    </div>
+  </header>
+
+  
+  <img class="u-img u-img--cover u-img--rounded u-img--banner" src="/images/posts/e0a38-10yto40xd793dweahzoxsta.webp" alt="Illustration de l'article : Les bienfaits de l’inbox 0" loading="lazy" />
+     
+  <p>L’inbox 0, plus qu’une règle c’est un état d’esprit de productivité que j’applique au quotidien. C’est en regardant en 2016 ce meetup de Jean de La Rochebrochard chez The Family que j’ai découvert le principe de “l’inbox 0” (pour rappel “l’inbox 0” consiste à avoir à intervalle régulier une boite de réception email à 0). Ce concept de productivité est avant toute chose accessible à tous et fait preuve de...</p>
+  
+
+  <footer>
+    <ul class="u-list u-flex">
+      <li>
+        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/les-bienfaits-de-linbox-0.html" aria-describedby="les-bienfaits-de-linbox-0-title">
+          Lire
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" aria-describedby="les-bienfaits-de-linbox-0-title" href="mailto:?subject=Les+bienfaits+de+l%E2%80%99inbox+0&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fles-bienfaits-de-linbox-0.html%0A%0AL%E2%80%99inbox+0%2C+plus+qu%E2%80%99une+r%C3%A8gle+c%E2%80%99est+un+%C3%A9tat+d%E2%80%99esprit+de+productivit%C3%A9+que+j%E2%80%99applique+au+quotidien.+C%E2%80%99est+en+regardant+en+2016+ce+meetup+de+Jean+de+La+Rochebrochard+chez+The+Family+que+j%E2%80%99ai+d%C3%A9couvert+le+principe+de+%E2%80%9Cl%E2%80%99inbox+0%E2%80%9D+%28pour+rappel+%E2%80%9Cl%E2%80%99inbox+0%E2%80%9D+consiste+%C3%A0+avoir+%C3%A0+intervalle+r%C3%A9gulier+une+boite+de+r%C3%A9ception+email+%C3%A0+0%29.+Ce+concept+de+productivit%C3%A9+est+avant+toute+chose+accessible+%C3%A0+tous+et+fait+preuve+de...">Partager
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" href="https://www.nicolasjouanno.com/les-bienfaits-de-linbox-0.html#disqus_thread" aria-describedby="les-bienfaits-de-linbox-0-title">
+          Commenter
+        </a>
+      </li>
+
+      
+      <li class="c-tag">#Life</li>
+      
+    </ul>
+  </footer>
+</article>
+</li><li class="c-section__post-item">
+
+<article id="wordpress-medium-jekyll" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <meta itemprop="datePublished" content="2017-09-26T00:00:00+00:00" />
+  <meta itemprop="author" content="Nicolas JOUANNO DANIEL" />
+  
+  <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.webp" />
+  
+  <meta itemprop="headline" content="Wordpress vs Medium" />
+  <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/wordpress-medium-jekyll.html" />
+  <header class="u-flex u-flex--between">
+    <div class="u-flex u-flex--tight">
+      <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas JOUANNO DANIEL" width="32" height="32" loading="lazy" />
+<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+  <a href="https://www.nicolasjouanno.com" class="u-link--dark">
+    <span itemprop="name">Nicolas JOUANNO DANIEL</span>
+  </a>
+  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
+    <meta itemprop="width" content="60" />
+    <meta itemprop="height" content="60" />
+  </span>
+  <meta itemprop="url" content="https://www.nicolasjouanno.com" />
+  <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
+  <link itemprop="sameAs" href="https://github.com/jn-prod" />
+  <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
+  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
+  <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
+  <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
+  <link itemprop="sameAs" href="https://www.youtube.com/@byNicolasJD" />
+  <div class="c-meta">
+    <span>@bynicolasjd</span>
+    ·
+    <time itemprop="dateCreated datePublished dateModified" datetime="2017-09-26T00:00:00+00:00">
+      26 September 2017
+    </time>
+  </div>
+</div>
+
+
+      <h3 class="u-full u-spacing--0" id="wordpress-medium-jekyll-title">
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/wordpress-medium-jekyll.html">Wordpress vs Medium</a>
+      </h3>
+      <meta itemprop="url" content="https://www.nicolasjouanno.com/wordpress-medium-jekyll.html" />
+    </div>
+  </header>
+
+  
+  <img class="u-img u-img--cover u-img--rounded u-img--banner" src="/images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.webp" alt="Illustration de l'article : Wordpress vs Medium" loading="lazy" />
+     
+  <p>J’ai commencé à bloguer à l’époque des skyblog, ensuite j’ai découvert Wordpress un outil puissant, puis Medium un outil simple. Maintenant je blog grâce à Jekyll. Voici ce que vous pourrez (ou pas) faire avec chacun d’eux. Wordpress, pour l’equipe marketing Wordpress est par nature un CMS puissant, véloce et flexible. La création d’un site WordPress pose la question de l’hébergement pour son prix (en moyenne 30€ TTC) et sa...</p>
+  
+
+  <footer>
+    <ul class="u-list u-flex">
+      <li>
+        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/wordpress-medium-jekyll.html" aria-describedby="wordpress-medium-jekyll-title">
+          Lire
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" aria-describedby="wordpress-medium-jekyll-title" href="mailto:?subject=Wordpress+vs+Medium&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fwordpress-medium-jekyll.html%0A%0AJ%E2%80%99ai+commenc%C3%A9+%C3%A0+bloguer+%C3%A0+l%E2%80%99%C3%A9poque+des+skyblog%2C+ensuite+j%E2%80%99ai+d%C3%A9couvert+Wordpress+un+outil+puissant%2C+puis+Medium+un+outil+simple.+Maintenant+je+blog+gr%C3%A2ce+%C3%A0+Jekyll.+Voici+ce+que+vous+pourrez+%28ou+pas%29+faire+avec+chacun+d%E2%80%99eux.+Wordpress%2C+pour+l%E2%80%99equipe+marketing+Wordpress+est+par+nature+un+CMS+puissant%2C+v%C3%A9loce+et+flexible.+La+cr%C3%A9ation+d%E2%80%99un+site+WordPress+pose+la+question+de+l%E2%80%99h%C3%A9bergement+pour+son+prix+%28en+moyenne+30%E2%82%AC+TTC%29+et+sa...">Partager
+        </a>
+      </li>
+
+      <li>
+        <a class="c-button" href="https://www.nicolasjouanno.com/wordpress-medium-jekyll.html#disqus_thread" aria-describedby="wordpress-medium-jekyll-title">
+          Commenter
+        </a>
+      </li>
+
+      
+      <li class="c-tag">#Life</li>
+      
+    </ul>
+  </footer>
+</article>
+</li></ul>
+
+</main>
+
+    <!-- signature -->
+    
+
+    <footer
+      role="contentinfo"
+      class="c-layout__footer c-section c-section--compact"
+    >
+      <nav role="navigation" aria-label="Navigation par thème" class="c-navigation c-navigation--footer">
+  <ul class="u-list c-navigation__link-list"><li class="c-navigation__link-list-element">
+          <a href="/vtt/">VTT</a>
+        </li><li class="c-navigation__link-list-element">
+          <a href="/trail/">Trail</a>
+        </li><li class="c-navigation__link-list-element">
+          <a href="/nutrition/">Nutrition</a>
+        </li><li class="c-navigation__link-list-element">
+          <a href="/projets/" aria-current="page">Projets</a>
+        </li><li class="c-navigation__link-list-element">
+      <a href="/life.html">Dossier</a>
+    </li>
+  </ul>
+</nav>
+
+
+      <p>
+        © 2008 - 2026,
+        <a href="https://www.nicolasjouanno.com">Nicolas JOUANNO DANIEL</a>. Tous
+        droits réservés. <a href="mailto:contact@nicolasjouanno.com">contact@nicolasjouanno.com</a>.
+      </p>
+    </footer>
+
+    <!-- JavaScript
+        ================================================== -->
+    <script src="/assets/main.js" async></script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "a5774cce1e6b423a9581953ee8af8766"}'
+    ></script>
+    <!-- End Cloudflare Web Analytics -->
+
+    <!-- disqus (lazy-load via IntersectionObserver) -->
+    
+
+    <!-- webmentions -->
+    
+  </body>
+</html>
