@@ -11,8 +11,8 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Tue, 21 Jul 2026 06:16:10 +0000</pubDate>
-    <lastBuildDate>Tue, 21 Jul 2026 06:16:10 +0000</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 11:24:20 +0000</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 11:24:20 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
@@ -221,7 +221,7 @@
 
           <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html" target="_blank">nicolasjouanno.com</a></p>
         ]]></description>
-        <content:encoded><![CDATA[<p>J’ai vécu deux rapports très différents à l’assiette. Pendant mes années de <a href="/results.html">cycliste professionnel</a>, tout tournait autour du carburant : combien de glucides, à quel moment, pour tenir le watt sur la durée. Aujourd’hui, en tant que <strong>parent d’un enfant cœliaque</strong>, je lis chaque étiquette avec la même rigueur — mais pour une autre raison : éviter le moindre gramme de gluten.</p>
+        <content:encoded><![CDATA[<p>J’ai vécu deux rapports très différents à l’assiette. Pendant mes années de <a href="/me/results.html">cycliste professionnel</a>, tout tournait autour du carburant : combien de glucides, à quel moment, pour tenir le watt sur la durée. Aujourd’hui, en tant que <strong>parent d’un enfant cœliaque</strong>, je lis chaque étiquette avec la même rigueur — mais pour une autre raison : éviter le moindre gramme de gluten.</p>
 
 <p>Ces deux mondes se rejoignent plus qu’on ne croit.</p>
 
@@ -251,7 +251,7 @@
 
 <hr />
 
-<p>Envie de tester vos réflexes ? J’ai construit un petit outil : <strong><a href="/apps/gluten-not-gluten/">Gluten ou pas gluten ?</a></strong> — un quiz pour apprendre à repérer le gluten, aliment par aliment. Et si le sport vous parle, <a href="/results.html">mon parcours sportif est par ici</a>.</p>
+<p>Envie de tester vos réflexes ? J’ai construit un petit outil : <strong><a href="/apps/gluten-not-gluten/">Gluten ou pas gluten ?</a></strong> — un quiz pour apprendre à repérer le gluten, aliment par aliment. Et si le sport vous parle, <a href="/me/results.html">mon parcours sportif est par ici</a>.</p>
 ]]></content:encoded>
         <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
         <link>https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html</link>
