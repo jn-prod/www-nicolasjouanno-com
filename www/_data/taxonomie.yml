@@ -2,7 +2,7 @@
 # Deux axes orthogonaux : le FORMAT navigue le header, la VERTICALE navigue le footer.
 formats:
   - slug: recit
-    label: "Récit"
+    label: "Récits"
     permalink: /recits.html
     description: "Aventure, inspiration, interview — le vécu, à la première personne."
   - slug: guide
@@ -32,13 +32,10 @@ verticales:
     label: "Projets"
     permalink: /projets/
     visible_footer: true
-  # Life n'est pas une verticale éditoriale : 1 seul article au relevé 2026-07-20,
-  # et « van life » / « slow web » n'étaient que du texte de page, pas des articles.
-  # /life.html devient la page Dossier (identité) — portée hors nav-verticales.
-  - slug: life
-    label: "Life"
-    permalink: /life.html
-    visible_footer: false
+  # « Life » retiré des verticales le 2026-07-21 : /life.html est devenu la section
+  # « Mon parcours » (/me/), une page « à propos » découpée par verticale PERSONNELLE
+  # (métier, sport). Ce n'est ni un format ni une verticale éditoriale — hors des deux axes.
+  # 0 article taggé verticale: life au relevé, donc retrait sans reclassement.
   # Rando : verticale prévue par D-2026-07-20-001 mais 0 article au 2026-07-20.
   # `planned: true` = déclarée mais pas encore créée (R-TAX2 ne l'exige pas).
   # Règle : à 2 articles publiés, créer /rando/ puis passer planned:false + visible_footer:true.

@@ -343,7 +343,7 @@
               class="c-button {% if page.url == '/recits.html' %}c-button--active{% endif %}"
               {% if page.url == '/recits.html' %}aria-current="page"{% endif %}
               href="{{ site.url }}/recits.html"
-              >Récit</a
+              >Récits</a
             >
           </li>
 
@@ -413,7 +413,7 @@
 
       <p>
         © 2008 - {{ site.time | date: "%Y" }},
-        <a href="{{ site.url }}">{{ site.author.name }}</a>. Tous
+        <a href="/me/">{{ site.author.name }}</a>. Tous
         droits réservés. <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
       </p>
     </footer>

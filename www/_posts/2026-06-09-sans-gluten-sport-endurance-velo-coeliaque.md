@@ -18,7 +18,7 @@ categories:
 featured: true
 ---
 
-J'ai vécu deux rapports très différents à l'assiette. Pendant mes années de [cycliste professionnel](/results.html), tout tournait autour du carburant : combien de glucides, à quel moment, pour tenir le watt sur la durée. Aujourd'hui, en tant que **parent d'un enfant cœliaque**, je lis chaque étiquette avec la même rigueur — mais pour une autre raison : éviter le moindre gramme de gluten.
+J'ai vécu deux rapports très différents à l'assiette. Pendant mes années de [cycliste professionnel](/me/results.html), tout tournait autour du carburant : combien de glucides, à quel moment, pour tenir le watt sur la durée. Aujourd'hui, en tant que **parent d'un enfant cœliaque**, je lis chaque étiquette avec la même rigueur — mais pour une autre raison : éviter le moindre gramme de gluten.
 
 Ces deux mondes se rejoignent plus qu'on ne croit.
 
@@ -46,4 +46,4 @@ Je ne suis ni médecin ni diététicien. Ce que je partage ici, c'est du **vécu
 
 ---
 
-Envie de tester vos réflexes ? J'ai construit un petit outil : **[Gluten ou pas gluten ?](/apps/gluten-not-gluten/)** — un quiz pour apprendre à repérer le gluten, aliment par aliment. Et si le sport vous parle, [mon parcours sportif est par ici](/results.html).
+Envie de tester vos réflexes ? J'ai construit un petit outil : **[Gluten ou pas gluten ?](/apps/gluten-not-gluten/)** — un quiz pour apprendre à repérer le gluten, aliment par aliment. Et si le sport vous parle, [mon parcours sportif est par ici](/me/results.html).

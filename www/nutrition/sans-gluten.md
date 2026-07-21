@@ -3,8 +3,6 @@ layout: hub
 title: "Sans gluten au quotidien — repères d'un parent et d'un sportif"
 description: "Le sans-gluten vécu des deux côtés : parent d'un enfant cœliaque et ancien cycliste professionnel. Des repères concrets, testés en vrai — pas un avis médical."
 permalink: /nutrition/sans-gluten.html
-redirect_from:
-  - /sans-gluten.html
 hub_verticale: nutrition
 hub_sous_silo: sans-gluten
 ---

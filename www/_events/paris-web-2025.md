@@ -10,4 +10,4 @@ link: https://www.paris-web.fr/2025/conference/les-web-components-et-laccessibil
 Cette année, je co-présente avec [Simon Duhem](https://www.linkedin.com/in/simonduhem?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) un sujet sur les "WebComponents et l’accessibilité" à Paris Web.
 C’est l’occasion de partager nos travaux et d’échanger avec la communauté.
 
-👉 [Le retour d’expérience complet de la conférence](/conference-les-web-components-et-accessibilite.html)
+👉 [Le retour d’expérience complet de la conférence](/me/work/paris-web-2025.html)

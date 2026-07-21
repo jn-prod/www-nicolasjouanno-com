@@ -1,10 +1,8 @@
 ---
-redirect_from:
-  - /paris-web-preview.html
 layout: page
 title: "Les Web Components et l'accessibilité — conférence Paris-Web 2025"
 description: "REX d'un design system interopérable accessible by design : Web Components natifs (StencilJS), shadow DOM et accessibilité, co-présenté avec Simon à Paris-Web 2025."
-permalink: /conference-les-web-components-et-accessibilite.html
+permalink: /me/work/paris-web-2025.html
 date: 2025-09-26
 icons:
   - stencil

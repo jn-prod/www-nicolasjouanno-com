@@ -1,8 +1,4 @@
 ---
-redirect_from:
-  - /sources-motivation-sportive.html
-  - /changer-habitudes-sportives-inter-saison.html
-  - /apprendre-de-son-entrainement.html
 layout: post
 format: recit
 verticale: vtt

@@ -1,21 +1,5 @@
 ---
-redirect_from:
-  - /portfolio/project/volt.html
-  - /toolbox.html
-  - /coaching.html
-  - /cours.html
-  - /cours/creer-site-web-sans-coder.html
-  - /stories
-  - /academy.html
-  - /advertise/terms.html
-  - /advertise.html
-  - /categories/sport.html
-  - /sitemap.html
-  - /contact.html
-  - /newsletter.html
-  - /about.html
-  - /follow.html
-title: "VTT, trail et sans gluten — le vécu, pas la théorie"
+title: "100% VTT, trail, sans gluten — récits, guides & outils outdoor"
 layout: page
 description: "Ancien cycliste professionnel passé aux sentiers, parent d'un enfant cœliaque. Des récits de sorties, des guides qui marchent et des outils que j'utilise vraiment."
 permalink: /index.html
@@ -24,15 +8,15 @@ signature: true
 ---
 
 <hgroup class="u-text--center">
-  <h1><span class="u-visually-hidden">{{ site.title }}. </span>VTT, trail et sans gluten — le vécu, pas la théorie</h1>
-  <p>Salut, moi c'est Nicolas. Je suis un sportif, créateur, père et développeur.</p>
+  <h1><span class="u-visually-hidden">{{ site.title }}. </span>100% VTT, trail, sans gluten</h1>
+  <p>Salut, moi c'est Nicolas. Je partage mon expérience outdoor à travers les récits, guides et outils dont je suis l'auteur.</p>
 </hgroup>
 
 <p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
 
-Avant l'écran, il y a eu le vélo : [cycliste professionnel]({{ site.url }}/results.html) chez Bretagne Schuller, cinq championnats de France, puis une blessure qui m'a mis hors course. J'ai quitté le bitume pour les sentiers, en famille — VTT, trail, l'Europe en van. Le jour, je suis [lead développeur frontend]({{ site.url }}/work.html) ; le soir, je construis des outils. Le tout depuis Pontivy, en Bretagne.
+Avant l'écran, il y a eu le vélo : [cycliste professionnel]({{ site.url }}/me/results.html) chez Bretagne Schuller, cinq championnats de France, puis une blessure qui m'a mis hors course. J'ai quitté le bitume pour les sentiers, en famille — VTT, trail, l'Europe en van. Le jour, je suis [lead développeur frontend]({{ site.url }}/me/work/) ; le soir, je construis des outils. Le tout depuis Pontivy, en Bretagne.
 
-<p><a href="/life.html" class="c-button c-button--dark-outline">Le dossier complet →</a></p>
+<p><a href="/me/" class="c-button c-button--dark-outline">Mon parcours →</a></p>
 
 ## Par où commencer
 

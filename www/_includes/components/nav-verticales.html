@@ -13,12 +13,9 @@
       {%- endif -%}
     {%- endfor -%}
     {%- comment -%}
-      Le Dossier (identité, histoire, travail, ex-pro) n'est pas une verticale :
-      c'est le « qui », pas le « quoi ». Il porte /work.html et /results.html,
-      qui ne figurent donc pas ici.
+      « Mon parcours » (/me/) n'est PAS listé ici : ce n'est ni une verticale ni un
+      format, c'est le « qui » derrière le site. Son point d'entrée = le nom auteur
+      dans la signature © du footer (default.html), pas une entrée de nav.
     {%- endcomment -%}
-    <li class="c-navigation__link-list-element">
-      <a href="/life.html"{% if page.url == '/life.html' %} aria-current="page"{% endif %}>Dossier</a>
-    </li>
   </ul>
 </nav>

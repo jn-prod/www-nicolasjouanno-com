@@ -1,15 +1,4 @@
 ---
-redirect_from:
-  - /hacker-la-formation-en-ligne-du-wagon-cest-possible.html
-  - /pourquoi-jai-code-mon-premier-site-web-dynamique-en-nodejs-de-0-a-1.html
-  - /en-2017-je-serai-grand-et-product-manager.html
-  - /pourquoi-jai-appris-a-coder-mon-mvp.html
-  - /le-point-annuel-sur-mes-side-projects.html
-  - /le-programme-de-2019.html
-  - /reouverture-vtt-bzh.html
-  - /taig-khris-autodidacte.html
-  - /la-punchline-de-yoann-stuck.html
-  - /paris-dakar-steven-le-hyaric.html
 layout: post
 format: recit
 verticale: projets
