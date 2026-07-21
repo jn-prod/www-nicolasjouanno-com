@@ -26,4 +26,4 @@ permalink: "/posts.html"
   {%- endfor -%}
 </ul>
 
-<p class="u-spacing--block-start-medium"><a href="/archive.html">Voir aussi l'archive des actualités datées (7) →</a></p>
+<p class="u-spacing--block-start-medium"><a href="/archive.html">Voir l'archive (7) →</a></p>
