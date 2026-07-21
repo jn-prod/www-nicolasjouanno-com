@@ -1,0 +1,42 @@
+---
+layout: page
+---
+{%- comment -%}
+  Template des pages HUB (format & verticale). Structure imposée, cohérente :
+    1. contenu libre           → {{ content }} (intro + callouts propres à la page)
+    2. liste d'articles filtrée → hub-list, filtre AUTO ou via frontmatter
+    3. carte newsletter         → standardisée, texte surchargeable
+
+  Résolution du filtre (priorité au frontmatter explicite, sinon auto depuis le
+  permalink via _data/taxonomie.yml — source unique) :
+    - hub_format    : recit | guide | actu
+    - hub_verticale : vtt | trail | nutrition | projets | life | rando
+    - hub_sous_silo : ex. sans-gluten (dans une verticale)
+    - hub_limit     : nb d'articles (défaut 12) · newsletter_text : texte de la carte
+{%- endcomment -%}
+
+{{ content }}
+
+{%- assign hub_fmt = page.hub_format -%}
+{%- assign hub_vrt = page.hub_verticale -%}
+{%- unless hub_fmt or hub_vrt -%}
+  {%- for f in site.data.taxonomie.formats -%}
+    {%- if f.permalink == page.url -%}{%- assign hub_fmt = f.slug -%}{%- endif -%}
+  {%- endfor -%}
+  {%- for v in site.data.taxonomie.verticales -%}
+    {%- if v.permalink == page.url -%}{%- assign hub_vrt = v.slug -%}{%- endif -%}
+  {%- endfor -%}
+{%- endunless -%}
+
+{%- assign hub_lim = page.hub_limit | default: 12 -%}
+
+{%- if hub_fmt or hub_vrt -%}
+  {% include components/hub-list.html format=hub_fmt verticale=hub_vrt sous_silo=page.hub_sous_silo limit=hub_lim archive_url="/posts.html" %}
+{%- else -%}
+  <!-- hub.html : aucun filtre résolu (ni frontmatter hub_format/hub_verticale, ni permalink connu dans taxonomie.yml) — liste omise -->
+{%- endif -%}
+
+<aside class="c-card c-card--neutral c-card--large">
+  <p>{{ page.newsletter_text | default: "Un email quand je publie un nouvel article, pas plus. Sans spam." }}</p>
+  {% include /plugins/newsletter.html %}
+</aside>

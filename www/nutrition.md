@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: hub
 title: "Nutrition sportive & sans gluten"
 description: "Ravitaillement d'effort, santé du sportif et alimentation sans gluten — vécu des deux côtés : ancien cycliste pro et parent d'un enfant cœliaque."
 permalink: /nutrition/
@@ -13,8 +13,6 @@ Parent d'un enfant **cœliaque** et ancien cycliste pro, je vis la nutrition des
 <aside class="c-card c-card--flat c-card--medium" role="note">
   <p>ℹ️ <strong>Ceci n'est pas un avis médical.</strong> Le diagnostic de la maladie cœliaque relève d'un médecin (et il ne faut <strong>pas</strong> supprimer le gluten avant les tests, sous peine de les fausser). Références fiables : <a href="https://www.ameli.fr/assure/sante/themes/intolerance-gluten-maladie-coeliaque">ameli.fr</a> et l'<a href="https://www.afdiag.fr/">AFDIAG</a>.</p>
 </aside>
-
-{% include components/hub-list.html verticale="nutrition" limit=15 archive_url="/posts.html" %}
 
 <aside class="c-card c-card--primary c-card--large c-callout">
   <p class="c-callout__title">🌾 Le sans-gluten a sa propre page</p>
