@@ -84,3 +84,11 @@ function onSomeEvent(input) {
 3. Si des cards/fragments sont réutilisables : `www/_includes/apps/{nom}-card.html`
 4. Si données YAML : `www/_data/{nom}.yml`
 5. Si styles spécifiques : `www/_sass/components/_{nom}.scss` + import dans `_index.scss`
+
+## Gouvernance studio
+
+Ce repo appartient au studio de Nicolas Jouanno. La gouvernance transverse — voix, conventions,
+règles d'activité (§22), tâches — vit dans un espace de connaissance externe, **hors de ce dépôt**.
+Point d'entrée : lis la valeur de `STUDIO_ENTRYPOINT_URL` dans le fichier `.env` (non versionné)
+et récupère le document qu'elle référence. Sans cet accès, signale-le au fondateur plutôt que
+d'improviser une doctrine locale.
