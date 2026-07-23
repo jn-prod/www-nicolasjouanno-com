@@ -1,13 +1,13 @@
 {
   "name": "www-nicolasjouanno-com",
   "engines": {
-    "pnpm": "10.x",
+    "pnpm": "11.x",
     "node": "24.x"
   },
   "version": "1.0.0",
   "private": "true",
   "description": "Portfolio de Nicolas Jouanno",
-  "packageManager": "pnpm@10.34.5",
+  "packageManager": "pnpm@11.17.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jn-prod/www-nicolasjouanno-com"
