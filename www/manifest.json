@@ -10,10 +10,10 @@ permalink: /manifest.json
   "orientation": "portrait-primary",
   "background_color": "#ffffff",
   "theme_color": "#000000",
-  "description": "{{ site.headline | escape }}",
+  "description": {{ site.description | jsonify }},
   "lang": "fr",
   "scope": "/",
-  "categories": ["lifestyle", "sports", "technology"],
+  "categories": ["sports", "lifestyle", "health"],
   "icons": [
     {
       "src": "/images/icons/icon-72.webp",

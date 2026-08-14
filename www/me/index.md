@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Mon parcours — qui je suis, d'où je viens, ce que je fais"
-description: "Identité, histoire, travail et passé de cycliste professionnel. Le « qui » derrière les articles : Pontivy, Bretagne — ex-pro Bretagne Schuller, lead développeur frontend, slow web depuis 2008."
+title: "Mon parcours — sport, Bretagne, sentiers et slow web"
+description: "Le « qui » derrière les articles : Pontivy, Bretagne — ancien cycliste professionnel Bretagne Schuller, VTT, trail, famille, van, sans gluten et slow web depuis 2008."
 permalink: /me/
 ---
 
@@ -18,9 +18,9 @@ Nicolas Jouanno, {{ site.author.location }}. Une famille, un van, des sentiers �
 
 Le vélo m'a pris tôt et m'a occupé entièrement, jusqu'à la blessure de 2010 qui a mis fin à la saison et à la suite. L'arrêt m'a rendu ce que la compétition avait pris : rouler pour rouler. C'est aussi par cette porte que je suis entré dans le numérique — et le sport est resté le fil, à vitesse humaine.
 
-## 💼 Travail {#travail}
+## 💼 Métier, en arrière-plan {#travail}
 
-Le jour, **lead développeur frontend** : design systems, Web Components, accessibilité RGAA, qualité d'interface. Orateur à Paris-Web 2025. Le soir, en side project, je construis [feezify](/feezify.html), un copilote d'entraînement IA-native — pour comprendre les systèmes agentiques de l'intérieur.
+Mon métier est numérique, mais ce site n'est pas mon portfolio. Il raconte d'abord le sport, les sorties, les outils et la vie à vitesse humaine. Le détail professionnel existe pour le contexte, sans être l'axe éditorial principal.
 
 <p><a href="/me/work/" class="c-button c-button--dark-outline">Le détail du parcours pro →</a></p>
 

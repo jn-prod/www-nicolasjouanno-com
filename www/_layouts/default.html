@@ -267,6 +267,7 @@
           "alternateName": "Nicolas Jouanno",
           "url": "{{ site.url }}",
           "email": "{{ site.author.email }}",
+          {% if page.url contains "/me/work/" or page.positioning == "work" %}
           "jobTitle": "Lead développeur frontend",
           "worksFor": {
             "@type": "Organization",
@@ -279,6 +280,23 @@
             "Accessibilité RGAA",
             "Systèmes agentiques"
           ],
+          {% else %}
+          "jobTitle": "Auteur outdoor et ancien cycliste professionnel",
+          "knowsAbout": [
+            {% assign structured_topic_count = 0 %}
+            {% for verticale in site.data.taxonomie.verticales %}
+              {% if verticale.status == "active" %}
+                {% for topic in verticale.keywords %}
+                  {% if structured_topic_count > 0 %},{% endif %}
+                  {{ topic | jsonify }}
+                  {% assign structured_topic_count = structured_topic_count | plus: 1 %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+            {% if structured_topic_count > 0 %},{% endif %}
+            "Slow web"
+          ],
+          {% endif %}
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "{{ site.author.location }}",

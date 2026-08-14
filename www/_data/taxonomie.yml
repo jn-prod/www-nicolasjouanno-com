@@ -19,19 +19,71 @@ verticales:
   - slug: vtt
     label: "VTT"
     permalink: /vtt/
+    status: active
     visible_footer: true
+    include_home: true
+    include_llms: true
+    minimum_posts: 2
+    description: "Guides, réglages, entraînement, matériel, sorties et randonnées VTT."
+    home_description: "la verticale la plus fournie : réglages, matériel, entraînement, sorties."
+    llms_description: "entraînement, réglages, matériel, sorties, randonnées en Bretagne"
+    positioning: "VTT de pratiquant : concret, vécu, utile, issu d'un ancien cycliste professionnel passé aux sentiers."
+    keywords:
+      - "VTT"
+      - "Entraînement VTT"
+      - "Réglages VTT"
+      - "Randonnées VTT en Bretagne"
   - slug: trail
     label: "Trail"
     permalink: /trail/
+    status: active
     visible_footer: true
+    include_home: true
+    include_llms: true
+    minimum_posts: 2
+    description: "Course à pied, trail, premiers dossards et progression sans obsession du chrono."
+    home_description: "arrivé tard à la course à pied, et c'est ce qui m'intéresse : recommencer débutant."
+    llms_description: "reprise, progression, pratique de loisir, premiers dossards"
+    positioning: "Trail de reprise : apprendre en venant du vélo, sans posture d'expert absolu."
+    keywords:
+      - "Trail"
+      - "Course à pied"
+      - "Progression"
+      - "Outdoor"
   - slug: nutrition
     label: "Nutrition"
     permalink: /nutrition/
+    status: active
     visible_footer: true
+    include_home: true
+    include_llms: true
+    minimum_posts: 2
+    description: "Nutrition d'endurance, ravitaillement d'effort et sans gluten vécu au quotidien."
+    home_description: "le ravitaillement d'effort d'un côté, le sans-gluten du quotidien de l'autre. Parent d'un enfant cœliaque, je le vis des deux côtés."
+    llms_description: "ravitaillement, énergie, contraintes du sans gluten, vécu familial autour de la maladie cœliaque"
+    positioning: "Nutrition vécue : endurance et maladie cœliaque, sans promesse médicale."
+    keywords:
+      - "Nutrition d'endurance"
+      - "Sans gluten"
+      - "Maladie cœliaque"
+      - "Ravitaillement sportif"
   - slug: projets
     label: "Projets"
     permalink: /projets/
+    status: active
     visible_footer: true
+    include_home: true
+    include_llms: true
+    minimum_posts: 1
+    description: "Outils et coulisses de construction liés au sport, au slow web et aux projets personnels."
+    home_description: "ce que je construis, ce que ça m'apprend, ce que ça devient."
+    llms_description: "vtt.bzh, feezify, quiz gluten, outils outdoor et slow web"
+    positioning: "Projets comme coulisses : les outils servent d'abord une pratique outdoor ou une publication possédée."
+    keywords:
+      - "vtt.bzh"
+      - "feezify"
+      - "Outils outdoor"
+      - "Slow web"
   # « Life » retiré des verticales le 2026-07-21 : /life.html est devenu la section
   # « Mon parcours » (/me/), une page « à propos » découpée par verticale PERSONNELLE
   # (métier, sport). Ce n'est ni un format ni une verticale éditoriale — hors des deux axes.
@@ -42,5 +94,14 @@ verticales:
   - slug: rando
     label: "Rando"
     permalink: /rando/
+    status: planned
     visible_footer: false
     planned: true
+    description: "Randonnée à pied et micro-aventure, verticale prévue mais non publiée."
+    home_description: "randonnée à pied et micro-aventure, quand la verticale aura assez de contenu."
+    llms_description: "randonnée à pied et micro-aventure"
+    positioning: "Rando prévue : à activer seulement avec assez de contenu publié."
+    keywords:
+      - "Rando"
+      - "Randonnée"
+      - "Micro-aventure"

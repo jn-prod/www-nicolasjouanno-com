@@ -2,39 +2,44 @@
 layout: none
 permalink: /llms.txt
 ---
-# Nicolas Jouanno — Lead développeur frontend
+# Nicolas Jouanno — VTT, trail, sans gluten
 
-Nicolas Jouanno est Lead développeur frontend, spécialisé en design systems, accessibilité (RGAA) et architectures web modernes. Autodidacte, plus de 20 ans de pratique du web, ancien cycliste professionnel, minimaliste par philosophie. Basé à Pontivy, Bretagne, France.
+Nicolas Jouanno est un ancien cycliste professionnel basé à Pontivy, en Bretagne. Son site personnel publie surtout des récits, guides et outils autour du VTT, du trail, de la nutrition d'endurance, du sans gluten et d'une pratique outdoor à vitesse humaine.
 
 ## Qui est Nicolas
 
-Lead développeur frontend au quotidien, il applique au web la même discipline et la même endurance que celles de sa carrière cycliste : une approche intentionnelle et durable, humaine et simple. L'IA fait partie de ses outils de développement. En side project et en veille, il explore les systèmes agentiques — il les construit pour apprendre et en documente les patterns généralisés.
+Ancien coureur chez Bretagne Schuller, cinq fois présent aux championnats de France, il a quitté la route professionnelle après une blessure en 2010. Le fil éditorial principal du site est sportif : rouler, courir, préparer l'effort, choisir du matériel, raconter les sorties et construire des outils utiles aux pratiquants.
 
-- Parcours professionnel : {{ site.url }}/work.html
-- Parcours sportif : {{ site.url }}/results.html
+Son métier dans le numérique existe en arrière-plan et explique une partie des outils construits, mais ce n'est pas l'axe éditorial principal du site.
+
+- Parcours sportif : {{ site.url }}/me/results.html
+- Parcours personnel : {{ site.url }}/me/
+- Parcours professionnel secondaire : {{ site.url }}/me/work/
 
 ## Expertise
 
-Métier (au quotidien) :
-- Développement frontend : JavaScript, TypeScript, Web Components (StencilJS), Vue.js
-- Architecture et industrialisation de design systems
-- Accessibilité numérique : RGAA, WCAG, audits a11y
-- Éco-conception et performance web
-- Jamstack, monorepo, architecture de sites statiques
-- Orateur Paris-Web 2025 (Web Components et accessibilité)
+Thèmes principaux :
+{%- for verticale in site.data.taxonomie.verticales %}
+{%- if verticale.include_llms and verticale.status == "active" %}
+- {{ verticale.label }} : {{ verticale.llms_description }}
+{%- endif %}
+{%- endfor %}
+- Slow web : publication possédée, sans publicité ni pistage
 
-Side project / veille :
-- Systèmes agentiques : orchestration d'agents, mémoire, MCP, observabilité, gouvernance par décisions (patterns généralisés)
+## Positionnement du site
 
-## Poste actuel
-
-Lead développeur frontend — core team MGDIS (2019–présent).
-Il applique la vision de l'architecte frontend dans le design system et accompagne les équipes dans son implémentation : librairie de Web Components, standards d'accessibilité, outillage frontend.
+Le site doit être compris comme un hub outdoor personnel, pas comme un portfolio développeur. Les contenus professionnels sont conservés comme contexte biographique secondaire ou coulisse de fabrication, tandis que l'intention de lecture principale est sportive : VTT, trail, endurance, Bretagne, sans gluten.
 
 ## Derniers articles
 
-{% for post in site.posts limit: 3 %}
+{% assign public_posts = site.posts | where_exp: "post", "post.archive != true" %}
+{% assign shown_count = 0 %}
+{% for post in public_posts %}
+{% unless post.categories contains "Work" %}
 - {{ post.title }} ({{ post.date | date: "%Y" }}) — {{ site.url }}{{ post.url }}
+{% assign shown_count = shown_count | plus: 1 %}
+{% if shown_count == 3 %}{% break %}{% endif %}
+{% endunless %}
 {% endfor %}
 
 Tous les articles : {{ site.url }}/posts.html
@@ -42,8 +47,8 @@ Tous les articles : {{ site.url }}/posts.html
 ## Projets personnels
 
 - vtt.bzh — calendrier communautaire VTT en Bretagne : https://vtt.bzh/
-- nicolasjouanno.com — site personnel, terrain d'expérimentation UX et web minimaliste
-- Systèmes agentiques — side project d'exploration (orchestration d'agents, patterns documentés au fil des articles)
+- feezify — copilote d'entraînement IA-native, construit à partir d'un ancien carnet d'entraînement
+- nicolasjouanno.com — site personnel outdoor et slow web
 
 ## Auteur
 

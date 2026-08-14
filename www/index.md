@@ -14,7 +14,7 @@ signature: true
 
 <p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
 
-Avant l'écran, il y a eu le vélo : [cycliste professionnel]({{ site.url }}/me/results.html) chez Bretagne Schuller, cinq championnats de France, puis une blessure qui m'a mis hors course. J'ai quitté le bitume pour les sentiers, en famille — VTT, trail, l'Europe en van. Le jour, je suis [lead développeur frontend]({{ site.url }}/me/work/) ; le soir, je construis des outils. Le tout depuis Pontivy, en Bretagne.
+Avant l'écran, il y a eu le vélo : [cycliste professionnel]({{ site.url }}/me/results.html) chez Bretagne Schuller, cinq championnats de France, puis une blessure qui m'a mis hors course. J'ai quitté le bitume pour les sentiers, en famille — VTT, trail, l'Europe en van. Ce site part de là : du sport vécu, des sorties qui laissent une trace, et des outils construits parce qu'ils me servent vraiment. Le tout depuis Pontivy, en Bretagne.
 
 <p><a href="/me/" class="c-button c-button--dark-outline">Mon parcours →</a></p>
 
@@ -30,10 +30,13 @@ Avant l'écran, il y a eu le vélo : [cycliste professionnel]({{ site.url }}/me/
 
 <!-- TODO copywriter (D-2026-06-11-001) — reprend l'axe VERTICALE du footer -->
 
-- **[VTT](/vtt/)** — la verticale la plus fournie : réglages, matériel, entraînement, sorties.
-- **[Trail](/trail/)** — arrivé tard à la course à pied, et c'est ce qui m'intéresse : recommencer débutant.
-- **[Nutrition](/nutrition/)** — le ravitaillement d'effort d'un côté, le sans-gluten du quotidien de l'autre. Parent d'un enfant cœliaque, je le vis des deux côtés.
-- **[Projets](/projets/)** — ce que je construis, ce que ça m'apprend, ce que ça devient.
+<ul>
+  {% for verticale in site.data.taxonomie.verticales %}
+    {% if verticale.include_home and verticale.status == "active" %}
+      <li><strong><a href="{{ verticale.permalink }}">{{ verticale.label }}</a></strong> — {{ verticale.home_description }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 ## 🚵 vtt.bzh — le calendrier des randos VTT en Bretagne
 
@@ -50,14 +53,20 @@ Pas de plateforme entre nous. Tout part d'ici, sur mon propre site, et y reste.
 <aside id="follow" class="c-card c-card--flat c-card--medium">
   <h2>📬 Un email quand je publie</h2>
   <div class="c-card c-card--neutral c-card--small">
-    <p>VTT, trail, sans gluten et les projets que je bricole. Aucun rythme imposé : j'écris quand j'ai quelque chose à dire, vous lisez quand vous voulez.</p>
+    <p>{% assign home_verticales = site.data.taxonomie.verticales | where: "include_home", true | where: "status", "active" %}{% for verticale in home_verticales %}{% if forloop.first %}{{ verticale.label }}{% elsif forloop.last %} et {{ verticale.label | downcase }}{% else %}, {{ verticale.label | downcase }}{% endif %}{% endfor %}. Aucun rythme imposé : j'écris quand j'ai quelque chose à dire, vous lisez quand vous voulez.</p>
     {% include /plugins/newsletter.html %}
   </div>
   <p>Tous les envois sont publics → <a href="https://mails.nicolasjouanno.com">voir les archives</a></p>
   <h3>📝 Derniers articles</h3>
   <ul class="u-list">
-    {% for post in site.posts limit:3 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y" }})</li>
+    {% assign public_posts = site.posts | where_exp: "post", "post.archive != true" %}
+    {% assign shown_count = 0 %}
+    {% for post in public_posts %}
+      {% unless post.categories contains "Work" %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y" }})</li>
+        {% assign shown_count = shown_count | plus: 1 %}
+        {% if shown_count == 3 %}{% break %}{% endif %}
+      {% endunless %}
     {% endfor %}
   </ul>
   <p><a href="/posts.html" class="c-button c-button--dark-outline">Lire tous les articles →</a></p>

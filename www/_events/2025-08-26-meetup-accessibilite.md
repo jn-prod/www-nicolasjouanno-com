@@ -5,6 +5,7 @@ end: 2025-08-26 19:00:00
 location: Vannes, France
 description: "Preview de la conférence sur l’accessibilité et les web components qui sera donnée a Paris-Web."
 link: https://www.meetup.com/fr-FR/theremotetribe/events/309015304/
+positioning: work
 ---
 
 Je co-présente avec [Simon Duhem](https://www.linkedin.com/in/simonduhem?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) un sujet sur les "WebComponents et l’accessibilité", en avance de la conf Paris Web.
