@@ -1,40 +1,52 @@
-# Nicolas Jouanno — Lead développeur frontend
+# Nicolas Jouanno — VTT, trail, sans gluten
 
-Nicolas Jouanno est Lead développeur frontend, spécialisé en design systems, accessibilité (RGAA) et architectures web modernes. Autodidacte, plus de 20 ans de pratique du web, ancien cycliste professionnel, minimaliste par philosophie. Basé à Pontivy, Bretagne, France.
+Nicolas Jouanno est un ancien cycliste professionnel basé à Pontivy, en Bretagne. Son site personnel publie surtout des récits, guides et outils autour du VTT, du trail, de la nutrition d'endurance, du sans gluten et d'une pratique outdoor à vitesse humaine.
 
 ## Qui est Nicolas
 
-Lead développeur frontend au quotidien, il applique au web la même discipline et la même endurance que celles de sa carrière cycliste : une approche intentionnelle et durable, humaine et simple. L'IA fait partie de ses outils de développement. En side project et en veille, il explore les systèmes agentiques — il les construit pour apprendre et en documente les patterns généralisés.
+Ancien coureur chez Bretagne Schuller, cinq fois présent aux championnats de France, il a quitté la route professionnelle après une blessure en 2010. Le fil éditorial principal du site est sportif : rouler, courir, préparer l'effort, choisir du matériel, raconter les sorties et construire des outils utiles aux pratiquants.
 
-- Parcours professionnel : https://www.nicolasjouanno.com/work.html
-- Parcours sportif : https://www.nicolasjouanno.com/results.html
+Son métier dans le numérique existe en arrière-plan et explique une partie des outils construits, mais ce n'est pas l'axe éditorial principal du site.
+
+- Parcours sportif : https://www.nicolasjouanno.com/me/results.html
+- Parcours personnel : https://www.nicolasjouanno.com/me/
+- Parcours professionnel secondaire : https://www.nicolasjouanno.com/me/work/
 
 ## Expertise
 
-Métier (au quotidien) :
-- Développement frontend : JavaScript, TypeScript, Web Components (StencilJS), Vue.js
-- Architecture et industrialisation de design systems
-- Accessibilité numérique : RGAA, WCAG, audits a11y
-- Éco-conception et performance web
-- Jamstack, monorepo, architecture de sites statiques
-- Orateur Paris-Web 2025 (Web Components et accessibilité)
+Thèmes principaux :
+- VTT : entraînement, réglages, matériel, sorties, randonnées en Bretagne
+- Trail : reprise, progression, pratique de loisir, premiers dossards
+- Nutrition : ravitaillement, énergie, contraintes du sans gluten, vécu familial autour de la maladie cœliaque
+- Projets : vtt.bzh, feezify, quiz gluten, outils outdoor et slow web
+- Slow web : publication possédée, sans publicité ni pistage
 
-Side project / veille :
-- Systèmes agentiques : orchestration d'agents, mémoire, MCP, observabilité, gouvernance par décisions (patterns généralisés)
+## Positionnement du site
 
-## Poste actuel
-
-Lead développeur frontend — core team MGDIS (2019–présent).
-Il applique la vision de l'architecte frontend dans le design system et accompagne les équipes dans son implémentation : librairie de Web Components, standards d'accessibilité, outillage frontend.
+Le site doit être compris comme un hub outdoor personnel, pas comme un portfolio développeur. Les contenus professionnels sont conservés comme contexte biographique secondaire ou coulisse de fabrication, tandis que l'intention de lecture principale est sportive : VTT, trail, endurance, Bretagne, sans gluten.
 
 ## Derniers articles
 
 
-- J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA. (2026) — https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html
+
+
+
+
 
 - Premier 10 km : la méthode d'un champion, le contre-pied d'un coureur par plaisir (2026) — https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html
 
+
+
+
+
 - Sans gluten et sport d'endurance : ce que le vélo pro et la maladie cœliaque m'ont appris (2026) — https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html
+
+
+
+
+
+- RE : (Bad) BUZZ et désinformation autour du remboursement de la galette des rois sans gluten (2026) — https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html
+
 
 
 Tous les articles : https://www.nicolasjouanno.com/posts.html
@@ -42,8 +54,8 @@ Tous les articles : https://www.nicolasjouanno.com/posts.html
 ## Projets personnels
 
 - vtt.bzh — calendrier communautaire VTT en Bretagne : https://vtt.bzh/
-- nicolasjouanno.com — site personnel, terrain d'expérimentation UX et web minimaliste
-- Systèmes agentiques — side project d'exploration (orchestration d'agents, patterns documentés au fil des articles)
+- feezify — copilote d'entraînement IA-native, construit à partir d'un ancien carnet d'entraînement
+- nicolasjouanno.com — site personnel outdoor et slow web
 
 ## Auteur
 

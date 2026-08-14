@@ -6,10 +6,10 @@
   "orientation": "portrait-primary",
   "background_color": "#ffffff",
   "theme_color": "#000000",
-  "description": "",
+  "description": "Site personnel de Nicolas Jouanno — ancien cycliste professionnel, sportif outdoor en Bretagne. VTT, trail, nutrition d'endurance, sans gluten, récits de sorties et outils utiles.",
   "lang": "fr",
   "scope": "/",
-  "categories": ["lifestyle", "sports", "technology"],
+  "categories": ["sports", "lifestyle", "health"],
   "icons": [
     {
       "src": "/images/icons/icon-72.webp",
