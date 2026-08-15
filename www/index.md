@@ -1,7 +1,7 @@
 ---
 title: "100% VTT, trail, sans gluten — récits, guides & outils outdoor"
 layout: page
-description: "Ancien cycliste professionnel passé aux sentiers, parent d'un enfant cœliaque. Des récits de sorties, des guides qui marchent et des outils que j'utilise vraiment."
+description: "Ancien cycliste professionnel, je voyage en van en famille à travers l'Europe, avec VTT et trail au programme. Récits, guides et outils outdoor depuis Pontivy."
 permalink: /index.html
 breadcrumb_hide: true
 signature: true
@@ -9,12 +9,14 @@ signature: true
 
 <hgroup class="u-text--center">
   <h1><span class="u-visually-hidden">{{ site.title }}. </span>100% VTT, trail, sans gluten</h1>
-  <p>Salut, moi c'est Nicolas. Je partage mon expérience outdoor à travers les récits, guides et outils dont je suis l'auteur.</p>
+  <p>Salut, moi c'est Nicolas. J'écris sur le VTT, le trail et le sans gluten à partir de ce que je pratique et construis.</p>
 </hgroup>
 
 <p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
 
-Avant l'écran, il y a eu le vélo : [cycliste professionnel]({{ site.url }}/me/results.html) chez Bretagne Schuller, cinq championnats de France, puis une blessure qui m'a mis hors course. J'ai quitté le bitume pour les sentiers, en famille — VTT, trail, l'Europe en van. Ce site part de là : du sport vécu, des sorties qui laissent une trace, et des outils construits parce qu'ils me servent vraiment. Le tout depuis Pontivy, en Bretagne.
+Avant les voyages, il y a eu le vélo. J'ai été [cycliste professionnel]({{ site.url }}/me/results.html) chez Bretagne Schuller et j'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à arrêter.
+
+Aujourd'hui, les vacances en van en famille, à travers l'Europe, donnent le tempo. Le VTT et le trail se glissent dans les étapes, entre deux lieux et deux sorties. J'écris ici à partir de ce vécu, depuis Pontivy, en Bretagne.
 
 <p><a href="/me/" class="c-button c-button--dark-outline">Mon parcours →</a></p>
 
@@ -22,7 +24,7 @@ Avant l'écran, il y a eu le vélo : [cycliste professionnel]({{ site.url }}/me/
 
 <!-- TODO copywriter (D-2026-06-11-001) — reprend l'axe FORMAT du header -->
 
-- **[Récits](/recits.html)** — ce qui s'est réellement passé, à la première personne : une Megavalanche, un premier trail, un premier 10 km.
+- **[Récits](/recits.html)** — ce qui s'est réellement passé, à la première personne : des souvenirs de cycliste professionnel, une Megavalanche, un premier trail.
 - **[Guides](/guides.html)** — comment faire : régler ses suspensions, bâtir un plan d'entraînement, manger avant l'effort.
 - **[Outils](/outils.html)** — le calendrier vtt.bzh, feezify, le quiz gluten.
 
