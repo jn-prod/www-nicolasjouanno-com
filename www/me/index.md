@@ -48,6 +48,11 @@ Depuis 2008, je publie sur **mon propre site**, pas sur une plateforme louée �
       </a>
     </li>
     <li>
+      <a href="{{ site.author.threads }}" class="c-button c-button--icon c-button--large" aria-label="Threads — @bynicolasjd" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/threads.svg %}</span>
+      </a>
+    </li>
+    <li>
       <a href="{{ site.author.youtube }}" class="c-button c-button--icon c-button--large" aria-label="YouTube — @byNicolasJD" target="_blank" rel="noopener">
         <span class="c-icon">{% include icons/youtube.svg %}</span>
       </a>
