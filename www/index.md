@@ -16,7 +16,7 @@ signature: true
 
 Le vélo a d'abord donné le rythme. J'ai été [cycliste professionnel]({{ site.url }}/me/results.html) chez Bretagne Schuller et j'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à arrêter.
 
-Aujourd'hui, je ralentis. Avec ma famille, nous parcourons l'Europe en van au rythme des vacances. Le VTT et le trail font partie des étapes, au plus près des sentiers.
+Aujourd'hui, je ralentis. Avec ma famille, nous parcourons l'Europe en van au rythme des vacances. Le VTT, la randonnée et le trail font partie des étapes, au plus près des sentiers.
 
 Ici, je partage ce que ces sorties et ces voyages me laissent : des récits, des guides et les outils que je construis lorsqu'ils répondent à un besoin concret. Le tout depuis Pontivy, en Bretagne.
 
