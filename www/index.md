@@ -14,9 +14,7 @@ signature: true
 
 <p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
 
-Avant les voyages, il y a eu le vélo. J'ai été [cycliste professionnel]({{ site.url }}/me/results.html) chez Bretagne Schuller et j'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à arrêter.
-
-Aujourd'hui, les vacances en van en famille, à travers l'Europe, donnent le tempo. Le VTT et le trail se glissent dans les étapes, entre deux lieux et deux sorties. J'écris ici à partir de ce vécu, depuis Pontivy, en Bretagne.
+Le vélo a d'abord donné le rythme : [cycliste professionnel]({{ site.url }}/me/results.html) chez Bretagne Schuller, cinq championnats de France, puis une blessure qui m'a mis hors course. J'ai quitté le bitume pour les sentiers : VTT, trail et l'Europe en van en famille. Ce site part de là : du sport vécu, des sorties qui laissent une trace, et des outils construits parce qu'ils me servent vraiment. Le tout depuis Pontivy, en Bretagne.
 
 <p><a href="/me/" class="c-button c-button--dark-outline">Mon parcours →</a></p>
 
