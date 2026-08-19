@@ -55,7 +55,7 @@ Ici, pas d'algorithme, pas de pub, pas de pistage. **Vous choisissez comment et 
 
 Ce site reste mon archive de référence. Substack sert à retrouver mes récits dans un format public et à être notifié des prochaines publications.
 
-<aside id="follow" class="c-card c-card--flat c-card--medium">
+<aside id="follow" class="c-card c-card--neutral c-card--medium">
   <h2>📬 Suivre mes publications</h2>
   <p>Je republie progressivement mes récits sur Substack. Suivez-moi là-bas pour être notifié des nouveaux textes ; ce site reste leur archive de référence.</p>
   {% include /plugins/newsletter.html %}
