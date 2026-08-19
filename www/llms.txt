@@ -24,7 +24,7 @@ Thèmes principaux :
 - {{ verticale.label }} : {{ verticale.llms_description }}
 {%- endif %}
 {%- endfor %}
-- Slow web : publication possédée, sans publicité ni pistage
+- Slow web : publication possédée, sans publicité ni profilage publicitaire
 
 ## Positionnement du site
 

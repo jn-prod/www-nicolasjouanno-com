@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Posts
+title: Articles
 description: "Tous mes articles, filtrables par format (récits, guides) et par thème (VTT, trail, nutrition, projets, life)."
 permalink: "/posts.html"
 ---
 
-# Posts
+# Articles
 
 <div id="post-filters" class="u-flex u-flex--tight u-spacing--block-end-medium" role="group" aria-label="Filtrer par format ou par thème">
   <button type="button" class="c-button c-button--dark" data-filter="all" aria-pressed="true">Tous</button>

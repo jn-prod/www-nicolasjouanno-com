@@ -64,9 +64,6 @@
   }
 
   @media screen and (width <= 90rem) {
-    &__footer {
-      padding-bottom: var(--size-64) !important;
-    }
     &__header {
       --section-spacing: var(--size-16);
     }

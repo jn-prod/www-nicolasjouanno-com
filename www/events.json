@@ -12,7 +12,7 @@ permalink: /events.json
   "author": {
     "name": "{{ site.author.name | escape }}",
     "url": "{{ site.url }}",
-    "avatar": "{{ site.url }}/{{ site.author.avatar }}"
+    "avatar": "{{ site.author.avatar | absolute_url }}"
   },
   "items": [
     {% assign events_sorted = site.events | sort: "start" %}

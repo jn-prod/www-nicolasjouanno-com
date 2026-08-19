@@ -50,12 +50,8 @@
       .c-navigation__link-list {
         border-top: var(--border);
         flex-direction: row;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        z-index: 10;
-        background-color: var(--color-light);
-        padding: var(--size-8) 0;
+        justify-content: center;
+        padding-top: var(--size-8);
         gap: var(--size-8);
 
         .c-button {

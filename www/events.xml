@@ -22,7 +22,7 @@ permalink: /events.xml
       <link>{{ site.url }}{{ event.url }}</link>
       <guid isPermaLink="true">{{ site.url }}{{ event.url }}</guid>
       <description><![CDATA[
-        📅 {{ event.start | date: "%d %B %Y" }}{% if event.end %} → {{ event.end | date: "%d %B %Y" }}{% endif %}<br>
+        📅 {{ event.start | date: "%d/%m/%Y" }}{% if event.end %} au {{ event.end | date: "%d/%m/%Y" }}{% endif %}<br>
         📍 {{ event.location }}<br>
         {{ event.description }}
       ]]></description>

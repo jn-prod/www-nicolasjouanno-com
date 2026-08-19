@@ -4,7 +4,6 @@ layout: page
 description: "Ancien cycliste professionnel, je voyage en van en famille à travers l'Europe, avec VTT et trail au programme. Récits, guides et outils outdoor depuis Pontivy."
 permalink: /index.html
 breadcrumb_hide: true
-signature: true
 ---
 
 <hgroup class="u-text--center">
@@ -14,13 +13,13 @@ signature: true
 
 <p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
 
-Le vélo a d'abord donné le rythme. J'ai été [cycliste professionnel]({{ site.url }}/me/results.html) chez Bretagne Schuller et j'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à arrêter.
+Le vélo a d'abord donné le rythme. J'ai été [cycliste professionnel]({{ site.url }}/me/results.html?utm_source=home&utm_medium=proof&utm_campaign=site_hub) chez Bretagne Schuller et j'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à arrêter.
 
 Aujourd'hui, je ralentis. Avec ma famille, nous parcourons l'Europe en van au rythme des vacances. Le VTT, la randonnée et le trail font partie des étapes, au plus près des sentiers.
 
 Ici, je partage ce que ces sorties et ces voyages me laissent : des récits, des guides et les outils que je construis lorsqu'ils répondent à un besoin concret. Le tout depuis Pontivy, en Bretagne.
 
-<p><a href="/me/" class="c-button c-button--dark-outline">Mon parcours →</a></p>
+<p><a href="/me/?utm_source=home&utm_medium=proof&utm_campaign=site_hub" class="c-button c-button--dark-outline">Mon parcours →</a></p>
 
 ## Accès directs
 
@@ -50,13 +49,13 @@ Toutes les randos VTT organisées en Bretagne, tenues à jour par les clubs eux-
 
 ## 🌱 Esprit slow web
 
-Ici, pas d'algorithme, pas de pub, pas de pistage. **Vous choisissez comment et quand me suivre.** Votre attention n'est pas un produit que je revends : c'est un temps que vous me donnez. Je le respecte.
+Ici, pas d'algorithme, pas de publicité ni de profilage publicitaire. **Vous choisissez comment et quand me suivre.** Votre attention n'est pas un produit que je revends : c'est un temps que vous me donnez. Je le respecte.
 
-Ce site reste mon archive de référence. Substack sert à retrouver mes récits dans un format public et à être notifié des prochaines publications.
+Ce site reste mon archive de référence. Substack en propose une copie publique complète et permet d'être notifié des prochaines publications.
 
 <aside id="follow" class="c-card c-card--neutral c-card--medium">
   <h2>📬 Suivre mes publications</h2>
-  <p>Je republie progressivement mes récits sur Substack. Suivez-moi là-bas pour être notifié des nouveaux textes ; ce site reste leur archive de référence.</p>
+  <p>Les 47 publications de cette archive sont aussi disponibles sur Substack. Suivez-moi là-bas pour être notifié des nouveaux textes ; ce site reste leur source de référence.</p>
   {% include /plugins/newsletter.html %}
   <h3>📝 Derniers articles</h3>
   <ul class="u-list">

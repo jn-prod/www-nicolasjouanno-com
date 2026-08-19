@@ -54,6 +54,7 @@ $variants: 'primary', 'secondary', 'dark', 'light';
 
 .c-button--icon {
   --icon-size: calc(1em * var(--line-height));
+
   padding: var(--size-8);
   border-radius: 50%;
   width: calc(var(--icon-size) + 2 * var(--size-8));
@@ -65,7 +66,7 @@ $variants: 'primary', 'secondary', 'dark', 'light';
   .c-icon {
     width: var(--icon-size);
     height: var(--icon-size);
-    fill: currentColor;
+    fill: currentcolor;
   }
 
   &:hover,

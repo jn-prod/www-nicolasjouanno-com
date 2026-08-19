@@ -22,7 +22,7 @@ Le palmarès ci-dessous, c'est l'avant. Ce que je fais maintenant se lit dans le
 **Le projet :** [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — calendrier des randos VTT en Bretagne, 12 000 vues/mois.
 
 <aside class="c-card c-card--neutral c-card--large">
-  <p>Le sport et l'outdoor vous parlent ? Retrouvez mes récits sur Substack et suivez les prochaines publications.</p>
+  <p>Le sport et l'outdoor vous parlent ? Retrouvez mes publications sur Substack et suivez les prochaines.</p>
   {% include /plugins/newsletter.html %}
 </aside>
 

@@ -22,7 +22,9 @@ webmaster_verifications:
 
 # author
 author:
-  name: "Nicolas JOUANNO DANIEL"
+  name: "Nicolas Jouanno"
+  legal_name: "Nicolas JOUANNO DANIEL"
+  avatar: "/images/nicolas-jouanno.webp"
   location: "Pontivy, Bretagne, France"
   country: "France"
   email: "contact@nicolasjouanno.com"
@@ -51,6 +53,7 @@ author:
   steam: # "steamId" (the last part of your profile   url, e.g. https://steamcommunity.com/id/steamId/)
   strava: "https://www.strava.com/athletes/njouanno"
   substack: "https://substack.com/@bynicolasjd"
+  substack_cta: "https://substack.com/@bynicolasjd?utm_source=www-nicolasjouanno-com&utm_medium=hub&utm_campaign=site_hub"
   tumblr:
   twitter: "https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=hub"
   wikipedia: "https://fr.wikipedia.org/wiki/Nicolas_Jouanno"
@@ -60,10 +63,10 @@ author:
 projects:
   vtt_bzh:
     name: "vtt.bzh"
-    url: "https://www.vtt.bzh/?utm_source=www-nicolasjouanno-com&utm_medium=hub"
+    url: "https://www.vtt.bzh/?utm_source=www-nicolasjouanno-com&utm_medium=hub&utm_campaign=site_hub"
     # Le permalink réel est /calendrier/ajouter.html (le fichier source s'appelle ajouter.html).
     # /ajouter.html renvoie 404 — vérifié 2026-07-20.
-    ajouter_url: "https://www.vtt.bzh/calendrier/ajouter.html?utm_source=www-nicolasjouanno-com&utm_medium=hub"
+    ajouter_url: "https://www.vtt.bzh/calendrier/ajouter.html?utm_source=www-nicolasjouanno-com&utm_medium=hub&utm_campaign=site_hub&utm_content=ajouter_rando"
     github: "https://github.com/jn-prod/www-vtt-bzh"
 
 # collections
@@ -117,5 +120,10 @@ tag_archive:
 markdown: kramdown
 highlighter: rouge
 future: false
+exclude:
+  - CHANGELOG.md
+  - eslint.config.mjs
+  - package.json
+  - scripts
 sass:
   style: compressed

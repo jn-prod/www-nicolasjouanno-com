@@ -8,7 +8,8 @@ permalink: /me/
 # Mon parcours
 
 <!-- TODO copywriter (D-2026-06-11-001) — chapô de travail ci-dessous -->
-Le reste du site raconte *ce que je fais*. Cette page raconte *qui le fait*.
+
+Le reste du site raconte _ce que je fais_. Cette page raconte _qui le fait_.
 
 ## 📍 Identité {#identite}
 
@@ -32,11 +33,11 @@ Cinq championnats de France, des courses 2.1 et 2.2, deux saisons professionnell
 
 ## 💻 Slow web {#slow-web}
 
-Depuis 2008, je publie sur **mon propre site** — parce qu'un site qu'on possède est un **coffre** : il ne disparaît pas le jour où une plateforme ferme ou change son algorithme. C'est le **slow web** : un web à vitesse humaine, durable, sans pub ni pistage. Le site reste l'archive de référence ; Substack en propose une porte d'entrée publique pour suivre mes publications.
+Depuis 2008, je publie sur **mon propre site** — parce qu'un site qu'on possède est un **coffre** : il ne disparaît pas le jour où une plateforme ferme ou change son algorithme. C'est le **slow web** : un web à vitesse humaine, durable, sans publicité ni profilage publicitaire. Le site reste l'archive de référence ; Substack en propose une porte d'entrée publique pour suivre mes publications.
 
 <aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
   <h2>Suivre</h2>
-  <p>Retrouvez mes récits sur Substack et suivez les prochaines publications.</p>
+  <p>Retrouvez l'ensemble de mes publications sur Substack et suivez les prochaines.</p>
   {% include /plugins/newsletter.html %}
 </aside>
 

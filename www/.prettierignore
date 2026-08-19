@@ -1,2 +1,16 @@
 _site
 sitemap.html
+_posts
+_includes
+_layouts
+apps/gluten-not-gluten/index.html
+events.json
+feed.json
+feezify.html
+manifest.json
+nutrition/index.md
+nutrition/sans-gluten.md
+outils.md
+projets/index.md
+trail/index.md
+vtt/index.md

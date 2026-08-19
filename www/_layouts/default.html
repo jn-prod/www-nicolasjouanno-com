@@ -145,7 +145,7 @@
       property="og:type"
       content="{% if page.layout == 'post' %}article{% else %}website{% endif %}"
     />
-    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:locale" content="fr_FR" />
     {% if page.layout == 'post' %}
@@ -213,7 +213,9 @@
           "description": {{ page.description | jsonify }},
           "startDate": "{{ page.start | date_to_xmlschema }}",
           "endDate": "{{ page.end | default: page.start | date_to_xmlschema }}",
-          "eventStatus": "https://schema.org/EventScheduled",
+          {% assign event_end_timestamp = page.end | default: page.start | date: "%s" | plus: 0 %}
+          {% assign current_timestamp = site.time | date: "%s" | plus: 0 %}
+          "eventStatus": "https://schema.org/{% if event_end_timestamp < current_timestamp %}EventCompleted{% else %}EventScheduled{% endif %}",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
           "location": {
             "@type": "Place",
@@ -311,7 +313,8 @@
             "{{ site.author.strava | split: '?' | first }}",
             "{{ site.author.instagram | split: '?' | first }}",
             "{{ site.author.threads | split: '?' | first }}",
-            "{{ site.author.youtube | split: '?' | first }}"
+            "{{ site.author.youtube | split: '?' | first }}",
+            "{{ site.author.substack | split: '?' | first }}"
           ]
         {% endif %}
       }
