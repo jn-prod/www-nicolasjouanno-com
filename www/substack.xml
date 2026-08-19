@@ -10,14 +10,15 @@ sitemap: false
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <language>fr</language>
-    <title>{{ site.title | xml_escape }} — archive complète</title>
-    <description>Archive intégrale des publications de nicolasjouanno.com.</description>
+    <title>{{ site.title | xml_escape }} — publications</title>
+    <description>Publications de nicolasjouanno.com retenues pour Substack.</description>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/substack.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
 
-    {% for post in site.posts %}
+    {% assign substack_posts = site.posts | where_exp: "post", "post.archive != true" %}
+    {% for post in substack_posts %}
       {% include substack-import-item.xml post=post %}
     {% endfor %}
   </channel>
