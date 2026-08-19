@@ -29,7 +29,6 @@ Ici, je partage ce que ces sorties et ces voyages me laissent : des récits, des
 - **[Récits](/recits.html)** — ce qui s'est réellement passé, à la première personne : des souvenirs de cycliste professionnel, une Megavalanche, un premier trail.
 - **[Guides](/guides.html)** — comment faire : régler ses suspensions, bâtir un plan d'entraînement, manger avant l'effort.
 - **[Outils](/outils.html)** — le calendrier vtt.bzh, feezify, le quiz gluten.
-- **[Substack]({{ site.author.substack }})** — mes récits dans un format public à suivre.
 
 ## Ce dont je parle
 
