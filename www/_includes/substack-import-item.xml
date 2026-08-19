@@ -1,0 +1,25 @@
+<item>
+  <title>{{ include.post.title | xml_escape }}</title>
+  <description><![CDATA[
+    <p>{{ include.post.excerpt | strip_html | truncatewords: 80 }}</p>
+    <p><a href="{{ site.url }}{{ include.post.url }}">Lire le récit complet sur nicolasjouanno.com →</a></p>
+  ]]></description>
+  <content:encoded><![CDATA[
+    <p><em>Ce récit a été publié initialement le {{ include.post.date | date: "%d/%m/%Y" }} sur nicolasjouanno.com.</em></p>
+    <p>{{ include.post.excerpt | strip_html | truncatewords: 80 }}</p>
+    <p><strong><a href="{{ site.url }}{{ include.post.url }}">Lire le récit complet sur nicolasjouanno.com →</a></strong></p>
+  ]]></content:encoded>
+  <pubDate>{{ include.post.date | date_to_rfc822 }}</pubDate>
+  <link>{{ include.post.url | prepend: site.url }}</link>
+  <guid isPermaLink="true">{{ include.post.url | prepend: site.url }}</guid>
+  <dc:creator>{{ site.author.name | xml_escape }}</dc:creator>
+  {% if include.post.images.size > 0 %}
+  <enclosure url="{{ site.url }}{{ include.post.images[0] }}" type="image/webp"/>
+  {% endif %}
+  {% for tag in include.post.tags %}
+  <category>{{ tag | xml_escape }}</category>
+  {% endfor %}
+  {% for cat in include.post.categories %}
+  <category>{{ cat | xml_escape }}</category>
+  {% endfor %}
+</item>
