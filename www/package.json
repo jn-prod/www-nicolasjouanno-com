@@ -8,7 +8,7 @@
     "check:positioning": "ruby scripts/check-positioning.rb",
     "sync:icons": "mkdir -p ./_includes/icons && cp ../packages/images/dist/icons/*.svg ./_includes/icons/",
     "build:packages": "pnpm build:packages:images",
-    "build:packages:images": "cp -r ../packages/images/dist ./_site/images",
+    "build:packages:images": "cp -r ../packages/images/dist ./_site/images && ruby scripts/copy-legacy-image-aliases.rb",
     "lint": "pnpm lint:es && pnpm lint:stylelint && pnpm lint:prettier",
     "lint:fix": "pnpm lint:es:fix && pnpm lint:stylelint:fix && pnpm lint:prettier:fix",
     "lint:stylelint": "stylelint \"./_sass/**/*.scss\"",
