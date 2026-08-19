@@ -89,13 +89,6 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
 
 {% include components/hub-list.html category="Work" archive_url="/posts.html#work" %}
 
-## Newsletter — dev, accessibilité & IA
-
-<aside class="c-card c-card--neutral c-card--large">
-  <p>J'écris sur le design system, l'accessibilité RGAA et les systèmes IA agentiques. Pour recevoir les prochains write-ups :</p>
-  {% include /plugins/newsletter-pro.html %}
-</aside>
-
 <div class="u-text--center">
   <ul class="u-flex u-flex--center u-list">
     <li>
