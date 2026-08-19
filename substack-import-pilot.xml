@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <language>fr</language>
+    <title>Nicolas Jouanno — pilote Substack</title>
+    <description>Extrait pilote d'un récit publié sur nicolasjouanno.com.</description>
+    <link>https://www.nicolasjouanno.com/recits.html</link>
+    <atom:link href="https://www.nicolasjouanno.com/substack-import-pilot.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Wed, 19 Aug 2026 08:20:20 +0000</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+
+    
+    <item>
+  <title>Retrouver le fil - pourquoi je recentre tout sur un seul site</title>
+  <description><![CDATA[
+    <p>Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.
+</p>
+    <p><a href="https://www.nicolasjouanno.com/Retrouver-le-fil.html">Lire le récit complet sur nicolasjouanno.com →</a></p>
+  ]]></description>
+  <content:encoded><![CDATA[
+    <p><em>Ce récit a été publié initialement le 17/09/2025 sur nicolasjouanno.com.</em></p>
+    <p>Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.
+</p>
+    <p><strong><a href="https://www.nicolasjouanno.com/Retrouver-le-fil.html">Lire le récit complet sur nicolasjouanno.com →</a></strong></p>
+  ]]></content:encoded>
+  <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+  <link>https://www.nicolasjouanno.com/Retrouver-le-fil.html</link>
+  <guid isPermaLink="true">https://www.nicolasjouanno.com/Retrouver-le-fil.html</guid>
+  <dc:creator>Nicolas JOUANNO DANIEL</dc:creator>
+  
+  
+  <category>minimalisme</category>
+  
+  <category>tech</category>
+  
+  <category>creation</category>
+  
+  
+  <category>Life</category>
+  
+</item>
+
+  </channel>
+</rss>
