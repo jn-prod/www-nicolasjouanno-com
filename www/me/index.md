@@ -32,11 +32,11 @@ Cinq championnats de France, des courses 2.1 et 2.2, deux saisons professionnell
 
 ## 💻 Slow web {#slow-web}
 
-Depuis 2008, je publie sur **mon propre site**, pas sur une plateforme louée — parce qu'un site qu'on possède est un **coffre** : il ne disparaît pas le jour où une plateforme ferme ou change son algorithme. C'est le **slow web** : un web à vitesse humaine, durable, sans pub ni pistage. Pas d'algorithme entre nous, pas de pistage. Tout part d'ici et y reste.
+Depuis 2008, je publie sur **mon propre site** — parce qu'un site qu'on possède est un **coffre** : il ne disparaît pas le jour où une plateforme ferme ou change son algorithme. C'est le **slow web** : un web à vitesse humaine, durable, sans pub ni pistage. Le site reste l'archive de référence ; Substack en propose une porte d'entrée publique pour suivre mes publications.
 
 <aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
   <h2>Suivre</h2>
-  <p>Sorties, guides, coulisses de projets — je le raconte au fil de l'eau dans ma newsletter. Un email quand je publie, pas plus.</p>
+  <p>Retrouvez mes récits sur Substack et suivez les prochaines publications.</p>
   {% include /plugins/newsletter.html %}
 </aside>
 

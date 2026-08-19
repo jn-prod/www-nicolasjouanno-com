@@ -5,7 +5,7 @@ layout: page
   Template des pages HUB (format & verticale). Structure imposée, cohérente :
     1. contenu libre           → {{ content }} (intro + callouts propres à la page)
     2. liste d'articles filtrée → hub-list, filtre AUTO ou via frontmatter
-    3. carte newsletter         → standardisée, texte surchargeable
+    3. carte de suivi Substack  → standardisée, texte surchargeable
 
   Résolution du filtre (priorité au frontmatter explicite, sinon auto depuis le
   permalink via _data/taxonomie.yml — source unique) :
@@ -37,6 +37,6 @@ layout: page
 {%- endif -%}
 
 <aside class="c-card c-card--neutral c-card--large">
-  <p>{{ page.newsletter_text | default: "Un email quand je publie un nouvel article, pas plus. Sans spam." }}</p>
+  <p>{{ page.newsletter_text | default: "Retrouvez aussi mes publications sur Substack et suivez-les dans un format public." }}</p>
   {% include /plugins/newsletter.html %}
 </aside>
