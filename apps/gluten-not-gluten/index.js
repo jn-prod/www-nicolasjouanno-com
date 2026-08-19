@@ -49,6 +49,8 @@ function startQuiz(difficulty) {
   document.getElementById("totalQuestions").textContent = cards.length;
   document.getElementById("quizProgress").max = cards.length;
   document.getElementById("quizProgress").value = 0;
+  document.getElementById("currentScore").textContent = "0";
+  document.getElementById("streak").textContent = "0";
 
   renderQuestion();
 }
@@ -120,8 +122,17 @@ function shareFacebook() {
 }
 
 function restartQuiz() {
+  state = INITIAL_STATE;
   document.querySelectorAll('input[name="difficulty"]').forEach(r => r.checked = false);
+  document.querySelectorAll(".c-quiz__question-card").forEach(card => {
+    card.hidden = true;
+    card.disabled = false;
+  });
   document.querySelectorAll(".c-quiz__result-message").forEach(el => el.hidden = true);
+  document.getElementById("currentQuestion").textContent = "1";
+  document.getElementById("currentScore").textContent = "0";
+  document.getElementById("streak").textContent = "0";
+  document.getElementById("quizProgress").value = 0;
   document.getElementById("resultScreen").hidden = true;
   document.getElementById("startScreen").hidden = false;
 }

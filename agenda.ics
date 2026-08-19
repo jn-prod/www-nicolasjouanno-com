@@ -6,22 +6,22 @@ METHOD:PUBLISH
 
 BEGIN:VEVENT
 UID:meetup-accessibilite@nicolasjouanno.com
-DTSTAMP:20260819T095356Z
+DTSTAMP:20260819T152731Z
 DTSTART:20250826T180000
 DTEND:20250826T190000
 SUMMARY:Meetup chez LocService / Sujet WebComponents et l’accessibilité
-DESCRIPTION:Preview de la conférence sur l’accessibilité et les web components qui sera donnée a Paris-Web.
+DESCRIPTION:Présentation préparatoire à la conférence Paris Web sur l’accessibilité et les Web Components.
 LOCATION:Vannes, France
 URL:https://www.nicolasjouanno.com/events/meetup-accessibilite.html
 END:VEVENT
 
 BEGIN:VEVENT
 UID:paris-web-2025@nicolasjouanno.com
-DTSTAMP:20260819T095356Z
+DTSTAMP:20260819T152731Z
 DTSTART:20250925T090000
 DTEND:20250926T180000
 SUMMARY:Paris Web 2025
-DESCRIPTION:Conférence sur l’accessibilité et les web components.
+DESCRIPTION:Conférence Paris Web 2025 sur l’accessibilité et les Web Components.
 LOCATION:Paris, France
 URL:https://www.nicolasjouanno.com/events/paris-web-2025.html
 END:VEVENT

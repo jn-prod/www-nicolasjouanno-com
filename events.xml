@@ -4,11 +4,11 @@
   <channel>
     <title>Agenda — Nicolas Jouanno</title>
     <link>https://www.nicolasjouanno.com/agenda/</link>
-    <description>Événements et participations de Nicolas JOUANNO DANIEL</description>
+    <description>Événements et participations de Nicolas Jouanno</description>
     <language>fr</language>
     <atom:link href="https://www.nicolasjouanno.com/events.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Aug 2026 09:53:56 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2026 09:53:56 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Aug 2026 15:27:31 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Aug 2026 15:27:31 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
 
     
@@ -18,9 +18,9 @@
       <link>https://www.nicolasjouanno.com/events/meetup-accessibilite.html</link>
       <guid isPermaLink="true">https://www.nicolasjouanno.com/events/meetup-accessibilite.html</guid>
       <description><![CDATA[
-        📅 26 August 2025 → 26 August 2025<br>
+        📅 26/08/2025 au 26/08/2025<br>
         📍 Vannes, France<br>
-        Preview de la conférence sur l’accessibilité et les web components qui sera donnée a Paris-Web.
+        Présentation préparatoire à la conférence Paris Web sur l’accessibilité et les Web Components.
       ]]></description>
       <pubDate>Tue, 26 Aug 2025 18:00:00 +0000</pubDate>
     </item>
@@ -30,9 +30,9 @@
       <link>https://www.nicolasjouanno.com/events/paris-web-2025.html</link>
       <guid isPermaLink="true">https://www.nicolasjouanno.com/events/paris-web-2025.html</guid>
       <description><![CDATA[
-        📅 25 September 2025 → 26 September 2025<br>
+        📅 25/09/2025 au 26/09/2025<br>
         📍 Paris, France<br>
-        Conférence sur l’accessibilité et les web components.
+        Conférence Paris Web 2025 sur l’accessibilité et les Web Components.
       ]]></description>
       <pubDate>Thu, 25 Sep 2025 09:00:00 +0000</pubDate>
     </item>
