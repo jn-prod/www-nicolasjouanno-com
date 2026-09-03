@@ -3,7 +3,7 @@
     <span class="c-quiz__question-emoji" aria-hidden="true">{{ include.question.emoji }}</span>
     {{ include.question.text }}
   </legend>
-  <div class="c-quiz__answer-buttons u-flex u-flex--fill">
+  <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
     <input type="radio" id="answerGluten-{{ include.index }}" class="u-visually-hidden" name="answer-{{ include.index }}" value="true">
     <label for="answerGluten-{{ include.index }}" class="c-button c-button--dark-outline">Contient du gluten</label>
     <input type="radio" id="answerNoGluten-{{ include.index }}" class="u-visually-hidden" name="answer-{{ include.index }}" value="false">

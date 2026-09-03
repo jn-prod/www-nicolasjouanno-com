@@ -25,7 +25,7 @@ Je crée et publie sur le web depuis plus de vingt ans. Je ne l'ai jamais fait s
 
 Le vélo reste mon premier langage. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d'une question très simple : où rouler dimanche ? [feezify](/feezify.html) prolonge une autre part de cette histoire, mon carnet d'entraînement, pour mieux comprendre la charge et le ressenti. Le trail est arrivé après le vélo, avec le plaisir de recommencer comme débutant.
 
-<p>
+<p class="c-button-stack">
   <a href="/vtt/" class="c-button c-button--dark-outline">VTT →</a>
   <a href="/trail/" class="c-button c-button--dark-outline">Trail →</a>
 </p>
@@ -55,9 +55,3 @@ Le van est le décor qui rassemble le reste : parcourir l'Europe en famille, tro
 </ul>
 
 <p><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications →</a></p>
-
-<aside id="follow" class="c-card c-card--neutral c-card--medium">
-  <h2>📬 {{ site.follow.title }}</h2>
-  <p>{{ site.follow.text }}</p>
-  {% include /plugins/newsletter.html %}
-</aside>

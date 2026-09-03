@@ -6,11 +6,6 @@ lang: "fr"
 logo: "/images/icons/avatar.svg"
 og_image: "/og/og-default.png" # carte sociale raster 1200x630 (hors pipeline images → survit au build ; SVG/WebP non rendus par les réseaux sociaux)
 
-# Promesse de suivi partagée par les pages et les articles.
-follow:
-  title: "Continuer le chemin"
-  text: "VTT, trail, sans gluten et vie en van : recevez mes prochaines publications par email."
-
 # Waiting list — avant-première de mon agent IA d'entraînement (feezify). Form kit.com dédié : _includes/plugins/waitlist.html.
 # Un post l'active avec `waitlist: true` (copie ci-dessous) ; override possible via `waitlist: {title, text}`.
 waitlist:

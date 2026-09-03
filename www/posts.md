@@ -7,7 +7,7 @@ permalink: "/posts.html"
 
 # Articles
 
-<div id="post-filters" class="u-flex u-flex--tight u-spacing--block-end-medium" role="group" aria-label="Filtrer par thème">
+<div id="post-filters" class="c-button-stack u-spacing--block-end-medium" role="group" aria-label="Filtrer par thème">
   <button type="button" class="c-button c-button--dark" data-filter="all" aria-pressed="true">Tous</button>
   {%- for v in site.data.taxonomie.verticales -%}
     {%- if v.visible_footer -%}

@@ -68,6 +68,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_button.scss` | `.c-button--{variant}-outline` | Variantes contour |
 | `_button.scss` | `.c-button--fullwidth` | Pleine largeur — passe en `display: flex` |
 | `_button.scss` | `.c-button[disabled]` | État désactivé — `opacity: 0.8`, `cursor: not-allowed` |
+| `_button-stack.scss` | `.c-button-stack` + `--vertical` / `--center` / `--fill` | Groupe d'actions avec un gap horizontal et vertical de 4 px, y compris au retour à la ligne |
 | `_progress.scss` | `.c-progress` | Barre de progression native stylisée (`display: block`) |
 | `_stat.scss` | `.c-stat` + `.c-stat--{bar\|list}` | Statistiques — **layout seul** (skin via `.c-card`) ; `--bar` (KPI horizontaux), `--list` (lignes label/valeur). Éléments `__label`/`__value` communs |
 | `_card.scss` | `.c-card` | **Skin réutilisable** : fond, bordure, border-radius, spacing. Toute surface à fond/bordure passe par là |
@@ -82,16 +83,6 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_quiz.scss` | `.c-quiz` | Layout spécifique au quiz — surcouche contextuelle uniquement |
 
 > **Règle — fonds colorés = `.c-card`.** Aucun composant ne porte son propre `background` / `border` / `border-radius` / `padding` : ce skin est centralisé dans `.c-card`. Un composant à fond coloré compose `c-card c-card--{variant} c-card--{size}` et ne garde que son layout/typo. Si le contenu est un encart centré (titre + texte + CTA), ajouter `.c-callout`.
->
-> **Règle — newsletter / « Me suivre ».** L'include `{% include /plugins/newsletter.html %}` ne contient **que le formulaire**. C'est le **bloc parent** (la section titre + accroche + formulaire) qui est la card — pas l'include :
-> ```html
-> <aside class="c-card c-card--neutral c-card--large">
->   <h2>…</h2>
->   <p>…accroche…</p>
->   {% include /plugins/newsletter.html %}
-> </aside>
-> ```
-> Le titre vit **dans** la card (jamais au-dessus). Variante `neutral` (gris doux).
 >
 > **Règle — radius proportionnel à la taille.** Le `border-radius` n'est jamais codé en dur sur un composant : il découle de `.c-card--{size}` via `--card-radius` (`small` 4, `medium` 8, `large` 16). Le radius `large` (16) = celui des images de contenu, pour un arrondi cohérent entre cards et médias.
 >

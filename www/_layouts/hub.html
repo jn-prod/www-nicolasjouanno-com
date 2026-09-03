@@ -5,7 +5,6 @@ layout: page
   Template des pages HUB (format & verticale). Structure imposée, cohérente :
     1. contenu libre           → {{ content }} (intro + callouts propres à la page)
     2. liste d'articles filtrée → hub-list, filtre AUTO ou via frontmatter
-    3. carte de suivi Substack  → promesse partagée depuis _config.yml
 
   Résolution du filtre (priorité au frontmatter explicite, sinon auto depuis le
   permalink via _data/taxonomie.yml — source unique) :
@@ -35,9 +34,3 @@ layout: page
 {%- else -%}
   <!-- hub.html : aucun filtre résolu (ni frontmatter hub_format/hub_verticale, ni permalink connu dans taxonomie.yml) — liste omise -->
 {%- endif -%}
-
-<aside class="c-card c-card--neutral c-card--large">
-  <h2>{{ site.follow.title }}</h2>
-  <p>{{ site.follow.text }}</p>
-  {% include /plugins/newsletter.html %}
-</aside>

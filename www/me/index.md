@@ -35,14 +35,8 @@ Cinq championnats de France, des courses 2.1 et 2.2, deux saisons professionnell
 
 Je crée sur le web depuis plus de vingt ans et je publie sur **mon propre site** depuis 2008 — sans régularité forcée, mais avec l'envie de conserver ce qui compte. Un site que l'on possède est un **coffre** : il ne disparaît pas le jour où une plateforme ferme ou change son algorithme. Substack entretient la relation et les réseaux accueillent la conversation.
 
-<aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
-  <h2>{{ site.follow.title }}</h2>
-  <p>{{ site.follow.text }}</p>
-  {% include /plugins/newsletter.html %}
-</aside>
-
 <div class="u-text--center">
-  <ul class="u-flex u-flex--center u-list">
+  <ul class="c-button-stack c-button-stack--center u-list">
     <li>
       <a href="{{ site.author.instagram }}" class="c-button c-button--icon c-button--large" aria-label="Instagram — @bynicolasjd" target="_blank" rel="noopener">
         <span class="c-icon">{% include icons/instagram.svg %}</span>

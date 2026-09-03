@@ -21,12 +21,6 @@ Le palmarès ci-dessous, c'est l'avant. Le vélo continue aujourd'hui à travers
 
 **Le projet :** [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — calendrier des randos VTT en Bretagne, 12 000 vues/mois.
 
-<aside class="c-card c-card--neutral c-card--large">
-  <h2>{{ site.follow.title }}</h2>
-  <p>{{ site.follow.text }}</p>
-  {% include /plugins/newsletter.html %}
-</aside>
-
 ## Palmarès cycliste {#palmares}
 
 Historique complet des saisons compétitives, 2004–2010.

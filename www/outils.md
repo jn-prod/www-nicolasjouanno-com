@@ -14,7 +14,7 @@ Les articles expliquent. Les outils font. Voilà ce que j'ai construit et que j'
 
 Toutes les randos VTT organisées en Bretagne, tenues à jour par les clubs eux-mêmes. C'est le site que j'ouvre le jeudi soir pour savoir où rouler le dimanche. Environ 12 000 vues par mois.
 
-<p>
+<p class="c-button-stack">
   <a href="{{ site.projects.vtt_bzh.url }}" class="c-button c-button--primary">Ouvrir le calendrier →</a>
   <a href="{{ site.projects.vtt_bzh.ajouter_url }}" class="c-button c-button--dark-outline">Ajouter une rando</a>
 </p>

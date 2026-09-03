@@ -1,6 +1,11 @@
 .c-layout {
   &__header {
+    position: sticky;
+    inset-block-start: 0;
+    z-index: 10;
     padding: var(--section-spacing);
+    border-bottom: var(--border);
+    background-color: var(--color-light);
   }
 
   &__breadcrumb {
@@ -65,7 +70,7 @@
 
   @media screen and (width <= 90rem) {
     &__header {
-      --section-spacing: var(--size-16);
+      --section-spacing: var(--size-8) var(--size-16);
     }
   }
 }

@@ -12,7 +12,7 @@
     }
   }
 
-  // Layout via .u-flex--col ; ici, reset du fieldset.
+  // Layout via .c-button-stack--vertical ; ici, reset du fieldset.
   &__difficulty-buttons {
     border: none;
     margin: 0;
@@ -20,7 +20,7 @@
   }
 
   // Sélection radio → bouton, commune aux groupes de choix du quiz (réponses + difficulté).
-  .u-flex {
+  .c-button-stack {
     input[type="radio"]:focus-visible + label {
       outline: 2px solid var(--color-primary);
       outline-offset: 2px;
@@ -115,7 +115,7 @@
     margin: var(--size-32) 0;
   }
 
-  // Layout via .u-flex ; ici, marges propres au quiz.
+  // Layout via .c-button-stack ; ici, marges propres au quiz.
   &__share-buttons {
     margin-top: var(--size-32);
     margin-bottom: var(--size-32);

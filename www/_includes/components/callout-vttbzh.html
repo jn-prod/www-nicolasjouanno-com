@@ -3,7 +3,7 @@
   <p class="c-callout__text">
     {% if include.text %}{{ include.text }}{% else %}Retrouvez toutes les randonnées VTT organisées en Bretagne sur {{ site.projects.vtt_bzh.name }}.{% endif %}
   </p>
-  <p>
+  <p class="c-button-stack">
     <a href="{{ site.projects.vtt_bzh.url }}" class="c-button c-button--light">
       {% if include.cta %}{{ include.cta }}{% else %}Ouvrir le calendrier{% endif %}
     </a>

@@ -90,7 +90,7 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
 {% include components/hub-list.html category="Work" archive_url="/posts.html#work" %}
 
 <div class="u-text--center">
-  <ul class="u-flex u-flex--center u-list">
+  <ul class="c-button-stack c-button-stack--center u-list">
     <li>
       <a href="{{ site.author.twitter }}" class="c-button c-button--icon c-button--large" aria-label="X (Twitter) — @bynicolasjd" target="_blank" rel="noopener">
         <span class="c-icon">{% include icons/x.svg %}</span>

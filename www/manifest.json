@@ -74,12 +74,6 @@ permalink: /manifest.json
       "short_name": "Parcours",
       "description": "En savoir plus sur Nicolas",
       "url": "/me/"
-    },
-    {
-      "name": "Me suivre",
-      "short_name": "Suivre",
-      "description": "Suivre les prochaines publications sur Substack",
-      "url": "/#follow"
     }
   ]
 }

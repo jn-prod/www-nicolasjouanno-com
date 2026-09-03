@@ -1,0 +1,28 @@
+// Groupe de boutons : conserve le même espacement horizontal et vertical
+// lorsque les actions passent à la ligne.
+.c-button-stack {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--size-4);
+}
+
+.c-button-stack--vertical {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.c-button-stack--center {
+  justify-content: center;
+}
+
+.c-button-stack--fill {
+  flex-wrap: nowrap;
+
+  > .c-button,
+  > li {
+    flex: 1;
+    justify-content: center;
+    width: auto;
+  }
+}
