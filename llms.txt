@@ -1,12 +1,12 @@
 # Nicolas Jouanno — VTT, trail, sans gluten
 
-Nicolas Jouanno est un ancien cycliste professionnel basé à Pontivy, en Bretagne. Son site personnel publie surtout des récits, guides et outils autour du VTT, du trail, de la nutrition d'endurance, du sans gluten et d'une pratique outdoor à vitesse humaine.
+Nicolas Jouanno est un ancien cycliste professionnel basé à Pontivy, en Bretagne. Son site personnel relie son histoire aux sujets qui façonnent sa vie actuelle : VTT, trail, sans gluten et voyages en van en famille.
 
 ## Qui est Nicolas
 
-Ancien coureur chez Bretagne Schuller, cinq fois présent aux championnats de France, il a quitté la route professionnelle après une blessure en 2010. Le fil éditorial principal du site est sportif : rouler, courir, préparer l'effort, choisir du matériel, raconter les sorties et construire des outils utiles aux pratiquants.
+Ancien coureur chez Bretagne Schuller, cinq fois présent aux championnats de France, il a quitté la route professionnelle après une blessure en 2010. Le vélo reste le point de départ de son univers : il mène au VTT, au trail, à l'entraînement et à la vie outdoor en famille.
 
-Son métier dans le numérique existe en arrière-plan et explique une partie des outils construits, mais ce n'est pas l'axe éditorial principal du site.
+Il crée et publie sur le web depuis plus de vingt ans, sans cadence régulière. Cette expérience explique pourquoi des besoins vécus deviennent parfois des projets : [vtt.bzh](http://vtt.bzh) pour trouver où rouler, feezify pour prolonger son carnet d'entraînement et « Gluten ou pas gluten ? » pour partager la vigilance née de la maladie cœliaque dans sa famille.
 
 - Parcours sportif : https://www.nicolasjouanno.com/me/results.html
 - Parcours personnel : https://www.nicolasjouanno.com/me/
@@ -17,13 +17,12 @@ Son métier dans le numérique existe en arrière-plan et explique une partie de
 Thèmes principaux :
 - VTT : entraînement, réglages, matériel, sorties, randonnées en Bretagne
 - Trail : reprise, progression, pratique de loisir, premiers dossards
-- Nutrition : ravitaillement, énergie, contraintes du sans gluten, vécu familial autour de la maladie cœliaque
-- Projets : vtt.bzh, feezify, quiz gluten, outils outdoor et slow web
+- Sans gluten : ravitaillement, énergie, contraintes du sans gluten, vécu familial autour de la maladie cœliaque
 - Slow web : publication possédée, sans publicité ni profilage publicitaire
 
 ## Positionnement du site
 
-Le site doit être compris comme un hub outdoor personnel, pas comme un portfolio développeur. Les contenus professionnels sont conservés comme contexte biographique secondaire ou coulisse de fabrication, tandis que l'intention de lecture principale est sportive : VTT, trail, endurance, Bretagne, sans gluten.
+Le site doit être compris comme le lieu où l'histoire de Nicolas donne de la cohérence à ses sujets : VTT, trail, sans gluten et van en famille. Ce n'est ni un portfolio développeur, ni un catalogue de formats, ni un passage obligatoire vers ses projets.
 
 ## Derniers articles
 
