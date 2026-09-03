@@ -353,52 +353,58 @@
   >
     <a href="#main-content" class="skip-link">Aller au contenu</a>
     <header role="banner" class="c-layout__header">
-      <nav role="navigation" aria-label="Navigation principale" class="c-navigation c-navigation--main">
+      <div class="c-navigation">
         <a href="{{ site.url }}" class="c-navigation__title u-link--dark">
           {{ site.title }}
         </a>
-
-        <ul class="u-list c-navigation__link-list">
-          <li class="c-navigation__link-list-element">
-            <a
-              class="c-button {% if page.url contains '/vtt/' %}c-button--active{% endif %}"
-              {% if page.url contains '/vtt/' %}aria-current="page"{% endif %}
-              href="{{ site.url }}/vtt/"
-              >VTT</a
-            >
-          </li>
-
-          <li class="c-navigation__link-list-element">
-            <a
-              class="c-button {% if page.url contains '/trail/' %}c-button--active{% endif %}"
-              {% if page.url contains '/trail/' %}aria-current="page"{% endif %}
-              href="{{ site.url }}/trail/"
-              >Trail</a
-            >
-          </li>
-
-          <li class="c-navigation__link-list-element">
-            <a
-              class="c-button {% if page.url == '/nutrition/sans-gluten.html' %}c-button--active{% endif %}"
-              {% if page.url == '/nutrition/sans-gluten.html' %}aria-current="page"{% endif %}
-              href="{{ site.url }}/nutrition/sans-gluten.html"
-              >Sans gluten</a
-            >
-          </li>
-
-          <li class="c-navigation__link-list-element">
-            <a
-              href="{{ site.author.substack_cta }}"
-              class="c-button c-button--primary"
-              aria-label="Suivre Nicolas Jouanno sur Substack"
-              target="_blank"
-              rel="noopener"
-              >Suivre
-            </a>
-          </li>
-        </ul>
-      </nav>
+      </div>
     </header>
+
+    <nav
+      role="navigation"
+      aria-label="Navigation principale"
+      class="c-layout__navigation c-navigation c-navigation--main"
+    >
+      <ul class="u-list c-navigation__link-list">
+        <li class="c-navigation__link-list-element">
+          <a
+            class="c-button {% if page.url contains '/vtt/' %}c-button--active{% endif %}"
+            {% if page.url contains '/vtt/' %}aria-current="page"{% endif %}
+            href="{{ site.url }}/vtt/"
+            >VTT</a
+          >
+        </li>
+
+        <li class="c-navigation__link-list-element">
+          <a
+            class="c-button {% if page.url contains '/trail/' %}c-button--active{% endif %}"
+            {% if page.url contains '/trail/' %}aria-current="page"{% endif %}
+            href="{{ site.url }}/trail/"
+            >Trail</a
+          >
+        </li>
+
+        <li class="c-navigation__link-list-element">
+          <a
+            class="c-button {% if page.url == '/nutrition/sans-gluten.html' %}c-button--active{% endif %}"
+            {% if page.url == '/nutrition/sans-gluten.html' %}aria-current="page"{% endif %}
+            href="{{ site.url }}/nutrition/sans-gluten.html"
+            >Sans gluten</a
+          >
+        </li>
+
+        <li class="c-navigation__link-list-element">
+          <a
+            href="{{ site.author.substack_cta }}"
+            class="c-button c-button--primary"
+            aria-label="Suivre Nicolas Jouanno sur Substack"
+            target="_blank"
+            rel="noopener"
+            >Suivre
+          </a>
+        </li>
+      </ul>
+    </nav>
 
     <!-- Content
         ================================================== -->

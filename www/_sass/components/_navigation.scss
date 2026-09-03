@@ -48,10 +48,8 @@
 
     &.c-navigation--main {
       .c-navigation__link-list {
-        border-top: var(--border);
         flex-direction: row;
         justify-content: center;
-        padding-top: var(--size-8);
         gap: var(--size-8);
 
         .c-button {
