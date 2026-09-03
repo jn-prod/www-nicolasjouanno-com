@@ -58,7 +58,7 @@ author:
   steam: # "steamId" (the last part of your profile   url, e.g. https://steamcommunity.com/id/steamId/)
   strava: "https://www.strava.com/athletes/njouanno"
   substack: "https://substack.com/@bynicolasjd"
-  substack_cta: "https://substack.com/@bynicolasjd?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
+  substack_cta: "https://bynicolasjd.substack.com/?utm_campaign=profile_chips"
   tumblr:
   twitter: "https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
   wikipedia: "https://fr.wikipedia.org/wiki/Nicolas_Jouanno"
