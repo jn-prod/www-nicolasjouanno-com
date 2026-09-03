@@ -9,7 +9,7 @@
     <description>Publications de nicolasjouanno.com retenues pour Substack.</description>
     <link>https://www.nicolasjouanno.com</link>
     <atom:link href="https://www.nicolasjouanno.com/substack.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 03 Sep 2026 11:56:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 18:25:06 +0000</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
 
     
@@ -1520,7 +1520,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
   <p class="c-callout__text">
     vtt.bzh liste les randonnées VTT organisées en Bretagne — de quoi valider vos réglages de fourche et d’amortisseur sur de vrais chemins.
   </p>
-  <p>
+  <p class="c-button-stack">
     <a href="https://www.vtt.bzh/?utm_source=www-nicolasjouanno-com&amp;utm_medium=site&amp;utm_campaign=ecosystem" class="c-button c-button--light">
       Ouvrir le calendrier
     </a>
@@ -2089,7 +2089,7 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
   <p class="c-callout__text">
     Pour mettre en pratique ces séances, vtt.bzh recense les randonnées VTT organisées en Bretagne — parcours balisés, dates et distances.
   </p>
-  <p>
+  <p class="c-button-stack">
     <a href="https://www.vtt.bzh/?utm_source=www-nicolasjouanno-com&amp;utm_medium=site&amp;utm_campaign=ecosystem" class="c-button c-button--light">
       Ouvrir le calendrier
     </a>
@@ -3075,7 +3075,7 @@ Les - : Peut vite manquer de grip sur les sections délicates, pas très adapt�
   <p class="c-callout__text">
     vtt.bzh recense toutes les randonnées organisées en Bretagne — dates, distances, inscriptions en ligne. Un bon terrain pour tester votre sac.
   </p>
-  <p>
+  <p class="c-button-stack">
     <a href="https://www.vtt.bzh/?utm_source=www-nicolasjouanno-com&amp;utm_medium=site&amp;utm_campaign=ecosystem" class="c-button c-button--light">
       Ouvrir le calendrier
     </a>
@@ -3377,7 +3377,7 @@ Les - : Peut vite manquer de grip sur les sections délicates, pas très adapt�
   <p class="c-callout__text">
     Retrouvez toutes les prochaines randonnées VTT organisées en Bretagne — le calendrier mis à jour chaque semaine avec les distances, dates et inscriptions.
   </p>
-  <p>
+  <p class="c-button-stack">
     <a href="https://www.vtt.bzh/?utm_source=www-nicolasjouanno-com&amp;utm_medium=site&amp;utm_campaign=ecosystem" class="c-button c-button--light">
       Ouvrir le calendrier
     </a>
