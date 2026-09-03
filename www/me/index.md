@@ -21,23 +21,23 @@ Le vélo m'a pris tôt et m'a occupé entièrement, jusqu'à la blessure de 2010
 
 ## 💼 Métier, en arrière-plan {#travail}
 
-Mon métier est numérique, mais ce site n'est pas mon portfolio. Il raconte d'abord le sport, les sorties, les outils et la vie à vitesse humaine. Le détail professionnel existe pour le contexte, sans être l'axe éditorial principal.
+Mon métier est numérique, mais ce site n'est pas mon portfolio. Il relie d'abord mon histoire aux sujets qui façonnent ma vie aujourd'hui : VTT, trail, sans gluten et voyages en van en famille. Le détail professionnel existe pour expliquer ce que je construis, sans devenir l'axe principal.
 
 <p><a href="/me/work/" class="c-button c-button--dark-outline">Le détail du parcours pro →</a></p>
 
 ## 🚴 Ex-cycliste professionnel {#ex-pro}
 
-Cinq championnats de France, des courses 2.1 et 2.2, deux saisons professionnelles sous les couleurs de **Bretagne Schuller** (2008-2010). Une vie organisée autour du watt et du kilomètre — c'est ce qui donne aux [guides](/guides.html) ce qu'ils ont de concret.
+Cinq championnats de France, des courses 2.1 et 2.2, deux saisons professionnelles sous les couleurs de **Bretagne Schuller** (2008-2010). Une vie organisée autour du watt et du kilomètre — cette expérience nourrit encore ma manière d'aborder le VTT, le trail et l'entraînement.
 
 <p><a href="/me/results.html" class="c-button c-button--dark-outline">Le palmarès complet, 2004-2010 →</a></p>
 
 ## 💻 Slow web {#slow-web}
 
-Depuis 2008, je publie sur **mon propre site** — parce qu'un site qu'on possède est un **coffre** : il ne disparaît pas le jour où une plateforme ferme ou change son algorithme. C'est le **slow web** : un web à vitesse humaine, durable, sans publicité ni profilage publicitaire. Le site reste l'archive de référence ; Substack en propose une porte d'entrée publique pour suivre mes publications.
+Je crée sur le web depuis plus de vingt ans et je publie sur **mon propre site** depuis 2008 — sans régularité forcée, mais avec l'envie de conserver ce qui compte. Un site que l'on possède est un **coffre** : il ne disparaît pas le jour où une plateforme ferme ou change son algorithme. Substack entretient la relation et les réseaux accueillent la conversation.
 
 <aside class="c-card c-card--neutral c-card--large u-spacing--block-start-medium">
-  <h2>Suivre</h2>
-  <p>Retrouvez l'ensemble de mes publications sur Substack et suivez les prochaines.</p>
+  <h2>{{ site.follow.title }}</h2>
+  <p>{{ site.follow.text }}</p>
   {% include /plugins/newsletter.html %}
 </aside>
 

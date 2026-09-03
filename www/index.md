@@ -1,73 +1,63 @@
 ---
-title: "Nicolas Jouanno — récits, guides et outils outdoor"
+title: "Nicolas Jouanno — VTT, trail, sans gluten et van en famille"
 layout: page
-description: "Ancien cycliste professionnel, je voyage en van en famille à travers l'Europe, avec VTT et trail au programme. Récits, guides et outils outdoor depuis Pontivy."
+description: "Ex-cycliste professionnel, je partage le VTT, le trail, le sans gluten et nos voyages en van en famille, avec plus de vingt ans de projets sur le web."
 permalink: /index.html
 breadcrumb_hide: true
 ---
 
 <hgroup class="u-text--center">
-  <h1><span class="u-visually-hidden">{{ site.title }}. </span>100% VTT, trail, sans gluten</h1>
-  <p>Salut, moi c'est Nicolas. J'écris sur le VTT, le trail et le sans gluten à partir de ce que je pratique et construis.</p>
+  <h1><span class="u-visually-hidden">{{ site.title }}. </span>VTT, trail, sans gluten et van en famille.</h1>
+  <p>Ex-cycliste professionnel, je partage ce que je vis, ce que j'apprends et ce que je construis en chemin.</p>
 </hgroup>
 
 <p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
 
-Le vélo a d'abord donné le rythme. J'ai été [cycliste professionnel]({{ site.url }}/me/results.html?utm_source=home&utm_medium=proof&utm_campaign=site_hub) chez Bretagne Schuller et j'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à arrêter.
+Le vélo a d'abord donné le rythme. J'ai été [cycliste professionnel]({{ site.url }}/me/results.html?utm_source=home&utm_medium=proof&utm_campaign=ecosystem) chez Bretagne Schuller et j'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à arrêter.
 
-Aujourd'hui, je ralentis. Avec ma famille, nous parcourons l'Europe en van au rythme des vacances. Le VTT, la randonnée et le trail font partie des étapes, au plus près des sentiers.
+Aujourd'hui, je roule et je cours autrement. Avec ma famille, nous parcourons l'Europe en van au rythme des vacances, avec les vélos, les chaussures de trail et la contrainte du sans gluten dans nos bagages.
 
-Ici, je partage ce que ces sorties et ces voyages me laissent : des récits, des guides et les outils que je construis lorsqu'ils répondent à un besoin concret. Le tout depuis Pontivy, en Bretagne.
+Je crée et publie sur le web depuis plus de vingt ans. Je ne l'ai jamais fait selon une cadence régulière : j'y reviens quand une expérience mérite d'être partagée ou qu'un problème vécu appelle une réponse concrète. C'est ce fil qui relie des sujets qui pourraient sembler éloignés.
 
-<p><a href="/me/?utm_source=home&utm_medium=proof&utm_campaign=site_hub" class="c-button c-button--dark-outline">Mon parcours →</a></p>
+<p><a href="/me/?utm_source=home&utm_medium=proof&utm_campaign=ecosystem" class="c-button c-button--dark-outline">Mon parcours →</a></p>
 
-## Accès directs
+## 🚵 VTT & trail
 
-<!-- TODO copywriter (D-2026-06-11-001) — reprend l'axe FORMAT du header -->
+Le vélo reste mon premier langage. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d'une question très simple : où rouler dimanche ? [feezify](/feezify.html) prolonge une autre part de cette histoire, mon carnet d'entraînement, pour mieux comprendre la charge et le ressenti. Le trail est arrivé après le vélo, avec le plaisir de recommencer comme débutant.
 
-- **[Récits](/recits.html)** — ce qui s'est réellement passé, à la première personne : des souvenirs de cycliste professionnel, une Megavalanche, un premier trail.
-- **[Guides](/guides.html)** — comment faire : régler ses suspensions, bâtir un plan d'entraînement, manger avant l'effort.
-- **[Outils](/outils.html)** — le calendrier vtt.bzh, feezify, le quiz gluten.
+<p>
+  <a href="/vtt/" class="c-button c-button--dark-outline">VTT →</a>
+  <a href="/trail/" class="c-button c-button--dark-outline">Trail →</a>
+</p>
 
-## Ce dont je parle
+## 🌱 Sans gluten
 
-<!-- TODO copywriter (D-2026-06-11-001) — reprend l'axe VERTICALE du footer -->
+La maladie cœliaque est entrée dans notre vie familiale et a changé des gestes aussi ordinaires que faire les courses, cuisiner ou choisir un restaurant. Le [quiz « Gluten ou pas gluten ? »](/apps/gluten-not-gluten/) est né pour rendre cette vigilance visible et plus facile à partager.
 
-<ul>
-  {% for verticale in site.data.taxonomie.verticales %}
-    {% if verticale.include_home and verticale.status == "active" %}
-      <li><strong><a href="{{ verticale.permalink }}">{{ verticale.label }}</a></strong> — {{ verticale.home_description }}</li>
-    {% endif %}
+<p><a href="/nutrition/sans-gluten.html" class="c-button c-button--dark-outline">Sans gluten →</a></p>
+
+## 🇪🇺 Van en famille
+
+Le van est le décor qui rassemble le reste : parcourir l'Europe en famille, trouver où rouler ou courir, et réussir à manger sans gluten loin de ses repères. Il donne à ces sujets un même terrain plutôt qu'une ligne éditoriale artificielle.
+
+## En ce moment
+
+<ul class="u-list">
+  {% assign public_posts = site.posts | where_exp: "post", "post.archive != true" %}
+  {% assign shown_count = 0 %}
+  {% for post in public_posts %}
+    {% unless post.categories contains "Work" %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y" }})</li>
+      {% assign shown_count = shown_count | plus: 1 %}
+      {% if shown_count == 3 %}{% break %}{% endif %}
+    {% endunless %}
   {% endfor %}
 </ul>
 
-## 🚵 vtt.bzh — le calendrier des randos VTT en Bretagne
-
-Toutes les randos VTT organisées en Bretagne, tenues à jour par les clubs eux-mêmes. Environ 12 000 vues par mois. C'est le projet que j'anime à côté du site.
-
-<p><a href="{{ site.projects.vtt_bzh.url }}" class="c-button c-button--dark-outline">Ouvrir le calendrier →</a></p>
-
-## 🌱 Esprit slow web
-
-Ici, pas d'algorithme, pas de publicité ni de profilage publicitaire. **Vous choisissez comment et quand me suivre.** Votre attention n'est pas un produit que je revends : c'est un temps que vous me donnez. Je le respecte.
-
-Ce site reste mon archive de référence. Substack en propose une copie publique complète et permet d'être notifié des prochaines publications.
+<p><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications →</a></p>
 
 <aside id="follow" class="c-card c-card--neutral c-card--medium">
-  <h2>📬 Suivre mes publications</h2>
-  <p>Les 47 publications de cette archive sont aussi disponibles sur Substack. Suivez-moi là-bas pour être notifié des nouveaux textes ; ce site reste leur source de référence.</p>
+  <h2>📬 {{ site.follow.title }}</h2>
+  <p>{{ site.follow.text }}</p>
   {% include /plugins/newsletter.html %}
-  <h3>📝 Derniers articles</h3>
-  <ul class="u-list">
-    {% assign public_posts = site.posts | where_exp: "post", "post.archive != true" %}
-    {% assign shown_count = 0 %}
-    {% for post in public_posts %}
-      {% unless post.categories contains "Work" %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y" }})</li>
-        {% assign shown_count = shown_count | plus: 1 %}
-        {% if shown_count == 3 %}{% break %}{% endif %}
-      {% endunless %}
-    {% endfor %}
-  </ul>
-  <p><a href="/posts.html" class="c-button c-button--dark-outline">Lire tous les articles →</a></p>
 </aside>

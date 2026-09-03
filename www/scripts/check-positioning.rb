@@ -72,7 +72,7 @@ verticales.each do |verticale|
   end
 
   if status == "active"
-    errors << "#{slug} active verticale must set visible_footer: true" unless verticale["visible_footer"] == true
+    errors << "#{slug} active verticale must set visible_footer: true or false" unless [true, false].include?(verticale["visible_footer"])
     errors << "#{slug} active verticale must set include_home: true or false" unless [true, false].include?(verticale["include_home"])
     errors << "#{slug} active verticale must set include_llms: true or false" unless [true, false].include?(verticale["include_llms"])
   end

@@ -15,14 +15,15 @@ Aujourd’hui, j’explore l’outdoor en famille : van life à travers l’Euro
 
 <p><a href="#palmares" class="c-button c-button--dark-outline">↓ Voir mon palmarès cycliste</a></p>
 
-## Ce que j'écris aujourd'hui
+## Ce qui continue aujourd'hui
 
-Le palmarès ci-dessous, c'est l'avant. Ce que je fais maintenant se lit dans les [récits](/recits.html) et les [guides](/guides.html).
+Le palmarès ci-dessous, c'est l'avant. Le vélo continue aujourd'hui à travers le [VTT](/vtt/), le [trail](/trail/) et les projets nés de cette pratique.
 
 **Le projet :** [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — calendrier des randos VTT en Bretagne, 12 000 vues/mois.
 
 <aside class="c-card c-card--neutral c-card--large">
-  <p>Le sport et l'outdoor vous parlent ? Retrouvez mes publications sur Substack et suivez les prochaines.</p>
+  <h2>{{ site.follow.title }}</h2>
+  <p>{{ site.follow.text }}</p>
   {% include /plugins/newsletter.html %}
 </aside>
 

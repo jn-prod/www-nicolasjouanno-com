@@ -5,14 +5,14 @@ layout: page
   Template des pages HUB (format & verticale). Structure imposée, cohérente :
     1. contenu libre           → {{ content }} (intro + callouts propres à la page)
     2. liste d'articles filtrée → hub-list, filtre AUTO ou via frontmatter
-    3. carte de suivi Substack  → standardisée, texte surchargeable
+    3. carte de suivi Substack  → promesse partagée depuis _config.yml
 
   Résolution du filtre (priorité au frontmatter explicite, sinon auto depuis le
   permalink via _data/taxonomie.yml — source unique) :
     - hub_format    : recit | guide | actu
     - hub_verticale : vtt | trail | nutrition | projets | life | rando
     - hub_sous_silo : ex. sans-gluten (dans une verticale)
-    - hub_limit     : nb d'articles (défaut 12) · newsletter_text : texte de la carte
+    - hub_limit     : nb d'articles (défaut 12)
 {%- endcomment -%}
 
 {{ content }}
@@ -37,6 +37,7 @@ layout: page
 {%- endif -%}
 
 <aside class="c-card c-card--neutral c-card--large">
-  <p>{{ page.newsletter_text | default: "Retrouvez aussi l'ensemble de mes publications sur Substack et suivez les prochaines." }}</p>
+  <h2>{{ site.follow.title }}</h2>
+  <p>{{ site.follow.text }}</p>
   {% include /plugins/newsletter.html %}
 </aside>

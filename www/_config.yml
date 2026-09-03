@@ -1,10 +1,15 @@
 # Site Settings
 title: "Nicolas Jouanno"
-description: "Site personnel de Nicolas Jouanno — ancien cycliste professionnel, sportif outdoor en Bretagne. VTT, trail, nutrition d'endurance, sans gluten, récits de sorties et outils utiles."
+description: "Ex-cycliste professionnel, Nicolas Jouanno partage le VTT, le trail, le sans gluten et la vie en van en famille, avec plus de vingt ans de projets sur le web."
 url: "https://www.nicolasjouanno.com"
 lang: "fr"
 logo: "/images/icons/avatar.svg"
 og_image: "/og/og-default.png" # carte sociale raster 1200x630 (hors pipeline images → survit au build ; SVG/WebP non rendus par les réseaux sociaux)
+
+# Promesse de suivi partagée par les pages et les articles.
+follow:
+  title: "Continuer le chemin"
+  text: "VTT, trail, sans gluten et vie en van : recevez mes prochaines publications par email."
 
 # Waiting list — avant-première de mon agent IA d'entraînement (feezify). Form kit.com dédié : _includes/plugins/waitlist.html.
 # Un post l'active avec `waitlist: true` (copie ci-dessous) ; override possible via `waitlist: {title, text}`.
@@ -45,7 +50,7 @@ author:
   instagram: "https://www.instagram.com/bynicolasjd/"
   threads: "https://www.threads.com/@bynicolasjd"
   lastfm:
-  linkedin: "https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=hub"
+  linkedin: "https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
   mediumcom: "https://medium.com/@nicolasjouanno"
   pinterest: "https://fr.pinterest.com/nicolasjouanno/"
   soundcloud: "https://soundcloud.com/nicolasjouanno"
@@ -53,9 +58,9 @@ author:
   steam: # "steamId" (the last part of your profile   url, e.g. https://steamcommunity.com/id/steamId/)
   strava: "https://www.strava.com/athletes/njouanno"
   substack: "https://substack.com/@bynicolasjd"
-  substack_cta: "https://substack.com/@bynicolasjd?utm_source=www-nicolasjouanno-com&utm_medium=hub&utm_campaign=site_hub"
+  substack_cta: "https://substack.com/@bynicolasjd?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
   tumblr:
-  twitter: "https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=hub"
+  twitter: "https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
   wikipedia: "https://fr.wikipedia.org/wiki/Nicolas_Jouanno"
   youtube: "https://www.youtube.com/@byNicolasJD"
 
@@ -63,10 +68,10 @@ author:
 projects:
   vtt_bzh:
     name: "vtt.bzh"
-    url: "https://www.vtt.bzh/?utm_source=www-nicolasjouanno-com&utm_medium=hub&utm_campaign=site_hub"
+    url: "https://www.vtt.bzh/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
     # Le permalink réel est /calendrier/ajouter.html (le fichier source s'appelle ajouter.html).
     # /ajouter.html renvoie 404 — vérifié 2026-07-20.
-    ajouter_url: "https://www.vtt.bzh/calendrier/ajouter.html?utm_source=www-nicolasjouanno-com&utm_medium=hub&utm_campaign=site_hub&utm_content=ajouter_rando"
+    ajouter_url: "https://www.vtt.bzh/calendrier/ajouter.html?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem&utm_content=ajouter_rando"
     github: "https://github.com/jn-prod/www-vtt-bzh"
 
 # collections

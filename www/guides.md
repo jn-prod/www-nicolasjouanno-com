@@ -3,7 +3,6 @@ layout: hub
 title: "Guides VTT, trail et nutrition — comment faire"
 description: "Entraînement, réglages, matériel, nutrition d'effort : les guides pratiques d'un ancien cycliste pro passé à l'outdoor de loisir."
 permalink: /guides.html
-newsletter_text: "Retrouvez aussi l'ensemble de mes publications sur Substack et suivez les prochaines."
 ---
 
 # Guides

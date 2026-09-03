@@ -1,5 +1,5 @@
-# Taxonomie éditoriale nj.com — D-2026-07-20-001.
-# Deux axes orthogonaux : le FORMAT navigue le header, la VERTICALE navigue le footer.
+# Taxonomie éditoriale nj.com — D-2026-07-20-001, amendée par D-2026-09-03-001.
+# Le FORMAT reste une métadonnée interne. Seuls les SUJETS structurent la navigation publique.
 formats:
   - slug: recit
     label: "Récits"
@@ -24,7 +24,7 @@ verticales:
     include_home: true
     include_llms: true
     minimum_posts: 2
-    description: "Guides, réglages, entraînement, matériel, sorties et randonnées VTT."
+    description: "Pratique, réglages, entraînement, matériel, sorties et randonnées VTT."
     home_description: "j'y parle pilotage, réglages, entraînement et sorties."
     llms_description: "entraînement, réglages, matériel, sorties, randonnées en Bretagne"
     positioning: "VTT de pratiquant : concret, vécu, utile, issu d'un ancien cycliste professionnel passé aux sentiers."
@@ -51,8 +51,8 @@ verticales:
       - "Progression"
       - "Outdoor"
   - slug: nutrition
-    label: "Nutrition"
-    permalink: /nutrition/
+    label: "Sans gluten"
+    permalink: /nutrition/sans-gluten.html
     status: active
     visible_footer: true
     include_home: true
@@ -71,9 +71,9 @@ verticales:
     label: "Projets"
     permalink: /projets/
     status: active
-    visible_footer: true
-    include_home: true
-    include_llms: true
+    visible_footer: false
+    include_home: false
+    include_llms: false
     minimum_posts: 1
     description: "Outils et coulisses de construction liés au sport, au slow web et aux projets personnels."
     home_description: "je construis des outils nés d'un besoin concret, du calendrier VTT au quiz gluten."

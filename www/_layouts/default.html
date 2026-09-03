@@ -288,7 +288,7 @@
           "knowsAbout": [
             {% assign structured_topic_count = 0 %}
             {% for verticale in site.data.taxonomie.verticales %}
-              {% if verticale.status == "active" %}
+              {% if verticale.status == "active" and verticale.include_llms %}
                 {% for topic in verticale.keywords %}
                   {% if structured_topic_count > 0 %},{% endif %}
                   {{ topic | jsonify }}
@@ -296,8 +296,6 @@
                 {% endfor %}
               {% endif %}
             {% endfor %}
-            {% if structured_topic_count > 0 %},{% endif %}
-            "Slow web"
           ],
           {% endif %}
           "address": {
@@ -363,28 +361,28 @@
         <ul class="u-list c-navigation__link-list">
           <li class="c-navigation__link-list-element">
             <a
-              class="c-button {% if page.url == '/recits.html' %}c-button--active{% endif %}"
-              {% if page.url == '/recits.html' %}aria-current="page"{% endif %}
-              href="{{ site.url }}/recits.html"
-              >Récits</a
+              class="c-button {% if page.url contains '/vtt/' %}c-button--active{% endif %}"
+              {% if page.url contains '/vtt/' %}aria-current="page"{% endif %}
+              href="{{ site.url }}/vtt/"
+              >VTT</a
             >
           </li>
 
           <li class="c-navigation__link-list-element">
             <a
-              class="c-button {% if page.url == '/guides.html' %}c-button--active{% endif %}"
-              {% if page.url == '/guides.html' %}aria-current="page"{% endif %}
-              href="{{ site.url }}/guides.html"
-              >Guides</a
+              class="c-button {% if page.url contains '/trail/' %}c-button--active{% endif %}"
+              {% if page.url contains '/trail/' %}aria-current="page"{% endif %}
+              href="{{ site.url }}/trail/"
+              >Trail</a
             >
           </li>
 
           <li class="c-navigation__link-list-element">
             <a
-              class="c-button {% if page.url == '/outils.html' %}c-button--active{% endif %}"
-              {% if page.url == '/outils.html' %}aria-current="page"{% endif %}
-              href="{{ site.url }}/outils.html"
-              >Outils</a
+              class="c-button {% if page.url == '/nutrition/sans-gluten.html' %}c-button--active{% endif %}"
+              {% if page.url == '/nutrition/sans-gluten.html' %}aria-current="page"{% endif %}
+              href="{{ site.url }}/nutrition/sans-gluten.html"
+              >Sans gluten</a
             >
           </li>
 
