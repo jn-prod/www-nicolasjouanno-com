@@ -13,7 +13,7 @@ La saison 2010 s’est terminée sans résultat — une blessure m’a mis hors 
 
 Aujourd’hui, j’explore l’outdoor en famille : van life à travers l’Europe, sentiers en Bretagne, bivouacs et cols. Le sport est resté le fil conducteur — à vitesse humaine.
 
-<p><a href="#palmares" class="c-button c-button--dark-outline">↓ Voir mon palmarès cycliste</a></p>
+<p><a href="#palmares" class="c-button c-button--dark-outline">Voir mon palmarès cycliste</a></p>
 
 ## Ce qui continue aujourd'hui
 

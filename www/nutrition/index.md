@@ -17,5 +17,5 @@ Parent d'un enfant **cœliaque** et ancien cycliste pro, je vis la nutrition des
 <aside class="c-card c-card--primary c-card--large c-callout">
   <p class="c-callout__title">🌾 Le sans-gluten a sa propre page</p>
   <p class="c-callout__text">Parent d'un enfant cœliaque : repères d'étiquetage, ravitaillement d'effort sans gluten, et un quiz pour aiguiser le réflexe.</p>
-  <a href="/nutrition/sans-gluten.html" class="c-button c-button--light">Sans gluten au quotidien →</a>
+  <a href="/nutrition/sans-gluten.html" class="c-button c-button--light">Sans gluten au quotidien</a>
 </aside>

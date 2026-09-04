@@ -23,13 +23,13 @@ Le vélo m'a pris tôt et m'a occupé entièrement, jusqu'à la blessure de 2010
 
 Mon métier est numérique, mais ce site n'est pas mon portfolio. Il relie d'abord mon histoire aux sujets qui façonnent ma vie aujourd'hui : VTT, trail, sans gluten et voyages en van en famille. Le détail professionnel existe pour expliquer ce que je construis, sans devenir l'axe principal.
 
-<p><a href="/me/work/" class="c-button c-button--dark-outline">Le détail du parcours pro →</a></p>
+<p><a href="/me/work/" class="c-button c-button--dark-outline">Le détail du parcours pro</a></p>
 
 ## 🚴 Ex-cycliste professionnel {#ex-pro}
 
 Cinq championnats de France, des courses 2.1 et 2.2, deux saisons professionnelles sous les couleurs de **Bretagne Schuller** (2008-2010). Une vie organisée autour du watt et du kilomètre — cette expérience nourrit encore ma manière d'aborder le VTT, le trail et l'entraînement.
 
-<p><a href="/me/results.html" class="c-button c-button--dark-outline">Le palmarès complet, 2004-2010 →</a></p>
+<p><a href="/me/results.html" class="c-button c-button--dark-outline">Le palmarès complet, 2004-2010</a></p>
 
 ## 💻 Slow web {#slow-web}
 
@@ -45,6 +45,11 @@ Je crée sur le web depuis plus de vingt ans et je publie sur **mon propre site*
     <li>
       <a href="{{ site.author.threads }}" class="c-button c-button--icon c-button--large" aria-label="Threads — @bynicolasjd" target="_blank" rel="noopener">
         <span class="c-icon">{% include icons/threads.svg %}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.author.twitter }}" class="c-button c-button--icon c-button--large" aria-label="X (Twitter) — @bynicolasjd" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/x.svg %}</span>
       </a>
     </li>
     <li>

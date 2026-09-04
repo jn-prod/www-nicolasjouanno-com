@@ -30,7 +30,7 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
       <p><time datetime="2026">2026</time> — <strong>feezify, le revival.</strong> En <time datetime="2018">2018</time>, j'avais construit feezify : un carnet d'entraînement en SaaS hébergé (Node/Express/Mongo, sync Strava). Je l'ai laissé s'éteindre en 2019. En 2026, je l'ai ressuscité <strong>IA-native</strong> — un copilote d'entraînement comme skill + cœur markdown, qui tourne sur sa propre IA, zéro infra. C'est mon terrain pour comprendre les systèmes agentiques de l'intérieur : orchestration d'agents, mémoire, observabilité, gouvernance par décisions. <em>Beta bientôt.</em></p>
-      <p><a href="/feezify.html" class="c-button c-button--dark-outline">Découvrir feezify →</a> · <a href="https://github.com/jn-prod/feezify" rel="noopener">code source</a></p>
+      <p><a href="/feezify.html" class="c-button c-button--dark-outline">Découvrir feezify</a> · <a href="https://github.com/jn-prod/feezify" rel="noopener">code source</a></p>
     </div>
   </li>
   <li class="u-spacing--block-end-medium">
@@ -39,7 +39,7 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
       <p>Depuis <time datetime="2019">2019</time> — Je suis Lead développeur frontend dans la core team de <a href="https://github.com/MGDIS" rel="noopener">MGDIS</a>, où je développe et maintiens le design system : des Web Components (StencilJS, SCSS), l'accessibilité RGAA comme exigence non négociable, le tout industrialisé à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. Ce que j'y apprends : à l'échelle, la cohérence et l'accessibilité ne se décrètent pas, elles s'outillent.</p>
-      <p><a href="/me/work/paris-web-2025.html" class="c-button c-button--dark-outline">Le design system en conférence →</a></p>
+      <p><a href="/me/work/paris-web-2025.html" class="c-button c-button--dark-outline">Le design system en conférence</a></p>
     </div>
   </li>
   <li class="u-spacing--block-end-medium">
@@ -48,7 +48,7 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
       <p>Depuis <time datetime="2013">2013</time> — J'ai lancé <a href="{{ site.projects.vtt_bzh.url }}">{{ site.projects.vtt_bzh.name }}</a> comme un outil de praticien et non comme un projet éditorial : un calendrier des randos VTT en Bretagne, pour ceux qui roulent. Aujourd'hui, 12 000 vététistes par mois et la référence #1 sur l'intention « calendrier VTT breton ». C'est surtout mon laboratoire technique grandeur nature — celui où je teste avant d'appliquer ailleurs.</p>
-      <p><a href="{{ site.projects.vtt_bzh.url }}" class="c-button c-button--dark-outline">Voir {{ site.projects.vtt_bzh.name }} →</a> · <a href="{{ site.projects.vtt_bzh.github }}">code source</a></p>
+      <p><a href="{{ site.projects.vtt_bzh.url }}" class="c-button c-button--dark-outline">Voir {{ site.projects.vtt_bzh.name }}</a> · <a href="{{ site.projects.vtt_bzh.github }}">code source</a></p>
     </div>
   </li>
   <li class="u-spacing--block-end-medium">
@@ -63,7 +63,7 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
       <p>Depuis <time datetime="2008">2008</time> — Je tiens nicolasjouanno.com, mon hub éditorial, depuis 2008. J'y défends un <a href="/me/#slow-web">web possédé, à vitesse humaine</a> — le slow web, l'inverse exact du web qui scale. Mon espace à moi, que j'écris et que je fais évoluer à la main.</p>
-      <p><a href="https://github.com/jn-prod/www-nicolasjouanno-com" class="c-button c-button--dark-outline">code source →</a></p>
+      <p><a href="https://github.com/jn-prod/www-nicolasjouanno-com" class="c-button c-button--dark-outline">Voir le code source</a></p>
     </div>
   </li>
   <li class="u-spacing--block-end-medium">
@@ -91,11 +91,6 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
 
 <div class="u-text--center">
   <ul class="c-button-stack c-button-stack--center u-list">
-    <li>
-      <a href="{{ site.author.twitter }}" class="c-button c-button--icon c-button--large" aria-label="X (Twitter) — @bynicolasjd" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/x.svg %}</span>
-      </a>
-    </li>
     <li>
       <a href="{{ site.author.linkedin }}" class="c-button c-button--icon c-button--large" aria-label="LinkedIn — Nicolas Jouanno" target="_blank" rel="noopener">
         <span class="c-icon">{% include icons/linkedin.svg %}</span>

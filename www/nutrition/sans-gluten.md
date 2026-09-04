@@ -21,5 +21,5 @@ Parent d'un enfant **cœliaque**, je lis des étiquettes tous les jours et je d�
 <aside class="c-card c-card--primary c-card--large c-callout">
   <p class="c-callout__title">🌾 Gluten ou pas gluten ?</p>
   <p class="c-callout__text">Un quiz pour s'entraîner à repérer le gluten, aliment par aliment. Une façon ludique d'aiguiser le réflexe étiquette, en famille ou par curiosité.</p>
-  <a href="/apps/gluten-not-gluten/" class="c-button c-button--light">Lancer le quiz →</a>
+  <a href="/apps/gluten-not-gluten/" class="c-button c-button--light">Lancer le quiz</a>
 </aside>

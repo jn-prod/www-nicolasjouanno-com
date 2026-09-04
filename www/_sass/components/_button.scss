@@ -31,7 +31,6 @@ $variants: 'primary', 'secondary', 'dark', 'light';
 .c-button {
   display: inline-flex;
   align-items: center;
-  gap: var(--size-8);
   width: fit-content;
   padding: var(--size-8) var(--size-16);
   border: var(--border);

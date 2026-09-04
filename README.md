@@ -66,6 +66,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_button.scss` | `.c-button` | Bouton de base — `inline-flex`, `width: fit-content` |
 | `_button.scss` | `.c-button--{variant}` | Variantes de couleur : `primary`, `secondary`, `dark`, `light` |
 | `_button.scss` | `.c-button--{variant}-outline` | Variantes contour |
+| `_button.scss` | `.c-button--icon` | Icône de marque seule, accompagnée d'un `aria-label` explicite |
 | `_button.scss` | `.c-button--fullwidth` | Pleine largeur — passe en `display: flex` |
 | `_button.scss` | `.c-button[disabled]` | État désactivé — `opacity: 0.8`, `cursor: not-allowed` |
 | `_button-stack.scss` | `.c-button-stack` + `--vertical` / `--center` / `--fill` | Groupe d'actions avec un gap horizontal et vertical de 4 px, y compris au retour à la ligne |
@@ -82,6 +83,8 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_tag.scss` | `.c-tag` | Étiquette / tag (catégorie, mot-clé) |
 | `_quiz.scss` | `.c-quiz` | Layout spécifique au quiz — surcouche contextuelle uniquement |
 
+> **Règle — un seul langage par bouton.** Un bouton répond soit à « qui ? », soit à « quoi ? », jamais aux deux. Une marque ou un réseau identifiable (« qui ? ») utilise de préférence son icône seule via `.c-button--icon`, avec un `aria-label` explicite. Une action (« quoi ? ») utilise uniquement un libellé textuel, sans élément enfant, icône, emoji, flèche ou pictogramme. Le caractère `→` et les autres glyphes directionnels sont interdits dans les boutons d'action : le verbe du libellé doit suffire à exprimer l'action. Ne jamais associer une icône et du texte dans un même bouton.
+>
 > **Règle — fonds colorés = `.c-card`.** Aucun composant ne porte son propre `background` / `border` / `border-radius` / `padding` : ce skin est centralisé dans `.c-card`. Un composant à fond coloré compose `c-card c-card--{variant} c-card--{size}` et ne garde que son layout/typo. Si le contenu est un encart centré (titre + texte + CTA), ajouter `.c-callout`.
 >
 > **Règle — radius proportionnel à la taille.** Le `border-radius` n'est jamais codé en dur sur un composant : il découle de `.c-card--{size}` via `--card-radius` (`small` 4, `medium` 8, `large` 16). Le radius `large` (16) = celui des images de contenu, pour un arrondi cohérent entre cards et médias.

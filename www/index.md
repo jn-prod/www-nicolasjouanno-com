@@ -1,14 +1,14 @@
 ---
 title: "Nicolas Jouanno — VTT, trail, sans gluten et van en famille"
 layout: page
-description: "Ex-cycliste professionnel, je partage le VTT, le trail, le sans gluten et nos voyages en van en famille, avec plus de vingt ans de projets sur le web."
+description: "J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten."
 permalink: /index.html
 breadcrumb_hide: true
 ---
 
 <hgroup class="u-text--center">
-  <h1><span class="u-visually-hidden">{{ site.title }}. </span>VTT, trail, sans gluten et van en famille.</h1>
-  <p>Ex-cycliste professionnel, je partage ce que je vis, ce que j'apprends et ce que je construis en chemin.</p>
+  <h1><span class="u-visually-hidden">{{ site.title }}. </span>J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten.</h1>
+  <p>Je raconte ce que nous trouvons en chemin et je construis les outils qui nous manquent.</p>
 </hgroup>
 
 <p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
@@ -19,22 +19,22 @@ Aujourd'hui, je roule et je cours autrement. Avec ma famille, nous parcourons l'
 
 Je crée et publie sur le web depuis plus de vingt ans. Je ne l'ai jamais fait selon une cadence régulière : j'y reviens quand une expérience mérite d'être partagée ou qu'un problème vécu appelle une réponse concrète. C'est ce fil qui relie des sujets qui pourraient sembler éloignés.
 
-<p><a href="/me/?utm_source=home&utm_medium=proof&utm_campaign=ecosystem" class="c-button c-button--dark-outline">Mon parcours →</a></p>
+<p><a href="/me/?utm_source=home&utm_medium=proof&utm_campaign=ecosystem" class="c-button c-button--dark-outline">Mon parcours</a></p>
 
 ## 🚵 VTT & trail
 
 Le vélo reste mon premier langage. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d'une question très simple : où rouler dimanche ? [feezify](/feezify.html) prolonge une autre part de cette histoire, mon carnet d'entraînement, pour mieux comprendre la charge et le ressenti. Le trail est arrivé après le vélo, avec le plaisir de recommencer comme débutant.
 
 <p class="c-button-stack">
-  <a href="/vtt/" class="c-button c-button--dark-outline">VTT →</a>
-  <a href="/trail/" class="c-button c-button--dark-outline">Trail →</a>
+  <a href="/vtt/" class="c-button c-button--dark-outline">VTT</a>
+  <a href="/trail/" class="c-button c-button--dark-outline">Trail</a>
 </p>
 
 ## 🌱 Sans gluten
 
 La maladie cœliaque est entrée dans notre vie familiale et a changé des gestes aussi ordinaires que faire les courses, cuisiner ou choisir un restaurant. Le [quiz « Gluten ou pas gluten ? »](/apps/gluten-not-gluten/) est né pour rendre cette vigilance visible et plus facile à partager.
 
-<p><a href="/nutrition/sans-gluten.html" class="c-button c-button--dark-outline">Sans gluten →</a></p>
+<p><a href="/nutrition/sans-gluten.html" class="c-button c-button--dark-outline">Sans gluten</a></p>
 
 ## 🇪🇺 Van en famille
 
@@ -54,4 +54,4 @@ Le van est le décor qui rassemble le reste : parcourir l'Europe en famille, tro
   {% endfor %}
 </ul>
 
-<p><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications →</a></p>
+<p><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a></p>
