@@ -12,6 +12,10 @@
   },
   "items": [
     
+    
+    
+    
+    
     {
       "id": "https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html",
       "url": "https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html",
@@ -23,6 +27,10 @@
       
       "tags": ["ia", "systèmes agentiques", "frontend", "création"]
     },
+    
+    
+    
+    
     
     {
       "id": "https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html",
@@ -36,6 +44,10 @@
       "tags": ["Sport", "course à pied", "trail", "entraînement", "débutant"]
     },
     
+    
+    
+    
+    
     {
       "id": "https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html",
       "url": "https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html",
@@ -47,6 +59,10 @@
       
       "tags": ["sans-gluten", "maladie-coeliaque", "sport", "endurance", "cyclisme", "nutrition"]
     },
+    
+    
+    
+    
     
     {
       "id": "https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html",
@@ -60,17 +76,25 @@
       "tags": ["sans-gluten", "sécu", "santé", "désinformation", "maladie-coeliaque"]
     },
     
+    
+    
+    
+    
     {
       "id": "https://www.nicolasjouanno.com/Retrouver-le-fil.html",
       "url": "https://www.nicolasjouanno.com/Retrouver-le-fil.html",
       "title": "Retrouver le fil - pourquoi je recentre tout sur un seul site",
-      "content_html": "<p>Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.</p>\n\n<p>Chaque projet avait son site : un pour le vélo, un pour mes expérimentations web, un autre pour partager des vidéos…</p>\n\n<p>C’était la logique du moment :\nséparer, cloisonner, multiplier les adresses.</p>\n\n<p>Mais à force de fermer des projets, de changer de plateformes ou de quitter des réseaux sociaux, j’ai fini par perdre une grande partie de ce que j’avais publié.</p>\n\n<p>Des années de créations dispersées, aujourd’hui invisibles.</p>\n\n<p>Avec le temps, j’ai compris que cette dispersion ne racontait pas vraiment mon histoire.</p>\n\n<p>Tout était fragmenté, alors que mon parcours lui, est une seule ligne</p>\n\n<p>Aujourd’hui, je reviens à quelque chose de plus simple : un hub personnel, une timeline unique.</p>\n\n<p>Un lieu qui rassemble le sport, la famille, la photo, le code. Bref, tout ce que je suis, sans devoir le découper.</p>\n\n<p>Je ne veux plus courir après les réseaux sociaux.</p>\n\n<p>Ce site devient mon terrain de jeu, mon carnet de bord, et peut-être le seul endroit où je veux vraiment écrire.</p>\n",
-      "summary": "Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.\n",
+      "content_html": "<blockquote>\n  <p><strong>Mise à jour — septembre 2026.</strong> Ce texte raconte le point de départ de ma réflexion, pas l’architecture actuelle. Je rassemble toujours mon histoire sous mon nom, mais plus dans un hub unique : les réseaux ouvrent la conversation, Substack entretient la relation, ce site conserve les contenus durables et les outils rendent le service.</p>\n</blockquote>\n\n<p>Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.</p>\n\n<p>Chaque projet avait son site : un pour le vélo, un pour mes expérimentations web, un autre pour partager des vidéos…</p>\n\n<p>C’était la logique du moment :\nséparer, cloisonner, multiplier les adresses.</p>\n\n<p>Mais à force de fermer des projets, de changer de plateformes ou de quitter des réseaux sociaux, j’ai fini par perdre une grande partie de ce que j’avais publié.</p>\n\n<p>Des années de créations dispersées, aujourd’hui invisibles.</p>\n\n<p>Avec le temps, j’ai compris que cette dispersion ne racontait pas vraiment mon histoire.</p>\n\n<p>Tout était fragmenté, alors que mon parcours lui, est une seule ligne</p>\n\n<p>Aujourd’hui, je reviens à quelque chose de plus simple : un hub personnel, une timeline unique.</p>\n\n<p>Un lieu qui rassemble le sport, la famille, la photo, le code. Bref, tout ce que je suis, sans devoir le découper.</p>\n\n<p>Je ne veux plus courir après les réseaux sociaux.</p>\n\n<p>Ce site devient mon terrain de jeu, mon carnet de bord, et peut-être le seul endroit où je veux vraiment écrire.</p>\n",
+      "summary": "En septembre 2025, je choisissais un hub personnel pour retrouver le fil de mes créations. Cette étape a depuis évolué vers un écosystème relié autour de mon histoire.",
       "date_published": "2025-09-17T00:00:00+00:00",
       
       
       "tags": ["minimalisme", "tech", "creation"]
     },
+    
+    
+    
+    
     
     {
       "id": "https://www.nicolasjouanno.com/podcast-gael-le-bellec.html",
@@ -84,6 +108,10 @@
       "tags": ["Sport"]
     },
     
+    
+    
+    
+    
     {
       "id": "https://www.nicolasjouanno.com/pourquoi-tombons-nous.html",
       "url": "https://www.nicolasjouanno.com/pourquoi-tombons-nous.html",
@@ -93,10 +121,14 @@
       "date_published": "2018-12-14T00:00:00+00:00",
       
       
-      "image": "https://www.nicolasjouanno.comimages/posts/route-de-montagne.webp",
+      "image": "https://www.nicolasjouanno.com/images/posts/route-de-montagne.webp",
       
       "tags": ["Sport", "Chute"]
     },
+    
+    
+    
+    
     
     {
       "id": "https://www.nicolasjouanno.com/premier-trail.html",
@@ -107,10 +139,14 @@
       "date_published": "2018-12-07T00:00:00+00:00",
       
       
-      "image": "https://www.nicolasjouanno.comimages/posts/homme_trail_foret.webp",
+      "image": "https://www.nicolasjouanno.com/images/posts/homme_trail_foret.webp",
       
       "tags": ["Trail", "Competition", "Debut"]
     },
+    
+    
+    
+    
     
     {
       "id": "https://www.nicolasjouanno.com/velo-boulot-dodo.html",
@@ -121,10 +157,14 @@
       "date_published": "2018-11-30T00:00:00+00:00",
       
       
-      "image": "https://www.nicolasjouanno.comimages/posts/tshirt_velo-boulot-dodo.webp",
+      "image": "https://www.nicolasjouanno.com/images/posts/tshirt_velo-boulot-dodo.webp",
       
       "tags": ["Textile", "T-shirt", "Création", "Projet"]
     },
+    
+    
+    
+    
     
     {
       "id": "https://www.nicolasjouanno.com/competition-versus-entrainement.html",
@@ -135,7 +175,7 @@
       "date_published": "2018-11-23T00:00:00+00:00",
       
       
-      "image": "https://www.nicolasjouanno.comimages/posts/1029035155.webp",
+      "image": "https://www.nicolasjouanno.com/images/posts/1029035155.webp",
       
       "tags": ["Sport", "Compétition", "Reconversion", "Entrainement"]
     }
