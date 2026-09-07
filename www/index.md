@@ -23,7 +23,7 @@ Je crée et publie sur le web depuis plus de vingt ans. Je ne l'ai jamais fait s
 
 ## 🚵 VTT & trail
 
-Le vélo reste mon premier langage. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d'une question très simple : où rouler dimanche ? [feezify](/feezify.html) prolonge une autre part de cette histoire, mon carnet d'entraînement, pour mieux comprendre la charge et le ressenti. Le trail est arrivé après le vélo, avec le plaisir de recommencer comme débutant.
+Le vélo est mon premier sujet d’expression. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d'une question simple : où rouler dimanche ? [feezify](/feezify.html) prolonge l’histoire avec un carnet numérique permettant aux sportifs de mieux comprendre leur charge d’entraînement et leurs performances. Le trail est arrivé après le vélo, avec le plaisir de recommencer comme débutant.
 
 <p class="c-button-stack">
   <a href="/vtt/" class="c-button c-button--dark-outline">VTT</a>
@@ -32,13 +32,13 @@ Le vélo reste mon premier langage. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) e
 
 ## 🌱 Sans gluten
 
-La maladie cœliaque est entrée dans notre vie familiale et a changé des gestes aussi ordinaires que faire les courses, cuisiner ou choisir un restaurant. Le [quiz « Gluten ou pas gluten ? »](/apps/gluten-not-gluten/) est né pour rendre cette vigilance visible et plus facile à partager.
+La maladie cœliaque est entrée dans notre vie familiale et a changé des gestes ordinaire: faire les courses, cuisiner ou choisir un restaurant. Le [quiz « Gluten ou pas gluten ? »](/apps/gluten-not-gluten/) est né pour rendre cette vigilance visible et plus facile à partager.
 
 <p><a href="/nutrition/sans-gluten.html" class="c-button c-button--dark-outline">Sans gluten</a></p>
 
 ## 🇪🇺 Van en famille
 
-Le van est le décor qui rassemble le reste : parcourir l'Europe en famille, trouver où rouler ou courir, et réussir à manger sans gluten loin de ses repères. Il donne à ces sujets un même terrain plutôt qu'une ligne éditoriale artificielle.
+L’Europe est devenue notre jardin familial. Nous la parcourons en van au rythme des vacances à la recherche de lieu où marcher, courir, rouler, ... et réussir à manger sans gluten loin de ses repères.
 
 ## En ce moment
 
