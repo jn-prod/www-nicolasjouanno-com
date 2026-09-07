@@ -15,6 +15,10 @@ layout: null
   },
   "items": [
     {% for post in site.posts limit:10 %}
+    {% assign post_image_source = post.image %}
+    {% unless post_image_source %}{% if post.images and post.images.size > 0 %}{% assign post_image_source = post.images[0] %}{% endif %}{% endunless %}
+    {% capture post_image %}{% include resolve-image.html image=post_image_source %}{% endcapture %}
+    {% assign post_image = post_image | strip %}
     {
       "id": "{{ site.url }}{{ post.url }}",
       "url": "{{ site.url }}{{ post.url }}",
@@ -25,8 +29,8 @@ layout: null
       {% if post.last_modified_at %}
       "date_modified": "{{ post.last_modified_at | date_to_xmlschema }}",
       {% endif %}
-      {% if post.images and post.images.size > 0 %}
-      "image": "{{ site.url }}{{ post.images[0] }}",
+      {% if post_image_source %}
+      "image": "{{ post_image | absolute_url }}",
       {% endif %}
       "tags": [{% for tag in post.tags %}{{ tag | jsonify }}{% if forloop.last == false %}, {% endif %}{% endfor %}]
     }{% unless forloop.last %},{% endunless %}

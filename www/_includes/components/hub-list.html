@@ -19,10 +19,29 @@
   {%- assign posts = posts | where: "format", include.format -%}
 {%- endif -%}
 {%- if include.verticale -%}
-  {%- assign posts = posts | where: "verticale", include.verticale -%}
+  {%- assign topic_category = include.verticale -%}
+  {%- for candidate in site.data.taxonomie.verticales -%}
+    {%- if candidate.slug == include.verticale -%}
+      {%- assign topic_category = candidate.category -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign topic_posts = "" | split: "" -%}
+  {%- for candidate in posts -%}
+    {%- if candidate.verticale == include.verticale or candidate.categories contains topic_category -%}
+      {%- assign topic_posts = topic_posts | push: candidate -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign posts = topic_posts -%}
 {%- endif -%}
 {%- if include.sous_silo -%}
-  {%- assign posts = posts | where: "sous_silo", include.sous_silo -%}
+  {%- assign silo_posts = "" | split: "" -%}
+  {%- for candidate in posts -%}
+    {%- if candidate.sous_silo == include.sous_silo or candidate.categories contains include.sous_silo -%}
+      {%- assign silo_posts = silo_posts | push: candidate -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign posts = silo_posts -%}
 {%- endif -%}
 {%- unless include.format == "actu" -%}
   {%- assign posts = posts | where_exp: "p", "p.archive != true" -%}

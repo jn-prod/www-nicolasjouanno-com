@@ -5,6 +5,7 @@
     "tags": "tags",
     "technologies": "multitext",
     "projects": "multitext",
+    "image": "text",
     "images": "multitext"
   }
 }

@@ -62,7 +62,7 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
   </li>
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
-      <p>Depuis <time datetime="2008">2008</time> — Je tiens nicolasjouanno.com, mon hub éditorial, depuis 2008. J'y défends un <a href="/me/#slow-web">web possédé, à vitesse humaine</a> — le slow web, l'inverse exact du web qui scale. Mon espace à moi, que j'écris et que je fais évoluer à la main.</p>
+      <p>Depuis <time datetime="2008">2008</time> — Je tiens nicolasjouanno.com, mon site personnel. Il conserve mes publications et donne de la profondeur aux sujets que j'explore, tandis que les réseaux accueillent la conversation et Substack entretient la relation. Je le fais évoluer à la main, dans l'esprit d'un <a href="/me/#slow-web">web possédé, à vitesse humaine</a>.</p>
       <p><a href="https://github.com/jn-prod/www-nicolasjouanno-com" class="c-button c-button--dark-outline">Voir le code source</a></p>
     </div>
   </li>

@@ -80,6 +80,11 @@ collections:
 
 defaults:
   - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
       path: "_events"
       type: "events"
     values:

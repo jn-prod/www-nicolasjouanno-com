@@ -288,7 +288,7 @@
           "knowsAbout": [
             {% assign structured_topic_count = 0 %}
             {% for verticale in site.data.taxonomie.verticales %}
-              {% if verticale.status == "active" and verticale.include_llms %}
+              {% if verticale.status == "active" and verticale.include_person_schema %}
                 {% for topic in verticale.keywords %}
                   {% if structured_topic_count > 0 %},{% endif %}
                   {{ topic | jsonify }}

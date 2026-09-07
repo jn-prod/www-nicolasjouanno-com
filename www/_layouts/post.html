@@ -22,8 +22,17 @@ layout: page
       itemprop="url mainEntityOfPage"
       content="{{ site.url}}{{page.url }}"
     />
-    {%- if page.verticale -%}
-      {%- assign v = site.data.taxonomie.verticales | where: "slug", page.verticale | first -%}
+    {%- assign page_verticale = page.verticale -%}
+    {%- unless page_verticale -%}
+      {%- for candidate in site.data.taxonomie.verticales -%}
+        {%- if page.categories contains candidate.category -%}
+          {%- assign page_verticale = candidate.slug -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endunless -%}
+    {%- if page_verticale -%}
+      {%- assign v = site.data.taxonomie.verticales | where: "slug", page_verticale | first -%}
       {%- if v -%}
         <p class="c-post__breadcrumb">
           <a href="{{ v.permalink }}">← Tous les articles {{ v.label }}</a>
@@ -32,15 +41,21 @@ layout: page
     {%- endif -%}
   </header>
 
-  {% if page.images %}
+  {% assign page_image_source = page.image %}
+  {% unless page_image_source %}
+    {% if page.images and page.images.size > 0 %}
+      {% assign page_image_source = page.images[0] %}
+    {% endif %}
+  {% endunless %}
+  {% capture page_image %}{% include resolve-image.html image=page_image_source %}{% endcapture %}
+  {% assign page_image = page_image | strip %}
+  {% if page_image_source %}
   <div class="c-layout__medias">
-    {% for img in page.images %}
     <img
-      src="{{ img | relative_url }}"
+      src="{{ page_image | relative_url }}"
       alt="{% if page.image_alt %}{{ page.image_alt }}{% else %}Illustration de l'article : {{ page.title }}{% endif %}"
       loading="lazy"
     />
-    {% endfor %}
   </div>
   {% endif %}
 

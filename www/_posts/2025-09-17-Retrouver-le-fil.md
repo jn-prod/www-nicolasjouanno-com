@@ -3,7 +3,8 @@ layout: post
 format: recit
 verticale: projets
 title: Retrouver le fil - pourquoi je recentre tout sur un seul site
-description: Après des années à disperser mes projets sur différents sites et réseaux, j’ai choisi de tout recentrer sur une timeline unique. Un hub personnel pour ne plus perdre mes créations et raconter mon histoire dans un seul lieu.
+description: En septembre 2025, je choisissais un hub personnel pour retrouver le fil de mes créations. Cette étape a depuis évolué vers un écosystème relié autour de mon histoire.
+excerpt: En septembre 2025, je choisissais un hub personnel pour retrouver le fil de mes créations. Cette étape a depuis évolué vers un écosystème relié autour de mon histoire.
 tags:
   - minimalisme
   - tech
@@ -11,6 +12,8 @@ tags:
 categories:
   - Life
 ---
+
+> **Mise à jour — septembre 2026.** Ce texte raconte le point de départ de ma réflexion, pas l'architecture actuelle. Je rassemble toujours mon histoire sous mon nom, mais plus dans un hub unique : les réseaux ouvrent la conversation, Substack entretient la relation, ce site conserve les contenus durables et les outils rendent le service.
 
 Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.
 

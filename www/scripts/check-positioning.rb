@@ -8,6 +8,13 @@ require "yaml"
 ROOT = Pathname.new(__dir__).join("..").expand_path
 TAXONOMIE_PATH = ROOT.join("_data", "taxonomie.yml")
 POSTS_DIR = ROOT.join("_posts")
+CATEGORY_TO_VERTICALE = {
+  "vtt" => "vtt",
+  "trail" => "trail",
+  "voyage" => "rando",
+  "sans-gluten" => "nutrition",
+  "projets" => "projets"
+}.freeze
 
 def fail_with(errors)
   return if errors.empty?
@@ -62,7 +69,7 @@ verticales.each do |verticale|
   label = verticale["label"]
   status = verticale["status"] || (verticale["planned"] ? "planned" : "active")
 
-  %w[slug label permalink description positioning keywords].each do |field|
+  %w[slug category label permalink description positioning keywords].each do |field|
     value = verticale[field]
     errors << "#{slug || label || "(unknown)"} missing #{field}" if value.nil? || value == "" || value == []
   end
@@ -74,15 +81,11 @@ verticales.each do |verticale|
   if status == "active"
     errors << "#{slug} active verticale must set visible_footer: true or false" unless [true, false].include?(verticale["visible_footer"])
     errors << "#{slug} active verticale must set include_home: true or false" unless [true, false].include?(verticale["include_home"])
-    errors << "#{slug} active verticale must set include_llms: true or false" unless [true, false].include?(verticale["include_llms"])
+    errors << "#{slug} active verticale must set include_person_schema: true or false" unless [true, false].include?(verticale["include_person_schema"])
   end
 
   if verticale["include_home"] == true && (verticale["home_description"].nil? || verticale["home_description"].empty?)
     errors << "#{slug} include_home requires home_description"
-  end
-
-  if verticale["include_llms"] == true && (verticale["llms_description"].nil? || verticale["llms_description"].empty?)
-    errors << "#{slug} include_llms requires llms_description"
   end
 
   if verticale["visible_footer"] == true && !page_exists_for?(verticale["permalink"])
@@ -100,10 +103,15 @@ POSTS_DIR.glob("*.md").each do |post_path|
   end
 
   format = frontmatter["format"]
-  verticale = frontmatter["verticale"]
+  categories = Array(frontmatter["categories"]).compact.map(&:to_s)
+  verticale = frontmatter["verticale"] || CATEGORY_TO_VERTICALE[categories.find { |category| CATEGORY_TO_VERTICALE.key?(category) }]
 
+  errors << "#{post_path.relative_path_from(ROOT)} missing title" if frontmatter["title"].to_s.strip.empty?
+  errors << "#{post_path.relative_path_from(ROOT)} missing categories" if categories.empty?
   errors << "#{post_path.relative_path_from(ROOT)} unknown format #{format.inspect}" if format && !format_slugs.include?(format)
-  errors << "#{post_path.relative_path_from(ROOT)} missing verticale" if verticale.nil? || verticale.empty?
+  if verticale.nil? || verticale.empty?
+    errors << "#{post_path.relative_path_from(ROOT)} missing known topic category"
+  end
 
   if verticale && !verticale_slugs.include?(verticale)
     errors << "#{post_path.relative_path_from(ROOT)} unknown verticale #{verticale.inspect}"

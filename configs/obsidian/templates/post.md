@@ -1,9 +1,7 @@
 ---
-layout: post
-title:
-featured: false
-description:
+title: ""
+description: ""
 categories:
-tags:
-images:
+  - vtt
+image:
 ---

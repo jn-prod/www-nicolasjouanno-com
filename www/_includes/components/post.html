@@ -11,8 +11,16 @@
     content="{{ post.date | date_to_xmlschema }}"
   />
   <meta itemprop="author" content="{{ site.author.name }}" />
-  {% if post.images and post.images.size > 0 %}
-  <meta itemprop="image" content="{{ post.images[0] | absolute_url }}" />
+  {% assign post_image_source = post.image %}
+  {% unless post_image_source %}
+    {% if post.images and post.images.size > 0 %}
+      {% assign post_image_source = post.images[0] %}
+    {% endif %}
+  {% endunless %}
+  {% capture post_image %}{% include resolve-image.html image=post_image_source %}{% endcapture %}
+  {% assign post_image = post_image | strip %}
+  {% if post_image_source %}
+  <meta itemprop="image" content="{{ post_image | absolute_url }}" />
   {% endif %}
   <meta itemprop="headline" content="{{ post.title }}" />
   <meta itemprop="mainEntityOfPage" content="{{ site.url }}{{ post.url }}" />
@@ -29,10 +37,10 @@
     </div>
   </header>
 
-  {% if post.images.size > 0 %}
+  {% if post_image_source %}
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
-    src="{{ post.images[0] | relative_url }}"
+    src="{{ post_image | relative_url }}"
     alt="Illustration de l'article : {{ post.title }}"
     loading="lazy"
   />
