@@ -46,37 +46,3 @@ const setup = async () => {
 document.addEventListener('DOMContentLoaded', setup);
 
 setup();
-
-const setupFilters = () => {
-  const container = document.getElementById('post-filters');
-  const list = document.getElementById('all-posts');
-  if (!container || !list) return;
-  const items = Array.from(list.querySelectorAll('[data-category]'));
-  const buttons = Array.from(container.querySelectorAll('button[data-filter]'));
-
-  const apply = (filter) => {
-    items.forEach((li) => {
-      const cats = (li.dataset.category || '').split(' ');
-      li.hidden = !(filter === 'all' || cats.includes(filter));
-    });
-    buttons.forEach((b) => {
-      const on = b.dataset.filter === filter;
-      b.setAttribute('aria-pressed', String(on));
-      b.classList.toggle('c-button--dark', on);
-      b.classList.toggle('c-button--dark-outline', !on);
-    });
-    history.replaceState(null, '', filter === 'all' ? location.pathname : '#' + filter);
-  };
-
-  buttons.forEach((b) => b.addEventListener('click', () => apply(b.dataset.filter)));
-
-  const initial = (location.hash || '').replace('#', '');
-  apply(buttons.some((b) => b.dataset.filter === initial) ? initial : 'all');
-};
-
-// main.js est chargé en `async` : DOMContentLoaded peut déjà être passé.
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', setupFilters);
-} else {
-  setupFilters();
-}
