@@ -11,22 +11,29 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Tue, 08 Sep 2026 11:36:58 +0000</pubDate>
-    <lastBuildDate>Tue, 08 Sep 2026 11:36:58 +0000</lastBuildDate>
+    <pubDate>Tue, 08 Sep 2026 18:57:23 +0000</pubDate>
+    <lastBuildDate>Tue, 08 Sep 2026 18:57:23 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
 
     
+    
+      
+      
+      
       <item>
         <title>J&apos;ai tué mon SaaS. Je l&apos;ai reconstruit comme agent IA.</title>
         <description><![CDATA[
           
-          On commence à appeler ça le SaaSpocalypse.
-
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html" target="_blank">nicolasjouanno.com</a></p>
+          <p>On commence à appeler ça le SaaSpocalypse.
+</p>
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
-        <content:encoded><![CDATA[<p>On commence à appeler ça le SaaSpocalypse.</p>
+        <content:encoded><![CDATA[
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html">nicolasjouanno.com</a>.</em></p>
+          
+          <p>On commence à appeler ça le SaaSpocalypse.</p>
 
 <p>L’idée est simple : pendant quinze ans, on a vendu du logiciel au siège et à l’abonnement. Une app par problème, un serveur, une base, un compte, un paiement mensuel. L’IA fait fondre ce modèle — littéralement : en février 2026, environ <strong>285 milliards de dollars</strong> se sont évaporés des valeurs SaaS en quarante-huit heures (<a href="https://www.thesaascfo.com/the-saaspocalypse-ai-agents-vibe-coding-and-the-changing-economics-of-saas/">The SaaS CFO</a> ; <a href="https://thepaypers.com/fintech/expert-views/the-saaspocalypse-and-payments-who-survives-when-the-per-seat-model-dies">The Paypers</a>). Le diagnostic du marché tient en une phrase : quand un agent fait le travail de dix personnes, on ne paie plus dix sièges.</p>
 
@@ -113,10 +120,11 @@
 
 <p>Parce que c’est, je crois, le mouvement de fond : on arrête de construire des apps, on construit des <strong>agents qui s’installent sur l’IA des gens.</strong> Et que la meilleure façon de comprendre une techno, c’est de la montrer par le vécu — ici, un vieux projet à moi, ressuscité autrement.</p>
 
-<p>Si tu lis tes propres données d’entraînement, feezify arrive en beta : la page — avec la liste d’attente pour l’avant-première — est <strong><a href="/feezify.html">ici</a></strong>.</p>
+<p>Si tu lis tes propres données d’entraînement, feezify arrive en beta : la page — avec la liste d’attente pour l’avant-première — est <strong><a href="https://www.nicolasjouanno.com/feezify.html">ici</a></strong>.</p>
 
 <p>Et si tu construis des choses avec des agents, le dépôt est ouvert : <strong><a href="https://github.com/jn-prod/feezify">github.com/jn-prod/feezify</a></strong>. La méthode est dedans, en clair.</p>
-]]></content:encoded>
+
+        ]]></content:encoded>
         <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
         <link>https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html</link>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html</guid>
@@ -138,15 +146,21 @@
         
       </item>
     
+      
+      
+      
       <item>
         <title>Premier 10 km : méthode d’un champion et plaisir de courir</title>
         <description><![CDATA[
           
-          On me demande parfois comment « se mettre à la course » et boucler un premier 10 km. J’ai deux aveux et une bonne nouvelle. Aveu n°1 : je n’ai jamais couru de 10 km sur route de ma vie. Aveu n°2 : je m’entraîne à la sensation, pas au plan. La bonne nouvelle : j’ai reçu sur mon podcast Gaël Le Bellec, triple champion du monde de duathlon, qui lui sait exactement comment on structure une prépa. Alors plutôt qu’un énième plan tout fait, voici un regard croisé : sa méthode de champion, et mon contre-pied de coureur par plaisir. Prends ce qui te parle.
-
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html" target="_blank">nicolasjouanno.com</a></p>
+          <p>On me demande parfois comment « se mettre à la course » et boucler un premier 10 km. J’ai deux aveux et une bonne nouvelle. Aveu n°1 : je n’ai jamais couru de 10 km sur route de ma vie. Aveu n°2 : je m’entraîne à la sensation, pas au plan. La bonne nouvelle : j’ai reçu sur mon podcast Gaël Le Bellec, triple champion du monde de duathlon, qui lui sait exactement comment on structure une prépa. Alors plutôt qu’un énième plan tout fait, voici un regard croisé : sa méthode de champion, et mon contre-pied de coureur par plaisir. Prends ce qui te parle.
+</p>
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
-        <content:encoded><![CDATA[<p><em>On me demande parfois comment « se mettre à la course » et boucler un premier 10 km. J’ai deux aveux et une bonne nouvelle. Aveu n°1 : je n’ai jamais couru de 10 km sur route de ma vie. Aveu n°2 : je m’entraîne à la sensation, pas au plan. La bonne nouvelle : j’ai reçu sur mon <a href="/podcast-gael-le-bellec.html">podcast Gaël Le Bellec</a>, triple champion du monde de duathlon, qui lui sait exactement comment on structure une prépa. Alors plutôt qu’un énième plan tout fait, voici un regard croisé : sa méthode de champion, et mon contre-pied de coureur par plaisir. Prends ce qui te parle.</em></p>
+        <content:encoded><![CDATA[
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html">nicolasjouanno.com</a>.</em></p>
+          
+          <p><em>On me demande parfois comment « se mettre à la course » et boucler un premier 10 km. J’ai deux aveux et une bonne nouvelle. Aveu n°1 : je n’ai jamais couru de 10 km sur route de ma vie. Aveu n°2 : je m’entraîne à la sensation, pas au plan. La bonne nouvelle : j’ai reçu sur mon <a href="https://www.nicolasjouanno.com/podcast-gael-le-bellec.html">podcast Gaël Le Bellec</a>, triple champion du monde de duathlon, qui lui sait exactement comment on structure une prépa. Alors plutôt qu’un énième plan tout fait, voici un regard croisé : sa méthode de champion, et mon contre-pied de coureur par plaisir. Prends ce qui te parle.</em></p>
 
 <h2 id="la-méthode-du-champion">La méthode du champion</h2>
 
@@ -166,7 +180,7 @@
 
 <p>Maintenant, ma version — et elle est très différente.</p>
 
-<p>D’abord, <strong>je n’ai jamais aimé la route.</strong> J’ai fait un semi-marathon, des trails de 10 à 20 km, mais du roulant pur, non merci : le temps me paraît interminable et l’effort ne m’amuse pas. Ce que j’aime, c’est le chemin, le contact avec la nature, les variations de terrain et d’appuis, le paysage qui défile, la fraîcheur sous les arbres l’été. Je l’écrivais déjà dans le récit de <a href="/premier-trail.html">mon premier trail</a>.</p>
+<p>D’abord, <strong>je n’ai jamais aimé la route.</strong> J’ai fait un semi-marathon, des trails de 10 à 20 km, mais du roulant pur, non merci : le temps me paraît interminable et l’effort ne m’amuse pas. Ce que j’aime, c’est le chemin, le contact avec la nature, les variations de terrain et d’appuis, le paysage qui défile, la fraîcheur sous les arbres l’été. Je l’écrivais déjà dans le récit de <a href="https://www.nicolasjouanno.com/premier-trail.html">mon premier trail</a>.</p>
 
 <p>Ensuite, <strong>la règle des 10 %, je n’en tiens pas compte.</strong> Je cours à l’envie. Il fait beau et j’ai la pêche ? Je pars longtemps. Flemme, mauvais temps, jambes lourdes ? Je raccourcis, ou je bascule sur un autre sport — une sortie VTT, du yoga à la maison. Mon corps décide.</p>
 
@@ -176,7 +190,7 @@
 
 <p>Et pourtant, sur l’essentiel, on dit la même chose.</p>
 
-<p><strong>Ne pars pas trop vite.</strong> Mon pire souvenir, c’est justement <a href="/premier-trail.html">mon premier trail</a> : embarqué par l’énergie de la course, parti bien trop vite, j’ai sous-estimé le dénivelé et présumé de mes forces. La fin a été terrible. Parce qu’en course à pied, contrairement au vélo, <strong>on ne se refait pas</strong> : quand tu es cramé, tu passes à la marche, et là les sensations deviennent tout de suite beaucoup moins fun. Alors apprends à t’économiser et à <strong>finir fort</strong>.</p>
+<p><strong>Ne pars pas trop vite.</strong> Mon pire souvenir, c’est justement <a href="https://www.nicolasjouanno.com/premier-trail.html">mon premier trail</a> : embarqué par l’énergie de la course, parti bien trop vite, j’ai sous-estimé le dénivelé et présumé de mes forces. La fin a été terrible. Parce qu’en course à pied, contrairement au vélo, <strong>on ne se refait pas</strong> : quand tu es cramé, tu passes à la marche, et là les sensations deviennent tout de suite beaucoup moins fun. Alors apprends à t’économiser et à <strong>finir fort</strong>.</p>
 
 <p><strong>Sur la course-marche, je suis fan</strong> — mais à ma façon : en trail, je marche les montées trop dures ou je récupère après un bel effort, quand je sens que j’en ai besoin. Pour allonger la distance quand on n’a pas le temps « gratuit » qu’on a sur un vélo, c’est franchement pertinent.</p>
 
@@ -190,10 +204,11 @@
 
 <p>Au fond, il n’y a pas une seule bonne route. Tu veux un cadre et un objectif chiffré ? Prends la méthode du champion. Tu veux durer et y prendre goût ? Fais comme moi : sors, varie, écoute tes sensations — et garde-toi de partir trop vite. Le reste, c’est du plaisir.</p>
 
-<p><em>Pour aller plus loin, écoute <a href="/podcast-gael-le-bellec.html">l’épisode complet avec Gaël Le Bellec</a>.</em></p>
+<p><em>Pour aller plus loin, écoute <a href="https://www.nicolasjouanno.com/podcast-gael-le-bellec.html">l’épisode complet avec Gaël Le Bellec</a>.</em></p>
 
-<p>🚲 <em>Côté vélo, je réfléchis à un <strong>plan d’entraînement VTT clé en main</strong> à télécharger — même esprit que ce 10 km : progresser à son rythme, sans se prendre la tête. Si l’idée te parle, <a href="/entrainement-vtt.html">dis-le moi sur l’article entraînement VTT</a> : ça m’aidera à décider de le créer.</em></p>
-]]></content:encoded>
+<p>🚲 <em>Côté vélo, je réfléchis à un <strong>plan d’entraînement VTT clé en main</strong> à télécharger — même esprit que ce 10 km : progresser à son rythme, sans se prendre la tête. Si l’idée te parle, <a href="https://www.nicolasjouanno.com/entrainement-vtt.html">dis-le moi sur l’article entraînement VTT</a> : ça m’aidera à décider de le créer.</em></p>
+
+        ]]></content:encoded>
         <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
         <link>https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html</link>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html</guid>
@@ -215,15 +230,21 @@
         
       </item>
     
+      
+      
+      
       <item>
         <title>Sans gluten et sport d’endurance : mon expérience de cycliste et parent</title>
         <description><![CDATA[
           
-          J’ai vécu deux rapports très différents à l’assiette. Pendant mes années de cycliste professionnel, tout tournait autour du carburant : combien de glucides, à quel moment, pour tenir le watt sur la durée. Aujourd’hui, en tant que parent d’un enfant cœliaque, je lis chaque étiquette avec la même rigueur — mais pour une autre raison : éviter le moindre gramme de gluten.
-
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html" target="_blank">nicolasjouanno.com</a></p>
+          <p>J’ai vécu deux rapports très différents à l’assiette. Pendant mes années de cycliste professionnel, tout tournait autour du carburant : combien de glucides, à quel moment, pour tenir le watt sur la durée. Aujourd’hui, en tant que parent d’un enfant cœliaque, je lis chaque étiquette avec la même rigueur — mais pour une autre raison : éviter le moindre gramme de gluten.
+</p>
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
-        <content:encoded><![CDATA[<p>J’ai vécu deux rapports très différents à l’assiette. Pendant mes années de <a href="/me/results.html">cycliste professionnel</a>, tout tournait autour du carburant : combien de glucides, à quel moment, pour tenir le watt sur la durée. Aujourd’hui, en tant que <strong>parent d’un enfant cœliaque</strong>, je lis chaque étiquette avec la même rigueur — mais pour une autre raison : éviter le moindre gramme de gluten.</p>
+        <content:encoded><![CDATA[
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html">nicolasjouanno.com</a>.</em></p>
+          
+          <p>J’ai vécu deux rapports très différents à l’assiette. Pendant mes années de <a href="https://www.nicolasjouanno.com/me/results.html">cycliste professionnel</a>, tout tournait autour du carburant : combien de glucides, à quel moment, pour tenir le watt sur la durée. Aujourd’hui, en tant que <strong>parent d’un enfant cœliaque</strong>, je lis chaque étiquette avec la même rigueur — mais pour une autre raison : éviter le moindre gramme de gluten.</p>
 
 <p>Ces deux mondes se rejoignent plus qu’on ne croit.</p>
 
@@ -253,8 +274,9 @@
 
 <hr />
 
-<p>Envie de tester vos réflexes ? J’ai construit un petit outil : <strong><a href="/apps/gluten-not-gluten/">Gluten ou pas gluten ?</a></strong> — un quiz pour apprendre à repérer le gluten, aliment par aliment. Et si le sport vous parle, <a href="/me/results.html">mon parcours sportif est par ici</a>.</p>
-]]></content:encoded>
+<p>Envie de tester vos réflexes ? J’ai construit un petit outil : <strong><a href="https://www.nicolasjouanno.com/apps/gluten-not-gluten/">Gluten ou pas gluten ?</a></strong> — un quiz pour apprendre à repérer le gluten, aliment par aliment. Et si le sport vous parle, <a href="https://www.nicolasjouanno.com/me/results.html">mon parcours sportif est par ici</a>.</p>
+
+        ]]></content:encoded>
         <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
         <link>https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html</link>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html</guid>
@@ -278,15 +300,21 @@
         
       </item>
     
+      
+      
+      
       <item>
         <title>Galette sans gluten : ce que rembourse réellement l’Assurance Maladie</title>
         <description><![CDATA[
           
-          Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :
-
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html" target="_blank">nicolasjouanno.com</a></p>
+          <p>Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :
+</p>
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
-        <content:encoded><![CDATA[<p>Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :</p>
+        <content:encoded><![CDATA[
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html">nicolasjouanno.com</a>.</em></p>
+          
+          <p>Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :</p>
 
 <ul>
   <li><a href="https://www.instagram.com/reel/DTdXxP3jU50/?igsh=Z3QxYTY4anBrMGpy">une publication de Laurent Wauquiez, président du groupe Les Républicains à l’Assemblée nationale</a></li>
@@ -368,8 +396,8 @@ en supposant que :</p>
 <h2 id="pour-aller-plus-loin">Pour aller plus loin</h2>
 
 <ul>
-  <li><a href="/nutrition/sans-gluten.html">Vivre sans gluten au quotidien</a> — mes repères concrets, par expérience</li>
-  <li><a href="/apps/gluten-not-gluten/">Gluten ou pas gluten ?</a> — le quiz pour s’entraîner à repérer le gluten</li>
+  <li><a href="https://www.nicolasjouanno.com/nutrition/sans-gluten.html">Vivre sans gluten au quotidien</a> — mes repères concrets, par expérience</li>
+  <li><a href="https://www.nicolasjouanno.com/apps/gluten-not-gluten/">Gluten ou pas gluten ?</a> — le quiz pour s’entraîner à repérer le gluten</li>
 </ul>
 
 <h2 id="sources">Sources</h2>
@@ -382,7 +410,8 @@ en supposant que :</p>
   <li><a href="https://www.afdiag.fr/fr/">🤝 AFDIAG – Association Française Des Intolérants Au Gluten</a></li>
   <li><a href="https://www.le-petit-minotier.fr/produit/galette-sans-lactose-aux-amandes">🥐 La galette des rois sans gluten certifiée AFDIAG en question</a></li>
 </ul>
-]]></content:encoded>
+
+        ]]></content:encoded>
         <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
         <link>https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html</link>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html</guid>
@@ -406,14 +435,20 @@ en supposant que :</p>
         
       </item>
     
+      
+      
+      
       <item>
         <title>Retrouver le fil - pourquoi je recentre tout sur un seul site</title>
         <description><![CDATA[
           
-          En septembre 2025, je choisissais un hub personnel pour retrouver le fil de mes créations. Cette étape a depuis évolué vers un écosystème relié autour de mon histoire.
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/Retrouver-le-fil.html" target="_blank">nicolasjouanno.com</a></p>
+          <p>En septembre 2025, je choisissais un hub personnel pour retrouver le fil de mes créations. Cette étape a depuis évolué vers un écosystème relié autour de mon histoire.</p>
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/Retrouver-le-fil.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
-        <content:encoded><![CDATA[<blockquote>
+        <content:encoded><![CDATA[
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/Retrouver-le-fil.html">nicolasjouanno.com</a>.</em></p>
+          
+          <blockquote>
   <p><strong>Mise à jour — septembre 2026.</strong> Ce texte raconte le point de départ de ma réflexion, pas l’architecture actuelle. Je rassemble toujours mon histoire sous mon nom, mais plus dans un hub unique : les réseaux ouvrent la conversation, Substack entretient la relation, ce site conserve les contenus durables et les outils rendent le service.</p>
 </blockquote>
 
@@ -439,7 +474,8 @@ séparer, cloisonner, multiplier les adresses.</p>
 <p>Je ne veux plus courir après les réseaux sociaux.</p>
 
 <p>Ce site devient mon terrain de jeu, mon carnet de bord, et peut-être le seul endroit où je veux vraiment écrire.</p>
-]]></content:encoded>
+
+        ]]></content:encoded>
         <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
         <link>https://www.nicolasjouanno.com/Retrouver-le-fil.html</link>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/Retrouver-le-fil.html</guid>
@@ -459,15 +495,21 @@ séparer, cloisonner, multiplier les adresses.</p>
         
       </item>
     
+      
+      
+      
       <item>
         <title>Podcast #1 - Gael Le Bellec, 3x champion du monde de duathlon</title>
         <description><![CDATA[
           
-          
-
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/podcast-gael-le-bellec.html" target="_blank">nicolasjouanno.com</a></p>
+          <p>
+</p>
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/podcast-gael-le-bellec.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
-        <content:encoded><![CDATA[<iframe width="100%" height="315" src="https://www.youtube.com/embed/YX4ip_bAdx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <content:encoded><![CDATA[
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/podcast-gael-le-bellec.html">nicolasjouanno.com</a>.</em></p>
+          
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/YX4ip_bAdx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <p>Aujourd’hui, je reçois au micro du podcast Gael Le Bellec, notre breton triple champion du monde de duathlon.</p>
 
@@ -477,8 +519,9 @@ séparer, cloisonner, multiplier les adresses.</p>
 
 <p>Il nous parle aussi de ses objectifs 2019. De l’équilibre qu’il a trouvé entre la vie de sportif, sa vie professionnelle et sa vie de père de famille.</p>
 
-<p>🚲 <em>Dans le prolongement de ce que raconte Gaël — progresser en gardant l’équilibre et le plaisir — je réfléchis à un <strong>plan d’entraînement VTT clé en main</strong> à télécharger. Si l’idée te parle, <a href="/entrainement-vtt.html">fais-le moi savoir ici</a> : ça m’aidera à décider de le créer.</em></p>
-]]></content:encoded>
+<p>🚲 <em>Dans le prolongement de ce que raconte Gaël — progresser en gardant l’équilibre et le plaisir — je réfléchis à un <strong>plan d’entraînement VTT clé en main</strong> à télécharger. Si l’idée te parle, <a href="https://www.nicolasjouanno.com/entrainement-vtt.html">fais-le moi savoir ici</a> : ça m’aidera à décider de le créer.</em></p>
+
+        ]]></content:encoded>
         <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
         <link>https://www.nicolasjouanno.com/podcast-gael-le-bellec.html</link>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/podcast-gael-le-bellec.html</guid>
@@ -502,6 +545,9 @@ séparer, cloisonner, multiplier les adresses.</p>
         
       </item>
     
+      
+      
+      
       <item>
         <title>Pourquoi tombons-nous ?</title>
         <description><![CDATA[
@@ -510,11 +556,20 @@ séparer, cloisonner, multiplier les adresses.</p>
               <img src="https://www.nicolasjouanno.com/images/posts/route-de-montagne.webp" alt="Pourquoi tombons-nous ?"/>
             </a>
           
-          Chapitre 1 : Une adolescence dans les sous-bois
-
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/pourquoi-tombons-nous.html" target="_blank">nicolasjouanno.com</a></p>
+          <p>Chapitre 1 : Une adolescence dans les sous-bois
+</p>
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/pourquoi-tombons-nous.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
-        <content:encoded><![CDATA[<h2 id="chapitre-1--une-adolescence-dans-les-sous-bois">Chapitre 1 : Une adolescence dans les sous-bois</h2>
+        <content:encoded><![CDATA[
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/pourquoi-tombons-nous.html">nicolasjouanno.com</a>.</em></p>
+          
+            <p>
+              <a href="https://www.nicolasjouanno.com/pourquoi-tombons-nous.html">
+                <img src="https://www.nicolasjouanno.com/images/posts/route-de-montagne.webp" alt="Pourquoi tombons-nous ?"/>
+              </a>
+            </p>
+          
+          <h2 id="chapitre-1--une-adolescence-dans-les-sous-bois">Chapitre 1 : Une adolescence dans les sous-bois</h2>
 
 <p><em>A 10 ans, je me passionne pour le VTT et débute sa pratique en “ecole de VTT”. C’est la discipline qui m’amenera à découvrir la compétition au niveau regionnal. Limité par une saison qui va de mars à octobre, je me tourne vers le cyclo-cross à 15 ans pour faire durer le plaisir.</em></p>
 
@@ -649,7 +704,8 @@ séparer, cloisonner, multiplier les adresses.</p>
 <p>Nous sommes alors fin mars et je comprends que je ne remettrais pas un dossard avant fin mai. De leur côté les spécialistes de la santé me disent qu’il faudra à mon organisme un an pour se remettre de toute cette casse. Je n’ai jamais connu de coupure en pleine saison encore moins de blessure alors finalement c’est avec un peu d’optimisme et de crédulité que j’évalue la situation. Après tout, pourquoi ne pas l’être? Booster les premiers jours par les messages de soutien disant « tu reviendras plus fort ». Pourquoi se prendre la tête? Alors que son contrat ne sera renégocié que dans cinq mois. Pourquoi douter que tout ira bien? Quand on connait les histoires de ceux qui ont rebondi. Pourquoi penser que ce sera dur? Alors que tant de personnes envies ton statut et pense que tu n’as que ça à faire de ta vie à cet instant? Le sport étant mon métier je me devais de gérer la situation de façon professionnelle. Comment? Je serai le seul à répondre à cette question.</p>
 
 <p>ps: La photo de cet article est un clein d’oeil à la saga de Batman de Christopher Nolan. Vous n’avez pas cru que je vous choquerais avec ma photo dans cette chambre d’hopital ?</p>
-]]></content:encoded>
+
+        ]]></content:encoded>
         <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
         <link>https://www.nicolasjouanno.com/pourquoi-tombons-nous.html</link>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/pourquoi-tombons-nous.html</guid>
@@ -669,6 +725,9 @@ séparer, cloisonner, multiplier les adresses.</p>
         
       </item>
     
+      
+      
+      
       <item>
         <title>Mon premier trail</title>
         <description><![CDATA[
@@ -677,11 +736,20 @@ séparer, cloisonner, multiplier les adresses.</p>
               <img src="https://www.nicolasjouanno.com/images/posts/homme_trail_foret.webp" alt="Mon premier trail"/>
             </a>
           
-          Je suis plein de contradiction, ceux qui me connaissent le savent. Il y a quelques semaines, je publiais un article disant que je n’ai pas besoin de compétition pour m’entraîner. Cette même semaine, je prenais le départ de ma première course à pied, un trail de 12km qui avait lieu derrière chez moi. Dans cet article, je vous parle de ma préparation, des questions que je me suis posé et, bien sûr, de ma course !
-
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/premier-trail.html" target="_blank">nicolasjouanno.com</a></p>
+          <p>Je suis plein de contradiction, ceux qui me connaissent le savent. Il y a quelques semaines, je publiais un article disant que je n’ai pas besoin de compétition pour m’entraîner. Cette même semaine, je prenais le départ de ma première course à pied, un trail de 12km qui avait lieu derrière chez moi. Dans cet article, je vous parle de ma préparation, des questions que je me suis posé et, bien sûr, de ma course !
+</p>
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/premier-trail.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
-        <content:encoded><![CDATA[<p><em>Je suis plein de contradiction, ceux qui me connaissent le savent. Il y a quelques semaines, je publiais un article disant que je n’ai pas besoin de compétition pour m’entraîner. Cette même semaine, je prenais le départ de ma première course à pied, un trail de 12km qui avait lieu derrière chez moi. Dans cet article, je vous parle de ma préparation, des questions que je me suis posé et, bien sûr, de ma course !</em></p>
+        <content:encoded><![CDATA[
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/premier-trail.html">nicolasjouanno.com</a>.</em></p>
+          
+            <p>
+              <a href="https://www.nicolasjouanno.com/premier-trail.html">
+                <img src="https://www.nicolasjouanno.com/images/posts/homme_trail_foret.webp" alt="Mon premier trail"/>
+              </a>
+            </p>
+          
+          <p><em>Je suis plein de contradiction, ceux qui me connaissent le savent. Il y a quelques semaines, je publiais un article disant que je n’ai pas besoin de compétition pour m’entraîner. Cette même semaine, je prenais le départ de ma première course à pied, un trail de 12km qui avait lieu derrière chez moi. Dans cet article, je vous parle de ma préparation, des questions que je me suis posé et, bien sûr, de ma course !</em></p>
 
 <p>J’ai longtemps manqué de régularité dans ma pratique du running. A l’époque où j’étais cycliste, depuis le pôle espoirs, je ne courrais qu’à l’inter-saison, une à deux heures par semaine, sur les petites routes derrière chez mes parents ou en ville. Ensuite, j’avais pris l’habitude de courir, en ville, 1h le lundi soir pendant les journées courtes d’hiver. Les promesses du running étaient pour moi: une bonne façon de transpirer, prendre ma dose d’endorphine et pouvoir pratiquer de jour comme de nuit. Finalement, sans jamais réellement y trouver du plaisir, je ne m’y suis pas intéressé, voyant toujours ce sport comme un “à côté” ou un déculpabilisateur de sédentarité.</p>
 
@@ -708,7 +776,8 @@ séparer, cloisonner, multiplier les adresses.</p>
 <p>Alors, je fais le yoyo, je reviens dans les chemins cassants et je prends des éclats dans les parties roulantes. Si bien qu’à partir du dixième kilomètre, je perdrais une vingtaine de places sur les morceaux de routes que je ne remontrais pas dans les chemins.</p>
 
 <p>Le dernier bout de route aura vraiment eu raison de mes jambes, à deux kilomètres de l’arrivée je suis au mental. Je ne rebondis plus, j’essaye d’allonger tout ce que je peux de mes jambes. Je monte la dernière bosse au courage avant d’apercevoir la ligne d’arrivée et la fin de ce défi. J’arrivais fier devant ma femme et mon fils, les jambes tétanisées par les toxines. C’est en boitant jusqu’à la maison, fier de ma performance (109ème/332 en 1h09:05) que je me dis que je ne changerais rien à ce que j’ai fait et que s’était cool ! J’ai toujours su que chaque défi construisait le suivant et j’en ai encore eu l’exemple, aujourd’hui. Si je sais maintenant, que prendre le départ d’un marathon ne fait pas partie de mes rêves, je me dis que je me frotterais bien à des défis plus longs en trail, car finalement 13Km c’est court (oui, les 12Km annoncée se sont transformés en 13km sur mon strava, en respectant le fléchage)!</p>
-]]></content:encoded>
+
+        ]]></content:encoded>
         <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
         <link>https://www.nicolasjouanno.com/premier-trail.html</link>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/premier-trail.html</guid>
@@ -728,6 +797,9 @@ séparer, cloisonner, multiplier les adresses.</p>
         
       </item>
     
+      
+      
+      
       <item>
         <title>Vélo, Boulot, Dodo</title>
         <description><![CDATA[
@@ -736,11 +808,20 @@ séparer, cloisonner, multiplier les adresses.</p>
               <img src="https://www.nicolasjouanno.com/images/posts/tshirt_velo-boulot-dodo.webp" alt="Vélo, Boulot, Dodo"/>
             </a>
           
-          Vous connaissez sûrement plus la citation “Métro, Boulot, Dodo” que je me suis ré-approprié. Depuis que j’habite à Pontivy, j’ai la chance de pouvoir aller tous les jours au boulot à vélo, parcourant les 2km500 séparant mon domicile du bureau, en longeant le canal, quatre fois par jour. Fraîchement l’hiver et chaudement l’été, vous me croirez, ou non, mais prendre le vélo conditionne une bonne journée!
-
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/velo-boulot-dodo.html" target="_blank">nicolasjouanno.com</a></p>
+          <p>Vous connaissez sûrement plus la citation “Métro, Boulot, Dodo” que je me suis ré-approprié. Depuis que j’habite à Pontivy, j’ai la chance de pouvoir aller tous les jours au boulot à vélo, parcourant les 2km500 séparant mon domicile du bureau, en longeant le canal, quatre fois par jour. Fraîchement l’hiver et chaudement l’été, vous me croirez, ou non, mais prendre le vélo conditionne une bonne journée!
+</p>
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/velo-boulot-dodo.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
-        <content:encoded><![CDATA[<p><em>Vous connaissez sûrement plus la citation “Métro, Boulot, Dodo” que je me suis ré-approprié. Depuis que j’habite à Pontivy, j’ai la chance de pouvoir aller tous les jours au boulot à vélo, parcourant les 2km500 séparant mon domicile du bureau, en longeant le canal, quatre fois par jour. Fraîchement l’hiver et chaudement l’été, vous me croirez, ou non, mais prendre le vélo conditionne une bonne journée!</em></p>
+        <content:encoded><![CDATA[
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/velo-boulot-dodo.html">nicolasjouanno.com</a>.</em></p>
+          
+            <p>
+              <a href="https://www.nicolasjouanno.com/velo-boulot-dodo.html">
+                <img src="https://www.nicolasjouanno.com/images/posts/tshirt_velo-boulot-dodo.webp" alt="Vélo, Boulot, Dodo"/>
+              </a>
+            </p>
+          
+          <p><em>Vous connaissez sûrement plus la citation “Métro, Boulot, Dodo” que je me suis ré-approprié. Depuis que j’habite à Pontivy, j’ai la chance de pouvoir aller tous les jours au boulot à vélo, parcourant les 2km500 séparant mon domicile du bureau, en longeant le canal, quatre fois par jour. Fraîchement l’hiver et chaudement l’été, vous me croirez, ou non, mais prendre le vélo conditionne une bonne journée!</em></p>
 
 <p>J’ai découvert le vélo urbain sur le tard, lors d’un week-end en amoureux sur Nantes, il y a maintenant 5 ans. Jusque là, le vélo pour moi était soit fait pour les sportifs, soit fait pour les “papys” ou les “bobos”. Le cliché ! Mais à Nantes, on s’est vite rendu compte avec ma chérie que le centre-ville était vaste et qu’utiliser leur “Bicloo” nous permettrais de le découvrir très rapidement, en long, en large et en travers. Et franchement, Nantes à vélo ça le fait carrément, c’est tellement adapté! Grace à cet usage urbain du vélo, on s’est vraiment imprégné de la ville et avons eu le temps de faire de superbes photos.</p>
 
@@ -755,7 +836,8 @@ séparer, cloisonner, multiplier les adresses.</p>
 <p>Je sais que je fais partie d’une minorité de personnes qui habitent suffisemment près du boulot pour profiter des bénéfices de cette routine. Peu-être qu’il y en a d’autre qui n’ont pas encore franchis le pas, pourtant comparé à un usage sportif, aller à vélo au boulot est accessible, encore plus peu-être aujourd’hui avec le prix du gazoile. Casser la routine ou la changer peu parfois faire peur, pourtant, je ne connais pas une personne qui comme changerait son vélo pour la voiture, alors que, combien d’entre vous êtes vraiment satisfait de vos trajets en voiture ?</p>
 
 <p>Je suis tellement convaincu de cet état d’esprit que j’ai créé un t-shirt qui le revendique, celui la photo ci-dessus. Vous pouvez l’acheter en <a href="https://gum.co/jAzoV" rel="nofollow" target="_blank">suivant ce lien</a>. Il est en vente à 25€, avec en supplément un frais de port de 5€. Dans une logique de consommation raisonné, le t-shirt est fabriqué une fois la commande passée. Oui, le délai s’en voit un peu plus long, mais ainsi, il n’y a ni gâchis, ni sur-consommation, seulement une histoire imprimée pour vous sur un t-shirt dans une démarche éco-responsable. Comme préserver la nature est une cause essentielle pour moi, mais aussi pour les générations futures, dont mon fils fait partie, je m’engage à reverser cinq centimes de chaque t-shirt à la WWF. Le montant restant, une fois les frais de production et bancaires déduits, servira à payer les serveurs du site et continuer à développer mes projets: l’<a href="https://app.nicolasjouanno.com">application de suivi d’entrainement</a> et cette ligne <a href="https://gum.co/jAzoV" rel="nofollow" target="_blank">sportwear</a>. N’oubliez pas de partager le lien à votre réseau, c’est ce qui m’aide plus à continuer l’aventure avec vous.</p>
-]]></content:encoded>
+
+        ]]></content:encoded>
         <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
         <link>https://www.nicolasjouanno.com/velo-boulot-dodo.html</link>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/velo-boulot-dodo.html</guid>
@@ -779,6 +861,9 @@ séparer, cloisonner, multiplier les adresses.</p>
         
       </item>
     
+      
+      
+      
       <item>
         <title>Comment progresser sans compétition ?</title>
         <description><![CDATA[
@@ -787,11 +872,20 @@ séparer, cloisonner, multiplier les adresses.</p>
               <img src="https://www.nicolasjouanno.com/images/posts/1029035155.webp" alt="Comment progresser sans compétition ?"/>
             </a>
           
-          Ce n’est pas toujours simple de trouver la motivation. Dans cet article, je vais partager avec vous ce qui me motive le plus pour me bouger, mais aussi ce qui me peut transformer une sortie de running en sortie de vélo, une balade en bord en mer en session de surf…
-
-          <p>Initialement publié sur <a href="https://www.nicolasjouanno.com/competition-versus-entrainement.html" target="_blank">nicolasjouanno.com</a></p>
+          <p>Ce n’est pas toujours simple de trouver la motivation. Dans cet article, je vais partager avec vous ce qui me motive le plus pour me bouger, mais aussi ce qui me peut transformer une sortie de running en sortie de vélo, une balade en bord en mer en session de surf…
+</p>
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/competition-versus-entrainement.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
-        <content:encoded><![CDATA[<p><em>Ce n’est pas toujours simple de trouver la motivation. Dans cet article, je vais partager avec vous ce qui me motive le plus pour me bouger, mais aussi ce qui me peut transformer une sortie de running en sortie de vélo, une balade en bord en mer en session de surf…</em></p>
+        <content:encoded><![CDATA[
+          <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/competition-versus-entrainement.html">nicolasjouanno.com</a>.</em></p>
+          
+            <p>
+              <a href="https://www.nicolasjouanno.com/competition-versus-entrainement.html">
+                <img src="https://www.nicolasjouanno.com/images/posts/1029035155.webp" alt="Comment progresser sans compétition ?"/>
+              </a>
+            </p>
+          
+          <p><em>Ce n’est pas toujours simple de trouver la motivation. Dans cet article, je vais partager avec vous ce qui me motive le plus pour me bouger, mais aussi ce qui me peut transformer une sortie de running en sortie de vélo, une balade en bord en mer en session de surf…</em></p>
 
 <h2 id="mes-principales-sources-de-motivation-pour-faire-du-sport">Mes principales sources de motivation pour faire du sport.</h2>
 
@@ -921,7 +1015,8 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
 <p>En attendant, cette nouvelle fonctionnalité me permet de tester de nouvelles formules d’entrainement. J’ai également plus de recul sur mon entrainement et une façon différente de l’interpréter.</p>
 
 <p>Vous ne l’avez pas encore testée ?<a href="https://app.nicolasjouanno.com">feezify:me</a> c’est par ici que ça se passe! Mais plus important encore, dites-moi si, vous aussi, vous lui trouvez de l’intérêt ? Si elle vous permet d’avoir un angle nouveau et intéressant sur votre entrainement. Et si elle rend jaloux votre coach !</p>
-]]></content:encoded>
+
+        ]]></content:encoded>
         <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
         <link>https://www.nicolasjouanno.com/competition-versus-entrainement.html</link>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/competition-versus-entrainement.html</guid>
