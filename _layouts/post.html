@@ -24,19 +24,11 @@ layout: page
     />
   </header>
 
-  {% assign page_image_source = page.image %}
-  {% unless page_image_source %}
-    {% if page.images and page.images.size > 0 %}
-      {% assign page_image_source = page.images[0] %}
-    {% endif %}
-  {% endunless %}
-  {% capture page_image %}{% include resolve-image.html image=page_image_source %}{% endcapture %}
-  {% assign page_image = page_image | strip %}
-  {% if page_image_source %}
+  {% if page.image %}
   <div class="c-layout__medias">
     <img
-      src="{{ page_image | relative_url }}"
-      alt="{% if page.image_alt %}{{ page.image_alt }}{% else %}Illustration de l'article : {{ page.title }}{% endif %}"
+      src="{{ page.image | relative_url }}"
+      alt="{{ page.image_alt | default: page.title }}"
       loading="lazy"
     />
   </div>
@@ -44,16 +36,26 @@ layout: page
 
   <!-- Post Content -->
   <div itemprop="articleBody">{{content}}</div>
-</article>
 
-<!-- Support ponctuel d'un projet : liste d'attente activée explicitement par l'article -->
-{% if page.waitlist %}
-<aside class="c-card c-card--primary c-card--large c-callout">
-  <p class="c-callout__title">{{ page.waitlist.title | default: site.waitlist.title }}</p>
-  <p class="c-callout__text">{{ page.waitlist.text | default: site.waitlist.text }}</p>
-  {% include /plugins/waitlist.html %}
-</aside>
-{% endif %}
+  {% assign subject_pages = site.pages | where_exp: "candidate", "candidate.tag" | sort: "tag" %}
+  {% assign subject_count = 0 %}
+  {% for subject in subject_pages %}
+    {% if subject.tag and page.tags contains subject.tag %}
+      {% assign subject_count = subject_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  {% if subject_count > 0 %}
+  <nav aria-label="Sujets de la publication">
+    <ul class="u-list c-button-stack">
+      {% for subject in subject_pages %}
+        {% if subject.tag and page.tags contains subject.tag %}
+        <li><a class="c-tag" href="{{ subject.url }}">{{ subject.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+  {% endif %}
+</article>
 
 <!-- Recommendations -->
 <aside>
@@ -80,37 +82,3 @@ layout: page
 <p class="u-spacing--block-start-medium">
   <a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a>
 </p>
-
-<!-- webmentions -->
-<section class="c-webmentions">
-  <h2>💬 Mentions & réactions</h2>
-  <p>
-    Si vous avez écrit une réponse ou mentionné cet article sur votre propre
-    site, vous pouvez le poster ici via
-    <a href="https://indieweb.org/Webmention" rel="nofollow">Webmention</a>.
-  </p>
-
-  <form
-    action="{{ site.author.webmention }}"
-    method="post"
-    class="c-webmentions__form"
-  >
-    <label for="source">URL de votre page :</label>
-    <input
-      id="source"
-      name="source"
-      type="url"
-      placeholder="https://exemple.com/ma-reponse"
-      required
-    />
-    <input type="hidden" name="target" value="{{ page.url | absolute_url }}" />
-    <button type="submit" class="c-button c-button--dark">Envoyer</button>
-  </form>
-
-  <div id="webmentions-list">
-    <p>Chargement des réactions…</p>
-  </div>
-</section>
-
-<!-- disqus -->
-<section id="disqus_thread"></section>

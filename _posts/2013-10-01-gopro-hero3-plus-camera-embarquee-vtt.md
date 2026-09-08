@@ -1,7 +1,5 @@
 ---
-layout: post
-format: guide
-verticale: vtt
+category: guide
 title: "GoPro HERO3+ : la caméra embarquée plus petite et plus légère"
 description: "Avant-première de la GoPro HERO3+ Black Edition : plus compacte, plus légère, mode SuperView, Auto Low Light et meilleure autonomie. Le détail des nouveautés."
 tags:
@@ -9,10 +7,8 @@ tags:
   - caméra embarquée
   - vidéo vtt
   - matériel vtt
-images:
-  - images/posts/a074c-0l8pyjzfrgkyirwve.webp
-categories:
-  - Outdoor
+  - vtt
+image: /images/posts/a074c-0l8pyjzfrgkyirwve.webp
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3wbvpOIIBQA" title="GoPro HERO3+" frameborder="0" allowfullscreen></iframe>

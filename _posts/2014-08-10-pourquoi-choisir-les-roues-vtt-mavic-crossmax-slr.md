@@ -1,7 +1,5 @@
 ---
-layout: post
-format: guide
-verticale: vtt
+category: guide
 title: "8 raisons de choisir les roues de VTT Mavic Crossmax"
 description: "Depuis que je roule en VTT avec mes nouvelles roues Mavic Crossmax, je ne veux plus en changer."
 tags:
@@ -10,10 +8,8 @@ tags:
   - crossmax
   - choisir roues vtt
   - choisir mavic crossmax
-images:
-  - "images/posts/9c05d-05lwfpqvtdkfbts1o.webp"
-categories:
-  - Outdoor
+  - vtt
+image: /images/posts/9c05d-05lwfpqvtdkfbts1o.webp
 ---
 
 _Choisir votre nouvelle paire de **roues de vtt** peu être fastidieux tant les possibilités sont vastes. Les nouveaux standards de roues de VTT en **27,5 pouces** et **29 pouces** nous amène à la recherche du compromis entre la rigidité et la légerté. Pour ma part, j'ai choisi les **roues Mavic Crossmax** et je ne reveiendrais pour rien au monde sur ma décision. Je vous explique pourquoi._

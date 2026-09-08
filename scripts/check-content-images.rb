@@ -22,7 +22,6 @@ POSTS_DIR.glob("*.md").each do |post_path|
     next if path.empty? || path.match?(%r{\Ahttps?://})
 
     relative = path.delete_prefix("/")
-      .delete_prefix("images-src/")
       .delete_prefix("assets/images/")
       .delete_prefix("images/")
     relative = "posts/#{relative}" unless relative.include?("/")

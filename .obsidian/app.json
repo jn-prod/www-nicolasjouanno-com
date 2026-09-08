@@ -3,6 +3,6 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "_drafts",
-  "attachmentFolderPath": "images-src/posts",
+  "attachmentFolderPath": "images/posts",
   "propertiesInDocument": "visible"
 }

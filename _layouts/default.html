@@ -8,7 +8,7 @@
 
     <!-- Titre et description -->
     {% if page.title %}
-    <title>{{ page.title }} | {{ site.title }}</title>
+    <title>{% if page.url == '/' or page.url == '/index.html' %}{{ page.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
     {% else %}
     <title>{{ site.description }} | {{ site.title }}</title>
     {% endif %} {% if page.description %}
@@ -26,27 +26,19 @@
     <link rel="icon" href="/images/icons/avatar.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/images/icons/icon-180.webp" />
 
-    <!-- PWA -->
-    <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#000000" />
 
     <!-- IndieWeb -->
-    <link rel="webmention" href="{{ site.author.webmention }}" />
     <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
 
     <!-- linked party -->
-    <link rel="me" href="{{ site.author.dribble }}" />
     <link rel="me" href="{{ site.author.instagram }}" />
     <link rel="me" href="{{ site.author.threads }}" />
     <link rel="me" href="{{ site.author.linkedin }}" />
     <link rel="me" href="{{ site.author.github }}" />
-    <link rel="me" href="{{ site.author.mediumcom }}" />
-    <link rel="me" href="{{ site.author.pinterest }}" />
-    <link rel="me" href="{{ site.author.soundcloud }}" />
     <link rel="me" href="{{ site.author.strava }}" />
     <link rel="me" href="{{ site.author.substack }}" />
     <link rel="me" href="{{ site.author.twitter }}" />
-    <link rel="me" href="{{ site.author.wikipedia }}" />
     <link rel="me" href="{{ site.author.youtube }}" />
     <link rel="me" href="mailto:{{ site.author.email }}" />
 
@@ -62,26 +54,6 @@
       type="application/feed+json"
       title="JSON Feed"
       href="/feed.json"
-    />
-
-    <!-- calendar -->
-    <link
-      rel="alternate"
-      type="text/calendar"
-      title="Agenda ICS"
-      href="/agenda.ics"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Agenda RSS"
-      href="/events.xml"
-    />
-    <link
-      rel="alternate"
-      type="application/feed+json"
-      title="Agenda JSON Feed"
-      href="/events.json"
     />
 
     <!-- Fonts (non-bloquant + font-display: swap) -->
@@ -104,7 +76,7 @@
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
 
     <!-- SEO basique -->
-    <meta name="robots" content="{% if page.noindex or page.archive %}noindex, follow{% else %}index, follow{% endif %}" />
+    <meta name="robots" content="{% if page.noindex or page.archive %}noindex, follow{% else %}index, follow, max-image-preview:large{% endif %}" />
     <link
       rel="canonical"
       href="{{ page.url | replace:'index.html','' | absolute_url }}"
@@ -169,12 +141,9 @@
     <!-- Image Open Graph -->
     {% if page.image %}
     <meta property="og:image" content="{{ page.image | absolute_url }}" />
-    <meta property="og:image:alt" content="{{ page.title }}" />
+    <meta property="og:image:alt" content="{{ page.image_alt | default: page.title }}" />
     {% if page.image_width %}<meta property="og:image:width" content="{{ page.image_width }}" />{% endif %}
     {% if page.image_height %}<meta property="og:image:height" content="{{ page.image_height }}" />{% endif %}
-    {% elsif page.images.size > 0 %}
-    <meta property="og:image" content="{{ page.images[0] | absolute_url }}" />
-    <meta property="og:image:alt" content="{{ page.title }}" />
     {% else %}
     <meta property="og:image" content="{{ site.og_image | absolute_url }}" />
     <meta property="og:image:alt" content="{{ site.title }}" />
@@ -195,51 +164,20 @@
     {% if site.author.handle %}
     <meta name="twitter:site" content="{{ site.author.handle }}" />
     <meta name="twitter:creator" content="{{ site.author.handle }}" />
-    {% endif %} {% if page.image or page.images.size > 0 or site.og_image %}
+    {% endif %} {% if page.image or site.og_image %}
     <meta
       name="twitter:image"
-      content="{% if page.image %}{{ page.image | absolute_url }}{% elsif page.images.size > 0 %}{{ page.images[0] | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}"
+      content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}"
     />
-    <meta name="twitter:image:alt" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="twitter:image:alt" content="{% if page.image_alt %}{{ page.image_alt }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     {% endif %}
 
-    <!-- Schema.org JSON-LD -->
+    <!-- Schema.org JSON-LD : une page décrit une page, une publication décrit un article. -->
     <script type="application/ld+json">
+      {% if page.layout == 'post' %}
       {
         "@context": "https://schema.org",
-        "@type": "{% if page.layout == 'post' %}BlogPosting{% elsif page.layout == 'event' %}Event{% else %}Person{% endif %}",
-        {% if page.layout == 'event' %}
-          "name": {{ page.title | jsonify }},
-          "description": {{ page.description | jsonify }},
-          "startDate": "{{ page.start | date_to_xmlschema }}",
-          "endDate": "{{ page.end | default: page.start | date_to_xmlschema }}",
-          {% assign event_end_timestamp = page.end | default: page.start | date: "%s" | plus: 0 %}
-          {% assign current_timestamp = site.time | date: "%s" | plus: 0 %}
-          "eventStatus": "https://schema.org/{% if event_end_timestamp < current_timestamp %}EventCompleted{% else %}EventScheduled{% endif %}",
-          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-          "location": {
-            "@type": "Place",
-            "name": {{ page.location | jsonify }},
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": {{ page.location | split: ',' | first | strip | jsonify }},
-              "addressCountry": {{ page.location | split: ',' | last | strip | jsonify }}
-            }
-          },
-          "organizer": {
-            "@type": "Person",
-            "name": "{{ site.author.name }}",
-            "url": "{{ site.url }}"
-          },
-          "performer": {
-            "@type": "Person",
-            "name": "{{ site.author.name }}"
-          },
-          "url": "{{ page.url | absolute_url }}"
-          {% if page.link %},
-          "sameAs": "{{ page.link }}"
-          {% endif %}
-        {% elsif page.layout == 'post' %}
+        "@type": "BlogPosting",
           "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "{{ page.url | absolute_url }}"
@@ -261,75 +199,32 @@
               "url": "{{ site.logo | absolute_url }}"
             }
           },
-          {% if page.image or page.images.size > 0 %}
-            "image": "{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ page.images[0] | absolute_url }}{% endif %}",
+          {% if page.image %}
+            "image": "{{ page.image | absolute_url }}",
           {% endif %}
           "url": "{{ page.url | absolute_url }}"
-        {% else %}
-          "name": "{{ site.author.name }}",
-          "alternateName": "Nicolas Jouanno",
-          "url": "{{ site.url }}",
-          "email": "{{ site.author.email }}",
-          {% if page.url contains "/me/work/" or page.positioning == "work" %}
-          "jobTitle": "Lead développeur frontend",
-          "worksFor": {
-            "@type": "Organization",
-            "name": "MGDIS"
-          },
-          "knowsAbout": [
-            "Design system",
-            "Web Components",
-            "StencilJS",
-            "Accessibilité RGAA",
-            "Systèmes agentiques"
-          ],
-          {% else %}
-          "jobTitle": "Auteur outdoor et ancien cycliste professionnel",
-          "knowsAbout": [
-            {% assign structured_topic_count = 0 %}
-            {% for verticale in site.data.taxonomie.verticales %}
-              {% if verticale.status == "active" and verticale.include_person_schema %}
-                {% for topic in verticale.keywords %}
-                  {% if structured_topic_count > 0 %},{% endif %}
-                  {{ topic | jsonify }}
-                  {% assign structured_topic_count = structured_topic_count | plus: 1 %}
-                {% endfor %}
-              {% endif %}
-            {% endfor %}
-          ],
-          {% endif %}
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "{{ site.author.location }}",
-            "addressCountry": "{{ site.author.country }}"
-          },
-          "sameAs": [
-            "{{ site.author.linkedin | split: '?' | first }}",
-            "{{ site.author.github | split: '?' | first }}",
-            "{{ site.author.twitter | split: '?' | first }}",
-            "{{ site.author.wikipedia | split: '?' | first }}",
-            "{{ site.author.strava | split: '?' | first }}",
-            "{{ site.author.instagram | split: '?' | first }}",
-            "{{ site.author.threads | split: '?' | first }}",
-            "{{ site.author.youtube | split: '?' | first }}",
-            "{{ site.author.substack | split: '?' | first }}"
-          ]
-        {% endif %}
       }
+      {% elsif page.url == '/' or page.url == '/index.html' %}
+      {"@context":"https://schema.org","@graph":[
+        {"@type":"WebSite","@id":"{{ site.url }}/#website","url":"{{ site.url }}/","name":{{ site.title | jsonify }},"description":{{ site.description | jsonify }}},
+        {"@type":"Person","@id":"{{ site.url }}/me/#person","name":{{ site.author.name | jsonify }},"url":"{{ site.url }}/me/","email":{{ site.author.email | jsonify }},"knowsAbout":[{% for topic in site.author.knows_about %}{% unless forloop.first %},{% endunless %}{{ topic | jsonify }}{% endfor %}],"sameAs":["{{ site.author.linkedin | split: '?' | first }}","{{ site.author.github | split: '?' | first }}","{{ site.author.twitter | split: '?' | first }}","{{ site.author.strava | split: '?' | first }}","{{ site.author.instagram | split: '?' | first }}","{{ site.author.threads | split: '?' | first }}","{{ site.author.youtube | split: '?' | first }}","{{ site.author.substack | split: '?' | first }}"]}
+      ]}
+      {% elsif page.url == '/me/' %}
+      {"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":{{ site.author.name | jsonify }},"url":"{{ site.url }}/me/","knowsAbout":[{% for topic in site.author.knows_about %}{% unless forloop.first %},{% endunless %}{{ topic | jsonify }}{% endfor %}]},"url":"{{ page.url | absolute_url }}"}
+      {% elsif page.layout == 'category' or page.layout == 'tag' %}
+      {"@context":"https://schema.org","@type":"CollectionPage","name":{{ page.title | jsonify }},"description":{{ page.description | jsonify }},"url":"{{ page.url | absolute_url }}"}
+      {% else %}
+      {"@context":"https://schema.org","@type":"WebPage","name":{{ page.title | default: site.title | jsonify }},"description":{{ page.description | default: site.description | jsonify }},"url":"{{ page.url | absolute_url }}"}
+      {% endif %}
     </script>
 
     <!-- Schema.org BreadcrumbList -->
     {% unless page.url == '/' or page.url == '/index.html' or page.breadcrumb_hide %}
-    {% assign breadcrumb_verticale = page.verticale %}
-    {% unless breadcrumb_verticale %}
-      {% for candidate in site.data.taxonomie.verticales %}
-        {% if page.categories contains candidate.category %}
-          {% assign breadcrumb_verticale = candidate.slug %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
+    {% assign breadcrumb_category_slug = page.category %}
+    {% unless breadcrumb_category_slug %}
+      {% assign breadcrumb_category_slug = page.categories | first %}
     {% endunless %}
-    {% assign breadcrumb_category = site.data.taxonomie.verticales | where: "slug", breadcrumb_verticale | first %}
+    {% assign breadcrumb_category = site.pages | where: "category", breadcrumb_category_slug | first %}
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -353,7 +248,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": {{ breadcrumb_category.label | jsonify }},
-            "item": "{{ breadcrumb_category.permalink | absolute_url }}"
+            "item": "{{ breadcrumb_category.url | absolute_url }}"
           },
           {% endif %}
           {
@@ -477,9 +372,6 @@
       </p>
     </footer>
 
-    <!-- JavaScript
-        ================================================== -->
-    <script src="{% link assets/main.js %}" async></script>
     <!-- Cloudflare Web Analytics -->
     <script
       defer
@@ -488,90 +380,5 @@
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
-    <!-- disqus (lazy-load via IntersectionObserver) -->
-    {% if page.disqus or page.layout == "post" %}
-    <script
-      id="dsq-count-scr"
-      src="//nicolasjouanno-com.disqus.com/count.js"
-      async
-    ></script>
-    <script>
-      window.disqus_config = function () {
-        this.page.url = "{{ page.url | absolute_url }}";
-        this.page.identifier = "{{ page.slug }}";
-      };
-      (function () {
-        const target = document.getElementById("disqus_thread");
-        if (!target) return;
-        const loadDisqus = () => {
-          const s = document.createElement("script");
-          s.src = "https://nicolasjouanno-com.disqus.com/embed.js";
-          s.setAttribute("data-timestamp", +new Date());
-          (document.head || document.body).appendChild(s);
-        };
-        if ("IntersectionObserver" in window) {
-          const io = new IntersectionObserver(
-            (entries, obs) => {
-              if (entries.some((e) => e.isIntersecting)) {
-                loadDisqus();
-                obs.disconnect();
-              }
-            },
-            { rootMargin: "200px" }
-          );
-          io.observe(target);
-        } else {
-          loadDisqus();
-        }
-      })();
-    </script>
-    <noscript
-      >Please enable JavaScript to view the
-      <a href="https://disqus.com/?ref_noscript"
-        >comments powered by Disqus.</a
-      ></noscript
-    >
-    {% endif %}
-
-    <!-- webmentions -->
-    {% if page.layout == "post" %}
-    <script>
-      async function loadWebmentions() {
-        const target = "{{ page.url | absolute_url }}";
-        const api = `https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(target)}`;
-
-        try {
-          const response = await fetch(api);
-          const data = await response.json();
-
-          const container = document.getElementById("webmentions-list");
-          container.innerHTML = "";
-
-          if (!data.children || data.children.length === 0) {
-            container.innerHTML = "<p>Aucune mention reçue pour le moment.</p>";
-            return;
-          }
-
-          const list = document.createElement("ul");
-          data.children.forEach((mention) => {
-            const li = document.createElement("li");
-            const author = mention.author?.name || "Quelqu’un";
-            const url = mention.url || "#";
-            const content = mention.content?.text || "(mention sans texte)";
-
-            li.innerHTML = `<strong>${author}</strong> a mentionné cet article : 
-              <a href="${url}" target="_blank">${content}</a>`;
-            list.appendChild(li);
-          });
-
-          container.appendChild(list);
-        } catch (err) {
-          console.error("Erreur chargement Webmentions:", err);
-        }
-      }
-
-      loadWebmentions();
-    </script>
-    {% endif %}
   </body>
 </html>

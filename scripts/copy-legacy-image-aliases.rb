@@ -1,5 +1,13 @@
 require "fileutils"
 
+og_source = File.join("images-dist", "og")
+abort "Missing Open Graph images: #{og_source}" unless Dir.exist?(og_source)
+
+# Les anciennes cartes sociales peuvent rester en cache avec leur URL /og/.
+og_destination = File.join("_site", "og")
+FileUtils.rm_rf(og_destination)
+FileUtils.cp_r(og_source, og_destination)
+
 image_names = %w[
   77a9b-1fhdbbyabl24dcabgexhpow.webp
   8f833-1glqrdjmo0myyuik5d1idxg.webp

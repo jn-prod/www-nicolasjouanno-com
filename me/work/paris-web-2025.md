@@ -4,14 +4,11 @@ title: "Les Web Components et l'accessibilité — conférence Paris-Web 2025"
 description: "REX d'un design system interopérable accessible by design : Web Components natifs (StencilJS), shadow DOM et accessibilité, co-présenté avec Simon à Paris-Web 2025."
 permalink: /me/work/paris-web-2025.html
 date: 2025-09-26
-icons:
-  - stencil
-  - ts
 ---
 
 <h1>Les Web Components et l'accessibilité — Paris-Web 2025</h1>
 
-Depuis deux ans, je participe à [Paris-Web](/events/paris-web-2025.html) avec mon collègue [Simon Duhem](https://simon.duhem.fr/) grâce à notre employeur MGDIS. En 2025, l'histoire a changé : nous ne sommes plus seulement venus écouter, mais **parler**. La candidature, portée par Simon, nous a offert une aventure partagée — comme un relais. Et comme dans le sport ou les voyages en van, ce genre de défi apprend à simplifier, à partager et à rester attentif aux autres.
+Depuis deux ans, je participe à [Paris-Web](https://www.paris-web.fr/) avec mon collègue [Simon Duhem](https://simon.duhem.fr/) grâce à notre employeur MGDIS. En 2025, l'histoire a changé : nous ne sommes plus seulement venus écouter, mais **parler**. La candidature, portée par Simon, nous a offert une aventure partagée — comme un relais. Et comme dans le sport ou les voyages en van, ce genre de défi apprend à simplifier, à partager et à rester attentif aux autres.
 
 Le 26 septembre 2025, lors de la 20ᵉ édition de [Paris-Web](https://www.paris-web.fr/) — la conférence francophone de référence sur les standards du web et l'accessibilité — nous avons présenté notre sujet : [Les Web Components et l'accessibilité](https://www.paris-web.fr/2025/conference/les-web-components-et-laccessibilite).
 

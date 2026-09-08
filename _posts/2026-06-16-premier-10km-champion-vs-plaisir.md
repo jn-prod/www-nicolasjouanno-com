@@ -1,17 +1,13 @@
 ---
-layout: post
-format: guide
-verticale: trail
-title: "Premier 10 km : la méthode d'un champion, le contre-pied d'un coureur par plaisir"
-description: "Comment préparer son premier 10 km ? Deux regards : la méthode structurée de Gaël Le Bellec, triple champion du monde de duathlon, et mon approche par sensation, en trailer venu du vélo."
+category: guide
+title: "Premier 10 km : méthode d’un champion et plaisir de courir"
+description: "Comment préparer son premier 10 km ? La méthode de Gaël Le Bellec, triple champion du monde de duathlon, et mon approche par sensation."
 tags:
-  - Sport
+  - sport
   - course à pied
   - trail
   - entraînement
   - débutant
-categories:
-  - Outdoor
 ---
 
 <em>On me demande parfois comment « se mettre à la course » et boucler un premier 10 km. J'ai deux aveux et une bonne nouvelle. Aveu n°1 : je n'ai jamais couru de 10 km sur route de ma vie. Aveu n°2 : je m'entraîne à la sensation, pas au plan. La bonne nouvelle : j'ai reçu sur mon <a href="{% post_url 2019-01-24-podcast-gael-le-bellec %}">podcast Gaël Le Bellec</a>, triple champion du monde de duathlon, qui lui sait exactement comment on structure une prépa. Alors plutôt qu'un énième plan tout fait, voici un regard croisé : sa méthode de champion, et mon contre-pied de coureur par plaisir. Prends ce qui te parle.</em>

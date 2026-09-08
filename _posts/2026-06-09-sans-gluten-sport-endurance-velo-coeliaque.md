@@ -1,10 +1,7 @@
 ---
-layout: post
-format: guide
-verticale: nutrition
-sous_silo: sans-gluten
-title: "Sans gluten et sport d'endurance : ce que le vélo pro et la maladie cœliaque m'ont appris"
-description: "Ancien cycliste professionnel et parent d'un enfant cœliaque, je croise deux mondes : la nutrition d'endurance et le sans-gluten au quotidien. Retour d'expérience, sans promesse miracle."
+category: guide
+title: "Sans gluten et sport d’endurance : mon expérience de cycliste et parent"
+description: "Ancien cycliste professionnel et parent d’un enfant cœliaque, je croise nutrition d’endurance et sans gluten au quotidien, sans promesse miracle."
 tags:
   - sans-gluten
   - maladie-coeliaque
@@ -12,9 +9,6 @@ tags:
   - endurance
   - cyclisme
   - nutrition
-categories:
-  - Life
-  - Outdoor
 featured: true
 ---
 

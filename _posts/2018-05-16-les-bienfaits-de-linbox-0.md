@@ -1,7 +1,5 @@
 ---
-layout: post
-format: recit
-verticale: projets
+category: recit
 title: Les bienfaits de l’inbox 0
 description: "L’inbox 0 transforme votre rapport aux emails : découvrez comment cette méthode de productivité simple permet de commencer chaque journée l’esprit libre."
 tags:
@@ -9,10 +7,8 @@ tags:
   - email
   - inbox-zero
   - organisation
-images:
-  - images/posts/e0a38-10yto40xd793dweahzoxsta.webp
-categories:
-  - Life
+  - projets
+image: /images/posts/e0a38-10yto40xd793dweahzoxsta.webp
 ---
 
 ## L’inbox 0, plus qu’une règle c’est un état d’esprit de productivité que j’applique au quotidien.

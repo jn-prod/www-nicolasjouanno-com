@@ -7,12 +7,6 @@ permalink: "/posts.html"
 
 # Articles
 
-<ul class="u-list c-section__post-list">
-  {%- for post in site.posts -%}
-    {%- unless post.archive -%}
-      <li class="c-section__post-item">{%- include /components/post.html -%}</li>
-    {%- endunless -%}
-  {%- endfor -%}
-</ul>
+{% include components/post-list.html %}
 
 <p class="u-spacing--block-start-medium"><a href="/archive.html">Voir l'archive (7) →</a></p>

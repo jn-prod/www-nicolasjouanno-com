@@ -1,7 +1,5 @@
 ---
-layout: post
-format: actu
-verticale: vtt
+category: actu
 archive: true
 sitemap: false
 title: "Megavalanche 2014 : des conditions dantesques imposent des modifications"
@@ -11,8 +9,7 @@ tags:
   - megavalanche alpe d'huez
   - enduro
   - actualité vtt
-categories:
-  - Outdoor
+  - vtt
 ---
 
 *Communiqué de la direction de course de la Mega 2014.*

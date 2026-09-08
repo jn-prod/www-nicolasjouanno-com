@@ -1,7 +1,5 @@
 ---
-layout: post
-format: actu
-verticale: vtt
+category: actu
 archive: true
 sitemap: false
 title: "Mercato VTT : du mouvement chez Scott et Lapierre"
@@ -11,8 +9,7 @@ tags:
   - lapierre gravity republic
   - scott odlo
   - actualité vtt
-categories:
-  - Outdoor
+  - vtt
 ---
 
 ## Lapierre Gravity Republic : Finn Iles entre, Blenkinsop et Ragot sortent

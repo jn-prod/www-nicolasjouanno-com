@@ -1,7 +1,5 @@
 ---
-layout: post
-format: actu
-verticale: vtt
+category: actu
 archive: true
 sitemap: false
 title: "La configuration du Yeti SB66C de Jared Graves au Mondial de DH 2013"
@@ -11,10 +9,8 @@ tags:
   - yeti sb66c
   - championnat du monde dh
   - configuration vtt dh
-images:
-  - images/posts/5022a-0k5y25fuce70omq-h.webp
-categories:
-  - Outdoor
+  - vtt
+image: /images/posts/5022a-0k5y25fuce70omq-h.webp
 ---
 
 <img src="{{ site.url }}/images/posts/5022a-0k5y25fuce70omq-h.webp" alt="Yeti SB66C de Jared Graves au championnat du monde de descente à Pietermaritzburg" />

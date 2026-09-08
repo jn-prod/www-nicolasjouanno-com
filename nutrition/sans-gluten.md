@@ -1,6 +1,8 @@
 ---
-layout: category
-category: sans-gluten
+layout: tag
+tag: sans-gluten
+label: Sans gluten
+minimum_posts: 2
 title: "Sans gluten au quotidien — repères d'un parent et d'un sportif"
 description: "Le sans-gluten vécu des deux côtés : parent d'un enfant cœliaque et ancien cycliste professionnel. Des repères concrets, testés en vrai — pas un avis médical."
 permalink: /nutrition/sans-gluten.html

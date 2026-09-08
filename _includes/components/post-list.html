@@ -1,24 +1,18 @@
 {%- comment -%}
-  Liste éditoriale utilisée par les pages de catégorie et les anciennes pages
-  de format. Une catégorie reconnaît à la fois le contrat Markdown actuel
-  (`categories`) et les métadonnées historiques (`verticale`, `sous_silo`).
+  Une liste, deux primitives Jekyll :
+  - `category` pour le format éditorial unique ;
+  - `tag` pour un sujet, potentiellement partagé par plusieurs formats.
 {%- endcomment -%}
 
-{%- assign posts = site.posts -%}
-
-{%- if include.format -%}
-  {%- assign posts = posts | where: "format", include.format -%}
-{%- endif -%}
 {%- if include.category -%}
-  {%- assign category_posts = "" | split: "" -%}
-  {%- for candidate in posts -%}
-    {%- if candidate.categories contains include.category or candidate.verticale == include.category or candidate.sous_silo == include.category -%}
-      {%- assign category_posts = category_posts | push: candidate -%}
-    {%- endif -%}
-  {%- endfor -%}
-  {%- assign posts = category_posts -%}
+  {%- assign posts = site.categories[include.category] -%}
+{%- elsif include.tag -%}
+  {%- assign posts = site.tags[include.tag] -%}
+{%- else -%}
+  {%- assign posts = site.posts -%}
 {%- endif -%}
-{%- unless include.format == "actu" -%}
+
+{%- unless include.include_archived == true -%}
   {%- assign posts = posts | where_exp: "p", "p.archive != true" -%}
 {%- endunless -%}
 

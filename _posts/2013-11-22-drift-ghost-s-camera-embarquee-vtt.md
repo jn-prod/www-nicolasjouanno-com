@@ -1,7 +1,5 @@
 ---
-layout: post
-format: guide
-verticale: vtt
+category: guide
 title: "Drift Ghost-S : la caméra embarquée complète mais pas complexe"
 description: "Drift Innovation dévoile la Ghost-S : capteur Sony 12 Mpx, 1080p60, écran intégré, mode boîte noire et 3h30 d'autonomie. Présentation de la caméra d'action."
 tags:
@@ -9,10 +7,8 @@ tags:
   - caméra embarquée
   - vidéo vtt
   - matériel vtt
-images:
-  - images/posts/47161-0rip67q2-z6z_m5fn.webp
-categories:
-  - Outdoor
+  - vtt
+image: /images/posts/47161-0rip67q2-z6z_m5fn.webp
 ---
 
 ## Une caméra embarquée haut de gamme pour le sport

@@ -1,17 +1,12 @@
 ---
-layout: post
-format: recit
-verticale: trail
+category: recit
 title: Mon premier trail
 description: "Récit de ma première course de trail : préparation, stratégie de course et retour sur un 13km dans les bois bretons, côté émotions et performances."
 tags:
-  - Trail
-  - Competition
-  - Debut
-images:
-  - images/posts/homme_trail_foret.webp
-categories:
-  - Outdoor
+  - trail
+  - competition
+  - debut
+image: /images/posts/homme_trail_foret.webp
 featured: true
 ---
 

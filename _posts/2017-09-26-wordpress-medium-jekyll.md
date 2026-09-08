@@ -1,7 +1,5 @@
 ---
-layout: post
-format: recit
-verticale: projets
+category: recit
 title: Wordpress vs Medium
 description: "Wordpress, Medium ou Jekyll : quel outil de blogging choisir ? Comparatif des avantages, limites et cas d'usage de chaque plateforme pour créer et gérer votre blog."
 tags:
@@ -10,10 +8,8 @@ tags:
   - jekyll
   - blog
   - plateforme
-images:
-  - images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.webp
-categories:
-  - Life
+  - projets
+image: /images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.webp
 ---
 
 _J'ai commencé à bloguer à l'époque des skyblog, ensuite j'ai découvert Wordpress un outil puissant, puis Medium un outil simple. Maintenant je blog grâce à Jekyll. Voici ce que vous pourrez (ou pas) faire avec chacun d'eux._

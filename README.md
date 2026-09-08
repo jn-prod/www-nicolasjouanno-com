@@ -1,6 +1,6 @@
 # www.nicolasjouanno.com
 
-Site personnel de Nicolas Jouanno — portfolio, blog, et mini-apps interactives. Site statique généré avec Jekyll, déployé sur GitHub Pages.
+Site personnel de Nicolas Jouanno : le fil durable de ses récits, guides et projets. Site statique généré avec Jekyll, déployé sur GitHub Pages.
 
 ## Stack
 
@@ -32,7 +32,7 @@ Site personnel de Nicolas Jouanno — portfolio, blog, et mini-apps interactives
 ├── _templates/      # Modèles Markdown pour Obsidian
 ├── apps/            # Mini-apps (HTML + JS vanilla)
 ├── assets/          # JS et styles servis directement
-├── images-src/      # Sources JPG/PNG/SVG éditables
+├── images/          # Sources JPG/PNG/SVG éditables
 └── scripts/         # Contrôles et opérations de build
 ```
 
@@ -54,6 +54,28 @@ pnpm lint:fix        # Correction automatique
 # Images uniquement
 pnpm build:images    # WebP + optimisation SVG dans images-dist/
 ```
+
+## Publier un article
+
+Le front matter reste volontairement natif Jekyll : une seule `category` décrit le format de lecture, plusieurs `tags` décrivent les sujets.
+
+```yaml
+---
+title: "Titre"
+description: "Description"
+category: guide # guide, recit ou actu
+tags:
+  - vtt
+  - nutrition
+image: /images/posts/nom-du-fichier.webp
+image_alt: "Description fidèle de la photo"
+---
+```
+
+- `category` alimente les pages Guides, Récits et Archive ainsi que le fil d’Ariane.
+- `tags` alimente les pages thématiques VTT, Trail, Nutrition, Sans gluten et Projets.
+- Les pages qui portent un champ `tag` définissent les sujets publics ; les tags plus précis restent libres.
+- La source d’une photo reste dans `images/` ; le build publie sa version WebP dans `images/posts/`.
 
 ## Design system
 
@@ -143,7 +165,7 @@ Quiz interactif sur les aliments contenant du gluten.
 
 ## Images
 
-Le pipeline intégré convertit `images-src/` (JPG/PNG) en WebP et optimise les SVG. Les images optimisées sont copiées dans `_site/images/` au build. Dans un article, une pièce jointe ajoutée dans `images-src/posts/` peut être référencée par son nom de fichier ; l'include Liquid résout son URL publique en `/images/posts/…webp`.
+Le pipeline intégré convertit les sources JPG/PNG de `images/` en WebP et optimise les SVG. Les images Open Graph de `images/og/` conservent leur format pour rester compatibles avec les réseaux sociaux. Les fichiers produits sont copiés dans `_site/images/` au build. Dans un article, une pièce jointe ajoutée dans `images/posts/` peut être référencée par son nom de fichier ; l'include Liquid résout son URL publique en `/images/posts/…webp`.
 
 ```bash
 pnpm build:images

@@ -1,7 +1,5 @@
 ---
-layout: post
-format: recit
-verticale: vtt
+category: recit
 title: "5 raisons d'adhérer à la Mountain Bikers Foundation (MBF)"
 description: "Accès aux sentiers, courtoisie, respect de la nature : pourquoi adhérer à la MBF, l'association nationale qui défend la pratique du VTT."
 tags:
@@ -9,10 +7,8 @@ tags:
   - mountain bikers foundation
   - accès sentiers vtt
   - vtt responsable
-images:
-  - images/posts/b2ad1-0jz8kn8h4cwgy7ytz.webp
-categories:
-  - Outdoor
+  - vtt
+image: /images/posts/b2ad1-0jz8kn8h4cwgy7ytz.webp
 ---
 
 ## La Mountain Bikers Foundation, c'est quoi ?

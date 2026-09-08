@@ -1,10 +1,6 @@
 {% capture absolute_src %}src="{{ site.url }}/{% endcapture %}
 {% capture absolute_href %}href="{{ site.url }}/{% endcapture %}
 {% assign imported_content = include.post.content | replace: 'src="/', absolute_src | replace: 'href="/', absolute_href %}
-{% assign post_image_source = include.post.image %}
-{% unless post_image_source %}{% if include.post.images.size > 0 %}{% assign post_image_source = include.post.images[0] %}{% endif %}{% endunless %}
-{% capture post_image %}{% include resolve-image.html image=post_image_source %}{% endcapture %}
-{% assign post_image = post_image | strip %}
 <item>
   <title>{{ include.post.title | xml_escape }}</title>
   <description><![CDATA[
@@ -20,8 +16,8 @@
   <link>{{ include.post.url | prepend: site.url }}</link>
   <guid isPermaLink="true">{{ include.post.url | prepend: site.url }}</guid>
   <dc:creator>{{ site.author.name | xml_escape }}</dc:creator>
-  {% if post_image_source %}
-  <enclosure url="{{ post_image | absolute_url }}" type="image/webp"/>
+  {% if include.post.image %}
+  <enclosure url="{{ include.post.image | absolute_url }}" type="image/webp"/>
   {% endif %}
   {% for tag in include.post.tags %}
   <category>{{ tag | xml_escape }}</category>

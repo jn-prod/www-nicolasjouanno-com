@@ -1,7 +1,5 @@
 ---
-layout: post
-format: actu
-verticale: vtt
+category: actu
 archive: true
 sitemap: false
 title: "Analyse : les suspensions de Rémi Thirion à la Coupe du Monde de DH de Vallnord"
@@ -11,8 +9,7 @@ tags:
   - suspensions bos
   - coupe du monde dh
   - réglage suspension vtt
-categories:
-  - Outdoor
+  - vtt
 ---
 
 Sur la Coupe du Monde de DH de Vallnord, en Andorre, **Rémi Thirion** (Commençal) — avant de remporter l'épreuve devant « l'homme à battre » de la saison, Gee Atherton (GT Bicycles) — avait déjà commencé à faire parler de lui aux qualifs.

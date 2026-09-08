@@ -11,16 +11,8 @@
     content="{{ post.date | date_to_xmlschema }}"
   />
   <meta itemprop="author" content="{{ site.author.name }}" />
-  {% assign post_image_source = post.image %}
-  {% unless post_image_source %}
-    {% if post.images and post.images.size > 0 %}
-      {% assign post_image_source = post.images[0] %}
-    {% endif %}
-  {% endunless %}
-  {% capture post_image %}{% include resolve-image.html image=post_image_source %}{% endcapture %}
-  {% assign post_image = post_image | strip %}
-  {% if post_image_source %}
-  <meta itemprop="image" content="{{ post_image | absolute_url }}" />
+  {% if post.image %}
+  <meta itemprop="image" content="{{ post.image | absolute_url }}" />
   {% endif %}
   <meta itemprop="headline" content="{{ post.title }}" />
   <meta itemprop="mainEntityOfPage" content="{{ site.url }}{{ post.url }}" />
@@ -37,11 +29,11 @@
     </div>
   </header>
 
-  {% if post_image_source %}
+  {% if post.image %}
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
-    src="{{ post_image | relative_url }}"
-    alt="Illustration de l'article : {{ post.title }}"
+    src="{{ post.image | relative_url }}"
+    alt="{{ post.image_alt | default: post.title }}"
     loading="lazy"
   />
   {% endif %} {% assign content = post.content | strip_html %} {% assign excerpt
@@ -61,28 +53,16 @@
         </a>
       </li>
 
+      {% assign post_category_slug = post.category %}
+      {% unless post_category_slug %}
+        {% assign post_category_slug = post.categories | first %}
+      {% endunless %}
+      {% assign post_category = site.pages | where: "category", post_category_slug | first %}
+      {% if post_category %}
       <li>
-        <a
-          class="c-button"
-          aria-describedby="{{post.slug}}-title"
-          href="mailto:?subject={{ post.title | url_encode }}&body={{ 'Je voulais te partager ce post :' | url_encode}}%0A%0A{{ site.url | append: post.url | url_encode}}%0A%0A{{excerpt | url_encode}}"
-          >Partager
-        </a>
+        <a class="c-tag" href="{{ post_category.url }}">{{ post_category.label }}</a>
       </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="{{ post.url | absolute_url }}#disqus_thread"
-          aria-describedby="{{post.slug}}-title"
-        >
-          Commenter
-        </a>
-      </li>
-
-      {% for category in post.categories %}
-      <li class="c-tag">#{{ category }}</li>
-      {% endfor %}
+      {% endif %}
     </ul>
   </footer>
 </article>

@@ -1,6 +1,8 @@
 ---
-layout: category
-category: projets
+layout: tag
+tag: projets
+label: Projets
+minimum_posts: 1
 title: "Projets — ce que je construis et pourquoi"
 description: "Les projets et leurs coulisses : vtt.bzh, feezify, le choix de l'auto-hébergement éditorial, et pourquoi j'ai tué mon SaaS pour le reconstruire en agent IA."
 permalink: /projets/

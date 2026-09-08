@@ -1,7 +1,5 @@
 ---
-layout: post
-format: guide
-verticale: vtt
+category: guide
 title: "Quel entrainement pour progresser en VTT ?"
 description: "Pour progresser en VTT, il faut un juste équilibre de séances d'entrainement technique et du physique. Voici comment améliorer ces capacités."
 tags:
@@ -10,13 +8,10 @@ tags:
   - entrainement technique vtt
   - entrainement physique vtt
   - planning entrainement vtt
+  - vtt
 permalink: "/entrainement-vtt.html"
 featured: true
-images:
-  - images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.webp
-waitlist: true
-categories:
-  - Outdoor
+image: /images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.webp
 ---
 
 Le VTT est une discipline complète. Puissance, endurance, équilibre et explosivité sont des compétences à travailler à l'entrainement. En alternant avec des périodes de récupération, vous observerez une progression constante.

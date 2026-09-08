@@ -1,6 +1,8 @@
 ---
-layout: category
-category: nutrition
+layout: tag
+tag: nutrition
+label: Nutrition
+minimum_posts: 2
 title: "Nutrition sportive & sans gluten"
 description: "Ravitaillement d'effort, santé du sportif et alimentation sans gluten — vécu des deux côtés : ancien cycliste pro et parent d'un enfant cœliaque."
 permalink: /nutrition/

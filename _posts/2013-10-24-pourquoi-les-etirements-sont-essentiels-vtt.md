@@ -1,7 +1,7 @@
 ---
-layout: post
-format: guide
-verticale: vtt
+category: guide
+noindex: true
+sitemap: false
 title: "Pourquoi les étirements sont essentiels pour le VTT"
 description: "À quoi servent vraiment les étirements en VTT, leurs précautions d'usage et une séance type pour gagner en souplesse."
 tags:
@@ -9,10 +9,8 @@ tags:
   - souplesse vtt
   - récupération vtt
   - étirements vélo
-images:
-  - images/posts/fdb77-0homugubvczfir3sy.webp
-categories:
-  - Outdoor
+  - vtt
+image: /images/posts/fdb77-0homugubvczfir3sy.webp
 ---
 
 ## « Un peu de souplesse ! »

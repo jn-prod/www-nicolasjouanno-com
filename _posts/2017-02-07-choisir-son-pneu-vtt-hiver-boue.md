@@ -1,16 +1,12 @@
 ---
-layout: post
-format: guide
-verticale: vtt
+category: guide
 title: "Les meilleurs pneus vtt spéciale boue pour l'hiver"
 description: "Pour éviter les glissades d'hiver dans la boue il faut choisir le bon pneu, voici mon comparatif."
 tags:
   - pneu vtt boue
   - pneu vtt hiver
-images:
-  - "images/posts/d6a09-0klmuoxlc_xyukmmx.webp"
-categories:
-  - Outdoor
+  - vtt
+image: /images/posts/d6a09-0klmuoxlc_xyukmmx.webp
 ---
 
 <em>Changement d’heure, changement de temps, changement de pneus… c’est la dure réalité des VTTistes quand l’hiver arrive, quand les chemins deviennent boueux, n’évacuent plus l’eau et que les feuilles tombent, votre pilotage change, plus en glisse. Mais combien d’entre vous gardent les mêmes pneus sur leur VTT l’hiver que l’été? A tord… l’adhérence est un gage de sécurité que l’on soit un pilote engagé ou simple randonneur.</em>

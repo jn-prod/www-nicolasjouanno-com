@@ -1,20 +1,27 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require "date"
+require "find"
 require "pathname"
-require "set"
 require "yaml"
 
 ROOT = Pathname.new(__dir__).join("..").expand_path
-TAXONOMIE_PATH = ROOT.join("_data", "taxonomie.yml")
 POSTS_DIR = ROOT.join("_posts")
-CATEGORY_TO_VERTICALE = {
-  "vtt" => "vtt",
-  "trail" => "trail",
-  "voyage" => "rando",
-  "sans-gluten" => "nutrition",
-  "projets" => "projets"
-}.freeze
+SKIPPED_DIRECTORIES = %w[
+  .git
+  _drafts
+  _posts
+  _site
+  _templates
+  docs
+  images
+  images-dist
+  node_modules
+  packages
+  www
+].freeze
+LEGACY_KEYS = %w[format verticale sous_silo categories].freeze
 
 def fail_with(errors)
   return if errors.empty?
@@ -34,103 +41,111 @@ rescue Psych::SyntaxError => e
   { "__error" => e.message }
 end
 
-def page_exists_for?(permalink)
-  normalized = permalink.to_s
-  candidates =
-    if normalized.end_with?("/")
-      [
-        ROOT.join(normalized.delete_prefix("/"), "index.md"),
-        ROOT.join(normalized.delete_prefix("/"), "index.html")
-      ]
-    else
-      stem = normalized.delete_prefix("/").sub(/\.html\z/, "")
-      [
-        ROOT.join("#{stem}.md"),
-        ROOT.join("#{stem}.html")
-      ]
+def taxonomy_pages
+  pages = []
+
+  Find.find(ROOT.to_s) do |entry|
+    relative = Pathname.new(entry).relative_path_from(ROOT)
+    if File.directory?(entry)
+      dirname = relative.basename.to_s
+      Find.prune if SKIPPED_DIRECTORIES.include?(dirname) || dirname.start_with?("_")
+      next
     end
+    next unless File.extname(entry) == ".md"
 
-  candidates.any?(&:file?)
+    frontmatter = frontmatter_for(Pathname.new(entry))
+    next if frontmatter.empty? || frontmatter["__error"]
+
+    pages << { path: relative, frontmatter: frontmatter }
+  end
+
+  pages
 end
 
-taxonomie = YAML.safe_load(TAXONOMIE_PATH.read, aliases: true)
-verticales = taxonomie.fetch("verticales")
-formats = taxonomie.fetch("formats")
 errors = []
+category_pages = {}
+tag_pages = {}
 
-format_slugs = formats.map { |format| format.fetch("slug") }
-verticale_slugs = verticales.map { |verticale| verticale.fetch("slug") }
+taxonomy_pages.each do |page|
+  path = page.fetch(:path)
+  frontmatter = page.fetch(:frontmatter)
+  category = frontmatter["category"]
+  tag = frontmatter["tag"]
 
-duplicate_verticales = verticale_slugs.tally.select { |_slug, count| count > 1 }.keys
-duplicate_verticales.each { |slug| errors << "verticale duplicate slug: #{slug}" }
+  if category && tag
+    errors << "#{path} cannot declare both category and tag"
+    next
+  end
+  next unless category || tag
 
-verticales.each do |verticale|
-  slug = verticale["slug"]
-  label = verticale["label"]
-  status = verticale["status"] || (verticale["planned"] ? "planned" : "active")
-
-  %w[slug category label permalink description positioning keywords].each do |field|
-    value = verticale[field]
-    errors << "#{slug || label || "(unknown)"} missing #{field}" if value.nil? || value == "" || value == []
+  %w[label].each do |field|
+    errors << "#{path} missing #{field}" if frontmatter[field].to_s.strip.empty?
   end
 
-  unless %w[active planned archived].include?(status)
-    errors << "#{slug} has invalid status #{status.inspect}; expected active, planned or archived"
-  end
-
-  if status == "active"
-    errors << "#{slug} active verticale must set visible_footer: true or false" unless [true, false].include?(verticale["visible_footer"])
-    errors << "#{slug} active verticale must set include_home: true or false" unless [true, false].include?(verticale["include_home"])
-    errors << "#{slug} active verticale must set include_person_schema: true or false" unless [true, false].include?(verticale["include_person_schema"])
-  end
-
-  if verticale["include_home"] == true && (verticale["home_description"].nil? || verticale["home_description"].empty?)
-    errors << "#{slug} include_home requires home_description"
-  end
-
-  if verticale["visible_footer"] == true && !page_exists_for?(verticale["permalink"])
-    errors << "#{slug} visible_footer points to missing page #{verticale["permalink"]}"
+  index = category ? category_pages : tag_pages
+  slug = category || tag
+  if index.key?(slug)
+    errors << "duplicate taxonomy page for #{slug.inspect}: #{index[slug][:path]} and #{path}"
+  else
+    index[slug] = page
   end
 end
 
-post_counts = Hash.new(0)
+errors << "no category pages found" if category_pages.empty?
+errors << "no tag pages found" if tag_pages.empty?
+
+post_counts_by_category = Hash.new(0)
+post_counts_by_tag = Hash.new(0)
 
 POSTS_DIR.glob("*.md").each do |post_path|
+  relative_path = post_path.relative_path_from(ROOT)
   frontmatter = frontmatter_for(post_path)
   if frontmatter["__error"]
-    errors << "#{post_path.relative_path_from(ROOT)} invalid front matter: #{frontmatter["__error"]}"
+    errors << "#{relative_path} invalid front matter: #{frontmatter["__error"]}"
     next
   end
 
-  format = frontmatter["format"]
-  categories = Array(frontmatter["categories"]).compact.map(&:to_s)
-  verticale = frontmatter["verticale"] || CATEGORY_TO_VERTICALE[categories.find { |category| CATEGORY_TO_VERTICALE.key?(category) }]
-
-  errors << "#{post_path.relative_path_from(ROOT)} missing title" if frontmatter["title"].to_s.strip.empty?
-  errors << "#{post_path.relative_path_from(ROOT)} missing categories" if categories.empty?
-  errors << "#{post_path.relative_path_from(ROOT)} unknown format #{format.inspect}" if format && !format_slugs.include?(format)
-  if verticale.nil? || verticale.empty?
-    errors << "#{post_path.relative_path_from(ROOT)} missing known topic category"
+  errors << "#{relative_path} missing title" if frontmatter["title"].to_s.strip.empty?
+  LEGACY_KEYS.each do |key|
+    errors << "#{relative_path} still uses legacy key #{key}" if frontmatter.key?(key)
   end
 
-  if verticale && !verticale_slugs.include?(verticale)
-    errors << "#{post_path.relative_path_from(ROOT)} unknown verticale #{verticale.inspect}"
-  elsif verticale
-    post_counts[verticale] += 1 unless frontmatter["archive"] == true
+  category = frontmatter["category"]
+  if !category.is_a?(String) || category.empty?
+    errors << "#{relative_path} must have exactly one category"
+  elsif !category_pages.key?(category)
+    errors << "#{relative_path} has no category page for #{category.inspect}"
+  else
+    post_counts_by_category[category] += 1
+  end
+
+  tags = Array(frontmatter["tags"]).map(&:to_s)
+  errors << "#{relative_path} must have at least one tag" if tags.empty?
+  errors << "#{relative_path} has duplicate tags" if tags.uniq.length != tags.length
+  errors << "#{relative_path} has tags that are not lowercase" if tags.any? { |tag| tag != tag.downcase }
+  tag_pages.each_key do |tag|
+    post_counts_by_tag[tag] += 1 if tags.include?(tag) && frontmatter["archive"] != true
+  end
+
+  if category == "actu" && frontmatter["archive"] != true
+    errors << "#{relative_path} category actu must set archive: true"
+  elsif category != "actu" && frontmatter["archive"] == true
+    errors << "#{relative_path} archived post must use category actu"
   end
 end
 
-verticales.each do |verticale|
-  next unless verticale["status"] == "active"
-  next unless verticale["visible_footer"] == true
+category_pages.each_key do |category|
+  errors << "#{category} category has no posts" if post_counts_by_category[category].zero?
+end
 
-  minimum_posts = verticale["minimum_posts"] || 2
-  count = post_counts[verticale["slug"]]
+tag_pages.each do |tag, page|
+  minimum_posts = page.fetch(:frontmatter)["minimum_posts"] || 1
+  count = post_counts_by_tag[tag]
   if count < minimum_posts
-    errors << "#{verticale["slug"]} visible active verticale has #{count} posts; expected at least #{minimum_posts}"
+    errors << "#{tag} tag has #{count} visible posts; expected at least #{minimum_posts}"
   end
 end
 
 fail_with(errors)
 
-puts "Positioning check OK: #{verticales.count { |v| v["status"] == "active" }} active verticales, #{post_counts.values.sum} classified posts."
+puts "Positioning check OK: #{POSTS_DIR.glob("*.md").size} posts, #{category_pages.size} category pages, #{tag_pages.size} tag pages."

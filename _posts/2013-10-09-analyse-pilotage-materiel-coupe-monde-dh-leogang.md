@@ -1,7 +1,5 @@
 ---
-layout: post
-format: actu
-verticale: vtt
+category: actu
 archive: true
 sitemap: false
 title: "Analyse : pilotage et matériel des pilotes à la Coupe du Monde de DH de Léogang"
@@ -11,8 +9,7 @@ tags:
   - coupe du monde dh
   - analyse vidéo vtt
   - norco dirt
-categories:
-  - Outdoor
+  - vtt
 ---
 
 <iframe src="https://player.vimeo.com/video/76152647" width="640" height="360" title="Analyse vidéo - Coupe du Monde de DH de Léogang" frameborder="0" allowfullscreen></iframe>

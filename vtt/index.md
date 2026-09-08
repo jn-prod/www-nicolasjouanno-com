@@ -1,6 +1,8 @@
 ---
-layout: category
-category: vtt
+layout: tag
+tag: vtt
+label: VTT
+minimum_posts: 2
 title: "VTT — pratique, réglages, entraînement et sorties"
 description: "Régler ses suspensions, choisir sa taille de vélo, construire un plan d'entraînement et retrouver mes sorties et courses."
 permalink: /vtt/

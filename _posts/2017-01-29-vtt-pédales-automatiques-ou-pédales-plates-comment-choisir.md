@@ -1,8 +1,6 @@
 ---
 permalink: "/choisir-pedales-vtt-automatique-ou-plates.html"
-layout: post
-format: guide
-verticale: vtt
+category: guide
 title: "Comment choisir entre pédales automatiques et plates de VTT?"
 description: "Le guide ultime pour faire son choix entre le pédales plates et les pédales automatique en vtt."
 tags:
@@ -10,10 +8,8 @@ tags:
   - pédales plate vtt
   - pédales automatique vtt
   - choisir pédales vtt
-images:
-  - images/posts/ccs-62657-0-58346000-1479391864.webp
-categories:
-  - Outdoor
+  - vtt
+image: /images/posts/ccs-62657-0-58346000-1479391864.webp
 ---
 
 ## Au programme :

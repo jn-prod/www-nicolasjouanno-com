@@ -19,8 +19,8 @@
     "dev": "pnpm build && python3 -m http.server -d ./_site",
     "build": "pnpm build:images && pnpm check:positioning && pnpm check:content-images && pnpm sync:icons && bundle exec jekyll build && pnpm copy:images",
     "build:images": "pnpm build:images:prepare && pnpm build:images:raster && pnpm build:images:svg",
-    "build:images:prepare": "rm -rf ./images-dist && mkdir ./images-dist && cp -R ./images-src/. ./images-dist/",
-    "build:images:raster": "sharp -i './images-dist/**/*.{jpg,jpeg,png}' -o {dir} -f webp && find ./images-dist -type f \\( -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' \\) -delete",
+    "build:images:prepare": "rm -rf ./images-dist && mkdir ./images-dist && cp -R ./images/. ./images-dist/",
+    "build:images:raster": "sharp -i './images-dist/!(og)/**/*.{jpg,jpeg,png}' './images-dist/*.{jpg,jpeg,png}' -o {dir} -f webp && find ./images-dist -type f \\( -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' \\) ! -path './images-dist/og/*' -delete",
     "build:images:svg": "svgo -r -f ./images-dist -o ./images-dist",
     "check:positioning": "ruby scripts/check-positioning.rb",
     "check:content-images": "ruby scripts/check-content-images.rb",
@@ -32,7 +32,7 @@
     "lint:stylelint:fix": "pnpm lint:stylelint --fix",
     "lint:prettier": "prettier --check **/*.{html,md,json,yml}",
     "lint:prettier:fix": "pnpm lint:prettier --write",
-    "lint:es": "eslint 'assets/**/*.js'",
+    "lint:es": "eslint --no-error-on-unmatched-pattern 'assets/**/*.js'",
     "lint:es:fix": "pnpm lint:es --fix"
   },
   "dependencies": {

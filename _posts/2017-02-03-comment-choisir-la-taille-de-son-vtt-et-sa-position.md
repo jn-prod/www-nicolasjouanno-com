@@ -1,17 +1,13 @@
 ---
-layout: post
-format: guide
-verticale: vtt
+category: guide
 title: "Comment choisir la taille de son VTT et sa position ?"
 description: "La question que tout le monde se pose: quel est la taille idéale de mon VTT ? Quel est ma position idéal?"
 tags:
   - taille vtt
   - position vtt
   - choix la taille vtt
-images:
-  - "images/posts/90cc1-0wscg_9_yafgnydvo.webp"
-categories:
-  - Outdoor
+  - vtt
+image: /images/posts/90cc1-0wscg_9_yafgnydvo.webp
 ---
 
 <em>Le choix de la taille de votre VTT est essentiel dans votre pratique, qu’elle soit loisir ou de compétition. Cela peut vous permettre de gagner rapidement en efficacité sur votre VTT. De manière certaine, une meilleure position améliorera vos performances pour plusieurs raisons qui seront dévoilées plus bas.</em>

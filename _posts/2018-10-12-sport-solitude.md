@@ -1,17 +1,13 @@
 ---
-layout: post
-format: recit
-verticale: trail
+category: recit
 title: Sport et solitude, tout est dit non ?
 description: "Le sport comme rendez-vous avec soi-même : réflexion sur la solitude en cyclisme, surf et running, entre liberté apprivoisée et dépassement de soi."
 tags:
-  - Sport
-  - Solitude
-  - Sentiments
-images:
-  - images/posts/living-alone.webp
-categories:
-  - Outdoor
+  - sport
+  - solitude
+  - sentiments
+  - trail
+image: /images/posts/living-alone.webp
 featured: true
 ---
 

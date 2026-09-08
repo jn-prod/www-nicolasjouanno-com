@@ -3,12 +3,6 @@ layout: page
 permalink: /me/work/
 title: Lead développeur frontend — design system & RGAA | N. Jouanno
 description: "Lead frontend du design system MGDIS : Web Components StencilJS, accessibilité RGAA, frontend à l'échelle. Orateur Paris-Web 2025. En side project, je construis feezify, un copilote d'entraînement IA-native."
-icons:
-  - js
-  - ts
-  - vuejs
-  - sass
-  - stencil
 ---
 
 <h1>Lead développeur frontend — design system &amp; accessibilité RGAA</h1>

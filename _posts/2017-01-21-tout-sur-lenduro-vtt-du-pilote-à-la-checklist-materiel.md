@@ -1,8 +1,6 @@
 ---
 permalink: "/enduro-vtt-pilote-checklist-materiel.html"
-layout: post
-format: guide
-verticale: vtt
+category: guide
 title: "GUIDE: L'enduro VTT de A à Z."
 description: "Tout savoir sur la discipline la plus complête du VTT: l'enduro. Sa définition, son équipement et quelques conseils."
 tags:
@@ -10,10 +8,8 @@ tags:
   - vtt enduro
   - équipement vtt enduro
   - matériel vtt enduro
-images:
-  - images/posts/p5pb12718966.webp
-categories:
-  - Outdoor
+  - vtt
+image: /images/posts/p5pb12718966.webp
 featured: true
 ---
 

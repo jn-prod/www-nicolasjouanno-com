@@ -4,13 +4,7 @@ description: "J’explore l’Europe en famille, en van, à la recherche de sent
 url: "https://www.nicolasjouanno.com"
 lang: "fr"
 logo: "/images/icons/avatar.svg"
-og_image: "/og/og-default.png" # carte sociale raster 1200x630 (hors pipeline images → survit au build ; SVG/WebP non rendus par les réseaux sociaux)
-
-# Waiting list — avant-première de mon agent IA d'entraînement (feezify). Form kit.com dédié : _includes/plugins/waitlist.html.
-# Un post l'active avec `waitlist: true` (copie ci-dessous) ; override possible via `waitlist: {title, text}`.
-waitlist:
-  title: "Mon agent IA d'entraînement — tu le veux en avant-première ?"
-  text: "Je reconstruis mon vieux carnet d'entraînement en copilote IA : tu l'installes sur ta propre IA, il croise ta charge et ton ressenti et te dit comment tu vas aujourd'hui — il t'éclaire, c'est toi qui décides. Laisse-moi ton email pour l'avoir en avant-première et suivre le build. Juste pour ça, sans spam."
+og_image: "/images/og/og-default.png" # carte sociale raster 1200x630 conservée en PNG pour les réseaux sociaux
 
 # Webmaster verifications (renseigner les codes au besoin)
 webmaster_verifications:
@@ -28,14 +22,22 @@ author:
   location: "Pontivy, Bretagne, France"
   country: "France"
   email: "contact@nicolasjouanno.com"
-  certifications_folder: "https://drive.google.com/open?id=14JiH6ytQDige_iIOZPUUYq-W38VPaWTo"
-
+  knows_about:
+    - "VTT"
+    - "Entraînement VTT"
+    - "Réglages VTT"
+    - "Randonnées VTT en Bretagne"
+    - "Trail"
+    - "Course à pied"
+    - "Progression"
+    - "Outdoor"
+    - "Sans gluten"
+    - "Maladie cœliaque"
+    - "Ravitaillement sportif sans gluten"
   # social
-  webmention: "https://webmention.io/www.nicolasjouanno.com/webmention"
   handle: "@bynicolasjd"
   bitbucket:
   codepen:
-  dribble: "https://dribbble.com/nicolasjouanno"
   flickr:
   facebook:
   foursquare:
@@ -46,9 +48,6 @@ author:
   threads: "https://www.threads.com/@bynicolasjd"
   lastfm:
   linkedin: "https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
-  mediumcom: "https://medium.com/@nicolasjouanno"
-  pinterest: "https://fr.pinterest.com/nicolasjouanno/"
-  soundcloud: "https://soundcloud.com/nicolasjouanno"
   stackoverflow: # "123456/username" (the last part of your profile   url, e.g. https://stackoverflow.com/users/123456/username)
   steam: # "steamId" (the last part of your profile   url, e.g. https://steamcommunity.com/id/steamId/)
   strava: "https://www.strava.com/athletes/njouanno"
@@ -56,7 +55,6 @@ author:
   substack_cta: "https://bynicolasjd.substack.com/?utm_campaign=profile_chips"
   tumblr:
   twitter: "https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
-  wikipedia: "https://fr.wikipedia.org/wiki/Nicolas_Jouanno"
   youtube: "https://www.youtube.com/@byNicolasJD"
 
 # projects
@@ -71,10 +69,6 @@ projects:
 
 # collections
 collections:
-  events:
-    output: true
-    permalink: /events/:slug.html
-    sort_by: start
   redirects:
     output: true
 
@@ -84,11 +78,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      path: "_events"
-      type: "events"
-    values:
-      layout: "event"
 
 # Outputting
 lsi: false
@@ -97,25 +86,10 @@ permalink: /:title:output_ext
 
 # Plugins
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
   # - jekyll-archives
   # - jekyll-minifier
-
-# Archives
-# jekyll-archives:
-#   enabled:
-#    - categories
-#  layout: archive
-#  permalinks:
-#    category: '/:name/'
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
 
 # Minification
 # jekyll-minifier:
@@ -137,8 +111,8 @@ exclude:
   - configs
   - docs
   - eslint.config.mjs
+  - images
   - images-dist
-  - images-src
   - node_modules
   - package.json
   - packages

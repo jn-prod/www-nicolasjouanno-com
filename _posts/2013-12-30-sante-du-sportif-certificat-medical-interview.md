@@ -1,7 +1,7 @@
 ---
-layout: post
-format: recit
-verticale: nutrition
+category: recit
+noindex: true
+sitemap: false
 title: "Santé du sportif et certificat médical : le point avec le médecin"
 description: "Visite médicale annuelle, certificat de non contre-indication, suivi du sportif : entretien avec le Dr Benoît Tanguy sur l'intérêt du contrôle médical."
 tags:
@@ -9,8 +9,7 @@ tags:
   - certificat médical
   - visite médicale sport
   - prévention sportif
-categories:
-  - Outdoor
+  - nutrition
 ---
 
 Plusieurs d'entre vous ont répondu à l'enquête sur les licences de vélo. Quand la moitié d'entre vous sont non-licenciés mais annoncent vouloir prendre une licence, et que la suppression de la visite médicale pour la validation des licences est régulièrement évoquée, la question du suivi médical mérite qu'on s'y arrête.

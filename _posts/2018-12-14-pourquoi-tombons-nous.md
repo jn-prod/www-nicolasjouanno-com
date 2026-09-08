@@ -1,16 +1,12 @@
 ---
-layout: post
-format: recit
-verticale: vtt
+category: recit
 title: Pourquoi tombons-nous ?
 description: "Cyclo-cross à 15 ans, cyclisme professionnel, chutes et reconversions : un récit en quatre chapitres sur les épreuves qui forgent un sportif."
 tags:
-  - Sport
-  - Chute
-images:
-  - images/posts/route-de-montagne.webp
-categories:
-  - Outdoor
+  - sport
+  - chute
+  - vtt
+image: /images/posts/route-de-montagne.webp
 featured: true
 ---
 

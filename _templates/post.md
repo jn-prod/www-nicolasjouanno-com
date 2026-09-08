@@ -1,7 +1,9 @@
 ---
 title: ""
 description: ""
-categories:
+category: guide
+tags:
   - vtt
 image:
+image_alt:
 ---

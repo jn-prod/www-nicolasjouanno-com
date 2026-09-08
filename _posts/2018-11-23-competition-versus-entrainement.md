@@ -1,19 +1,14 @@
 ---
-layout: post
-format: recit
-verticale: vtt
+category: recit
 title: Comment progresser sans compétition ?
 description: "Comment rester motivé et progresser sans compétition ? Sources de motivation, gestion des saisons et entraînement intelligent pour les sportifs autodidactes."
 tags:
-  - Sport
-  - Compétition
-  - Reconversion
-  - Entrainement
-images:
-  - images/posts/1029035155.webp
-waitlist: true
-categories:
-  - Outdoor
+  - sport
+  - compétition
+  - reconversion
+  - entrainement
+  - vtt
+image: /images/posts/1029035155.webp
 featured: true
 ---
 

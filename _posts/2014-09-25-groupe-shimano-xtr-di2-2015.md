@@ -1,7 +1,5 @@
 ---
-layout: post
-format: actu
-verticale: vtt
+category: actu
 archive: true
 sitemap: false
 title: "Le groupe Shimano XTR Di2 (M9050) pour 2015"
@@ -11,10 +9,8 @@ tags:
   - transmission électronique
   - groupe vtt
   - matériel vtt
-images:
-  - images/posts/e210f-0cl6rllkmratuqcb6.webp
-categories:
-  - Outdoor
+  - vtt
+image: /images/posts/e210f-0cl6rllkmratuqcb6.webp
 ---
 
 ## Présentation du groupe Shimano XTR Di2 2015

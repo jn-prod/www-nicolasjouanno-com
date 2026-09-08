@@ -1,7 +1,5 @@
 ---
-layout: post
-format: recit
-verticale: vtt
+category: recit
 title: "Ma Megavalanche 2013 : 2 500 m de pilotage, du Pic Blanc à Allemont"
 description: "Mon récit de la Megavalanche 2013 à l'Alpe d'Huez, sur la Mega Challenger : 2 500 m de dénivelé négatif depuis le Pic Blanc (3 300 m), et ma vidéo onboard."
 tags:
@@ -9,8 +7,7 @@ tags:
   - megavalanche alpe d'huez
   - mega challenger
   - enduro
-categories:
-  - Outdoor
+  - vtt
 featured: true
 ---
 
