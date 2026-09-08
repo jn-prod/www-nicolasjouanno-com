@@ -20,7 +20,11 @@ layout: null
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v{{ jekyll.version }}</generator>
 
-    {% for post in site.posts limit:10 %}
+    {% assign feed_posts = site.posts | where_exp: "post", "post.archive != true" %}
+    {% for post in feed_posts limit:10 %}
+      {% capture absolute_src %}src="{{ site.url }}/{% endcapture %}
+      {% capture absolute_href %}href="{{ site.url }}/{% endcapture %}
+      {% assign feed_content = post.content | replace: 'src="/', absolute_src | replace: 'href="/', absolute_href %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description><![CDATA[
@@ -29,10 +33,20 @@ layout: null
               <img src="{{ post.image | absolute_url }}" alt="{{ post.image_alt | default: post.title | xml_escape }}"/>
             </a>
           {% endif %}
-          {{ post.excerpt | strip_html | truncatewords: 150 }}
-          <p>Initialement publié sur <a href="{{ site.url }}{{ post.url }}" target="_blank">nicolasjouanno.com</a></p>
+          <p>{{ post.excerpt | strip_html | truncatewords: 150 }}</p>
+          <p><em>Initialement publié sur <a href="{{ site.url }}{{ post.url }}">nicolasjouanno.com</a>.</em></p>
         ]]></description>
-        <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
+        <content:encoded><![CDATA[
+          <p><em>Initialement publié sur <a href="{{ site.url }}{{ post.url }}">nicolasjouanno.com</a>.</em></p>
+          {% if post.image %}
+            <p>
+              <a href="{{ site.url }}{{ post.url }}">
+                <img src="{{ post.image | absolute_url }}" alt="{{ post.image_alt | default: post.title | xml_escape }}"/>
+              </a>
+            </p>
+          {% endif %}
+          {{ feed_content }}
+        ]]></content:encoded>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>

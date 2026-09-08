@@ -50,3 +50,35 @@
     }
   }
 }
+
+@media screen and (width > 90rem) {
+  .c-navigation--desktop {
+    .c-layout__navigation {
+      position: static;
+      inset: auto;
+      z-index: auto;
+      justify-content: flex-end;
+      max-width: none;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      background-color: transparent;
+
+      &.is-sticky {
+        position: fixed;
+        inset-block-start: 0;
+        inset-inline: 0;
+        z-index: 10;
+        justify-content: center;
+        max-width: none;
+        padding: var(--size-8) var(--size-16);
+        border-bottom: var(--border);
+        background-color: var(--color-light);
+
+        .c-navigation__link-list {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

@@ -61,7 +61,7 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
     </div>
   </li>
   <li class="u-spacing--block-end-medium">
-    <p><time datetime="2008">2008</time>–<time datetime="2010">2010</time> — J'ai été <a href="{{ site.author.wikipedia }}">cycliste professionnel</a> chez Bretagne Schuller : cinq championnats de France, des courses 2.1 et 2.2. Une blessure, en 2010, m'a mis hors course — et m'a ouvert la porte du numérique. <a href="/me/results.html">Palmarès →</a></p>
+    <p><time datetime="2008">2008</time>–<time datetime="2010">2010</time> — J'ai été cycliste professionnel chez Bretagne Schuller : cinq championnats de France, des courses 2.1 et 2.2. Une blessure, en 2010, m'a mis hors course — et m'a ouvert la porte du numérique. <a href="/me/results.html">Palmarès →</a></p>
   </li>
   <li class="u-spacing--block-end-medium">
     <p><time datetime="2007">2007</time>–<time datetime="2008">2008</time> — J'ai commencé comme vendeur chez Twinner Sport, ma première expérience professionnelle, avant de basculer côté web.</p>

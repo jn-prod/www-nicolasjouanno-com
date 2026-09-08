@@ -74,6 +74,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+    <script defer src="{{ '/assets/navigation.js' | relative_url }}"></script>
 
     <!-- SEO basique -->
     <meta name="robots" content="{% if page.noindex or page.archive %}noindex, follow{% else %}index, follow, max-image-preview:large{% endif %}" />
@@ -84,12 +85,7 @@
     <meta name="author" content="{{ site.author.name }}" />
 
     <!-- Webmaster verifications -->
-    {% if site.google_verification %}
-    <meta
-      name="google-site-verification"
-      content="{{ site.google_verification }}"
-    />
-    {% elsif site.webmaster_verifications.google %}
+    {% if site.webmaster_verifications.google %}
     <meta
       name="google-site-verification"
       content="{{ site.webmaster_verifications.google }}"
@@ -335,31 +331,6 @@
     <!-- Content
         ================================================== -->
     <main role="main" id="main-content" class="c-layout__content">{{ content }}</main>
-
-    <!-- signature -->
-    {% if page.signature %}
-    <div class="c-layout__content">
-      <aside
-        itemscope
-        itemtype="http://schema.org/Quotation"
-        class="c-card c-card--primary c-card--large u-container"
-        style="--card-bg-image: url('/images/jumbotron.webp')"
-      >
-        <div class="c-card c-card--flat c-card--medium c-quote c-quote--large">
-          <blockquote class="c-quote__text" itemprop="text">
-            <p>"Pourquoi rejoindre la marine quand vous pouvez être un pirate ?"</p>
-          </blockquote>
-          <p
-            itemscope
-            itemtype="http://schema.org/Organization"
-            class="c-quote__author"
-          >
-            <em itemprop="name">—Steve Jobs</em>
-          </p>
-        </div>
-      </aside>
-    </div>
-    {% endif %}
 
     <footer
       role="contentinfo"

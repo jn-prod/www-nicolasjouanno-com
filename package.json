@@ -24,7 +24,7 @@
     "build:images:svg": "svgo -r -f ./images-dist -o ./images-dist",
     "check:positioning": "ruby scripts/check-positioning.rb",
     "check:content-images": "ruby scripts/check-content-images.rb",
-    "sync:icons": "mkdir -p ./_includes/icons && cp ./images-dist/icons/*.svg ./_includes/icons/",
+    "sync:icons": "mkdir -p ./_includes/icons && cp ./images-dist/icons/github.svg ./images-dist/icons/instagram.svg ./images-dist/icons/linkedin.svg ./images-dist/icons/threads.svg ./images-dist/icons/x.svg ./images-dist/icons/youtube.svg ./_includes/icons/",
     "copy:images": "cp -R ./images-dist ./_site/images && ruby scripts/copy-legacy-image-aliases.rb",
     "lint": "pnpm lint:es && pnpm lint:stylelint && pnpm lint:prettier",
     "lint:fix": "pnpm lint:es:fix && pnpm lint:stylelint:fix && pnpm lint:prettier:fix",

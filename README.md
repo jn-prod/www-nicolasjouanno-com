@@ -165,11 +165,15 @@ Quiz interactif sur les aliments contenant du gluten.
 
 ## Images
 
-Le pipeline intégré convertit les sources JPG/PNG de `images/` en WebP et optimise les SVG. Les images Open Graph de `images/og/` conservent leur format pour rester compatibles avec les réseaux sociaux. Les fichiers produits sont copiés dans `_site/images/` au build. Dans un article, une pièce jointe ajoutée dans `images/posts/` peut être référencée par son nom de fichier ; l'include Liquid résout son URL publique en `/images/posts/…webp`.
+Le pipeline intégré convertit les sources JPG/PNG de `images/` en WebP et optimise les SVG. Les images Open Graph de `images/og/` conservent leur format pour rester compatibles avec les réseaux sociaux. Les fichiers produits sont copiés dans `_site/images/` au build. Dans un article, une pièce jointe ajoutée dans `images/posts/` est référencée dans le front matter par son URL publique en `/images/posts/…webp`.
 
 ```bash
 pnpm build:images
 ```
+
+## Flux de publication
+
+`/feed.xml` est le flux RSS principal et la source d’import de Substack. Il contient le texte intégral, transforme les liens et médias internes en URL absolues et conserve la mention « Initialement publié sur nicolasjouanno.com ». L’ancienne URL `/substack.xml` redirige vers ce flux unique.
 
 ## Déploiement
 
