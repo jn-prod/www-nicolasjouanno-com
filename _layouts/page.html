@@ -3,6 +3,16 @@ layout: default
 ---
 
 {% if page.breadcrumb_hide != true %}
+{% assign breadcrumb_verticale = page.verticale %}
+{% unless breadcrumb_verticale %}
+  {% for candidate in site.data.taxonomie.verticales %}
+    {% if page.categories contains candidate.category %}
+      {% assign breadcrumb_verticale = candidate.slug %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endunless %}
+{% assign breadcrumb_category = site.data.taxonomie.verticales | where: "slug", breadcrumb_verticale | first %}
 <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
   <ol>
     <li>
@@ -14,11 +24,17 @@ layout: default
       </a>
     </li>
 
-    {% unless page.url == '/' or page.url == '/index.html' %}
+    {% if page.layout == 'post' %}
+    <li><a href="/posts.html">Publications</a></li>
+    {% if breadcrumb_category %}
+    <li><a href="{{ breadcrumb_category.permalink }}">{{ breadcrumb_category.label }}</a></li>
+    {% endif %}
+    <li><span aria-current="page">{{ page.title }}</span></li>
+    {% elsif page.url != '/' and page.url != '/index.html' %}
     <li>
       <span aria-current="page">{{ page.title }}</span>
     </li>
-    {% endunless %}
+    {% endif %}
   </ol>
 </nav>
 {% endif %} {% if page.icons %}

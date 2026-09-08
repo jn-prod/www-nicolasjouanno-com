@@ -22,24 +22,6 @@ layout: page
       itemprop="url mainEntityOfPage"
       content="{{ site.url}}{{page.url }}"
     />
-    {%- assign page_verticale = page.verticale -%}
-    {%- unless page_verticale -%}
-      {%- for candidate in site.data.taxonomie.verticales -%}
-        {%- if page.categories contains candidate.category -%}
-          {%- assign page_verticale = candidate.slug -%}
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endunless -%}
-    <p class="c-post__breadcrumb">
-      <a href="/posts.html">Toutes les publications</a>
-      {%- if page_verticale -%}
-      {%- assign v = site.data.taxonomie.verticales | where: "slug", page_verticale | first -%}
-      {%- if v -%}
-        <span aria-hidden="true"> · </span><a href="{{ v.permalink }}">{{ v.label }}</a>
-      {%- endif -%}
-      {%- endif -%}
-    </p>
   </header>
 
   {% assign page_image_source = page.image %}
@@ -94,6 +76,10 @@ layout: page
   </ul>
   {% endif %}
 </aside>
+
+<p class="u-spacing--block-start-medium">
+  <a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a>
+</p>
 
 <!-- webmentions -->
 <section class="c-webmentions">

@@ -320,6 +320,16 @@
 
     <!-- Schema.org BreadcrumbList -->
     {% unless page.url == '/' or page.url == '/index.html' or page.breadcrumb_hide %}
+    {% assign breadcrumb_verticale = page.verticale %}
+    {% unless breadcrumb_verticale %}
+      {% for candidate in site.data.taxonomie.verticales %}
+        {% if page.categories contains candidate.category %}
+          {% assign breadcrumb_verticale = candidate.slug %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endunless %}
+    {% assign breadcrumb_category = site.data.taxonomie.verticales | where: "slug", breadcrumb_verticale | first %}
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -334,8 +344,27 @@
           {
             "@type": "ListItem",
             "position": 2,
+            {% if page.layout == 'post' %}
+            "name": "Publications",
+            "item": "{{ '/posts.html' | absolute_url }}"
+          },
+          {% if breadcrumb_category %}
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": {{ breadcrumb_category.label | jsonify }},
+            "item": "{{ breadcrumb_category.permalink | absolute_url }}"
+          },
+          {% endif %}
+          {
+            "@type": "ListItem",
+            "position": {% if breadcrumb_category %}4{% else %}3{% endif %},
             "name": {{ page.title | jsonify }},
             "item": "{{ page.url | absolute_url }}"
+            {% else %}
+            "name": {{ page.title | jsonify }},
+            "item": "{{ page.url | absolute_url }}"
+            {% endif %}
           }
         ]
       }
