@@ -13,13 +13,13 @@ breadcrumb_hide: true
 
 <p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
 
-Le vélo a d'abord donné le rythme. J'ai été [cycliste professionnel]({{ site.url }}/me/results.html?utm_source=home&utm_medium=proof&utm_campaign=ecosystem) chez Bretagne Schuller et j'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à arrêter.
+Le vélo a d'abord donné le rythme. J'ai été [cycliste professionnel]({{ site.url }}/results.html?utm_source=home&utm_medium=proof&utm_campaign=ecosystem) chez Bretagne Schuller et j'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à arrêter.
 
 Aujourd'hui, je roule et je cours autrement. Avec ma famille, nous parcourons l'Europe en van au rythme des vacances, avec les vélos, les chaussures de trail et la contrainte du sans gluten dans nos bagages.
 
 Je crée et publie sur le web depuis plus de vingt ans. Je ne l'ai jamais fait selon une cadence régulière : j'y reviens quand une expérience mérite d'être partagée ou qu'un problème vécu appelle une réponse concrète. C'est ce fil qui relie des sujets qui pourraient sembler éloignés.
 
-<p><a href="/me/?utm_source=home&utm_medium=proof&utm_campaign=ecosystem" class="c-button c-button--dark-outline">Mon parcours</a></p>
+<p><a href="/results.html?utm_source=home&utm_medium=proof&utm_campaign=ecosystem" class="c-button c-button--dark-outline">Mon palmarès cycliste</a></p>
 
 ## 🚵 VTT & trail
 
@@ -41,3 +41,38 @@ La maladie cœliaque est entrée dans notre vie familiale et a changé des geste
 L’Europe est devenue notre jardin familial. Nous la parcourons en van au rythme des vacances à la recherche de lieu où marcher, courir, rouler, ... et réussir à manger sans gluten loin de ses repères.
 
 <p><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a></p>
+
+## 💼 Métier, en arrière-plan
+
+Mon métier est numérique, mais ce site n'est pas mon portfolio. Il relie d'abord mon histoire aux sujets qui façonnent ma vie aujourd'hui : VTT, trail, sans gluten et voyages en van en famille. Le détail professionnel existe pour expliquer ce que je construis, sans devenir l'axe principal.
+
+<p><a href="/work/" class="c-button c-button--dark-outline">Voir mon parcours professionnel</a></p>
+
+## 💻 Slow web
+
+Je crée sur le web depuis plus de vingt ans et je publie sur **mon propre site** depuis 2008 — sans régularité forcée, mais avec l'envie de conserver ce qui compte. Un site que l'on possède est un **coffre** : il ne disparaît pas le jour où une plateforme ferme ou change son algorithme. Substack entretient la relation et les réseaux accueillent la conversation.
+
+<div class="u-text--center">
+  <ul class="c-button-stack c-button-stack--center u-list">
+    <li>
+      <a href="{{ site.author.instagram }}" class="c-button c-button--icon c-button--large" aria-label="Instagram — @bynicolasjd" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/instagram.svg %}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.author.threads }}" class="c-button c-button--icon c-button--large" aria-label="Threads — @bynicolasjd" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/threads.svg %}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.author.twitter }}" class="c-button c-button--icon c-button--large" aria-label="X — @bynicolasjd" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/x.svg %}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ site.author.youtube }}" class="c-button c-button--icon c-button--large" aria-label="YouTube — @byNicolasJD" target="_blank" rel="noopener">
+        <span class="c-icon">{% include icons/youtube.svg %}</span>
+      </a>
+    </li>
+  </ul>
+</div>

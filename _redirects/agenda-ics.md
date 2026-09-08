@@ -1,5 +1,5 @@
 ---
 permalink: /agenda.ics
-redirect_to: /me/work/
+redirect_to: /work/
 sitemap: false
 ---

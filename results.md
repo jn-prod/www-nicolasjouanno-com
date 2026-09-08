@@ -2,7 +2,7 @@
 layout: page
 title: Cycliste pro, VTT & trail — palmarès et parcours sportif
 description: "De la compétition cycliste professionnelle (Bretagne Schuller, 2008–2010) à l’outdoor en famille : VTT, trail, van life. Palmarès et articles sportifs."
-permalink: /me/results.html
+permalink: /results.html
 ---
 
 # Cycliste professionnel, vttiste & outdoor

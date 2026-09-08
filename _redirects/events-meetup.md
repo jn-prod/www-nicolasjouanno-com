@@ -1,5 +1,5 @@
 ---
 permalink: /events/meetup-accessibilite.html
-redirect_to: /me/work/
+redirect_to: /work/
 sitemap: false
 ---

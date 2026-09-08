@@ -1,13 +1,16 @@
 ---
-layout: page
-permalink: /me/work/
-title: Lead développeur frontend — design system & RGAA | N. Jouanno
-description: "Lead frontend du design system MGDIS : Web Components StencilJS, accessibilité RGAA, frontend à l'échelle. Orateur Paris-Web 2025. En side project, je construis feezify, un copilote d'entraînement IA-native."
+layout: tag
+tag: work
+label: Work
+minimum_posts: 1
+permalink: /work/
+title: "Work — frontend, accessibilité et projets web"
+description: "Lead frontend dans une équipe design system : Web Components, accessibilité RGAA et frontend à l’échelle. Mon parcours, Paris Web 2025 et les projets web que je construis."
 ---
 
-<h1>Lead développeur frontend — design system &amp; accessibilité RGAA</h1>
+# Work
 
-Aujourd'hui, je suis Lead développeur frontend dans la core team de [MGDIS](https://github.com/MGDIS) : ma mission principale est le développement et le maintien du design system. Mon quotidien : des **Web Components** (StencilJS), l'**accessibilité RGAA** comme exigence non négociable, et l'industrialisation du frontend à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. J'en ai parlé sur scène à [Paris-Web 2025](/me/work/paris-web-2025.html).
+Aujourd'hui, je suis Lead développeur frontend dans la core team de [MGDIS](https://github.com/MGDIS) : ma mission principale est le développement et le maintien du design system. Mon quotidien : des **Web Components** (StencilJS), l'**accessibilité RGAA** comme exigence non négociable, et l'industrialisation du frontend à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. J'en ai parlé sur scène à [Paris-Web 2025](/paris-web-2025.html).
 
 L'IA fait partie de mes outils de développement au quotidien. Le soir, en side project, je construis [feezify](/feezify.html), un copilote d'entraînement IA-native — orchestration d'agents, mémoire, observabilité, gouvernance par décisions — pour comprendre les systèmes agentiques de l'intérieur.
 
@@ -19,7 +22,7 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
 
 <ol class="u-list">
   <li class="u-spacing--block-end-medium">
-    <p><time datetime="2025">2025</time> — J'ai présenté à <a href="/me/work/paris-web-2025.html">Paris-Web 2025</a>, avec Simon, notre retour d'expérience sur un design system accessible by design — après avoir suivi deux éditions comme simple auditeur. J'en retiens que parler en public est une compétence à part entière, et que rendre un sujet technique accessible oblige à le comprendre deux fois mieux.</p>
+    <p><time datetime="2025">2025</time> — J'ai présenté à <a href="/paris-web-2025.html">Paris-Web 2025</a>, avec Simon, notre retour d'expérience sur un design system accessible by design — après avoir suivi deux éditions comme simple auditeur. J'en retiens que parler en public est une compétence à part entière, et que rendre un sujet technique accessible oblige à le comprendre deux fois mieux.</p>
   </li>
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
@@ -33,7 +36,7 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
       <p>Depuis <time datetime="2019">2019</time> — Je suis Lead développeur frontend dans la core team de <a href="https://github.com/MGDIS" rel="noopener">MGDIS</a>, où je développe et maintiens le design system : des Web Components (StencilJS, SCSS), l'accessibilité RGAA comme exigence non négociable, le tout industrialisé à l'échelle. J'applique la vision de l'architecte frontend et j'accompagne les équipes qui l'implémentent. Ce que j'y apprends : à l'échelle, la cohérence et l'accessibilité ne se décrètent pas, elles s'outillent.</p>
-      <p><a href="/me/work/paris-web-2025.html" class="c-button c-button--dark-outline">Le design system en conférence</a></p>
+      <p><a href="/paris-web-2025.html" class="c-button c-button--dark-outline">Le design system en conférence</a></p>
     </div>
   </li>
   <li class="u-spacing--block-end-medium">
@@ -56,12 +59,12 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
   </li>
   <li class="u-spacing--block-end-medium">
     <div class="c-card c-card--neutral c-card--medium">
-      <p>Depuis <time datetime="2008">2008</time> — Je tiens nicolasjouanno.com, mon site personnel. Il conserve mes publications et donne de la profondeur aux sujets que j'explore, tandis que les réseaux accueillent la conversation et Substack entretient la relation. Je le fais évoluer à la main, dans l'esprit d'un <a href="/me/#slow-web">web possédé, à vitesse humaine</a>.</p>
+      <p>Depuis <time datetime="2008">2008</time> — Je tiens nicolasjouanno.com, mon site personnel. Il conserve mes publications et donne de la profondeur aux sujets que j'explore, tandis que les réseaux accueillent la conversation et Substack entretient la relation. Je le fais évoluer à la main, dans l'esprit d'un web possédé, à vitesse humaine.</p>
       <p><a href="https://github.com/jn-prod/www-nicolasjouanno-com" class="c-button c-button--dark-outline">Voir le code source</a></p>
     </div>
   </li>
   <li class="u-spacing--block-end-medium">
-    <p><time datetime="2008">2008</time>–<time datetime="2010">2010</time> — J'ai été cycliste professionnel chez Bretagne Schuller : cinq championnats de France, des courses 2.1 et 2.2. Une blessure, en 2010, m'a mis hors course — et m'a ouvert la porte du numérique. <a href="/me/results.html">Palmarès →</a></p>
+    <p><time datetime="2008">2008</time>–<time datetime="2010">2010</time> — J'ai été cycliste professionnel chez Bretagne Schuller : cinq championnats de France, des courses 2.1 et 2.2. Une blessure, en 2010, m'a mis hors course — et m'a ouvert la porte du numérique. <a href="/results.html">Voir le palmarès</a></p>
   </li>
   <li class="u-spacing--block-end-medium">
     <p><time datetime="2007">2007</time>–<time datetime="2008">2008</time> — J'ai commencé comme vendeur chez Twinner Sport, ma première expérience professionnelle, avant de basculer côté web.</p>
@@ -78,10 +81,6 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
 - Accessibilité & qualité : **RGAA** (audit & mise en conformité), a11y, Web Components accessibles, performance web, Green IT.
 - Outils & DevOps : GitHub Actions, ViteJS, Jekyll, Cloudflare.
 - [feezify](/feezify.html), copilote d'entraînement IA-native (side project) : agents, skills, MCP, mémoire, observabilité.
-
-## Articles tech & IA
-
-{% include components/post-list.html category="Work" %}
 
 <div class="u-text--center">
   <ul class="c-button-stack c-button-stack--center u-list">
