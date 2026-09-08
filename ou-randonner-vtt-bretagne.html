@@ -220,6 +220,9 @@
 
     <!-- Schema.org BreadcrumbList -->
     
+    
+    
+    
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -234,8 +237,24 @@
           {
             "@type": "ListItem",
             "position": 2,
+            
+            "name": "Publications",
+            "item": "https://www.nicolasjouanno.com/posts.html"
+          },
+          
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "VTT",
+            "item": "https://www.nicolasjouanno.com/vtt/"
+          },
+          
+          {
+            "@type": "ListItem",
+            "position": 4,
             "name": "Où randonner en VTT en Bretagne ? Circuits et randonnées organisées",
             "item": "https://www.nicolasjouanno.com/ou-randonner-vtt-bretagne.html"
+            
           }
         ]
       }
@@ -310,6 +329,9 @@
     <!-- Content
         ================================================== -->
     <main role="main" id="main-content" class="c-layout__content">
+
+
+
 <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
   <ol>
     <li>
@@ -322,9 +344,11 @@
     </li>
 
     
-    <li>
-      <span aria-current="page">Où randonner en VTT en Bretagne ? Circuits et randonnées organisées</span>
-    </li>
+    <li><a href="/posts.html">Publications</a></li>
+    
+    <li><a href="/vtt/">VTT</a></li>
+    
+    <li><span aria-current="page">Où randonner en VTT en Bretagne ? Circuits et randonnées organisées</span></li>
     
   </ol>
 </nav>
@@ -377,8 +401,7 @@
     <meta
       itemprop="url mainEntityOfPage"
       content="https://www.nicolasjouanno.com/ou-randonner-vtt-bretagne.html"
-    /><p class="c-post__breadcrumb">
-      <a href="/posts.html">Toutes les publications</a><span aria-hidden="true"> · </span><a href="/vtt/">VTT</a></p>
+    />
   </header>
 
   
@@ -652,6 +675,10 @@
   </ul>
   
 </aside>
+
+<p class="u-spacing--block-start-medium">
+  <a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a>
+</p>
 
 <!-- webmentions -->
 <section class="c-webmentions">

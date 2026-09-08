@@ -218,6 +218,9 @@
 
     <!-- Schema.org BreadcrumbList -->
     
+    
+    
+    
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -232,8 +235,24 @@
           {
             "@type": "ListItem",
             "position": 2,
+            
+            "name": "Publications",
+            "item": "https://www.nicolasjouanno.com/posts.html"
+          },
+          
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Sans gluten",
+            "item": "https://www.nicolasjouanno.com/nutrition/sans-gluten.html"
+          },
+          
+          {
+            "@type": "ListItem",
+            "position": 4,
             "name": "Sans gluten et sport d'endurance : ce que le vélo pro et la maladie cœliaque m'ont appris",
             "item": "https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html"
+            
           }
         ]
       }
@@ -308,6 +327,9 @@
     <!-- Content
         ================================================== -->
     <main role="main" id="main-content" class="c-layout__content">
+
+
+
 <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
   <ol>
     <li>
@@ -320,9 +342,11 @@
     </li>
 
     
-    <li>
-      <span aria-current="page">Sans gluten et sport d'endurance : ce que le vélo pro et la maladie cœliaque m'ont appris</span>
-    </li>
+    <li><a href="/posts.html">Publications</a></li>
+    
+    <li><a href="/nutrition/sans-gluten.html">Sans gluten</a></li>
+    
+    <li><span aria-current="page">Sans gluten et sport d'endurance : ce que le vélo pro et la maladie cœliaque m'ont appris</span></li>
     
   </ol>
 </nav>
@@ -375,8 +399,7 @@
     <meta
       itemprop="url mainEntityOfPage"
       content="https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html"
-    /><p class="c-post__breadcrumb">
-      <a href="/posts.html">Toutes les publications</a><span aria-hidden="true"> · </span><a href="/nutrition/sans-gluten.html">Sans gluten</a></p>
+    />
   </header>
 
   
@@ -444,6 +467,10 @@
   </ul>
   
 </aside>
+
+<p class="u-spacing--block-start-medium">
+  <a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a>
+</p>
 
 <!-- webmentions -->
 <section class="c-webmentions">
