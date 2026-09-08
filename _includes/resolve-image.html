@@ -2,7 +2,7 @@
 {%- if image_path contains "://" -%}
   {{- image_path -}}
 {%- elsif image_path != "" -%}
-  {%- assign image_path = image_path | replace: "packages/images/src/", "/images/" | replace: "/assets/images/", "/images/" -%}
+  {%- assign image_path = image_path | replace: "images-src/", "/images/" | replace: "/assets/images/", "/images/" -%}
   {%- assign first_character = image_path | slice: 0, 1 -%}
   {%- assign first_directory = image_path | slice: 0, 7 -%}
   {%- if first_directory == "images/" -%}

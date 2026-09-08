@@ -126,9 +126,25 @@ markdown: kramdown
 highlighter: rouge
 future: false
 exclude:
+  - AGENTS.md
   - CHANGELOG.md
+  - CLAUDE.md
+  - LICENSE.md
+  - LICENSE-CODE.md
+  - LICENSE-CONTENT.md
+  - README.md
+  - _templates
+  - configs
+  - docs
   - eslint.config.mjs
+  - images-dist
+  - images-src
+  - node_modules
   - package.json
+  - packages
+  - pnpm-lock.yaml
+  - renovate.json
   - scripts
+  - www
 sass:
   style: compressed

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 
-title: 
+permalink:
+title:
 description:
 ---

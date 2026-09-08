@@ -108,7 +108,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "site/www/pages/results.md",
+            "file": "index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "www/contact.md",
+            "file": "index.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -166,35 +166,18 @@
   },
   "active": "43f03c74abd37ec0",
   "lastOpenFiles": [
-    "www/contact.md",
-    "www/agenda.md",
-    "www/studio/offres/site-applicatif.md",
-    "www/studio/expertises/integrateur-web.md",
-    "www/subscribe/newsletter.md",
-    "www/index.md",
-    "www/results.md",
-    "www/work.md",
-    "www/CHANGELOG.md",
-    "www/subscribe/on-hold.md",
-    "www/subscribe/confirm.md",
-    "www/follow.md",
-    "www/_posts/2025-09-17-Retrouver-le-fil.md",
-    "www/_posts/2025-08-22-paris-web-preview.md",
-    "www/_events/paris-web-2025.md",
-    "www/_events/2025-08-26-meetup-accessibilite.md",
-    "www/manifest.json",
-    "www/about.md",
-    "www/_posts/2017-02-12-entraînement-5-points-pour-progresser-physiquement-en-vtt.md",
-    "www/_posts/2014-08-10-pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.md",
-    "www/_posts/2016-03-30-ou-randonner-vtt-bretagne.md",
-    "www/_posts/2017-02-13-comment-choisir-son-hometrainer-entrainement-vtt.md",
-    "www/_posts/2017-01-21-tout-sur-lenduro-vtt-du-pilote-à-la-checklist-materiel.md",
-    "www/_posts/2017-02-08-test-tige-de-selle-telescopique-rockshox-reverb.md",
-    "www/_posts/2017-02-14-comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.md",
-    "www/_posts/2017-01-29-vtt-pédales-automatiques-ou-pédales-plates-comment-choisir.md",
-    "www/_posts/2017-02-03-comment-choisir-la-taille-de-son-vtt-et-sa-position.md",
-    "www/_drafts",
-    "configs/obsidian/templates",
-    "www/_drafts"
+    "index.md",
+    "agenda.md",
+    "vtt/index.md",
+    "trail/index.md",
+    "nutrition/sans-gluten.md",
+    "projets/index.md",
+    "_posts/2025-09-17-Retrouver-le-fil.md",
+    "_posts/2026-06-09-sans-gluten-sport-endurance-velo-coeliaque.md",
+    "_events/paris-web-2025.md",
+    "_events/2025-08-26-meetup-accessibilite.md",
+    "manifest.json",
+    "_drafts",
+    "_templates/post.md"
   ]
 }

@@ -1,5 +1,14 @@
 _site
 sitemap.html
+.github
+.obsidian
+AGENTS.md
+CLAUDE.md
+LICENSE-CODE.md
+LICENSE-CONTENT.md
+README.md
+docs
+renovate.json
 _posts
 _includes
 _layouts

@@ -1,11 +1,12 @@
 node_modules
 coverage
 dist
+images-dist
 _site
 .sass-cache
 .jekyll-metadata
 .env
 .DS_Store
 .turbo
-www/_includes/icons/
-www/_drafts/
+_includes/icons/
+_drafts/

@@ -30,7 +30,7 @@ jobs:
     - name: Install node dependencies
       run: pnpm install
     - name: Install ruby dependencies
-      run: cd ./www && bundle install && cd ../..
+      run: bundle install
     #- name: Lint
     #  run: pnpm lint
     - name: Build
@@ -39,5 +39,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./www/_site
+        publish_dir: ./_site
         cname: www.nicolasjouanno.com

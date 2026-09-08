@@ -10,34 +10,35 @@ Site personnel de Nicolas Jouanno — portfolio, blog, et mini-apps interactives
 | Styles | SCSS — design system BEM |
 | Linting | ESLint, Stylelint, Prettier |
 | Images | sharp (WebP), svgo |
-| Package manager | pnpm workspaces |
+| Package manager | pnpm |
 | Déploiement | GitHub Actions → GitHub Pages |
 
-## Structure du monorepo
+## Structure
 
 ```
 /
-├── packages/
-│   └── images/          # Pipeline d'optimisation images (JPG/PNG → WebP, SVG → svgo)
-└── www/                 # Site Jekyll
-    ├── _config.yml
-    ├── _data/           # Données YAML (ex: gluten_quiz.yml)
-    ├── _includes/       # Fragments Liquid réutilisables
-    ├── _layouts/        # Layouts de page
-    ├── _posts/          # Articles
-    ├── _sass/           # Design system SCSS
-    │   ├── base/        # Typographie, variables, reset
-    │   ├── components/  # Composants UI (BEM)
-    │   ├── layout/
-    │   ├── plugins/
-    │   └── utils/       # Classes utilitaires
-    ├── apps/            # Mini-apps (HTML + JS vanilla)
-    └── assets/          # JS, images statiques
+├── _config.yml
+├── _data/           # Données YAML (ex: gluten_quiz.yml)
+├── _includes/       # Fragments Liquid réutilisables
+├── _layouts/        # Layouts de page
+├── _posts/          # Articles publiés
+├── _drafts/         # Brouillons locaux, ignorés par Git
+├── _sass/           # Design system SCSS
+│   ├── base/        # Typographie, variables, reset
+│   ├── components/  # Composants UI (BEM)
+│   ├── layout/
+│   ├── plugins/
+│   └── utils/       # Classes utilitaires
+├── _templates/      # Modèles Markdown pour Obsidian
+├── apps/            # Mini-apps (HTML + JS vanilla)
+├── assets/          # JS et styles servis directement
+├── images-src/      # Sources JPG/PNG/SVG éditables
+└── scripts/         # Contrôles et opérations de build
 ```
 
 ## Commandes
 
-Toutes les commandes se lancent depuis `www/` sauf indication contraire.
+Toutes les commandes se lancent depuis la racine du dépôt.
 
 ```bash
 # Build complet
@@ -50,14 +51,13 @@ pnpm dev             # Sert _site/ avec python http.server (port 8000)
 pnpm lint            # ESLint + Stylelint + Prettier (check)
 pnpm lint:fix        # Correction automatique
 
-# Depuis la racine
-pnpm build           # Build packages + www
-pnpm lint            # Lint l'ensemble du monorepo
+# Images uniquement
+pnpm build:images    # WebP + optimisation SVG dans images-dist/
 ```
 
 ## Design system
 
-### Composants (`www/_sass/components/`)
+### Composants (`_sass/components/`)
 
 Nomenclature BEM : `.c-{composant}__element--modifier`
 
@@ -95,7 +95,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 >
 > _Exception volontaire (hors `.c-card`) : `.c-section--{variant}` (bandes pleine largeur, layout edge-to-edge)._
 
-### Utilitaires (`www/_sass/utils/`)
+### Utilitaires (`_sass/utils/`)
 
 | Classe | Effet |
 |---|---|
@@ -119,7 +119,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 
 ### Tokens CSS
 
-Définis dans `www/_sass/_variables.scss` :
+Définis dans `_sass/_variables.scss` :
 
 ```
 --color-primary / --color-primary-with
@@ -137,22 +137,21 @@ Définis dans `www/_sass/_variables.scss` :
 
 Quiz interactif sur les aliments contenant du gluten.
 
-- **Données** : `www/_data/gluten_quiz.yml` — format : `text`, `emoji`, `hasGluten`, `difficulty` (`low`/`medium`/`hard`), `explanation`
-- **Template** : `www/_includes/apps/gluten-quiz-card.html` — carte pré-rendue par Liquid
-- **JS** : `www/assets/apps/gluten-not-gluten/index.js` — style fonctionnel : fonctions pures + effets DOM séparés, état unique immuable
+- **Données** : `_data/gluten_quiz.yml` — format : `text`, `emoji`, `hasGluten`, `difficulty` (`low`/`medium`/`hard`), `explanation`
+- **Template** : `_includes/apps/gluten-quiz-card.html` — carte pré-rendue par Liquid
+- **JS** : `apps/gluten-not-gluten/index.js` — style fonctionnel : fonctions pures + effets DOM séparés, état unique immuable
 
 ## Images
 
-Le pipeline `packages/images` convertit les sources JPG/PNG en WebP et optimise les SVG. Les images optimisées sont copiées dans `www/_site/images/` au build.
+Le pipeline intégré convertit `images-src/` (JPG/PNG) en WebP et optimise les SVG. Les images optimisées sont copiées dans `_site/images/` au build. Dans un article, une pièce jointe ajoutée dans `images-src/posts/` peut être référencée par son nom de fichier ; l'include Liquid résout son URL publique en `/images/posts/…webp`.
 
 ```bash
-# Depuis la racine
-pnpm build:packages   # Rebuild uniquement les images
+pnpm build:images
 ```
 
 ## Déploiement
 
-Push sur `main` → GitHub Actions (`.github/workflows/github-pages.yml`) → build → deploy `www/_site/` sur GitHub Pages → `www.nicolasjouanno.com`
+Push sur `main` → GitHub Actions (`.github/workflows/github-pages.yml`) → build → déploiement de `_site/` sur GitHub Pages → `www.nicolasjouanno.com`
 
 ## License
 

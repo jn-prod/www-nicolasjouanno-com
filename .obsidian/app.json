@@ -2,7 +2,7 @@
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "www/_drafts",
-  "attachmentFolderPath": "packages/images/src/posts",
+  "newFileFolderPath": "_drafts",
+  "attachmentFolderPath": "images-src/posts",
   "propertiesInDocument": "visible"
 }

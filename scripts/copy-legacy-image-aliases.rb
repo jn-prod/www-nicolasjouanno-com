@@ -10,7 +10,7 @@ image_names = %w[
 ]
 
 image_names.each do |image_name|
-  source = File.join("..", "packages", "images", "dist", "posts", image_name)
+  source = File.join("images-dist", "posts", image_name)
   abort "Missing legacy image source: #{source}" unless File.file?(source)
 
   FileUtils.cp(source, File.join("_site", image_name))
