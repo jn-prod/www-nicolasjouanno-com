@@ -1,41 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-     xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Agenda — Nicolas Jouanno</title>
-    <link>https://www.nicolasjouanno.com/agenda/</link>
-    <description>Événements et participations de Nicolas Jouanno</description>
-    <language>fr</language>
-    <atom:link href="https://www.nicolasjouanno.com/events.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Sep 2026 05:59:49 +0000</pubDate>
-    <lastBuildDate>Tue, 08 Sep 2026 05:59:49 +0000</lastBuildDate>
-    <generator>Jekyll v4.4.1</generator>
-
-    
-    
-    <item>
-      <title>Meetup chez LocService / Sujet WebComponents et l’accessibilité</title>
-      <link>https://www.nicolasjouanno.com/events/meetup-accessibilite.html</link>
-      <guid isPermaLink="true">https://www.nicolasjouanno.com/events/meetup-accessibilite.html</guid>
-      <description><![CDATA[
-        📅 26/08/2025 au 26/08/2025<br>
-        📍 Vannes, France<br>
-        Présentation préparatoire à la conférence Paris Web sur l’accessibilité et les Web Components.
-      ]]></description>
-      <pubDate>Tue, 26 Aug 2025 18:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>Paris Web 2025</title>
-      <link>https://www.nicolasjouanno.com/events/paris-web-2025.html</link>
-      <guid isPermaLink="true">https://www.nicolasjouanno.com/events/paris-web-2025.html</guid>
-      <description><![CDATA[
-        📅 25/09/2025 au 26/09/2025<br>
-        📍 Paris, France<br>
-        Conférence Paris Web 2025 sur l’accessibilité et les Web Components.
-      ]]></description>
-      <pubDate>Thu, 25 Sep 2025 09:00:00 +0000</pubDate>
-    </item>
-    
-  </channel>
-</rss>
+<!DOCTYPE html>
+<html lang="en-US">
+  <meta charset="utf-8">
+  <title>Redirecting&hellip;</title>
+  <link rel="canonical" href="https://www.nicolasjouanno.com/me/work/">
+  <script>location="https://www.nicolasjouanno.com/me/work/"</script>
+  <meta http-equiv="refresh" content="0; url=https://www.nicolasjouanno.com/me/work/">
+  <meta name="robots" content="noindex">
+  <h1>Redirecting&hellip;</h1>
+  <a href="https://www.nicolasjouanno.com/me/work/">Click here if you are not redirected.</a>
+</html>

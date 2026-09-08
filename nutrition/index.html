@@ -22,27 +22,19 @@
     <link rel="icon" href="/images/icons/avatar.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/images/icons/icon-180.webp" />
 
-    <!-- PWA -->
-    <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#000000" />
 
     <!-- IndieWeb -->
-    <link rel="webmention" href="https://webmention.io/www.nicolasjouanno.com/webmention" />
     <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
 
     <!-- linked party -->
-    <link rel="me" href="https://dribbble.com/nicolasjouanno" />
     <link rel="me" href="https://www.instagram.com/bynicolasjd/" />
     <link rel="me" href="https://www.threads.com/@bynicolasjd" />
     <link rel="me" href="https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
     <link rel="me" href="https://github.com/jn-prod" />
-    <link rel="me" href="https://medium.com/@nicolasjouanno" />
-    <link rel="me" href="https://fr.pinterest.com/nicolasjouanno/" />
-    <link rel="me" href="https://soundcloud.com/nicolasjouanno" />
     <link rel="me" href="https://www.strava.com/athletes/njouanno" />
     <link rel="me" href="https://substack.com/@bynicolasjd" />
     <link rel="me" href="https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
-    <link rel="me" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
     <link rel="me" href="https://www.youtube.com/@byNicolasJD" />
     <link rel="me" href="mailto:contact@nicolasjouanno.com" />
 
@@ -58,26 +50,6 @@
       type="application/feed+json"
       title="JSON Feed"
       href="/feed.json"
-    />
-
-    <!-- calendar -->
-    <link
-      rel="alternate"
-      type="text/calendar"
-      title="Agenda ICS"
-      href="/agenda.ics"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Agenda RSS"
-      href="/events.xml"
-    />
-    <link
-      rel="alternate"
-      type="application/feed+json"
-      title="Agenda JSON Feed"
-      href="/events.json"
     />
 
     <!-- Fonts (non-bloquant + font-display: swap) -->
@@ -100,7 +72,7 @@
     <link rel="stylesheet" href="/assets/main.css" />
 
     <!-- SEO basique -->
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
     <link
       rel="canonical"
       href="https://www.nicolasjouanno.com/nutrition/"
@@ -130,7 +102,7 @@
 
     <!-- Image Open Graph -->
     
-    <meta property="og:image" content="https://www.nicolasjouanno.com/og/og-default.png" />
+    <meta property="og:image" content="https://www.nicolasjouanno.com/images/og/og-default.png" />
     <meta property="og:image:alt" content="Nicolas Jouanno" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -152,127 +124,21 @@
      
     <meta
       name="twitter:image"
-      content="https://www.nicolasjouanno.com/og/og-default.png"
+      content="https://www.nicolasjouanno.com/images/og/og-default.png"
     />
     <meta name="twitter:image:alt" content="Nutrition sportive & sans gluten" />
     
 
-    <!-- Schema.org JSON-LD -->
+    <!-- Schema.org JSON-LD : une page décrit une page, une publication décrit un article. -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        
-          "name": "Nicolas Jouanno",
-          "alternateName": "Nicolas Jouanno",
-          "url": "https://www.nicolasjouanno.com",
-          "email": "contact@nicolasjouanno.com",
-          
-          "jobTitle": "Auteur outdoor et ancien cycliste professionnel",
-          "knowsAbout": [
-            
-            
-              
-                
-                  
-                  "VTT"
-                  
-                
-                  ,
-                  "Entraînement VTT"
-                  
-                
-                  ,
-                  "Réglages VTT"
-                  
-                
-                  ,
-                  "Randonnées VTT en Bretagne"
-                  
-                
-              
-            
-              
-                
-                  ,
-                  "Trail"
-                  
-                
-                  ,
-                  "Course à pied"
-                  
-                
-                  ,
-                  "Progression"
-                  
-                
-                  ,
-                  "Outdoor"
-                  
-                
-              
-            
-              
-                
-                  ,
-                  "Nutrition d'endurance"
-                  
-                
-                  ,
-                  "Sans gluten"
-                  
-                
-                  ,
-                  "Maladie cœliaque"
-                  
-                
-                  ,
-                  "Ravitaillement sportif"
-                  
-                
-              
-            
-              
-            
-              
-            
-          ],
-          
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Pontivy, Bretagne, France",
-            "addressCountry": "France"
-          },
-          "sameAs": [
-            "https://www.linkedin.com/in/nicolasjouanno/",
-            "https://github.com/jn-prod",
-            "https://x.com/byNicolasJD",
-            "https://fr.wikipedia.org/wiki/Nicolas_Jouanno",
-            "https://www.strava.com/athletes/njouanno",
-            "https://www.instagram.com/bynicolasjd/",
-            "https://www.threads.com/@bynicolasjd",
-            "https://www.youtube.com/@byNicolasJD",
-            "https://substack.com/@bynicolasjd"
-          ]
-        
-      }
+      
+      {"@context":"https://schema.org","@type":"CollectionPage","name":"Nutrition sportive & sans gluten","description":"Ravitaillement d'effort, santé du sportif et alimentation sans gluten — vécu des deux côtés : ancien cycliste pro et parent d'un enfant cœliaque.","url":"https://www.nicolasjouanno.com/nutrition/"}
+      
     </script>
 
     <!-- Schema.org BreadcrumbList -->
     
     
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
     
     <script type="application/ld+json">
@@ -303,7 +169,7 @@
   <!-- body -->
   
   <body
-    class="c-layout c-layout--layout-category"
+    class="c-layout c-layout--layout-tag"
     itemscope
     itemtype="http://schema.org/WebPage"
   >
@@ -369,18 +235,6 @@
     <main role="main" id="main-content" class="c-layout__content">
 
 
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
 
 <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
   <ol>
@@ -400,7 +254,7 @@
     
   </ol>
 </nav>
-  <h1 id="nutrition">Nutrition</h1>
+ <h1 id="nutrition">Nutrition</h1>
 
 <!-- TODO copywriter (D-2026-06-11-001) — chapô de travail ci-dessous -->
 <p>Parent d’un enfant <strong>cœliaque</strong> et ancien cycliste pro, je vis la nutrition des deux côtés : le sans-gluten du quotidien et le ravitaillement d’effort. Des repères concrets, du testé-en-vrai — pas un avis médical.</p>
@@ -431,11 +285,7 @@
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
   
-  
-  
-  
-  
-  <meta itemprop="headline" content="Sans gluten et sport d'endurance : ce que le vélo pro et la maladie cœliaque m'ont appris" />
+  <meta itemprop="headline" content="Sans gluten et sport d’endurance : mon expérience de cycliste et parent" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html" />
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
@@ -453,7 +303,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -473,7 +322,7 @@
 
       <h3 class="u-full u-spacing--0" id="sans-gluten-sport-endurance-velo-coeliaque-title">
         <a class="u-link--dark" href="https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html"
-          >Sans gluten et sport d'endurance : ce que le vélo pro et la maladie cœliaque m'ont appris</a
+          >Sans gluten et sport d’endurance : mon expérience de cycliste et parent</a
         >
       </h3>
       <meta itemprop="url" content="https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html" />
@@ -496,29 +345,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="sans-gluten-sport-endurance-velo-coeliaque-title"
-          href="mailto:?subject=Sans+gluten+et+sport+d%27endurance+%3A+ce+que+le+v%C3%A9lo+pro+et+la+maladie+c%C5%93liaque+m%27ont+appris&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fsans-gluten-sport-endurance-velo-coeliaque.html%0A%0AJ%E2%80%99ai+v%C3%A9cu+deux+rapports+tr%C3%A8s+diff%C3%A9rents+%C3%A0+l%E2%80%99assiette.+Pendant+mes+ann%C3%A9es+de+cycliste+professionnel%2C+tout+tournait+autour+du+carburant+%3A+combien+de+glucides%2C+%C3%A0+quel+moment%2C+pour+tenir+le+watt+sur+la+dur%C3%A9e.+Aujourd%E2%80%99hui%2C+en+tant+que+parent+d%E2%80%99un+enfant+c%C5%93liaque%2C+je+lis+chaque+%C3%A9tiquette+avec+la+m%C3%AAme+rigueur+%E2%80%94+mais+pour+une+autre+raison+%3A+%C3%A9viter+le+moindre+gramme+de+gluten.+Ces+deux+mondes+se+rejoignent+plus+qu%E2%80%99on+ne..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html#disqus_thread"
-          aria-describedby="sans-gluten-sport-endurance-velo-coeliaque-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Life</li>
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -538,11 +371,7 @@
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
   
-  
-  
-  
-  
-  <meta itemprop="headline" content="RE : (Bad) BUZZ et désinformation autour du remboursement de la galette des rois sans gluten" />
+  <meta itemprop="headline" content="Galette sans gluten : ce que rembourse réellement l’Assurance Maladie" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html" />
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
@@ -560,7 +389,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -580,7 +408,7 @@
 
       <h3 class="u-full u-spacing--0" id="buzz-galette-des-rois-sans-gluten-title">
         <a class="u-link--dark" href="https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html"
-          >RE : (Bad) BUZZ et désinformation autour du remboursement de la galette des rois sans gluten</a
+          >Galette sans gluten : ce que rembourse réellement l’Assurance Maladie</a
         >
       </h3>
       <meta itemprop="url" content="https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html" />
@@ -603,27 +431,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="buzz-galette-des-rois-sans-gluten-title"
-          href="mailto:?subject=RE+%3A+%28Bad%29+BUZZ+et+d%C3%A9sinformation+autour+du+remboursement+de+la+galette+des+rois+sans+gluten&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fbuzz-galette-des-rois-sans-gluten.html%0A%0AHier%2C+j%E2%80%99ai+signal%C3%A9%2C+via+les+outils+d%C3%A9di%C3%A9s+des+plateformes%2C+plusieurs+prises+de+parole+que+j%E2%80%99estime+relever+de+la+d%C3%A9sinformation+%3A+une+publication+de+Laurent+Wauquiez%2C+pr%C3%A9sident+du+groupe+Les+R%C3%A9publicains+%C3%A0+l%E2%80%99Assembl%C3%A9e+nationale+une+publication+de+Fran%C3%A7ois+Lenglet%2C+journaliste+sur+RTL+Ces+contenus+ont+aliment%C3%A9+un+v%C3%A9ritable+bad+buzz+autour+de+l%E2%80%99id%C3%A9e+que+la+galette+des+rois+sans+gluten+serait+rembours%C3%A9e+par+la+S%C3%A9curit%C3%A9+sociale.+Ils+cr%C3%A9ent+un+amalgame+entre..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html#disqus_thread"
-          aria-describedby="buzz-galette-des-rois-sans-gluten-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Life</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/recits.html">Récits</a>
+      </li>
       
     </ul>
   </footer>
@@ -641,10 +455,6 @@
     content="2014-04-30T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="headline" content="Nutrition VTT : test des produits énergétiques High5" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/nutrition-vtt-produits-energetiques-high5.html" />
@@ -664,7 +474,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -707,29 +516,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="nutrition-vtt-produits-energetiques-high5-title"
-          href="mailto:?subject=Nutrition+VTT+%3A+test+des+produits+%C3%A9nerg%C3%A9tiques+High5&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fnutrition-vtt-produits-energetiques-high5.html%0A%0A%C3%80+l%E2%80%99approche+des+%C3%A9preuves+que+vous+avez+coch%C3%A9es+sur+votre+calendrier+%E2%80%94+Roc+d%E2%80%99Azur%2C+24+h+VTT%E2%80%A6+%E2%80%94%2C+l%E2%80%99entra%C3%AEnement+est+essentiel+pour+aborder+le+jour+J+sereinement.+Mais+ce+jour-l%C3%A0%2C+il+faudra+aussi+soigner+votre+apport+%C3%A9nerg%C3%A9tique.+Voici+un+test+de+la+gamme+High5%2C+une+nutrition+d%E2%80%99effort+d%C3%A9j%C3%A0+valid%C3%A9e+par+de+grands+champions+comme+C%C3%A9dric+Gracia.+La+gamme+se+compose+de+cinq+familles+%3A+%C3%A9nergie%2C+hydratation%2C+stimulant%2C+r%C3%A9cup%C3%A9ration+et+pack..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/nutrition-vtt-produits-energetiques-high5.html#disqus_thread"
-          aria-describedby="nutrition-vtt-produits-energetiques-high5-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
       
-      <li class="c-tag">#Life</li>
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -747,10 +540,6 @@
     content="2013-12-30T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="headline" content="Santé du sportif et certificat médical : le point avec le médecin" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/sante-du-sportif-certificat-medical-interview.html" />
@@ -770,7 +559,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -813,27 +601,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="sante-du-sportif-certificat-medical-interview-title"
-          href="mailto:?subject=Sant%C3%A9+du+sportif+et+certificat+m%C3%A9dical+%3A+le+point+avec+le+m%C3%A9decin&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fsante-du-sportif-certificat-medical-interview.html%0A%0APlusieurs+d%E2%80%99entre+vous+ont+r%C3%A9pondu+%C3%A0+l%E2%80%99enqu%C3%AAte+sur+les+licences+de+v%C3%A9lo.+Quand+la+moiti%C3%A9+d%E2%80%99entre+vous+sont+non-licenci%C3%A9s+mais+annoncent+vouloir+prendre+une+licence%2C+et+que+la+suppression+de+la+visite+m%C3%A9dicale+pour+la+validation+des+licences+est+r%C3%A9guli%C3%A8rement+%C3%A9voqu%C3%A9e%2C+la+question+du+suivi+m%C3%A9dical+m%C3%A9rite+qu%E2%80%99on+s%E2%80%99y+arr%C3%AAte.+Nous+remercions+le+Dr+Beno%C3%AEt+Tanguy+d%E2%80%99avoir+pris+le+temps+de+r%C3%A9pondre+%C3%A0+quelques+questions+sur+l%E2%80%99int%C3%A9r%C3%AAt%2C+pour+la+sant%C3%A9..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/sante-du-sportif-certificat-medical-interview.html#disqus_thread"
-          aria-describedby="sante-du-sportif-certificat-medical-interview-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/recits.html">Récits</a>
+      </li>
       
     </ul>
   </footer>
@@ -851,10 +625,6 @@
     content="2013-03-21T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="headline" content="Entretenir son corps n'est pas sans risque : les pathologies du sportif" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/prevention-pathologies-du-sportif.html" />
@@ -874,7 +644,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -917,27 +686,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="prevention-pathologies-du-sportif-title"
-          href="mailto:?subject=Entretenir+son+corps+n%27est+pas+sans+risque+%3A+les+pathologies+du+sportif&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fprevention-pathologies-du-sportif.html%0A%0ALes+pathologies+du+sportif%2C+regroup%C3%A9es+par+th%C3%A8mes+Attention+%C3%A0+votre+%C3%A9quilibre+cardio-vasculaire+%3A+chaque+ann%C3%A9e%2C+en+France%2C+l%E2%80%99effort+physique+provoque+le+d%C3%A9c%C3%A8s+brutal+%E2%80%94+la+%C2%AB+mort+subite+%C2%BB+%E2%80%94+de+1+500+sportifs+en+pleine+forme.+Vous+%C3%AAtes+physiquement+malmen%C3%A9+%3A+fractures+de+fatigue%2C+%C3%A9crasement+des+cartilages%2C+usure+des+articulations%2C+hernies+discales%2C+lombalgies%2C+entorses%2C+etc.+Attention+de+ne+pas+tomber+dans+les+exc%C3%A8s+alimentaires+%3A+boulimie%2C+anorexie%2C+malnutrition%E2%80%A6+Informez-vous..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/prevention-pathologies-du-sportif.html#disqus_thread"
-          aria-describedby="prevention-pathologies-du-sportif-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -961,9 +716,6 @@
       </p>
     </footer>
 
-    <!-- JavaScript
-        ================================================== -->
-    <script src="/assets/main.js" async></script>
     <!-- Cloudflare Web Analytics -->
     <script
       defer
@@ -972,10 +724,5 @@
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
-    <!-- disqus (lazy-load via IntersectionObserver) -->
-    
-
-    <!-- webmentions -->
-    
   </body>
 </html>

@@ -22,27 +22,19 @@
     <link rel="icon" href="/images/icons/avatar.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/images/icons/icon-180.webp" />
 
-    <!-- PWA -->
-    <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#000000" />
 
     <!-- IndieWeb -->
-    <link rel="webmention" href="https://webmention.io/www.nicolasjouanno.com/webmention" />
     <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
 
     <!-- linked party -->
-    <link rel="me" href="https://dribbble.com/nicolasjouanno" />
     <link rel="me" href="https://www.instagram.com/bynicolasjd/" />
     <link rel="me" href="https://www.threads.com/@bynicolasjd" />
     <link rel="me" href="https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
     <link rel="me" href="https://github.com/jn-prod" />
-    <link rel="me" href="https://medium.com/@nicolasjouanno" />
-    <link rel="me" href="https://fr.pinterest.com/nicolasjouanno/" />
-    <link rel="me" href="https://soundcloud.com/nicolasjouanno" />
     <link rel="me" href="https://www.strava.com/athletes/njouanno" />
     <link rel="me" href="https://substack.com/@bynicolasjd" />
     <link rel="me" href="https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
-    <link rel="me" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
     <link rel="me" href="https://www.youtube.com/@byNicolasJD" />
     <link rel="me" href="mailto:contact@nicolasjouanno.com" />
 
@@ -58,26 +50,6 @@
       type="application/feed+json"
       title="JSON Feed"
       href="/feed.json"
-    />
-
-    <!-- calendar -->
-    <link
-      rel="alternate"
-      type="text/calendar"
-      title="Agenda ICS"
-      href="/agenda.ics"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Agenda RSS"
-      href="/events.xml"
-    />
-    <link
-      rel="alternate"
-      type="application/feed+json"
-      title="Agenda JSON Feed"
-      href="/events.json"
     />
 
     <!-- Fonts (non-bloquant + font-display: swap) -->
@@ -100,7 +72,7 @@
     <link rel="stylesheet" href="/assets/main.css" />
 
     <!-- SEO basique -->
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
     <link
       rel="canonical"
       href="https://www.nicolasjouanno.com/archive.html"
@@ -130,7 +102,7 @@
 
     <!-- Image Open Graph -->
     
-    <meta property="og:image" content="https://www.nicolasjouanno.com/og/og-default.png" />
+    <meta property="og:image" content="https://www.nicolasjouanno.com/images/og/og-default.png" />
     <meta property="og:image:alt" content="Nicolas Jouanno" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -152,127 +124,21 @@
      
     <meta
       name="twitter:image"
-      content="https://www.nicolasjouanno.com/og/og-default.png"
+      content="https://www.nicolasjouanno.com/images/og/og-default.png"
     />
     <meta name="twitter:image:alt" content="Archive — actualités datées" />
     
 
-    <!-- Schema.org JSON-LD -->
+    <!-- Schema.org JSON-LD : une page décrit une page, une publication décrit un article. -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        
-          "name": "Nicolas Jouanno",
-          "alternateName": "Nicolas Jouanno",
-          "url": "https://www.nicolasjouanno.com",
-          "email": "contact@nicolasjouanno.com",
-          
-          "jobTitle": "Auteur outdoor et ancien cycliste professionnel",
-          "knowsAbout": [
-            
-            
-              
-                
-                  
-                  "VTT"
-                  
-                
-                  ,
-                  "Entraînement VTT"
-                  
-                
-                  ,
-                  "Réglages VTT"
-                  
-                
-                  ,
-                  "Randonnées VTT en Bretagne"
-                  
-                
-              
-            
-              
-                
-                  ,
-                  "Trail"
-                  
-                
-                  ,
-                  "Course à pied"
-                  
-                
-                  ,
-                  "Progression"
-                  
-                
-                  ,
-                  "Outdoor"
-                  
-                
-              
-            
-              
-                
-                  ,
-                  "Nutrition d'endurance"
-                  
-                
-                  ,
-                  "Sans gluten"
-                  
-                
-                  ,
-                  "Maladie cœliaque"
-                  
-                
-                  ,
-                  "Ravitaillement sportif"
-                  
-                
-              
-            
-              
-            
-              
-            
-          ],
-          
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Pontivy, Bretagne, France",
-            "addressCountry": "France"
-          },
-          "sameAs": [
-            "https://www.linkedin.com/in/nicolasjouanno/",
-            "https://github.com/jn-prod",
-            "https://x.com/byNicolasJD",
-            "https://fr.wikipedia.org/wiki/Nicolas_Jouanno",
-            "https://www.strava.com/athletes/njouanno",
-            "https://www.instagram.com/bynicolasjd/",
-            "https://www.threads.com/@bynicolasjd",
-            "https://www.youtube.com/@byNicolasJD",
-            "https://substack.com/@bynicolasjd"
-          ]
-        
-      }
+      
+      {"@context":"https://schema.org","@type":"CollectionPage","name":"Archive — actualités datées","description":"Comptes rendus de Coupe du Monde, mercato et annonces matériel de 2013-2014. Conservés pour mémoire, plus mis à jour.","url":"https://www.nicolasjouanno.com/archive.html"}
+      
     </script>
 
     <!-- Schema.org BreadcrumbList -->
     
     
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
     
     <script type="application/ld+json">
@@ -303,7 +169,7 @@
   <!-- body -->
   
   <body
-    class="c-layout c-layout--layout-page"
+    class="c-layout c-layout--layout-category"
     itemscope
     itemtype="http://schema.org/WebPage"
   >
@@ -369,18 +235,6 @@
     <main role="main" id="main-content" class="c-layout__content">
 
 
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
 
 <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
   <ol>
@@ -400,31 +254,36 @@
     
   </ol>
 </nav>
-  <h1 id="archive">Archive</h1>
+ <h1 id="archive">Archive</h1>
 
 <p>Des actualités de 2013-2014 : Coupes du Monde de descente, mercato, annonces matériel. Je les garde en ligne parce que les liens qui pointent dessus méritent de continuer à fonctionner — mais elles ne représentent plus ce que j’écris. Pour ça : <a href="/posts.html">mes publications actuelles</a>.</p>
+
 
 <h2>Toutes les publications</h2>
 <ul class="u-list c-section__post-list"><li class="c-section__post-item">
 
-<article id="mercato-vtt-mouvements-scott-lapierre" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <meta itemprop="datePublished" content="2014-10-29T00:00:00+00:00" />
+<article
+  id="mercato-vtt-mouvements-scott-lapierre"
+  class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight"
+  itemscope=""
+  itemtype="http://schema.org/BlogPosting"
+>
+  <meta
+    itemprop="datePublished"
+    content="2014-10-29T00:00:00+00:00"
+  />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="headline" content="Mercato VTT : du mouvement chez Scott et Lapierre" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/mercato-vtt-mouvements-scott-lapierre.html" />
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
       <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
-<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+<div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
   <a href="/me/" class="u-link--dark">
     <span itemprop="name">Nicolas Jouanno</span>
   </a>
-  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+  <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
     <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
     <meta itemprop="width" content="60" />
     <meta itemprop="height" content="60" />
@@ -433,7 +292,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -441,7 +299,10 @@
   <div class="c-meta">
     <span>@bynicolasjd</span>
     ·
-    <time itemprop="dateCreated datePublished dateModified" datetime="2014-10-29T00:00:00+00:00">
+    <time
+      itemprop="dateCreated datePublished dateModified"
+      datetime="2014-10-29T00:00:00+00:00"
+    >
       29 October 2014
     </time>
   </div>
@@ -449,7 +310,9 @@
 
 
       <h3 class="u-full u-spacing--0" id="mercato-vtt-mouvements-scott-lapierre-title">
-        <a class="u-link--dark" href="https://www.nicolasjouanno.com/mercato-vtt-mouvements-scott-lapierre.html">Mercato VTT : du mouvement chez Scott et Lapierre</a>
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/mercato-vtt-mouvements-scott-lapierre.html"
+          >Mercato VTT : du mouvement chez Scott et Lapierre</a
+        >
       </h3>
       <meta itemprop="url" content="https://www.nicolasjouanno.com/mercato-vtt-mouvements-scott-lapierre.html" />
     </div>
@@ -462,37 +325,39 @@
   <footer>
     <ul class="u-list c-button-stack">
       <li>
-        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/mercato-vtt-mouvements-scott-lapierre.html" aria-describedby="mercato-vtt-mouvements-scott-lapierre-title">
+        <a
+          class="c-button c-button--primary"
+          href="https://www.nicolasjouanno.com/mercato-vtt-mouvements-scott-lapierre.html"
+          aria-describedby="mercato-vtt-mouvements-scott-lapierre-title"
+        >
           Lire
         </a>
       </li>
 
-      <li>
-        <a class="c-button" aria-describedby="mercato-vtt-mouvements-scott-lapierre-title" href="mailto:?subject=Mercato+VTT+%3A+du+mouvement+chez+Scott+et+Lapierre&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fmercato-vtt-mouvements-scott-lapierre.html%0A%0ALapierre+Gravity+Republic+%3A+Finn+Iles+entre%2C+Blenkinsop+et+Ragot+sortent+La+saison+2015+se+pr%C3%A9pare+pour+le+Team+Lapierre+Gravity+Republic%2C+actuel+n%C2%B01+au+classement+UCI+des+teams.+Lo%C3%AFc+Bruni+et+Loris+Vergier%2C+les+prot%C3%A9g%C3%A9s+de+Laurent+Delorme%2C+forment+l%E2%80%99ossature+de+la+structure+2015%2C+porte-drapeaux+d%E2%80%99une+%C3%A9quipe+r%C3%A9solument+jeune.+L%E2%80%99arriv%C3%A9e+de+Finn+Iles+confirme+cette+confiance+accord%C3%A9e+%C3%A0+la+jeunesse.+Ce+talent+de+tout+juste+15+ans%2C+d%C3%A9couvert+lors...">Partager
-        </a>
-      </li>
-
-      <li>
-        <a class="c-button" href="https://www.nicolasjouanno.com/mercato-vtt-mouvements-scott-lapierre.html#disqus_thread" aria-describedby="mercato-vtt-mouvements-scott-lapierre-title">
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/archive.html">Archive</a>
+      </li>
       
     </ul>
   </footer>
 </article>
 </li><li class="c-section__post-item">
 
-<article id="groupe-shimano-xtr-di2-2015" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <meta itemprop="datePublished" content="2014-09-25T00:00:00+00:00" />
+<article
+  id="groupe-shimano-xtr-di2-2015"
+  class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight"
+  itemscope=""
+  itemtype="http://schema.org/BlogPosting"
+>
+  <meta
+    itemprop="datePublished"
+    content="2014-09-25T00:00:00+00:00"
+  />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/e210f-0cl6rllkmratuqcb6.webp" />
   
@@ -501,11 +366,11 @@
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
       <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
-<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+<div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
   <a href="/me/" class="u-link--dark">
     <span itemprop="name">Nicolas Jouanno</span>
   </a>
-  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+  <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
     <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
     <meta itemprop="width" content="60" />
     <meta itemprop="height" content="60" />
@@ -514,7 +379,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -522,7 +386,10 @@
   <div class="c-meta">
     <span>@bynicolasjd</span>
     ·
-    <time itemprop="dateCreated datePublished dateModified" datetime="2014-09-25T00:00:00+00:00">
+    <time
+      itemprop="dateCreated datePublished dateModified"
+      datetime="2014-09-25T00:00:00+00:00"
+    >
       25 September 2014
     </time>
   </div>
@@ -530,14 +397,21 @@
 
 
       <h3 class="u-full u-spacing--0" id="groupe-shimano-xtr-di2-2015-title">
-        <a class="u-link--dark" href="https://www.nicolasjouanno.com/groupe-shimano-xtr-di2-2015.html">Le groupe Shimano XTR Di2 (M9050) pour 2015</a>
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/groupe-shimano-xtr-di2-2015.html"
+          >Le groupe Shimano XTR Di2 (M9050) pour 2015</a
+        >
       </h3>
       <meta itemprop="url" content="https://www.nicolasjouanno.com/groupe-shimano-xtr-di2-2015.html" />
     </div>
   </header>
 
   
-  <img class="u-img u-img--cover u-img--rounded u-img--banner" src="/images/posts/e210f-0cl6rllkmratuqcb6.webp" alt="Illustration de l'article : Le groupe Shimano XTR Di2 (M9050) pour 2015" loading="lazy" />
+  <img
+    class="u-img u-img--cover u-img--rounded u-img--banner"
+    src="/images/posts/e210f-0cl6rllkmratuqcb6.webp"
+    alt="Le groupe Shimano XTR Di2 (M9050) pour 2015"
+    loading="lazy"
+  />
      
   <p>Présentation du groupe Shimano XTR Di2 2015 Traditionnellement le groupe élitiste de la firme japonaise, le XTR connaît une révolution à l’automne 2014. Découvert sur le VTT de Julien Absalon au départ de la 4ᵉ manche de Coupe du Monde à Albstadt — qu’il franchira en vainqueur, contribuant à son titre final en XCO —, le XTR passe au Di2. Cette appellation Di2 de chez Shimano désigne une transmission électronique...</p>
   
@@ -545,48 +419,50 @@
   <footer>
     <ul class="u-list c-button-stack">
       <li>
-        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/groupe-shimano-xtr-di2-2015.html" aria-describedby="groupe-shimano-xtr-di2-2015-title">
+        <a
+          class="c-button c-button--primary"
+          href="https://www.nicolasjouanno.com/groupe-shimano-xtr-di2-2015.html"
+          aria-describedby="groupe-shimano-xtr-di2-2015-title"
+        >
           Lire
         </a>
       </li>
 
-      <li>
-        <a class="c-button" aria-describedby="groupe-shimano-xtr-di2-2015-title" href="mailto:?subject=Le+groupe+Shimano+XTR+Di2+%28M9050%29+pour+2015&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fgroupe-shimano-xtr-di2-2015.html%0A%0APr%C3%A9sentation+du+groupe+Shimano+XTR+Di2+2015+Traditionnellement+le+groupe+%C3%A9litiste+de+la+firme+japonaise%2C+le+XTR+conna%C3%AEt+une+r%C3%A9volution+%C3%A0+l%E2%80%99automne+2014.+D%C3%A9couvert+sur+le+VTT+de+Julien+Absalon+au+d%C3%A9part+de+la+4%E1%B5%89+manche+de+Coupe+du+Monde+%C3%A0+Albstadt+%E2%80%94+qu%E2%80%99il+franchira+en+vainqueur%2C+contribuant+%C3%A0+son+titre+final+en+XCO+%E2%80%94%2C+le+XTR+passe+au+Di2.+Cette+appellation+Di2+de+chez+Shimano+d%C3%A9signe+une+transmission+%C3%A9lectronique...">Partager
-        </a>
-      </li>
-
-      <li>
-        <a class="c-button" href="https://www.nicolasjouanno.com/groupe-shimano-xtr-di2-2015.html#disqus_thread" aria-describedby="groupe-shimano-xtr-di2-2015-title">
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/archive.html">Archive</a>
+      </li>
       
     </ul>
   </footer>
 </article>
 </li><li class="c-section__post-item">
 
-<article id="megavalanche-2014-conditions-modifications-parcours" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <meta itemprop="datePublished" content="2014-07-11T00:00:00+00:00" />
+<article
+  id="megavalanche-2014-conditions-modifications-parcours"
+  class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight"
+  itemscope=""
+  itemtype="http://schema.org/BlogPosting"
+>
+  <meta
+    itemprop="datePublished"
+    content="2014-07-11T00:00:00+00:00"
+  />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="headline" content="Megavalanche 2014 : des conditions dantesques imposent des modifications" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/megavalanche-2014-conditions-modifications-parcours.html" />
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
       <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
-<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+<div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
   <a href="/me/" class="u-link--dark">
     <span itemprop="name">Nicolas Jouanno</span>
   </a>
-  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+  <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
     <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
     <meta itemprop="width" content="60" />
     <meta itemprop="height" content="60" />
@@ -595,7 +471,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -603,7 +478,10 @@
   <div class="c-meta">
     <span>@bynicolasjd</span>
     ·
-    <time itemprop="dateCreated datePublished dateModified" datetime="2014-07-11T00:00:00+00:00">
+    <time
+      itemprop="dateCreated datePublished dateModified"
+      datetime="2014-07-11T00:00:00+00:00"
+    >
       11 July 2014
     </time>
   </div>
@@ -611,7 +489,9 @@
 
 
       <h3 class="u-full u-spacing--0" id="megavalanche-2014-conditions-modifications-parcours-title">
-        <a class="u-link--dark" href="https://www.nicolasjouanno.com/megavalanche-2014-conditions-modifications-parcours.html">Megavalanche 2014 : des conditions dantesques imposent des modifications</a>
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/megavalanche-2014-conditions-modifications-parcours.html"
+          >Megavalanche 2014 : des conditions dantesques imposent des modifications</a
+        >
       </h3>
       <meta itemprop="url" content="https://www.nicolasjouanno.com/megavalanche-2014-conditions-modifications-parcours.html" />
     </div>
@@ -624,48 +504,50 @@
   <footer>
     <ul class="u-list c-button-stack">
       <li>
-        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/megavalanche-2014-conditions-modifications-parcours.html" aria-describedby="megavalanche-2014-conditions-modifications-parcours-title">
+        <a
+          class="c-button c-button--primary"
+          href="https://www.nicolasjouanno.com/megavalanche-2014-conditions-modifications-parcours.html"
+          aria-describedby="megavalanche-2014-conditions-modifications-parcours-title"
+        >
           Lire
         </a>
       </li>
 
-      <li>
-        <a class="c-button" aria-describedby="megavalanche-2014-conditions-modifications-parcours-title" href="mailto:?subject=Megavalanche+2014+%3A+des+conditions+dantesques+imposent+des+modifications&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fmegavalanche-2014-conditions-modifications-parcours.html%0A%0ACommuniqu%C3%A9+de+la+direction+de+course+de+la+Mega+2014.+Que+les+inquiets+et+ceux+qui+ne+sont+pas+sur+place+se+rassurent+%3A+toutes+les+dispositions+ont+%C3%A9t%C3%A9+prises+pour+rem%C3%A9dier+%C3%A0+la+situation+particuli%C3%A8rement+humide+et+froide+qui+r%C3%A8gne+sur+le+massif+des+Grandes+Rousses+et+sur+tout+le+massif+alpin.+Les+pr%C3%A9visions+m%C3%A9t%C3%A9o+pour+vendredi+%28journ%C3%A9e+de+qualifications%29+sont+favorables.+Cependant%2C+afin+de+minimiser+le+temps+d%E2%80%99attente...">Partager
-        </a>
-      </li>
-
-      <li>
-        <a class="c-button" href="https://www.nicolasjouanno.com/megavalanche-2014-conditions-modifications-parcours.html#disqus_thread" aria-describedby="megavalanche-2014-conditions-modifications-parcours-title">
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/archive.html">Archive</a>
+      </li>
       
     </ul>
   </footer>
 </article>
 </li><li class="c-section__post-item">
 
-<article id="megavalanche-reunion-2013-presentation" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <meta itemprop="datePublished" content="2013-11-29T00:00:00+00:00" />
+<article
+  id="megavalanche-reunion-2013-presentation"
+  class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight"
+  itemscope=""
+  itemtype="http://schema.org/BlogPosting"
+>
+  <meta
+    itemprop="datePublished"
+    content="2013-11-29T00:00:00+00:00"
+  />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="headline" content="Megavalanche de la Réunion 2013 : la présentation" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/megavalanche-reunion-2013-presentation.html" />
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
       <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
-<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+<div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
   <a href="/me/" class="u-link--dark">
     <span itemprop="name">Nicolas Jouanno</span>
   </a>
-  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+  <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
     <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
     <meta itemprop="width" content="60" />
     <meta itemprop="height" content="60" />
@@ -674,7 +556,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -682,7 +563,10 @@
   <div class="c-meta">
     <span>@bynicolasjd</span>
     ·
-    <time itemprop="dateCreated datePublished dateModified" datetime="2013-11-29T00:00:00+00:00">
+    <time
+      itemprop="dateCreated datePublished dateModified"
+      datetime="2013-11-29T00:00:00+00:00"
+    >
       29 November 2013
     </time>
   </div>
@@ -690,7 +574,9 @@
 
 
       <h3 class="u-full u-spacing--0" id="megavalanche-reunion-2013-presentation-title">
-        <a class="u-link--dark" href="https://www.nicolasjouanno.com/megavalanche-reunion-2013-presentation.html">Megavalanche de la Réunion 2013 : la présentation</a>
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/megavalanche-reunion-2013-presentation.html"
+          >Megavalanche de la Réunion 2013 : la présentation</a
+        >
       </h3>
       <meta itemprop="url" content="https://www.nicolasjouanno.com/megavalanche-reunion-2013-presentation.html" />
     </div>
@@ -703,48 +589,50 @@
   <footer>
     <ul class="u-list c-button-stack">
       <li>
-        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/megavalanche-reunion-2013-presentation.html" aria-describedby="megavalanche-reunion-2013-presentation-title">
+        <a
+          class="c-button c-button--primary"
+          href="https://www.nicolasjouanno.com/megavalanche-reunion-2013-presentation.html"
+          aria-describedby="megavalanche-reunion-2013-presentation-title"
+        >
           Lire
         </a>
       </li>
 
-      <li>
-        <a class="c-button" aria-describedby="megavalanche-reunion-2013-presentation-title" href="mailto:?subject=Megavalanche+de+la+R%C3%A9union+2013+%3A+la+pr%C3%A9sentation&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fmegavalanche-reunion-2013-presentation.html%0A%0A%C3%80+24+h+du+lancement+des+hostilit%C3%A9s+sur+les+pentes+de+Saint-Paul%2C+sur+l%E2%80%99%C3%AEle+de+la+R%C3%A9union%2C+des+centaines+de+riders+inconditionnels+se+pr%C3%A9parent+pour+la+19%E1%B5%89+%C3%A9dition+de+cette+%C3%A9preuve+mythique.+Un+plateau+de+premier+ordre+cl%C3%B4turera+la+saison+VTT+2013+dans+un+cadre+de+r%C3%AAve%2C+entre+plages%2C+volcans+et+montagnes.+Au+programme+Samedi+%3A+rallye+enduro+%E2%80%94+du+Ma%C3%AFdo+jusqu%E2%80%99%C3%A0+la+plage+des+Brisants+%C3%A0+Saint-Gilles%2C+ponctu%C3%A9+de...">Partager
-        </a>
-      </li>
-
-      <li>
-        <a class="c-button" href="https://www.nicolasjouanno.com/megavalanche-reunion-2013-presentation.html#disqus_thread" aria-describedby="megavalanche-reunion-2013-presentation-title">
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/archive.html">Archive</a>
+      </li>
       
     </ul>
   </footer>
 </article>
 </li><li class="c-section__post-item">
 
-<article id="analyse-pilotage-materiel-coupe-monde-dh-leogang" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <meta itemprop="datePublished" content="2013-10-09T00:00:00+00:00" />
+<article
+  id="analyse-pilotage-materiel-coupe-monde-dh-leogang"
+  class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight"
+  itemscope=""
+  itemtype="http://schema.org/BlogPosting"
+>
+  <meta
+    itemprop="datePublished"
+    content="2013-10-09T00:00:00+00:00"
+  />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="headline" content="Analyse : pilotage et matériel des pilotes à la Coupe du Monde de DH de Léogang" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/analyse-pilotage-materiel-coupe-monde-dh-leogang.html" />
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
       <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
-<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+<div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
   <a href="/me/" class="u-link--dark">
     <span itemprop="name">Nicolas Jouanno</span>
   </a>
-  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+  <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
     <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
     <meta itemprop="width" content="60" />
     <meta itemprop="height" content="60" />
@@ -753,7 +641,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -761,7 +648,10 @@
   <div class="c-meta">
     <span>@bynicolasjd</span>
     ·
-    <time itemprop="dateCreated datePublished dateModified" datetime="2013-10-09T00:00:00+00:00">
+    <time
+      itemprop="dateCreated datePublished dateModified"
+      datetime="2013-10-09T00:00:00+00:00"
+    >
       09 October 2013
     </time>
   </div>
@@ -769,7 +659,9 @@
 
 
       <h3 class="u-full u-spacing--0" id="analyse-pilotage-materiel-coupe-monde-dh-leogang-title">
-        <a class="u-link--dark" href="https://www.nicolasjouanno.com/analyse-pilotage-materiel-coupe-monde-dh-leogang.html">Analyse : pilotage et matériel des pilotes à la Coupe du Monde de DH de Léogang</a>
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/analyse-pilotage-materiel-coupe-monde-dh-leogang.html"
+          >Analyse : pilotage et matériel des pilotes à la Coupe du Monde de DH de Léogang</a
+        >
       </h3>
       <meta itemprop="url" content="https://www.nicolasjouanno.com/analyse-pilotage-materiel-coupe-monde-dh-leogang.html" />
     </div>
@@ -782,37 +674,39 @@
   <footer>
     <ul class="u-list c-button-stack">
       <li>
-        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/analyse-pilotage-materiel-coupe-monde-dh-leogang.html" aria-describedby="analyse-pilotage-materiel-coupe-monde-dh-leogang-title">
+        <a
+          class="c-button c-button--primary"
+          href="https://www.nicolasjouanno.com/analyse-pilotage-materiel-coupe-monde-dh-leogang.html"
+          aria-describedby="analyse-pilotage-materiel-coupe-monde-dh-leogang-title"
+        >
           Lire
         </a>
       </li>
 
-      <li>
-        <a class="c-button" aria-describedby="analyse-pilotage-materiel-coupe-monde-dh-leogang-title" href="mailto:?subject=Analyse+%3A+pilotage+et+mat%C3%A9riel+des+pilotes+%C3%A0+la+Coupe+du+Monde+de+DH+de+L%C3%A9ogang&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fanalyse-pilotage-materiel-coupe-monde-dh-leogang.html%0A%0AMarrocco+M%C3%A9dias+a+s%C3%A9journ%C3%A9+%C3%A0+L%C3%A9ogang%2C+en+Autriche%2C+pour+la+finale+de+la+Coupe+du+Monde+de+DH+UCI+2013+%3A+ils+ont+aid%C3%A9+le+team+Norco+Dirt+en+leur+fournissant+un+support+d%E2%80%99analyse+vid%C3%A9o+tout+au+long+du+week-end.+L%E2%80%99analyse+vid%C3%A9o+en+VTT+permet+aux+coureurs+de+juger+les+choix+de+trajectoires%2C+la+technique+du+pilote+et+la+configuration+du+v%C3%A9lo.+Ils+peuvent+comparer+diff%C3%A9rentes+trajectoires+sur+une+section...">Partager
-        </a>
-      </li>
-
-      <li>
-        <a class="c-button" href="https://www.nicolasjouanno.com/analyse-pilotage-materiel-coupe-monde-dh-leogang.html#disqus_thread" aria-describedby="analyse-pilotage-materiel-coupe-monde-dh-leogang-title">
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/archive.html">Archive</a>
+      </li>
       
     </ul>
   </footer>
 </article>
 </li><li class="c-section__post-item">
 
-<article id="configuration-yeti-sb66c-jared-graves-mondial-dh" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <meta itemprop="datePublished" content="2013-09-04T00:00:00+00:00" />
+<article
+  id="configuration-yeti-sb66c-jared-graves-mondial-dh"
+  class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight"
+  itemscope=""
+  itemtype="http://schema.org/BlogPosting"
+>
+  <meta
+    itemprop="datePublished"
+    content="2013-09-04T00:00:00+00:00"
+  />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/5022a-0k5y25fuce70omq-h.webp" />
   
@@ -821,11 +715,11 @@
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
       <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
-<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+<div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
   <a href="/me/" class="u-link--dark">
     <span itemprop="name">Nicolas Jouanno</span>
   </a>
-  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+  <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
     <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
     <meta itemprop="width" content="60" />
     <meta itemprop="height" content="60" />
@@ -834,7 +728,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -842,7 +735,10 @@
   <div class="c-meta">
     <span>@bynicolasjd</span>
     ·
-    <time itemprop="dateCreated datePublished dateModified" datetime="2013-09-04T00:00:00+00:00">
+    <time
+      itemprop="dateCreated datePublished dateModified"
+      datetime="2013-09-04T00:00:00+00:00"
+    >
       04 September 2013
     </time>
   </div>
@@ -850,14 +746,21 @@
 
 
       <h3 class="u-full u-spacing--0" id="configuration-yeti-sb66c-jared-graves-mondial-dh-title">
-        <a class="u-link--dark" href="https://www.nicolasjouanno.com/configuration-yeti-sb66c-jared-graves-mondial-dh.html">La configuration du Yeti SB66C de Jared Graves au Mondial de DH 2013</a>
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/configuration-yeti-sb66c-jared-graves-mondial-dh.html"
+          >La configuration du Yeti SB66C de Jared Graves au Mondial de DH 2013</a
+        >
       </h3>
       <meta itemprop="url" content="https://www.nicolasjouanno.com/configuration-yeti-sb66c-jared-graves-mondial-dh.html" />
     </div>
   </header>
 
   
-  <img class="u-img u-img--cover u-img--rounded u-img--banner" src="/images/posts/5022a-0k5y25fuce70omq-h.webp" alt="Illustration de l'article : La configuration du Yeti SB66C de Jared Graves au Mondial de DH 2013" loading="lazy" />
+  <img
+    class="u-img u-img--cover u-img--rounded u-img--banner"
+    src="/images/posts/5022a-0k5y25fuce70omq-h.webp"
+    alt="La configuration du Yeti SB66C de Jared Graves au Mondial de DH 2013"
+    loading="lazy"
+  />
      
   <p>Crédit photo : page Facebook Yeti Cycles. Jared Graves au Mondial de DH 2013 avec son Yeti SB66C d’enduro Voilà une annonce qui avait déjà fait parler d’elle : avant le championnat du monde de DH 2013 de Pietermaritzburg, Jared Graves déclarait qu’il roulerait avec son VTT d’enduro, le Yeti SB66C. Résultat à l’arrivée : une 3ᵉ place et la médaille de bronze. Nous étions déjà heureux de le voir...</p>
   
@@ -865,48 +768,50 @@
   <footer>
     <ul class="u-list c-button-stack">
       <li>
-        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/configuration-yeti-sb66c-jared-graves-mondial-dh.html" aria-describedby="configuration-yeti-sb66c-jared-graves-mondial-dh-title">
+        <a
+          class="c-button c-button--primary"
+          href="https://www.nicolasjouanno.com/configuration-yeti-sb66c-jared-graves-mondial-dh.html"
+          aria-describedby="configuration-yeti-sb66c-jared-graves-mondial-dh-title"
+        >
           Lire
         </a>
       </li>
 
-      <li>
-        <a class="c-button" aria-describedby="configuration-yeti-sb66c-jared-graves-mondial-dh-title" href="mailto:?subject=La+configuration+du+Yeti+SB66C+de+Jared+Graves+au+Mondial+de+DH+2013&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fconfiguration-yeti-sb66c-jared-graves-mondial-dh.html%0A%0ACr%C3%A9dit+photo+%3A+page+Facebook+Yeti+Cycles.+Jared+Graves+au+Mondial+de+DH+2013+avec+son+Yeti+SB66C+d%E2%80%99enduro+Voil%C3%A0+une+annonce+qui+avait+d%C3%A9j%C3%A0+fait+parler+d%E2%80%99elle+%3A+avant+le+championnat+du+monde+de+DH+2013+de+Pietermaritzburg%2C+Jared+Graves+d%C3%A9clarait+qu%E2%80%99il+roulerait+avec+son+VTT+d%E2%80%99enduro%2C+le+Yeti+SB66C.+R%C3%A9sultat+%C3%A0+l%E2%80%99arriv%C3%A9e+%3A+une+3%E1%B5%89+place+et+la+m%C3%A9daille+de+bronze.+Nous+%C3%A9tions+d%C3%A9j%C3%A0+heureux+de+le+voir...">Partager
-        </a>
-      </li>
-
-      <li>
-        <a class="c-button" href="https://www.nicolasjouanno.com/configuration-yeti-sb66c-jared-graves-mondial-dh.html#disqus_thread" aria-describedby="configuration-yeti-sb66c-jared-graves-mondial-dh-title">
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/archive.html">Archive</a>
+      </li>
       
     </ul>
   </footer>
 </article>
 </li><li class="c-section__post-item">
 
-<article id="analyse-suspensions-remi-thirion-bos-vallnord" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <meta itemprop="datePublished" content="2013-07-29T00:00:00+00:00" />
+<article
+  id="analyse-suspensions-remi-thirion-bos-vallnord"
+  class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight"
+  itemscope=""
+  itemtype="http://schema.org/BlogPosting"
+>
+  <meta
+    itemprop="datePublished"
+    content="2013-07-29T00:00:00+00:00"
+  />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="headline" content="Analyse : les suspensions de Rémi Thirion à la Coupe du Monde de DH de Vallnord" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/analyse-suspensions-remi-thirion-bos-vallnord.html" />
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
       <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
-<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+<div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
   <a href="/me/" class="u-link--dark">
     <span itemprop="name">Nicolas Jouanno</span>
   </a>
-  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+  <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
     <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
     <meta itemprop="width" content="60" />
     <meta itemprop="height" content="60" />
@@ -915,7 +820,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -923,7 +827,10 @@
   <div class="c-meta">
     <span>@bynicolasjd</span>
     ·
-    <time itemprop="dateCreated datePublished dateModified" datetime="2013-07-29T00:00:00+00:00">
+    <time
+      itemprop="dateCreated datePublished dateModified"
+      datetime="2013-07-29T00:00:00+00:00"
+    >
       29 July 2013
     </time>
   </div>
@@ -931,7 +838,9 @@
 
 
       <h3 class="u-full u-spacing--0" id="analyse-suspensions-remi-thirion-bos-vallnord-title">
-        <a class="u-link--dark" href="https://www.nicolasjouanno.com/analyse-suspensions-remi-thirion-bos-vallnord.html">Analyse : les suspensions de Rémi Thirion à la Coupe du Monde de DH de Vallnord</a>
+        <a class="u-link--dark" href="https://www.nicolasjouanno.com/analyse-suspensions-remi-thirion-bos-vallnord.html"
+          >Analyse : les suspensions de Rémi Thirion à la Coupe du Monde de DH de Vallnord</a
+        >
       </h3>
       <meta itemprop="url" content="https://www.nicolasjouanno.com/analyse-suspensions-remi-thirion-bos-vallnord.html" />
     </div>
@@ -944,24 +853,22 @@
   <footer>
     <ul class="u-list c-button-stack">
       <li>
-        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/analyse-suspensions-remi-thirion-bos-vallnord.html" aria-describedby="analyse-suspensions-remi-thirion-bos-vallnord-title">
+        <a
+          class="c-button c-button--primary"
+          href="https://www.nicolasjouanno.com/analyse-suspensions-remi-thirion-bos-vallnord.html"
+          aria-describedby="analyse-suspensions-remi-thirion-bos-vallnord-title"
+        >
           Lire
         </a>
       </li>
 
-      <li>
-        <a class="c-button" aria-describedby="analyse-suspensions-remi-thirion-bos-vallnord-title" href="mailto:?subject=Analyse+%3A+les+suspensions+de+R%C3%A9mi+Thirion+%C3%A0+la+Coupe+du+Monde+de+DH+de+Vallnord&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fanalyse-suspensions-remi-thirion-bos-vallnord.html%0A%0ASur+la+Coupe+du+Monde+de+DH+de+Vallnord%2C+en+Andorre%2C+R%C3%A9mi+Thirion+%28Commen%C3%A7al%29+%E2%80%94+avant+de+remporter+l%E2%80%99%C3%A9preuve+devant+%C2%AB+l%E2%80%99homme+%C3%A0+battre+%C2%BB+de+la+saison%2C+Gee+Atherton+%28GT+Bicycles%29+%E2%80%94+avait+d%C3%A9j%C3%A0+commenc%C3%A9+%C3%A0+faire+parler+de+lui+aux+qualifs.+Avec+une+grosse+quantit%C3%A9+de+capteurs+pr%C3%A9sents+sur+son+VTT%2C+digne+d%E2%80%99un+v%C3%A9lo+de+la+NASA%2C+tout+le+paddock+se+demandait+%3A+%C3%A0+quoi+cela+pouvait-il+bien...">Partager
-        </a>
-      </li>
-
-      <li>
-        <a class="c-button" href="https://www.nicolasjouanno.com/analyse-suspensions-remi-thirion-bos-vallnord.html#disqus_thread" aria-describedby="analyse-suspensions-remi-thirion-bos-vallnord-title">
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/archive.html">Archive</a>
+      </li>
       
     </ul>
   </footer>
@@ -985,9 +892,6 @@
       </p>
     </footer>
 
-    <!-- JavaScript
-        ================================================== -->
-    <script src="/assets/main.js" async></script>
     <!-- Cloudflare Web Analytics -->
     <script
       defer
@@ -996,10 +900,5 @@
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
-    <!-- disqus (lazy-load via IntersectionObserver) -->
-    
-
-    <!-- webmentions -->
-    
   </body>
 </html>

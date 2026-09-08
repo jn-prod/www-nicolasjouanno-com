@@ -22,27 +22,19 @@
     <link rel="icon" href="/images/icons/avatar.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/images/icons/icon-180.webp" />
 
-    <!-- PWA -->
-    <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#000000" />
 
     <!-- IndieWeb -->
-    <link rel="webmention" href="https://webmention.io/www.nicolasjouanno.com/webmention" />
     <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
 
     <!-- linked party -->
-    <link rel="me" href="https://dribbble.com/nicolasjouanno" />
     <link rel="me" href="https://www.instagram.com/bynicolasjd/" />
     <link rel="me" href="https://www.threads.com/@bynicolasjd" />
     <link rel="me" href="https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
     <link rel="me" href="https://github.com/jn-prod" />
-    <link rel="me" href="https://medium.com/@nicolasjouanno" />
-    <link rel="me" href="https://fr.pinterest.com/nicolasjouanno/" />
-    <link rel="me" href="https://soundcloud.com/nicolasjouanno" />
     <link rel="me" href="https://www.strava.com/athletes/njouanno" />
     <link rel="me" href="https://substack.com/@bynicolasjd" />
     <link rel="me" href="https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
-    <link rel="me" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
     <link rel="me" href="https://www.youtube.com/@byNicolasJD" />
     <link rel="me" href="mailto:contact@nicolasjouanno.com" />
 
@@ -58,26 +50,6 @@
       type="application/feed+json"
       title="JSON Feed"
       href="/feed.json"
-    />
-
-    <!-- calendar -->
-    <link
-      rel="alternate"
-      type="text/calendar"
-      title="Agenda ICS"
-      href="/agenda.ics"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Agenda RSS"
-      href="/events.xml"
-    />
-    <link
-      rel="alternate"
-      type="application/feed+json"
-      title="Agenda JSON Feed"
-      href="/events.json"
     />
 
     <!-- Fonts (non-bloquant + font-display: swap) -->
@@ -100,7 +72,7 @@
     <link rel="stylesheet" href="/assets/main.css" />
 
     <!-- SEO basique -->
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
     <link
       rel="canonical"
       href="https://www.nicolasjouanno.com/me/work/"
@@ -130,7 +102,7 @@
 
     <!-- Image Open Graph -->
     
-    <meta property="og:image" content="https://www.nicolasjouanno.com/og/og-default.png" />
+    <meta property="og:image" content="https://www.nicolasjouanno.com/images/og/og-default.png" />
     <meta property="og:image:alt" content="Nicolas Jouanno" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -152,70 +124,21 @@
      
     <meta
       name="twitter:image"
-      content="https://www.nicolasjouanno.com/og/og-default.png"
+      content="https://www.nicolasjouanno.com/images/og/og-default.png"
     />
     <meta name="twitter:image:alt" content="Lead développeur frontend — design system & RGAA | N. Jouanno" />
     
 
-    <!-- Schema.org JSON-LD -->
+    <!-- Schema.org JSON-LD : une page décrit une page, une publication décrit un article. -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        
-          "name": "Nicolas Jouanno",
-          "alternateName": "Nicolas Jouanno",
-          "url": "https://www.nicolasjouanno.com",
-          "email": "contact@nicolasjouanno.com",
-          
-          "jobTitle": "Lead développeur frontend",
-          "worksFor": {
-            "@type": "Organization",
-            "name": "MGDIS"
-          },
-          "knowsAbout": [
-            "Design system",
-            "Web Components",
-            "StencilJS",
-            "Accessibilité RGAA",
-            "Systèmes agentiques"
-          ],
-          
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Pontivy, Bretagne, France",
-            "addressCountry": "France"
-          },
-          "sameAs": [
-            "https://www.linkedin.com/in/nicolasjouanno/",
-            "https://github.com/jn-prod",
-            "https://x.com/byNicolasJD",
-            "https://fr.wikipedia.org/wiki/Nicolas_Jouanno",
-            "https://www.strava.com/athletes/njouanno",
-            "https://www.instagram.com/bynicolasjd/",
-            "https://www.threads.com/@bynicolasjd",
-            "https://www.youtube.com/@byNicolasJD",
-            "https://substack.com/@bynicolasjd"
-          ]
-        
-      }
+      
+      {"@context":"https://schema.org","@type":"WebPage","name":"Lead développeur frontend — design system & RGAA | N. Jouanno","description":"Lead frontend du design system MGDIS : Web Components StencilJS, accessibilité RGAA, frontend à l'échelle. Orateur Paris-Web 2025. En side project, je construis feezify, un copilote d'entraînement IA-native.","url":"https://www.nicolasjouanno.com/me/work/"}
+      
     </script>
 
     <!-- Schema.org BreadcrumbList -->
     
     
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
     
     <script type="application/ld+json">
@@ -312,18 +235,6 @@
     <main role="main" id="main-content" class="c-layout__content">
 
 
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
 
 <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
   <ol>
@@ -343,40 +254,6 @@
     
   </ol>
 </nav>
- 
-<ul class="u-list u-flex">
-  
-
-  <li>
-    <i class="c-icon c-icon--js c-icon--x3 "></i>
-  </li>
-
-  
-
-  <li>
-    <i class="c-icon c-icon--ts c-icon--x3 "></i>
-  </li>
-
-  
-
-  <li>
-    <i class="c-icon c-icon--vuejs c-icon--x3 "></i>
-  </li>
-
-  
-
-  <li>
-    <i class="c-icon c-icon--sass c-icon--x3 "></i>
-  </li>
-
-  
-
-  <li>
-    <i class="c-icon c-icon--stencil c-icon--x3 "></i>
-  </li>
-
-  
-</ul>
  <h1>Lead développeur frontend — design system &amp; accessibilité RGAA</h1>
 
 <p>Aujourd’hui, je suis Lead développeur frontend dans la core team de <a href="https://github.com/MGDIS">MGDIS</a> : ma mission principale est le développement et le maintien du design system. Mon quotidien : des <strong>Web Components</strong> (StencilJS), l’<strong>accessibilité RGAA</strong> comme exigence non négociable, et l’industrialisation du frontend à l’échelle. J’applique la vision de l’architecte frontend et j’accompagne les équipes qui l’implémentent. J’en ai parlé sur scène à <a href="/me/work/paris-web-2025.html">Paris-Web 2025</a>.</p>
@@ -433,7 +310,7 @@
     </div>
   </li>
   <li class="u-spacing--block-end-medium">
-    <p><time datetime="2008">2008</time>–<time datetime="2010">2010</time> — J'ai été <a href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno">cycliste professionnel</a> chez Bretagne Schuller : cinq championnats de France, des courses 2.1 et 2.2. Une blessure, en 2010, m'a mis hors course — et m'a ouvert la porte du numérique. <a href="/me/results.html">Palmarès →</a></p>
+    <p><time datetime="2008">2008</time>–<time datetime="2010">2010</time> — J'ai été <a href="">cycliste professionnel</a> chez Bretagne Schuller : cinq championnats de France, des courses 2.1 et 2.2. Une blessure, en 2010, m'a mis hors course — et m'a ouvert la porte du numérique. <a href="/me/results.html">Palmarès →</a></p>
   </li>
   <li class="u-spacing--block-end-medium">
     <p><time datetime="2007">2007</time>–<time datetime="2008">2008</time> — J'ai commencé comme vendeur chez Twinner Sport, ma première expérience professionnelle, avant de basculer côté web.</p>
@@ -456,86 +333,7 @@
 <h2 id="articles-tech--ia">Articles tech &amp; IA</h2>
 
 <h2>Toutes les publications</h2>
-<ul class="u-list c-section__post-list"><li class="c-section__post-item">
-
-<article id="jai-tue-mon-saas-reconstruit-en-agent-ia" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <meta itemprop="datePublished" content="2026-07-10T00:00:00+00:00" />
-  <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
-  
-  <meta itemprop="headline" content="J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA." />
-  <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html" />
-  <header class="u-flex u-flex--between">
-    <div class="u-flex u-flex--tight">
-      <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
-<div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-  <a href="/me/" class="u-link--dark">
-    <span itemprop="name">Nicolas Jouanno</span>
-  </a>
-  <span itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
-    <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
-    <meta itemprop="width" content="60" />
-    <meta itemprop="height" content="60" />
-  </span>
-  <meta itemprop="url" content="https://www.nicolasjouanno.com" />
-  <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
-  <link itemprop="sameAs" href="https://github.com/jn-prod" />
-  <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
-  <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
-  <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
-  <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
-  <link itemprop="sameAs" href="https://www.youtube.com/@byNicolasJD" />
-  <div class="c-meta">
-    <span>@bynicolasjd</span>
-    ·
-    <time itemprop="dateCreated datePublished dateModified" datetime="2026-07-10T00:00:00+00:00">
-      10 July 2026
-    </time>
-  </div>
-</div>
-
-
-      <h3 class="u-full u-spacing--0" id="jai-tue-mon-saas-reconstruit-en-agent-ia-title">
-        <a class="u-link--dark" href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html">J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA.</a>
-      </h3>
-      <meta itemprop="url" content="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html" />
-    </div>
-  </header>
-
-     
-  <p>On commence à appeler ça le SaaSpocalypse. L’idée est simple : pendant quinze ans, on a vendu du logiciel au siège et à l’abonnement. Une app par problème, un serveur, une base, un compte, un paiement mensuel. L’IA fait fondre ce modèle — littéralement : en février 2026, environ 285 milliards de dollars se sont évaporés des valeurs SaaS en quarante-huit heures (The SaaS CFO ; The Paypers). Le diagnostic...</p>
-  
-
-  <footer>
-    <ul class="u-list c-button-stack">
-      <li>
-        <a class="c-button c-button--primary" href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html" aria-describedby="jai-tue-mon-saas-reconstruit-en-agent-ia-title">
-          Lire
-        </a>
-      </li>
-
-      <li>
-        <a class="c-button" aria-describedby="jai-tue-mon-saas-reconstruit-en-agent-ia-title" href="mailto:?subject=J%27ai+tu%C3%A9+mon+SaaS.+Je+l%27ai+reconstruit+comme+agent+IA.&amp;body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fjai-tue-mon-saas-reconstruit-en-agent-ia.html%0A%0AOn+commence+%C3%A0+appeler+%C3%A7a+le+SaaSpocalypse.+L%E2%80%99id%C3%A9e+est+simple+%3A+pendant+quinze+ans%2C+on+a+vendu+du+logiciel+au+si%C3%A8ge+et+%C3%A0+l%E2%80%99abonnement.+Une+app+par+probl%C3%A8me%2C+un+serveur%2C+une+base%2C+un+compte%2C+un+paiement+mensuel.+L%E2%80%99IA+fait+fondre+ce+mod%C3%A8le+%E2%80%94+litt%C3%A9ralement+%3A+en+f%C3%A9vrier+2026%2C+environ+285+milliards+de+dollars+se+sont+%C3%A9vapor%C3%A9s+des+valeurs+SaaS+en+quarante-huit+heures+%28The+SaaS+CFO+%3B+The+Paypers%29.+Le+diagnostic...">Partager
-        </a>
-      </li>
-
-      <li>
-        <a class="c-button" href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html#disqus_thread" aria-describedby="jai-tue-mon-saas-reconstruit-en-agent-ia-title">
-          Commenter
-        </a>
-      </li>
-
-      
-      <li class="c-tag">#Work</li>
-      
-    </ul>
-  </footer>
-</article>
-</li></ul>
+<ul class="u-list c-section__post-list"></ul>
 
 <div class="u-text--center">
   <ul class="c-button-stack c-button-stack--center u-list">
@@ -568,9 +366,6 @@
       </p>
     </footer>
 
-    <!-- JavaScript
-        ================================================== -->
-    <script src="/assets/main.js" async></script>
     <!-- Cloudflare Web Analytics -->
     <script
       defer
@@ -579,10 +374,5 @@
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
-    <!-- disqus (lazy-load via IntersectionObserver) -->
-    
-
-    <!-- webmentions -->
-    
   </body>
 </html>

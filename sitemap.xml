@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://www.nicolasjouanno.com/events/meetup-accessibilite.html</loc>
-<lastmod>2025-08-26T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://www.nicolasjouanno.com/events/paris-web-2025.html</loc>
-<lastmod>2026-09-08T05:59:49+00:00</lastmod>
-</url>
-<url>
 <loc>https://www.nicolasjouanno.com/5-raisons-adherer-mbf-mountain-bikers-foundation.html</loc>
 <lastmod>2013-03-12T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://www.nicolasjouanno.com/je-porte-un-casque-velo-vtt.html</loc>
 <lastmod>2013-03-19T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://www.nicolasjouanno.com/prevention-pathologies-du-sportif.html</loc>
-<lastmod>2013-03-21T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://www.nicolasjouanno.com/vtt-29-pouces-pourquoi-rouler-grandes-roues.html</loc>
@@ -29,10 +17,6 @@
 <lastmod>2013-05-28T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://www.nicolasjouanno.com/prevention-5-risques-du-cycliste-urbain.html</loc>
-<lastmod>2013-07-04T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://www.nicolasjouanno.com/ma-megavalanche-2013-alpe-dhuez.html</loc>
 <lastmod>2013-07-20T00:00:00+00:00</lastmod>
 </url>
@@ -41,16 +25,8 @@
 <lastmod>2013-10-01T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://www.nicolasjouanno.com/pourquoi-les-etirements-sont-essentiels-vtt.html</loc>
-<lastmod>2013-10-24T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://www.nicolasjouanno.com/drift-ghost-s-camera-embarquee-vtt.html</loc>
 <lastmod>2013-11-22T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://www.nicolasjouanno.com/sante-du-sportif-certificat-medical-interview.html</loc>
-<lastmod>2013-12-30T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://www.nicolasjouanno.com/plan-entrainement-vtt-rando-40km-2h.html</loc>
@@ -167,9 +143,6 @@
 <url>
 <loc>https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html</loc>
 <lastmod>2026-07-10T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://www.nicolasjouanno.com/agenda/</loc>
 </url>
 <url>
 <loc>https://www.nicolasjouanno.com/archive.html</loc>

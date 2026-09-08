@@ -22,27 +22,19 @@
     <link rel="icon" href="/images/icons/avatar.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/images/icons/icon-180.webp" />
 
-    <!-- PWA -->
-    <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#000000" />
 
     <!-- IndieWeb -->
-    <link rel="webmention" href="https://webmention.io/www.nicolasjouanno.com/webmention" />
     <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
 
     <!-- linked party -->
-    <link rel="me" href="https://dribbble.com/nicolasjouanno" />
     <link rel="me" href="https://www.instagram.com/bynicolasjd/" />
     <link rel="me" href="https://www.threads.com/@bynicolasjd" />
     <link rel="me" href="https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
     <link rel="me" href="https://github.com/jn-prod" />
-    <link rel="me" href="https://medium.com/@nicolasjouanno" />
-    <link rel="me" href="https://fr.pinterest.com/nicolasjouanno/" />
-    <link rel="me" href="https://soundcloud.com/nicolasjouanno" />
     <link rel="me" href="https://www.strava.com/athletes/njouanno" />
     <link rel="me" href="https://substack.com/@bynicolasjd" />
     <link rel="me" href="https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
-    <link rel="me" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
     <link rel="me" href="https://www.youtube.com/@byNicolasJD" />
     <link rel="me" href="mailto:contact@nicolasjouanno.com" />
 
@@ -58,26 +50,6 @@
       type="application/feed+json"
       title="JSON Feed"
       href="/feed.json"
-    />
-
-    <!-- calendar -->
-    <link
-      rel="alternate"
-      type="text/calendar"
-      title="Agenda ICS"
-      href="/agenda.ics"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Agenda RSS"
-      href="/events.xml"
-    />
-    <link
-      rel="alternate"
-      type="application/feed+json"
-      title="Agenda JSON Feed"
-      href="/events.json"
     />
 
     <!-- Fonts (non-bloquant + font-display: swap) -->
@@ -100,7 +72,7 @@
     <link rel="stylesheet" href="/assets/main.css" />
 
     <!-- SEO basique -->
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
     <link
       rel="canonical"
       href="https://www.nicolasjouanno.com/vtt/"
@@ -130,7 +102,7 @@
 
     <!-- Image Open Graph -->
     
-    <meta property="og:image" content="https://www.nicolasjouanno.com/og/og-default.png" />
+    <meta property="og:image" content="https://www.nicolasjouanno.com/images/og/og-default.png" />
     <meta property="og:image:alt" content="Nicolas Jouanno" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -152,127 +124,21 @@
      
     <meta
       name="twitter:image"
-      content="https://www.nicolasjouanno.com/og/og-default.png"
+      content="https://www.nicolasjouanno.com/images/og/og-default.png"
     />
     <meta name="twitter:image:alt" content="VTT — pratique, réglages, entraînement et sorties" />
     
 
-    <!-- Schema.org JSON-LD -->
+    <!-- Schema.org JSON-LD : une page décrit une page, une publication décrit un article. -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        
-          "name": "Nicolas Jouanno",
-          "alternateName": "Nicolas Jouanno",
-          "url": "https://www.nicolasjouanno.com",
-          "email": "contact@nicolasjouanno.com",
-          
-          "jobTitle": "Auteur outdoor et ancien cycliste professionnel",
-          "knowsAbout": [
-            
-            
-              
-                
-                  
-                  "VTT"
-                  
-                
-                  ,
-                  "Entraînement VTT"
-                  
-                
-                  ,
-                  "Réglages VTT"
-                  
-                
-                  ,
-                  "Randonnées VTT en Bretagne"
-                  
-                
-              
-            
-              
-                
-                  ,
-                  "Trail"
-                  
-                
-                  ,
-                  "Course à pied"
-                  
-                
-                  ,
-                  "Progression"
-                  
-                
-                  ,
-                  "Outdoor"
-                  
-                
-              
-            
-              
-                
-                  ,
-                  "Nutrition d'endurance"
-                  
-                
-                  ,
-                  "Sans gluten"
-                  
-                
-                  ,
-                  "Maladie cœliaque"
-                  
-                
-                  ,
-                  "Ravitaillement sportif"
-                  
-                
-              
-            
-              
-            
-              
-            
-          ],
-          
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Pontivy, Bretagne, France",
-            "addressCountry": "France"
-          },
-          "sameAs": [
-            "https://www.linkedin.com/in/nicolasjouanno/",
-            "https://github.com/jn-prod",
-            "https://x.com/byNicolasJD",
-            "https://fr.wikipedia.org/wiki/Nicolas_Jouanno",
-            "https://www.strava.com/athletes/njouanno",
-            "https://www.instagram.com/bynicolasjd/",
-            "https://www.threads.com/@bynicolasjd",
-            "https://www.youtube.com/@byNicolasJD",
-            "https://substack.com/@bynicolasjd"
-          ]
-        
-      }
+      
+      {"@context":"https://schema.org","@type":"CollectionPage","name":"VTT — pratique, réglages, entraînement et sorties","description":"Régler ses suspensions, choisir sa taille de vélo, construire un plan d'entraînement et retrouver mes sorties et courses.","url":"https://www.nicolasjouanno.com/vtt/"}
+      
     </script>
 
     <!-- Schema.org BreadcrumbList -->
     
     
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
     
     <script type="application/ld+json">
@@ -303,7 +169,7 @@
   <!-- body -->
   
   <body
-    class="c-layout c-layout--layout-category"
+    class="c-layout c-layout--layout-tag"
     itemscope
     itemtype="http://schema.org/WebPage"
   >
@@ -369,18 +235,6 @@
     <main role="main" id="main-content" class="c-layout__content">
 
 
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
 
 <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
   <ol>
@@ -400,7 +254,7 @@
     
   </ol>
 </nav>
-  <h1 id="vtt">VTT</h1>
+ <h1 id="vtt">VTT</h1>
 
 <!-- TODO copywriter (D-2026-06-11-001) — chapô de travail ci-dessous -->
 <p>La verticale la plus fournie du site : réglages, matériel, entraînement, et les sorties qui vont avec. Écrit d’abord pour moi, gardé en ligne parce que ça sert à d’autres.</p>
@@ -439,10 +293,6 @@
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
   
-  
-  
-  
-  
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/route-de-montagne.webp" />
   
   <meta itemprop="headline" content="Pourquoi tombons-nous ?" />
@@ -463,7 +313,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -494,7 +343,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/route-de-montagne.webp"
-    alt="Illustration de l'article : Pourquoi tombons-nous ?"
+    alt="Pourquoi tombons-nous ?"
     loading="lazy"
   />
      
@@ -513,27 +362,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="pourquoi-tombons-nous-title"
-          href="mailto:?subject=Pourquoi+tombons-nous+%3F&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fpourquoi-tombons-nous.html%0A%0AChapitre+1+%3A+Une+adolescence+dans+les+sous-bois+A+10+ans%2C+je+me+passionne+pour+le+VTT+et+d%C3%A9bute+sa+pratique+en+%E2%80%9Cecole+de+VTT%E2%80%9D.+C%E2%80%99est+la+discipline+qui+m%E2%80%99amenera+%C3%A0+d%C3%A9couvrir+la+comp%C3%A9tition+au+niveau+regionnal.+Limit%C3%A9+par+une+saison+qui+va+de+mars+%C3%A0+octobre%2C+je+me+tourne+vers+le+cyclo-cross+%C3%A0+15+ans+pour+faire+durer+le+plaisir.+De+cont%C3%BBme%2C+les+jeunes+cyclo-crossman+viennent+de+l%E2%80%99%C3%A9cole+de..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/pourquoi-tombons-nous.html#disqus_thread"
-          aria-describedby="pourquoi-tombons-nous-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/recits.html">Récits</a>
+      </li>
       
     </ul>
   </footer>
@@ -551,10 +386,6 @@
     content="2018-11-23T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/1029035155.webp" />
   
@@ -576,7 +407,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -607,7 +437,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/1029035155.webp"
-    alt="Illustration de l'article : Comment progresser sans compétition ?"
+    alt="Comment progresser sans compétition ?"
     loading="lazy"
   />
      
@@ -626,27 +456,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="competition-versus-entrainement-title"
-          href="mailto:?subject=Comment+progresser+sans+comp%C3%A9tition+%3F&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fcompetition-versus-entrainement.html%0A%0ACe+n%E2%80%99est+pas+toujours+simple+de+trouver+la+motivation.+Dans+cet+article%2C+je+vais+partager+avec+vous+ce+qui+me+motive+le+plus+pour+me+bouger%2C+mais+aussi+ce+qui+me+peut+transformer+une+sortie+de+running+en+sortie+de+v%C3%A9lo%2C+une+balade+en+bord+en+mer+en+session+de+surf%E2%80%A6+Mes+principales+sources+de+motivation+pour+faire+du+sport.+Un+nouveau+jouet+%3B-%29+On+garde+tous+notre+%C3%A2me+d%E2%80%99enfant...."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/competition-versus-entrainement.html#disqus_thread"
-          aria-describedby="competition-versus-entrainement-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/recits.html">Récits</a>
+      </li>
       
     </ul>
   </footer>
@@ -664,10 +480,6 @@
     content="2017-02-12T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.webp" />
   
@@ -689,7 +501,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -720,7 +531,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.webp"
-    alt="Illustration de l'article : Quel entrainement pour progresser en VTT ?"
+    alt="Quel entrainement pour progresser en VTT ?"
     loading="lazy"
   />
      
@@ -739,27 +550,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="entraînement-5-points-pour-progresser-physiquement-en-vtt-title"
-          href="mailto:?subject=Quel+entrainement+pour+progresser+en+VTT+%3F&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fentrainement-vtt.html%0A%0ALe+VTT+est+une+discipline+compl%C3%A8te.+Puissance%2C+endurance%2C+%C3%A9quilibre+et+explosivit%C3%A9+sont+des+comp%C3%A9tences+%C3%A0+travailler+%C3%A0+l%E2%80%99entrainement.+En+alternant+avec+des+p%C3%A9riodes+de+r%C3%A9cup%C3%A9ration%2C+vous+observerez+une+progression+constante.+Voici+deux+types+de+m%C3%A9thode+d%E2%80%99entrainement+%C3%A0+utiliser+dans+votre+programme+d%E2%80%99entrainement.+Entrainement+VTT+sans+v%C3%A9lo.+Entrainement+VTT+avec+v%C3%A9lo+pour+l%E2%80%99XC%2C+l%E2%80%99enduro+et+la+route.+Construire+son+programme+d%E2%80%99entrainement+Pr%C3%A9vention+Entrainement+VTT+sans+v%C3%A9lo+Am%C3%A9liorer+sa+puissance+Pour+am%C3%A9liorer..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/entrainement-vtt.html#disqus_thread"
-          aria-describedby="entraînement-5-points-pour-progresser-physiquement-en-vtt-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -777,10 +574,6 @@
     content="2017-01-21T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/p5pb12718966.webp" />
   
@@ -802,7 +595,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -833,7 +625,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/p5pb12718966.webp"
-    alt="Illustration de l'article : GUIDE: L'enduro VTT de A à Z."
+    alt="GUIDE: L'enduro VTT de A à Z."
     loading="lazy"
   />
      
@@ -852,27 +644,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="tout-sur-lenduro-vtt-du-pilote-à-la-checklist-materiel-title"
-          href="mailto:?subject=GUIDE%3A+L%27enduro+VTT+de+A+%C3%A0+Z.&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fenduro-vtt-pilote-checklist-materiel.html%0A%0AAu+programme+%3A+Qu%E2%80%99est+que+le+VTT+enduro+%3F+Diff%C3%A9rence+enduro%2C+XC%2C%C2%A0DH.+Le+VTT+enduro+c%E2%80%99est+pour%C2%A0qui+%3F+A+quoi+ressemble+le+VTT+enduro+IDEAL+%3F+Quel+%C3%A9quipement+pilote+choisir+pour+la+pratique+du+VTT%C2%A0Enduro%3F+ENDURO+VTT%3A+la+checklist+d%E2%80%99avant%C2%A0sortie+Conclusion+1%2F+Qu%E2%80%99est+que+le+VTT+enduro+%3F+jerome+clementz+l%E2%80%99un+des+meilleurs+pilotes+Enduro+de+sa+g%C3%A9n%C3%A9ration+Le+monde+du+VTT+a+connu+dans+les+ann%C3%A9es+2000%2C+l%E2%80%99%C3%A9mergence+d%E2%80%99une..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/enduro-vtt-pilote-checklist-materiel.html#disqus_thread"
-          aria-describedby="tout-sur-lenduro-vtt-du-pilote-à-la-checklist-materiel-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -890,10 +668,6 @@
     content="2016-03-30T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/bf91f-04tn2madty8ffu2ug.webp" />
   
@@ -915,7 +689,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -946,7 +719,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/bf91f-04tn2madty8ffu2ug.webp"
-    alt="Illustration de l'article : Où randonner en VTT en Bretagne ? Circuits et randonnées organisées"
+    alt="Où randonner en VTT en Bretagne ? Circuits et randonnées organisées"
     loading="lazy"
   />
      
@@ -965,27 +738,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="ou-randonner-vtt-bretagne-title"
-          href="mailto:?subject=O%C3%B9+randonner+en+VTT+en+Bretagne+%3F+Circuits+et+randonn%C3%A9es+organis%C3%A9es&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fou-randonner-vtt-bretagne.html%0A%0AEn+2015%2C+les+diff%C3%A9rentes+%C3%A9preuves+des+Roc%E2%80%99h+des+monts+d%E2%80%99Arr%C3%A9e+totalisaient+plus+de+6200+VTTisites+au+d%C3%A9part+du+Huelgouat%2C+Bretagne.+Ce+rassemblement%2C+point+d%E2%80%99orgue+de+la+saison+des+randos+en+Bretagne%2C+permet+aux+VTTistes+de+tous+%C3%A2ges+de+s%E2%80%99exprimer+%C3%A0+leur+niveau+sur+des+distances+allant+jusqu%E2%80%99%C3%A0+120+kilom%C3%A8tres.+Une+goutte+d%E2%80%99eau+dans+l%E2%80%99Oc%C3%A9an+si+l%E2%80%99on+sait+qu%E2%80%99en+Bretagne%2C+chaque+week-end%2C+ce+sont+plus+d%E2%80%99une+dizaine+de+randonn%C3%A9es+VTT+qui..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/ou-randonner-vtt-bretagne.html#disqus_thread"
-          aria-describedby="ou-randonner-vtt-bretagne-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -1003,10 +762,6 @@
     content="2013-07-20T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="headline" content="Ma Megavalanche 2013 : 2 500 m de pilotage, du Pic Blanc à Allemont" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/ma-megavalanche-2013-alpe-dhuez.html" />
@@ -1026,7 +781,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -1069,27 +823,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="ma-megavalanche-2013-alpe-dhuez-title"
-          href="mailto:?subject=Ma+Megavalanche+2013+%3A+2+500+m+de+pilotage%2C+du+Pic+Blanc+%C3%A0+Allemont&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fma-megavalanche-2013-alpe-dhuez.html%0A%0AJ%E2%80%99ai+eu+la+chance%2C+cette+ann%C3%A9e%2C+de+prendre+le+d%C3%A9part+de+l%E2%80%99une+des+courses+les+plus+mythiques+du+monde+du+VTT+%E2%80%94+qui+resteront+tr%C3%A8s+probablement+les+meilleurs+souvenirs+de+VTT+de+ma+vie%2C+%C3%A0+renouveler+pour+s%C3%BBr+%21+J%E2%80%99%C3%A9tais+engag%C3%A9+sur+la+Mega+Challenger.+Je+vous+propose+ici+de+revivre%2C+caillou+apr%C3%A8s+caillou%2C+mon+avanc%C3%A9e+sur+les+2+500+m+de+d%C3%A9nivel%C3%A9+n%C3%A9gatif+de+la+Megavalanche+2013%2C+du+Pic..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/ma-megavalanche-2013-alpe-dhuez.html#disqus_thread"
-          aria-describedby="ma-megavalanche-2013-alpe-dhuez-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/recits.html">Récits</a>
+      </li>
       
     </ul>
   </footer>
@@ -1108,10 +848,6 @@
     content="2018-11-30T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/tshirt_velo-boulot-dodo.webp" />
   
@@ -1133,7 +869,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -1164,7 +899,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/tshirt_velo-boulot-dodo.webp"
-    alt="Illustration de l'article : Vélo, Boulot, Dodo"
+    alt="Vélo, Boulot, Dodo"
     loading="lazy"
   />
      
@@ -1183,27 +918,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="velo-boulot-dodo-title"
-          href="mailto:?subject=V%C3%A9lo%2C+Boulot%2C+Dodo&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fvelo-boulot-dodo.html%0A%0AVous+connaissez+s%C3%BBrement+plus+la+citation+%E2%80%9CM%C3%A9tro%2C+Boulot%2C+Dodo%E2%80%9D+que+je+me+suis+r%C3%A9-appropri%C3%A9.+Depuis+que+j%E2%80%99habite+%C3%A0+Pontivy%2C+j%E2%80%99ai+la+chance+de+pouvoir+aller+tous+les+jours+au+boulot+%C3%A0+v%C3%A9lo%2C+parcourant+les+2km500+s%C3%A9parant+mon+domicile+du+bureau%2C+en+longeant+le+canal%2C+quatre+fois+par+jour.+Fra%C3%AEchement+l%E2%80%99hiver+et+chaudement+l%E2%80%99%C3%A9t%C3%A9%2C+vous+me+croirez%2C+ou+non%2C+mais+prendre+le+v%C3%A9lo+conditionne+une+bonne+journ%C3%A9e%21+J%E2%80%99ai+d%C3%A9couvert+le+v%C3%A9lo..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/velo-boulot-dodo.html#disqus_thread"
-          aria-describedby="velo-boulot-dodo-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/recits.html">Récits</a>
+      </li>
       
     </ul>
   </footer>
@@ -1221,10 +942,6 @@
     content="2017-02-14T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/a3d50-0omp6q8ru_v_v0drm.webp" />
   
@@ -1246,7 +963,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -1277,7 +993,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/a3d50-0omp6q8ru_v_v0drm.webp"
-    alt="Illustration de l'article : Comment régler les suspensions de son VTT, de la fourche à l’amortisseur"
+    alt="Comment régler les suspensions de son VTT, de la fourche à l’amortisseur"
     loading="lazy"
   />
      
@@ -1296,27 +1012,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt-title"
-          href="mailto:?subject=Comment+r%C3%A9gler+les+suspensions+de+son+VTT%2C+de+la+fourche+%C3%A0+l%E2%80%99amortisseur&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fcomment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html%0A%0AComment+r%C3%A9gler+la+fourche+et+l%E2%80%99amortisseur+de+votre+VTT%C2%A0%3F+XC+Marathon%2C+enduro%2C+DH%2C%C2%A0%E2%80%A6+de+100+%C3%A0+200mm+et+plus%2C+nos+VTT+sont+tous%2C+ou+presque%2C+%C3%A9quip%C3%A9s+d%E2%80%99une+fourche+t%C3%A9lescopique+et+d%E2%80%99un+amortisseur.+Gagner+en+stabilit%C3%A9%2C+augmenter+le+confort%2C+l%E2%80%99adh%C3%A9rence%E2%80%A6+votre+VTT+tout-suspendu+%C3%A0+de+nombreux+avantages%2C+mais+faut-il+encore+que+vos+suspensions+soit+bien+r%C3%A9gl%C3%A9es%21+D%C3%A9couvrez+ici+les+astuces+et+m%C3%A9thodes+simples+pour+r%C3%A9gler+la+fourche+et+l%E2%80%99amortisseur+de+votre%C2%A0VTT...."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html#disqus_thread"
-          aria-describedby="comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -1334,10 +1036,6 @@
     content="2017-02-13T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/dec76-0cscharjawldysi56.webp" />
   
@@ -1359,7 +1057,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -1390,7 +1087,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/dec76-0cscharjawldysi56.webp"
-    alt="Illustration de l'article : Comment choisir son home-trainer VTT ?"
+    alt="Comment choisir son home-trainer VTT ?"
     loading="lazy"
   />
      
@@ -1409,27 +1106,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="comment-choisir-son-hometrainer-entrainement-vtt-title"
-          href="mailto:?subject=Comment+choisir+son+home-trainer+VTT+%3F&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fcomment-choisir-son-hometrainer-entrainement-vtt.html%0A%0AAu+programme+%3A+L%E2%80%99home-trainer+est+votre+meilleur-ami+lors+des+changements+de+saison+et+d%E2%80%99heure%C2%A0%21+1%2F+Choisir+son+m%C3%A9canisme+d%E2%80%99home-trainer+Avantages+et+Inconv%C3%A9nients+des+diff%C3%A9rents+rouleaux+d%E2%80%99home-trainer+L%E2%80%99home-trainer+jusqu%E2%80%99aux+limites+de+la+r%C3%A9alit%C3%A9+virtuelle+Les+principales+caract%C3%A9ristiques+de+l%E2%80%99Home-Trainer+Quelques+conseils+d%E2%80%99utilisation+de+votre+home-trainer+Notre+s%C3%A9lection+d%E2%80%99home-trainer+L%E2%80%99home-trainer+est+votre+meilleur-ami+lors+des+changements+de+saison+et+d%E2%80%99heure%C2%A0%21+Plus+humides%2C+plus+froides+et+plus+vent%C3%A9es%2C+d%E2%80%99octobre+%C3%A0+mars%2C+les+saisons..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/comment-choisir-son-hometrainer-entrainement-vtt.html#disqus_thread"
-          aria-describedby="comment-choisir-son-hometrainer-entrainement-vtt-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -1447,10 +1130,6 @@
     content="2017-02-13T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/a88c2-0b7px9w1n1pvqexaf.webp" />
   
@@ -1472,7 +1151,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -1503,7 +1181,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/a88c2-0b7px9w1n1pvqexaf.webp"
-    alt="Illustration de l'article : Présentation du casque Urge Archi-Enduro RR"
+    alt="Présentation du casque Urge Archi-Enduro RR"
     loading="lazy"
   />
      
@@ -1522,27 +1200,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="casque-urge-archi-enduro-rr-2016-title"
-          href="mailto:?subject=Pr%C3%A9sentation+du+casque+Urge+Archi-Enduro+RR&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fcasque-urge-archi-enduro-rr-2016.html%0A%0AUrge+Archi-Enduro+RR+%E2%80%94+299+%E2%82%AC+Le+premier+casque+d%E2%80%99enduro+de+comp%C3%A9tition+pens%C3%A9+par+Urge+Bike+Products+revient+compl%C3%A8tement+remani%C3%A9%2C+en+version+RR.+Il+reprend+les+bases+de+son+grand+fr%C3%A8re%2C+agr%C3%A9ment%C3%A9es+d%E2%80%99un+look+plus+agressif+et+d%E2%80%99un+design+contemporain+proche+de+l%E2%80%99esth%C3%A9tique+des+casques+int%C3%A9graux.+%C3%80+l%E2%80%99image+de+l%E2%80%99Archi-Enduro+premi%C3%A8re+version%2C+le+RR+%28pour+Race+Ready%29+a+%C3%A9t%C3%A9+pens%C3%A9+pour+l%E2%80%99enduro+de+comp%C3%A9tition+%28Enduro+Series%2C+Enduro+World+Series%29.+Urge..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/casque-urge-archi-enduro-rr-2016.html#disqus_thread"
-          aria-describedby="casque-urge-archi-enduro-rr-2016-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -1560,10 +1224,6 @@
     content="2017-02-08T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.webp" />
   
@@ -1585,7 +1245,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -1616,7 +1275,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.webp"
-    alt="Illustration de l'article : Test de la tige de selle telescopique Rockshox Reverb"
+    alt="Test de la tige de selle telescopique Rockshox Reverb"
     loading="lazy"
   />
      
@@ -1635,27 +1294,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="test-tige-de-selle-telescopique-rockshox-reverb-title"
-          href="mailto:?subject=Test+de+la+tige+de+selle+telescopique+Rockshox+Reverb&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Ftest-tige-de-selle-telescopique-rockshox-reverb.html%0A%0AUne+Tige+de+selle+t%C3%A9lescopique+%C3%A0+quoi+%C3%A7a+sert%3F+La+tige+de+selle+t%C3%A9lescopique%2C+un+accessoire+de+mode+ou+l%E2%80%99arme+ultime+dans+les+passages+techniques%3F+Au+programme+%3A+Pr%C3%A9ambule%3A+Pourquoi+une+tige+de+selle+t%C3%A9lescopique%3F+D%C3%A9tails+techniques+de+la+Tige+de+selle+ROCKSHOX+REVERB%C2%A0II+Pose+et+entretien+de+la+Tige+de+selle+ROCKSHOX%C2%A0REVERB+Test+et+avis+de+la+Test+tige+de+selle+t%C3%A9lescopique%E2%80%8ARockshox%C2%A0Reverb+Les+bons+plans+pour+acheter+votre+tige..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/test-tige-de-selle-telescopique-rockshox-reverb.html#disqus_thread"
-          aria-describedby="test-tige-de-selle-telescopique-rockshox-reverb-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -1673,10 +1318,6 @@
     content="2017-02-07T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/d6a09-0klmuoxlc_xyukmmx.webp" />
   
@@ -1698,7 +1339,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -1729,7 +1369,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/d6a09-0klmuoxlc_xyukmmx.webp"
-    alt="Illustration de l'article : Les meilleurs pneus vtt spéciale boue pour l'hiver"
+    alt="Les meilleurs pneus vtt spéciale boue pour l'hiver"
     loading="lazy"
   />
      
@@ -1748,27 +1388,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="choisir-son-pneu-vtt-hiver-boue-title"
-          href="mailto:?subject=Les+meilleurs+pneus+vtt+sp%C3%A9ciale+boue+pour+l%27hiver&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fchoisir-son-pneu-vtt-hiver-boue.html%0A%0AChangement+d%E2%80%99heure%2C+changement+de+temps%2C+changement+de+pneus%E2%80%A6+c%E2%80%99est+la+dure+r%C3%A9alit%C3%A9+des+VTTistes+quand+l%E2%80%99hiver+arrive%2C+quand+les+chemins+deviennent+boueux%2C+n%E2%80%99%C3%A9vacuent+plus+l%E2%80%99eau+et+que+les+feuilles+tombent%2C+votre+pilotage+change%2C+plus+en+glisse.+Mais+combien+d%E2%80%99entre+vous+gardent+les+m%C3%AAmes+pneus+sur+leur+VTT+l%E2%80%99hiver+que+l%E2%80%99%C3%A9t%C3%A9%3F+A+tord%E2%80%A6+l%E2%80%99adh%C3%A9rence+est+un+gage+de+s%C3%A9curit%C3%A9+que+l%E2%80%99on+soit+un+pilote+engag%C3%A9+ou+simple+randonneur.+Au+programme+%3A..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/choisir-son-pneu-vtt-hiver-boue.html#disqus_thread"
-          aria-describedby="choisir-son-pneu-vtt-hiver-boue-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -1786,10 +1412,6 @@
     content="2017-02-03T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/90cc1-0wscg_9_yafgnydvo.webp" />
   
@@ -1811,7 +1433,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -1842,7 +1463,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/90cc1-0wscg_9_yafgnydvo.webp"
-    alt="Illustration de l'article : Comment choisir la taille de son VTT et sa position ?"
+    alt="Comment choisir la taille de son VTT et sa position ?"
     loading="lazy"
   />
      
@@ -1861,27 +1482,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="comment-choisir-la-taille-de-son-vtt-et-sa-position-title"
-          href="mailto:?subject=Comment+choisir+la+taille+de+son+VTT+et+sa+position+%3F&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fcomment-choisir-la-taille-de-son-vtt-et-sa-position.html%0A%0ALe+choix+de+la+taille+de+votre+VTT+est+essentiel+dans+votre+pratique%2C+qu%E2%80%99elle+soit+loisir+ou+de+comp%C3%A9tition.+Cela+peut+vous+permettre+de+gagner+rapidement+en+efficacit%C3%A9+sur+votre+VTT.+De+mani%C3%A8re+certaine%2C+une+meilleure+position+am%C3%A9liorera+vos+performances+pour+plusieurs+raisons+qui+seront+d%C3%A9voil%C3%A9es+plus%C2%A0bas.+Au+programme+%3A+Pourquoi+est-il+important+de+bien+choisir+la+taille+de+son+VTT+et+sa+position+%3F+Comment+choisir+la+taille+de..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/comment-choisir-la-taille-de-son-vtt-et-sa-position.html#disqus_thread"
-          aria-describedby="comment-choisir-la-taille-de-son-vtt-et-sa-position-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -1899,10 +1506,6 @@
     content="2017-01-29T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/ccs-62657-0-58346000-1479391864.webp" />
   
@@ -1924,7 +1527,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -1955,7 +1557,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/ccs-62657-0-58346000-1479391864.webp"
-    alt="Illustration de l'article : Comment choisir entre pédales automatiques et plates de VTT?"
+    alt="Comment choisir entre pédales automatiques et plates de VTT?"
     loading="lazy"
   />
      
@@ -1974,27 +1576,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="vtt-pédales-automatiques-ou-pédales-plates-comment-choisir-title"
-          href="mailto:?subject=Comment+choisir+entre+p%C3%A9dales+automatiques+et+plates+de+VTT%3F&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fchoisir-pedales-vtt-automatique-ou-plates.html%0A%0AAu+programme+%3A+Faut-il+changer+ses+p%C3%A9dales+plates+pour+des+p%C3%A9dales+automatiques%3F+Avantages+%2F+inconv%C3%A9nients+de+la+p%C3%A9dale+plate+traditionnelle+Avantages+%2F+inconv%C3%A9nients+de+la+p%C3%A9dale+automatique+Connaissez-vous+les+p%C3%A9dales+automatiques+%E2%80%9Chybrides%E2%80%9D+%3F+Conclusion%3A+La+p%C3%A9dale+automatique+c%E2%80%99est+pour%C2%A0qui%3F+Notre+s%C3%A9lection+de+p%C3%A9dales%C2%A0VTT+1%2F+Faut-il+changer+ses+p%C3%A9dales+plates+pour+des+p%C3%A9dales+automatiques%3F+A+15+ans+ou+%C3%A0+75+ans%2C+lorsque+l%E2%80%99on+veut+progresser+en+VTT+ou+que+vous+souhaitez..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/choisir-pedales-vtt-automatique-ou-plates.html#disqus_thread"
-          aria-describedby="vtt-pédales-automatiques-ou-pédales-plates-comment-choisir-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -2012,10 +1600,6 @@
     content="2017-01-17T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/jervol.webp" />
   
@@ -2037,7 +1621,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -2068,7 +1651,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/jervol.webp"
-    alt="Illustration de l'article : Checklist - L'équipement indispensable à avoir dans son sac à dos de VTT"
+    alt="Checklist - L'équipement indispensable à avoir dans son sac à dos de VTT"
     loading="lazy"
   />
      
@@ -2087,27 +1670,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt-title"
-          href="mailto:?subject=Checklist+-+L%27%C3%A9quipement+indispensable+%C3%A0+avoir+dans+son+sac+%C3%A0+dos+de+VTT&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2F20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html%0A%0AL%E2%80%99un+des+plus+grands+plaisir+du+VTT+est+de+partir+la+journ%C3%A9e%2C+toujours+plus+loin%2C+toujours+plus+vite+dans+les+bois+o%C3%B9+vous+ne+pouvez+aller+lorsque+vous+%C3%AAtes+%C3%A0+pied.+Cela+signifie+aussi+que+lorsqu%E2%80%99il+vous+arrive+quelque+chose%2C+comme+une+blessure%2C+un+probl%C3%A8me+m%C3%A9canique%2C+il+vous+sera+compliqu%C3%A9+de+compter+sur+quelqu%E2%80%99un+d%E2%80%99autre+que+sur+vous-m%C3%AAme.+Vous+pr%C3%A9parez+une+rando+VTT+en+Bretagne+%3F+vtt.bzh+recense+toutes+les..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html#disqus_thread"
-          aria-describedby="20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -2125,10 +1694,6 @@
     content="2015-01-19T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/d379f-0z0tfhj6okz30ro44.webp" />
   
@@ -2150,7 +1715,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -2181,7 +1745,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/d379f-0z0tfhj6okz30ro44.webp"
-    alt="Illustration de l'article : 4 séances de home-trainer pour progresser en VTT"
+    alt="4 séances de home-trainer pour progresser en VTT"
     loading="lazy"
   />
      
@@ -2200,27 +1764,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="4-seances-home-trainer-progresser-vtt-title"
-          href="mailto:?subject=4+s%C3%A9ances+de+home-trainer+pour+progresser+en+VTT&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2F4-seances-home-trainer-progresser-vtt.html%0A%0AComment+le+home-trainer+rend+votre+entra%C3%AEnement+plus+efficace+L%E2%80%99home-trainer+vous+permet+de+vous+entra%C3%AEner+%C3%A0+la+maison+qu%E2%80%99il+pleuve%2C+vente%2C+neige+ou+g%C3%A8le%2C+de+jour+comme+de+nuit%2C+sur+des+dur%C3%A9es+plus+courtes+qu%E2%80%99en+ext%C3%A9rieur+%282+h+maximum%29.+Avec+un+cyclotrainer%2C+un+ergotrainer+ou+un+virtual+trainer%2C+et+de+petits+accessoires+de+mesure+%28cardiofr%C3%A9quencem%C3%A8tre%2C+GPS%2C+capteurs+de+puissance%29%2C+vos+possibilit%C3%A9s+de+travail+sont+quasi+illimit%C3%A9es.+Il+vous+permet+de+combler..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/4-seances-home-trainer-progresser-vtt.html#disqus_thread"
-          aria-describedby="4-seances-home-trainer-progresser-vtt-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -2238,10 +1788,6 @@
     content="2014-08-10T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/9c05d-05lwfpqvtdkfbts1o.webp" />
   
@@ -2263,7 +1809,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -2294,7 +1839,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/9c05d-05lwfpqvtdkfbts1o.webp"
-    alt="Illustration de l'article : 8 raisons de choisir les roues de VTT Mavic Crossmax"
+    alt="8 raisons de choisir les roues de VTT Mavic Crossmax"
     loading="lazy"
   />
      
@@ -2313,27 +1858,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr-title"
-          href="mailto:?subject=8+raisons+de+choisir+les+roues+de+VTT+Mavic+Crossmax&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fpourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.html%0A%0AChoisir+votre+nouvelle+paire+de+roues+de+vtt+peu+%C3%AAtre+fastidieux+tant+les+possibilit%C3%A9s+sont+vastes.+Les+nouveaux+standards+de+roues+de+VTT+en+27%2C5+pouces+et+29+pouces+nous+am%C3%A8ne+%C3%A0+la+recherche+du+compromis+entre+la+rigidit%C3%A9+et+la+l%C3%A9gert%C3%A9.+Pour+ma+part%2C+j%E2%80%99ai+choisi+les+roues+Mavic+Crossmax+et+je+ne+reveiendrais+pour+rien+au+monde+sur+ma+d%C3%A9cision.+Je+vous+explique+pourquoi.+Au+programme+Pourquoi+changer..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.html#disqus_thread"
-          aria-describedby="pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -2351,10 +1882,6 @@
     content="2014-02-17T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/d8edb-0mw_03xhl0mtujzgh.webp" />
   
@@ -2376,7 +1903,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -2407,7 +1933,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/d8edb-0mw_03xhl0mtujzgh.webp"
-    alt="Illustration de l'article : Plan d'entraînement VTT n°1 : votre rando de 40 km en 2 h"
+    alt="Plan d'entraînement VTT n°1 : votre rando de 40 km en 2 h"
     loading="lazy"
   />
      
@@ -2426,27 +1952,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="plan-entrainement-vtt-rando-40km-2h-title"
-          href="mailto:?subject=Plan+d%27entra%C3%AEnement+VTT+n%C2%B01+%3A+votre+rando+de+40+km+en+2+h&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fplan-entrainement-vtt-rando-40km-2h.html%0A%0APr%C3%A9-requis+Niveau+%3A+d%C3%A9butant+%C3%A0+confirm%C3%A9.+Temps+%3A+4+%C3%A0+5+s%C3%A9ances+de+1+h+%C3%A0+3+h+%E2%80%94+total+de+7+h+%C3%A0+10+h+par+semaine.+Mat%C3%A9riel+n%C3%A9cessaire+%3A+Un+cardiofr%C3%A9quencem%C3%A8tre.+Un+home-trainer.+Correspondance+cardiaque+FC+repos+%3A+prenez+votre+pouls+au+r%C3%A9veil.+FC+max+th%C3%A9orique+%3A+220+%E2%88%92+votre+%C3%A2ge+%28ex.+%C3%A0+30+ans%2C+FC+max+%3D+220+%E2%88%92+30+%3D+190+puls%2Fmin%29.+FC+max+pratique+%3A..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/plan-entrainement-vtt-rando-40km-2h.html#disqus_thread"
-          aria-describedby="plan-entrainement-vtt-rando-40km-2h-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -2464,10 +1976,6 @@
     content="2013-11-22T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/47161-0rip67q2-z6z_m5fn.webp" />
   
@@ -2489,7 +1997,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -2520,7 +2027,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/47161-0rip67q2-z6z_m5fn.webp"
-    alt="Illustration de l'article : Drift Ghost-S : la caméra embarquée complète mais pas complexe"
+    alt="Drift Ghost-S : la caméra embarquée complète mais pas complexe"
     loading="lazy"
   />
      
@@ -2539,27 +2046,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="drift-ghost-s-camera-embarquee-vtt-title"
-          href="mailto:?subject=Drift+Ghost-S+%3A+la+cam%C3%A9ra+embarqu%C3%A9e+compl%C3%A8te+mais+pas+complexe&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fdrift-ghost-s-camera-embarquee-vtt.html%0A%0AUne+cam%C3%A9ra+embarqu%C3%A9e+haut+de+gamme+pour+le+sport+Grenoble%2C+20+novembre+2013+%E2%80%94+Drift+Innovation+d%C3%A9voile+sa+nouvelle+cam%C3%A9ra+embarqu%C3%A9e+haut+de+gamme+pour+le+sport+%3A+la+Drift+Ghost-S%2C+qui+succ%C3%A8de+%C3%A0+l%E2%80%99une+des+cam%C3%A9ras+les+plus+vendues+en+2013%2C+la+Drift+HD+Ghost.+Ralentis%2C+basse+lumi%C3%A8re+et+fonction+dashcam+La+Ghost-S+offre+une+autonomie+record%2C+une+qualit%C3%A9+vid%C3%A9o+1080p60+et+de+nombreuses+fonctionnalit%C3%A9s+exclusives+%3A+nouveau+capteur..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/drift-ghost-s-camera-embarquee-vtt.html#disqus_thread"
-          aria-describedby="drift-ghost-s-camera-embarquee-vtt-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -2577,10 +2070,6 @@
     content="2013-10-24T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/fdb77-0homugubvczfir3sy.webp" />
   
@@ -2602,7 +2091,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -2633,7 +2121,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/fdb77-0homugubvczfir3sy.webp"
-    alt="Illustration de l'article : Pourquoi les étirements sont essentiels pour le VTT"
+    alt="Pourquoi les étirements sont essentiels pour le VTT"
     loading="lazy"
   />
      
@@ -2652,27 +2140,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="pourquoi-les-etirements-sont-essentiels-vtt-title"
-          href="mailto:?subject=Pourquoi+les+%C3%A9tirements+sont+essentiels+pour+le+VTT&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fpourquoi-les-etirements-sont-essentiels-vtt.html%0A%0A%C2%AB+Un+peu+de+souplesse+%21+%C2%BB+Les+%C3%A9tirements%2C+qu%E2%80%99est-ce+que+c%E2%80%99est+%3F+L%E2%80%99%C3%A9tirement+est+une+pratique+qui+vous+aide+%C3%A0+d%C3%A9velopper+la+souplesse+de+votre+corps+%E2%80%94+c%E2%80%99est+pour+cela+que+l%E2%80%99on+parle+parfois+d%E2%80%99assouplissement+%E2%80%94%2C+%C3%A0+pr%C3%A9parer+le+corps+%C3%A0+l%E2%80%99exercice+physique+et+%C3%A0+favoriser+la+r%C3%A9cup%C3%A9ration+apr%C3%A8s+un+effort.+C%E2%80%99est+un+acte+naturellement+pratiqu%C3%A9+par+les+animaux+ou+les+hommes+apr%C3%A8s+une+p%C3%A9riode+d%E2%80%99inactivit%C3%A9+ou+d%E2%80%99inconfort+%28au..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/pourquoi-les-etirements-sont-essentiels-vtt.html#disqus_thread"
-          aria-describedby="pourquoi-les-etirements-sont-essentiels-vtt-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -2690,10 +2164,6 @@
     content="2013-10-01T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/a074c-0l8pyjzfrgkyirwve.webp" />
   
@@ -2715,7 +2185,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -2746,7 +2215,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/a074c-0l8pyjzfrgkyirwve.webp"
-    alt="Illustration de l'article : GoPro HERO3+ : la caméra embarquée plus petite et plus légère"
+    alt="GoPro HERO3+ : la caméra embarquée plus petite et plus légère"
     loading="lazy"
   />
      
@@ -2765,27 +2234,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="gopro-hero3-plus-camera-embarquee-vtt-title"
-          href="mailto:?subject=GoPro+HERO3%2B+%3A+la+cam%C3%A9ra+embarqu%C3%A9e+plus+petite+et+plus+l%C3%A9g%C3%A8re&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fgopro-hero3-plus-camera-embarquee-vtt.html%0A%0AUne+information+toute+fra%C3%AEche+%3A+GoPro+lance+une+nouvelle+gamme+de+cam%C3%A9ras+embarqu%C3%A9es%2C+la+HERO3%2B%2C+avec+des+innovations+qui+vont+une+nouvelle+fois+faire+%C3%A9voluer+le+monde+des+cam%C3%A9ras+d%E2%80%99action.+GoPro+HERO3%2B+Black+Edition+%3A+les+nouveaut%C3%A9s+20+%25+plus+compacte+gr%C3%A2ce+%C3%A0+un+nouveau+design+de+caisson+%3B+20+%25+plus+l%C3%A9g%C3%A8re+%3B+autonomie+30+%25+plus+longue+%3B+transfert+Wi-Fi+4+fois+plus+rapide+%3B+nouveau+mode+grand-angle..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/gopro-hero3-plus-camera-embarquee-vtt.html#disqus_thread"
-          aria-describedby="gopro-hero3-plus-camera-embarquee-vtt-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -2803,10 +2258,6 @@
     content="2013-07-04T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="headline" content="Prévention : les 5 risques du cycliste urbain" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/prevention-5-risques-du-cycliste-urbain.html" />
@@ -2826,7 +2277,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -2869,27 +2319,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="prevention-5-risques-du-cycliste-urbain-title"
-          href="mailto:?subject=Pr%C3%A9vention+%3A+les+5+risques+du+cycliste+urbain&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fprevention-5-risques-du-cycliste-urbain.html%0A%0A%C3%89conomique%2C+%C3%A9cologique+et+b%C3%A9n%C3%A9fique+pour+la+sant%C3%A9%2C+le+v%C3%A9lo+est+aujourd%E2%80%99hui+un+mode+de+d%C3%A9placement+tr%C3%A8s+pris%C3%A9.+Certains+n%E2%80%99osent+pas+encore+se+lancer+%3B+pourtant%2C+se+d%C3%A9placer+%C3%A0+v%C3%A9lo+en+ville+n%E2%80%99est+pas+si+dangereux%E2%80%A6+%C3%A0+condition+d%E2%80%99en+conna%C3%AEtre+les+pi%C3%A8ges+et+de+respecter+certaines+r%C3%A8gles.+Cette+campagne+des+associations+Pr%C3%A9vention+Routi%C3%A8re+et+Assureurs+Pr%C3%A9vention%2C+d%C3%A9di%C3%A9e+aux+cyclistes+urbains%2C+vise+%C3%A0+marquer+les+esprits+pour+mieux+anticiper+les+situations+dangereuses..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/prevention-5-risques-du-cycliste-urbain.html#disqus_thread"
-          aria-describedby="prevention-5-risques-du-cycliste-urbain-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -2907,10 +2343,6 @@
     content="2013-05-28T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/1ec09-0r4e75xjf9inhwb23.webp" />
   
@@ -2932,7 +2364,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -2963,7 +2394,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/1ec09-0r4e75xjf9inhwb23.webp"
-    alt="Illustration de l'article : Test du Camelbak Lobo : le sac d'hydratation polyvalent pour le VTT"
+    alt="Test du Camelbak Lobo : le sac d'hydratation polyvalent pour le VTT"
     loading="lazy"
   />
      
@@ -2982,27 +2413,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="test-camelbak-lobo-sac-hydratation-vtt-title"
-          href="mailto:?subject=Test+du+Camelbak+Lobo+%3A+le+sac+d%27hydratation+polyvalent+pour+le+VTT&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Ftest-camelbak-lobo-sac-hydratation-vtt.html%0A%0AAvec+l%E2%80%99arriv%C3%A9e+des+beaux+jours%2C+les+randos+qui+se+rallongent+et+les+raids+qui+se+profilent%2C+je+me+suis+dit+qu%E2%80%99un+petit+test+de+Camelbak+pouvait+%C3%AAtre+une+bonne+id%C3%A9e.+J%E2%80%99ai+choisi+un+format+interm%C3%A9diaire+qui+convient+%C3%A0+toutes+les+pratiques+%E2%80%94+XC%2C+rando%2C+raids%2C+enduro+%E2%80%94+%3A+le+Camelbak+Lobo.+Caract%C3%A9ristiques+du+Camelbak+Lobo+Sur+le+papier+%3A+Capacit%C3%A9+du+r%C3%A9servoir+%3A+100+oz+%2F+3+L+Capacit%C3%A9+totale..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/test-camelbak-lobo-sac-hydratation-vtt.html#disqus_thread"
-          aria-describedby="test-camelbak-lobo-sac-hydratation-vtt-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -3020,10 +2437,6 @@
     content="2013-05-14T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/16f6b-0wdbncxwigl4kvfon.webp" />
   
@@ -3045,7 +2458,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -3076,7 +2488,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/16f6b-0wdbncxwigl4kvfon.webp"
-    alt="Illustration de l'article : VTT 29 pouces : pourquoi rouler en grandes roues"
+    alt="VTT 29 pouces : pourquoi rouler en grandes roues"
     loading="lazy"
   />
      
@@ -3095,27 +2507,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="vtt-29-pouces-pourquoi-rouler-grandes-roues-title"
-          href="mailto:?subject=VTT+29+pouces+%3A+pourquoi+rouler+en+grandes+roues&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fvtt-29-pouces-pourquoi-rouler-grandes-roues.html%0A%0ALe+VTT+29+pouces+est+un+v%C3%A9lo+%C3%A0+grandes+roues+%E2%80%94+oui%2C+mais+encore+%3F+D%C3%A9grossissons+ce+qu%E2%80%99est+un+VTT+29+pouces+et+quels+sont+ses+avantages.+1.+Qu%E2%80%99est-ce+qui+d%C3%A9finit+une+roue+de+29+pouces+%3F+D%E2%80%99abord%2C+qu%E2%80%99est-ce+qu%E2%80%99un+pouce+%3F+1+pouce+%3D+2%2C54+cm+%28un+douzi%C3%A8me+de+pied%29.+C%E2%80%99est+une+unit%C3%A9+de+mesure+qui+date+du+Moyen+%C3%82ge+et+qui+a+%C3%A9volu%C3%A9+vers+une+norme+appel%C3%A9e+%C2%AB..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/vtt-29-pouces-pourquoi-rouler-grandes-roues.html#disqus_thread"
-          aria-describedby="vtt-29-pouces-pourquoi-rouler-grandes-roues-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -3133,10 +2531,6 @@
     content="2013-03-19T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/8a8fb-0hctopcasbp8taxou.webp" />
   
@@ -3158,7 +2552,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -3189,7 +2582,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/8a8fb-0hctopcasbp8taxou.webp"
-    alt="Illustration de l'article : Je porte un casque, ou comment rester en vie à vélo"
+    alt="Je porte un casque, ou comment rester en vie à vélo"
     loading="lazy"
   />
      
@@ -3208,27 +2601,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="je-porte-un-casque-velo-vtt-title"
-          href="mailto:?subject=Je+porte+un+casque%2C+ou+comment+rester+en+vie+%C3%A0+v%C3%A9lo&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fje-porte-un-casque-velo-vtt.html%0A%0A4+raisons+de+porter+un+casque+Car+les+blessures+%C3%A0+la+t%C3%AAte+sont+la+principale+cause+de+d%C3%A9c%C3%A8s+chez+les+cyclistes.+Car+la+t%C3%AAte+est+touch%C3%A9e+plus+d%E2%80%99une+fois+sur+trois+%2838+%25%29.+Ce+chiffre+atteint+55+%25+pour+les+enfants+de+moins+de+5+ans+et+48+%25+pour+la+tranche+5%E2%80%9310+ans.+Car+75+%25+des+accidents+mortels+%C3%A0+v%C3%A9lo+auraient+pu+%C3%AAtre+%C3%A9vit%C3%A9s+avec+le+port+du..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/je-porte-un-casque-velo-vtt.html#disqus_thread"
-          aria-describedby="je-porte-un-casque-velo-vtt-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -3246,10 +2625,6 @@
     content="2013-03-12T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/b2ad1-0jz8kn8h4cwgy7ytz.webp" />
   
@@ -3271,7 +2646,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -3302,7 +2676,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/b2ad1-0jz8kn8h4cwgy7ytz.webp"
-    alt="Illustration de l'article : 5 raisons d'adhérer à la Mountain Bikers Foundation (MBF)"
+    alt="5 raisons d'adhérer à la Mountain Bikers Foundation (MBF)"
     loading="lazy"
   />
      
@@ -3321,27 +2695,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="5-raisons-adherer-mbf-mountain-bikers-foundation-title"
-          href="mailto:?subject=5+raisons+d%27adh%C3%A9rer+%C3%A0+la+Mountain+Bikers+Foundation+%28MBF%29&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2F5-raisons-adherer-mbf-mountain-bikers-foundation.html%0A%0ALa+Mountain+Bikers+Foundation%2C+c%E2%80%99est+quoi+%3F+La+Mountain+Bikers+Foundation%2C+association+nationale+du+VTT%2C+a+la+volont%C3%A9+de+rassembler+tous+les+acteurs+du+VTT+pour+%3A+f%C3%A9d%C3%A9rer+des+id%C3%A9es+%3B+lancer+des+projets+d%E2%80%99int%C3%A9r%C3%AAt+g%C3%A9n%C3%A9ral+%3B+montrer+que+les+v%C3%A9t%C3%A9tistes+et+le+secteur+ne+restent+pas+immobiles+face+aux+enjeux+du+d%C3%A9veloppement+durable+du+VTT.+Ces+axes+s%E2%80%99articulent+autour+d%E2%80%99une+charte+de+pratique+qui+d%C3%A9taille+les+engagements+de+la..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/5-raisons-adherer-mbf-mountain-bikers-foundation.html#disqus_thread"
-          aria-describedby="5-raisons-adherer-mbf-mountain-bikers-foundation-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/recits.html">Récits</a>
+      </li>
       
     </ul>
   </footer>
@@ -3365,9 +2725,6 @@
       </p>
     </footer>
 
-    <!-- JavaScript
-        ================================================== -->
-    <script src="/assets/main.js" async></script>
     <!-- Cloudflare Web Analytics -->
     <script
       defer
@@ -3376,10 +2733,5 @@
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
-    <!-- disqus (lazy-load via IntersectionObserver) -->
-    
-
-    <!-- webmentions -->
-    
   </body>
 </html>

@@ -22,27 +22,19 @@
     <link rel="icon" href="/images/icons/avatar.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/images/icons/icon-180.webp" />
 
-    <!-- PWA -->
-    <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#000000" />
 
     <!-- IndieWeb -->
-    <link rel="webmention" href="https://webmention.io/www.nicolasjouanno.com/webmention" />
     <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
 
     <!-- linked party -->
-    <link rel="me" href="https://dribbble.com/nicolasjouanno" />
     <link rel="me" href="https://www.instagram.com/bynicolasjd/" />
     <link rel="me" href="https://www.threads.com/@bynicolasjd" />
     <link rel="me" href="https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
     <link rel="me" href="https://github.com/jn-prod" />
-    <link rel="me" href="https://medium.com/@nicolasjouanno" />
-    <link rel="me" href="https://fr.pinterest.com/nicolasjouanno/" />
-    <link rel="me" href="https://soundcloud.com/nicolasjouanno" />
     <link rel="me" href="https://www.strava.com/athletes/njouanno" />
     <link rel="me" href="https://substack.com/@bynicolasjd" />
     <link rel="me" href="https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
-    <link rel="me" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
     <link rel="me" href="https://www.youtube.com/@byNicolasJD" />
     <link rel="me" href="mailto:contact@nicolasjouanno.com" />
 
@@ -58,26 +50,6 @@
       type="application/feed+json"
       title="JSON Feed"
       href="/feed.json"
-    />
-
-    <!-- calendar -->
-    <link
-      rel="alternate"
-      type="text/calendar"
-      title="Agenda ICS"
-      href="/agenda.ics"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Agenda RSS"
-      href="/events.xml"
-    />
-    <link
-      rel="alternate"
-      type="application/feed+json"
-      title="Agenda JSON Feed"
-      href="/events.json"
     />
 
     <!-- Fonts (non-bloquant + font-display: swap) -->
@@ -100,7 +72,7 @@
     <link rel="stylesheet" href="/assets/main.css" />
 
     <!-- SEO basique -->
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
     <link
       rel="canonical"
       href="https://www.nicolasjouanno.com/trail/"
@@ -130,7 +102,7 @@
 
     <!-- Image Open Graph -->
     
-    <meta property="og:image" content="https://www.nicolasjouanno.com/og/og-default.png" />
+    <meta property="og:image" content="https://www.nicolasjouanno.com/images/og/og-default.png" />
     <meta property="og:image:alt" content="Nicolas Jouanno" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -152,127 +124,21 @@
      
     <meta
       name="twitter:image"
-      content="https://www.nicolasjouanno.com/og/og-default.png"
+      content="https://www.nicolasjouanno.com/images/og/og-default.png"
     />
     <meta name="twitter:image:alt" content="Trail & course à pied — premiers dossards et sorties" />
     
 
-    <!-- Schema.org JSON-LD -->
+    <!-- Schema.org JSON-LD : une page décrit une page, une publication décrit un article. -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        
-          "name": "Nicolas Jouanno",
-          "alternateName": "Nicolas Jouanno",
-          "url": "https://www.nicolasjouanno.com",
-          "email": "contact@nicolasjouanno.com",
-          
-          "jobTitle": "Auteur outdoor et ancien cycliste professionnel",
-          "knowsAbout": [
-            
-            
-              
-                
-                  
-                  "VTT"
-                  
-                
-                  ,
-                  "Entraînement VTT"
-                  
-                
-                  ,
-                  "Réglages VTT"
-                  
-                
-                  ,
-                  "Randonnées VTT en Bretagne"
-                  
-                
-              
-            
-              
-                
-                  ,
-                  "Trail"
-                  
-                
-                  ,
-                  "Course à pied"
-                  
-                
-                  ,
-                  "Progression"
-                  
-                
-                  ,
-                  "Outdoor"
-                  
-                
-              
-            
-              
-                
-                  ,
-                  "Nutrition d'endurance"
-                  
-                
-                  ,
-                  "Sans gluten"
-                  
-                
-                  ,
-                  "Maladie cœliaque"
-                  
-                
-                  ,
-                  "Ravitaillement sportif"
-                  
-                
-              
-            
-              
-            
-              
-            
-          ],
-          
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Pontivy, Bretagne, France",
-            "addressCountry": "France"
-          },
-          "sameAs": [
-            "https://www.linkedin.com/in/nicolasjouanno/",
-            "https://github.com/jn-prod",
-            "https://x.com/byNicolasJD",
-            "https://fr.wikipedia.org/wiki/Nicolas_Jouanno",
-            "https://www.strava.com/athletes/njouanno",
-            "https://www.instagram.com/bynicolasjd/",
-            "https://www.threads.com/@bynicolasjd",
-            "https://www.youtube.com/@byNicolasJD",
-            "https://substack.com/@bynicolasjd"
-          ]
-        
-      }
+      
+      {"@context":"https://schema.org","@type":"CollectionPage","name":"Trail & course à pied — premiers dossards et sorties","description":"Du vélo à la course à pied : premier trail, premier 10 km, sport et solitude, et une conversation avec un triple champion du monde de duathlon.","url":"https://www.nicolasjouanno.com/trail/"}
+      
     </script>
 
     <!-- Schema.org BreadcrumbList -->
     
     
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     
     
     <script type="application/ld+json">
@@ -303,7 +169,7 @@
   <!-- body -->
   
   <body
-    class="c-layout c-layout--layout-category"
+    class="c-layout c-layout--layout-tag"
     itemscope
     itemtype="http://schema.org/WebPage"
   >
@@ -369,18 +235,6 @@
     <main role="main" id="main-content" class="c-layout__content">
 
 
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
 
 <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
   <ol>
@@ -400,7 +254,7 @@
     
   </ol>
 </nav>
-  <h1 id="trail--course-à-pied">Trail &amp; course à pied</h1>
+ <h1 id="trail--course-à-pied">Trail &amp; course à pied</h1>
 
 <!-- TODO copywriter (D-2026-06-11-001) — chapô de travail ci-dessous -->
 <p>Arrivé tard à la course à pied, et c’est justement ce qui m’intéresse : ce que ça fait de recommencer débutant quelque part.</p>
@@ -420,10 +274,6 @@
     content="2018-12-07T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/homme_trail_foret.webp" />
   
@@ -445,7 +295,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -476,7 +325,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/homme_trail_foret.webp"
-    alt="Illustration de l'article : Mon premier trail"
+    alt="Mon premier trail"
     loading="lazy"
   />
      
@@ -495,27 +344,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="premier-trail-title"
-          href="mailto:?subject=Mon+premier+trail&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fpremier-trail.html%0A%0AJe+suis+plein+de+contradiction%2C+ceux+qui+me+connaissent+le+savent.+Il+y+a+quelques+semaines%2C+je+publiais+un+article+disant+que+je+n%E2%80%99ai+pas+besoin+de+comp%C3%A9tition+pour+m%E2%80%99entra%C3%AEner.+Cette+m%C3%AAme+semaine%2C+je+prenais+le+d%C3%A9part+de+ma+premi%C3%A8re+course+%C3%A0+pied%2C+un+trail+de+12km+qui+avait+lieu+derri%C3%A8re+chez+moi.+Dans+cet+article%2C+je+vous+parle+de+ma+pr%C3%A9paration%2C+des+questions+que+je+me+suis+pos%C3%A9+et%2C..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/premier-trail.html#disqus_thread"
-          aria-describedby="premier-trail-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/recits.html">Récits</a>
+      </li>
       
     </ul>
   </footer>
@@ -533,10 +368,6 @@
     content="2018-10-12T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="image" content="https://www.nicolasjouanno.com/images/posts/living-alone.webp" />
   
@@ -558,7 +389,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -589,7 +419,7 @@
   <img
     class="u-img u-img--cover u-img--rounded u-img--banner"
     src="/images/posts/living-alone.webp"
-    alt="Illustration de l'article : Sport et solitude, tout est dit non ?"
+    alt="Sport et solitude, tout est dit non ?"
     loading="lazy"
   />
      
@@ -608,27 +438,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="sport-solitude-title"
-          href="mailto:?subject=Sport+et+solitude%2C+tout+est+dit+non+%3F&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fsport-solitude.html%0A%0AJe+ne+me+suis+jamais+senti+aussi+seul+que+sur+mon+v%C3%A9lo%2C+mon+surf+ou+avec+mes+baskets.+Le+sport%2C+c%E2%80%99est+aussi+%C3%A7a%3A+la+solitude.+Lorsque+j%E2%80%99%C3%A9tais+cycliste+professionnel%2C+une+sitation+ma+marqu%C3%A9%2C+au+point+que+je+m%E2%80%99en+souvient+encore+aujourd%E2%80%99hui+%E2%80%A6+onze+ann%C3%A9es+apr%C3%A8s%21+%22La+solitude+est+l%27%C3%A9l%C3%A9ment+d%C3%A9terminant+de+la+condition+humaine%2C+seul+l%27homme+se+rend+compte+qu%27il+est+seul.%22+Le+Labyrinthe+de+la+solitude+%E2%80%94+Octavio+Paz..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/sport-solitude.html#disqus_thread"
-          aria-describedby="sport-solitude-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/recits.html">Récits</a>
+      </li>
       
     </ul>
   </footer>
@@ -648,11 +464,7 @@
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
   
-  
-  
-  
-  
-  <meta itemprop="headline" content="Premier 10 km : la méthode d'un champion, le contre-pied d'un coureur par plaisir" />
+  <meta itemprop="headline" content="Premier 10 km : méthode d’un champion et plaisir de courir" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html" />
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
@@ -670,7 +482,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -690,7 +501,7 @@
 
       <h3 class="u-full u-spacing--0" id="premier-10km-champion-vs-plaisir-title">
         <a class="u-link--dark" href="https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html"
-          >Premier 10 km : la méthode d'un champion, le contre-pied d'un coureur par plaisir</a
+          >Premier 10 km : méthode d’un champion et plaisir de courir</a
         >
       </h3>
       <meta itemprop="url" content="https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html" />
@@ -713,27 +524,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="premier-10km-champion-vs-plaisir-title"
-          href="mailto:?subject=Premier+10+km+%3A+la+m%C3%A9thode+d%27un+champion%2C+le+contre-pied+d%27un+coureur+par+plaisir&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fpremier-10km-champion-vs-plaisir.html%0A%0AOn+me+demande+parfois+comment+%C2%AB+se+mettre+%C3%A0+la+course+%C2%BB+et+boucler+un+premier+10+km.+J%E2%80%99ai+deux+aveux+et+une+bonne+nouvelle.+Aveu+n%C2%B01+%3A+je+n%E2%80%99ai+jamais+couru+de+10+km+sur+route+de+ma+vie.+Aveu+n%C2%B02+%3A+je+m%E2%80%99entra%C3%AEne+%C3%A0+la+sensation%2C+pas+au+plan.+La+bonne+nouvelle+%3A+j%E2%80%99ai+re%C3%A7u+sur+mon+podcast+Ga%C3%ABl+Le+Bellec%2C+triple+champion+du+monde+de+duathlon%2C+qui..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html#disqus_thread"
-          aria-describedby="premier-10km-champion-vs-plaisir-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/guides.html">Guides</a>
+      </li>
       
     </ul>
   </footer>
@@ -751,10 +548,6 @@
     content="2019-01-24T00:00:00+00:00"
   />
   <meta itemprop="author" content="Nicolas Jouanno" />
-  
-  
-  
-  
   
   <meta itemprop="headline" content="Podcast #1 - Gael Le Bellec, 3x champion du monde de duathlon" />
   <meta itemprop="mainEntityOfPage" content="https://www.nicolasjouanno.com/podcast-gael-le-bellec.html" />
@@ -774,7 +567,6 @@
   <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
   <link itemprop="sameAs" href="https://github.com/jn-prod" />
   <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://fr.wikipedia.org/wiki/Nicolas_Jouanno" />
   <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
   <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
   <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
@@ -817,27 +609,13 @@
         </a>
       </li>
 
-      <li>
-        <a
-          class="c-button"
-          aria-describedby="podcast-gael-le-bellec-title"
-          href="mailto:?subject=Podcast+%231+-+Gael+Le+Bellec%2C+3x+champion+du+monde+de+duathlon&body=Je+voulais+te+partager+ce+post+%3A%0A%0Ahttps%3A%2F%2Fwww.nicolasjouanno.com%2Fpodcast-gael-le-bellec.html%0A%0AAujourd%E2%80%99hui%2C+je+re%C3%A7ois+au+micro+du+podcast+Gael+Le+Bellec%2C+notre+breton+triple+champion+du+monde+de+duathlon.+Dans+cet+%C3%A9pisode%2C+Gael+nous+parle+de+son+pass%C3%A9+de+coureur+cycliste%2C+de+sa+transition+au+duathlon.+Il+nous+raconte+des+souvenirs+qui+seront+pour+lui+inoubliables+et+qu%E2%80%99il+transmettra+%C3%A0+son+fils.+Il+nous+parle+aussi+de+ces+moments+de+doutes+qui+conditionnent+la+vie+d%E2%80%99un+sportif+et+comment+il+les..."
-          >Partager
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="c-button"
-          href="https://www.nicolasjouanno.com/podcast-gael-le-bellec.html#disqus_thread"
-          aria-describedby="podcast-gael-le-bellec-title"
-        >
-          Commenter
-        </a>
-      </li>
-
       
-      <li class="c-tag">#Outdoor</li>
+      
+      
+      
+      <li>
+        <a class="c-tag" href="/recits.html">Récits</a>
+      </li>
       
     </ul>
   </footer>
@@ -861,9 +639,6 @@
       </p>
     </footer>
 
-    <!-- JavaScript
-        ================================================== -->
-    <script src="/assets/main.js" async></script>
     <!-- Cloudflare Web Analytics -->
     <script
       defer
@@ -872,10 +647,5 @@
     ></script>
     <!-- End Cloudflare Web Analytics -->
 
-    <!-- disqus (lazy-load via IntersectionObserver) -->
-    
-
-    <!-- webmentions -->
-    
   </body>
 </html>

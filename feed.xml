@@ -7,21 +7,17 @@
   <channel>
     <language>fr</language>
     <title>Nicolas Jouanno</title>
-    <description></description>
+    <description>J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten.</description>
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Tue, 08 Sep 2026 05:59:49 +0000</pubDate>
-    <lastBuildDate>Tue, 08 Sep 2026 05:59:49 +0000</lastBuildDate>
+    <pubDate>Tue, 08 Sep 2026 11:33:01 +0000</pubDate>
+    <lastBuildDate>Tue, 08 Sep 2026 11:33:01 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
 
     
-      
-      
-      
-      
       <item>
         <title>J&apos;ai tué mon SaaS. Je l&apos;ai reconstruit comme agent IA.</title>
         <description><![CDATA[
@@ -135,17 +131,15 @@
         
         <category>création</category>
         
+        <category>projets</category>
         
-        <category>Work</category>
+        
+        <category>recit</category>
         
       </item>
     
-      
-      
-      
-      
       <item>
-        <title>Premier 10 km : la méthode d&apos;un champion, le contre-pied d&apos;un coureur par plaisir</title>
+        <title>Premier 10 km : méthode d’un champion et plaisir de courir</title>
         <description><![CDATA[
           
           On me demande parfois comment « se mettre à la course » et boucler un premier 10 km. J’ai deux aveux et une bonne nouvelle. Aveu n°1 : je n’ai jamais couru de 10 km sur route de ma vie. Aveu n°2 : je m’entraîne à la sensation, pas au plan. La bonne nouvelle : j’ai reçu sur mon podcast Gaël Le Bellec, triple champion du monde de duathlon, qui lui sait exactement comment on structure une prépa. Alors plutôt qu’un énième plan tout fait, voici un regard croisé : sa méthode de champion, et mon contre-pied de coureur par plaisir. Prends ce qui te parle.
@@ -206,7 +200,7 @@
         <dc:creator>Nicolas Jouanno</dc:creator>
         
         
-        <category>Sport</category>
+        <category>sport</category>
         
         <category>course à pied</category>
         
@@ -217,16 +211,12 @@
         <category>débutant</category>
         
         
-        <category>Outdoor</category>
+        <category>guide</category>
         
       </item>
     
-      
-      
-      
-      
       <item>
-        <title>Sans gluten et sport d&apos;endurance : ce que le vélo pro et la maladie cœliaque m&apos;ont appris</title>
+        <title>Sans gluten et sport d’endurance : mon expérience de cycliste et parent</title>
         <description><![CDATA[
           
           J’ai vécu deux rapports très différents à l’assiette. Pendant mes années de cycliste professionnel, tout tournait autour du carburant : combien de glucides, à quel moment, pour tenir le watt sur la durée. Aujourd’hui, en tant que parent d’un enfant cœliaque, je lis chaque étiquette avec la même rigueur — mais pour une autre raison : éviter le moindre gramme de gluten.
@@ -284,18 +274,12 @@
         <category>nutrition</category>
         
         
-        <category>Life</category>
-        
-        <category>Outdoor</category>
+        <category>guide</category>
         
       </item>
     
-      
-      
-      
-      
       <item>
-        <title>RE : (Bad) BUZZ et désinformation autour du remboursement de la galette des rois sans gluten</title>
+        <title>Galette sans gluten : ce que rembourse réellement l’Assurance Maladie</title>
         <description><![CDATA[
           
           Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :
@@ -415,15 +399,13 @@ en supposant que :</p>
         
         <category>maladie-coeliaque</category>
         
+        <category>nutrition</category>
         
-        <category>Life</category>
+        
+        <category>recit</category>
         
       </item>
     
-      
-      
-      
-      
       <item>
         <title>Retrouver le fil - pourquoi je recentre tout sur un seul site</title>
         <description><![CDATA[
@@ -470,15 +452,13 @@ séparer, cloisonner, multiplier les adresses.</p>
         
         <category>creation</category>
         
+        <category>projets</category>
         
-        <category>Life</category>
+        
+        <category>recit</category>
         
       </item>
     
-      
-      
-      
-      
       <item>
         <title>Podcast #1 - Gael Le Bellec, 3x champion du monde de duathlon</title>
         <description><![CDATA[
@@ -505,17 +485,23 @@ séparer, cloisonner, multiplier les adresses.</p>
         <dc:creator>Nicolas Jouanno</dc:creator>
         
         
-        <category>Sport</category>
+        <category>sport</category>
+        
+        <category>podcast</category>
+        
+        <category>duathlon</category>
+        
+        <category>cyclisme</category>
+        
+        <category>champion</category>
+        
+        <category>trail</category>
         
         
-        <category>Outdoor</category>
+        <category>recit</category>
         
       </item>
     
-      
-      
-      
-      
       <item>
         <title>Pourquoi tombons-nous ?</title>
         <description><![CDATA[
@@ -672,19 +658,17 @@ séparer, cloisonner, multiplier les adresses.</p>
         <enclosure url="https://www.nicolasjouanno.com/images/posts/route-de-montagne.webp" type="image/webp"/>
         
         
-        <category>Sport</category>
+        <category>sport</category>
         
-        <category>Chute</category>
+        <category>chute</category>
+        
+        <category>vtt</category>
         
         
-        <category>Outdoor</category>
+        <category>recit</category>
         
       </item>
     
-      
-      
-      
-      
       <item>
         <title>Mon premier trail</title>
         <description><![CDATA[
@@ -733,21 +717,17 @@ séparer, cloisonner, multiplier les adresses.</p>
         <enclosure url="https://www.nicolasjouanno.com/images/posts/homme_trail_foret.webp" type="image/webp"/>
         
         
-        <category>Trail</category>
+        <category>trail</category>
         
-        <category>Competition</category>
+        <category>competition</category>
         
-        <category>Debut</category>
+        <category>debut</category>
         
         
-        <category>Outdoor</category>
+        <category>recit</category>
         
       </item>
     
-      
-      
-      
-      
       <item>
         <title>Vélo, Boulot, Dodo</title>
         <description><![CDATA[
@@ -784,23 +764,21 @@ séparer, cloisonner, multiplier les adresses.</p>
         <enclosure url="https://www.nicolasjouanno.com/images/posts/tshirt_velo-boulot-dodo.webp" type="image/webp"/>
         
         
-        <category>Textile</category>
+        <category>textile</category>
         
-        <category>T-shirt</category>
+        <category>t-shirt</category>
         
-        <category>Création</category>
+        <category>création</category>
         
-        <category>Projet</category>
+        <category>projet</category>
+        
+        <category>vtt</category>
         
         
-        <category>Outdoor</category>
+        <category>recit</category>
         
       </item>
     
-      
-      
-      
-      
       <item>
         <title>Comment progresser sans compétition ?</title>
         <description><![CDATA[
@@ -952,16 +930,18 @@ Ce qui est top avec ce calcul, c’est qu’il permet de comparer des séances e
         <enclosure url="https://www.nicolasjouanno.com/images/posts/1029035155.webp" type="image/webp"/>
         
         
-        <category>Sport</category>
+        <category>sport</category>
         
-        <category>Compétition</category>
+        <category>compétition</category>
         
-        <category>Reconversion</category>
+        <category>reconversion</category>
         
-        <category>Entrainement</category>
+        <category>entrainement</category>
+        
+        <category>vtt</category>
         
         
-        <category>Outdoor</category>
+        <category>recit</category>
         
       </item>
     
