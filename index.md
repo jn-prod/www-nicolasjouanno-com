@@ -40,18 +40,4 @@ La maladie cœliaque est entrée dans notre vie familiale et a changé des geste
 
 L’Europe est devenue notre jardin familial. Nous la parcourons en van au rythme des vacances à la recherche de lieu où marcher, courir, rouler, ... et réussir à manger sans gluten loin de ses repères.
 
-## En ce moment
-
-<ul class="u-list">
-  {% assign public_posts = site.posts | where_exp: "post", "post.archive != true" %}
-  {% assign shown_count = 0 %}
-  {% for post in public_posts %}
-    {% unless post.categories contains "Work" %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y" }})</li>
-      {% assign shown_count = shown_count | plus: 1 %}
-      {% if shown_count == 3 %}{% break %}{% endif %}
-    {% endunless %}
-  {% endfor %}
-</ul>
-
 <p><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a></p>

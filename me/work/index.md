@@ -87,7 +87,7 @@ Tout commence par le vélo. Une blessure, en 2010, me met hors course et me fait
 
 ## Articles tech & IA
 
-{% include components/hub-list.html category="Work" archive_url="/posts.html#work" %}
+{% include components/post-list.html category="Work" %}
 
 <div class="u-text--center">
   <ul class="c-button-stack c-button-stack--center u-list">

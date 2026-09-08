@@ -31,14 +31,15 @@ layout: page
         {%- endif -%}
       {%- endfor -%}
     {%- endunless -%}
-    {%- if page_verticale -%}
+    <p class="c-post__breadcrumb">
+      <a href="/posts.html">Toutes les publications</a>
+      {%- if page_verticale -%}
       {%- assign v = site.data.taxonomie.verticales | where: "slug", page_verticale | first -%}
       {%- if v -%}
-        <p class="c-post__breadcrumb">
-          <a href="{{ v.permalink }}">← Tous les articles {{ v.label }}</a>
-        </p>
+        <span aria-hidden="true"> · </span><a href="{{ v.permalink }}">{{ v.label }}</a>
       {%- endif -%}
-    {%- endif -%}
+      {%- endif -%}
+    </p>
   </header>
 
   {% assign page_image_source = page.image %}

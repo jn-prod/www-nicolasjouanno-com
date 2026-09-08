@@ -1,5 +1,6 @@
 ---
-layout: hub
+layout: category
+category: vtt
 title: "VTT — pratique, réglages, entraînement et sorties"
 description: "Régler ses suspensions, choisir sa taille de vélo, construire un plan d'entraînement et retrouver mes sorties et courses."
 permalink: /vtt/

@@ -7,19 +7,10 @@ permalink: "/posts.html"
 
 # Articles
 
-<div id="post-filters" class="c-button-stack u-spacing--block-end-medium" role="group" aria-label="Filtrer par thème">
-  <button type="button" class="c-button c-button--dark" data-filter="all" aria-pressed="true">Tous</button>
-  {%- for v in site.data.taxonomie.verticales -%}
-    {%- if v.visible_footer -%}
-      <button type="button" class="c-button c-button--dark-outline" data-filter="{{ v.slug }}" aria-pressed="false">{{ v.label }}</button>
-    {%- endif -%}
-  {%- endfor -%}
-</div>
-
-<ul class="u-list c-section__post-list" id="all-posts">
+<ul class="u-list c-section__post-list">
   {%- for post in site.posts -%}
     {%- unless post.archive -%}
-      <li class="c-section__post-item" data-category="{{ post.verticale }}">{%- include /components/post.html -%}</li>
+      <li class="c-section__post-item">{%- include /components/post.html -%}</li>
     {%- endunless -%}
   {%- endfor -%}
 </ul>

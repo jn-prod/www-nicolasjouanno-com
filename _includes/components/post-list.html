@@ -1,0 +1,41 @@
+{%- comment -%}
+  Liste éditoriale utilisée par les pages de catégorie et les anciennes pages
+  de format. Une catégorie reconnaît à la fois le contrat Markdown actuel
+  (`categories`) et les métadonnées historiques (`verticale`, `sous_silo`).
+{%- endcomment -%}
+
+{%- assign posts = site.posts -%}
+
+{%- if include.format -%}
+  {%- assign posts = posts | where: "format", include.format -%}
+{%- endif -%}
+{%- if include.category -%}
+  {%- assign category_posts = "" | split: "" -%}
+  {%- for candidate in posts -%}
+    {%- if candidate.categories contains include.category or candidate.verticale == include.category or candidate.sous_silo == include.category -%}
+      {%- assign category_posts = category_posts | push: candidate -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign posts = category_posts -%}
+{%- endif -%}
+{%- unless include.format == "actu" -%}
+  {%- assign posts = posts | where_exp: "p", "p.archive != true" -%}
+{%- endunless -%}
+
+{%- assign highlights = posts | where: "featured", true -%}
+{%- if highlights.size > 0 -%}
+  <h2>À lire en premier</h2>
+  <ul class="u-list c-section__post-list">
+    {%- for post in highlights -%}
+      <li class="c-section__post-item">{%- include /components/post.html -%}</li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+
+{%- assign rest = posts | where_exp: "p", "p.featured != true" -%}
+<h2>Toutes les publications</h2>
+<ul class="u-list c-section__post-list">
+  {%- for post in rest -%}
+    <li class="c-section__post-item">{%- include /components/post.html -%}</li>
+  {%- endfor -%}
+</ul>
