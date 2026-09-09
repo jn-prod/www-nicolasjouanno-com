@@ -45,12 +45,6 @@
       title="RSS"
       href="/feed.xml"
     />
-    <link
-      rel="alternate"
-      type="application/feed+json"
-      title="JSON Feed"
-      href="/feed.json"
-    />
 
     <!-- Fonts (non-bloquant + font-display: swap) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -233,11 +227,7 @@
 
   <!-- body -->
   
-  <body
-    class="c-layout c-layout--layout-post"
-    itemscope
-    itemtype="http://schema.org/WebPage"
-  >
+  <body class="c-layout c-layout--layout-post">
     <a href="#main-content" class="skip-link">Aller au contenu</a>
     <header role="banner" class="c-layout__header">
       <div class="c-navigation">
@@ -325,57 +315,36 @@
 ================================================== -->
 
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
-  <time
-    itemprop="dateCreated datePublished dateModified"
-    datetime="2026-07-10"
-  ></time>
+<article>
+  <time datetime="2026-07-10"></time>
 
   <!-- Post heading -->
   <header>
-    <h1 itemprop="name headline">J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA.</h1>
+    <h1>J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA.</h1>
     <div class="c-layout__author">
       <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
-<div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+<div>
   <a href="/" class="u-link--dark">
-    <span itemprop="name">Nicolas Jouanno</span>
+    Nicolas Jouanno
   </a>
-  <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-    <meta itemprop="url" content="https://www.nicolasjouanno.com/images/icons/avatar.svg" />
-    <meta itemprop="width" content="60" />
-    <meta itemprop="height" content="60" />
-  </span>
-  <meta itemprop="url" content="https://www.nicolasjouanno.com" />
-  <link itemprop="sameAs" href="https://www.linkedin.com/in/nicolasjouanno/" />
-  <link itemprop="sameAs" href="https://github.com/jn-prod" />
-  <link itemprop="sameAs" href="https://x.com/byNicolasJD" />
-  <link itemprop="sameAs" href="https://www.strava.com/athletes/njouanno" />
-  <link itemprop="sameAs" href="https://www.instagram.com/bynicolasjd/" />
-  <link itemprop="sameAs" href="https://www.threads.com/@bynicolasjd" />
-  <link itemprop="sameAs" href="https://www.youtube.com/@byNicolasJD" />
   <div class="c-meta">
     <span>@bynicolasjd</span>
     ·
     <time
-      itemprop="dateCreated datePublished dateModified"
       datetime="2026-07-10T00:00:00+00:00"
     >
-      10 July 2026
+      10/07/2026
     </time>
   </div>
 </div>
 
     </div>
-    <meta
-      itemprop="url mainEntityOfPage"
-      content="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html"
-    />
   </header>
 
   
 
   <!-- Post Content -->
-  <div itemprop="articleBody"><p>On commence à appeler ça le SaaSpocalypse.</p>
+  <div><p>On commence à appeler ça le SaaSpocalypse.</p>
 
 <p>L’idée est simple : pendant quinze ans, on a vendu du logiciel au siège et à l’abonnement. Une app par problème, un serveur, une base, un compte, un paiement mensuel. L’IA fait fondre ce modèle — littéralement : en février 2026, environ <strong>285 milliards de dollars</strong> se sont évaporés des valeurs SaaS en quarante-huit heures (<a href="https://www.thesaascfo.com/the-saaspocalypse-ai-agents-vibe-coding-and-the-changing-economics-of-saas/">The SaaS CFO</a> ; <a href="https://thepaypers.com/fintech/expert-views/the-saaspocalypse-and-payments-who-survives-when-the-per-seat-model-dies">The Paypers</a>). Le diagnostic du marché tient en une phrase : quand un agent fait le travail de dix personnes, on ne paie plus dix sièges.</p>
 
