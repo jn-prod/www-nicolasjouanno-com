@@ -7,7 +7,7 @@ tags:
   - email
   - inbox-zero
   - organisation
-  - projets
+  - work
 image: /images/posts/e0a38-10yto40xd793dweahzoxsta.webp
 ---
 

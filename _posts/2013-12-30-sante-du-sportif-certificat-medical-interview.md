@@ -1,5 +1,6 @@
 ---
-category: recit
+category: actu
+archive: true
 noindex: true
 sitemap: false
 title: "Santé du sportif et certificat médical : le point avec le médecin"

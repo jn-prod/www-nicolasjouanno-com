@@ -1,6 +1,6 @@
 # www.nicolasjouanno.com
 
-Site personnel de Nicolas Jouanno : le fil durable de ses récits, guides et projets. Site statique généré avec Jekyll, déployé sur GitHub Pages.
+Site personnel de Nicolas Jouanno : le fil durable de ses publications et des outils nés de besoins vécus. Site statique généré avec Jekyll, déployé sur GitHub Pages.
 
 ## Stack
 
@@ -73,7 +73,7 @@ image_alt: "Description fidèle de la photo"
 ```
 
 - `category` alimente les pages Guides, Récits et Archive ainsi que le fil d’Ariane.
-- `tags` alimente les pages thématiques VTT, Trail, Nutrition, Sans gluten et Projets.
+- `tags` alimente les pages thématiques VTT, Trail, Nutrition, Sans gluten et Work.
 - Les pages qui portent un champ `tag` définissent les sujets publics ; les tags plus précis restent libres.
 - La source d’une photo reste dans `images/` ; le build publie sa version WebP dans `images/posts/`.
 

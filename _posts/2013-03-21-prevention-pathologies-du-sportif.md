@@ -1,5 +1,6 @@
 ---
-category: guide
+category: actu
+archive: true
 noindex: true
 sitemap: false
 title: "Entretenir son corps n'est pas sans risque : les pathologies du sportif"

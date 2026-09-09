@@ -57,27 +57,7 @@ layout: page
   {% endif %}
 </article>
 
-<!-- Recommendations -->
-<aside>
-  <h2>⏭️ À lire ensuite</h2>
-
-  {% if page.previous or page.next %}
-  <p>Voici une sélection d'articles à découvrir :</p>
-  <ul class="u-list">
-    {% if page.previous %}
-    <li>
-      <a href="{{ page.previous.url | absolute_url }}"
-        >{{ page.previous.title }}</a
-      >
-    </li>
-    {% endif %} {% if page.next %}
-    <li>
-      <a href="{{ page.next.url | absolute_url }}">{{ page.next.title }}</a>
-    </li>
-    {% endif %}
-  </ul>
-  {% endif %}
-</aside>
+{% include components/related-posts.html %}
 
 <p class="u-spacing--block-start-medium">
   <a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a>

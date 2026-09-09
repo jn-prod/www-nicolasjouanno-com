@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "Gluten ou pas Gluten ? - Quiz"
-description: "Testez vos connaissances sur les aliments contenant du gluten"
+title: "Gluten ou pas gluten ? — Quiz"
+description: "Un quiz pour rendre visible le réflexe quotidien : gluten ou pas gluten ?"
 permalink: /apps/gluten-not-gluten/
 breadcrumb_hide: true
 ---
 
 <div class="c-quiz">
-  <h1 id="quiz-title">🌾 Gluten ou Pas Gluten ? Testez vos connaissances !</h1>
+  <h1 id="quiz-title">🌾 Gluten ou pas gluten ?</h1>
 
   <!-- Étape 1 : choix du niveau -->
   <section id="startScreen" class="c-quiz__screen" aria-labelledby="quiz-title">
     <div class="c-quiz__start">
-      <p>Êtes-vous capable de reconnaître les aliments qui contiennent du gluten ? Choisissez votre niveau et commencez le défi !</p>
+      <p>Pour une personne cœliaque, cette question accompagne les repas au quotidien. Ce quiz rend visible la charge mentale de ce réflexe : gluten ou pas gluten ?</p>
       <fieldset class="c-quiz__difficulty-buttons c-button-stack c-button-stack--vertical">
         <legend class="u-visually-hidden">Choisissez votre niveau de difficulté</legend>
         <input type="radio" id="diffLow" class="u-visually-hidden" name="difficulty" value="low" onchange="startQuiz(this.value)">
@@ -81,6 +81,12 @@ breadcrumb_hide: true
           <dd class="c-stat__value" id="accuracy">0%</dd>
         </div>
       </dl>
+
+      <aside class="c-card c-card--neutral c-card--medium c-callout">
+        <h2 class="c-callout__title">Le quiz est un point de départ</h2>
+        <p class="c-callout__text">La question continue à table, en voyage et au restaurant.</p>
+        <a href="/nutrition/sans-gluten.html" class="c-button c-button--dark-outline">Explorer le sujet Sans gluten</a>
+      </aside>
 
       <div class="c-quiz__share-buttons c-button-stack">
         <button class="c-button c-button--dark c-button--fullwidth" type="button" onclick="shareTwitter()">Partager sur Twitter</button>

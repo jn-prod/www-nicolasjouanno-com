@@ -8,7 +8,7 @@ tags:
   - jekyll
   - blog
   - plateforme
-  - projets
+  - work
 image: /images/posts/657b1-1tasnb14oyovxpbfjr6mg6w.webp
 ---
 

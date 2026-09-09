@@ -1,5 +1,6 @@
 ---
-category: guide
+category: actu
+archive: true
 title: "Test de la tige de selle telescopique Rockshox Reverb"
 description: "Quels sont les avantages d'une tige de selle télescopique ? Pourquoi avoir choisi le Rockshox Reverb ? Voici, le test."
 tags:

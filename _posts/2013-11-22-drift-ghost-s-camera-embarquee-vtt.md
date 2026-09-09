@@ -1,5 +1,6 @@
 ---
-category: guide
+category: actu
+archive: true
 title: "Drift Ghost-S : la caméra embarquée complète mais pas complexe"
 description: "Drift Innovation dévoile la Ghost-S : capteur Sony 12 Mpx, 1080p60, écran intégré, mode boîte noire et 3h30 d'autonomie. Présentation de la caméra d'action."
 tags:

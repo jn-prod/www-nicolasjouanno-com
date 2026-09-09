@@ -7,7 +7,7 @@ tags:
   - minimalisme
   - tech
   - creation
-  - projets
+  - work
 ---
 
 > **Mise à jour — septembre 2026.** Ce texte raconte le point de départ de ma réflexion, pas l'architecture actuelle. Je rassemble toujours mon histoire sous mon nom, mais plus dans un hub unique : les réseaux ouvrent la conversation, Substack entretient la relation, ce site conserve les contenus durables et les outils rendent le service.

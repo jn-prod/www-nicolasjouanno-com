@@ -1,5 +1,6 @@
 ---
-category: guide
+category: actu
+archive: true
 noindex: true
 sitemap: false
 title: "Pourquoi les étirements sont essentiels pour le VTT"

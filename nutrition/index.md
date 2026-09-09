@@ -3,22 +3,17 @@ layout: tag
 tag: nutrition
 label: Nutrition
 minimum_posts: 2
-title: "Nutrition sportive & sans gluten"
-description: "Ravitaillement d'effort, santé du sportif et alimentation sans gluten — vécu des deux côtés : ancien cycliste pro et parent d'un enfant cœliaque."
+title: "Nutrition — du ravitaillement sportif à la table familiale"
+description: "Du ravitaillement d’effort à l’alimentation familiale : les repères que le sport et le sans gluten ont fait entrer dans notre quotidien."
 permalink: /nutrition/
 ---
 
 # Nutrition
 
-<!-- TODO copywriter (D-2026-06-11-001) — chapô de travail ci-dessous -->
-Parent d'un enfant **cœliaque** et ancien cycliste pro, je vis la nutrition des deux côtés : le sans-gluten du quotidien et le ravitaillement d'effort. Des repères concrets, du testé-en-vrai — pas un avis médical.
-
-<aside class="c-card c-card--flat c-card--medium" role="note">
-  <p>ℹ️ <strong>Ceci n'est pas un avis médical.</strong> Le diagnostic de la maladie cœliaque relève d'un médecin (et il ne faut <strong>pas</strong> supprimer le gluten avant les tests, sous peine de les fausser). Références fiables : <a href="https://www.ameli.fr/assure/sante/themes/intolerance-gluten-maladie-coeliaque">ameli.fr</a> et l'<a href="https://www.afdiag.fr/">AFDIAG</a>.</p>
-</aside>
+Le sport m’a appris à penser le ravitaillement et l’effort. La maladie cœliaque est ensuite entrée dans notre vie familiale et a déplacé cette attention vers les courses, la cuisine et la table. Cette page relie ces deux expériences ; elle ne remplace pas un avis médical.
 
 <aside class="c-card c-card--primary c-card--large c-callout">
-  <p class="c-callout__title">🌾 Le sans-gluten a sa propre page</p>
-  <p class="c-callout__text">Parent d'un enfant cœliaque : repères d'étiquetage, ravitaillement d'effort sans gluten, et un quiz pour aiguiser le réflexe.</p>
-  <a href="/nutrition/sans-gluten.html" class="c-button c-button--light">Sans gluten au quotidien</a>
+  <p class="c-callout__title">🌾 Sans gluten</p>
+  <p class="c-callout__text">Le vécu cœliaque, les repas à préparer ou à trouver en voyage, et le quiz qui rend cette vigilance visible.</p>
+  <a href="/nutrition/sans-gluten.html" class="c-button c-button--light">Découvrir le sans gluten</a>
 </aside>

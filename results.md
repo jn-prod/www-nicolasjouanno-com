@@ -1,29 +1,29 @@
 ---
 layout: page
 title: Cycliste pro, VTT & trail — palmarès et parcours sportif
-description: "De la compétition cycliste professionnelle (Bretagne Schuller, 2008–2010) à l’outdoor en famille : VTT, trail, van life. Palmarès et articles sportifs."
+description: "Du cyclisme professionnel chez Bretagne Schuller aux sentiers de VTT et de trail : mon parcours sportif et le palmarès conservé."
 permalink: /results.html
 ---
 
-# Cycliste professionnel, vttiste & outdoor
+# Cycliste professionnel, VTT & trail
 
 Le vélo m’a pris très tôt. Compétitions, stages, saisons — j’ai grimpé les catégories jusqu’à devenir [cycliste professionnel]({{ site.author.wikipedia }}) sous les couleurs de Bretagne Schuller. Cinq championnats de France, des courses 2.1 et 2.2, une vie organisée autour du watt et du kilomètre.
 
 La saison 2010 s’est terminée sans résultat — une blessure m’a mis hors course. L’arrêt m’a rendu quelque chose que la compétition m’avait pris : le plaisir de rouler pour rouler. Retour aux sentiers, VTT, trail, course à pied — sans chrono, sans dossard, sans classement.
 
-Aujourd’hui, j’explore l’outdoor en famille : van life à travers l’Europe, sentiers en Bretagne, bivouacs et cols. Le sport est resté le fil conducteur — à vitesse humaine.
+Aujourd’hui, je roule et je cours autrement. Avec ma famille, nous parcourons l’Europe en van, avec les vélos et les chaussures de trail dans les bagages. Le sport est resté le fil conducteur — à vitesse humaine.
 
 <p><a href="#palmares" class="c-button c-button--dark-outline">Voir mon palmarès cycliste</a></p>
 
-## Ce qui continue aujourd'hui
+## Ce qui continue aujourd’hui
 
-Le palmarès ci-dessous, c'est l'avant. Le vélo continue aujourd'hui à travers le [VTT](/vtt/), le [trail](/trail/) et les projets nés de cette pratique.
+Le palmarès est l’avant. Le vélo continue à travers le [VTT](/vtt/), le [trail](/trail/) et les outils nés de cette pratique.
 
-**Le projet :** [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) — calendrier des randos VTT en Bretagne, 12 000 vues/mois.
+[{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) est né en 2013 d’une question simple : où rouler dimanche ? C’est un calendrier de randonnées VTT en Bretagne, construit pour les personnes qui roulent.
 
 ## Palmarès cycliste {#palmares}
 
-Historique complet des saisons compétitives, 2004–2010.
+Les résultats détaillés conservés ici couvrent 2007 à 2010. La participation au Championnat de France de cyclo-cross 2004 fait aussi partie de ce parcours.
 
 ### Les temps forts
 
@@ -180,3 +180,11 @@ Pas de résultat dans le top 20 : une blessure a écourté la saison.
 #### 16ème
 
 - Le pertre (E)
+
+### 2004 (Cyclo-cross)
+
+- Participation au Championnat de France de cyclo-cross.
+
+## La suite, sur les sentiers
+
+La compétition est terminée, pas le mouvement. Je roule en [VTT](/vtt/), je cours sur les sentiers de [trail](/trail/) et je continue à partager ce qui naît de cette pratique, dont [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}).

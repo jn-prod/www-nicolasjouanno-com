@@ -1,0 +1,31 @@
+{%- assign related_subject = nil -%}
+{%- assign related_posts = nil -%}
+
+{%- for tag in page.tags -%}
+  {%- assign subject = site.pages | where: "tag", tag | first -%}
+  {%- if subject -%}
+    {%- assign related_subject = subject -%}
+    {%- assign related_posts = site.tags[tag] -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign related_count = 0 -%}
+{%- capture related_items -%}
+  {%- for candidate in related_posts -%}
+    {%- if candidate.url != page.url and candidate.archive != true and related_count < 2 -%}
+      <li><a href="{{ candidate.url | relative_url }}">{{ candidate.title }}</a></li>
+      {%- assign related_count = related_count | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- if related_count > 0 -%}
+<aside>
+  <h2>À lire ensuite</h2>
+  <p>Sur le même sujet, {{ related_subject.label | downcase }} :</p>
+  <ul class="u-list">
+    {{ related_items }}
+  </ul>
+</aside>
+{%- endif -%}

@@ -8,7 +8,7 @@ tags:
   - product-management
   - code
   - startup
-  - projets
+  - work
 image: /images/posts/maxresdefault.webp
 ---
 

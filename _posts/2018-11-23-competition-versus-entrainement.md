@@ -84,7 +84,7 @@ Vous voulez rester en intérieur? Allez faire quelques longueurs à la piscine e
 
 En bonus, pour les cyclistes plus hipster, allez rouler en pignon fixe! Bien avant la mode du fixie, je me rappelle qu'il m'avait été compliqué de me fabriquer ce vélo en pignon fixe pour rouler sur route à prix abordable. Ce qui n'est plus le cas, les pistards n'ont plus ce monopole! Le travail de force et de vélocité effectué naturellement en pignon fixe sur des sorties allant jusqu'à 2h est, selon mon expérience, inégalable. Avec mon 42-18, j'étais certain de ne pas sur-évaluer mon braquet, bridé sur le plat, véloce dans les descentes et en puissance dans les bosses.
 
-Je sais que ce n'est pas toujours simple de suivre son volume d'activité quand elles sont multiples. C'est pour répondre à mon propre problème que j'ai développé cet été une application web que j'ai appelée <a href="https://app.nicolasjouanno.com" target="_blank" rel="nofollow">Feezify:me</a>. Elle me permet de suivre mes activités sportives et de récupération. Je peux aussi évaluer ma forme du jour pour savoir quel point je dois prioriser: physique vs récupération. Je l'ai connecté avec Strava pour ne pas créer l'activité sur deux plateformes. Je mets "feezify:me" à disposition, <a href="https://app.nicolasjouanno.com" target="_blank" rel="nofollow">gratuitement ici</a>. Si tu as des idées pour la faire évoluer n'hésite pas à me le dire en réponse à cette story.
+Je sais que ce n'est pas toujours simple de suivre son volume d'activité quand elles sont multiples. C'est pour répondre à mon propre problème que j'avais développé une application web appelée Feezify:me. Elle me permettait de suivre mes activités sportives et de récupération, puis d’évaluer ma forme du jour pour savoir quel point prioriser : physique ou récupération. Je l'avais connectée avec Strava pour ne pas créer l'activité sur deux plateformes.
 
 ## Je ne m'entraine pas, je pratique.
 
@@ -110,7 +110,7 @@ Alors non je n'ai pas besoin de compétition pour m'entraîner car j'ai trouvé 
 
 ## Commencez à apprendre de votre entrainement
 
-_Vous avez dû noter mon silence de la semaine passée. Peut-être que vous pensez que c'est à cause du pont de la Toussain. Oui j'ai fait le pont ... Mais la raison est un peu plus originale. Vous ne le savez surement pas, j'écris mes articles au fil des semaines. Alors, si je vous dis que j'ai utilisé mon temps de créativité à ajouter une nouvelle fonctionnalité à l'application [feezify:me](https://app.nicolasjouanno.com) vous comprendrez que je ne peux pas courir plusieurs lièvres._
+_Vous avez dû noter mon silence de la semaine passée. Peut-être que vous pensez que c'est à cause du pont de la Toussain. Oui j'ai fait le pont ... Mais la raison est un peu plus originale. Vous ne le savez surement pas, j'écris mes articles au fil des semaines. Alors, si je vous dis que j'ai utilisé mon temps de créativité à ajouter une nouvelle fonctionnalité à l'application Feezify:me, vous comprendrez que je ne peux pas courir plusieurs lièvres._
 
 Aujourd'hui, je n'agrafe presque plus de dossard. Alors, je ne vais pas prendre un entraineur pour suivre mon entrainement comme avant. Je connais les basics, peut-être même plus. Alors, quand je parle d'entrainement autour de moi, je me pose toujours les mêmes questions:
 
@@ -128,7 +128,7 @@ Seulement voilà, quand on a plus d'entraineur, difficile de jouer à ce jeux du
 
 Alors, quand j'ai pensé à ce dont j'avais besoin pour m'entraîner plus intelligemment, j'ai commencé simplement. Mon premier objectif est de diminuer le risque de blessure. Dans nos vies d'actif on cumule principalement, j'en parle souvent, vie familiale, professionnelle et sociale. On comprend rapidement que la fatigue et le stress accumulé par l'organisme n'est pas seulement lié à la pratique sportive. Comment évaluer ma forme du jour ? J'ai fait des recherches, parler avec des entraineurs, repris les tableaux Excel que je remplissais, croisé tout ça ... Et "TADAM", j'ai formulé une petite formule pour calculer la forme quotidiennement.
 
-Comme je suis un peu geek, que je côtoie bien assez, les trop peu sexy, tableaux Excel, au boulot. Et que je voulais un effet miroir à la Blanche Neige ou boule d'Aladin, je me suis codé une petite application : [feezify:me](https://app.nicolasjouanno.com), qui est à votre disposition gratuitement ici.
+Comme je suis un peu geek, que je côtoie bien assez les trop peu sexy tableaux Excel au boulot, et que je voulais un effet miroir à la Blanche Neige ou boule d'Aladin, je m'étais codé une petite application : Feezify:me.
 
 Prendre en compte ma fatigue physique et psychologique pour évaluer ma forme était mon objectif de base. Je diminue pour les utilisateurs de l'application le risque de blessure, synonyme d'arrêt de tout sportif. Et même s'ils savent s'écouter, ils pourront mieux mettre le curseur entre le "je m'écoute trop ou pas assez" et éduquera ceux qui ne savent pas quoi écouter. Ceci donnes des bases à tout le monde !
 
@@ -140,5 +140,3 @@ Ce qui est top avec ce calcul, c'est qu'il permet de comparer des séances entre
 La prochaine étape est d'évaluer, les temps de récupération. Pour savoir si le temps de récupération est suffisant, ou à l'inverse trop important. S'il nous permet de progresser.
 
 En attendant, cette nouvelle fonctionnalité me permet de tester de nouvelles formules d'entrainement. J'ai également plus de recul sur mon entrainement et une façon différente de l'interpréter.
-
-Vous ne l'avez pas encore testée ?[feezify:me](https://app.nicolasjouanno.com) c'est par ici que ça se passe! Mais plus important encore, dites-moi si, vous aussi, vous lui trouvez de l'intérêt ? Si elle vous permet d'avoir un angle nouveau et intéressant sur votre entrainement. Et si elle rend jaloux votre coach !

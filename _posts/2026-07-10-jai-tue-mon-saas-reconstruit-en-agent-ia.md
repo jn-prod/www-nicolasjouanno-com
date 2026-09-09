@@ -7,7 +7,7 @@ tags:
   - systèmes agentiques
   - frontend
   - création
-  - projets
+  - work
 published: true
 ---
 
@@ -73,6 +73,6 @@ Et — c'est le point qui compte — **la méthode est ouverte.** Le dépôt est
 
 Parce que c'est, je crois, le mouvement de fond : on arrête de construire des apps, on construit des **agents qui s'installent sur l'IA des gens.** Et que la meilleure façon de comprendre une techno, c'est de la montrer par le vécu — ici, un vieux projet à moi, ressuscité autrement.
 
-Si tu lis tes propres données d'entraînement, feezify arrive en beta : la page — avec la liste d'attente pour l'avant-première — est **[ici](/feezify.html)**.
+Si tu lis tes propres données d'entraînement, la page de feezify est **[ici](/feezify.html)**. Les nouvelles de la beta passent par la newsletter de Nicolas.
 
 Et si tu construis des choses avec des agents, le dépôt est ouvert : **[github.com/jn-prod/feezify](https://github.com/jn-prod/feezify)**. La méthode est dedans, en clair.
