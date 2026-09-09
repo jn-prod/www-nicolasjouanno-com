@@ -19,8 +19,6 @@ Aujourd'hui, je roule et je cours autrement. Avec ma famille, nous parcourons l'
 
 Je crée et publie sur le web depuis plus de vingt ans. Je ne l'ai jamais fait selon une cadence régulière : j'y reviens quand une expérience mérite d'être partagée ou qu'un problème vécu appelle une réponse concrète. C'est ce fil qui relie des sujets qui pourraient sembler éloignés.
 
-<p><a href="/results.html?utm_source=home&utm_medium=proof&utm_campaign=ecosystem" class="c-button c-button--dark-outline">Mon palmarès cycliste</a></p>
-
 ## 🚵 VTT & trail
 
 Le vélo est mon premier sujet d’expression. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d'une question simple : où rouler dimanche ? [feezify](/feezify.html) prolonge l’histoire avec un copilote qui croise la charge d’entraînement et le ressenti pour lire la forme du jour. Le trail est arrivé après le vélo, avec le plaisir de recommencer comme débutant.
