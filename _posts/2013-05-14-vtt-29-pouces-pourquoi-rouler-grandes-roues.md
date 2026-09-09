@@ -1,6 +1,7 @@
 ---
 category: actu
 archive: true
+sitemap: false
 title: "VTT 29 pouces : pourquoi rouler en grandes roues"
 description: "Qu'est-ce qu'un VTT 29 pouces, d'où vient ce standard et quels sont ses avantages : confort, stabilité, rendement."
 tags:
@@ -10,11 +11,11 @@ tags:
   - matériel vtt
   - vtt
 image: /images/posts/16f6b-0wdbncxwigl4kvfon.webp
+image_alt: "Pourquoi rouler en 29 pouces"
 ---
 
 Le VTT 29 pouces est un vélo à grandes roues — oui, mais encore ? Dégrossissons ce qu'est un VTT 29 pouces et quels sont ses avantages.
 
-<img src="{{ site.url }}/images/posts/16f6b-0wdbncxwigl4kvfon.webp" alt="Pourquoi rouler en 29 pouces" />
 
 ## 1. Qu'est-ce qui définit une roue de 29 pouces ?
 

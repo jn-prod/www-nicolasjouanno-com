@@ -12,6 +12,7 @@ tags:
   - étirements vélo
   - vtt
 image: /images/posts/fdb77-0homugubvczfir3sy.webp
+image_alt: "Les bienfaits des étirements"
 ---
 
 ## « Un peu de souplesse ! »
@@ -37,7 +38,6 @@ L'**étirement** est une pratique qui vous aide à **développer la souplesse** 
 
 ## Le VTT et les étirements
 
-<img src="{{ site.url }}/images/posts/fdb77-0homugubvczfir3sy.webp" alt="Les bienfaits des étirements" />
 
 XC, DH, enduro, freeride, dirt, park… Le VTT est composé d'une pléiade de disciplines, toutes exigeantes pour l'organisme. Chutes, courbatures, problèmes de position, activité intensive, préparation d'événements : beaucoup de facteurs peuvent entraîner **fatigue musculaire**, **traumatismes** et **micro-traumatismes**. Améliorer votre **souplesse** grâce à une pratique régulière des **étirements** ne pourra que servir votre pratique et augmenter votre plaisir, quel que soit votre niveau.
 

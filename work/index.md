@@ -13,8 +13,6 @@ Le vélo a été mon premier cadre de travail. Une blessure, en 2010, m’a mis 
 
 Aujourd’hui, je suis Lead développeur frontend dans la core team de [MGDIS](https://github.com/MGDIS). Je développe et maintiens le design system, avec les Web Components et l’accessibilité RGAA comme exigences de départ. Ce parcours explique aussi les outils que je construis à partir de besoins vécus, sans faire de ce site un portfolio.
 
-## Publications
-
 {% include components/post-list.html tag="work" %}
 
 ## Repères

@@ -1,6 +1,7 @@
 ---
 category: actu
 archive: true
+sitemap: false
 title: "GoPro HERO3+ : la caméra embarquée plus petite et plus légère"
 description: "Avant-première de la GoPro HERO3+ Black Edition : plus compacte, plus légère, mode SuperView, Auto Low Light et meilleure autonomie. Le détail des nouveautés."
 tags:
@@ -10,13 +11,13 @@ tags:
   - matériel vtt
   - vtt
 image: /images/posts/a074c-0l8pyjzfrgkyirwve.webp
+image_alt: "GoPro HERO3+, plus petite et plus légère"
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3wbvpOIIBQA" title="GoPro HERO3+" frameborder="0" allowfullscreen></iframe>
 
 Une information toute fraîche : **GoPro** lance une nouvelle gamme de **caméras embarquées**, la **HERO3+**, avec des innovations qui vont une nouvelle fois faire évoluer le monde des caméras d'action.
 
-<img src="{{ site.url }}/images/posts/a074c-0l8pyjzfrgkyirwve.webp" alt="GoPro HERO3+, plus petite et plus légère" />
 
 ## GoPro HERO3+ Black Edition : les nouveautés
 

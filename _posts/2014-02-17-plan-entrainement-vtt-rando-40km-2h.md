@@ -9,6 +9,7 @@ tags:
   - préparation rando vtt
   - vtt
 image: /images/posts/d8edb-0mw_03xhl0mtujzgh.webp
+image_alt: "Un cardiofréquencemètre avec cadence"
 ---
 
 ## Pré-requis
@@ -20,7 +21,6 @@ image: /images/posts/d8edb-0mw_03xhl0mtujzgh.webp
 
 - Un **cardiofréquencemètre**.
 
-<img src="{{ site.url }}/images/posts/d8edb-0mw_03xhl0mtujzgh.webp" alt="Un cardiofréquencemètre avec cadence" />
 
 - Un **home-trainer**.
 

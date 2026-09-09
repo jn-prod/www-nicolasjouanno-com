@@ -9,6 +9,7 @@ tags:
   - vtt responsable
   - vtt
 image: /images/posts/b2ad1-0jz8kn8h4cwgy7ytz.webp
+image_alt: "La charte de la Mountain Bikers Foundation"
 ---
 
 ## La Mountain Bikers Foundation, c'est quoi ?
@@ -29,7 +30,6 @@ La MBF regroupe des représentants de l'industrie, des fédérations, des profes
 
 Elle est ouverte à toute personne physique ou morale : entreprises, associations, collectifs, professionnels, particuliers…
 
-<img src="{{ site.url }}/images/posts/b2ad1-0jz8kn8h4cwgy7ytz.webp" alt="La charte de la Mountain Bikers Foundation" />
 
 ## 1. Soyez éco-citoyen
 

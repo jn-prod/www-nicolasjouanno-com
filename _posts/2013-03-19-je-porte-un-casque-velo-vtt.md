@@ -9,6 +9,7 @@ tags:
   - prévention vélo
   - vtt
 image: /images/posts/8a8fb-0hctopcasbp8taxou.webp
+image_alt: "je porte un casque"
 ---
 
 ## 4 raisons de porter un casque
@@ -28,7 +29,6 @@ Dans cette vidéo, **apprenez à choisir et régler votre casque**. Votre casque
 - Réglage de la sangle du casque
 - Réglage du maintien occipital du casque
 
-<img src="{{ site.url }}/images/posts/8a8fb-0hctopcasbp8taxou.webp" alt="je porte un casque" />
 
 ## www.jeporte1casque.com
 

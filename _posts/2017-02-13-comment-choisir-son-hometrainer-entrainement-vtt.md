@@ -9,6 +9,7 @@ tags:
   - virtual-trainer
   - vtt
 image: /images/posts/dec76-0cscharjawldysi56.webp
+image_alt: "Home trainer au chaud vs VTT dans la boue?"
 ---
 
 Au programme :
@@ -34,11 +35,6 @@ Les modèles d’entrée de gamme remplacerons les petites sorties estivales d�
 Pour les utilisateurs cherchant un outil d’entrainement performant, regardez du côté des modèles d’home-trainer offrant une bonne résistance et un ordinateur de bord pour suivre les indicateurs de performance, type ergo-trainers et virtual-trainers.
 
 Sportif amateur ou professionnel, l’home-trainer est aujourd’hui devenu un outil essentiel.
-
-<figure>
-  <img alt="Home trainer au chaud vs VTT dans la boue?" src="{{ site.url }}/images/posts/dec76-0cscharjawldysi56.webp"/>
-  <figcaption>Home trainer au chaud vs VTT dans la boue?</figcaption>
-</figure>
 
 ## 1/ Choisir son mécanisme d’home-trainer {#mecanisme}
 

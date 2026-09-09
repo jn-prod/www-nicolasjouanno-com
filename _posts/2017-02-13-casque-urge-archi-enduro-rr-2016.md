@@ -1,6 +1,7 @@
 ---
 category: actu
 archive: true
+sitemap: false
 title: "Présentation du casque Urge Archi-Enduro RR"
 description: "Le premier casque d'enduro de compétition d'Urge, en version RR (Race Ready) : fibre de verre et de lin, 990 g, mentonnière travaillée, champ de vision élargi."
 tags:
@@ -10,13 +11,13 @@ tags:
   - matériel vtt
   - vtt
 image: /images/posts/a88c2-0b7px9w1n1pvqexaf.webp
+image_alt: "Casque Urge Archi-Enduro RR"
 ---
 
 <iframe src="https://player.vimeo.com/video/159232425" width="640" height="360" title="Urge Archi-Enduro RR" frameborder="0" allowfullscreen></iframe>
 
 ## Urge Archi-Enduro RR — 299 €
 
-<img src="{{ site.url }}/images/posts/a88c2-0b7px9w1n1pvqexaf.webp" alt="Casque Urge Archi-Enduro RR" />
 
 Le premier casque d'enduro de compétition pensé par Urge Bike Products revient complètement remanié, en version **RR**. Il reprend les bases de son grand frère, agrémentées d'un **look plus agressif** et d'un design contemporain proche de l'esthétique des casques intégraux.
 

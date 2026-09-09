@@ -1,6 +1,7 @@
 ---
 category: actu
 archive: true
+sitemap: false
 title: "Drift Ghost-S : la caméra embarquée complète mais pas complexe"
 description: "Drift Innovation dévoile la Ghost-S : capteur Sony 12 Mpx, 1080p60, écran intégré, mode boîte noire et 3h30 d'autonomie. Présentation de la caméra d'action."
 tags:
@@ -10,6 +11,7 @@ tags:
   - matériel vtt
   - vtt
 image: /images/posts/47161-0rip67q2-z6z_m5fn.webp
+image_alt: "La caméra embarquée Drift Ghost-S"
 ---
 
 ## Une caméra embarquée haut de gamme pour le sport
@@ -18,7 +20,6 @@ image: /images/posts/47161-0rip67q2-z6z_m5fn.webp
 
 Grenoble, 20 novembre 2013 — **Drift Innovation** dévoile sa nouvelle caméra embarquée haut de gamme pour le sport : la **Drift Ghost-S**, qui succède à l'une des caméras les plus vendues en 2013, la Drift HD Ghost.
 
-<img src="{{ site.url }}/images/posts/47161-0rip67q2-z6z_m5fn.webp" alt="La caméra embarquée Drift Ghost-S" />
 
 ## Ralentis, basse lumière et fonction dashcam
 

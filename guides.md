@@ -9,6 +9,4 @@ permalink: /guides.html
 
 # Guides
 
-<!-- TODO copywriter (D-2026-06-11-001) — chapô de travail ci-dessous -->
-
 Comment régler ses suspensions, construire un plan d'entraînement, choisir un pneu d'hiver, manger avant l'effort. Ce que j'ai appris en compétition, retraduit pour une pratique de loisir.

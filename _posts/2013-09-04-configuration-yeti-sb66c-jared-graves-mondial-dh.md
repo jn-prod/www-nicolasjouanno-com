@@ -11,9 +11,9 @@ tags:
   - configuration vtt dh
   - vtt
 image: /images/posts/5022a-0k5y25fuce70omq-h.webp
+image_alt: "Yeti SB66C de Jared Graves au championnat du monde de descente à Pietermaritzburg"
 ---
 
-<img src="{{ site.url }}/images/posts/5022a-0k5y25fuce70omq-h.webp" alt="Yeti SB66C de Jared Graves au championnat du monde de descente à Pietermaritzburg" />
 <em>Crédit photo : page Facebook Yeti Cycles.</em>
 
 ## Jared Graves au Mondial de DH 2013 avec son Yeti SB66C d'enduro

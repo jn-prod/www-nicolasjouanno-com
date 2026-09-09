@@ -9,6 +9,7 @@ tags:
   - amortisseur
   - réglage
 image: /images/posts/a3d50-0omp6q8ru_v_v0drm.webp
+image_alt: "Pompe Haute Pression pour Suspension ROCKSHOX"
 ---
 
 <em>Comment régler la fourche et l’amortisseur de votre VTT ? XC Marathon, enduro, DH, … de 100 à 200mm et plus, nos VTT sont tous, ou presque, équipés d’une fourche télescopique et d’un amortisseur. Gagner en stabilité, augmenter le confort, l’adhérence… votre VTT tout-suspendu à de nombreux avantages, mais faut-il encore que vos suspensions soit bien réglées! Découvrez ici les astuces et méthodes simples pour régler la fourche et l’amortisseur de votre VTT.</em>
@@ -37,11 +38,6 @@ Le ressort permet de s’adapter au poids du pilote, au terrain et au style de p
 Vous n’avez pas de pompe haute pression pour régler votre fourche et/ou amortisseur Fox, Rockshox, SR Suntour, Boss, … équipez-vous.
 
 Pour les fourches de VTT à élastomère/ressort, si vous souhaitez durcir ou assouplir votre fourche de manière significative, il conviens de les changer pour des références plus dures ou plus souples qui sont adaptées à la fourche de votre VTT.
-
-<figure>
-  <img alt="Pompe Haute Pression pour Suspension ROCKSHOX" src="{{ site.url }}/images/posts/a3d50-0omp6q8ru_v_v0drm.webp"/>
-  <figcaption>Pompe Haute Pression pour Suspension ROCKSHOX</figcaption>
-</figure>
 
 ### Un réglage réussis de la fourche et de l’amortisseur de votre VTT grâce au SAG
 

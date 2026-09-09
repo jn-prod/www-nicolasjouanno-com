@@ -9,6 +9,7 @@ tags:
   - progresser vtt
   - vtt
 image: /images/posts/d379f-0z0tfhj6okz30ro44.webp
+image_alt: "Entraînement VTT sur home-trainer"
 ---
 
 ## Comment le home-trainer rend votre entraînement plus efficace
@@ -25,7 +26,6 @@ Il vous permet de combler des **carences physiques et cardiaques** pour être pl
 - la force explosive (PMA) ;
 - la puissance.
 
-<img src="{{ site.url }}/images/posts/d379f-0z0tfhj6okz30ro44.webp" alt="Entraînement VTT sur home-trainer" />
 
 Notre coach **Tristan Le Corvec** vous propose quatre entraînements, parmi ces cinq filières, pour progresser, être plus compétitif ou simplement garder la forme.
 

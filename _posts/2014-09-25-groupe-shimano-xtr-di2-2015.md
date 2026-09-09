@@ -11,13 +11,13 @@ tags:
   - matériel vtt
   - vtt
 image: /images/posts/e210f-0cl6rllkmratuqcb6.webp
+image_alt: "XTR Di2 - Synchro Shift"
 ---
 
 ## Présentation du groupe Shimano XTR Di2 2015
 
 Traditionnellement le groupe élitiste de la firme japonaise, le **XTR** connaît une révolution à l'automne 2014. Découvert sur le VTT de **Julien Absalon** au départ de la 4ᵉ manche de Coupe du Monde à Albstadt — qu'il franchira en vainqueur, contribuant à son titre final en **XCO** —, le **XTR passe au Di2**. Cette appellation **Di2** de chez Shimano désigne une **transmission électronique** déjà développée sur la route depuis 2013. La nouveauté de la gamme : la transmission programmable **Synchro Shift**.
 
-<img src="{{ site.url }}/images/posts/e210f-0cl6rllkmratuqcb6.webp" alt="XTR Di2 - Synchro Shift" />
 
 ## Les innovations
 

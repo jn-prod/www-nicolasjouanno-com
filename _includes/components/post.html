@@ -3,19 +3,7 @@
 <article
   id="{{post.slug}}"
   class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight"
-  itemscope=""
-  itemtype="http://schema.org/BlogPosting"
 >
-  <meta
-    itemprop="datePublished"
-    content="{{ post.date | date_to_xmlschema }}"
-  />
-  <meta itemprop="author" content="{{ site.author.name }}" />
-  {% if post.image %}
-  <meta itemprop="image" content="{{ post.image | absolute_url }}" />
-  {% endif %}
-  <meta itemprop="headline" content="{{ post.title }}" />
-  <meta itemprop="mainEntityOfPage" content="{{ site.url }}{{ post.url }}" />
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
       {% include /components/author.html author=author post=post %}
@@ -25,7 +13,6 @@
           >{{ post.title }}</a
         >
       </h3>
-      <meta itemprop="url" content="{{ site.url}}{{post.url }}" />
     </div>
   </header>
 
