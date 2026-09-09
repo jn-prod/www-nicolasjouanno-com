@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tag
 tag: work
 label: Work
 permalink: /work/
@@ -12,8 +12,6 @@ description: "Du cyclisme professionnel au développement frontend : les publica
 Le vélo a été mon premier cadre de travail. Une blessure, en 2010, m’a mis hors course et m’a ouvert la porte du numérique. J’y suis entré par l’entrepreneuriat et la communication digitale ; le code s’est imposé ensuite, appris sur le tas et mis en production.
 
 Aujourd’hui, je suis Lead développeur frontend dans la core team de [MGDIS](https://github.com/MGDIS). Je développe et maintiens le design system, avec les Web Components et l’accessibilité RGAA comme exigences de départ. Ce parcours explique aussi les outils que je construis à partir de besoins vécus, sans faire de ce site un portfolio.
-
-{% include components/post-list.html tag="work" %}
 
 ## Repères
 
