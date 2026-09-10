@@ -11,8 +11,8 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Wed, 09 Sep 2026 18:42:16 +0000</pubDate>
-    <lastBuildDate>Wed, 09 Sep 2026 18:42:16 +0000</lastBuildDate>
+    <pubDate>Thu, 10 Sep 2026 11:53:21 +0000</pubDate>
+    <lastBuildDate>Thu, 10 Sep 2026 11:53:21 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
@@ -798,6 +798,8 @@ séparer, cloisonner, multiplier les adresses.</p>
         
         <category>trail</category>
         
+        <category>sport</category>
+        
         <category>competition</category>
         
         <category>debut</category>
@@ -865,6 +867,8 @@ séparer, cloisonner, multiplier les adresses.</p>
         <category>projet</category>
         
         <category>vtt</category>
+        
+        <category>sport</category>
         
         
         <category>recit</category>
