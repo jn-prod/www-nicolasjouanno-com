@@ -10,6 +10,7 @@ tags:
   - choisir vtt
   - matériel vtt
   - vtt
+  - sport
 image: /images/posts/16f6b-0wdbncxwigl4kvfon.webp
 image_alt: "Pourquoi rouler en 29 pouces"
 ---

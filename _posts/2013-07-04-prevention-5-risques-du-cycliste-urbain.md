@@ -10,6 +10,7 @@ tags:
   - sécurité vélo
   - cycliste en ville
   - vtt
+  - sport
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZzeVxHcxXaI" title="Les 5 risques du cycliste urbain" frameborder="0" allowfullscreen></iframe>

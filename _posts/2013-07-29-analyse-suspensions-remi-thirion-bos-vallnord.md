@@ -10,6 +10,7 @@ tags:
   - coupe du monde dh
   - réglage suspension vtt
   - vtt
+  - sport
 ---
 
 Sur la Coupe du Monde de DH de Vallnord, en Andorre, **Rémi Thirion** (Commençal) — avant de remporter l'épreuve devant « l'homme à battre » de la saison, Gee Atherton (GT Bicycles) — avait déjà commencé à faire parler de lui aux qualifs.

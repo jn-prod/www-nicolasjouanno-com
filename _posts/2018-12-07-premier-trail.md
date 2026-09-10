@@ -4,6 +4,7 @@ title: Mon premier trail
 description: "Récit de ma première course de trail : préparation, stratégie de course et retour sur un 13km dans les bois bretons, côté émotions et performances."
 tags:
   - trail
+  - sport
   - competition
   - debut
 image: /images/posts/homme_trail_foret.webp

@@ -65,6 +65,7 @@ title: "Titre"
 description: "Description"
 category: guide # guide, recit ou actu
 tags:
+  - sport
   - vtt
   - nutrition
 image: /images/posts/nom-du-fichier.webp
@@ -73,8 +74,8 @@ image_alt: "Description fidèle de la photo"
 ```
 
 - `category` alimente les pages Guides, Récits et Archive ainsi que le fil d’Ariane.
-- `tags` alimente les pages thématiques VTT, Trail, Nutrition, Sans gluten et Work.
-- Les pages qui portent un champ `tag` définissent les sujets publics ; les tags plus précis restent libres.
+- `tags` alimente les pages thématiques Sport, VTT, Trail, Nutrition, Sans gluten et Work. Les publications VTT et trail portent aussi le tag parent `sport`.
+- Les pages qui portent un champ `tag` définissent les sujets publics ; `parent_tag` relie une page à son sujet parent dans le fil d’Ariane. Les tags plus précis restent libres.
 - La source d’une photo reste dans `images/` ; le build publie sa version WebP dans `images/posts/`.
 
 ## Design system

@@ -9,6 +9,7 @@ tags:
   - entrainement physique vtt
   - planning entrainement vtt
   - vtt
+  - sport
 permalink: "/entrainement-vtt.html"
 featured: true
 image: /images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.webp

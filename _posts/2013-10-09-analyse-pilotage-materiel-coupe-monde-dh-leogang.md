@@ -10,6 +10,7 @@ tags:
   - analyse vidéo vtt
   - norco dirt
   - vtt
+  - sport
 ---
 
 <iframe src="https://player.vimeo.com/video/76152647" width="640" height="360" title="Analyse vidéo - Coupe du Monde de DH de Léogang" frameborder="0" allowfullscreen></iframe>

@@ -8,6 +8,7 @@ tags:
   - entrainement hiver vtt
   - progresser vtt
   - vtt
+  - sport
 image: /images/posts/d379f-0z0tfhj6okz30ro44.webp
 image_alt: "Entraînement VTT sur home-trainer"
 ---

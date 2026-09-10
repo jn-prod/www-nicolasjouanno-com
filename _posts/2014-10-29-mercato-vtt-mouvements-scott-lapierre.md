@@ -10,6 +10,7 @@ tags:
   - scott odlo
   - actualité vtt
   - vtt
+  - sport
 ---
 
 ## Lapierre Gravity Republic : Finn Iles entre, Blenkinsop et Ragot sortent

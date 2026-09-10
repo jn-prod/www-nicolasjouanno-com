@@ -11,6 +11,7 @@ tags:
   - récupération vtt
   - étirements vélo
   - vtt
+  - sport
 image: /images/posts/fdb77-0homugubvczfir3sy.webp
 image_alt: "Les bienfaits des étirements"
 ---

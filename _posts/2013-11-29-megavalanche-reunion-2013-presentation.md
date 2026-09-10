@@ -10,6 +10,7 @@ tags:
   - enduro
   - actualité vtt
   - vtt
+  - sport
 ---
 
 À 24 h du lancement des hostilités sur les pentes de Saint-Paul, sur l'île de la Réunion, des centaines de riders inconditionnels se préparent pour la **19ᵉ édition de cette épreuve mythique**. Un plateau de premier ordre clôturera la saison VTT 2013 dans un cadre de rêve, entre plages, volcans et montagnes.

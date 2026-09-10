@@ -10,6 +10,7 @@ tags:
   - groupe vtt
   - matériel vtt
   - vtt
+  - sport
 image: /images/posts/e210f-0cl6rllkmratuqcb6.webp
 image_alt: "XTR Di2 - Synchro Shift"
 ---

@@ -10,6 +10,7 @@ tags:
   - enduro
   - actualité vtt
   - vtt
+  - sport
 ---
 
 *Communiqué de la direction de course de la Mega 2014.*

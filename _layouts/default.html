@@ -276,28 +276,28 @@
       <ul class="u-list c-navigation__link-list">
         <li class="c-navigation__link-list-element">
           <a
-            class="c-button {% if page.url contains '/vtt/' %}c-button--active{% endif %}"
-            {% if page.url contains '/vtt/' %}aria-current="page"{% endif %}
-            href="{{ site.url }}/vtt/"
-            >VTT</a
+            class="c-button {% if page.url == '/sport/' or page.url contains '/vtt/' or page.url contains '/trail/' or page.tags contains 'sport' %}c-button--active{% endif %}"
+            {% if page.url == '/sport/' or page.url contains '/vtt/' or page.url contains '/trail/' or page.tags contains 'sport' %}aria-current="page"{% endif %}
+            href="{{ site.url }}/sport/"
+            >Sport</a
           >
         </li>
 
         <li class="c-navigation__link-list-element">
           <a
-            class="c-button {% if page.url contains '/trail/' %}c-button--active{% endif %}"
-            {% if page.url contains '/trail/' %}aria-current="page"{% endif %}
-            href="{{ site.url }}/trail/"
-            >Trail</a
-          >
-        </li>
-
-        <li class="c-navigation__link-list-element">
-          <a
-            class="c-button {% if page.url == '/nutrition/sans-gluten.html' %}c-button--active{% endif %}"
-            {% if page.url == '/nutrition/sans-gluten.html' %}aria-current="page"{% endif %}
+            class="c-button {% if page.url == '/nutrition/sans-gluten.html' or page.tags contains 'sans-gluten' %}c-button--active{% endif %}"
+            {% if page.url == '/nutrition/sans-gluten.html' or page.tags contains 'sans-gluten' %}aria-current="page"{% endif %}
             href="{{ site.url }}/nutrition/sans-gluten.html"
             >Sans gluten</a
+          >
+        </li>
+
+        <li class="c-navigation__link-list-element">
+          <a
+            class="c-button {% if page.url == '/work/' or page.tags contains 'work' %}c-button--active{% endif %}"
+            {% if page.url == '/work/' or page.tags contains 'work' %}aria-current="page"{% endif %}
+            href="{{ site.url }}/work/"
+            >Work</a
           >
         </li>
 

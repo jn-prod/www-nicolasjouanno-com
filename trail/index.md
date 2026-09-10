@@ -1,6 +1,7 @@
 ---
 layout: tag
 tag: trail
+parent_tag: sport
 label: Trail
 minimum_posts: 2
 title: "Trail & course à pied — premiers dossards et sorties"

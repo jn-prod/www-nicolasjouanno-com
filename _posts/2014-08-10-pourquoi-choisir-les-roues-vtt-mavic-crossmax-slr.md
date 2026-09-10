@@ -11,6 +11,7 @@ tags:
   - choisir roues vtt
   - choisir mavic crossmax
   - vtt
+  - sport
 image: /images/posts/9c05d-05lwfpqvtdkfbts1o.webp
 ---
 

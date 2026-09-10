@@ -10,6 +10,7 @@ tags:
   - vidéo vtt
   - matériel vtt
   - vtt
+  - sport
 image: /images/posts/47161-0rip67q2-z6z_m5fn.webp
 image_alt: "La caméra embarquée Drift Ghost-S"
 ---

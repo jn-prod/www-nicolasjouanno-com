@@ -10,6 +10,7 @@ tags:
   - championnat du monde dh
   - configuration vtt dh
   - vtt
+  - sport
 image: /images/posts/5022a-0k5y25fuce70omq-h.webp
 image_alt: "Yeti SB66C de Jared Graves au championnat du monde de descente à Pietermaritzburg"
 ---
