@@ -1,7 +1,7 @@
 ---
-title: "Nicolas Jouanno — VTT, trail, sans gluten et van en famille"
+title: "Nicolas Jouanno — sport, sans gluten et projets web"
 layout: page
-description: "J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten."
+description: "J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten, et je construis les outils qui nous manquent."
 permalink: /index.html
 breadcrumb_hide: true
 ---
