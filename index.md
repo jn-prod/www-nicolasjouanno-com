@@ -17,9 +17,30 @@ Le vélo a d'abord donné le rythme. J'ai été [cycliste professionnel]({{ site
 
 Aujourd'hui, je roule et je cours autrement. Avec ma famille, nous parcourons l'Europe en van au rythme des vacances, avec les vélos, les chaussures de trail et la contrainte du sans gluten dans nos bagages.
 
-Je crée et publie sur le web depuis plus de vingt ans. Je publie quand une expérience mérite d'être partagée ou qu'un problème vécu appelle une réponse concrète.
+Je crée sur le web depuis plus de vingt ans. J’y publie lorsqu’une expérience mérite d’être partagée ou qu’un problème vécu appelle une réponse concrète.
 
 <p><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a></p>
+
+## 🚵 VTT & trail
+
+Le vélo est mon premier sujet d’expression. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d'une question simple : où rouler dimanche ? [feezify](/feezify.html) prolonge l’histoire avec un copilote qui croise la charge d’entraînement et le ressenti pour lire la forme du jour. Le trail est arrivé après le vélo, avec le plaisir de recommencer comme débutant.
+
+<p class="c-button-stack">
+  <a href="/vtt/" class="c-button c-button--dark-outline">VTT</a>
+  <a href="/trail/" class="c-button c-button--dark-outline">Trail</a>
+</p>
+
+## 🌱 Sans gluten
+
+La maladie cœliaque est entrée dans notre vie familiale et a changé des gestes ordinaires : faire les courses, cuisiner ou choisir un restaurant. Le [quiz « Gluten ou pas gluten ? »](/apps/gluten-not-gluten/) est né pour rendre cette vigilance visible et plus facile à partager.
+
+<p><a href="/nutrition/sans-gluten.html" class="c-button c-button--dark-outline">Sans gluten</a></p>
+
+## 💼 Du vélo au web
+
+Après le cyclisme professionnel, je me suis reconverti dans le numérique. Je suis aujourd’hui développeur frontend. Je partage ce cheminement, les projets que je construis et ce qu’ils m’apprennent.
+
+<p><a href="/work/" class="c-button c-button--dark-outline">Découvrir mon parcours</a></p>
 
 <div class="u-text--center">
   <ul class="c-button-stack c-button-stack--center u-list">
@@ -45,24 +66,3 @@ Je crée et publie sur le web depuis plus de vingt ans. Je publie quand une exp�
     </li>
   </ul>
 </div>
-
-## 🚵 VTT & trail
-
-Le vélo est mon premier sujet d’expression. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d'une question simple : où rouler dimanche ? [feezify](/feezify.html) prolonge l’histoire avec un copilote qui croise la charge d’entraînement et le ressenti pour lire la forme du jour. Le trail est arrivé après le vélo, avec le plaisir de recommencer comme débutant.
-
-<p class="c-button-stack">
-  <a href="/vtt/" class="c-button c-button--dark-outline">VTT</a>
-  <a href="/trail/" class="c-button c-button--dark-outline">Trail</a>
-</p>
-
-## 🌱 Sans gluten
-
-La maladie cœliaque est entrée dans notre vie familiale et a changé des gestes ordinaires : faire les courses, cuisiner ou choisir un restaurant. Le [quiz « Gluten ou pas gluten ? »](/apps/gluten-not-gluten/) est né pour rendre cette vigilance visible et plus facile à partager.
-
-<p><a href="/nutrition/sans-gluten.html" class="c-button c-button--dark-outline">Sans gluten</a></p>
-
-## 💼 Du vélo au web
-
-Je suis développeur frontend. Ce site n’est pas un portfolio, mais mon travail fait partie de mon histoire. Je partage ici ma reconversion après le cyclisme professionnel, les projets que je construis et ce qu’ils m’apprennent.
-
-<p><a href="/work/" class="c-button c-button--dark-outline">Voir mon parcours professionnel</a></p>
