@@ -13,11 +13,11 @@ breadcrumb_hide: true
 
 <p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
 
-Le vélo a d'abord donné le rythme. J'ai été [cycliste professionnel]({{ site.url }}/results.html?utm_source=home&utm_medium=proof&utm_campaign=ecosystem) chez Bretagne Schuller et j'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à arrêter.
+Le vélo a d'abord donné le rythme. J'ai été [cycliste professionnel]({{ site.url }}/results.html?utm_source=home&utm_medium=proof&utm_campaign=ecosystem) chez Bretagne Schuller. J'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à raccrocher.
 
 Aujourd'hui, je roule et je cours autrement. Avec ma famille, nous parcourons l'Europe en van au rythme des vacances, avec les vélos, les chaussures de trail et la contrainte du sans gluten dans nos bagages.
 
-Je crée et publie sur le web depuis plus de vingt ans. Je ne l'ai jamais fait selon une cadence régulière : j'y reviens quand une expérience mérite d'être partagée ou qu'un problème vécu appelle une réponse concrète. C'est ce fil qui relie des sujets qui pourraient sembler éloignés.
+Je crée et publie sur le web depuis plus de vingt ans. Je publie quand une expérience mérite d'être partagée ou qu'un problème vécu appelle une réponse concrète.
 
 <p><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a></p>
 
@@ -61,12 +61,8 @@ La maladie cœliaque est entrée dans notre vie familiale et a changé des geste
 
 <p><a href="/nutrition/sans-gluten.html" class="c-button c-button--dark-outline">Sans gluten</a></p>
 
-## 🇪🇺 Van en famille
+## 💼 Du vélo au web
 
-L’Europe est devenue notre jardin familial. Nous la parcourons en van au rythme des vacances à la recherche de lieux où marcher, courir, rouler… et réussir à manger sans gluten loin de ses repères.
-
-## 💼 Métier, en arrière-plan
-
-Mon métier est numérique, mais ce site n'est pas mon portfolio. Il relie d'abord mon histoire aux sujets qui façonnent ma vie aujourd'hui : VTT, trail, sans gluten et voyages en van en famille. Le détail professionnel existe pour expliquer ce que je construis, sans devenir l'axe principal.
+Je suis développeur frontend. Ce site n’est pas un portfolio, mais mon travail fait partie de mon histoire. Je partage ici ma reconversion après le cyclisme professionnel, les projets que je construis et ce qu’ils m’apprennent.
 
 <p><a href="/work/" class="c-button c-button--dark-outline">Voir mon parcours professionnel</a></p>
