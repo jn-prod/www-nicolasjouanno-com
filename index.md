@@ -19,36 +19,7 @@ Aujourd'hui, je roule et je cours autrement. Avec ma famille, nous parcourons l'
 
 Je crée et publie sur le web depuis plus de vingt ans. Je ne l'ai jamais fait selon une cadence régulière : j'y reviens quand une expérience mérite d'être partagée ou qu'un problème vécu appelle une réponse concrète. C'est ce fil qui relie des sujets qui pourraient sembler éloignés.
 
-## 🚵 VTT & trail
-
-Le vélo est mon premier sujet d’expression. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d'une question simple : où rouler dimanche ? [feezify](/feezify.html) prolonge l’histoire avec un copilote qui croise la charge d’entraînement et le ressenti pour lire la forme du jour. Le trail est arrivé après le vélo, avec le plaisir de recommencer comme débutant.
-
-<p class="c-button-stack">
-  <a href="/vtt/" class="c-button c-button--dark-outline">VTT</a>
-  <a href="/trail/" class="c-button c-button--dark-outline">Trail</a>
-</p>
-
-## 🌱 Sans gluten
-
-La maladie cœliaque est entrée dans notre vie familiale et a changé des gestes ordinaires : faire les courses, cuisiner ou choisir un restaurant. Le [quiz « Gluten ou pas gluten ? »](/apps/gluten-not-gluten/) est né pour rendre cette vigilance visible et plus facile à partager.
-
-<p><a href="/nutrition/sans-gluten.html" class="c-button c-button--dark-outline">Sans gluten</a></p>
-
-## 🇪🇺 Van en famille
-
-L’Europe est devenue notre jardin familial. Nous la parcourons en van au rythme des vacances à la recherche de lieux où marcher, courir, rouler… et réussir à manger sans gluten loin de ses repères.
-
 <p><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a></p>
-
-## 💼 Métier, en arrière-plan
-
-Mon métier est numérique, mais ce site n'est pas mon portfolio. Il relie d'abord mon histoire aux sujets qui façonnent ma vie aujourd'hui : VTT, trail, sans gluten et voyages en van en famille. Le détail professionnel existe pour expliquer ce que je construis, sans devenir l'axe principal.
-
-<p><a href="/work/" class="c-button c-button--dark-outline">Voir mon parcours professionnel</a></p>
-
-## 💻 Slow web
-
-Je crée sur le web depuis plus de vingt ans et je publie sur **mon propre site** depuis 2008 — sans régularité forcée, mais avec l'envie de conserver ce qui compte. Un site que l'on possède est un **coffre** : il ne disparaît pas le jour où une plateforme ferme ou change son algorithme. Substack entretient la relation et les réseaux accueillent la conversation.
 
 <div class="u-text--center">
   <ul class="c-button-stack c-button-stack--center u-list">
@@ -74,3 +45,28 @@ Je crée sur le web depuis plus de vingt ans et je publie sur **mon propre site*
     </li>
   </ul>
 </div>
+
+## 🚵 VTT & trail
+
+Le vélo est mon premier sujet d’expression. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d'une question simple : où rouler dimanche ? [feezify](/feezify.html) prolonge l’histoire avec un copilote qui croise la charge d’entraînement et le ressenti pour lire la forme du jour. Le trail est arrivé après le vélo, avec le plaisir de recommencer comme débutant.
+
+<p class="c-button-stack">
+  <a href="/vtt/" class="c-button c-button--dark-outline">VTT</a>
+  <a href="/trail/" class="c-button c-button--dark-outline">Trail</a>
+</p>
+
+## 🌱 Sans gluten
+
+La maladie cœliaque est entrée dans notre vie familiale et a changé des gestes ordinaires : faire les courses, cuisiner ou choisir un restaurant. Le [quiz « Gluten ou pas gluten ? »](/apps/gluten-not-gluten/) est né pour rendre cette vigilance visible et plus facile à partager.
+
+<p><a href="/nutrition/sans-gluten.html" class="c-button c-button--dark-outline">Sans gluten</a></p>
+
+## 🇪🇺 Van en famille
+
+L’Europe est devenue notre jardin familial. Nous la parcourons en van au rythme des vacances à la recherche de lieux où marcher, courir, rouler… et réussir à manger sans gluten loin de ses repères.
+
+## 💼 Métier, en arrière-plan
+
+Mon métier est numérique, mais ce site n'est pas mon portfolio. Il relie d'abord mon histoire aux sujets qui façonnent ma vie aujourd'hui : VTT, trail, sans gluten et voyages en van en famille. Le détail professionnel existe pour expliquer ce que je construis, sans devenir l'axe principal.
+
+<p><a href="/work/" class="c-button c-button--dark-outline">Voir mon parcours professionnel</a></p>
