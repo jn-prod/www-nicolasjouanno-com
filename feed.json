@@ -33,7 +33,7 @@
       "date_published": "2026-06-16T00:00:00+00:00",
       
       
-      "tags": ["sport", "course à pied", "trail", "entraînement", "débutant"]
+      "tags": ["outdoor", "course à pied", "trail", "entraînement", "débutant"]
     },
     
     {
@@ -45,7 +45,7 @@
       "date_published": "2026-06-09T00:00:00+00:00",
       
       
-      "tags": ["sans-gluten", "maladie-coeliaque", "sport", "endurance", "cyclisme", "nutrition"]
+      "tags": ["sans-gluten", "maladie-coeliaque", "outdoor", "endurance", "cyclisme", "nutrition"]
     },
     
     {
@@ -76,7 +76,7 @@
       "id": "https://www.nicolasjouanno.com/Retrouver-le-fil.html",
       "url": "https://www.nicolasjouanno.com/Retrouver-le-fil.html",
       "title": "Retrouver le fil - pourquoi je recentre tout sur un seul site",
-      "content_html": "<blockquote>\n  <p><strong>Mise à jour — septembre 2026.</strong> Ce texte raconte le point de départ de ma réflexion, pas l’architecture actuelle. Je rassemble toujours mon histoire sous mon nom, mais plus dans un hub unique : les réseaux ouvrent la conversation, Substack entretient la relation, ce site conserve les contenus durables et les outils rendent le service.</p>\n</blockquote>\n\n<p>Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.</p>\n\n<p>Chaque projet avait son site : un pour le vélo, un pour mes expérimentations web, un autre pour partager des vidéos…</p>\n\n<p>C’était la logique du moment :\nséparer, cloisonner, multiplier les adresses.</p>\n\n<p>Mais à force de fermer des projets, de changer de plateformes ou de quitter des réseaux sociaux, j’ai fini par perdre une grande partie de ce que j’avais publié.</p>\n\n<p>Des années de créations dispersées, aujourd’hui invisibles.</p>\n\n<p>Avec le temps, j’ai compris que cette dispersion ne racontait pas vraiment mon histoire.</p>\n\n<p>Tout était fragmenté, alors que mon parcours lui, est une seule ligne</p>\n\n<p>Aujourd’hui, je reviens à quelque chose de plus simple : un hub personnel, une timeline unique.</p>\n\n<p>Un lieu qui rassemble le sport, la famille, la photo, le code. Bref, tout ce que je suis, sans devoir le découper.</p>\n\n<p>Je ne veux plus courir après les réseaux sociaux.</p>\n\n<p>Ce site devient mon terrain de jeu, mon carnet de bord, et peut-être le seul endroit où je veux vraiment écrire.</p>\n",
+      "content_html": "<blockquote>\n  <p><strong>Mise à jour — septembre 2026.</strong> Ce texte raconte le point de départ de ma réflexion, pas l’architecture actuelle. Je rassemble toujours mon histoire sous mon nom, mais plus dans un hub unique : les réseaux ouvrent la conversation, ce site publie et conserve les contenus durables, la newsletter prolonge la relation par e-mail et les outils rendent le service.</p>\n</blockquote>\n\n<p>Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.</p>\n\n<p>Chaque projet avait son site : un pour le vélo, un pour mes expérimentations web, un autre pour partager des vidéos…</p>\n\n<p>C’était la logique du moment :\nséparer, cloisonner, multiplier les adresses.</p>\n\n<p>Mais à force de fermer des projets, de changer de plateformes ou de quitter des réseaux sociaux, j’ai fini par perdre une grande partie de ce que j’avais publié.</p>\n\n<p>Des années de créations dispersées, aujourd’hui invisibles.</p>\n\n<p>Avec le temps, j’ai compris que cette dispersion ne racontait pas vraiment mon histoire.</p>\n\n<p>Tout était fragmenté, alors que mon parcours lui, est une seule ligne</p>\n\n<p>Aujourd’hui, je reviens à quelque chose de plus simple : un hub personnel, une timeline unique.</p>\n\n<p>Un lieu qui rassemble le sport, la famille, la photo, le code. Bref, tout ce que je suis, sans devoir le découper.</p>\n\n<p>Je ne veux plus courir après les réseaux sociaux.</p>\n\n<p>Ce site devient mon terrain de jeu, mon carnet de bord, et peut-être le seul endroit où je veux vraiment écrire.</p>\n",
       "summary": "En septembre 2025, je choisissais un hub personnel pour retrouver le fil de mes créations. Cette étape a depuis évolué vers un écosystème relié autour de mon histoire.",
       "date_published": "2025-09-17T00:00:00+00:00",
       
@@ -93,7 +93,7 @@
       "date_published": "2019-01-24T00:00:00+00:00",
       
       
-      "tags": ["sport", "podcast", "duathlon", "cyclisme", "champion", "trail"]
+      "tags": ["outdoor", "podcast", "duathlon", "cyclisme", "champion", "trail"]
     },
     
     {
@@ -107,7 +107,7 @@
       
       "image": "https://www.nicolasjouanno.com/images/posts/route-de-montagne.webp",
       
-      "tags": ["sport", "chute", "vtt"]
+      "tags": ["outdoor", "chute", "vtt"]
     },
     
     {
@@ -121,7 +121,7 @@
       
       "image": "https://www.nicolasjouanno.com/images/posts/homme_trail_foret.webp",
       
-      "tags": ["trail", "sport", "competition", "debut"]
+      "tags": ["trail", "outdoor", "competition", "debut"]
     },
     
     {
@@ -135,7 +135,7 @@
       
       "image": "https://www.nicolasjouanno.com/images/posts/tshirt_velo-boulot-dodo.webp",
       
-      "tags": ["textile", "t-shirt", "création", "projet", "vtt", "sport"]
+      "tags": ["textile", "t-shirt", "création", "projet", "vtt", "outdoor"]
     }
     
   ]
