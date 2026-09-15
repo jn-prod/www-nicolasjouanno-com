@@ -8,7 +8,7 @@ tags:
   - mega challenger
   - enduro
   - vtt
-  - sport
+  - outdoor
 featured: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Nicolas Jouanno — sport, sans gluten et projets web"
+title: "Nicolas Jouanno — outdoor, sans gluten et projets web"
 layout: page
 description: "J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten, et je construis les outils qui nous manquent."
 permalink: /index.html
@@ -21,7 +21,7 @@ Je crée sur le web depuis plus de vingt ans. J’y publie lorsqu’une expérie
 
 <p><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a></p>
 
-## 🚵 VTT & trail
+## 🚵 Outdoor — VTT & trail
 
 Le vélo est mon premier sujet d’expression. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d'une question simple : où rouler dimanche ? [feezify](/feezify.html) prolonge l’histoire avec un copilote qui croise la charge d’entraînement et le ressenti pour lire la forme du jour. Le trail est arrivé après le vélo, avec le plaisir de recommencer comme débutant.
 
@@ -29,6 +29,8 @@ Le vélo est mon premier sujet d’expression. [vtt.bzh]({{ site.projects.vtt_bz
   <a href="/vtt/" class="c-button c-button--dark-outline">VTT</a>
   <a href="/trail/" class="c-button c-button--dark-outline">Trail</a>
 </p>
+
+{% include components/newsletter-form.html id="home" %}
 
 ## 🌱 Sans gluten
 

@@ -10,7 +10,7 @@ tags:
   - rockshox reverb
   - tige de selle vtt
   - vtt
-  - sport
+  - outdoor
 image: /images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.webp
 ---
 

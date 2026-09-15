@@ -8,7 +8,7 @@ tags:
   - création
   - projet
   - vtt
-  - sport
+  - outdoor
 image: /images/posts/tshirt_velo-boulot-dodo.webp
 ---
 

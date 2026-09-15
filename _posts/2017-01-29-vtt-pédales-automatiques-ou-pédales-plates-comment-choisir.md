@@ -9,7 +9,7 @@ tags:
   - pédales automatique vtt
   - choisir pédales vtt
   - vtt
-  - sport
+  - outdoor
 image: /images/posts/ccs-62657-0-58346000-1479391864.webp
 ---
 

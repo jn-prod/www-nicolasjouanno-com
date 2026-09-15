@@ -8,7 +8,7 @@ tags:
   - ergo-trainer
   - virtual-trainer
   - vtt
-  - sport
+  - outdoor
 image: /images/posts/dec76-0cscharjawldysi56.webp
 image_alt: "Home trainer au chaud vs VTT dans la boue?"
 ---

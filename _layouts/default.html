@@ -37,7 +37,6 @@
     <link rel="me" href="{{ site.author.linkedin }}" />
     <link rel="me" href="{{ site.author.github }}" />
     <link rel="me" href="{{ site.author.strava }}" />
-    <link rel="me" href="{{ site.author.substack }}" />
     <link rel="me" href="{{ site.author.twitter }}" />
     <link rel="me" href="{{ site.author.youtube }}" />
     <link rel="me" href="mailto:{{ site.author.email }}" />
@@ -197,7 +196,7 @@
       {% elsif page.url == '/' or page.url == '/index.html' %}
       {"@context":"https://schema.org","@graph":[
         {"@type":"WebSite","@id":"{{ site.url }}/#website","url":"{{ site.url }}/","name":{{ site.title | jsonify }},"description":{{ site.description | jsonify }}},
-        {"@type":"Person","@id":"{{ site.url }}/#person","name":{{ site.author.name | jsonify }},"url":"{{ site.url }}/","email":{{ site.author.email | jsonify }},"knowsAbout":[{% for topic in site.author.knows_about %}{% unless forloop.first %},{% endunless %}{{ topic | jsonify }}{% endfor %}],"sameAs":["{{ site.author.linkedin | split: '?' | first }}","{{ site.author.github | split: '?' | first }}","{{ site.author.twitter | split: '?' | first }}","{{ site.author.strava | split: '?' | first }}","{{ site.author.instagram | split: '?' | first }}","{{ site.author.threads | split: '?' | first }}","{{ site.author.youtube | split: '?' | first }}","{{ site.author.substack | split: '?' | first }}"]}
+        {"@type":"Person","@id":"{{ site.url }}/#person","name":{{ site.author.name | jsonify }},"url":"{{ site.url }}/","email":{{ site.author.email | jsonify }},"knowsAbout":[{% for topic in site.author.knows_about %}{% unless forloop.first %},{% endunless %}{{ topic | jsonify }}{% endfor %}],"sameAs":["{{ site.author.linkedin | split: '?' | first }}","{{ site.author.github | split: '?' | first }}","{{ site.author.twitter | split: '?' | first }}","{{ site.author.strava | split: '?' | first }}","{{ site.author.instagram | split: '?' | first }}","{{ site.author.threads | split: '?' | first }}","{{ site.author.youtube | split: '?' | first }}"]}
       ]}
       {% elsif page.layout == 'category' or page.layout == 'tag' %}
       {"@context":"https://schema.org","@type":"CollectionPage","name":{{ page.title | jsonify }},"description":{{ page.description | jsonify }},"url":"{{ page.url | absolute_url }}"}
@@ -276,10 +275,10 @@
       <ul class="u-list c-navigation__link-list">
         <li class="c-navigation__link-list-element">
           <a
-            class="c-button {% if page.url == '/sport/' or page.url contains '/vtt/' or page.url contains '/trail/' or page.tags contains 'sport' %}c-button--active{% endif %}"
-            {% if page.url == '/sport/' or page.url contains '/vtt/' or page.url contains '/trail/' or page.tags contains 'sport' %}aria-current="page"{% endif %}
-            href="{{ site.url }}/sport/"
-            >Sport</a
+            class="c-button {% if page.url == '/outdoor/' or page.url contains '/vtt/' or page.url contains '/trail/' or page.tags contains 'outdoor' %}c-button--active{% endif %}"
+            {% if page.url == '/outdoor/' or page.url contains '/vtt/' or page.url contains '/trail/' or page.tags contains 'outdoor' %}aria-current="page"{% endif %}
+            href="{{ site.url }}/outdoor/"
+            >Outdoor</a
           >
         </li>
 
@@ -301,18 +300,14 @@
           >
         </li>
 
-        {% unless page.hide_follow_cta %}
-          <li class="c-navigation__link-list-element">
-            <a
-              href="{{ site.author.substack_cta }}"
-              class="c-button c-button--primary"
-              aria-label="Suivre Nicolas Jouanno sur Substack"
-              target="_blank"
-              rel="noopener"
-              >Suivre
-            </a>
-          </li>
-        {% endunless %}
+        <li class="c-navigation__link-list-element">
+          <a
+            href="{{ site.url }}/newsletter/"
+            class="c-button c-button--primary {% if page.url == '/newsletter/' or page.category == 'newsletter' or page.categories contains 'newsletter' %}c-button--active{% endif %}"
+            {% if page.url == '/newsletter/' or page.category == 'newsletter' or page.categories contains 'newsletter' %}aria-current="page"{% endif %}
+            >Newsletter
+          </a>
+        </li>
       </ul>
     </nav>
 
@@ -327,7 +322,7 @@
       <p>
         © 2008 - {{ site.time | date: "%Y" }},
         <a href="/">{{ site.author.name }}</a>. Tous
-        droits réservés. <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
+        droits réservés. <a href="/mentions-legales/">Mentions légales</a>. <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
       </p>
     </footer>
 

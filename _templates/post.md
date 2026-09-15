@@ -3,7 +3,7 @@ title: ""
 description: ""
 category: guide
 tags:
-  - sport
+  - outdoor
   - vtt
 image:
 image_alt:

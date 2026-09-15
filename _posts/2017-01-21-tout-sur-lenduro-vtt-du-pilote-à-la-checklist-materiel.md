@@ -9,7 +9,7 @@ tags:
   - équipement vtt enduro
   - matériel vtt enduro
   - vtt
-  - sport
+  - outdoor
 image: /images/posts/p5pb12718966.webp
 featured: true
 ---

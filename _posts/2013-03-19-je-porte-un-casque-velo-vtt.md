@@ -8,7 +8,7 @@ tags:
   - sécurité vtt
   - prévention vélo
   - vtt
-  - sport
+  - outdoor
 image: /images/posts/8a8fb-0hctopcasbp8taxou.webp
 image_alt: "je porte un casque"
 ---

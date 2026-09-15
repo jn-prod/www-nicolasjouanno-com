@@ -5,7 +5,7 @@ description: "Ancien cycliste professionnel et parent d’un enfant cœliaque, j
 tags:
   - sans-gluten
   - maladie-coeliaque
-  - sport
+  - outdoor
   - endurance
   - cyclisme
   - nutrition

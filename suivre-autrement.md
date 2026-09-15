@@ -6,12 +6,11 @@ permalink: /suivre-autrement/
 noindex: true
 sitemap: false
 breadcrumb_hide: true
-hide_follow_cta: true
 ---
 
 # Me suivre autrement
 
-Vous ne souhaitez plus recevoir mes publications par e-mail ? Aucun problème. Le lien de désinscription de Substack reste disponible dans l’e-mail que vous venez de recevoir.
+Vous ne souhaitez plus recevoir mes publications par e-mail ? Aucun problème. Le lien de désinscription reste disponible dans l’e-mail que vous venez de recevoir.
 
 Si vous préférez suivre à votre rythme, je publie aussi sur Instagram pour les images et les formats courts, sur Threads et X pour les observations et les échanges, et sur YouTube pour les récits et les démonstrations plus longs.
 

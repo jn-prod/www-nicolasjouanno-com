@@ -63,9 +63,9 @@ Le front matter reste volontairement natif Jekyll : une seule `category` décrit
 ---
 title: "Titre"
 description: "Description"
-category: guide # guide, recit ou actu
+category: guide # guide, recit, newsletter ou actu
 tags:
-  - sport
+  - outdoor
   - vtt
   - nutrition
 image: /images/posts/nom-du-fichier.webp
@@ -73,8 +73,8 @@ image_alt: "Description fidèle de la photo"
 ---
 ```
 
-- `category` alimente les pages Guides, Récits et Archive ainsi que le fil d’Ariane.
-- `tags` alimente les pages thématiques Sport, VTT, Trail, Nutrition, Sans gluten et Work. Les publications VTT et trail portent aussi le tag parent `sport`.
+- `category` alimente les pages Guides, Récits, Newsletter et Archive ainsi que le fil d’Ariane.
+- `tags` alimente les pages thématiques Outdoor, VTT, Trail, Nutrition, Sans gluten et Work. Les publications VTT et trail portent aussi le tag parent `outdoor`.
 - Les pages qui portent un champ `tag` définissent les sujets publics ; `parent_tag` relie une page à son sujet parent dans le fil d’Ariane. Les tags plus précis restent libres.
 - La source d’une photo reste dans `images/` ; le build publie sa version WebP dans `images/posts/`.
 
@@ -105,6 +105,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_meta.scss` | `.c-meta` | Méta-information (date, handle, catégorie…) — texte petit et atténué |
 | `_tag.scss` | `.c-tag` | Étiquette / tag (catégorie, mot-clé) |
 | `_quiz.scss` | `.c-quiz` | Layout spécifique au quiz — surcouche contextuelle uniquement |
+| `_newsletter-form.scss` | `.c-newsletter-form` | Formulaire d’inscription natif au site, relié à Kit sans charger son script embarqué |
 
 > **Règle — un seul langage par bouton.** Un bouton répond soit à « qui ? », soit à « quoi ? », jamais aux deux. Une marque ou un réseau identifiable (« qui ? ») utilise de préférence son icône seule via `.c-button--icon`, avec un `aria-label` explicite. Une action (« quoi ? ») utilise uniquement un libellé textuel, sans élément enfant, icône, emoji, flèche ou pictogramme. Le caractère `→` et les autres glyphes directionnels sont interdits dans les boutons d'action : le verbe du libellé doit suffire à exprimer l'action. Ne jamais associer une icône et du texte dans un même bouton.
 >
@@ -174,7 +175,9 @@ pnpm build:images
 
 ## Flux de publication
 
-`/feed.xml` est le flux RSS principal et la source d’import de Substack. Il contient le texte intégral, transforme les liens et médias internes en URL absolues et conserve la mention « Initialement publié sur nicolasjouanno.com ». L’ancienne URL `/substack.xml` redirige vers ce flux unique.
+`/feed.xml` est le flux RSS principal. Il contient le texte intégral, transforme les liens et médias internes en URL absolues et conserve la mention « Initialement publié sur nicolasjouanno.com ». L’ancienne URL `/substack.xml` redirige vers ce flux unique pour ne pas casser les abonnements existants.
+
+Le formulaire partagé `_includes/components/newsletter-form.html` est affiché sur l’accueil, la page Outdoor et la page Newsletter. Il envoie directement les inscriptions au formulaire Kit `9378910` : le rendu reste maîtrisé par le site et aucun script d’intégration Kit n’est chargé.
 
 ## Déploiement
 

@@ -6,7 +6,7 @@ tags:
   - pneu vtt boue
   - pneu vtt hiver
   - vtt
-  - sport
+  - outdoor
 image: /images/posts/d6a09-0klmuoxlc_xyukmmx.webp
 ---
 

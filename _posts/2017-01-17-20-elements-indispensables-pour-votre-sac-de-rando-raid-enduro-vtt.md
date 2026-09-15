@@ -9,7 +9,7 @@ tags:
   - sac à dos
   - contenu
   - vtt
-  - sport
+  - outdoor
 image: /images/posts/jervol.webp
 ---
 

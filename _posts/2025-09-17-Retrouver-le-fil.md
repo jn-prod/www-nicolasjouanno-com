@@ -10,7 +10,7 @@ tags:
   - work
 ---
 
-> **Mise à jour — septembre 2026.** Ce texte raconte le point de départ de ma réflexion, pas l'architecture actuelle. Je rassemble toujours mon histoire sous mon nom, mais plus dans un hub unique : les réseaux ouvrent la conversation, Substack entretient la relation, ce site conserve les contenus durables et les outils rendent le service.
+> **Mise à jour — septembre 2026.** Ce texte raconte le point de départ de ma réflexion, pas l'architecture actuelle. Je rassemble toujours mon histoire sous mon nom, mais plus dans un hub unique : les réseaux ouvrent la conversation, ce site publie et conserve les contenus durables, la newsletter prolonge la relation par e-mail et les outils rendent le service.
 
 Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.
 

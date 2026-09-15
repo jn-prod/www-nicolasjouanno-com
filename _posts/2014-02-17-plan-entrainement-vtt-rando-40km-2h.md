@@ -8,7 +8,7 @@ tags:
   - fréquence cardiaque vtt
   - préparation rando vtt
   - vtt
-  - sport
+  - outdoor
 image: /images/posts/d8edb-0mw_03xhl0mtujzgh.webp
 image_alt: "Un cardiofréquencemètre avec cadence"
 ---

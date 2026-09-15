@@ -3,7 +3,7 @@ category: guide
 title: "Premier 10 km : méthode d’un champion et plaisir de courir"
 description: "Comment préparer son premier 10 km ? La méthode de Gaël Le Bellec, triple champion du monde de duathlon, et mon approche par sensation."
 tags:
-  - sport
+  - outdoor
   - course à pied
   - trail
   - entraînement

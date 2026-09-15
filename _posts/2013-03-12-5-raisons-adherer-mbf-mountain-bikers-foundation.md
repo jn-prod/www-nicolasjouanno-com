@@ -8,7 +8,7 @@ tags:
   - accès sentiers vtt
   - vtt responsable
   - vtt
-  - sport
+  - outdoor
 image: /images/posts/b2ad1-0jz8kn8h4cwgy7ytz.webp
 image_alt: "La charte de la Mountain Bikers Foundation"
 ---

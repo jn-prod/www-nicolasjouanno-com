@@ -1,7 +1,7 @@
 ---
 layout: tag
 tag: vtt
-parent_tag: sport
+parent_tag: outdoor
 label: VTT
 minimum_posts: 2
 title: "VTT — du vélo de compétition aux sentiers"

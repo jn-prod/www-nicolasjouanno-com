@@ -134,8 +134,12 @@ POSTS_DIR.glob("*.md").each do |post_path|
   end
 end
 
-category_pages.each_key do |category|
-  errors << "#{category} category has no posts" if post_counts_by_category[category].zero?
+category_pages.each do |category, page|
+  minimum_posts = page.fetch(:frontmatter)["minimum_posts"] || 1
+  count = post_counts_by_category[category]
+  if count < minimum_posts
+    errors << "#{category} category has #{count} posts; expected at least #{minimum_posts}"
+  end
 end
 
 tag_pages.each do |tag, page|

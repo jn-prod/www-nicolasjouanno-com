@@ -10,7 +10,7 @@ tags:
   - vidéo vtt
   - matériel vtt
   - vtt
-  - sport
+  - outdoor
 image: /images/posts/a074c-0l8pyjzfrgkyirwve.webp
 image_alt: "GoPro HERO3+, plus petite et plus légère"
 ---
