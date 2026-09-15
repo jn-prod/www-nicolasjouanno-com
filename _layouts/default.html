@@ -293,15 +293,6 @@
 
         <li class="c-navigation__link-list-element">
           <a
-            class="c-button {% if page.url == '/work/' or page.tags contains 'work' %}c-button--active{% endif %}"
-            {% if page.url == '/work/' or page.tags contains 'work' %}aria-current="page"{% endif %}
-            href="{{ site.url }}/work/"
-            >Work</a
-          >
-        </li>
-
-        <li class="c-navigation__link-list-element">
-          <a
             href="{{ site.url }}/newsletter/"
             class="c-button c-button--primary {% if page.url == '/newsletter/' or page.category == 'newsletter' or page.categories contains 'newsletter' %}c-button--active{% endif %}"
             {% if page.url == '/newsletter/' or page.category == 'newsletter' or page.categories contains 'newsletter' %}aria-current="page"{% endif %}
