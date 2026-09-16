@@ -21,9 +21,13 @@ Je crée sur le web depuis plus de vingt ans. J’y publie lorsqu’une expérie
 
 <p><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a></p>
 
-## 🚵 Outdoor — VTT & trail
+## Outdoor — VTT & trail
 
-Le vélo est mon premier sujet d’expression. [vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d'une question simple : où rouler dimanche ? [feezify](/feezify.html) prolonge l’histoire avec un copilote qui croise la charge d’entraînement et le ressenti pour lire la forme du jour. Le trail est arrivé après le vélo, avec le plaisir de recommencer comme débutant.
+Après le bitume, je suis revenu à ma passion d’origine : le VTT. J’ai essayé de renouer avec les dossards, mais j’ai vite cherché une pratique plus libre, plus fun.
+
+[vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d’une question simple : où rouler dimanche ?
+
+Puis j’ai voulu redécouvrir les sentiers autrement. C’est là que j’ai découvert le trail et commencé à prendre plaisir avec une simple paire de baskets.
 
 <p class="c-button-stack">
   <a href="/vtt/" class="c-button c-button--dark-outline">VTT</a>
@@ -32,13 +36,13 @@ Le vélo est mon premier sujet d’expression. [vtt.bzh]({{ site.projects.vtt_bz
 
 {% include components/newsletter-form.html id="home" %}
 
-## 🌱 Sans gluten
+## Sans gluten
 
 La maladie cœliaque est entrée dans notre vie familiale et a changé des gestes ordinaires : faire les courses, cuisiner ou choisir un restaurant. Le [quiz « Gluten ou pas gluten ? »](/apps/gluten-not-gluten/) est né pour rendre cette vigilance visible et plus facile à partager.
 
 <p><a href="/nutrition/sans-gluten.html" class="c-button c-button--dark-outline">Sans gluten</a></p>
 
-## 💼 Du vélo au web
+## Du vélo au web
 
 Après le cyclisme professionnel, je me suis reconverti dans le numérique. Je suis aujourd’hui développeur frontend. Je partage ce cheminement, les projets que je construis et ce qu’ils m’apprennent.
 
