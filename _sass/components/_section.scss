@@ -40,10 +40,6 @@ $variants: 'primary', 'secondary', 'dark', 'light';
       gap: var(--size-16);
       padding: 0;
       margin: 0;
-
-      &.c-section__post-list--compact {
-        gap: var(--size-4);
-      }
     }
   }
 

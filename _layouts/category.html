@@ -5,11 +5,5 @@ layout: page
 
 {% assign category_posts = site.categories[page.category] %}
 {% if category_posts.size > 0 %}
-  {% include components/post-list.html category=page.category include_archived=page.include_archived heading=page.list_heading compact=page.list_compact %}
-{% elsif page.empty_message %}
-  <p>{{ page.empty_message }}</p>
-{% endif %}
-
-{% if page.bottom_newsletter_form %}
-  {% include components/newsletter-form.html id="newsletter-page-bottom" title=page.bottom_newsletter_form_title plain=true hide_description=true %}
+  {% include components/post-list.html category=page.category include_archived=page.include_archived heading=page.list_heading %}
 {% endif %}
