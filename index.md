@@ -51,24 +51,16 @@ Après le cyclisme professionnel, je me suis reconverti dans le numérique. Je s
 <div class="u-text--center">
   <ul class="c-button-stack c-button-stack--center u-list">
     <li>
-      <a href="{{ site.author.instagram }}" class="c-button c-button--icon c-button--large" aria-label="Instagram — @bynicolasjd" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/instagram.svg %}</span>
-      </a>
+      {% include components/social-link.html icon="instagram" url=site.author.instagram label="Instagram — @bynicolasjd" %}
     </li>
     <li>
-      <a href="{{ site.author.threads }}" class="c-button c-button--icon c-button--large" aria-label="Threads — @bynicolasjd" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/threads.svg %}</span>
-      </a>
+      {% include components/social-link.html icon="threads" url=site.author.threads label="Threads — @bynicolasjd" %}
     </li>
     <li>
-      <a href="{{ site.author.twitter }}" class="c-button c-button--icon c-button--large" aria-label="X — @bynicolasjd" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/x.svg %}</span>
-      </a>
+      {% include components/social-link.html icon="x" url=site.author.twitter label="X — @bynicolasjd" %}
     </li>
     <li>
-      <a href="{{ site.author.youtube }}" class="c-button c-button--icon c-button--large" aria-label="YouTube — @byNicolasJD" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/youtube.svg %}</span>
-      </a>
+      {% include components/social-link.html icon="youtube" url=site.author.youtube label="YouTube — @byNicolasJD" %}
     </li>
   </ul>
 </div>

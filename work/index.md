@@ -26,14 +26,10 @@ Le point de départ reste le [cyclisme professionnel](/results.html), entre <tim
 <div class="u-text--center">
   <ul class="c-button-stack c-button-stack--center u-list">
     <li>
-      <a href="{{ site.author.linkedin }}" class="c-button c-button--icon c-button--large" aria-label="LinkedIn — Nicolas Jouanno" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/linkedin.svg %}</span>
-      </a>
+      {% include components/social-link.html icon="linkedin" url=site.author.linkedin label="LinkedIn — Nicolas Jouanno" %}
     </li>
     <li>
-      <a href="{{ site.author.github }}" class="c-button c-button--icon c-button--large" aria-label="GitHub — jn-prod" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/github.svg %}</span>
-      </a>
+      {% include components/social-link.html icon="github" url=site.author.github label="GitHub — jn-prod" %}
     </li>
   </ul>
 </div>

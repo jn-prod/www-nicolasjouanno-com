@@ -15,28 +15,24 @@ Vous ne souhaitez plus recevoir mes publications par e-mail ? Aucun problème. L
 Si vous préférez suivre à votre rythme, je publie aussi sur Instagram pour les images et les formats courts, sur Threads et X pour les observations et les échanges, et sur YouTube pour les récits et les démonstrations plus longs.
 
 {% assign follow_campaign = '?utm_source=nicolasjouanno-com&utm_medium=page&utm_campaign=suivre-autrement' %}
+{% assign instagram_url = site.author.instagram | split: '?' | first | append: follow_campaign | append: '&utm_content=instagram' %}
+{% assign threads_url = site.author.threads | split: '?' | first | append: follow_campaign | append: '&utm_content=threads' %}
+{% assign x_url = site.author.twitter | split: '?' | first | append: follow_campaign | append: '&utm_content=x' %}
+{% assign youtube_url = site.author.youtube | split: '?' | first | append: follow_campaign | append: '&utm_content=youtube' %}
 
 <div class="u-text--center u-spacing--block-start-large u-spacing--block-end-large">
   <ul class="c-button-stack c-button-stack--center u-list">
     <li>
-      <a href="{{ site.author.instagram | split: '?' | first }}{{ follow_campaign }}&utm_content=instagram" class="c-button c-button--icon c-button--large" aria-label="Suivre Nicolas Jouanno sur Instagram" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/instagram.svg %}</span>
-      </a>
+      {% include components/social-link.html icon="instagram" url=instagram_url label="Suivre Nicolas Jouanno sur Instagram" %}
     </li>
     <li>
-      <a href="{{ site.author.threads | split: '?' | first }}{{ follow_campaign }}&utm_content=threads" class="c-button c-button--icon c-button--large" aria-label="Suivre Nicolas Jouanno sur Threads" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/threads.svg %}</span>
-      </a>
+      {% include components/social-link.html icon="threads" url=threads_url label="Suivre Nicolas Jouanno sur Threads" %}
     </li>
     <li>
-      <a href="{{ site.author.twitter | split: '?' | first }}{{ follow_campaign }}&utm_content=x" class="c-button c-button--icon c-button--large" aria-label="Suivre Nicolas Jouanno sur X" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/x.svg %}</span>
-      </a>
+      {% include components/social-link.html icon="x" url=x_url label="Suivre Nicolas Jouanno sur X" %}
     </li>
     <li>
-      <a href="{{ site.author.youtube | split: '?' | first }}{{ follow_campaign }}&utm_content=youtube" class="c-button c-button--icon c-button--large" aria-label="Suivre Nicolas Jouanno sur YouTube" target="_blank" rel="noopener">
-        <span class="c-icon">{% include icons/youtube.svg %}</span>
-      </a>
+      {% include components/social-link.html icon="youtube" url=youtube_url label="Suivre Nicolas Jouanno sur YouTube" %}
     </li>
   </ul>
 </div>
