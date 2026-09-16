@@ -54,3 +54,28 @@
   --card-pad: var(--size-32);
   --card-radius: var(--size-16);
 }
+
+.c-post-summary {
+  padding: var(--size-16) 0;
+  border-top: var(--border);
+
+  &__meta,
+  &__title,
+  &__excerpt {
+    margin: 0;
+    padding-bottom: 0;
+  }
+
+  &__title {
+    margin-top: var(--size-4);
+  }
+
+  &__excerpt {
+    margin-top: var(--size-8);
+  }
+
+  > a {
+    display: inline-block;
+    margin-top: var(--size-8);
+  }
+}

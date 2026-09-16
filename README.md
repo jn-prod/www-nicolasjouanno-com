@@ -22,7 +22,7 @@ Site personnel de Nicolas Jouanno : le fil durable de ses publications et des ou
 ├── _includes/       # Fragments Liquid réutilisables
 ├── _layouts/        # Layouts de page
 ├── _posts/          # Articles publiés
-├── _drafts/         # Brouillons locaux, ignorés par Git
+├── _drafts/         # Brouillons Jekyll versionnés, non publiés par défaut
 ├── _sass/           # Design system SCSS
 │   ├── base/        # Typographie, variables, reset
 │   ├── components/  # Composants UI (BEM)
@@ -177,7 +177,9 @@ pnpm build:images
 
 `/feed.xml` est le flux RSS principal. Il contient le texte intégral, transforme les liens et médias internes en URL absolues et conserve la mention « Initialement publié sur nicolasjouanno.com ». L’ancienne URL `/substack.xml` redirige vers ce flux unique pour ne pas casser les abonnements existants.
 
-Le formulaire partagé `_includes/components/newsletter-form.html` est affiché sur l’accueil, la page Outdoor et la page Newsletter. Il envoie directement les inscriptions au formulaire Kit `9378910` : le rendu reste maîtrisé par le site et aucun script d’intégration Kit n’est chargé.
+Le formulaire partagé `_includes/components/newsletter-form.html` est affiché sur l’accueil, la page Outdoor et la page Newsletter. Il envoie directement les inscriptions au formulaire Kit `9378910` pour **Rando Bretagne** : une édition mensuelle qui part du calendrier de vtt.bzh pour sélectionner les randos VTT à retenir, puis partage les nouvelles utiles des chemins bretons. Le rendu reste maîtrisé par le site et aucun script d’intégration Kit n’est chargé.
+
+Les éditions sont des posts Jekyll ordinaires avec `category: newsletter`, rendus depuis `_templates/newsletter.md` et archivés sous `/newsletter/`. La matière calendrier VTT est préparée dans le dépôt vtt.bzh ; le post, l’archive et l’envoi restent relus manuellement.
 
 ## Déploiement
 

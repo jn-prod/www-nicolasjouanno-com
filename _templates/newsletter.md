@@ -1,65 +1,57 @@
 ---
-title: ""
-description: ""
+title: "Rando Bretagne — [mois année]"
+description: "Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain."
 category: newsletter
 tags:
   - outdoor
+  - rando-bretagne
 image:
 image_alt:
 ---
 
 <!--
-Commencer par une scène précise vécue : un départ, un sentier, une
-conversation ou un détour en van. Puis poser une question simple à laquelle
-répondre. Le premier paragraphe doit pouvoir vivre seul dans la boîte mail.
+Une édition mensuelle part d’une observation liée à la saison ou au terrain.
+Elle reste utile même lorsqu’elle est lue plusieurs semaines plus tard. Ne pas
+reproduire tout le calendrier : sélectionner, expliquer et relier vers vtt.bzh.
 -->
 
 Bonjour,
 
-[Une scène, une idée ou une question qui ouvre cette édition.]
+[Une observation courte sur le mois, le terrain ou la saison en Bretagne.]
 
-**Cette fois, j’aimerais vous demander :** [une question précise, liée au récit ou à la pratique]. [Répondre à la newsletter](mailto:contact@nicolasjouanno.com?subject=R%C3%A9ponse%20%C3%A0%20la%20newsletter%20outdoor)
+## À retenir ce mois-ci
 
-## Sur le chemin
+[La sélection ou l’information principale de l’édition.]
 
-[Le récit principal : ce qui a été vécu, appris ou changé. Garder un point de vue personnel et concret.]
+## Trois sorties à regarder
 
-## À garder pour la suite
+- [Nom de la sortie](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=selection) — lieu · date · pourquoi elle retient l’attention
+- [Nom de la sortie](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=selection) — lieu · date · pour qui
+- [Nom de la sortie](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=selection) — lieu · date · ce qu’il faut savoir
 
-[Une ressource, une idée, une méthode ou un outil qui prolonge le récit.]
+## Le coin à découvrir
 
-<!--
-Optionnel : ne conserver cette section que s’il y a une sélection réellement
-utile. Les dates et liens viennent de vtt.bzh ; le site reste la source de
-vérité du calendrier.
--->
+[Un territoire, un itinéraire, une photographie ou une idée de sortie. Distinguer clairement ce qui a été vécu, rapporté ou reste à vérifier.]
 
-## À rouler bientôt en Bretagne
+## Les nouvelles du terrain
 
-- [Nom de la sortie](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=outdoor-newsletter&utm_content=selection-vtt) — lieu · date · pour qui
-- [Nom de la sortie](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=outdoor-newsletter&utm_content=selection-vtt) — lieu · date · pour qui
+[Un retour de pratiquant, de club ou d’organisateur, publié avec son accord. Aucun remplissage : supprimer cette section si aucune contribution n’est assez utile.]
 
-Source et calendrier complet : [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=outdoor-newsletter&utm_content=calendrier).
+## L’agenda VTT
 
-<!--
-Optionnel : le partage « privé » est une contrepartie de la recommandation,
-pas une incitation à sur-fréquenter un lieu fragile. Décrire comment y aller,
-quoi respecter et ne pas publier de coordonnées sensibles sans accord.
--->
+[Nombre] randonnées sont annoncées dans les cinq prochaines semaines sur vtt.bzh, dont [nombre] nouvelles.
 
-## Les spots qu’on se partage
+Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=calendrier).
 
-[Un sentier, une halte ou une adresse que l’on ouvre à la communauté : pourquoi il compte, comment le découvrir avec respect, et ce qu’il faut préserver.]
+## Vous faites vivre les chemins
 
-## Ce que vous préparez
-
-Vous préparez une sortie, un défi, un projet ou vous avez une idée à partager ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20histoire%20%C3%A0%20partager). Je sélectionnerai des messages et des pistes pour la prochaine édition, toujours avec votre accord avant publication.
+Votre club prépare une randonnée, vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20Rando%20Bretagne). Une sélection de vos messages pourra nourrir la prochaine édition, toujours avec votre accord avant publication.
 
 ## Faites suivre
 
-Si cette édition vous a été utile, transférez-la à une personne avec qui vous aimeriez rouler, partir ou simplement échanger des idées. C’est le geste le plus simple pour soutenir ce projet : plus la lettre circule, plus je peux partager de sentiers et de récits gardés jusque-là entre proches.
+Si cette édition vous aide à préparer votre prochaine sortie, transférez-la à votre club ou à la personne avec qui vous aimeriez partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles en Bretagne.
 
-**Vous avez reçu cette lettre par transfert ?** [Inscrivez-vous pour recevoir la prochaine édition](https://www.nicolasjouanno.com/newsletter/?utm_source=newsletter&utm_medium=email&utm_campaign=partage).
+**Vous avez reçu cette lettre par transfert ?** [Recevez la prochaine édition](https://www.nicolasjouanno.com/newsletter/partage/).
 
 À bientôt,
 

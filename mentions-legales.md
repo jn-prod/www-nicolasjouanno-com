@@ -29,7 +29,7 @@ Le code source du site est publié sous licence MIT ; les conditions sont dispon
 
 ### Données collectées et finalité
 
-Lorsque vous vous inscrivez à la newsletter, seule votre adresse e-mail est demandée. Elle est utilisée pour vous envoyer les éditions de la newsletter et gérer votre inscription.
+Lorsque vous vous inscrivez à la newsletter Rando Bretagne, seule votre adresse e-mail est demandée. Elle est utilisée pour vous envoyer une édition mensuelle, gérer votre inscription et vous permettre de vous désabonner.
 
 Le traitement repose sur votre consentement, donné lors de l’inscription. Vous pouvez le retirer à tout moment grâce au lien de désabonnement présent dans chaque e-mail.
 
