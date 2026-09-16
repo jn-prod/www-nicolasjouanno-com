@@ -9,8 +9,6 @@ permalink: /newsletter/
 empty_message: "La prochaine édition est en préparation. Les archives seront publiées ici."
 list_heading: "Ancien format : agendas vtt.bzh"
 list_compact: true
-bottom_newsletter_form: true
-bottom_newsletter_form_title: "Recevoir la prochaine édition"
 hero_image:
 hero_image_alt:
 ---
@@ -23,7 +21,7 @@ Chaque mois, je pars du calendrier de [vtt.bzh](https://www.vtt.bzh/?utm_source=
 
 Je m’appelle Nicolas Jouanno et je tiens vtt.bzh depuis 2013.
 
-{% include components/newsletter-form.html id="newsletter-page" title="Recevoir la prochaine édition" plain=true hide_description=true %}
+{% include components/newsletter-form.html id="newsletter-page" %}
 
 {% if page.hero_image %}
 <figure class="c-newsletter-landing__image">
