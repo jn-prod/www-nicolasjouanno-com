@@ -12,4 +12,4 @@ Un proche ou un club vous a transmis cette édition. Chaque mois, je pars du cal
 
 Je tiens vtt.bzh depuis 2013. Le VTT est le point de départ ; la marche et le trail peuvent aussi entrer dans l’édition lorsqu’ils donnent une bonne raison de sortir en Bretagne.
 
-{% include components/newsletter-form.html id="newsletter-share" title="Recevoir la prochaine édition" %}
+{% include components/newsletter-form.html id="newsletter-share" %}
