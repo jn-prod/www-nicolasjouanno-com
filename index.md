@@ -62,5 +62,8 @@ Après le cyclisme professionnel, je me suis reconverti dans le numérique. Je s
     <li>
       {% include components/social-link.html icon="youtube" url=site.author.youtube label="YouTube — @byNicolasJD" %}
     </li>
+    <li>
+      {% include components/social-link.html icon="rss" url="/feed.xml" label="Flux RSS de nicolasjouanno.com" %}
+    </li>
   </ul>
 </div>
