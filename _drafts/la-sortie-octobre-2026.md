@@ -1,6 +1,6 @@
 ---
-title: "Rando Bretagne — octobre 2026"
-description: "Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain."
+title: La Sortie — octobre 2026
+description: Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain.
 category: newsletter
 tags:
   - outdoor
@@ -10,7 +10,7 @@ image_alt:
 ---
 
 <!--
-Brouillon de la première édition sous le nom Rando Bretagne.
+Brouillon de la première édition sous le nom La Sortie.
 L'édito est prêt ; compléter les sections de sélection et d'agenda après
 réception du brief calendrier vtt.bzh. Ne pas envoyer ni publier avant
 relecture complète.
@@ -20,7 +20,7 @@ Bonjour,
 
 Depuis 2013, vtt.bzh rassemble les randonnées VTT annoncées par les clubs et les organisateurs bretons. Le calendrier reste son rôle : un endroit simple pour trouver où rouler, vérifier une date ou ajouter une rando.
 
-Cette édition ouvre un peu plus la porte. Elle s’appelle désormais **Rando Bretagne**. Chaque mois, elle gardera les prochaines dates VTT utiles, mais ajoutera aussi ce qu’un calendrier ne raconte pas seul : quelques sorties à regarder, des nouvelles des chemins, et les informations partagées par celles et ceux qui roulent, organisent et entretiennent les pratiques dehors.
+Cette édition ouvre un peu plus la porte. Elle s’appelle désormais **La Sortie**. Chaque mois, elle gardera les prochaines dates VTT utiles, mais ajoutera aussi ce qu’un calendrier ne raconte pas seul : quelques sorties à regarder, des nouvelles des chemins, et les informations partagées par celles et ceux qui roulent, organisent et entretiennent les pratiques dehors.
 
 L’idée n’est pas de vous renvoyer une longue liste par e-mail. Le calendrier complet reste sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=calendrier). Ici, l’objectif est de vous aider à choisir, de faire circuler une information locale et de donner une place aux retours du terrain.
 

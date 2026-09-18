@@ -1,6 +1,6 @@
 ---
-title: "Rando Bretagne — [mois année]"
-description: "Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain."
+title: La Sortie — [mois année]
+description: Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain.
 category: newsletter
 tags:
   - outdoor

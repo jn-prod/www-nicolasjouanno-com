@@ -11,10 +11,24 @@
             "id": "43f03c74abd37ec0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/la-sortie-octobre-2026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "la-sortie-octobre-2026"
             }
           }
         ]
@@ -33,7 +47,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -45,7 +61,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "[\"date\"]",
+            "query": "\"Rando-bretagne",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -96,7 +112,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "bbbdfce5626363b4",
@@ -140,7 +156,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "index.md",
+            "file": "_drafts/la-sortie-octobre-2026.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -164,8 +180,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "43f03c74abd37ec0",
+  "active": "f442e0dcd95404d7",
   "lastOpenFiles": [
+    "README.md",
+    "newsletter/partage.md",
+    "_templates/newsletter.md",
+    "newsletter/merci.md",
+    "mentions-legales.md",
+    "newsletter/index.md",
+    "newsletter/confirmee.md",
+    "_posts/2026-08-28-rando-bretagne-aout-2026.md",
+    "_posts/2026-07-24-rando-bretagne-juillet-2026.md",
+    "_posts/2016-03-30-ou-randonner-vtt-bretagne.md",
     "index.md",
     "agenda.md",
     "vtt/index.md",
