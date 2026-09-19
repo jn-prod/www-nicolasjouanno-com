@@ -2,8 +2,7 @@
 layout: tag
 tag: sans-gluten
 label: Sans gluten
-minimum_posts: 2
-title: "Sans gluten — vivre, cuisiner et voyager avec la maladie cœliaque"
+title: Sans gluten — vivre, cuisiner et voyager avec la maladie cœliaque
 description: "Le sans gluten vécu en famille : courses, cuisine, restaurants et voyages, avec le quiz Gluten ou pas gluten pour rendre la vigilance visible."
 permalink: /nutrition/sans-gluten.html
 ---

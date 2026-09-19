@@ -2,8 +2,7 @@
 layout: tag
 tag: outdoor
 label: Outdoor
-minimum_posts: 2
-title: "Outdoor — du cyclisme professionnel au VTT et au trail"
+title: Outdoor — du cyclisme professionnel au VTT et au trail
 description: "Du cyclisme professionnel aux sentiers : mes publications sur le VTT, le trail, les voyages et le mouvement au quotidien."
 permalink: /outdoor/
 ---

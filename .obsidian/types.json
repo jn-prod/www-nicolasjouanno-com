@@ -3,9 +3,6 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "technologies": "multitext",
-    "projects": "multitext",
-    "image": "text",
-    "images": "multitext"
+    "image": "text"
   }
 }

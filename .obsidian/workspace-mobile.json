@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-08-28-rando-bretagne-aout-2026.md",
+                "file": "nutrition/sans-gluten.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-08-28-rando-bretagne-aout-2026"
+              "title": "sans-gluten"
             }
           }
         ]
@@ -61,7 +61,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "[\"featured\"]",
+            "query": "[\"layout\"]",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -182,13 +182,20 @@
   },
   "active": "f442e0dcd95404d7",
   "lastOpenFiles": [
+    "vtt/index.md",
+    "trail/index.md",
+    "nutrition/index.md",
+    "outdoor/index.md",
+    "archive.md",
+    "_posts/2025-09-17-Retrouver-le-fil.md",
+    "newsletter/index.md",
+    "_posts/2026-08-28-rando-bretagne-aout-2026.md",
     "_posts/2026-07-24-rando-bretagne-juillet-2026.md",
     "_posts/2026-07-10-jai-tue-mon-saas-reconstruit-en-agent-ia.md",
     "_posts/2025-09-26-paris-web-2025.md",
     "_posts/2026-01-15-buzz-galette-des-rois-sans-gluten.md",
     "_posts/2026-06-09-sans-gluten-sport-endurance-velo-coeliaque.md",
     "_posts/2026-06-16-premier-10km-champion-vs-plaisir.md",
-    "_posts/2026-08-28-rando-bretagne-aout-2026.md",
     "_drafts/octobre-2026.md",
     "_templates/newsletter.md",
     "work/index.md",
@@ -196,18 +203,11 @@
     "newsletter/partage.md",
     "newsletter/merci.md",
     "mentions-legales.md",
-    "newsletter/index.md",
     "newsletter/confirmee.md",
     "_posts/2016-03-30-ou-randonner-vtt-bretagne.md",
     "index.md",
     "agenda.md",
-    "vtt/index.md",
-    "trail/index.md",
     "nutrition/sans-gluten.md",
-    "projets/index.md",
-    "_posts/2025-09-17-Retrouver-le-fil.md",
-    "_events/paris-web-2025.md",
-    "_events/2025-08-26-meetup-accessibilite.md",
     "manifest.json",
     "_drafts"
   ]

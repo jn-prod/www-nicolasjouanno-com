@@ -2,8 +2,7 @@
 layout: tag
 tag: nutrition
 label: Nutrition
-minimum_posts: 2
-title: "Nutrition — du ravitaillement sportif à la table familiale"
+title: Nutrition — du ravitaillement sportif à la table familiale
 description: "Du ravitaillement d’effort à l’alimentation familiale : les repères que le sport et le sans gluten ont fait entrer dans notre quotidien."
 permalink: /nutrition/
 ---

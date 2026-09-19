@@ -3,8 +3,7 @@ layout: tag
 tag: vtt
 parent_tag: outdoor
 label: VTT
-minimum_posts: 2
-title: "VTT — du vélo de compétition aux sentiers"
+title: VTT — du vélo de compétition aux sentiers
 description: "Du cyclisme professionnel aux sentiers de Bretagne et d’Europe : pratique, réglages, entraînement et randonnées VTT."
 permalink: /vtt/
 ---

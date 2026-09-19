@@ -3,8 +3,7 @@ layout: tag
 tag: trail
 parent_tag: outdoor
 label: Trail
-minimum_posts: 2
-title: "Trail & course à pied — premiers dossards et sorties"
+title: Trail & course à pied — premiers dossards et sorties
 description: "Du vélo à la course à pied : premier trail, premier 10 km, sport et solitude, et une conversation avec un triple champion du monde de duathlon."
 permalink: /trail/
 ---
