@@ -5,8 +5,6 @@ category: newsletter
 tags:
   - outdoor
   - la-sortie
-image:
-image_alt:
 ---
 
 <!--

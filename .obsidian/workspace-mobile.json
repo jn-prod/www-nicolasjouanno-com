@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-07-24-rando-bretagne-juillet-2026.md",
+                "file": "_posts/2026-08-28-rando-bretagne-aout-2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-07-24-rando-bretagne-juillet-2026"
+              "title": "2026-08-28-rando-bretagne-aout-2026"
             }
           }
         ]
@@ -61,7 +61,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "[\"featured\"]",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -112,7 +112,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "bbbdfce5626363b4",
@@ -156,7 +156,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_posts/2026-07-24-rando-bretagne-juillet-2026.md",
+            "file": "_posts/2026-08-28-rando-bretagne-aout-2026.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -180,13 +180,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "43f03c74abd37ec0",
+  "active": "f442e0dcd95404d7",
   "lastOpenFiles": [
-    "_posts/2026-08-28-rando-bretagne-aout-2026.md",
-    "work/index.md",
-    "_templates/newsletter.md",
-    "_drafts/octobre-2026.md",
     "_posts/2026-07-24-rando-bretagne-juillet-2026.md",
+    "_posts/2026-07-10-jai-tue-mon-saas-reconstruit-en-agent-ia.md",
+    "_posts/2025-09-26-paris-web-2025.md",
+    "_posts/2026-01-15-buzz-galette-des-rois-sans-gluten.md",
+    "_posts/2026-06-09-sans-gluten-sport-endurance-velo-coeliaque.md",
+    "_posts/2026-06-16-premier-10km-champion-vs-plaisir.md",
+    "_posts/2026-08-28-rando-bretagne-aout-2026.md",
+    "_drafts/octobre-2026.md",
+    "_templates/newsletter.md",
+    "work/index.md",
     "README.md",
     "newsletter/partage.md",
     "newsletter/merci.md",
@@ -201,11 +206,9 @@
     "nutrition/sans-gluten.md",
     "projets/index.md",
     "_posts/2025-09-17-Retrouver-le-fil.md",
-    "_posts/2026-06-09-sans-gluten-sport-endurance-velo-coeliaque.md",
     "_events/paris-web-2025.md",
     "_events/2025-08-26-meetup-accessibilite.md",
     "manifest.json",
-    "_drafts",
-    "_templates/post.md"
+    "_drafts"
   ]
 }

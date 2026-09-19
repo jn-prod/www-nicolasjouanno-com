@@ -1,6 +1,6 @@
 ---
 category: recit
-title: "J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA."
+title: J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA.
 description: "Le SaaSpocalypse vu d'un dev frontend : ce qui meurt, ce qui survit, et l'app IA-native — LLM interface, agent moteur, mémoire au lieu de base. Le cas concret de feezify, reconstruit en agent, zéro infra."
 tags:
   - ia
@@ -8,7 +8,6 @@ tags:
   - frontend
   - création
   - work
-published: true
 ---
 
 On commence à appeler ça le SaaSpocalypse.
