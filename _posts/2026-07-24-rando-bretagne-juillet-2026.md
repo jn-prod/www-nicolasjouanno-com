@@ -1,13 +1,13 @@
 ---
-title: La Sortie — juillet 2026
+title: juillet 2026
 description: Archive de l’agenda VTT Bretagne envoyé le 24 juillet 2026.
 excerpt: L’agenda VTT Bretagne envoyé le 24 juillet 2026, conservé comme archive du précédent format mensuel.
 date: 2026-07-24 21:30:00 +0000
 category: newsletter
 tags:
   - outdoor
-  - rando-bretagne
   - vtt
+  - la-sortie
 newsletter_id: rando-bretagne-2026-07
 permalink: /newsletter/2026-07/
 sent: true

@@ -1,10 +1,10 @@
 ---
-title: La Sortie — octobre 2026
+title: Octobre 2026
 description: Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain.
 category: newsletter
 tags:
   - outdoor
-  - rando-bretagne
+  - la-sortie
 image:
 image_alt:
 ---
@@ -28,23 +28,27 @@ L’idée n’est pas de vous renvoyer une longue liste par e-mail. Le calendrie
 
 <!-- Ajouter l’angle de saison et l’information principale après le brief calendrier. -->
 
-## Trois sorties à regarder
+## La Sortie du mois
 
 <!-- Sélectionner jusqu’à trois randonnées depuis le brief vtt.bzh : nom, lieu, date et raison concrète de la sélectionner. -->
+
+L’octobre rose
 
 ## Le coin à découvrir
 
 <!-- Ajouter un territoire, une idée de sortie ou une photographie réellement vécue. Supprimer la section si rien de pertinent n’est disponible. -->
-
-## Les nouvelles du terrain
-
-<!-- Ajouter un retour de pratiquant, club ou organisateur, uniquement avec son accord. Supprimer la section en l’absence de contribution utile. -->
 
 ## L’agenda VTT
 
 <!-- Reporter ici le total et les nouveautés du brief vtt.bzh, puis garder le lien ci-dessous. -->
 
 Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=calendrier).
+
+## La Sortie en photo
+
+<!-- Ajouter un retour de pratiquant, club ou organisateur, uniquement avec son accord. Supprimer la section en l’absence de contribution utile. -->
+
+Photo rando gr34
 
 ## Vous faites vivre les chemins
 

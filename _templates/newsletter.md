@@ -1,10 +1,10 @@
 ---
-title: La Sortie — [mois année]
+title: mois année
 description: Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain.
 category: newsletter
 tags:
   - outdoor
-  - rando-bretagne
+  - la-sortie
 image:
 image_alt:
 ---

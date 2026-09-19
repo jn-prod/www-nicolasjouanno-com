@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/la-sortie-octobre-2026.md",
+                "file": "_posts/2026-07-24-rando-bretagne-juillet-2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "la-sortie-octobre-2026"
+              "title": "2026-07-24-rando-bretagne-juillet-2026"
             }
           }
         ]
@@ -61,7 +61,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "\"Rando-bretagne",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -112,7 +112,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "bbbdfce5626363b4",
@@ -156,7 +156,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_drafts/la-sortie-octobre-2026.md",
+            "file": "_posts/2026-07-24-rando-bretagne-juillet-2026.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -180,17 +180,19 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f442e0dcd95404d7",
+  "active": "43f03c74abd37ec0",
   "lastOpenFiles": [
+    "_posts/2026-08-28-rando-bretagne-aout-2026.md",
+    "work/index.md",
+    "_templates/newsletter.md",
+    "_drafts/octobre-2026.md",
+    "_posts/2026-07-24-rando-bretagne-juillet-2026.md",
     "README.md",
     "newsletter/partage.md",
-    "_templates/newsletter.md",
     "newsletter/merci.md",
     "mentions-legales.md",
     "newsletter/index.md",
     "newsletter/confirmee.md",
-    "_posts/2026-08-28-rando-bretagne-aout-2026.md",
-    "_posts/2026-07-24-rando-bretagne-juillet-2026.md",
     "_posts/2016-03-30-ou-randonner-vtt-bretagne.md",
     "index.md",
     "agenda.md",
