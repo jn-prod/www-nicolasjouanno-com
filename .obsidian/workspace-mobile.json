@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guides.md",
+                "file": "newsletter/good-by.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "guides"
+              "title": "good-by"
             }
           }
         ]
@@ -61,7 +61,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "[\"label\"]",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -112,7 +112,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 4
   },
   "right": {
     "id": "bbbdfce5626363b4",
@@ -180,8 +180,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "43f03c74abd37ec0",
+  "active": "425af256b9356de1",
   "lastOpenFiles": [
+    "guides.md",
     "outdoor/index.md",
     "nutrition/index.md",
     "newsletter/index.md",
@@ -207,7 +208,6 @@
     "newsletter/merci.md",
     "mentions-legales.md",
     "newsletter/confirmee.md",
-    "_posts/2016-03-30-ou-randonner-vtt-bretagne.md",
     "manifest.json",
     "_drafts"
   ]

@@ -5,7 +5,6 @@ description: Vous préférez ne plus recevoir mes publications par e-mail ? Retr
 redirect_from: /suivre-autrement/
 noindex: true
 sitemap: false
-breadcrumb_hide: true
 permalink: /newsletter/good-by/
 ---
 
