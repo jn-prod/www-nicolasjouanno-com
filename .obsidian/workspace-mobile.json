@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "archive.md",
+                "file": "newsletter/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "archive"
+              "title": "index"
             }
           }
         ]
@@ -61,7 +61,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "[\"noindex\"]",
+            "query": "[\"label\"]",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -112,7 +112,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "bbbdfce5626363b4",
@@ -182,7 +182,8 @@
   },
   "active": "43f03c74abd37ec0",
   "lastOpenFiles": [
-    "newsletter/suivre-autrement.md",
+    "newsletter/good-by.md",
+    "archive.md",
     "newsletter/index.md",
     "newsletter/partage.md",
     "work/index.md",
@@ -192,7 +193,6 @@
     "trail/index.md",
     "nutrition/index.md",
     "outdoor/index.md",
-    "archive.md",
     "_posts/2025-09-17-Retrouver-le-fil.md",
     "_posts/2026-07-24-rando-bretagne-juillet-2026.md",
     "_posts/2026-07-10-jai-tue-mon-saas-reconstruit-en-agent-ia.md",

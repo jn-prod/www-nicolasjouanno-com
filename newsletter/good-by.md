@@ -1,11 +1,12 @@
 ---
 layout: page
-title: "Me suivre autrement"
-description: "Vous préférez ne plus recevoir mes publications par e-mail ? Retrouvez-moi sur Instagram, Threads, X ou YouTube."
-permalink: /suivre-autrement/
+title: Me suivre autrement
+description: Vous préférez ne plus recevoir mes publications par e-mail ? Retrouvez-moi sur Instagram, Threads, X ou YouTube.
+redirect_from: /suivre-autrement/
 noindex: true
 sitemap: false
 breadcrumb_hide: true
+permalink: /newsletter/good-by/
 ---
 
 # Me suivre autrement
