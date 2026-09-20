@@ -78,10 +78,6 @@ taxonomy_pages.each do |page|
   end
   next unless category || tag
 
-  %w[label].each do |field|
-    errors << "#{path} missing #{field}" if frontmatter[field].to_s.strip.empty?
-  end
-
   index = category ? category_pages : tag_pages
   slug = category || tag
   if index.key?(slug)
