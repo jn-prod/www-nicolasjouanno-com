@@ -1,10 +1,9 @@
 ---
 layout: category
 category: actu
-label: Archive
 include_archived: true
-title: "Archive — actualités datées"
-description: "Comptes rendus de Coupe du Monde, mercato et annonces matériel de 2013-2014. Conservés pour mémoire, plus mis à jour."
+title: Archives
+description: Comptes rendus de Coupe du Monde, mercato et annonces matériel de 2013-2014. Conservés pour mémoire, plus mis à jour.
 permalink: /archive.html
 ---
 

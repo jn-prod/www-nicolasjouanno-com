@@ -33,7 +33,7 @@ layout: default
     <li><a href="{{ breadcrumb_parent.url }}">{{ breadcrumb_parent.label }}</a></li>
     {% endif %}
     <li>
-      <span aria-current="page">{{ page.label | default: page.title }}</span>
+      <span aria-current="page">{{ page.title }}</span>
     </li>
     {% endif %}
   </ol>

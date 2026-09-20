@@ -1,8 +1,7 @@
 ---
 layout: category
 category: guide
-label: Guides
-title: "Guides VTT, trail et nutrition — comment faire"
+title: Guides VTT, trail et nutrition — comment faire
 description: "Entraînement, réglages, matériel, nutrition d'effort : les guides pratiques d'un ancien cycliste pro passé à l'outdoor de loisir."
 permalink: /guides.html
 ---

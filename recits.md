@@ -1,9 +1,8 @@
 ---
 layout: category
 category: recit
-label: Récits
-title: "Récits — sport, voyages, web et sans gluten"
-description: "Les expériences qui relient le vélo, le trail, les voyages en famille, le web et le sans gluten — à la première personne."
+title: Récits — sport, voyages, web et sans gluten
+description: Les expériences qui relient le vélo, le trail, les voyages en famille, le web et le sans gluten — à la première personne.
 permalink: /recits.html
 ---
 

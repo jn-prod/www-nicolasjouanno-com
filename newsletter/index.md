@@ -1,7 +1,6 @@
 ---
 layout: category
 category: newsletter
-label: La Sortie
 title: La Sortie — newsletter mensuelle de randonnée en Bretagne
 description: Chaque mois, les randos VTT à retenir en Bretagne, à partir du calendrier de vtt.bzh, et les nouvelles utiles des chemins bretons.
 permalink: /newsletter/
