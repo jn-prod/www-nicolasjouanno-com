@@ -1,6 +1,5 @@
 ---
-category: actu
-archive: true
+category: archive
 sitemap: false
 title: "Megavalanche 2014 : des conditions dantesques imposent des modifications"
 description: "Humidité et fraîcheur sur le massif des Grandes Rousses : la direction de course de la Megavalanche 2014 repense les départs des qualifications et du samedi."

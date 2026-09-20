@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "newsletter/good-by.md",
+                "file": "_posts/2025-09-26-paris-web-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "good-by"
+              "title": "2025-09-26-paris-web-2025"
             }
           }
         ]
@@ -61,7 +61,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "[\"sitemap\"]",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -112,7 +112,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 1
   },
   "right": {
     "id": "bbbdfce5626363b4",
@@ -156,7 +156,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_posts/2026-08-28-rando-bretagne-aout-2026.md",
+            "file": "_posts/2025-09-26-paris-web-2025.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -180,34 +180,34 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "425af256b9356de1",
+  "active": "43f03c74abd37ec0",
   "lastOpenFiles": [
-    "guides.md",
-    "outdoor/index.md",
-    "nutrition/index.md",
-    "newsletter/index.md",
-    "work/index.md",
-    "trail/index.md",
-    "vtt/index.md",
-    "recits.md",
-    "nutrition/sans-gluten.md",
-    "archive.md",
-    "newsletter/good-by.md",
-    "newsletter/partage.md",
-    "_posts/2026-08-28-rando-bretagne-aout-2026.md",
-    "_posts/2025-09-17-Retrouver-le-fil.md",
-    "_posts/2026-07-24-rando-bretagne-juillet-2026.md",
-    "_posts/2026-07-10-jai-tue-mon-saas-reconstruit-en-agent-ia.md",
+    "_redirects/projets.md",
     "_posts/2025-09-26-paris-web-2025.md",
-    "_posts/2026-01-15-buzz-galette-des-rois-sans-gluten.md",
-    "_posts/2026-06-09-sans-gluten-sport-endurance-velo-coeliaque.md",
-    "_posts/2026-06-16-premier-10km-champion-vs-plaisir.md",
-    "_drafts/octobre-2026.md",
-    "_templates/newsletter.md",
-    "README.md",
-    "newsletter/merci.md",
-    "mentions-legales.md",
+    "newsletter/good-by.md",
+    "_posts/2013-12-30-sante-du-sportif-certificat-medical-interview.md",
+    "_posts/2013-10-24-pourquoi-les-etirements-sont-essentiels-vtt.md",
+    "_posts/2013-07-04-prevention-5-risques-du-cycliste-urbain.md",
+    "_posts/2013-03-21-prevention-pathologies-du-sportif.md",
+    "404.md",
     "newsletter/confirmee.md",
+    "_posts/2019-01-24-podcast-gael-le-bellec.md",
+    "_posts/2017-02-13-casque-urge-archi-enduro-rr-2016.md",
+    "_posts/2017-02-08-test-tige-de-selle-telescopique-rockshox-reverb.md",
+    "_posts/2014-10-29-mercato-vtt-mouvements-scott-lapierre.md",
+    "_posts/2014-09-25-groupe-shimano-xtr-di2-2015.md",
+    "_posts/2014-08-10-pourquoi-choisir-les-roues-vtt-mavic-crossmax-slr.md",
+    "_posts/2014-07-11-megavalanche-2014-conditions-modifications-parcours.md",
+    "_posts/2014-04-30-nutrition-vtt-produits-energetiques-high5.md",
+    "_posts/2013-11-29-megavalanche-reunion-2013-presentation.md",
+    "_posts/2013-11-22-drift-ghost-s-camera-embarquee-vtt.md",
+    "_posts/2013-10-09-analyse-pilotage-materiel-coupe-monde-dh-leogang.md",
+    "_posts/2013-10-01-gopro-hero3-plus-camera-embarquee-vtt.md",
+    "_posts/2013-09-04-configuration-yeti-sb66c-jared-graves-mondial-dh.md",
+    "_posts/2013-07-29-analyse-suspensions-remi-thirion-bos-vallnord.md",
+    "_posts/2013-05-28-test-camelbak-lobo-sac-hydratation-vtt.md",
+    "_posts/2013-05-14-vtt-29-pouces-pourquoi-rouler-grandes-roues.md",
+    "archive.md",
     "manifest.json",
     "_drafts"
   ]

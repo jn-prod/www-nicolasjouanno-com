@@ -1,9 +1,8 @@
 ---
-category: actu
-archive: true
+category: archive
 sitemap: false
 title: "Analyse : les suspensions de Rémi Thirion à la Coupe du Monde de DH de Vallnord"
-description: "À Vallnord, Rémi Thirion couvre son Commençal Supreme DH de capteurs. Comment BOS a transformé ses sensations en réglages gagnants."
+description: À Vallnord, Rémi Thirion couvre son Commençal Supreme DH de capteurs. Comment BOS a transformé ses sensations en réglages gagnants.
 tags:
   - rémi thirion
   - suspensions bos

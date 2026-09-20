@@ -1,8 +1,7 @@
 ---
-category: actu
-archive: true
+category: archive
 sitemap: false
-title: "La configuration du Yeti SB66C de Jared Graves au Mondial de DH 2013"
+title: La configuration du Yeti SB66C de Jared Graves au Mondial de DH 2013
 description: "Au championnat du monde de DH de Pietermaritzburg, Jared Graves choisit son VTT d'enduro, le Yeti SB66C. Décryptage d'un pari technique payant : médaille de bronze."
 tags:
   - jared graves
@@ -12,7 +11,7 @@ tags:
   - vtt
   - outdoor
 image: /images/posts/5022a-0k5y25fuce70omq-h.webp
-image_alt: "Yeti SB66C de Jared Graves au championnat du monde de descente à Pietermaritzburg"
+image_alt: Yeti SB66C de Jared Graves au championnat du monde de descente à Pietermaritzburg
 ---
 
 <em>Crédit photo : page Facebook Yeti Cycles.</em>

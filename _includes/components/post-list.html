@@ -12,9 +12,13 @@
   {%- assign posts = site.posts -%}
 {%- endif -%}
 
-{%- unless include.include_archived == true -%}
-  {%- assign posts = posts | where_exp: "p", "p.archive != true" -%}
-{%- endunless -%}
+{%- if include.category -%}
+  {%- assign posts = site.categories[include.category] -%}
+{%- elsif include.tag -%}
+  {%- assign posts = site.tags[include.tag] | where_exp: "p", "p.category != 'archive'" -%}
+{%- else -%}
+  {%- assign posts = site.posts | where_exp: "p", "p.category != 'archive'" -%}
+{%- endif -%}
 
 {%- assign highlights = posts | where: "featured", true -%}
 {%- if highlights.size > 0 -%}

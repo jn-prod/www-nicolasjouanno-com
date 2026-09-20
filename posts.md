@@ -9,7 +9,7 @@ permalink: "/posts.html"
 
 {% include components/post-list.html %}
 
-{% assign archived_posts = site.posts | where: "archive", true %}
+{% assign archived_posts = site.categories.archive %}
 {% if archived_posts.size > 0 %}
 <p class="u-spacing--block-start-medium"><a href="/archive.html">Voir l’archive ({{ archived_posts.size }})</a></p>
 {% endif %}

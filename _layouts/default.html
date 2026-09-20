@@ -70,7 +70,7 @@
     <script defer src="{{ '/assets/navigation.js' | relative_url }}"></script>
 
     <!-- SEO basique -->
-    <meta name="robots" content="{% if page.noindex or page.archive %}noindex, follow{% else %}index, follow, max-image-preview:large{% endif %}" />
+    <meta name="robots" content="{% if page.robots %}{{ page.robots }}{% elsif page.category == 'archive' %}noindex, follow{% else %}index, follow, max-image-preview:large{% endif %}" />
     <link
       rel="canonical"
       href="{{ page.url | replace:'index.html','' | absolute_url }}"

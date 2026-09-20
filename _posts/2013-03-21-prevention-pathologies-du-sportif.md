@@ -1,16 +1,15 @@
 ---
-category: actu
-archive: true
-noindex: true
+category: archive
 sitemap: false
 title: "Entretenir son corps n'est pas sans risque : les pathologies du sportif"
-description: "Fractures de fatigue, hernies, surentraînement… mais aussi les vrais bienfaits du sport. Le point sur le sport et la santé."
+description: Fractures de fatigue, hernies, surentraînement… mais aussi les vrais bienfaits du sport. Le point sur le sport et la santé.
 tags:
   - prévention sportif
   - santé sport
   - surentraînement
   - bienfaits du sport
   - nutrition
+robots: noindex, follow
 ---
 
 ## Les pathologies du sportif, regroupées par thèmes

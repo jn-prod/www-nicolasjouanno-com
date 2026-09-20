@@ -5,5 +5,5 @@ layout: page
 
 {% assign category_posts = site.categories[page.category] %}
 {% if category_posts.size > 0 %}
-  {% include components/post-list.html category=page.category include_archived=page.include_archived %}
+  {% include components/post-list.html category=page.category %}
 {% endif %}

@@ -1,10 +1,8 @@
 ---
-category: actu
-archive: true
-noindex: true
+category: archive
 sitemap: false
-title: "Pourquoi les étirements sont essentiels pour le VTT"
-description: "À quoi servent vraiment les étirements en VTT, leurs précautions d'usage et une séance type pour gagner en souplesse."
+title: Pourquoi les étirements sont essentiels pour le VTT
+description: À quoi servent vraiment les étirements en VTT, leurs précautions d'usage et une séance type pour gagner en souplesse.
 tags:
   - étirements vtt
   - souplesse vtt
@@ -13,7 +11,8 @@ tags:
   - vtt
   - outdoor
 image: /images/posts/fdb77-0homugubvczfir3sy.webp
-image_alt: "Les bienfaits des étirements"
+image_alt: Les bienfaits des étirements
+robots: noindex, follow
 ---
 
 ## « Un peu de souplesse ! »
