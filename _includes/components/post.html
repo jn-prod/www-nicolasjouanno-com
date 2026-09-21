@@ -30,45 +30,15 @@
   {% endif %}
 
   <footer>
-    <ul class="u-list c-button-stack">
-      <li>
-        <a
-          class="c-button c-button--primary"
-          href="{{ post.url | absolute_url }}"
-          aria-describedby="{{ post.slug }}-title"
-          >
-          Lire
-        </a>
-      </li>
+    <a
+      class="c-button c-button--primary"
+      href="{{ post.url | absolute_url }}"
+      aria-describedby="{{ post.slug }}-title"
+      >
+      Lire
+    </a>
+  
+    {% include components/post-tags.html %}
 
-      {% assign post_category_slug = post.category %}
-      {% unless post_category_slug %}
-        {% assign post_category_slug = post.categories | first %}
-      {% endunless %}
-
-      {% assign post_category = site.pages
-        | where: "category", post_category_slug
-        | first
-      %}
-
-      {% if post_category %}
-        <li>
-          <a class="c-tag" href="{{ post_category.url }}">
-            #{{ post_category_slug | default: post_category.title }}
-          </a>
-        </li>
-      {% endif %}
-
-      {% for tag_slug in post.tags %}
-        {% assign tag_page = site.pages | where: "tag", tag_slug | first %}
-        {% if tag_page %}
-          <li>
-            <a class="c-tag" href="{{ tag_page.url }}">
-              #{{ tag_slug | default: tag_page.title }}
-            </a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
   </footer>
 </article>
