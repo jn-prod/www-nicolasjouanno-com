@@ -1,10 +1,10 @@
-<img class="c-avatar c-avatar--small" src="{{ author.avatar | relative_url }}" alt="Portrait de {{ author.name }}" width="32" height="32" loading="lazy" />
+<img class="c-avatar c-avatar--small" src="{{ site.author.avatar | relative_url }}" alt="Portrait de {{ site.author.name }}" width="32" height="32" loading="lazy" />
 <div>
   <a href="/" class="u-link--dark">
-    {{ author.name }}
+    {{ site.author.name }}
   </a>
   <div class="c-meta">
-    <span>{{ author.handle }}</span>
+    <span>{{ site.author.handle }}</span>
     ·
     <time
       datetime="{{ include.post.date | date_to_xmlschema }}"

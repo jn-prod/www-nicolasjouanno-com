@@ -63,7 +63,7 @@ Le front matter reste volontairement natif Jekyll : une seule `category` décrit
 ---
 title: "Titre"
 description: "Description"
-category: guide # guide, recit, newsletter ou actu
+category: guide # guide, recit, newsletter ou archive
 tags:
   - outdoor
   - vtt
@@ -179,7 +179,7 @@ pnpm build:images
 
 Le formulaire partagé `_includes/components/newsletter-form.html` est affiché sur l’accueil, la page Outdoor et la page Newsletter. Il envoie directement les inscriptions au formulaire Kit `9378910` pour **La Sortie** : une édition mensuelle qui part du calendrier de vtt.bzh pour sélectionner les randos VTT à retenir, puis partage les nouvelles utiles des chemins bretons. Le rendu reste maîtrisé par le site et aucun script d’intégration Kit n’est chargé.
 
-Les éditions sont des posts Jekyll ordinaires avec `category: newsletter`, rendus depuis `_templates/newsletter.md` et archivés sous `/newsletter/`. La matière calendrier VTT est préparée dans le dépôt vtt.bzh ; le post, l’archive et l’envoi restent relus manuellement.
+Les éditions sont des posts Jekyll ordinaires avec `category: newsletter`, rendus depuis `_templates/newsletter.md` et archivés sous `/la-sortie/`. La matière calendrier VTT est préparée dans le dépôt vtt.bzh ; le post, l’archive et l’envoi restent relus manuellement.
 
 ## Déploiement
 

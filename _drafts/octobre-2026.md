@@ -2,6 +2,7 @@
 title: Octobre 2026
 description: Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain.
 category: newsletter
+permalink: /la-sortie/2026-10/
 tags:
   - outdoor
   - la-sortie
@@ -50,7 +51,7 @@ Photo rando gr34
 
 ## Vous faites vivre les chemins
 
-Votre club prépare une randonnée, vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20Rando%20Bretagne). Une sélection de vos messages pourra nourrir la prochaine édition, toujours avec votre accord avant publication.
+Votre club prépare une randonnée, vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Une sélection de vos messages pourra nourrir la prochaine édition, toujours avec votre accord avant publication.
 
 ## Faites suivre
 

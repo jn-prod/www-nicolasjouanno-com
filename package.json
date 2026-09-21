@@ -6,7 +6,7 @@
   },
   "version": "1.0.0",
   "private": true,
-  "description": "Portfolio de Nicolas Jouanno",
+  "description": "Site personnel de Nicolas Jouanno",
   "packageManager": "pnpm@10.34.5",
   "repository": {
     "type": "git",
@@ -30,9 +30,9 @@
     "lint:fix": "pnpm lint:es:fix && pnpm lint:stylelint:fix && pnpm lint:prettier:fix",
     "lint:stylelint": "stylelint \"./_sass/**/*.scss\"",
     "lint:stylelint:fix": "pnpm lint:stylelint --fix",
-    "lint:prettier": "prettier --check **/*.{html,md,json,yml}",
-    "lint:prettier:fix": "pnpm lint:prettier --write",
-    "lint:es": "eslint --no-error-on-unmatched-pattern 'assets/**/*.js'",
+    "lint:prettier": "prettier --check .github/workflows/*.yml .stylelintrc.json _config.yml eslint.config.mjs package.json renovate.json",
+    "lint:prettier:fix": "prettier --write .github/workflows/*.yml .stylelintrc.json _config.yml eslint.config.mjs package.json renovate.json",
+    "lint:es": "eslint --no-error-on-unmatched-pattern 'assets/**/*.js' 'apps/**/*.js'",
     "lint:es:fix": "pnpm lint:es --fix"
   },
   "dependencies": {
@@ -40,17 +40,14 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.0",
-    "@shopify/prettier-plugin-liquid": "^1.10.2",
     "eslint": "^10.0.0",
-    "eslint-config-jnprod": "latest",
     "globals": "^17.0.0",
     "prettier": "latest",
     "sharp": "^0.35.0",
     "sharp-cli": "^6.1.0",
     "stylelint": "^17.0.0",
     "stylelint-config-standard-scss": "^17.0.0",
-    "svgo": "^4.0.1",
-    "typescript-eslint": "^8.59.1"
+    "svgo": "^4.0.1"
   },
   "pnpm": {
     "overrides": {

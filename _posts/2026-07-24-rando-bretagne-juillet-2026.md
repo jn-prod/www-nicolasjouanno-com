@@ -6,6 +6,8 @@ tags:
   - outdoor
   - vtt
   - la-sortie
+permalink: /la-sortie/2026-07/
+redirect_from: /newsletter/2026-07/
 ---
 
 > Cette édition a été envoyée initialement comme agenda mensuel de vtt.bzh. Elle est conservée ici dans les archives de La Sortie ; les événements et informations correspondent à juillet 2026.

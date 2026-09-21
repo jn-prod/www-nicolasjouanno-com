@@ -20,7 +20,7 @@ layout: null
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v{{ jekyll.version }}</generator>
 
-    {% assign feed_posts = site.posts | where_exp: "post", "post.archive != true" %}
+    {% assign feed_posts = site.posts | where_exp: "post", "post.category != 'archive'" %}
     {% for post in feed_posts limit:10 %}
       {% capture absolute_src %}src="{{ site.url }}/{% endcapture %}
       {% capture absolute_href %}href="{{ site.url }}/{% endcapture %}

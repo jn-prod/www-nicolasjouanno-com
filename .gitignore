@@ -9,3 +9,4 @@ _site
 .DS_Store
 .turbo
 _includes/icons/
+.obsidian/workspace-mobile.json

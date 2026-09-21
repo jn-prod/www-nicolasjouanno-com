@@ -3,7 +3,6 @@ layout: page
 title: "Gluten ou pas gluten ? — Quiz"
 description: "Un quiz pour rendre visible le réflexe quotidien : gluten ou pas gluten ?"
 permalink: /apps/gluten-not-gluten/
-breadcrumb_hide: true
 ---
 
 <div class="c-quiz">
@@ -15,11 +14,11 @@ breadcrumb_hide: true
       <p>Pour une personne cœliaque, cette question accompagne les repas au quotidien. Ce quiz rend visible la charge mentale de ce réflexe : gluten ou pas gluten ?</p>
       <fieldset class="c-quiz__difficulty-buttons c-button-stack c-button-stack--vertical">
         <legend class="u-visually-hidden">Choisissez votre niveau de difficulté</legend>
-        <input type="radio" id="diffLow" class="u-visually-hidden" name="difficulty" value="low" onchange="startQuiz(this.value)">
+        <input type="radio" id="diffLow" class="u-visually-hidden" name="difficulty" value="low">
         <label for="diffLow" class="c-button c-button--dark-outline c-button--fullwidth">Facile - 10 questions</label>
-        <input type="radio" id="diffMedium" class="u-visually-hidden" name="difficulty" value="medium" onchange="startQuiz(this.value)">
+        <input type="radio" id="diffMedium" class="u-visually-hidden" name="difficulty" value="medium">
         <label for="diffMedium" class="c-button c-button--dark-outline c-button--fullwidth">Moyen - 15 questions</label>
-        <input type="radio" id="diffHard" class="u-visually-hidden" name="difficulty" value="hard" onchange="startQuiz(this.value)">
+        <input type="radio" id="diffHard" class="u-visually-hidden" name="difficulty" value="hard">
         <label for="diffHard" class="c-button c-button--dark-outline c-button--fullwidth">Difficile - 20 questions</label>
       </fieldset>
     </div>
@@ -49,7 +48,7 @@ breadcrumb_hide: true
       {% include apps/gluten-quiz-card.html question=question index=forloop.index %}
     {% endfor %}
 
-    <button id="nextBtn" class="c-button c-button--primary c-button--fullwidth" type="button" onclick="nextQuestion()" disabled>
+    <button id="nextBtn" class="c-button c-button--primary c-button--fullwidth" type="button" disabled>
       Question suivante
     </button>
   </section>
@@ -89,11 +88,11 @@ breadcrumb_hide: true
       </aside>
 
       <div class="c-quiz__share-buttons c-button-stack">
-        <button class="c-button c-button--dark c-button--fullwidth" type="button" onclick="shareTwitter()">Partager sur Twitter</button>
-        <button class="c-button c-button--dark c-button--fullwidth" type="button" onclick="shareFacebook()">Partager sur Facebook</button>
+        <button id="shareTwitter" class="c-button c-button--dark c-button--fullwidth" type="button">Partager sur Twitter</button>
+        <button id="shareFacebook" class="c-button c-button--dark c-button--fullwidth" type="button">Partager sur Facebook</button>
       </div>
 
-      <button class="c-button c-button--primary c-button--fullwidth" type="button" onclick="restartQuiz()">Rejouer</button>
+      <button id="restartQuiz" class="c-button c-button--primary c-button--fullwidth" type="button">Rejouer</button>
     </div>
   </section>
 

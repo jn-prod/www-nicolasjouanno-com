@@ -2,7 +2,8 @@
 layout: page
 title: Me suivre autrement
 description: Vous préférez ne plus recevoir mes publications par e-mail ? Retrouvez-moi sur Instagram, Threads, X ou YouTube.
-redirect_from: /suivre-autrement/
+redirect_from:
+  - /suivre-autrement/
 sitemap: false
 permalink: /newsletter/good-by/
 robots: noindex, follow

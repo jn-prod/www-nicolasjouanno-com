@@ -1,4 +1,3 @@
-{% assign author = site.author %}
 {% assign content = post.content | strip_html %}
 {% assign excerpt = post.excerpt | default: content | strip_html | truncatewords: 70 %}
 
@@ -8,7 +7,7 @@
 >
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
-      {% include /components/author.html author=author post=post %}
+      {% include /components/author.html post=post %}
 
       <h3 class="u-full u-spacing--0" id="{{post.slug}}-title">
         <a class="u-link--dark" href="{{ post.url | absolute_url }}"

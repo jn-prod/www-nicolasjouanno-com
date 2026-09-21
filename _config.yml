@@ -6,19 +6,10 @@ lang: "fr"
 logo: "/images/icons/avatar.svg"
 og_image: "/images/og/og-default.png" # carte sociale raster 1200x630 conservée en PNG pour les réseaux sociaux
 
-# Webmaster verifications (renseigner les codes au besoin)
-webmaster_verifications:
-  google: # ex: "abcd1234..."
-  bing:
-  yandex:
-  baidu:
-  facebook:
-
 # author
 author:
   name: "Nicolas Jouanno"
   avatar: "/images/nicolas-jouanno.webp"
-  location: "Pontivy, Bretagne, France"
   email: "contact@nicolasjouanno.com"
   wikipedia: "https://fr.wikipedia.org/wiki/Nicolas_Jouanno"
   knows_about:
@@ -51,7 +42,6 @@ projects:
     # Le permalink réel est /calendrier/ajouter.html (le fichier source s'appelle ajouter.html).
     # /ajouter.html renvoie 404 — vérifié 2026-07-20.
     ajouter_url: "https://www.vtt.bzh/calendrier/ajouter.html?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem&utm_content=ajouter_rando"
-    github: "https://github.com/jn-prod/www-vtt-bzh"
 
 # collections
 collections:
@@ -74,12 +64,6 @@ permalink: /:title:output_ext
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
-  # - jekyll-archives
-  # - jekyll-minifier
-
-# Minification
-# jekyll-minifier:
-#   exclude: 'feed.xml'
 
 # Other
 markdown: kramdown
@@ -87,24 +71,18 @@ highlighter: rouge
 future: false
 exclude:
   - AGENTS.md
-  - CHANGELOG.md
   - CLAUDE.md
-  - LICENSE.md
   - LICENSE-CODE.md
   - LICENSE-CONTENT.md
   - README.md
   - _templates
-  - configs
-  - docs
   - eslint.config.mjs
   - images
   - images-dist
   - node_modules
   - package.json
-  - packages
   - pnpm-lock.yaml
   - renovate.json
   - scripts
-  - www
 sass:
   style: compressed

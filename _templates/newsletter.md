@@ -2,6 +2,7 @@
 title: mois année
 description: Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain.
 category: newsletter
+permalink: /la-sortie/{{date:YYYY-MM}}/
 tags:
   - outdoor
   - la-sortie

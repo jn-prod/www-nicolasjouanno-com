@@ -9,7 +9,6 @@ tags:
   - surentraînement
   - bienfaits du sport
   - nutrition
-robots: noindex, follow
 ---
 
 ## Les pathologies du sportif, regroupées par thèmes

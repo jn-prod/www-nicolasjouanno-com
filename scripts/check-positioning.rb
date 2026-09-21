@@ -21,7 +21,7 @@ SKIPPED_DIRECTORIES = %w[
   packages
   www
 ].freeze
-LEGACY_KEYS = %w[format verticale sous_silo categories].freeze
+LEGACY_KEYS = %w[archive categories format sous_silo verticale].freeze
 
 def fail_with(errors)
   return if errors.empty?
@@ -120,29 +120,21 @@ POSTS_DIR.glob("*.md").each do |post_path|
   errors << "#{relative_path} has duplicate tags" if tags.uniq.length != tags.length
   errors << "#{relative_path} has tags that are not lowercase" if tags.any? { |tag| tag != tag.downcase }
   tag_pages.each_key do |tag|
-    post_counts_by_tag[tag] += 1 if tags.include?(tag) && frontmatter["archive"] != true
-  end
-
-  if category == "actu" && frontmatter["archive"] != true
-    errors << "#{relative_path} category actu must set archive: true"
-  elsif category != "actu" && frontmatter["archive"] == true
-    errors << "#{relative_path} archived post must use category actu"
+    post_counts_by_tag[tag] += 1 if tags.include?(tag) && category != "archive"
   end
 end
 
-category_pages.each do |category, page|
-  minimum_posts = page.fetch(:frontmatter)["minimum_posts"] || 1
+category_pages.each_key do |category|
   count = post_counts_by_category[category]
-  if count < minimum_posts
-    errors << "#{category} category has #{count} posts; expected at least #{minimum_posts}"
+  if count.zero?
+    errors << "#{category} category has no posts"
   end
 end
 
-tag_pages.each do |tag, page|
-  minimum_posts = page.fetch(:frontmatter)["minimum_posts"] || 1
+tag_pages.each_key do |tag|
   count = post_counts_by_tag[tag]
-  if count < minimum_posts
-    errors << "#{tag} tag has #{count} visible posts; expected at least #{minimum_posts}"
+  if count.zero?
+    errors << "#{tag} tag has no visible posts"
   end
 end
 

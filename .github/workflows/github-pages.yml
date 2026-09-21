@@ -9,35 +9,33 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v7
-    - name: Use ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '4.0.5'
-        bundler-cache: true
-    # Pas de `version:` ici : la version fait foi dans package.json
-    # ("packageManager": "pnpm@…"). La déclarer aux deux endroits fait échouer
-    # l'action ("Multiple versions of pnpm specified").
-    - name: Use pnpm
-      uses: pnpm/action-setup@v6
-      with:
-        cache: true
-    - name: Use Node.js
-      uses: actions/setup-node@v6
-      with:
-        node-version: 24
-        cache: 'pnpm'
-    - name: Install node dependencies
-      run: pnpm install
-    - name: Install ruby dependencies
-      run: bundle install
-    #- name: Lint
-    #  run: pnpm lint
-    - name: Build
-      run: pnpm build
-    - name: Deploy GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
-        cname: www.nicolasjouanno.com
+      - uses: actions/checkout@v7
+      - name: Use ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "4.0.5"
+          bundler-cache: true
+      # Pas de `version:` ici : la version fait foi dans package.json
+      # ("packageManager": "pnpm@…"). La déclarer aux deux endroits fait échouer
+      # l'action ("Multiple versions of pnpm specified").
+      - name: Use pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          cache: true
+      - name: Use Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: "pnpm"
+      - name: Install node dependencies
+        run: pnpm install
+      - name: Lint
+        run: pnpm lint
+      - name: Build
+        run: pnpm build
+      - name: Deploy GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          cname: www.nicolasjouanno.com

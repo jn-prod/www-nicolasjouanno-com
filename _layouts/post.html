@@ -5,7 +5,6 @@ layout: page
 <!-- Begin Article
 ================================================== -->
 
-{% assign author = site.author %}
 <article>
   <time datetime="{{ page.date | date:'%Y-%m-%d' }}"></time>
 
@@ -34,29 +33,11 @@ layout: page
   {% if page.category == 'newsletter' %}
   <section class="c-card c-card--neutral c-card--medium c-callout" aria-labelledby="newsletter-next-edition">
     <h2 class="c-callout__title" id="newsletter-next-edition">Recevoir La Sortie</h2>
-    <p class="c-callout__text">La Sortie arrive une fois par mois : une sélection, les prochaines dates VTT et des nouvelles du terrain.</p>
+    <p class="c-callout__text">La Sortie arrive une fois par mois : des chemins, des voix et des idées pour découvrir la Bretagne.</p>
     <p><a href="/newsletter/" class="c-button c-button--primary">S’inscrire</a></p>
   </section>
   {% endif %}
 
-  {% assign subject_pages = site.pages | where_exp: "candidate", "candidate.tag" | sort: "tag" %}
-  {% assign subject_count = 0 %}
-  {% for subject in subject_pages %}
-    {% if subject.tag and page.tags contains subject.tag %}
-      {% assign subject_count = subject_count | plus: 1 %}
-    {% endif %}
-  {% endfor %}
-  {% if subject_count > 0 %}
-  <nav aria-label="Sujets de la publication">
-    <ul class="u-list c-button-stack">
-      {% for subject in subject_pages %}
-        {% if subject.tag and page.tags contains subject.tag %}
-        <li><a class="c-tag" href="{{ subject.url }}">{{ subject.label }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </nav>
-  {% endif %}
 </article>
 
 {% include components/related-posts.html %}
