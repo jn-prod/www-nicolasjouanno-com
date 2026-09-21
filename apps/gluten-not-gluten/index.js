@@ -137,8 +137,19 @@ function restartQuiz() {
   document.getElementById("startScreen").hidden = false;
 }
 
+document.getElementById("startScreen").addEventListener("change", function (e) {
+  if (e.target.matches('input[name="difficulty"]')) {
+    startQuiz(e.target.value);
+  }
+});
+
 document.getElementById("quizScreen").addEventListener("change", function (e) {
   if (e.target.matches('input[type="radio"][name^="answer-"]')) {
     onAnswer(e.target.value === "true");
   }
 });
+
+document.getElementById("nextBtn").addEventListener("click", nextQuestion);
+document.getElementById("shareTwitter").addEventListener("click", shareTwitter);
+document.getElementById("shareFacebook").addEventListener("click", shareFacebook);
+document.getElementById("restartQuiz").addEventListener("click", restartQuiz);
