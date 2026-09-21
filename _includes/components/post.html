@@ -30,15 +30,15 @@
   {% endif %}
 
   <footer>
+    {% include components/post-taxonomy.html item=post %}
+
     <a
-      class="c-button c-button--primary"
+      class="c-button c-button--primary u-spacing--block-start-small"
       href="{{ post.url | absolute_url }}"
       aria-describedby="{{ post.slug }}-title"
       >
       Lire
     </a>
-  
-    {% include components/post-tags.html %}
 
   </footer>
 </article>

@@ -1,0 +1,32 @@
+{% assign item = include.item | default: post | default: page %}
+
+<ul class="u-list c-button-stack">
+  {% assign post_category_slug = item.category %}
+  {% unless post_category_slug %}
+    {% assign post_category_slug = item.categories | first %}
+  {% endunless %}
+
+  {% assign post_category = site.pages
+    | where: "category", post_category_slug
+    | first
+  %}
+
+  {% if post_category %}
+    <li>
+      <a class="c-tag" href="{{ post_category.url }}">
+        #{{ post_category_slug | default: post_category.title }}
+      </a>
+    </li>
+  {% endif %}
+
+  {% for tag_slug in item.tags %}
+    {% assign tag_page = site.pages | where: "tag", tag_slug | first %}
+    {% if tag_page %}
+      <li>
+        <a class="c-tag" href="{{ tag_page.url }}">
+          #{{ tag_slug | default: tag_page.title }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
