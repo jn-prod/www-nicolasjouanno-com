@@ -12,6 +12,11 @@ tags:
 Une édition mensuelle part d’une observation liée à la saison ou au terrain.
 Elle reste utile même lorsqu’elle est lue plusieurs semaines plus tard. Ne pas
 reproduire tout le calendrier : sélectionner, expliquer et relier vers vtt.bzh.
+
+Matière calendrier (vtt.bzh) : une fois l’action manuelle réintroduite, créer une
+branche `newsletter/YYYY-MM-DD_YYYY-MM-DD` et la lancer. Elle écrit et commit le brief
+factuel dans `_drafts/` de vtt.bzh. Reporter ici uniquement les chiffres et sorties
+retenus ; le texte, l’angle et les liens de cette édition restent édités dans nj.com.
 -->
 
 Bonjour,

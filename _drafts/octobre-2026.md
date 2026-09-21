@@ -11,7 +11,9 @@ tags:
 <!--
 Brouillon de la première édition sous le nom La Sortie.
 L'édito est prêt ; compléter les sections de sélection et d'agenda après
-réception du brief calendrier vtt.bzh. Ne pas envoyer ni publier avant
+réception du brief calendrier vtt.bzh. Lorsque l’action sera réintroduite,
+générer celui-ci depuis la branche `newsletter/2026-10-01_2026-11-05`, puis ne
+reporter ici que les éléments retenus et vérifiés. Ne pas envoyer ni publier avant
 relecture complète.
 -->
 
