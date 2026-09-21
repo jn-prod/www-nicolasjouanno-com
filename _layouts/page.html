@@ -2,40 +2,6 @@
 layout: default
 ---
 
-{% if page.breadcrumb_hide != true %}
-{% assign breadcrumb_category_slug = page.category %}
-{% unless breadcrumb_category_slug %}
-  {% assign breadcrumb_category_slug = page.categories | first %}
-{% endunless %}
-{% assign breadcrumb_category = site.pages | where: "category", breadcrumb_category_slug | first %}
-{% if page.parent_tag %}
-{% assign breadcrumb_parent = site.pages | where: "tag", page.parent_tag | first %}
-{% endif %}
-<nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
-  <ol>
-    <li>
-      <a
-        href="{{ site.url }}"
-        aria-current="{% if page.url == '/' or page.url == '/index.html' %}page{% else %}false{% endif %}"
-      >
-        Accueil
-      </a>
-    </li>
+{% include components/breadcrumb.html %}
 
-    {% if page.layout == 'post' %}
-    <li><a href="/posts.html">Publications</a></li>
-    {% if breadcrumb_category %}
-    <li><a href="{{ breadcrumb_category.url }}">{{ breadcrumb_category.label }}</a></li>
-    {% endif %}
-    <li><span aria-current="page">{{ page.title }}</span></li>
-    {% elsif page.url != '/' and page.url != '/index.html' %}
-    {% if breadcrumb_parent %}
-    <li><a href="{{ breadcrumb_parent.url }}">{{ breadcrumb_parent.label }}</a></li>
-    {% endif %}
-    <li>
-      <span aria-current="page">{{ page.title }}</span>
-    </li>
-    {% endif %}
-  </ol>
-</nav>
-{% endif %} {{ content }}
+{{ content }}

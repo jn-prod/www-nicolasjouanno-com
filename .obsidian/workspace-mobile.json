@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-09-26-paris-web-2025.md",
+                "file": "404.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-26-paris-web-2025"
+              "title": "404"
             }
           }
         ]
@@ -61,7 +61,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "[\"sitemap\"]",
+            "query": "[\"layout\"]",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -156,7 +156,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_posts/2025-09-26-paris-web-2025.md",
+            "file": "index.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -182,14 +182,15 @@
   },
   "active": "43f03c74abd37ec0",
   "lastOpenFiles": [
-    "_redirects/projets.md",
+    "index.md",
+    "404.md",
     "_posts/2025-09-26-paris-web-2025.md",
+    "_redirects/projets.md",
     "newsletter/good-by.md",
     "_posts/2013-12-30-sante-du-sportif-certificat-medical-interview.md",
     "_posts/2013-10-24-pourquoi-les-etirements-sont-essentiels-vtt.md",
     "_posts/2013-07-04-prevention-5-risques-du-cycliste-urbain.md",
     "_posts/2013-03-21-prevention-pathologies-du-sportif.md",
-    "404.md",
     "newsletter/confirmee.md",
     "_posts/2019-01-24-podcast-gael-le-bellec.md",
     "_posts/2017-02-13-casque-urge-archi-enduro-rr-2016.md",
@@ -207,7 +208,6 @@
     "_posts/2013-07-29-analyse-suspensions-remi-thirion-bos-vallnord.md",
     "_posts/2013-05-28-test-camelbak-lobo-sac-hydratation-vtt.md",
     "_posts/2013-05-14-vtt-29-pouces-pourquoi-rouler-grandes-roues.md",
-    "archive.md",
     "manifest.json",
     "_drafts"
   ]

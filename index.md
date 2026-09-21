@@ -1,9 +1,8 @@
 ---
-title: "Nicolas Jouanno — outdoor, sans gluten et projets web"
+title: Nicolas Jouanno — outdoor, sans gluten et projets web
 layout: page
-description: "J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten, et je construis les outils qui nous manquent."
+description: J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten, et je construis les outils qui nous manquent.
 permalink: /index.html
-breadcrumb_hide: true
 ---
 
 <hgroup class="u-text--center">
