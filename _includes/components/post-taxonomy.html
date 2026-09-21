@@ -21,12 +21,17 @@
 
   {% for tag_slug in item.tags %}
     {% assign tag_page = site.pages | where: "tag", tag_slug | first %}
-    {% if tag_page %}
-      <li>
+
+    <li>
+      {% if tag_page %}
         <a class="c-tag" href="{{ tag_page.url }}">
-          #{{ tag_slug | default: tag_page.title }}
+          #{{ tag_slug }}
         </a>
-      </li>
-    {% endif %}
+      {% else %}
+        <span class="c-tag">
+          #{{ tag_slug }}
+        </span>
+      {% endif %}
+    </li>
   {% endfor %}
 </ul>

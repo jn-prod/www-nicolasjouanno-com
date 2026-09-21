@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "404.md",
+                "file": "newsletter/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
-                  "collapseAll": false,
+                  "collapseAll": true,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
                   "showSearch": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "404"
+              "title": "index"
             }
           }
         ]
@@ -112,7 +112,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "bbbdfce5626363b4",
@@ -182,8 +182,9 @@
   },
   "active": "43f03c74abd37ec0",
   "lastOpenFiles": [
-    "index.md",
+    "_posts/2026-07-24-rando-bretagne-juillet-2026.md",
     "404.md",
+    "index.md",
     "_posts/2025-09-26-paris-web-2025.md",
     "_redirects/projets.md",
     "newsletter/good-by.md",
@@ -207,7 +208,6 @@
     "_posts/2013-09-04-configuration-yeti-sb66c-jared-graves-mondial-dh.md",
     "_posts/2013-07-29-analyse-suspensions-remi-thirion-bos-vallnord.md",
     "_posts/2013-05-28-test-camelbak-lobo-sac-hydratation-vtt.md",
-    "_posts/2013-05-14-vtt-29-pouces-pourquoi-rouler-grandes-roues.md",
     "manifest.json",
     "_drafts"
   ]
