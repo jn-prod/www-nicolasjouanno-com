@@ -9,12 +9,7 @@ tags:
 ---
 
 <!--
-Brouillon de la première édition sous le nom La Sortie.
-L'édito est prêt ; compléter les sections de sélection et d'agenda après
-réception du brief calendrier vtt.bzh. Lorsque l’action sera réintroduite,
-générer celui-ci depuis la branche `newsletter/2026-10-01_2026-11-05`, puis ne
-reporter ici que les éléments retenus et vérifiés. Ne pas envoyer ni publier avant
-relecture complète.
+Matière agenda : vtt-bzh-2026-10-01_2026-11-05, générée le 2026-09-22.
 -->
 
 Bonjour,
@@ -41,7 +36,44 @@ L’octobre rose
 
 ## L’agenda VTT
 
-<!-- Reporter ici le total et les nouveautés du brief vtt.bzh, puis garder le lien ci-dessous. -->
+26 randos sont annoncées entre le 1er octobre et le 5 novembre, dont 9 nouvelles
+ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les Côtes-d’Armor
+(6), le Finistère (1), l’Ille-et-Vilaine (12), la Loire-Atlantique (2) et le Morbihan (5).
+
+### Week-end des 3 et 4 octobre
+
+- **Tous pour la Vie** — samedi 3 · Janze (35)
+- **36e Randonnée de la Vallée du Boël** — dimanche 4 · Guichen (35)
+- **La Tredionnaise VTT** — dimanche 4 · Trédion (56)
+- **Rando VTT / gravel / marche — Landehen** — dimanche 4 · Landehen (22)
+- **Ronde du phacochére** — dimanche 4 · Saint-Aubin-d’Aubigné (35)
+- **Tous pour la Vie** — dimanche 4 · Janze (35)
+
+### Week-end des 10 et 11 octobre
+
+- **Randonnée VTT & pédestre** — samedi 10 · La Chapelle-Thouarault (35)
+- **29ème Rando du Marron de Redon** — dimanche 11 · Redon (35)
+- **Kewenn VTT** — dimanche 11 · Quéven (56)
+- **La Pordicaise** — dimanche 11 · Pordic (22)
+- **La Rochespoir** — dimanche 11 · Maen Roch (35)
+- **Marche de la Patate** — dimanche 11 · Ploeuc-sur-Lié (22)
+- **Moulins et Marais** — dimanche 11 · Saint-Herblain (44)
+- **Rando Kleg Saint Jo** — dimanche 11 · Cléguérec (56)
+- **Rando VTT Bais** — dimanche 11 · Bais (35)
+- **Rando des deux clochers** — dimanche 11 · Machecoul-Saint-Même (44)
+- **Randoligo** — dimanche 11 · Langolen (29)
+- **Randonnée des chataignes** — dimanche 11 · Pleslin-Trigavou (22)
+- **Randonnée VTT & Pédestre** — dimanche 11 · La Chapelle-Thouarault (35)
+
+### Week-end des 17 et 18 octobre
+
+- **Randonnée de l’Illet** — samedi 17 · Chasné-sur-Illet (35)
+- **Guip Ride** — dimanche 18 · Guipry-Messac (35)
+- **La Kerdéhélienne** — dimanche 18 · Baud (56)
+- **La Lou-Anne** — dimanche 18 · Pleumeur-Bodou (22)
+- **La Visnonia — 26ème édition** — dimanche 18 · Férel (56)
+- **Randonnée de l’Illet** — dimanche 18 · Chasné-sur-Illet (35)
+- **Vetathlon Bobital** — dimanche 18 · Bobital (22)
 
 Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=calendrier).
 
