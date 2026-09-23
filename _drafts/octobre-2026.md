@@ -17,13 +17,13 @@ Si vous êtes là depuis 2013, vous avez vieilli comme moi. Rien que pour ça, m
 
 Parmi les fonctionnalités abandonnées, il y avait une première version du calendrier par e-mail. J’aimais ce support, mais je l’ai arrêté faute de temps. Le peu que j’avais était consacré à maintenir le calendrier à jour et à garder le site fonctionnel.
 
-Depuis juillet, j’ai repris la newsletter dans une version très brute, pour retrouver l’habitude. Aujourd’hui, je n’ai pas plus de temps libre, mais en déléguant une partie de la maintenance du site à l’IA, je peux l’utiliser différemment. Je peux de nouveau rouler, courir et raconter ce qui se passe sur les sentiers.
+Depuis juillet, j’ai repris la newsletter dans une version brute, pour retrouver l’habitude. Aujourd’hui, je n’ai pas plus de temps libre, mais en déléguant une partie de la maintenance du site à l’IA, je peux l’utiliser différemment. Je peux de nouveau rouler, courir et raconter ce qui se passe sur les sentiers.
 
 Cette édition ouvre une nouvelle étape. La newsletter s’appelle désormais **La Sortie**.
 
 Le calendrier reste le cœur de vtt.bzh : un endroit simple pour trouver ou annoncer une randonnée. Ici, au lieu de vous renvoyer sa longue liste chaque mois, je souhaite vous aider à choisir : retenir quelques sorties, partager une information utile, une initiative de club ou un retour du terrain.
 
-Le VTT reste l’axe central du calendrier, au côté des randonnées pédestres et du gravel. La Sortie suivra naturellement ce qui se passe sur les chemins bretons, sans perdre ce qui fait l’utilité première de vtt.bzh.
+Le VTT reste l’axe central du calendrier, au côté des randonnées pédestres et du gravel. La Sortie suivra ce qui se passe sur les chemins bretons, sans perdre ce qui fait l’utilité première de vtt.bzh.
 
 La Sortie est désormais envoyée et archivée sur [nicolasjouanno.com](https://www.nicolasjouanno.com/la-sortie/). Le calendrier complet, lui, reste sur vtt.bzh.
 
