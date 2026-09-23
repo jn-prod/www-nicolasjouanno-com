@@ -7,18 +7,27 @@ tags:
   - outdoor
   - la-sortie
 ---
+Salut,
 
-<!--
-Matière agenda : vtt-bzh-2026-10-01_2026-11-05, générée le 2026-09-22.
--->
+J’ai lancé [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=edito) en 2013 pour répondre à une question simple : où rouler dimanche ?
 
-Bonjour,
+J’avais 25 ans, beaucoup d’idées et l’envie de faire de ce projet du soir un truc cool. Beaucoup de ces idées ont fini dans les abysses du web. Le calendrier est resté et a toujours eu toute mon attention.
 
-Depuis 2013, vtt.bzh rassemble les randonnées VTT annoncées par les clubs et les organisateurs bretons. Le calendrier reste son rôle : un endroit simple pour trouver où rouler, vérifier une date ou ajouter une rando.
+Si vous êtes là depuis 2013, vous avez vieilli comme moi. Rien que pour ça, merci !
 
-Cette édition ouvre un peu plus la porte. Elle s’appelle désormais **La Sortie**. Chaque mois, elle gardera les prochaines dates VTT utiles, mais ajoutera aussi ce qu’un calendrier ne raconte pas seul : quelques sorties à regarder, des nouvelles des chemins, et les informations partagées par celles et ceux qui roulent, organisent et entretiennent les pratiques dehors.
+Parmi les fonctionnalités abandonnées, il y avait une première version du calendrier par e-mail. J’aimais ce support, mais je l’ai arrêté faute de temps. Le peu que j’avais était consacré à maintenir le calendrier à jour et à garder le site fonctionnel.
 
-L’idée n’est pas de vous renvoyer une longue liste par e-mail. Le calendrier complet reste sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=calendrier). Ici, l’objectif est de vous aider à choisir, de faire circuler une information locale et de donner une place aux retours du terrain.
+Depuis juillet, j’ai repris la newsletter dans une version très brute, pour retrouver l’habitude. Aujourd’hui, je n’ai pas plus de temps libre, mais en déléguant une partie de la maintenance du site à l’IA, je peux l’utiliser différemment. Je peux de nouveau rouler, courir et raconter ce qui se passe sur les sentiers.
+
+Cette édition ouvre une nouvelle étape. La newsletter s’appelle désormais **La Sortie**.
+
+Le calendrier reste le cœur de vtt.bzh : un endroit simple pour trouver ou annoncer une randonnée. Ici, au lieu de vous renvoyer sa longue liste chaque mois, je souhaite vous aider à choisir : retenir quelques sorties, partager une information utile, une initiative de club ou un retour du terrain.
+
+Le VTT reste l’axe central du calendrier, au côté des randonnées pédestres et du gravel. La Sortie suivra naturellement ce qui se passe sur les chemins bretons, sans perdre ce qui fait l’utilité première de vtt.bzh.
+
+La Sortie est désormais envoyée et archivée sur [nicolasjouanno.com](https://www.nicolasjouanno.com/la-sortie/). Le calendrier complet, lui, reste sur vtt.bzh.
+
+Place aux sorties d’octobre.
 
 ## À retenir ce mois-ci
 
@@ -83,11 +92,11 @@ Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.v
 
 Photo rando gr34
 
-## Vous faites vivre les chemins
+## Parlez de votre Sortie
 
-Votre club prépare une randonnée, vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Une sélection de vos messages pourra nourrir la prochaine édition, toujours avec votre accord avant publication.
+Vous avez repéré une information utile, vous préparez une randonnée, vous voulez parler d’un projet de club ou raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Une sélection de vos messages pourra nourrir la prochaine édition, toujours avec votre accord avant publication.
 
-## Faites suivre
+## Faites suivre La Sortie
 
 Si cette édition vous aide à préparer votre prochaine sortie, transférez-la à votre club ou à la personne avec qui vous aimeriez partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles en Bretagne.
 
