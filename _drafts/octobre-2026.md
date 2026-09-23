@@ -1,5 +1,6 @@
 ---
-title: Octobre 2026
+title: "La Sortie #1 — où rouler en octobre en Bretagne"
+preheader: "26 randos annoncées, des sorties à choisir et les nouvelles des chemins bretons."
 description: Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain.
 category: newsletter
 permalink: /la-sortie/2026-10/
@@ -23,7 +24,7 @@ Cette édition ouvre une nouvelle étape. La newsletter s’appelle désormais *
 
 Le calendrier reste le cœur de vtt.bzh : un endroit simple pour trouver ou annoncer une randonnée. Ici, au lieu de vous renvoyer sa longue liste chaque mois, je souhaite vous aider à choisir : retenir quelques sorties, partager une information utile, une initiative de club ou un retour du terrain.
 
-Le VTT reste l’axe central du calendrier, au côté des randonnées pédestres et du gravel. La Sortie suivra ce qui se passe sur les chemins bretons, sans perdre ce qui fait l’utilité première de vtt.bzh.
+Le VTT reste l’axe central du calendrier, aux côtés des randonnées pédestres et du gravel. La Sortie suivra ce qui se passe sur les chemins bretons, sans perdre ce qui fait l’utilité première de vtt.bzh.
 
 La Sortie est désormais envoyée et archivée sur [nicolasjouanno.com](https://www.nicolasjouanno.com/la-sortie/). Le calendrier complet, lui, reste sur vtt.bzh.
 
@@ -31,13 +32,33 @@ Place aux sorties d’octobre.
 
 ## À retenir ce mois-ci
 
-<!-- Ajouter l’angle de saison et l’information principale après le brief calendrier. -->
+En octobre, le calendrier ne parle pas seulement de kilomètres. Plusieurs randonnées associent la sortie à une cause : **Tous pour la Vie** à Janzé, au profit de la recherche et de l’accompagnement des malades ; la randonnée VTT et pédestre de La Chapelle-Thouarault, inscrite dans la dynamique d’Octobre Rose ; et **Randoligo** à Langolen, organisée contre le cancer du cerveau.
+
+Trois façons de rouler ou marcher ensemble, et de donner un peu plus de sens à une sortie d’automne.
 
 ## La Sortie du mois
 
-<!-- Sélectionner jusqu’à trois randonnées depuis le brief vtt.bzh : nom, lieu, date et raison concrète de la sélectionner. -->
+### Tous pour la Vie — Janzé (35), les 3 et 4 octobre
 
-L’octobre rose
+Une randonnée sur deux jours, avec du VTT, du cyclo, de la marche et du gravel. Les bénéfices sont reversés au Centre Eugène Marquis et à l’Institut Curie, pour la recherche contre le cancer et l’accompagnement des malades.
+
+### Randonnée VTT & Pédestre — La Chapelle-Thouarault (35), le 11 octobre
+
+Cinq parcours VTT, dont un gravel, et cinq parcours pédestres au départ de la salle des Rochers. Une sortie locale inscrite dans la dynamique d’Octobre Rose.
+
+### Randoligo — Langolen (29), le 11 octobre
+
+Une journée de marche et de VTT contre le cancer du cerveau, organisée par Oligocyte Bretagne. Quatre parcours pédestres, quatre parcours VTT et un rendez-vous qui donne une dimension solidaire à la sortie.
+
+## À voir aussi en Bretagne
+
+Au-delà du calendrier vtt.bzh, Octobre Rose mobilise toute la région. Trois rendez-vous à retenir dans l’agenda officiel du CRCDC Bretagne :
+
+- **La Kemper’Ose** — Quimper, le 4 octobre : course et marche solidaires.
+- **La Vannetaise** — Vannes, du 9 au 11 octobre : marche, course, marche nordique et animations.
+- **La Carentoirienne** — Carentoir, le 25 octobre : randonnée solidaire avec circuits pédestres, VTT et équestres.
+
+[Voir l’ensemble des actions Octobre Rose en Bretagne](https://web.depistage-cancer.bzh/octobre-rose-2026-avec-liste-actions/).
 
 ## Le coin à découvrir
 
