@@ -30,29 +30,26 @@ La Sortie est désormais envoyée et archivée sur [nicolasjouanno.com](https://
 
 Place aux sorties d’octobre.
 
-## À retenir ce mois-ci
+## La Sortie solidaire
 
-En octobre, le calendrier ne parle pas seulement de kilomètres. Plusieurs randonnées associent la sortie à une cause : **Tous pour la Vie** à Janzé, au profit de la recherche et de l’accompagnement des malades ; la randonnée VTT et pédestre de La Chapelle-Thouarault, inscrite dans la dynamique d’Octobre Rose ; et **Randoligo** à Langolen, organisée contre le cancer du cerveau.
+Dans la dynamique de l’**octobre rose**, ce mois-ci, vous pouvez lier sport et soutien à la lutte contre le cancer.
 
 Trois façons de rouler ou marcher ensemble, et de donner un peu plus de sens à une sortie d’automne.
-
-## La Sortie du mois
-
-### Tous pour la Vie — Janzé (35), les 3 et 4 octobre
+### [recherche contre le cancer] Tous pour la Vie à Janzé (35), les 3 et 4 octobre
 
 Une randonnée sur deux jours, avec du VTT, du cyclo, de la marche et du gravel. Les bénéfices sont reversés au Centre Eugène Marquis et à l’Institut Curie, pour la recherche contre le cancer et l’accompagnement des malades.
 
-### Randonnée VTT & Pédestre — La Chapelle-Thouarault (35), le 11 octobre
+### [Octobre Rose] Randonnée VTT & Pédes de La Chapelle-Thouarault (35), le 11 octobre
 
 Cinq parcours VTT, dont un gravel, et cinq parcours pédestres au départ de la salle des Rochers. Une sortie locale inscrite dans la dynamique d’Octobre Rose.
 
-### Randoligo — Langolen (29), le 11 octobre
+### [cancer du cerveau] Randoligo à Langolen (29), le 11 octobre
 
 Une journée de marche et de VTT contre le cancer du cerveau, organisée par Oligocyte Bretagne. Quatre parcours pédestres, quatre parcours VTT et un rendez-vous qui donne une dimension solidaire à la sortie.
 
 ## À voir aussi en Bretagne
 
-Au-delà du calendrier vtt.bzh, Octobre Rose mobilise toute la région. Trois rendez-vous à retenir dans l’agenda officiel du CRCDC Bretagne :
+Au-delà du calendrier vtt.bzh, **Octobre Rose** mobilise toute la région. Trois rendez-vous à retenir dans l’agenda officiel du CRCDC Bretagne :
 
 - **La Kemper’Ose** — Quimper, le 4 octobre : course et marche solidaires.
 - **La Vannetaise** — Vannes, du 9 au 11 octobre : marche, course, marche nordique et animations.
@@ -60,11 +57,7 @@ Au-delà du calendrier vtt.bzh, Octobre Rose mobilise toute la région. Trois re
 
 [Voir l’ensemble des actions Octobre Rose en Bretagne](https://web.depistage-cancer.bzh/octobre-rose-2026-avec-liste-actions/).
 
-## Le coin à découvrir
-
-<!-- Ajouter un territoire, une idée de sortie ou une photographie réellement vécue. Supprimer la section si rien de pertinent n’est disponible. -->
-
-## L’agenda VTT
+## La Sortie VTT
 
 26 randos sont annoncées entre le 1er octobre et le 5 novembre, dont 9 nouvelles
 ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les Côtes-d’Armor
