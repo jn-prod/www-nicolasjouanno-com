@@ -9,7 +9,7 @@ tags:
   - préparation rando vtt
   - vtt
   - outdoor
-image: /images/posts/d8edb-0mw_03xhl0mtujzgh.webp
+image: /images/posts/d8edb-0mw_03xhl0mtujzgh.jpg
 image_alt: "Un cardiofréquencemètre avec cadence"
 ---
 

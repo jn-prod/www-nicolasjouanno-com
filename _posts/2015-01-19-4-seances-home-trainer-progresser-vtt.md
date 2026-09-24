@@ -9,7 +9,7 @@ tags:
   - progresser vtt
   - vtt
   - outdoor
-image: /images/posts/d379f-0z0tfhj6okz30ro44.webp
+image: /images/posts/d379f-0z0tfhj6okz30ro44.jpg
 image_alt: "Entraînement VTT sur home-trainer"
 ---
 

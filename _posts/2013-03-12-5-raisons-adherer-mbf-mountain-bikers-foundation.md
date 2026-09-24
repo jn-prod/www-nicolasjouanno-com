@@ -9,7 +9,7 @@ tags:
   - vtt responsable
   - vtt
   - outdoor
-image: /images/posts/b2ad1-0jz8kn8h4cwgy7ytz.webp
+image: /images/posts/b2ad1-0jz8kn8h4cwgy7ytz.jpg
 image_alt: "La charte de la Mountain Bikers Foundation"
 ---
 

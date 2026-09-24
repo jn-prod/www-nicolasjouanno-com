@@ -9,7 +9,7 @@ tags:
   - virtual-trainer
   - vtt
   - outdoor
-image: /images/posts/dec76-0cscharjawldysi56.webp
+image: /images/posts/dec76-0cscharjawldysi56.jpg
 image_alt: "Home trainer au chaud vs VTT dans la boue?"
 ---
 

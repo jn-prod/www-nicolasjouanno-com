@@ -8,7 +8,7 @@ tags:
   - reconversion
   - entrainement
   - vtt
-image: /images/posts/1029035155.webp
+image: /images/posts/1029035155.jpg
 featured: true
 ---
 

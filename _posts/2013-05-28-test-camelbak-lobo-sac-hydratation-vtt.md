@@ -10,7 +10,7 @@ tags:
   - sac à dos vtt
   - vtt
   - outdoor
-image: /images/posts/1ec09-0r4e75xjf9inhwb23.webp
+image: /images/posts/1ec09-0r4e75xjf9inhwb23.png
 image_alt: Test du Camelbak Lobo
 ---
 

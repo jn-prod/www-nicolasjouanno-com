@@ -10,7 +10,7 @@ tags:
   - matériel vtt
   - vtt
   - outdoor
-image: /images/posts/a88c2-0b7px9w1n1pvqexaf.webp
+image: /images/posts/a88c2-0b7px9w1n1pvqexaf.jpg
 image_alt: Casque Urge Archi-Enduro RR
 ---
 

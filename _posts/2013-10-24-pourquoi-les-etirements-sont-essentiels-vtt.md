@@ -10,7 +10,7 @@ tags:
   - étirements vélo
   - vtt
   - outdoor
-image: /images/posts/fdb77-0homugubvczfir3sy.webp
+image: /images/posts/fdb77-0homugubvczfir3sy.jpg
 image_alt: Les bienfaits des étirements
 ---
 

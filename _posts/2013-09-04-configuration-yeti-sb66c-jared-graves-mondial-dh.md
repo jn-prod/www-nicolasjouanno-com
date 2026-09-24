@@ -10,7 +10,7 @@ tags:
   - configuration vtt dh
   - vtt
   - outdoor
-image: /images/posts/5022a-0k5y25fuce70omq-h.webp
+image: /images/posts/5022a-0k5y25fuce70omq-h.jpg
 image_alt: Yeti SB66C de Jared Graves au championnat du monde de descente à Pietermaritzburg
 ---
 

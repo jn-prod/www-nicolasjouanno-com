@@ -10,7 +10,7 @@ tags:
   - matériel vtt enduro
   - vtt
   - outdoor
-image: /images/posts/p5pb12718966.webp
+image: /images/posts/p5pb12718966.jpg
 featured: true
 ---
 

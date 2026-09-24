@@ -9,7 +9,7 @@ tags:
   - fourche
   - amortisseur
   - réglage
-image: /images/posts/a3d50-0omp6q8ru_v_v0drm.webp
+image: /images/posts/a3d50-0omp6q8ru_v_v0drm.jpg
 image_alt: "Pompe Haute Pression pour Suspension ROCKSHOX"
 ---
 

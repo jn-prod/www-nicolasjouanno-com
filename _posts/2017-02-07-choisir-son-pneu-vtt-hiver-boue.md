@@ -7,7 +7,7 @@ tags:
   - pneu vtt hiver
   - vtt
   - outdoor
-image: /images/posts/d6a09-0klmuoxlc_xyukmmx.webp
+image: /images/posts/d6a09-0klmuoxlc_xyukmmx.jpg
 ---
 
 <em>Changement d’heure, changement de temps, changement de pneus… c’est la dure réalité des VTTistes quand l’hiver arrive, quand les chemins deviennent boueux, n’évacuent plus l’eau et que les feuilles tombent, votre pilotage change, plus en glisse. Mais combien d’entre vous gardent les mêmes pneus sur leur VTT l’hiver que l’été? A tord… l’adhérence est un gage de sécurité que l’on soit un pilote engagé ou simple randonneur.</em>

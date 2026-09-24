@@ -10,7 +10,7 @@ tags:
   - matériel vtt
   - vtt
   - outdoor
-image: /images/posts/16f6b-0wdbncxwigl4kvfon.webp
+image: /images/posts/16f6b-0wdbncxwigl4kvfon.png
 image_alt: Pourquoi rouler en 29 pouces
 ---
 

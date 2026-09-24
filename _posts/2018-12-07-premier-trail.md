@@ -7,7 +7,7 @@ tags:
   - outdoor
   - competition
   - debut
-image: /images/posts/homme_trail_foret.webp
+image: /images/posts/homme_trail_foret.jpg
 featured: true
 ---
 

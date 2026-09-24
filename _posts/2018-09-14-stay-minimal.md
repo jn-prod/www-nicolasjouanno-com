@@ -9,7 +9,7 @@ tags:
   - code
   - startup
   - work
-image: /images/posts/maxresdefault.webp
+image: /images/posts/maxresdefault.jpg
 ---
 
 ## A la rencontre du growth hacking

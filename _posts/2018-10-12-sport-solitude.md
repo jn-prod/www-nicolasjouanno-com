@@ -7,7 +7,7 @@ tags:
   - solitude
   - sentiments
   - trail
-image: /images/posts/living-alone.webp
+image: /images/posts/living-alone.jpg
 featured: true
 ---
 

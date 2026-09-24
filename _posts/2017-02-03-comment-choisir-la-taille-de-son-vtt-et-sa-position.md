@@ -8,7 +8,7 @@ tags:
   - choix la taille vtt
   - vtt
   - outdoor
-image: /images/posts/90cc1-0wscg_9_yafgnydvo.webp
+image: /images/posts/90cc1-0wscg_9_yafgnydvo.jpg
 ---
 
 <em>Le choix de la taille de votre VTT est essentiel dans votre pratique, qu’elle soit loisir ou de compétition. Cela peut vous permettre de gagner rapidement en efficacité sur votre VTT. De manière certaine, une meilleure position améliorera vos performances pour plusieurs raisons qui seront dévoilées plus bas.</em>

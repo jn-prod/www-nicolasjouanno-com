@@ -10,7 +10,7 @@ permalink: /index.html
   <p>Je raconte ce que nous trouvons en chemin et je construis les outils qui nous manquent.</p>
 </hgroup>
 
-<p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
+<p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.jpg" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
 
 Le vélo a d'abord donné le rythme. J'ai été [cycliste professionnel]({{ site.url }}/results.html?utm_source=home&utm_medium=proof&utm_campaign=ecosystem) chez Bretagne Schuller. J'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à raccrocher.
 

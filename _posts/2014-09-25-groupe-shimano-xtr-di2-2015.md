@@ -10,7 +10,7 @@ tags:
   - matériel vtt
   - vtt
   - outdoor
-image: /images/posts/e210f-0cl6rllkmratuqcb6.webp
+image: /images/posts/e210f-0cl6rllkmratuqcb6.jpg
 image_alt: XTR Di2 - Synchro Shift
 ---
 

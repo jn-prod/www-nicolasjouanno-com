@@ -10,7 +10,7 @@ tags:
   - choisir pédales vtt
   - vtt
   - outdoor
-image: /images/posts/ccs-62657-0-58346000-1479391864.webp
+image: /images/posts/ccs-62657-0-58346000-1479391864.jpg
 ---
 
 ## Au programme :

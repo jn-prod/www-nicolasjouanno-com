@@ -10,7 +10,7 @@ tags:
   - contenu
   - vtt
   - outdoor
-image: /images/posts/jervol.webp
+image: /images/posts/jervol.jpg
 ---
 
 <em>L’un des plus grands plaisir du VTT est de partir la journée, toujours plus loin, toujours plus vite dans les bois où vous ne pouvez aller lorsque vous êtes à pied. Cela signifie aussi que lorsqu’il vous arrive quelque chose, comme une blessure, un problème mécanique, il vous sera compliqué de compter sur quelqu’un d’autre que sur vous-même.</em>

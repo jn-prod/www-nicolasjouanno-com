@@ -8,7 +8,7 @@ tags:
   - inbox-zero
   - organisation
   - work
-image: /images/posts/e0a38-10yto40xd793dweahzoxsta.webp
+image: /images/posts/e0a38-10yto40xd793dweahzoxsta.jpeg
 ---
 
 ## L’inbox 0, plus qu’une règle c’est un état d’esprit de productivité que j’applique au quotidien.

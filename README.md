@@ -68,7 +68,7 @@ tags:
   - outdoor
   - vtt
   - nutrition
-image: /images/posts/nom-du-fichier.webp
+image: /images/posts/nom-du-fichier.jpg
 image_alt: "Description fidèle de la photo"
 ---
 ```
@@ -76,7 +76,7 @@ image_alt: "Description fidèle de la photo"
 - `category` alimente les pages Guides, Récits, Newsletter et Archive ainsi que le fil d’Ariane.
 - `tags` alimente les pages thématiques Outdoor, VTT, Trail, Nutrition, Sans gluten et Work. Les publications VTT et trail portent aussi le tag parent `outdoor`.
 - Les pages qui portent un champ `tag` définissent les sujets publics ; `parent_tag` relie une page à son sujet parent dans le fil d’Ariane. Les tags plus précis restent libres.
-- La source d’une photo reste dans `images/` ; le build publie sa version WebP dans `images/posts/`.
+- Dans le front matter comme dans le contenu, référencer une photo avec son extension source (`.jpg`, `.jpeg` ou `.png`) ; le pré-build publie sa version WebP.
 
 ## Design system
 
@@ -167,7 +167,7 @@ Quiz interactif sur les aliments contenant du gluten.
 
 ## Images
 
-Le pipeline intégré convertit les sources JPG/PNG de `images/` en WebP et optimise les SVG. Les images Open Graph de `images/og/` conservent leur format pour rester compatibles avec les réseaux sociaux. Les fichiers produits sont copiés dans `_site/images/` au build. Dans un article, une pièce jointe ajoutée dans `images/posts/` est référencée dans le front matter par son URL publique en `/images/posts/…webp`.
+Le pipeline intégré convertit les sources JPG/PNG de `images/` en WebP et optimise les SVG. Les images Open Graph de `images/og/` conservent leur format pour rester compatibles avec les réseaux sociaux. Les fichiers produits sont copiés dans `_site/images/` au build. Dans un article, une pièce jointe ajoutée dans `images/posts/` est référencée avec son extension source.
 
 Pour une image **dans le corps d'un post ou d'un brouillon**, garder le lien vers le fichier source permet l'aperçu dans iA Writer et Obsidian :
 

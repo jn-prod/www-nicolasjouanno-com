@@ -6,7 +6,7 @@ tags:
   - outdoor
   - chute
   - vtt
-image: /images/posts/route-de-montagne.webp
+image: /images/posts/route-de-montagne.jpg
 featured: true
 ---
 
