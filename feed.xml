@@ -11,8 +11,8 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Thu, 24 Sep 2026 18:55:17 +0000</pubDate>
-    <lastBuildDate>Thu, 24 Sep 2026 18:55:17 +0000</lastBuildDate>
+    <pubDate>Thu, 24 Sep 2026 19:12:46 +0000</pubDate>
+    <lastBuildDate>Thu, 24 Sep 2026 19:12:46 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
@@ -302,15 +302,11 @@
         <dc:creator>Nicolas Jouanno</dc:creator>
         
         
-        <category>ia</category>
-        
-        <category>systèmes agentiques</category>
-        
-        <category>frontend</category>
-        
-        <category>création</category>
-        
         <category>work</category>
+        
+        <category>web</category>
+        
+        <category>ia</category>
         
         
         <category>recit</category>
@@ -388,13 +384,9 @@
         
         <category>outdoor</category>
         
-        <category>course à pied</category>
-        
         <category>trail</category>
         
         <category>entraînement</category>
-        
-        <category>débutant</category>
         
         
         <category>guide</category>
@@ -456,15 +448,11 @@
         
         <category>sans-gluten</category>
         
-        <category>maladie-coeliaque</category>
-        
         <category>outdoor</category>
         
-        <category>endurance</category>
+        <category>nutrition</category>
         
         <category>cyclisme</category>
-        
-        <category>nutrition</category>
         
         
         <category>guide</category>
@@ -591,15 +579,9 @@ en supposant que :</p>
         
         <category>sans-gluten</category>
         
-        <category>sécu</category>
+        <category>nutrition</category>
         
         <category>santé</category>
-        
-        <category>désinformation</category>
-        
-        <category>maladie-coeliaque</category>
-        
-        <category>nutrition</category>
         
         
         <category>recit</category>
@@ -716,13 +698,11 @@ séparer, cloisonner, multiplier les adresses.</p>
         <dc:creator>Nicolas Jouanno</dc:creator>
         
         
-        <category>minimalisme</category>
-        
-        <category>tech</category>
-        
-        <category>creation</category>
-        
         <category>work</category>
+        
+        <category>web</category>
+        
+        <category>productivité</category>
         
         
         <category>recit</category>
@@ -900,8 +880,6 @@ séparer, cloisonner, multiplier les adresses.</p>
         
         <category>outdoor</category>
         
-        <category>chute</category>
-        
         <category>vtt</category>
         
         
@@ -974,9 +952,7 @@ séparer, cloisonner, multiplier les adresses.</p>
         
         <category>outdoor</category>
         
-        <category>competition</category>
-        
-        <category>debut</category>
+        <category>compétition</category>
         
         
         <category>recit</category>

@@ -55,7 +55,7 @@
       "date_published": "2026-07-10T00:00:00+00:00",
       
       
-      "tags": ["ia", "systèmes agentiques", "frontend", "création", "work"]
+      "tags": ["work", "web", "ia"]
     },
     
     
@@ -70,7 +70,7 @@
       "date_published": "2026-06-16T00:00:00+00:00",
       
       
-      "tags": ["outdoor", "course à pied", "trail", "entraînement", "débutant"]
+      "tags": ["outdoor", "trail", "entraînement"]
     },
     
     
@@ -85,7 +85,7 @@
       "date_published": "2026-06-09T00:00:00+00:00",
       
       
-      "tags": ["sans-gluten", "maladie-coeliaque", "outdoor", "endurance", "cyclisme", "nutrition"]
+      "tags": ["sans-gluten", "outdoor", "nutrition", "cyclisme"]
     },
     
     
@@ -100,7 +100,7 @@
       "date_published": "2026-01-15T00:00:00+00:00",
       
       
-      "tags": ["sans-gluten", "sécu", "santé", "désinformation", "maladie-coeliaque", "nutrition"]
+      "tags": ["sans-gluten", "nutrition", "santé"]
     },
     
     
@@ -130,7 +130,7 @@
       "date_published": "2025-09-17T00:00:00+00:00",
       
       
-      "tags": ["minimalisme", "tech", "creation", "work"]
+      "tags": ["work", "web", "productivité"]
     },
     
     
@@ -147,7 +147,7 @@
       
       "image": "https://www.nicolasjouanno.com/images/posts/route-de-montagne.webp",
       
-      "tags": ["outdoor", "chute", "vtt"]
+      "tags": ["outdoor", "vtt"]
     },
     
     
@@ -164,7 +164,7 @@
       
       "image": "https://www.nicolasjouanno.com/images/posts/homme_trail_foret.webp",
       
-      "tags": ["trail", "outdoor", "competition", "debut"]
+      "tags": ["trail", "outdoor", "compétition"]
     }
     
   ]
