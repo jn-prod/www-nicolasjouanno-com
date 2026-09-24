@@ -101,12 +101,14 @@ Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.v
 
 📍[Paimpont](https://maps.app.goo.gl/zQG3AtCYShfiXrZr5?g_st=ic) - 2026-07-05 - 📷 Fujifilm x70 © Nicolas JOUANNO DANIEL
 
+![Randonnée en famille dans la forêt de Brocéliande](../images/posts/broceliande-siege-de-merlin.jpg)
+Une journée à marcher en famille dans la forêt de Brocéliande, sur les traces du siège de Merlin.
 
 ## Parlez de votre Sortie
 
 Vous avez repéré une information utile, vous préparez une randonnée, vous voulez parler d’un projet de club ou raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Une sélection de vos messages pourra nourrir la prochaine édition, toujours avec votre accord avant publication.
 
-## Faites suivre La Sortie
+## La Sortie se partage
 
 Si cette édition vous aide à préparer votre prochaine sortie, transférez-la à votre club ou à la personne avec qui vous aimeriez partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles en Bretagne.
 
