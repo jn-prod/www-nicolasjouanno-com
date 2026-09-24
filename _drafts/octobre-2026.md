@@ -22,7 +22,7 @@ Depuis juillet, j’ai repris la newsletter dans une version brute, pour retrouv
 
 Cette édition ouvre une nouvelle étape. La newsletter s’appelle désormais **La Sortie**.
 
-Le calendrier reste le cœur de vtt.bzh : un endroit simple pour trouver ou annoncer une randonnée. Ici, au lieu de vous renvoyer sa longue liste chaque mois, je souhaite vous aider à choisir : retenir quelques sorties, partager une information utile, une initiative de club ou un retour du terrain.
+Le calendrier reste le cœur de vtt.bzh : un endroit simple pour trouver ou annoncer une randonnée. Ici, au lieu de vous renvoyer sa liste complète chaque mois, je souhaite vous aider à choisir : retenir quelques sorties, partager une information utile, une initiative de club ou un retour du terrain.
 
 Le VTT reste l’axe central du calendrier, aux côtés des randonnées pédestres et du gravel. La Sortie suivra ce qui se passe sur les chemins bretons, sans perdre ce qui fait l’utilité première de vtt.bzh.
 
@@ -32,32 +32,29 @@ Place aux sorties d’octobre.
 
 ## La Sortie solidaire
 
-Dans la dynamique de l’**octobre rose**, ce mois-ci, vous pouvez lier sport et soutien à la lutte contre le cancer.
+Dans la dynamique d’**Octobre Rose**, donnez ce mois-ci un peu plus de sens à vos sorties d’automne en liant sport et soutien à la lutte contre le cancer.
 
-Trois façons de rouler ou marcher ensemble, et de donner un peu plus de sens à une sortie d’automne.
-### [recherche contre le cancer] Tous pour la Vie à Janzé (35), les 3 et 4 octobre
+### Octobre Rose
 
-Une randonnée sur deux jours, avec du VTT, du cyclo, de la marche et du gravel. Les bénéfices sont reversés au Centre Eugène Marquis et à l’Institut Curie, pour la recherche contre le cancer et l’accompagnement des malades.
+Randonnée VTT & Pédestre de La Chapelle-Thouarault (35), le 11 octobre. Cinq parcours VTT, dont un gravel, et cinq parcours pédestres au départ de la salle des Rochers. Une sortie locale inscrite dans la dynamique d’Octobre Rose.
 
-### [Octobre Rose] Randonnée VTT & Pédes de La Chapelle-Thouarault (35), le 11 octobre
+Au-delà du calendrier vtt.bzh, l’**Octobre Rose** mobilise toute la région. Trois rendez-vous à retenir dans l’agenda officiel du CRCDC Bretagne :
 
-Cinq parcours VTT, dont un gravel, et cinq parcours pédestres au départ de la salle des Rochers. Une sortie locale inscrite dans la dynamique d’Octobre Rose.
-
-### [cancer du cerveau] Randoligo à Langolen (29), le 11 octobre
-
-Une journée de marche et de VTT contre le cancer du cerveau, organisée par Oligocyte Bretagne. Quatre parcours pédestres, quatre parcours VTT et un rendez-vous qui donne une dimension solidaire à la sortie.
-
-## À voir aussi en Bretagne
-
-Au-delà du calendrier vtt.bzh, **Octobre Rose** mobilise toute la région. Trois rendez-vous à retenir dans l’agenda officiel du CRCDC Bretagne :
-
-- **La Kemper’Ose** — Quimper, le 4 octobre : course et marche solidaires.
-- **La Vannetaise** — Vannes, du 9 au 11 octobre : marche, course, marche nordique et animations.
-- **La Carentoirienne** — Carentoir, le 25 octobre : randonnée solidaire avec circuits pédestres, VTT et équestres.
+- **La Kemper’Ose**: Quimper, le 4 octobre : course et marche solidaires.
+- **La Vannetaise**: Vannes, du 9 au 11 octobre : marche, course, marche nordique et animations.
+- **La Carentoirienne**: Carentoir, le 25 octobre : randonnée solidaire avec circuits pédestres, VTT et équestres.
 
 [Voir l’ensemble des actions Octobre Rose en Bretagne](https://web.depistage-cancer.bzh/octobre-rose-2026-avec-liste-actions/).
 
-## La Sortie VTT
+### Recherche contre le cancer
+
+Tous pour la Vie à Janzé (35), les 3 et 4 octobre. Une randonnée sur deux jours, avec du VTT, du cyclo, de la marche et du gravel. Les bénéfices sont reversés au Centre Eugène Marquis et à l’Institut Curie, pour la recherche contre le cancer et l’accompagnement des malades.
+
+### Cancer du cerveau
+
+Randoligo à Langolen (29), le 11 octobre. Une journée de marche et de VTT contre le cancer du cerveau, organisée par Oligocyte Bretagne. Quatre parcours pédestres, quatre parcours VTT et un rendez-vous qui donne une dimension solidaire à la sortie.
+
+## L’agenda VTT
 
 26 randos sont annoncées entre le 1er octobre et le 5 novembre, dont 9 nouvelles
 ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les Côtes-d’Armor
@@ -102,9 +99,8 @@ Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.v
 
 ## La Sortie en photo
 
-<!-- Ajouter un retour de pratiquant, club ou organisateur, uniquement avec son accord. Supprimer la section en l’absence de contribution utile. -->
+📍[Paimpont](https://maps.app.goo.gl/zQG3AtCYShfiXrZr5?g_st=ic) - 2026-07-05 - 📷 Fujifilm x70 © Nicolas JOUANNO DANIEL
 
-Photo rando gr34
 
 ## Parlez de votre Sortie
 
