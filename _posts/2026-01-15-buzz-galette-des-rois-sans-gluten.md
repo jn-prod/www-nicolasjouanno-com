@@ -4,11 +4,9 @@ title: "Galette sans gluten : ce que rembourse réellement l’Assurance Maladie
 description: "La galette des rois sans gluten est-elle remboursée ? Les faits sur la prise en charge liée à la maladie cœliaque, loin du bad buzz."
 tags:
   - sans-gluten
-  - sécu
-  - santé
-  - désinformation
-  - maladie-coeliaque
   - nutrition
+  - santé
+
 ---
 
 Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :

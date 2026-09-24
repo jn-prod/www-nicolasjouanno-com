@@ -22,6 +22,22 @@ SKIPPED_DIRECTORIES = %w[
   www
 ].freeze
 LEGACY_KEYS = %w[archive categories format sous_silo verticale].freeze
+DOMAIN_TAGS = %w[outdoor vtt trail nutrition sans-gluten work la-sortie].freeze
+SECONDARY_TAGS = %w[
+  enduro
+  équipement
+  randonnée
+  entraînement
+  hiver
+  santé
+  sécurité
+  cyclisme
+  compétition
+  web
+  ia
+  productivité
+].freeze
+ALLOWED_POST_TAGS = (DOMAIN_TAGS + SECONDARY_TAGS).freeze
 
 def fail_with(errors)
   return if errors.empty?
@@ -119,6 +135,8 @@ POSTS_DIR.glob("*.md").each do |post_path|
   errors << "#{relative_path} must have at least one tag" if tags.empty?
   errors << "#{relative_path} has duplicate tags" if tags.uniq.length != tags.length
   errors << "#{relative_path} has tags that are not lowercase" if tags.any? { |tag| tag != tag.downcase }
+  invalid_tags = tags - ALLOWED_POST_TAGS
+  errors << "#{relative_path} uses unapproved tags: #{invalid_tags.join(', ')}" unless invalid_tags.empty?
   tag_pages.each_key do |tag|
     post_counts_by_tag[tag] += 1 if tags.include?(tag) && category != "archive"
   end

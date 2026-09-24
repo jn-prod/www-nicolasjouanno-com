@@ -4,12 +4,10 @@ sitemap: false
 title: Présentation du casque Urge Archi-Enduro RR
 description: "Le premier casque d'enduro de compétition d'Urge, en version RR (Race Ready) : fibre de verre et de lin, 990 g, mentonnière travaillée, champ de vision élargi."
 tags:
-  - casque urge
-  - archi-enduro
-  - casque enduro
-  - matériel vtt
   - vtt
   - outdoor
+  - enduro
+  - équipement
 image: /images/posts/a88c2-0b7px9w1n1pvqexaf.jpg
 image_alt: Casque Urge Archi-Enduro RR
 ---

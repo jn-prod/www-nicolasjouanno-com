@@ -56,9 +56,9 @@ Randoligo à Langolen (29), le 11 octobre. Une journée de marche et de VTT cont
 
 ## L’agenda VTT
 
-26 randos sont annoncées entre le 1er octobre et le 5 novembre, dont 9 nouvelles
+28 randos sont annoncées entre le 1er octobre et le 5 novembre, dont 11 nouvelles
 ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les Côtes-d’Armor
-(6), le Finistère (1), l’Ille-et-Vilaine (12), la Loire-Atlantique (2) et le Morbihan (5).
+(6), le Finistère (1), l’Ille-et-Vilaine (14), la Loire-Atlantique (2) et le Morbihan (5).
 
 ### Week-end des 3 et 4 octobre
 
@@ -94,6 +94,11 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
 - **La Visnonia — 26ème édition** — dimanche 18 · Férel (56)
 - **Randonnée de l’Illet** — dimanche 18 · Chasné-sur-Illet (35)
 - **Vetathlon Bobital** — dimanche 18 · Bobital (22)
+
+### Week-end des 24 et 25 octobre
+
+- **Rives du Semnon** — samedi 24 · Lalleu (35)
+- **Rives du Semnon** — dimanche 25 · Lalleu (35)
 
 Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=calendrier).
 

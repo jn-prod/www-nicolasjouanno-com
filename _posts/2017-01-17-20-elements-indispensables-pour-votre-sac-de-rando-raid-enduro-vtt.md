@@ -3,13 +3,11 @@ category: guide
 title: "Checklist - L'équipement indispensable à avoir dans son sac à dos de VTT"
 description: "Une randonnée VTT ou de l'enduro, ça demande de la préparation et de l'équipement. Voici la liste des affaires indispensable à avoir dans votre sac dos."
 tags:
-  - randonnée vtt
-  - enduro vtt
-  - equipement
-  - sac à dos
-  - contenu
   - vtt
   - outdoor
+  - enduro
+  - équipement
+  - randonnée
 image: /images/posts/jervol.jpg
 ---
 

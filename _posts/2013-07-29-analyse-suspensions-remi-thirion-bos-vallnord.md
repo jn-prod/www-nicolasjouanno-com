@@ -4,12 +4,11 @@ sitemap: false
 title: "Analyse : les suspensions de Rémi Thirion à la Coupe du Monde de DH de Vallnord"
 description: À Vallnord, Rémi Thirion couvre son Commençal Supreme DH de capteurs. Comment BOS a transformé ses sensations en réglages gagnants.
 tags:
-  - rémi thirion
-  - suspensions bos
-  - coupe du monde dh
-  - réglage suspension vtt
   - vtt
   - outdoor
+  - équipement
+  - compétition
+
 ---
 
 Sur la Coupe du Monde de DH de Vallnord, en Andorre, **Rémi Thirion** (Commençal) — avant de remporter l'épreuve devant « l'homme à battre » de la saison, Gee Atherton (GT Bicycles) — avait déjà commencé à faire parler de lui aux qualifs.

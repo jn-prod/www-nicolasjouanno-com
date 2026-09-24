@@ -5,8 +5,7 @@ description: "Récit de ma première course de trail : préparation, stratégie 
 tags:
   - trail
   - outdoor
-  - competition
-  - debut
+  - compétition
 image: /images/posts/homme_trail_foret.jpg
 featured: true
 ---

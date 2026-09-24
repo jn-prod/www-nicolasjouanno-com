@@ -4,11 +4,9 @@ title: "Sans gluten et sport d’endurance : mon expérience de cycliste et pare
 description: "Ancien cycliste professionnel et parent d’un enfant cœliaque, je croise nutrition d’endurance et sans gluten au quotidien, sans promesse miracle."
 tags:
   - sans-gluten
-  - maladie-coeliaque
   - outdoor
-  - endurance
-  - cyclisme
   - nutrition
+  - cyclisme
 featured: true
 ---
 

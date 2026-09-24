@@ -4,12 +4,9 @@ sitemap: false
 title: Test de la tige de selle telescopique Rockshox Reverb
 description: Quels sont les avantages d'une tige de selle télescopique ? Pourquoi avoir choisi le Rockshox Reverb ? Voici, le test.
 tags:
-  - tige de selle télescopique
-  - tige de selle rockshox
-  - rockshox reverb
-  - tige de selle vtt
   - vtt
   - outdoor
+  - équipement
 image: /images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.jpg
 ---
 

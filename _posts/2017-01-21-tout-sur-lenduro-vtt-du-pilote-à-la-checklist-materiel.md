@@ -4,12 +4,10 @@ category: guide
 title: "GUIDE: L'enduro VTT de A à Z."
 description: "Tout savoir sur la discipline la plus complête du VTT: l'enduro. Sa définition, son équipement et quelques conseils."
 tags:
-  - enduro vtt
-  - vtt enduro
-  - équipement vtt enduro
-  - matériel vtt enduro
   - vtt
   - outdoor
+  - enduro
+  - équipement
 image: /images/posts/p5pb12718966.jpg
 featured: true
 ---

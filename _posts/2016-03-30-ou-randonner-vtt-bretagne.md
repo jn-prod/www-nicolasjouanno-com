@@ -5,12 +5,7 @@ description: "Circuits VTT en Bretagne par région : Finistère, Morbihan, Côte
 tags:
   - vtt
   - outdoor
-  - circuits vtt
-  - bretagne
-  - morbihan
-  - cotes d'armor
-  - ille et vilaine
-  - finistère
+  - randonnée
 image: /images/posts/bf91f-04tn2madty8ffu2ug.jpg
 featured: true
 ---

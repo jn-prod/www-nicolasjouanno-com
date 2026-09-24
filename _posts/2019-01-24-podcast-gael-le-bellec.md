@@ -5,11 +5,10 @@ title: "Podcast #1 - Gael Le Bellec, 3x champion du monde de duathlon"
 description: "Podcast avec Gaël Le Bellec, triple champion du monde de duathlon : son parcours de cycliste, sa transition au duathlon, ses doutes et ses objectifs 2019."
 tags:
   - outdoor
-  - podcast
-  - duathlon
-  - cyclisme
-  - champion
   - trail
+  - cyclisme
+  - compétition
+
 ---
 
 <iframe

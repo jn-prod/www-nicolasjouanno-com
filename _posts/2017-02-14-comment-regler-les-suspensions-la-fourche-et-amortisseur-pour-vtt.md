@@ -5,10 +5,7 @@ description: "Voici le guide complet pour régler avec précision la fourche et 
 tags:
   - vtt
   - outdoor
-  - suspension
-  - fourche
-  - amortisseur
-  - réglage
+  - équipement
 image: /images/posts/a3d50-0omp6q8ru_v_v0drm.jpg
 image_alt: "Pompe Haute Pression pour Suspension ROCKSHOX"
 ---

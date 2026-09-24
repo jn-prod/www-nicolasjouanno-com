@@ -4,10 +4,9 @@ title: Comment progresser sans compétition ?
 description: "Comment rester motivé et progresser sans compétition ? Sources de motivation, gestion des saisons et entraînement intelligent pour les sportifs autodidactes."
 tags:
   - outdoor
-  - compétition
-  - reconversion
-  - entrainement
   - vtt
+  - entraînement
+  - compétition
 image: /images/posts/1029035155.jpg
 featured: true
 ---

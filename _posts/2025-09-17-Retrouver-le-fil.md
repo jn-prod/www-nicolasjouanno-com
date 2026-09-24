@@ -3,10 +3,10 @@ category: recit
 title: Retrouver le fil - pourquoi je recentre tout sur un seul site
 description: En septembre 2025, je choisissais un hub personnel pour retrouver le fil de mes créations. Cette étape a depuis évolué vers un écosystème relié autour de mon histoire.
 tags:
-  - minimalisme
-  - tech
-  - creation
   - work
+  - web
+  - productivité
+
 ---
 
 > **Mise à jour — septembre 2026.** Ce texte raconte le point de départ de ma réflexion, pas l'architecture actuelle. Je rassemble toujours mon histoire sous mon nom, mais plus dans un hub unique : les réseaux ouvrent la conversation, ce site publie et conserve les contenus durables, la newsletter prolonge la relation par e-mail et les outils rendent le service.
