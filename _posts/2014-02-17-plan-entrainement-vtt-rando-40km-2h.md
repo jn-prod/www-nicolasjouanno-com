@@ -25,7 +25,7 @@ image_alt: "Un cardiofréquencemètre avec cadence"
 
 - Un **home-trainer**.
 
-<img src="{{ site.url }}/images/posts/0da70-0_-v_xbssthnulu4r.webp" alt="Un home-trainer" />
+![Un home-trainer](../images/posts/0da70-0_-v_xbssthnulu4r.jpg)
 
 ## Correspondance cardiaque
 

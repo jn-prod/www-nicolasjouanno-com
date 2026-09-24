@@ -44,7 +44,7 @@ La seconde raison tient à sa connaissance de la piste. Il s'y était déjà mon
 
 ## Une médaille de bronze à l'arrivée
 
-<img src="{{ site.url }}/images/posts/8629a-0mmzxj8xruxfq-i1b.webp" alt="Une médaille de bronze pour Jared Graves et son Yeti SB66C" />
+![Une médaille de bronze pour Jared Graves et son Yeti SB66C](../images/posts/8629a-0mmzxj8xruxfq-i1b.jpg)
 
 La réflexion était aboutie, la préparation a porté ses fruits, et la forme de **Jared Graves** était au rendez-vous. Parti en milieu de tableau l'après-midi, il prend le **hot-seat** avec plus de 10 s d'avance sur son second ; il faudra attendre **Mick Hannah** dans les dernières minutes pour le battre, puis le grand favori du jour, **Greg Minnaar** sur son Santa Cruz V10, l'enfant du pays, heureux de l'emporter sur ses terres et de porter une année de plus le maillot arc-en-ciel.
 
@@ -52,7 +52,7 @@ La réflexion était aboutie, la préparation a porté ses fruits, et la forme d
 
 ## Configuration du Yeti SB66C de Jared Graves
 
-<img src="{{ site.url }}/images/posts/b08f4-0aoe1ctwozgzagbfy.webp" alt="La configuration du Yeti SB66C de Jared Graves" />
+![La configuration du Yeti SB66C de Jared Graves](../images/posts/b08f4-0aoe1ctwozgzagbfy.jpg)
 
 - **Cadre** — Yeti SB66C, medium
 - **Fourche** — Fox Float 36, 180 mm @ 90 psi

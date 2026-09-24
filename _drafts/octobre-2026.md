@@ -102,6 +102,7 @@ Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.v
 📍[Paimpont](https://maps.app.goo.gl/zQG3AtCYShfiXrZr5?g_st=ic) - 2026-07-05 - 📷 Fujifilm x70 © Nicolas JOUANNO DANIEL
 
 ![Randonnée en famille dans la forêt de Brocéliande](../images/posts/broceliande-siege-de-merlin.jpg)
+
 Une journée à marcher en famille dans la forêt de Brocéliande, sur les traces du siège de Merlin.
 
 ## Parlez de votre Sortie

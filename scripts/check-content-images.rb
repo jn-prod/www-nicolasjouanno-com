@@ -6,6 +6,7 @@ require "yaml"
 
 ROOT = Pathname.new(__dir__).join("..").expand_path
 POSTS_DIR = ROOT.join("_posts")
+DRAFTS_DIR = ROOT.join("_drafts")
 IMAGES_DIST = ROOT.join("images-dist")
 errors = []
 
@@ -24,7 +25,23 @@ def image_exists?(relative)
   IMAGES_DIST.join(relative).file?
 end
 
-POSTS_DIR.glob("*.md").each do |post_path|
+def inline_image_path(path, content_path)
+  value = path.to_s.strip
+  return if value.empty? || value.match?(%r{\Ahttps?://})
+
+  source_path = if value.start_with?("/images/")
+                  ROOT.join(value.delete_prefix("/"))
+                else
+                  content_path.dirname.join(value).cleanpath
+                end
+  return unless source_path.to_s.start_with?(ROOT.join("images").to_s + File::SEPARATOR)
+
+  source_path.relative_path_from(ROOT.join("images"))
+    .to_s
+    .sub(/\.(?:jpe?g|png)\z/i, ".webp")
+end
+
+[POSTS_DIR, DRAFTS_DIR].flat_map { |directory| directory.glob("*.md") }.each do |post_path|
   content = post_path.read
   match = content.match(/\A---\s*\n(.*?)\n---\s*\n/m)
   next unless match
@@ -50,6 +67,7 @@ content_files = [
   ROOT.join("*.md"),
   ROOT.join("*.html"),
   ROOT.join("_posts/**/*.md"),
+  ROOT.join("_drafts/**/*.md"),
   ROOT.join("_includes/**/*.{html,md}"),
   ROOT.join("_layouts/**/*.{html,md}"),
   ROOT.join("apps/**/*.{html,md,js}"),
@@ -58,8 +76,18 @@ content_files = [
   .reject { |file| Pathname.new(file).basename.to_s == "README.md" }
 
 content_files.uniq.each do |file|
-  Pathname.new(file).read.scan(%r{/images/([^\s"'`<>()]+)}) do |match|
-    relative = match.first.split(/[?#]/, 2).first
+  content_path = Pathname.new(file)
+  content = content_path.read
+
+  content.scan(/!\[[^\]]*\]\(([^\s)]+)(?:\s+[^)]*)?\)/) do |match|
+    relative = inline_image_path(match.first, content_path)
+    next unless relative
+
+    errors << "#{content_path.relative_path_from(ROOT)}: dérivé absent /images/#{relative}" unless image_exists?(relative)
+  end
+
+  content.scan(%r{/images/([^\s"'`<>()]+)}) do |match|
+    relative = match.first.split(/[?#]/, 2).first.sub(/\.(?:jpe?g|png)\z/i, ".webp")
     next if relative.empty? || relative.include?("{{")
 
     errors << "#{Pathname.new(file).relative_path_from(ROOT)}: image introuvable /images/#{relative}" unless image_exists?(relative)

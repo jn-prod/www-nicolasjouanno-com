@@ -46,7 +46,7 @@ Nous sommes nombreux à être convaincus des effets bienfaisants de cet exercice
 
 On leur prête généralement deux vertus : la **prévention des blessures** (étirements en début de séance) et l'aide à la **récupération** (en fin de séance). Or aucune étude ne confirme la diminution des blessures par la simple mise en place d'étirements. Quant à la récupération : lorsqu'on sait que les courbatures sont des micro-lésions des fibres musculaires, est-il nécessaire de venir tirer encore sur les zones douloureuses ?
 
-<img src="{{ site.url }}/images/posts/490fb-0c3xpzmlacqrovrzv.webp" alt="Le plaisir procuré par les bienfaits des étirements" />
+![Le plaisir procuré par les bienfaits des étirements](../images/posts/490fb-0c3xpzmlacqrovrzv.jpg)
 
 Pourquoi présenter une séquence d'étirements, alors ? Parce qu'il reste un élément fondamental qui ne se développe que par la pratique régulière : **la souplesse**. Le travail de l'élasticité musculaire est à prendre en compte au même titre que la **puissance** en trail ou la **vélocité** en VTT. La souplesse apporte une plus grande amplitude du mouvement et une optimisation du travail musculaire ; le contrôle musculaire, la solidité tendineuse et ligamentaire s'en trouvent améliorés. On améliore aussi la posture (moins de perte d'énergie, moins de déséquilibres articulaires), la coordination et l'efficacité.
 
@@ -80,6 +80,6 @@ Yoann Coëdel vous a préparé une séance d'étirements type de moins d'une diz
 
 « Je vous encourage à appliquer régulièrement ces quelques exercices d'assouplissement et à vous inspirer des nombreux sportifs qui complètent leur activité par du yoga, ou cherchent à varier les supports (course à pied, vélo, roller, natation, SUP…) pour un développement corporel harmonieux et complet. »
 
-<img src="{{ site.url }}/images/posts/976cb-0tschwkmiv2vhmc__.webp" alt="Yoann Coëdel, éducateur sportif" />
+![Yoann Coëdel, éducateur sportif](../images/posts/976cb-0tschwkmiv2vhmc__.jpg)
 
 **Article réalisé en collaboration avec [Yoann Coëdel](http://www.coedel.com/){:target="_blank"}, éducateur sportif. Faites appel à un professionnel pour prendre les bons réflexes.**

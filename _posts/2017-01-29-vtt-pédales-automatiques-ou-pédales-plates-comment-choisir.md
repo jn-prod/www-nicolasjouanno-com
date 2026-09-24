@@ -32,10 +32,9 @@ Comment choisir entre les pédales plates et les pédales automatiques? Cette qu
 
 ## 2/ Avantages / inconvénients de la pédale plate traditionnelle : {#pedales-plates}
 
-<figure>
-  <img alt="Pédales SHIMANO SAINT PD-MX80 " src="{{ site.url }}/images/posts/1e33e-0me9njiu_fhg0h5fc.webp"/>
-  <figcaption>Pédales plates - SHIMANO SAINT PD-MX80</figcaption>
-</figure>
+![Pédales SHIMANO SAINT PD-MX80](../images/posts/1e33e-0me9njiu_fhg0h5fc.jpg)
+
+*Pédales plates - SHIMANO SAINT PD-MX80*
 
 La pédale plate, c’est la pédale de nos débuts, la base du vélo, celle qui nous rappelle qu’à 2 ans papa nous avait poussé pour voir si l’on était capable de voler avec un vélo sans roulettes et qui nous permettait de nous rattraper sur nos pieds.
 
@@ -62,10 +61,9 @@ Les pédales plates restent avant tout des pédales idéales pour débuter et se
 
 ## 3/ Avantages / inconvénients de la pédale automatique : {#pedales-automatiques}
 
-<figure>
-  <img alt="Pédale automatique VTT : Crankbrothers - Egg Beater" src="{{ site.url }}/images/posts/7c850-0mtwevjri_e7fkdab.webp"/>
-  <figcaption>Pédale automatique VTT    Crankbrothers — Egg Beater</figcaption>
-</figure>
+![Pédale automatique VTT : Crankbrothers - Egg Beater](../images/posts/7c850-0mtwevjri_e7fkdab.jpg)
+
+*Pédale automatique VTT    Crankbrothers — Egg Beater*
 
 Plus répandue auprès des cyclistes que des VTTistes, la pédales automatique trouve ses origines sur la route avec la marque LOOK, précurseur dans le domaine, et remplacera les bons vieux cales-pieds tout en poursuivant les mêmes objectifs: performance et rendement.
 
@@ -127,22 +125,18 @@ Pour la descente, chacun à sa réponse en fonction de son pilotage, il faut gar
 
 ## 6/ Notre sélection de pédales VTT {#best-of}
 
-<figure>
-  <img alt="PAIRE DE PÉDALES SHIMANO SPD-M520 ARGENT " src="{{ site.url }}/images/posts/af16b-0y_u7-3bbkdtbx_aa.webp"/>
-  <figcaption>PAIRE DE PÉDALES SHIMANO SPD-M520 ARGENT (économique)</figcaption>
-</figure>
+![PAIRE DE PÉDALES SHIMANO SPD-M520 ARGENT](../images/posts/af16b-0y_u7-3bbkdtbx_aa.jpg)
 
-<figure>
-  <img alt="CRANKBROTHERS PAIRE DE PÉDALES CANDY 3 " src="{{ site.url }}/images/posts/9724d-0qj-pgpuwr39vwzbm.webp"/>
-  <figcaption>CRANKBROTHERS PAIRE DE PÉDALES CANDY 3 (XC/ENDURO)</figcaption>
-</figure>
+*PAIRE DE PÉDALES SHIMANO SPD-M520 ARGENT (économique)*
 
-<figure>
-  <img alt="PAIRE DE PÉDALES CRANKBROTHERS MALLET 2" src="{{ site.url }}/images/posts/0120e-0pdui5pnl2zcxsxum.webp"/>
-  <figcaption>PAIRE DE PÉDALES CRANKBROTHERS MALLET 2 (ENDURO/DH)</figcaption>
-</figure>
+![CRANKBROTHERS PAIRE DE PÉDALES CANDY 3](../images/posts/9724d-0qj-pgpuwr39vwzbm.jpg)
 
-<figure>
-  <img alt="Pédales SHIMANO SAINT PD-MX80 " src="{{ site.url }}/images/posts/c9250-0hirkgovxa7gjzone.webp"/>
-  <figcaption>Pédales SHIMANO SAINT PD-MX80 (ENDURO/DH)</figcaption>
-</figure>
+*CRANKBROTHERS PAIRE DE PÉDALES CANDY 3 (XC/ENDURO)*
+
+![PAIRE DE PÉDALES CRANKBROTHERS MALLET 2](../images/posts/0120e-0pdui5pnl2zcxsxum.jpg)
+
+*PAIRE DE PÉDALES CRANKBROTHERS MALLET 2 (ENDURO/DH)*
+
+![Pédales SHIMANO SAINT PD-MX80](../images/posts/c9250-0hirkgovxa7gjzone.jpg)
+
+*Pédales SHIMANO SAINT PD-MX80 (ENDURO/DH)*

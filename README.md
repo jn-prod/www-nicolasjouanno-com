@@ -169,6 +169,14 @@ Quiz interactif sur les aliments contenant du gluten.
 
 Le pipeline intégré convertit les sources JPG/PNG de `images/` en WebP et optimise les SVG. Les images Open Graph de `images/og/` conservent leur format pour rester compatibles avec les réseaux sociaux. Les fichiers produits sont copiés dans `_site/images/` au build. Dans un article, une pièce jointe ajoutée dans `images/posts/` est référencée dans le front matter par son URL publique en `/images/posts/…webp`.
 
+Pour une image **dans le corps d'un post ou d'un brouillon**, garder le lien vers le fichier source permet l'aperçu dans iA Writer et Obsidian :
+
+```md
+![Description fidèle de la photo](../images/posts/nom-du-fichier.jpg)
+```
+
+Au build, le pré-build remplace temporairement ce lien par `/images/posts/nom-du-fichier.webp` dans le HTML publié, puis restaure les sources Markdown. Jekyll reste en mode sûr, compatible avec GitHub Pages.
+
 ```bash
 pnpm build:images
 ```

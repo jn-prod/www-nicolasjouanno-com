@@ -95,10 +95,9 @@ L’ergotrainer peut celon le modèle évoluer vers un Home Trainer Virtuel grâ
 
 ### Virtual Trainer
 
-<figure>
-  <img alt="Home Trainer ELITE REALPOWER WIRELESS" src="{{ site.url }}/images/posts/bb212-0bx2pkg9g-z2gzrlm.webp"/>
-  <figcaption>Home Trainer ELITE REALPOWER WIRELESS</figcaption>
-</figure>
+![Home Trainer ELITE REALPOWER WIRELESS](../images/posts/bb212-0bx2pkg9g-z2gzrlm.jpg)
+
+*Home Trainer ELITE REALPOWER WIRELESS*
 
 Le virtual Trainer est un home-trainer qui vous fera voyager sur les pentes les plus prestigieuses du globe, vous frotter au peloton, participer à des courses virtuelles, programmer des entrainements.
 
@@ -134,10 +133,7 @@ Choisissez un modèle d’home-trainer qui se nettoie facilement est un plus.
 
 ## 5/ Quelques conseils d’utilisation de votre home-trainer {#conseils}
 
-<figure>
-  <img alt="Home Trainer ELITE REALPOWER WIRELESS" src="{{ site.url }}/images/posts/91fb5-0fgh8hb1_kl1ubyul.webp"/>
-
-</figure>
+![Home Trainer ELITE REALPOWER WIRELESS](../images/posts/91fb5-0fgh8hb1_kl1ubyul.jpg)
 
 Home Trainer ELITE REALPOWER WIRELESS
 
@@ -165,10 +161,9 @@ l’home-trainer par son frottement brule la gomme de votre pneu arrière plus r
 
 ### Home Trainer TACX BLUE MATIC T2650 (Cyclo-trainer)
 
-<figure>
-  <img alt="Home Trainer TACX BLUE MATIC T2650" src="{{ site.url }}/images/posts/28b49-0-7a5ib4fvmj9s-fa.webp"/>
-  <figcaption>Home Trainer TACX BLUE MATIC T2650</figcaption>
-</figure>
+![Home Trainer TACX BLUE MATIC T2650](../images/posts/28b49-0-7a5ib4fvmj9s-fa.jpg)
+
+*Home Trainer TACX BLUE MATIC T2650*
 
 **Points forts**
 
@@ -182,10 +177,9 @@ l’home-trainer par son frottement brule la gomme de votre pneu arrière plus r
 
 ### Home Trainer TACX I-FLOW T2270 (Ergo-trainer)
 
-<figure>
-  <img alt="Home Trainer TACX I-FLOW T2270" src="{{ site.url }}/images/posts/eec12-0xbhdkpvkwiznfftv.webp"/>
-  <figcaption>Home Trainer TACX I-FLOW T2270</figcaption>
-</figure>
+![Home Trainer TACX I-FLOW T2270](../images/posts/eec12-0xbhdkpvkwiznfftv.jpg)
+
+*Home Trainer TACX I-FLOW T2270*
 
 **Points forts**
 
@@ -200,10 +194,9 @@ l’home-trainer par son frottement brule la gomme de votre pneu arrière plus r
 
 ### Home Trainer TACX BUSHIDO Smart T2780 (Virtual trainer)
 
-<figure>
-  <img alt="Home Trainer TACX BUSHIDO Smart T2780" src="{{ site.url }}/images/posts/d9123-0_f4jzckdyphq0ioy.webp"/>
-  <figcaption>Home Trainer TACX BUSHIDO Smart T2780</figcaption>
-</figure>
+![Home Trainer TACX BUSHIDO Smart T2780](../images/posts/d9123-0_f4jzckdyphq0ioy.jpg)
+
+*Home Trainer TACX BUSHIDO Smart T2780*
 
 Trainer interactif Smart doté de l’unité de résistance la plus puissante, le home trainer TACX Bushido Smart T2780 ravira les coureurs en quête de réalisme.
 
@@ -221,10 +214,9 @@ Cette application permet notamment de prendre part à des courses cyclistes clas
 
 ### Home Trainer TACX I-GENIUS Multiplayer Smart T2010 (Virtual trainer)
 
-<figure>
-  <img alt="Home Trainer TACX I-GENIUS Multiplayer Smart T2010" src="{{ site.url }}/images/posts/042f2-0naxiwzfmybfepba7.webp"/>
-  <figcaption>Home Trainer TACX I-GENIUS Multiplayer Smart T2010</figcaption>
-</figure>
+![Home Trainer TACX I-GENIUS Multiplayer Smart T2010](../images/posts/042f2-0naxiwzfmybfepba7.jpg)
+
+*Home Trainer TACX I-GENIUS Multiplayer Smart T2010*
 
 **Points forts**
 

@@ -77,6 +77,6 @@ Les séances de type « sprint » développent votre **puissance explosive** : d
 
 ## Choisir son home-trainer
 
-<img src="{{ site.url }}/images/posts/e90c1-06qy1vq7xb58tr2om.webp" alt="Home-trainer au chaud plutôt que le VTT dans la boue" />
+![Home-trainer au chaud plutôt que le VTT dans la boue](../images/posts/e90c1-06qy1vq7xb58tr2om.jpg)
 
 Pour préparer votre achat, prenez tous les renseignements nécessaires dans le dossier [Comment choisir son home-trainer pour l'entraînement VTT](/comment-choisir-son-hometrainer-entrainement-vtt.html).

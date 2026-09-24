@@ -17,7 +17,7 @@
   "homepage": "https://www.nicolasjouanno.com",
   "scripts": {
     "dev": "pnpm build && python3 -m http.server -d ./_site",
-    "build": "pnpm build:images && pnpm check:positioning && pnpm check:content-images && pnpm sync:icons && bundle exec jekyll build && pnpm copy:images",
+    "build": "pnpm build:images && pnpm check:positioning && pnpm check:content-images && pnpm sync:icons && pnpm build:site && pnpm copy:images",
     "build:images": "pnpm build:images:prepare && pnpm build:images:raster && pnpm build:images:svg",
     "build:images:prepare": "rm -rf ./images-dist && mkdir ./images-dist && cp -R ./images/. ./images-dist/",
     "build:images:raster": "sharp -i './images-dist/!(og)/**/*.{jpg,jpeg,png}' './images-dist/*.{jpg,jpeg,png}' -o {dir} -f webp && find ./images-dist -type f \\( -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' \\) ! -path './images-dist/og/*' -delete",
@@ -26,6 +26,7 @@
     "check:content-images": "ruby scripts/check-content-images.rb",
     "sync:icons": "mkdir -p ./_includes/icons && cp ./images-dist/icons/github.svg ./images-dist/icons/instagram.svg ./images-dist/icons/linkedin.svg ./images-dist/icons/rss.svg ./images-dist/icons/threads.svg ./images-dist/icons/x.svg ./images-dist/icons/youtube.svg ./_includes/icons/",
     "copy:images": "cp -R ./images-dist ./_site/images && ruby scripts/copy-legacy-image-aliases.rb",
+    "build:site": "ruby scripts/build-site.rb",
     "lint": "pnpm lint:es && pnpm lint:stylelint && pnpm lint:prettier",
     "lint:fix": "pnpm lint:es:fix && pnpm lint:stylelint:fix && pnpm lint:prettier:fix",
     "lint:stylelint": "stylelint \"./_sass/**/*.scss\"",

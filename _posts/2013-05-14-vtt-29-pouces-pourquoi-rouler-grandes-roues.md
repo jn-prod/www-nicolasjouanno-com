@@ -25,7 +25,7 @@ Une roue de 29 pouces correspond à des jantes d'un diamètre de 622 mm (soit en
 
 ## 2. D'où vient le VTT 29 pouces ?
 
-<img src="{{ site.url }}/images/posts/f46d3-0uhcfauwsutxiedpe.webp" alt="Gary Fisher, pionnier du vélo 29 pouces" />
+![Gary Fisher, pionnier du vélo 29 pouces](../images/posts/f46d3-0uhcfauwsutxiedpe.jpg)
 
 Comme toute innovation, le VTT 29 pouces a un pionnier : **Gary Fisher**. VTTiste, concepteur de vélos et chef d'entreprise américain né en 1950 à Oakland (Californie), il est considéré comme l'un des inventeurs du vélo tout-terrain dans les années 1970. Il fonde Fisher Mountain Bikes en 1983, marque rachetée par Trek Bicycle Corporation en 1993. Le 29 pouces qu'il a contribué à créer sera officiellement autorisé en compétition à partir de 2004.
 

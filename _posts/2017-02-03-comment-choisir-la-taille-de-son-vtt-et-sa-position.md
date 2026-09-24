@@ -43,10 +43,9 @@ Ici, nous allons voir comment choisir la taille de votre VTT vous-même. Une foi
 
 ### Etape 1: mesure de l’entrejambe
 
-<figure>
-  <img alt="mesurer l'entrejambe" src="{{ site.url }}/images/posts/be51c-0hfcgbqmgeoo9jz4_.webp"/>
-  <figcaption>mesurer l’entrejambe</figcaption>
-</figure>
+![mesurer l'entrejambe](../images/posts/be51c-0hfcgbqmgeoo9jz4_.jpg)
+
+*mesurer l’entrejambe*
 
 Pour mesurer votre entrejambe, munissez-vous d’un annuaire (ou dictionnaire, équerre, …) et d’un mètre. Ensuite, mettez-vous dos à un mur, pieds nus, regard droit devant et en cuissard (ou caleçon). Puis mesurez votre entrejambe (E) comme indiqué sur le schéma ci-contre, l’annuaire en contact avec votre périnée (muscle sur lequel la selle du vélo est en appui), les pieds légèrement écartés de 5cm et noté cette valeur E qui permettra de définir la taille de votre VTT.
 
@@ -148,10 +147,9 @@ Tige de selle télescopique: lire l’article sur les tiges de [selle télescopi
 
 ## 4/ Conclusion sur le choix de la taille de votre VTT et de votre position : {#conclusion}
 
-<figure>
-  <img alt="Régler la position de votre VTT" src="{{ site.url }}/images/posts/c3412-0q9h0y5sobcadmm5g.webp" />
-  <figcaption>Régler la position de votre VTT</figcaption>
-</figure>
+![Régler la position de votre VTT](../images/posts/c3412-0q9h0y5sobcadmm5g.jpg)
+
+*Régler la position de votre VTT*
 
 Nous avons balayé, ici, énormément de théorie pour vous aider à choisir la taille de votre prochain VTT et/ou régler la position de votre VTT actuel. Notez bien que toutes ces indications sont théoriques, dans la réalité chaque morphologie étant différente, à taille égale, nous pouvons retrouver deux positions identiques.
 
@@ -165,17 +163,14 @@ Il faudra retenir qu’un mauvais vélo bien ajusté est préférable à un bon 
 
 ## 5/ Notre sélection pour améliorer votre position en VTT : {#best-of}
 
-<figure>
-  <img alt="TIGE DE SELLE TÉLESCOPIQUE ROCKSHOX REVERB " src="{{ site.url }}/images/posts/e5da7-0xj0yqcv6lzqqklhv.webp"/>
-  <figcaption>TIGE DE SELLE TÉLESCOPIQUE ROCKSHOX REVERB</figcaption>
-</figure>
+![TIGE DE SELLE TÉLESCOPIQUE ROCKSHOX REVERB](../images/posts/e5da7-0xj0yqcv6lzqqklhv.jpg)
 
-<figure>
-  <img alt="SELLE FIZIK VTT" src="{{ site.url }}/images/posts/987f5-0l7go23ijzjg1tfbl.webp"/>
-  <figcaption>SELLE FIZIK VTT</figcaption>
-</figure>
+*TIGE DE SELLE TÉLESCOPIQUE ROCKSHOX REVERB*
 
-<figure>
-  <img alt="CINTRE RACE FACE" src="{{ site.url }}/images/posts/3675d-02lcpym5czygodzpr.webp"/>
-  <figcaption>CINTRE RACE FAC</figcaption>
-</figure>
+![SELLE FIZIK VTT](../images/posts/987f5-0l7go23ijzjg1tfbl.jpg)
+
+*SELLE FIZIK VTT*
+
+![CINTRE RACE FACE](../images/posts/3675d-02lcpym5czygodzpr.jpg)
+
+*CINTRE RACE FAC*

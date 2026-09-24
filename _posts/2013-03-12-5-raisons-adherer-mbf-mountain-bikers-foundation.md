@@ -52,7 +52,7 @@ Soyez le premier ambassadeur de votre discipline : restez courtois et respectueu
 
 Participez à l'équilibre entre la nature et votre passion pour ce sport en osmose avec elle.
 
-<img src="{{ site.url }}/images/posts/667f1-0wh5gwbe6bg6-_nog.webp" alt="Fabien Barel, parrain de la MBF" />
+![Fabien Barel, parrain de la MBF](../images/posts/667f1-0wh5gwbe6bg6-_nog.jpg)
 
 ## Envie de devenir acteur de cette charte ?
 

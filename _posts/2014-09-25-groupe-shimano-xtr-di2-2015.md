@@ -25,19 +25,19 @@ La fonction **Synchro Shift** permet de ne contrôler les dérailleurs avant et 
 
 L'**écran de contrôle** affiche l'état de la batterie, la vitesse engagée et le mode sélectionné.
 
-<img src="{{ site.url }}/images/posts/805f7-0s-1_oy-wc-zbbktf.webp" alt="Contrôle de l'amortisseur Fox Float iCD" />
+![Contrôle de l'amortisseur Fox Float iCD](../images/posts/805f7-0s-1_oy-wc-zbbktf.jpg)
 
 ## Une plus large connectivité
 
 Les **GPS haut de gamme** (Edge 1000, Mio Cyclo 505 HC), après l'installation d'un boîtier de communication D-Fly, affichent les informations de la console. La nouvelle suspension **Fox iCD** est elle aussi pilotable depuis l'écran du Di2.
 
-<img src="{{ site.url }}/images/posts/f623e-07jghefmcnkwck46x.webp" alt="Batterie XTR Di2 - montage externe" />
+![Batterie XTR Di2 - montage externe](../images/posts/f623e-07jghefmcnkwck46x.jpg)
 
 ## Batterie : montage interne ou externe
 
 La batterie dispose de son **témoin de charge** sur la console. Shimano annonce **220 h d'autonomie**, soit environ 1 000 km, pour 1h30 de charge et 500 cycles garantis. Elle se loge dans le tube de selle ou en montage externe.
 
-<img src="{{ site.url }}/images/posts/d196c-0trloaqmfsr1fckj4.webp" alt="Groupe Shimano XTR Di2 M9050" />
+![Groupe Shimano XTR Di2 M9050](../images/posts/d196c-0trloaqmfsr1fckj4.jpg)
 
 ## Les poids (XTR Di2 M9050)
 

@@ -43,7 +43,7 @@ Haute résolution et fréquences d'images élevées (1440p48, 1080p60, 960p100, 
 
 La HERO3+ Black Edition prend des photos en 12 Mpx jusqu'à 30 images/seconde, idéales pour l'action rapide. Le mode Time Lapse capture automatiquement à 0,5 / 1 / 2 / 5 / 10 / 30 ou 60 s d'intervalle ; la rafale pleine résolution tient 3, 5 ou 10 images/seconde.
 
-<img src="{{ site.url }}/images/posts/71d80-06-df5cdpzuwfjerp.webp" alt="GoPro HERO3+ SuperView" />
+![GoPro HERO3+ SuperView](../images/posts/71d80-06-df5cdpzuwfjerp.jpg)
 
 ### SuperView
 
@@ -65,4 +65,4 @@ La qualité du son compte autant que celle de l'image. La HERO3+ capte les sons 
 
 Autonomie de batterie 30 % plus longue, et connectivité 4× plus rapide avec la GoPro App : prévisualisation quasi temps réel, partage facilité, et télécommande Wi-Fi permettant de contrôler jusqu'à 50 caméras à 180 m.
 
-<img src="{{ site.url }}/images/posts/6d3e4-019scxydxs9yuiv-k.webp" alt="GoPro HERO3+ Black Edition" />
+![GoPro HERO3+ Black Edition](../images/posts/6d3e4-019scxydxs9yuiv-k.jpg)

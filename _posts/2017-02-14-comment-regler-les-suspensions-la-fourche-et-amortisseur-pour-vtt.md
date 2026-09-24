@@ -54,9 +54,7 @@ Pour les fourches de VTT à élastomère/ressort, si vous souhaitez durcir ou as
 - un ressort trop dur, va empêcher votre suspension de fonctionner correctement, vous allez complètement perdre l’avantage des réglages de compression et détente.
 - un ressort trop mou risque d’abîmer votre matériel, car votre système de suspension ira très souvent en butée sur gros choc (même pour une pratique xc).
 - l’air de la fourche de votre VTT ne réagis pas de la même manière quand il fait 0° et 30°, votre réglage doit varier et votre pression être vérifiée chaque mois de l’année pour être le plus adapté possible aux conditions dans lesquels vous roulez. (l’hiver l’air se comprime idéalement ajoutez +5% en pression, alors que l’été elle se dilate, idéalement enlevez -5% en pression)
-<figure>
-  <img alt="Jared Graves - action Championnat du monde de DH 2013 - Crédits photos @ yeticycles.com" src="{{ site.url }}/images/posts/89754-0y1psiewctqe8xr-m.webp"/><br />
-</figure>
+![Jared Graves - action Championnat du monde de DH 2013 - Crédits photos @ yeticycles.com](../images/posts/89754-0y1psiewctqe8xr-m.jpg)
 
 Jared Graves — action Championnat du monde de DH 2013 — Crédits photos @ yeticycles.com
 
@@ -84,10 +82,9 @@ Si le blocage de la fourche de votre VTT ou de l’amortisseur ne fonctionne plu
 - La fourche ou amortisseur se bloque avec une molette au guidon, le cable est peu être à retendre
 - La fourche ou amortisseur manque d’huile, vérifiez qu’il n’a pas de fuite et rajoutez quelques cuillères à café d’huile.
 
-<figure>
-  <img alt="Huile pour Suspensions FOX RACING SHOX GOLD 20 WT (946 ml)" src="{{ site.url }}/images/posts/17b3c-0awqo5thxnz5oesdo.webp"/>
-  <figcaption>Huile pour Suspensions FOX RACING SHOX GOLD 20 WT (946 ml)</figcaption>
-</figure>
+![Huile pour Suspensions FOX RACING SHOX GOLD 20 WT (946 ml)](../images/posts/17b3c-0awqo5thxnz5oesdo.jpg)
+
+*Huile pour Suspensions FOX RACING SHOX GOLD 20 WT (946 ml)*
 
 <hr />
 
@@ -127,17 +124,14 @@ Ainsi le fonctionnement des suspensions de votre VTT: Fourche et Amortisseur, n�
 
 ## Ma sélection de fourches et amortisseurs:
 
-<figure>
-  <img alt="Fourche FOX RACING SHOX 32 SC FLOAT FACTORY 27,5 100 mm FIT4 Pivot Conique Axe Kabolt 15 mm Boost Noir 2017 " src="{{ site.url }}/images/posts/66a09-0noa0olg9r-f9pkec.webp"/>
-  <figcaption>Fourche FOX RACING SHOX 32 FLOAT SC FACTORY FIT4 27.5´´ Kabolt | Boost 15x110mm | Noir</figcaption>
-</figure>
+![Fourche FOX RACING SHOX 32 SC FLOAT FACTORY 27,5 100 mm FIT4 Pivot Conique Axe Kabolt 15 mm Boost Noir 2017](../images/posts/66a09-0noa0olg9r-f9pkec.jpg)
 
-<figure>
-  <img alt="Fourche ROCKSHOX PIKE RCT3 27,5 160/130 mm Dual Position Air Pivot Conique Axe 15 mm Noir 2017" src="{{ site.url }}/images/posts/cd839-0i54iojtdqawv4hhd.webp"/>
-  <figcaption>Fourche ROCKSHOX PIKE RCT3 27,5" 160/130 mm Dual Position Air Pivot Conique Axe 15 mm Noir</figcaption>
-</figure>
+*Fourche FOX RACING SHOX 32 FLOAT SC FACTORY FIT4 27.5´´ Kabolt | Boost 15x110mm | Noir*
 
-<figure>
-  <img alt="Amortisseur FOX RACING SHOX FLOAT DPS FACTORY SV 2017" src="{{ site.url }}/images/posts/3123e-00jzvgtbazkfyrjn6.webp"/>
-  <figcaption>Amortisseur FOX RACING SHOX FLOAT DPS FACTORY SV</figcaption>
-</figure>
+![Fourche ROCKSHOX PIKE RCT3 27,5 160/130 mm Dual Position Air Pivot Conique Axe 15 mm Noir 2017](../images/posts/cd839-0i54iojtdqawv4hhd.jpg)
+
+*Fourche ROCKSHOX PIKE RCT3 27,5" 160/130 mm Dual Position Air Pivot Conique Axe 15 mm Noir*
+
+![Amortisseur FOX RACING SHOX FLOAT DPS FACTORY SV 2017](../images/posts/3123e-00jzvgtbazkfyrjn6.jpg)
+
+*Amortisseur FOX RACING SHOX FLOAT DPS FACTORY SV*

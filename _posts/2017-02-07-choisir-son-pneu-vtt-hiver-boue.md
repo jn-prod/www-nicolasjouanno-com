@@ -62,10 +62,9 @@ De même, sur le flanc vous retrouverez une indication des pressions minimum et 
 
 Le pneu tubetype sera un pneu utilisé avec des chambres à air et seulement avec des chambres à air, car c’est celle-ci qui lui permet au pneu de tenir en place une fois mise sous pression. Pour pouvoir préserver votre chambre à air des perçages de la jantes et de la tête de rayon et vous évite les crevaisons, il est important de vérifier régulièrement l’état du fond de jante qui peut s’entailler avec le temps, perdre de son efficacité et causer des crevaisons en cisaillant la chambre à air, les autres causes de crevaisons sont: la perforation par un objet, le pincement et les coupures et déchirures. Une chambre air latex ou avec du préventif injecté au préalable à l’intérieur à l’intérieur de celle-ci vous permettra de diminuer les crevaisons.
 
-<figure>
-  <img alt="Conversion Tubeless" src="{{ site.url }}/images/posts/400bd-0ombzoecns3glpn7a.webp"/>
-  <figcaption>Conversion Tubeless</figcaption>
-</figure>
+![Conversion Tubeless](../images/posts/400bd-0ombzoecns3glpn7a.jpg)
+
+*Conversion Tubeless*
 
 Le pneu tubeless ou tubeless ready (converti) vous permettra à l’inverse de rouler sans chambre à air. Pour ce faire, trois conditions doivent être rassemblées: avoir une jante tubeless (qu’elle n’est pas de perforation pour les têtes de rayon est un repère), ou mettre un kit de conversion tubeless, monter des pneus tubeless ou tubeless ready qui ont une carcasse renforcée (plus lourde) avec une gomme à base de latex pour garantir l’étanchéité à l’air et dans lequel vous mettrez sous forme de préventif un liquide lui aussi à base de latex dans le pneu lors du montage.
 
@@ -107,10 +106,9 @@ Variante possible pour plus d’accroche avec votre VTT: si le pneu est moins la
 
 ### Pneu VTT d’enduro et d’all mountain pour terrain gras l’hiver et la boue:
 
-<figure>
-  <img alt="Le VTT de Jared Graves monté en Maxxis" src="{{ site.url }}/images/posts/3a012-0jfkexwvknlk36spt.webp"/>
-  <figcaption>Le VTT de Jared Graves monté en Maxxis</figcaption>
-</figure>
+![Le VTT de Jared Graves monté en Maxxis](../images/posts/3a012-0jfkexwvknlk36spt.jpg)
+
+*Le VTT de Jared Graves monté en Maxxis*
 
 Les pneus qui vous donneront le meilleur rapport rendement/accroche inhérent à la pratique du VTT en montagne l’hiver et dans la boue sont le schwalbe nobby nic avant de 2.25, à l’arriére un Hutchinson 2.15 toro
 
@@ -136,22 +134,18 @@ En VTT DH le montage le plus polyvalent reste un High Roller en 2.50 super tacky
 
 ## 6/ Les meilleurs pneus VTT d'hiver pour vaincre la boue {#best-of}
 
-<figure>
-  <img alt="Pneu HUTCHINSON TORO" src="{{ site.url }}/images/posts/57126-0c6n1i609mgd_3rm7.webp"/>
-  <figcaption>Pneu HUTCHINSON TORO (Loisir / XC)</figcaption>
-</figure>
+![Pneu HUTCHINSON TORO](../images/posts/57126-0c6n1i609mgd_3rm7.jpg)
 
-<figure>
-  <img alt="pneu SCHWALBE NOBBY NIC" src="{{ site.url }}/images/posts/bc2c9-0kuckpd1y2nb3rli6.webp"/>
-  <figcaption>pneu SCHWALBE NOBBY NIC (Rando / Enduro)</figcaption>
-</figure>
+*Pneu HUTCHINSON TORO (Loisir / XC)*
 
-<figure>
-  <img alt="Pneu MAXXIS MEDUSA" src="{{ site.url }}/images/posts/5722c-0zsdugggwrkpxqmuh.webp"/>
-  <figcaption>Pneu MAXXIS MEDUSA (XC, rando)</figcaption>
-</figure>
+![pneu SCHWALBE NOBBY NIC](../images/posts/bc2c9-0kuckpd1y2nb3rli6.jpg)
 
-<figure>
-  <img alt="Pneu MAXXIS HIGH ROLLER " src="{{ site.url }}/images/posts/c14c5-04jhnw3ph3ltb3vwi.webp"/>
-  <figcaption>Pneu MAXXIS HIGH ROLLER (Enduro / All Mountain)</figcaption>
-</figure>
+*pneu SCHWALBE NOBBY NIC (Rando / Enduro)*
+
+![Pneu MAXXIS MEDUSA](../images/posts/5722c-0zsdugggwrkpxqmuh.jpg)
+
+*Pneu MAXXIS MEDUSA (XC, rando)*
+
+![Pneu MAXXIS HIGH ROLLER](../images/posts/c14c5-04jhnw3ph3ltb3vwi.jpg)
+
+*Pneu MAXXIS HIGH ROLLER (Enduro / All Mountain)*

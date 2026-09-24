@@ -39,7 +39,7 @@ La Ghost-S offre une **autonomie record**, une **qualité vidéo 1080p60** et de
 
 ## « Complète ne doit pas rimer avec complexe »
 
-<img src="{{ site.url }}/images/posts/6e8f7-03-1e9h3naamdbfn1.webp" alt="Drift Ghost-S avec Cédric Gracia" />
+![Drift Ghost-S avec Cédric Gracia](../images/posts/6e8f7-03-1e9h3naamdbfn1.jpg)
 
 Depuis sa création, **Drift** s'attache à produire des caméras à la fois faciles à utiliser et à la pointe de la technologie : sans compromis sur les fonctionnalités attendues par les pros, mais accessibles à tous. « Avec la Ghost-S, tout le monde peut sortir des sentiers battus », résume PH Davoine, directeur marketing France de Drift Innovation.
 
