@@ -1,6 +1,6 @@
 ---
 title: "La Sortie #1 — où rouler en octobre en Bretagne"
-preheader: "26 randos annoncées, des sorties à choisir et les nouvelles des chemins bretons."
+preheader: "31 randos annoncées, des sorties à choisir et les nouvelles des chemins bretons."
 description: Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain.
 category: newsletter
 permalink: /la-sortie/2026-10/
@@ -38,6 +38,8 @@ Dans la dynamique d’**Octobre Rose**, donnez ce mois-ci un peu plus de sens à
 
 Randonnée VTT & Pédestre de La Chapelle-Thouarault (35), le 11 octobre. Cinq parcours VTT, dont un gravel, et cinq parcours pédestres au départ de la salle des Rochers. Une sortie locale inscrite dans la dynamique d’Octobre Rose.
 
+Le même dimanche, une autre randonnée **Octobre Rose** est annoncée à Plourin-lès-Morlaix (29).
+
 Au-delà du calendrier vtt.bzh, l’**Octobre Rose** mobilise toute la région. Trois rendez-vous à retenir dans l’agenda officiel du CRCDC Bretagne :
 
 - **La Kemper’Ose**: Quimper, le 4 octobre : course et marche solidaires.
@@ -56,9 +58,9 @@ Randoligo à Langolen (29), le 11 octobre. Une journée de marche et de VTT cont
 
 ## L’agenda VTT
 
-28 randos sont annoncées entre le 1er octobre et le 5 novembre, dont 11 nouvelles
+31 randos sont annoncées entre le 1er octobre et le 5 novembre, dont 14 nouvelles
 ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les Côtes-d’Armor
-(6), le Finistère (1), l’Ille-et-Vilaine (14), la Loire-Atlantique (2) et le Morbihan (5).
+(7), le Finistère (3), l’Ille-et-Vilaine (14), la Loire-Atlantique (2) et le Morbihan (5).
 
 ### Week-end des 3 et 4 octobre
 
@@ -68,6 +70,8 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
 - **Rando VTT / gravel / marche — Landehen** — dimanche 4 · Landehen (22)
 - **Ronde du phacochére** — dimanche 4 · Saint-Aubin-d’Aubigné (35)
 - **Tous pour la Vie** — dimanche 4 · Janze (35)
+- **Tro Lenn 2026 — 6e édition** — dimanche 4 · Guerlédan (22)
+- **Var-dro Boharz** — dimanche 4 · Bohars (29)
 
 ### Week-end des 10 et 11 octobre
 
@@ -78,6 +82,7 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
 - **La Rochespoir** — dimanche 11 · Maen Roch (35)
 - **Marche de la Patate** — dimanche 11 · Ploeuc-sur-Lié (22)
 - **Moulins et Marais** — dimanche 11 · Saint-Herblain (44)
+- **Octobre Rose** — dimanche 11 · Plourin-lès-Morlaix (29)
 - **Rando Kleg Saint Jo** — dimanche 11 · Cléguérec (56)
 - **Rando VTT Bais** — dimanche 11 · Bais (35)
 - **Rando des deux clochers** — dimanche 11 · Machecoul-Saint-Même (44)
