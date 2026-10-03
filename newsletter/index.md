@@ -20,3 +20,7 @@ Chaque mois, je pars du calendrier de [vtt.bzh](https://www.vtt.bzh/?utm_source=
 - **Du terrain** — les nouvelles utiles partagées par les clubs et les pratiquants, sélectionnées avec soin.
 
 Le VTT est le point de départ. La marche et le trail entrent dans l’édition lorsqu’ils apportent une bonne raison de sortir en Bretagne.
+
+## Me suivre autrement
+
+{% include components/social-links.html %}

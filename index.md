@@ -47,22 +47,4 @@ Après le cyclisme professionnel, je me suis reconverti dans le numérique. Je s
 
 <p><a href="/work/" class="c-button c-button--dark-outline">Découvrir mon parcours</a></p>
 
-<div class="u-text--center">
-  <ul class="c-button-stack c-button-stack--center u-list">
-    <li>
-      {% include components/social-link.html icon="instagram" url=site.author.instagram label="Instagram — @bynicolasjd" %}
-    </li>
-    <li>
-      {% include components/social-link.html icon="threads" url=site.author.threads label="Threads — @bynicolasjd" %}
-    </li>
-    <li>
-      {% include components/social-link.html icon="x" url=site.author.twitter label="X — @bynicolasjd" %}
-    </li>
-    <li>
-      {% include components/social-link.html icon="youtube" url=site.author.youtube label="YouTube — @byNicolasJD" %}
-    </li>
-    <li>
-      {% include components/social-link.html icon="rss" url="/feed.xml" label="Flux RSS de nicolasjouanno.com" %}
-    </li>
-  </ul>
-</div>
+{% include components/social-links.html %}
