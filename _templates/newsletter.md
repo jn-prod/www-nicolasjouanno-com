@@ -10,7 +10,13 @@ tags:
 
 Bonjour,
 
-[Une observation courte sur le mois, le terrain ou la saison en Bretagne.]
+[Début de l’édito : raconter une scène, une sortie ou une observation personnelle liée au mois et au terrain.]
+
+![Description fidèle de la photo](../images/posts/nom-de-la-photo.jpg)
+
+*Lieu · date · courte légende et crédit photo.*
+
+[Conclusion de l’édito : relier l’expérience illustrée au thème de l’édition et ouvrir sur la sélection du mois.]
 
 ## À retenir ce mois-ci
 
