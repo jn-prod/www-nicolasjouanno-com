@@ -1,7 +1,9 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:atom="http://www.w3.org/2005/Atom"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:media="http://search.yahoo.com/mrss/"
      xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
@@ -11,13 +13,12 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Wed, 07 Oct 2026 18:07:19 +0000</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2026 18:07:19 +0000</lastBuildDate>
+    <pubDate>Wed, 07 Oct 2026 19:56:56 +0000</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2026 19:56:56 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
 
-    
     
       
       
@@ -26,12 +27,22 @@
         <title>La Sortie #1 — où rouler en octobre en Bretagne</title>
         <description><![CDATA[
           
+            <a href="https://www.nicolasjouanno.com/la-sortie/2026-10/" target="_blank">
+              <img src="https://www.nicolasjouanno.com/images/posts/broceliande-siege-de-merlin.webp" alt="Randonnée en famille dans la forêt de Brocéliande"/>
+            </a>
+          
           <p>Salut,
 </p>
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/la-sortie/2026-10/">nicolasjouanno.com</a>.</em></p>
         ]]></description>
         <content:encoded><![CDATA[
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/la-sortie/2026-10/">nicolasjouanno.com</a>.</em></p>
+          
+            <p>
+              <a href="https://www.nicolasjouanno.com/la-sortie/2026-10/">
+                <img src="https://www.nicolasjouanno.com/images/posts/broceliande-siege-de-merlin.webp" alt="Randonnée en famille dans la forêt de Brocéliande"/>
+              </a>
+            </p>
           
           <p>Salut,</p>
 
@@ -146,9 +157,7 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
 
 <p>📍<a href="https://maps.app.goo.gl/zQG3AtCYShfiXrZr5?g_st=ic">Paimpont</a> - 2026-07-05 - 📷 Fujifilm x70 © Nicolas JOUANNO DANIEL</p>
 
-<p><img src="https://www.nicolasjouanno.com/images/posts/broceliande-siege-de-merlin.webp" alt="Randonnée en famille dans la forêt de Brocéliande" /></p>
-
-<p>Une journée à marcher en famille dans la forêt de Brocéliande, sur les traces du siège de Merlin.</p>
+<p>La photo de couverture a été prise pendant une journée à marcher en famille dans la forêt de Brocéliande, sur les traces du siège de Merlin.</p>
 
 <h2 id="parlez-de-votre-sortie">Parlez de votre Sortie</h2>
 
@@ -169,6 +178,11 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
         <link>https://www.nicolasjouanno.com/la-sortie/2026-10/</link>
         <guid isPermaLink="true">https://www.nicolasjouanno.com/la-sortie/2026-10/</guid>
         <dc:creator>Nicolas Jouanno</dc:creator>
+        
+        <enclosure url="https://www.nicolasjouanno.com/images/posts/broceliande-siege-de-merlin.webp" type="image/webp"/>
+        <media:content url="https://www.nicolasjouanno.com/images/posts/broceliande-siege-de-merlin.webp" type="image/webp" medium="image">
+          <media:description type="plain">Randonnée en famille dans la forêt de Brocéliande</media:description>
+        </media:content>
         
         
         <category>outdoor</category>
@@ -1037,6 +1051,9 @@ séparer, cloisonner, multiplier les adresses.</p>
         <dc:creator>Nicolas Jouanno</dc:creator>
         
         <enclosure url="https://www.nicolasjouanno.com/images/posts/route-de-montagne.webp" type="image/webp"/>
+        <media:content url="https://www.nicolasjouanno.com/images/posts/route-de-montagne.webp" type="image/webp" medium="image">
+          <media:description type="plain">Pourquoi tombons-nous ?</media:description>
+        </media:content>
         
         
         <category>outdoor</category>
@@ -1050,3 +1067,4 @@ séparer, cloisonner, multiplier les adresses.</p>
     
   </channel>
 </rss>
+
