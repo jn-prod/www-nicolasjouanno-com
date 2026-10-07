@@ -11,8 +11,9 @@ reste dans `_drafts/`.
 3. Reprendre uniquement les faits vérifiés et les sorties retenues depuis le brief
    produit dans `vtt.bzh/www/_drafts/`.
 4. Écrire l'angle, le récit et les appels à contribution à partir du vécu ou de
-   contributions autorisées. Lorsqu'une photo personnelle porte l'édito, la placer
-   dans son déroulé comme respiration, avec sa légende, plutôt qu'en rubrique séparée.
+   contributions autorisées. Lorsqu'une photo personnelle porte l'édito, la déclarer
+   comme couverture dans le front matter pour l'archive et le RSS, puis la contextualiser
+   dans le texte sans répéter le fichier image dans le corps.
 5. Relire liens, informations pratiques et formulation avant publication.
 6. Une fois l'édition prête, la déplacer dans `_posts/`, puis l'envoyer manuellement
    dans Kit à la liste consentie.

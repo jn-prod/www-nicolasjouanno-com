@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /la-sortie/feed.xml
+---
+{% assign feed_posts = site.tags["la-sortie"] %}
+{% include rss-feed.xml posts=feed_posts title="La Sortie — Nicolas Jouanno" description="Des chemins, des voix et des idées pour découvrir la Bretagne." link="/la-sortie/" self_url="/la-sortie/feed.xml" update_period="monthly" %}

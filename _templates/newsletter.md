@@ -1,6 +1,8 @@
 ---
 title: mois année
 description: Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain.
+image: /images/posts/nom-de-la-photo.jpg
+image_alt: Description fidèle de la photo
 category: newsletter
 permalink: /la-sortie/{{date:YYYY-MM}}/
 tags:
@@ -12,11 +14,9 @@ Bonjour,
 
 [Début de l’édito : raconter une scène, une sortie ou une observation personnelle liée au mois et au terrain.]
 
-![Description fidèle de la photo](../images/posts/nom-de-la-photo.jpg)
-
 *Lieu · date · courte légende et crédit photo.*
 
-[Conclusion de l’édito : relier l’expérience illustrée au thème de l’édition et ouvrir sur la sélection du mois.]
+[Contextualiser la photo de couverture sans répéter l’image dans le corps, puis relier l’expérience illustrée au thème de l’édition et ouvrir sur la sélection du mois.]
 
 ## À retenir ce mois-ci
 

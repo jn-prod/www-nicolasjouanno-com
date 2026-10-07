@@ -2,6 +2,8 @@
 title: "La Sortie #1 — où rouler en octobre en Bretagne"
 preheader: "31 randos annoncées, des sorties à choisir et les nouvelles des chemins bretons."
 description: Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain.
+image: /images/posts/broceliande-siege-de-merlin.jpg
+image_alt: Randonnée en famille dans la forêt de Brocéliande
 category: newsletter
 permalink: /la-sortie/2026-10/
 tags:
@@ -111,9 +113,7 @@ Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.v
 
 📍[Paimpont](https://maps.app.goo.gl/zQG3AtCYShfiXrZr5?g_st=ic) - 2026-07-05 - 📷 Fujifilm x70 © Nicolas JOUANNO DANIEL
 
-![Randonnée en famille dans la forêt de Brocéliande](../images/posts/broceliande-siege-de-merlin.jpg)
-
-Une journée à marcher en famille dans la forêt de Brocéliande, sur les traces du siège de Merlin.
+La photo de couverture a été prise pendant une journée à marcher en famille dans la forêt de Brocéliande, sur les traces du siège de Merlin.
 
 ## Parlez de votre Sortie
 

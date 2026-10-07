@@ -49,6 +49,14 @@
       title="RSS"
       href="/feed.xml"
     />
+    {% if page.tag == "la-sortie" or page.tags contains "la-sortie" %}
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="La Sortie"
+      href="/la-sortie/feed.xml"
+    />
+    {% endif %}
 
     <!-- Fonts (non-bloquant + font-display: swap) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

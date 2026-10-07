@@ -11,3 +11,5 @@ permalink: /la-sortie/
 Chaque mois, je pars du calendrier de [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=site&utm_campaign=la-sortie&utm_content=calendrier) pour sélectionner les randonnées à venir. J’y ajoute ce qu’un calendrier ne raconte pas seul : un coin à découvrir, une information venue du terrain, une voix de club ou de pratiquant.
 
 {% include components/newsletter-form.html id="la-sortie" %}
+
+Vous pouvez aussi [suivre La Sortie par RSS](/la-sortie/feed.xml).
