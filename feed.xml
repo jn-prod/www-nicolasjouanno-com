@@ -13,8 +13,8 @@
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Thu, 08 Oct 2026 05:54:49 +0000</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2026 05:54:49 +0000</lastBuildDate>
+    <pubDate>Thu, 08 Oct 2026 11:21:25 +0000</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2026 11:21:25 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
@@ -23,30 +23,34 @@
       
       
       
+      
       <item>
         <title>La Sortie #1 — où rouler en octobre en Bretagne</title>
         <description><![CDATA[
           
-            <a href="https://www.nicolasjouanno.com/la-sortie/2026-10/" target="_blank">
-              <img src="https://www.nicolasjouanno.com/images/posts/broceliande-siege-de-merlin.webp" alt="Randonnée en famille dans la forêt de Brocéliande"/>
-            </a>
+            <figure>
+              <a href="https://www.nicolasjouanno.com/la-sortie/2026-10/" target="_blank">
+                <img src="https://www.nicolasjouanno.com/images/posts/broceliande-siege-de-merlin.webp" alt="Randonnée en famille dans la forêt de Brocéliande"/>
+              </a>
+              <figcaption><a href="https://maps.app.goo.gl/zQG3AtCYShfiXrZr5?g_st=ic">Paimpont</a>, le 5 juillet 2026. Une journée à marcher en famille dans la forêt de Brocéliande, sur les traces du siège de Merlin. Fujifilm X70 © Nicolas Jouanno.
+</figcaption>
+            </figure>
           
-          <p>Salut,
-</p>
+          <p>31 randonnées annoncées, des rendez-vous solidaires pour Octobre Rose et une journée en famille à Brocéliande.</p>
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/la-sortie/2026-10/">nicolasjouanno.com</a>.</em></p>
         ]]></description>
         <content:encoded><![CDATA[
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/la-sortie/2026-10/">nicolasjouanno.com</a>.</em></p>
           
-            <p>
+            <figure>
               <a href="https://www.nicolasjouanno.com/la-sortie/2026-10/">
                 <img src="https://www.nicolasjouanno.com/images/posts/broceliande-siege-de-merlin.webp" alt="Randonnée en famille dans la forêt de Brocéliande"/>
               </a>
-            </p>
+              <figcaption><a href="https://maps.app.goo.gl/zQG3AtCYShfiXrZr5?g_st=ic">Paimpont</a>, le 5 juillet 2026. Une journée à marcher en famille dans la forêt de Brocéliande, sur les traces du siège de Merlin. Fujifilm X70 © Nicolas Jouanno.
+</figcaption>
+            </figure>
           
           <p>Salut,</p>
-
-<p>La photo qui ouvre cette édition a été prise le 5 juillet à <a href="https://maps.app.goo.gl/zQG3AtCYShfiXrZr5?g_st=ic">Paimpont</a>, pendant une journée à marcher en famille dans la forêt de Brocéliande, sur les traces du siège de Merlin. 📷 Fujifilm X70 © Nicolas JOUANNO DANIEL</p>
 
 <p>J’ai lancé <a href="https://www.vtt.bzh/?utm_source=nj-com&amp;utm_medium=email&amp;utm_campaign=rando-bretagne&amp;utm_content=edito">vtt.bzh</a> en 2013 pour répondre à une question simple : où rouler dimanche ?</p>
 
@@ -193,14 +197,12 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
       
       
       
+      
       <item>
         <title>août 2026</title>
         <description><![CDATA[
           
-          <p>
-  Cette édition a été envoyée initialement comme agenda mensuel de vtt.bzh. Elle est conservée ici dans les archives de La Sortie ; les événements et informations correspondent à août 2026.
-
-</p>
+          <p>Archive de l’agenda VTT Bretagne envoyé le 28 août 2026.</p>
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/la-sortie/2026-08/">nicolasjouanno.com</a>.</em></p>
         ]]></description>
         <content:encoded><![CDATA[
@@ -292,14 +294,12 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
       
       
       
+      
       <item>
         <title>juillet 2026</title>
         <description><![CDATA[
           
-          <p>
-  Cette édition a été envoyée initialement comme agenda mensuel de vtt.bzh. Elle est conservée ici dans les archives de La Sortie ; les événements et informations correspondent à juillet 2026.
-
-</p>
+          <p>Archive de l’agenda VTT Bretagne envoyé le 24 juillet 2026.</p>
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/la-sortie/2026-07/">nicolasjouanno.com</a>.</em></p>
         ]]></description>
         <content:encoded><![CDATA[
@@ -364,12 +364,12 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
       
       
       
+      
       <item>
         <title>J&apos;ai tué mon SaaS. Je l&apos;ai reconstruit comme agent IA.</title>
         <description><![CDATA[
           
-          <p>On commence à appeler ça le SaaSpocalypse.
-</p>
+          <p>Le SaaSpocalypse vu d'un dev frontend : ce qui meurt, ce qui survit, et l'app IA-native — LLM interface, agent moteur, mémoire au lieu de base. Le cas concret de feezify, reconstruit en agent, zéro infra.</p>
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
         <content:encoded><![CDATA[
@@ -487,12 +487,12 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
       
       
       
+      
       <item>
         <title>Premier 10 km : méthode d’un champion et plaisir de courir</title>
         <description><![CDATA[
           
-          <p>On me demande parfois comment « se mettre à la course » et boucler un premier 10 km. J’ai deux aveux et une bonne nouvelle. Aveu n°1 : je n’ai jamais couru de 10 km sur route de ma vie. Aveu n°2 : je m’entraîne à la sensation, pas au plan. La bonne nouvelle : j’ai reçu sur mon podcast Gaël Le Bellec, triple champion du monde de duathlon, qui lui sait exactement comment on structure une prépa. Alors plutôt qu’un énième plan tout fait, voici un regard croisé : sa méthode de champion, et mon contre-pied de coureur par plaisir. Prends ce qui te parle.
-</p>
+          <p>Comment préparer son premier 10 km ? La méthode de Gaël Le Bellec, triple champion du monde de duathlon, et mon approche par sensation.</p>
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
         <content:encoded><![CDATA[
@@ -567,12 +567,12 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
       
       
       
+      
       <item>
         <title>Sans gluten et sport d’endurance : mon expérience de cycliste et parent</title>
         <description><![CDATA[
           
-          <p>J’ai vécu deux rapports très différents à l’assiette. Pendant mes années de cycliste professionnel, tout tournait autour du carburant : combien de glucides, à quel moment, pour tenir le watt sur la durée. Aujourd’hui, en tant que parent d’un enfant cœliaque, je lis chaque étiquette avec la même rigueur — mais pour une autre raison : éviter le moindre gramme de gluten.
-</p>
+          <p>Ancien cycliste professionnel et parent d’un enfant cœliaque, je croise nutrition d’endurance et sans gluten au quotidien, sans promesse miracle.</p>
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/sans-gluten-sport-endurance-velo-coeliaque.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
         <content:encoded><![CDATA[
@@ -633,12 +633,12 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
       
       
       
+      
       <item>
         <title>Galette sans gluten : ce que rembourse réellement l’Assurance Maladie</title>
         <description><![CDATA[
           
-          <p>Hier, j’ai signalé, via les outils dédiés des plateformes, plusieurs prises de parole que j’estime relever de la désinformation :
-</p>
+          <p>La galette des rois sans gluten est-elle remboursée ? Les faits sur la prise en charge liée à la maladie cœliaque, loin du bad buzz.</p>
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/buzz-galette-des-rois-sans-gluten.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
         <content:encoded><![CDATA[
@@ -762,12 +762,12 @@ en supposant que :</p>
       
       
       
+      
       <item>
         <title>Les Web Components et l&apos;accessibilité — conférence Paris-Web 2025</title>
         <description><![CDATA[
           
-          <p>Depuis deux ans, je participe à Paris-Web avec mon collègue Simon Duhem grâce à notre employeur MGDIS. En 2025, l’histoire a changé : nous ne sommes plus seulement venus écouter, mais parler. La candidature, portée par Simon, nous a offert une aventure partagée — comme un relais. Et comme dans le sport ou les voyages en van, ce genre de défi apprend à simplifier, à partager et à rester attentif aux autres.
-</p>
+          <p>REX d'un design system interopérable accessible by design : Web Components natifs (StencilJS), shadow DOM et accessibilité, co-présenté avec Simon à Paris-Web 2025.</p>
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/paris-web-2025.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
         <content:encoded><![CDATA[
@@ -822,14 +822,12 @@ en supposant que :</p>
       
       
       
+      
       <item>
         <title>Retrouver le fil - pourquoi je recentre tout sur un seul site</title>
         <description><![CDATA[
           
-          <p>
-  Mise à jour — septembre 2026. Ce texte raconte le point de départ de ma réflexion, pas l’architecture actuelle. Je rassemble toujours mon histoire sous mon nom, mais plus dans un hub unique : les réseaux ouvrent la conversation, ce site publie et conserve les contenus durables, la newsletter prolonge la relation par e-mail et les outils rendent le service.
-
-</p>
+          <p>En septembre 2025, je choisissais un hub personnel pour retrouver le fil de mes créations. Cette étape a depuis évolué vers un écosystème relié autour de mon histoire.</p>
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/Retrouver-le-fil.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
         <content:encoded><![CDATA[
@@ -883,26 +881,30 @@ séparer, cloisonner, multiplier les adresses.</p>
       
       
       
+      
       <item>
         <title>Pourquoi tombons-nous ?</title>
         <description><![CDATA[
           
-            <a href="https://www.nicolasjouanno.com/pourquoi-tombons-nous.html" target="_blank">
-              <img src="https://www.nicolasjouanno.com/images/posts/route-de-montagne.webp" alt="Pourquoi tombons-nous ?"/>
-            </a>
+            <figure>
+              <a href="https://www.nicolasjouanno.com/pourquoi-tombons-nous.html" target="_blank">
+                <img src="https://www.nicolasjouanno.com/images/posts/route-de-montagne.webp" alt="Pourquoi tombons-nous ?"/>
+              </a>
+              
+            </figure>
           
-          <p>Chapitre 1 : Une adolescence dans les sous-bois
-</p>
+          <p>Cyclo-cross à 15 ans, cyclisme professionnel, chutes et reconversions : un récit en quatre chapitres sur les épreuves qui forgent un sportif.</p>
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/pourquoi-tombons-nous.html">nicolasjouanno.com</a>.</em></p>
         ]]></description>
         <content:encoded><![CDATA[
           <p><em>Initialement publié sur <a href="https://www.nicolasjouanno.com/pourquoi-tombons-nous.html">nicolasjouanno.com</a>.</em></p>
           
-            <p>
+            <figure>
               <a href="https://www.nicolasjouanno.com/pourquoi-tombons-nous.html">
                 <img src="https://www.nicolasjouanno.com/images/posts/route-de-montagne.webp" alt="Pourquoi tombons-nous ?"/>
               </a>
-            </p>
+              
+            </figure>
           
           <h2 id="chapitre-1--une-adolescence-dans-les-sous-bois">Chapitre 1 : Une adolescence dans les sous-bois</h2>
 
