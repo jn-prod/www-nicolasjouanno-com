@@ -1,6 +1,6 @@
 ---
 title: août 2026
-description: Archive de l’agenda VTT Bretagne envoyé le 28 août 2026.
+description: 42 randos à venir dans les cinq prochaines semaines.
 category: newsletter
 tags:
   - outdoor
@@ -24,12 +24,12 @@ La rentrée approche et le calendrier se remplit vite : 42 randos dans les cinq 
 - **Samedi 29 août — Theil en selle** : Le Theil-de-Bretagne (35) · 13h
 - **Dimanche 30 août — La Staobinaise** : Saint-Aubin-du-Cormier (35) · 7h30–10h · 6 €
 - **Dimanche 30 août — Maxi Gouët — VTT, gravel, pédestre** : Ploufragan (22) · VTT/gravel à partir de 8h
-- **Dimanche 30 août — Rando du dimanche** *(nouveau)* : Gaël (35) · 7h30–10h30 · 5 €
+- **Dimanche 30 août — Rando du dimanche** _(nouveau)_ : Gaël (35) · 7h30–10h30 · 5 €
 - **Dimanche 30 août — Rando U Tour de la presqu’île de Crozon** : Camaret-sur-Mer (29) · 7h30–10h · 9 €
 - **Dimanche 30 août — Rando Vélo Sport Vitalien** : Saint-Viaud (44) · 7h30–12h30 · 6 €
 - **Dimanche 30 août — Theil en selle** : Le Theil-de-Bretagne (35) · 8h
 - **Dimanche 6 septembre — La Bodilisienne 2026** : Bodilis (29) · 6h30 · 6 €
-- **Dimanche 6 septembre — Gravel Koad** *(nouveau)* : Thorigné-Fouillard (35) · 8h · 9 €
+- **Dimanche 6 septembre — Gravel Koad** _(nouveau)_ : Thorigné-Fouillard (35) · 8h · 9 €
 - **Dimanche 6 septembre — Journée de la randonnée** : Plévin (22) · inscriptions dès 7h30 · 6 €
 - **Dimanche 6 septembre — La Plescopaise** : Plescop (56) · 7h30–10h · 5 €
 - **Dimanche 6 septembre — Rando des pins** : Saint-Jacut-les-Pins (56) · 7h30 · 6 €
@@ -46,7 +46,7 @@ La rentrée approche et le calendrier se remplit vite : 42 randos dans les cinq 
 - **Samedi 12 septembre — Tour des chouans** : Saint-Sauveur-des-Landes (35)
 - **Dimanche 13 septembre — Défi Michel Davy** : Hénon (22) · 7h30 · 6 €
 - **Dimanche 13 septembre — La Pertraise** : Le Pertre (35) · 7h30–10h
-- **Dimanche 13 septembre — Rando des craquelins** *(nouveau)* : Plumaudan (22) · 8h · 5 €
+- **Dimanche 13 septembre — Rando des craquelins** _(nouveau)_ : Plumaudan (22) · 8h · 5 €
 - **Dimanche 13 septembre — Tour des chouans** : Saint-Sauveur-des-Landes (35)
 - **Samedi 19 septembre — Rando la Plérinaise** : Plérin (22) · 8h–9h30 · 10 €
 - **Samedi 19 septembre — Semi-nocturne Entre marais et vignoble** : Haute-Goulaine (44) · dès 18h · 15 €
@@ -55,13 +55,13 @@ La rentrée approche et le calendrier se remplit vite : 42 randos dans les cinq 
 - **Dimanche 20 septembre — Les Sentiers du Don, 26e édition** : Guémené-Penfao (44) · 7h30–10h · 6 €
 - **Dimanche 20 septembre — Rando des Beiles** : Plélan-le-Grand (35) · 7h30–9h30 · VTT/gravel 6 €
 - **Dimanche 20 septembre — Rando du petit bois** : Camors (56) · 7h30–9h30
-- **Samedi 26 septembre — La Castelgermanaise** *(nouveau)* : Saint-Germain-en-Coglès (35) · 13h30–19h · 10 €
-- **Samedi 26 septembre — La Mévennaise** *(nouveau)* : Saint-Méen-le-Grand (35) · 13h–15h · 7 €
-- **Samedi 26 septembre — Randonnée nocturne Val d’Ille à Melesse** *(nouveau)* : Melesse (35) · 16h–21h15 · 6 €
-- **Dimanche 27 septembre — La Mévennaise** *(nouveau)* : Saint-Méen-le-Grand (35) · 8h–10h · 7 €
-- **Dimanche 27 septembre — La Pluzunétoise VTT & Rando** *(nouveau)* : Pluzunet (22) · 8h · 6 €
-- **Dimanche 27 septembre — Rando des grées** *(nouveau)* : Pluherlin (56) · 7h30
-- **Dimanche 27 septembre — Randonnée du Chapelain** *(nouveau)* : Locmalo (56) · inscriptions 7h30–10h · 6 €
+- **Samedi 26 septembre — La Castelgermanaise** _(nouveau)_ : Saint-Germain-en-Coglès (35) · 13h30–19h · 10 €
+- **Samedi 26 septembre — La Mévennaise** _(nouveau)_ : Saint-Méen-le-Grand (35) · 13h–15h · 7 €
+- **Samedi 26 septembre — Randonnée nocturne Val d’Ille à Melesse** _(nouveau)_ : Melesse (35) · 16h–21h15 · 6 €
+- **Dimanche 27 septembre — La Mévennaise** _(nouveau)_ : Saint-Méen-le-Grand (35) · 8h–10h · 7 €
+- **Dimanche 27 septembre — La Pluzunétoise VTT & Rando** _(nouveau)_ : Pluzunet (22) · 8h · 6 €
+- **Dimanche 27 septembre — Rando des grées** _(nouveau)_ : Pluherlin (56) · 7h30
+- **Dimanche 27 septembre — Randonnée du Chapelain** _(nouveau)_ : Locmalo (56) · inscriptions 7h30–10h · 6 €
 
 [Voir tout le calendrier sur vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=archive&utm_campaign=rando-bretagne&utm_content=calendar)
 

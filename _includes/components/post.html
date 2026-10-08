@@ -1,5 +1,6 @@
-{% assign content = post.content | strip_html %}
-{% assign excerpt = post.excerpt | default: content | strip_html | truncatewords: 70 %}
+{% assign content = post.content | strip_html %} {% assign summary =
+post.description | default: post.excerpt | default: content | strip_html |
+truncatewords: 70 %}
 
 <article
   id="{{post.slug}}"
@@ -24,8 +25,8 @@
     alt="{{ post.image_alt | default: post.title }}"
     loading="lazy"
   />
-  {% endif %} {% if excerpt %}
-  <p>{{excerpt}}</p>
+  {% endif %} {% if summary %}
+  <p>{{summary}}</p>
   {% endif %}
 
   <footer>
@@ -35,9 +36,8 @@
       class="c-button c-button--primary u-spacing--block-start-small"
       href="{{ post.url | absolute_url }}"
       aria-describedby="{{ post.slug }}-title"
-      >
+    >
       Lire
     </a>
-
   </footer>
 </article>
