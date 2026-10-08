@@ -12,11 +12,9 @@ tags:
 
 Bonjour,
 
-[Début de l’édito : raconter une scène, une sortie ou une observation personnelle liée au mois et au terrain.]
+[Introduire la photo de couverture : lieu, date, scène vécue et crédit photo.]
 
-*Lieu · date · courte légende et crédit photo.*
-
-[Contextualiser la photo de couverture sans répéter l’image dans le corps, puis relier l’expérience illustrée au thème de l’édition et ouvrir sur la sélection du mois.]
+[Poursuivre l’édito : relier l’expérience illustrée au thème de l’édition et ouvrir sur la sélection du mois. Ne pas répéter l’image dans le corps.]
 
 ## À retenir ce mois-ci
 

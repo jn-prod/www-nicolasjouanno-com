@@ -12,6 +12,8 @@ tags:
 ---
 Salut,
 
+La photo qui ouvre cette édition a été prise le 5 juillet à [Paimpont](https://maps.app.goo.gl/zQG3AtCYShfiXrZr5?g_st=ic), pendant une journée à marcher en famille dans la forêt de Brocéliande, sur les traces du siège de Merlin. 📷 Fujifilm X70 © Nicolas JOUANNO DANIEL
+
 J’ai lancé [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=edito) en 2013 pour répondre à une question simple : où rouler dimanche ?
 
 J’avais 25 ans, beaucoup d’idées et l’envie de faire de ce projet du soir un truc cool. Beaucoup de ces idées ont fini dans les abysses du web. Le calendrier est resté et a toujours eu toute mon attention.
@@ -108,12 +110,6 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
 - **Rives du Semnon** — dimanche 25 · Lalleu (35)
 
 Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=calendrier).
-
-## La Sortie en photo
-
-📍[Paimpont](https://maps.app.goo.gl/zQG3AtCYShfiXrZr5?g_st=ic) - 2026-07-05 - 📷 Fujifilm x70 © Nicolas JOUANNO DANIEL
-
-La photo de couverture a été prise pendant une journée à marcher en famille dans la forêt de Brocéliande, sur les traces du siège de Merlin.
 
 ## Parlez de votre Sortie
 
