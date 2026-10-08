@@ -18,13 +18,18 @@ layout: page
   </header>
 
   {% if page.image %}
-  <div class="c-layout__medias">
+  <figure class="c-layout__medias u-spacing--0">
     <img
       src="{{ page.image | relative_url }}"
       alt="{{ page.image_alt | default: page.title }}"
       loading="lazy"
     />
-  </div>
+    {% if page.image_caption %}
+    <figcaption class="c-meta u-spacing--block-start-small">
+      {{ page.image_caption | markdownify | remove: '<p>' | remove: '</p>' }}
+    </figcaption>
+    {% endif %}
+  </figure>
   {% endif %}
 
   <!-- Post Content -->

@@ -3,6 +3,7 @@ title: mois année
 description: Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain.
 image: /images/posts/nom-de-la-photo.jpg
 image_alt: Description fidèle de la photo
+image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
 category: newsletter
 permalink: /la-sortie/{{date:YYYY-MM}}/
 tags:
@@ -12,7 +13,7 @@ tags:
 
 Bonjour,
 
-[Introduire la photo de couverture : lieu, date, scène vécue et crédit photo.]
+[Introduire la photo de couverture : lieu, date et scène vécue. Le crédit reste dans `image_caption`.]
 
 [Poursuivre l’édito : relier l’expérience illustrée au thème de l’édition et ouvrir sur la sélection du mois. Ne pas répéter l’image dans le corps.]
 

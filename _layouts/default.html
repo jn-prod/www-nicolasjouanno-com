@@ -5,20 +5,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% if page.description %}
+      {% assign meta_description = page.description %}
+    {% elsif page.excerpt %}
+      {% assign meta_description = page.excerpt | strip_html | truncatewords: 30 %}
+    {% else %}
+      {% assign meta_description = site.description %}
+    {% endif %}
 
     <!-- Titre et description -->
     {% if page.title %}
     <title>{% if page.url == '/' or page.url == '/index.html' %}{{ page.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
     {% else %}
     <title>{{ site.description }} | {{ site.title }}</title>
-    {% endif %} {% if page.description %}
-    <meta
-      name="description"
-      content="{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 }}"
-    />
-    {% else %}
-    <meta name="description" content="{{ site.description }}" />
     {% endif %}
+    <meta name="description" content="{{ meta_description | escape }}" />
     <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
 
     <!-- Icônes -->
@@ -93,7 +94,7 @@
     />
     <meta
       property="og:description"
-      content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 30 }}{% else %}{{ site.description }}{% endif %}"
+      content="{{ meta_description | escape }}"
     />
     <meta
       property="og:type"
@@ -141,7 +142,7 @@
     />
     <meta
       name="twitter:description"
-      content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 30 }}{% else %}{{ site.description }}{% endif %}"
+      content="{{ meta_description | escape }}"
     />
     {% if site.author.handle %}
     <meta name="twitter:site" content="{{ site.author.handle }}" />
@@ -165,7 +166,7 @@
             "@id": "{{ page.url | absolute_url }}"
           },
           "headline": {{ page.title | jsonify }},
-          "description": {{ page.description | default: page.excerpt | strip_html | truncatewords: 30 | jsonify }},
+          "description": {{ meta_description | jsonify }},
           "datePublished": "{{ page.date | date_to_xmlschema }}",
           "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
           "author": {
@@ -188,13 +189,13 @@
       }
       {% elsif page.url == '/' or page.url == '/index.html' %}
       {"@context":"https://schema.org","@graph":[
-        {"@type":"WebSite","@id":"{{ site.url }}/#website","url":"{{ site.url }}/","name":{{ site.title | jsonify }},"description":{{ site.description | jsonify }}},
+        {"@type":"WebSite","@id":"{{ site.url }}/#website","url":"{{ site.url }}/","name":{{ site.title | jsonify }},"description":{{ meta_description | jsonify }}},
         {"@type":"Person","@id":"{{ site.url }}/#person","name":{{ site.author.name | jsonify }},"url":"{{ site.url }}/","email":{{ site.author.email | jsonify }},"knowsAbout":[{% for topic in site.author.knows_about %}{% unless forloop.first %},{% endunless %}{{ topic | jsonify }}{% endfor %}],"sameAs":["{{ site.author.linkedin | split: '?' | first }}","{{ site.author.github | split: '?' | first }}","{{ site.author.twitter | split: '?' | first }}","{{ site.author.strava | split: '?' | first }}","{{ site.author.facebook | split: '?' | first }}","{{ site.author.instagram | split: '?' | first }}","{{ site.author.threads | split: '?' | first }}","{{ site.author.youtube | split: '?' | first }}"]}
       ]}
       {% elsif page.layout == 'category' or page.layout == 'tag' %}
-      {"@context":"https://schema.org","@type":"CollectionPage","name":{{ page.title | jsonify }},"description":{{ page.description | jsonify }},"url":"{{ page.url | absolute_url }}"}
+      {"@context":"https://schema.org","@type":"CollectionPage","name":{{ page.title | jsonify }},"description":{{ meta_description | jsonify }},"url":"{{ page.url | absolute_url }}"}
       {% else %}
-      {"@context":"https://schema.org","@type":"WebPage","name":{{ page.title | default: site.title | jsonify }},"description":{{ page.description | default: site.description | jsonify }},"url":"{{ page.url | absolute_url }}"}
+      {"@context":"https://schema.org","@type":"WebPage","name":{{ page.title | default: site.title | jsonify }},"description":{{ meta_description | jsonify }},"url":"{{ page.url | absolute_url }}"}
       {% endif %}
     </script>
   </head>

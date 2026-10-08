@@ -22,25 +22,30 @@
       {% capture absolute_src %}src="{{ site.url }}/{% endcapture %}
       {% capture absolute_href %}href="{{ site.url }}/{% endcapture %}
       {% assign feed_content = post.content | replace: 'src="/', absolute_src | replace: 'href="/', absolute_href %}
+      {% assign feed_summary = post.description | default: post.excerpt | strip_html | truncatewords: 150 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description><![CDATA[
           {% if post.image %}
-            <a href="{{ site.url }}{{ post.url }}" target="_blank">
-              <img src="{{ post.image | absolute_url }}" alt="{{ post.image_alt | default: post.title | xml_escape }}"/>
-            </a>
+            <figure>
+              <a href="{{ site.url }}{{ post.url }}" target="_blank">
+                <img src="{{ post.image | absolute_url }}" alt="{{ post.image_alt | default: post.title | xml_escape }}"/>
+              </a>
+              {% if post.image_caption %}<figcaption>{{ post.image_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>{% endif %}
+            </figure>
           {% endif %}
-          <p>{{ post.excerpt | strip_html | truncatewords: 150 }}</p>
+          <p>{{ feed_summary }}</p>
           <p><em>Initialement publié sur <a href="{{ site.url }}{{ post.url }}">nicolasjouanno.com</a>.</em></p>
         ]]></description>
         <content:encoded><![CDATA[
           <p><em>Initialement publié sur <a href="{{ site.url }}{{ post.url }}">nicolasjouanno.com</a>.</em></p>
           {% if post.image %}
-            <p>
+            <figure>
               <a href="{{ site.url }}{{ post.url }}">
                 <img src="{{ post.image | absolute_url }}" alt="{{ post.image_alt | default: post.title | xml_escape }}"/>
               </a>
-            </p>
+              {% if post.image_caption %}<figcaption>{{ post.image_caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>{% endif %}
+            </figure>
           {% endif %}
           {{ feed_content }}
         ]]></content:encoded>

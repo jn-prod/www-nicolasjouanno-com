@@ -13,7 +13,10 @@ reste dans `_drafts/`.
 4. Écrire l'angle, le récit et les appels à contribution à partir du vécu ou de
    contributions autorisées. Lorsqu'une photo personnelle porte l'édito, la déclarer
    comme couverture dans le front matter pour l'archive et le RSS, puis la contextualiser
-   dans le texte sans répéter le fichier image dans le corps.
+   dans le texte sans répéter le fichier image dans le corps. Renseigner `image_alt`
+   pour la description accessible et `image_caption` pour la légende ou le crédit visible.
+   Cette légende accepte les liens Markdown et termine le crédit par `Appareil © Auteur`,
+   sans tiret ni pictogramme.
 5. Relire liens, informations pratiques et formulation avant publication.
 6. Une fois l'édition prête, la déplacer dans `_posts/`, puis l'envoyer manuellement
    dans Kit à la liste consentie.
