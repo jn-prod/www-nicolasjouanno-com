@@ -1,6 +1,6 @@
 ---
-title: mois année
-description: Une sélection de randonnées en Bretagne, les prochaines dates VTT et des nouvelles venues du terrain.
+title: "La Sortie # — mois année"
+description: Des chemins, des voix et des idées pour découvrir la Bretagne.
 image: /images/posts/nom-de-la-photo.jpg
 image_alt: Description fidèle de la photo
 image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
@@ -13,39 +13,34 @@ tags:
 
 Bonjour,
 
-[Introduire la photo de couverture : lieu, date et scène vécue. Le crédit reste dans `image_caption`.]
+[Édito : partir d’une expérience vécue ou d’une observation et la relier au thème de l’édition. La photo de couverture l’accompagne ; son contexte et son crédit restent dans `image_caption`.]
 
-[Poursuivre l’édito : relier l’expérience illustrée au thème de l’édition et ouvrir sur la sélection du mois. Ne pas répéter l’image dans le corps.]
+[Conclure en ouvrant sur la sortie retenue ce mois-ci. Ne pas répéter l’image dans le corps.]
 
-## À retenir ce mois-ci
+## La Sortie du mois
 
-[La sélection ou l’information principale de l’édition.]
+[Une sortie, un lieu, un rendez-vous ou un sujet qui mérite de s’y attarder. Donner les faits utiles et expliquer pourquoi il retient l’attention ce mois-ci.]
 
-## Trois sorties à regarder
+## Le calendrier partagé
 
-- [Nom de la sortie](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=selection) — lieu · date · pourquoi elle retient l’attention
-- [Nom de la sortie](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=selection) — lieu · date · pour qui
-- [Nom de la sortie](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=selection) — lieu · date · ce qu’il faut savoir
+[Le calendrier existe grâce aux clubs, organisateurs et pratiquants qui partagent les dates et informations du terrain. Introduire ce qui caractérise le mois, puis retenir les contributions les plus utiles à la lecture.]
 
-## Le coin à découvrir
+[Nombre] randonnées sont annoncées entre le [date de début] et le [date de fin] sur vtt.bzh, dont [nombre] nouvelles depuis la dernière édition.
 
-[Un territoire, un itinéraire, une photographie ou une idée de sortie. Distinguer clairement ce qui a été vécu, rapporté ou reste à vérifier.]
+### Week-end des [dates]
 
-## Les nouvelles du terrain
+- **[Nom de la randonnée](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — [jour] · [lieu] ([département])
+- **[Nom de la randonnée](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — [jour] · [lieu] ([département])
 
-[Un retour de pratiquant, de club ou d’organisateur, publié avec son accord. Aucun remplissage : supprimer cette section si aucune contribution n’est assez utile.]
+[Ajouter autant de week-ends ou de précisions venues du terrain que nécessaire, sans viser une exhaustivité dans l’e-mail.]
 
-## L’agenda VTT
+Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier).
 
-[Nombre] randonnées sont annoncées dans les cinq prochaines semaines sur vtt.bzh, dont [nombre] nouvelles.
+## Parlez de votre Sortie
 
-Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=calendrier).
+Votre club prépare une randonnée ? [Ajoutez-la au calendrier](https://www.vtt.bzh/calendrier/ajouter.html?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=contribuer). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre le calendrier ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
 
-## Vous faites vivre les chemins
-
-Votre club prépare une randonnée, vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20Rando%20Bretagne). Une sélection de vos messages pourra nourrir la prochaine édition, toujours avec votre accord avant publication.
-
-## Faites suivre
+## La Sortie se partage
 
 Si cette édition vous aide à préparer votre prochaine sortie, transférez-la à votre club ou à la personne avec qui vous aimeriez partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles en Bretagne.
 

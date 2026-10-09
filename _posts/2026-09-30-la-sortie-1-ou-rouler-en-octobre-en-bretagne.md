@@ -58,7 +58,9 @@ Tous pour la Vie à Janzé (35), les 3 et 4 octobre. Une randonnée sur deux jou
 
 Randoligo à Langolen (29), le 11 octobre. Une journée de marche et de VTT contre le cancer du cerveau, organisée par Oligocyte Bretagne. Quatre parcours pédestres, quatre parcours VTT et un rendez-vous qui donne une dimension solidaire à la sortie.
 
-## L’agenda VTT
+## Le calendrier partagé
+
+Les clubs, organisateurs et pratiquants font vivre le calendrier en partageant les dates et les informations du terrain. Voici les rendez-vous annoncés pour les cinq prochaines semaines.
 
 31 randos sont annoncées entre le 1er octobre et le 5 novembre, dont 14 nouvelles
 ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les Côtes-d’Armor
@@ -107,11 +109,11 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
 - **Rives du Semnon** — samedi 24 · Lalleu (35)
 - **Rives du Semnon** — dimanche 25 · Lalleu (35)
 
-Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=rando-bretagne&utm_content=calendrier).
+Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier).
 
 ## Parlez de votre Sortie
 
-Vous avez repéré une information utile, vous préparez une randonnée, vous voulez parler d’un projet de club ou raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Une sélection de vos messages pourra nourrir la prochaine édition, toujours avec votre accord avant publication.
+Votre club prépare une randonnée ? [Ajoutez-la au calendrier](https://www.vtt.bzh/calendrier/ajouter.html?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=contribuer). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre le calendrier ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
 
 ## La Sortie se partage
 
