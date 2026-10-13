@@ -15,10 +15,21 @@ reste dans `_drafts/`.
    comme couverture dans le front matter pour l'archive et le RSS, puis la contextualiser
    dans le texte sans répéter le fichier image dans le corps. Renseigner `image_alt`
    pour la description accessible et `image_caption` pour la légende ou le crédit visible.
-   Cette légende accepte les liens Markdown et termine le crédit par `Appareil © Auteur`,
-   sans tiret ni pictogramme.
-5. Relire liens, informations pratiques et formulation avant publication.
-6. Une fois l'édition prête, la déplacer dans `_posts/`, puis l'envoyer manuellement
+   Cette légende est le premier temps du récit : elle situe la photo et formule un vécu,
+   puis termine le crédit par `Appareil © Auteur`, sans tiret ni pictogramme. Elle accepte
+   les liens Markdown.
+5. Garder « La Sortie du mois » comme sujet outdoor principal. Les rubriques secondaires
+   sont facultatives : conserver « La halte sans gluten », « La Sortie matos » ou une voix
+   du terrain seulement lorsqu'une matière réelle justifie leur présence, puis supprimer
+   les blocs inutilisés.
+6. Pour « La halte sans gluten », partir d'une situation vécue pendant une sortie ou un
+   voyage et expliciter les limites de l'expérience sans présenter une adresse comme
+   certifiée.
+7. Pour « La Sortie matos », retenir un à trois sujets utiles, remonter à la source
+   primaire et distinguer explicitement ce qui a été `testé`, `utilisé` ou seulement
+   `repéré`. Indiquer tout lien affilié, prêt de matériel ou partenariat.
+8. Relire liens, informations pratiques et formulation avant publication.
+9. Une fois l'édition prête, la déplacer dans `_posts/`, puis l'envoyer manuellement
    dans Kit à la liste consentie.
 
 ## Rôles

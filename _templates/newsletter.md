@@ -3,7 +3,7 @@ title: "La Sortie # — mois année"
 description: Des chemins, des voix et des idées pour découvrir la Bretagne.
 image: /images/posts/nom-de-la-photo.jpg
 image_alt: Description fidèle de la photo
-image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
+image_caption: "[Lieu](URL), date. Une phrase de vécu liée à l’édition. Appareil © Auteur."
 category: newsletter
 permalink: /la-sortie/{{date:YYYY-MM}}/
 tags:
@@ -15,13 +15,29 @@ Bonjour,
 
 [Édito : partir d’une expérience vécue ou d’une observation et la relier au thème de l’édition. La photo de couverture l’accompagne ; son contexte et son crédit restent dans `image_caption`.]
 
-[Conclure en ouvrant sur la sortie retenue ce mois-ci. Ne pas répéter l’image dans le corps.]
+[Conclure en ouvrant sur la sortie retenue ce mois-ci. La couverture et sa légende forment le premier temps du récit : ne pas répéter l’image dans le corps.]
 
 ## La Sortie du mois
 
-[Une sortie, un lieu, un rendez-vous ou un sujet qui mérite de s’y attarder. Donner les faits utiles et expliquer pourquoi il retient l’attention ce mois-ci.]
+[Le sujet outdoor principal : une sortie vécue, un lieu, une pratique, un rendez-vous ou une réflexion qui mérite de s’y attarder. Donner les faits utiles et expliquer pourquoi il retient l’attention ce mois-ci.]
 
-## Le calendrier partagé
+## La halte sans gluten
+
+[Rubrique secondaire facultative : supprimer ce bloc en l’absence de matière vécue. Partir d’une adresse, d’une assiette ou d’une situation rencontrée pendant une sortie ou un voyage. Raconter l’expérience et ses limites sans transformer le témoignage en certification.]
+
+## La Sortie matos
+
+[Rubrique secondaire facultative : supprimer ce bloc en l’absence de matière utile. Sélectionner un à trois produits, évolutions ou tendances qui peuvent réellement changer une sortie. Partir de leur utilité pour le pratiquant, pas du communiqué de presse. Pour chaque sujet, préciser ce qui change, pour qui cela compte et la limite ou la réserve éventuelle.]
+
+### [Produit, évolution ou tendance]
+
+**[Testé / utilisé / repéré].** [Point de vue personnel et contexte : ce qui mérite l’attention, le public concerné et ce qui reste à vérifier.]
+
+[Voir la source primaire](URL).
+
+[Répéter ce bloc si nécessaire, sans dépasser trois sujets. Signaler explicitement tout lien affilié, prêt de matériel ou partenariat.]
+
+## Sur le calendrier vtt.bzh
 
 [Le calendrier existe grâce aux clubs, organisateurs et pratiquants qui partagent les dates et informations du terrain. Introduire ce qui caractérise le mois, puis retenir les contributions les plus utiles à la lecture.]
 
@@ -36,7 +52,7 @@ Bonjour,
 
 Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier).
 
-## Parlez de votre Sortie
+## Votre sortie
 
 Votre club prépare une randonnée ? [Ajoutez-la au calendrier](https://www.vtt.bzh/calendrier/ajouter.html?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=contribuer). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre le calendrier ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
 

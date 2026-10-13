@@ -188,7 +188,7 @@ pnpm build:images
 
 `/feed.xml` est le flux RSS principal. `/la-sortie/feed.xml` applique les mêmes règles aux seules publications qui portent le tag `la-sortie`. Les deux flux contiennent le texte intégral, transforment les liens et médias internes en URL absolues et conservent la mention « Initialement publié sur nicolasjouanno.com ». L’ancienne URL `/substack.xml` redirige vers le flux principal pour ne pas casser les abonnements existants.
 
-Le formulaire partagé `_includes/components/newsletter-form.html` est affiché sur l’accueil, la page Outdoor et la page Newsletter. Il envoie directement les inscriptions au formulaire Kit `9378910` pour **La Sortie** : une édition mensuelle qui part du calendrier de vtt.bzh pour sélectionner les randos VTT à retenir, puis partage les nouvelles utiles des chemins bretons. Le rendu reste maîtrisé par le site et aucun script d’intégration Kit n’est chargé.
+Le formulaire partagé `_includes/components/newsletter-form.html` est affiché sur l’accueil, la page Outdoor et la page Newsletter. Il envoie directement les inscriptions au formulaire Kit `9378910` pour **La Sortie** : une édition mensuelle ouverte par une photo et un vécu, poursuivie par un sujet outdoor principal, d’éventuelles rubriques secondaires et une sélection issue du calendrier partagé de vtt.bzh. Le rendu reste maîtrisé par le site et aucun script d’intégration Kit n’est chargé.
 
 Les éditions sont des posts Jekyll ordinaires avec `category: newsletter`, rendus depuis `_templates/newsletter.md` et archivés sous `/la-sortie/`. La matière calendrier VTT est préparée dans le dépôt vtt.bzh ; le post, l’archive et l’envoi restent relus manuellement.
 
