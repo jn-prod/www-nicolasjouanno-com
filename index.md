@@ -14,10 +14,6 @@ permalink: /index.html
 🚵 [vtt.bzh]({{ site.projects.vtt_bzh.url }}) | 🌱 Assiettes sans gluten<br>
 📬 Newsletter « La Sortie »
 
-<p><a href="/a-propos/" class="c-button c-button--dark-outline">À propos</a></p>
-
-{% include components/social-links.html %}
-
 {% include components/newsletter-form.html id="home" title="Recevoir La Sortie" %}
 
 {% assign home_posts = site.posts | where_exp: "post", "post.category != 'archive'" %}

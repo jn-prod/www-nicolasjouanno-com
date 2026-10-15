@@ -1,5 +1,9 @@
 .c-layout {
   &__header {
+    background-color: var(--color-light);
+  }
+
+  &__header-bar {
     position: sticky;
     inset-block-start: 0;
     z-index: 10;
