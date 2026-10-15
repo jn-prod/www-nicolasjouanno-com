@@ -12,12 +12,6 @@
     font-size: var(--font-size-h5);
   }
 
-  &__topics {
-    display: flex;
-    justify-content: center;
-    padding: var(--size-8) var(--size-16);
-  }
-
   &__actions {
     display: flex;
   }
@@ -38,13 +32,5 @@
 
   .c-button {
     font-size: 1.2rem;
-  }
-}
-
-@media screen and (width <= 90rem) {
-  .c-navigation__topics {
-    .c-navigation__link-list {
-      justify-content: center;
-    }
   }
 }
