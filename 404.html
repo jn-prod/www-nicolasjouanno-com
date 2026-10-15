@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="fr">
-  <!-- Head
+  <!-- Document head
     ================================================== -->
   <head>
     <meta charset="utf-8" />
@@ -62,7 +62,6 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/main.css" />
-    <script defer src="/assets/navigation.js"></script>
 
     <!-- SEO basique -->
     <meta name="robots" content="noindex, follow" />
@@ -132,51 +131,52 @@
   <body class="c-layout c-layout--layout-page">
     <a href="#main-content" class="skip-link">Aller au contenu</a>
     <header role="banner" class="c-layout__header">
-      <div class="c-navigation">
-        <a href="https://www.nicolasjouanno.com" class="c-navigation__title u-link--dark">
-          Nicolas Jouanno
-        </a>
-      </div>
-    </header>
+  <div class="c-navigation">
+    <div class="c-navigation__identity">
+      <a href="https://www.nicolasjouanno.com" class="c-navigation__title u-link--dark">
+        Nicolas Jouanno
+      </a>
+      <a href="https://www.nicolasjouanno.com/a-propos/" class="u-link--dark">Bio</a>
+    </div>
+  </div>
+</header>
 
-    <nav
-      role="navigation"
-      aria-label="Navigation principale"
-      class="c-layout__navigation c-navigation c-navigation--main"
-    >
-      <ul class="u-list c-navigation__link-list">
-        <li class="c-navigation__link-list-element">
-          <a
-            class="c-button "
-            
-            href="https://www.nicolasjouanno.com/outdoor/"
-            >Outdoor</a
-          >
-        </li>
+<nav
+  role="navigation"
+  aria-label="Navigation principale"
+  class="c-layout__navigation c-navigation c-navigation--main"
+>
+  <ul class="u-list c-navigation__link-list">
+    <li class="c-navigation__link-list-element">
+      <a
+        class="c-button "
+        
+        href="https://www.nicolasjouanno.com/outdoor/"
+        >Outdoor</a
+      >
+    </li>
 
-        <li class="c-navigation__link-list-element">
-          <a
-            class="c-button "
-            
-            href="https://www.nicolasjouanno.com/nutrition/sans-gluten.html"
-            >Sans gluten</a
-          >
-        </li>
+    <li class="c-navigation__link-list-element">
+      <a
+        class="c-button "
+        
+        href="https://www.nicolasjouanno.com/nutrition/sans-gluten.html"
+        >Sans gluten</a
+      >
+    </li>
 
-        <li class="c-navigation__link-list-element">
-          <a
-            href="https://www.nicolasjouanno.com/newsletter/"
-            class="c-button c-button--primary "
-            
-            >Suivre
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <li class="c-navigation__link-list-element">
+      <a
+        href="https://www.nicolasjouanno.com/la-sortie/subscribe/"
+        class="c-button c-button--primary "
+        
+        >Suivre
+      </a>
+    </li>
+  </ul>
+</nav>
 
-    <!-- Content
-        ================================================== -->
-    <main role="main" id="main-content" class="c-layout__content">
+<main role="main" id="main-content" class="c-layout__content">
 
 <h1 id="page-introuvable">Page introuvable</h1>
 
@@ -189,16 +189,19 @@
 
 </main>
 
-    <footer
-      role="contentinfo"
-      class="c-layout__footer c-section c-section--compact"
-    >
-      <p>
-        © 2008 - 2026,
-        <a href="/">Nicolas Jouanno</a>. Tous
-        droits réservés. <a href="/mentions-legales/">Mentions légales</a>. <a href="mailto:contact@nicolasjouanno.com">contact@nicolasjouanno.com</a>.
-      </p>
-    </footer>
+<footer
+  role="contentinfo"
+  class="c-layout__footer c-section c-section--compact"
+>
+  <p>
+    © 2008 - 2026,
+    <a href="/">Nicolas Jouanno</a>. Tous
+    droits réservés. <a href="/a-propos/">À propos</a>. <a href="/mentions-legales/">Mentions légales</a>. <a href="mailto:contact@nicolasjouanno.com">contact@nicolasjouanno.com</a>.
+  </p>
+</footer>
+
+<script src="/assets/navigation.js"></script>
+
 
     <!-- Cloudflare Web Analytics -->
     <script
