@@ -12,6 +12,12 @@
     font-size: 3rem;
   }
 
+  &__identity {
+    display: flex;
+    align-items: baseline;
+    gap: var(--size-8);
+  }
+
   &__link-list {
     display: flex;
     flex-wrap: wrap;

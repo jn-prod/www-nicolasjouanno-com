@@ -36,6 +36,13 @@ Site personnel de Nicolas Jouanno : le fil durable de ses publications et des ou
 └── scripts/         # Contrôles et opérations de build
 ```
 
+### Hiérarchie des layouts
+
+- `_layouts/base.html` porte le document HTML, les métadonnées, les assets communs et la mesure d’audience.
+- `_layouts/default.html` hérite de `base` et ajoute sans condition le header avec la bio, la navigation, le contenu principal et le footer standard.
+- `_layouts/landing.html` hérite directement de `base` et centralise le contenu principal et le footer compact des pages d’inscription ou autres landings minimales.
+- `page`, `post`, `tag` et `category` héritent du layout `default`.
+
 ## Commandes
 
 Toutes les commandes se lancent depuis la racine du dépôt.
@@ -188,7 +195,7 @@ pnpm build:images
 
 `/feed.xml` est le flux RSS principal. `/la-sortie/feed.xml` applique les mêmes règles aux seules publications qui portent le tag `la-sortie`. Les deux flux contiennent le texte intégral, transforment les liens et médias internes en URL absolues et conservent la mention « Initialement publié sur nicolasjouanno.com ». L’ancienne URL `/substack.xml` redirige vers le flux principal pour ne pas casser les abonnements existants.
 
-Le formulaire partagé `_includes/components/newsletter-form.html` est affiché sur l’accueil, la page Outdoor et la page Newsletter. Il envoie directement les inscriptions au formulaire Kit `9378910` pour **La Sortie** : une édition mensuelle ouverte par une photo et un vécu, poursuivie par un sujet outdoor principal, d’éventuelles rubriques secondaires et une sélection issue du calendrier partagé de vtt.bzh. Le rendu reste maîtrisé par le site et aucun script d’intégration Kit n’est chargé.
+Le formulaire partagé `_includes/components/newsletter-form.html` est affiché sur l’accueil, la page Outdoor et la page `/la-sortie/subscribe/`. Cette dernière est la destination minimale des CTA d'inscription ; elle ne montre que la promesse, le formulaire et un lien discret vers les éditions. L'ancienne URL `/subscribe/` redirige vers elle. Les pages génériques de cycle de vie restent sous `/newsletter/` (`merci`, `confirmee`, `good-by`) ; sa racine redirige vers l'archive de La Sortie. Le formulaire envoie directement les inscriptions au formulaire Kit `9378910` pour **La Sortie** : une édition mensuelle ouverte par une photo et un vécu, poursuivie par un sujet outdoor principal, d’éventuelles rubriques secondaires et une sélection issue du calendrier partagé de vtt.bzh. Le rendu reste maîtrisé par le site et aucun script d’intégration Kit n’est chargé.
 
 Les éditions sont des posts Jekyll ordinaires avec `category: newsletter`, rendus depuis `_templates/newsletter.md` et archivés sous `/la-sortie/`. La matière calendrier VTT est préparée dans le dépôt vtt.bzh ; le post, l’archive et l’envoi restent relus manuellement.
 

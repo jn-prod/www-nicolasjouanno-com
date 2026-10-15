@@ -12,7 +12,7 @@ redirect_from: /newsletter/2026-07/
 
 > Cette édition a été envoyée initialement comme agenda mensuel de vtt.bzh. Elle est conservée ici dans les archives de La Sortie ; les événements et informations correspondent à juillet 2026.
 
-Vous voulez recevoir une sélection chaque mois ? [Recevez la prochaine édition de La Sortie](/newsletter/).
+Vous voulez recevoir une sélection chaque mois ? [Recevez la prochaine édition de La Sortie](/la-sortie/subscribe/).
 
 Bonjour,
 

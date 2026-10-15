@@ -11,7 +11,8 @@ require "pathname"
 
 ROOT = Pathname.new(__dir__).join("..").expand_path
 MARKDOWN_DIRECTORIES = %w[_posts _drafts].freeze
-SOURCE_FILES = %w[_config.yml index.md _layouts/default.html].freeze
+SOURCE_FILES = %w[_config.yml].freeze
+SOURCE_GLOBS = %w[*.md *.html _layouts/**/*.{html,md} _includes/**/*.{html,md}].freeze
 SOURCE_IMAGE_PATTERN = %r{
   (?<![A-Za-z0-9._-])
   (?:(?:\.\./)+|\./|/)?images/
@@ -29,9 +30,10 @@ originals = {}
 
 begin
   paths = SOURCE_FILES.map { |file| ROOT.join(file) }
+  paths.concat(SOURCE_GLOBS.flat_map { |pattern| ROOT.glob(pattern) })
   paths.concat(MARKDOWN_DIRECTORIES.flat_map { |directory| ROOT.join(directory).glob("**/*.md") })
 
-  paths.each do |path|
+  paths.uniq.each do |path|
     content = path.read
     published = publication_content(content)
     next if published == content

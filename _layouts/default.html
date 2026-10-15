@@ -1,275 +1,64 @@
-<!doctype html>
-<html lang="fr">
-  <!-- Head
-    ================================================== -->
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {% if page.description %}
-      {% assign meta_description = page.description %}
-    {% elsif page.excerpt %}
-      {% assign meta_description = page.excerpt | strip_html | truncatewords: 30 %}
-    {% else %}
-      {% assign meta_description = site.description %}
-    {% endif %}
+---
+layout: base
+---
 
-    <!-- Titre et description -->
-    {% if page.title %}
-    <title>{% if page.url == '/' or page.url == '/index.html' %}{{ page.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
-    {% else %}
-    <title>{{ site.description }} | {{ site.title }}</title>
-    {% endif %}
-    <meta name="description" content="{{ meta_description | escape }}" />
-    <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+<header role="banner" class="c-layout__header">
+  <div class="c-navigation">
+    <div class="c-navigation__identity">
+      <a href="{{ site.url }}" class="c-navigation__title u-link--dark">
+        {{ site.title }}
+      </a>
+      <a href="{{ site.url }}/a-propos/" class="u-link--dark"{% if page.url == '/a-propos/' %} aria-current="page"{% endif %}>Bio</a>
+    </div>
+  </div>
+</header>
 
-    <!-- Icônes -->
-    <link rel="icon" href="/images/icons/icon.ico" sizes="any" />
-    <link rel="icon" href="/images/icons/avatar.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="/images/icons/icon-180.png" />
+<nav
+  role="navigation"
+  aria-label="Navigation principale"
+  class="c-layout__navigation c-navigation c-navigation--main"
+>
+  <ul class="u-list c-navigation__link-list">
+    <li class="c-navigation__link-list-element">
+      <a
+        class="c-button {% if page.url == '/outdoor/' or page.url contains '/vtt/' or page.url contains '/trail/' or page.tags contains 'outdoor' %}c-button--active{% endif %}"
+        {% if page.url == '/outdoor/' or page.url contains '/vtt/' or page.url contains '/trail/' or page.tags contains 'outdoor' %}aria-current="page"{% endif %}
+        href="{{ site.url }}/outdoor/"
+        >Outdoor</a
+      >
+    </li>
 
-    <meta name="theme-color" content="#000000" />
+    <li class="c-navigation__link-list-element">
+      <a
+        class="c-button {% if page.url == '/nutrition/sans-gluten.html' or page.tags contains 'sans-gluten' %}c-button--active{% endif %}"
+        {% if page.url == '/nutrition/sans-gluten.html' or page.tags contains 'sans-gluten' %}aria-current="page"{% endif %}
+        href="{{ site.url }}/nutrition/sans-gluten.html"
+        >Sans gluten</a
+      >
+    </li>
 
-    <!-- IndieWeb -->
-    <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <li class="c-navigation__link-list-element">
+      <a
+        href="{{ site.url }}/la-sortie/subscribe/"
+        class="c-button c-button--primary {% if page.url == '/la-sortie/subscribe/' %}c-button--active{% endif %}"
+        {% if page.url == '/la-sortie/subscribe/' %}aria-current="page"{% endif %}
+        >Suivre
+      </a>
+    </li>
+  </ul>
+</nav>
 
-    <!-- linked party -->
-    <link rel="me" href="{{ site.author.facebook }}" />
-    <link rel="me" href="{{ site.author.instagram }}" />
-    <link rel="me" href="{{ site.author.threads }}" />
-    <link rel="me" href="{{ site.author.linkedin }}" />
-    <link rel="me" href="{{ site.author.github }}" />
-    <link rel="me" href="{{ site.author.strava }}" />
-    <link rel="me" href="{{ site.author.twitter }}" />
-    <link rel="me" href="{{ site.author.youtube }}" />
-    <link rel="me" href="mailto:{{ site.author.email }}" />
+<main role="main" id="main-content" class="c-layout__content">{{ content }}</main>
 
-    <!-- RSS -->
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="RSS"
-      href="/feed.xml"
-    />
-    {% if page.tag == "la-sortie" or page.tags contains "la-sortie" %}
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="La Sortie"
-      href="/la-sortie/feed.xml"
-    />
-    {% endif %}
+<footer
+  role="contentinfo"
+  class="c-layout__footer c-section c-section--compact"
+>
+  <p>
+    © 2008 - {{ site.time | date: "%Y" }},
+    <a href="/">{{ site.author.name }}</a>. Tous
+    droits réservés. <a href="/a-propos/">À propos</a>. <a href="/mentions-legales/">Mentions légales</a>. <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
+  </p>
+</footer>
 
-    <!-- Fonts (non-bloquant + font-display: swap) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
-      />
-    </noscript>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
-    <script defer src="{{ '/assets/navigation.js' | relative_url }}"></script>
-
-    <!-- SEO basique -->
-    <meta name="robots" content="{% if page.robots %}{{ page.robots }}{% elsif page.category == 'archive' %}noindex, follow{% else %}index, follow, max-image-preview:large{% endif %}" />
-    <link
-      rel="canonical"
-      href="{{ page.url | replace:'index.html','' | absolute_url }}"
-    />
-    <meta name="author" content="{{ site.author.name }}" />
-
-    <!-- Open Graph -->
-    <meta
-      property="og:title"
-      content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
-    />
-    <meta
-      property="og:description"
-      content="{{ meta_description | escape }}"
-    />
-    <meta
-      property="og:type"
-      content="{% if page.layout == 'post' %}article{% else %}website{% endif %}"
-    />
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
-    <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="og:locale" content="fr_FR" />
-    {% if page.layout == 'post' %}
-    <meta
-      property="article:published_time"
-      content="{{ page.date | date_to_xmlschema }}"
-    />
-    <meta
-      property="article:modified_time"
-      content="{{ page.last_modified_at | default: page.date | date_to_xmlschema }}"
-    />
-    {% if page.author or site.author.name %}
-    <meta
-      property="article:author"
-      content="{{ page.author | default: site.author.name }}"
-    />
-    {% endif %} {% for tag in page.tags %}
-    <meta property="article:tag" content="{{ tag }}" />
-    {% endfor %} {% endif %}
-
-    <!-- Image Open Graph -->
-    {% if page.image %}
-    <meta property="og:image" content="{{ page.image | absolute_url }}" />
-    <meta property="og:image:alt" content="{{ page.image_alt | default: page.title }}" />
-    {% if page.image_width %}<meta property="og:image:width" content="{{ page.image_width }}" />{% endif %}
-    {% if page.image_height %}<meta property="og:image:height" content="{{ page.image_height }}" />{% endif %}
-    {% else %}
-    <meta property="og:image" content="{{ site.og_image | absolute_url }}" />
-    <meta property="og:image:alt" content="{{ site.title }}" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    {% endif %}
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
-    />
-    <meta
-      name="twitter:description"
-      content="{{ meta_description | escape }}"
-    />
-    {% if site.author.handle %}
-    <meta name="twitter:site" content="{{ site.author.handle }}" />
-    <meta name="twitter:creator" content="{{ site.author.handle }}" />
-    {% endif %} {% if page.image or site.og_image %}
-    <meta
-      name="twitter:image"
-      content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.og_image | absolute_url }}{% endif %}"
-    />
-    <meta name="twitter:image:alt" content="{% if page.image_alt %}{{ page.image_alt }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    {% endif %}
-
-    <!-- Schema.org JSON-LD : une page décrit une page, une publication décrit un article. -->
-    <script type="application/ld+json">
-      {% if page.layout == 'post' %}
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "{{ page.url | absolute_url }}"
-          },
-          "headline": {{ page.title | jsonify }},
-          "description": {{ meta_description | jsonify }},
-          "datePublished": "{{ page.date | date_to_xmlschema }}",
-          "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-          "author": {
-            "@type": "Person",
-            "name": "{{ site.author.name }}",
-            "url": "{{ site.url }}"
-          },
-          "publisher": {
-            "@type": "Person",
-            "name": "{{ site.author.name }}",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "{{ site.logo | absolute_url }}"
-            }
-          },
-          {% if page.image %}
-            "image": "{{ page.image | absolute_url }}",
-          {% endif %}
-          "url": "{{ page.url | absolute_url }}"
-      }
-      {% elsif page.url == '/' or page.url == '/index.html' %}
-      {"@context":"https://schema.org","@graph":[
-        {"@type":"WebSite","@id":"{{ site.url }}/#website","url":"{{ site.url }}/","name":{{ site.title | jsonify }},"description":{{ meta_description | jsonify }}},
-        {"@type":"Person","@id":"{{ site.url }}/#person","name":{{ site.author.name | jsonify }},"url":"{{ site.url }}/","email":{{ site.author.email | jsonify }},"knowsAbout":[{% for topic in site.author.knows_about %}{% unless forloop.first %},{% endunless %}{{ topic | jsonify }}{% endfor %}],"sameAs":["{{ site.author.linkedin | split: '?' | first }}","{{ site.author.github | split: '?' | first }}","{{ site.author.twitter | split: '?' | first }}","{{ site.author.strava | split: '?' | first }}","{{ site.author.facebook | split: '?' | first }}","{{ site.author.instagram | split: '?' | first }}","{{ site.author.threads | split: '?' | first }}","{{ site.author.youtube | split: '?' | first }}"]}
-      ]}
-      {% elsif page.layout == 'category' or page.layout == 'tag' %}
-      {"@context":"https://schema.org","@type":"CollectionPage","name":{{ page.title | jsonify }},"description":{{ meta_description | jsonify }},"url":"{{ page.url | absolute_url }}"}
-      {% else %}
-      {"@context":"https://schema.org","@type":"WebPage","name":{{ page.title | default: site.title | jsonify }},"description":{{ meta_description | jsonify }},"url":"{{ page.url | absolute_url }}"}
-      {% endif %}
-    </script>
-  </head>
-
-  <!-- body -->
-  {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{%
-  endcapture %}
-  <body class="c-layout c-layout--{{ layout }}">
-    <a href="#main-content" class="skip-link">Aller au contenu</a>
-    <header role="banner" class="c-layout__header">
-      <div class="c-navigation">
-        <a href="{{ site.url }}" class="c-navigation__title u-link--dark">
-          {{ site.title }}
-        </a>
-      </div>
-    </header>
-
-    <nav
-      role="navigation"
-      aria-label="Navigation principale"
-      class="c-layout__navigation c-navigation c-navigation--main"
-    >
-      <ul class="u-list c-navigation__link-list">
-        <li class="c-navigation__link-list-element">
-          <a
-            class="c-button {% if page.url == '/outdoor/' or page.url contains '/vtt/' or page.url contains '/trail/' or page.tags contains 'outdoor' %}c-button--active{% endif %}"
-            {% if page.url == '/outdoor/' or page.url contains '/vtt/' or page.url contains '/trail/' or page.tags contains 'outdoor' %}aria-current="page"{% endif %}
-            href="{{ site.url }}/outdoor/"
-            >Outdoor</a
-          >
-        </li>
-
-        <li class="c-navigation__link-list-element">
-          <a
-            class="c-button {% if page.url == '/nutrition/sans-gluten.html' or page.tags contains 'sans-gluten' %}c-button--active{% endif %}"
-            {% if page.url == '/nutrition/sans-gluten.html' or page.tags contains 'sans-gluten' %}aria-current="page"{% endif %}
-            href="{{ site.url }}/nutrition/sans-gluten.html"
-            >Sans gluten</a
-          >
-        </li>
-
-        <li class="c-navigation__link-list-element">
-          <a
-            href="{{ site.url }}/newsletter/"
-            class="c-button c-button--primary {% if page.url == '/newsletter/' or page.category == 'newsletter' or page.categories contains 'newsletter' %}c-button--active{% endif %}"
-            {% if page.url == '/newsletter/' or page.category == 'newsletter' or page.categories contains 'newsletter' %}aria-current="page"{% endif %}
-            >Suivre
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Content
-        ================================================== -->
-    <main role="main" id="main-content" class="c-layout__content">{{ content }}</main>
-
-    <footer
-      role="contentinfo"
-      class="c-layout__footer c-section c-section--compact"
-    >
-      <p>
-        © 2008 - {{ site.time | date: "%Y" }},
-        <a href="/">{{ site.author.name }}</a>. Tous
-        droits réservés. <a href="/mentions-legales/">Mentions légales</a>. <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
-      </p>
-    </footer>
-
-    <!-- Cloudflare Web Analytics -->
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "a5774cce1e6b423a9581953ee8af8766"}'
-    ></script>
-    <!-- End Cloudflare Web Analytics -->
-
-  </body>
-</html>
+<script src="{{ '/assets/navigation.js' | relative_url }}"></script>

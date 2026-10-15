@@ -1,8 +1,9 @@
 {% assign newsletter_form_id = include.id | default: "newsletter" %}
 {% assign newsletter_form_title = include.title | default: "Recevoir La Sortie" %}
+{% assign newsletter_form_description = include.description | default: "Chaque mois, une photo, un vécu et ce qui mérite l’attention dehors : une sortie, une idée, du matériel ou les nouvelles des chemins bretons." %}
 <section class="c-newsletter-form c-card c-card--neutral c-card--large" aria-labelledby="newsletter-title-{{ newsletter_form_id }}">
   <h2 class="c-newsletter-form__title" id="newsletter-title-{{ newsletter_form_id }}">{{ newsletter_form_title }}</h2>
-  <p class="c-newsletter-form__description">Des chemins, des voix et des idées pour découvrir la Bretagne. Chaque mois, je pars du calendrier de vtt.bzh pour sélectionner les randos VTT à retenir et raconter ce qui se passe sur le terrain.</p>
+  <p class="c-newsletter-form__description">{{ newsletter_form_description }}</p>
   <form class="c-newsletter-form__form" action="https://app.kit.com/forms/9378910/subscriptions" method="post">
     <label class="u-visually-hidden" for="newsletter-email-{{ newsletter_form_id }}">Votre adresse e-mail</label>
     <input

@@ -1,15 +1,13 @@
 ---
 layout: tag
 tag: la-sortie
-title: La Sortie — randonnées et nouvelles des chemins bretons
-description: Chaque mois, une sélection de randonnées VTT en Bretagne et les nouvelles utiles partagées par celles et ceux qui font vivre les chemins.
+title: La Sortie — chemins, voix et idées pour découvrir la Bretagne
+description: Les éditions de La Sortie, la publication mensuelle de Nicolas Jouanno consacrée aux chemins bretons.
 permalink: /la-sortie/
 ---
 
 # La Sortie
 
-Chaque mois, je pars du calendrier de [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=site&utm_campaign=la-sortie&utm_content=calendrier) pour sélectionner les randonnées à venir. J’y ajoute ce qu’un calendrier ne raconte pas seul : un coin à découvrir, une information venue du terrain, une voix de club ou de pratiquant.
+Chaque mois, je pars de mes sorties et du calendrier de [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=site&utm_campaign=la-sortie&utm_content=calendrier) pour raconter ce qu'un calendrier ne dit pas seul : un coin à découvrir, une information venue du terrain, une voix de club ou de pratiquant.
 
-{% include components/newsletter-form.html id="la-sortie" %}
-
-Vous pouvez aussi [suivre La Sortie par RSS](/la-sortie/feed.xml).
+Vous pouvez [recevoir la prochaine édition](/la-sortie/subscribe/) ou [suivre La Sortie par RSS](/la-sortie/feed.xml).

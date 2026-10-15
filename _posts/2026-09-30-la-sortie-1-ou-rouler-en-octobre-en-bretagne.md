@@ -119,7 +119,7 @@ Votre club prépare une randonnée ? [Ajoutez-la au calendrier](https://www.vtt.
 
 Si cette édition vous aide à préparer votre prochaine sortie, transférez-la à votre club ou à la personne avec qui vous aimeriez partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles en Bretagne.
 
-**Vous avez reçu cette lettre par transfert ?** [Recevez la prochaine édition](https://www.nicolasjouanno.com/newsletter/partage/).
+**Vous avez reçu cette lettre par transfert ?** [Recevez la prochaine édition](https://www.nicolasjouanno.com/la-sortie/subscribe/).
 
 À bientôt,
 

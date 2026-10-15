@@ -1,0 +1,15 @@
+---
+layout: base
+---
+
+<main role="main" id="main-content" class="c-layout__content">{{ content }}</main>
+
+<footer
+  role="contentinfo"
+  class="c-layout__footer c-section c-section--compact"
+>
+  <p>
+    © 2008 - {{ site.time | date: "%Y" }},
+    <a href="/">{{ site.author.name }}</a>. <a href="/mentions-legales/">Mentions légales</a>.
+  </p>
+</footer>
