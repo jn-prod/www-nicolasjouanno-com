@@ -7,10 +7,7 @@ robots: noindex, follow
 sitemap: false
 ---
 
-<hgroup class="u-text--center">
-  <h1>La Sortie</h1>
-  <p>Des chemins, des voix et des idées pour découvrir la Bretagne.</p>
-</hgroup>
+<h1 class="u-visually-hidden">S’inscrire à La Sortie</h1>
 
 {% include components/newsletter-form.html id="la-sortie-subscribe" title="Recevoir La Sortie" %}
 

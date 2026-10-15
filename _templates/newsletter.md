@@ -1,6 +1,6 @@
 ---
-title: "La Sortie # — mois année"
-description: Des chemins, des voix et des idées pour découvrir la Bretagne.
+title: ""
+description: ""
 image: /images/posts/nom-de-la-photo.jpg
 image_alt: Description fidèle de la photo
 image_caption: "[Lieu](URL), date. Une phrase de vécu liée à l’édition. Appareil © Auteur."

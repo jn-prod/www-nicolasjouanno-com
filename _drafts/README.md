@@ -5,7 +5,10 @@ reste dans `_drafts/`.
 
 ## Préparer une édition
 
-1. Copier `_templates/newsletter.md` dans ce dossier et renseigner le front matter.
+1. Copier `_templates/newsletter.md` dans ce dossier et renseigner le front matter. Le
+   titre annonce l’angle éditorial de l’édition : il ne contient ni numéro, ni saison,
+   ni mois seul, ni préfixe « La Sortie ». La description complète cette promesse avec
+   son contexte ou un fait précis ; elle ne répète pas simplement le titre.
 2. Générer la matière calendrier sur le VPS, depuis vtt.bzh :
    `pnpm newsletter:new -- --start=YYYY-MM-DD --end=YYYY-MM-DD`.
 3. Reprendre uniquement les faits vérifiés et les sorties retenues depuis le brief

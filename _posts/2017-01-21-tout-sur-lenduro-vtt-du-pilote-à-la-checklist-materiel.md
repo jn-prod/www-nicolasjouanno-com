@@ -9,7 +9,6 @@ tags:
   - enduro
   - équipement
 image: /images/posts/p5pb12718966.jpg
-featured: true
 ---
 
 ## Au programme :

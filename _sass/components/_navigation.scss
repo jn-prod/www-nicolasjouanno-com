@@ -9,13 +9,17 @@
 
   &__title {
     font-family: var(--font-family-heading);
-    font-size: 3rem;
+    font-size: var(--font-size);
   }
 
-  &__identity {
+  &__topics {
     display: flex;
-    align-items: baseline;
-    gap: var(--size-8);
+    justify-content: center;
+    flex: 1;
+  }
+
+  &__actions {
+    display: flex;
   }
 
   &__link-list {
@@ -31,59 +35,27 @@
       justify-content: center;
     }
   }
+
+  .c-button {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (width <= 90rem) {
   .c-navigation {
-    justify-content: center;
-
-    &__link-list {
-      flex-direction: column;
-      justify-content: space-around;
-      width: 100%;
+    &__topics {
+      order: 3;
+      flex-basis: 100%;
     }
 
-    &.c-navigation--main {
+    &__actions {
+      margin-inline-start: auto;
+    }
+
+    &__topics,
+    &__actions {
       .c-navigation__link-list {
-        flex-direction: row;
         justify-content: center;
-        gap: var(--size-8);
-
-        .c-button {
-          font-size: 1.2rem;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (width > 90rem) {
-  .c-navigation--desktop {
-    .c-layout__navigation {
-      position: static;
-      inset: auto;
-      z-index: auto;
-      justify-content: flex-end;
-      max-width: none;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      background-color: transparent;
-
-      &.is-sticky {
-        position: fixed;
-        inset-block-start: 0;
-        inset-inline: 0;
-        z-index: 10;
-        justify-content: center;
-        max-width: none;
-        padding: var(--size-8) var(--size-16);
-        border-bottom: var(--border);
-        background-color: var(--color-light);
-
-        .c-navigation__link-list {
-          justify-content: center;
-        }
       }
     }
   }

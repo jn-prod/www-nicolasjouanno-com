@@ -83,12 +83,18 @@ image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
 
 - `category` alimente les pages Guides, Récits, Newsletter et Archive ainsi que le fil d’Ariane.
 - `tags` alimente les pages thématiques Outdoor, VTT, Trail, Nutrition, Sans gluten et Work. Les publications VTT et trail portent aussi le tag parent `outdoor`.
+- `pin: true`, facultatif, remonte la publication en tête des listes concernées et l’identifie par le libellé « Épinglé » dans sa carte. Un seul post peut porter cette propriété dans tout le dépôt : activer un nouveau pin impose de retirer le précédent. Le pin doit déclarer une photo éditoriale personnelle, `image_alt` et `description`. Une publication non épinglée ne déclare pas `pin`. Ces règles sont vérifiées au build.
+- Une newsletter porte un titre éditorial autonome : ni numéro, ni saison, ni mois seul, ni préfixe « La Sortie ». La date et l’appartenance à la publication sont déjà portées par le front matter, l’URL et la taxonomie. Sa description apporte un contexte ou un fait précis sans répéter le titre.
 - Les domaines publics sont `outdoor`, `vtt`, `trail`, `nutrition`, `sans-gluten`, `work` et `la-sortie`. Des repères secondaires contrôlés, d’un seul mot (`enduro`, `équipement`, `randonnée`, `entraînement`, `hiver`, `santé`, `sécurité`, `cyclisme`, `compétition`, `web`, `ia`, `productivité`), peuvent relier les articles entre eux, sans page dédiée. Ne pas créer de tag SEO, marque, lieu ou requête longue.
 - Les pages qui portent un champ `tag` définissent les sujets publics ; `parent_tag` relie une page à son sujet parent dans le fil d’Ariane. Les tags secondaires restent limités au vocabulaire contrôlé ci-dessus.
 - Dans le front matter comme dans le contenu, référencer une photo avec son extension source (`.jpg`, `.jpeg` ou `.png`) ; le pré-build publie sa version WebP.
 - `image_alt` décrit ce qui est visible ; `image_caption`, facultatif et interprété en Markdown, contextualise la couverture et porte son crédit sous la forme `Appareil © Auteur`, sans tiret ni pictogramme.
 
 ## Design system
+
+### Stabilisation de la home
+
+La structure `profil → inscription → pin → flux → archives` est le contrat courant de la home. Ne pas ajouter de titre visible ou de section intermédiaire qui duplique l’un de ces rôles. Une évolution structurelle doit désormais répondre à un défaut constaté, à un nouveau besoin éditorial ou à un signal mesuré ; une préférence isolée ne justifie pas une nouvelle refonte.
 
 ### Composants (`_sass/components/`)
 

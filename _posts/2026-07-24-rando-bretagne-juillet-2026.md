@@ -1,6 +1,6 @@
 ---
-title: juillet 2026
-description: 8 randos à venir, dont 4 nouvelles.
+title: Gravel, raids et randonnées pour finir l’été
+description: Du gravel, des raids et des randonnées locales pour rouler en Bretagne entre fin juillet et mi-août.
 category: newsletter
 tags:
   - outdoor

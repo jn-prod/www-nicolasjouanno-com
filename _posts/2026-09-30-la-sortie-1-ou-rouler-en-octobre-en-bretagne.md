@@ -1,5 +1,5 @@
 ---
-title: "La Sortie #1 — où rouler en octobre en Bretagne"
+title: Des sorties solidaires sur les chemins bretons
 description: 31 randonnées annoncées, des rendez-vous solidaires pour Octobre Rose et une journée en famille à Brocéliande.
 image: /images/posts/broceliande-siege-de-merlin.jpg
 image_alt: Randonnée en famille dans la forêt de Brocéliande
@@ -9,6 +9,7 @@ permalink: /la-sortie/2026-10/
 tags:
   - outdoor
   - la-sortie
+pin: true
 ---
 Salut,
 

@@ -6,7 +6,6 @@ tags:
   - outdoor
   - vtt
 image: /images/posts/route-de-montagne.jpg
-featured: true
 ---
 
 ## Chapitre 1 : Une adolescence dans les sous-bois

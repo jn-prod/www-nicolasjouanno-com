@@ -38,6 +38,11 @@ SECONDARY_TAGS = %w[
   productivité
 ].freeze
 ALLOWED_POST_TAGS = (DOMAIN_TAGS + SECONDARY_TAGS).freeze
+GENERIC_NEWSLETTER_TITLE = /\A(?:
+  (?:janvier|f[ée]vrier|mars|avril|mai|juin|juillet|ao[ûu]t|septembre|octobre|novembre|d[ée]cembre)
+  |
+  (?:printemps|[ée]t[ée]|automne|hiver)
+)(?:\s+\d{4})?\z/ix
 
 def fail_with(errors)
   return if errors.empty?
@@ -108,6 +113,7 @@ errors << "no tag pages found" if tag_pages.empty?
 
 post_counts_by_category = Hash.new(0)
 post_counts_by_tag = Hash.new(0)
+pinned_posts = []
 
 POSTS_DIR.glob("*.md").each do |post_path|
   relative_path = post_path.relative_path_from(ROOT)
@@ -122,6 +128,19 @@ POSTS_DIR.glob("*.md").each do |post_path|
     errors << "#{relative_path} still uses legacy key #{key}" if frontmatter.key?(key)
   end
 
+  if frontmatter.key?("pin")
+    if frontmatter["pin"] == true
+      pinned_posts << relative_path
+      %w[description image image_alt].each do |key|
+        if frontmatter[key].to_s.strip.empty?
+          errors << "#{relative_path} pinned post must declare #{key}"
+        end
+      end
+    else
+      errors << "#{relative_path} pin must be true when declared; remove it otherwise"
+    end
+  end
+
   category = frontmatter["category"]
   if !category.is_a?(String) || category.empty?
     errors << "#{relative_path} must have exactly one category"
@@ -129,6 +148,13 @@ POSTS_DIR.glob("*.md").each do |post_path|
     errors << "#{relative_path} has no category page for #{category.inspect}"
   else
     post_counts_by_category[category] += 1
+  end
+
+  if category == "newsletter"
+    title = frontmatter["title"].to_s.strip
+    if title.match?(/\ALa Sortie\b/i) || title.match?(/#\s*\d+/) || title.match?(GENERIC_NEWSLETTER_TITLE)
+      errors << "#{relative_path} newsletter title must express its editorial theme, without series name, issue number or standalone period"
+    end
   end
 
   tags = Array(frontmatter["tags"]).map(&:to_s)
@@ -140,6 +166,10 @@ POSTS_DIR.glob("*.md").each do |post_path|
   tag_pages.each_key do |tag|
     post_counts_by_tag[tag] += 1 if tags.include?(tag) && category != "archive"
   end
+end
+
+if pinned_posts.size > 1
+  errors << "only one post can be pinned: #{pinned_posts.join(', ')}"
 end
 
 category_pages.each_key do |category|

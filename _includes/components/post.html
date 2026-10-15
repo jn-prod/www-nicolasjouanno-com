@@ -6,6 +6,13 @@ truncatewords: 70 %}
   id="{{post.slug}}"
   class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight"
 >
+  {% if post.pin %}
+  <div class="c-meta u-flex u-flex--tight">
+    <span class="c-icon">{% include icons/pin.svg %}</span>
+    <span>Épinglé</span>
+  </div>
+  {% endif %}
+
   <header class="u-flex u-flex--between">
     <div class="u-flex u-flex--tight">
       {% include /components/author.html post=post %}

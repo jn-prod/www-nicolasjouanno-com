@@ -1,14 +1,8 @@
 .c-layout {
   &__header {
-    padding: var(--section-spacing);
-  }
-
-  &__navigation {
     position: sticky;
     inset-block-start: 0;
     z-index: 10;
-    justify-content: center;
-    max-width: none;
     padding: var(--size-8) var(--size-16);
     border-bottom: var(--border);
     background-color: var(--color-light);
@@ -71,12 +65,6 @@
   &.c-layout--layout-page {
     p {
       padding-bottom: var(--size-8);
-    }
-  }
-
-  @media screen and (width <= 90rem) {
-    &__header {
-      --section-spacing: var(--size-8) var(--size-16);
     }
   }
 }

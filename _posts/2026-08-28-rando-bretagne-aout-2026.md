@@ -1,6 +1,6 @@
 ---
-title: août 2026
-description: 42 randos à venir dans les cinq prochaines semaines.
+title: La rentrée des randonnées en Bretagne
+description: À la rentrée, les chemins bretons retrouvent les randonnées VTT, le gravel et les premières nocturnes.
 category: newsletter
 tags:
   - outdoor
