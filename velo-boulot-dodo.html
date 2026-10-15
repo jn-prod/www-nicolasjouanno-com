@@ -178,49 +178,59 @@
     <a href="#main-content" class="skip-link">Aller au contenu</a>
     <header role="banner" class="c-layout__header">
   <div class="c-navigation">
-    <div class="c-navigation__identity">
-      <a href="https://www.nicolasjouanno.com" class="c-navigation__title u-link--dark">
-        Nicolas Jouanno
-      </a>
-      <a href="https://www.nicolasjouanno.com/a-propos/" class="u-link--dark">Bio</a>
-    </div>
+    <a href="https://www.nicolasjouanno.com" class="c-navigation__title u-link--dark">
+      Nicolas Jouanno
+    </a>
+
+    <nav
+      role="navigation"
+      aria-label="Navigation principale"
+      class="c-navigation__topics"
+    >
+      <ul class="u-list c-navigation__link-list">
+        <li class="c-navigation__link-list-element">
+          <a
+            class="c-button c-button--active"
+            aria-current="page"
+            href="https://www.nicolasjouanno.com/outdoor/"
+            >Outdoor</a
+          >
+        </li>
+
+        <li class="c-navigation__link-list-element">
+          <a
+            class="c-button "
+            
+            href="https://www.nicolasjouanno.com/nutrition/sans-gluten.html"
+            >Sans gluten</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <nav aria-label="Actions du profil" class="c-navigation__actions">
+      <ul class="u-list c-navigation__link-list">
+        <li class="c-navigation__link-list-element">
+          <a
+            href="https://www.nicolasjouanno.com/a-propos/"
+            class="c-button "
+            
+            >Bio</a
+          >
+        </li>
+
+        <li class="c-navigation__link-list-element">
+          <a
+            href="https://www.nicolasjouanno.com/la-sortie/subscribe/"
+            class="c-button c-button--primary "
+            
+            >Suivre</a
+          >
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>
-
-<nav
-  role="navigation"
-  aria-label="Navigation principale"
-  class="c-layout__navigation c-navigation c-navigation--main"
->
-  <ul class="u-list c-navigation__link-list">
-    <li class="c-navigation__link-list-element">
-      <a
-        class="c-button c-button--active"
-        aria-current="page"
-        href="https://www.nicolasjouanno.com/outdoor/"
-        >Outdoor</a
-      >
-    </li>
-
-    <li class="c-navigation__link-list-element">
-      <a
-        class="c-button "
-        
-        href="https://www.nicolasjouanno.com/nutrition/sans-gluten.html"
-        >Sans gluten</a
-      >
-    </li>
-
-    <li class="c-navigation__link-list-element">
-      <a
-        href="https://www.nicolasjouanno.com/la-sortie/subscribe/"
-        class="c-button c-button--primary "
-        
-        >Suivre
-      </a>
-    </li>
-  </ul>
-</nav>
 
 <main role="main" id="main-content" class="c-layout__content">
 
@@ -415,7 +425,7 @@
   <h2>À lire ensuite</h2>
   <p>Sur le même sujet, vtt :</p>
   <ul class="u-list">
-    <li><a href="/la-sortie/2026-08/">août 2026</a></li><li><a href="/la-sortie/2026-07/">juillet 2026</a></li>
+    <li><a href="/la-sortie/2026-08/">La rentrée des randonnées en Bretagne</a></li><li><a href="/la-sortie/2026-07/">Gravel, raids et randonnées pour finir l’été</a></li>
   </ul>
 </aside>
 
@@ -435,8 +445,6 @@
     droits réservés. <a href="/a-propos/">À propos</a>. <a href="/mentions-legales/">Mentions légales</a>. <a href="mailto:contact@nicolasjouanno.com">contact@nicolasjouanno.com</a>.
   </p>
 </footer>
-
-<script src="/assets/navigation.js"></script>
 
 
     <!-- Cloudflare Web Analytics -->
