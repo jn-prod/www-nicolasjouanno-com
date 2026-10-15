@@ -14,6 +14,8 @@ permalink: /index.html
 🚵 [vtt.bzh]({{ site.projects.vtt_bzh.url }}) | 🌱 Assiettes sans gluten<br>
 📬 Newsletter « La Sortie »
 
+<p class="c-meta">Bretagne, France · En ligne depuis 2005</p>
+
 {% include components/newsletter-form.html id="home" title="Recevoir La Sortie" %}
 
 {% assign home_posts = site.posts | where_exp: "post", "post.category != 'archive'" %}
