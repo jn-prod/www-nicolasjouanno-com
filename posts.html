@@ -130,8 +130,8 @@
   
   <body class="c-layout c-layout--layout-page">
     <a href="#main-content" class="skip-link">Aller au contenu</a>
-    <header role="banner" class="c-layout__header">
-  <div class="c-layout__header-bar">
+    <div class="c-layout__header-bar">
+  <header role="banner" class="c-layout__header">
     <div class="c-navigation">
       <a href="https://www.nicolasjouanno.com" class="c-navigation__title u-link--dark">
         Nicolas Jouanno
@@ -159,30 +159,8 @@
         </ul>
       </nav>
     </div>
-  </div>
-
-  <nav role="navigation" aria-label="Navigation principale" class="c-navigation__topics">
-    <ul class="u-list c-navigation__link-list">
-      <li class="c-navigation__link-list-element">
-        <a
-          class="c-button "
-          
-          href="https://www.nicolasjouanno.com/outdoor/"
-          >Outdoor</a
-        >
-      </li>
-
-      <li class="c-navigation__link-list-element">
-        <a
-          class="c-button "
-          
-          href="https://www.nicolasjouanno.com/nutrition/sans-gluten.html"
-          >Sans gluten</a
-        >
-      </li>
-    </ul>
-  </nav>
-</header>
+  </header>
+</div>
 
 <main role="main" id="main-content" class="c-layout__content">
 
@@ -250,6 +228,13 @@
 
 
 <h1 id="publications">Publications</h1>
+
+<nav aria-label="Explorer les publications par sujet" class="u-spacing--block-end-medium">
+  <ul class="u-list c-button-stack">
+    <li><a href="/outdoor/" class="c-button">Outdoor</a></li>
+    <li><a href="/nutrition/sans-gluten.html" class="c-button">Sans gluten</a></li>
+  </ul>
+</nav>
 
 <h2 class="u-visually-hidden">Toutes les publications</h2>
 <ul class="u-list c-section__post-list"><li class="c-section__post-item"> 
