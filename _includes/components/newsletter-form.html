@@ -1,12 +1,34 @@
-{% assign newsletter_form_id = include.id | default: "newsletter" %}
-{% assign newsletter_form_title = include.title | default: "Recevoir La Sortie" %}
-{% assign newsletter_form_description = include.description | default: "Chaque mois, une photo, un vécu et ce qui mérite l’attention dehors : une sortie, une idée, du matériel ou les nouvelles des chemins bretons." %}
-{% assign newsletter_form_note = include.note | default: "Une fois par mois. Désabonnement en un clic." %}
-<section class="c-newsletter-form{% if include.variant %} c-newsletter-form--{{ include.variant }}{% endif %} c-card c-card--neutral{% if include.variant == 'compact' %} c-card--medium{% else %} c-card--large{% endif %}" aria-labelledby="newsletter-title-{{ newsletter_form_id }}">
-  <h2 class="c-newsletter-form__title" id="newsletter-title-{{ newsletter_form_id }}">{{ newsletter_form_title }}</h2>
-  <p class="c-newsletter-form__description">{{ newsletter_form_description }}</p>
-  <form class="c-newsletter-form__form" action="https://app.kit.com/forms/9378910/subscriptions" method="post">
-    <label class="u-visually-hidden" for="newsletter-email-{{ newsletter_form_id }}">Votre adresse e-mail</label>
+{% assign newsletter_form_id = include.id | default: "newsletter" %} {% assign
+newsletter_form_title = include.title | default: "Recevoir La Sortie" %} {%
+assign newsletter_form_url = include.url | default: "/la-sortie/" %} {% assign
+newsletter_form_description = include.description | default: "Chaque mois, une
+photo, un vécu et ce qui mérite l’attention dehors : une sortie, une idée, du
+matériel ou les nouvelles des chemins bretons." %} {% assign
+newsletter_form_note = include.note | default: "Une fois par mois. Désabonnement
+en un clic." %}
+<section
+  class="c-newsletter-form{% if include.variant %} c-newsletter-form--{{ include.variant }}{% endif %} c-card c-card--neutral{% if include.variant == 'compact' %} c-card--medium{% else %} c-card--large{% endif %}"
+  aria-labelledby="newsletter-title-{{ newsletter_form_id }}"
+>
+  <h2
+    class="c-newsletter-form__title"
+    id="newsletter-title-{{ newsletter_form_id }}"
+  >
+    <a href="{{ newsletter_form_url }}">{{ newsletter_form_title }}</a>
+  </h2>
+  <p class="c-newsletter-form__description">
+    {{ newsletter_form_description }}
+  </p>
+  <form
+    class="c-newsletter-form__form"
+    action="https://app.kit.com/forms/9378910/subscriptions"
+    method="post"
+  >
+    <label
+      class="u-visually-hidden"
+      for="newsletter-email-{{ newsletter_form_id }}"
+      >Votre adresse e-mail</label
+    >
     <input
       class="c-newsletter-form__input"
       id="newsletter-email-{{ newsletter_form_id }}"
@@ -15,10 +37,8 @@
       placeholder="vous@exemple.fr"
       autocomplete="email"
       required
-    >
+    />
     <button class="c-button c-button--primary" type="submit">S’inscrire</button>
   </form>
-  <p class="c-newsletter-form__note c-meta">
-    {{ newsletter_form_note }}
-  </p>
+  <p class="c-newsletter-form__note c-meta">{{ newsletter_form_note }}</p>
 </section>

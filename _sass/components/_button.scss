@@ -1,10 +1,11 @@
-$variants: 'primary', 'secondary', 'dark', 'light';
+$variants: "primary", "secondary", "dark", "light";
 
 @mixin button-variantes($variants, $outline) {
   @each $variant in $variants {
     @if $outline {
       .c-button.c-button--#{$variant}-outline {
         color: var(--color-#{$variant});
+        background-color: transparent;
         border-color: var(--color-#{$variant});
 
         &:hover,

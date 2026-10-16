@@ -31,16 +31,16 @@
       height: 2px;
       border-radius: var(--size-1);
       background-color: transparent;
-      content: '';
+      content: "";
     }
 
     &:hover,
     &:focus-visible,
-    &[aria-current='page'] {
+    &[aria-current="page"] {
       color: var(--color-primary);
     }
 
-    &[aria-current='page']::after {
+    &[aria-current="page"]::after {
       background-color: currentcolor;
     }
 
@@ -53,11 +53,6 @@
       font-family: var(--font-family-heading);
       font-size: var(--font-size);
       line-height: 1;
-    }
-
-    .c-channel-navigation__project-icon {
-      width: auto;
-      height: 28px;
     }
   }
 }
