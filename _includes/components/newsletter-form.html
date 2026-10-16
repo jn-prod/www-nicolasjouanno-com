@@ -14,7 +14,11 @@ en un clic." %}
     class="c-newsletter-form__title"
     id="newsletter-title-{{ newsletter_form_id }}"
   >
+    {% if newsletter_form_title == "Recevoir La Sortie" %} Recevoir
+    <a href="{{ newsletter_form_url }}">La Sortie</a>
+    {% else %}
     <a href="{{ newsletter_form_url }}">{{ newsletter_form_title }}</a>
+    {% endif %}
   </h2>
   <p class="c-newsletter-form__description">
     {{ newsletter_form_description }}
