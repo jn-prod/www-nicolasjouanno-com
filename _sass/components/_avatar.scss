@@ -14,6 +14,10 @@
   --avatar-size: var(--size-32);
 }
 
+.c-avatar--medium {
+  --avatar-size: calc(var(--size-32) * 3);
+}
+
 .c-avatar--large {
   --avatar-size: var(--size-128);
 }

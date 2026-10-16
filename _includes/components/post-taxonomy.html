@@ -1,6 +1,6 @@
 {% assign item = include.item | default: post | default: page %}
 
-<ul class="u-list c-button-stack">
+<ul class="u-list c-button-stack u-spacing--0">
   {% assign post_category_slug = item.category %}
   {% unless post_category_slug %}
     {% assign post_category_slug = item.categories | first %}
@@ -10,14 +10,6 @@
     | where: "category", post_category_slug
     | first
   %}
-
-  {% if post_category %}
-    <li>
-      <a class="c-tag" href="{{ post_category.url }}">
-        #{{ post_category_slug | default: post_category.title }}
-      </a>
-    </li>
-  {% endif %}
 
   {% for tag_slug in item.tags %}
     {% assign tag_page = site.pages | where: "tag", tag_slug | first %}
@@ -34,4 +26,12 @@
       {% endif %}
     </li>
   {% endfor %}
+
+  {% if post_category %}
+    <li>
+      <a class="c-tag" href="{{ post_category.url }}">
+        #{{ post_category_slug | default: post_category.title }}
+      </a>
+    </li>
+  {% endif %}
 </ul>

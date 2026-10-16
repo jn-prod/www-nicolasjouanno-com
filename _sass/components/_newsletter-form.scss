@@ -29,4 +29,9 @@
     color: var(--color-dark);
     font: inherit;
   }
+
+  &--compact {
+    gap: var(--size-8);
+    margin-block: var(--size-16) var(--size-32);
+  }
 }

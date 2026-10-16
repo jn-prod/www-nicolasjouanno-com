@@ -1,0 +1,36 @@
+.c-profile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-16);
+
+  &__identity {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: var(--size-16);
+  }
+
+  &__heading {
+    min-width: 0;
+
+    h1,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      line-height: 1.1;
+    }
+
+    p {
+      color: var(--color-muted);
+      font-family: var(--font-family);
+    }
+  }
+
+  &__description {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+  }
+}

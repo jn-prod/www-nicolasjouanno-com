@@ -8,21 +8,23 @@ truncatewords: 70 %}
 >
   {% if post.pin %}
   <div class="c-meta u-flex u-flex--tight">
-    <span class="c-icon">{% include icons/pin.svg %}</span>
+    {% include components/icon.html name="pin" size="text" %}
     <span>Épinglé</span>
   </div>
   {% endif %}
 
-  <header class="u-flex u-flex--between">
-    <div class="u-flex u-flex--tight">
-      {% include /components/author.html post=post %}
+  <header class="u-flex u-flex--col u-flex--stretch u-flex--tight">
+    {% include components/post-taxonomy.html item=post %}
 
-      <h3 class="u-full u-spacing--0" id="{{post.slug}}-title">
-        <a class="u-link--dark" href="{{ post.url | absolute_url }}"
-          >{{ post.title }}</a
-        >
-      </h3>
-    </div>
+    <h3 class="u-spacing--0" id="{{post.slug}}-title">
+      <a class="u-link--dark" href="{{ post.url | absolute_url }}"
+        >{{ post.title }}</a
+      >
+    </h3>
+
+    <time class="c-meta" datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date: "%d/%m/%Y" }}
+    </time>
   </header>
 
   {% if post.image %}
@@ -33,18 +35,14 @@ truncatewords: 70 %}
     loading="lazy"
   />
   {% endif %} {% if summary %}
-  <p>{{summary}}</p>
-  {% endif %}
-
-  <footer>
-    {% include components/post-taxonomy.html item=post %}
-
+  <p class="u-spacing--0">
+    {{summary}}
     <a
-      class="c-button c-button--primary u-spacing--block-start-small"
       href="{{ post.url | absolute_url }}"
       aria-describedby="{{ post.slug }}-title"
     >
-      Lire
+      Lire la suite
     </a>
-  </footer>
+  </p>
+  {% endif %}
 </article>

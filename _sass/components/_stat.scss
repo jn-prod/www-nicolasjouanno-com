@@ -3,7 +3,7 @@
 // Élements communs : __label (gris) et __value (gras dark).
 .c-stat {
   &__label {
-    color: color-mix(in srgb, var(--color-dark), white 30%);
+    color: var(--color-muted);
   }
 
   &__value {

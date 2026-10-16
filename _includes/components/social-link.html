@@ -1,4 +1,3 @@
-{% capture social_icon %}icons/{{ include.icon }}.svg{% endcapture %}
 <a href="{{ include.url }}" class="c-button c-button--icon c-button--large" aria-label="{{ include.label }}" target="_blank" rel="noopener">
-  <span class="c-icon">{% include {{ social_icon }} %}</span>
+  {% include components/icon.html name=include.icon %}
 </a>

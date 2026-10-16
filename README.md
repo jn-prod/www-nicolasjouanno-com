@@ -94,7 +94,9 @@ image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
 
 ### Stabilisation de la home
 
-La structure `profil → inscription → pin → flux → archives` est le contrat courant de la home. Ne pas ajouter de titre visible ou de section intermédiaire qui duplique l’un de ces rôles. Une évolution structurelle doit désormais répondre à un défaut constaté, à un nouveau besoin éditorial ou à un signal mesuré ; une préférence isolée ne justifie pas une nouvelle refonte.
+La structure `profil → inscription → canaux → pin → flux → archives` est le contrat courant de la home. Ne pas ajouter de titre visible ou de section intermédiaire qui duplique l’un de ces rôles. Une évolution structurelle doit désormais répondre à un défaut constaté, à un nouveau besoin éditorial ou à un signal mesuré ; une préférence isolée ne justifie pas une nouvelle refonte.
+
+La home utilise le layout `landing` : son profil, ses actions et son flux remplacent la navigation globale. Les pages intérieures conservent le layout `default`. Le bouton « Partager » relève de l’amélioration progressive et n’est affiché que lorsque le navigateur expose l’API native de partage.
 
 ### Composants (`_sass/components/`)
 
@@ -117,13 +119,18 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_card.scss` | `.c-card--{size}` | Taille : pilote **padding ET border-radius** (proportionnels) — `small` (8 / 4), `medium` (16 / 8), `large` (32 / 16) |
 | `_callout.scss` | `.c-callout` | **Couche de contenu** (titre/texte centrés + CTA optionnel) posée sur une `.c-card` ; hérite de `--card-fg` |
 | `_quote.scss` | `.c-quote` + `.c-quote--{size}` | Citation réutilisable, posée sur une `.c-card` ; la taille de typo est une variante propre (`small`/`medium`/`large`), indépendante de la taille de card |
-| `_avatar.scss` | `.c-avatar` + `--{small\|large\|xlarge}` | Avatar rond (image) — tailles 32 / 128 / 256 |
+| `_avatar.scss` | `.c-avatar` + `--{small\|medium\|large\|xlarge}` | Avatar rond (image) — tailles 32 / 96 / 128 / 256 |
+| `_icon.scss` | `.c-icon` + `--{text\|x2\|x3}` | Icône décorative rendue par `components/icon.html` ; `text` suit la taille de la police |
 | `_meta.scss` | `.c-meta` | Méta-information (date, handle, catégorie…) — texte petit et atténué |
 | `_tag.scss` | `.c-tag` | Étiquette / tag (catégorie, mot-clé) |
 | `_quiz.scss` | `.c-quiz` | Layout spécifique au quiz — surcouche contextuelle uniquement |
 | `_newsletter-form.scss` | `.c-newsletter-form` | Formulaire d’inscription natif au site, relié à Kit sans charger son script embarqué |
+| `_profile.scss` | `.c-profile` | En-tête de profil de la home : identité, description, métadonnées et actions |
+| `_channel-navigation.scss` | `.c-channel-navigation` | Navigation compacte entre le site, ses outils et les réseaux publics sélectionnés |
 
 > **Règle — un seul langage par bouton.** Un bouton répond soit à « qui ? », soit à « quoi ? », jamais aux deux. Une marque ou un réseau identifiable (« qui ? ») utilise de préférence son icône seule via `.c-button--icon`, avec un `aria-label` explicite. Une action (« quoi ? ») utilise uniquement un libellé textuel, sans élément enfant, icône, emoji, flèche ou pictogramme. Le caractère `→` et les autres glyphes directionnels sont interdits dans les boutons d'action : le verbe du libellé doit suffire à exprimer l'action. Ne jamais associer une icône et du texte dans un même bouton.
+>
+> **Règle — emoji décoratif inaccessible.** Un emoji purement visuel est toujours enveloppé dans un élément portant `aria-hidden="true"`. Le texte adjacent doit conserver seul tout le sens ; un emoji ne remplace jamais un libellé accessible.
 >
 > **Règle — fonds colorés = `.c-card`.** Aucun composant ne porte son propre `background` / `border` / `border-radius` / `padding` : ce skin est centralisé dans `.c-card`. Un composant à fond coloré compose `c-card c-card--{variant} c-card--{size}` et ne garde que son layout/typo. Si le contenu est un encart centré (titre + texte + CTA), ajouter `.c-callout`.
 >
@@ -163,7 +170,7 @@ Définis dans `_sass/_variables.scss` :
 
 ```
 --color-primary / --color-primary-with
---color-dark / --color-dark-with
+--color-dark / --color-dark-with / --color-muted
 --color-secondary / --color-light
 --size-4, --size-8, --size-16, --size-32
 --font-size, --font-size-h3, --font-size-h4
