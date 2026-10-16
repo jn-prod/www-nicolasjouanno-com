@@ -1,0 +1,13 @@
+.c-meta-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--size-8) var(--size-16);
+  margin-block: var(--size-16);
+
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--size-4);
+  }
+}
