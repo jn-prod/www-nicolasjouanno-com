@@ -9,12 +9,12 @@
   <channel>
     <language>fr</language>
     <title>Nicolas Jouanno</title>
-    <description>J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten.</description>
+    <description>Des chemins, du matériel et des idées pour passer plus de temps dehors. Ici, le vécu compte plus que le chrono.</description>
     <link>https://www.nicolasjouanno.com/</link>
     <atom:link href="https://www.nicolasjouanno.com/feed.xml" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-    <pubDate>Fri, 16 Oct 2026 05:54:00 +0000</pubDate>
-    <lastBuildDate>Fri, 16 Oct 2026 05:54:00 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Oct 2026 11:30:04 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Oct 2026 11:30:04 +0000</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v4.4.1</generator>
