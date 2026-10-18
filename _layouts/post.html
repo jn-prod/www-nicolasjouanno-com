@@ -35,13 +35,7 @@ layout: page
   <!-- Post Content -->
   <div>{{content}}</div>
 
-  {% if page.category == 'newsletter' %}
-  <section class="c-card c-card--neutral c-card--medium c-callout" aria-labelledby="newsletter-next-edition">
-    <h2 class="c-callout__title" id="newsletter-next-edition">Recevoir La Sortie</h2>
-    <p class="c-callout__text">La Sortie arrive une fois par mois : des chemins, des voix et des idées pour découvrir la Bretagne.</p>
-    <p><a href="/la-sortie/subscribe/" class="c-button c-button--primary">S’inscrire</a></p>
-  </section>
-  {% endif %}
+  {% include components/newsletter-form.html id="post" variant="compact" %}
 
 </article>
 
