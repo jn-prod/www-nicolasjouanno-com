@@ -12,7 +12,7 @@ permalink: /a-propos/
 
 <p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.jpg" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
 
-Le vélo a d'abord donné le rythme. J'ai été [cycliste professionnel]({{ site.url }}/results.html?utm_source=a-propos&utm_medium=proof&utm_campaign=ecosystem) chez Bretagne Schuller. J'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à raccrocher.
+Le vélo a d'abord donné le rythme. J'ai été cycliste professionnel chez Bretagne Schuller. J'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à raccrocher. Mon [palmarès cycliste](/results.html) retrace ces saisons.
 
 Aujourd'hui, je roule et je cours autrement. Avec ma famille, nous parcourons l'Europe en van au rythme des vacances, avec les vélos, les chaussures de trail et la contrainte du sans gluten dans nos bagages.
 

@@ -18,7 +18,7 @@ script: /assets/share.js
   <p class="c-profile__description">
     Des chemins, du matériel et des idées pour passer plus de temps dehors.<br>
     Ici, le vécu compte plus que le chrono.<br>
-    <span aria-hidden="true">⏮️</span> Ex-cycliste pro.
+    <span aria-hidden="true">⏮️</span> <a href="/results.html">Ex-cycliste pro</a>.
     <span aria-hidden="true">🚵</span> Créateur de <a href="{{ site.projects.vtt_bzh.url }}">vtt.bzh</a>.<br>
     <span aria-hidden="true">🇪🇺</span> Europe en famille, en van.
     <span aria-hidden="true">🌱</span> Assiettes sans gluten.
