@@ -37,9 +37,19 @@ Participation à 5 championnats de France :
 
 ### 2010 (Professionnel - Bretagne Schuller)
 
+<figure class="u-spacing--0 u-spacing--block-end-medium">
+  <img class="u-img u-img--rounded" src="/images/palmares/nicolas-jouanno-bretagne-schuller-2010.jpg" alt="Carte cycliste de Nicolas Jouanno en tenue Bretagne Schuller pour la saison 2010" width="453" height="640" loading="lazy" decoding="async" />
+  <figcaption class="c-meta u-spacing--block-start-small">Carte Bretagne Schuller, saison 2010.</figcaption>
+</figure>
+
 Pas de résultat dans le top 20 : une blessure a écourté la saison.
 
 ### 2009 (Professionnel - Bretagne Schuller)
+
+<figure class="u-spacing--0 u-spacing--block-end-medium">
+  <img class="u-img u-img--rounded" src="/images/palmares/nicolas-jouanno-bretagne-schuller-2009.jpg" alt="Carte cycliste de Nicolas Jouanno avec son vélo en tenue Bretagne Schuller pour la saison 2009" width="453" height="640" loading="lazy" decoding="async" />
+  <figcaption class="c-meta u-spacing--block-start-small">Carte Bretagne Schuller, saison 2009.</figcaption>
+</figure>
 
 #### 2ème
 
