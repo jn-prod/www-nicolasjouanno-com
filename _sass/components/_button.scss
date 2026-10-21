@@ -1,4 +1,4 @@
-$variants: "primary", "secondary", "dark", "light";
+$variants: "brand", "dark", "light";
 
 @mixin button-variantes($variants, $outline) {
   @each $variant in $variants {

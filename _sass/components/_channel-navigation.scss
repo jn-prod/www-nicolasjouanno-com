@@ -37,7 +37,7 @@
     &:hover,
     &:focus-visible,
     &[aria-current="page"] {
-      color: var(--color-primary);
+      color: var(--color-brand);
     }
 
     &[aria-current="page"]::after {
@@ -54,5 +54,11 @@
       font-size: var(--font-size);
       line-height: 1;
     }
+  }
+}
+
+@media screen and (width <= 90rem) {
+  .c-channel-navigation {
+    margin-inline: calc(var(--size-16) * -1);
   }
 }

@@ -105,7 +105,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | Fichier | Classe | Description |
 |---|---|---|
 | `_button.scss` | `.c-button` | Bouton de base — `inline-flex`, `width: fit-content` |
-| `_button.scss` | `.c-button--{variant}` | Variantes de couleur : `primary`, `secondary`, `dark`, `light` |
+| `_button.scss` | `.c-button--{variant}` | Variantes de couleur : `brand`, `dark`, `light` |
 | `_button.scss` | `.c-button--{variant}-outline` | Variantes contour |
 | `_button.scss` | `.c-button--icon` | Icône de marque seule, accompagnée d'un `aria-label` explicite |
 | `_button.scss` | `.c-button--fullwidth` | Pleine largeur — passe en `display: flex` |
@@ -114,7 +114,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_progress.scss` | `.c-progress` | Barre de progression native stylisée (`display: block`) |
 | `_stat.scss` | `.c-stat` + `.c-stat--{bar\|list}` | Statistiques — **layout seul** (skin via `.c-card`) ; `--bar` (KPI horizontaux), `--list` (lignes label/valeur). Éléments `__label`/`__value` communs |
 | `_card.scss` | `.c-card` | **Skin réutilisable** : fond, bordure, border-radius, spacing. Toute surface à fond/bordure passe par là |
-| `_card.scss` | `.c-card--{variant}` | Variantes de fond : `flat` (blanc), `neutral` (gris), `primary` (couleur primaire, texte clair) |
+| `_card.scss` | `.c-card--{variant}` | Variantes de fond : `flat` (blanc), `neutral` (gris), `brand` (couleur de marque, texte clair) |
 | `_card.scss` | `.c-card--outline` | Modificateur : bordure `dark` |
 | `_card.scss` | `.c-card--{size}` | Taille : pilote **padding ET border-radius** (proportionnels) — `small` (8 / 4), `medium` (16 / 8), `large` (32 / 16) |
 | `_callout.scss` | `.c-callout` | **Couche de contenu** (titre/texte centrés + CTA optionnel) posée sur une `.c-card` ; hérite de `--card-fg` |
@@ -138,7 +138,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 >
 > **Règle — nesting de cards : descente d'un seul cran.** Une card imbriquée doit être **exactement une taille en dessous** de sa card parente la plus proche : `large > medium > small`. On **ne saute pas de palier** → `large` contenant directement une `small` est **interdit** (il faut passer par une `medium`). `small` est le plancher (une `small` ne peut contenir qu'une autre `small`). Seuls enfants autorisés : `large→medium`, `medium→small`, `small→small`. _Vérifié automatiquement par le harnais : `site-eval.sh` grader **R12** (ast-grep, `tools/scripts/sg-rules/card-nesting.yml` côté corp-ai) — tout nesting non conforme refuse le push._
 >
-> **Règle — image de fond = `--card-bg-image`.** Une card peut porter une image de fond via la variable `--card-bg-image` (inline `style="--card-bg-image: url('…')"`). Si définie, l'image s'affiche **par-dessus** `--card-bg` (qui reste la couleur de fallback). Pour un bandeau image avec encart lisible, on **imbrique** : carte image (`primary large` + `--card-bg-image`) > carte contenu (`flat medium`). _Ce duo remplace l'ancien `.c-jumbotron` (supprimé)._
+> **Règle — image de fond = `--card-bg-image`.** Une card peut porter une image de fond via la variable `--card-bg-image` (inline `style="--card-bg-image: url('…')"`). Si définie, l'image s'affiche **par-dessus** `--card-bg` (qui reste la couleur de fallback). Pour un bandeau image avec encart lisible, on **imbrique** : carte image (`brand large` + `--card-bg-image`) > carte contenu (`flat medium`). _Ce duo remplace l'ancien `.c-jumbotron` (supprimé)._
 >
 > _Exception volontaire (hors `.c-card`) : `.c-section--{variant}` (bandes pleine largeur, layout edge-to-edge)._
 
@@ -169,9 +169,9 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 Définis dans `_sass/_variables.scss` :
 
 ```
---color-primary / --color-primary-with
+--color-brand / --color-brand-with
 --color-dark / --color-dark-with / --color-muted
---color-secondary / --color-light
+--color-light / --color-light-with
 --size-4, --size-8, --size-16, --size-32
 --font-size, --font-size-h3, --font-size-h4
 --font-family, --font-family-heading

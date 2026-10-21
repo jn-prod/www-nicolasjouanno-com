@@ -21,7 +21,7 @@ script: /assets/share.js
     <span aria-hidden="true">⏮️</span> <a href="/results.html">Ex-cycliste pro</a>.
     <span aria-hidden="true">🚵</span> Créateur de <a href="{{ site.projects.vtt_bzh.url }}">vtt.bzh</a>.<br>
     <span aria-hidden="true">🇪🇺</span> Europe en famille, en van.
-    <span aria-hidden="true">🌱</span> Assiettes sans gluten.
+    <span aria-hidden="true">🌱</span> <a href="/nutrition/sans-gluten.html">Assiettes sans gluten</a>.
   </p>
 
   <ul class="c-meta-list c-meta u-list">

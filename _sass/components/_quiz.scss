@@ -22,7 +22,7 @@
   // Sélection radio → bouton, commune aux groupes de choix du quiz (réponses + difficulté).
   .c-button-stack {
     input[type="radio"]:focus-visible + label {
-      outline: 2px solid var(--color-primary);
+      outline: 2px solid var(--color-brand);
       outline-offset: 2px;
     }
 
@@ -81,7 +81,7 @@
     text-align: center;
   }
 
-  // Fond/texte portés par .c-card--primary ; ici, forme ronde + dimensions du badge.
+  // Fond/texte portés par .c-card--brand ; ici, forme ronde + dimensions du badge.
   &__score-circle {
     width: 200px;
     height: 200px;

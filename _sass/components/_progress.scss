@@ -14,13 +14,13 @@
   }
 
   &::-webkit-progress-value {
-    background: var(--color-primary);
+    background: var(--color-brand);
     border-radius: var(--size-4);
     transition: width 0.3s ease;
   }
 
   &::-moz-progress-bar {
-    background: var(--color-primary);
+    background: var(--color-brand);
     border-radius: var(--size-4);
   }
 }
