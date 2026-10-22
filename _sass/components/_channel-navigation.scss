@@ -57,9 +57,3 @@
     }
   }
 }
-
-@media screen and (width <= 90rem) {
-  .c-channel-navigation {
-    margin-inline: calc(var(--size-16) * -1);
-  }
-}

@@ -1,12 +1,30 @@
-$variants: "brand", "dark", "light";
+@use "sass:map";
+
+$variants: (
+  "brand": (
+    "color": var(--b-color-brand),
+    "contrast": var(--b-color-neutral-0),
+  ),
+  "dark": (
+    "color": var(--b-color-neutral-80),
+    "contrast": var(--b-color-neutral-0),
+  ),
+  "light": (
+    "color": var(--b-color-neutral-0),
+    "contrast": var(--b-color-neutral-80),
+  ),
+);
 
 @mixin button-variantes($variants, $outline) {
-  @each $variant in $variants {
+  @each $variant, $tokens in $variants {
+    $color: map.get($tokens, "color");
+    $contrast: map.get($tokens, "contrast");
+
     @if $outline {
       .c-button.c-button--#{$variant}-outline {
-        color: var(--color-#{$variant});
+        color: $color;
         background-color: transparent;
-        border-color: var(--color-#{$variant});
+        border-color: $color;
 
         &:hover,
         &:focus {
@@ -16,9 +34,9 @@ $variants: "brand", "dark", "light";
       }
     } @else {
       .c-button.c-button--#{$variant} {
-        color: var(--color-#{$variant}-with);
-        background-color: var(--color-#{$variant});
-        border-color: var(--color-#{$variant});
+        color: $contrast;
+        background-color: $color;
+        border-color: $color;
 
         &:hover,
         &:focus {
