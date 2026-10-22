@@ -10,8 +10,8 @@ $variants: "brand", "dark", "light";
 
         &:hover,
         &:focus {
-          background-color: var(--color-dark);
-          color: var(--color-dark-with);
+          background-color: var(--b-color-neutral-80);
+          color: var(--b-color-neutral-0);
         }
       }
     } @else {
@@ -38,7 +38,7 @@ $variants: "brand", "dark", "light";
   border-color: transparent;
   border-radius: var(--size-32);
   text-decoration: none;
-  color: var(--color-dark);
+  color: var(--b-color-neutral-80);
   font-weight: bold;
   font-size: 1.5rem;
   font-family: var(--font-family);
@@ -71,8 +71,8 @@ $variants: "brand", "dark", "light";
 
   &:hover,
   &:focus {
-    background-color: var(--color-dark);
-    color: var(--color-dark-with);
+    background-color: var(--b-color-neutral-80);
+    color: var(--b-color-neutral-0);
     text-decoration: none;
   }
 }

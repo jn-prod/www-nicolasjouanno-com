@@ -15,14 +15,118 @@
   --font-family-heading: 'Abril Fatface', sans-serif;
   --font-family-reading: 'Source Serif 4', georgia, cambria, "Times New Roman", times, serif;
 
-  /* colors */
-  --color-brand: #09645f;
-  --color-dark: #343a40;
-  --color-muted: #676b70;
-  --color-light: #fff;
-  --color-brand-with: var(--color-light);
-  --color-dark-with: var(--color-light);
-  --color-light-with: var(--color-dark);
+  /* Colors — Core */
+  --b-color-neutral-0: #fff;
+  --b-color-neutral-10: #f5f5f5;
+  --b-color-neutral-20: #ecf0f1;
+  --b-color-neutral-30: #dee2e6;
+  --b-color-neutral-40: #d6d8d9;
+  --b-color-neutral-50: #adb5bd;
+  --b-color-neutral-60: #676b70;
+  --b-color-neutral-70: #495057;
+  --b-color-neutral-80: #343a40;
+  --b-color-neutral-90: #212529;
+  --b-color-neutral-100: #000;
+  --b-color-border: var(--b-color-neutral-30);
+
+  /* Semantic colors — Core palettes */
+  --b-color-semantic-alert-0: var(--b-color-neutral-0);
+  --b-color-semantic-alert-10: color-mix(
+    in srgb,
+    var(--b-color-semantic-alert-50) 20%,
+    var(--b-color-neutral-0)
+  );
+  --b-color-semantic-alert-20: color-mix(
+    in srgb,
+    var(--b-color-semantic-alert-50) 40%,
+    var(--b-color-neutral-0)
+  );
+  --b-color-semantic-alert-30: color-mix(
+    in srgb,
+    var(--b-color-semantic-alert-50) 60%,
+    var(--b-color-neutral-0)
+  );
+  --b-color-semantic-alert-40: color-mix(
+    in srgb,
+    var(--b-color-semantic-alert-50) 80%,
+    var(--b-color-neutral-0)
+  );
+  --b-color-semantic-alert-50: #dc3545;
+  --b-color-semantic-alert-60: color-mix(
+    in srgb,
+    var(--b-color-semantic-alert-50) 80%,
+    var(--b-color-neutral-100)
+  );
+  --b-color-semantic-alert-70: color-mix(
+    in srgb,
+    var(--b-color-semantic-alert-50) 60%,
+    var(--b-color-neutral-100)
+  );
+  --b-color-semantic-alert-80: color-mix(
+    in srgb,
+    var(--b-color-semantic-alert-50) 40%,
+    var(--b-color-neutral-100)
+  );
+  --b-color-semantic-alert-90: color-mix(
+    in srgb,
+    var(--b-color-semantic-alert-50) 20%,
+    var(--b-color-neutral-100)
+  );
+  --b-color-semantic-alert-100: var(--b-color-neutral-100);
+  --b-color-semantic-alert-background-muted: var(--b-color-semantic-alert-10);
+  --b-color-semantic-alert-background-emphasis: var(--b-color-semantic-alert-50);
+  --b-color-semantic-alert-border: var(--b-color-semantic-alert-30);
+  --b-color-semantic-alert-foreground: var(--b-color-semantic-alert-70);
+  --b-color-semantic-info-0: var(--b-color-neutral-0);
+  --b-color-semantic-info-10: color-mix(
+    in srgb,
+    var(--b-color-semantic-info-50) 20%,
+    var(--b-color-neutral-0)
+  );
+  --b-color-semantic-info-20: color-mix(
+    in srgb,
+    var(--b-color-semantic-info-50) 40%,
+    var(--b-color-neutral-0)
+  );
+  --b-color-semantic-info-30: color-mix(
+    in srgb,
+    var(--b-color-semantic-info-50) 60%,
+    var(--b-color-neutral-0)
+  );
+  --b-color-semantic-info-40: color-mix(
+    in srgb,
+    var(--b-color-semantic-info-50) 80%,
+    var(--b-color-neutral-0)
+  );
+  --b-color-semantic-info-50: #007bff;
+  --b-color-semantic-info-60: color-mix(
+    in srgb,
+    var(--b-color-semantic-info-50) 80%,
+    var(--b-color-neutral-100)
+  );
+  --b-color-semantic-info-70: color-mix(
+    in srgb,
+    var(--b-color-semantic-info-50) 60%,
+    var(--b-color-neutral-100)
+  );
+  --b-color-semantic-info-80: color-mix(
+    in srgb,
+    var(--b-color-semantic-info-50) 40%,
+    var(--b-color-neutral-100)
+  );
+  --b-color-semantic-info-90: color-mix(
+    in srgb,
+    var(--b-color-semantic-info-50) 20%,
+    var(--b-color-neutral-100)
+  );
+  --b-color-semantic-info-100: var(--b-color-neutral-100);
+  --b-color-semantic-info-background-muted: var(--b-color-semantic-info-10);
+  --b-color-semantic-info-background-emphasis: var(--b-color-semantic-info-50);
+  --b-color-semantic-info-border: var(--b-color-semantic-info-30);
+  --b-color-semantic-info-foreground: var(--b-color-semantic-info-70);
+
+  /* Colors — Projet */
+  --b-color-brand: #09645f;
 
   /* size */
   --size-1: 1px;
@@ -34,8 +138,8 @@
   --size-128: 128px;
 
   /* decoration */
-  --box-shadow: 0.5rem 0.3rem 1rem 0.3rem var(--color-dark);
-  --border: solid color-mix(in srgb,var(--color-dark), white 80%) var(--size-1);
+  --box-shadow: 0.5rem 0.3rem 1rem 0.3rem var(--b-color-neutral-80);
+  --border: solid var(--b-color-border) var(--size-1);
 
   /* icons */
   --icon-size: var(--font-size, var(--size-16));

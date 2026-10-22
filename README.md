@@ -169,14 +169,22 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 Définis dans `_sass/_variables.scss` :
 
 ```
---color-brand / --color-brand-with
---color-dark / --color-dark-with / --color-muted
---color-light / --color-light-with
+--b-color-neutral-0 à --b-color-neutral-100
+--b-color-semantic-alert-0 à --b-color-semantic-alert-100
+--b-color-semantic-info-0 à --b-color-semantic-info-100
+--b-color-semantic-{alert|info}-{background-muted|background-emphasis|border|foreground}
+--b-color-border / --border
+--b-color-brand
 --size-4, --size-8, --size-16, --size-32
 --font-size, --font-size-h3, --font-size-h4
 --font-family, --font-family-heading
 --border, --line-height
 ```
+
+Les palettes `--b-color-neutral-*` et `--b-color-semantic-*`, leurs aliases d'usage et `--b-color-border`
+appartiennent au Core partagé. Les composants utilisent les aliases sémantiques
+(`background-muted`, `background-emphasis`, `border`, `foreground`) plutôt que les niveaux numériques. Seule
+`--b-color-brand` reste une couleur propre à nj.com.
 
 ## Apps
 

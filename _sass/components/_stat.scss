@@ -3,12 +3,12 @@
 // Élements communs : __label (gris) et __value (gras dark).
 .c-stat {
   &__label {
-    color: var(--color-muted);
+    color: var(--b-color-neutral-60);
   }
 
   &__value {
     font-weight: bold;
-    color: var(--color-dark);
+    color: var(--b-color-neutral-80);
     margin: 0;
   }
 }

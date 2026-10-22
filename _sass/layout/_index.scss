@@ -1,6 +1,6 @@
 .c-layout {
   &__header {
-    background-color: var(--color-light);
+    background-color: var(--b-color-neutral-0);
   }
 
   &__header-bar {
@@ -9,7 +9,7 @@
     z-index: 10;
     padding: var(--size-8) var(--size-16);
     border-bottom: var(--border);
-    background-color: var(--color-light);
+    background-color: var(--b-color-neutral-0);
   }
 
   &__breadcrumb {
@@ -36,7 +36,7 @@
     }
     
     [aria-current="page"] {
-      color: var(--color-dark);
+      color: var(--b-color-neutral-80);
       font-weight: 700;
       text-decoration: none;
     }

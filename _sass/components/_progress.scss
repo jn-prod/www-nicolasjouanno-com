@@ -6,21 +6,21 @@
   border: none;
   border-radius: var(--size-4);
   overflow: hidden;
-  background: color-mix(in srgb, var(--color-dark), white 80%);
+  background: var(--b-color-neutral-40);
 
   &::-webkit-progress-bar {
-    background: color-mix(in srgb, var(--color-dark), white 80%);
+    background: var(--b-color-neutral-40);
     border-radius: var(--size-4);
   }
 
   &::-webkit-progress-value {
-    background: var(--color-brand);
+    background: var(--b-color-brand);
     border-radius: var(--size-4);
     transition: width 0.3s ease;
   }
 
   &::-moz-progress-bar {
-    background: var(--color-brand);
+    background: var(--b-color-brand);
     border-radius: var(--size-4);
   }
 }
