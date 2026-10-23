@@ -76,7 +76,7 @@
     </noscript>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}?v={{ site.time | date: '%s' }}" />
 
     <!-- SEO basique -->
     <meta name="robots" content="{% if page.robots %}{{ page.robots }}{% elsif page.category == 'archive' %}noindex, follow{% else %}index, follow, max-image-preview:large{% endif %}" />
