@@ -71,7 +71,7 @@ function renderQuestion() {
 
 function onAnswer(userAnswer) {
   const card = state.cards[state.index];
-  const correct = userAnswer === (card.dataset.hasGluten === "true");
+  const correct = userAnswer === card.dataset.answer;
   state = computeAnswer(state, correct);
 
   card.disabled = true;
@@ -145,7 +145,7 @@ document.getElementById("startScreen").addEventListener("change", function (e) {
 
 document.getElementById("quizScreen").addEventListener("change", function (e) {
   if (e.target.matches('input[type="radio"][name^="answer-"]')) {
-    onAnswer(e.target.value === "true");
+    onAnswer(e.target.value);
   }
 });
 

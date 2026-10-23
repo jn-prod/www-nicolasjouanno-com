@@ -1,225 +1,276 @@
+# Questions du quiz « Gluten ou pas gluten ? ».
+# answer : gluten (contient du blé, de l’orge, du seigle ou un hybride dans sa forme courante),
+#          sans-gluten (naturellement sans gluten dans sa forme courante),
+#          ca-depend (la recette, la filière ou l’étiquette tranche).
+# source : clé de _data/gluten_quiz_sources.yml.
+
 - text: "Pain"
   emoji: "🍞"
-  hasGluten: true
+  answer: gluten
   difficulty: low
-  explanation: "Le pain classique est fait avec de la farine de blé qui contient du gluten."
+  explanation: "Le pain classique est fait avec de la farine de blé, qui contient du gluten. Seul un pain étiqueté « sans gluten » convient."
+  source: ue-1169
 - text: "Riz"
   emoji: "🍚"
-  hasGluten: false
+  answer: ca-depend
   difficulty: low
-  explanation: "Le riz est naturellement sans gluten et peut être consommé sans danger."
+  explanation: "Le riz nature est naturellement sans gluten. Cuisiné, assaisonné ou servi au restaurant, il peut en contenir selon le bouillon, la sauce ou la préparation."
+  source: afdiag-regime
 - text: "Pâtes"
   emoji: "🍝"
-  hasGluten: true
+  answer: gluten
   difficulty: low
-  explanation: "Les pâtes traditionnelles sont faites de blé dur et contiennent du gluten."
+  explanation: "Les pâtes classiques sont faites de blé dur, qui contient du gluten."
+  source: ue-1169
 - text: "Pomme"
   emoji: "🍎"
-  hasGluten: false
+  answer: sans-gluten
   difficulty: low
-  explanation: "Les fruits frais sont tous naturellement sans gluten."
+  explanation: "Les fruits frais sont naturellement sans gluten."
+  source: afdiag-regime
 - text: "Bière"
   emoji: "🍺"
-  hasGluten: true
+  answer: gluten
   difficulty: low
-  explanation: "La bière classique est brassée à partir d'orge qui contient du gluten."
+  explanation: "La bière classique est brassée avec de l’orge maltée, qui contient du gluten. Des bières étiquetées « sans gluten » existent."
+  source: ue-1169
 - text: "Viande"
   emoji: "🥩"
-  hasGluten: false
+  answer: sans-gluten
   difficulty: low
-  explanation: "La viande fraîche non transformée est naturellement sans gluten."
+  explanation: "La viande fraîche non transformée est naturellement sans gluten. Une marinade, une panure ou une farce change la réponse."
+  source: afdiag-regime
 - text: "Croissant"
   emoji: "🥐"
-  hasGluten: true
+  answer: gluten
   difficulty: low
-  explanation: "Les viennoiseries sont faites avec de la farine de blé riche en gluten."
+  explanation: "Les viennoiseries classiques sont faites avec de la farine de blé, qui contient du gluten."
+  source: ue-1169
 - text: "Carotte"
   emoji: "🥕"
-  hasGluten: false
+  answer: sans-gluten
   difficulty: low
-  explanation: "Tous les légumes frais sont naturellement sans gluten."
+  explanation: "Les légumes frais sont naturellement sans gluten."
+  source: afdiag-regime
 - text: "Pizza"
   emoji: "🍕"
-  hasGluten: true
+  answer: gluten
   difficulty: low
-  explanation: "La pâte à pizza classique contient de la farine de blé avec gluten."
+  explanation: "La pâte à pizza classique est faite avec de la farine de blé, qui contient du gluten."
+  source: ue-1169
 - text: "Œuf"
   emoji: "🥚"
-  hasGluten: false
+  answer: sans-gluten
   difficulty: low
   explanation: "Les œufs sont naturellement sans gluten."
-- text: "Soja sauce"
+  source: afdiag-regime
+- text: "Sauce soja"
   emoji: "🥫"
-  hasGluten: true
+  answer: gluten
   difficulty: medium
-  explanation: "La sauce soja traditionnelle contient du blé fermenté."
+  explanation: "La sauce soja classique est fermentée avec du blé, qui contient du gluten. Le tamari s’en distingue, à condition de vérifier l’étiquette."
+  source: ue-1169
 - text: "Quinoa"
   emoji: "🌾"
-  hasGluten: false
+  answer: ca-depend
   difficulty: medium
-  explanation: "Le quinoa est une pseudo-céréale naturellement sans gluten."
+  explanation: "Le quinoa est naturellement sans gluten, mais les grains et farines peuvent être contaminés dans la filière. Seule la mention « sans gluten » garantit un produit sûr."
+  source: contamination-cereales
 - text: "Couscous"
   emoji: "🍲"
-  hasGluten: true
+  answer: gluten
   difficulty: medium
-  explanation: "Le couscous est fait de semoule de blé dur qui contient du gluten."
+  explanation: "La semoule de couscous est faite de blé dur, qui contient du gluten."
+  source: ue-1169
 - text: "Avoine"
   emoji: "🌾"
-  hasGluten: false
+  answer: ca-depend
   difficulty: medium
-  explanation: "L'avoine pure est sans gluten, mais attention à la contamination croisée !"
+  explanation: "L’avoine fait partie des céréales à déclarer comme allergène. Elle ne peut être étiquetée « sans gluten » que si elle est spécialement produite et contient moins de 20 mg/kg de gluten ; certaines personnes cœliaques la tolèrent mal."
+  source: ue-828
 - text: "Biscuits"
   emoji: "🍪"
-  hasGluten: true
+  answer: gluten
   difficulty: medium
-  explanation: "Les biscuits classiques sont faits avec de la farine de blé."
+  explanation: "Les biscuits classiques sont faits avec de la farine de blé, qui contient du gluten."
+  source: ue-1169
 - text: "Maïs"
   emoji: "🌽"
-  hasGluten: false
+  answer: sans-gluten
   difficulty: medium
-  explanation: "Le maïs est naturellement sans gluten."
+  explanation: "Le maïs est naturellement sans gluten. Pour une farine, une polenta ou des céréales soufflées, l’étiquette reste nécessaire."
+  source: afdiag-regime
 - text: "Seitan"
   emoji: "🥙"
-  hasGluten: true
+  answer: gluten
   difficulty: medium
-  explanation: "Le seitan est fait de gluten de blé pur ! C'est du gluten à 100%."
+  explanation: "Le seitan est fabriqué à partir du gluten de blé : c’est presque du gluten pur."
+  source: ue-1169
 - text: "Lait"
   emoji: "🥛"
-  hasGluten: false
+  answer: sans-gluten
   difficulty: medium
-  explanation: "Le lait nature ne contient pas de gluten."
-- text: "Céréales"
+  explanation: "Le lait nature est naturellement sans gluten."
+  source: afdiag-regime
+- text: "Céréales du petit-déjeuner"
   emoji: "🥣"
-  hasGluten: true
+  answer: ca-depend
   difficulty: medium
-  explanation: "La plupart des céréales du commerce contiennent du blé, de l'orge ou du malt."
-- text: "Tofu"
+  explanation: "Beaucoup contiennent du blé, de l’orge ou du malt, mais des versions sans gluten existent. Seule l’étiquette tranche."
+  source: ue-1169
+- text: "Tofu nature"
   emoji: "🧊"
-  hasGluten: false
+  answer: sans-gluten
   difficulty: medium
-  explanation: "Le tofu nature est fait de soja et ne contient pas de gluten."
+  explanation: "Le tofu nature est fait de soja, d’eau et d’un coagulant : il est naturellement sans gluten. Un tofu mariné ou fumé peut contenir de la sauce soja."
+  source: afdiag-regime
 - text: "Orge"
   emoji: "🌾"
-  hasGluten: true
+  answer: gluten
   difficulty: medium
-  explanation: "L'orge contient du gluten et doit être évitée par les cœliaques."
+  explanation: "L’orge est une céréale qui contient du gluten."
+  source: ue-1169
 - text: "Patate douce"
   emoji: "🍠"
-  hasGluten: false
+  answer: sans-gluten
   difficulty: medium
-  explanation: "Les tubercules comme la patate douce sont sans gluten."
+  explanation: "La patate douce est un légume naturellement sans gluten."
+  source: afdiag-regime
 - text: "Burger"
   emoji: "🍔"
-  hasGluten: true
+  answer: gluten
   difficulty: medium
-  explanation: "Le pain du burger contient généralement du gluten."
-- text: "Yaourt"
+  explanation: "Le pain du burger classique est fait avec de la farine de blé, qui contient du gluten."
+  source: ue-1169
+- text: "Yaourt nature"
   emoji: "🥛"
-  hasGluten: false
+  answer: sans-gluten
   difficulty: medium
-  explanation: "Le yaourt nature est sans gluten, mais vérifiez les additifs."
+  explanation: "Le yaourt nature est naturellement sans gluten. Un yaourt aux céréales ou aux biscuits demande de lire l’étiquette."
+  source: afdiag-regime
 - text: "Crêpe"
   emoji: "🥞"
-  hasGluten: true
+  answer: gluten
   difficulty: medium
-  explanation: "Les crêpes traditionnelles sont faites avec de la farine de blé."
+  explanation: "La crêpe classique est faite avec de la farine de froment, qui contient du gluten. La galette de sarrasin est une autre question."
+  source: ue-1169
 - text: "Amidon"
   emoji: "🧪"
-  hasGluten: true
+  answer: ca-depend
   difficulty: hard
-  explanation: "L'amidon non modifié peut provenir du blé et contenir du gluten."
+  explanation: "Sur une étiquette européenne, l’origine d’un amidon doit être précisée lorsqu’il peut contenir du gluten : « amidon de blé » signale le risque. Sans étiquette, au restaurant par exemple, l’origine reste inconnue."
+  source: ue-1169
 - text: "Sarrasin"
   emoji: "🌾"
-  hasGluten: false
+  answer: ca-depend
   difficulty: hard
-  explanation: "Malgré son nom, le sarrasin est sans gluten. Attention à la contamination !"
+  explanation: "Malgré son nom de « blé noir », le sarrasin est naturellement sans gluten. Mais farines et galettes sont souvent préparées à côté du froment : seule la mention « sans gluten » garantit un produit sûr."
+  source: contamination-cereales
 - text: "Épeautre"
   emoji: "🌾"
-  hasGluten: true
+  answer: gluten
   difficulty: hard
-  explanation: "L'épeautre est une ancienne variété de blé qui contient du gluten."
+  explanation: "L’épeautre est une variété de blé : il contient du gluten."
+  source: ue-1169
 - text: "Kamut"
   emoji: "🌾"
-  hasGluten: true
+  answer: gluten
   difficulty: hard
-  explanation: "Le kamut est un blé ancien qui contient du gluten."
+  explanation: "Le kamut est une variété de blé (blé de Khorasan) : il contient du gluten."
+  source: ue-1169
 - text: "Malt"
   emoji: "🍺"
-  hasGluten: true
+  answer: gluten
   difficulty: hard
-  explanation: "Le malt est fait d'orge germée et contient du gluten."
+  explanation: "Le malt est généralement de l’orge germée : il contient du gluten."
+  source: ue-1169
 - text: "Amarante"
   emoji: "🌾"
-  hasGluten: false
+  answer: ca-depend
   difficulty: hard
-  explanation: "L'amarante est une pseudo-céréale sans gluten."
-- text: "Sauce Tamari"
+  explanation: "L’amarante est naturellement sans gluten, mais les grains et farines peuvent être contaminés dans la filière. Seule la mention « sans gluten » garantit un produit sûr."
+  source: contamination-cereales
+- text: "Sauce tamari"
   emoji: "🥫"
-  hasGluten: false
+  answer: ca-depend
   difficulty: hard
-  explanation: "Le tamari est une sauce soja sans blé, donc sans gluten."
+  explanation: "Le tamari est traditionnellement fait sans blé, mais certaines recettes en contiennent. Il faut lire l’étiquette."
+  source: ue-1169
 - text: "Seigle"
   emoji: "🌾"
-  hasGluten: true
+  answer: gluten
   difficulty: hard
-  explanation: "Le seigle contient du gluten et doit être évité."
+  explanation: "Le seigle est une céréale qui contient du gluten."
+  source: ue-1169
 - text: "Teff"
   emoji: "🌾"
-  hasGluten: false
+  answer: ca-depend
   difficulty: hard
-  explanation: "Le teff est une céréale éthiopienne naturellement sans gluten."
+  explanation: "Le teff est naturellement sans gluten, mais les grains et farines peuvent être contaminés dans la filière. Seule la mention « sans gluten » garantit un produit sûr."
+  source: contamination-cereales
 - text: "Sirop de malt"
   emoji: "🍯"
-  hasGluten: true
+  answer: gluten
   difficulty: hard
-  explanation: "Le sirop de malt provient de l'orge et contient du gluten."
+  explanation: "Le sirop de malt est issu de l’orge maltée : il contient du gluten."
+  source: ue-1169
 - text: "Farine de pois chiche"
   emoji: "🥙"
-  hasGluten: false
+  answer: ca-depend
   difficulty: hard
-  explanation: "La farine de pois chiche est sans gluten."
+  explanation: "Le pois chiche est naturellement sans gluten, mais la farine peut être moulue ou conditionnée avec du blé. Seule la mention « sans gluten » garantit un produit sûr."
+  source: afdiag-regime
 - text: "Matzo"
   emoji: "🍞"
-  hasGluten: true
+  answer: gluten
   difficulty: hard
-  explanation: "Le pain azyme (matzo) traditionnel est fait de blé avec gluten."
+  explanation: "Le pain azyme traditionnel est fait avec de la farine de blé : il contient du gluten."
+  source: ue-1169
 - text: "Millet"
   emoji: "🌾"
-  hasGluten: false
+  answer: ca-depend
   difficulty: hard
-  explanation: "Le millet est une céréale sans gluten."
+  explanation: "Le millet est naturellement sans gluten, mais les grains et farines sont parmi les plus souvent contaminés dans la filière. Seule la mention « sans gluten » garantit un produit sûr."
+  source: contamination-cereales
 - text: "Triticale"
   emoji: "🌾"
-  hasGluten: true
+  answer: gluten
   difficulty: hard
-  explanation: "Le triticale est un hybride blé-seigle qui contient du gluten."
+  explanation: "Le triticale est un hybride de blé et de seigle : il contient du gluten."
+  source: ue-1169
 - text: "Sorgho"
   emoji: "🌾"
-  hasGluten: false
+  answer: ca-depend
   difficulty: hard
-  explanation: "Le sorgho est une céréale sans gluten utilisée en Afrique."
+  explanation: "Le sorgho est naturellement sans gluten, mais les grains et farines peuvent être contaminés dans la filière. Seule la mention « sans gluten » garantit un produit sûr."
+  source: contamination-cereales
 - text: "Hydrolysat de protéines"
   emoji: "🧪"
-  hasGluten: true
+  answer: ca-depend
   difficulty: hard
-  explanation: "Peut provenir du blé. Toujours vérifier l'étiquette !"
+  explanation: "Tout dépend de son origine : un hydrolysat de protéines de blé contient du gluten et doit être signalé comme allergène, un hydrolysat de soja ou de maïs n’en contient pas."
+  source: ue-1169
 - text: "Tapioca"
   emoji: "🥔"
-  hasGluten: false
+  answer: sans-gluten
   difficulty: hard
-  explanation: "Le tapioca est extrait du manioc et est sans gluten."
+  explanation: "Le tapioca est une fécule de manioc, naturellement sans gluten."
+  source: afdiag-regime
 - text: "Farro"
   emoji: "🌾"
-  hasGluten: true
+  answer: gluten
   difficulty: hard
-  explanation: "Le farro est une variété de blé ancien qui contient du gluten."
+  explanation: "Le farro désigne d’anciennes variétés de blé (amidonnier, engrain, épeautre) : il contient du gluten."
+  source: ue-1169
 - text: "Arrow-root"
   emoji: "🥔"
-  hasGluten: false
+  answer: sans-gluten
   difficulty: hard
-  explanation: "L'arrow-root est une fécule sans gluten utilisée comme épaississant."
+  explanation: "L’arrow-root est une fécule tirée d’une racine, naturellement sans gluten."
+  source: afdiag-regime
 - text: "Maltodextrine"
   emoji: "🧪"
-  hasGluten: false
+  answer: sans-gluten
   difficulty: hard
-  explanation: "En Europe, la maltodextrine est généralement sans gluten même si issue du blé."
+  explanation: "Même issue du blé, la maltodextrine est exemptée de déclaration d’allergène : sa fabrication élimine le gluten."
+  source: ue-1169

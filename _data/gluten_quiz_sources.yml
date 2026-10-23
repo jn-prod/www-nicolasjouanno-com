@@ -1,0 +1,15 @@
+# Sources citées par les explications du quiz « Gluten ou pas gluten ? ».
+# Chaque question de _data/gluten_quiz.yml référence une clé de ce fichier.
+
+ue-1169:
+  label: "Règlement (UE) n° 1169/2011, annexes II et VII"
+  url: "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169"
+ue-828:
+  label: "Règlement d’exécution (UE) n° 828/2014"
+  url: "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32014R0828"
+afdiag-regime:
+  label: "AFDIAG — Conseils pour suivre un régime sans gluten"
+  url: "https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/"
+contamination-cereales:
+  label: "Thompson et al., Journal of the American Dietetic Association, 2010"
+  url: "https://doi.org/10.1016/j.jada.2010.03.031"

@@ -1,18 +1,27 @@
-<fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="{{ include.question.difficulty }}" data-has-gluten="{{ include.question.hasGluten }}" hidden>
+{%- assign source = site.data.gluten_quiz_sources[include.question.source] -%}
+{%- case include.question.answer -%}
+  {%- when "gluten" -%}{%- assign answer_label = "Gluten" -%}
+  {%- when "sans-gluten" -%}{%- assign answer_label = "Sans gluten" -%}
+  {%- else -%}{%- assign answer_label = "Ça dépend" -%}
+{%- endcase -%}
+<fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="{{ include.question.difficulty }}" data-answer="{{ include.question.answer }}" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">{{ include.question.emoji }}</span>
     {{ include.question.text }}
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-{{ include.index }}" class="u-visually-hidden" name="answer-{{ include.index }}" value="true">
-    <label for="answerGluten-{{ include.index }}" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-{{ include.index }}" class="u-visually-hidden" name="answer-{{ include.index }}" value="false">
+    <input type="radio" id="answerGluten-{{ include.index }}" class="u-visually-hidden" name="answer-{{ include.index }}" value="gluten">
+    <label for="answerGluten-{{ include.index }}" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-{{ include.index }}" class="u-visually-hidden" name="answer-{{ include.index }}" value="sans-gluten">
     <label for="answerNoGluten-{{ include.index }}" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-{{ include.index }}" class="u-visually-hidden" name="answer-{{ include.index }}" value="ca-depend">
+    <label for="answerDepends-{{ include.index }}" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : {{ answer_label }}.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
     <p class="c-callout__text">{{ include.question.explanation }}</p>
+    <p class="c-callout__text">Source : <a href="{{ source.url }}" target="_blank" rel="noopener">{{ source.label }}</a></p>
   </div>
 </fieldset>

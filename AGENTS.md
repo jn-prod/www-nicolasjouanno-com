@@ -41,7 +41,7 @@ Les overrides contextuels (ex: marges spécifiques à un contexte) se font dans 
 - **Philosophie Jekyll d’abord.** Préférer les primitives natives (`posts`, `pages`, `collections`, `categories`, `tags`, front matter, layouts et includes) aux registres de données, moteurs de routage ou couches de compatibilité créés sur mesure. Une mécanique custom n’est justifiée que si Jekyll ne couvre pas le besoin et doit alors rester petite, documentée et vérifiée.
 - Utiliser `hidden` pour masquer/révéler des éléments — pas `display: none` via class
 - Le contenu statique connu à l'avance (messages, labels) doit être pré-rendu en HTML et togglé via `hidden`, pas injecté par JS via `textContent`
-- Les données du quiz sont dans `_data/gluten_quiz.yml` — format : `text`, `emoji`, `hasGluten` (bool), `difficulty` (low/medium/hard), `explanation`
+- Les données du quiz sont dans `_data/gluten_quiz.yml` — format : `text`, `emoji`, `answer` (`gluten`/`sans-gluten`/`ca-depend`), `difficulty` (low/medium/hard), `explanation`, `source` (clé de `_data/gluten_quiz_sources.yml`)
 - Les cartes question sont pré-rendues via `_includes/apps/gluten-quiz-card.html` itéré par Liquid
 
 ## Conventions JavaScript
