@@ -183,7 +183,7 @@
   </p>
   <form class="c-newsletter-form__form" action="https://app.kit.com/forms/9378910/subscriptions" method="post">
     <label class="u-visually-hidden" for="newsletter-email-home">Votre adresse e-mail</label>
-    <input class="c-newsletter-form__input" id="newsletter-email-home" type="email" name="email_address" placeholder="vous@exemple.fr" autocomplete="email" required="" />
+    <input class="c-newsletter-form__input c-control" id="newsletter-email-home" type="email" name="email_address" placeholder="vous@exemple.fr" autocomplete="email" required="" />
     <button class="c-button c-button--brand" type="submit">S’inscrire</button>
   </form>
   <p class="c-newsletter-form__note c-meta">Désabonnement en un clic.</p>
@@ -236,20 +236,20 @@
 </nav>
 
 <h2 class="u-visually-hidden" id="publications">Publications</h2>
-<ul class="u-list c-section__post-list">
+<ul class="c-post-list">
   
-    <li class="c-section__post-item"> 
+    <li> 
 
-<article id="la-sortie-1-ou-rouler-en-octobre-en-bretagne" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight">
+<article id="la-sortie-1-ou-rouler-en-octobre-en-bretagne" class="c-publication-card c-card c-card--flat c-card--medium">
   
-  <div class="c-meta u-flex u-flex--tight">
+  <div class="c-publication-card__pin c-meta">
     <span class="c-icon c-icon--text" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 2h8v2l-1 1v5.5l3 3V16h-5v6h-2v-6H6v-2.5l3-3V5L8 4z" /></svg></span>
 
     <span>Épinglé</span>
   </div>
   
 
-  <header class="u-flex u-flex--col u-flex--stretch u-flex--tight">
+  <header class="c-publication-card__header">
     
 
 <ul class="u-list c-button-stack u-spacing--0">
@@ -290,7 +290,7 @@
 </ul>
 
 
-    <h3 class="u-spacing--0" id="la-sortie-1-ou-rouler-en-octobre-en-bretagne-title">
+    <h3 class="c-publication-card__title" id="la-sortie-1-ou-rouler-en-octobre-en-bretagne-title">
       <a class="u-link--dark" href="https://www.nicolasjouanno.com/la-sortie/2026-10/">Des sorties solidaires sur les chemins bretons</a>
     </h3>
 
@@ -300,9 +300,9 @@
   </header>
 
   
-  <img class="u-img u-img--cover u-img--rounded u-img--banner" src="/images/posts/broceliande-siege-de-merlin.webp" alt="Randonnée en famille dans la forêt de Brocéliande" loading="lazy" />
+  <img class="c-publication-card__image" src="/images/posts/broceliande-siege-de-merlin.webp" alt="Randonnée en famille dans la forêt de Brocéliande" loading="lazy" />
    
-  <p class="u-spacing--0">
+  <p class="c-publication-card__summary">
     31 randonnées annoncées, des rendez-vous solidaires pour Octobre Rose et une journée en famille à Brocéliande.
     <a href="https://www.nicolasjouanno.com/la-sortie/2026-10/" aria-describedby="la-sortie-1-ou-rouler-en-octobre-en-bretagne-title">
       Lire la suite
@@ -313,12 +313,12 @@
 </li>
   
   
-    <li class="c-section__post-item"> 
+    <li> 
 
-<article id="rando-bretagne-aout-2026" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight">
+<article id="rando-bretagne-aout-2026" class="c-publication-card c-card c-card--flat c-card--medium">
   
 
-  <header class="u-flex u-flex--col u-flex--stretch u-flex--tight">
+  <header class="c-publication-card__header">
     
 
 <ul class="u-list c-button-stack u-spacing--0">
@@ -369,7 +369,7 @@
 </ul>
 
 
-    <h3 class="u-spacing--0" id="rando-bretagne-aout-2026-title">
+    <h3 class="c-publication-card__title" id="rando-bretagne-aout-2026-title">
       <a class="u-link--dark" href="https://www.nicolasjouanno.com/la-sortie/2026-08/">La rentrée des randonnées en Bretagne</a>
     </h3>
 
@@ -379,7 +379,7 @@
   </header>
 
    
-  <p class="u-spacing--0">
+  <p class="c-publication-card__summary">
     À la rentrée, les chemins bretons retrouvent les randonnées VTT, le gravel et les premières nocturnes.
     <a href="https://www.nicolasjouanno.com/la-sortie/2026-08/" aria-describedby="rando-bretagne-aout-2026-title">
       Lire la suite
@@ -389,12 +389,12 @@
 </article>
 </li>
   
-    <li class="c-section__post-item"> 
+    <li> 
 
-<article id="rando-bretagne-juillet-2026" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight">
+<article id="rando-bretagne-juillet-2026" class="c-publication-card c-card c-card--flat c-card--medium">
   
 
-  <header class="u-flex u-flex--col u-flex--stretch u-flex--tight">
+  <header class="c-publication-card__header">
     
 
 <ul class="u-list c-button-stack u-spacing--0">
@@ -445,7 +445,7 @@
 </ul>
 
 
-    <h3 class="u-spacing--0" id="rando-bretagne-juillet-2026-title">
+    <h3 class="c-publication-card__title" id="rando-bretagne-juillet-2026-title">
       <a class="u-link--dark" href="https://www.nicolasjouanno.com/la-sortie/2026-07/">Gravel, raids et randonnées pour finir l’été</a>
     </h3>
 
@@ -455,7 +455,7 @@
   </header>
 
    
-  <p class="u-spacing--0">
+  <p class="c-publication-card__summary">
     Du gravel, des raids et des randonnées locales pour rouler en Bretagne entre fin juillet et mi-août.
     <a href="https://www.nicolasjouanno.com/la-sortie/2026-07/" aria-describedby="rando-bretagne-juillet-2026-title">
       Lire la suite
@@ -465,12 +465,12 @@
 </article>
 </li>
   
-    <li class="c-section__post-item"> 
+    <li> 
 
-<article id="jai-tue-mon-saas-reconstruit-en-agent-ia" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight">
+<article id="jai-tue-mon-saas-reconstruit-en-agent-ia" class="c-publication-card c-card c-card--flat c-card--medium">
   
 
-  <header class="u-flex u-flex--col u-flex--stretch u-flex--tight">
+  <header class="c-publication-card__header">
     
 
 <ul class="u-list c-button-stack u-spacing--0">
@@ -521,7 +521,7 @@
 </ul>
 
 
-    <h3 class="u-spacing--0" id="jai-tue-mon-saas-reconstruit-en-agent-ia-title">
+    <h3 class="c-publication-card__title" id="jai-tue-mon-saas-reconstruit-en-agent-ia-title">
       <a class="u-link--dark" href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html">J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA.</a>
     </h3>
 
@@ -531,7 +531,7 @@
   </header>
 
    
-  <p class="u-spacing--0">
+  <p class="c-publication-card__summary">
     Le SaaSpocalypse vu d'un dev frontend : ce qui meurt, ce qui survit, et l'app IA-native — LLM interface, agent moteur, mémoire au lieu de base. Le cas concret de feezify, reconstruit en agent, zéro infra.
     <a href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html" aria-describedby="jai-tue-mon-saas-reconstruit-en-agent-ia-title">
       Lire la suite
@@ -541,12 +541,12 @@
 </article>
 </li>
   
-    <li class="c-section__post-item"> 
+    <li> 
 
-<article id="premier-10km-champion-vs-plaisir" class="c-card c-card--flat c-card--medium u-flex u-flex--col u-flex--stretch u-flex--tight">
+<article id="premier-10km-champion-vs-plaisir" class="c-publication-card c-card c-card--flat c-card--medium">
   
 
-  <header class="u-flex u-flex--col u-flex--stretch u-flex--tight">
+  <header class="c-publication-card__header">
     
 
 <ul class="u-list c-button-stack u-spacing--0">
@@ -597,7 +597,7 @@
 </ul>
 
 
-    <h3 class="u-spacing--0" id="premier-10km-champion-vs-plaisir-title">
+    <h3 class="c-publication-card__title" id="premier-10km-champion-vs-plaisir-title">
       <a class="u-link--dark" href="https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html">Premier 10 km : méthode d’un champion et plaisir de courir</a>
     </h3>
 
@@ -607,7 +607,7 @@
   </header>
 
    
-  <p class="u-spacing--0">
+  <p class="c-publication-card__summary">
     Comment préparer son premier 10 km ? La méthode de Gaël Le Bellec, triple champion du monde de duathlon, et mon approche par sensation.
     <a href="https://www.nicolasjouanno.com/premier-10km-champion-vs-plaisir.html" aria-describedby="premier-10km-champion-vs-plaisir-title">
       Lire la suite

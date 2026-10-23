@@ -264,7 +264,7 @@
     }
   </script>
 
-  <nav aria-label="Breadcrumb" class="c-layout__breadcrumb">
+  <nav aria-label="Breadcrumb" class="c-breadcrumb">
     <ol>
       <li>
         <a href="https://www.nicolasjouanno.com">Accueil</a>
@@ -293,6 +293,7 @@
 
 
 
+
 <!-- Begin Article
 ================================================== -->
 
@@ -302,8 +303,7 @@
   <!-- Post heading -->
   <header>
     <h1>Les Web Components et l'accessibilité — conférence Paris-Web 2025</h1>
-    <div class="c-layout__author">
-      <img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
+    <div class="c-author"><img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
 <div>
   <a href="/" class="u-link--dark">
     Nicolas Jouanno
@@ -318,8 +318,7 @@
     </time>
   </div>
 </div>
-
-    </div>
+</div>
     
 
 <ul class="u-list c-button-stack u-spacing--0">
@@ -358,7 +357,7 @@
 
 <p>Le 26 septembre 2025, lors de la 20ᵉ édition de <a href="https://www.paris-web.fr/">Paris-Web</a> — la conférence francophone de référence sur les standards du web et l’accessibilité — nous avons présenté notre sujet : <a href="https://www.paris-web.fr/2025/conference/les-web-components-et-laccessibilite">Les Web Components et l’accessibilité</a>.</p>
 
-<iframe title="Les Web Components et l'accessibilité" width="100%" height="315" src="https://indymotion.fr/videos/embed/89VPLWMNhtZiFqmwK16qZd" style="border: 0px;" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+<iframe class="c-embed" title="Les Web Components et l'accessibilité" src="https://indymotion.fr/videos/embed/89VPLWMNhtZiFqmwK16qZd" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
 
 <h2 id="le-contexte--un-design-system-accessible-by-design">Le contexte : un design system accessible by design</h2>
 
@@ -416,7 +415,7 @@ matériel ou les nouvelles des chemins bretons.
       >Votre adresse e-mail</label
     >
     <input
-      class="c-newsletter-form__input"
+      class="c-newsletter-form__input c-control"
       id="newsletter-email-post"
       type="email"
       name="email_address"
@@ -429,7 +428,6 @@ matériel ou les nouvelles des chemins bretons.
   <p class="c-newsletter-form__note c-meta">Une fois par mois. Désabonnement
 en un clic.</p>
 </section>
-
 
 </article>
 
