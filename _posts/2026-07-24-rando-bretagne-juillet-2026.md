@@ -34,10 +34,10 @@ Fin juillet et mi-août sont chargés dans le calendrier : du gravel, du raid, d
 - **Dimanche 20 septembre — La Baie et Rance** _(nouveau)_ : Cancale (35) · 7h30 · 6 € · Bikorser Saint-Malo et Cancale VTT
 - **Dimanche 15 novembre — 35e Rando VTT Saint-Thurial** _(nouveau)_ : Saint-Thurial (35) · 8h30 · 5 € · VTT Saint-Thurial Brocéliande
 
-[Voir tout le calendrier sur vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=archive&utm_campaign=rando-bretagne&utm_content=calendar)
+[Voir tout le calendrier sur vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=archive&utm_campaign=la-sortie&utm_content=calendar)
 
 ## Une rando manque à l’appel ?
 
-Vous en connaissez une qui n’est pas dans la liste — la vôtre, celle de votre club, ou une que vous avez vue passer ? [Ajoutez-la au calendrier](https://www.vtt.bzh/calendrier/ajouter.html?utm_source=nj-com&utm_medium=archive&utm_campaign=rando-bretagne&utm_content=add-event). C’est ce qui le tient à jour.
+Vous en connaissez une qui n’est pas dans la liste — la vôtre, celle de votre club, ou une que vous avez vue passer ? [Ajoutez-la au calendrier](https://www.vtt.bzh/calendrier/ajouter.html?utm_source=nj-com&utm_medium=archive&utm_campaign=la-sortie&utm_content=add-event). C’est ce qui le tient à jour.
 
-Le [calendrier actuel de vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=archive&utm_campaign=rando-bretagne&utm_content=calendrier) présente les randonnées à venir.
+Le [calendrier actuel de vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=archive&utm_campaign=la-sortie&utm_content=calendrier) présente les randonnées à venir.

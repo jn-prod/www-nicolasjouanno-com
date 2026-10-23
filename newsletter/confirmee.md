@@ -11,6 +11,6 @@ robots: noindex, follow
 
 Vous recevrez les prochaines éditions auxquelles vous vous êtes inscrit.
 
-En attendant, le [calendrier de vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=confirmation&utm_campaign=rando-bretagne&utm_content=calendrier) recense les prochaines randos VTT en Bretagne. Vous pouvez aussi transmettre le [lien d'inscription à La Sortie](/la-sortie/subscribe/) à votre club ou vos proches : c’est le geste le plus simple pour faire circuler des informations utiles sur les chemins bretons.
+En attendant, le [calendrier de vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=confirmation&utm_campaign=la-sortie&utm_content=calendrier) recense les prochaines randos VTT en Bretagne. Vous pouvez aussi transmettre le [lien d'inscription à La Sortie](/la-sortie/subscribe/) à votre club ou vos proches : c’est le geste le plus simple pour faire circuler des informations utiles sur les chemins bretons.
 
-<p><a href="https://www.vtt.bzh/?utm_source=nj-com&utm_medium=confirmation&utm_campaign=rando-bretagne&utm_content=calendrier" class="c-button c-button--brand">Voir le calendrier VTT</a></p>
+<p><a href="https://www.vtt.bzh/?utm_source=nj-com&utm_medium=confirmation&utm_campaign=la-sortie&utm_content=calendrier" class="c-button c-button--brand">Voir le calendrier VTT</a></p>

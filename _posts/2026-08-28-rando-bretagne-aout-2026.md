@@ -63,10 +63,10 @@ La rentrée approche et le calendrier se remplit vite : 42 randos dans les cinq 
 - **Dimanche 27 septembre — Rando des grées** _(nouveau)_ : Pluherlin (56) · 7h30
 - **Dimanche 27 septembre — Randonnée du Chapelain** _(nouveau)_ : Locmalo (56) · inscriptions 7h30–10h · 6 €
 
-[Voir tout le calendrier sur vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=archive&utm_campaign=rando-bretagne&utm_content=calendar)
+[Voir tout le calendrier sur vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=archive&utm_campaign=la-sortie&utm_content=calendar)
 
 ## Une rando manque à l’appel ?
 
-Vous en connaissez une qui n’est pas dans la liste — la vôtre, celle de votre club, ou une que vous avez vue passer ? [Ajoutez-la au calendrier](https://www.vtt.bzh/calendrier/ajouter.html?utm_source=nj-com&utm_medium=archive&utm_campaign=rando-bretagne&utm_content=add-event). C’est ce qui le tient à jour.
+Vous en connaissez une qui n’est pas dans la liste — la vôtre, celle de votre club, ou une que vous avez vue passer ? [Ajoutez-la au calendrier](https://www.vtt.bzh/calendrier/ajouter.html?utm_source=nj-com&utm_medium=archive&utm_campaign=la-sortie&utm_content=add-event). C’est ce qui le tient à jour.
 
-Le [calendrier actuel de vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=archive&utm_campaign=rando-bretagne&utm_content=calendrier) présente les randonnées à venir.
+Le [calendrier actuel de vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=archive&utm_campaign=la-sortie&utm_content=calendrier) présente les randonnées à venir.
