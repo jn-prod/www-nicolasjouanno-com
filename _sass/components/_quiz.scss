@@ -1,6 +1,6 @@
 .c-quiz {
   &__screen {
-    animation: c-quiz-fade-in 0.3s ease-in;
+    animation: c-quiz-fade-in var(--b-duration-base) ease-in;
   }
 
   &__start {
@@ -21,11 +21,6 @@
 
   // Sélection radio → bouton, commune aux groupes de choix du quiz (réponses + difficulté).
   .c-button-stack {
-    input[type="radio"]:focus-visible + label {
-      outline: 2px solid var(--b-color-brand);
-      outline-offset: 2px;
-    }
-
     input[type="radio"]:checked + label.c-button--dark-outline {
       background-color: var(--b-color-neutral-80);
       color: var(--b-color-neutral-0);
@@ -73,7 +68,7 @@
 
   .c-callout {
     margin-top: var(--size-16);
-    animation: c-quiz-slide-down 0.3s ease-out;
+    animation: c-quiz-slide-down var(--b-duration-base) ease-out;
   }
 
 
@@ -83,8 +78,8 @@
 
   // Fond/texte portés par .c-card--brand ; ici, forme ronde + dimensions du badge.
   &__score-circle {
-    width: 200px;
-    height: 200px;
+    width: calc(var(--size-64) * 3);
+    height: calc(var(--size-64) * 3);
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -100,7 +95,6 @@
 
   &__score-label {
     font-size: var(--font-size);
-    opacity: 0.9;
     margin: 0;
   }
 
@@ -125,7 +119,7 @@
 @keyframes c-quiz-fade-in {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(var(--size-8));
   }
 
   to {
@@ -142,7 +136,7 @@
 
   to {
     opacity: 1;
-    max-height: 200px;
+    max-height: calc(var(--size-64) * 3);
   }
 }
 
@@ -155,7 +149,7 @@
     }
 
     &__question-emoji {
-      font-size: 3rem;
+      font-size: calc(var(--font-size) * 2);
     }
 
     &__answer-buttons {

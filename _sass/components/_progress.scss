@@ -1,7 +1,6 @@
 .c-progress {
   display: block;
   height: var(--size-8);
-  width: 100%;
   appearance: none;
   border: none;
   border-radius: var(--size-4);
@@ -16,7 +15,7 @@
   &::-webkit-progress-value {
     background: var(--b-color-brand);
     border-radius: var(--size-4);
-    transition: width 0.3s ease;
+    transition: width var(--b-duration-base) ease;
   }
 
   &::-moz-progress-bar {

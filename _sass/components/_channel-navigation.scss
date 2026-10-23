@@ -1,10 +1,9 @@
+// Navigation des canaux : compose la primitive .c-tabs ; ici, uniquement le
+// layout (onglets de largeur égale) et l'identité des canaux.
 .c-channel-navigation {
   margin-block-end: var(--size-16);
-  border-bottom: var(--border);
 
   &__list {
-    display: flex;
-    margin: 0;
     padding-inline: var(--size-16);
   }
 
@@ -15,45 +14,14 @@
   }
 
   &__link {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-width: 44px;
-    min-height: 44px;
-    color: var(--b-color-neutral-60);
-    text-decoration: none;
+    --icon-size: 1.5em;
 
-    &::after {
-      position: absolute;
-      inset-inline: var(--size-8);
-      inset-block-end: calc(var(--size-1) * -1);
-      height: 2px;
-      border-radius: var(--size-1);
-      background-color: transparent;
-      content: "";
-    }
+    flex: 1 1 auto;
+  }
 
-    &:hover,
-    &:focus-visible,
-    &[aria-current="page"] {
-      color: var(--b-color-brand);
-    }
-
-    &[aria-current="page"]::after {
-      background-color: currentcolor;
-    }
-
-    .c-icon {
-      width: 24px;
-      height: 24px;
-    }
-
-    .c-channel-navigation__site-label {
-      font-family: var(--font-family-heading);
-      font-size: var(--font-size);
-      line-height: 1;
-    }
+  &__site-label {
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size);
+    line-height: 1;
   }
 }

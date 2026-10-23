@@ -1,28 +1,24 @@
-$sizes: 2, 3;
+$scales: 2, 3;
 
+// Primitive icon : carré de 1em (via --icon-size), couleur héritée du texte.
 .c-icon {
-  display: flex;
+  display: inline-flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: center;
   width: var(--icon-size);
   height: var(--icon-size);
-  fill: var(--icon-color, currentColor);
+  fill: currentcolor;
 
   svg {
     width: 100%;
     height: 100%;
   }
 
-  &.c-icon--text {
-    flex: 0 0 1em;
-    width: 1em;
-    height: 1em;
-  }
-
-  @each $size in $sizes {
-    &.c-icon--x#{$size} {
-      width: calc(var(--icon-size) * $size);
-      height: calc(var(--icon-size) * $size);
+  @each $scale in $scales {
+    &.c-icon--x#{$scale} {
+      width: calc(var(--icon-size) * #{$scale});
+      height: calc(var(--icon-size) * #{$scale});
     }
   }
 }

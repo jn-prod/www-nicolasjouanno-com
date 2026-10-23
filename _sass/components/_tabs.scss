@@ -1,0 +1,47 @@
+// Primitive tabs : navigation par onglets. Cible de 44 px, onglet courant
+// (aria-current) souligné par la marque, survol en neutre foncé.
+.c-tabs {
+  border-bottom: var(--border);
+
+  &__nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__tab {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: var(--b-control-height);
+    min-height: var(--b-control-height);
+    padding-inline: var(--size-4);
+    color: var(--b-color-neutral-60);
+    text-decoration: none;
+
+    &::after {
+      position: absolute;
+      inset-inline: var(--size-8);
+      inset-block-end: calc(var(--size-1) * -1);
+      height: var(--b-line-width-strong);
+      border-radius: var(--size-1);
+      background-color: transparent;
+      content: "";
+    }
+
+    &:hover,
+    &:focus-visible {
+      color: var(--b-color-neutral-80);
+    }
+
+    &[aria-current] {
+      color: var(--b-color-brand);
+
+      &::after {
+        background-color: currentcolor;
+      }
+    }
+  }
+}

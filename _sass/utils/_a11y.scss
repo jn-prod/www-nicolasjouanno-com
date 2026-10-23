@@ -22,7 +22,8 @@
   outline: none;
 }
 
-*:focus-visible {
+*:focus-visible,
+.u-visually-hidden:focus-visible + label {
   outline: var(--b-line-width-strong) solid var(--b-color-brand);
   outline-offset: var(--b-line-width-strong);
 }
@@ -32,13 +33,13 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: var(--b-z-skip-link);
   padding: var(--size-8) var(--size-16);
   background: var(--b-color-neutral-100);
   color: var(--b-color-neutral-0);
   text-decoration: underline;
   transform: translateY(-110%);
-  transition: transform 0.15s ease-in-out;
+  transition: transform var(--b-duration-fast) ease-in-out;
 
   &:focus {
     transform: translateY(0);

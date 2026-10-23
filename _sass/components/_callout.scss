@@ -16,7 +16,6 @@
     color: var(--card-fg);
     line-height: var(--line-height);
     margin-bottom: var(--size-16);
-    opacity: 0.9;
 
     // Encart sans CTA (note vtt.bzh, « Le saviez-vous ? ») : le texte est le dernier élément.
     &:last-child {

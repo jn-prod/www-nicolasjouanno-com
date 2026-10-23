@@ -113,6 +113,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_button-stack.scss` | `.c-button-stack` + `--vertical` / `--center` / `--fill` | Groupe d'actions avec un gap horizontal et vertical de 4 px, y compris au retour à la ligne |
 | `_control.scss` | `.c-control` | Champ texte, select ou textarea : hauteur minimale, padding, bordure, rayon, typo et état désactivé communs |
 | `_progress.scss` | `.c-progress` | Barre de progression native stylisée (`display: block`) |
+| `_tabs.scss` | `.c-tabs` + `__nav` / `__tab` | Primitive d’onglets : cible de 44 px, onglet courant marqué par `aria-current="page"` et souligné par la marque, survol en neutre foncé |
 | `_stat.scss` | `.c-stat` + `.c-stat--{bar\|list}` | Statistiques — **layout seul** (skin via `.c-card`) ; `--bar` (KPI horizontaux), `--list` (lignes label/valeur). Éléments `__label`/`__value` communs |
 | `_card.scss` | `.c-card` | **Skin réutilisable** : fond, bordure, border-radius, spacing. Toute surface à fond/bordure passe par là |
 | `_card.scss` | `.c-card--{variant}` | Variantes de fond et texte : `flat`, `neutral`, `brand`, `info`, `alert` ; les deux dernières utilisent les aliases sémantiques partagés |
@@ -121,7 +122,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_callout.scss` | `.c-callout` | **Couche de contenu** (titre/texte centrés + CTA optionnel) posée sur une `.c-card` ; hérite de `--card-fg` |
 | `_quote.scss` | `.c-quote` + `.c-quote--{size}` | Citation réutilisable, posée sur une `.c-card` ; la taille de typo est une variante propre (`small`/`medium`/`large`), indépendante de la taille de card |
 | `_avatar.scss` | `.c-avatar` + `--{small\|medium\|large\|xlarge}` | Avatar rond (image) — tailles 32 / 96 / 128 / 256 |
-| `_icon.scss` | `.c-icon` + `--{text\|x2\|x3}` | Icône décorative rendue par `components/icon.html` ; `text` suit la taille de la police |
+| `_icon.scss` | `.c-icon` + `--{x2\|x3}` | Icône décorative rendue par `components/icon.html` : carré de `1em` (`--icon-size`) qui suit la taille du texte ; `scale="2"` ou `"3"` pour les multiples |
 | `_meta.scss` | `.c-meta` | Méta-information (date, handle, catégorie…) — texte petit et atténué |
 | `_meta-list.scss` | `.c-meta-list` | Liste flexible de métadonnées, avec icône ou lien facultatif |
 | `_tag.scss` | `.c-tag` | Étiquette / tag (catégorie, mot-clé) |
@@ -135,7 +136,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_quiz.scss` | `.c-quiz` | Layout spécifique au quiz — surcouche contextuelle uniquement |
 | `_newsletter-form.scss` | `.c-newsletter-form` | Formulaire d’inscription natif au site, relié à Kit sans charger son script embarqué |
 | `_profile.scss` | `.c-profile` | En-tête de profil de la home : identité, description, métadonnées et actions |
-| `_channel-navigation.scss` | `.c-channel-navigation` | Navigation compacte entre le site, ses outils et les réseaux publics sélectionnés |
+| `_channel-navigation.scss` | `.c-channel-navigation` | Navigation compacte entre le site, ses outils et les réseaux publics sélectionnés ; compose `.c-tabs` et ne porte que le layout |
 
 > **Règle — un seul langage par bouton.** Un bouton répond soit à « qui ? », soit à « quoi ? », jamais aux deux. Une marque ou un réseau identifiable (« qui ? ») utilise de préférence son icône seule via `.c-button--icon`, avec un `aria-label` explicite. Une action (« quoi ? ») utilise uniquement un libellé textuel, sans élément enfant, icône, emoji, flèche ou pictogramme. Le caractère `→` et les autres glyphes directionnels sont interdits dans les boutons d'action : le verbe du libellé doit suffire à exprimer l'action. Ne jamais associer une icône et du texte dans un même bouton.
 >
@@ -205,7 +206,7 @@ appartiennent au Core partagé. Les composants utilisent les aliases sémantique
 
 Quiz interactif sur les aliments contenant du gluten.
 
-- **Données** : `_data/gluten_quiz.yml` — format : `text`, `emoji`, `hasGluten`, `difficulty` (`low`/`medium`/`hard`), `explanation`
+- **Données** : `_data/gluten_quiz.yml` — format : `text`, `emoji`, `answer` (`gluten`/`sans-gluten`/`ca-depend`), `difficulty` (`low`/`medium`/`hard`), `explanation`, `source` (clé de `_data/gluten_quiz_sources.yml`)
 - **Template** : `_includes/apps/gluten-quiz-card.html` — carte pré-rendue par Liquid
 - **JS** : `apps/gluten-not-gluten/index.js` — style fonctionnel : fonctions pures + effets DOM séparés, état unique immuable
 

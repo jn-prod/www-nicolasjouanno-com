@@ -26,12 +26,12 @@ script: /assets/share.js
 
   <ul class="c-meta-list c-meta u-list">
     <li class="c-meta-list__item">
-      {% include components/icon.html name="location" size="text" %}
+      {% include components/icon.html name="location" %}
       <span>Bretagne, France</span>
     </li>
     <li class="c-meta-list__item">
       <a class="c-meta-list__link" href="/a-propos/">
-        {% include components/icon.html name="calendar" size="text" %}
+        {% include components/icon.html name="calendar" %}
         <span>En ligne depuis 2005</span>
       </a>
     </li>

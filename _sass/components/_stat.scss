@@ -2,6 +2,8 @@
 // Deux variantes : --bar (KPI horizontaux centrés) et --list (lignes label/valeur à séparateurs).
 // Élements communs : __label (gris) et __value (gras dark).
 .c-stat {
+  margin: 0;
+
   &__label {
     color: var(--b-color-neutral-60);
   }
@@ -24,13 +26,13 @@
 
   .c-stat__label {
     display: block;
-    font-size: calc(var(--font-size) * 0.875);
+    font-size: var(--b-font-size-small);
     margin-bottom: var(--size-4);
   }
 
   .c-stat__value {
     display: block;
-    font-size: calc(var(--font-size) * 1.5);
+    font-size: var(--b-font-size-large);
   }
 }
 

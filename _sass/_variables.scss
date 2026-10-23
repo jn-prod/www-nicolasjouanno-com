@@ -140,6 +140,10 @@
   --size-64: 64px;
   --size-128: 128px;
 
+  /* Typographie — contrat partagé */
+  --b-font-size-small: 1.4rem;
+  --b-font-size-large: 2.4rem;
+
   /* Controls — contrat partagé */
   --b-line-width-strong: 0.2rem;
   --b-control-height: 4.4rem;
@@ -147,12 +151,18 @@
   --b-control-font-size: 1.5rem;
   --b-disabled-opacity: 0.8;
 
+  /* Superposition et mouvement — contrat partagé */
+  --b-z-sticky: 10;
+  --b-z-overlay: 30;
+  --b-z-skip-link: 1000;
+  --b-duration-fast: 150ms;
+  --b-duration-base: 300ms;
+
   /* decoration */
-  --box-shadow: 0.5rem 0.3rem 1rem 0.3rem var(--b-color-neutral-80);
   --border: solid var(--b-color-border) var(--size-1);
 
-  /* icons */
-  --icon-size: var(--font-size, var(--size-16));
+  /* icons : carré de 1em, suit la taille du texte */
+  --icon-size: 1em;
 
   /* section */
   --section-spacing-x: var(--size-128);

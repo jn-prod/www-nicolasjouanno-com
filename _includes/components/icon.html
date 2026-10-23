@@ -1,2 +1,2 @@
 {%- capture icon_path -%}icons/{{ include.name }}.svg{%- endcapture -%}
-<span class="c-icon{% if include.size %} c-icon--{{ include.size }}{% endif %}" aria-hidden="true">{% include {{ icon_path }} %}</span>
+<span class="c-icon{% if include.scale %} c-icon--x{{ include.scale }}{% endif %}" aria-hidden="true">{% include {{ icon_path }} %}</span>
