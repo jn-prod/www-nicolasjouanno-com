@@ -235,6 +235,7 @@
   <section id="startScreen" class="c-quiz__screen" aria-labelledby="quiz-title">
     <div class="c-quiz__start">
       <p>Pour une personne cœliaque, cette question accompagne les repas au quotidien. Ce quiz rend visible la charge mentale de ce réflexe : gluten ou pas gluten ?</p>
+      <p>Trois réponses possibles : gluten, sans gluten ou ça dépend. Souvent, c’est la recette, la filière ou l’étiquette qui tranche.</p>
       <fieldset class="c-quiz__difficulty-buttons c-button-stack c-button-stack--vertical">
         <legend class="u-visually-hidden">Choisissez votre niveau de difficulté</legend>
         <input type="radio" id="diffLow" class="u-visually-hidden" name="difficulty" value="low">
@@ -268,902 +269,1037 @@
 
     <!-- Cartes questions pré-rendues -->
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍞</span>
     Pain
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-1" class="u-visually-hidden" name="answer-1" value="true">
-    <label for="answerGluten-1" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-1" class="u-visually-hidden" name="answer-1" value="false">
+    <input type="radio" id="answerGluten-1" class="u-visually-hidden" name="answer-1" value="gluten">
+    <label for="answerGluten-1" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-1" class="u-visually-hidden" name="answer-1" value="sans-gluten">
     <label for="answerNoGluten-1" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-1" class="u-visually-hidden" name="answer-1" value="ca-depend">
+    <label for="answerDepends-1" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le pain classique est fait avec de la farine de blé qui contient du gluten.</p>
+    <p class="c-callout__text">Le pain classique est fait avec de la farine de blé, qui contient du gluten. Seul un pain étiqueté « sans gluten » convient.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍚</span>
     Riz
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-2" class="u-visually-hidden" name="answer-2" value="true">
-    <label for="answerGluten-2" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-2" class="u-visually-hidden" name="answer-2" value="false">
+    <input type="radio" id="answerGluten-2" class="u-visually-hidden" name="answer-2" value="gluten">
+    <label for="answerGluten-2" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-2" class="u-visually-hidden" name="answer-2" value="sans-gluten">
     <label for="answerNoGluten-2" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-2" class="u-visually-hidden" name="answer-2" value="ca-depend">
+    <label for="answerDepends-2" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le riz est naturellement sans gluten et peut être consommé sans danger.</p>
+    <p class="c-callout__text">Le riz nature est naturellement sans gluten. Cuisiné, assaisonné ou servi au restaurant, il peut en contenir selon le bouillon, la sauce ou la préparation.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍝</span>
     Pâtes
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-3" class="u-visually-hidden" name="answer-3" value="true">
-    <label for="answerGluten-3" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-3" class="u-visually-hidden" name="answer-3" value="false">
+    <input type="radio" id="answerGluten-3" class="u-visually-hidden" name="answer-3" value="gluten">
+    <label for="answerGluten-3" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-3" class="u-visually-hidden" name="answer-3" value="sans-gluten">
     <label for="answerNoGluten-3" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-3" class="u-visually-hidden" name="answer-3" value="ca-depend">
+    <label for="answerDepends-3" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Les pâtes traditionnelles sont faites de blé dur et contiennent du gluten.</p>
+    <p class="c-callout__text">Les pâtes classiques sont faites de blé dur, qui contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-answer="sans-gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍎</span>
     Pomme
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-4" class="u-visually-hidden" name="answer-4" value="true">
-    <label for="answerGluten-4" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-4" class="u-visually-hidden" name="answer-4" value="false">
+    <input type="radio" id="answerGluten-4" class="u-visually-hidden" name="answer-4" value="gluten">
+    <label for="answerGluten-4" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-4" class="u-visually-hidden" name="answer-4" value="sans-gluten">
     <label for="answerNoGluten-4" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-4" class="u-visually-hidden" name="answer-4" value="ca-depend">
+    <label for="answerDepends-4" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Sans gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Les fruits frais sont tous naturellement sans gluten.</p>
+    <p class="c-callout__text">Les fruits frais sont naturellement sans gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍺</span>
     Bière
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-5" class="u-visually-hidden" name="answer-5" value="true">
-    <label for="answerGluten-5" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-5" class="u-visually-hidden" name="answer-5" value="false">
+    <input type="radio" id="answerGluten-5" class="u-visually-hidden" name="answer-5" value="gluten">
+    <label for="answerGluten-5" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-5" class="u-visually-hidden" name="answer-5" value="sans-gluten">
     <label for="answerNoGluten-5" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-5" class="u-visually-hidden" name="answer-5" value="ca-depend">
+    <label for="answerDepends-5" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">La bière classique est brassée à partir d'orge qui contient du gluten.</p>
+    <p class="c-callout__text">La bière classique est brassée avec de l’orge maltée, qui contient du gluten. Des bières étiquetées « sans gluten » existent.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-answer="sans-gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥩</span>
     Viande
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-6" class="u-visually-hidden" name="answer-6" value="true">
-    <label for="answerGluten-6" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-6" class="u-visually-hidden" name="answer-6" value="false">
+    <input type="radio" id="answerGluten-6" class="u-visually-hidden" name="answer-6" value="gluten">
+    <label for="answerGluten-6" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-6" class="u-visually-hidden" name="answer-6" value="sans-gluten">
     <label for="answerNoGluten-6" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-6" class="u-visually-hidden" name="answer-6" value="ca-depend">
+    <label for="answerDepends-6" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Sans gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">La viande fraîche non transformée est naturellement sans gluten.</p>
+    <p class="c-callout__text">La viande fraîche non transformée est naturellement sans gluten. Une marinade, une panure ou une farce change la réponse.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥐</span>
     Croissant
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-7" class="u-visually-hidden" name="answer-7" value="true">
-    <label for="answerGluten-7" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-7" class="u-visually-hidden" name="answer-7" value="false">
+    <input type="radio" id="answerGluten-7" class="u-visually-hidden" name="answer-7" value="gluten">
+    <label for="answerGluten-7" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-7" class="u-visually-hidden" name="answer-7" value="sans-gluten">
     <label for="answerNoGluten-7" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-7" class="u-visually-hidden" name="answer-7" value="ca-depend">
+    <label for="answerDepends-7" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Les viennoiseries sont faites avec de la farine de blé riche en gluten.</p>
+    <p class="c-callout__text">Les viennoiseries classiques sont faites avec de la farine de blé, qui contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-answer="sans-gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥕</span>
     Carotte
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-8" class="u-visually-hidden" name="answer-8" value="true">
-    <label for="answerGluten-8" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-8" class="u-visually-hidden" name="answer-8" value="false">
+    <input type="radio" id="answerGluten-8" class="u-visually-hidden" name="answer-8" value="gluten">
+    <label for="answerGluten-8" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-8" class="u-visually-hidden" name="answer-8" value="sans-gluten">
     <label for="answerNoGluten-8" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-8" class="u-visually-hidden" name="answer-8" value="ca-depend">
+    <label for="answerDepends-8" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Sans gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Tous les légumes frais sont naturellement sans gluten.</p>
+    <p class="c-callout__text">Les légumes frais sont naturellement sans gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍕</span>
     Pizza
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-9" class="u-visually-hidden" name="answer-9" value="true">
-    <label for="answerGluten-9" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-9" class="u-visually-hidden" name="answer-9" value="false">
+    <input type="radio" id="answerGluten-9" class="u-visually-hidden" name="answer-9" value="gluten">
+    <label for="answerGluten-9" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-9" class="u-visually-hidden" name="answer-9" value="sans-gluten">
     <label for="answerNoGluten-9" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-9" class="u-visually-hidden" name="answer-9" value="ca-depend">
+    <label for="answerDepends-9" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">La pâte à pizza classique contient de la farine de blé avec gluten.</p>
+    <p class="c-callout__text">La pâte à pizza classique est faite avec de la farine de blé, qui contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="low" data-answer="sans-gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥚</span>
     Œuf
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-10" class="u-visually-hidden" name="answer-10" value="true">
-    <label for="answerGluten-10" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-10" class="u-visually-hidden" name="answer-10" value="false">
+    <input type="radio" id="answerGluten-10" class="u-visually-hidden" name="answer-10" value="gluten">
+    <label for="answerGluten-10" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-10" class="u-visually-hidden" name="answer-10" value="sans-gluten">
     <label for="answerNoGluten-10" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-10" class="u-visually-hidden" name="answer-10" value="ca-depend">
+    <label for="answerDepends-10" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Sans gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
     <p class="c-callout__text">Les œufs sont naturellement sans gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥫</span>
-    Soja sauce
+    Sauce soja
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-11" class="u-visually-hidden" name="answer-11" value="true">
-    <label for="answerGluten-11" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-11" class="u-visually-hidden" name="answer-11" value="false">
+    <input type="radio" id="answerGluten-11" class="u-visually-hidden" name="answer-11" value="gluten">
+    <label for="answerGluten-11" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-11" class="u-visually-hidden" name="answer-11" value="sans-gluten">
     <label for="answerNoGluten-11" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-11" class="u-visually-hidden" name="answer-11" value="ca-depend">
+    <label for="answerDepends-11" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">La sauce soja traditionnelle contient du blé fermenté.</p>
+    <p class="c-callout__text">La sauce soja classique est fermentée avec du blé, qui contient du gluten. Le tamari s’en distingue, à condition de vérifier l’étiquette.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Quinoa
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-12" class="u-visually-hidden" name="answer-12" value="true">
-    <label for="answerGluten-12" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-12" class="u-visually-hidden" name="answer-12" value="false">
+    <input type="radio" id="answerGluten-12" class="u-visually-hidden" name="answer-12" value="gluten">
+    <label for="answerGluten-12" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-12" class="u-visually-hidden" name="answer-12" value="sans-gluten">
     <label for="answerNoGluten-12" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-12" class="u-visually-hidden" name="answer-12" value="ca-depend">
+    <label for="answerDepends-12" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le quinoa est une pseudo-céréale naturellement sans gluten.</p>
+    <p class="c-callout__text">Le quinoa est naturellement sans gluten, mais les grains et farines peuvent être contaminés dans la filière. Seule la mention « sans gluten » garantit un produit sûr.</p>
+    <p class="c-callout__text">Source : <a href="https://doi.org/10.1016/j.jada.2010.03.031" target="_blank" rel="noopener">Thompson et al., Journal of the American Dietetic Association, 2010</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍲</span>
     Couscous
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-13" class="u-visually-hidden" name="answer-13" value="true">
-    <label for="answerGluten-13" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-13" class="u-visually-hidden" name="answer-13" value="false">
+    <input type="radio" id="answerGluten-13" class="u-visually-hidden" name="answer-13" value="gluten">
+    <label for="answerGluten-13" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-13" class="u-visually-hidden" name="answer-13" value="sans-gluten">
     <label for="answerNoGluten-13" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-13" class="u-visually-hidden" name="answer-13" value="ca-depend">
+    <label for="answerDepends-13" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le couscous est fait de semoule de blé dur qui contient du gluten.</p>
+    <p class="c-callout__text">La semoule de couscous est faite de blé dur, qui contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Avoine
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-14" class="u-visually-hidden" name="answer-14" value="true">
-    <label for="answerGluten-14" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-14" class="u-visually-hidden" name="answer-14" value="false">
+    <input type="radio" id="answerGluten-14" class="u-visually-hidden" name="answer-14" value="gluten">
+    <label for="answerGluten-14" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-14" class="u-visually-hidden" name="answer-14" value="sans-gluten">
     <label for="answerNoGluten-14" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-14" class="u-visually-hidden" name="answer-14" value="ca-depend">
+    <label for="answerDepends-14" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">L'avoine pure est sans gluten, mais attention à la contamination croisée !</p>
+    <p class="c-callout__text">L’avoine fait partie des céréales à déclarer comme allergène. Elle ne peut être étiquetée « sans gluten » que si elle est spécialement produite et contient moins de 20 mg/kg de gluten ; certaines personnes cœliaques la tolèrent mal.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32014R0828" target="_blank" rel="noopener">Règlement d’exécution (UE) n° 828/2014</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍪</span>
     Biscuits
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-15" class="u-visually-hidden" name="answer-15" value="true">
-    <label for="answerGluten-15" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-15" class="u-visually-hidden" name="answer-15" value="false">
+    <input type="radio" id="answerGluten-15" class="u-visually-hidden" name="answer-15" value="gluten">
+    <label for="answerGluten-15" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-15" class="u-visually-hidden" name="answer-15" value="sans-gluten">
     <label for="answerNoGluten-15" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-15" class="u-visually-hidden" name="answer-15" value="ca-depend">
+    <label for="answerDepends-15" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Les biscuits classiques sont faits avec de la farine de blé.</p>
+    <p class="c-callout__text">Les biscuits classiques sont faits avec de la farine de blé, qui contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="sans-gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌽</span>
     Maïs
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-16" class="u-visually-hidden" name="answer-16" value="true">
-    <label for="answerGluten-16" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-16" class="u-visually-hidden" name="answer-16" value="false">
+    <input type="radio" id="answerGluten-16" class="u-visually-hidden" name="answer-16" value="gluten">
+    <label for="answerGluten-16" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-16" class="u-visually-hidden" name="answer-16" value="sans-gluten">
     <label for="answerNoGluten-16" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-16" class="u-visually-hidden" name="answer-16" value="ca-depend">
+    <label for="answerDepends-16" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Sans gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le maïs est naturellement sans gluten.</p>
+    <p class="c-callout__text">Le maïs est naturellement sans gluten. Pour une farine, une polenta ou des céréales soufflées, l’étiquette reste nécessaire.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥙</span>
     Seitan
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-17" class="u-visually-hidden" name="answer-17" value="true">
-    <label for="answerGluten-17" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-17" class="u-visually-hidden" name="answer-17" value="false">
+    <input type="radio" id="answerGluten-17" class="u-visually-hidden" name="answer-17" value="gluten">
+    <label for="answerGluten-17" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-17" class="u-visually-hidden" name="answer-17" value="sans-gluten">
     <label for="answerNoGluten-17" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-17" class="u-visually-hidden" name="answer-17" value="ca-depend">
+    <label for="answerDepends-17" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le seitan est fait de gluten de blé pur ! C'est du gluten à 100%.</p>
+    <p class="c-callout__text">Le seitan est fabriqué à partir du gluten de blé : c’est presque du gluten pur.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="sans-gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥛</span>
     Lait
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-18" class="u-visually-hidden" name="answer-18" value="true">
-    <label for="answerGluten-18" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-18" class="u-visually-hidden" name="answer-18" value="false">
+    <input type="radio" id="answerGluten-18" class="u-visually-hidden" name="answer-18" value="gluten">
+    <label for="answerGluten-18" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-18" class="u-visually-hidden" name="answer-18" value="sans-gluten">
     <label for="answerNoGluten-18" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-18" class="u-visually-hidden" name="answer-18" value="ca-depend">
+    <label for="answerDepends-18" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Sans gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le lait nature ne contient pas de gluten.</p>
+    <p class="c-callout__text">Le lait nature est naturellement sans gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥣</span>
-    Céréales
+    Céréales du petit-déjeuner
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-19" class="u-visually-hidden" name="answer-19" value="true">
-    <label for="answerGluten-19" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-19" class="u-visually-hidden" name="answer-19" value="false">
+    <input type="radio" id="answerGluten-19" class="u-visually-hidden" name="answer-19" value="gluten">
+    <label for="answerGluten-19" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-19" class="u-visually-hidden" name="answer-19" value="sans-gluten">
     <label for="answerNoGluten-19" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-19" class="u-visually-hidden" name="answer-19" value="ca-depend">
+    <label for="answerDepends-19" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">La plupart des céréales du commerce contiennent du blé, de l'orge ou du malt.</p>
+    <p class="c-callout__text">Beaucoup contiennent du blé, de l’orge ou du malt, mais des versions sans gluten existent. Seule l’étiquette tranche.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="sans-gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🧊</span>
-    Tofu
+    Tofu nature
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-20" class="u-visually-hidden" name="answer-20" value="true">
-    <label for="answerGluten-20" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-20" class="u-visually-hidden" name="answer-20" value="false">
+    <input type="radio" id="answerGluten-20" class="u-visually-hidden" name="answer-20" value="gluten">
+    <label for="answerGluten-20" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-20" class="u-visually-hidden" name="answer-20" value="sans-gluten">
     <label for="answerNoGluten-20" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-20" class="u-visually-hidden" name="answer-20" value="ca-depend">
+    <label for="answerDepends-20" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Sans gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le tofu nature est fait de soja et ne contient pas de gluten.</p>
+    <p class="c-callout__text">Le tofu nature est fait de soja, d’eau et d’un coagulant : il est naturellement sans gluten. Un tofu mariné ou fumé peut contenir de la sauce soja.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Orge
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-21" class="u-visually-hidden" name="answer-21" value="true">
-    <label for="answerGluten-21" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-21" class="u-visually-hidden" name="answer-21" value="false">
+    <input type="radio" id="answerGluten-21" class="u-visually-hidden" name="answer-21" value="gluten">
+    <label for="answerGluten-21" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-21" class="u-visually-hidden" name="answer-21" value="sans-gluten">
     <label for="answerNoGluten-21" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-21" class="u-visually-hidden" name="answer-21" value="ca-depend">
+    <label for="answerDepends-21" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">L'orge contient du gluten et doit être évitée par les cœliaques.</p>
+    <p class="c-callout__text">L’orge est une céréale qui contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="sans-gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍠</span>
     Patate douce
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-22" class="u-visually-hidden" name="answer-22" value="true">
-    <label for="answerGluten-22" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-22" class="u-visually-hidden" name="answer-22" value="false">
+    <input type="radio" id="answerGluten-22" class="u-visually-hidden" name="answer-22" value="gluten">
+    <label for="answerGluten-22" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-22" class="u-visually-hidden" name="answer-22" value="sans-gluten">
     <label for="answerNoGluten-22" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-22" class="u-visually-hidden" name="answer-22" value="ca-depend">
+    <label for="answerDepends-22" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Sans gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Les tubercules comme la patate douce sont sans gluten.</p>
+    <p class="c-callout__text">La patate douce est un légume naturellement sans gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍔</span>
     Burger
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-23" class="u-visually-hidden" name="answer-23" value="true">
-    <label for="answerGluten-23" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-23" class="u-visually-hidden" name="answer-23" value="false">
+    <input type="radio" id="answerGluten-23" class="u-visually-hidden" name="answer-23" value="gluten">
+    <label for="answerGluten-23" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-23" class="u-visually-hidden" name="answer-23" value="sans-gluten">
     <label for="answerNoGluten-23" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-23" class="u-visually-hidden" name="answer-23" value="ca-depend">
+    <label for="answerDepends-23" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le pain du burger contient généralement du gluten.</p>
+    <p class="c-callout__text">Le pain du burger classique est fait avec de la farine de blé, qui contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="sans-gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥛</span>
-    Yaourt
+    Yaourt nature
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-24" class="u-visually-hidden" name="answer-24" value="true">
-    <label for="answerGluten-24" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-24" class="u-visually-hidden" name="answer-24" value="false">
+    <input type="radio" id="answerGluten-24" class="u-visually-hidden" name="answer-24" value="gluten">
+    <label for="answerGluten-24" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-24" class="u-visually-hidden" name="answer-24" value="sans-gluten">
     <label for="answerNoGluten-24" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-24" class="u-visually-hidden" name="answer-24" value="ca-depend">
+    <label for="answerDepends-24" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Sans gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le yaourt nature est sans gluten, mais vérifiez les additifs.</p>
+    <p class="c-callout__text">Le yaourt nature est naturellement sans gluten. Un yaourt aux céréales ou aux biscuits demande de lire l’étiquette.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="medium" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥞</span>
     Crêpe
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-25" class="u-visually-hidden" name="answer-25" value="true">
-    <label for="answerGluten-25" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-25" class="u-visually-hidden" name="answer-25" value="false">
+    <input type="radio" id="answerGluten-25" class="u-visually-hidden" name="answer-25" value="gluten">
+    <label for="answerGluten-25" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-25" class="u-visually-hidden" name="answer-25" value="sans-gluten">
     <label for="answerNoGluten-25" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-25" class="u-visually-hidden" name="answer-25" value="ca-depend">
+    <label for="answerDepends-25" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Les crêpes traditionnelles sont faites avec de la farine de blé.</p>
+    <p class="c-callout__text">La crêpe classique est faite avec de la farine de froment, qui contient du gluten. La galette de sarrasin est une autre question.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🧪</span>
     Amidon
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-26" class="u-visually-hidden" name="answer-26" value="true">
-    <label for="answerGluten-26" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-26" class="u-visually-hidden" name="answer-26" value="false">
+    <input type="radio" id="answerGluten-26" class="u-visually-hidden" name="answer-26" value="gluten">
+    <label for="answerGluten-26" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-26" class="u-visually-hidden" name="answer-26" value="sans-gluten">
     <label for="answerNoGluten-26" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-26" class="u-visually-hidden" name="answer-26" value="ca-depend">
+    <label for="answerDepends-26" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">L'amidon non modifié peut provenir du blé et contenir du gluten.</p>
+    <p class="c-callout__text">Sur une étiquette européenne, l’origine d’un amidon doit être précisée lorsqu’il peut contenir du gluten : « amidon de blé » signale le risque. Sans étiquette, au restaurant par exemple, l’origine reste inconnue.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Sarrasin
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-27" class="u-visually-hidden" name="answer-27" value="true">
-    <label for="answerGluten-27" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-27" class="u-visually-hidden" name="answer-27" value="false">
+    <input type="radio" id="answerGluten-27" class="u-visually-hidden" name="answer-27" value="gluten">
+    <label for="answerGluten-27" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-27" class="u-visually-hidden" name="answer-27" value="sans-gluten">
     <label for="answerNoGluten-27" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-27" class="u-visually-hidden" name="answer-27" value="ca-depend">
+    <label for="answerDepends-27" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Malgré son nom, le sarrasin est sans gluten. Attention à la contamination !</p>
+    <p class="c-callout__text">Malgré son nom de « blé noir », le sarrasin est naturellement sans gluten. Mais farines et galettes sont souvent préparées à côté du froment : seule la mention « sans gluten » garantit un produit sûr.</p>
+    <p class="c-callout__text">Source : <a href="https://doi.org/10.1016/j.jada.2010.03.031" target="_blank" rel="noopener">Thompson et al., Journal of the American Dietetic Association, 2010</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Épeautre
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-28" class="u-visually-hidden" name="answer-28" value="true">
-    <label for="answerGluten-28" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-28" class="u-visually-hidden" name="answer-28" value="false">
+    <input type="radio" id="answerGluten-28" class="u-visually-hidden" name="answer-28" value="gluten">
+    <label for="answerGluten-28" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-28" class="u-visually-hidden" name="answer-28" value="sans-gluten">
     <label for="answerNoGluten-28" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-28" class="u-visually-hidden" name="answer-28" value="ca-depend">
+    <label for="answerDepends-28" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">L'épeautre est une ancienne variété de blé qui contient du gluten.</p>
+    <p class="c-callout__text">L’épeautre est une variété de blé : il contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Kamut
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-29" class="u-visually-hidden" name="answer-29" value="true">
-    <label for="answerGluten-29" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-29" class="u-visually-hidden" name="answer-29" value="false">
+    <input type="radio" id="answerGluten-29" class="u-visually-hidden" name="answer-29" value="gluten">
+    <label for="answerGluten-29" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-29" class="u-visually-hidden" name="answer-29" value="sans-gluten">
     <label for="answerNoGluten-29" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-29" class="u-visually-hidden" name="answer-29" value="ca-depend">
+    <label for="answerDepends-29" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le kamut est un blé ancien qui contient du gluten.</p>
+    <p class="c-callout__text">Le kamut est une variété de blé (blé de Khorasan) : il contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍺</span>
     Malt
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-30" class="u-visually-hidden" name="answer-30" value="true">
-    <label for="answerGluten-30" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-30" class="u-visually-hidden" name="answer-30" value="false">
+    <input type="radio" id="answerGluten-30" class="u-visually-hidden" name="answer-30" value="gluten">
+    <label for="answerGluten-30" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-30" class="u-visually-hidden" name="answer-30" value="sans-gluten">
     <label for="answerNoGluten-30" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-30" class="u-visually-hidden" name="answer-30" value="ca-depend">
+    <label for="answerDepends-30" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le malt est fait d'orge germée et contient du gluten.</p>
+    <p class="c-callout__text">Le malt est généralement de l’orge germée : il contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Amarante
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-31" class="u-visually-hidden" name="answer-31" value="true">
-    <label for="answerGluten-31" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-31" class="u-visually-hidden" name="answer-31" value="false">
+    <input type="radio" id="answerGluten-31" class="u-visually-hidden" name="answer-31" value="gluten">
+    <label for="answerGluten-31" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-31" class="u-visually-hidden" name="answer-31" value="sans-gluten">
     <label for="answerNoGluten-31" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-31" class="u-visually-hidden" name="answer-31" value="ca-depend">
+    <label for="answerDepends-31" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">L'amarante est une pseudo-céréale sans gluten.</p>
+    <p class="c-callout__text">L’amarante est naturellement sans gluten, mais les grains et farines peuvent être contaminés dans la filière. Seule la mention « sans gluten » garantit un produit sûr.</p>
+    <p class="c-callout__text">Source : <a href="https://doi.org/10.1016/j.jada.2010.03.031" target="_blank" rel="noopener">Thompson et al., Journal of the American Dietetic Association, 2010</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥫</span>
-    Sauce Tamari
+    Sauce tamari
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-32" class="u-visually-hidden" name="answer-32" value="true">
-    <label for="answerGluten-32" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-32" class="u-visually-hidden" name="answer-32" value="false">
+    <input type="radio" id="answerGluten-32" class="u-visually-hidden" name="answer-32" value="gluten">
+    <label for="answerGluten-32" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-32" class="u-visually-hidden" name="answer-32" value="sans-gluten">
     <label for="answerNoGluten-32" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-32" class="u-visually-hidden" name="answer-32" value="ca-depend">
+    <label for="answerDepends-32" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le tamari est une sauce soja sans blé, donc sans gluten.</p>
+    <p class="c-callout__text">Le tamari est traditionnellement fait sans blé, mais certaines recettes en contiennent. Il faut lire l’étiquette.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Seigle
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-33" class="u-visually-hidden" name="answer-33" value="true">
-    <label for="answerGluten-33" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-33" class="u-visually-hidden" name="answer-33" value="false">
+    <input type="radio" id="answerGluten-33" class="u-visually-hidden" name="answer-33" value="gluten">
+    <label for="answerGluten-33" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-33" class="u-visually-hidden" name="answer-33" value="sans-gluten">
     <label for="answerNoGluten-33" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-33" class="u-visually-hidden" name="answer-33" value="ca-depend">
+    <label for="answerDepends-33" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le seigle contient du gluten et doit être évité.</p>
+    <p class="c-callout__text">Le seigle est une céréale qui contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Teff
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-34" class="u-visually-hidden" name="answer-34" value="true">
-    <label for="answerGluten-34" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-34" class="u-visually-hidden" name="answer-34" value="false">
+    <input type="radio" id="answerGluten-34" class="u-visually-hidden" name="answer-34" value="gluten">
+    <label for="answerGluten-34" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-34" class="u-visually-hidden" name="answer-34" value="sans-gluten">
     <label for="answerNoGluten-34" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-34" class="u-visually-hidden" name="answer-34" value="ca-depend">
+    <label for="answerDepends-34" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le teff est une céréale éthiopienne naturellement sans gluten.</p>
+    <p class="c-callout__text">Le teff est naturellement sans gluten, mais les grains et farines peuvent être contaminés dans la filière. Seule la mention « sans gluten » garantit un produit sûr.</p>
+    <p class="c-callout__text">Source : <a href="https://doi.org/10.1016/j.jada.2010.03.031" target="_blank" rel="noopener">Thompson et al., Journal of the American Dietetic Association, 2010</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍯</span>
     Sirop de malt
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-35" class="u-visually-hidden" name="answer-35" value="true">
-    <label for="answerGluten-35" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-35" class="u-visually-hidden" name="answer-35" value="false">
+    <input type="radio" id="answerGluten-35" class="u-visually-hidden" name="answer-35" value="gluten">
+    <label for="answerGluten-35" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-35" class="u-visually-hidden" name="answer-35" value="sans-gluten">
     <label for="answerNoGluten-35" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-35" class="u-visually-hidden" name="answer-35" value="ca-depend">
+    <label for="answerDepends-35" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le sirop de malt provient de l'orge et contient du gluten.</p>
+    <p class="c-callout__text">Le sirop de malt est issu de l’orge maltée : il contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥙</span>
     Farine de pois chiche
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-36" class="u-visually-hidden" name="answer-36" value="true">
-    <label for="answerGluten-36" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-36" class="u-visually-hidden" name="answer-36" value="false">
+    <input type="radio" id="answerGluten-36" class="u-visually-hidden" name="answer-36" value="gluten">
+    <label for="answerGluten-36" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-36" class="u-visually-hidden" name="answer-36" value="sans-gluten">
     <label for="answerNoGluten-36" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-36" class="u-visually-hidden" name="answer-36" value="ca-depend">
+    <label for="answerDepends-36" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">La farine de pois chiche est sans gluten.</p>
+    <p class="c-callout__text">Le pois chiche est naturellement sans gluten, mais la farine peut être moulue ou conditionnée avec du blé. Seule la mention « sans gluten » garantit un produit sûr.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🍞</span>
     Matzo
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-37" class="u-visually-hidden" name="answer-37" value="true">
-    <label for="answerGluten-37" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-37" class="u-visually-hidden" name="answer-37" value="false">
+    <input type="radio" id="answerGluten-37" class="u-visually-hidden" name="answer-37" value="gluten">
+    <label for="answerGluten-37" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-37" class="u-visually-hidden" name="answer-37" value="sans-gluten">
     <label for="answerNoGluten-37" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-37" class="u-visually-hidden" name="answer-37" value="ca-depend">
+    <label for="answerDepends-37" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le pain azyme (matzo) traditionnel est fait de blé avec gluten.</p>
+    <p class="c-callout__text">Le pain azyme traditionnel est fait avec de la farine de blé : il contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Millet
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-38" class="u-visually-hidden" name="answer-38" value="true">
-    <label for="answerGluten-38" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-38" class="u-visually-hidden" name="answer-38" value="false">
+    <input type="radio" id="answerGluten-38" class="u-visually-hidden" name="answer-38" value="gluten">
+    <label for="answerGluten-38" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-38" class="u-visually-hidden" name="answer-38" value="sans-gluten">
     <label for="answerNoGluten-38" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-38" class="u-visually-hidden" name="answer-38" value="ca-depend">
+    <label for="answerDepends-38" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le millet est une céréale sans gluten.</p>
+    <p class="c-callout__text">Le millet est naturellement sans gluten, mais les grains et farines sont parmi les plus souvent contaminés dans la filière. Seule la mention « sans gluten » garantit un produit sûr.</p>
+    <p class="c-callout__text">Source : <a href="https://doi.org/10.1016/j.jada.2010.03.031" target="_blank" rel="noopener">Thompson et al., Journal of the American Dietetic Association, 2010</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Triticale
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-39" class="u-visually-hidden" name="answer-39" value="true">
-    <label for="answerGluten-39" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-39" class="u-visually-hidden" name="answer-39" value="false">
+    <input type="radio" id="answerGluten-39" class="u-visually-hidden" name="answer-39" value="gluten">
+    <label for="answerGluten-39" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-39" class="u-visually-hidden" name="answer-39" value="sans-gluten">
     <label for="answerNoGluten-39" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-39" class="u-visually-hidden" name="answer-39" value="ca-depend">
+    <label for="answerDepends-39" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le triticale est un hybride blé-seigle qui contient du gluten.</p>
+    <p class="c-callout__text">Le triticale est un hybride de blé et de seigle : il contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Sorgho
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-40" class="u-visually-hidden" name="answer-40" value="true">
-    <label for="answerGluten-40" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-40" class="u-visually-hidden" name="answer-40" value="false">
+    <input type="radio" id="answerGluten-40" class="u-visually-hidden" name="answer-40" value="gluten">
+    <label for="answerGluten-40" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-40" class="u-visually-hidden" name="answer-40" value="sans-gluten">
     <label for="answerNoGluten-40" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-40" class="u-visually-hidden" name="answer-40" value="ca-depend">
+    <label for="answerDepends-40" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le sorgho est une céréale sans gluten utilisée en Afrique.</p>
+    <p class="c-callout__text">Le sorgho est naturellement sans gluten, mais les grains et farines peuvent être contaminés dans la filière. Seule la mention « sans gluten » garantit un produit sûr.</p>
+    <p class="c-callout__text">Source : <a href="https://doi.org/10.1016/j.jada.2010.03.031" target="_blank" rel="noopener">Thompson et al., Journal of the American Dietetic Association, 2010</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="ca-depend" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🧪</span>
     Hydrolysat de protéines
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-41" class="u-visually-hidden" name="answer-41" value="true">
-    <label for="answerGluten-41" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-41" class="u-visually-hidden" name="answer-41" value="false">
+    <input type="radio" id="answerGluten-41" class="u-visually-hidden" name="answer-41" value="gluten">
+    <label for="answerGluten-41" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-41" class="u-visually-hidden" name="answer-41" value="sans-gluten">
     <label for="answerNoGluten-41" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-41" class="u-visually-hidden" name="answer-41" value="ca-depend">
+    <label for="answerDepends-41" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Ça dépend.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Peut provenir du blé. Toujours vérifier l'étiquette !</p>
+    <p class="c-callout__text">Tout dépend de son origine : un hydrolysat de protéines de blé contient du gluten et doit être signalé comme allergène, un hydrolysat de soja ou de maïs n’en contient pas.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="sans-gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥔</span>
     Tapioca
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-42" class="u-visually-hidden" name="answer-42" value="true">
-    <label for="answerGluten-42" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-42" class="u-visually-hidden" name="answer-42" value="false">
+    <input type="radio" id="answerGluten-42" class="u-visually-hidden" name="answer-42" value="gluten">
+    <label for="answerGluten-42" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-42" class="u-visually-hidden" name="answer-42" value="sans-gluten">
     <label for="answerNoGluten-42" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-42" class="u-visually-hidden" name="answer-42" value="ca-depend">
+    <label for="answerDepends-42" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Sans gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le tapioca est extrait du manioc et est sans gluten.</p>
+    <p class="c-callout__text">Le tapioca est une fécule de manioc, naturellement sans gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="true" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🌾</span>
     Farro
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-43" class="u-visually-hidden" name="answer-43" value="true">
-    <label for="answerGluten-43" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-43" class="u-visually-hidden" name="answer-43" value="false">
+    <input type="radio" id="answerGluten-43" class="u-visually-hidden" name="answer-43" value="gluten">
+    <label for="answerGluten-43" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-43" class="u-visually-hidden" name="answer-43" value="sans-gluten">
     <label for="answerNoGluten-43" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-43" class="u-visually-hidden" name="answer-43" value="ca-depend">
+    <label for="answerDepends-43" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">Le farro est une variété de blé ancien qui contient du gluten.</p>
+    <p class="c-callout__text">Le farro désigne d’anciennes variétés de blé (amidonnier, engrain, épeautre) : il contient du gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="sans-gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🥔</span>
     Arrow-root
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-44" class="u-visually-hidden" name="answer-44" value="true">
-    <label for="answerGluten-44" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-44" class="u-visually-hidden" name="answer-44" value="false">
+    <input type="radio" id="answerGluten-44" class="u-visually-hidden" name="answer-44" value="gluten">
+    <label for="answerGluten-44" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-44" class="u-visually-hidden" name="answer-44" value="sans-gluten">
     <label for="answerNoGluten-44" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-44" class="u-visually-hidden" name="answer-44" value="ca-depend">
+    <label for="answerDepends-44" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Sans gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">L'arrow-root est une fécule sans gluten utilisée comme épaississant.</p>
+    <p class="c-callout__text">L’arrow-root est une fécule tirée d’une racine, naturellement sans gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://afdiag.fr/au-quotidien/conseils-pour-suivre-un-regime-sans-gluten/" target="_blank" rel="noopener">AFDIAG — Conseils pour suivre un régime sans gluten</a></p>
   </div>
 </fieldset>
 
     
-      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-has-gluten="false" hidden>
+      <fieldset class="c-quiz__question-card c-card c-card--neutral c-card--large" data-difficulty="hard" data-answer="sans-gluten" hidden>
   <legend class="c-quiz__question-text u-title">
     <span class="c-quiz__question-emoji" aria-hidden="true">🧪</span>
     Maltodextrine
   </legend>
   <div class="c-quiz__answer-buttons c-button-stack c-button-stack--fill">
-    <input type="radio" id="answerGluten-45" class="u-visually-hidden" name="answer-45" value="true">
-    <label for="answerGluten-45" class="c-button c-button--dark-outline">Contient du gluten</label>
-    <input type="radio" id="answerNoGluten-45" class="u-visually-hidden" name="answer-45" value="false">
+    <input type="radio" id="answerGluten-45" class="u-visually-hidden" name="answer-45" value="gluten">
+    <label for="answerGluten-45" class="c-button c-button--dark-outline">Gluten</label>
+    <input type="radio" id="answerNoGluten-45" class="u-visually-hidden" name="answer-45" value="sans-gluten">
     <label for="answerNoGluten-45" class="c-button c-button--dark-outline">Sans gluten</label>
+    <input type="radio" id="answerDepends-45" class="u-visually-hidden" name="answer-45" value="ca-depend">
+    <label for="answerDepends-45" class="c-button c-button--dark-outline">Ça dépend</label>
   </div>
   <p class="c-quiz__feedback c-quiz__feedback--correct" role="status" hidden>✅ Bonne réponse !</p>
-  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse !</p>
+  <p class="c-quiz__feedback c-quiz__feedback--incorrect" role="status" hidden>❌ Mauvaise réponse : Sans gluten.</p>
   <div class="c-card c-card--flat c-card--outline c-card--medium c-callout" role="alert" hidden>
     <p class="c-callout__title"><span aria-hidden="true">💡</span>Le saviez-vous ?</p>
-    <p class="c-callout__text">En Europe, la maltodextrine est généralement sans gluten même si issue du blé.</p>
+    <p class="c-callout__text">Même issue du blé, la maltodextrine est exemptée de déclaration d’allergène : sa fabrication élimine le gluten.</p>
+    <p class="c-callout__text">Source : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32011R1169" target="_blank" rel="noopener">Règlement (UE) n° 1169/2011, annexes II et VII</a></p>
   </div>
 </fieldset>
 
