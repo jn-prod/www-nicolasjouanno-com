@@ -22,13 +22,18 @@
   outline: none;
 }
 
+*:focus-visible {
+  outline: var(--b-line-width-strong) solid var(--b-color-brand);
+  outline-offset: var(--b-line-width-strong);
+}
+
 // Skip link — lien d'évitement, visible uniquement au focus clavier (RGAA, cf. T-079)
 .skip-link {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1000;
-  padding: 0.5rem 1rem;
+  padding: var(--size-8) var(--size-16);
   background: var(--b-color-neutral-100);
   color: var(--b-color-neutral-0);
   text-decoration: underline;

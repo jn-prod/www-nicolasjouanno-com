@@ -1,0 +1,34 @@
+.c-publication-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--size-8);
+
+  &__pin,
+  &__header {
+    display: flex;
+    align-items: stretch;
+    gap: var(--size-8);
+  }
+
+  &__pin {
+    align-items: center;
+  }
+
+  &__header {
+    flex-direction: column;
+  }
+
+  &__title,
+  &__summary {
+    margin: 0;
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    max-height: calc(var(--size-16) * 20);
+    border-radius: var(--card-radius, var(--size-8));
+    object-fit: cover;
+  }
+}

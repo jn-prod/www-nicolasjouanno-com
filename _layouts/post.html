@@ -11,14 +11,12 @@ layout: page
   <!-- Post heading -->
   <header>
     <h1>{{ page.title }}</h1>
-    <div class="c-layout__author">
-      {% include /components/author.html post=page %}
-    </div>
+    <div class="c-author">{% include /components/author.html post=page %}</div>
     {% include components/post-taxonomy.html item=page %}
   </header>
 
   {% if page.image %}
-  <figure class="c-layout__medias u-spacing--0">
+  <figure class="u-spacing--0">
     <img
       src="{{ page.image | relative_url }}"
       alt="{{ page.image_alt | default: page.title }}"
@@ -36,7 +34,6 @@ layout: page
   <div>{{content}}</div>
 
   {% include components/newsletter-form.html id="post" variant="compact" %}
-
 </article>
 
 {% include components/related-posts.html %}

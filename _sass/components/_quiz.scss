@@ -51,7 +51,7 @@
     &:disabled .c-button {
       cursor: not-allowed;
       pointer-events: none;
-      opacity: 0.7;
+      opacity: var(--b-disabled-opacity);
     }
   }
 

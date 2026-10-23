@@ -20,14 +20,6 @@
 
   &__input {
     flex: 1 1 24rem;
-    min-width: 0;
-    min-height: calc(var(--font-size) * var(--line-height) + 2 * var(--size-8));
-    padding: var(--size-8) var(--size-16);
-    border: var(--border);
-    border-radius: var(--size-32);
-    background-color: var(--b-color-neutral-0);
-    color: var(--b-color-neutral-80);
-    font: inherit;
   }
 
   &--compact {

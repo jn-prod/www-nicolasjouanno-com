@@ -11,9 +11,10 @@
   --font-size-h5: calc(var(--font-size) * 1.2);
   --font-size-h6: calc(var(--font-size) * 1.1);
   --line-height: 1.4;
-  --font-family: 'Lato', sans-serif;
-  --font-family-heading: 'Abril Fatface', sans-serif;
-  --font-family-reading: 'Source Serif 4', georgia, cambria, "Times New Roman", times, serif;
+  --font-family: "Lato", sans-serif;
+  --font-family-heading: "Abril Fatface", sans-serif;
+  --font-family-reading:
+    "Source Serif 4", georgia, cambria, "Times New Roman", times, serif;
 
   /* Colors — Core */
   --b-color-neutral-0: #fff;
@@ -74,7 +75,9 @@
   );
   --b-color-semantic-alert-100: var(--b-color-neutral-100);
   --b-color-semantic-alert-background-muted: var(--b-color-semantic-alert-10);
-  --b-color-semantic-alert-background-emphasis: var(--b-color-semantic-alert-50);
+  --b-color-semantic-alert-background-emphasis: var(
+    --b-color-semantic-alert-50
+  );
   --b-color-semantic-alert-border: var(--b-color-semantic-alert-30);
   --b-color-semantic-alert-foreground: var(--b-color-semantic-alert-70);
   --b-color-semantic-info-0: var(--b-color-neutral-0);
@@ -137,6 +140,13 @@
   --size-64: 64px;
   --size-128: 128px;
 
+  /* Controls — contrat partagé */
+  --b-line-width-strong: 0.2rem;
+  --b-control-height: 4.4rem;
+  --b-control-radius: 3.2rem;
+  --b-control-font-size: 1.5rem;
+  --b-disabled-opacity: 0.8;
+
   /* decoration */
   --box-shadow: 0.5rem 0.3rem 1rem 0.3rem var(--b-color-neutral-80);
   --border: solid var(--b-color-border) var(--size-1);
@@ -150,7 +160,7 @@
   --section-spacing: var(--section-spacing-y) var(--section-spacing-x);
 
   /* responsive */
-  @media screen and (width <= var(--breakpoint-m)) {
+  @media screen and (width <= 90rem) {
     --section-spacing-x: var(--size-16);
   }
 }

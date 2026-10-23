@@ -1,0 +1,17 @@
+.c-control {
+  display: block;
+  min-width: 0;
+  min-height: var(--b-control-height);
+  padding: var(--size-8) var(--size-16);
+  border: var(--border);
+  border-radius: var(--b-control-radius);
+  background-color: var(--b-color-neutral-0);
+  color: var(--b-color-neutral-80);
+  font-family: var(--font-family);
+  font-size: var(--b-control-font-size);
+}
+
+.c-control:disabled {
+  cursor: not-allowed;
+  opacity: var(--b-disabled-opacity);
+}

@@ -1,12 +1,28 @@
-$variants: 'brand', 'dark', 'light';
+@use "sass:map";
+
+$variants: (
+  "brand": (
+    "background": var(--b-color-brand),
+    "foreground": var(--b-color-neutral-0),
+  ),
+  "dark": (
+    "background": var(--b-color-neutral-80),
+    "foreground": var(--b-color-neutral-0),
+  ),
+  "light": (
+    "background": var(--b-color-neutral-0),
+    "foreground": var(--b-color-neutral-80),
+  ),
+);
 
 @mixin section-variantes($variants) {
-  @each $variant in $variants {
+  @each $variant, $tokens in $variants {
     &.c-section--#{$variant} {
-      background-color: var(--color-#{$variant});
+      background-color: map.get($tokens, "background");
+      color: map.get($tokens, "foreground");
 
-      &, a:not(.c-button) {
-        color: var(--color-#{$variant}-with);
+      a:not(.c-button) {
+        color: inherit;
       }
     }
   }
@@ -27,19 +43,6 @@ $variants: 'brand', 'dark', 'light';
 
     &--center {
       justify-content: center;
-    }
-  }
-
-  &__post {
-    // Chaque article est désormais une .c-card autonome ; l'espacement vient du gap de la liste.
-    &-list {
-      display: flex;
-      flex-flow: column wrap;
-      align-items: stretch;
-      list-style: none;
-      gap: var(--size-16);
-      padding: 0;
-      margin: 0;
     }
   }
 

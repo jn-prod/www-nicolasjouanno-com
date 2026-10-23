@@ -52,12 +52,12 @@ script: /assets/share.js
 {% assign home_rest = home_posts | where_exp: "post", "post.pin != true" %}
 
 <h2 class="u-visually-hidden" id="publications">Publications</h2>
-<ul class="u-list c-section__post-list">
+<ul class="c-post-list">
   {% for post in home_pins limit: 1 %}
-    <li class="c-section__post-item">{% include components/post.html post=post %}</li>
+    <li>{% include components/post.html post=post %}</li>
   {% endfor %}
   {% for post in home_rest limit: 4 %}
-    <li class="c-section__post-item">{% include components/post.html post=post %}</li>
+    <li>{% include components/post.html post=post %}</li>
   {% endfor %}
 </ul>
 

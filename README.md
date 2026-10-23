@@ -111,10 +111,11 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_button.scss` | `.c-button--fullwidth` | Pleine largeur — passe en `display: flex` |
 | `_button.scss` | `.c-button[disabled]` | État désactivé — `opacity: 0.8`, `cursor: not-allowed` |
 | `_button-stack.scss` | `.c-button-stack` + `--vertical` / `--center` / `--fill` | Groupe d'actions avec un gap horizontal et vertical de 4 px, y compris au retour à la ligne |
+| `_control.scss` | `.c-control` | Champ texte, select ou textarea : hauteur minimale, padding, bordure, rayon, typo et état désactivé communs |
 | `_progress.scss` | `.c-progress` | Barre de progression native stylisée (`display: block`) |
 | `_stat.scss` | `.c-stat` + `.c-stat--{bar\|list}` | Statistiques — **layout seul** (skin via `.c-card`) ; `--bar` (KPI horizontaux), `--list` (lignes label/valeur). Éléments `__label`/`__value` communs |
 | `_card.scss` | `.c-card` | **Skin réutilisable** : fond, bordure, border-radius, spacing. Toute surface à fond/bordure passe par là |
-| `_card.scss` | `.c-card--{variant}` | Variantes de fond : `flat` (blanc), `neutral` (gris), `brand` (couleur de marque, texte clair) |
+| `_card.scss` | `.c-card--{variant}` | Variantes de fond et texte : `flat`, `neutral`, `brand`, `info`, `alert` ; les deux dernières utilisent les aliases sémantiques partagés |
 | `_card.scss` | `.c-card--outline` | Modificateur : bordure `dark` |
 | `_card.scss` | `.c-card--{size}` | Taille : pilote **padding ET border-radius** (proportionnels) — `small` (8 / 4), `medium` (16 / 8), `large` (32 / 16) |
 | `_callout.scss` | `.c-callout` | **Couche de contenu** (titre/texte centrés + CTA optionnel) posée sur une `.c-card` ; hérite de `--card-fg` |
@@ -122,13 +123,23 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_avatar.scss` | `.c-avatar` + `--{small\|medium\|large\|xlarge}` | Avatar rond (image) — tailles 32 / 96 / 128 / 256 |
 | `_icon.scss` | `.c-icon` + `--{text\|x2\|x3}` | Icône décorative rendue par `components/icon.html` ; `text` suit la taille de la police |
 | `_meta.scss` | `.c-meta` | Méta-information (date, handle, catégorie…) — texte petit et atténué |
+| `_meta-list.scss` | `.c-meta-list` | Liste flexible de métadonnées, avec icône ou lien facultatif |
 | `_tag.scss` | `.c-tag` | Étiquette / tag (catégorie, mot-clé) |
+| `_breadcrumb.scss` | `.c-breadcrumb` | Fil d’Ariane sémantique et séparateurs visuels |
+| `_author.scss` | `.c-author` | Identité compacte d’un auteur, composée avec `.c-avatar` et `.c-meta` |
+| `_post-list.scss` | `.c-post-list` | Liste verticale des cartes de publication |
+| `_publication-card.scss` | `.c-publication-card` | Anatomie d’un aperçu éditorial : pin, taxonomie, titre, date, image et résumé |
+| `_embed.scss` | `.c-embed` | Média embarqué responsive au ratio 16/9, sans style inline |
+| `_section.scss` | `.c-section` | Bande pleine largeur et variantes `brand`, `dark`, `light` |
+| `_navigation.scss` | `.c-navigation` | Navigation d’en-tête et groupe d’actions |
 | `_quiz.scss` | `.c-quiz` | Layout spécifique au quiz — surcouche contextuelle uniquement |
 | `_newsletter-form.scss` | `.c-newsletter-form` | Formulaire d’inscription natif au site, relié à Kit sans charger son script embarqué |
 | `_profile.scss` | `.c-profile` | En-tête de profil de la home : identité, description, métadonnées et actions |
 | `_channel-navigation.scss` | `.c-channel-navigation` | Navigation compacte entre le site, ses outils et les réseaux publics sélectionnés |
 
 > **Règle — un seul langage par bouton.** Un bouton répond soit à « qui ? », soit à « quoi ? », jamais aux deux. Une marque ou un réseau identifiable (« qui ? ») utilise de préférence son icône seule via `.c-button--icon`, avec un `aria-label` explicite. Une action (« quoi ? ») utilise uniquement un libellé textuel, sans élément enfant, icône, emoji, flèche ou pictogramme. Le caractère `→` et les autres glyphes directionnels sont interdits dans les boutons d'action : le verbe du libellé doit suffire à exprimer l'action. Ne jamais associer une icône et du texte dans un même bouton.
+>
+> **Règle — contrôles et états communs.** Les champs visibles composent `.c-control`. Boutons et contrôles partagent une hauteur minimale de 44 px, un corps de 15 px, un focus visible de marque en 2 px et une opacité désactivée de `0.8`. Aucun composant métier ne redéfinit localement ces états.
 >
 > **Règle — emoji décoratif inaccessible.** Un emoji purement visuel est toujours enveloppé dans un élément portant `aria-hidden="true"`. Le texte adjacent doit conserver seul tout le sens ; un emoji ne remplace jamais un libellé accessible.
 >
@@ -158,7 +169,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `.u-spacing--block-end-{small\|medium\|large}` | Marge logique en bas — `8` / `16` / `32` |
 | `.u-spacing--inline-{small\|medium\|large}` | Marge logique horizontale (gauche + droite) — `8` / `16` / `32` |
 
-> **Règle — spacing en tailles de t-shirt.** Une marge **ad-hoc** (dans le markup, au coup par coup) n'est **jamais codée en dur** (ni `var(--size-*)` brut, ni valeur arbitraire) : on compose une **variante explicite** `small` / `medium` / `large` (= `8` / `16` / `32`), alignée sur la convention t-shirt de `.c-card` / `.c-quote`. Les marges sont **logiques** (`block-start` / `block-end` / `inline`) pour rester correctes en RTL. Échelle définie par une seule source dans `_sass/utils/_spacing.scss` (`$spacing-sizes`). À privilégier quand l'espacement ne peut pas venir du `gap` d'un conteneur flex parent (ex. card CTA isolée après une `.c-section__post-list` à marge nulle).
+> **Règle — spacing en tailles de t-shirt.** Une marge **ad-hoc** (dans le markup, au coup par coup) n'est **jamais codée en dur** (ni `var(--size-*)` brut, ni valeur arbitraire) : on compose une **variante explicite** `small` / `medium` / `large` (= `8` / `16` / `32`), alignée sur la convention t-shirt de `.c-card` / `.c-quote`. Les marges sont **logiques** (`block-start` / `block-end` / `inline`) pour rester correctes en RTL. Échelle définie par une seule source dans `_sass/utils/_spacing.scss` (`$spacing-sizes`). À privilégier quand l'espacement ne peut pas venir du `gap` d'un conteneur flex parent (ex. card CTA isolée après une `.c-post-list` à marge nulle).
 >
 > **Portée.** Ces utilitaires visent le spacing **contextuel / ad-hoc**. Le **rythme externe d'un composant réutilisable** (ex. `.c-callout { margin-block: var(--size-32) }`) peut **rester dans son SCSS** s'il mappe sur l'échelle (8/16/32) : une marge possédée par le composant s'applique automatiquement partout (anti-oubli), là où la sortir en utilitaire la rendrait oubliable sur chaque instance. Les **marges internes** entre sous-éléments d'un composant restent **toujours** dans son SCSS (encapsulation).
 
@@ -176,6 +187,8 @@ Définis dans `_sass/_variables.scss` :
 --b-color-border / --border
 --b-color-brand
 --size-4, --size-8, --size-16, --size-32
+--b-line-width-strong, --b-control-height, --b-control-radius
+--b-control-font-size, --b-disabled-opacity
 --font-size, --font-size-h3, --font-size-h4
 --font-family, --font-family-heading
 --border, --line-height

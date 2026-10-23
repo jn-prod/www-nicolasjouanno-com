@@ -1,0 +1,29 @@
+.c-breadcrumb {
+  margin-bottom: var(--size-8);
+
+  ol {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline;
+  }
+
+  li + li::before {
+    display: inline-block;
+    height: var(--size-8);
+    margin: 0 var(--size-4);
+    transform: rotate(15deg);
+    border-right: var(--border);
+    border-color: currentcolor;
+    content: "";
+  }
+
+  [aria-current="page"] {
+    color: var(--b-color-neutral-80);
+    font-weight: 700;
+    text-decoration: none;
+  }
+}

@@ -34,6 +34,20 @@
   --card-fg: var(--b-color-neutral-0);
 }
 
+.c-card--info {
+  --card-bg: var(--b-color-semantic-info-background-muted);
+  --card-fg: var(--b-color-semantic-info-foreground);
+
+  border-color: var(--b-color-semantic-info-border);
+}
+
+.c-card--alert {
+  --card-bg: var(--b-color-semantic-alert-background-muted);
+  --card-fg: var(--b-color-semantic-alert-foreground);
+
+  border-color: var(--b-color-semantic-alert-border);
+}
+
 // Modificateur de bordure : bordure dark
 .c-card--outline {
   border-color: var(--b-color-neutral-80);
