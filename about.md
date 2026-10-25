@@ -2,7 +2,7 @@
 title: À propos
 layout: page
 description: J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten, et je construis les outils qui nous manquent.
-permalink: /a-propos/
+permalink: /about/
 ---
 
 <hgroup class="u-text--center">
@@ -10,7 +10,7 @@ permalink: /a-propos/
   <p>Je raconte ce que nous trouvons en chemin et je construis les outils qui nous manquent.</p>
 </hgroup>
 
-<p class="u-text--center"><img class="c-avatar c-avatar--xlarge" src="/images/nicolas-jouanno.jpg" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
+<p class="u-text--center h-card"><data class="p-name" value="Nicolas Jouanno"></data><data class="u-url u-uid" value="https://www.nicolasjouanno.com/"></data><img class="c-avatar c-avatar--xlarge u-photo" src="/images/nicolas-jouanno.jpg" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>
 
 Le vélo a d'abord donné le rythme. J'ai été cycliste professionnel chez Bretagne Schuller. J'ai pris part à cinq championnats de France, avant qu'une blessure ne m'oblige à raccrocher. Mon [palmarès cycliste](/results.html) retrace ces saisons.
 
@@ -46,3 +46,5 @@ Après le cyclisme professionnel, je me suis reconverti dans le numérique. Je s
 <p><a href="/work/" class="c-button c-button--dark-outline">Découvrir mon parcours</a></p>
 
 {% include components/social-links.html %}
+
+Ce site suit les conventions de l’[IndieWeb](/indieweb/).

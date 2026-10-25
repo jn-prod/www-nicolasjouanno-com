@@ -4,7 +4,7 @@ truncatewords: 70 %}
 
 <article
   id="{{post.slug}}"
-  class="c-publication-card c-card c-card--flat c-card--medium"
+  class="c-publication-card c-card c-card--flat c-card--medium h-entry"
 >
   {% if post.pin %}
   <div class="c-publication-card__pin c-meta">
@@ -16,13 +16,13 @@ truncatewords: 70 %}
   <header class="c-publication-card__header">
     {% include components/post-taxonomy.html item=post %}
 
-    <h3 class="c-publication-card__title" id="{{post.slug}}-title">
-      <a class="u-link--dark" href="{{ post.url | absolute_url }}"
+    <h3 class="c-publication-card__title p-name" id="{{post.slug}}-title">
+      <a class="u-link--dark u-url" href="{{ post.url | absolute_url }}"
         >{{ post.title }}</a
       >
     </h3>
 
-    <time class="c-meta" datetime="{{ post.date | date_to_xmlschema }}">
+    <time class="c-meta dt-published" datetime="{{ post.date | date_to_xmlschema }}">
       {{ post.date | date: "%d/%m/%Y" }}
     </time>
   </header>
@@ -36,7 +36,7 @@ truncatewords: 70 %}
   />
   {% endif %} {% if summary %}
   <p class="c-publication-card__summary">
-    {{summary}}
+    <span class="p-summary">{{summary}}</span>
     <a
       href="{{ post.url | absolute_url }}"
       aria-describedby="{{ post.slug }}-title"

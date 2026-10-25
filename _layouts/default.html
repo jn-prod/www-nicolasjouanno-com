@@ -13,9 +13,9 @@ layout: base
         <ul class="u-list c-navigation__link-list">
           <li class="c-navigation__link-list-element">
             <a
-              href="{{ site.url }}/a-propos/"
-              class="c-button {% if page.url == '/a-propos/' %}c-button--active{% endif %}"
-              {% if page.url == '/a-propos/' %}aria-current="page"{% endif %}
+              href="{{ site.url }}/about/"
+              class="c-button {% if page.url == '/about/' %}c-button--active{% endif %}"
+              {% if page.url == '/about/' %}aria-current="page"{% endif %}
               >Bio</a
             >
           </li>
@@ -43,6 +43,7 @@ layout: base
   <p>
     © 2008 - {{ site.time | date: "%Y" }},
     <a href="/">{{ site.author.name }}</a>. Tous
-    droits réservés. <a href="/a-propos/">À propos</a>. <a href="/mentions-legales/">Mentions légales</a>.
+    droits réservés.
   </p>
+  {% include components/footer-links.html %}
 </footer>

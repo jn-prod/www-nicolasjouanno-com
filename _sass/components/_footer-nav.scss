@@ -1,0 +1,9 @@
+// Liens des pages du site en pied de page : liens texte espacés, centrés,
+// qui passent à la ligne sans se coller.
+.c-footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--size-8) var(--size-16);
+  margin: 0;
+}

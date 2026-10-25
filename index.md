@@ -6,16 +6,17 @@ permalink: /index.html
 script: /assets/share.js
 ---
 
-<header class="c-profile">
+<header class="c-profile h-card">
   <div class="c-profile__identity">
-    <img class="c-avatar c-avatar--medium" src="/images/nicolas-jouanno.jpg" alt="Portrait de Nicolas Jouanno" width="96" height="96" />
+    <img class="c-avatar c-avatar--medium u-photo" src="/images/nicolas-jouanno.jpg" alt="Portrait de Nicolas Jouanno" width="96" height="96" />
     <hgroup class="c-profile__heading">
-      <h1>{{ site.title }}</h1>
-      <p>{{ site.author.handle }}</p>
+      <h1 class="p-name">{{ site.title }}</h1>
+      <p class="p-nickname">{{ site.author.handle }}</p>
+      <data class="u-url u-uid" value="{{ site.url }}/"></data>
     </hgroup>
   </div>
 
-  <p class="c-profile__description">
+  <p class="c-profile__description p-note">
     Des chemins, du matériel et des idées pour passer plus de temps dehors.<br>
     Ici, le vécu compte plus que le chrono.<br>
     <span aria-hidden="true">⏮️</span> <a href="/results.html">Ex-cycliste pro</a>.
@@ -27,18 +28,23 @@ script: /assets/share.js
   <ul class="c-meta-list c-meta u-list">
     <li class="c-meta-list__item">
       {% include components/icon.html name="location" %}
-      <span>Bretagne, France</span>
+      <span class="p-adr h-adr"><span class="p-region">Bretagne</span>, <span class="p-country-name">France</span></span>
     </li>
     <li class="c-meta-list__item">
-      <a class="c-meta-list__link" href="/a-propos/">
+      <a class="c-meta-list__link" href="/about/">
         {% include components/icon.html name="calendar" %}
         <span>En ligne depuis 2005</span>
+      </a>
+    </li>
+    <li class="c-meta-list__item">
+      <a class="c-meta-list__link" href="/blogroll/">
+        <span><strong>{{ site.data.blogroll | size }}</strong> abonnement{% if site.data.blogroll.size > 1 %}s{% endif %}</span>
       </a>
     </li>
   </ul>
 
   <div class="c-button-stack">
-    <a class="c-button c-button--dark-outline" href="mailto:{{ site.author.email }}">Contact</a>
+    <a class="c-button c-button--dark-outline u-email" href="mailto:{{ site.author.email }}">Contact</a>
     <button class="c-button c-button--dark-outline" type="button" data-share-profile hidden>Partager</button>
   </div>
 </header>
@@ -52,7 +58,7 @@ script: /assets/share.js
 {% assign home_rest = home_posts | where_exp: "post", "post.pin != true" %}
 
 <h2 class="u-visually-hidden" id="publications">Publications</h2>
-<ul class="c-post-list">
+<ul class="c-post-list h-feed">
   {% for post in home_pins limit: 1 %}
     <li>{% include components/post.html post=post %}</li>
   {% endfor %}
