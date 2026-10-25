@@ -3,11 +3,13 @@ layout: page
 title: En ce moment
 description: "Ce qui occupe Nicolas Jouanno en ce moment : La Sortie, vtt.bzh, le sans gluten et ce site."
 permalink: /now/
+status: l’édition de novembre de La Sortie
+updated: 2026-10-25
 ---
 
 # En ce moment
 
-_Mis à jour le 25 octobre 2026._
+_Mis à jour le {{ page.updated | date: "%d/%m/%Y" }}._
 
 Cette page dit ce qui m’occupe en ce moment. Je la mets à jour quand quelque chose change, pas selon un calendrier.
 

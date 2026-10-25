@@ -25,6 +25,7 @@ script: /assets/share.js
     <span aria-hidden="true">🌱</span> <a href="/nutrition/sans-gluten.html">Assiettes sans gluten</a>.
   </p>
 
+  {% assign now_page = site.pages | where: "permalink", "/now/" | first %}
   <ul class="c-meta-list c-meta u-list">
     <li class="c-meta-list__item">
       {% include components/icon.html name="location" %}
@@ -43,7 +44,14 @@ script: /assets/share.js
     </li>
   </ul>
 
+  {% if now_page.status %}
+  <p class="c-meta">
+    <a href="/now/">En ce moment : {{ now_page.status }}</a> <time datetime="{{ now_page.updated | date: '%Y-%m-%d' }}">({{ now_page.updated | date: "%d/%m/%Y" }})</time>
+  </p>
+  {% endif %}
+
   <div class="c-button-stack">
+    <a class="c-button c-button--brand" href="/hello/">Suivre</a>
     <a class="c-button c-button--dark-outline u-email" href="mailto:{{ site.author.email }}">Contact</a>
     <button class="c-button c-button--dark-outline" type="button" data-share-profile hidden>Partager</button>
   </div>
