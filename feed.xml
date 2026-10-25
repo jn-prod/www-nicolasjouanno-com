@@ -1,5 +1,5 @@
 ---
 layout: null
 ---
-{% assign feed_posts = site.posts | where_exp: "post", "post.category != 'archive'" %}
+{%- assign feed_posts = site.posts | where_exp: "post", "post.category != 'archive'" -%}
 {% include rss-feed.xml posts=feed_posts title=site.title description=site.description link="/" self_url="/feed.xml" update_period="daily" %}
