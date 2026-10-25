@@ -26,6 +26,7 @@ script: /assets/share.js
   </p>
 
   {% assign now_page = site.pages | where: "permalink", "/now/" | first %}
+  {% assign published_posts = site.posts | where_exp: "post", "post.category != 'archive'" %}
   <ul class="c-meta-list c-meta u-list">
     <li class="c-meta-list__item">
       {% include components/icon.html name="location" %}
@@ -40,6 +41,11 @@ script: /assets/share.js
     <li class="c-meta-list__item">
       <a class="c-meta-list__link" href="/blogroll/">
         <span><strong>{{ site.data.blogroll | size }}</strong> abonnement{% if site.data.blogroll.size > 1 %}s{% endif %}</span>
+      </a>
+    </li>
+    <li class="c-meta-list__item">
+      <a class="c-meta-list__link" href="/posts.html">
+        <span><strong>{{ published_posts | size }}</strong> publication{% if published_posts.size > 1 %}s{% endif %}</span>
       </a>
     </li>
   </ul>
