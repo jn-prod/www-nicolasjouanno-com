@@ -25,6 +25,7 @@ author:
     - "Maladie cœliaque"
     - "Ravitaillement sportif sans gluten"
   # social
+  webmention: "https://webmention.io/www.nicolasjouanno.com/webmention"
   handle: "@bynicolasjd"
   facebook: "https://facebook.com/502710249769535"
   github: "https://github.com/jn-prod"

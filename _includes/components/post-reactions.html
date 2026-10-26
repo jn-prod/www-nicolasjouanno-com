@@ -1,0 +1,29 @@
+{% comment %}
+  Réactions d'un article, sans script ni service tiers à l'affichage.
+  - `mentions` (front matter) : pages qui citent l'article, ajoutées à la main
+    après relecture (webmention reçue, club, presse…). Champs : `url`, `title`,
+    `author` (facultatif), `date` (facultatif).
+  - `syndication` (front matter) : copies relayées sur les réseaux. Champs :
+    `name` (Facebook, Instagram…), `url`.
+{% endcomment %}
+{% assign reply_subject = page.title | prepend: "Re: " | url_encode | replace: "+", "%20" %}
+{% if page.mentions.size > 0 %}
+<section class="u-spacing--block-start-large" aria-labelledby="post-mentions-title">
+  <h2 id="post-mentions-title">Ils en parlent</h2>
+  <ul>
+    {% for mention in page.mentions %}
+    <li class="h-cite">
+      <a class="u-url p-name" href="{{ mention.url }}">{{ mention.title }}</a>{% if mention.author %},
+      <span class="p-author">{{ mention.author }}</span>{% endif %}{% if mention.date %}
+      <time class="c-meta dt-published" datetime="{{ mention.date | date: '%Y-%m-%d' }}">{{ mention.date | date: "%d/%m/%Y" }}</time>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+<p class="u-spacing--block-start-large">
+  Une réaction ?
+  <a href="mailto:{{ site.author.email }}?subject={{ reply_subject }}">Répondez-moi par e-mail</a>{% if page.syndication.size > 0 %}
+  ou sur{% for copy in page.syndication %}{% if forloop.last and forloop.length > 1 %} ou{% elsif forloop.first == false %},{% endif %}
+  <a class="u-syndication" href="{{ copy.url }}">{{ copy.name }}</a>{% endfor %}{% endif %}.
+</p>

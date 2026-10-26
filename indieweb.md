@@ -16,6 +16,7 @@ Ce site garde la forme d’un profil, celle que tout le monde sait lire. Dessous
 - **Je publie d’abord ici.** Les éditions de La Sortie sont publiées sur ce site, puis relayées sur Facebook, Instagram et Threads. C’est le principe [POSSE](https://indieweb.org/POSSE) : publier sur son propre site, diffuser ailleurs.
 - **Le site déclare mes profils.** L’en-tête de chaque page relie mes profils avec l’attribut [`rel="me"`](https://indieweb.org/rel-me), qui indique que le lien désigne la même personne que la page.
 - **Les machines lisent aussi le site.** L’accueil et la page À propos décrivent l’auteur avec un [h-card](https://microformats.org/wiki/h-card), et chaque article est balisé en [h-entry](https://microformats.org/wiki/h-entry). Un lecteur de flux ou un annuaire y retrouve le nom, la photo, le titre et la date sans deviner.
+- **Les réponses arrivent ici, et je choisis ce qui s’affiche.** Le site accepte les [webmentions](https://indieweb.org/Webmention), le standard qui permet à des sites de se répondre entre eux. Je les lis avant d’en afficher une sous l’article, dans « Ils en parlent », avec les autres pages qui le citent. Vous pouvez aussi me répondre par e-mail, ou sous la publication relayée sur les réseaux.
 
 ## Les pages
 
@@ -29,4 +30,4 @@ Leur nom reprend les « [slash pages](https://slashpages.net/) », ces pages pla
 
 ## Ce que je n’ai pas mis en place
 
-Je n’utilise pas [Webmention](https://indieweb.org/Webmention), le standard qui permet à des sites de se répondre entre eux, ni [IndieAuth](https://indieweb.org/IndieAuth), qui sert à se connecter avec son propre domaine.
+Je n’utilise pas [IndieAuth](https://indieweb.org/IndieAuth), qui sert à se connecter avec son propre domaine.
