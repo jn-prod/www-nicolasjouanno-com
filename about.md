@@ -16,7 +16,7 @@ Le vélo a d'abord donné le rythme. J'ai été cycliste professionnel chez Bret
 
 Aujourd'hui, je roule et je cours autrement. Avec ma famille, nous parcourons l'Europe en van au rythme des vacances, avec les vélos, les chaussures de trail et la contrainte du sans gluten dans nos bagages.
 
-Je crée sur le web depuis plus de vingt ans. J’y publie lorsqu’une expérience mérite d’être partagée ou qu’un problème vécu appelle une réponse concrète.
+Je crée sur le web depuis plus de vingt ans : d’abord sur Skyblog et MySpace en 2005, puis sur ce site, en ligne depuis 2008. J’y publie lorsqu’une expérience mérite d’être partagée ou qu’un problème vécu appelle une réponse concrète.
 
 <p><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a></p>
 
