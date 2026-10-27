@@ -16,6 +16,7 @@
   "license": "MIT",
   "homepage": "https://www.nicolasjouanno.com",
   "scripts": {
+    "prepare": "husky",
     "dev": "pnpm build && python3 -m http.server -d ./_site",
     "build": "pnpm build:images && pnpm check:positioning && pnpm check:content-images && pnpm sync:icons && pnpm build:site && pnpm copy:images && pnpm check:site",
     "build:images": "pnpm build:images:prepare && pnpm build:images:raster && pnpm build:images:svg",
@@ -46,6 +47,7 @@
     "@eslint/js": "^10.0.1",
     "eslint": "^10.13.0",
     "globals": "^17.13.0",
+    "husky": "^9.1.7",
     "prettier": "latest",
     "sharp": "^0.35.5",
     "sharp-cli": "^6.1.0",
