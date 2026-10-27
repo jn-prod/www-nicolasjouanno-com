@@ -43,6 +43,7 @@ Une ligne par idée, supprimée une fois l'édition publiée. Aucune idée n'obl
 - Le terrain avant la discipline
 - Partir de chez soi : l'aventure sans destination lointaine
 - Retrouver le plaisir de l'effort sans compteur
+- Quand le sport loisir finit par épuiser (burn-out du sportif amateur, demande des témoignages)
 - Baromètre « Randos en Bretagne » à partir des données du calendrier vtt.bzh
 
 ## Rôles

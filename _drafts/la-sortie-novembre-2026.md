@@ -1,6 +1,6 @@
 ---
-title: "Quand le sport loisir finit par épuiser"
-description: ""
+title: "Le dossard n’est pas la destination"
+description: "Onze rendez-vous en novembre, et presque partout le même choix : la distance se décide le matin, à la table d’inscription."
 category: newsletter
 permalink: /la-sortie/2026-11/
 tags:
@@ -9,40 +9,50 @@ tags:
 ---
 
 <!--
-Brouillon initialisé le 2026-10-23.
-Régie : POST-065 — La Sortie, Saison 1 « Retrouver le plaisir de sortir ».
-Matière calendrier : vtt.bzh/www/_drafts/2026-11-01_2026-12-06-la-sortie.md (généré le 2026-10-23).
-Titre provisoire repris du sujet sélectionné : à réécrire en angle éditorial avant publication.
-Couverture à ajouter dans le front matter : image, image_alt, image_caption (voir _templates/newsletter.md).
+Reste à faire avant publication (retirer ce commentaire ensuite) :
+- la phrase vécue sur la Megavalanche et le semi ;
+- la couverture dans le front matter : image, image_alt, image_caption (voir _templates/newsletter.md) ;
+- les guillemets éventuels sur Krupicka seulement après réécoute de 09:06 et 12:05.
+Faits de la sélection vérifiés le 2026-10-27 dans le calendrier vtt.bzh (aucune annulation).
 -->
 
 Bonjour,
 
-[Édito : partir d’une expérience vécue ou d’une observation et la relier au thème de l’édition. La photo de couverture l’accompagne ; son contexte et son crédit restent dans `image_caption`.]
+Pour la Megavalanche, comme pour mon semi-marathon, tout a commencé pareil : [vécu — un dossard pris, et plus moyen de reculer. Angle : j’ai pris des dossards pendant des années pour gagner ; celui-là, je l’ai pris pour [raison vraie]. Puis un détail concret de ce qu’il a changé dans les semaines suivantes : une sortie, une heure, un lieu.]
 
-[Conclure en ouvrant sur la sortie retenue ce mois-ci. La couverture et sa légende forment le premier temps du récit : ne pas répéter l’image dans le corps.]
+Une fois le dossard pris, on n’a plus le choix : il faut se préparer. La date ne bougera pas. Ce qui s’ajuste, c’est l’objectif : au temps qu’on a vraiment, à l’expérience qu’on a vraiment. C’est l’idée que je retiens de la newsletter de GDIY, [« Tu n’as pas besoin de temps »](https://matt.kessel.media/posts/pst_b70ac987284b428db993c9b8f7924591/tu-nas-pas-besoin-de-temps).
+
+Un objectif ambitieux fait sortir de chez soi. Il fait aussi prendre un risque : celui de l’atteindre. *Léon, au-delà de l’or*, la série de France Télévisions sur Léon Marchand, raconte l’année qui suit Paris 2024. Elle pose une question : que reste-t-il quand on a déjà tout accompli à 22 ans ? Je n’en tire pas une leçon, juste une idée : l’objectif met en mouvement, il n’est pas l’arrivée.
+
+Anton Krupicka, à 43 ans, ne cherche plus seulement à gagner. Dans [*Dans la Tête d’un Coureur*](https://www.youtube.com/watch?v=a8ocmUe4z0A), il raconte qu’à 30 ans, viser la victoire l’obligeait à être très centré sur lui-même. Pour aller au bout, il lui fallait une motivation un peu négative : être meilleur que les autres. Ce qu’il cherche en montagne a changé. La nature d’abord, et une montagne plus large que la course : l’escalade, le vélo, le ski.
+
+Ce mois-ci, pas de dossard. Les randos de novembre proposent presque toutes plusieurs distances : l’objectif se choisit le matin, à la table d’inscription.
 
 ## La Sortie du mois
 
-[Sujet sélectionné : burn-out du sportif amateur, professionnalisation du trail et pression sociale. Comprendre comment une pratique choisie peut devenir une obligation. Partir d’expériences et de témoignages, puis revenir au rapport simple à l’effort.]
+Une rando n’a ni chrono ni classement. On arrive, on regarde les circuits affichés, on choisit selon ses jambes, la météo et l’heure à laquelle il faut rentrer. Trois sorties poussent l’idée un peu plus loin.
 
-## La halte sans gluten
+### Choisir en roulant à La Chapelle-Launay (44)
 
-[Rubrique secondaire facultative : supprimer ce bloc en l’absence de matière vécue. Partir d’une adresse, d’une assiette ou d’une situation rencontrée pendant une sortie ou un voyage. Raconter l’expérience et ses limites sans transformer le témoignage en certification.]
+La Randonnée des vallées, le dimanche 15 novembre. Une boucle principale de 30 km, puis des boucles supplémentaires dont la difficulté est indiquée à l’entrée de chacune. On décide en route, jusqu’à 50 km. Il y a aussi un circuit familial de 20 km, des marches de 8, 16 et 18 km ouvertes au trail, et du gravel sur 60 ou 80 km. Départ à 8 h du complexe sportif, 6 €.
 
-## La Sortie matos
+### Un tirage au sort pour tous à Pluvigner (56)
 
-[Rubrique secondaire facultative : supprimer ce bloc en l’absence de matière utile. Un à trois sujets, source primaire, et préciser `testé`, `utilisé` ou `repéré`.]
+La 15e Rando des Lutins, le dimanche 8 novembre, organisée par les Farfadets de Pluvigner. Quatre circuits VTT de 25 à 45 km, quatre marches de 6 à 17 km. À l’arrivée : un casse-croûte, une boisson et un tirage au sort ouvert à tous les participants. Pas de podium, et tout le monde a sa chance. Départs de 7 h 30 à 10 h, au chapiteau de la Madeleine.
+
+### De 18 à 55 km à Saint-Thurial (35)
+
+La 35e Rando VTT de Saint-Thurial, le dimanche 15 novembre, par VTT Saint-Thurial Brocéliande. Cinq circuits VTT de 18 à 55 km, trois marches de 8 à 16 km et un gravel de 55 km, sur inscription en ligne et limité à 99 places. Départs de 8 h 30 à 10 h, salle du Four à Chaux, 5 €.
+
+Le mercredi 11 novembre, férié, La Mélécienne organise sa 32e rando VTT et pédestre à Plumelec (56), avec des points d’attente sur les circuits en cas de casse. Et le 29, Plouezoc’h (29) lance sa première rando du Téléthon, entre terre et mer.
 
 ## Sur le calendrier vtt.bzh
 
-[Le calendrier existe grâce aux clubs, organisateurs et pratiquants qui partagent les dates et informations du terrain. Introduire ce qui caractérise le mois, puis retenir les contributions les plus utiles à la lecture.]
+Novembre est plus calme qu’octobre, qui comptait 31 rendez-vous dans la dernière lettre. Le calendrier existe grâce aux clubs, organisateurs et pratiquants qui partagent leurs dates : si la vôtre manque, il est encore temps de l’ajouter.
 
 11 rendez-vous sont annoncés entre le 1er novembre et le 6 décembre sur vtt.bzh, dont 3 ajoutés
 au calendrier ces 35 derniers jours. Ils se répartissent entre les Côtes-d’Armor (1), le Finistère (3),
 l’Ille-et-Vilaine (1), la Loire-Atlantique (1) et le Morbihan (5).
-
-<!-- Matière complète du brief : sélectionner avant publication. La braderie du cycle n’est pas une randonnée. -->
 
 ### Week-end des 7 et 8 novembre
 
@@ -60,7 +70,7 @@ l’Ille-et-Vilaine (1), la Loire-Atlantique (1) et le Morbihan (5).
 - **[35e Rando VTT de Saint-Thurial](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — dimanche 15 · Saint-Thurial (35)
 - **[La Scorff VTT](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — dimanche 15 · Plouay (56)
 - **[Randonnée des vallées](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — dimanche 15 · La Chapelle-Launay (44)
-- **[Braderie du cycle](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** (anciennement salon du cycle) — dimanche 15 · Le Relecq-Kerhuon (29)
+- **[Braderie du cycle](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)**, avec randos VTT et cyclo le dimanche matin — dimanche 15 · Le Relecq-Kerhuon (29)
 
 ### Week-end des 21 et 22 novembre
 
