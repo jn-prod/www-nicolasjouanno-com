@@ -1,8 +1,0 @@
-{
-  "useMarkdownLinks": true,
-  "alwaysUpdateLinks": true,
-  "newFileLocation": "folder",
-  "newFileFolderPath": "_drafts",
-  "attachmentFolderPath": "images/posts",
-  "propertiesInDocument": "visible"
-}
