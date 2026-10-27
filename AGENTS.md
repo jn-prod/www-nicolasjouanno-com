@@ -86,14 +86,12 @@ function onSomeEvent(input) {
 4. Si données YAML : `_data/{nom}.yml`
 5. Si styles spécifiques : `_sass/components/_{nom}.scss` + import dans `_index.scss`
 
-## Gouvernance studio
+## Gouvernance
 
-Ce repo appartient au studio de Nicolas Jouanno. La gouvernance transverse — doctrine, décisions,
-projets, tâches, mémoire et analytics — vit dans le dépôt privé `corp-ai`, hors de ce dépôt public.
+Ce repo appartient à Nicolas Jouanno ; son agent s'appelle Alfred. La gouvernance transverse
+(profil, mémoire, état des projets et règles) vit dans le dépôt privé `corp-ai`, hors de ce
+dépôt public.
 
-Dans l'espace de travail local standard, lire `../corp-ai/AGENTS.md` : il porte le profil
-du fondateur, la mémoire (faits actuels et état des projets) et les règles transverses. En cas
-de conflit, ses règles prévalent.
-
-Notion n'est pas une dépendance opérationnelle. Si le dépôt `corp-ai` n'est pas accessible,
-signaler l'absence de contexte au fondateur plutôt que d'improviser une doctrine locale.
+Dans l'espace de travail local standard, lire `../corp-ai/AGENTS.md`. En cas de conflit, ses
+règles prévalent. Si `corp-ai` n'est pas accessible, signaler l'absence de contexte à Nicolas
+plutôt que d'improviser une doctrine locale.
