@@ -35,6 +35,16 @@ reste dans `_drafts/`.
 9. Une fois l'édition prête, la déplacer dans `_posts/`, puis l'envoyer manuellement
    dans Kit à la liste consentie.
 
+## Idées
+
+Une ligne par idée, supprimée une fois l'édition publiée. Aucune idée n'oblige à publier.
+
+- Le dossard est une occasion, pas une finalité
+- Le terrain avant la discipline
+- Partir de chez soi : l'aventure sans destination lointaine
+- Retrouver le plaisir de l'effort sans compteur
+- Baromètre « Randos en Bretagne » à partir des données du calendrier vtt.bzh
+
 ## Rôles
 
 - `_templates/newsletter.md` ne porte que la structure d'une édition.
