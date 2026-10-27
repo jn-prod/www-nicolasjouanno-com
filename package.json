@@ -17,7 +17,7 @@
   "homepage": "https://www.nicolasjouanno.com",
   "scripts": {
     "dev": "pnpm build && python3 -m http.server -d ./_site",
-    "build": "pnpm build:images && pnpm check:positioning && pnpm check:content-images && pnpm sync:icons && pnpm build:site && pnpm copy:images",
+    "build": "pnpm build:images && pnpm check:positioning && pnpm check:content-images && pnpm sync:icons && pnpm build:site && pnpm copy:images && pnpm check:site",
     "build:images": "pnpm build:images:prepare && pnpm build:images:raster && pnpm build:images:svg",
     "build:images:prepare": "rm -rf ./images-dist && mkdir ./images-dist && cp -R ./images/. ./images-dist/",
     "build:images:raster": "sharp -i './images-dist/!(og)/**/*.{jpg,jpeg,png}' './images-dist/*.{jpg,jpeg,png}' -o {dir} -f webp && find ./images-dist -type f \\( -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' \\) ! -path './images-dist/og/*' -delete",
@@ -34,7 +34,10 @@
     "lint:prettier": "prettier --check .github/workflows/*.yml .stylelintrc.json _config.yml eslint.config.mjs package.json renovate.json",
     "lint:prettier:fix": "prettier --write .github/workflows/*.yml .stylelintrc.json _config.yml eslint.config.mjs package.json renovate.json",
     "lint:es": "eslint --no-error-on-unmatched-pattern 'assets/**/*.js' 'apps/**/*.js'",
-    "lint:es:fix": "pnpm lint:es --fix"
+    "lint:es:fix": "pnpm lint:es --fix",
+    "check:site": "bundle exec ruby scripts/check-site.rb",
+    "check:privacy": "node scripts/privacy-scan.mjs",
+    "publish:post": "ruby scripts/publish-post.rb"
   },
   "dependencies": {
     "modern-normalize": "^3.0.1"
