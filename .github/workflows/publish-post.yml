@@ -11,7 +11,7 @@ on:
         required: true
         type: string
       date:
-        description: "Date AAAA-MM-JJ. Vide : aujourd'hui. Future : en ligne ce jour-là à 6 h 30"
+        description: "Date AAAA-MM-JJ. Vide : aujourd'hui. Future : en ligne ce jour-là, au build quotidien"
         required: false
         type: string
         default: ""

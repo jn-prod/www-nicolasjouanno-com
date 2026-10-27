@@ -243,7 +243,7 @@ Un post s’écrit dans `_drafts/`, puis se publie de deux façons équivalentes
 - **sans VPS** : onglet Actions → « Publier un post » (`.github/workflows/publish-post.yml`), avec le nom du brouillon, une date facultative et l’option d’épingle ;
 - **en local** : `pnpm publish:post <brouillon> [--date=AAAA-MM-JJ] [--pin]`, puis commit et push.
 
-`publish:post` déplace le brouillon dans `_posts/` à sa date, transfère l’épingle avec `--pin` et refuse un brouillon incomplet : titre, description ou catégorie vides, couverture manquante pour une newsletter, commentaire HTML ou consigne entre crochets restants. Une date future est mise en ligne par le build quotidien de 04:30 UTC (`future: false`).
+`publish:post` déplace le brouillon dans `_posts/` à sa date, transfère l’épingle avec `--pin` et refuse un brouillon incomplet : titre, description ou catégorie vides, couverture manquante pour une newsletter, commentaire HTML ou consigne entre crochets restants. Une date future est mise en ligne par le build quotidien, programmé à 04:30 UTC (`future: false`) ; GitHub retarde souvent les tâches programmées de plusieurs heures.
 
 Chaque déploiement (`.github/workflows/github-pages.yml` : push sur `main`, build quotidien, publication) contrôle la confidentialité (`pnpm check:privacy`, denylist dans le secret `PRIVACY_DENYLIST`), le lint et le build. Celui-ci comprend `check:positioning`, `check:content-images` et `check:site` (liens internes, canonical, flux). Après le déploiement, une édition de La Sortie publiée depuis moins de 7 jours obtient sa campagne Kit en brouillon (`scripts/kit-broadcast.mjs`, secret `KIT_API_KEY`, variables `KIT_SEGMENT_IDS` et `KIT_EMAIL_TEMPLATE_ID`). L’envoi se déclenche dans Kit.
 

@@ -9,10 +9,10 @@ reste dans `_drafts/`.
    titre annonce l’angle éditorial de l’édition : il ne contient ni numéro, ni saison,
    ni mois seul, ni préfixe « La Sortie ». La description complète cette promesse avec
    son contexte ou un fait précis ; elle ne répète pas simplement le titre.
-2. Générer la matière calendrier sur le VPS, depuis vtt.bzh :
-   `pnpm newsletter:new -- --start=YYYY-MM-DD --end=YYYY-MM-DD`.
-3. Reprendre uniquement les faits vérifiés et les sorties retenues depuis le brief
-   produit dans `vtt.bzh/www/_drafts/`.
+2. Générer la matière calendrier depuis vtt.bzh : onglet Actions → « Brief La Sortie »,
+   avec la fenêtre de dates, ou en local `pnpm newsletter:new -- --start=AAAA-MM-JJ
+   --end=AAAA-MM-JJ`. Le brief arrive dans `vtt.bzh/www/_drafts/`.
+3. Reprendre uniquement les faits vérifiés et les sorties retenues depuis ce brief.
 4. Écrire l'angle, le récit et les appels à contribution à partir du vécu ou de
    contributions autorisées. Lorsqu'une photo personnelle porte l'édito, la déclarer
    comme couverture dans le front matter pour l'archive et le RSS, puis la contextualiser
@@ -22,18 +22,11 @@ reste dans `_drafts/`.
    puis termine le crédit par `Appareil © Auteur`, sans tiret ni pictogramme. Elle accepte
    les liens Markdown.
 5. Garder « La Sortie du mois » comme sujet outdoor principal. Les rubriques secondaires
-   sont facultatives : conserver « La halte sans gluten », « La Sortie matos » ou une voix
-   du terrain seulement lorsqu'une matière réelle justifie leur présence, puis supprimer
-   les blocs inutilisés.
-6. Pour « La halte sans gluten », partir d'une situation vécue pendant une sortie ou un
-   voyage et expliciter les limites de l'expérience sans présenter une adresse comme
-   certifiée.
-7. Pour « La Sortie matos », retenir un à trois sujets utiles, remonter à la source
-   primaire et distinguer explicitement ce qui a été `testé`, `utilisé` ou seulement
-   `repéré`. Indiquer tout lien affilié, prêt de matériel ou partenariat.
-8. Relire liens, informations pratiques et formulation avant publication.
-9. Une fois l'édition prête, la déplacer dans `_posts/`, puis l'envoyer manuellement
-   dans Kit à la liste consentie.
+   du modèle sont facultatives : supprimer celles qui n'ont pas de matière réelle.
+6. Relire liens, informations pratiques et formulation.
+7. Publier avec « Publier un post » (onglet Actions, case « Épingler » cochée) ou
+   `pnpm publish:post <brouillon> --pin` : voir le README du site. Le déploiement crée la
+   campagne Kit en brouillon ; l'envoi se fait dans Kit, à la liste consentie.
 
 ## Idées
 
@@ -52,5 +45,4 @@ Une ligne par idée, supprimée une fois l'édition publiée. Aucune idée n'obl
 - `vtt.bzh/www/_drafts/` contient la matière calendrier factuelle.
 - Ce dossier porte l'édition éditoriale avant sa publication sur nj.com.
 
-Il n'y a ni action GitHub de génération, ni convention de branche, ni envoi
-automatique.
+Rien n'est envoyé automatiquement : la campagne Kit reste un brouillon jusqu'au clic.
