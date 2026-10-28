@@ -57,12 +57,15 @@ jobs:
       # Inclut check:positioning, check:content-images et check:site.
       - name: Build
         run: pnpm build
+      # force_orphan : gh-pages ne garde que le build courant. Un contenu retiré du site
+      # (droit à l'effacement, erreur de publication) ne survit pas dans l'historique.
       - name: Deploy GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           cname: www.nicolasjouanno.com
+          force_orphan: true
       # Crée la campagne Kit d'une édition publiée depuis moins de 7 jours, en brouillon :
       # l'envoi reste un clic dans Kit.
       - name: Prepare Kit campaign
