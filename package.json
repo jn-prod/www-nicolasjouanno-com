@@ -2,7 +2,7 @@
   "name": "www-nicolasjouanno-com",
   "engines": {
     "pnpm": "10.x",
-    "node": "24.x"
+    "node": "26.x"
   },
   "version": "1.0.0",
   "private": true,
