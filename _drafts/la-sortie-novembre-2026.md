@@ -3,22 +3,17 @@ title: "Le dossard n’est pas la destination"
 description: "Onze rendez-vous en novembre, et presque partout le même choix : la distance se décide le matin, à la table d’inscription."
 category: newsletter
 permalink: /la-sortie/2026-11/
+image: /images/posts/la-rioja-pente-moussue.jpg
+image_alt: "Pente d’herbe et de mousse parsemée de pierres plates grises, entre deux rideaux de feuillus, qui monte vers une trouée de ciel. Une branche morte traverse le premier plan."
+image_caption: "La Rioja (Espagne), le 13 août 2026. Une randonnée dans les massifs, au lendemain de l’éclipse solaire. Fujifilm X70 © Nicolas Jouanno."
 tags:
   - outdoor
   - la-sortie
 ---
 
-<!--
-Reste à faire avant publication (retirer ce commentaire ensuite) :
-- la phrase vécue sur la Megavalanche et le semi ;
-- la couverture dans le front matter : image, image_alt, image_caption (voir _templates/newsletter.md) ;
-- les guillemets éventuels sur Krupicka seulement après réécoute de 09:06 et 12:05.
-Faits de la sélection vérifiés le 2026-10-27 dans le calendrier vtt.bzh (aucune annulation).
--->
-
 Bonjour,
 
-je ne prend plus de dossards depuis des années ; mais quand je me suis inscrit à la megavalanche ou à au semi-marathon, s’était pour l’aventure et l’expérience, découvrir de nouveau paysage ou me challenger; non plus pour gagner.
+J’ai longtemps pris des dossards pour gagner. Après ma carrière, quand je me suis inscrit à la Megavalanche ou à un semi-marathon, c’était pour l’aventure : découvrir de nouveaux paysages, me lancer un défi.
 
 Une fois le dossard pris, on n’a plus le choix : il faut se préparer. La date ne bougera pas. Ce qui s’ajuste, c’est l’objectif : au temps qu’on a vraiment, à l’expérience qu’on a vraiment. C’est l’idée que je retiens de la newsletter de GDIY, [« Tu n’as pas besoin de temps »](https://matt.kessel.media/posts/pst_b70ac987284b428db993c9b8f7924591/tu-nas-pas-besoin-de-temps).
 
