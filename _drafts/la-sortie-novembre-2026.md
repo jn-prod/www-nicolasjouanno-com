@@ -18,7 +18,7 @@ Faits de la sélection vérifiés le 2026-10-27 dans le calendrier vtt.bzh (aucu
 
 Bonjour,
 
-Pour la Megavalanche, comme pour mon semi-marathon, tout a commencé pareil : [vécu — un dossard pris, et plus moyen de reculer. Angle : j’ai pris des dossards pendant des années pour gagner ; celui-là, je l’ai pris pour [raison vraie]. Puis un détail concret de ce qu’il a changé dans les semaines suivantes : une sortie, une heure, un lieu.]
+je ne prend plus de dossards depuis des années ; mais quand je me suis inscrit à la megavalanche ou à au semi-marathon, s’était pour l’aventure et l’expérience, découvrir de nouveau paysage ou me challenger; non plus pour gagner.
 
 Une fois le dossard pris, on n’a plus le choix : il faut se préparer. La date ne bougera pas. Ce qui s’ajuste, c’est l’objectif : au temps qu’on a vraiment, à l’expérience qu’on a vraiment. C’est l’idée que je retiens de la newsletter de GDIY, [« Tu n’as pas besoin de temps »](https://matt.kessel.media/posts/pst_b70ac987284b428db993c9b8f7924591/tu-nas-pas-besoin-de-temps).
 
