@@ -9,7 +9,6 @@ permalink: /la-sortie/2026-10/
 tags:
   - outdoor
   - la-sortie
-pin: true
 ---
 Salut,
 

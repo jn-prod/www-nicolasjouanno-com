@@ -9,6 +9,7 @@ image_caption: "La Rioja (Espagne), le 13 août 2026. Une randonnée dans les ma
 tags:
   - outdoor
   - la-sortie
+pin: true
 ---
 
 Bonjour,
