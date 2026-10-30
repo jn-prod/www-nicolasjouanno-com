@@ -85,8 +85,11 @@ jobs:
           git push origin HEAD:main
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
+  # Sans ce `if`, « maintenant » saute `creneau` et le `success()` implicite saute aussi
+  # le déploiement : le post est commité mais pas en ligne.
   deploy:
     needs: publish
+    if: ${{ !failure() && !cancelled() && needs.publish.result == 'success' }}
     uses: ./.github/workflows/github-pages.yml
     with:
       ref: ${{ needs.publish.outputs.sha }}
