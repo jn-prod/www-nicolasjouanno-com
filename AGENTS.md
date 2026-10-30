@@ -14,6 +14,12 @@ pnpm build
 
 Le build doit se terminer sans erreur avant de considérer une tâche comme terminée.
 
+## Publication
+
+Un post se publie avec `pnpm publish:post` ou le workflow « Publier un post » (README,
+section « Publication et déploiement »), jamais en déplaçant le fichier à la main. Ne publier
+qu'à la demande explicite de Nicolas.
+
 ## Conventions SCSS
 
 ### Créer un composant

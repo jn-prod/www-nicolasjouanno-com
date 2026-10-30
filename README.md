@@ -234,11 +234,18 @@ pnpm build:images
 
 Le formulaire partagé `_includes/components/newsletter-form.html` est affiché sur l’accueil, la page Outdoor, à la fin de chaque article et sur la page `/la-sortie/subscribe/`. Cette dernière est la destination minimale à partager hors du site ; elle ne montre que la promesse, le formulaire et un lien discret vers les éditions. L'ancienne URL `/subscribe/` redirige vers elle. Les pages génériques de cycle de vie restent sous `/newsletter/` (`merci`, `confirmee`, `good-by`) ; sa racine redirige vers l'archive de La Sortie. Le formulaire envoie directement les inscriptions au formulaire Kit `9378910` pour **La Sortie** : une édition mensuelle ouverte par une photo et un vécu, poursuivie par un sujet outdoor principal, d’éventuelles rubriques secondaires et une sélection issue du calendrier partagé de vtt.bzh. Le rendu reste maîtrisé par le site et aucun script d’intégration Kit n’est chargé.
 
-Les éditions sont des posts Jekyll ordinaires avec `category: newsletter`, rendus depuis `_templates/newsletter.md` et archivés sous `/la-sortie/`. La matière calendrier VTT est préparée dans le dépôt vtt.bzh ; le post, l’archive et l’envoi restent relus manuellement.
+Les éditions sont des posts Jekyll ordinaires avec `category: newsletter`, rendus depuis `_templates/newsletter.md` et archivés sous `/la-sortie/`. La matière calendrier VTT est préparée dans le dépôt vtt.bzh. `/la-sortie/editions.json` expose les éditions au format JSON pour la préparation de la campagne Kit.
 
-## Déploiement
+## Publication et déploiement
 
-Push sur `main` → GitHub Actions (`.github/workflows/github-pages.yml`) → build → déploiement de `_site/` sur GitHub Pages → `www.nicolasjouanno.com`
+Un post s’écrit dans `_drafts/`, puis se publie de deux façons équivalentes :
+
+- **sans VPS** : onglet Actions → « Publier un post » (`.github/workflows/publish-post.yml`), avec le nom du brouillon, une date facultative et l’option d’épingle ;
+- **en local** : `pnpm publish:post <brouillon> [--date=AAAA-MM-JJ] [--pin]`, puis commit et push.
+
+`publish:post` déplace le brouillon dans `_posts/` à sa date, transfère l’épingle avec `--pin` et refuse un brouillon incomplet : titre, description ou catégorie vides, couverture manquante pour une newsletter, commentaire HTML ou consigne entre crochets restants. Une date future est mise en ligne par le build quotidien, programmé à 04:30 UTC (`future: false`) ; GitHub retarde souvent les tâches programmées de plusieurs heures.
+
+Chaque déploiement (`.github/workflows/github-pages.yml` : push sur `main`, build quotidien, publication) contrôle la confidentialité (`pnpm check:privacy`, denylist dans le secret `PRIVACY_DENYLIST`), le lint et le build. Celui-ci comprend `check:positioning`, `check:content-images` et `check:site` (liens internes, canonical, flux). Après le déploiement, une édition de La Sortie publiée depuis moins de 7 jours obtient sa campagne Kit en brouillon (`scripts/kit-broadcast.mjs`, secret `KIT_API_KEY`, variables `KIT_SEGMENT_IDS` et `KIT_EMAIL_TEMPLATE_ID`). L’envoi se déclenche dans Kit.
 
 ## License
 

@@ -4,12 +4,31 @@ on:
   push:
     branches:
       - main
+  schedule:
+    # 04:30 UTC, avant le build quotidien de vtt.bzh (05:30) qui reprend la dernière
+    # édition : publie les posts datés du jour (future: false).
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+  # Appelé par « Publier un post » : un push fait avec GITHUB_TOKEN ne déclenche pas
+  # d'autre workflow, la publication déploie donc elle-même le commit qu'elle a créé.
+  workflow_call:
+    inputs:
+      ref:
+        type: string
+        required: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.ref || github.sha }}
       - name: Use ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -29,13 +48,29 @@ jobs:
           cache: "pnpm"
       - name: Install node dependencies
         run: pnpm install
+      - name: Privacy
+        run: pnpm check:privacy
+        env:
+          PRIVACY_DENYLIST: ${{ secrets.PRIVACY_DENYLIST }}
       - name: Lint
         run: pnpm lint
+      # Inclut check:positioning, check:content-images et check:site.
       - name: Build
         run: pnpm build
+      # force_orphan : gh-pages ne garde que le build courant. Un contenu retiré du site
+      # (droit à l'effacement, erreur de publication) ne survit pas dans l'historique.
       - name: Deploy GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           cname: www.nicolasjouanno.com
+          force_orphan: true
+      # Crée la campagne Kit d'une édition publiée depuis moins de 7 jours, en brouillon :
+      # l'envoi reste un clic dans Kit.
+      - name: Prepare Kit campaign
+        run: node scripts/kit-broadcast.mjs
+        env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+          KIT_SEGMENT_IDS: ${{ vars.KIT_SEGMENT_IDS }}
+          KIT_EMAIL_TEMPLATE_ID: ${{ vars.KIT_EMAIL_TEMPLATE_ID }}

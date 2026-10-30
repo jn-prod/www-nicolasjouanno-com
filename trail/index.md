@@ -9,5 +9,4 @@ permalink: /trail/
 
 # Trail & course à pied
 
-<!-- TODO copywriter (D-2026-06-11-001) — chapô de travail ci-dessous -->
 Arrivé tard à la course à pied, et c'est justement ce qui m'intéresse : ce que ça fait de recommencer débutant quelque part.

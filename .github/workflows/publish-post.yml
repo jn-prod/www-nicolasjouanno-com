@@ -1,0 +1,95 @@
+name: Publier un post
+
+# Publication sans VPS : depuis l'onglet Actions (ou l'app GitHub), choisir le brouillon.
+# Le workflow lance `pnpm publish:post`, commite sur main puis déploie le site. Une
+# édition de La Sortie déclenche ensuite la création de sa campagne Kit en brouillon.
+on:
+  workflow_dispatch:
+    inputs:
+      brouillon:
+        description: "Brouillon dans _drafts, sans .md (ex. la-sortie-novembre-2026)"
+        required: true
+        type: string
+      date:
+        description: "Date AAAA-MM-JJ. Vide : aujourd'hui. Future : en ligne ce jour-là, au build quotidien"
+        required: false
+        type: string
+        default: ""
+      epingler:
+        description: "Épingler ce post (retire l'épingle du précédent)"
+        type: boolean
+        default: false
+      maintenant:
+        description: "Publier sans attendre la fin de la fenêtre protégée (férié, congé : équivaut à --no-verify)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-post
+  cancel-in-progress: false
+
+jobs:
+  # Pendant la fenêtre protégée, la publication attend le prochain créneau (13:00 ou 20:00,
+  # heure de Paris) au lieu d'échouer : on peut la lancer à toute heure, depuis le téléphone.
+  creneau:
+    if: ${{ !inputs.maintenant }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: scripts/attendre-creneau.sh
+          sparse-checkout-cone-mode: false
+      - name: Attendre le prochain créneau
+        run: bash scripts/attendre-creneau.sh
+
+  publish:
+    needs: creneau
+    if: ${{ !failure() && !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    outputs:
+      sha: ${{ steps.commit.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v7
+      # Reliquat : une attente est plafonnée à 350 min, sous la limite de 6 h d'un job.
+      - name: Attendre le prochain créneau
+        if: ${{ !inputs.maintenant }}
+        run: bash scripts/attendre-creneau.sh
+      - name: Use ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "4.0.9"
+      - name: Publish
+        env:
+          BROUILLON: ${{ inputs.brouillon }}
+          DATE: ${{ inputs.date }}
+          EPINGLER: ${{ inputs.epingler }}
+        run: |
+          set -- "$BROUILLON"
+          [ -n "$DATE" ] && set -- "$@" "--date=$DATE"
+          [ "$EPINGLER" = "true" ] && set -- "$@" --pin
+          ruby scripts/publish-post.rb "$@"
+      - name: Commit
+        id: commit
+        env:
+          BROUILLON: ${{ inputs.brouillon }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A _drafts _posts
+          git commit -m "publish: ${BROUILLON}"
+          git push origin HEAD:main
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: publish
+    uses: ./.github/workflows/github-pages.yml
+    with:
+      ref: ${{ needs.publish.outputs.sha }}
+    secrets: inherit
+    permissions:
+      contents: write
