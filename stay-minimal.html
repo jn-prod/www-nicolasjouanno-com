@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="fr">
+  <!-- Document head
+    ================================================== -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+    <!-- Titre et description -->
+    
+    <title>Coder son MVP, sujet de Growth hacking ou de Product management ? | Nicolas Jouanno</title>
+    
+    <meta name="description" content="Comment coder son premier MVP : retour d&#39;expérience entre growth hacking et product management, avec les leçons tirées d&#39;un parcours autodidacte." />
+    <meta name="generator" content="Jekyll v4.4.1" />
+
+    <!-- Icônes -->
+    <link rel="icon" href="/images/icons/icon.ico" sizes="any" />
+    <link rel="icon" href="/images/icons/avatar.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/images/icons/icon-180.webp" />
+
+    <meta name="theme-color" content="#000000" />
+
+    <!-- IndieWeb -->
+    <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <link rel="webmention" href="https://webmention.io/www.nicolasjouanno.com/webmention" />
+
+    <!-- linked party -->
+    <link rel="me" href="https://facebook.com/502710249769535" />
+    <link rel="me" href="https://www.instagram.com/bynicolasjd/" />
+    <link rel="me" href="https://www.threads.com/@bynicolasjd" />
+    <link rel="me" href="https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
+    <link rel="me" href="https://github.com/jn-prod" />
+    <link rel="me" href="https://www.strava.com/athletes/njouanno" />
+    <link rel="me" href="https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
+    <link rel="me" href="https://www.youtube.com/@byNicolasJD" />
+    <link rel="me" href="mailto:contact@nicolasjouanno.com" />
+
+    <!-- RSS -->
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="/feed.xml"
+    />
+    <link
+      rel="alternate"
+      type="application/feed+json"
+      title="JSON Feed"
+      href="/feed.json"
+    />
+    
+
+    <!-- Fonts (non-bloquant + font-display: swap) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      />
+    </noscript>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/main.css?v=1793442776" />
+
+    <!-- SEO basique -->
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link
+      rel="canonical"
+      href="https://www.nicolasjouanno.com/stay-minimal.html"
+    />
+    <meta name="author" content="Nicolas Jouanno" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Coder son MVP, sujet de Growth hacking ou de Product management ?"
+    />
+    <meta
+      property="og:description"
+      content="Comment coder son premier MVP : retour d&#39;expérience entre growth hacking et product management, avec les leçons tirées d&#39;un parcours autodidacte."
+    />
+    <meta
+      property="og:type"
+      content="article"
+    />
+    <meta property="og:url" content="https://www.nicolasjouanno.com/stay-minimal.html" />
+    <meta property="og:site_name" content="Nicolas Jouanno" />
+    <meta property="og:locale" content="fr_FR" />
+    
+    <meta
+      property="article:published_time"
+      content="2018-09-14T00:00:00+00:00"
+    />
+    <meta
+      property="article:modified_time"
+      content="2018-09-14T00:00:00+00:00"
+    />
+    
+    <meta
+      property="article:author"
+      content="Nicolas Jouanno"
+    />
+     
+    <meta property="article:tag" content="work" />
+    
+    <meta property="article:tag" content="web" />
+     
+
+    <!-- Image Open Graph -->
+    
+    <meta property="og:image" content="https://www.nicolasjouanno.com/images/posts/maxresdefault.webp" />
+    <meta property="og:image:alt" content="Coder son MVP, sujet de Growth hacking ou de Product management ?" />
+    
+    
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Coder son MVP, sujet de Growth hacking ou de Product management ?"
+    />
+    <meta
+      name="twitter:description"
+      content="Comment coder son premier MVP : retour d&#39;expérience entre growth hacking et product management, avec les leçons tirées d&#39;un parcours autodidacte."
+    />
+    
+    <meta name="twitter:site" content="@bynicolasjd" />
+    <meta name="twitter:creator" content="@bynicolasjd" />
+     
+    <meta
+      name="twitter:image"
+      content="https://www.nicolasjouanno.com/images/posts/maxresdefault.webp"
+    />
+    <meta name="twitter:image:alt" content="Coder son MVP, sujet de Growth hacking ou de Product management ?" />
+    
+
+    <!-- Schema.org JSON-LD : une page décrit une page, une publication décrit un article. -->
+    <script type="application/ld+json">
+      
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.nicolasjouanno.com/stay-minimal.html"
+          },
+          "headline": "Coder son MVP, sujet de Growth hacking ou de Product management ?",
+          "description": "Comment coder son premier MVP : retour d'expérience entre growth hacking et product management, avec les leçons tirées d'un parcours autodidacte.",
+          "datePublished": "2018-09-14T00:00:00+00:00",
+          "dateModified": "2018-09-14T00:00:00+00:00",
+          "author": {
+            "@type": "Person",
+            "name": "Nicolas Jouanno",
+            "url": "https://www.nicolasjouanno.com"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Nicolas Jouanno",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.nicolasjouanno.com/images/icons/avatar.svg"
+            }
+          },
+          
+            "image": "https://www.nicolasjouanno.com/images/posts/maxresdefault.webp",
+          
+          "url": "https://www.nicolasjouanno.com/stay-minimal.html"
+      }
+      
+    </script>
+  </head>
+
+  <!-- body -->
+  
+  <body class="c-layout c-layout--layout-post">
+    <a href="#main-content" class="skip-link">Aller au contenu</a>
+    <div class="c-layout__header-bar">
+  <header role="banner" class="c-layout__header">
+    <div class="c-navigation">
+      <a href="https://www.nicolasjouanno.com" class="c-navigation__title u-link--dark">
+        Nicolas Jouanno
+      </a>
+
+      <nav aria-label="Actions du profil" class="c-navigation__actions">
+        <ul class="u-list c-navigation__link-list">
+          <li class="c-navigation__link-list-element">
+            <a
+              href="https://www.nicolasjouanno.com/about/"
+              class="c-button "
+              
+              >Bio</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              href="https://www.nicolasjouanno.com/la-sortie/subscribe/"
+              class="c-button c-button--brand "
+              
+              >Suivre</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<main role="main" id="main-content" class="c-layout__content">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <!-- Schema.org BreadcrumbList -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.nicolasjouanno.com"
+        }
+
+        
+        ,
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Publications",
+          "item": "https://www.nicolasjouanno.com/posts.html"
+        }
+
+        
+        ,
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Récits — sport, voyages, web et sans gluten",
+          "item": "https://www.nicolasjouanno.com/recits.html"
+        }
+        
+
+        ,
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Coder son MVP, sujet de Growth hacking ou de Product management ?",
+          "item": "https://www.nicolasjouanno.com/stay-minimal.html"
+        }
+
+        
+      ]
+    }
+  </script>
+
+  <nav aria-label="Breadcrumb" class="c-breadcrumb">
+    <ol>
+      <li>
+        <a href="https://www.nicolasjouanno.com">Accueil</a>
+      </li>
+
+      
+        <li>
+          <a href="/posts.html">Publications</a>
+        </li>
+
+        
+          <li>
+            <a href="/recits.html">
+              Récits — sport, voyages, web et sans gluten
+            </a>
+          </li>
+        
+
+        <li>
+          <span aria-current="page">Coder son MVP, sujet de Growth hacking ou de Product management ?</span>
+        </li>
+
+      
+    </ol>
+  </nav>
+
+
+
+
+<!-- Begin Article
+================================================== -->
+
+<article class="h-entry">
+  <data class="u-url u-uid" value="https://www.nicolasjouanno.com/stay-minimal.html"></data>
+  <data class="p-summary" value="Comment coder son premier MVP : retour d&#39;expérience entre growth hacking et product management, avec les leçons tirées d&#39;un parcours autodidacte."></data>
+
+  <!-- Post heading -->
+  <header>
+    <h1 class="p-name">Coder son MVP, sujet de Growth hacking ou de Product management ?</h1>
+    <div class="c-author"><img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
+<div>
+  <a href="/" class="u-link--dark p-author h-card">
+    Nicolas Jouanno
+  </a>
+  <div class="c-meta">
+    <span>@bynicolasjd</span>
+    ·
+    <time
+      class="dt-published"
+      datetime="2018-09-14T00:00:00+00:00"
+    >
+      14/09/2018
+    </time>
+  </div>
+</div>
+</div>
+    
+
+<ul class="u-list c-button-stack u-spacing--0">
+  
+  
+
+  
+
+  
+    
+
+    <li>
+      
+        <a class="c-tag" href="/work/">
+          #work
+        </a>
+      
+    </li>
+  
+    
+
+    <li>
+      
+        <span class="c-tag">
+          #web
+        </span>
+      
+    </li>
+  
+
+  
+    <li>
+      <a class="c-tag" href="/recits.html">
+        #recit
+      </a>
+    </li>
+  
+</ul>
+
+  </header>
+
+  
+  <figure class="u-spacing--0">
+    <img
+      src="/images/posts/maxresdefault.webp"
+      alt="Coder son MVP, sujet de Growth hacking ou de Product management ?"
+      loading="lazy"
+    />
+    
+  </figure>
+  
+
+  <!-- Post Content -->
+  <div class="e-content"><h2 id="a-la-rencontre-du-growth-hacking">A la rencontre du growth hacking</h2>
+
+<p><em>Revenons un peu en arrière. Nous sommes en 2018, je quitte l’école avec un diplôme de marketing. J’ai l’impression de n’avoir rien appris du monde du digital qui me passionnait tant. L’histoire est connue. Alors comme mes pairs, je continuer d’apprendre et de me former avec des ressources différentes: livres, blog, youtubes… Qu’il s’agisse de se perfectionner ou d’acquérir de nouvelles compétences en Marketing, Design et Tech. Si je ne suis pas encore un “T-shape”, je ne me restreins pas mon scope pour avoir une vision à 360 degrés d’un produit digital.</em></p>
+
+<p>En 2016, je baissais une dernière fois le rideau de ma première entreprise: un commerce local de sport outdoor. Une expérience enrichissantes m’a prouvée que rien n’était acquis. Ce n’est pas parce que tu es reconnus sur ton marché, que tu le connais ainsi que ses leviers que l’entreprise sera florissante. Avec toute mon arrogances, je me suis heurté à la réalité du commerce physique, ses coûts élevés, ses marges faibles. Le choc a été violant.</p>
+
+<p><img src="/images/posts/77a9b-1fhdbbyabl24dcabgexhpow.webp" alt="Chaine youtube the family" /></p>
+
+<p><em><a href="https://www.youtube.com/user/Startupfood" target="_blank" rel="nofollow">Chaine youtube the family</a></em></p>
+
+<h3 id="réfléchir-construire-et-capitaliser-voilà-ce-qui-devient-important-pour-moi">« Réfléchir, construire et capitaliser. Voilà ce qui devient important pour moi. »</h3>
+
+<p>Lorsqu’on débute une entreprise on se projette sur le long terme. En comparaison trois ans, c’est court. Sans bouée de sauvetage, je devais rebondir, srotir des sentiers battus, penser différement (comme le dit Steve Jobs).</p>
+
+<p>Depuis mon adolescence, je fais de sites internet pour m’amuser, avec le goût du défis et parfois pour rendre service à d’autres entrepreneurs.</p>
+
+<p>D’ailleurs, en 2013, je crée mon premier side project: <a href="https://www.vtt.bzh/?utm_source=www-nicolasjouanno-com&amp;utm_medium=site&amp;utm_campaign=ecosystem">vtt.bzh</a>. Un site qui me permet d’expérimenter ce que j’apprends du digital au détour de la magie du web 2.0. Un moment d’évasion dans ce flow quotidien de retailer. Ce site internet réaliser avec Wordpress enregistre vite ses premiers succès, pour atteindre 10 000 visiteurs mensuel. Il ne scale pas, car je fais ma curation à la main. Il est lent car, ne sachant pas coder, je lui ai ajouter 70+ plugins pour lui ajouter des features. Il se perd dans un quantités de features cumulées mais jamais abandonnées.</p>
+
+<p><img src="/images/posts/8f833-1glqrdjmo0myyuik5d1idxg.webp" alt="site web du wagon" /></p>
+
+<p><em><a href="https://www.lewagon.com/fr" target="_blank" rel="nofollow">site web du wagon</a></em></p>
+
+<h3 id="2016-à-la-rencontre-du-growth-hacking-et-du-product-management">« 2016, à la rencontre du Growth Hacking et du Product Management »</h3>
+
+<p>C’est pendant la liquidation de mon magasin en mai 2016 que je découvre <a href="https://www.koudetat.co/">Koudetat</a> <a href="https://www.thefamily.co/">The Family</a> et leur “mindest growth”. Au même moment, je me prenais de passion pour les startups et leurs histoires.</p>
+
+<p>Pris de curiosité pour le growth hacking. J’ai découvert une discipline croisement entre les mondes de la tech et du marketing. Une révélation pour moi en quête d’inspiration pour mon nouveau projet professionnel.</p>
+
+<p>Ne sachant pas si mes connaissances en marketing suffisent à réaliser ce pivot, je me demandant quels skills pouvaient me manquer. A l’évidence, il fallait apprendre à minima à coder.</p>
+
+<p>Lors de mes recherches, c’est au détour d’un article sur welcometothejungle, que je découvre un nouveau concept qui me plait tout autant : <strong>le Product Management</strong>. Là encore un metier hybride, entre le Marketing, la Tech et le Design. Là encore, s’il y a un domaine où je ne connais rien c’est le développement web.</p>
+
+<p>Voilà, comment j’arrive à la conclusion que pour m’épanouir professionnelement dans le domaine de la gestion de projet web et avoir une casquette d’avantage “product” que “projet”, il me faut avoir des connaissances solides en développement.</p>
+
+<p><img src="/images/posts/21d8e-1qcj1veggw6yciebqwl3q7w.webp" alt="welcometothejungle" /></p>
+
+<p><em><a href="https://www.welcometothejungle.co/professions/product-manager" target="_blank" rel="nofollow">fiche metier de product manager sur welcometothejungle</a></em></p>
+
+<h3 id="openclassrooms-le-wagon-youtube-et-medium-deviennent-donc-mes-nouvelles-bibles-en-2017">« Openclassrooms, le Wagon, Youtube et Medium deviennent donc mes nouvelles bibles en 2017. »</h3>
+
+<p>Maintenant, je commence à savoir où je dois aller. Il est donc temps de construire un plan d’action. La première étape de celui-ci est bien évidemment d’apprendre à coder. Openclassrooms, le Wagon, Youtube et Medium forment ma bible.</p>
+
+<p>J’assoie d’abord mes bases en HTML, CSS que je cotoie depuis 2008.</p>
+
+<p>Puis vient le sujet de la programmation, la vraie ! Avec le javascript, ce langage qui s’execute coté navigateur et qui permet d’augmenter l’interactivité d’une page. Bien sûr, je n’ai pas la prétention de devenir ingénieur. Je sais que dans ce domaine, j’ai beaucoup de choses à apprendre. Mais, je veux pouvoir réaliser des POC (Proof Of Concept), ou mieux des MVP (Minimum Valuable Prodcut), connecter des API, … mais surtout passer de l’idée à la réalisation, de 0 à 1. Et si possible au delà.</p>
+
+<p>A la rechecherche de solutions pour apprendre à coder rapidement, je découvre <a href="https://www.lewagon.com/fr">Le Wagon</a>. Mais ne pouvant pas mettre mes projet en veille pendant deux mois, je décide de prendre un chemin plus long et plus solitaire. J’avais trouvé bien contruite leur track en ligne <a href="https://ondemand.lewagon.com/tracks/comprenez-enfin-javascript/go">growth-hack</a>. Sans l’avoir suivi, elle m’à permise d’établir un plan de formation minimum.</p>
+
+<p>Suivre le plan du Wagon, alors étoile montante de la formation de développeurs pour les startup, me rassure dans l’acquisition de ce skill. Leur programme clair et structuré m’a permis de comprendre les étapes clés à suivre dans l’apprentissage du développement web.</p>
+
+<p>Je découvre aussi openclassrooms et son parcours développeur web junior qui est certifiant, contrairement à la formation en ligne du Wagon. Même si le parcours proposé ne me plaisait pas à 100%, j’en vient au terme. Pas simple de subir, l’influence d’amis, eux mêmes développeurs ruby, et de l’écosystème.</p>
+
+<p>Ma motivation d’apprendre le <a href="https://www.php.net/">PHP</a> était faible comparé à <a href="https://www.ruby-lang.org/fr/">Ruby</a> (le langage des startups), <a href="https://www.python.org/">Python</a> et <a href="https://www.javascript.com/">Javascript</a> (les langages des growth hacker). Mais cumuller l’apprentissage de tous ces langages et leurs spécifités était très enrichissant.</p>
+
+<p>Je me donne pour objectif d’apprendre une skills par semaine. Surtout, je garde le rythme, mon objectif était simple, j’ai quatre mois avant la naissance de mon fils, à sa naissance, je veux savoir coder. Comme lorsque j’apprenais la guitare, où je faisais 1h de guitare par jour, je me suis mis le même rythme minimum pour l’apprentissage du code. Que ce soit le matin avant d’aller bosser, à la pause dèj’ ou le soir à la place de la TV.</p>
+
+<p>Ce que j’ai appris avant tout, c’est à apprendre. Le développement ne se limite pas à un cours en ligne à acheter. Le développement web, s’est donner le meilleur de soit même chaque jour, de la même manière qu’un sportif qui s’entraîne quotidiennement. Le développement web s’est travailler ses points faibles pour se perfectionner. Le développement web s’est accepter l’échec pour se perfectionner en corrigeant ses beugs. Le développement web s’est libérer sa créativité. J’ai ainsi pu réaliser une refonte mon side-project vtt.bzh, désormais scalable. Je publie mon code sur <a href="https://github.com/jn-prod">GitHub</a>. Je crée mes APIs en scrappant en NODEjs des données sur le web. Bref, je m’éclate !</p>
+
+<p>Mais n’oublions pas pourquoi je me suis lancé ce challenge: développer un produit digital qui à de la valeur pour ses utilisateurs.</p>
+
+<p><img src="/images/posts/e8b22-11czy1ngfc50mjx7vxlphqa.webp" alt="NODE JS" /></p>
+
+<p><em>NODE JS</em></p>
+
+<h2 id="mvp-init">MVP init</h2>
+
+<p>Un verre de vin entre amis, un café entre collègues, un film inspirant, … Avec une idée de produit c’est bien, savoir s’il à de la valeur c’est mieux. C’est le moment de créer son MVP (Minimum Valuable Product).</p>
+
+<p>Il peut prendre différentes formes:</p>
+
+<ul>
+  <li>Un blog</li>
+  <li>Une page Facebook</li>
+  <li>Une chaine slack</li>
+  <li>Un mix d’API avec Zapier</li>
+  <li>…</li>
+  <li>Un site web</li>
+</ul>
+
+<p>Vous avez dit créer un site web ? Si vous n’êtes pas développeur tournez-vous vers des CMS SAAS clef en main, simple à utiliser, comme Squarespace, Webflow, Wix, … le choix de la simplicité et de la rapidité est légion. Le coût lui est mensuel lui est de 10–20€ pour les offres de bases. S’il ne vous permettrons pas de créer le future Facebook, ils ont le mérite de vous permettre de mettre en ligne votre site en 1h et d’acheter vos premiers mots-clés sur <a href="https://ads.google.com/intl/fr_fr/home/">adwords</a>.</p>
+
+<p>Si vous avez des connaissances techniques, vous pouvez vous lancer avec un CMS opensource flexible type Wordpress, Joomla, Prestashop, Magento … que vous héberge vous-même chez OVH ou autre, coût de l’opération 5€/mois. Vous aurez d’avantage de temps pour réfléchir à votre projet, comptez minimum 1 jour à 1 semaine et peu être quelques cheveux perdus en route !</p>
+
+<p>Mais ne perdez pas votre temps à développer votre produit dans votre garage. Il n’y a que Steve Jobs pour convaince les gens que le produits qu’il à imaginé est un “must have”. Confrontez votre produit le plus rapidement possible à son marché, qu’il soit au stade de la maquette, du prototype où mieux encore avant même qu’il existe.</p>
+
+<p>Comme moi, commencer à parler de votre MVP sur une landing page, en écrivant un post sur medium, en prenant la parole dans un groupe Facebook ou sur une channel Slack, … Mieux, créez une liste d’attente pour mesurer l’attente de vos futurs acheteurs et voilà votre première base de données. Et la validation ultime, que les gens paye avant même que votre produit soit créé. Poussez la distribution à fonds, créez une communoté.</p>
+
+<p>Bref, établissez votre camp de base pour mobilisez vos futurs users. Créez un niveau d’engagement tel qu’ils viendraient eux-mêmes défendre votre idée à l’assemblée nationale.</p>
+
+<p><img src="/images/posts/74ddb-1utch2gz4b5xfvt2dxhgnvq2x.webp" alt="Node JS" /></p>
+
+<p><em>Node JS</em></p>
+
+<h2 id="développer-la-béta-de-votre-produit">Développer la béta de votre produit.</h2>
+
+<p><em>Si utiliser un CMS pour gérer la partie marketing de votre projet vous fait déjà peur, attendez de voir les questions que soulève le développement de votre produit. On parle non seulement de l’UI et de l’UX du front-end d’un site internet, mais aussi de son architecture, des dépendenses et du développement de son back-end.</em></p>
+
+<p>Il vous faut lister tous ces besoins et toutes ces problématiques. Puis les prioriser dans une roadmap. Pour en maîtriser son développement et analyser l’impact des features sur votre produit.</p>
+
+<p>Ne vous lancer dans le choix de vos technologies seul si vous n’avez pas de recul sur cet univers.</p>
+
+<p>Sur les premiers projets où je suis intervenu en tant que developpeur, ceux-ci était soit des sides-project soit des projets où j’avais un large scope. Ils incluaient souvent le marketing, le design et la tech. Ne connaissant au debut qu’un seul langage de programmation: le Javascript, je l’utilisais à toutes les sauces. J’utilisais donc <a href="https://nodejs.org/en/">NodeJS</a> (sa surcouche coté serveur) à tout va, pour gagner du temps et par mode. Je reculais le moment d’apprendre un nouveau langage.</p>
+
+<p>NodeJS est très puissant pour développer rapidement des APIs REST véloces. Il embarque une librairie de modules dense, qui vous permetra de gérer:</p>
+
+<ul>
+  <li>la création de compte utilisateur,</li>
+  <li>la gestion des droits d’accès,</li>
+  <li>le hashage de mot de passe,</li>
+  <li>la redirection https,</li>
+  <li>les notifications par e-mails …</li>
+</ul>
+
+<p>Mais, il manque cruellement de fonctionalités pour réaliser rapidement un MVP quand on le compare à des frameworks comme <a href="https://laravel.com/">Laravel</a>, <a href="https://rubyonrails.org/">Ruby On Rails</a>, <a href="https://www.djangoproject.com/">Django</a>, … A celà j’ajouterais l’asynchronocité de NodeJS ne correspondant pas à tous les cas d’usage et ajoute de la complexité.</p>
+
+<p>Pensez également à bien choisir vos services tiers. Fournissent-ils des APIs qui vous permettrons d’automatiser des tâches crutiales dans votre croissances. Quel est leur coup à plus grande échelle? La migration est-elle simple ou complexe ? Je prends l’exemple de <a href="https://mailchimp.com/">Mailchimp</a> que j’adore et que tout le monde recommande. Lorsque ma base d’email à dépasser les 2 000 abonnées, j’ai pleuré en voyant le coût du service. J’ai du recréer tout mon workflow sur un autre outil: <a href="https://www.mailerlite.com/">mailerlite</a>.</p>
+
+<p>Alors ne perdez pas des yeux votre objectif principal: diminuer votre feedback loop. C’est le moyen le plus efficace pour itérer le plus rapidement possible sur votre produit. Vos choix technologiques doivent vous permettre d’accéler votre croissance et non la ralentir.</p>
+
+<h2 id="garder-les-choses-simples">Garder les choses simples</h2>
+
+<p><em>Dernièrement, j’ai pris du recul sur mes objectifs produits et les moyens que j’utilise les atteindres. “Keep things simple” s’est imposé comme un nouveau mantra. Si cela peu paraitre un peu cliché, il ne faut pas y voir un sens réducteur ou facilitateur, mais plutôt qu’il faut faire des choix pour se focaliser sur l’essence même de l’objectif.</em></p>
+
+<p>S’il est facile procrastiner toute une journée devant son ordinateur voguant de fil Facebook aux vidéos Youtube, en faisant quelques pauses café sur son feed Instagram. Il est plus dur de se lever chaque matin en se donnant un objectif que l’on s’oblige à tenir avant de se mettre au lit.</p>
+
+<p>Avant de devenir cycliste professionnel, mon Coach me répétait souvent: “il n’y a pas de petite victoire”. Mais finalement une victoire c’est quoi ? Passer la ligne en premier, gagner un prix de grimpeur, un classement jeune ? Je pense qu’une victoire à un sens plus large, qu’elle dépend de l’objectif que l’on se fixe.</p>
+
+<p>En marketing on parle d’<a href="https://www.manager-go.com/vente/methode-smart.htm">objectif SMART</a>. Pour le définir, il faut qu’il soit spécifique, mesurable, ambition, réaliste et délimitable dans le temps.</p>
+
+<p>J’ai arrêté la compétition depuis de nombreuses années pourtant, je n’ai jamais arrêté d’avoir de petites victoires. J’ai appris à coder seul. Je ne me suis jamais découragé, non seulement parce que j’en avais profondément envie, mais aussi parce que je me suis fixé un objectif inconsciemment SMART: coder une heure par jour, en était un. A la fin de chaque semaine, je pouvais me gratifier d’avoir réussis cet objectif.</p>
+
+<p>Mais pour qu’un objectif soit attaignable vous devez avoir les ressources correspondantes: Humaines, Horaires, Financières, Matériel… sont celles qui reveniennent le plus souvent. Difficile de se lancer dans le référencement de son site web si personnes de votre équipe n’en connait les principes, pire, s’ils n’en ont pas le temps.</p>
+
+<p>Se fixer des objectifs SMART avec un framework growth comme <a href="https://deux.io/framework-aarrr/">AARRR</a> peut changer radicalement la vision et l’impact de votre produit. En se fixant des objectifs sur différentes partie du cycle de vie de vos utilisateurs vous vous assurez que votre roadmap conduira à la croissance de votre entreprise.</p>
+
+<p>En 2013, lorsque je lançais vtt.bzh, je voulais en faire un blog qui résonne dans l’écosystème du VTT. Mais je n’avais ni ojectif concret, ni stratégie. Par chance mon bon sens m’a fait faire des choses impactentes sur le temps terme. J’avais travailler l’acquisition via le SEO, l’activation et la rétention via une newsletter, le referal avec facebook et la monétisation avec de l’affiliation. C’est aujourd’hui, grâce à ça que j’explique la réussite de ce projet régionnal qui a impacté jusqu’à 10 000 visiteurs mensuel.</p>
+
+<p>Finalement, growth hacking ou product management, pour moi c’est le même combat, les deux doivent permettre une croissance exponentielle de votre produit. Les deux touche au design, au marketing et la tech. Les deux doivent être scalable. Les deux doivent parler à vos utilisateurs pour synchroniser le produit autour de leurs besoins. Alors garder les choses simples et concentrez-vous sur le produit.</p>
+</div>
+
+  
+
+
+<p class="u-spacing--block-start-large">
+  Une réaction ?
+  <a href="mailto:contact@nicolasjouanno.com?subject=Re%3A%20Coder%20son%20MVP%2C%20sujet%20de%20Growth%20hacking%20ou%20de%20Product%20management%20%3F">Répondez-moi par e-mail</a>.
+</p>
+
+
+      
+<section
+  class="c-newsletter-form c-newsletter-form--compact c-card c-card--neutral c-card--medium"
+  aria-labelledby="newsletter-title-post"
+>
+  <h2
+    class="c-newsletter-form__title"
+    id="newsletter-title-post"
+  >
+     Recevoir
+    <a href="/la-sortie/">La Sortie</a>
+    
+  </h2>
+  <p class="c-newsletter-form__description">
+    Chaque mois, une
+photo, un vécu et ce qui mérite l’attention dehors : une sortie, une idée, du
+matériel ou les nouvelles des chemins bretons.
+  </p>
+  <form
+    class="c-newsletter-form__form"
+    action="https://app.kit.com/forms/9378910/subscriptions"
+    method="post"
+  >
+    <label
+      class="u-visually-hidden"
+      for="newsletter-email-post"
+      >Votre adresse e-mail</label
+    >
+    <input
+      class="c-newsletter-form__input c-control"
+      id="newsletter-email-post"
+      type="email"
+      name="email_address"
+      placeholder="vous@exemple.fr"
+      autocomplete="email"
+      required
+    />
+    <button class="c-button c-button--brand" type="submit">S’inscrire</button>
+  </form>
+  <p class="c-newsletter-form__note c-meta">Une fois par mois. Désabonnement
+en un clic.</p>
+</section>
+
+</article>
+
+<aside>
+  <h2>À lire ensuite</h2>
+  <p>Sur le même sujet, work :</p>
+  <ul class="u-list">
+    <li><a href="/jai-tue-mon-saas-reconstruit-en-agent-ia.html">J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA.</a></li><li><a href="/paris-web-2025.html">Les Web Components et l'accessibilité — conférence Paris-Web 2025</a></li>
+  </ul>
+</aside>
+
+<p class="u-spacing--block-start-medium">
+  <a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a>
+</p>
+
+</main>
+
+<footer
+  role="contentinfo"
+  class="c-layout__footer c-section c-section--compact"
+>
+  <p>
+    © 2008 - 2026,
+    <a href="/">Nicolas Jouanno</a>. Tous
+    droits réservés. <a href="/about/">À propos</a>. <a href="/mentions-legales/">Mentions légales</a>.
+  </p>
+</footer>
+
+
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "a5774cce1e6b423a9581953ee8af8766"}'
+    ></script>
+    <!-- End Cloudflare Web Analytics -->
+    
+
+  </body>
+</html>

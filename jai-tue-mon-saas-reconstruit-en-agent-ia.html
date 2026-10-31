@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="fr">
+  <!-- Document head
+    ================================================== -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+    <!-- Titre et description -->
+    
+    <title>J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA. | Nicolas Jouanno</title>
+    
+    <meta name="description" content="Le SaaSpocalypse vu d&#39;un dev frontend : ce qui meurt, ce qui survit, et l&#39;app IA-native — LLM interface, agent moteur, mémoire au lieu de base. Le cas concret de feezify, reconstruit en agent, zéro infra." />
+    <meta name="generator" content="Jekyll v4.4.1" />
+
+    <!-- Icônes -->
+    <link rel="icon" href="/images/icons/icon.ico" sizes="any" />
+    <link rel="icon" href="/images/icons/avatar.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/images/icons/icon-180.webp" />
+
+    <meta name="theme-color" content="#000000" />
+
+    <!-- IndieWeb -->
+    <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <link rel="webmention" href="https://webmention.io/www.nicolasjouanno.com/webmention" />
+
+    <!-- linked party -->
+    <link rel="me" href="https://facebook.com/502710249769535" />
+    <link rel="me" href="https://www.instagram.com/bynicolasjd/" />
+    <link rel="me" href="https://www.threads.com/@bynicolasjd" />
+    <link rel="me" href="https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
+    <link rel="me" href="https://github.com/jn-prod" />
+    <link rel="me" href="https://www.strava.com/athletes/njouanno" />
+    <link rel="me" href="https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem" />
+    <link rel="me" href="https://www.youtube.com/@byNicolasJD" />
+    <link rel="me" href="mailto:contact@nicolasjouanno.com" />
+
+    <!-- RSS -->
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS"
+      href="/feed.xml"
+    />
+    <link
+      rel="alternate"
+      type="application/feed+json"
+      title="JSON Feed"
+      href="/feed.json"
+    />
+    
+
+    <!-- Fonts (non-bloquant + font-display: swap) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&family=Source+Serif+4&display=swap"
+      />
+    </noscript>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/main.css?v=1793442776" />
+
+    <!-- SEO basique -->
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link
+      rel="canonical"
+      href="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html"
+    />
+    <meta name="author" content="Nicolas Jouanno" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA."
+    />
+    <meta
+      property="og:description"
+      content="Le SaaSpocalypse vu d&#39;un dev frontend : ce qui meurt, ce qui survit, et l&#39;app IA-native — LLM interface, agent moteur, mémoire au lieu de base. Le cas concret de feezify, reconstruit en agent, zéro infra."
+    />
+    <meta
+      property="og:type"
+      content="article"
+    />
+    <meta property="og:url" content="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html" />
+    <meta property="og:site_name" content="Nicolas Jouanno" />
+    <meta property="og:locale" content="fr_FR" />
+    
+    <meta
+      property="article:published_time"
+      content="2026-07-10T00:00:00+00:00"
+    />
+    <meta
+      property="article:modified_time"
+      content="2026-07-10T00:00:00+00:00"
+    />
+    
+    <meta
+      property="article:author"
+      content="Nicolas Jouanno"
+    />
+     
+    <meta property="article:tag" content="work" />
+    
+    <meta property="article:tag" content="web" />
+    
+    <meta property="article:tag" content="ia" />
+     
+
+    <!-- Image Open Graph -->
+    
+    <meta property="og:image" content="https://www.nicolasjouanno.com/images/og/og-default.webp" />
+    <meta property="og:image:alt" content="Nicolas Jouanno" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA."
+    />
+    <meta
+      name="twitter:description"
+      content="Le SaaSpocalypse vu d&#39;un dev frontend : ce qui meurt, ce qui survit, et l&#39;app IA-native — LLM interface, agent moteur, mémoire au lieu de base. Le cas concret de feezify, reconstruit en agent, zéro infra."
+    />
+    
+    <meta name="twitter:site" content="@bynicolasjd" />
+    <meta name="twitter:creator" content="@bynicolasjd" />
+     
+    <meta
+      name="twitter:image"
+      content="https://www.nicolasjouanno.com/images/og/og-default.webp"
+    />
+    <meta name="twitter:image:alt" content="J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA." />
+    
+
+    <!-- Schema.org JSON-LD : une page décrit une page, une publication décrit un article. -->
+    <script type="application/ld+json">
+      
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html"
+          },
+          "headline": "J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA.",
+          "description": "Le SaaSpocalypse vu d'un dev frontend : ce qui meurt, ce qui survit, et l'app IA-native — LLM interface, agent moteur, mémoire au lieu de base. Le cas concret de feezify, reconstruit en agent, zéro infra.",
+          "datePublished": "2026-07-10T00:00:00+00:00",
+          "dateModified": "2026-07-10T00:00:00+00:00",
+          "author": {
+            "@type": "Person",
+            "name": "Nicolas Jouanno",
+            "url": "https://www.nicolasjouanno.com"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Nicolas Jouanno",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.nicolasjouanno.com/images/icons/avatar.svg"
+            }
+          },
+          
+          "url": "https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html"
+      }
+      
+    </script>
+  </head>
+
+  <!-- body -->
+  
+  <body class="c-layout c-layout--layout-post">
+    <a href="#main-content" class="skip-link">Aller au contenu</a>
+    <div class="c-layout__header-bar">
+  <header role="banner" class="c-layout__header">
+    <div class="c-navigation">
+      <a href="https://www.nicolasjouanno.com" class="c-navigation__title u-link--dark">
+        Nicolas Jouanno
+      </a>
+
+      <nav aria-label="Actions du profil" class="c-navigation__actions">
+        <ul class="u-list c-navigation__link-list">
+          <li class="c-navigation__link-list-element">
+            <a
+              href="https://www.nicolasjouanno.com/about/"
+              class="c-button "
+              
+              >Bio</a
+            >
+          </li>
+
+          <li class="c-navigation__link-list-element">
+            <a
+              href="https://www.nicolasjouanno.com/la-sortie/subscribe/"
+              class="c-button c-button--brand "
+              
+              >Suivre</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<main role="main" id="main-content" class="c-layout__content">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <!-- Schema.org BreadcrumbList -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.nicolasjouanno.com"
+        }
+
+        
+        ,
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Publications",
+          "item": "https://www.nicolasjouanno.com/posts.html"
+        }
+
+        
+        ,
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Récits — sport, voyages, web et sans gluten",
+          "item": "https://www.nicolasjouanno.com/recits.html"
+        }
+        
+
+        ,
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA.",
+          "item": "https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html"
+        }
+
+        
+      ]
+    }
+  </script>
+
+  <nav aria-label="Breadcrumb" class="c-breadcrumb">
+    <ol>
+      <li>
+        <a href="https://www.nicolasjouanno.com">Accueil</a>
+      </li>
+
+      
+        <li>
+          <a href="/posts.html">Publications</a>
+        </li>
+
+        
+          <li>
+            <a href="/recits.html">
+              Récits — sport, voyages, web et sans gluten
+            </a>
+          </li>
+        
+
+        <li>
+          <span aria-current="page">J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA.</span>
+        </li>
+
+      
+    </ol>
+  </nav>
+
+
+
+
+<!-- Begin Article
+================================================== -->
+
+<article class="h-entry">
+  <data class="u-url u-uid" value="https://www.nicolasjouanno.com/jai-tue-mon-saas-reconstruit-en-agent-ia.html"></data>
+  <data class="p-summary" value="Le SaaSpocalypse vu d&#39;un dev frontend : ce qui meurt, ce qui survit, et l&#39;app IA-native — LLM interface, agent moteur, mémoire au lieu de base. Le cas concret de feezify, reconstruit en agent, zéro infra."></data>
+
+  <!-- Post heading -->
+  <header>
+    <h1 class="p-name">J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA.</h1>
+    <div class="c-author"><img class="c-avatar c-avatar--small" src="/images/nicolas-jouanno.webp" alt="Portrait de Nicolas Jouanno" width="32" height="32" loading="lazy" />
+<div>
+  <a href="/" class="u-link--dark p-author h-card">
+    Nicolas Jouanno
+  </a>
+  <div class="c-meta">
+    <span>@bynicolasjd</span>
+    ·
+    <time
+      class="dt-published"
+      datetime="2026-07-10T00:00:00+00:00"
+    >
+      10/07/2026
+    </time>
+  </div>
+</div>
+</div>
+    
+
+<ul class="u-list c-button-stack u-spacing--0">
+  
+  
+
+  
+
+  
+    
+
+    <li>
+      
+        <a class="c-tag" href="/work/">
+          #work
+        </a>
+      
+    </li>
+  
+    
+
+    <li>
+      
+        <span class="c-tag">
+          #web
+        </span>
+      
+    </li>
+  
+    
+
+    <li>
+      
+        <span class="c-tag">
+          #ia
+        </span>
+      
+    </li>
+  
+
+  
+    <li>
+      <a class="c-tag" href="/recits.html">
+        #recit
+      </a>
+    </li>
+  
+</ul>
+
+  </header>
+
+  
+
+  <!-- Post Content -->
+  <div class="e-content"><p>On commence à appeler ça le SaaSpocalypse.</p>
+
+<p>L’idée est simple : pendant quinze ans, on a vendu du logiciel au siège et à l’abonnement. Une app par problème, un serveur, une base, un compte, un paiement mensuel. L’IA fait fondre ce modèle — littéralement : en février 2026, environ <strong>285 milliards de dollars</strong> se sont évaporés des valeurs SaaS en quarante-huit heures (<a href="https://www.thesaascfo.com/the-saaspocalypse-ai-agents-vibe-coding-and-the-changing-economics-of-saas/">The SaaS CFO</a> ; <a href="https://thepaypers.com/fintech/expert-views/the-saaspocalypse-and-payments-who-survives-when-the-per-seat-model-dies">The Paypers</a>). Le diagnostic du marché tient en une phrase : quand un agent fait le travail de dix personnes, on ne paie plus dix sièges.</p>
+
+<p>Mais le krach n’est qu’un symptôme. La bascule de fond, c’est <a href="https://officechai.com/stories/saas-applications-will-collapse-in-the-ai-agent-era-microsoft-ceo-satya-nadella/">Satya Nadella</a> qui la formule le plus clairement : les applis métier vont « s’effondrer », parce qu’au fond ce ne sont que des bases CRUD entourées de logique — et <strong>cette logique migre dans la couche agent</strong>. (Il n’a pas dit « le SaaS est mort » ; il a dit que la logique change d’étage. La nuance compte.)</p>
+
+<p>Le récit complet de cette semaine où « l’IA a tué le logiciel » est bien raconté ici : <a href="https://www.fintechbrainfood.com/p/the-saaspocalypse">fintechbrainfood</a>, et décortiqué en vidéo dans <a href="https://www.youtube.com/watch?v=fHEAJ3ggOqs">ce podcast</a>.</p>
+
+<p>Je ne regarde pas ça en analyste. Je le regarde en dev frontend. Et je viens de le faire, à la main, sur un de mes vieux projets.</p>
+
+<h2 id="javais-un-saas-il-sappelait-feezify">J’avais un SaaS. Il s’appelait feezify.</h2>
+
+<p>C’était un carnet d’entraînement. Node, Express, Mongo, des comptes, un serveur, des déploiements. Je l’avais construit quand j’étais encore dans le sport, pour une raison précise : croiser deux choses que les outils ne croisent jamais bien — la <strong>charge objective</strong> (ce que disent les chiffres) et le <strong>ressenti subjectif</strong> (ce que dit le corps).</p>
+
+<p>Il n’a pas échoué : il s’est éteint. Une app hébergée qu’on cesse d’entretenir finit par mourir toute seule.</p>
+
+<p>En le rouvrant des années plus tard, le constat m’a sauté aux yeux : <strong>~90 % du code était de la tuyauterie.</strong> L’authentification, la base, le serveur, la synchro Strava, l’interface. Tout ça, aujourd’hui, un agent et quelques connecteurs le font sans moi.</p>
+
+<p>Ce qui restait — la seule chose qui valait quelque chose — c’était une <strong>méthode</strong>. Une façon de lire une journée : la forme d’un côté, le ressenti de l’autre, et un jugement quand les deux divergent. <em>Le subjectif arbitre l’objectif.</em> Des jambes fraîches ne passent jamais avant un corps qui dit non.</p>
+
+<p>Cette méthode n’était écrite nulle part. Elle vivait dans ma tête et, à moitié, dans le code. C’était l’actif. Le reste, c’était de la location.</p>
+
+<h2 id="la-solution--le-navigateur-puis-le-llm">La solution : le navigateur, puis le LLM</h2>
+
+<p>Voilà le concept qui m’a débloqué.</p>
+
+<p>Le navigateur web a été une rupture d’<strong>interface</strong>. Une fois qu’il s’est imposé comme <em>la</em> surface universelle, on a reconstruit toutes les applications pour lui : le web app est né de là. À chaque changement d’interface, on rebâtit le moteur applicatif pour elle.</p>
+
+<p>Le chatbot IA est le nouveau navigateur. La surface par laquelle on accède à tout. Sauf qu’on ne <em>rebranche</em> pas l’ancienne app dessus : on rebâtit le moteur dans une nouvelle couche — <strong>l’agent</strong>. Et là, en dev, le découpage classique d’une app web se redéploie presque terme à terme :</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>App web classique</th>
+      <th>Couche</th>
+      <th>App IA-native</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Navigateur / frontend</td>
+      <td>l’<strong>interface</strong></td>
+      <td><strong>le LLM / le chatbot</strong></td>
+    </tr>
+    <tr>
+      <td>Serveur / backend</td>
+      <td>le <strong>moteur métier</strong></td>
+      <td><strong>l’agent</strong> (archi hexagonale + adaptateurs vers les données)</td>
+    </tr>
+    <tr>
+      <td>Base de données</td>
+      <td>la <strong>persistance</strong></td>
+      <td><strong>une mémoire</strong> (log utilisateur + wiki d’agent)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Trois idées, donc :</p>
+
+<ul>
+  <li><strong>Le LLM est l’interface.</strong> Plus de vue à rendre : le modèle rend une réponse, dans une conversation. Le frontend, c’est lui maintenant.</li>
+  <li><strong>L’agent est le moteur.</strong> Il <strong>encapsule le métier</strong> dans une <strong>architecture hexagonale</strong> : le domaine pur au centre — le différenciateur —, et autour des <strong>adaptateurs</strong> qui parlent aux <strong>applications tierces</strong> (Strava, et demain d’autres). Le métier ne dépend d’aucune appli ; les applis ne sont que des sources de données interchangeables. C’est exactement ce que décrit Nadella : la logique métier quitte le SaaS et s’installe dans la couche agent.</li>
+  <li><strong>La persistance est une mémoire, pas une base.</strong> Inspirée du <em>second cerveau</em> : un <strong>log utilisateur</strong> (ce que tu vis, écrit par toi) et un <strong>wiki d’agent</strong> qui <strong>compresse sa propre mémoire</strong> — il distille, relie, et finit par lire ce qu’il a compris plutôt que de tout re-dériver à chaque fois.</li>
+</ul>
+
+<p>C’est ça, une app IA-native : non pas un frontend posé sur une IA, mais <strong>un moteur entier reconstruit dans l’agent</strong>, derrière le LLM, avec sa mémoire à lui. L’utilisateur n’ouvre pas mon app — il installe mon agent sur sa propre IA.</p>
+
+<h2 id="ce-que-feezify-est-devenu">Ce que feezify est devenu</h2>
+
+<p>J’ai gardé le nom et la méthode. J’ai jeté tout le reste.</p>
+
+<p>feezify est maintenant <strong>un agent : un cœur métier — la méthode — et une mémoire, dans un dossier de markdown qui t’appartient.</strong> Tu l’installes sur ton IA (Claude, ou un agent self-hosté comme OpenClaw) et tu lui demandes comment tu vas aujourd’hui. Zéro infra.</p>
+
+<p>Quelques décisions de design, en dev :</p>
+
+<ul>
+  <li><strong>Architecture hexagonale.</strong> Au centre, un domaine <em>pur</em> : le calcul de charge et la règle de croisement. Aucune entrée/sortie, aucun nom de provider. C’est le différenciateur, et c’est la seule partie vraiment testée. Autour, des <strong>adaptateurs</strong> interchangeables — Strava n’est qu’un fournisseur parmi d’autres, pas un chemin câblé. Ajouter une surface (une skill Claude, une skill OpenClaw) coûte presque rien : même moteur, manifeste différent.</li>
+  <li><strong>Deux mémoires.</strong> Ton <strong>journal</strong>, que <em>tu</em> écris (le brut, immuable). Et la <strong>mémoire du coach</strong>, que l’IA compile et maintient pour elle-même — le pattern « LLM Wiki » d’Andrej Karpathy : <em>arrête de re-dériver, commence à compiler.</em> Avec le temps, l’IA cesse de relire des mois de journal et lit ce qu’elle a déjà appris de toi, chaque affirmation tracée jusqu’à un jour précis.</li>
+  <li><strong>Un copilote, pas un coach.</strong> Il lit, il éclaire, il pose une couleur sur la journée et explique pourquoi. <strong>C’est toi qui décides.</strong> Il ne prescrit pas de séance. Cette ligne n’est pas un détail : c’est une règle de conception.</li>
+</ul>
+
+<p>Et — c’est le point qui compte — <strong>la méthode est ouverte.</strong> Le dépôt est public. Mon rempart, ce n’est pas le code : c’est la méthode, la voix, la distribution. Autant la mettre à découvert.</p>
+
+<h2 id="pourquoi-je-raconte-ça">Pourquoi je raconte ça</h2>
+
+<p>Parce que c’est, je crois, le mouvement de fond : on arrête de construire des apps, on construit des <strong>agents qui s’installent sur l’IA des gens.</strong> Et que la meilleure façon de comprendre une techno, c’est de la montrer par le vécu — ici, un vieux projet à moi, ressuscité autrement.</p>
+
+<p>Si tu lis tes propres données d’entraînement, la page de feezify est <strong><a href="/feezify.html">ici</a></strong>. Les nouvelles de la beta passent par la newsletter de Nicolas.</p>
+
+<p>Et si tu construis des choses avec des agents, le dépôt est ouvert : <strong><a href="https://github.com/jn-prod/feezify">github.com/jn-prod/feezify</a></strong>. La méthode est dedans, en clair.</p>
+</div>
+
+  
+
+
+<p class="u-spacing--block-start-large">
+  Une réaction ?
+  <a href="mailto:contact@nicolasjouanno.com?subject=Re%3A%20J%27ai%20tu%C3%A9%20mon%20SaaS.%20Je%20l%27ai%20reconstruit%20comme%20agent%20IA.">Répondez-moi par e-mail</a>.
+</p>
+
+
+      
+<section
+  class="c-newsletter-form c-newsletter-form--compact c-card c-card--neutral c-card--medium"
+  aria-labelledby="newsletter-title-post"
+>
+  <h2
+    class="c-newsletter-form__title"
+    id="newsletter-title-post"
+  >
+     Recevoir
+    <a href="/la-sortie/">La Sortie</a>
+    
+  </h2>
+  <p class="c-newsletter-form__description">
+    Chaque mois, une
+photo, un vécu et ce qui mérite l’attention dehors : une sortie, une idée, du
+matériel ou les nouvelles des chemins bretons.
+  </p>
+  <form
+    class="c-newsletter-form__form"
+    action="https://app.kit.com/forms/9378910/subscriptions"
+    method="post"
+  >
+    <label
+      class="u-visually-hidden"
+      for="newsletter-email-post"
+      >Votre adresse e-mail</label
+    >
+    <input
+      class="c-newsletter-form__input c-control"
+      id="newsletter-email-post"
+      type="email"
+      name="email_address"
+      placeholder="vous@exemple.fr"
+      autocomplete="email"
+      required
+    />
+    <button class="c-button c-button--brand" type="submit">S’inscrire</button>
+  </form>
+  <p class="c-newsletter-form__note c-meta">Une fois par mois. Désabonnement
+en un clic.</p>
+</section>
+
+</article>
+
+<aside>
+  <h2>À lire ensuite</h2>
+  <p>Sur le même sujet, work :</p>
+  <ul class="u-list">
+    <li><a href="/paris-web-2025.html">Les Web Components et l'accessibilité — conférence Paris-Web 2025</a></li><li><a href="/Retrouver-le-fil.html">Retrouver le fil - pourquoi je recentre tout sur un seul site</a></li>
+  </ul>
+</aside>
+
+<p class="u-spacing--block-start-medium">
+  <a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a>
+</p>
+
+</main>
+
+<footer
+  role="contentinfo"
+  class="c-layout__footer c-section c-section--compact"
+>
+  <p>
+    © 2008 - 2026,
+    <a href="/">Nicolas Jouanno</a>. Tous
+    droits réservés. <a href="/about/">À propos</a>. <a href="/mentions-legales/">Mentions légales</a>.
+  </p>
+</footer>
+
+
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "a5774cce1e6b423a9581953ee8af8766"}'
+    ></script>
+    <!-- End Cloudflare Web Analytics -->
+    
+
+  </body>
+</html>
