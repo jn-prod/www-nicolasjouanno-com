@@ -44,6 +44,16 @@ if (!apiKey || segmentIds.length === 0) {
 }
 const headers = { "X-Kit-Api-Key": apiKey, "Content-Type": "application/json" };
 
+// La couverture vit dans le front matter, hors du contenu : sans elle, le mail n'aurait
+// que la vignette Kit, qui ne s'affiche pas dans le corps.
+const escapeAttribute = (value) => value.replace(/&/g, "&amp;").replace(/"/g, "&quot;")
+  .replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const withCover = (edition) => {
+  if (!edition.image || edition.content.includes(edition.image)) return edition.content;
+  const caption = edition.image_caption ? `<p><em>${edition.image_caption}</em></p>\n\n` : "";
+  return `<p><img src="${edition.image}" alt="${escapeAttribute(edition.image_alt ?? edition.title)}" /></p>\n\n${caption}${edition.content}`;
+};
+
 const label = (edition) => {
   const [year, month] = edition.month.split("-").map(Number);
   return `La Sortie #${edition.number} — ${MONTHS[month - 1]} ${year}`;
@@ -63,7 +73,7 @@ for (const edition of recent) {
     subject: `La Sortie #${edition.number} — ${edition.title}`,
     preview_text: edition.description,
     description,
-    content: edition.content,
+    content: withCover(edition),
     public: false,
     published_at: edition.date,
     send_at: null,
