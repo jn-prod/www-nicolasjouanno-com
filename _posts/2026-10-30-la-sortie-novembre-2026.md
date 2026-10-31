@@ -14,11 +14,11 @@ pin: true
 
 Bonjour,
 
-J’ai longtemps pris des dossards pour gagner. Après ma carrière, quand je me suis inscrit à la Megavalanche ou à un semi-marathon, c’était pour l’aventure : découvrir de nouveaux paysages, me lancer un défi.
+J’ai longtemps pris des dossards pour gagner. Après ma carrière, quand je me suis inscrit à la [Megavalanche](https://www.nicolasjouanno.com/ma-megavalanche-2013-alpe-dhuez.html), à un semi-marathon ou à [mon premier trail](https://www.nicolasjouanno.com/premier-trail.html), c’était pour l’aventure : découvrir de nouveaux paysages, me lancer un défi.
 
 Une fois le dossard pris, on n’a plus le choix : il faut se préparer. La date ne bougera pas. Ce qui s’ajuste, c’est l’objectif : au temps qu’on a vraiment, à l’expérience qu’on a vraiment. C’est l’idée que je retiens de la newsletter de GDIY, [« Tu n’as pas besoin de temps »](https://matt.kessel.media/posts/pst_b70ac987284b428db993c9b8f7924591/tu-nas-pas-besoin-de-temps).
 
-Un objectif ambitieux fait sortir de chez soi. Il fait aussi prendre un risque : celui de l’atteindre. *Léon, au-delà de l’or*, la série de France Télévisions sur Léon Marchand, raconte l’année qui suit Paris 2024. Elle pose une question : que reste-t-il quand on a déjà tout accompli à 22 ans ? Je n’en tire pas une leçon, juste une idée : l’objectif met en mouvement, il n’est pas l’arrivée.
+Un objectif ambitieux fait sortir de chez soi. Il fait aussi prendre un risque : celui de l’atteindre. [*Léon, au-delà de l’or*](https://www.france.tv/france-2/leon-au-dela-de-l-or/), la série de France Télévisions sur Léon Marchand, raconte l’année qui suit Paris 2024. Elle pose une question : que reste-t-il quand on a déjà tout accompli à 22 ans ? Je n’en tire pas une leçon, juste une idée : l’objectif met en mouvement, il n’est pas l’arrivée.
 
 Anton Krupicka, à 43 ans, ne cherche plus seulement à gagner. Dans [*Dans la Tête d’un Coureur*](https://www.youtube.com/watch?v=a8ocmUe4z0A), il raconte qu’à 30 ans, viser la victoire l’obligeait à être très centré sur lui-même. Pour aller au bout, il lui fallait une motivation un peu négative : être meilleur que les autres. Ce qu’il cherche en montagne a changé. La nature d’abord, et une montagne plus large que la course : l’escalade, le vélo, le ski.
 
