@@ -98,7 +98,7 @@ if front_matter["category"] == "newsletter"
     else
       template = ROOT.join("_templates", "newsletter.md").read
         .sub("{{date:YYYY-MM}}", following.strftime("%Y-%m"))
-      veille = "<!-- Veille du mois : une ligne par idée, avec le lien et ce qui a retenu l'attention.\n-\n-->\n"
+      veille = "<!-- Veille du mois : ce qui t'a marqué, en vrac, avec le lien. Pas besoin d'angle, il viendra en recoupant.\n-\n-->\n"
       next_draft.write(template.sub(FRONT_MATTER) { "#{Regexp.last_match(0)}\n#{veille}" })
       puts "brouillon suivant : #{next_draft.relative_path_from(ROOT)}"
     end

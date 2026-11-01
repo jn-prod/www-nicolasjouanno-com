@@ -11,7 +11,7 @@ tags:
   - la-sortie
 ---
 
-<!-- Veille du mois : une ligne par idée, avec le lien et ce qui a retenu l'attention.
+<!-- Veille du mois : ce qui t'a marqué, en vrac, avec le lien. Pas besoin d'angle, il viendra en recoupant.
 -
 -->
 
