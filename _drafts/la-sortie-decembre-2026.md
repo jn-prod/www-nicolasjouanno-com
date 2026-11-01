@@ -1,8 +1,8 @@
 ---
 title: ""
 description: ""
-image: /images/posts/nom-de-la-photo.jpg
-image_alt: Description fidèle de la photo
+image: ""
+image_alt: ""
 image_caption: "[Lieu](URL), date. Une phrase de vécu liée à l’édition. Appareil © Auteur."
 category: newsletter
 permalink: /la-sortie/2026-12/
