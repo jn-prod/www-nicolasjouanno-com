@@ -5,8 +5,11 @@ reste dans `_drafts/`.
 
 ## Préparer une édition
 
-1. Copier `_templates/newsletter.md` dans ce dossier et renseigner le front matter. Le
-   titre annonce l’angle éditorial de l’édition : il ne contient ni numéro, ni saison,
+1. Le brouillon du mois suivant existe dès la publication d'une édition :
+   `publish:post` crée `la-sortie-<mois>-<année>.md` depuis `_templates/newsletter.md`
+   (mois sans accent, permalink rempli). Son bloc « Veille », un commentaire HTML en tête,
+   reçoit les idées du mois au fil de l'eau ; publier exige de l'avoir trié puis retiré.
+   Sinon, copier le modèle à la main. Renseigner le front matter. Le titre annonce l’angle éditorial de l’édition : il ne contient ni numéro, ni saison,
    ni mois seul, ni préfixe « La Sortie ». La description complète cette promesse avec
    son contexte ou un fait précis ; elle ne répète pas simplement le titre.
 2. La matière calendrier arrive seule le 15 dans `vtt.bzh/www/_drafts/` (« Brief La Sortie »,
@@ -31,7 +34,8 @@ reste dans `_drafts/`.
 
 ## Idées
 
-Une ligne par idée, supprimée une fois l'édition publiée. Aucune idée n'oblige à publier.
+Réserve sans mois : une ligne par idée, supprimée une fois l'édition publiée. Ce qui vise
+le mois suivant va dans le bloc « Veille » de son brouillon. Aucune idée n'oblige à publier.
 
 - Le dossard est une occasion, pas une finalité
 - Le terrain avant la discipline
