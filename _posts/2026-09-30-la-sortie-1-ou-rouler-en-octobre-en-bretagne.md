@@ -1,9 +1,9 @@
 ---
 title: Des sorties solidaires sur les chemins bretons
-description: 31 randonnées annoncées, des rendez-vous solidaires pour Octobre Rose et une journée en famille à Brocéliande.
+description: 31 randonnées annoncées, des rendez-vous solidaires pour Octobre Rose et une journée de marche à Brocéliande.
 image: /images/posts/broceliande-siege-de-merlin.jpg
-image_alt: Randonnée en famille dans la forêt de Brocéliande
-image_caption: "[Paimpont](https://maps.app.goo.gl/zQG3AtCYShfiXrZr5?g_st=ic), le 5 juillet 2026. Une journée à marcher en famille dans la forêt de Brocéliande, sur les traces du siège de Merlin. Fujifilm X70 © Nicolas Jouanno."
+image_alt: Vue depuis une dalle rocheuse sur une vallée couverte de forêt, sous un ciel bleu sans nuage.
+image_caption: "[Paimpont](https://maps.app.goo.gl/zQG3AtCYShfiXrZr5?g_st=ic), le 5 juillet 2026. Une journée à marcher dans la forêt de Brocéliande, sur les traces du siège de Merlin. Fujifilm X70 © Nicolas Jouanno."
 category: newsletter
 permalink: /la-sortie/2026-10/
 tags:
