@@ -19,6 +19,8 @@ for (const path of pages) {
   test(`${path} respecte les invariants d'accessibilité`, async ({ page }) => {
     await page.route(/^https?:\/\/(?!127\.0\.0\.1)/, (route) => route.abort());
     await page.goto(path);
+    // axe lit les couleurs à l'instant T : pendant un fondu, le contraste est faussé.
+    await page.evaluate(() => Promise.all(document.getAnimations().map((animation) => animation.finished)));
     const { violations } = await new AxeBuilder({ page }).analyze();
     const resume = violations.map(({ id, impact, nodes }) => `${id} (${impact}) : ${nodes.length}`);
     expect(resume).toEqual([]);
