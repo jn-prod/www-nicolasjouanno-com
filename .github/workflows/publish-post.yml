@@ -20,7 +20,7 @@ on:
         type: boolean
         default: false
       maintenant:
-        description: "Publier sans attendre la fin de la fenêtre protégée (férié, congé : équivaut à --no-verify)"
+        description: "Publier sans attendre le prochain créneau"
         type: boolean
         default: false
 
@@ -32,8 +32,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Pendant la fenêtre protégée, la publication attend le prochain créneau (13:00 ou 20:00,
-  # heure de Paris) au lieu d'échouer : on peut la lancer à toute heure, depuis le téléphone.
+  # La publication attend le prochain créneau au lieu d'échouer : on peut la lancer à toute
+  # heure, depuis le téléphone.
   creneau:
     if: ${{ !inputs.maintenant }}
     runs-on: ubuntu-latest
@@ -44,6 +44,8 @@ jobs:
           sparse-checkout: scripts/attendre-creneau.sh
           sparse-checkout-cone-mode: false
       - name: Attendre le prochain créneau
+        env:
+          CRENEAUX: ${{ secrets.CRENEAUX }}
         run: bash scripts/attendre-creneau.sh
 
   publish:
@@ -58,6 +60,8 @@ jobs:
       # Reliquat : une attente est plafonnée à 350 min, sous la limite de 6 h d'un job.
       - name: Attendre le prochain créneau
         if: ${{ !inputs.maintenant }}
+        env:
+          CRENEAUX: ${{ secrets.CRENEAUX }}
         run: bash scripts/attendre-creneau.sh
       - name: Use ruby
         uses: ruby/setup-ruby@v1
