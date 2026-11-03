@@ -57,6 +57,7 @@ pnpm dev             # Sert _site/ avec python http.server (port 8000)
 # Lint
 pnpm lint            # ESLint + Stylelint + Prettier (check)
 pnpm lint:fix        # Correction automatique
+pnpm test:e2e        # Contrôles axe de toutes les pages de _site (après pnpm build)
 
 # Images uniquement
 pnpm build:images    # WebP + optimisation SVG dans images-dist/
@@ -150,7 +151,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 >
 > **Règle — radius proportionnel à la taille.** Le `border-radius` n'est jamais codé en dur sur un composant : il découle de `.c-card--{size}` via `--card-radius` (`small` 4, `medium` 8, `large` 16). Le radius `large` (16) = celui des images de contenu, pour un arrondi cohérent entre cards et médias.
 >
-> **Règle — nesting de cards : descente d'un seul cran.** Une card imbriquée doit être **exactement une taille en dessous** de sa card parente la plus proche : `large > medium > small`. On **ne saute pas de palier** → `large` contenant directement une `small` est **interdit** (il faut passer par une `medium`). `small` est le plancher (une `small` ne peut contenir qu'une autre `small`). Seuls enfants autorisés : `large→medium`, `medium→small`, `small→small`. _Vérifié automatiquement par le harnais : `site-eval.sh` grader **R12** (ast-grep, `tools/scripts/sg-rules/card-nesting.yml` côté alfred) — tout nesting non conforme refuse le push._
+> **Règle — nesting de cards : descente d'un seul cran.** Une card imbriquée doit être **exactement une taille en dessous** de sa card parente la plus proche : `large > medium > small`. On **ne saute pas de palier** → `large` contenant directement une `small` est **interdit** (il faut passer par une `medium`). `small` est le plancher (une `small` ne peut contenir qu'une autre `small`). Seuls enfants autorisés : `large→medium`, `medium→small`, `small→small`.
 >
 > **Règle — image de fond = `--card-bg-image`.** Une card peut porter une image de fond via la variable `--card-bg-image` (inline `style="--card-bg-image: url('…')"`). Si définie, l'image s'affiche **par-dessus** `--card-bg` (qui reste la couleur de fallback). Pour un bandeau image avec encart lisible, on **imbrique** : carte image (`brand large` + `--card-bg-image`) > carte contenu (`flat medium`). _Ce duo remplace l'ancien `.c-jumbotron` (supprimé)._
 >

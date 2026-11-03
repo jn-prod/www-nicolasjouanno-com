@@ -32,7 +32,6 @@ Les overrides contextuels (ex: marges spécifiques à un contexte) se font dans 
 
 ### Ne pas faire
 
-- Pas de `display: grid` — uniquement flexbox
 - Pas de styles inline ou de `style=` dans le HTML
 - Pas de `width: 100%` sur les éléments block naturels (`div`, `section`, `article`, `legend`, `progress[display:block]`…) — ils sont naturellement pleine largeur
 - Pas de variables CSS spécifiques à un composant (ex: `--quiz-color-*`) — utiliser uniquement les tokens globaux du design system
@@ -81,8 +80,6 @@ function onSomeEvent(input) {
 ## Accessibilité
 
 - Les radios cachés visuellement utilisent `.u-visually-hidden` (pas `display: none` ni `visibility: hidden`)
-- Les éléments interactifs désactivés utilisent l'attribut `disabled` (pas une class)
-- Les régions dynamiques utilisent `aria-live` ou `role="status"`/`role="alert"` selon le niveau d'urgence
 
 ## Ajouter une app
 
@@ -101,3 +98,6 @@ dépôt public.
 Dans l'espace de travail local standard, lire `../alfred/AGENTS.md`. En cas de conflit, ses
 règles prévalent. Si `alfred` n'est pas accessible, signaler l'absence de contexte à Nicolas
 plutôt que d'improviser une doctrine locale.
+
+Règles d'interface communes aux deux sites (BEM, Flexbox, accessibilité, contrôles) :
+`../alfred/skills/frontend/SKILL.md`.
