@@ -7,7 +7,7 @@ permalink: /mentions-legales/
 
 # Mentions légales et confidentialité
 
-_Dernière mise à jour : 15 septembre 2026._
+_Dernière mise à jour : 18 septembre 2026._
 
 ## Éditeur
 
