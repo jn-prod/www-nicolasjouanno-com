@@ -8,9 +8,7 @@
       }
     ],
     "declaration-property-value-disallowed-list": {
-      "display": [
-        "/grid/"
-      ]
+      "display": ["/grid/"]
     }
   }
 }
