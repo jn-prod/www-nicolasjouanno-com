@@ -27,7 +27,7 @@ jobs:
       group: pages
       cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           ref: ${{ inputs.ref || github.sha }}
       - name: Use ruby
@@ -39,11 +39,11 @@ jobs:
       # ("packageManager": "pnpm@…"). La déclarer aux deux endroits fait échouer
       # l'action ("Multiple versions of pnpm specified").
       - name: Use pnpm
-        uses: pnpm/action-setup@v6
+        uses: pnpm/action-setup@73e46992e05b19abd31f2f3c20e0e7370d762115 # v6
         with:
           cache: true
       - name: Use Node.js
-        uses: actions/setup-node@v7
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
           node-version: 24
           cache: "pnpm"
@@ -65,7 +65,7 @@ jobs:
       # force_orphan : gh-pages ne garde que le build courant. Un contenu retiré du site
       # (droit à l'effacement, erreur de publication) ne survit pas dans l'historique.
       - name: Deploy GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
