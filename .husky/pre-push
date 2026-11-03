@@ -1,12 +1,12 @@
 #!/bin/sh
 # 1) Confidentialité AVANT que le contenu devienne public sur GitHub : la CI refait le même
-#    contrôle, mais après le push. Denylist : ~/corp-ai/.privacy-denylist.
+#    contrôle, mais après le push. Denylist : ~/alfred/.privacy-denylist.
 # 2) Fenêtre protégée : le push est programmé au prochain créneau, commits redatés
-#    (corp-ai/hooks/push-programme.sh). Un commit local, lui, n'est jamais bloqué.
-# corp-ai introuvable => push refusé (fail-closed). Bypass fondateur : git push --no-verify
-HOOKS="${ALFRED_HOOKS:-$HOME/corp-ai/hooks}"
+#    (alfred/hooks/push-programme.sh). Un commit local, lui, n'est jamais bloqué.
+# alfred introuvable => push refusé (fail-closed). Bypass fondateur : git push --no-verify
+HOOKS="${ALFRED_HOOKS:-$HOME/alfred/hooks}"
 if [ ! -f "$HOOKS/push-programme.sh" ]; then
-  echo "Push refuse : $HOOKS introuvable. Cloner corp-ai dans ~/corp-ai ou regler ALFRED_HOOKS."
+  echo "Push refuse : $HOOKS introuvable. Cloner alfred dans ~/alfred ou regler ALFRED_HOOKS."
   exit 1
 fi
 node scripts/privacy-scan.mjs || { echo "Push refuse (confidentialite)."; exit 1; }

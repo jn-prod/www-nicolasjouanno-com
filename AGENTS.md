@@ -95,9 +95,9 @@ function onSomeEvent(input) {
 ## Gouvernance
 
 Ce repo appartient à Nicolas Jouanno ; son agent s'appelle Alfred. La gouvernance transverse
-(profil, mémoire, état des projets et règles) vit dans le dépôt privé `corp-ai`, hors de ce
+(profil, mémoire, état des projets et règles) vit dans le dépôt privé `alfred`, hors de ce
 dépôt public.
 
-Dans l'espace de travail local standard, lire `../corp-ai/AGENTS.md`. En cas de conflit, ses
-règles prévalent. Si `corp-ai` n'est pas accessible, signaler l'absence de contexte à Nicolas
+Dans l'espace de travail local standard, lire `../alfred/AGENTS.md`. En cas de conflit, ses
+règles prévalent. Si `alfred` n'est pas accessible, signaler l'absence de contexte à Nicolas
 plutôt que d'improviser une doctrine locale.

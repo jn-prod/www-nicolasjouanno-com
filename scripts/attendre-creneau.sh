@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Fenêtre protégée en CI : attend le prochain créneau au lieu d'échouer. Même règle que
-# corp-ai/hooks/fenetre-protegee.sh (en semaine de 08:00 à 13:00 et de 14:00 à 20:00, heure
-# de Paris), sans les fériés ni les congés : corp-ai est privé, d'où la case « maintenant ».
+# alfred/hooks/fenetre-protegee.sh (en semaine de 08:00 à 13:00 et de 14:00 à 20:00, heure
+# de Paris), sans les fériés ni les congés : alfred est privé, d'où la case « maintenant ».
 # Attente plafonnée à 350 min, sous la limite de 6 h d'un job : le job suivant attend le reste.
 set -eu
 

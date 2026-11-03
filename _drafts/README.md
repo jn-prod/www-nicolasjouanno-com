@@ -13,7 +13,7 @@ reste dans `_drafts/`.
    ni mois seul, ni préfixe « La Sortie ». La description complète cette promesse avec
    son contexte ou un fait précis ; elle ne répète pas simplement le titre.
 2. La matière calendrier arrive seule le 15 dans `vtt.bzh/www/_drafts/` (« Brief La Sortie »,
-   du 1er du mois suivant au 1er + 35 jours), avec un rappel sur corp-ai jusqu'à la
+   du 1er du mois suivant au 1er + 35 jours), avec un rappel sur alfred jusqu'à la
    publication, au plus tard le dernier jour du mois. Autre fenêtre : onglet Actions de
    vtt.bzh, ou en local `pnpm newsletter:new -- --start=AAAA-MM-JJ --end=AAAA-MM-JJ`.
 3. Reprendre uniquement les faits vérifiés et les sorties retenues depuis ce brief.

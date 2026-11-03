@@ -6,7 +6,7 @@
 //
 // La denylist n'est jamais versionnée : variable PRIVACY_DENYLIST (secret GitHub
 // Actions, un terme par ligne) ou fichier PRIVACY_DENYLIST_FILE, par défaut
-// ~/corp-ai/.privacy-denylist. Sans denylist, le contrôle échoue (fail-closed).
+// ~/alfred/.privacy-denylist. Sans denylist, le contrôle échoue (fail-closed).
 // Les motifs ne s'appliquent ni aux tests, ni aux attributs placeholder, ni aux domaines
 // d'exemple, ni aux fichiers listés dans .privacy-allow (coordonnées publiques assumées,
 // un chemin par ligne). La denylist, elle, s'applique partout.
@@ -30,7 +30,7 @@ const PATTERNS = [
   ['téléphone', /(?<![A-Za-z0-9])(?:\+33|0)[ .-]?[1-9](?:[ .-]?\d{2}){4}(?![A-Za-z0-9])/],
 ];
 
-const listFile = process.env.PRIVACY_DENYLIST_FILE ?? join(homedir(), 'corp-ai', '.privacy-denylist');
+const listFile = process.env.PRIVACY_DENYLIST_FILE ?? join(homedir(), 'alfred', '.privacy-denylist');
 const rawList = process.env.PRIVACY_DENYLIST ?? (existsSync(listFile) ? readFileSync(listFile, 'utf8') : null);
 if (!rawList?.trim()) {
   console.error(`privacy : denylist introuvable (PRIVACY_DENYLIST ou ${listFile}). Contrôle refusé.`);
