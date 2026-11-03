@@ -1,6 +1,16 @@
 {
   "extends": "stylelint-config-standard-scss",
   "rules": {
-    "selector-class-pattern": null
+    "selector-class-pattern": [
+      "^([a-z][a-z0-9]*)(-[a-z0-9]+)*(__([a-z][a-z0-9]*)(-[a-z0-9]+)*)?(--([a-z][a-z0-9]*)(-[a-z0-9]+)*)?$",
+      {
+        "message": "Expected BEM-style class naming"
+      }
+    ],
+    "declaration-property-value-disallowed-list": {
+      "display": [
+        "/grid/"
+      ]
+    }
   }
 }

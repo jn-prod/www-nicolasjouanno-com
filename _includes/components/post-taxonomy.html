@@ -1,6 +1,6 @@
 {% assign item = include.item | default: post | default: page %}
 
-<ul class="u-list c-button-stack u-spacing--0">
+<ul class="u-list c-button-stack u-spacing--none">
   {% assign post_category_slug = item.category %}
   {% unless post_category_slug %}
     {% assign post_category_slug = item.categories | first %}

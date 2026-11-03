@@ -167,7 +167,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `.u-img` + `--cover` / `--rounded` | Image responsive ; `--cover` recadre, `--rounded` hérite du radius de la `.c-card` englobante (`--card-radius`) |
 | `.u-link--dark` | Lien dark sans soulignement, souligné au survol/focus |
 | `.u-flex` (+ modifs) | Conteneur flex **pur** (composable avec `.c-card`). Direction `--col` ; justify `--center`/`--between`/`--around`/`--end` ; align `--start`/`--stretch` ; `--nowrap` ; `--tight` (gap 8) ; `--fill` (enfants largeur égale). Défaut : rangée, wrap, items centrés, gap 16 |
-| `.u-spacing--0` | Reset d'espacement : `margin: 0; padding: 0` (ex. `<ul>` flex, `<figure>`) |
+| `.u-spacing--none` | Reset d'espacement : `margin: 0; padding: 0` (ex. `<ul>` flex, `<figure>`) |
 | `.u-spacing--block-start-{small\|medium\|large}` | Marge logique en haut — `8` / `16` / `32` |
 | `.u-spacing--block-end-{small\|medium\|large}` | Marge logique en bas — `8` / `16` / `32` |
 | `.u-spacing--inline-{small\|medium\|large}` | Marge logique horizontale (gauche + droite) — `8` / `16` / `32` |
