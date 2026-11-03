@@ -29,7 +29,7 @@ L’exercice se décompose de la sorte : réalisez 8 flexions, 5 fois, avec 2 mi
 
 Une variante, consiste à faire des squats sautées. Le mouvement a pour différence que vous sautez en fin de mouvement.
 
-<iframe width="auto" height="315" src="https://www.youtube.com/embed/yS4M8-y6Jr4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe title="Exercice musculation jambes: Squat" width="auto" height="315" src="https://www.youtube.com/embed/yS4M8-y6Jr4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Être plus endurant
 

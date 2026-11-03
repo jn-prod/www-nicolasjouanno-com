@@ -36,7 +36,7 @@ Ici, nous allons voir comment choisir la taille de votre VTT vous-même. Une foi
 
 ## 2/ Comment choisir la taille de son VTT ? {#taille}
 
-<iframe width="auto" height="315" src="https://www.youtube.com/embed/3LmqMBfwwSU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe title="TUTO : Comment régler la position de son VTT ?" width="auto" height="315" src="https://www.youtube.com/embed/3LmqMBfwwSU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Etape 1: mesure de l’entrejambe
 
