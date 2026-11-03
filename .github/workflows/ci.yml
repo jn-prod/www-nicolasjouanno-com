@@ -1,0 +1,41 @@
+name: Contrôles
+
+# Contrôles d'une pull request : l'automerge de Renovate exige au moins un check. Sans
+# secret, pour rester valable sur une PR de fork ou de Dependabot.
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  controles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - name: Use ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "4.0.9"
+          bundler-cache: true
+      - name: Use pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          cache: true
+      - name: Use Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: "pnpm"
+      - name: Install node dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Lint
+        run: pnpm lint
+      # Inclut check:positioning, check:content-images et check:site.
+      - name: Build
+        run: pnpm build
+      - name: Install Chromium
+        run: pnpm exec playwright install --with-deps chromium
+      - name: Accessibilité
+        run: pnpm test:e2e

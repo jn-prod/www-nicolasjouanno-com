@@ -10,3 +10,7 @@ _site
 .turbo
 _includes/icons/
 .obsidian/
+
+# Playwright
+playwright-report/
+test-results/

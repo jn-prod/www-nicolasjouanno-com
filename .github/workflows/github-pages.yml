@@ -20,6 +20,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
     concurrency:
@@ -57,6 +58,10 @@ jobs:
       # Inclut check:positioning, check:content-images et check:site.
       - name: Build
         run: pnpm build
+      - name: Install Chromium
+        run: pnpm exec playwright install --with-deps chromium
+      - name: Accessibilité
+        run: pnpm test:e2e
       # force_orphan : gh-pages ne garde que le build courant. Un contenu retiré du site
       # (droit à l'effacement, erreur de publication) ne survit pas dans l'historique.
       - name: Deploy GitHub Pages

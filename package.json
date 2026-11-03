@@ -38,13 +38,16 @@
     "lint:es:fix": "pnpm lint:es --fix",
     "check:site": "bundle exec ruby scripts/check-site.rb",
     "check:privacy": "node scripts/privacy-scan.mjs",
+    "test:e2e": "playwright test",
     "publish:post": "ruby scripts/publish-post.rb"
   },
   "dependencies": {
     "modern-normalize": "^3.0.1"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
     "@eslint/js": "^10.0.1",
+    "@playwright/test": "1.64.1",
     "eslint": "^10.13.0",
     "globals": "^17.13.0",
     "husky": "^9.1.7",
