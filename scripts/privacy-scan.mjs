@@ -1,6 +1,7 @@
 // Contrôle de confidentialité des fichiers versionnés : noms de tiers et de mineurs
 // (denylist), puis données personnelles par motif (e-mail hors contact@ et nicolas@,
-// téléphone, IBAN/RIB).
+// téléphone, IBAN/RIB, coordonnées), nom de l'employeur hors des pages autorisées,
+// position GPS dans les images et traces GPS versionnées.
 //
 //   node scripts/privacy-scan.mjs
 //
@@ -28,7 +29,48 @@ const PATTERNS = [
   ['IBAN', /\bFR\d{2}(?: ?[A-Za-z0-9]){23}\b/i],
   ['RIB', /\b\d{5} ?\d{5} ?[A-Za-z0-9]{11} ?\d{2}\b/],
   ['téléphone', /(?<![A-Za-z0-9])(?:\+33|0)[ .-]?[1-9](?:[ .-]?\d{2}){4}(?![A-Za-z0-9])/],
+  ['coordonnées', /(?<![\d.])-?\d{1,3}\.\d{4,}\s*[,;/]\s*-?\d{1,3}\.\d{4,}(?![\d.])|\b\d{1,2}°\s?\d{1,2}['′]/],
 ];
+// L'employeur n'apparaît que sur ces pages : ni .privacy-allow ni les tests ne l'élargissent.
+const EMPLOYEUR = /mgdis/i;
+const EMPLOYEUR_AUTORISE = new Set([
+  'work/index.md',
+  '_posts/2025-09-26-paris-web-2025.md',
+  'scripts/privacy-scan.mjs',
+]);
+const TRACES = /\.(gpx|kml|kmz|fit|tcx)$/i;
+const IMAGES = /\.(jpe?g|png|webp)$/i;
+
+// Vrai si l'image porte une latitude ou une longitude, en XMP ou en EXIF (JPEG, PNG, WebP).
+const tiffAvecGps = (tiff) => {
+  const lePetit = tiff.toString('latin1', 0, 2) === 'II';
+  if (!lePetit && tiff.toString('latin1', 0, 2) !== 'MM') return false;
+  const u16 = (position) => (lePetit ? tiff.readUInt16LE(position) : tiff.readUInt16BE(position));
+  const u32 = (position) => (lePetit ? tiff.readUInt32LE(position) : tiff.readUInt32BE(position));
+  const entrees = (ifd) => Array.from({ length: u16(ifd) }, (_, i) => ifd + 2 + i * 12);
+  const pointeur = entrees(u32(4)).find((entree) => u16(entree) === 0x8825);
+  if (pointeur === undefined) return false;
+  return entrees(u32(pointeur + 8)).some((entree) => [2, 4].includes(u16(entree)));
+};
+const imageAvecGps = (data) => {
+  if (data.includes('GPSLatitude') || data.includes('GPSLongitude')) return true;
+  return [
+    ['Exif\0\0', 6],
+    ['eXIf', 4],
+    ['EXIF', 8],
+  ].some(([marqueur, saut]) => {
+    for (let i = data.indexOf(marqueur); i !== -1; i = data.indexOf(marqueur, i + 1)) {
+      let tiff = data.subarray(i + saut);
+      if (tiff.toString('latin1', 0, 6) === 'Exif\0\0') tiff = tiff.subarray(6);
+      try {
+        if (tiffAvecGps(tiff)) return true;
+      } catch {
+        // Marqueur fortuit dans les données de l'image : pas un bloc EXIF lisible.
+      }
+    }
+    return false;
+  });
+};
 
 const listFile = process.env.PRIVACY_DENYLIST_FILE ?? join(homedir(), 'alfred', '.privacy-denylist');
 const rawList = process.env.PRIVACY_DENYLIST ?? (existsSync(listFile) ? readFileSync(listFile, 'utf8') : null);
@@ -49,10 +91,14 @@ const allowed = new Set(
         .filter((path) => path && !path.startsWith('#'))
     : []
 );
-const files = execFileSync('git', ['ls-files', '-z'], { encoding: 'utf8' })
-  .split('\0')
-  .filter((file) => file && !SKIP.test(file));
+const tracked = execFileSync('git', ['ls-files', '-z'], { encoding: 'utf8' }).split('\0').filter(Boolean);
+const files = tracked.filter((file) => !SKIP.test(file));
 const findings = [];
+for (const file of tracked) {
+  if (!existsSync(file)) continue;
+  if (TRACES.test(file)) findings.push(`${file} trace GPS`);
+  if (IMAGES.test(file) && imageAvecGps(readFileSync(file))) findings.push(`${file} position GPS dans l'image`);
+}
 for (const file of files) {
   if (!existsSync(file)) continue;
   const text = readFileSync(file, 'utf8');
@@ -61,6 +107,7 @@ for (const file of files) {
   text.split('\n').forEach((line, index) => {
     const lower = line.toLowerCase();
     if (terms.some((term) => lower.includes(term))) findings.push(`${file}:${index + 1} terme de la denylist`);
+    if (EMPLOYEUR.test(line) && !EMPLOYEUR_AUTORISE.has(file)) findings.push(`${file}:${index + 1} employeur`);
     if (!checkPatterns || line.includes('placeholder=')) return;
     for (const [kind, pattern] of PATTERNS) if (pattern.test(line)) findings.push(`${file}:${index + 1} ${kind}`);
   });
