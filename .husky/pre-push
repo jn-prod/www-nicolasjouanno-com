@@ -1,12 +1,12 @@
 #!/bin/sh
 # 1) Confidentialité AVANT que le contenu devienne public sur GitHub : la CI refait le même
 #    contrôle, mais après le push. Denylist : ~/alfred/.privacy-denylist.
-# 2) Programmation du push : alfred/hooks/push-programme.sh.
+# 2) Programmation du push : alfred/hooks/scheduled-push.sh.
 # alfred introuvable => push refusé (fail-closed).
 HOOKS="${ALFRED_HOOKS:-$HOME/alfred/hooks}"
-if [ ! -f "$HOOKS/push-programme.sh" ]; then
+if [ ! -f "$HOOKS/scheduled-push.sh" ]; then
   echo "Push refuse : $HOOKS introuvable. Cloner alfred dans ~/alfred ou regler ALFRED_HOOKS."
   exit 1
 fi
 node scripts/privacy-scan.mjs || { echo "Push refuse (confidentialite)."; exit 1; }
-exec bash "$HOOKS/push-programme.sh" verifier "$@"
+exec bash "$HOOKS/scheduled-push.sh" verifier "$@"
