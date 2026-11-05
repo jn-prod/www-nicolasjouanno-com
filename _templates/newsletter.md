@@ -54,7 +54,7 @@ Toutes les dates reçues et les détails pratiques sont sur la [page Événement
 
 ## Votre sortie
 
-Vous organisez une sortie ouverte à tous ? [Envoyez-moi la date](https://www.nicolasjouanno.com/events/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=contribuer#proposer). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre la page ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
+Vous organisez une sortie ouverte à tous ? [Envoyez-moi la date](https://www.nicolasjouanno.com/events/ajouter.html?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=contribuer). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre la page ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
 
 ## La Sortie se partage
 

@@ -1,6 +1,6 @@
 # Site Settings
 title: "Nicolas Jouanno"
-description: "Des chemins, du matériel et des idées pour passer plus de temps dehors. Ici, le vécu compte plus que le chrono."
+description: "Où sortir, avec quoi et pourquoi y aller : chaque mois depuis la Bretagne, la lettre outdoor de Nicolas Jouanno, ancien cycliste pro."
 url: "https://www.nicolasjouanno.com"
 lang: "fr"
 logo: "/images/icons/avatar.svg"
@@ -41,7 +41,7 @@ projects:
   vtt_bzh:
     name: "vtt.bzh"
     url: "/events/"
-    ajouter_url: "/events/#proposer"
+    ajouter_url: "/events/ajouter.html"
 
 # collections
 collections:

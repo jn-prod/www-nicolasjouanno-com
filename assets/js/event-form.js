@@ -1,4 +1,7 @@
 const EVENT_FORM_ADDRESS = 'contact@nicolasjouanno.com';
+const EVENT_FORM_CONFIRM_URL = '/events/soumission-confirmee.html';
+const EVENT_FORM_STORAGE_KEY = 'event-form-draft';
+const EVENT_FORM_REDIRECT_DELAY = 400;
 const COPIED_MESSAGE = 'Copié.';
 const COPY_FAILED_MESSAGE = 'Texte sélectionné : copiez-le avec votre clavier ou le menu de votre téléphone.';
 
@@ -21,25 +24,31 @@ function buildMailto(subject, body) {
 // Effets de bord
 function onSubmit(event) {
   event.preventDefault();
-  const form = event.currentTarget;
-  const fields = Object.fromEntries(new FormData(form).entries());
+  const fields = Object.fromEntries(new FormData(event.currentTarget).entries());
   const subject = buildSubject(fields);
   const body = buildBody(fields);
-  const url = buildMailto(subject, body);
-  const preview = form.parentElement.querySelector('[data-event-form-preview]');
-  preview.querySelector('[data-event-form-subject]').value = subject;
-  preview.querySelector('[data-event-form-body]').value = body;
-  preview.querySelector('[data-event-form-link]').href = url;
-  preview.querySelector('[data-event-form-copied]').textContent = '';
-  preview.hidden = false;
-  preview.querySelector('h3').focus();
-  window.location.href = url;
+  sessionStorage.setItem(EVENT_FORM_STORAGE_KEY, JSON.stringify({ subject, body }));
+  window.location.href = buildMailto(subject, body);
+  setTimeout(() => {
+    window.location.href = EVENT_FORM_CONFIRM_URL;
+  }, EVENT_FORM_REDIRECT_DELAY);
+}
+
+function renderConfirmation(confirm) {
+  const draft = JSON.parse(sessionStorage.getItem(EVENT_FORM_STORAGE_KEY) ?? 'null');
+  if (!draft) return;
+  confirm.querySelector('[data-event-form-subject]').value = draft.subject;
+  confirm.querySelector('[data-event-form-body]').value = draft.body;
+  confirm.querySelector('[data-event-form-link]').href = buildMailto(draft.subject, draft.body);
+  confirm.querySelector('[data-event-form-address]').textContent = EVENT_FORM_ADDRESS;
+  confirm.hidden = false;
+  document.querySelector('[data-event-confirm-empty]').hidden = true;
 }
 
 async function onCopy(event) {
   const button = event.currentTarget;
   const field = document.getElementById(button.dataset.eventFormCopy);
-  const status = button.closest('[data-event-form-preview]').querySelector('[data-event-form-copied]');
+  const status = button.closest('[data-event-confirm]').querySelector('[data-event-form-copied]');
   field.select();
   try {
     await navigator.clipboard.writeText(field.value);
@@ -52,6 +61,7 @@ async function onCopy(event) {
 document.querySelectorAll('[data-event-form]').forEach((form) => {
   form.addEventListener('submit', onSubmit);
 });
+document.querySelectorAll('[data-event-confirm]').forEach(renderConfirmation);
 document.querySelectorAll('[data-event-form-copy]').forEach((button) => {
   button.addEventListener('click', onCopy);
 });

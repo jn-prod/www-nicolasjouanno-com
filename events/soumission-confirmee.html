@@ -1,0 +1,40 @@
+---
+layout: page
+title: Votre e-mail est prêt
+description: Votre proposition d'événement est prête à être envoyée depuis votre messagerie.
+permalink: /events/soumission-confirmee.html
+sitemap: false
+robots: noindex, follow
+---
+
+<h1>Votre e-mail est prêt</h1>
+
+<div data-event-confirm-empty>
+  <p>Aucun e-mail n'est en préparation sur cet appareil. <a href="/events/ajouter.html">Revenir au formulaire</a>.</p>
+</div>
+
+<div class="c-event-form" data-event-confirm hidden>
+  <p>Merci. Il ne part que si vous l'envoyez depuis votre messagerie. Si elle ne s'est pas ouverte, <a data-event-form-link href="/events/ajouter.html">rouvrez l'e-mail préparé</a>, ou copiez ce texte dans votre application d'e-mail.</p>
+  <p>Destinataire : <span data-event-form-address></span></p>
+  <div class="c-event-form__field">
+    <label for="event-preview-subject">Objet</label>
+    <input class="c-control" id="event-preview-subject" type="text" readonly data-event-form-subject />
+    <button class="c-button c-button--dark-outline" type="button" data-event-form-copy="event-preview-subject">Copier l'objet</button>
+  </div>
+  <div class="c-event-form__field">
+    <label for="event-preview-body">Message</label>
+    <textarea class="c-control" id="event-preview-body" rows="9" readonly data-event-form-body></textarea>
+    <button class="c-button c-button--dark-outline" type="button" data-event-form-copy="event-preview-body">Copier le message</button>
+  </div>
+  <p role="status" data-event-form-copied></p>
+</div>
+
+<section class="c-card c-card--neutral c-card--large" aria-labelledby="event-share-title">
+  <h2 id="event-share-title">Un autre événement à signaler ?</h2>
+  <p>Le même formulaire peut être transmis aux autres organisateurs de votre club.</p>
+  <p><a class="c-button c-button--brand" href="/events/ajouter.html">Ouvrir le formulaire</a></p>
+</section>
+
+<p><a href="/events/">Retour aux événements</a></p>
+
+<script src="/assets/js/event-form.js?v={{ site.time | date: '%s' }}" defer></script>

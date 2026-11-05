@@ -9,7 +9,7 @@ permalink: /vtt/
 
 # VTT
 
-Le vélo a d’abord donné le rythme. Après les années de compétition, je roule aujourd’hui autrement : sur les sentiers bretons et, en famille, pendant nos voyages en Europe. Je garde ici ce qui m’a servi en pratique — réglages, matériel, entraînement et sorties.
+Le vélo a d’abord donné le rythme. Après les années de compétition, je roule aujourd’hui autrement : sur les sentiers bretons et pendant mes voyages en Europe. Je garde ici ce qui m’a servi en pratique — réglages, matériel, entraînement et sorties.
 
 [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) est né en 2013 d’une question simple : où rouler dimanche ? Ce calendrier vit aujourd’hui sur la page [Événements](/events/).
 

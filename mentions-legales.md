@@ -45,7 +45,7 @@ Vous pouvez également introduire une réclamation auprès de la [CNIL](https://
 
 ## Proposer un événement
 
-Le formulaire de la page [Événements](/events/) ne transmet rien au site : il prépare un e-mail que vous envoyez vous-même depuis votre messagerie. Le nom de l’événement, sa date, son lieu, sa discipline, son organisateur, ses horaires, son tarif et son lien peuvent être publiés après relecture. Votre adresse e-mail et votre message ne le sont pas.
+Le [formulaire de proposition](/events/ajouter.html) ne transmet rien au site : il prépare un e-mail que vous envoyez vous-même depuis votre messagerie. Le nom de l’événement, sa date, son lieu, sa discipline, son organisateur, ses horaires, son tarif et son lien peuvent être publiés après relecture. Votre adresse e-mail et votre message ne le sont pas.
 
 Cet e-mail sert à traiter votre proposition et à vous répondre, sur la base de votre démarche. Il est conservé le temps de ce suivi. Pour en demander l’accès, la rectification ou la suppression, écrivez à [contact@nicolasjouanno.com](mailto:contact@nicolasjouanno.com).
 

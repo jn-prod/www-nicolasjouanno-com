@@ -1,11 +1,8 @@
 {% assign newsletter_form_id = include.id | default: "newsletter" %} {% assign
 newsletter_form_title = include.title | default: "Recevoir La Sortie" %} {%
 assign newsletter_form_url = include.url | default: "/la-sortie/" %} {% assign
-newsletter_form_description = include.description | default: "Chaque mois, une
-photo, un vécu et ce qui mérite l’attention dehors : une sortie, une idée, du
-matériel ou des dates." %} {% assign
-newsletter_form_note = include.note | default: "Une fois par mois. Désabonnement
-en un clic." %}
+newsletter_form_description = include.description | default: "Chaque mois, une sortie vécue, le matériel qui la change et les dates à venir." %} {% assign
+newsletter_form_note = include.note | default: "Gratuit. Désabonnement en un clic." %}
 <section
   class="c-newsletter-form{% if include.variant %} c-newsletter-form--{{ include.variant }}{% endif %} c-card c-card--neutral{% if include.variant == 'compact' %} c-card--medium{% else %} c-card--large{% endif %}"
   aria-labelledby="newsletter-title-{{ newsletter_form_id }}"

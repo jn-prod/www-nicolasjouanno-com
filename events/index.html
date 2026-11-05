@@ -7,7 +7,7 @@ permalink: /events/
 
 <h1>Événements</h1>
 
-<p>Les randos et les rendez-vous outdoor ouverts à tous qu'on m'envoie. Je tiens un calendrier depuis 2013, d'abord en Bretagne sur vtt.bzh. Cette page ne dit pas tout ce qui se passe : elle dit ce que je sais. Vous organisez quelque chose ? <a href="#proposer">Envoyez-moi la date</a>.</p>
+<p>Les randos et les rendez-vous outdoor ouverts à tous qu'on m'envoie. Je tiens un calendrier depuis 2013, d'abord en Bretagne sur vtt.bzh. Cette page ne dit pas tout ce qui se passe : elle dit ce que je sais. Vous organisez quelque chose ? <a href="/events/ajouter.html">Envoyez-moi la date</a>.</p>
 
 {%- assign today = site.time | date: "%Y-%m-%d" -%}
 {%- assign events_sorted = site.events | sort: "event_date" -%}
@@ -29,7 +29,7 @@ permalink: /events/
   <p>Aucune date pour le moment.</p>
 {% endif %}
 
-{% include components/event-form.html %}
+<p class="c-button-stack"><a class="c-button c-button--brand" href="/events/ajouter.html">Proposer un événement</a></p>
 
 {% include components/newsletter-form.html id="events" title="Recevoir La Sortie" %}
 

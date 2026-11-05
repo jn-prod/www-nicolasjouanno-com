@@ -1,7 +1,7 @@
 ---
-title: Nicolas Jouanno — Outdoor, voyage et sans gluten
+title: Nicolas Jouanno — La Sortie, la lettre outdoor d'un ancien cycliste pro
 layout: landing
-description: Des chemins, du matériel et des idées pour passer plus de temps dehors. Ici, le vécu compte plus que le chrono.
+description: "Où sortir, avec quoi et pourquoi y aller : chaque mois depuis la Bretagne, la lettre outdoor de Nicolas Jouanno, ancien cycliste pro."
 permalink: /index.html
 script: /assets/share.js
 ---
@@ -17,11 +17,9 @@ script: /assets/share.js
   </div>
 
   <p class="c-profile__description p-note">
-    Des chemins, du matériel et des idées pour passer plus de temps dehors.<br>
-    Ici, le vécu compte plus que le chrono.<br>
+    Où sortir, avec quoi et pourquoi y aller : chaque mois depuis la Bretagne, dans <a href="/la-sortie/">La Sortie</a>.<br>
     <span aria-hidden="true">⏮️</span> <a href="/results.html">Ex-cycliste pro</a>.
-    <span aria-hidden="true">🚵</span> Créateur de <a href="{{ site.projects.vtt_bzh.url }}">vtt.bzh</a>.<br>
-    <span aria-hidden="true">🇪🇺</span> Europe en famille, en van.
+    <span aria-hidden="true">🚵</span> Créateur de <a href="{{ site.projects.vtt_bzh.url }}">vtt.bzh</a>.
     <span aria-hidden="true">🌱</span> <a href="/nutrition/sans-gluten.html">Assiettes sans gluten</a>.
   </p>
 
@@ -63,7 +61,7 @@ script: /assets/share.js
   </div>
 </header>
 
-{% include components/newsletter-form.html id="home" title="Recevoir La Sortie" description="Une fois par mois, une photo, un vécu et ce qui mérite l’attention dehors." note="Désabonnement en un clic." variant="compact" %}
+{% include components/newsletter-form.html id="home" title="Recevoir La Sortie" description="Chaque mois, une sortie vécue, le matériel qui la change et les dates à venir." note="Gratuit. Désabonnement en un clic." variant="compact" %}
 
 {% include components/channel-navigation.html %}
 
