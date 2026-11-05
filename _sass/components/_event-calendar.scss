@@ -1,0 +1,71 @@
+.c-event-calendar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-16);
+  margin-block: var(--size-16) var(--size-32);
+
+  &__toolbar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-8);
+  }
+
+  &__weeks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: var(--size-8);
+  }
+
+  &__week-select {
+    flex: 1 1 100%;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__week-button {
+    flex: 1 1 0;
+    justify-content: center;
+  }
+
+  &__filter-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-8);
+    margin-top: var(--size-8);
+  }
+
+  &__day {
+    display: flex;
+    gap: var(--size-8);
+  }
+
+  &__date {
+    flex: 0 0 4rem;
+    margin: var(--size-8) 0 0;
+    padding: 0;
+    font-size: var(--b-font-size-small);
+    text-align: center;
+
+    time {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__number {
+    font-size: 1.75em;
+    line-height: 1.1;
+  }
+
+  &__events {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    gap: var(--size-8);
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}

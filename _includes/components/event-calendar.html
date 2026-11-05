@@ -1,0 +1,61 @@
+{%- comment -%}
+  Tous les événements à venir sont rendus dans le HTML, groupés par jour. Le script
+  ajoute la vue par semaine et le filtre ; sans lui, la liste complète reste lisible.
+{%- endcomment -%}
+{%- assign event_weekdays = "lun.,mar.,mer.,jeu.,ven.,sam.,dim." | split: "," -%}
+{%- assign event_months = "janv.,févr.,mars,avr.,mai,juin,juil.,août,sept.,oct.,nov.,déc." | split: "," -%}
+{%- assign event_zones = include.events | map: "zone" | compact | uniq | sort -%}
+<div class="c-event-calendar" data-event-calendar>
+  <div class="c-event-calendar__toolbar" data-event-calendar-controls hidden>
+    <nav class="c-event-calendar__weeks" aria-label="Semaines du calendrier">
+      <label class="u-visually-hidden" for="event-week">Semaine affichée</label>
+      <select class="c-control c-event-calendar__week-select" id="event-week" data-event-calendar-week></select>
+      <button class="c-button c-button--dark-outline c-event-calendar__week-button" type="button" data-event-calendar-previous>Précédente</button>
+      <button class="c-button c-button--dark-outline c-event-calendar__week-button" type="button" data-event-calendar-next>Suivante</button>
+    </nav>
+    <details class="c-event-calendar__filter c-disclosure" data-event-calendar-filter>
+      <summary class="c-disclosure__summary c-button c-button--dark-outline">Filtrer</summary>
+      <form class="c-event-calendar__filter-form c-card c-card--flat c-card--medium" data-event-calendar-form>
+        <label for="event-zone">Département ou région</label>
+        <select class="c-control" id="event-zone" name="zone">
+          <option value="all">Partout</option>
+          {%- for zone in event_zones %}
+          <option value="{{ zone | escape }}">{{ zone }}</option>
+          {%- endfor %}
+        </select>
+        <p class="c-button-stack">
+          <button class="c-button c-button--brand" type="submit">Rechercher</button>
+          <button class="c-button c-button--dark-outline" type="button" data-event-calendar-reset>Réinitialiser</button>
+        </p>
+      </form>
+    </details>
+  </div>
+
+  <p class="u-visually-hidden" role="status" data-event-calendar-count></p>
+
+  <div class="c-card c-card--neutral c-card--medium" data-event-calendar-empty hidden>
+    <p><strong>Aucune date annoncée cette semaine.</strong> Choisissez une autre semaine, ou recevez les prochaines dates avec <a href="#newsletter-title-events">La Sortie</a>.</p>
+  </div>
+
+  {%- assign event_previous_day = "" -%}
+  {%- for event in include.events -%}
+    {%- assign event_day = event.event_date | date: "%Y-%m-%d" -%}
+    {%- if event_day != event_previous_day -%}
+      {%- unless forloop.first -%}</ul></section>{%- endunless -%}
+      {%- assign event_weekday_index = event.event_date | date: "%u" | minus: 1 -%}
+      {%- assign event_month_index = event.event_date | date: "%-m" | minus: 1 %}
+      <section class="c-event-calendar__day" data-event-calendar-day data-date="{{ event_day }}">
+        <h3 class="c-event-calendar__date">
+          <time datetime="{{ event_day }}">
+            <span class="c-event-calendar__weekday">{{ event_weekdays[event_weekday_index] }}</span>
+            <span class="c-event-calendar__number">{{ event.event_date | date: "%-d" }}</span>
+            <span class="c-event-calendar__month">{{ event_months[event_month_index] }}</span>
+          </time>
+        </h3>
+        <ul class="c-event-calendar__events">
+      {%- assign event_previous_day = event_day -%}
+    {%- endif %}
+          <li data-event-calendar-item data-date="{{ event_day }}" data-zone="{{ event.zone | escape }}">{% include components/event-card.html event=event %}</li>
+    {%- if forloop.last -%}</ul></section>{%- endif -%}
+  {%- endfor %}
+</div>

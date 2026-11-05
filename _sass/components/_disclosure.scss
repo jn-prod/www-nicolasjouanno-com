@@ -1,0 +1,28 @@
+// Primitive disclosure : comportement et indicateur communs des details/summary.
+.c-disclosure {
+  &__summary {
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &--indicator {
+      display: flex;
+      align-items: baseline;
+      gap: var(--size-8);
+
+      &::before {
+        flex: 0 0 auto;
+        font-weight: 700;
+        line-height: 1;
+        content: "›";
+      }
+    }
+  }
+
+  &[open] > &__summary--indicator::before {
+    transform: rotate(90deg);
+  }
+}

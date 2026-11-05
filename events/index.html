@@ -24,7 +24,7 @@ permalink: /events/
 
 <h2>À venir</h2>
 {% if events_upcoming.size > 0 %}
-  {% include components/event-list.html events=events_upcoming heading=3 %}
+  {% include components/event-calendar.html events=events_upcoming %}
 {% else %}
   <p>Aucune date pour le moment.</p>
 {% endif %}
@@ -37,3 +37,5 @@ permalink: /events/
   <h2>Archive</h2>
   {% include components/event-list.html events=events_past heading=3 %}
 {% endif %}
+
+<script src="/assets/js/events-calendar.js?v={{ site.time | date: '%s' }}" defer></script>

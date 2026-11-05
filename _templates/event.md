@@ -6,6 +6,8 @@ title: ""
 event_date: 2027-01-31
 discipline: ""
 lieu: ""
+# Département ou région : alimente le filtre de /events/.
+zone: ""
 club: ""
 tarif: ""
 horaire: ""
