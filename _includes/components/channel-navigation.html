@@ -1,10 +1,15 @@
+{%- comment -%}
+  Onglets des canaux. Paramètre : current = "publications" (défaut, home) ou "events".
+  L'onglet courant porte aria-current="page".
+{%- endcomment -%}
+{%- assign channel_current = include.current | default: "publications" -%}
 <nav class="c-tabs c-channel-navigation" aria-label="Canaux de Nicolas Jouanno">
   <ul class="c-tabs__nav c-channel-navigation__list">
     <li class="c-channel-navigation__item">
       <a
         class="c-tabs__tab c-channel-navigation__link"
-        href="#publications"
-        aria-current="page"
+        href="{% if channel_current == "publications" %}#publications{% else %}/#publications{% endif %}"
+        {%- if channel_current == "publications" %} aria-current="page"{% endif %}
       >
         {% include components/icon.html name="notes" %}
         <span class="u-visually-hidden">Publications</span>
@@ -14,6 +19,7 @@
       <a
         class="c-tabs__tab c-channel-navigation__link"
         href="{{ site.projects.events.url }}"
+        {%- if channel_current == "events" %} aria-current="page"{% endif %}
       >
         {% include components/icon.html name="calendar" %}
         <span class="u-visually-hidden">Événements</span>

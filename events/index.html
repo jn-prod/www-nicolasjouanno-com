@@ -19,6 +19,8 @@ permalink: /events/
   {%- endif -%}
 {%- endfor -%}
 
+{% include components/channel-navigation.html current="events" %}
+
 <h2>À venir</h2>
 {% if events_upcoming.size > 0 %}
   {% include components/event-calendar.html events=events_upcoming %}
