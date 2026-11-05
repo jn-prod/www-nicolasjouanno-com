@@ -180,6 +180,6 @@ balise site VTT FFC
 
 ## 6/ Vous recherchez une randonnée VTT en Bretagne? {#conclusion}
 
-Vous cherchez une randonnée organisée ? La page [Événements]({{ site.projects.vtt_bzh.url }}) reprend celles qu'on m'envoie : date, lieu et lien vers l'organisation.
+Vous cherchez une randonnée organisée ? La page [Événements]({{ site.projects.events.url }}) reprend celles qu'on m'envoie : date, lieu et lien vers l'organisation.
 
-Vous organisez ou connaissez une rando qui n'y est pas ? Vous pouvez la [proposer]({{ site.projects.vtt_bzh.ajouter_url }}) — c’est gratuit et ouvert à tous les clubs et associations.
+Vous organisez ou connaissez une rando qui n'y est pas ? Vous pouvez la [proposer]({{ site.projects.events.ajouter_url }}) — c’est gratuit et ouvert à tous les clubs et associations.

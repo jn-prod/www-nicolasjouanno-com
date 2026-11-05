@@ -19,7 +19,7 @@ Aujourd’hui, je roule et je cours autrement. Avec ma famille, nous parcourons 
 
 Le palmarès est l’avant. Le vélo continue à travers le [VTT](/vtt/), le [trail](/trail/) et les outils nés de cette pratique.
 
-[{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) est né en 2013 d’une question simple : où rouler dimanche ? Ce calendrier vit aujourd’hui sur la page [Événements](/events/).
+vtt.bzh est né en 2013 d’une question simple : où rouler dimanche ? Ce calendrier vit aujourd’hui sur la page [Événements]({{ site.projects.events.url }}).
 
 ## Palmarès cycliste {#palmares}
 
@@ -197,4 +197,4 @@ Pas de résultat dans le top 20 : une blessure a écourté la saison.
 
 ## La suite, sur les sentiers
 
-La compétition est terminée, pas le mouvement. Je roule en [VTT](/vtt/), je cours sur les sentiers de [trail](/trail/) et je continue à partager ce qui naît de cette pratique, dont [{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}).
+La compétition est terminée, pas le mouvement. Je roule en [VTT](/vtt/), je cours sur les sentiers de [trail](/trail/) et je continue à partager ce qui naît de cette pratique, dont le calendrier de la page [Événements]({{ site.projects.events.url }}).

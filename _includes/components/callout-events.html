@@ -4,11 +4,11 @@
     {% if include.text %}{{ include.text }}{% else %}Les randos et les rendez-vous outdoor ouverts à tous qu'on m'envoie.{% endif %}
   </p>
   <p class="c-button-stack">
-    <a href="{{ site.projects.vtt_bzh.url }}" class="c-button c-button--light">
+    <a href="{{ site.projects.events.url }}" class="c-button c-button--light">
       {% if include.cta %}{{ include.cta }}{% else %}Voir les événements{% endif %}
     </a>
     {% if include.show_add %}
-      <a href="{{ site.projects.vtt_bzh.ajouter_url }}" class="c-button c-button--light-outline">
+      <a href="{{ site.projects.events.ajouter_url }}" class="c-button c-button--light-outline">
         Proposer un événement
       </a>
     {% endif %}

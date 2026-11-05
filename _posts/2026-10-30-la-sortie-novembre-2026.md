@@ -52,35 +52,35 @@ l’Ille-et-Vilaine (1), la Loire-Atlantique (1) et le Morbihan (5).
 
 ### Week-end des 7 et 8 novembre
 
-- **[14e Rando de l’AFF en Brocéliande](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — dimanche 8 · Beignon (56)
-- **[15e Rando des Lutins](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — dimanche 8 · Pluvigner (56)
-- **[La Plouz’Argoat (VTT et gravel)](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — dimanche 8 · Plouzané (29)
-- **[Rando de la vallée de Saint-Nicolas](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — dimanche 8 · Pluméliau-Bieuzy, Saint-Nicolas-des-Eaux (56)
+- **14e Rando de l’AFF en Brocéliande** — dimanche 8 · Beignon (56)
+- **15e Rando des Lutins** — dimanche 8 · Pluvigner (56)
+- **La Plouz’Argoat (VTT et gravel)** — dimanche 8 · Plouzané (29)
+- **Rando de la vallée de Saint-Nicolas** — dimanche 8 · Pluméliau-Bieuzy, Saint-Nicolas-des-Eaux (56)
 
 ### Mercredi 11 novembre
 
-- **[32e Rando VTT et pédestre de Plumelec](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — mercredi 11 · Plumelec (56)
+- **32e Rando VTT et pédestre de Plumelec** — mercredi 11 · Plumelec (56)
 
 ### Week-end des 14 et 15 novembre
 
-- **[35e Rando VTT de Saint-Thurial](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — dimanche 15 · Saint-Thurial (35)
-- **[La Scorff VTT](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — dimanche 15 · Plouay (56)
-- **[Randonnée des vallées](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — dimanche 15 · La Chapelle-Launay (44)
-- **[Braderie du cycle](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)**, avec randos VTT et cyclo le dimanche matin — dimanche 15 · Le Relecq-Kerhuon (29)
+- **35e Rando VTT de Saint-Thurial** — dimanche 15 · Saint-Thurial (35)
+- **La Scorff VTT** — dimanche 15 · Plouay (56)
+- **Randonnée des vallées** — dimanche 15 · La Chapelle-Launay (44)
+- **Braderie du cycle**, avec randos VTT et cyclo le dimanche matin — dimanche 15 · Le Relecq-Kerhuon (29)
 
 ### Week-end des 21 et 22 novembre
 
-- **[Randonnée des Chocards](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — dimanche 22 · Yffiniac (22)
+- **Randonnée des Chocards** — dimanche 22 · Yffiniac (22)
 
 ### Week-end des 28 et 29 novembre
 
-- **[Rando du Téléthon](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — dimanche 29 · Plouezoc’h (29)
+- **Rando du Téléthon** — dimanche 29 · Plouezoc’h (29)
 
-Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier).
+Le calendrier complet et les détails pratiques sont sur la [page Événements](/events/).
 
 ## Votre sortie
 
-Votre club prépare une randonnée ? [Ajoutez-la au calendrier](https://www.vtt.bzh/calendrier/ajouter.html?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=contribuer). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre le calendrier ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
+Votre club prépare une randonnée ? [Ajoutez-la au calendrier](/events/ajouter.html). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre le calendrier ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
 
 ## La Sortie se partage
 

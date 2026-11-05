@@ -3,8 +3,8 @@ layout: page
 title: En ce moment
 description: "Ce qui occupe Nicolas Jouanno en ce moment : La Sortie, les événements, le sans gluten et ce site."
 permalink: /now/
-status: l’édition de novembre de La Sortie
-updated: 2026-10-25
+status: l’édition de décembre de La Sortie
+updated: 2026-11-05
 ---
 
 # En ce moment
@@ -15,11 +15,11 @@ Cette page dit ce qui m’occupe en ce moment. Je la mets à jour quand quelque 
 
 ## La Sortie
 
-J’écris l’édition de novembre de [La Sortie](/la-sortie/), ma lettre mensuelle sur les sorties outdoor. Sa première saison suit un fil : retrouver le plaisir de sortir, moins guidé par les compteurs et les dossards.
+J’écris l’édition de décembre de [La Sortie](/la-sortie/), ma lettre mensuelle sur les sorties outdoor. Sa première saison suit un fil : retrouver le plaisir de sortir, moins guidé par les compteurs et les dossards.
 
 ## Événements
 
-vtt.bzh, le calendrier que j’ai lancé en 2013, est devenu la page [Événements]({{ site.projects.vtt_bzh.url }}) : les randos et les rendez-vous outdoor ouverts à tous qu’on m’envoie.
+vtt.bzh, le calendrier que j’ai lancé en 2013, est devenu la page [Événements]({{ site.projects.events.url }}) : les randos et les rendez-vous outdoor ouverts à tous qu’on m’envoie.
 
 ## Sans gluten
 

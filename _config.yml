@@ -38,8 +38,7 @@ author:
 
 # projects
 projects:
-  vtt_bzh:
-    name: "vtt.bzh"
+  events:
     url: "/events/"
     ajouter_url: "/events/ajouter.html"
 

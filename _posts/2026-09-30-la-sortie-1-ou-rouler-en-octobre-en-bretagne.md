@@ -12,7 +12,7 @@ tags:
 ---
 Salut,
 
-J’ai lancé [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=edito) en 2013 pour répondre à une question simple : où rouler dimanche ?
+J’ai lancé [vtt.bzh](/events/) en 2013 pour répondre à une question simple : où rouler dimanche ?
 
 J’avais 25 ans, beaucoup d’idées et l’envie de faire de ce projet du soir un truc cool. Beaucoup de ces idées ont fini dans les abysses du web. Le calendrier est resté et a toujours eu toute mon attention.
 
@@ -109,11 +109,11 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
 - **Rives du Semnon** — samedi 24 · Lalleu (35)
 - **Rives du Semnon** — dimanche 25 · Lalleu (35)
 
-Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier).
+Le calendrier complet et les détails pratiques sont sur la [page Événements](/events/).
 
 ## Parlez de votre Sortie
 
-Votre club prépare une randonnée ? [Ajoutez-la au calendrier](https://www.vtt.bzh/calendrier/ajouter.html?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=contribuer). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre le calendrier ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
+Votre club prépare une randonnée ? [Ajoutez-la au calendrier](/events/ajouter.html). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre le calendrier ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
 
 ## La Sortie se partage
 

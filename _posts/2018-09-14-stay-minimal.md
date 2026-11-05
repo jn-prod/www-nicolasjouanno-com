@@ -24,7 +24,7 @@ Lorsqu'on débute une entreprise on se projette sur le long terme. En comparaiso
 
 Depuis mon adolescence, je fais de sites internet pour m'amuser, avec le goût du défis et parfois pour rendre service à d'autres entrepreneurs.
 
-D'ailleurs, en 2013, je crée mon premier side project: [vtt.bzh]({{ site.projects.vtt_bzh.url }}). Un site qui me permet d'expérimenter ce que j'apprends du digital au détour de la magie du web 2.0. Un moment d'évasion dans ce flow quotidien de retailer. Ce site internet réaliser avec Wordpress enregistre vite ses premiers succès, pour atteindre 10 000 visiteurs mensuel. Il ne scale pas, car je fais ma curation à la main. Il est lent car, ne sachant pas coder, je lui ai ajouter 70+ plugins pour lui ajouter des features. Il se perd dans un quantités de features cumulées mais jamais abandonnées.
+D'ailleurs, en 2013, je crée mon premier side project: [vtt.bzh]({{ site.projects.events.url }}). Un site qui me permet d'expérimenter ce que j'apprends du digital au détour de la magie du web 2.0. Un moment d'évasion dans ce flow quotidien de retailer. Ce site internet réaliser avec Wordpress enregistre vite ses premiers succès, pour atteindre 10 000 visiteurs mensuel. Il ne scale pas, car je fais ma curation à la main. Il est lent car, ne sachant pas coder, je lui ai ajouter 70+ plugins pour lui ajouter des features. Il se perd dans un quantités de features cumulées mais jamais abandonnées.
 
 ![site web du wagon](../images/posts/8f833-1glqrdjmo0myyuik5d1idxg.png)
 

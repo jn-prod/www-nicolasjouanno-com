@@ -11,6 +11,6 @@ sitemap: false
 
 {% include components/newsletter-form.html id="la-sortie-subscribe" title="Recevoir La Sortie" %}
 
-<p class="u-text--center c-meta">Par Nicolas Jouanno, ancien cycliste professionnel et créateur de vtt.bzh.</p>
+<p class="u-text--center c-meta">Par Nicolas Jouanno, ancien cycliste professionnel, qui tient un calendrier de randos depuis 2013.</p>
 
 <p class="u-text--center"><a href="/la-sortie/">Voir les éditions</a></p>

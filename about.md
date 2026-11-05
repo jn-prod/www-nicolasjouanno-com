@@ -24,7 +24,7 @@ Je crée sur le web depuis plus de vingt ans : d’abord sur Skyblog et MySpace 
 
 Après le bitume, je suis revenu à ma passion d’origine : le VTT. J’ai essayé de renouer avec les dossards, mais j’ai vite cherché une pratique plus libre, plus fun.
 
-[vtt.bzh]({{ site.projects.vtt_bzh.url }}) est né en 2013 d’une question simple : où rouler dimanche ?
+vtt.bzh est né en 2013 d’une question simple : où rouler dimanche ? Ce calendrier vit aujourd’hui sur la page [Événements]({{ site.projects.events.url }}).
 
 Puis j’ai voulu redécouvrir les sentiers autrement. C’est là que j’ai découvert le trail et commencé à prendre plaisir avec une simple paire de baskets.
 
