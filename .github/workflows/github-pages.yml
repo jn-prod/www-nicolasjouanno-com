@@ -5,8 +5,8 @@ on:
     branches:
       - main
   schedule:
-    # 04:30 UTC, avant le build quotidien de vtt.bzh (05:30) qui reprend la dernière
-    # édition : publie les posts datés du jour (future: false).
+    # 04:30 UTC : publie les posts datés du jour (future: false) et passe les événements
+    # terminés dans l'archive de /events/.
     - cron: "30 4 * * *"
   workflow_dispatch:
   # Appelé par « Publier un post » : un push fait avec GITHUB_TOKEN ne déclenche pas

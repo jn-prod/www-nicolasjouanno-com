@@ -11,7 +11,7 @@ image: /images/posts/bf91f-04tn2madty8ffu2ug.jpg
 
 <em>En 2015, les différentes épreuves des Roc’h des monts d’Arrée totalisaient plus de 6200 VTTisites au départ du Huelgouat, Bretagne. Ce rassemblement, point d’orgue de la saison des randos en Bretagne, permet aux VTTistes de tous âges de s’exprimer à leur niveau sur des distances allant jusqu’à 120 kilomètres. Une goutte d’eau dans l’Océan si l’on sait qu’en Bretagne, chaque week-end, ce sont plus d’une dizaine de randonnées VTT qui ont Lieu.</em>
 
-{% include components/callout-vttbzh.html title="Calendrier des randonnées VTT en Bretagne" text="Retrouvez toutes les prochaines randonnées VTT organisées en Bretagne — le calendrier mis à jour chaque semaine avec les distances, dates et inscriptions." %}
+{% include components/callout-events.html title="Randos à venir" text="Les randos et les rendez-vous outdoor ouverts à tous qu'on m'envoie, avec la date, le lieu et le lien." %}
 
 ## Au programme:
 
@@ -180,6 +180,6 @@ balise site VTT FFC
 
 ## 6/ Vous recherchez une randonnée VTT en Bretagne? {#conclusion}
 
-Vous cherchez une randonnée organisée ce week-end en Bretagne ? Le site [vtt.bzh]({{ site.projects.vtt_bzh.url }}) recense le calendrier des randonnées VTT en Bretagne : dates, distances, département, lien vers les inscriptions. Il est mis à jour régulièrement par des passionnés locaux.
+Vous cherchez une randonnée organisée ? La page [Événements]({{ site.projects.vtt_bzh.url }}) reprend celles qu'on m'envoie : date, lieu et lien vers l'organisation.
 
-Vous organisez ou connaissez une rando non référencée ? Vous pouvez la [proposer directement sur vtt.bzh]({{ site.projects.vtt_bzh.ajouter_url }}) — c’est gratuit et ouvert à tous les clubs et associations.
+Vous organisez ou connaissez une rando qui n'y est pas ? Vous pouvez la [proposer]({{ site.projects.vtt_bzh.ajouter_url }}) — c’est gratuit et ouvert à tous les clubs et associations.

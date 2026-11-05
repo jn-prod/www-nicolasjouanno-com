@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Recevoir La Sortie
-description: Inscrivez-vous à La Sortie, la newsletter mensuelle de Nicolas Jouanno pour découvrir les chemins bretons.
+description: Inscrivez-vous à La Sortie, la newsletter mensuelle de Nicolas Jouanno sur les sorties outdoor.
 permalink: /la-sortie/subscribe/
 robots: noindex, follow
 sitemap: false

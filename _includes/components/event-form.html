@@ -1,0 +1,67 @@
+<section class="c-event-form c-card c-card--neutral c-card--large" id="proposer" aria-labelledby="event-form-title">
+  <h2 id="event-form-title">Proposer un événement</h2>
+  <p>Le bouton prépare un e-mail dans votre messagerie : vous le vérifiez et l'envoyez vous-même. Je relis chaque proposition avant de la publier. Le nom, la date, le lieu, le club, les horaires, le tarif et le lien sont publics ; votre adresse ne l'est pas.</p>
+  <form
+    class="c-event-form__form"
+    action="mailto:contact@nicolasjouanno.com?subject=%5B%C3%89v%C3%A9nement%5D%20Proposition"
+    method="post"
+    enctype="text/plain"
+    data-event-form
+  >
+    <div class="c-event-form__field">
+      <label for="event-nom">Nom de l'événement (obligatoire)</label>
+      <input class="c-control" id="event-nom" name="Nom" type="text" maxlength="120" required />
+    </div>
+    <div class="c-event-form__field">
+      <label for="event-date">Date (obligatoire)</label>
+      <input class="c-control" id="event-date" name="Date" type="date" required />
+    </div>
+    <div class="c-event-form__field">
+      <label for="event-lieu">Lieu (obligatoire)</label>
+      <input class="c-control" id="event-lieu" name="Lieu" type="text" maxlength="120" required />
+    </div>
+    <div class="c-event-form__field">
+      <label for="event-lien">Lien vers la page de l'événement</label>
+      <input class="c-control" id="event-lien" name="Lien" type="text" inputmode="url" maxlength="300" />
+    </div>
+    <div class="c-event-form__field">
+      <label for="event-discipline">Discipline</label>
+      <input class="c-control" id="event-discipline" name="Discipline" type="text" maxlength="60" />
+    </div>
+    <div class="c-event-form__field">
+      <label for="event-club">Club ou organisateur</label>
+      <input class="c-control" id="event-club" name="Club" type="text" maxlength="120" />
+    </div>
+    <div class="c-event-form__field">
+      <label for="event-horaire">Horaires</label>
+      <input class="c-control" id="event-horaire" name="Horaires" type="text" maxlength="60" />
+    </div>
+    <div class="c-event-form__field">
+      <label for="event-tarif">Tarif</label>
+      <input class="c-control" id="event-tarif" name="Tarif" type="text" maxlength="60" />
+    </div>
+    <div class="c-event-form__field">
+      <label for="event-message">Un mot (500 caractères au plus)</label>
+      <textarea class="c-control" id="event-message" name="Message" rows="4" maxlength="500"></textarea>
+    </div>
+    <button class="c-button c-button--brand" type="submit">Préparer l'e-mail</button>
+  </form>
+  <div class="c-event-form__preview" data-event-form-preview hidden>
+    <h3 id="event-preview-title" tabindex="-1">Votre e-mail est prêt</h3>
+    <p>Votre messagerie devrait s'ouvrir. Sinon, <a data-event-form-link href="mailto:contact@nicolasjouanno.com">rouvrez l'e-mail préparé</a>, ou copiez ce texte dans votre application d'e-mail.</p>
+    <p>Destinataire : <a href="mailto:contact@nicolasjouanno.com">contact@nicolasjouanno.com</a></p>
+    <div class="c-event-form__field">
+      <label for="event-preview-subject">Objet</label>
+      <input class="c-control" id="event-preview-subject" type="text" readonly data-event-form-subject />
+      <button class="c-button c-button--dark-outline" type="button" data-event-form-copy="event-preview-subject">Copier l'objet</button>
+    </div>
+    <div class="c-event-form__field">
+      <label for="event-preview-body">Message</label>
+      <textarea class="c-control" id="event-preview-body" rows="9" readonly data-event-form-body></textarea>
+      <button class="c-button c-button--dark-outline" type="button" data-event-form-copy="event-preview-body">Copier le message</button>
+    </div>
+    <p role="status" data-event-form-copied></p>
+  </div>
+  <noscript><p class="c-meta">Rien ne s'ouvre ? Écrivez à <a href="mailto:contact@nicolasjouanno.com">contact@nicolasjouanno.com</a> avec ces informations.</p></noscript>
+</section>
+<script src="/assets/js/event-form.js" defer></script>

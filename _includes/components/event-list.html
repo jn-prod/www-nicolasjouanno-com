@@ -1,0 +1,24 @@
+{%- comment -%}
+  Liste d'événements déjà triée, groupée par mois.
+  include.events : liste ; include.heading : niveau de titre des mois.
+{%- endcomment -%}
+{%- assign event_months = "janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre" | split: "," -%}
+{%- assign event_current_month = "" -%}
+{%- for event in include.events -%}
+  {%- assign event_month = event.event_date | date: "%Y-%m" -%}
+  {%- if event_month != event_current_month -%}
+    {%- unless forloop.first -%}</ul>{%- endunless -%}
+    {%- assign event_month_index = event.event_date | date: "%-m" | minus: 1 -%}
+    <h{{ include.heading }}>{{ event_months[event_month_index] | capitalize }} {{ event.event_date | date: "%Y" }}</h{{ include.heading }}>
+    <ul class="c-event-list">
+    {%- assign event_current_month = event_month -%}
+  {%- endif -%}
+  <li class="c-event-list__item">
+    <a href="{{ event.url }}">{{ event.title }}</a>
+    <span class="c-meta">
+      <time datetime="{{ event.event_date | date: '%Y-%m-%d' }}">{% include components/event-date.html date=event.event_date %}</time>
+      · {{ event.lieu }}{% if event.discipline %} · {{ event.discipline }}{% endif %}{% if event.annule %} · Annulé{% endif %}
+    </span>
+  </li>
+  {%- if forloop.last -%}</ul>{%- endif -%}
+{%- endfor -%}

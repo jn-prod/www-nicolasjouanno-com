@@ -19,7 +19,7 @@ Aujourd’hui, je roule et je cours autrement. Avec ma famille, nous parcourons 
 
 Le palmarès est l’avant. Le vélo continue à travers le [VTT](/vtt/), le [trail](/trail/) et les outils nés de cette pratique.
 
-[{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) est né en 2013 d’une question simple : où rouler dimanche ? C’est un calendrier de randonnées VTT en Bretagne, construit pour les personnes qui roulent.
+[{{ site.projects.vtt_bzh.name }}]({{ site.projects.vtt_bzh.url }}) est né en 2013 d’une question simple : où rouler dimanche ? Ce calendrier vit aujourd’hui sur la page [Événements](/events/).
 
 ## Palmarès cycliste {#palmares}
 

@@ -40,15 +40,16 @@ author:
 projects:
   vtt_bzh:
     name: "vtt.bzh"
-    url: "https://www.vtt.bzh/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
-    # Le permalink réel est /calendrier/ajouter.html (le fichier source s'appelle ajouter.html).
-    # /ajouter.html renvoie 404 — vérifié 2026-07-20.
-    ajouter_url: "https://www.vtt.bzh/calendrier/ajouter.html?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem&utm_content=ajouter_rando"
+    url: "/events/"
+    ajouter_url: "/events/#proposer"
 
 # collections
 collections:
   redirects:
     output: true
+  events:
+    output: true
+    permalink: /events/:name/
 
 defaults:
   - scope:
@@ -56,6 +57,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "event"
 
 # Outputting
 lsi: false

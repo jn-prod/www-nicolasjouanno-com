@@ -7,7 +7,7 @@ permalink: /mentions-legales/
 
 # Mentions légales et confidentialité
 
-_Dernière mise à jour : 18 septembre 2026._
+_Dernière mise à jour : novembre 2026._
 
 ## Éditeur
 
@@ -42,6 +42,12 @@ Les inscriptions et les envois sont gérés avec Kit. Kit traite ces données po
 Votre adresse e-mail est conservée tant que vous restez inscrit à la newsletter. Vous pouvez demander l’accès, la rectification ou la suppression de vos données en écrivant à [contact@nicolasjouanno.com](mailto:contact@nicolasjouanno.com).
 
 Vous pouvez également introduire une réclamation auprès de la [CNIL](https://www.cnil.fr/).
+
+## Proposer un événement
+
+Le formulaire de la page [Événements](/events/) ne transmet rien au site : il prépare un e-mail que vous envoyez vous-même depuis votre messagerie. Le nom de l’événement, sa date, son lieu, sa discipline, son organisateur, ses horaires, son tarif et son lien peuvent être publiés après relecture. Votre adresse e-mail et votre message ne le sont pas.
+
+Cet e-mail sert à traiter votre proposition et à vous répondre, sur la base de votre démarche. Il est conservé le temps de ce suivi. Pour en demander l’accès, la rectification ou la suppression, écrivez à [contact@nicolasjouanno.com](mailto:contact@nicolasjouanno.com).
 
 ## Mesure d’audience
 
