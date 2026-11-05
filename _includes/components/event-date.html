@@ -1,3 +1,0 @@
-{%- assign event_months = "janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre" | split: "," -%}
-{%- assign event_month_index = include.date | date: "%-m" | minus: 1 -%}
-{{- include.date | date: "%-d" }} {{ event_months[event_month_index] }} {{ include.date | date: "%Y" -}}

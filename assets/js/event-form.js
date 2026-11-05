@@ -1,7 +1,6 @@
 const EVENT_FORM_ADDRESS = 'contact@nicolasjouanno.com';
 const EVENT_FORM_CONFIRM_URL = '/events/soumission-confirmee.html';
 const EVENT_FORM_STORAGE_KEY = 'event-form-draft';
-const EVENT_FORM_REDIRECT_DELAY = 400;
 const COPIED_MESSAGE = 'Copié.';
 const COPY_FAILED_MESSAGE = 'Texte sélectionné : copiez-le avec votre clavier ou le menu de votre téléphone.';
 
@@ -28,10 +27,7 @@ function onSubmit(event) {
   const subject = buildSubject(fields);
   const body = buildBody(fields);
   sessionStorage.setItem(EVENT_FORM_STORAGE_KEY, JSON.stringify({ subject, body }));
-  window.location.href = buildMailto(subject, body);
-  setTimeout(() => {
-    window.location.href = EVENT_FORM_CONFIRM_URL;
-  }, EVENT_FORM_REDIRECT_DELAY);
+  window.location.href = EVENT_FORM_CONFIRM_URL;
 }
 
 function renderConfirmation(confirm) {

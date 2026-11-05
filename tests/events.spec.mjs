@@ -32,6 +32,18 @@ test('le tunnel prépare un e-mail puis un aperçu à copier', async ({ page, co
   expect(await page.evaluate(() => navigator.clipboard.readText())).toBe(body);
 });
 
+for (const path of ['/events/', '/events/ajouter.html', '/events/soumission-confirmee.html']) {
+  test(`${path} ne défile pas en largeur sur petit écran`, async ({ page }) => {
+    await page.setViewportSize({ width: 320, height: 640 });
+    await page.goto(path);
+    const { scrollWidth, clientWidth } = await page.evaluate(() => {
+      const { scrollWidth: scroll, clientWidth: client } = document.documentElement;
+      return { scrollWidth: scroll, clientWidth: client };
+    });
+    expect(scrollWidth).toBeLessThanOrEqual(clientWidth);
+  });
+}
+
 test('la confirmation sans e-mail préparé renvoie au formulaire', async ({ page }) => {
   await page.goto('/events/soumission-confirmee.html');
   await expect(page.locator('[data-event-confirm]')).toBeHidden();

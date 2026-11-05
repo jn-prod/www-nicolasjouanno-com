@@ -1,24 +1,21 @@
 ---
 layout: page
-title: Événements outdoor
+title: "Calendrier des randonnées outdoor : VTT, marche, gravel, trail…"
 description: Les randonnées et rendez-vous outdoor ouverts à tous que Nicolas Jouanno reçoit ou retient, en Bretagne et ailleurs.
 permalink: /events/
 ---
 
-<h1>Événements</h1>
+<h1>Calendrier des randonnées outdoor : VTT, marche, gravel, trail…</h1>
 
 <p>Les randos et les rendez-vous outdoor ouverts à tous qu'on m'envoie. Je tiens un calendrier depuis 2013, d'abord en Bretagne sur vtt.bzh. Cette page ne dit pas tout ce qui se passe : elle dit ce que je sais. Vous organisez quelque chose ? <a href="/events/ajouter.html">Envoyez-moi la date</a>.</p>
 
 {%- assign today = site.time | date: "%Y-%m-%d" -%}
 {%- assign events_sorted = site.events | sort: "event_date" -%}
 {%- assign events_upcoming = "" | split: "" -%}
-{%- assign events_past = "" | split: "" -%}
 {%- for event in events_sorted -%}
   {%- assign event_day = event.event_date | date: "%Y-%m-%d" -%}
   {%- if event_day >= today -%}
     {%- assign events_upcoming = events_upcoming | push: event -%}
-  {%- else -%}
-    {%- assign events_past = events_past | unshift: event -%}
   {%- endif -%}
 {%- endfor -%}
 
@@ -32,10 +29,5 @@ permalink: /events/
 <p class="c-button-stack"><a class="c-button c-button--brand" href="/events/ajouter.html">Proposer un événement</a></p>
 
 {% include components/newsletter-form.html id="events" title="Recevoir La Sortie" %}
-
-{% if events_past.size > 0 %}
-  <h2>Archive</h2>
-  {% include components/event-list.html events=events_past heading=3 %}
-{% endif %}
 
 <script src="/assets/js/events-calendar.js?v={{ site.time | date: '%s' }}" defer></script>
