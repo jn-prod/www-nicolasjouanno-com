@@ -41,28 +41,30 @@ Bonjour,
 
 [Répéter ce bloc si nécessaire, sans dépasser trois sujets. Signaler explicitement tout lien affilié, prêt de matériel ou partenariat.]
 
-## Sur le calendrier vtt.bzh
+## Les dates
 
-[Le calendrier existe grâce aux clubs, organisateurs et pratiquants qui partagent les dates et informations du terrain. Introduire ce qui caractérise le mois, puis retenir les contributions les plus utiles à la lecture.]
+vtt.bzh mène maintenant ici, sur la [page des événements](https://www.nicolasjouanno.com/events/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier). J'ai créé ce calendrier en 2013. [Ta raison, en une ou deux phrases.] Les dates continuent, moins nombreuses : celles qu'on m'envoie. Ce n'est plus seulement le VTT, ni seulement la Bretagne. Vous vous êtes inscrit sur vtt.bzh ? Vous n'avez rien à faire, La Sortie continue.
 
-[Nombre] randonnées sont annoncées entre le [date de début] et le [date de fin] sur vtt.bzh, dont [nombre] nouvelles depuis la dernière édition.
+[Cette page existe grâce aux clubs, organisateurs et pratiquants qui envoient les dates et les informations du terrain. Introduire ce qui caractérise le mois, puis retenir les contributions les plus utiles à la lecture.]
+
+[Nombre] randonnées sont annoncées entre le [date de début] et le [date de fin] sur la page Événements, dont [nombre] nouvelles depuis la dernière édition.
 
 ### Week-end des [dates]
 
-- **[Nom de la randonnée](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — [jour] · [lieu] ([département])
-- **[Nom de la randonnée](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — [jour] · [lieu] ([département])
+- **[Nom de la randonnée](https://www.nicolasjouanno.com/events/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — [jour] · [lieu]
+- **[Nom de la randonnée](https://www.nicolasjouanno.com/events/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier)** — [jour] · [lieu]
 
 [Ajouter autant de week-ends ou de précisions venues du terrain que nécessaire, sans viser une exhaustivité dans l’e-mail.]
 
-Le calendrier complet et les détails pratiques sont sur [vtt.bzh](https://www.vtt.bzh/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier).
+Toutes les dates reçues et les détails pratiques sont sur la [page Événements](https://www.nicolasjouanno.com/events/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier).
 
 ## Votre sortie
 
-Votre club prépare une randonnée ? [Ajoutez-la au calendrier](https://www.vtt.bzh/calendrier/ajouter.html?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=contribuer). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre le calendrier ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
+Vous organisez une sortie ouverte à tous ? [Envoyez-moi la date](https://www.nicolasjouanno.com/events/ajouter.html?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=contribuer). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre la page ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
 
 ## La Sortie se partage
 
-Si cette édition vous aide à préparer votre prochaine sortie, transférez-la à votre club ou à la personne avec qui vous aimeriez partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles en Bretagne.
+Si cette édition vous aide à préparer votre prochaine sortie, transférez-la à votre club ou à la personne avec qui vous aimeriez partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles.
 
 **Vous avez reçu cette lettre par transfert ?** [Recevez la prochaine édition](https://www.nicolasjouanno.com/la-sortie/subscribe/).
 
