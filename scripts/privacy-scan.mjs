@@ -12,7 +12,6 @@
 // d'exemple, ni aux fichiers listés dans .privacy-allow (coordonnées publiques assumées,
 // un chemin par ligne). La denylist, elle, s'applique partout.
 // Les journaux de CI sont publics : seul l'emplacement est affiché, jamais le terme.
-// Fichier identique dans www-nicolasjouanno-com et www-vtt-bzh.
 import { execFileSync } from 'node:child_process';
 import { existsSync, readFileSync } from 'node:fs';
 import { homedir } from 'node:os';

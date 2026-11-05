@@ -12,11 +12,9 @@ reste dans `_drafts/`.
    Sinon, copier le modèle à la main. Renseigner le front matter. Le titre annonce l’angle éditorial de l’édition : il ne contient ni numéro, ni saison,
    ni mois seul, ni préfixe « La Sortie ». La description complète cette promesse avec
    son contexte ou un fait précis ; elle ne répète pas simplement le titre.
-2. La matière calendrier arrive seule le 15 dans `vtt.bzh/www/_drafts/` (« Brief La Sortie »,
-   du 1er du mois suivant au 1er + 35 jours), avec un rappel sur alfred jusqu'à la
-   publication, au plus tard le dernier jour du mois. Autre fenêtre : onglet Actions de
-   vtt.bzh, ou en local `pnpm newsletter:new -- --start=AAAA-MM-JJ --end=AAAA-MM-JJ`.
-3. Reprendre uniquement les faits vérifiés et les sorties retenues depuis ce brief.
+2. La matière calendrier vient de `_events/`, avec un rappel sur alfred dès le 15 jusqu'à la
+   publication, au plus tard le dernier jour du mois.
+3. Reprendre uniquement les faits vérifiés et les sorties retenues.
 4. Écrire l'angle, le récit et les appels à contribution à partir du vécu ou de
    contributions autorisées. Lorsqu'une photo personnelle porte l'édito, la déclarer
    comme couverture dans le front matter pour l'archive et le RSS, puis la contextualiser
@@ -42,12 +40,12 @@ le mois suivant va dans le bloc « Veille » de son brouillon. Aucune idée n'ob
 - Partir de chez soi : l'aventure sans destination lointaine
 - Retrouver le plaisir de l'effort sans compteur
 - Quand le sport loisir finit par épuiser (burn-out du sportif amateur, demande des témoignages)
-- Baromètre « Randos en Bretagne » à partir des données du calendrier vtt.bzh
+- Baromètre « Randos en Bretagne » à partir des données de `_events/`
 
 ## Rôles
 
 - `_templates/newsletter.md` ne porte que la structure d'une édition.
-- `vtt.bzh/www/_drafts/` contient la matière calendrier factuelle.
+- `_events/` contient la matière calendrier factuelle.
 - Ce dossier porte l'édition éditoriale avant sa publication sur nj.com.
 
 Rien n'est envoyé automatiquement : la campagne Kit reste un brouillon jusqu'au clic.
