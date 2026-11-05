@@ -1,24 +1,27 @@
-<details class="c-event c-disclosure c-card c-card--medium {% if include.event.annule %}c-card--alert{% else %}c-card--flat{% endif %}">
+<details class="c-event c-disclosure c-card c-card--medium {% if include.event.annule %}c-card--alert{% else %}c-card--flat{% endif %}" itemscope itemtype="https://schema.org/SportsEvent">
+  <meta itemprop="startDate" content="{{ include.event.event_date | date: '%Y-%m-%d' }}" />
+  <meta itemprop="eventStatus" content="https://schema.org/{% if include.event.annule %}EventCancelled{% else %}EventScheduled{% endif %}" />
   <summary class="c-event__summary c-disclosure__summary c-disclosure__summary--indicator">
     <span class="c-event__summary-content">
-      <span class="c-event__name">{{ include.event.title }}</span>
+      <span class="c-event__name" itemprop="name">{{ include.event.title }}</span>
       <span class="c-event__meta c-meta">
         {% include components/icon.html name="pin" %}
-        <span>{{ include.event.lieu }}{% if include.event.discipline %} · {{ include.event.discipline }}{% endif %}{% if include.event.annule %} · <strong>Annulé</strong>{% endif %}</span>
+        <span itemprop="location" itemscope itemtype="https://schema.org/Place"><span itemprop="name">{{ include.event.lieu }}</span><meta itemprop="address" content="{{ include.event.lieu | escape }}" /></span><span>{% if include.event.discipline %} · {{ include.event.discipline }}{% endif %}{% if include.event.annule %} · <strong>Annulé</strong>{% endif %}</span>
       </span>
     </span>
   </summary>
   <div class="c-event__body">
     <ul class="c-event__details">
-      {% if include.event.club %}<li><strong>Organisation :</strong> {{ include.event.club }}</li>{% endif %}
+      {% if include.event.club %}<li itemprop="organizer" itemscope itemtype="https://schema.org/Organization"><strong>Organisation :</strong> <span itemprop="name">{{ include.event.club }}</span></li>{% endif %}
       {% if include.event.horaire %}<li><strong>Horaires :</strong> {{ include.event.horaire }}</li>{% endif %}
       {% if include.event.tarif %}<li><strong>Tarif :</strong> {{ include.event.tarif }}</li>{% endif %}
     </ul>
-    <p class="c-button-stack">
-      {% if include.event.lien and include.event.annule != true %}
-        <a class="c-button c-button--brand" href="{{ include.event.lien }}" target="_blank" rel="noopener noreferrer nofollow ugc">Informations et inscription</a>
-      {% endif %}
-      <a class="c-button c-button--dark-outline" href="{{ include.event.url }}">Voir la fiche</a>
-    </p>
+    {% if include.event.lien and include.event.annule != true %}
+      <p class="c-button-stack">
+        <a class="c-button c-button--brand" href="{{ include.event.lien }}" target="_blank" rel="noopener noreferrer nofollow ugc" itemprop="url">Informations et inscription</a>
+      </p>
+    {% else %}
+      <p>Vérifiez les détails auprès de l'organisation avant de partir.</p>
+    {% endif %}
   </div>
 </details>

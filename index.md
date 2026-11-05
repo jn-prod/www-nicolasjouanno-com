@@ -19,7 +19,6 @@ script: /assets/share.js
   <p class="c-profile__description p-note">
     Où sortir, avec quoi et pourquoi y aller : chaque mois depuis la Bretagne, dans <a href="/la-sortie/">La Sortie</a>.<br>
     <span aria-hidden="true">⏮️</span> <a href="/results.html">Ex-cycliste pro</a>.
-    <span aria-hidden="true">🚵</span> Créateur de <a href="{{ site.projects.vtt_bzh.url }}">vtt.bzh</a>.
     <span aria-hidden="true">🌱</span> <a href="/nutrition/sans-gluten.html">Assiettes sans gluten</a>.
   </p>
 

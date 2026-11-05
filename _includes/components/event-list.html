@@ -14,7 +14,7 @@
     {%- assign event_current_month = event_month -%}
   {%- endif -%}
   <li class="c-event-list__item">
-    <a href="{{ event.url }}">{{ event.title }}</a>
+    <span>{{ event.title }}</span>
     <span class="c-meta">
       <time datetime="{{ event.event_date | date: '%Y-%m-%d' }}">{% include components/event-date.html date=event.event_date %}</time>
       · {{ event.lieu }}{% if event.discipline %} · {{ event.discipline }}{% endif %}{% if event.annule %} · Annulé{% endif %}

@@ -48,8 +48,7 @@ collections:
   redirects:
     output: true
   events:
-    output: true
-    permalink: /events/:name/
+    output: false
 
 defaults:
   - scope:
@@ -57,11 +56,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      path: ""
-      type: "events"
-    values:
-      layout: "event"
 
 # Outputting
 lsi: false
