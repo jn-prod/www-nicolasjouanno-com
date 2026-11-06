@@ -15,7 +15,7 @@ image_alt: Les bienfaits des étirements
 
 ### Les étirements, qu'est-ce que c'est ?
 
-L'**étirement** est une pratique qui vous aide à **développer la souplesse** de votre corps — c'est pour cela que l'on parle parfois d'**assouplissement** —, à préparer le corps à l'exercice physique et à favoriser la récupération après un effort. C'est un acte naturellement pratiqué par les animaux ou les hommes après une période d'inactivité ou d'inconfort (au réveil, après une position assise prolongée…).
+L'**étirement** est une pratique qui t'aide à **développer la souplesse** de ton corps — c'est pour cela que l'on parle parfois d'**assouplissement** —, à préparer le corps à l'exercice physique et à favoriser la récupération après un effort. C'est un acte naturellement pratiqué par les animaux ou les hommes après une période d'inactivité ou d'inconfort (au réveil, après une position assise prolongée…).
 
 ### S'étirer vise différents objectifs
 
@@ -35,7 +35,7 @@ L'**étirement** est une pratique qui vous aide à **développer la souplesse** 
 ## Le VTT et les étirements
 
 
-XC, DH, enduro, freeride, dirt, park… Le VTT est composé d'une pléiade de disciplines, toutes exigeantes pour l'organisme. Chutes, courbatures, problèmes de position, activité intensive, préparation d'événements : beaucoup de facteurs peuvent entraîner **fatigue musculaire**, **traumatismes** et **micro-traumatismes**. Améliorer votre **souplesse** grâce à une pratique régulière des **étirements** ne pourra que servir votre pratique et augmenter votre plaisir, quel que soit votre niveau.
+XC, DH, enduro, freeride, dirt, park… Le VTT est composé d'une pléiade de disciplines, toutes exigeantes pour l'organisme. Chutes, courbatures, problèmes de position, activité intensive, préparation d'événements : beaucoup de facteurs peuvent entraîner **fatigue musculaire**, **traumatismes** et **micro-traumatismes**. Améliorer ta **souplesse** grâce à une pratique régulière des **étirements** ne pourra que servir ta pratique et augmenter ton plaisir, quel que soit ton niveau.
 
 ### La phase d'étirement fait partie intégrante de la séance… du moins en théorie
 
@@ -47,9 +47,9 @@ On leur prête généralement deux vertus : la **prévention des blessures** (é
 
 Pourquoi présenter une séquence d'étirements, alors ? Parce qu'il reste un élément fondamental qui ne se développe que par la pratique régulière : **la souplesse**. Le travail de l'élasticité musculaire est à prendre en compte au même titre que la **puissance** en trail ou la **vélocité** en VTT. La souplesse apporte une plus grande amplitude du mouvement et une optimisation du travail musculaire ; le contrôle musculaire, la solidité tendineuse et ligamentaire s'en trouvent améliorés. On améliore aussi la posture (moins de perte d'énergie, moins de déséquilibres articulaires), la coordination et l'efficacité.
 
-## Réalisez votre séance, en vidéo
+## Réalise ta séance, en vidéo
 
-Yoann Coëdel vous a préparé une séance d'étirements type de moins d'une dizaine de minutes. Réalisez-la deux fois par semaine : vous constaterez les bénéfices d'ici deux mois. Soyez rigoureux et pensez à votre bien-être physique et sportif !
+Yoann Coëdel t'a préparé une séance d'étirements type de moins d'une dizaine de minutes. Réalise-la deux fois par semaine : tu constateras les bénéfices d'ici deux mois. Sois rigoureux et pense à ton bien-être physique et sportif !
 
 <iframe src="https://player.vimeo.com/video/76154754" width="640" height="360" title="Séance d'étirements pour vététistes" frameborder="0" allowfullscreen></iframe>
 
@@ -58,10 +58,10 @@ Yoann Coëdel vous a préparé une séance d'étirements type de moins d'une diz
 - Ne pas étirer un muscle **courbaturé, fatigué ou enraidi**.
 - Ne pas étirer avec de **violents temps de ressort**.
 - Les étirements s'effectuent **lentement**.
-- Étirez une **chaîne musculaire, et non un muscle**.
-- Arrêtez l'étirement avant **la douleur** du muscle.
-- Étirez-vous sur des appuis stables, **sans chaussures**.
-- Le cadre de votre séance doit être relaxant.
+- Étire une **chaîne musculaire, et non un muscle**.
+- Arrête l'étirement avant **la douleur** du muscle.
+- Étire-toi sur des appuis stables, **sans chaussures**.
+- Le cadre de ta séance doit être relaxant.
 - Pas d'étirements dans un environnement **froid**, ni juste après une **compétition**.
 
 ## Différentes techniques existantes

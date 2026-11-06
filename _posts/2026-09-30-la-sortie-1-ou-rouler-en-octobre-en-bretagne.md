@@ -16,7 +16,7 @@ J’ai lancé [vtt.bzh](/events/) en 2013 pour répondre à une question simple 
 
 J’avais 25 ans, beaucoup d’idées et l’envie de faire de ce projet du soir un truc cool. Beaucoup de ces idées ont fini dans les abysses du web. Le calendrier est resté et a toujours eu toute mon attention.
 
-Si vous êtes là depuis 2013, vous avez vieilli comme moi. Rien que pour ça, merci !
+Si tu es là depuis 2013, tu as vieilli comme moi. Rien que pour ça, merci !
 
 Parmi les fonctionnalités abandonnées, il y avait une première version du calendrier par e-mail. J’aimais ce support, mais je l’ai arrêté faute de temps. Le peu que j’avais était consacré à maintenir le calendrier à jour et à garder le site fonctionnel.
 
@@ -24,7 +24,7 @@ Depuis juillet, j’ai repris la newsletter dans une version brute, pour retrouv
 
 Cette édition ouvre une nouvelle étape. La newsletter s’appelle désormais **La Sortie**.
 
-Le calendrier reste le cœur de vtt.bzh : un endroit simple pour trouver ou annoncer une randonnée. Ici, au lieu de vous renvoyer sa liste complète chaque mois, je souhaite vous aider à choisir : retenir quelques sorties, partager une information utile, une initiative de club ou un retour du terrain.
+Le calendrier reste le cœur de vtt.bzh : un endroit simple pour trouver ou annoncer une randonnée. Ici, au lieu de te renvoyer sa liste complète chaque mois, je souhaite t'aider à choisir : retenir quelques sorties, partager une information utile, une initiative de club ou un retour du terrain.
 
 Le VTT reste l’axe central du calendrier, aux côtés des randonnées pédestres et du gravel. La Sortie suivra ce qui se passe sur les chemins bretons, sans perdre ce qui fait l’utilité première de vtt.bzh.
 
@@ -34,7 +34,7 @@ Place aux sorties d’octobre.
 
 ## La Sortie solidaire
 
-Dans la dynamique d’**Octobre Rose**, donnez ce mois-ci un peu plus de sens à vos sorties d’automne en liant sport et soutien à la lutte contre le cancer.
+Dans la dynamique d’**Octobre Rose**, donne ce mois-ci un peu plus de sens à tes sorties d’automne en liant sport et soutien à la lutte contre le cancer.
 
 ### Octobre Rose
 
@@ -111,15 +111,15 @@ ajoutées au calendrier ces 35 derniers jours. Elles se répartissent entre les 
 
 Le calendrier complet et les détails pratiques sont sur la [page Événements](/events/).
 
-## Parlez de votre Sortie
+## Parle de ta Sortie
 
-Votre club prépare une randonnée ? [Ajoutez-la au calendrier](/events/ajouter.html). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre le calendrier ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
+Ton club prépare une randonnée ? [Ajoute-la au calendrier](/events/ajouter.html). Tu as repéré une information utile ou tu veux raconter une sortie ? [Réponds à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre le calendrier ; les autres contributions pourront nourrir la prochaine édition, avec ton accord avant publication.
 
 ## La Sortie se partage
 
-Si cette édition vous aide à préparer votre prochaine sortie, transférez-la à votre club ou à la personne avec qui vous aimeriez partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles en Bretagne.
+Si cette édition t'aide à préparer ta prochaine sortie, transfère-la à ton club ou à la personne avec qui tu aimerais partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles en Bretagne.
 
-**Vous avez reçu cette lettre par transfert ?** [Recevez la prochaine édition](https://www.nicolasjouanno.com/la-sortie/subscribe/).
+**Tu as reçu cette lettre par transfert ?** [Reçois la prochaine édition](https://www.nicolasjouanno.com/la-sortie/subscribe/).
 
 À bientôt,
 

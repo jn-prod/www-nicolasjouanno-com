@@ -30,7 +30,7 @@ Une information toute fraîche : **GoPro** lance une nouvelle gamme de **caméra
 
 ## Présentation
 
-Filmer et partager votre vie prend tout son sens avec la HERO3+ Black Edition : 20 % plus petite et plus légère que sa devancière, elle offre des images de meilleure qualité et de nouvelles fonctionnalités. **SuperView** est un mode de capture à l'angle de vue encore plus large, tandis qu'**Auto Low Light** ajuste intelligemment la fréquence d'images en faible luminosité. Combinée à une autonomie 30 % plus longue, à un transfert Wi-Fi 4× plus rapide et à sa nouvelle lentille, elle embarque la technologie la plus avancée du marché.
+Filmer et partager ta vie prend tout son sens avec la HERO3+ Black Edition : 20 % plus petite et plus légère que sa devancière, elle offre des images de meilleure qualité et de nouvelles fonctionnalités. **SuperView** est un mode de capture à l'angle de vue encore plus large, tandis qu'**Auto Low Light** ajuste intelligemment la fréquence d'images en faible luminosité. Combinée à une autonomie 30 % plus longue, à un transfert Wi-Fi 4× plus rapide et à sa nouvelle lentille, elle embarque la technologie la plus avancée du marché.
 
 ### Une qualité vidéo professionnelle
 
@@ -44,7 +44,7 @@ La HERO3+ Black Edition prend des photos en 12 Mpx jusqu'à 30 images/seconde, i
 
 ### SuperView
 
-GoPro présente **SuperView**, un mode vidéo à l'angle de vue le plus large et le plus immersif : il permet de capturer davantage de vous-même et de votre environnement, pour un résultat captivant.
+GoPro présente **SuperView**, un mode vidéo à l'angle de vue le plus large et le plus immersif : il permet de capturer davantage de toi-même et de ton environnement, pour un résultat captivant.
 
 ### Auto Low Light
 

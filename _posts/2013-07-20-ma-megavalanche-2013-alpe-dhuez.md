@@ -11,7 +11,7 @@ tags:
 
 J'ai eu la chance, cette année, de prendre le départ de l'une des courses les plus mythiques du monde du VTT — qui resteront très probablement les meilleurs souvenirs de VTT de ma vie, à renouveler pour sûr ! J'étais engagé sur la **Mega Challenger**.
 
-Je vous propose ici de revivre, caillou après caillou, mon avancée sur les **2 500 m de dénivelé négatif** de la **Megavalanche 2013**, du Pic Blanc de l'Alpe d'Huez (3 300 m) jusqu'à Allemont (700 m).
+Je te propose ici de revivre, caillou après caillou, mon avancée sur les **2 500 m de dénivelé négatif** de la **Megavalanche 2013**, du Pic Blanc de l'Alpe d'Huez (3 300 m) jusqu'à Allemont (700 m).
 
 Je garderai pour seul regret, pour une première expérience, de ne pas m'être forcé à rester davantage sur le vélo sur le glacier, et d'y avoir perdu autant de temps et de places par rapport au reste de mon périple.
 

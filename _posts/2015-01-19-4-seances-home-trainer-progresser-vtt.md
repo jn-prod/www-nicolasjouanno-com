@@ -1,7 +1,7 @@
 ---
 category: guide
 title: "4 séances de home-trainer pour progresser en VTT"
-description: "Quatre séances de home-trainer (pédalage, force, foncier, PMA, sprint) pour progresser en VTT, même quand la météo vous garde à la maison."
+description: "Quatre séances de home-trainer (pédalage, force, foncier, PMA, sprint) pour progresser en VTT, même quand la météo te garde à la maison."
 tags:
   - vtt
   - outdoor
@@ -11,11 +11,11 @@ image: /images/posts/d379f-0z0tfhj6okz30ro44.jpg
 image_alt: "Entraînement VTT sur home-trainer"
 ---
 
-## Comment le home-trainer rend votre entraînement plus efficace
+## Comment le home-trainer rend ton entraînement plus efficace
 
-L'**home-trainer** vous permet de vous entraîner à la maison qu'il pleuve, vente, neige ou gèle, de jour comme de nuit, sur des durées plus courtes qu'en extérieur (2 h maximum). Avec un cyclotrainer, un ergotrainer ou un virtual trainer, et de petits accessoires de mesure (cardiofréquencemètre, GPS, capteurs de puissance), vos possibilités de **travail** sont quasi illimitées.
+L'**home-trainer** te permet de t'entraîner à la maison qu'il pleuve, vente, neige ou gèle, de jour comme de nuit, sur des durées plus courtes qu'en extérieur (2 h maximum). Avec un cyclotrainer, un ergotrainer ou un virtual trainer, et de petits accessoires de mesure (cardiofréquencemètre, GPS, capteurs de puissance), tes possibilités de **travail** sont quasi illimitées.
 
-Il vous permet de combler des **carences physiques et cardiaques** pour être plus **performant** et prendre plus de **plaisir** sur le **VTT**, sans forcément passer par la case vélo de route. Et comme on peut y lire, écouter de la musique ou regarder un film, une vraie séance d'entraînement en devient plus ludique.
+Il te permet de combler des **carences physiques et cardiaques** pour être plus **performant** et prendre plus de **plaisir** sur le **VTT**, sans forcément passer par la case vélo de route. Et comme on peut y lire, écouter de la musique ou regarder un film, une vraie séance d'entraînement en devient plus ludique.
 
 ### Il permet de travailler les familles suivantes
 
@@ -26,15 +26,15 @@ Il vous permet de combler des **carences physiques et cardiaques** pour être pl
 - la puissance.
 
 
-Notre coach **Tristan Le Corvec** vous propose quatre entraînements, parmi ces cinq filières, pour progresser, être plus compétitif ou simplement garder la forme.
+Notre coach **Tristan Le Corvec** te propose quatre entraînements, parmi ces cinq filières, pour progresser, être plus compétitif ou simplement garder la forme.
 
 ## Technique de pédalage
 
-Le travail de la **technique de pédalage** (coordination et vélocité) est simplifié sur home-trainer : il vise à réapprendre à pédaler et à gagner en efficacité. La vélocité, induite par votre **cadence**, est l'un des éléments de la puissance ; elle se travaille toute l'année.
+Le travail de la **technique de pédalage** (coordination et vélocité) est simplifié sur home-trainer : il vise à réapprendre à pédaler et à gagner en efficacité. La vélocité, induite par ta **cadence**, est l'un des éléments de la puissance ; elle se travaille toute l'année.
 
 **La séance :**
 - 25 min d'échauffement à 60 % FC max ;
-- 2 × 10 min à faible intensité (65–70 %) à 110–120 rotations/min (récup : 4 min actif) — roulez en moulinant ;
+- 2 × 10 min à faible intensité (65–70 %) à 110–120 rotations/min (récup : 4 min actif) — roule en moulinant ;
 - 10 min souple, retour au calme.
 
 ## Force musculaire
@@ -57,7 +57,7 @@ L'entraînement incontournable : développer sa **capacité aérobie** (foncier)
 
 ## PMA (VO2 max)
 
-Le travail de la « zone rouge » à l'aide de séances de **PMA** augmente votre **résistance cardiaque et musculaire**, et repousse les limites atteintes en côte et dans les duels acharnés.
+Le travail de la « zone rouge » à l'aide de séances de **PMA** augmente ta **résistance cardiaque et musculaire**, et repousse les limites atteintes en côte et dans les duels acharnés.
 
 **La séance :**
 - 40 min d'échauffement à 60 % FC max ;
@@ -66,7 +66,7 @@ Le travail de la « zone rouge » à l'aide de séances de **PMA** augmente votr
 
 ## Force explosive (sprint)
 
-Les séances de type « sprint » développent votre **puissance explosive** : des progrès rapides chez beaucoup, particulièrement utiles en compétition, sur les relances et les passages techniques (talus, boue…).
+Les séances de type « sprint » développent ta **puissance explosive** : des progrès rapides chez beaucoup, particulièrement utiles en compétition, sur les relances et les passages techniques (talus, boue…).
 
 **La séance :**
 - 30 min d'échauffement à 60 % FC max ;
@@ -77,4 +77,4 @@ Les séances de type « sprint » développent votre **puissance explosive** : d
 
 ![Home-trainer au chaud plutôt que le VTT dans la boue](../images/posts/e90c1-06qy1vq7xb58tr2om.jpg)
 
-Pour préparer votre achat, prenez tous les renseignements nécessaires dans le dossier [Comment choisir son home-trainer pour l'entraînement VTT](/comment-choisir-son-hometrainer-entrainement-vtt.html).
+Pour préparer ton achat, prends tous les renseignements nécessaires dans le dossier [Comment choisir son home-trainer pour l'entraînement VTT](/comment-choisir-son-hometrainer-entrainement-vtt.html).

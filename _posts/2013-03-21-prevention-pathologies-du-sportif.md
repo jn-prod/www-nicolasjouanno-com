@@ -12,9 +12,9 @@ tags:
 
 ## Les pathologies du sportif, regroupées par thèmes
 
-- Attention à votre **équilibre cardio-vasculaire** : chaque année, en France, l'effort physique provoque le décès brutal — la « **mort subite** » — de **1 500 sportifs en pleine forme**.
-- **Vous êtes physiquement malmené** : fractures de fatigue, écrasement des cartilages, usure des articulations, hernies discales, lombalgies, entorses, etc.
-- Attention de ne pas tomber dans les **excès alimentaires** : boulimie, anorexie, malnutrition… Informez-vous pour manger équilibré, en quantité proportionnée et suffisante.
+- Attention à ton **équilibre cardio-vasculaire** : chaque année, en France, l'effort physique provoque le décès brutal — la « **mort subite** » — de **1 500 sportifs en pleine forme**.
+- **Tu es physiquement malmené** : fractures de fatigue, écrasement des cartilages, usure des articulations, hernies discales, lombalgies, entorses, etc.
+- Attention de ne pas tomber dans les **excès alimentaires** : boulimie, anorexie, malnutrition… Informe-toi pour manger équilibré, en quantité proportionnée et suffisante.
 - **Chez les femmes**, l'excès de sport peut provoquer des **aménorrhées**, des **décalcifications précoces** et **perturber la fertilité**.
 - Le sport peut être vécu comme un **stress psychologique** : les symptômes du **surentraînement** ressemblent à s'y méprendre à ceux de la dépression nerveuse.
 

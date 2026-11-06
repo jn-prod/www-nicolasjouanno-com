@@ -21,7 +21,7 @@ events_callout:
 3. [Les randos de l’intérieur des Terres à VTT](#interieur-bretagne)
 4. [Les randos de la côte Sud à VTT de Brest à Nantes](#sud-bretagne)
 5. [Récapitulatif des 9 sites labellisés VTT FFC](#site-ffc)
-6. [Vous recherchez une randonnée VTT en Bretagne?](#conclusion)
+6. [Tu recherches une randonnée VTT en Bretagne ?](#conclusion)
 
 ## 1/ Chaque week-end des milliers de VTTistes sillonnent les sentiers de Bretagne en VTT {#preambule}
 
@@ -29,15 +29,15 @@ events_callout:
 
 Carte des voies vertes accessibles en randonnée VTT en Bretagne
 
-VTTiste débutant ou confirmé, nous sommes nombreux le week-end à la recherche de nouveaux terrains à découvrir en VTT dans notre belle Région: la Bretagne. Les multiples organisateurs de randonnées vous donnent rendez-vous chaque week-end dans les différents départements de Bretagne: Morbihan, Finistère, Côte d’Armor, Ille-et-Vilaine et la Loire-Atlantique.
+VTTiste débutant ou confirmé, nous sommes nombreux le week-end à la recherche de nouveaux terrains à découvrir en VTT dans notre belle Région: la Bretagne. Les multiples organisateurs de randonnées te donnent rendez-vous chaque week-end dans les différents départements de Bretagne: Morbihan, Finistère, Côte d’Armor, Ille-et-Vilaine et la Loire-Atlantique.
 
-Il vous est possible de mettre le pied à l’étrier en profitant en VTT des chemins balisés FFC et autres voies vertes qui parcourent les grandes lignes de la Bretagne de son intéreur à son extérieur (cf: carte ci-dessus).
+Il t'est possible de mettre le pied à l’étrier en profitant en VTT des chemins balisés FFC et autres voies vertes qui parcourent les grandes lignes de la Bretagne de son intéreur à son extérieur (cf: carte ci-dessus).
 
-Envie de plus d’aventure? L’inscription à une randonnée organisée vous coutera généralement 5€. Vous aurez ainsi accès à des randonnées allant d’une dizaine de kilomètres balisées par des passionnés locaux. Il est commun que les bénéfices de ces organisations soient reversés à des causes telles que la lutte contre le cancer, la mucoviscidose, … Les commodités, douche, station de lavage et le traditionnel sandwich patté cornichon vous attendrons traditionnellement à votre arrivée.
+Envie de plus d’aventure? L’inscription à une randonnée organisée te coûtera généralement 5 €. Tu auras ainsi accès à des randonnées allant d’une dizaine de kilomètres balisées par des passionnés locaux. Il est commun que les bénéfices de ces organisations soient reversés à des causes telles que la lutte contre le cancer, la mucoviscidose, … Les commodités, douche, station de lavage et le traditionnel sandwich patté cornichon t'attendront traditionnellement à ton arrivée.
 
-Toutes les randonnées VTT organisées valent le détour, ne serais-ce que pour la sueur qui a coulé sur le front des bénévoles, les convivialité des pilotes à rencontrer, mais aussi pour leur authenticité. Bien sur vous ne pourrez pas toutes les faire le même week-end mais au fil des années vous commencerez à connaitre de nombreux chemins où la pratique du VTT est possible.
+Toutes les randonnées VTT organisées valent le détour, ne serais-ce que pour la sueur qui a coulé sur le front des bénévoles, les convivialité des pilotes à rencontrer, mais aussi pour leur authenticité. Bien sûr, tu ne pourras pas toutes les faire le même week-end, mais au fil des années tu commenceras à connaitre de nombreux chemins où la pratique du VTT est possible.
 
-<em>Vous ne savez pas quelle randonnée VTT choisir? Voici un petit tour de Bretagne à vélo et de bonnes idées..</em>
+<em>Tu ne sais pas quelle randonnée VTT choisir ? Voici un petit tour de Bretagne à vélo et de bonnes idées..</em>
 
 ## 2/ Les randos de la côte Nord de Bretagne à VTT de Brest au Mont-Saint-Michel (Finistère, Côtes d’Armor, Ille et Vilaine) {#cote-nord}
 
@@ -45,11 +45,11 @@ Toutes les randonnées VTT organisées valent le détour, ne serais-ce que pour 
 
 Randonnée VTT au mont st michel ©safrantours.com
 
-De Brest à Ploudalmézeau, c’est le charme du bout du Monde, l’Ouest du continent Européen, avec une côte frappée par les tempêtes arrivant de l’Atlantique qui se déroulera sous vos roues de VTT. L’espace VTT du Pays d’Iroise accueillera tous les niveaux de pilote sur ses 12 pistes VTT balisées totalisant 364 km à partir de l’une des communes du Pays d’Iroise.
+De Brest à Ploudalmézeau, c’est le charme du bout du Monde, l’Ouest du continent Européen, avec une côte frappée par les tempêtes arrivant de l’Atlantique qui se déroulera sous tes roues de VTT. L’espace VTT du Pays d’Iroise accueillera tous les niveaux de pilote sur ses 12 pistes VTT balisées totalisant 364 km à partir de l’une des communes du Pays d’Iroise.
 
-De Morlaix au Mont-Saint-Michel, le paysage rocheux offert par la côte Nord de la Bretagne, vous fera découvrir à VTT les falaises qui jalonnent la Manche. Prenez le temps de vous arrêter et profitez du paysage à Perros-Guirec, Paimpol, Erqy, Saint Malo.
+De Morlaix au Mont-Saint-Michel, le paysage rocheux offert par la côte Nord de la Bretagne, te fera découvrir à VTT les falaises qui jalonnent la Manche. Prends le temps de t'arrêter et profite du paysage à Perros-Guirec, Paimpol, Erqy, Saint Malo.
 
-Saint-Brieuc, ville préfecture des Côtes d’Amor, est une ville d’histoire qui a de quoi vous séduire avec ses bâtiments d’architecture médiévale, les vallées du Gouédic et du Gouët, la vallée de Souvenant, le port de plaisance de pêche et de commerce, la baie de Saint-Brieuc (réserve naturelle), le jardin et la roseraie de Ty Coat, le parc des Promenades, le parc de la Villa Rohannec’h et l’arboretum de la ville.
+Saint-Brieuc, ville préfecture des Côtes d’Amor, est une ville d’histoire qui a de quoi te séduire avec ses bâtiments d’architecture médiévale, les vallées du Gouédic et du Gouët, la vallée de Souvenant, le port de plaisance de pêche et de commerce, la baie de Saint-Brieuc (réserve naturelle), le jardin et la roseraie de Ty Coat, le parc des Promenades, le parc de la Villa Rohannec’h et l’arboretum de la ville.
 
 On arrêtera de longer la face de la Bretagne au Mont Saint Michel. On découvrira l’espace VTT de La Baie du Mont St Michel et ses 8 pistes au totalisant 257 km. On posera ensuite notre VTT à l’entrée de la baie pour prendre une photo de carte postale, faire un selfie avec sa Go Pro, où simplement terminer en s’émerveillant devant l’authenticité de la vieille ville construite sur un îlot rocheux.
 
@@ -61,7 +61,7 @@ Randonnée VTT parc Naturel Régional d’Armorique ©<a  href="http://www.touri
 
 Crozon, Huelgouat, Le Faou, Chateaulin sont des villes qui ont pour point commun d’être sur le Parc Naturel Régional d’Armorique. Le parc naturel régional d’Armorique fait partie des 51 parcs naturels régionaux français. Situé dans le Finistère, le parc recouvre un territoire très contrasté, qui se divise en quatre territoires : les îles de la mer d’Iroise, la presqu’île de Crozon, l’Aulne maritime et les monts d’Armée. Un espace protégé qui ravira de diversité et de dénivelé les pilotes VTT les plus chevronnés.
 
-Un peu au-dessus du Parc c’est à partir de Morlaix que s’ouvre à vous 180Km de pistes FFC balisés. Avec 8 pistes traversent l’Espace VTT Morlaix Mont d’Arrée.
+Un peu au-dessus du Parc c’est à partir de Morlaix que s’ouvrent à toi 180 km de pistes FFC balisés. Avec 8 pistes traversent l’Espace VTT Morlaix Mont d’Arrée.
 
 On se retrouvera ensuite dans la vallée du Blavet. Le Blavet est un fleuve côtier français de Bretagne qui coule dans les départements des Côtes-d’Armor et du Morbihan, ilse jette dans l’océan Atlantique près de Lorient. C’est au départ de Baud que 9 pistes et 187 Km de sentiers, traversant des terres sauvages, que les circuits de randonnée VTT labéllisés FFC prennent leurs départs.
 
@@ -179,8 +179,8 @@ balise site VTT FFC
 - Contact : 06 83 41 61 59
 - Site internet : <a  href="http://www.asso.ffv.fr/nsc-voile/" target="_blank">http://www.asso.ffv.fr/nsc-voile/</a>
 
-## 6/ Vous recherchez une randonnée VTT en Bretagne? {#conclusion}
+## 6/ Tu recherches une randonnée VTT en Bretagne ? {#conclusion}
 
-Vous cherchez une randonnée organisée ? La page [Événements]({{ site.projects.events.url }}) reprend celles qu'on m'envoie : date, lieu et lien vers l'organisation.
+Tu cherches une randonnée organisée ? La page [Événements]({{ site.projects.events.url }}) reprend celles qu'on m'envoie : date, lieu et lien vers l'organisation.
 
-Vous organisez ou connaissez une rando qui n'y est pas ? Vous pouvez la [proposer]({{ site.projects.events.ajouter_url }}) — c’est gratuit et ouvert à tous les clubs et associations.
+Tu organises ou connais une rando qui n'y est pas ? Tu peux la [proposer]({{ site.projects.events.ajouter_url }}) — c’est gratuit et ouvert à tous les clubs et associations.

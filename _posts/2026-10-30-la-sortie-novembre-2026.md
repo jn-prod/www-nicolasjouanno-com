@@ -44,7 +44,7 @@ Le mercredi 11 novembre, férié, La Mélécienne organise sa 32e rando VTT et p
 
 ## Sur le calendrier vtt.bzh
 
-Novembre est plus calme qu’octobre, qui comptait 31 rendez-vous dans la dernière lettre. Le calendrier existe grâce aux clubs, organisateurs et pratiquants qui partagent leurs dates : si la vôtre manque, il est encore temps de l’ajouter.
+Novembre est plus calme qu’octobre, qui comptait 31 rendez-vous dans la dernière lettre. Le calendrier existe grâce aux clubs, organisateurs et pratiquants qui partagent leurs dates : si la tienne manque, il est encore temps de l’ajouter.
 
 11 rendez-vous sont annoncés entre le 1er novembre et le 6 décembre sur vtt.bzh, dont 3 ajoutés
 au calendrier ces 35 derniers jours. Ils se répartissent entre les Côtes-d’Armor (1), le Finistère (3),
@@ -78,15 +78,15 @@ l’Ille-et-Vilaine (1), la Loire-Atlantique (1) et le Morbihan (5).
 
 Le calendrier complet et les détails pratiques sont sur la [page Événements](/events/).
 
-## Votre sortie
+## Ta sortie
 
-Votre club prépare une randonnée ? [Ajoutez-la au calendrier](/events/ajouter.html). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre le calendrier ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
+Ton club prépare une randonnée ? [Ajoute-la au calendrier](/events/ajouter.html). Tu as repéré une information utile ou tu veux raconter une sortie ? [Réponds à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre le calendrier ; les autres contributions pourront nourrir la prochaine édition, avec ton accord avant publication.
 
 ## La Sortie se partage
 
-Si cette édition vous aide à préparer votre prochaine sortie, transférez-la à votre club ou à la personne avec qui vous aimeriez partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles en Bretagne.
+Si cette édition t'aide à préparer ta prochaine sortie, transfère-la à ton club ou à la personne avec qui tu aimerais partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles en Bretagne.
 
-**Vous avez reçu cette lettre par transfert ?** [Recevez la prochaine édition](https://www.nicolasjouanno.com/la-sortie/subscribe/).
+**Tu as reçu cette lettre par transfert ?** [Reçois la prochaine édition](https://www.nicolasjouanno.com/la-sortie/subscribe/).
 
 À bientôt,
 

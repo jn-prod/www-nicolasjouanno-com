@@ -14,7 +14,7 @@ tags:
 
 Marrocco Médias a séjourné à Léogang, en Autriche, pour la finale de la Coupe du Monde de DH UCI 2013 : ils ont aidé le team Norco Dirt en leur fournissant un support d'analyse vidéo tout au long du week-end.
 
-L'analyse vidéo en VTT permet aux coureurs de juger les choix de trajectoires, la technique du pilote et la configuration du vélo. Ils peuvent comparer différentes trajectoires sur une section de la piste, confronter leurs choix à ceux des autres coureurs, et trouver la ligne qui procurera le chrono le plus rapide en bas. Les réglages peuvent ainsi être décomposés et jugés objectivement, en comparant les possibilités pour établir la plus rapide pour la course et pour votre style de pilotage.
+L'analyse vidéo en VTT permet aux coureurs de juger les choix de trajectoires, la technique du pilote et la configuration du vélo. Ils peuvent comparer différentes trajectoires sur une section de la piste, confronter leurs choix à ceux des autres coureurs, et trouver la ligne qui procurera le chrono le plus rapide en bas. Les réglages peuvent ainsi être décomposés et jugés objectivement, en comparant les possibilités pour établir la plus rapide pour la course et pour ton style de pilotage.
 
 Arrivés le vendredi matin, après une brève discussion avec l'équipe Norco Dirt, ils sont montés en télécabine. Ils ont passé le vendredi à balayer la piste de haut en bas, filmant différentes sections et identifiant les parties où les secondes se gagnent.
 

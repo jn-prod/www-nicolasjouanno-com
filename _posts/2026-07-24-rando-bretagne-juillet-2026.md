@@ -11,7 +11,7 @@ permalink: /la-sortie/2026-07/
 
 > Cette édition a été envoyée initialement comme agenda mensuel de vtt.bzh. Elle est conservée ici dans les archives de La Sortie ; les événements et informations correspondent à juillet 2026.
 
-Vous voulez recevoir une sélection chaque mois ? [Recevez la prochaine édition de La Sortie](/la-sortie/subscribe/).
+Tu veux recevoir une sélection chaque mois ? [Reçois la prochaine édition de La Sortie](/la-sortie/subscribe/).
 
 Bonjour,
 
@@ -37,6 +37,6 @@ Fin juillet et mi-août sont chargés dans le calendrier : du gravel, du raid, d
 
 ## Une rando manque à l’appel ?
 
-Vous en connaissez une qui n’est pas dans la liste — la vôtre, celle de votre club, ou une que vous avez vue passer ? [Ajoutez-la au calendrier](/events/ajouter.html). C’est ce qui le tient à jour.
+Tu en connais une qui n’est pas dans la liste — la tienne, celle de ton club, ou une que tu as vue passer ? [Ajoute-la au calendrier](/events/ajouter.html). C’est ce qui le tient à jour.
 
 La [page Événements](/events/) présente les randonnées à venir.

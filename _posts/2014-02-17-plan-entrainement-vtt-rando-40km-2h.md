@@ -1,7 +1,7 @@
 ---
 category: guide
-title: "Plan d'entraînement VTT n°1 : votre rando de 40 km en 2 h"
-description: "Un plan d'entraînement VTT sur la semaine pour gagner en endurance et en force explosive, et boucler votre rando de 40 km en 2 h."
+title: "Plan d'entraînement VTT n°1 : ta rando de 40 km en 2 h"
+description: "Un plan d'entraînement VTT sur la semaine pour gagner en endurance et en force explosive, et boucler ta rando de 40 km en 2 h."
 tags:
   - vtt
   - outdoor
@@ -27,17 +27,17 @@ image_alt: "Un cardiofréquencemètre avec cadence"
 
 ## Correspondance cardiaque
 
-**FC repos** : prenez votre pouls au réveil.
+**FC repos** : prends ton pouls au réveil.
 
-**FC max théorique** : 220 − votre âge (ex. à 30 ans, FC max = 220 − 30 = 190 puls/min).
+**FC max théorique** : 220 − ton âge (ex. à 30 ans, FC max = 220 − 30 = 190 puls/min).
 
-**FC max pratique** : à l'aide d'un cardiofréquencemètre, lors d'une sortie, relevez votre pouls après un effort violent, généralement en bosse, après au moins 45 min de roulage et avant que la fatigue ne se fasse sentir.
+**FC max pratique** : à l'aide d'un cardiofréquencemètre, lors d'une sortie, relève ton pouls après un effort violent, généralement en bosse, après au moins 45 min de roulage et avant que la fatigue ne se fasse sentir.
 
-**Note** : à l'entraînement, votre pouls peut réagir différemment d'un jour à l'autre selon la fatigue, la température, le délai depuis le dernier repas, l'altitude, la cadence de pédalage. L'indication la plus précise (et la plus onéreuse) reste la puissance, mesurée à l'aide de capteurs (SRM, Quarq, PowerTap).
+**Note** : à l'entraînement, ton pouls peut réagir différemment d'un jour à l'autre selon la fatigue, la température, le délai depuis le dernier repas, l'altitude, la cadence de pédalage. L'indication la plus précise (et la plus onéreuse) reste la puissance, mesurée à l'aide de capteurs (SRM, Quarq, PowerTap).
 
 ## Le plan, jour par jour
 
-**Objectif** : votre rando de 40 km en 2 h. Le but est de gagner en **endurance** et en **force explosive** : de longues sorties pour l'endurance, de courtes séances sur **home-trainer** pour la résistance à pleine puissance. Le cardiofréquencemètre devient votre meilleur ami pour travailler avec précision le muscle le plus important à l'effort : le cœur.
+**Objectif** : ta rando de 40 km en 2 h. Le but est de gagner en **endurance** et en **force explosive** : de longues sorties pour l'endurance, de courtes séances sur **home-trainer** pour la résistance à pleine puissance. Le cardiofréquencemètre devient ton meilleur ami pour travailler avec précision le muscle le plus important à l'effort : le cœur.
 
 ### Lundi
 
@@ -78,4 +78,4 @@ Repos.
 ### Dimanche
 
 **Durée : 2 h à 3 h.** Rando VTT 40–50 km en groupe.
-*Conseil :* profiter du groupe pour réaliser les sorties les plus longues possibles et tester votre résistance.
+*Conseil :* profiter du groupe pour réaliser les sorties les plus longues possibles et tester ta résistance.

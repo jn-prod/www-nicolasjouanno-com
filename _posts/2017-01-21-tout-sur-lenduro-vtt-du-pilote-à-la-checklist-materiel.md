@@ -39,7 +39,7 @@ En 2011, l’UCI lance une consultation pour faire de l’enduro une discipline 
 
 ## 2/ Différence enduro, XC, DH. {#difference}
 
-Vous l’avez donc compris L’enduro VTT est une discipline Hybride entre deux opposés: XC et DH.
+Tu l’as donc compris L’enduro VTT est une discipline Hybride entre deux opposés: XC et DH.
 
 Le VTT enduro à ces points communs avec:
 
@@ -65,7 +65,7 @@ Un VTT Enduro ce serait un VTT de cross-country qui aurait trop de débattement 
 
 Un VTT Enduro ce serait un VTT de DH qui n’aurait pas assez débattement pour encaisser le haut de la descente de Fort William sans plier, il ne serait pas assez stable, trop légé, pas assez de débattement, trop fragile, bref une fois de plus ce n’est pas un VTT de DH!
 
-Bon en recommence en fait le VTT d’Enduro idéal, c’est un mixe de tout ça, un VTT qui ressemble à son pilote: engagé, confortable, qui a du rendement, qui sache monter et descendre. Idéalement, si votre VTT revient vivant d’un trip en Colombie Britannique (Canada) c’est que c’est un VTT Enduro, pour synthétiser!
+Bon en recommence en fait le VTT d’Enduro idéal, c’est un mixe de tout ça, un VTT qui ressemble à son pilote: engagé, confortable, qui a du rendement, qui sache monter et descendre. Idéalement, si ton VTT revient vivant d’un trip en Colombie Britannique (Canada) c’est que c’est un VTT Enduro, pour synthétiser!
 
 ## a) Quelques critères de bases:
 
@@ -145,10 +145,10 @@ L’équipement de base du pilote pour pratiquer l’enduro est un casque avec m
 
 ## 7/ Conclusion {#conclusion}
 
-Voilà maintenant les bases de l’Enduro VTT n’ont plus de secrets pour vous.
+Voilà maintenant les bases de l’Enduro VTT n’ont plus de secrets pour toi.
 
-Si vous ne savez pas quoi faire de votre prochaine journée de repos, passez faire un tour chez votre vélociste vous équiper un peu et prenez juste votre VTT pour profitez des chemins en testant vos limites raisonablement et surtout SORTEZ COUVERT!
+Si tu ne sais pas quoi faire de ta prochaine journée de repos, passe faire un tour chez ton vélociste t'équiper un peu et prends juste ton VTT pour profiter des chemins en testant tes limites raisonnablement et surtout SORS COUVERT !
 
-N’oubliez pas de lire<a href="/20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html" title="MATOS: Les 20 éléments indispensables à avoir dans votre sac de Rando / Raid / Enduro VTT" target="_blank"> cet article </a>pour plus d’info sur le contenu du sac pour une grosse sortie de VTT Enduro.
+N’oublie pas de lire<a href="/20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html" title="MATOS: Les 20 éléments indispensables à avoir dans ton sac de Rando / Raid / Enduro VTT" target="_blank"> cet article </a>pour plus d’info sur le contenu du sac pour une grosse sortie de VTT Enduro.
 
-<em>ps: Ceci n’est qu’une première base de réflexion ce n’est pas un cour pour passer un BAC ENDURO, l’enduro est une question de compromis pour chaque style de pilotage, un style qui vous appartiens; on ne retrouvera jamais en Enduro 2 VTT identiques… Prenez ce qui vous intéresse et jetez le reste! (enfin ni votre PC, ni votre tablette et autre smartphone …)</em>
+<em>ps: Ceci n’est qu’une première base de réflexion ce n’est pas un cour pour passer un BAC ENDURO, l’enduro est une question de compromis pour chaque style de pilotage, un style qui t'appartient ; on ne retrouvera jamais en Enduro 2 VTT identiques… Prends ce qui t'intéresse et jette le reste ! (enfin ni ton PC, ni ta tablette et autre smartphone …)</em>

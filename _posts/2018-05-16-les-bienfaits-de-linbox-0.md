@@ -1,7 +1,7 @@
 ---
 category: recit
 title: Les bienfaits de l’inbox 0
-description: "L’inbox 0 transforme votre rapport aux emails : découvrez comment cette méthode de productivité simple permet de commencer chaque journée l’esprit libre."
+description: "L’inbox 0 transforme ton rapport aux emails : découvre comment cette méthode de productivité simple permet de commencer chaque journée l’esprit libre."
 tags:
   - work
   - productivité
@@ -23,7 +23,7 @@ Ce concept de productivité est avant toute chose accessible à tous et fait pre
 
 Dans ma première expérience entrepreneuriale, je me suis clairement laissé dépassé par la paperasse en la laissant en attente, qu’elle soit dématérialisée ou non. Les conséquences de cette méthode aléatoire sont multiples, mais apportent rarement du positif.
 
-Il en était de même pour les emails qu’ils soient de clients ou de tierces, au mieux répondue avec un délai interminable, au pire, rester sans réponses. Inutile de vous faire un dessin sur la conséquence de cette méthode et sur l’image qu’elle projette. Je ne dirais pas que ça à coulé ma boite, mais ça ne l’a pas tirée vers le haut ! Sans compter la sensation désagréable de toujours courir après les mails sans savoir par où commencer quand j’ouvrais ma boite mail. Pire l’appréhension montante de voir de nouveaux emails arriver.
+Il en était de même pour les emails qu’ils soient de clients ou de tierces, au mieux répondue avec un délai interminable, au pire, rester sans réponses. Inutile de te faire un dessin sur la conséquence de cette méthode et sur l’image qu’elle projette. Je ne dirais pas que ça à coulé ma boite, mais ça ne l’a pas tirée vers le haut ! Sans compter la sensation désagréable de toujours courir après les mails sans savoir par où commencer quand j’ouvrais ma boite mail. Pire l’appréhension montante de voir de nouveaux emails arriver.
 
 C’est donc pour me débarrasser de ce vieux démons, qu’avant d’entamer une nouvelle expérience professionnelle, j’ai adopté radicalement du jour au lendemain l’inbox 0. C’est avec simplicité que j’ai archivé sans tri ni relecture tous les emails de plus d’un mois. Pour les emails de moins d’un mois, le tri était simple, un passage direct à la poubelle pour toutes les newsletters. Une relecture de tous les emails restant un à un que ce concluait soit par un archivage soit par une réponse.
 

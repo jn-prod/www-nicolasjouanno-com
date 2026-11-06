@@ -22,7 +22,7 @@ image_alt: "je porte un casque"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V1J4RFtMfpg" title="Comment régler son casque" frameborder="0" allowfullscreen></iframe>
 
-Dans cette vidéo, **apprenez à choisir et régler votre casque**. Votre casque n'aura plus de secret pour vous :
+Dans cette vidéo, **apprends à choisir et régler ton casque**. Ton casque n'aura plus de secret pour toi :
 
 - Choix de la taille du casque
 - Réglage de la sangle du casque
@@ -31,4 +31,4 @@ Dans cette vidéo, **apprenez à choisir et régler votre casque**. Votre casque
 
 ## www.jeporte1casque.com
 
-L'objectif de [www.jeporte1casque.com](http://www.jeporte1casque.com){:target="_blank"} est de faire passer le message que dans de nombreuses activités de sport ou de loisir, il est conseillé de mettre un casque pour protéger nos têtes. Rejoignez-les, apportez votre expérience.
+L'objectif de [www.jeporte1casque.com](http://www.jeporte1casque.com){:target="_blank"} est de faire passer le message que dans de nombreuses activités de sport ou de loisir, il est conseillé de mettre un casque pour protéger nos têtes. Rejoins-les, apporte ton expérience.

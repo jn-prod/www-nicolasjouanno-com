@@ -28,28 +28,28 @@ La MBF regroupe des représentants de l'industrie, des fédérations, des profes
 Elle est ouverte à toute personne physique ou morale : entreprises, associations, collectifs, professionnels, particuliers…
 
 
-## 1. Soyez éco-citoyen
+## 1. Sois éco-citoyen
 
-Vous ramassez vos déchets, vous préservez notre belle nature sans laquelle la discipline perdrait son charme ? Alors dites-le et officialisez-le en prenant une carte de membre.
+Tu ramasses tes déchets, tu préserves notre belle nature sans laquelle la discipline perdrait son charme ? Alors dis-le et officialise-le en prenant une carte de membre.
 
-## 2. Soyez un vecteur de courtoisie
+## 2. Sois un vecteur de courtoisie
 
-Si, à chaque sortie, seul ou entre amis, vous respectez les autres usagers des sentiers — vitesse contrôlée, un bonjour, ces détails qui font la différence sur des chemins étroits —, c'est déjà tout vous. N'attendez plus.
+Si, à chaque sortie, seul ou entre amis, tu respectes les autres usagers des sentiers — vitesse contrôlée, un bonjour, ces détails qui font la différence sur des chemins étroits —, c'est déjà tout toi. N'attends plus.
 
-## 3. Respectez la nature
+## 3. Respecte la nature
 
-Vous aimez la beauté de la nature sauvage et ce sentiment de pionnier à chaque sortie, loin de la pollution et des bouchons ? Alors contrôlez vos dérapages, évitez le hors-piste, préservez et entretenez les sentiers.
+Tu aimes la beauté de la nature sauvage et ce sentiment de pionnier à chaque sortie, loin de la pollution et des bouchons ? Alors contrôle tes dérapages, évite le hors-piste, préserve et entretiens les sentiers.
 
-## 4. Devenez ambassadeur de votre sport
+## 4. Deviens ambassadeur de ton sport
 
-Soyez le premier ambassadeur de votre discipline : restez courtois et respectueux des autres usagers, et participez aux initiatives de prévention et de médiation pour la protection de la nature.
+Sois le premier ambassadeur de ta discipline : reste courtois et respectueux des autres usagers, et participe aux initiatives de prévention et de médiation pour la protection de la nature.
 
-## 5. Participez à l'éco-système
+## 5. Participe à l'éco-système
 
-Participez à l'équilibre entre la nature et votre passion pour ce sport en osmose avec elle.
+Participe à l'équilibre entre la nature et ta passion pour ce sport en osmose avec elle.
 
 ![Fabien Barel, parrain de la MBF](../images/posts/667f1-0wh5gwbe6bg6-_nog.jpg)
 
 ## Envie de devenir acteur de cette charte ?
 
-Si ce n'est pas encore le cas, [rejoignez-les — ils ont besoin de vous](http://www.mountainbikers-foundation.com/accueil/adh%C3%A9rer/){:target="_blank"}.
+Si ce n'est pas encore le cas, [rejoins-les — ils ont besoin de toi](http://www.mountainbikers-foundation.com/accueil/adh%C3%A9rer/){:target="_blank"}.

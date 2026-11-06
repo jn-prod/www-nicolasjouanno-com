@@ -136,5 +136,5 @@ test("l'encart Événements figure sur un post, quel que soit son type", async (
     await expect(page.locator('.c-callout a[href*="/events/"]').first()).toBeVisible();
   }
   await expect(page.locator('.c-callout')).toHaveCount(1);
-  await expect(page.locator('.c-callout__title')).toHaveText('Prêt à tester vos réglages ?');
+  await expect(page.locator('.c-callout__title')).toHaveText('Prêt à tester tes réglages ?');
 });
