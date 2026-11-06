@@ -9,7 +9,7 @@ tags:
 
 ---
 
-Plusieurs d'entre vous ont répondu à l'enquête sur les licences de vélo. Quand la moitié d'entre vous sont non-licenciés mais annoncent vouloir prendre une licence, et que la suppression de la visite médicale pour la validation des licences est régulièrement évoquée, la question du suivi médical mérite qu'on s'y arrête.
+Plusieurs lecteurs ont répondu à l'enquête sur les licences de vélo. Quand la moitié des répondants sont non-licenciés mais annoncent vouloir prendre une licence, et que la suppression de la visite médicale pour la validation des licences est régulièrement évoquée, la question du suivi médical mérite qu'on s'y arrête.
 
 Nous remercions le **Dr Benoît Tanguy** d'avoir pris le temps de répondre à quelques questions sur l'intérêt, pour la santé et la pratique sportive, du suivi médical — et plus précisément de cette visite annuelle.
 

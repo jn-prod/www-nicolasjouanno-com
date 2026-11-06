@@ -26,7 +26,7 @@ La gamme se compose de cinq familles : énergie, hydratation, stimulant, récup�
 
 ## Pack de course
 
-**RacePack** — très complet pour une épreuve allant jusqu'à 6 h : 6 EnergyGel Plus, 2 EnergyGel, 1 IsoGel Plus, 2 IsoGel, 4 Energy Source, 1 Energy Source X'treme, 1 Protein Recovery, 2 sachets ZERO, 1 bidon 750 ml. Il ne manque qu'un mini sac-poubelle — amis riders, ne jetez rien dans la nature !
+**RacePack** — très complet pour une épreuve allant jusqu'à 6 h : 6 EnergyGel Plus, 2 EnergyGel, 1 IsoGel Plus, 2 IsoGel, 4 Energy Source, 1 Energy Source X'treme, 1 Protein Recovery, 2 sachets ZERO, 1 bidon 750 ml. Il ne manque qu'un mini sac-poubelle — ami rider, ne jette rien dans la nature !
 
 ## Récupération
 
