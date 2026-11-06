@@ -1,134 +1,143 @@
 ---
 category: guide
-title: "Comment régler les suspensions de son VTT, de la fourche à l’amortisseur"
-description: "Voici le guide complet pour régler avec précision la fourche et de l'armotisseur de votre VTT."
+title: "Régler les suspensions de son VTT : fourche et amortisseur"
+description: "SAG, compression, blocage, détente : l’ordre et la méthode pour régler la fourche et l’amortisseur de son VTT, et que faire si le blocage ne marche plus."
 tags:
   - vtt
   - outdoor
   - équipement
 image: /images/posts/a3d50-0omp6q8ru_v_v0drm.jpg
-image_alt: "Pompe Haute Pression pour Suspension ROCKSHOX"
+image_alt: "Pompe haute pression pour suspension RockShox"
 ---
 
-<em>Comment régler la fourche et l’amortisseur de votre VTT ? XC Marathon, enduro, DH, … de 100 à 200mm et plus, nos VTT sont tous, ou presque, équipés d’une fourche télescopique et d’un amortisseur. Gagner en stabilité, augmenter le confort, l’adhérence… votre VTT tout-suspendu à de nombreux avantages, mais faut-il encore que vos suspensions soit bien réglées! Découvrez ici les astuces et méthodes simples pour régler la fourche et l’amortisseur de votre VTT.</em>
+XC, marathon, enduro, DH, de 100 à 200 mm de débattement et plus : presque tous nos VTT ont une fourche télescopique, et souvent un amortisseur. Un tout-suspendu gagne en stabilité, en confort et en adhérence, à condition que ses suspensions soient bien réglées. Voici une méthode simple pour régler la fourche et l’amortisseur de votre VTT.
 
-## Au Programme :
+## L’ordre des réglages
 
-1. [Le ressort de la suspension](#ressort)
-2. [La compression de la suspension](#compression)
-3. [Le blocage de la compression de la suspension](#blocage)
-4. [La détente de la suspension](#detente)
-5. [Le débattement variable](#debattement)
+Le réglage reste simple si l’on suit toujours le même ordre :
 
-<iframe title="Vidéo YouTube" width="auto" height="315" src="https://www.youtube.com/embed/aXZ_WWjIQdA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<hr />
+1. [Le ressort et le SAG](#ressort)
+2. [La compression](#compression), puis [le blocage](#blocage)
+3. [La détente](#detente)
+4. [Le débattement variable](#debattement), si votre fourche en a un
 
-## 1/ Le ressort de la suspension {#ressort}
+Adaptez ensuite le réglage au terrain, à votre pilotage et à la température.
 
-### Le fonctionnement du ressort
+<iframe title="Vidéo YouTube : régler les suspensions d’un VTT" width="auto" height="315" src="https://www.youtube.com/embed/aXZ_WWjIQdA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Le fonctionnement d’une suspension se caractérise principalement par son effet ressort. Le ressort est d’abords défini par le poids qu’il supporte et à partir duquel il va s’enfoncer.
+## Le ressort et le SAG {#ressort}
 
-Trois systèmes de ressorts sont répertoriées: le couple ressort/élastomère (fourche premier prix), l’air et l’huile (utilisés seules ou couplés pour les modèles de fourches moyen/haut de gammes)
+### À quoi sert le ressort
 
-Le ressort permet de s’adapter au poids du pilote, au terrain et au style de pilotage. Une molette permet de durcir le ressort des systèmes a ressort/élastomère et bain d’huile, alors que les fourches et amortisseurs de VTT à pression d’air sont ajustés avec une pompe haute pression pouvant monter jusqu’à 200psi.
+Une suspension fonctionne d’abord comme un ressort. Celui-ci se définit par le poids qu’il supporte avant de s’enfoncer. Il s’adapte au poids du pilote, au terrain et au style de pilotage.
 
-Vous n’avez pas de pompe haute pression pour régler votre fourche et/ou amortisseur Fox, Rockshox, SR Suntour, Boss, … équipez-vous.
+Il existe trois systèmes :
 
-Pour les fourches de VTT à élastomère/ressort, si vous souhaitez durcir ou assouplir votre fourche de manière significative, il conviens de les changer pour des références plus dures ou plus souples qui sont adaptées à la fourche de votre VTT.
+- le couple ressort et élastomère, sur les fourches premier prix ;
+- l’air ;
+- l’huile.
 
-### Un réglage réussis de la fourche et de l’amortisseur de votre VTT grâce au SAG
+L’air et l’huile sont utilisés seuls ou ensemble sur les fourches de moyenne et haut de gamme.
 
-- Mesurez la course ( donc le débattement ) totale de la fourche du collier à la base du plongeur.
-- Placez le collier tout en bas
-- Equipez-vous comme lorsque vous roulez: casque, sacs, chaussures, … (qui ont un impact direct sur le poid supportés par les suspensions)
-- Montez sur le VTT doucement.
-- La valeur idéale du SAG est un enfoncement à l’arrêt et sous votre seul poids de 15/20 % du débattement pour une pratique XC et de 20/30 % pour une pratique plus engagée, enduro à DH.
-- Ajustez à l’aide de la pompe haute pression et noter la valeur.
+Sur un système à ressort et élastomère ou à bain d’huile, une molette durcit le ressort. Sur une fourche ou un amortisseur à air, on règle la pression avec une pompe haute pression, qui peut monter jusqu’à 200 psi. Si vous n’en avez pas pour votre Fox, RockShox, SR Suntour ou Boss, équipez-vous.
 
-### Précaution de réglage
+Pour durcir ou assouplir nettement une fourche à ressort et élastomère, il faut changer les élastomères pour des modèles plus durs ou plus souples, adaptés à votre fourche.
 
-- un ressort trop dur, va empêcher votre suspension de fonctionner correctement, vous allez complètement perdre l’avantage des réglages de compression et détente.
-- un ressort trop mou risque d’abîmer votre matériel, car votre système de suspension ira très souvent en butée sur gros choc (même pour une pratique xc).
-- l’air de la fourche de votre VTT ne réagis pas de la même manière quand il fait 0° et 30°, votre réglage doit varier et votre pression être vérifiée chaque mois de l’année pour être le plus adapté possible aux conditions dans lesquels vous roulez. (l’hiver l’air se comprime idéalement ajoutez +5% en pression, alors que l’été elle se dilate, idéalement enlevez -5% en pression)
-![Jared Graves - action Championnat du monde de DH 2013 - Crédits photos @ yeticycles.com](../images/posts/89754-0y1psiewctqe8xr-m.jpg)
+### Régler le SAG
 
-Jared Graves — action Championnat du monde de DH 2013 — Crédits photos @ yeticycles.com
+Le SAG, c’est l’enfoncement de la suspension à l’arrêt, sous votre seul poids.
 
-<hr />
+1. Mesurez le débattement total de la fourche, du collier à la base du plongeur.
+2. Placez le collier tout en bas.
+3. Équipez-vous comme pour rouler : casque, sac, chaussures. Tout ce poids pèse sur les suspensions.
+4. Montez doucement sur le VTT.
+5. Visez un SAG de 15 à 20 % du débattement en XC, de 20 à 30 % pour une pratique plus engagée, de l’enduro à la DH.
+6. Ajustez avec la pompe haute pression et notez la valeur.
 
-## 2/ La compression de la suspension {#compression}
+### Les erreurs à éviter
 
-La compression de votre suspension est un réglage du système hydraulique de la fourche et amortisseur de votre VTT. Ce réglage permet de faire varier la vitesse de compression de votre suspension dans les basses et hautes vitesses.
+- **Un ressort trop dur** empêche la suspension de fonctionner : vous perdez l’intérêt des réglages de compression et de détente.
+- **Un ressort trop mou** abîme le matériel : la suspension talonne souvent sur les gros chocs, même en XC.
+- **La température change la pression.** L’air ne réagit pas de la même façon à 0 °C et à 30 °C : vérifiez la pression chaque mois. L’hiver, l’air se comprime, ajoutez environ 5 % de pression ; l’été, il se dilate, retirez-en environ 5 %.
 
-- La basse vitesse correspond aux compressions de faibles amplitudes de la suspension, généralement lié au pédalage, freinage, …
-- La haute vitesse correspond aux compressions de fortes amplitudes de la suspension, généralement lié aux chocs et impacts causés par le terrain et le pilotage.
+![Jared Graves au championnat du monde de DH 2013](../images/posts/89754-0y1psiewctqe8xr-m.jpg)
 
-Pour régler cette molette bleue, positionnez là en là tournant au max vers le “-”, puis conté les crans en la tournant au max jusqu’au “+” et revenez de 1/3 ou de 1/2 vers le “-”. Vous garderez ainsi une compression dynamique avec la fourche et/ou amortisseur de votre VTT et pourrez affiner le réglage de la suspension à la sensation en roulant.
+*Jared Graves au championnat du monde de DH 2013. Photo yeticycles.com*
 
-Une compression forte ralentie la suspension sur des gros chocs et améliore la capacité de la suspension à encaisser ces gros chocs. Une compression trop lente oblige le pilote à compenser les plus gros chocs avec son corps et le VTT sera moins stable à haute vitesse.
+## La compression {#compression}
 
-<hr />
+La compression est un réglage hydraulique de la fourche et de l’amortisseur. Il fait varier la vitesse à laquelle la suspension s’enfonce, à basse et à haute vitesse :
 
-## 3/ Le blocage de la compression de la suspension {#blocage}
+- **la basse vitesse** concerne les petits mouvements, liés au pédalage ou au freinage ;
+- **la haute vitesse** concerne les grands mouvements, liés aux chocs du terrain et au pilotage.
 
-Le blocage de compression de la suspension, très appréciés dans les montés et portions roulantes, fonctionne en ralentissant ou en empêchant la circulation de l’huile dans la chambre. Par sécurité, le blocage de la fourche se défait sur les gros chocs pour ne pas endommager la suspension.
+Pour régler la molette bleue :
 
-Si le blocage de la fourche de votre VTT ou de l’amortisseur ne fonctionne plus, deux solutions:
+1. tournez-la à fond vers le « − » ;
+2. tournez-la à fond vers le « + » en comptant les crans ;
+3. revenez d’un tiers ou de la moitié des crans vers le « − ».
 
-- La fourche ou amortisseur se bloque avec une molette au guidon, le cable est peu être à retendre
-- La fourche ou amortisseur manque d’huile, vérifiez qu’il n’a pas de fuite et rajoutez quelques cuillères à café d’huile.
+La compression reste vive, et vous affinerez à la sensation en roulant.
 
-![Huile pour Suspensions FOX RACING SHOX GOLD 20 WT (946 ml)](../images/posts/17b3c-0awqo5thxnz5oesdo.jpg)
+Une compression forte ralentit la suspension sur les gros chocs et l’aide à les encaisser. Trop lente, elle oblige le pilote à absorber les gros chocs avec son corps, et le VTT devient moins stable à haute vitesse.
 
-*Huile pour Suspensions FOX RACING SHOX GOLD 20 WT (946 ml)*
+## Le blocage {#blocage}
 
-<hr />
+Le blocage de compression est apprécié en montée et sur les portions roulantes. Il ralentit ou empêche la circulation de l’huile dans la chambre. Par sécurité, il se libère sur un gros choc pour ne pas endommager la suspension.
 
-## 4/ La détente de la suspension {#detente}
+### Le blocage ne fonctionne plus
 
-A l’inverse de la compression, la détente correspond à la souplesse de la suspension lors de son retour en position. Toucher le réglage de la compression induit de toucher le réglage de la détente.
+Deux causes possibles :
 
-Un mauvais réglage de la détente peut avoir de lourdes conséquences pour le pilote et/ou sa monture. Une détente trop dur entraine des pertes d’adhérence. Une détente trop mol augmente le risque de talonné, donc d’abimer la fourche sur des chocs répétitifs durant lesquelles une fourche n’aurait pas le temps de revenir à sa position initiale.
+- **le câble** : si la fourche ou l’amortisseur se bloque avec une commande au guidon, le câble est peut-être à retendre ;
+- **l’huile** : la fourche ou l’amortisseur en manque. Vérifiez qu’il n’y a pas de fuite et rajoutez quelques cuillères à café d’huile.
 
-Le fonctionnement: Dans la phase de détente la suspension retourne à son état normal avec un transfert de l’huile depuis la chambre de compression vers sa position initiale en passant par un conduit réglable qui augmente ou diminue la rapidité du transfert d’huile.
+![Huile pour suspensions Fox Racing Shox Gold 20 WT, 946 ml](../images/posts/17b3c-0awqo5thxnz5oesdo.jpg)
 
-### Réglage de la détente de suspension méthode 1 artisanale:
+*Huile pour suspensions Fox Racing Shox Gold 20 WT, 946 ml*
 
-L’amortisseur: laissez tombez votre vélo, celui-ci ne doit pas rebondir<br />- La fourche: Prenez un trottoir assez haut (environ de la haute de votre débattement) et descendez le sur l’avant, si vous vous sentez projeté par-dessus votre guidon une fois la roue posée, alors diminuez la vitesse de votre rebond.
+## La détente {#detente}
 
-### Réglage de la détente de suspension méthode 2 conseillée:
+La détente, c’est l’inverse de la compression : la vitesse à laquelle la suspension revient en position. Toucher à la compression oblige à revoir la détente.
 
-Pour la fourche et l’amortisseur de votre VTT: Pour régler cette molette rouge, positionnez là en là tournant au max vers le “-”, puis conté les crans en la tournant au max jusqu’au “+” et revenez de 1/3 vers le “-” (ex: du “-” au “+”, 12 crans pour arriver au max “+”, revenir de 4 crans vers le “-”. Vous garderez ainsi une détente dynamique avec votre fourche et/ou amortisseur et pourrez affiner le réglage de la suspension à la sensation en roulant.
+En phase de détente, l’huile repasse de la chambre de compression à sa position de départ par un conduit réglable, qui accélère ou ralentit son passage.
 
-<hr />
+Un mauvais réglage a de lourdes conséquences pour le pilote comme pour le vélo :
 
-## 5/ Le débattement variable {#debattement}
+- **une détente trop rapide** fait perdre de l’adhérence ;
+- **une détente trop lente** augmente le risque de talonner : sur des chocs répétés, la fourche n’a pas le temps de revenir en position, et elle s’abîme.
 
-L’objectif est de faire correspondre l’assiette du vélo à la nature de la pente et d’adapter la fourche à la géométrie du vélo. Très apprécié dans les montés de pentes abruptes. Les fonctions de bases proposes 3 à 5 positions quand d’autres en propose une multitude.
+### La méthode conseillée
 
-<hr />
+Pour la fourche comme pour l’amortisseur, réglez la molette rouge :
 
-## Conclusion
+1. tournez-la à fond vers le « − » ;
+2. tournez-la à fond vers le « + » en comptant les crans ;
+3. revenez d’un tiers des crans vers le « − ». Par exemple, 12 crans du « − » au « + » : revenez de 4 crans.
 
-Malgré le nombre de réglage grandissant sur les fourches et les différents systèmes proposés par les marques, le réglage des suspensions: Fourches et Amortisseurs, reste simple a condition de rester méthodique et suivant la chronologie suivante lors du réglage de la fourche. D’abord régler le SAG de la suspension, ensuite la compression de la suspension (molette bleue) de même que l’ajustement du blocage de la fourche, enfin régler la détente de la suspension. Ne pas oublier d’adapter votre réglage au terrain, vos contraintes de pilotage et enfin aux températures extérieurs.
+La détente reste vive, et vous affinerez à la sensation en roulant.
 
-Ainsi le fonctionnement des suspensions de votre VTT: Fourche et Amortisseur, n’ont plus de secret pour vous, mais pour aller plus loin en images voici quelques vidéos réalisées par nos confrères Anglo-saxons reprenant les différents éléments et réglages de l’article.
+### La méthode sans outil
+
+- **L’amortisseur** : laissez tomber votre vélo, il ne doit pas rebondir.
+- **La fourche** : descendez un trottoir assez haut, à peu près de la hauteur de votre débattement. Si vous vous sentez projeté par-dessus le guidon une fois la roue posée, ralentissez la détente.
+
+## Le débattement variable {#debattement}
+
+Il fait correspondre l’assiette du vélo à la pente et adapte la fourche à la géométrie du vélo. Très apprécié dans les montées raides. Les modèles de base proposent 3 à 5 positions, d’autres bien davantage.
 
 {% include components/callout-events.html title="Prêt à tester vos réglages ?" text="La page Événements reprend les randos qu'on m'envoie, de quoi valider vos réglages de fourche et d’amortisseur sur de vrais chemins." %}
 
-<hr />
+## Ma sélection de fourches et amortisseurs
 
-## Ma sélection de fourches et amortisseurs:
+![Fourche Fox Racing Shox 32 Float SC Factory Fit4 27,5 pouces, 100 mm, axe Kabolt 15 mm Boost, noire, 2017](../images/posts/66a09-0noa0olg9r-f9pkec.jpg)
 
-![Fourche FOX RACING SHOX 32 SC FLOAT FACTORY 27,5 100 mm FIT4 Pivot Conique Axe Kabolt 15 mm Boost Noir 2017](../images/posts/66a09-0noa0olg9r-f9pkec.jpg)
+*Fourche Fox Racing Shox 32 Float SC Factory Fit4 27,5 pouces, Kabolt, Boost 15 × 110 mm, noire*
 
-*Fourche FOX RACING SHOX 32 FLOAT SC FACTORY FIT4 27.5´´ Kabolt | Boost 15x110mm | Noir*
+![Fourche RockShox Pike RCT3 27,5 pouces, 160/130 mm, Dual Position Air, pivot conique, axe 15 mm, noire, 2017](../images/posts/cd839-0i54iojtdqawv4hhd.jpg)
 
-![Fourche ROCKSHOX PIKE RCT3 27,5 160/130 mm Dual Position Air Pivot Conique Axe 15 mm Noir 2017](../images/posts/cd839-0i54iojtdqawv4hhd.jpg)
+*Fourche RockShox Pike RCT3 27,5 pouces, 160/130 mm, Dual Position Air, pivot conique, axe 15 mm, noire*
 
-*Fourche ROCKSHOX PIKE RCT3 27,5" 160/130 mm Dual Position Air Pivot Conique Axe 15 mm Noir*
+![Amortisseur Fox Racing Shox Float DPS Factory SV, 2017](../images/posts/3123e-00jzvgtbazkfyrjn6.jpg)
 
-![Amortisseur FOX RACING SHOX FLOAT DPS FACTORY SV 2017](../images/posts/3123e-00jzvgtbazkfyrjn6.jpg)
-
-*Amortisseur FOX RACING SHOX FLOAT DPS FACTORY SV*
+*Amortisseur Fox Racing Shox Float DPS Factory SV*
