@@ -1,7 +1,7 @@
 ---
 category: guide
 title: "Checklist - L'équipement indispensable à avoir dans son sac à dos de VTT"
-description: "Une randonnée VTT ou de l'enduro, ça demande de la préparation et de l'équipement. Voici la liste des affaires indispensable à avoir dans votre sac dos."
+description: "Une randonnée VTT ou de l'enduro, ça demande de la préparation et de l'équipement. Voici la liste des affaires indispensables à avoir dans ton sac à dos."
 tags:
   - vtt
   - outdoor
@@ -10,15 +10,15 @@ tags:
   - randonnée
 image: /images/posts/jervol.jpg
 events_callout:
-  title: "Vous préparez une rando VTT ?"
-  text: "La page Événements reprend les randos qu'on m'envoie : dates, lieux et liens. Un bon terrain pour tester votre sac."
+  title: "Tu prépares une rando VTT ?"
+  text: "La page Événements reprend les randos qu'on m'envoie : dates, lieux et liens. Un bon terrain pour tester ton sac."
 ---
 
-<em>L’un des plus grands plaisir du VTT est de partir la journée, toujours plus loin, toujours plus vite dans les bois où vous ne pouvez aller lorsque vous êtes à pied. Cela signifie aussi que lorsqu’il vous arrive quelque chose, comme une blessure, un problème mécanique, il vous sera compliqué de compter sur quelqu’un d’autre que sur vous-même.</em>
+<em>L’un des plus grands plaisir du VTT est de partir la journée, toujours plus loin, toujours plus vite dans les bois où tu ne peux aller lorsque tu es à pied. Cela signifie aussi que lorsqu’il t’arrive quelque chose, comme une blessure, un problème mécanique, il te sera compliqué de compter sur quelqu’un d’autre que sur toi-même.</em>
 
 ## Au programme :
 
-1. [Les 20 éléments indispensables à avoir dans votre sac de Rando / Enduro VTT](#preambule)
+1. [Les 20 éléments indispensables à avoir dans ton sac de Rando / Enduro VTT](#preambule)
 2. [Chambre à air de rechange ](#chambre-air)
 3. [Kit de rustines](#rustines)
 4. [Pompe à mains](#pompes)
@@ -40,22 +40,22 @@ events_callout:
 20. [Argent](#argent)
 21. [Un éclairage compact](#eclairage)
 
-## Les 20 éléments indispensables à avoir dans votre sac de Rando / Enduro VTT {#preambule}
+## Les 20 éléments indispensables à avoir dans ton sac de Rando / Enduro VTT {#preambule}
 
-Avec les jours qui se rallongent viennent les longues sorties. Et si, comme moi, vous aimez passer votre journée dans les chemins, vous vous devez de prévoir d’emporter avec vous un minimum de sécurité.
+Avec les jours qui se rallongent viennent les longues sorties. Et si, comme moi, tu aimes passer ta journée dans les chemins, tu te dois de prévoir d’emporter avec toi un minimum de sécurité.
 
-En plus de nutrition, d’hydratation et d’identification. Voici 20 objets que vous devez emporter avec vous lors de vos sorties VTT en Backcountry. Nos sacs ont du volumes, alors exploitons le pour optimiser le confort de nos sorties VTT, nous allons voir ici ce que nous devons mettre dans notre sac pour les grandes randos, les raids, l’enduro, …
+En plus de nutrition, d’hydratation et d’identification. Voici 20 objets que tu dois emporter avec toi lors de tes sorties VTT en Backcountry. Nos sacs ont du volumes, alors exploitons le pour optimiser le confort de nos sorties VTT, nous allons voir ici ce que nous devons mettre dans notre sac pour les grandes randos, les raids, l’enduro, …
 
-Comme beaucoup d’outils, ces objets sont très utiles si vous savez les utiliser. Il est toujours mieux de rouler en groupe. Si vous vous aventurez seul profondément dans les bois, assurez-vous de connaitre les basics de la survie et des premiers secours et de connaitre quelques bases mécaniques:
+Comme beaucoup d’outils, ces objets sont très utiles si tu sais les utiliser. Il est toujours mieux de rouler en groupe. Si tu t’aventures seul profondément dans les bois, assure-toi de connaître les basics de la survie et des premiers secours et de connaitre quelques bases mécaniques:
 
 - Installer une chambre à air
 - Réparer une chambre à air
-- Lubrifier votre chaine
+- Lubrifier ta chaîne
 - Réparer une chaine cassée
 - Redresser un disc
 - Réparer ou remplacer un rayon cassé
-- Régler votre dérailleur avant
-- Régler ou ajuster votre dérailleur arrière
+- Régler ton dérailleur avant
+- Régler ou ajuster ton dérailleur arrière
 
 ## 1/ Chambre à air de rechange (x2) {#chambre-air}
 
@@ -63,35 +63,35 @@ Comme beaucoup d’outils, ces objets sont très utiles si vous savez les utilis
 
 En rando VTT il faut prévoir 2 chambres à air
 
-Prévoir deux chambres à air dans votre sac est essentiel pour les longues sorties VTT.
+Prévoir deux chambres à air dans ton sac est essentiel pour les longues sorties VTT.
 
-Le double crevaison ça arrive! Habituellement une fraction de seconde après avoir crié à vos compagnons de route “Hé! Regardez ça!” en parlant d’une descente à grande vitesse à travers les rocailles et des sauts sont connus pour pincer les chambres à air de votre VTT.
+Le double crevaison ça arrive! Habituellement une fraction de seconde après avoir crié à tes compagnons de route “Hé! Regardez ça!” en parlant d’une descente à grande vitesse à travers les rocailles et des sauts sont connus pour pincer les chambres à air de ton VTT.
 
-Quand je roule avec un groupe, je ne prend que la taille et le modèle de chambre à air adapté à mon VTT (2 dans le sac c’est déjà pas mal en place et en poids!). Alors que mes collègues peuvent avoir des VTT en 26", 650B, 29" en valve presta ou shrader, il est de plus en plus compliqué de compter sur l’aide d’autrui pour une chambre. Il ne vous restera en option plus qu’à mettre une/des rustines en espérant que cela correspond à votre crevaison.
+Quand je roule avec un groupe, je ne prend que la taille et le modèle de chambre à air adapté à mon VTT (2 dans le sac c’est déjà pas mal en place et en poids!). Alors que mes collègues peuvent avoir des VTT en 26", 650B, 29" en valve presta ou shrader, il est de plus en plus compliqué de compter sur l’aide d’autrui pour une chambre. Il ne te restera en option plus qu’à mettre une/des rustines en espérant que cela correspond à ta crevaison.
 
 ## 2/ Kit de rustines {#rustines}
 
-![La rustine l'indispensable dans votre sac VTT](../images/posts/34d26-0bqsphfozyyeawghj.jpg)
+![La rustine l'indispensable dans ton sac VTT](../images/posts/34d26-0bqsphfozyyeawghj.jpg)
 
-La rustine l’indispensable dans votre sac VTT
+La rustine l’indispensable dans ton sac VTT
 
-Les Kits de rustines prennent très peu de place dans votre sac à dos et sont une nécessité lorsque vous avez utilisé votre dernière chambre à air. Les rustines sans colle ci-dessus (montré ici) sont beaucoup plus rapides à appliquer, mais n’ont pas la longévité des rustines traditionnel à colle. L’avantage est que pris au dépourvu lors d’une rando votre crevaison sera réparée bien plus rapidement qu’avec sa grande soeur.
+Les Kits de rustines prennent très peu de place dans ton sac à dos et sont une nécessité lorsque tu as utilisé ta dernière chambre à air. Les rustines sans colle ci-dessus (montré ici) sont beaucoup plus rapides à appliquer, mais n’ont pas la longévité des rustines traditionnel à colle. L’avantage est que pris au dépourvu lors d’une rando ta crevaison sera réparée bien plus rapidement qu’avec sa grande soeur.
 
 ## 3/ Pompe à mains {#pompes}
 
-![la pompe à main est le must-have de votre sac à dos](../images/posts/bb4ea-0ucoznme43gawniof.jpg)
+![la pompe à main est le must-have de ton sac à dos](../images/posts/bb4ea-0ucoznme43gawniof.jpg)
 
-La pompe à main est le must-have de votre sac à dos
+La pompe à main est le must-have de ton sac à dos
 
-Les deux premiers éléments sont assez inutiles sans une pompe. Une pompe ou une cartouche CO2, dans votre sac à dos de VTT, vous permettra de finaliser la réparation de votre crevaison, une mini-pompe fonctionnera à chaque fois!
+Les deux premiers éléments sont assez inutiles sans une pompe. Une pompe ou une cartouche CO2, dans ton sac à dos de VTT, te permettra de finaliser la réparation de ta crevaison, une mini-pompe fonctionnera à chaque fois!
 
 ## 4/ Multi-outils {#outils}
 
-![Un multi-outils dans votre sac peut s'avérer très utile!](../images/posts/17f3a-01qsbayq4zflp7vy4.jpg)
+![Un multi-outils dans ton sac peut s'avérer très utile!](../images/posts/17f3a-01qsbayq4zflp7vy4.jpg)
 
-Un multi-outils dans votre sac peut s’avérer très utile!
+Un multi-outils dans ton sac peut s’avérer très utile!
 
-Ne jamais quitter la maison sans un bon multi-outil. J’opte toujours pour un multi-outil avec un dérive-chaîne, un T25 Torx, une tête plate et un tournevis Philips, et au moins 2,5 3,4,5,6 et 8 mm clés Allen. Si vous avez un multi-outils qui a une paire de pinces et cisailles, c’est encore mieux.
+Ne jamais quitter la maison sans un bon multi-outil. J’opte toujours pour un multi-outil avec un dérive-chaîne, un T25 Torx, une tête plate et un tournevis Philips, et au moins 2,5 3,4,5,6 et 8 mm clés Allen. Si tu as un multi-outils qui a une paire de pinces et cisailles, c’est encore mieux.
 
 ## 5/ Démontes pneus (x2) {#demontes-pneus}
 
@@ -99,7 +99,7 @@ Ne jamais quitter la maison sans un bon multi-outil. J’opte toujours pour un m
 
 démontes pneus
 
-Alors que de nombreux multi-outils ont un démonte-pneu intégré, ils ne sont généralement pas aussi utile, ni aussi bien construit, comme des leviers autonomes. Alors emportez les dans votre sac à dos de VTT, ils sauront être utiles!
+Alors que de nombreux multi-outils ont un démonte-pneu intégré, ils ne sont généralement pas aussi utile, ni aussi bien construit, comme des leviers autonomes. Alors emporte-les dans ton sac à dos de VTT, ils sauront être utiles!
 
 ## 6/ Pompe à fourche {#pompe-suspension}
 
@@ -107,7 +107,7 @@ Alors que de nombreux multi-outils ont un démonte-pneu intégré, ils ne sont g
 
 pompe pour fourche et amortisseur
 
-Les amortisseurs à air modernes sont assez fiables, mais c’est toujours une bonne idée d’avoir dans son sac une pompe a fouche/amortisseur dans le cas où vous avez une fuite lente ou (plus probablement) si vous trouvez que vous avez besoin d’affiner votre suspension au cours de votre balade.
+Les amortisseurs à air modernes sont assez fiables, mais c’est toujours une bonne idée d’avoir dans son sac une pompe a fouche/amortisseur dans le cas où tu as une fuite lente ou (plus probablement) si tu trouves que tu as besoin d’affiner ta suspension au cours de ta balade.
 
 ## 7/ Lubrifiant chaine {#lubrifiant}
 
@@ -115,7 +115,7 @@ Les amortisseurs à air modernes sont assez fiables, mais c’est toujours une b
 
 lubrifiant pour chaine
 
-Si vous êtes susceptible de rencontrer de multiples traversées de cours d’eau, des conditions de piste poussiéreuse, ou une probabilité d’averses sur votre tour une petite bouteille de lubrifiant chaîne peut-être utils. Astuce: utiliser une bande de caoutchouc pour l’envelopper ou un chiffon pour entourer la bouteille — Utilisez-le pour nettoyer la saleté de la chaîne avant d’appliquer le lubrifiant, et essuyer l’excès de lubrifiant après l’application.
+Si tu es susceptible de rencontrer de multiples traversées de cours d’eau, des conditions de piste poussiéreuse, ou une probabilité d’averses sur ton tour une petite bouteille de lubrifiant chaîne peut-être utils. Astuce: utiliser une bande de caoutchouc pour l’envelopper ou un chiffon pour entourer la bouteille — Utilise-le pour nettoyer la saleté de la chaîne avant d’appliquer le lubrifiant, et essuyer l’excès de lubrifiant après l’application.
 
 ## 8/ Baume à lèvres {#baume}
 
@@ -123,7 +123,7 @@ Si vous êtes susceptible de rencontrer de multiples traversées de cours d’ea
 
 baume à lèvres
 
-Garder un bâton de baume à lèvres (de préférence avec un indice SPF) dans votre sac à dos est une bonne idée lorsque vous roulez dans des environnements secs.
+Garder un bâton de baume à lèvres (de préférence avec un indice SPF) dans ton sac à dos est une bonne idée lorsque tu roules dans des environnements secs.
 
 ## 9/ Crème solaire {#creme}
 
@@ -131,7 +131,7 @@ Garder un bâton de baume à lèvres (de préférence avec un indice SPF) dans v
 
 Crème solaire pour vélo
 
-Nous profitons de faire de longues sorties au soleil l’été, ce signifie également une plus grande exposition aux UVs qui sont cancérigènes. Emportez une petite bouteille d’écran solaire (FPS 30 ou plus) et ré-appliquer si nécessaire.
+Nous profitons de faire de longues sorties au soleil l’été, ce signifie également une plus grande exposition aux UVs qui sont cancérigènes. Emporte une petite bouteille d’écran solaire (FPS 30 ou plus) et réapplique-la si nécessaire.
 
 ## 10/ Téléphone {#telephone}
 
@@ -139,7 +139,7 @@ Nous profitons de faire de longues sorties au soleil l’été, ce signifie éga
 
 Téléphone pour les appels d’urgences
 
-Le téléphone et notamment les smartphones peuvent faire un certain nombre de choses utiles, mais le plus important reste de téléphoner à la maison en cas d’urgence. Soyez sûr d’avoir un N° “cas d’urgence” de programmé dans le carnet d’adresses de votre téléphone.
+Le téléphone et notamment les smartphones peuvent faire un certain nombre de choses utiles, mais le plus important reste de téléphoner à la maison en cas d’urgence. Sois sûr d’avoir un N° “cas d’urgence” de programmé dans le carnet d’adresses de ton téléphone.
 
 ## 11/ Veste de pluie ultra-light {#veste}
 
@@ -147,7 +147,7 @@ Le téléphone et notamment les smartphones peuvent faire un certain nombre de c
 
 veste de pluie compactable
 
-Le temps est imprévisible. Une veste compactable et imperméable vous gardera au sec et au chaud, si vous rencontrez une averse soudaine.
+Le temps est imprévisible. Une veste compactable et imperméable te gardera au sec et au chaud, si tu rencontres une averse soudaine.
 
 ## 12/ Kit de premiers secours {#kit-secours}
 
@@ -155,15 +155,15 @@ Le temps est imprévisible. Une veste compactable et imperméable vous gardera a
 
 Kit de premiers secours
 
-Une petite trousse de premiers soins dans un emballage étanche à l’eau est un must. Bandages, des gazes, lingettes désinfectantes, et des pinces sont tous des éléments à inclure dans votre trousse. Comme les outils de cette liste, une trousse de premiers soins n’est utile que si vous savez comment l’utiliser — une compréhension de base des premiers soins peut être utile.
+Une petite trousse de premiers soins dans un emballage étanche à l’eau est un must. Bandages, des gazes, lingettes désinfectantes, et des pinces sont tous des éléments à inclure dans ta trousse. Comme les outils de cette liste, une trousse de premiers soins n’est utile que si tu sais comment l’utiliser — une compréhension de base des premiers soins peut être utile.
 
 ## 13/ Patte de dérailleur {#patte-derailleur}
 
 ![Patte de Derailleur](../images/posts/5c569-0el_cgjfusuobaj_y.jpg)
 
-Patte de Derailleur du modèle de votre VTT
+Patte de Derailleur du modèle de ton VTT
 
-Une patte de dérailleur tordue ou cassée peut signifier la fin de votre sortie (ou une conversion singlespeed impromptu) Pour résoudre des problèmes de patte de dérailleur, une patte adaptée à votre cadre est une bonne option de sûreté, à avoir d’urgence dans son sac de rando.
+Une patte de dérailleur tordue ou cassée peut signifier la fin de ta sortie (ou une conversion singlespeed impromptu) Pour résoudre des problèmes de patte de dérailleur, une patte adaptée à ton cadre est une bonne option de sûreté, à avoir d’urgence dans son sac de rando.
 
 ## 14/ Maillons de chaine supplémentaires avec maillon rapide {#maillon}
 
@@ -171,15 +171,15 @@ Une patte de dérailleur tordue ou cassée peut signifier la fin de votre sortie
 
 Maillons de chaines supplémentaires
 
-Garder quelques maillons de chaîne, avec une maille rapide, dans votre sac vous permettra de remplacer une maille tordues ou cassées et de repartir avec votre VTT.
+Garder quelques maillons de chaîne, avec une maille rapide, dans ton sac te permettra de remplacer une maille tordue ou cassée et de repartir avec ton VTT.
 
 ## 15/ Vis de plateaux {#vis}
 
 ![vss plateau VTT](../images/posts/aa63b-0-dz2zmeaehykkzsm.jpg)
 
-vis plateau pour votre VTT
+vis plateau pour ton VTT
 
-Les vis de plateau parfois cisailler ou secouer lâche. Garder une pièce de rechange dans votre sac vous permettra de continuer en gardant toutes vos bagues intactes.
+Les vis de plateau parfois cisailler ou secouer lâche. Garder une pièce de rechange dans ton sac te permettra de continuer en gardant toutes tes bagues intactes.
 
 ## 16/ Cales de rechanges et plaque de fixation {#cales}
 
@@ -187,7 +187,7 @@ Les vis de plateau parfois cisailler ou secouer lâche. Garder une pièce de rec
 
 Cales VTT de rechanges
 
-Il arrive, rarement, mais quand ça le fait c’est un calvaire qui commence, et nous sommes contraint de pédaler tel un unijambiste. Gardez un sachet avec les vis, la cale et la plaque (la partie qui va dans votre chaussure) dans votre sac. De cette façon, vous avez toutes les trois parties, si vous en avez besoin. Astuce: Gardez la cale boulonnée à la plaque arrière de sorte à ce que vous ne perdez pas l’un des éléments.
+Il arrive, rarement, mais quand ça le fait c’est un calvaire qui commence, et nous sommes contraint de pédaler tel un unijambiste. Garde un sachet avec les vis, la cale et la plaque (la partie qui va dans ta chaussure) dans ton sac. De cette façon, tu as toutes les trois parties, si tu en as besoin. Astuce: Garde la cale boulonnée à la plaque arrière de sorte à ce que tu ne perdes pas l’un des éléments.
 
 ## 17/ Rislans {#rislans}
 
@@ -195,7 +195,7 @@ Il arrive, rarement, mais quand ça le fait c’est un calvaire qui commence, et
 
 rislans
 
-Les rislans sont utiles dans beaucoup de situations. Ils peuvent être utilisés pour attacher un câble errant, remplacer un boulon de plateau cassée ou manquant, et de garder vos chaussures serré en cas de rupture de la boucle.
+Les rislans sont utiles dans beaucoup de situations. Ils peuvent être utilisés pour attacher un câble errant, remplacer un boulon de plateau cassée ou manquant, et de garder tes chaussures serrées en cas de rupture de la boucle.
 
 ## 18/ Rayon + Tête de rayon {#rayon}
 
@@ -203,7 +203,7 @@ Les rislans sont utiles dans beaucoup de situations. Ils peuvent être utilisés
 
 Rayon + Tête de rayon
 
-Gardez un rayon de rechange et sa tête de rayon sous la main au cas où dans votre sac.
+Garde un rayon de rechange et sa tête de rayon sous la main au cas où dans ton sac.
 
 ## 19/ Argent {#argent}
 
@@ -219,4 +219,4 @@ Avoir quelques euros dans le fond de son sac, en plus d’être utile pour se pr
 
 Eclairage vélo + Frontale
 
-S’il y a une chance que vous ne serez pas à la maison avant la nuit, une petite lumière, juste assez lumineux pour éclairer votre chemin, vous mènera en toute sécurité à la maison.
+S’il y a une chance que tu ne sois pas à la maison avant la nuit, une petite lumière, juste assez lumineuse pour éclairer ton chemin, te mènera en toute sécurité à la maison.
