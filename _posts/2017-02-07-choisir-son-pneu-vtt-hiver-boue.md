@@ -10,7 +10,7 @@ tags:
 image: /images/posts/d6a09-0klmuoxlc_xyukmmx.jpg
 ---
 
-<em>Changement d’heure, changement de temps, changement de pneus… c’est la dure réalité des VTTistes quand l’hiver arrive, quand les chemins deviennent boueux, n’évacuent plus l’eau et que les feuilles tombent, votre pilotage change, plus en glisse. Mais combien d’entre vous gardent les mêmes pneus sur leur VTT l’hiver que l’été? A tord… l’adhérence est un gage de sécurité que l’on soit un pilote engagé ou simple randonneur.</em>
+<em>Changement d’heure, changement de temps, changement de pneus… c’est la dure réalité des VTTistes quand l’hiver arrive, quand les chemins deviennent boueux, n’évacuent plus l’eau et que les feuilles tombent, ton pilotage change, plus en glisse. Mais toi, gardes-tu les mêmes pneus sur ton VTT l’hiver que l’été ? A tord… l’adhérence est un gage de sécurité que l’on soit un pilote engagé ou simple randonneur.</em>
 
 ## Au programme :
 
@@ -18,7 +18,7 @@ image: /images/posts/d6a09-0klmuoxlc_xyukmmx.jpg
 2. [La table des duretés de gomme des pneus :](#durete)
 3. [Faut-il choisir un pneu de VTT Tubeless ?](#tubeless)
 4. [Comment bien choisir ses crampons pour avoir de la d'adhérence dans la boue en VTT ?](#crampons)
-5. [XC, Enduro, DH, ... Quels caractéristiques priviliégier pour vos pneus VTT d'hiver ](#discipline)
+5. [XC, Enduro, DH, ... Quelles caractéristiques privilégier pour tes pneus VTT d'hiver ](#discipline)
 6. [Les meilleurs pneus VTT d'hiver pour vaincre la boue](#best-of)
 
 <hr />
@@ -33,19 +33,19 @@ Un pneu de VTT est composé de ces éléments:
 - sa carcasse
 - une bande de roulement
 
-Les tringles d’un pneu de VTT détermineront le diamètre de votre pneu et assurera sa tenue sur la jante.
+Les tringles d’un pneu de VTT détermineront le diamètre de ton pneu et assurera sa tenue sur la jante.
 
-La carcasse d’un pneu de VTT varie de 24 à 120 tpi en moyenne, cette valeur représentera la densité du tissu de votre pneu et sa qualité, un pneu a 60 TPI, avec sa densité moyenne permet d’avoir une épaisseur de fibre puissante avec un tissage serré sera un pneu plus résistant.
+La carcasse d’un pneu de VTT varie de 24 à 120 tpi en moyenne, cette valeur représentera la densité du tissu de ton pneu et sa qualité, un pneu a 60 TPI, avec sa densité moyenne permet d’avoir une épaisseur de fibre puissante avec un tissage serré sera un pneu plus résistant.
 
 La bande de roulement d’un pneu de VTT peut-être crantée, lisse, rainurée.
 
-Généralement votre pneu aura un sens de rotation, une indication présente sur le flanc, un élément essentiel au bon usage de pneumatique et au respect de son efficacité.
+Généralement, ton pneu aura un sens de rotation, une indication présente sur le flanc, un élément essentiel au bon usage de pneumatique et au respect de son efficacité.
 
-De même, sur le flanc vous retrouverez une indication des pressions minimum et maximum recommander, très important pour votre sécurité ce paramètre vous évitera de déjanter ou encore d’abimer vos jantes…
+De même, sur le flanc tu retrouveras une indication des pressions minimum et maximum recommandées, très important pour ta sécurité : ce paramètre t'évitera de déjanter ou encore d’abîmer tes jantes…
 
 <aside class="c-card c-card--flat c-card--small" role="note">
   <p>
-  Certaines marque de pneus, comme Maxxis, affichent fièrement dans leurs noms de modèles une “référence” supplémentaire avec une unité représentée par un “a” qui correspond au Shore A, un indice de dureté de la gomme qui compose un pneu. Cette information aura une incidence sur l’adhérence et le confort de votre pneu.</p>
+  Certaines marque de pneus, comme Maxxis, affichent fièrement dans leurs noms de modèles une “référence” supplémentaire avec une unité représentée par un “a” qui correspond au Shore A, un indice de dureté de la gomme qui compose un pneu. Cette information aura une incidence sur l’adhérence et le confort de ton pneu.</p>
 </aside>
 <hr />
 
@@ -60,29 +60,29 @@ De même, sur le flanc vous retrouverez une indication des pressions minimum et 
 
 ## 3/ Faut-il choisir un pneu de VTT Tubeless ? {#tubeless}
 
-Le pneu tubetype sera un pneu utilisé avec des chambres à air et seulement avec des chambres à air, car c’est celle-ci qui lui permet au pneu de tenir en place une fois mise sous pression. Pour pouvoir préserver votre chambre à air des perçages de la jantes et de la tête de rayon et vous évite les crevaisons, il est important de vérifier régulièrement l’état du fond de jante qui peut s’entailler avec le temps, perdre de son efficacité et causer des crevaisons en cisaillant la chambre à air, les autres causes de crevaisons sont: la perforation par un objet, le pincement et les coupures et déchirures. Une chambre air latex ou avec du préventif injecté au préalable à l’intérieur à l’intérieur de celle-ci vous permettra de diminuer les crevaisons.
+Le pneu tubetype sera un pneu utilisé avec des chambres à air et seulement avec des chambres à air, car c’est celle-ci qui lui permet au pneu de tenir en place une fois mise sous pression. Pour préserver ta chambre à air des perçages de la jante et de la tête de rayon et t'éviter les crevaisons, il est important de vérifier régulièrement l’état du fond de jante qui peut s’entailler avec le temps, perdre de son efficacité et causer des crevaisons en cisaillant la chambre à air, les autres causes de crevaisons sont: la perforation par un objet, le pincement et les coupures et déchirures. Une chambre air latex ou avec du préventif injecté au préalable à l’intérieur à l’intérieur de celle-ci te permettra de diminuer les crevaisons.
 
 ![Conversion Tubeless](../images/posts/400bd-0ombzoecns3glpn7a.jpg)
 
 *Conversion Tubeless*
 
-Le pneu tubeless ou tubeless ready (converti) vous permettra à l’inverse de rouler sans chambre à air. Pour ce faire, trois conditions doivent être rassemblées: avoir une jante tubeless (qu’elle n’est pas de perforation pour les têtes de rayon est un repère), ou mettre un kit de conversion tubeless, monter des pneus tubeless ou tubeless ready qui ont une carcasse renforcée (plus lourde) avec une gomme à base de latex pour garantir l’étanchéité à l’air et dans lequel vous mettrez sous forme de préventif un liquide lui aussi à base de latex dans le pneu lors du montage.
+Le pneu tubeless ou tubeless ready (converti) te permettra à l’inverse de rouler sans chambre à air. Pour ce faire, trois conditions doivent être rassemblées: avoir une jante tubeless (qu’elle n’est pas de perforation pour les têtes de rayon est un repère), ou mettre un kit de conversion tubeless, monter des pneus tubeless ou tubeless ready qui ont une carcasse renforcée (plus lourde) avec une gomme à base de latex pour garantir l’étanchéité à l’air et dans lequel tu mettras sous forme de préventif un liquide lui aussi à base de latex dans le pneu lors du montage.
 
-Rouler en pneu tubeless vous permettra de gonfler moins vos pneus et ainsi de gagner en rendement et en adhérence. De diminuer les risques de crevaison, grâce au liquide préventif présent à l’intérieur, sur perforation du pneu et de ne plus risquer de pincer la chambre à air sur une racine. Seul risque reste de déchirer les flancs sur une roche (c’est pourquoi en DH le tubeless est peu répandu en VTT) ou de déjanter lorsque la pression est trop basse et que la tringle est trop sollicitée.
+Rouler en pneu tubeless te permettra de gonfler moins tes pneus et ainsi de gagner en rendement et en adhérence. De diminuer les risques de crevaison, grâce au liquide préventif présent à l’intérieur, sur perforation du pneu et de ne plus risquer de pincer la chambre à air sur une racine. Seul risque reste de déchirer les flancs sur une roche (c’est pourquoi en DH le tubeless est peu répandu en VTT) ou de déjanter lorsque la pression est trop basse et que la tringle est trop sollicitée.
 
 <hr />
 
 ## 4/ Comment bien choisir ses crampons pour avoir de la d'adhérence dans la boue en VTT ? {#crampons}
 
-Il faut commencer par dire que chaque fabriquant met à disposition un référentiel de l’usage et du terrain pour les différents pneus qui composent leurs gammes, certains d’entre ont même un usage très limités, alors renseignez-vous bien sur le bon usage du pneu que vous choisissez en fonction:
+Il faut commencer par dire que chaque fabriquant met à disposition un référentiel de l’usage et du terrain pour les différents pneus qui composent leurs gammes, certains d’entre ont même un usage très limités, alors renseigne-toi bien sur le bon usage du pneu que tu choisis en fonction:
 
 - du terrain: terre, roche, sable, neige, asphalte
-- de votre pratique: XC, enduro, DH, 
-- de votre taille de roues: les bons pneus en 26 ne sont pas forcément aussi réputés en 29" et 27,5"
+- de ta pratique : XC, enduro, DH, 
+- de ta taille de roues : les bons pneus en 26 ne sont pas forcément aussi réputés en 29" et 27,5"
 
 <hr />
 
-## 5/ XC, Enduro, DH, ... Quels caractéristiques priviliégier pour vos pneus VTT d'hiver : {#discipline}
+## 5/ XC, Enduro, DH, ... Quelles caractéristiques privilégier pour tes pneus VTT d'hiver : {#discipline}
 
 ### Pneu VTT de randonné et d’XC pour terrain gras l’hiver et la boue:
 
@@ -100,9 +100,9 @@ les + : L’accroche latérale sécurisante dans la boue, la motricité sur les
 Les - : un peu lourd à trainer sur la route et terrain sec</p>
 </aside>
 
-Variante possible pour plus de rendement avec votre VTT: Hutchinson cougar 2.00 ou Schwalbe fat albert monté à l’arrière pour allier rendement et grip ou maxxis ignitor avant et arriére 2.10.
+Variante possible pour plus de rendement avec ton VTT : Hutchinson cougar 2.00 ou Schwalbe fat albert monté à l’arrière pour allier rendement et grip ou maxxis ignitor avant et arriére 2.10.
 
-Variante possible pour plus d’accroche avec votre VTT: si le pneu est moins large, 1.80 par exemple et bien il y a une meilleure force d’accroche, il ira chercher le dur sous la boue comme l’on dit. Un toro avant en 2.15 et un toro arrière en 1.85 ou un maxxis medusa 1.80, le pneu VTT boue par excellence.
+Variante possible pour plus d’accroche avec ton VTT : si le pneu est moins large, 1.80 par exemple et bien il y a une meilleure force d’accroche, il ira chercher le dur sous la boue comme l’on dit. Un toro avant en 2.15 et un toro arrière en 1.85 ou un maxxis medusa 1.80, le pneu VTT boue par excellence.
 
 ### Pneu VTT d’enduro et d’all mountain pour terrain gras l’hiver et la boue:
 
@@ -110,7 +110,7 @@ Variante possible pour plus d’accroche avec votre VTT: si le pneu est moins la
 
 *Le VTT de Jared Graves monté en Maxxis*
 
-Les pneus qui vous donneront le meilleur rapport rendement/accroche inhérent à la pratique du VTT en montagne l’hiver et dans la boue sont le schwalbe nobby nic avant de 2.25, à l’arriére un Hutchinson 2.15 toro
+Les pneus qui te donneront le meilleur rapport rendement/accroche inhérent à la pratique du VTT en montagne l’hiver et dans la boue sont le schwalbe nobby nic avant de 2.25, à l’arriére un Hutchinson 2.15 toro
 
 <aside class="c-card c-card--flat c-card--small" role="note">
   <p>

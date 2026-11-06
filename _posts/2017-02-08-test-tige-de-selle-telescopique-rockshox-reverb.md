@@ -20,7 +20,7 @@ image: /images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.jpg
 2. [Détails techniques de la Tige de selle ROCKSHOX REVERB II](#details)
 3. [Pose et entretien de la Tige de selle ROCKSHOX REVERB](#pose)
 4. [Test et avis de la Test tige de selle télescopique Rockshox Reverb](#test)
-5. [Les bons plans pour acheter votre tige de selle Rockshox Reverb](#acheter)
+5. [Les bons plans pour acheter ta tige de selle Rockshox Reverb](#acheter)
 
 ## 1/ Préambule: Pourquoi une tige de selle télescopique? {#preambule}
 
@@ -32,7 +32,7 @@ Beaucoup trop souvent! On tente de mettre des hauteurs de selle plus intermédia
 
 C’est justement pour répondre à ce problème et rendre à César le coté fun et libertaire sur les randonnées des plus physiques et des plus techniques parcourant nos sentiers, que la tige de selle télescopique trouve sa place.
 
-Pour vous présenter les Tiges de Selle télescopiques, je me suis arrêté sur la Rockshox Reverb pour plusieurs raisons:
+Pour te présenter les Tiges de Selle télescopiques, je me suis arrêté sur la Rockshox Reverb pour plusieurs raisons:
 
 - on la retrouve de série sur de nombreux VTT,
 - c’est le choix que 50% d’entre nous finissons par faire quand vient le moment de s’équiper
@@ -53,7 +53,7 @@ Débattement : 125mm<br />Matériau : Alu 7050 forgé 3D, chariot en Alu 7050 
 
 ### Installer la tige de selle ROCKSHOX REVERB et racourcir la durite
 
-Dans cette vidéo découvrez comment installer et raccourcir la durite de votre tige de selle Rockshox Reverb vous même.
+Dans cette vidéo, découvre comment installer et raccourcir la durite de ta tige de selle Rockshox Reverb toi-même.
 
 <iframe title="Vidéo Vimeo" src="https://player.vimeo.com/video/105743742" width="auto" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -61,7 +61,7 @@ Dans cette vidéo découvrez comment installer et raccourcir la durite de votre 
 
 ### Purger une tige de selle ROCKSHOX REVERB:
 
-Dans cette vidéo découvrez comment purger votre tige de selle Rockshox Reverb vous même.
+Dans cette vidéo, découvre comment purger ta tige de selle Rockshox Reverb toi-même.
 
 <iframe title="Rock Shox Reverb Stealth: Installation and bleeding" width="auto" height="315" src="https://www.youtube.com/embed/wlfFJuGFEkE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <hr />
@@ -92,25 +92,25 @@ On a la possibilité de rajouter la bague rockshox fournie avec la Reverb pour d
 
 #### Ergonomie
 
-Lorsque vous achetez votre Reverb posez-vous bien la question du poste de pilotage afin choisir la meilleure option pour vous. Je l’ai choisis en gâchette gauche, privilégiant la main droite pour le passage de vitesse en relance et gros freinage arrière le temps de la baisser avec la main gauche donc.
+Lorsque tu achètes ta Reverb, pose-toi bien la question du poste de pilotage afin de choisir la meilleure option pour toi. Je l’ai choisis en gâchette gauche, privilégiant la main droite pour le passage de vitesse en relance et gros freinage arrière le temps de la baisser avec la main gauche donc.
 
 Cette gâchette prend place de façon ergonomique sur le cintre, avec un design bien fini, résistante aux chutes dans la roche de part sa matière alu.
 
 Son rôle est d’activer le système hydraulique sur le principe d’un bouton poussoir.
 
-Il vous faudra idéalement un emplacement sur votre cadre pour passer la durite qui va jusqu’à la tige de selle pour ne pas abimer votre belle peinture, sinon avec des Rilsans feront l’affaire ou, à tenter, des fixations pour durites auto-collantes!
+Il te faudra idéalement un emplacement sur ton cadre pour passer la durite qui va jusqu’à la tige de selle pour ne pas abîmer ta belle peinture, sinon avec des Rilsans feront l’affaire ou, à tenter, des fixations pour durites auto-collantes!
 
 Un système d’étanchéité permet de garder des sensations souples et régulières sur le fonctionnement de cette tige de selle.
 
 #### Entretien
 
-J’ai apprécié avoir un kit de purge avec ma tige de selle, d’autant que SRAM met à disposition, comme vous avez pu le voir plus haut, des vidéos très bien faites pour permettre de réaliser la purge soit-même, ainsi que le raccourcissement de la durite. Ce sont finalement des opérations d’une simplicité enfantine une fois équipé.
+J’ai apprécié avoir un kit de purge avec ma tige de selle, d’autant que SRAM met à disposition, comme tu as pu le voir plus haut, des vidéos très bien faites pour permettre de réaliser la purge soit-même, ainsi que le raccourcissement de la durite. Ce sont finalement des opérations d’une simplicité enfantine une fois équipé.
 
 Donc, un gros point fort pour la mise en avant de l’autonomie pour l’entretien de sa tige de selle Reverb et de la finition de l’ensemble le qui permet également.
 
 #### Poids
 
-Le poids, la question incontournable, alors oui oubliez les 100 grammes de votre tige de selle carbone, là il s’agira d’un poids moyen a 550 grammes, quelques kilos en plus sur votre VTT, des grammes qu’il vous sera difficile de récupérer ailleurs sur le VTT sauf si vous montez votre Reverb avec un groupe XX1 histoire de virer votre préhistorique groupe XT triple plateaux 600 grammes plus lourds (non non, je ne juge pas j’ai encore un VTT équipé de ce bon vieux groupe XT 2013…)
+Le poids, la question incontournable, alors oui oublie les 100 grammes de ta tige de selle carbone, là il s’agira d’un poids moyen a 550 grammes, quelques kilos en plus sur ton VTT, des grammes qu’il te sera difficile de récupérer ailleurs sur le VTT, sauf si tu montes ta Reverb avec un groupe XX1, histoire de virer ton préhistorique groupe XT triple plateaux 600 grammes plus lourds (non non, je ne juge pas j’ai encore un VTT équipé de ce bon vieux groupe XT 2013…)
 
 #### Prix
 
@@ -118,9 +118,9 @@ Un prix public TTC annoncé à 350€ le rockshox Reverb ne sera pas offerte à 
 
 <hr />
 
-## 5/ Les bons plans pour acheter votre tige de selle Rockshox Reverb {#acheter}
+## 5/ Les bons plans pour acheter ta tige de selle Rockshox Reverb {#acheter}
 
-Découvrez par vous le même le plaisir de rouler sur une tige de selle télescopique ROCKSHOX REVERB et profitez des bonnes adresses suivantes et de leurs prix attractifs:
+Découvre par toi-même le plaisir de rouler sur une tige de selle télescopique ROCKSHOX REVERB et profite des bonnes adresses suivantes et de leurs prix attractifs:
 
 ![Tige de Selle Télescopique ROCKSHOX REVERB](../images/posts/2154b-0on0ct9jh4z8cleqj.jpg)
 

@@ -15,13 +15,13 @@ image: /images/posts/ccs-62657-0-58346000-1479391864.jpg
 1. [Faut-il changer ses pédales plates pour des pédales automatiques?](#preambule)
 2. [Avantages / inconvénients de la pédale plate traditionnelle](#pedales-plates)
 3. [Avantages / inconvénients de la pédale automatique](#pedales-automatiques)
-4. [Connaissez-vous les pédales automatiques “hybrides” ?](#pedales-hybrides)
+4. [Connais-tu les pédales automatiques “hybrides” ?](#pedales-hybrides)
 5. [Conclusion: La pédale automatique c’est pour qui?](#conclusion)
 6. [Notre sélection de pédales VTT](#best-of)
 
 ## 1/ Faut-il changer ses pédales plates pour des pédales automatiques? {#preambule}
 
-A 15 ans ou à 75 ans, lorsque l’on veut progresser en VTT ou que vous souhaitez faire évoluer votre pratique. Dès lors une longue et fastidieuse quête à l’information commence: amis, forum, vendeurs, … tous les avis sont bons pour choisir entre: rester en pédales plates ou avoir la sensation de réapprendre le VTT à cause des pédales automatiques, pendant quelques temps.
+A 15 ans ou à 75 ans, lorsque l’on veut progresser en VTT ou que tu souhaites faire évoluer ta pratique. Dès lors une longue et fastidieuse quête à l’information commence: amis, forum, vendeurs, … tous les avis sont bons pour choisir entre: rester en pédales plates ou avoir la sensation de réapprendre le VTT à cause des pédales automatiques, pendant quelques temps.
 
 Comment choisir entre les pédales plates et les pédales automatiques? Cette question sépare les pratiquants de VTT en deux camps, tous deux bien formalisés avec leur réponse tant elle leur semble évidente, d’un coté les aficionados de la pédale plate et de l’autre ceux de la pédale automatique.
 
@@ -70,11 +70,11 @@ En diminuant le point mort au pédalage, les pédales automatiques augmentent le
 
 Une fois la cale de la pédale bien réglée (au montage), à tout moment, le pied sera bien fixé sur la pédale aura une position optimale pour forcer sur celle-ci, le gain en rendement s’en fera ressentir.
 
-Lors du montage des cales sur les chaussures, vous devez positionner les cales de manière précise, d’abord en réglant correctement le recul, celui-ci doit permettre d’avoir la cale alignée avec votre métatarse (l’articulation du gros orteil), ensuite réglé avec un angle neutre (centré) que vous ferez évoluer au besoin en respectant l’angle que prend votre cheville au pédalage.<br /><em>Attention à bien positionner les cales, car cela peut entrainer des blessures tel que des tendinites, … Dès la première douleur, recommencer le réglage, au besoin consultez un spécialiste et faites-vous aider par votre mécano pour le réglage des cales !</em>
+Lors du montage des cales sur les chaussures, tu dois positionner les cales de manière précise, d’abord en réglant correctement le recul, celui-ci doit permettre d’avoir la cale alignée avec ton métatarse (l’articulation du gros orteil), ensuite réglé avec un angle neutre (centré) que tu feras évoluer au besoin en respectant l’angle que prend ta cheville au pédalage.<br /><em>Attention à bien positionner les cales, car cela peut entrainer des blessures tel que des tendinites, … Dès la première douleur, recommencer le réglage, au besoin consulte un spécialiste et fais-toi aider par ton mécano pour le réglage des cales !</em>
 
 Pour libérer son pied de la pédale un simple mouvement du talon vers l’extérieur suffit.
 
-Pour utiliser des pédales automatiques, il vous faudra des chaussures spécifiques qui ont une semelle rigide et équipées de pas de vis réglables pour accepter les cales.
+Pour utiliser des pédales automatiques, il te faudra des chaussures spécifiques qui ont une semelle rigide et équipées de pas de vis réglables pour accepter les cales.
 
 ### a) Les avantages de la pédale automatique
 
@@ -90,19 +90,19 @@ Pour utiliser des pédales automatiques, il vous faudra des chaussures spécifiq
 
 ### c) Quelques conseils aux débutants VTT en pédales auto:
 
-Exercez-vous à plat et avec de la place et clipsez et declipssez un bon nombre de fois avant de prendre les sentiers. Allez-y par paliers de difficultés et d’engagements. Vous éviterez ainsi quelques bonnes boites vexantes et inutiles.
+Exerce-toi à plat et avec de la place, et clipse et déclipse un bon nombre de fois avant de prendre les sentiers. Vas-y par paliers de difficultés et d’engagements. Tu éviteras ainsi quelques bonnes boites vexantes et inutiles.
 
 <hr />
 
-## 4/ Connaissez-vous les pédales automatiques “hybrides” ? {#pedales-hybrides}
+## 4/ Connais-tu les pédales automatiques “hybrides” ? {#pedales-hybrides}
 
-Les pédales automatiques hybrides vous permettent de sortir proprement des passages techniques grâce à une plateforme qui permet de rouler décliqué.
+Les pédales automatiques hybrides te permettent de sortir proprement des passages techniques grâce à une plateforme qui permet de rouler décliqué.
 
 Très rare sur des pédales automatiques, certaines cages sont équipées de picots réglables pour une excellente accroche.
 
 Cet équipement conviendra parfaitement pour ceux qui cherchent un pédalage efficace et qui n’hésitent pas à sortir le pied dans les courbes.
 
-La conclusion est simple pour ce type de pédale, retrouvez tous les avantages de la pédales plate lorsque vous êtes déclipé, et tous ceux de la pédale automatique lorsque vous êtes clipé.
+La conclusion est simple pour ce type de pédale, retrouve tous les avantages de la pédale plate lorsque tu es déclipé, et tous ceux de la pédale automatique lorsque tu es clipé.
 
 En inconvénient hormis le poids, difficile d’en trouver d’autres!
 
@@ -114,7 +114,7 @@ Rouler en pédale automatique reste moins naturel que la pédale plate.
 
 La pédale automatique restera totalement inadaptée aux pratiques les plus fun: Dirt, street, trial.
 
-Si vous parcourez des Km tous les week-end en rando, Cross Country, Enduro, essayez les pédales automatiques dès lors que vous maîtrisez votre VTT et vous vous ferez votre propre avis, mais gardez en tête que sans elles vous perdrez en rendement à forces égales avec vos collègues.
+Si tu parcours des kilomètres tous les week-ends en rando, cross-country ou enduro, essaie les pédales automatiques dès lors que tu maîtrises ton VTT et tu te feras ton propre avis, mais garde en tête que sans elles tu perdras en rendement à forces égales avec tes collègues.
 
 Pour la descente, chacun à sa réponse en fonction de son pilotage, il faut garder en tête que la pédale automatique permettra un meilleur rendement et plus de précision dans ses appuis.
 
