@@ -138,3 +138,16 @@ test("l'encart Événements figure sur un post, quel que soit son type", async (
   await expect(page.locator('.c-callout')).toHaveCount(1);
   await expect(page.locator('.c-callout__title')).toHaveText('Prêt à tester tes réglages ?');
 });
+
+test('les événements portent une date de fin et un tarif structuré', async ({ page }) => {
+  await page.goto('/events/');
+  const events = page.locator('[itemtype="https://schema.org/SportsEvent"]');
+  for (const event of await events.all()) {
+    const start = await event.locator('meta[itemprop="startDate"]').getAttribute('content');
+    await expect(event.locator('meta[itemprop="endDate"]')).toHaveAttribute('content', start);
+  }
+  for (const offer of await page.locator('[itemtype="https://schema.org/Offer"]').all()) {
+    await expect(offer.locator('meta[itemprop="price"]')).toHaveAttribute('content', /^\d+(\.\d+)?$/);
+    await expect(offer.locator('meta[itemprop="priceCurrency"]')).toHaveAttribute('content', 'EUR');
+  }
+});

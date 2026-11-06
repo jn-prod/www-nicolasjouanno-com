@@ -1,5 +1,6 @@
 <details class="c-event c-disclosure c-card c-card--medium {% if include.event.annule %}c-card--alert{% else %}c-card--flat{% endif %}" itemscope itemtype="https://schema.org/SportsEvent">
   <meta itemprop="startDate" content="{{ include.event.event_date | date: '%Y-%m-%d' }}" />
+  <meta itemprop="endDate" content="{{ include.event.event_date | date: '%Y-%m-%d' }}" />
   <meta itemprop="eventStatus" content="https://schema.org/{% if include.event.annule %}EventCancelled{% else %}EventScheduled{% endif %}" />
   <summary class="c-event__summary c-disclosure__summary c-disclosure__summary--indicator">
     <span class="c-event__summary-content">
@@ -14,7 +15,13 @@
     <ul class="c-event__details">
       {% if include.event.club %}<li itemprop="organizer" itemscope itemtype="https://schema.org/Organization"><strong>Organisation :</strong> <span itemprop="name">{{ include.event.club }}</span></li>{% endif %}
       {% if include.event.horaire %}<li><strong>Horaires :</strong> {{ include.event.horaire }}</li>{% endif %}
-      {% if include.event.tarif %}<li><strong>Tarif :</strong> {{ include.event.tarif }}</li>{% endif %}
+      {% if include.event.tarif %}
+        {%- assign tarif_bas = include.event.tarif | downcase -%}
+        {%- assign prix = include.event.tarif | split: ' ' | first | replace: ',', '.' -%}
+        {%- assign prix_num = prix | plus: 0 -%}
+        {%- if tarif_bas contains 'gratuit' and prix_num == 0 %}{% assign prix = '0' %}{% assign prix_ok = true %}{% elsif prix_num > 0 or prix == '0' %}{% assign prix_ok = true %}{% else %}{% assign prix_ok = false %}{% endif -%}
+        <li{% if prix_ok %} itemprop="offers" itemscope itemtype="https://schema.org/Offer"{% endif %}><strong>Tarif :</strong> {{ include.event.tarif }}{% if prix_ok %}<meta itemprop="price" content="{{ prix }}" /><meta itemprop="priceCurrency" content="EUR" />{% if include.event.lien %}<link itemprop="url" href="{{ include.event.lien }}" />{% endif %}{% endif %}</li>
+      {% endif %}
     </ul>
     {% if include.event.lien and include.event.annule != true %}
       <p class="c-button-stack">
