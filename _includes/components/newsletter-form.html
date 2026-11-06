@@ -42,4 +42,9 @@ newsletter_form_note = include.note | default: "Gratuit. Désabonnement en un cl
     <button class="c-button c-button--brand" type="submit">S’inscrire</button>
   </form>
   <p class="c-newsletter-form__note c-meta">{{ newsletter_form_note }}</p>
+  {% if include.latest %} {% assign post = site.tags["la-sortie"] | first %} {% if post %}
+  <p class="c-newsletter-form__label c-meta">Dernière édition</p>
+  {% include components/post.html hide_pin=true %}
+  <p class="c-newsletter-form__archive"><a href="/la-sortie/">Toutes les éditions</a></p>
+  {% endif %} {% endif %}
 </section>

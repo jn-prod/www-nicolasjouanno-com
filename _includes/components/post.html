@@ -6,7 +6,7 @@ truncatewords: 70 %}
   id="{{post.slug}}"
   class="c-publication-card c-card c-card--flat c-card--medium h-entry"
 >
-  {% if post.pin %}
+  {% if post.pin and include.hide_pin != true %}
   <div class="c-publication-card__pin c-meta">
     {% include components/icon.html name="pin" %}
     <span>Épinglé</span>

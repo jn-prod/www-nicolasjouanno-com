@@ -116,3 +116,16 @@ test('chaque aide du formulaire est reliée à son champ', async ({ page }) => {
     await expect(page.locator(`[aria-describedby~="${id}"]`)).toHaveCount(1);
   }
 });
+
+test('le formulaire de La Sortie ouvre la page, avec la dernière édition', async ({ page }) => {
+  await page.goto('/events/');
+  const newsletter = page.locator('.c-newsletter-form');
+  await expect(newsletter).toHaveCount(1);
+  await expect(newsletter.getByText('Dernière édition')).toBeVisible();
+  await expect(newsletter.locator('.c-publication-card a[href*="/la-sortie/"]').first()).toBeVisible();
+  const [formTop, calendarTop] = await Promise.all([
+    newsletter.evaluate((el) => el.getBoundingClientRect().top),
+    page.getByRole('heading', { name: 'À venir' }).evaluate((el) => el.getBoundingClientRect().top),
+  ]);
+  expect(formTop).toBeLessThan(calendarTop);
+});
