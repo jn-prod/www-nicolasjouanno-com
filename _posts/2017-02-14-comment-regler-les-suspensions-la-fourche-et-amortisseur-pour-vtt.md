@@ -8,6 +8,9 @@ tags:
   - équipement
 image: /images/posts/a3d50-0omp6q8ru_v_v0drm.jpg
 image_alt: "Pompe haute pression pour suspension RockShox"
+events_callout:
+  title: "Prêt à tester vos réglages ?"
+  text: "La page Événements reprend les randos qu'on m'envoie, de quoi valider vos réglages de fourche et d’amortisseur sur de vrais chemins."
 ---
 
 XC, marathon, enduro, DH, de 100 à 200 mm de débattement et plus : presque tous nos VTT ont une fourche télescopique, et souvent un amortisseur. Un tout-suspendu gagne en stabilité, en confort et en adhérence, à condition que ses suspensions soient bien réglées. Voici une méthode simple pour régler la fourche et l’amortisseur de votre VTT.
@@ -123,8 +126,6 @@ La détente reste vive, et vous affinerez à la sensation en roulant.
 ## Le débattement variable {#debattement}
 
 Il fait correspondre l’assiette du vélo à la pente et adapte la fourche à la géométrie du vélo. Très apprécié dans les montées raides. Les modèles de base proposent 3 à 5 positions, d’autres bien davantage.
-
-{% include components/callout-events.html title="Prêt à tester vos réglages ?" text="La page Événements reprend les randos qu'on m'envoie, de quoi valider vos réglages de fourche et d’amortisseur sur de vrais chemins." %}
 
 ## Ma sélection de fourches et amortisseurs
 

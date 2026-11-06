@@ -90,6 +90,7 @@ image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
 - Les pages qui portent un champ `tag` définissent les sujets publics ; `parent_tag` relie une page à son sujet parent dans le fil d’Ariane. Les tags secondaires restent limités au vocabulaire contrôlé ci-dessus.
 - Dans le front matter comme dans le contenu, référencer une photo avec son extension source (`.jpg`, `.jpeg` ou `.png`) ; le pré-build publie sa version WebP.
 - `image_alt` décrit ce qui est visible ; `image_caption`, facultatif et interprété en Markdown, contextualise la couverture et porte son crédit sous la forme `Appareil © Auteur`, sans tiret ni pictogramme.
+- `events_callout`, facultatif, adapte au post l'encart Événements que le gabarit ajoute à tous les posts : `title` et `text`.
 - `mentions`, facultatif, liste les pages qui citent la publication, choisies à la main (webmention reçue sur webmention.io, club, presse) : `url`, `title`, `author` et `date` facultatifs. Le bloc « Ils en parlent » n’apparaît que si la liste est remplie.
 - `syndication`, facultatif, liste les copies relayées sur les réseaux (`name`, `url`) ; elles s’ajoutent au lien « Répondez-moi par e-mail » en bas de l’article.
 

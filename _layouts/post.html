@@ -34,6 +34,8 @@ layout: page
   <!-- Post Content -->
   <div class="e-content">{{content}}</div>
 
+  {% include components/callout-events.html title=page.events_callout.title text=page.events_callout.text %}
+
   {% include components/post-reactions.html %}
 
   {% include components/newsletter-form.html id="post" variant="compact" %}

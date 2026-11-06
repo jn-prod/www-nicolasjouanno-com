@@ -8,6 +8,9 @@ tags:
   - entraînement
 permalink: "/entrainement-vtt.html"
 image: /images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.png
+events_callout:
+  title: "Trouver des sorties VTT"
+  text: "Pour mettre en pratique ces séances, la page Événements reprend les randos qu'on m'envoie : dates, lieux et liens."
 ---
 
 Le VTT est une discipline complète. Puissance, endurance, équilibre et explosivité sont des compétences à travailler à l'entrainement. En alternant avec des périodes de récupération, vous observerez une progression constante.
@@ -139,4 +142,3 @@ De nombreux club de VTT bénéficient de personnes diplômés. D'après vos capa
 
 Le VTT est à consommer avec modération et sans excès. Pour progresser de manière constante avec le sourire, il faut savoir ménager sa monture pour aller plus loin!
 
-{% include components/callout-events.html title="Trouver des sorties VTT" text="Pour mettre en pratique ces séances, la page Événements reprend les randos qu'on m'envoie : dates, lieux et liens." %}

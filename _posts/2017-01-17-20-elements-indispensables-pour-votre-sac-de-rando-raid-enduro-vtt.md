@@ -9,11 +9,12 @@ tags:
   - équipement
   - randonnée
 image: /images/posts/jervol.jpg
+events_callout:
+  title: "Vous préparez une rando VTT ?"
+  text: "La page Événements reprend les randos qu'on m'envoie : dates, lieux et liens. Un bon terrain pour tester votre sac."
 ---
 
 <em>L’un des plus grands plaisir du VTT est de partir la journée, toujours plus loin, toujours plus vite dans les bois où vous ne pouvez aller lorsque vous êtes à pied. Cela signifie aussi que lorsqu’il vous arrive quelque chose, comme une blessure, un problème mécanique, il vous sera compliqué de compter sur quelqu’un d’autre que sur vous-même.</em>
-
-{% include components/callout-events.html title="Vous préparez une rando VTT ?" text="La page Événements reprend les randos qu'on m'envoie : dates, lieux et liens. Un bon terrain pour tester votre sac." %}
 
 ## Au programme :
 
