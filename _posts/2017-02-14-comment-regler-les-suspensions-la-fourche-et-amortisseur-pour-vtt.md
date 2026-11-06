@@ -129,5 +129,5 @@ Il fait correspondre l’assiette du vélo à la pente et adapte la fourche à l
 ## Ma sélection de fourches et amortisseurs
 
 - **Fourche XC** : Fox 32 Step-Cast Factory, 100 mm de débattement, la plus légère de Fox.
-- **Fourche trail** : RockShox Pike Ultimate, cartouche Charger 3.1, 120 à 140 mm, en 27,5 ou 29 pouces.
+- **Fourche enduro** : RockShox Lyrik Ultimate, cartouche Charger 3.1, 140 à 160 mm, en 27,5 ou 29 pouces.
 - **Amortisseur XC et marathon** : Fox Float SL Factory, qui remplace le Float DPS.
