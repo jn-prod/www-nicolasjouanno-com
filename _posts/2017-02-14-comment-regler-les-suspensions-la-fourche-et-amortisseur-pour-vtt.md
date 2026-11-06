@@ -58,7 +58,7 @@ Le SAG, c’est l’enfoncement de la suspension à l’arrêt, sous votre seul 
 
 - **Un ressort trop dur** empêche la suspension de fonctionner : vous perdez l’intérêt des réglages de compression et de détente.
 - **Un ressort trop mou** abîme le matériel : la suspension talonne souvent sur les gros chocs, même en XC.
-- **La température change la pression.** L’air ne réagit pas de la même façon à 0 °C et à 30 °C : vérifiez la pression chaque mois. L’hiver, l’air se comprime, ajoutez environ 5 % de pression ; l’été, il se dilate, retirez-en environ 5 %.
+- **La température change la pression.** L’air ne réagit pas de la même façon à 0 °C et à 30 °C : vérifiez la pression chaque mois. L’hiver, l’air se comprime, ajoutez environ 5 % de pression ; l’été, il se dilate, retirez-en environ 5 %. C’est le conseil que m’a donné un mécanicien de chez Fox.
 
 ![Jared Graves au championnat du monde de DH 2013](../images/posts/89754-0y1psiewctqe8xr-m.jpg)
 
@@ -87,14 +87,12 @@ Le blocage de compression est apprécié en montée et sur les portions roulante
 
 ### Le blocage ne fonctionne plus
 
-Deux causes possibles :
+Commencez par la commande au guidon, si votre fourche ou votre amortisseur en a une. Tout se joue sur la tension du câble :
 
-- **le câble** : si la fourche ou l’amortisseur se bloque avec une commande au guidon, le câble est peut-être à retendre ;
-- **l’huile** : la fourche ou l’amortisseur en manque. Vérifiez qu’il n’y a pas de fuite et rajoutez quelques cuillères à café d’huile.
+- **la suspension ne se bloque pas** : le câble n’est pas assez tendu. Tendez-le avec la molette de réglage de la commande, par petits tours ;
+- **la suspension ne se débloque plus complètement** : le câble est trop tendu. Détendez-le de la même façon.
 
-![Huile pour suspensions Fox Racing Shox Gold 20 WT, 946 ml](../images/posts/17b3c-0awqo5thxnz5oesdo.jpg)
-
-*Huile pour suspensions Fox Racing Shox Gold 20 WT, 946 ml*
+Si la molette en haut de la fourche ne bloque pas non plus, ou si le câble n’y est pour rien, le problème vient de la cartouche hydraulique : son huile ou ses joints. Ce n’est plus un réglage. Les constructeurs prévoient un entretien en heures de roulage, propre à chaque modèle et à chaque année : chez RockShox, par exemple, le bas de fourche toutes les 50 heures, et une révision complète à 100 ou 200 heures selon le modèle. Consultez le manuel de votre modèle, et confiez la cartouche à un atelier ou au centre de service de la marque.
 
 ## La détente {#detente}
 
@@ -130,14 +128,6 @@ Il fait correspondre l’assiette du vélo à la pente et adapte la fourche à l
 
 ## Ma sélection de fourches et amortisseurs
 
-![Fourche Fox Racing Shox 32 Float SC Factory Fit4 27,5 pouces, 100 mm, axe Kabolt 15 mm Boost, noire, 2017](../images/posts/66a09-0noa0olg9r-f9pkec.jpg)
-
-*Fourche Fox Racing Shox 32 Float SC Factory Fit4 27,5 pouces, Kabolt, Boost 15 × 110 mm, noire*
-
-![Fourche RockShox Pike RCT3 27,5 pouces, 160/130 mm, Dual Position Air, pivot conique, axe 15 mm, noire, 2017](../images/posts/cd839-0i54iojtdqawv4hhd.jpg)
-
-*Fourche RockShox Pike RCT3 27,5 pouces, 160/130 mm, Dual Position Air, pivot conique, axe 15 mm, noire*
-
-![Amortisseur Fox Racing Shox Float DPS Factory SV, 2017](../images/posts/3123e-00jzvgtbazkfyrjn6.jpg)
-
-*Amortisseur Fox Racing Shox Float DPS Factory SV*
+- **Fourche XC** : Fox 32 Step-Cast Factory, 100 mm de débattement, la plus légère de Fox.
+- **Fourche trail** : RockShox Pike Ultimate, cartouche Charger 3.1, 120 à 140 mm, en 27,5 ou 29 pouces.
+- **Amortisseur XC et marathon** : Fox Float SL Factory, qui remplace le Float DPS.
