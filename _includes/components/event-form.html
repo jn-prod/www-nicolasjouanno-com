@@ -7,41 +7,58 @@
     enctype="text/plain"
     data-event-form
   >
-    <div class="c-event-form__field">
+    <div class="c-field c-event-form__field">
       <label for="event-nom">Nom de l'événement (obligatoire)</label>
-      <input class="c-control" id="event-nom" name="Nom" type="text" maxlength="120" required />
+      <input class="c-control" id="event-nom" name="Nom" type="text" maxlength="120" required placeholder="Rando VTT d’automne" />
     </div>
-    <div class="c-event-form__field">
+    <div class="c-field c-event-form__field">
       <label for="event-date">Date (obligatoire)</label>
-      <input class="c-control" id="event-date" name="Date" type="date" required />
+      <input class="c-control" id="event-date" name="Date" type="date" required aria-describedby="event-date-aide" />
+      <p class="c-field__help" id="event-date-aide">Le premier jour, si l'événement en compte plusieurs.</p>
     </div>
-    <div class="c-event-form__field">
+    <div class="c-field c-event-form__field">
       <label for="event-lieu">Lieu (obligatoire)</label>
-      <input class="c-control" id="event-lieu" name="Lieu" type="text" maxlength="120" required />
+      <input class="c-control" id="event-lieu" name="Lieu" type="text" maxlength="120" required placeholder="Pontivy (56)" aria-describedby="event-lieu-aide" />
+      <p class="c-field__help" id="event-lieu-aide">La commune et le numéro du département.</p>
     </div>
-    <div class="c-event-form__field">
+    <div class="c-field c-event-form__field">
       <label for="event-lien">Lien vers la page de l'événement</label>
-      <input class="c-control" id="event-lien" name="Lien" type="text" inputmode="url" maxlength="300" />
+      <input class="c-control" id="event-lien" name="Lien" type="url" maxlength="300" placeholder="https://" aria-describedby="event-lien-aide" />
+      <p class="c-field__help" id="event-lien-aide">Adresse complète, commençant par https://</p>
     </div>
-    <div class="c-event-form__field">
-      <label for="event-discipline">Discipline</label>
-      <input class="c-control" id="event-discipline" name="Discipline" type="text" maxlength="60" />
-    </div>
-    <div class="c-event-form__field">
+    <fieldset class="c-field c-event-form__activities">
+      <legend>Activités proposées</legend>
+      <div class="c-event-form__choices">
+        <label class="c-event-form__choice"><input type="checkbox" name="Discipline" value="VTT" /> VTT</label>
+        <label class="c-event-form__choice"><input type="checkbox" name="Discipline" value="Gravel" /> Gravel</label>
+        <label class="c-event-form__choice"><input type="checkbox" name="Discipline" value="Route" /> Route</label>
+        <label class="c-event-form__choice"><input type="checkbox" name="Discipline" value="Marche" /> Marche</label>
+        <label class="c-event-form__choice"><input type="checkbox" name="Discipline" value="Trail" /> Trail</label>
+        <label class="c-event-form__choice"><input type="checkbox" name="Discipline" value="Autre" aria-controls="event-autre-champ" data-event-form-other /> Autre</label>
+      </div>
+      <div class="c-field c-event-form__field" id="event-autre-champ" hidden>
+        <label for="event-autre">Autre activité</label>
+        <input class="c-control" id="event-autre" name="Autre activité" type="text" maxlength="60" placeholder="Course d’orientation" />
+      </div>
+    </fieldset>
+    <div class="c-field c-event-form__field">
       <label for="event-club">Club ou organisateur</label>
-      <input class="c-control" id="event-club" name="Club" type="text" maxlength="120" />
+      <input class="c-control" id="event-club" name="Club" type="text" maxlength="120" placeholder="Club, association, magasin" />
     </div>
-    <div class="c-event-form__field">
+    <div class="c-field c-event-form__field">
       <label for="event-horaire">Horaires</label>
-      <input class="c-control" id="event-horaire" name="Horaires" type="text" maxlength="60" />
+      <input class="c-control" id="event-horaire" name="Horaires" type="text" maxlength="60" placeholder="de 8h à 9h30" aria-describedby="event-horaire-aide" />
+      <p class="c-field__help" id="event-horaire-aide">Les heures de départ.</p>
     </div>
-    <div class="c-event-form__field">
+    <div class="c-field c-event-form__field">
       <label for="event-tarif">Tarif</label>
-      <input class="c-control" id="event-tarif" name="Tarif" type="text" maxlength="60" />
+      <input class="c-control" id="event-tarif" name="Tarif" type="text" maxlength="60" placeholder="6 €" aria-describedby="event-tarif-aide" />
+      <p class="c-field__help" id="event-tarif-aide">« Gratuit » s'il n'y a pas d'inscription payante.</p>
     </div>
-    <div class="c-event-form__field">
-      <label for="event-message">Un mot (500 caractères au plus)</label>
-      <textarea class="c-control" id="event-message" name="Message" rows="4" maxlength="500"></textarea>
+    <div class="c-field c-event-form__field">
+      <label for="event-message">Un mot</label>
+      <textarea class="c-control" id="event-message" name="Message" rows="4" maxlength="500" aria-describedby="event-message-aide"></textarea>
+      <p class="c-field__help" id="event-message-aide">500 caractères au plus.</p>
     </div>
     <button class="c-button c-button--brand" type="submit">Préparer l'e-mail</button>
   </form>

@@ -20,10 +20,23 @@ function buildMailto(subject, body) {
   return `mailto:${EVENT_FORM_ADDRESS}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
+// Les activités cochées en une ligne ; « Autre » laisse place à l'activité saisie.
+function readFields(data) {
+  const other = data.get('Autre activité')?.trim();
+  const activities = data
+    .getAll('Discipline')
+    .map((activity) => (activity === 'Autre' ? other : activity))
+    .filter(Boolean);
+  const fields = Object.fromEntries(data.entries());
+  delete fields['Autre activité'];
+  fields.Discipline = activities.join(', ');
+  return fields;
+}
+
 // Effets de bord
 function onSubmit(event) {
   event.preventDefault();
-  const fields = Object.fromEntries(new FormData(event.currentTarget).entries());
+  const fields = readFields(new FormData(event.currentTarget));
   const subject = buildSubject(fields);
   const body = buildBody(fields);
   sessionStorage.setItem(EVENT_FORM_STORAGE_KEY, JSON.stringify({ subject, body }));
@@ -54,6 +67,15 @@ async function onCopy(event) {
   }
 }
 
+function onOtherToggle(event) {
+  const checkbox = event.currentTarget;
+  const field = document.getElementById(checkbox.getAttribute('aria-controls'));
+  field.hidden = !checkbox.checked;
+}
+
+document.querySelectorAll('[data-event-form-other]').forEach((checkbox) => {
+  checkbox.addEventListener('change', onOtherToggle);
+});
 document.querySelectorAll('[data-event-form]').forEach((form) => {
   form.addEventListener('submit', onSubmit);
 });

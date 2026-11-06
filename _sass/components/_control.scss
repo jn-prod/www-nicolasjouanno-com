@@ -11,6 +11,11 @@
   font-size: var(--b-control-font-size);
 }
 
+.c-control::placeholder {
+  color: var(--b-color-neutral-60);
+  opacity: 1;
+}
+
 .c-control:disabled {
   cursor: not-allowed;
   opacity: var(--b-disabled-opacity);

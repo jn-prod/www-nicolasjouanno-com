@@ -10,6 +10,10 @@ test('le tunnel prépare un e-mail puis un aperçu à copier', async ({ page, co
   await page.fill('#event-date', '2027-05-02');
   await page.fill('#event-lieu', 'Pontivy');
   await page.fill('#event-lien', 'https://exemple.fr/?a=1&b=2');
+  await page.getByRole('checkbox', { name: 'VTT' }).check();
+  await expect(page.locator('#event-autre')).toBeHidden();
+  await page.getByRole('checkbox', { name: 'Autre' }).check();
+  await page.fill('#event-autre', 'Course d’orientation');
   await page.getByRole('button', { name: "Préparer l'e-mail" }).click();
   await expect(page).toHaveURL(/\/events\/soumission-confirmee\.html$/);
 
@@ -24,6 +28,8 @@ test('le tunnel prépare un e-mail puis un aperçu à copier', async ({ page, co
 
   const body = await page.inputValue('#event-preview-body');
   expect(body).toContain('Lien : https://exemple.fr/?a=1&b=2');
+  expect(body).toContain('Discipline : VTT, Course d’orientation');
+  expect(body).not.toContain('Autre');
   expect(body).not.toContain('Tarif');
   expect(decodeURIComponent(url.search.split('&body=')[1])).toBe(body);
 
@@ -98,4 +104,15 @@ test('sans script, tous les événements à venir restent lisibles', async ({ br
   await page.goto('/events/');
   await expect(page.locator('[data-event-calendar-controls]')).toBeHidden();
   await context.close();
+});
+
+test('chaque aide du formulaire est reliée à son champ', async ({ page }) => {
+  await page.goto('/events/ajouter.html');
+  await expect(page.locator('#event-lien')).toHaveAttribute('type', 'url');
+  const helps = page.locator('.c-event-form .c-field__help');
+  expect(await helps.count()).toBeGreaterThan(0);
+  for (const help of await helps.all()) {
+    const id = await help.getAttribute('id');
+    await expect(page.locator(`[aria-describedby~="${id}"]`)).toHaveCount(1);
+  }
 });

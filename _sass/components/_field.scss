@@ -1,0 +1,12 @@
+// Champ de formulaire : label, contrôle et aide empilés (contrat design, primitive field).
+.c-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4);
+
+  &__help {
+    margin: 0;
+    font-size: var(--b-font-size-small);
+    color: var(--b-color-neutral-60);
+  }
+}
