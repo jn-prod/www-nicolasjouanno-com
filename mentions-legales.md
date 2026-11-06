@@ -13,7 +13,7 @@ _Dernière mise à jour : novembre 2026._
 
 Le site nicolasjouanno.com est édité à titre personnel par Nicolas Jouanno, directeur de la publication.
 
-Pour toute question concernant le site ou vos données personnelles : [contact@nicolasjouanno.com](mailto:contact@nicolasjouanno.com).
+Pour toute question concernant le site ou tes données personnelles : [contact@nicolasjouanno.com](mailto:contact@nicolasjouanno.com).
 
 ## Hébergement
 
@@ -29,9 +29,9 @@ Le code source du site est publié sous licence MIT ; les conditions sont dispon
 
 ### Données collectées et finalité
 
-Lorsque vous vous inscrivez à la newsletter La Sortie, seule votre adresse e-mail est demandée. Elle est utilisée pour vous envoyer une édition mensuelle, gérer votre inscription et vous permettre de vous désabonner.
+Lorsque tu t'inscris à la newsletter La Sortie, seule ton adresse e-mail est demandée. Elle est utilisée pour t'envoyer une édition mensuelle, gérer ton inscription et te permettre de te désabonner.
 
-Le traitement repose sur votre consentement, donné lors de l’inscription. Vous pouvez le retirer à tout moment grâce au lien de désabonnement présent dans chaque e-mail.
+Le traitement repose sur ton consentement, donné lors de l’inscription. Tu peux le retirer à tout moment grâce au lien de désabonnement présent dans chaque e-mail.
 
 ### Prestataire d’envoi
 
@@ -39,15 +39,15 @@ Les inscriptions et les envois sont gérés avec Kit. Kit traite ces données po
 
 ### Conservation et droits
 
-Votre adresse e-mail est conservée tant que vous restez inscrit à la newsletter. Vous pouvez demander l’accès, la rectification ou la suppression de vos données en écrivant à [contact@nicolasjouanno.com](mailto:contact@nicolasjouanno.com).
+Ton adresse e-mail est conservée tant que tu restes inscrit à la newsletter. Tu peux demander l’accès, la rectification ou la suppression de tes données en écrivant à [contact@nicolasjouanno.com](mailto:contact@nicolasjouanno.com).
 
-Vous pouvez également introduire une réclamation auprès de la [CNIL](https://www.cnil.fr/).
+Tu peux également introduire une réclamation auprès de la [CNIL](https://www.cnil.fr/).
 
 ## Proposer un événement
 
-Le [formulaire de proposition](/events/ajouter.html) ne transmet rien au site : il prépare un e-mail que vous envoyez vous-même depuis votre messagerie. Le nom de l’événement, sa date, son lieu, sa discipline, son organisateur, ses horaires, son tarif et son lien peuvent être publiés après relecture. Votre adresse e-mail et votre message ne le sont pas.
+Le [formulaire de proposition](/events/ajouter.html) ne transmet rien au site : il prépare un e-mail que tu envoies toi-même depuis ta messagerie. Le nom de l’événement, sa date, son lieu, sa discipline, son organisateur, ses horaires, son tarif et son lien peuvent être publiés après relecture. Ton adresse e-mail et ton message ne le sont pas.
 
-Cet e-mail sert à traiter votre proposition et à vous répondre, sur la base de votre démarche. Il est conservé le temps de ce suivi. Pour en demander l’accès, la rectification ou la suppression, écrivez à [contact@nicolasjouanno.com](mailto:contact@nicolasjouanno.com).
+Cet e-mail sert à traiter ta proposition et à te répondre, sur la base de ta démarche. Il est conservé le temps de ce suivi. Pour en demander l’accès, la rectification ou la suppression, écris à [contact@nicolasjouanno.com](mailto:contact@nicolasjouanno.com).
 
 ## Mesure d’audience
 

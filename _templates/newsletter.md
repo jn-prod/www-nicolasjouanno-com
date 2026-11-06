@@ -52,15 +52,15 @@ Bonjour,
 
 Toutes les dates reçues et les détails pratiques sont sur la [page Événements](https://www.nicolasjouanno.com/events/?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=calendrier).
 
-## Votre sortie
+## Ta sortie
 
-Vous organisez une sortie ouverte à tous ? [Envoyez-moi la date](https://www.nicolasjouanno.com/events/ajouter.html?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=contribuer). Vous avez repéré une information utile ou vous voulez raconter une sortie ? [Répondez à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre la page ; les autres contributions pourront nourrir la prochaine édition, avec votre accord avant publication.
+Tu organises une sortie ouverte à tous ? [Envoie-moi la date](https://www.nicolasjouanno.com/events/ajouter.html?utm_source=nj-com&utm_medium=email&utm_campaign=la-sortie&utm_content=contribuer). Tu as repéré une information utile ou tu veux raconter une sortie ? [Réponds à cet e-mail](mailto:contact@nicolasjouanno.com?subject=Une%20nouvelle%20pour%20La%20Sortie). Les dates font vivre la page ; les autres contributions pourront nourrir la prochaine édition, avec ton accord avant publication.
 
 ## La Sortie se partage
 
-Si cette édition vous aide à préparer votre prochaine sortie, transférez-la à votre club ou à la personne avec qui vous aimeriez partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles.
+Si cette édition t'aide à préparer ta prochaine sortie, transfère-la à ton club ou à la personne avec qui tu aimerais partir. C’est le geste le plus simple pour soutenir le projet et faire circuler des informations utiles.
 
-**Vous avez reçu cette lettre par transfert ?** [Recevez la prochaine édition](https://www.nicolasjouanno.com/la-sortie/subscribe/).
+**Tu as reçu cette lettre par transfert ?** [Reçois la prochaine édition](https://www.nicolasjouanno.com/la-sortie/subscribe/).
 
 À bientôt,
 

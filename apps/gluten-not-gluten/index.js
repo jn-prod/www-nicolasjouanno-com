@@ -110,7 +110,7 @@ function showResults() {
 }
 
 function shareTwitter() {
-  const text = `J'ai obtenu ${state.score} points au quiz Gluten ou Pas Gluten ! 🌾 Testez vos connaissances !`;
+  const text = `J'ai obtenu ${state.score} points au quiz Gluten ou Pas Gluten ! 🌾 Teste tes connaissances !`;
   window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, "_blank");
 }
 

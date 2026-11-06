@@ -23,7 +23,7 @@
 {% endif %}
 <p class="u-spacing--block-start-large">
   Une réaction ?
-  <a href="mailto:{{ site.author.email }}?subject={{ reply_subject }}">Répondez-moi par e-mail</a>{% if page.syndication.size > 0 %}
+  <a href="mailto:{{ site.author.email }}?subject={{ reply_subject }}">Réponds-moi par e-mail</a>{% if page.syndication.size > 0 %}
   ou sur{% for copy in page.syndication %}{% if forloop.last and forloop.length > 1 %} ou{% elsif forloop.first == false %},{% endif %}
   <a class="u-syndication" href="{{ copy.url }}">{{ copy.name }}</a>{% endfor %}{% endif %}.
 </p>

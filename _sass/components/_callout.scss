@@ -17,7 +17,7 @@
     line-height: var(--line-height);
     margin-bottom: var(--size-16);
 
-    // Encart sans CTA (note d’archive, « Le saviez-vous ? ») : le texte est le dernier élément.
+    // Encart sans CTA (note d’archive, « Le savais-tu ? ») : le texte est le dernier élément.
     &:last-child {
       margin-bottom: 0;
     }

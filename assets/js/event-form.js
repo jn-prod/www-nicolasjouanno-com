@@ -2,7 +2,7 @@ const EVENT_FORM_ADDRESS = 'contact@nicolasjouanno.com';
 const EVENT_FORM_CONFIRM_URL = '/events/soumission-confirmee.html';
 const EVENT_FORM_STORAGE_KEY = 'event-form-draft';
 const COPIED_MESSAGE = 'Copié.';
-const COPY_FAILED_MESSAGE = 'Texte sélectionné : copiez-le avec votre clavier ou le menu de votre téléphone.';
+const COPY_FAILED_MESSAGE = 'Texte sélectionné : copie-le avec ton clavier ou le menu de ton téléphone.';
 
 // Fonctions pures
 function buildSubject(fields) {

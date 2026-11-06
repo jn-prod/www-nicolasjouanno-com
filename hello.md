@@ -7,7 +7,7 @@ permalink: /hello/
 
 # Où me suivre
 
-Tout part de ce site. Choisissez comment en recevoir la suite : par e-mail une fois par mois, dans un lecteur de flux, ou sur les réseaux où je relaie mes publications.
+Tout part de ce site. Choisis comment en recevoir la suite : par e-mail une fois par mois, dans un lecteur de flux, ou sur les réseaux où je relaie mes publications.
 
 {% assign follow_campaign = '?utm_source=nicolasjouanno-com&utm_medium=page&utm_campaign=hello' %}
 {% assign facebook_url = site.author.facebook | split: '?' | first | append: follow_campaign | append: '&utm_content=facebook' %}
