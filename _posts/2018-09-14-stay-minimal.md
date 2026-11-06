@@ -85,31 +85,31 @@ Il peut prendre différentes formes:
 - …
 - Un site web
 
-Vous avez dit créer un site web ? Si vous n'êtes pas développeur tournez-vous vers des CMS SAAS clef en main, simple à utiliser, comme Squarespace, Webflow, Wix, … le choix de la simplicité et de la rapidité est légion. Le coût lui est mensuel lui est de 10–20€ pour les offres de bases. S'il ne vous permettrons pas de créer le future Facebook, ils ont le mérite de vous permettre de mettre en ligne votre site en 1h et d'acheter vos premiers mots-clés sur [adwords](https://ads.google.com/intl/fr_fr/home/).
+Tu as dit créer un site web ? Si tu n'es pas développeur, tourne-toi vers des CMS SAAS clef en main, simple à utiliser, comme Squarespace, Webflow, Wix, … le choix de la simplicité et de la rapidité est légion. Le coût lui est mensuel lui est de 10–20€ pour les offres de bases. S'ils ne te permettront pas de créer le futur Facebook, ils ont le mérite de te permettre de mettre en ligne ton site en 1h et d'acheter tes premiers mots-clés sur [adwords](https://ads.google.com/intl/fr_fr/home/).
 
-Si vous avez des connaissances techniques, vous pouvez vous lancer avec un CMS opensource flexible type Wordpress, Joomla, Prestashop, Magento … que vous héberge vous-même chez OVH ou autre, coût de l’opération 5€/mois. Vous aurez d’avantage de temps pour réfléchir à votre projet, comptez minimum 1 jour à 1 semaine et peu être quelques cheveux perdus en route !
+Si tu as des connaissances techniques, tu peux te lancer avec un CMS opensource flexible type Wordpress, Joomla, Prestashop, Magento … que tu héberges toi-même chez OVH ou autre, coût de l’opération 5€/mois. Tu auras davantage de temps pour réfléchir à ton projet, compte minimum 1 jour à 1 semaine et peu être quelques cheveux perdus en route !
 
-Mais ne perdez pas votre temps à développer votre produit dans votre garage. Il n'y a que Steve Jobs pour convaince les gens que le produits qu'il à imaginé est un "must have". Confrontez votre produit le plus rapidement possible à son marché, qu'il soit au stade de la maquette, du prototype où mieux encore avant même qu'il existe.
+Mais ne perds pas ton temps à développer ton produit dans ton garage. Il n'y a que Steve Jobs pour convaince les gens que le produits qu'il à imaginé est un "must have". Confronte ton produit le plus rapidement possible à son marché, qu'il soit au stade de la maquette, du prototype où mieux encore avant même qu'il existe.
 
-Comme moi, commencer à parler de votre MVP sur une landing page, en écrivant un post sur medium, en prenant la parole dans un groupe Facebook ou sur une channel Slack, ... Mieux, créez une liste d'attente pour mesurer l'attente de vos futurs acheteurs et voilà votre première base de données. Et la validation ultime, que les gens paye avant même que votre produit soit créé. Poussez la distribution à fonds, créez une communoté.
+Comme moi, commence à parler de ton MVP sur une landing page, en écrivant un post sur medium, en prenant la parole dans un groupe Facebook ou sur une channel Slack, ... Mieux, crée une liste d'attente pour mesurer l'attente de tes futurs acheteurs et voilà ta première base de données. Et la validation ultime, que les gens paient avant même que ton produit soit créé. Pousse la distribution à fond, crée une communauté.
 
-Bref, établissez votre camp de base pour mobilisez vos futurs users. Créez un niveau d'engagement tel qu'ils viendraient eux-mêmes défendre votre idée à l'assemblée nationale.
+Bref, établis ton camp de base pour mobiliser tes futurs users. Crée un niveau d'engagement tel qu'ils viendraient eux-mêmes défendre ton idée à l'assemblée nationale.
 
 ![Node JS](../images/posts/74ddb-1utch2gz4b5xfvt2dxhgnvq2x.jpeg)
 
 *Node JS*
 
-## Développer la béta de votre produit.
+## Développer la bêta de ton produit.
 
-_Si utiliser un CMS pour gérer la partie marketing de votre projet vous fait déjà peur, attendez de voir les questions que soulève le développement de votre produit. On parle non seulement de l'UI et de l'UX du front-end d’un site internet, mais aussi de son architecture, des dépendenses et du développement de son back-end._
+_Si utiliser un CMS pour gérer la partie marketing de ton projet te fait déjà peur, attends de voir les questions que soulève le développement de ton produit. On parle non seulement de l'UI et de l'UX du front-end d’un site internet, mais aussi de son architecture, des dépendenses et du développement de son back-end._
 
-Il vous faut lister tous ces besoins et toutes ces problématiques. Puis les prioriser dans une roadmap. Pour en maîtriser son développement et analyser l'impact des features sur votre produit.
+Il te faut lister tous ces besoins et toutes ces problématiques. Puis les prioriser dans une roadmap. Pour en maîtriser son développement et analyser l'impact des features sur ton produit.
 
-Ne vous lancer dans le choix de vos technologies seul si vous n'avez pas de recul sur cet univers.
+Ne te lance pas seul dans le choix de tes technologies si tu n'as pas de recul sur cet univers.
 
 Sur les premiers projets où je suis intervenu en tant que developpeur, ceux-ci était soit des sides-project soit des projets où j'avais un large scope. Ils incluaient souvent le marketing, le design et la tech. Ne connaissant au debut qu'un seul langage de programmation: le Javascript, je l'utilisais à toutes les sauces. J'utilisais donc [NodeJS](https://nodejs.org/en/) (sa surcouche coté serveur) à tout va, pour gagner du temps et par mode. Je reculais le moment d'apprendre un nouveau langage.
 
-NodeJS est très puissant pour développer rapidement des APIs REST véloces. Il embarque une librairie de modules dense, qui vous permetra de gérer:
+NodeJS est très puissant pour développer rapidement des APIs REST véloces. Il embarque une librairie de modules dense, qui te permettra de gérer:
 
 - la création de compte utilisateur,
 - la gestion des droits d’accès,
@@ -119,9 +119,9 @@ NodeJS est très puissant pour développer rapidement des APIs REST véloces. Il
 
 Mais, il manque cruellement de fonctionalités pour réaliser rapidement un MVP quand on le compare à des frameworks comme [Laravel](https://laravel.com/), [Ruby On Rails](https://rubyonrails.org/), [Django](https://www.djangoproject.com/), ... A celà j'ajouterais l'asynchronocité de NodeJS ne correspondant pas à tous les cas d'usage et ajoute de la complexité.
 
-Pensez également à bien choisir vos services tiers. Fournissent-ils des APIs qui vous permettrons d'automatiser des tâches crutiales dans votre croissances. Quel est leur coup à plus grande échelle? La migration est-elle simple ou complexe ? Je prends l'exemple de [Mailchimp](https://mailchimp.com/) que j'adore et que tout le monde recommande. Lorsque ma base d'email à dépasser les 2 000 abonnées, j'ai pleuré en voyant le coût du service. J'ai du recréer tout mon workflow sur un autre outil: [mailerlite](https://www.mailerlite.com/).
+Pense également à bien choisir tes services tiers. Fournissent-ils des APIs qui te permettront d'automatiser des tâches cruciales pour ta croissance. Quel est leur coup à plus grande échelle? La migration est-elle simple ou complexe ? Je prends l'exemple de [Mailchimp](https://mailchimp.com/) que j'adore et que tout le monde recommande. Lorsque ma base d'email à dépasser les 2 000 abonnées, j'ai pleuré en voyant le coût du service. J'ai du recréer tout mon workflow sur un autre outil: [mailerlite](https://www.mailerlite.com/).
 
-Alors ne perdez pas des yeux votre objectif principal: diminuer votre feedback loop. C'est le moyen le plus efficace pour itérer le plus rapidement possible sur votre produit. Vos choix technologiques doivent vous permettre d'accéler votre croissance et non la ralentir.
+Alors ne perds pas des yeux ton objectif principal: diminuer ta feedback loop. C'est le moyen le plus efficace pour itérer le plus rapidement possible sur ton produit. Tes choix technologiques doivent te permettre d'accélérer ta croissance et non la ralentir.
 
 ## Garder les choses simples
 
@@ -135,10 +135,10 @@ En marketing on parle d'[objectif SMART](https://www.manager-go.com/vente/method
 
 J'ai arrêté la compétition depuis de nombreuses années pourtant, je n'ai jamais arrêté d'avoir de petites victoires. J'ai appris à coder seul. Je ne me suis jamais découragé, non seulement parce que j'en avais profondément envie, mais aussi parce que je me suis fixé un objectif inconsciemment SMART: coder une heure par jour, en était un. A la fin de chaque semaine, je pouvais me gratifier d'avoir réussis cet objectif.
 
-Mais pour qu'un objectif soit attaignable vous devez avoir les ressources correspondantes: Humaines, Horaires, Financières, Matériel... sont celles qui reveniennent le plus souvent. Difficile de se lancer dans le référencement de son site web si personnes de votre équipe n'en connait les principes, pire, s'ils n'en ont pas le temps.
+Mais pour qu'un objectif soit atteignable tu dois avoir les ressources correspondantes: Humaines, Horaires, Financières, Matériel... sont celles qui reveniennent le plus souvent. Difficile de se lancer dans le référencement de son site web si personne de ton équipe n'en connait les principes, pire, s'ils n'en ont pas le temps.
 
-Se fixer des objectifs SMART avec un framework growth comme [AARRR](https://deux.io/framework-aarrr/) peut changer radicalement la vision et l'impact de votre produit. En se fixant des objectifs sur différentes partie du cycle de vie de vos utilisateurs vous vous assurez que votre roadmap conduira à la croissance de votre entreprise.
+Se fixer des objectifs SMART avec un framework growth comme [AARRR](https://deux.io/framework-aarrr/) peut changer radicalement la vision et l'impact de ton produit. En se fixant des objectifs sur différentes partie du cycle de vie de tes utilisateurs tu t'assures que ta roadmap conduira à la croissance de ton entreprise.
 
 En 2013, lorsque je lançais vtt.bzh, je voulais en faire un blog qui résonne dans l'écosystème du VTT. Mais je n'avais ni ojectif concret, ni stratégie. Par chance mon bon sens m'a fait faire des choses impactentes sur le temps terme. J'avais travailler l'acquisition via le SEO, l'activation et la rétention via une newsletter, le referal avec facebook et la monétisation avec de l'affiliation. C'est aujourd'hui, grâce à ça que j'explique la réussite de ce projet régionnal qui a impacté jusqu'à 10 000 visiteurs mensuel.
 
-Finalement, growth hacking ou product management, pour moi c'est le même combat, les deux doivent permettre une croissance exponentielle de votre produit. Les deux touche au design, au marketing et la tech. Les deux doivent être scalable. Les deux doivent parler à vos utilisateurs pour synchroniser le produit autour de leurs besoins. Alors garder les choses simples et concentrez-vous sur le produit.
+Finalement, growth hacking ou product management, pour moi c'est le même combat, les deux doivent permettre une croissance exponentielle de ton produit. Les deux touche au design, au marketing et la tech. Les deux doivent être scalable. Les deux doivent parler à tes utilisateurs pour synchroniser le produit autour de leurs besoins. Alors garde les choses simples et concentre-toi sur le produit.
