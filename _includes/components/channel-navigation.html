@@ -1,7 +1,7 @@
 {%- comment -%}
-  Onglets des canaux. Paramètre : current = "publications" (défaut, accueil) ou "events" ;
-  l'onglet courant porte aria-current="page". Sur l'accueil, Publications mène à la liste
-  des posts de La Sortie ; ailleurs, à Substack.
+  Onglets des canaux. Paramètre : current = "publications" (défaut, accueil) ou "events"
+  (aucun onglet courant). Sur l'accueil, Publications porte aria-current="page" et mène à la
+  liste des posts de La Sortie ; ailleurs, à Substack.
 {%- endcomment -%}
 {%- assign channel_current = include.current | default: "publications" -%}
 <nav class="c-tabs c-channel-navigation" aria-label="Canaux de Nicolas Jouanno">
@@ -14,16 +14,6 @@
       {%- endif %}
         {% include components/icon.html name="substack" %}
         <span class="u-visually-hidden">Publications — La Sortie sur Substack</span>
-      </a>
-    </li>
-    <li class="c-channel-navigation__item">
-      <a
-        class="c-tabs__tab c-channel-navigation__link"
-        href="{{ site.projects.events.url }}"
-        {%- if channel_current == "events" %} aria-current="page"{% endif %}
-      >
-        {% include components/icon.html name="calendar" %}
-        <span class="u-visually-hidden">Événements</span>
       </a>
     </li>
     <li class="c-channel-navigation__item">
