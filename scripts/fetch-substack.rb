@@ -1,11 +1,13 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Lit le flux de La Sortie sur Substack avant le build et écrit les derniers posts dans
+# Lit le flux de La Sortie sur Substack et écrit les derniers posts dans
 # _data/substack.json (accueil, encart d'inscription). Les couvertures sont copiées dans
 # images/substack/ : nj.com les sert lui-même, sans requête vers Substack à la visite.
-# Flux injoignable ou illisible : le script échoue, donc le build aussi, et la version en
-# ligne reste. Couverture injoignable : le post s'affiche sans image.
+# Les deux sont versionnés : Substack refuse le flux aux machines de GitHub Actions (403),
+# le build y garde alors l'instantané du dépôt. Le rafraîchir depuis le VPS après chaque
+# post Substack : `pnpm fetch:substack`, puis commit. Sans instantané, le build échoue.
+# Couverture injoignable : le post s'affiche sans image.
 require "cgi"
 require "json"
 require "net/http"
@@ -19,13 +21,8 @@ LIMIT = 5
 WORDS = 70
 CDN = "https://substackcdn.com/image/fetch/w_1200,c_limit,f_jpg,q_auto:good/"
 
-HEADERS = {
-  "User-Agent" => "Mozilla/5.0 (compatible; nicolasjouanno.com feed reader; +https://www.nicolasjouanno.com/)",
-  "Accept" => "application/rss+xml, application/xml;q=0.9, image/*;q=0.8, */*;q=0.5"
-}.freeze
-
 def get(url, redirects = 3)
-  response = Net::HTTP.get_response(URI(url), HEADERS)
+  response = Net::HTTP.get_response(URI(url))
   return get(response["location"], redirects - 1) if response.is_a?(Net::HTTPRedirection) && redirects.positive?
 
   response
@@ -57,7 +54,13 @@ end
 
 feed_url = YAML.safe_load(ROOT.join("_config.yml").read).dig("substack", "feed")
 response = get(feed_url)
-abort "fetch:substack — #{feed_url} : HTTP #{response.code}" unless response.is_a?(Net::HTTPSuccess)
+DATA = ROOT.join("_data", "substack.json")
+unless response.is_a?(Net::HTTPSuccess)
+  abort "fetch:substack — #{feed_url} : HTTP #{response.code}, aucun instantané" unless DATA.exist?
+
+  puts "fetch:substack — #{feed_url} : HTTP #{response.code}, instantané du dépôt gardé."
+  exit
+end
 
 items = REXML::Document.new(response.body).get_elements("//item").first(LIMIT)
 abort "fetch:substack — aucun post dans #{feed_url}" if items.empty?
@@ -89,5 +92,5 @@ posts = items.map do |item|
   post
 end
 
-ROOT.join("_data", "substack.json").write("#{JSON.pretty_generate(posts)}\n")
+DATA.write("#{JSON.pretty_generate(posts)}\n")
 puts "fetch:substack — #{posts.size} posts, #{posts.count { |post| post['image'] }} couvertures."
