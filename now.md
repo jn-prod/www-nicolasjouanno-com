@@ -15,7 +15,7 @@ Cette page dit ce qui m’occupe en ce moment. Je la mets à jour quand quelque 
 
 ## La Sortie
 
-J’écris l’édition de décembre de [La Sortie]({{ site.substack.url }}), ma lettre mensuelle sur les sorties outdoor. Sa première saison suit un fil : retrouver le plaisir de sortir, moins guidé par les compteurs et les dossards.
+J’écris l’édition de décembre de [La Sortie]({{ site.plateformes.substack.url }}), ma lettre mensuelle sur les sorties outdoor. Sa première saison suit un fil : retrouver le plaisir de sortir, moins guidé par les compteurs et les dossards.
 
 ## Événements
 

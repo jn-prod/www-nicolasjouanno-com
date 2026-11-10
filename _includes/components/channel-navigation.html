@@ -1,64 +1,27 @@
 {%- comment -%}
-  Onglets des canaux. Paramètre : current = "publications" (défaut, accueil) ou "events"
-  (aucun onglet courant). Sur l'accueil, Publications porte aria-current="page" et mène à la
-  liste des posts de La Sortie ; ailleurs, à Substack.
+  Onglets des canaux : les plateformes déclarées `onglet` dans _config.yml, dans l'ordre des
+  clés, avec l'icône du même nom. Paramètre : current = "publications" (défaut, accueil) ou
+  "events" (aucun onglet courant). Sur l'accueil, l'onglet d'une plateforme qui a une `ancre`
+  porte aria-current="page" et mène à la section de son flux ; ailleurs, à la plateforme.
 {%- endcomment -%}
 {%- assign channel_current = include.current | default: "publications" -%}
 <nav class="c-tabs c-channel-navigation" aria-label="Canaux de Nicolas Jouanno">
   <ul class="c-tabs__nav c-channel-navigation__list">
+    {%- for plateforme in site.plateformes %}
+    {%- assign id = plateforme[0] %}
+    {%- assign module = plateforme[1] %}
+    {%- if module.onglet %}
     <li class="c-channel-navigation__item">
-      {%- if channel_current == "publications" %}
-      <a class="c-tabs__tab c-channel-navigation__link" href="#publications" aria-current="page">
+      {%- if module.ancre and channel_current == module.ancre %}
+      <a class="c-tabs__tab c-channel-navigation__link" href="#{{ module.ancre }}" aria-current="page">
       {%- else %}
-      <a class="c-tabs__tab c-channel-navigation__link" href="{{ site.substack.url }}" target="_blank" rel="noopener">
+      <a class="c-tabs__tab c-channel-navigation__link" href="{{ module.url }}" target="_blank" rel="noopener">
       {%- endif %}
-        {% include components/icon.html name="substack" %}
-        <span class="u-visually-hidden">Publications — La Sortie sur Substack</span>
+        {% include components/icon.html name=id %}
+        <span class="u-visually-hidden">{{ module.libelle }}</span>
       </a>
     </li>
-    <li class="c-channel-navigation__item">
-      <a
-        class="c-tabs__tab c-channel-navigation__link"
-        href="{{ site.author.instagram }}"
-        target="_blank"
-        rel="noopener"
-      >
-        {% include components/icon.html name="instagram" %}
-        <span class="u-visually-hidden">Instagram — @bynicolasjd</span>
-      </a>
-    </li>
-    <li class="c-channel-navigation__item">
-      <a
-        class="c-tabs__tab c-channel-navigation__link"
-        href="{{ site.author.youtube }}"
-        target="_blank"
-        rel="noopener"
-      >
-        {% include components/icon.html name="youtube" %}
-        <span class="u-visually-hidden">YouTube — @byNicolasJD</span>
-      </a>
-    </li>
-    <li class="c-channel-navigation__item">
-      <a
-        class="c-tabs__tab c-channel-navigation__link"
-        href="{{ site.author.twitter }}"
-        target="_blank"
-        rel="noopener"
-      >
-        {% include components/icon.html name="x" %}
-        <span class="u-visually-hidden">X — @byNicolasJD</span>
-      </a>
-    </li>
-    <li class="c-channel-navigation__item">
-      <a
-        class="c-tabs__tab c-channel-navigation__link"
-        href="{{ site.author.linkedin }}"
-        target="_blank"
-        rel="noopener"
-      >
-        {% include components/icon.html name="linkedin" %}
-        <span class="u-visually-hidden">LinkedIn — Nicolas Jouanno</span>
-      </a>
-    </li>
+    {%- endif %}
+    {%- endfor %}
   </ul>
 </nav>

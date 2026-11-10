@@ -226,11 +226,53 @@ Au build, le pré-build remplace temporairement ce lien par `/images/posts/nom-d
 pnpm build:images
 ```
 
+## Écosystème IndieWeb
+
+Le site suit le principe IndieWeb [PESOS](https://indieweb.org/PESOS) : on publie sur les plateformes, le site rapatrie chez lui et relie tout. Chaque plateforme est un module du site, branché ou débranché sans toucher au reste, à la manière d’un adaptateur en architecture hexagonale :
+
+| Couche | Ici | Rôle |
+| --- | --- | --- |
+| Domaine | posts, pages, layouts et includes | Le site ; ne nomme aucune plateforme. |
+| Port | `plateformes` dans `_config.yml`, lu par `site.plateformes` | Le contrat : ce qu’un module déclare et que les gabarits lisent. |
+| Adaptateurs | une clé par plateforme, et son collecteur s’il rapatrie un flux | Le module. |
+
+### Contrat d’un module
+
+Une clé sous `plateformes`, dont le nom sert aussi d’icône (`_includes/icons/<clé>.svg`) :
+
+- `url` (obligatoire) : le profil ou la publication ;
+- `libelle` : nom accessible du lien, avec le compte (`Instagram — @bynicolasjd`) ;
+- `rel_me` : le profil est déclaré dans `<link rel="me">` de chaque page et dans le `sameAs` du JSON-LD de l’accueil (paramètres `utm_*` retirés) ;
+- `onglet` : le module a un onglet dans les canaux (`_includes/components/channel-navigation.html`), dans l’ordre des clés ;
+- `ancre` : sur l’accueil, l’onglet porte `aria-current="page"` et mène à la section de son flux (`#publications`) au lieu de la plateforme ;
+- le reste est propre au module (`feed`, `subscribe` et `archive` de Substack, `abonnes` de Facebook).
+
+Un gabarit qui cite un module précis passe par `site.plateformes.<clé>` et entoure l’élément de `{% if site.plateformes.<clé> %}` : il disparaît quand le module est débranché.
+
+### Brancher, débrancher
+
+- Brancher : ajouter la clé (et l’icône si le module a un onglet), puis `pnpm build`.
+- Débrancher : retirer la clé (et son collecteur s’il en a un), puis `pnpm build`.
+
+`pnpm check:site` échoue sur un lien vide dans le site généré, signe d’un module débranché encore cité sans `if` (dans un texte de post, par exemple), et sur l’adresse d’une plateforme écrite en dur dans `_layouts/` ou `_includes/`.
+
+### Modules branchés
+
+- **Substack** (La Sortie), avec flux : avant le build, `pnpm fetch:substack` (`scripts/fetch-substack.rb`) lit `plateformes.substack.feed`, écrit les 10 derniers posts dans `_data/substack.json` et copie leurs couvertures dans `images/substack/` : l’accueil en affiche 5, et le site sert lui-même les images. Les flux `/feed.xml` et `/feed.json` mêlent ces posts et ceux de nj.com hors archive, par date (`_includes/feed-order.html`) : l’adresse du flux reste celle du site, quel que soit l’outil de la newsletter. Substack refuse son flux aux machines de GitHub Actions (403) : les deux sont versionnés, la CI garde cet instantané, et on le rafraîchit depuis le VPS après chaque post Substack (`pnpm fetch:substack`, puis commit).
+- **Instagram, YouTube, X, LinkedIn** : profil déclaré et onglet.
+- **Facebook** : profil déclaré et compteur d’abonnés de l’accueil, relevé à la main.
+- **Strava, GitHub** : profil déclaré.
+
+### Conventions IndieWeb
+
+- `rel="me"` : les profils des modules `rel_me`, et l’adresse e-mail.
+- [h-card](https://microformats.org/wiki/h-card) sur l’accueil et la page À propos, [h-entry](https://microformats.org/wiki/h-entry) sur chaque post et chaque carte du flux, `h-feed` sur les listes de posts.
+- [Webmentions](https://indieweb.org/Webmention) reçues par webmention.io (`author.webmention`), lues à la main avant d’être citées dans `mentions` (section « Publier un article »).
+- La page `/indieweb/` explique ces choix aux lecteurs.
+
 ## Flux de publication
 
 `/feed.xml` est le flux RSS principal. Il contient le texte intégral, transforment les liens et médias internes en URL absolues et conservent la mention « Initialement publié sur nicolasjouanno.com ».
-
-La Sortie est publiée sur Substack (`substack` dans `_config.yml`). Avant le build, `pnpm fetch:substack` (`scripts/fetch-substack.rb`) lit son flux, écrit les 10 derniers posts dans `_data/substack.json` et copie leurs couvertures dans `images/substack/` : l’accueil en affiche 5 à la place des posts de nj.com, et le site sert lui-même les images. Les flux `/feed.xml` et `/feed.json` mêlent ces posts et ceux de nj.com hors archive, par date (`_includes/feed-order.html`) : l’adresse du flux reste celle du site, quel que soit l’outil de la newsletter (principe IndieWeb [PESOS](https://indieweb.org/PESOS)). Substack refuse son flux aux machines de GitHub Actions (403) : les deux sont versionnés, la CI garde cet instantané, et on le rafraîchit depuis le VPS après chaque post Substack (`pnpm fetch:substack`, puis commit).
 
 Les textes passés sur Substack, les éditions de La Sortie, `/la-sortie/`, `/la-sortie/subscribe/` et `/newsletter/` redirigent vers leur page Substack (`_redirects/`, `la-sortie/`, `newsletter/`). Les brouillons et le modèle de La Sortie vivent dans alfred. Les événements sont une collection Jekyll (`_events/`, modèle dans `_templates/event.md`), listée sur `/events/`.
 

@@ -24,11 +24,15 @@ Le point de départ reste le [cyclisme professionnel](/results.html), entre <tim
 
 <div class="u-text--center">
   <ul class="c-button-stack c-button-stack--center u-list">
+    {%- if site.plateformes.linkedin %}
     <li>
-      {% include components/social-link.html icon="linkedin" url=site.author.linkedin label="LinkedIn — Nicolas Jouanno" %}
+      {% include components/social-link.html icon="linkedin" url=site.plateformes.linkedin.url label=site.plateformes.linkedin.libelle %}
     </li>
+    {%- endif %}
+    {%- if site.plateformes.github %}
     <li>
-      {% include components/social-link.html icon="github" url=site.author.github label="GitHub — jn-prod" %}
+      {% include components/social-link.html icon="github" url=site.plateformes.github.url label=site.plateformes.github.libelle %}
     </li>
+    {%- endif %}
   </ul>
 </div>

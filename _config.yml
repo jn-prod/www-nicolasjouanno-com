@@ -24,26 +24,59 @@ author:
     - "Sans gluten"
     - "Maladie cœliaque"
     - "Ravitaillement sportif sans gluten"
-  # social
+  # identité IndieWeb de nj.com (pas une plateforme)
   webmention: "https://webmention.io/www.nicolasjouanno.com/webmention"
   handle: "@bynicolasjd"
-  facebook: "https://facebook.com/502710249769535"
-  # abonnés de la page Facebook, relevés à la main
-  facebook_followers: "1,2 k"
-  github: "https://github.com/jn-prod"
-  instagram: "https://www.instagram.com/bynicolasjd/"
-  linkedin: "https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
-  strava: "https://www.strava.com/athletes/njouanno"
-  twitter: "https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
-  youtube: "https://www.youtube.com/@byNicolasJD"
 
-# La Sortie, sur Substack : les derniers posts de l'accueil viennent de son flux
-# (scripts/fetch-substack.rb, au build).
-substack:
-  url: "https://bynicolasjd.substack.com/"
-  feed: "https://bynicolasjd.substack.com/feed"
-  subscribe: "https://bynicolasjd.substack.com/subscribe"
-  archive: "https://bynicolasjd.substack.com/archive"
+# Plateformes : une clé par module de l'écosystème PESOS (README, « Écosystème IndieWeb »).
+# Brancher : ajouter la clé ; débrancher : la retirer. Rôles : rel_me (profil déclaré dans
+# rel="me" et sameAs), onglet (onglets des canaux, dans l'ordre des clés, icône du même nom),
+# ancre (onglet qui mène, sur l'accueil, à la section de son flux). Le reste est propre au module.
+plateformes:
+  substack:
+    url: "https://bynicolasjd.substack.com/"
+    libelle: "Publications — La Sortie sur Substack"
+    onglet: true
+    ancre: "publications"
+    # La Sortie : les derniers posts de l'accueil viennent de son flux
+    # (scripts/fetch-substack.rb, au build).
+    feed: "https://bynicolasjd.substack.com/feed"
+    subscribe: "https://bynicolasjd.substack.com/subscribe"
+    archive: "https://bynicolasjd.substack.com/archive"
+  instagram:
+    url: "https://www.instagram.com/bynicolasjd/"
+    libelle: "Instagram — @bynicolasjd"
+    rel_me: true
+    onglet: true
+  youtube:
+    url: "https://www.youtube.com/@byNicolasJD"
+    libelle: "YouTube — @byNicolasJD"
+    rel_me: true
+    onglet: true
+  x:
+    url: "https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
+    libelle: "X — @byNicolasJD"
+    rel_me: true
+    onglet: true
+  linkedin:
+    url: "https://www.linkedin.com/in/nicolasjouanno/?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
+    libelle: "LinkedIn — Nicolas Jouanno"
+    rel_me: true
+    onglet: true
+  facebook:
+    url: "https://facebook.com/502710249769535"
+    libelle: "Facebook — Nicolas Jouanno"
+    rel_me: true
+    # abonnés de la page, relevés à la main
+    abonnes: "1,2 k"
+  strava:
+    url: "https://www.strava.com/athletes/njouanno"
+    libelle: "Strava — Nicolas Jouanno"
+    rel_me: true
+  github:
+    url: "https://github.com/jn-prod"
+    libelle: "GitHub — jn-prod"
+    rel_me: true
 
 # projects
 projects:

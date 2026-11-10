@@ -4,12 +4,17 @@
 # Contrôles du site généré (_site), lancés à la fin de `pnpm build`, donc aussi en CI :
 # - aucun lien interne cassé entre pages ;
 # - canonical toujours sur www, jamais sur le domaine nu ;
-# - flux XML bien formés et commençant par <?xml, flux JSON valides.
+# - flux XML bien formés et commençant par <?xml, flux JSON valides ;
+# - plateformes (README, « Écosystème IndieWeb ») : aucun lien vide, signe d'un module débranché
+#   encore cité, et aucune adresse de plateforme en dur dans _layouts/ ou _includes/.
 require "json"
 require "pathname"
 require "rexml/document"
+require "uri"
+require "yaml"
 
-SITE = Pathname.new(__dir__).join("..", "_site").expand_path
+ROOT = Pathname.new(__dir__).join("..").expand_path
+SITE = ROOT.join("_site")
 ASSET = /\.(svg|png|webp|jpe?g|gif|ico|css|m?js|json|xml|ics|pdf|txt|woff2?)\z/i.freeze
 REDIRECT = 'http-equiv="refresh"'
 
@@ -28,6 +33,7 @@ pages.each do |page|
 
     errors << "lien interne cassé #{path} dans #{page.relative_path_from(SITE)}"
   end
+  errors << "lien vide dans #{page.relative_path_from(SITE)} : module débranché encore cité ?" if html.include?('href=""')
   html.scan(/rel="canonical" href="([^"]*)"/).flatten.each do |canonical|
     errors << "canonical sans www #{canonical} dans #{page.relative_path_from(SITE)}" if canonical.match?(%r{://nicolasjouanno\.com})
   end
@@ -53,8 +59,18 @@ rescue JSON::ParserError => e
   errors << "#{feed.relative_path_from(SITE)} JSON invalide : #{e.message[0, 80]}"
 end
 
+plateformes = YAML.safe_load(ROOT.join("_config.yml").read).fetch("plateformes", {})
+hotes = plateformes.values.map { |module_| URI(module_.fetch("url")).host }
+ROOT.glob("{_layouts,_includes}/**/*.{html,xml,json}").reject { |f| f.to_s.include?("/_includes/icons/") }.each do |gabarit|
+  hotes.each do |hote|
+    next unless gabarit.read.include?(hote)
+
+    errors << "#{hote} en dur dans #{gabarit.relative_path_from(ROOT)} : passer par site.plateformes"
+  end
+end
+
 if errors.empty?
-  puts "check:site — #{pages.size} pages, liens, canonical et flux OK."
+  puts "check:site — #{pages.size} pages, liens, canonical, flux et #{plateformes.size} plateformes OK."
 else
   warn "check:site — #{errors.size} erreur(s) :\n  #{errors.uniq.join("\n  ")}"
   exit 1

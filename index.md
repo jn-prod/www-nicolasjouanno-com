@@ -17,7 +17,7 @@ script: /assets/share.js
   </div>
 
   <p class="c-profile__description p-note">
-    Retrouver le plaisir de sortir, librement : chaque mois dans <a href="{{ site.substack.url }}">La Sortie</a>, une idée, un vécu, quelques lectures.<br>
+    Retrouver le plaisir de sortir, librement : chaque mois dans <a href="{{ site.plateformes.substack.url }}">La Sortie</a>, une idée, un vécu, quelques lectures.<br>
     <span aria-hidden="true">⏮️</span> <a href="/results.html">Ex-cycliste pro</a>.
     <span aria-hidden="true">🌱</span> <a href="/apps/gluten-not-gluten/">Assiettes sans gluten</a>.
   </p>
@@ -40,11 +40,13 @@ script: /assets/share.js
         <span><strong>{{ site.data.blogroll | size }}</strong> abonnement{% if site.data.blogroll.size > 1 %}s{% endif %}</span>
       </a>
     </li>
+    {%- if site.plateformes.facebook %}
     <li class="c-meta-list__item">
-      <a class="c-meta-list__link" href="{{ site.author.facebook }}" target="_blank" rel="noopener">
-        <span><strong>{{ site.author.facebook_followers }}</strong> abonnés<span class="u-visually-hidden"> sur Facebook</span></span>
+      <a class="c-meta-list__link" href="{{ site.plateformes.facebook.url }}" target="_blank" rel="noopener">
+        <span><strong>{{ site.plateformes.facebook.abonnes }}</strong> abonnés<span class="u-visually-hidden"> sur Facebook</span></span>
       </a>
     </li>
+    {%- endif %}
     <li class="c-meta-list__item">
       <a class="c-meta-list__link" href="/posts.html">
         <span><strong>{{ published_posts | size }}</strong> publication{% if published_posts.size > 1 %}s{% endif %}</span>
@@ -59,7 +61,9 @@ script: /assets/share.js
   {% endif %}
 
   <div class="c-button-stack">
-    <a class="c-button c-button--brand" href="{{ site.substack.subscribe }}">Suivre</a>
+    {%- if site.plateformes.substack %}
+    <a class="c-button c-button--brand" href="{{ site.plateformes.substack.subscribe }}">Suivre</a>
+    {%- endif %}
     <a class="c-button c-button--dark-outline u-email" href="mailto:{{ site.author.email }}">Contact</a>
     <button class="c-button c-button--dark-outline" type="button" data-share-profile hidden>Partager</button>
   </div>
@@ -75,4 +79,4 @@ script: /assets/share.js
   {% endfor %}
 </ul>
 
-<p class="u-spacing--block-start-medium"><a href="{{ site.substack.archive }}" class="c-button c-button--dark-outline">Toutes les publications sur Substack</a></p>
+{% if site.plateformes.substack %}<p class="u-spacing--block-start-medium"><a href="{{ site.plateformes.substack.archive }}" class="c-button c-button--dark-outline">Toutes les publications sur Substack</a></p>{% endif %}

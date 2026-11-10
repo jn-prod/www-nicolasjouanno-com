@@ -20,6 +20,13 @@ Un post se publie avec `pnpm publish:post` ou le workflow « Publier un post » 
 section « Publication et déploiement »), jamais en déplaçant le fichier à la main. Ne publier
 qu'à la demande explicite de Nicolas.
 
+## Plateformes
+
+Une plateforme (Substack, Instagram, réseaux…) ne se branche que par un module : une clé sous
+`plateformes` dans `_config.yml`, lue par `site.plateformes`, jamais une adresse en dur dans un
+gabarit. Contrat, procédure pour brancher et débrancher, conventions IndieWeb : README, section
+« Écosystème IndieWeb ». `pnpm check:site` le vérifie.
+
 ## Conventions SCSS
 
 ### Créer un composant

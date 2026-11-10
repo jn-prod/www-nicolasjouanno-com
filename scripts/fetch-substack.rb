@@ -52,7 +52,7 @@ def summary(item)
   subtitle
 end
 
-feed_url = YAML.safe_load(ROOT.join("_config.yml").read).dig("substack", "feed")
+feed_url = YAML.safe_load(ROOT.join("_config.yml").read).dig("plateformes", "substack", "feed")
 response = get(feed_url)
 DATA = ROOT.join("_data", "substack.json")
 unless response.is_a?(Net::HTTPSuccess)
