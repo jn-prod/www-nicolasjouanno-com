@@ -1,5 +1,5 @@
 ---
-category: guide
+category: post
 title: "Régler les suspensions de son VTT : fourche et amortisseur"
 description: "SAG, compression, blocage, détente : l’ordre et la méthode pour régler la fourche et l’amortisseur de son VTT, et que faire si le blocage ne marche plus."
 tags:

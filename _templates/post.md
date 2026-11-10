@@ -1,7 +1,7 @@
 ---
 title: ""
 description: ""
-category: guide
+category: post
 tags:
   - outdoor
   - vtt

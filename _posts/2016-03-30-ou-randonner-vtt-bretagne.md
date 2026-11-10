@@ -1,5 +1,5 @@
 ---
-category: guide
+category: post
 title: "Où randonner en VTT en Bretagne ? Circuits et randonnées organisées"
 description: "Circuits VTT en Bretagne par région : Finistère, Morbihan, Côtes-d'Armor, Ille-et-Vilaine. 9 espaces VTT FFC labellisés et calendrier des randonnées organisées."
 tags:

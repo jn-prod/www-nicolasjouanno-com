@@ -1,5 +1,5 @@
 ---
-category: guide
+category: post
 title: "Quel entrainement pour progresser en VTT ?"
 description: "Pour progresser en VTT, il faut un juste équilibre de séances d'entrainement technique et du physique. Voici comment améliorer ces capacités."
 tags:

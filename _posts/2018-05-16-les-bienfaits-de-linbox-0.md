@@ -1,5 +1,5 @@
 ---
-category: recit
+category: post
 title: Les bienfaits de l’inbox 0
 description: "L’inbox 0 transforme ton rapport aux emails : découvre comment cette méthode de productivité simple permet de commencer chaque journée l’esprit libre."
 tags:

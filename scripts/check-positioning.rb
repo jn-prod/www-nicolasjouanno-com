@@ -38,6 +38,8 @@ SECONDARY_TAGS = %w[
   productivité
 ].freeze
 ALLOWED_POST_TAGS = (DOMAIN_TAGS + SECONDARY_TAGS).freeze
+# `post` est listé par /posts.html ; `archive` a sa page, et ses posts sont en noindex.
+CATEGORIES = %w[post archive].freeze
 
 def fail_with(errors)
   return if errors.empty?
@@ -125,7 +127,9 @@ POSTS_DIR.glob("*.md").each do |post_path|
   category = frontmatter["category"]
   if !category.is_a?(String) || category.empty?
     errors << "#{relative_path} must have exactly one category"
-  elsif !category_pages.key?(category)
+  elsif !CATEGORIES.include?(category)
+    errors << "#{relative_path} category must be one of #{CATEGORIES.join(', ')}"
+  elsif category != "post" && !category_pages.key?(category)
     errors << "#{relative_path} has no category page for #{category.inspect}"
   else
     post_counts_by_category[category] += 1

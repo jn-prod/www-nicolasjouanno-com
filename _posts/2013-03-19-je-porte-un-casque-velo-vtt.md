@@ -1,5 +1,5 @@
 ---
-category: guide
+category: post
 title: "Je porte un casque, ou comment rester en vie à vélo"
 description: "Pourquoi porter un casque à vélo et en VTT, et comment bien le régler. Les chiffres qui font réfléchir et les bons réflexes."
 tags:

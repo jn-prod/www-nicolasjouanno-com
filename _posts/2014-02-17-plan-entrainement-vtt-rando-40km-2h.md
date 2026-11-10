@@ -1,5 +1,5 @@
 ---
-category: guide
+category: post
 title: "Plan d'entraînement VTT n°1 : ta rando de 40 km en 2 h"
 description: "Un plan d'entraînement VTT sur la semaine pour gagner en endurance et en force explosive, et boucler ta rando de 40 km en 2 h."
 tags:

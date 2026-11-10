@@ -1,5 +1,5 @@
 ---
-category: recit
+category: post
 title: Wordpress vs Medium
 description: "Wordpress, Medium ou Jekyll : quel outil de blogging choisir ? Comparatif des avantages, limites et cas d'usage de chaque plateforme pour créer et gérer ton blog."
 tags:

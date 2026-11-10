@@ -65,13 +65,13 @@ pnpm build:images    # WebP + optimisation SVG dans images-dist/
 
 ## Publier un article
 
-Le front matter reste volontairement natif Jekyll : une seule `category` décrit le format de lecture, plusieurs `tags` décrivent les sujets.
+Le front matter reste volontairement natif Jekyll : une seule `category` sépare les posts des archives, plusieurs `tags` décrivent les sujets.
 
 ```yaml
 ---
 title: "Titre"
 description: "Description"
-category: guide # guide, recit ou archive
+category: post # post ou archive
 tags:
   - outdoor
   - vtt
@@ -82,7 +82,7 @@ image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
 ---
 ```
 
-- `category` alimente les pages Guides, Récits et Archive ainsi que le fil d’Ariane.
+- `category` n’est pas affichée : `post` est listé sur `/posts.html` ; `archive` (actualités de 2013-2014) a sa page `/archive.html`, sort des listes et des pages de tags, et passe en `noindex`.
 - `tags` alimente les pages thématiques Outdoor, VTT, Trail, Nutrition, Sans gluten et Work. Les publications VTT et trail portent aussi le tag parent `outdoor`.
 - Les domaines publics sont `outdoor`, `vtt`, `trail`, `nutrition`, `sans-gluten` et `work`. Des repères secondaires contrôlés, d’un seul mot (`enduro`, `équipement`, `randonnée`, `entraînement`, `hiver`, `santé`, `sécurité`, `cyclisme`, `compétition`, `web`, `ia`, `productivité`), peuvent relier les articles entre eux, sans page dédiée. Ne pas créer de tag SEO, marque, lieu ou requête longue.
 - Les pages qui portent un champ `tag` définissent les sujets publics ; `parent_tag` relie une page à son sujet parent dans le fil d’Ariane. Les tags secondaires restent limités au vocabulaire contrôlé ci-dessus.
