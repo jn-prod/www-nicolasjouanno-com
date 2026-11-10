@@ -14,8 +14,26 @@ layout: null
     "avatar": "{{ site.url }}/{{ site.author.avatar }}"
   },
   "items": [
-    {% assign feed_posts = site.posts | where_exp: "post", "post.category != 'archive'" %}
-    {% for post in feed_posts limit:10 %}
+    {% include feed-order.html %}
+    {% for feed_key in feed_keys %}
+    {% assign feed_index = feed_key | remove_first: "s" | remove_first: "p" | plus: 0 %}
+    {% if feed_key contains "s" %}
+    {% assign entry = site.data.substack[feed_index] %}
+    {
+      "id": {{ entry.url | jsonify }},
+      "url": {{ entry.url | jsonify }},
+      "title": {{ entry.title | jsonify }},
+      "summary": {{ entry.description | truncatewords: 50 | jsonify }},
+      "content_text": {{ entry.description | jsonify }},
+      "date_published": "{{ entry.date | date_to_xmlschema }}",
+      {% if entry.image %}
+      "image": "{{ entry.image | absolute_url }}",
+      {% endif %}
+      "tags": ["la-sortie"]
+    }{% unless forloop.last %},{% endunless %}
+    {% continue %}
+    {% endif %}
+    {% assign post = feed_site[feed_index] %}
     {% capture absolute_src %}src="{{ site.url }}/{% endcapture %}
     {% capture absolute_href %}href="{{ site.url }}/{% endcapture %}
     {% capture feed_content %}

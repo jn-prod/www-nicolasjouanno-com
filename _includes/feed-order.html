@@ -1,0 +1,32 @@
+{%- comment -%}
+  Ordre des flux RSS et JSON (PESOS) : les posts de La Sortie sur Substack (instantané
+  _data/substack.json) et les posts de nj.com hors archive, mêlés par date, 10 au plus.
+  Définit feed_site (posts de nj.com) et feed_keys : « s<i> » pour site.data.substack[i],
+  « p<j> » pour feed_site[j]. Liquid en mode safe ne trie pas deux types de dates : fusion
+  de deux listes déjà triées.
+{%- endcomment -%}
+{%- assign feed_site = site.posts | where_exp: "p", "p.category != 'archive'" -%}
+{%- assign feed_i = 0 -%}
+{%- assign feed_j = 0 -%}
+{%- assign feed_order = "" -%}
+{%- for n in (1..10) -%}
+  {%- assign feed_s = site.data.substack[feed_i] -%}
+  {%- assign feed_p = feed_site[feed_j] -%}
+  {%- if feed_s == nil and feed_p == nil -%}{%- break -%}{%- endif -%}
+  {%- assign feed_sd = feed_s.date | slice: 0, 19 -%}
+  {%- assign feed_pd = feed_p.date | date: "%Y-%m-%dT%H:%M:%S" -%}
+  {%- assign feed_take = "p" -%}
+  {%- if feed_p == nil -%}
+    {%- assign feed_take = "s" -%}
+  {%- elsif feed_s != nil and feed_sd >= feed_pd -%}
+    {%- assign feed_take = "s" -%}
+  {%- endif -%}
+  {%- if feed_take == "s" -%}
+    {%- assign feed_order = feed_order | append: " s" | append: feed_i -%}
+    {%- assign feed_i = feed_i | plus: 1 -%}
+  {%- else -%}
+    {%- assign feed_order = feed_order | append: " p" | append: feed_j -%}
+    {%- assign feed_j = feed_j | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign feed_keys = feed_order | strip | split: " " -%}

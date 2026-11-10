@@ -18,7 +18,30 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>Jekyll v{{ jekyll.version }}</generator>
 
-    {% for post in include.posts limit:10 %}
+    {% include feed-order.html %}
+    {% for feed_key in feed_keys %}
+      {% assign feed_index = feed_key | remove_first: "s" | remove_first: "p" | plus: 0 %}
+      {% if feed_key contains "s" %}
+      {% assign entry = site.data.substack[feed_index] %}
+      <item>
+        <title>{{ entry.title | xml_escape }}</title>
+        <description><![CDATA[
+          {% if entry.image %}<figure><a href="{{ entry.url }}"><img src="{{ entry.image | absolute_url }}" alt=""/></a></figure>{% endif %}
+          <p>{{ entry.description | truncatewords: 70 }}</p>
+          <p><em>Publié dans <a href="{{ entry.url }}">La Sortie</a>.</em></p>
+        ]]></description>
+        <pubDate>{{ entry.date | date_to_rfc822 }}</pubDate>
+        <link>{{ entry.url }}</link>
+        <guid isPermaLink="true">{{ entry.url }}</guid>
+        <dc:creator>{{ site.author.name | xml_escape }}</dc:creator>
+        {% if entry.image %}
+        <enclosure url="{{ entry.image | absolute_url }}" type="image/webp"/>
+        {% endif %}
+        <category>la-sortie</category>
+      </item>
+      {% continue %}
+      {% endif %}
+      {% assign post = feed_site[feed_index] %}
       {% capture absolute_src %}src="{{ site.url }}/{% endcapture %}
       {% capture absolute_href %}href="{{ site.url }}/{% endcapture %}
       {% assign feed_content = post.content | replace: 'src="/', absolute_src | replace: 'href="/', absolute_href %}

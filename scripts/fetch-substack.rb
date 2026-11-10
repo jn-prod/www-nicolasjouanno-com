@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Lit le flux de La Sortie sur Substack et écrit les derniers posts dans
-# _data/substack.json (accueil, encart d'inscription). Les couvertures sont copiées dans
+# Lit le flux de La Sortie sur Substack et écrit ses 10 derniers posts dans
+# _data/substack.json (5 sur l'accueil, 10 dans les flux du site). Les couvertures sont copiées dans
 # images/substack/ : nj.com les sert lui-même, sans requête vers Substack à la visite.
 # Les deux sont versionnés : Substack refuse le flux aux machines de GitHub Actions (403),
 # le build y garde alors l'instantané du dépôt. Le rafraîchir depuis le VPS après chaque
@@ -17,7 +17,7 @@ require "time"
 require "yaml"
 
 ROOT = Pathname.new(__dir__).join("..").expand_path
-LIMIT = 5
+LIMIT = 10
 WORDS = 70
 CDN = "https://substackcdn.com/image/fetch/w_1200,c_limit,f_jpg,q_auto:good/"
 
