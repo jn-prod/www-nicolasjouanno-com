@@ -1,11 +1,9 @@
 // Navigation des canaux : compose la primitive .c-tabs ; ici, uniquement le
-// layout (onglets de largeur égale) et l'identité des canaux. Sous 340 px, les sept onglets
-// de 44 px passent à la ligne plutôt que de faire défiler la page en largeur.
+// layout (onglets de largeur égale) et l'identité des canaux.
 .c-channel-navigation {
   margin-block-end: var(--size-16);
 
   &__list {
-    flex-wrap: wrap;
     padding-inline: var(--size-16);
   }
 

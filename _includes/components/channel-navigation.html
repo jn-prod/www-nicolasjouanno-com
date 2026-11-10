@@ -1,18 +1,18 @@
 {%- comment -%}
-  Onglets des canaux. Paramètre : current = "events" sur /events/, qui porte alors
-  aria-current="page" ; les autres onglets mènent hors de la page.
+  Onglets des canaux. Paramètre : current = "publications" (défaut, accueil) ou "events" ;
+  l'onglet courant porte aria-current="page". Sur l'accueil, Publications mène à la liste
+  des posts de La Sortie ; ailleurs, à Substack.
 {%- endcomment -%}
 {%- assign channel_current = include.current | default: "publications" -%}
 <nav class="c-tabs c-channel-navigation" aria-label="Canaux de Nicolas Jouanno">
   <ul class="c-tabs__nav c-channel-navigation__list">
     <li class="c-channel-navigation__item">
-      <a
-        class="c-tabs__tab c-channel-navigation__link"
-        href="{{ site.substack.url }}"
-        target="_blank"
-        rel="noopener"
-      >
-        {% include components/icon.html name="notes" %}
+      {%- if channel_current == "publications" %}
+      <a class="c-tabs__tab c-channel-navigation__link" href="#publications" aria-current="page">
+      {%- else %}
+      <a class="c-tabs__tab c-channel-navigation__link" href="{{ site.substack.url }}" target="_blank" rel="noopener">
+      {%- endif %}
+        {% include components/icon.html name="substack" %}
         <span class="u-visually-hidden">Publications — La Sortie sur Substack</span>
       </a>
     </li>
@@ -24,15 +24,6 @@
       >
         {% include components/icon.html name="calendar" %}
         <span class="u-visually-hidden">Événements</span>
-      </a>
-    </li>
-    <li class="c-channel-navigation__item">
-      <a
-        class="c-tabs__tab c-channel-navigation__link"
-        href="/apps/gluten-not-gluten/"
-      >
-        {% include components/icon.html name="wheat-question" %}
-        <span class="u-visually-hidden">Quiz Gluten ou pas gluten</span>
       </a>
     </li>
     <li class="c-channel-navigation__item">
