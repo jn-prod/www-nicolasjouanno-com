@@ -24,12 +24,12 @@ Je crée sur le web depuis plus de vingt ans : d’abord sur Skyblog et MySpace 
 
 Après le bitume, je suis revenu à ma passion d’origine : le VTT. J’ai essayé de renouer avec les dossards, mais j’ai vite cherché une pratique plus libre, plus fun.
 
-vtt.bzh est né en 2013 d’une question simple : où rouler dimanche ? Ce calendrier vit aujourd’hui sur la page [Événements]({{ site.projects.events.url }}).
+vtt.bzh est né en 2013 d’une question simple : où rouler dimanche ?
 
 Puis j’ai voulu redécouvrir les sentiers autrement. C’est là que j’ai découvert le trail et commencé à prendre plaisir avec une simple paire de baskets.
 
 <p class="c-button-stack">
-  <a href="/vtt/" class="c-button c-button--dark-outline">VTT</a>
+  <a href="/outdoor/" class="c-button c-button--dark-outline">Outdoor</a>
 </p>
 
 ## Sans gluten
@@ -41,13 +41,5 @@ La maladie cœliaque est entrée dans notre vie familiale et a changé des geste
 Après le cyclisme professionnel, je me suis reconverti dans le numérique. Je suis aujourd’hui développeur frontend. Je partage ce cheminement, les projets que je construis et ce qu’ils m’apprennent.
 
 <p><a href="/work/" class="c-button c-button--dark-outline">Découvrir mon parcours</a></p>
-
-## Me suivre {#suivre}
-
-Une fois par mois, [La Sortie]({{ site.substack.url }}) : une photo, un vécu et ce qui mérite l’attention dehors, par e-mail ou par [flux RSS]({{ site.substack.feed }}).
-
-<p><a class="c-button c-button--brand" href="{{ site.substack.subscribe }}">Recevoir La Sortie</a></p>
-
-{% include components/social-links.html %}
 
 Ce site suit les conventions de l’[IndieWeb](/indieweb/).

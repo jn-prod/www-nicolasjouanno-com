@@ -75,4 +75,4 @@ script: /assets/share.js
   {% endfor %}
 </ul>
 
-<p class="u-spacing--block-start-medium"><a href="{{ site.substack.archive }}" class="c-button c-button--dark-outline">Voir toutes les publications</a></p>
+<p class="u-spacing--block-start-medium"><a href="{{ site.substack.archive }}" class="c-button c-button--dark-outline">Toutes les publications sur Substack</a></p>

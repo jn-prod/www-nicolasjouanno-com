@@ -22,8 +22,10 @@ SKIPPED_DIRECTORIES = %w[
   www
 ].freeze
 LEGACY_KEYS = %w[archive categories format sous_silo verticale].freeze
-DOMAIN_TAGS = %w[outdoor vtt trail nutrition sans-gluten work].freeze
+DOMAIN_TAGS = %w[outdoor work].freeze
 SECONDARY_TAGS = %w[
+  vtt
+  nutrition
   enduro
   équipement
   randonnée

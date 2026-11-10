@@ -23,7 +23,7 @@ vtt.bzh, le calendrier que j’ai lancé en 2013, est devenu la page [Événemen
 
 ## Ce site
 
-La Sortie paraît sur Substack et ses derniers posts reviennent sur l’accueil : ce site garde l’archive et relie le reste, selon les conventions de l’[IndieWeb](/indieweb/). Les façons de me suivre sont sur [À propos](/about/#suivre).
+La Sortie paraît sur Substack et ses derniers posts reviennent sur l’accueil : ce site garde l’archive et relie le reste, selon les conventions de l’[IndieWeb](/indieweb/). Les façons de me suivre sont sur l’[accueil](/).
 
 ## Ce que je lis
 

@@ -1,5 +1,5 @@
 ---
 permalink: /hello/
-redirect_to: /about/#suivre
+redirect_to: /
 sitemap: false
 ---

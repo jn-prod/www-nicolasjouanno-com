@@ -13,19 +13,19 @@ Ce site garde la forme d’un profil, celle que tout le monde sait lire. Dessous
 
 ## Ce que ça change ici
 
-- **Ce site rassemble ce que je publie ailleurs.** La Sortie paraît sur Substack ; ses derniers posts reviennent chaque jour sur l’accueil de ce site et dans son flux RSS. C’est le principe [PESOS](https://indieweb.org/PESOS) : publier ailleurs, rapatrier chez soi. Les guides et les archives restent ici, à leur adresse.
+- **Ce site rassemble ce que je publie ailleurs.** La Sortie paraît sur Substack ; ses derniers posts reviennent sur l’accueil de ce site et dans son flux RSS. C’est le principe [PESOS](https://indieweb.org/PESOS) : publier ailleurs, rapatrier chez soi. Les guides et les archives restent ici, à leur adresse.
 - **Le site déclare mes profils.** L’en-tête de chaque page relie mes profils avec l’attribut [`rel="me"`](https://indieweb.org/rel-me), qui indique que le lien désigne la même personne que la page.
 - **Les machines lisent aussi le site.** L’accueil et la page À propos décrivent l’auteur avec un [h-card](https://microformats.org/wiki/h-card), et chaque article est balisé en [h-entry](https://microformats.org/wiki/h-entry). Un lecteur de flux ou un annuaire y retrouve le nom, la photo, le titre et la date sans deviner.
 - **Les réponses arrivent ici, et je choisis ce qui s’affiche.** Le site accepte les [webmentions](https://indieweb.org/Webmention), le standard qui permet à des sites de se répondre entre eux. Je les lis avant d’en afficher une sous l’article, dans « Ils en parlent », avec les autres pages qui le citent. Tu peux aussi me répondre par e-mail, ou sous la publication relayée sur les réseaux.
 
 ## Les pages
 
-Leur nom reprend les « [slash pages](https://slashpages.net/) », ces pages placées à la racine d’un site (`/about`, `/now`, `/hello`, `/blogroll`…).
+Leur nom reprend les « [slash pages](https://slashpages.net/) », ces pages placées à la racine d’un site (`/about`, `/now`, `/blogroll`…).
 
-- [À propos](/about/) : qui je suis, et comment me suivre : La Sortie, son flux RSS, Facebook, Instagram et X.
+- [À propos](/about/) : qui je suis, d’où je viens.
 - [En ce moment](/now/) : ce qui m’occupe, daté et mis à jour quand ça change.
 - [Abonnements](/blogroll/) : les blogs que je suis. Cette page n’est pas indexée par les moteurs de recherche.
-- [Flux RSS](/feed.xml) et [flux JSON](/feed.json) : les publications du site, pour un lecteur de flux.
+- [Flux RSS](/feed.xml) et [flux JSON](/feed.json) : les publications du site et de La Sortie, pour un lecteur de flux.
 
 ## Ce que je n’ai pas mis en place
 
