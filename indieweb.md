@@ -24,7 +24,7 @@ Leur nom reprend les « [slash pages](https://slashpages.net/) », ces pages pla
 
 - [À propos](/about/) : qui je suis.
 - [En ce moment](/now/) : ce qui m’occupe, daté et mis à jour quand ça change.
-- [Où me suivre](/hello/) : La Sortie, le flux RSS, Facebook, Instagram et Threads.
+- [Où me suivre](/hello/) : La Sortie, le flux RSS, Facebook, Instagram et X.
 - [Abonnements](/blogroll/) : les blogs que je suis. Cette page n’est pas indexée par les moteurs de recherche.
 - [Flux RSS](/feed.xml) et [flux JSON](/feed.json) : les publications du site, pour un lecteur de flux.
 
