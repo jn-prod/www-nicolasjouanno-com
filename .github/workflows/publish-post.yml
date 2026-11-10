@@ -1,8 +1,7 @@
 name: Publier un post
 
 # Publication sans VPS : depuis l'onglet Actions (ou l'app GitHub), choisir le brouillon.
-# Le workflow lance `pnpm publish:post`, commite sur main puis déploie le site. Une
-# édition de La Sortie déclenche ensuite la création de sa campagne Kit en brouillon.
+# Le workflow lance `pnpm publish:post`, commite sur main puis déploie le site.
 on:
   workflow_dispatch:
     inputs:

@@ -14,7 +14,7 @@ truncatewords: 70 %}
   {% endif %}
 
   <header class="c-publication-card__header">
-    {% include components/post-taxonomy.html item=post %}
+    {% if post.tags or post.category %}{% include components/post-taxonomy.html item=post %}{% endif %}
 
     <h3 class="c-publication-card__title p-name" id="{{post.slug}}-title">
       <a class="u-link--dark u-url" href="{{ post.url | absolute_url }}"

@@ -138,7 +138,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_section.scss` | `.c-section` | Bande pleine largeur et variantes `brand`, `dark`, `light` |
 | `_navigation.scss` | `.c-navigation` | Navigation d’en-tête et groupe d’actions |
 | `_quiz.scss` | `.c-quiz` | Layout spécifique au quiz — surcouche contextuelle uniquement |
-| `_newsletter-form.scss` | `.c-newsletter-form` | Formulaire d’inscription natif au site, relié à Kit sans charger son script embarqué |
+| `_newsletter-form.scss` | `.c-newsletter-form` | Encart d’inscription à La Sortie : lien vers sa page Substack, sans script ni iframe |
 | `_profile.scss` | `.c-profile` | En-tête de profil de la home : identité, description, métadonnées et actions |
 | `_channel-navigation.scss` | `.c-channel-navigation` | Navigation compacte entre le site, ses outils et les réseaux publics sélectionnés ; compose `.c-tabs` et ne porte que le layout |
 
@@ -232,11 +232,11 @@ pnpm build:images
 
 ## Flux de publication
 
-`/feed.xml` est le flux RSS principal. `/la-sortie/feed.xml` applique les mêmes règles aux seules publications qui portent le tag `la-sortie`. Les deux flux contiennent le texte intégral, transforment les liens et médias internes en URL absolues et conservent la mention « Initialement publié sur nicolasjouanno.com ».
+`/feed.xml` est le flux RSS principal. Il contient le texte intégral, transforment les liens et médias internes en URL absolues et conservent la mention « Initialement publié sur nicolasjouanno.com ».
 
-Le formulaire partagé `_includes/components/newsletter-form.html` est affiché sur l’accueil, la page Outdoor, à la fin de chaque article et sur la page `/la-sortie/subscribe/`. Cette dernière est la destination minimale à partager hors du site ; elle ne montre que la promesse, le formulaire et un lien discret vers les éditions. L'ancienne URL `/subscribe/` redirige vers elle. Les pages génériques de cycle de vie restent sous `/newsletter/` (`merci`, `confirmee`, `good-by`) ; sa racine redirige vers l'archive de La Sortie. Le formulaire envoie directement les inscriptions au formulaire Kit `9378910` pour **La Sortie** : une édition mensuelle ouverte par une photo et un vécu, poursuivie par un sujet outdoor principal, d’éventuelles rubriques secondaires et une sélection issue de la collection `_events`. Le rendu reste maîtrisé par le site et aucun script d’intégration Kit n’est chargé.
+La Sortie est publiée sur Substack (`substack` dans `_config.yml`). Avant le build, `pnpm fetch:substack` (`scripts/fetch-substack.rb`) lit son flux, écrit les 5 derniers posts dans `_data/substack.json` et copie leurs couvertures dans `images/substack/` (fichiers non versionnés) : l’accueil les affiche à la place des posts de nj.com, et le site sert lui-même les images. Flux injoignable : le build échoue et la version en ligne reste. Le build quotidien de 04:30 UTC suit donc les nouveaux posts.
 
-Les éditions sont des posts Jekyll ordinaires avec `category: newsletter`, rendus depuis `_templates/newsletter.md` et archivés sous `/la-sortie/`. Les événements sont une collection Jekyll (`_events/`, modèle dans `_templates/event.md`), listée sur `/events/`. `/la-sortie/editions.json` expose les éditions au format JSON pour la préparation de la campagne Kit.
+L’encart partagé `_includes/components/newsletter-form.html` (accueil, page Outdoor, fin de chaque article, `/events/`) renvoie vers la page d’inscription Substack. Les textes passés sur Substack, `/la-sortie/` et `/la-sortie/subscribe/` redirigent vers leur page Substack (`_redirects/`, `la-sortie/`). Les éditions de juillet et août 2026 restent des posts `category: newsletter` sous `/la-sortie/AAAA-MM/`. Les événements sont une collection Jekyll (`_events/`, modèle dans `_templates/event.md`), listée sur `/events/`.
 
 ## Publication et déploiement
 
@@ -245,9 +245,9 @@ Un post s’écrit dans `_drafts/`, puis se publie de deux façons équivalentes
 - **sans VPS** : onglet Actions → « Publier un post » (`.github/workflows/publish-post.yml`), avec le nom du brouillon, une date facultative et l’option d’épingle ;
 - **en local** : `pnpm publish:post <brouillon> [--date=AAAA-MM-JJ] [--pin]`, puis commit et push.
 
-`publish:post` déplace le brouillon dans `_posts/` à sa date, transfère l’épingle avec `--pin` et refuse un brouillon incomplet : titre, description ou catégorie vides, couverture manquante pour une newsletter, commentaire HTML ou consigne entre crochets restants. Une édition de La Sortie ouvre en plus le brouillon du mois suivant (`_drafts/README.md`). Une date future est mise en ligne par le build quotidien, programmé à 04:30 UTC (`future: false`) ; GitHub retarde souvent les tâches programmées de plusieurs heures.
+`publish:post` déplace le brouillon dans `_posts/` à sa date, transfère l’épingle avec `--pin` et refuse un brouillon incomplet : titre, description ou catégorie vides, couverture manquante pour une newsletter, commentaire HTML ou consigne entre crochets restants. Une date future est mise en ligne par le build quotidien, programmé à 04:30 UTC (`future: false`) ; GitHub retarde souvent les tâches programmées de plusieurs heures.
 
-Chaque déploiement (`.github/workflows/github-pages.yml` : push sur `main`, build quotidien, publication) contrôle la confidentialité (`pnpm check:privacy`, denylist dans le secret `PRIVACY_DENYLIST`), le lint et le build. Celui-ci comprend `check:positioning`, `check:content-images` et `check:site` (liens internes, canonical, flux). Après le déploiement, une édition de La Sortie publiée depuis moins de 7 jours obtient sa campagne Kit en brouillon (`scripts/kit-broadcast.mjs`, secret `KIT_API_KEY`, variables `KIT_SEGMENT_IDS` et `KIT_EMAIL_TEMPLATE_ID`). L’envoi se déclenche dans Kit.
+Chaque déploiement (`.github/workflows/github-pages.yml` : push sur `main`, build quotidien, publication) contrôle la confidentialité (`pnpm check:privacy`, denylist dans le secret `PRIVACY_DENYLIST`), le lint et le build. Celui-ci comprend `check:positioning`, `check:content-images` et `check:site` (liens internes, canonical, flux).
 
 ## License
 

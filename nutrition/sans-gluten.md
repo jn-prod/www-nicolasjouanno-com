@@ -1,7 +1,5 @@
 ---
-layout: tag
-tag: sans-gluten
-parent_tag: nutrition
+layout: page
 title: Sans gluten — vivre, cuisiner et voyager avec la maladie cœliaque
 description: "Le sans gluten vécu en famille : courses, cuisine, restaurants et voyages, avec le quiz Gluten ou pas gluten pour rendre la vigilance visible."
 permalink: /nutrition/sans-gluten.html
@@ -20,3 +18,5 @@ La maladie cœliaque est entrée dans notre vie familiale et a changé des geste
   <p class="c-callout__text">Le quiz est né pour rendre visible la charge mentale de cette question et la partager plus facilement, aliment par aliment.</p>
   <a href="/apps/gluten-not-gluten/" class="c-button c-button--light">Lancer le quiz</a>
 </aside>
+
+Sur [La Sortie]({{ site.substack.url }}) : [Galette sans gluten : ce que rembourse réellement l’Assurance Maladie](https://bynicolasjd.substack.com/p/galette-sans-gluten-ce-que-rembourse-26-01-15).

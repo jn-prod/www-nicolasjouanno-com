@@ -1,6 +1,6 @@
 {%- comment -%}
-  Onglets des canaux. Paramètre : current = "publications" (défaut, home) ou "events".
-  L'onglet courant porte aria-current="page".
+  Onglets des canaux. Paramètre : current = "events" sur /events/, qui porte alors
+  aria-current="page" ; les autres onglets mènent hors de la page.
 {%- endcomment -%}
 {%- assign channel_current = include.current | default: "publications" -%}
 <nav class="c-tabs c-channel-navigation" aria-label="Canaux de Nicolas Jouanno">
@@ -8,11 +8,12 @@
     <li class="c-channel-navigation__item">
       <a
         class="c-tabs__tab c-channel-navigation__link"
-        href="{% if channel_current == "publications" %}#publications{% else %}/#publications{% endif %}"
-        {%- if channel_current == "publications" %} aria-current="page"{% endif %}
+        href="{{ site.substack.url }}"
+        target="_blank"
+        rel="noopener"
       >
         {% include components/icon.html name="notes" %}
-        <span class="u-visually-hidden">Publications</span>
+        <span class="u-visually-hidden">Publications — La Sortie sur Substack</span>
       </a>
     </li>
     <li class="c-channel-navigation__item">
@@ -37,17 +38,6 @@
     <li class="c-channel-navigation__item">
       <a
         class="c-tabs__tab c-channel-navigation__link"
-        href="{{ site.author.facebook }}"
-        target="_blank"
-        rel="noopener"
-      >
-        {% include components/icon.html name="facebook" %}
-        <span class="u-visually-hidden">Facebook — Nicolas Jouanno</span>
-      </a>
-    </li>
-    <li class="c-channel-navigation__item">
-      <a
-        class="c-tabs__tab c-channel-navigation__link"
         href="{{ site.author.instagram }}"
         target="_blank"
         rel="noopener"
@@ -65,6 +55,28 @@
       >
         {% include components/icon.html name="youtube" %}
         <span class="u-visually-hidden">YouTube — @byNicolasJD</span>
+      </a>
+    </li>
+    <li class="c-channel-navigation__item">
+      <a
+        class="c-tabs__tab c-channel-navigation__link"
+        href="{{ site.author.twitter }}"
+        target="_blank"
+        rel="noopener"
+      >
+        {% include components/icon.html name="x" %}
+        <span class="u-visually-hidden">X — @byNicolasJD</span>
+      </a>
+    </li>
+    <li class="c-channel-navigation__item">
+      <a
+        class="c-tabs__tab c-channel-navigation__link"
+        href="{{ site.author.linkedin }}"
+        target="_blank"
+        rel="noopener"
+      >
+        {% include components/icon.html name="linkedin" %}
+        <span class="u-visually-hidden">LinkedIn — Nicolas Jouanno</span>
       </a>
     </li>
   </ul>

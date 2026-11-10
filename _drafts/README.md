@@ -1,5 +1,8 @@
 # Brouillons de newsletter
 
+> Depuis novembre 2026, La Sortie s'écrit et s'envoie sur Substack. Ce processus ne sert
+> plus qu'aux brouillons restés ici.
+
 Ce dossier contient les éditions en cours. Son contenu n'est pas publié tant qu'il
 reste dans `_drafts/`.
 
@@ -27,8 +30,8 @@ reste dans `_drafts/`.
    du modèle sont facultatives : supprimer celles qui n'ont pas de matière réelle.
 6. Relire liens, informations pratiques et formulation.
 7. Publier avec « Publier un post » (onglet Actions, case « Épingler » cochée) ou
-   `pnpm publish:post <brouillon> --pin` : voir le README du site. Le déploiement crée la
-   campagne Kit en brouillon ; l'envoi se fait dans Kit, à la liste consentie.
+   `pnpm publish:post <brouillon> --pin` : voir le README du site. 
+   L'envoi se fait sur Substack.
 
 ## Idées
 
@@ -48,4 +51,4 @@ le mois suivant va dans le bloc « Veille » de son brouillon. Aucune idée n'ob
 - `_events/` contient la matière calendrier factuelle.
 - Ce dossier porte l'édition éditoriale avant sa publication sur nj.com.
 
-Rien n'est envoyé automatiquement : la campagne Kit reste un brouillon jusqu'au clic.
+Rien n'est envoyé automatiquement depuis ce dépôt.

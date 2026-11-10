@@ -35,7 +35,7 @@ Le traitement repose sur ton consentement, donné lors de l’inscription. Tu pe
 
 ### Prestataire d’envoi
 
-Les inscriptions et les envois sont gérés avec Kit. Kit traite ces données pour le compte de Nicolas Jouanno. Ses services pouvant impliquer un traitement hors de l’Espace économique européen, notamment aux États-Unis, les garanties applicables sont précisées dans sa [documentation RGPD](https://help.kit.com/en/articles/2502571-gdpr-faq).
+Depuis novembre 2026, les inscriptions et les envois sont gérés par Substack, sur la [publication de La Sortie](https://bynicolasjd.substack.com/). L’inscription se fait sur Substack, qui applique sa [politique de confidentialité](https://substack.com/privacy) ; ses services impliquent un traitement aux États-Unis. Les inscriptions recueillies auparavant avec Kit sont transférées sur Substack, puis supprimées de Kit à sa fermeture.
 
 ### Conservation et droits
 

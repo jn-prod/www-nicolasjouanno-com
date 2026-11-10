@@ -117,12 +117,13 @@ test('chaque aide du formulaire est reliée à son champ', async ({ page }) => {
   }
 });
 
-test('le formulaire de La Sortie ouvre la page, avec la dernière édition', async ({ page }) => {
+test("l'encart de La Sortie ouvre la page, avec la dernière publication Substack", async ({ page }) => {
   await page.goto('/events/');
   const newsletter = page.locator('.c-newsletter-form');
   await expect(newsletter).toHaveCount(1);
-  await expect(newsletter.getByText('Dernière édition')).toBeVisible();
-  await expect(newsletter.locator('.c-publication-card a[href*="/la-sortie/"]').first()).toBeVisible();
+  await expect(newsletter.getByText('Dernière publication')).toBeVisible();
+  await expect(newsletter.locator('a[href="https://bynicolasjd.substack.com/subscribe"]')).toBeVisible();
+  await expect(newsletter.locator('.c-publication-card a[href*="bynicolasjd.substack.com/p/"]').first()).toBeVisible();
   const [formTop, calendarTop] = await Promise.all([
     newsletter.evaluate((el) => el.getBoundingClientRect().top),
     page.getByRole('heading', { name: 'À venir' }).evaluate((el) => el.getBoundingClientRect().top),
@@ -131,7 +132,7 @@ test('le formulaire de La Sortie ouvre la page, avec la dernière édition', asy
 });
 
 test("l'encart Événements figure sur un post, quel que soit son type", async ({ page }) => {
-  for (const path of ['/la-sortie/2026-11/', '/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html']) {
+  for (const path of ['/la-sortie/2026-08/', '/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html']) {
     await page.goto(path);
     await expect(page.locator('.c-callout a[href*="/events/"]').first()).toBeVisible();
   }

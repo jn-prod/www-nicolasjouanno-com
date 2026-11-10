@@ -1,7 +1,12 @@
+{%- comment -%}
+  Encart d'inscription à La Sortie, publiée sur Substack : un lien vers sa page
+  d'inscription, sans script ni iframe de Substack. latest=true ajoute le dernier post,
+  lu au build dans _data/substack.json.
+{%- endcomment -%}
 {% assign newsletter_form_id = include.id | default: "newsletter" %} {% assign
-newsletter_form_title = include.title | default: "Recevoir La Sortie" %} {%
-assign newsletter_form_url = include.url | default: "/la-sortie/" %} {% assign
-newsletter_form_description = include.description | default: "Chaque mois, une sortie vécue, le matériel qui la change et les dates à venir." %} {% assign
+newsletter_form_title = include.title | default: "Recevoir La Sortie" %} {% assign
+newsletter_form_url = include.url | default: site.substack.url %} {% assign
+newsletter_form_description = include.description | default: "Chaque mois, retrouver le plaisir de sortir, librement : une idée, un vécu, quelques lectures." %} {% assign
 newsletter_form_note = include.note | default: "Gratuit. Désabonnement en un clic." %}
 <section
   class="c-newsletter-form{% if include.variant %} c-newsletter-form--{{ include.variant }}{% endif %} c-card c-card--neutral{% if include.variant == 'compact' %} c-card--medium{% else %} c-card--large{% endif %}"
@@ -20,31 +25,13 @@ newsletter_form_note = include.note | default: "Gratuit. Désabonnement en un cl
   <p class="c-newsletter-form__description">
     {{ newsletter_form_description }}
   </p>
-  <form
-    class="c-newsletter-form__form"
-    action="https://app.kit.com/forms/9378910/subscriptions"
-    method="post"
-  >
-    <label
-      class="u-visually-hidden"
-      for="newsletter-email-{{ newsletter_form_id }}"
-      >Ton adresse e-mail</label
-    >
-    <input
-      class="c-newsletter-form__input c-control"
-      id="newsletter-email-{{ newsletter_form_id }}"
-      type="email"
-      name="email_address"
-      placeholder="toi@exemple.fr"
-      autocomplete="email"
-      required
-    />
-    <button class="c-button c-button--brand" type="submit">S’inscrire</button>
-  </form>
+  <p class="c-newsletter-form__form">
+    <a class="c-button c-button--brand" href="{{ site.substack.subscribe }}">S’inscrire sur Substack</a>
+  </p>
   <p class="c-newsletter-form__note c-meta">{{ newsletter_form_note }}</p>
-  {% if include.latest %} {% assign post = site.tags["la-sortie"] | first %} {% if post %}
-  <p class="c-newsletter-form__label c-meta">Dernière édition</p>
+  {% if include.latest %} {% assign post = site.data.substack | first %} {% if post %}
+  <p class="c-newsletter-form__label c-meta">Dernière publication</p>
   {% include components/post.html hide_pin=true %}
-  <p class="c-newsletter-form__archive"><a href="/la-sortie/">Toutes les éditions</a></p>
+  <p class="c-newsletter-form__archive"><a href="{{ site.substack.archive }}">Toutes les publications</a></p>
   {% endif %} {% endif %}
 </section>

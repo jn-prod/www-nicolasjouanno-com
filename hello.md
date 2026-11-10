@@ -18,7 +18,7 @@ Tout part de ce site. Choisis comment en recevoir la suite : par e-mail une fois
 
 Une fois par mois, une photo, un vécu et ce qui mérite l’attention dehors.
 
-<p><a class="c-button c-button--brand" href="/la-sortie/subscribe/">Recevoir La Sortie</a></p>
+<p><a class="c-button c-button--brand" href="{{ site.substack.subscribe }}">Recevoir La Sortie</a></p>
 
 ## Flux RSS
 

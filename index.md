@@ -17,7 +17,7 @@ script: /assets/share.js
   </div>
 
   <p class="c-profile__description p-note">
-    Où sortir, avec quoi et pourquoi y aller : chaque mois depuis la Bretagne, dans <a href="/la-sortie/">La Sortie</a>.<br>
+    Où sortir, avec quoi et pourquoi y aller : chaque mois depuis la Bretagne, dans <a href="{{ site.substack.url }}">La Sortie</a>.<br>
     <span aria-hidden="true">⏮️</span> <a href="/results.html">Ex-cycliste pro</a>.
     <span aria-hidden="true">🌱</span> <a href="/nutrition/sans-gluten.html">Assiettes sans gluten</a>.
   </p>
@@ -41,6 +41,11 @@ script: /assets/share.js
       </a>
     </li>
     <li class="c-meta-list__item">
+      <a class="c-meta-list__link" href="{{ site.author.facebook }}" target="_blank" rel="noopener">
+        <span><strong>{{ site.author.facebook_followers }}</strong> abonnés<span class="u-visually-hidden"> sur Facebook</span></span>
+      </a>
+    </li>
+    <li class="c-meta-list__item">
       <a class="c-meta-list__link" href="/posts.html">
         <span><strong>{{ published_posts | size }}</strong> publication{% if published_posts.size > 1 %}s{% endif %}</span>
       </a>
@@ -60,22 +65,16 @@ script: /assets/share.js
   </div>
 </header>
 
-{% include components/newsletter-form.html id="home" title="Recevoir La Sortie" description="Chaque mois, une sortie vécue, le matériel qui la change et les dates à venir." note="Gratuit. Désabonnement en un clic." variant="compact" %}
+{% include components/newsletter-form.html id="home" title="Recevoir La Sortie" note="Gratuit. Désabonnement en un clic." variant="compact" %}
 
 {% include components/channel-navigation.html %}
 
-{% assign home_posts = site.posts | where_exp: "post", "post.category != 'archive'" %}
-{% assign home_pins = home_posts | where: "pin", true %}
-{% assign home_rest = home_posts | where_exp: "post", "post.pin != true" %}
-
+{%- comment -%} Les derniers posts de La Sortie sur Substack, lus au build (scripts/fetch-substack.rb). {%- endcomment -%}
 <h2 class="u-visually-hidden" id="publications">Publications</h2>
 <ul class="c-post-list h-feed">
-  {% for post in home_pins limit: 1 %}
-    <li>{% include components/post.html post=post %}</li>
-  {% endfor %}
-  {% for post in home_rest limit: 4 %}
+  {% for post in site.data.substack limit: 5 %}
     <li>{% include components/post.html post=post %}</li>
   {% endfor %}
 </ul>
 
-<p class="u-spacing--block-start-medium"><a href="/posts.html" class="c-button c-button--dark-outline">Voir toutes les publications</a></p>
+<p class="u-spacing--block-start-medium"><a href="{{ site.substack.archive }}" class="c-button c-button--dark-outline">Voir toutes les publications</a></p>

@@ -1,16 +1,5 @@
 ---
-layout: landing
-title: Recevoir La Sortie
-description: Inscris-toi à La Sortie, la newsletter mensuelle de Nicolas Jouanno sur les sorties outdoor.
 permalink: /la-sortie/subscribe/
-robots: noindex, follow
+redirect_to: https://bynicolasjd.substack.com/subscribe
 sitemap: false
 ---
-
-<h1 class="u-visually-hidden">S’inscrire à La Sortie</h1>
-
-{% include components/newsletter-form.html id="la-sortie-subscribe" title="Recevoir La Sortie" %}
-
-<p class="u-text--center c-meta">Par Nicolas Jouanno, ancien cycliste professionnel, qui tient un calendrier de randos depuis 2013.</p>
-
-<p class="u-text--center"><a href="/la-sortie/">Voir les éditions</a></p>

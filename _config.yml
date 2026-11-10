@@ -28,6 +28,8 @@ author:
   webmention: "https://webmention.io/www.nicolasjouanno.com/webmention"
   handle: "@bynicolasjd"
   facebook: "https://facebook.com/502710249769535"
+  # abonnés de la page Facebook, relevés à la main
+  facebook_followers: "1,2 k"
   github: "https://github.com/jn-prod"
   instagram: "https://www.instagram.com/bynicolasjd/"
   threads: "https://www.threads.com/@bynicolasjd"
@@ -35,6 +37,14 @@ author:
   strava: "https://www.strava.com/athletes/njouanno"
   twitter: "https://x.com/byNicolasJD?utm_source=www-nicolasjouanno-com&utm_medium=site&utm_campaign=ecosystem"
   youtube: "https://www.youtube.com/@byNicolasJD"
+
+# La Sortie, sur Substack : les derniers posts de l'accueil viennent de son flux
+# (scripts/fetch-substack.rb, au build).
+substack:
+  url: "https://bynicolasjd.substack.com/"
+  feed: "https://bynicolasjd.substack.com/feed"
+  subscribe: "https://bynicolasjd.substack.com/subscribe"
+  archive: "https://bynicolasjd.substack.com/archive"
 
 # projects
 projects:

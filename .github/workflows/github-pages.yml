@@ -82,11 +82,3 @@ jobs:
           publish_dir: ./_site
           cname: www.nicolasjouanno.com
           force_orphan: true
-      # Crée la campagne Kit d'une édition publiée depuis moins de 7 jours, en brouillon :
-      # l'envoi reste un clic dans Kit.
-      - name: Prepare Kit campaign
-        run: node scripts/kit-broadcast.mjs
-        env:
-          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
-          KIT_SEGMENT_IDS: ${{ vars.KIT_SEGMENT_IDS }}
-          KIT_EMAIL_TEMPLATE_ID: ${{ vars.KIT_EMAIL_TEMPLATE_ID }}
