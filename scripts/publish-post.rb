@@ -59,7 +59,7 @@ errors = []
 %w[title description category].each do |key|
   errors << "#{key} est vide" if front_matter[key].to_s.strip.empty?
 end
-if front_matter["category"] == "newsletter" || pin
+if pin
   %w[image image_alt].each do |key|
     errors << "#{key} est vide (couverture obligatoire)" if front_matter[key].to_s.strip.empty?
   end
@@ -82,27 +82,3 @@ end
 target.write(content)
 draft.delete
 puts "publié : #{target.relative_path_from(ROOT)}#{date > Date.parse(`TZ=Europe/Paris date +%F`.strip) ? " (en ligne le #{date.iso8601})" : ""}"
-
-# Une édition publiée ouvre le brouillon du mois suivant, pour y déposer la veille avant
-# le brief du 15. Le mois vient du permalink (/la-sortie/AAAA-MM/), pas de la date de
-# publication : une édition sort la veille de son mois. Le bloc Veille est un commentaire
-# HTML, donc refusé à la publication tant qu'il n'est pas trié.
-if front_matter["category"] == "newsletter"
-  month = front_matter["permalink"].to_s.match(%r{/la-sortie/(\d{4})-(\d{2})/})
-  if month
-    following = Date.new(month[1].to_i, month[2].to_i, 1).next_month
-    months = %w[janvier fevrier mars avril mai juin juillet aout septembre octobre novembre decembre]
-    next_draft = DRAFTS.join("la-sortie-#{months[following.month - 1]}-#{following.year}.md")
-    if next_draft.exist?
-      puts "brouillon suivant déjà là : #{next_draft.relative_path_from(ROOT)}"
-    else
-      template = ROOT.join("_templates", "newsletter.md").read
-        .sub("{{date:YYYY-MM}}", following.strftime("%Y-%m"))
-      veille = "<!-- Veille du mois : ce qui t'a marqué, en vrac, avec le lien. Pas besoin d'angle, il viendra en recoupant.\n-\n-->\n"
-      next_draft.write(template.sub(FRONT_MATTER) { "#{Regexp.last_match(0)}\n#{veille}" })
-      puts "brouillon suivant : #{next_draft.relative_path_from(ROOT)}"
-    end
-  else
-    puts "brouillon suivant non créé : permalink sans /la-sortie/AAAA-MM/"
-  end
-end

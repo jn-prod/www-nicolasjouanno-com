@@ -71,7 +71,7 @@ Le front matter reste volontairement natif Jekyll : une seule `category` décrit
 ---
 title: "Titre"
 description: "Description"
-category: guide # guide, recit, newsletter ou archive
+category: guide # guide, recit ou archive
 tags:
   - outdoor
   - vtt
@@ -82,11 +82,10 @@ image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
 ---
 ```
 
-- `category` alimente les pages Guides, Récits, Newsletter et Archive ainsi que le fil d’Ariane.
+- `category` alimente les pages Guides, Récits et Archive ainsi que le fil d’Ariane.
 - `tags` alimente les pages thématiques Outdoor, VTT, Trail, Nutrition, Sans gluten et Work. Les publications VTT et trail portent aussi le tag parent `outdoor`.
 - `pin: true`, facultatif, remonte la publication en tête des listes concernées et l’identifie par le libellé « Épinglé » dans sa carte. Un seul post peut porter cette propriété dans tout le dépôt : activer un nouveau pin impose de retirer le précédent. Le pin doit déclarer une photo éditoriale personnelle, `image_alt` et `description`. Une publication non épinglée ne déclare pas `pin`. Ces règles sont vérifiées au build.
-- Une newsletter porte un titre éditorial autonome : ni numéro, ni saison, ni mois seul, ni préfixe « La Sortie ». La date et l’appartenance à la publication sont déjà portées par le front matter, l’URL et la taxonomie. Sa description apporte un contexte ou un fait précis sans répéter le titre.
-- Les domaines publics sont `outdoor`, `vtt`, `trail`, `nutrition`, `sans-gluten`, `work` et `la-sortie`. Des repères secondaires contrôlés, d’un seul mot (`enduro`, `équipement`, `randonnée`, `entraînement`, `hiver`, `santé`, `sécurité`, `cyclisme`, `compétition`, `web`, `ia`, `productivité`), peuvent relier les articles entre eux, sans page dédiée. Ne pas créer de tag SEO, marque, lieu ou requête longue.
+- Les domaines publics sont `outdoor`, `vtt`, `trail`, `nutrition`, `sans-gluten` et `work`. Des repères secondaires contrôlés, d’un seul mot (`enduro`, `équipement`, `randonnée`, `entraînement`, `hiver`, `santé`, `sécurité`, `cyclisme`, `compétition`, `web`, `ia`, `productivité`), peuvent relier les articles entre eux, sans page dédiée. Ne pas créer de tag SEO, marque, lieu ou requête longue.
 - Les pages qui portent un champ `tag` définissent les sujets publics ; `parent_tag` relie une page à son sujet parent dans le fil d’Ariane. Les tags secondaires restent limités au vocabulaire contrôlé ci-dessus.
 - Dans le front matter comme dans le contenu, référencer une photo avec son extension source (`.jpg`, `.jpeg` ou `.png`) ; le pré-build publie sa version WebP.
 - `image_alt` décrit ce qui est visible ; `image_caption`, facultatif et interprété en Markdown, contextualise la couverture et porte son crédit sous la forme `Appareil © Auteur`, sans tiret ni pictogramme.
@@ -235,7 +234,7 @@ pnpm build:images
 
 La Sortie est publiée sur Substack (`substack` dans `_config.yml`). Avant le build, `pnpm fetch:substack` (`scripts/fetch-substack.rb`) lit son flux, écrit les 5 derniers posts dans `_data/substack.json` et copie leurs couvertures dans `images/substack/` : l’accueil les affiche à la place des posts de nj.com, et le site sert lui-même les images. Substack refuse son flux aux machines de GitHub Actions (403) : les deux sont versionnés, la CI garde cet instantané, et on le rafraîchit depuis le VPS après chaque post Substack (`pnpm fetch:substack`, puis commit).
 
-Les textes passés sur Substack, `/la-sortie/` et `/la-sortie/subscribe/` redirigent vers leur page Substack (`_redirects/`, `la-sortie/`). Les éditions de juillet et août 2026 restent des posts `category: newsletter` sous `/la-sortie/AAAA-MM/`. Les événements sont une collection Jekyll (`_events/`, modèle dans `_templates/event.md`), listée sur `/events/`.
+Les textes passés sur Substack, les éditions de La Sortie, `/la-sortie/`, `/la-sortie/subscribe/` et `/newsletter/` redirigent vers leur page Substack (`_redirects/`, `la-sortie/`, `newsletter/`). Les brouillons et le modèle de La Sortie vivent dans alfred. Les événements sont une collection Jekyll (`_events/`, modèle dans `_templates/event.md`), listée sur `/events/`.
 
 ## Publication et déploiement
 
@@ -244,7 +243,7 @@ Un post s’écrit dans `_drafts/`, puis se publie de deux façons équivalentes
 - **sans VPS** : onglet Actions → « Publier un post » (`.github/workflows/publish-post.yml`), avec le nom du brouillon, une date facultative et l’option d’épingle ;
 - **en local** : `pnpm publish:post <brouillon> [--date=AAAA-MM-JJ] [--pin]`, puis commit et push.
 
-`publish:post` déplace le brouillon dans `_posts/` à sa date, transfère l’épingle avec `--pin` et refuse un brouillon incomplet : titre, description ou catégorie vides, couverture manquante pour une newsletter, commentaire HTML ou consigne entre crochets restants. Une date future est mise en ligne par le build quotidien, programmé à 04:30 UTC (`future: false`) ; GitHub retarde souvent les tâches programmées de plusieurs heures.
+`publish:post` déplace le brouillon dans `_posts/` à sa date, transfère l’épingle avec `--pin` et refuse un brouillon incomplet : titre, description ou catégorie vides, couverture manquante pour un post épinglé, commentaire HTML ou consigne entre crochets restants. Une date future est mise en ligne par le build quotidien, programmé à 04:30 UTC (`future: false`) ; GitHub retarde souvent les tâches programmées de plusieurs heures.
 
 Chaque déploiement (`.github/workflows/github-pages.yml` : push sur `main`, build quotidien, publication) contrôle la confidentialité (`pnpm check:privacy`, denylist dans le secret `PRIVACY_DENYLIST`), le lint et le build. Celui-ci comprend `check:positioning`, `check:content-images` et `check:site` (liens internes, canonical, flux).
 

@@ -118,7 +118,7 @@ test('chaque aide du formulaire est reliée à son champ', async ({ page }) => {
 });
 
 test("l'encart Événements figure sur un post, quel que soit son type", async ({ page }) => {
-  for (const path of ['/la-sortie/2026-08/', '/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html']) {
+  for (const path of ['/pourquoi-les-etirements-sont-essentiels-vtt.html', '/comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html']) {
     await page.goto(path);
     await expect(page.locator('.c-callout a[href*="/events/"]').first()).toBeVisible();
   }

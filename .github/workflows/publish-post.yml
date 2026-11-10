@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       brouillon:
-        description: "Brouillon dans _drafts, sans .md (ex. la-sortie-novembre-2026)"
+        description: "Brouillon dans _drafts, sans .md (ex. mon-post)"
         required: true
         type: string
       date:

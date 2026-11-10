@@ -22,7 +22,7 @@ SKIPPED_DIRECTORIES = %w[
   www
 ].freeze
 LEGACY_KEYS = %w[archive categories format sous_silo verticale].freeze
-DOMAIN_TAGS = %w[outdoor vtt trail nutrition sans-gluten work la-sortie].freeze
+DOMAIN_TAGS = %w[outdoor vtt trail nutrition sans-gluten work].freeze
 SECONDARY_TAGS = %w[
   enduro
   équipement
@@ -38,11 +38,6 @@ SECONDARY_TAGS = %w[
   productivité
 ].freeze
 ALLOWED_POST_TAGS = (DOMAIN_TAGS + SECONDARY_TAGS).freeze
-GENERIC_NEWSLETTER_TITLE = /\A(?:
-  (?:janvier|f[ée]vrier|mars|avril|mai|juin|juillet|ao[ûu]t|septembre|octobre|novembre|d[ée]cembre)
-  |
-  (?:printemps|[ée]t[ée]|automne|hiver)
-)(?:\s+\d{4})?\z/ix
 
 def fail_with(errors)
   return if errors.empty?
@@ -148,13 +143,6 @@ POSTS_DIR.glob("*.md").each do |post_path|
     errors << "#{relative_path} has no category page for #{category.inspect}"
   else
     post_counts_by_category[category] += 1
-  end
-
-  if category == "newsletter"
-    title = frontmatter["title"].to_s.strip
-    if title.match?(/\ALa Sortie\b/i) || title.match?(/#\s*\d+/) || title.match?(GENERIC_NEWSLETTER_TITLE)
-      errors << "#{relative_path} newsletter title must express its editorial theme, without series name, issue number or standalone period"
-    end
   end
 
   tags = Array(frontmatter["tags"]).map(&:to_s)
