@@ -53,7 +53,7 @@ script: /assets/share.js
   </ul>
 
   {% if now_page.status %}
-  <p class="c-meta">
+  <p class="c-profile__status c-meta">
     <a href="/now/">En ce moment : {{ now_page.status }}</a> <time datetime="{{ now_page.updated | date: '%Y-%m-%d' }}">({{ now_page.updated | date: "%d/%m/%Y" }})</time>
   </p>
   {% endif %}
