@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-description: "Toutes mes publications autour du VTT, du trail, du sans gluten, des voyages en van, du travail numérique et des outils que je construis."
+description: "Les publications de nicolasjouanno.com depuis 2013 : guides VTT et récits, du vélo au web."
 permalink: "/posts.html"
 ---
 
