@@ -12,14 +12,9 @@
   {%- assign posts = site.posts | where_exp: "p", "p.category != 'archive'" -%}
 {%- endif -%}
 
-{%- assign pins = posts | where: "pin", true -%}
-{%- assign rest = posts | where_exp: "p", "p.pin != true" -%}
 <h2 class="u-visually-hidden">Toutes les publications</h2>
 <ul class="c-post-list h-feed">
-  {%- for post in pins -%}
-    <li>{%- include /components/post.html -%}</li>
-  {%- endfor -%}
-  {%- for post in rest -%}
+  {%- for post in posts -%}
     <li>{%- include /components/post.html -%}</li>
   {%- endfor -%}
 </ul>

@@ -14,10 +14,6 @@ on:
         required: false
         type: string
         default: ""
-      epingler:
-        description: "Épingler ce post (retire l'épingle du précédent)"
-        type: boolean
-        default: false
       maintenant:
         description: "Publier sans attendre le prochain créneau"
         type: boolean
@@ -70,11 +66,9 @@ jobs:
         env:
           BROUILLON: ${{ inputs.brouillon }}
           DATE: ${{ inputs.date }}
-          EPINGLER: ${{ inputs.epingler }}
         run: |
           set -- "$BROUILLON"
           [ -n "$DATE" ] && set -- "$@" "--date=$DATE"
-          [ "$EPINGLER" = "true" ] && set -- "$@" --pin
           ruby scripts/publish-post.rb "$@"
       - name: Commit
         id: commit

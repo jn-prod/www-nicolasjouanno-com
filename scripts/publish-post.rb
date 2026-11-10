@@ -3,13 +3,12 @@
 
 # Publie un brouillon : _drafts/<slug>.md devient _posts/<date>-<slug>.md.
 #
-#   pnpm publish:post <slug> [--date=AAAA-MM-JJ] [--pin]
+#   pnpm publish:post <slug> [--date=AAAA-MM-JJ]
 #
 # Sans --date, la date du jour à Paris. Une date future est publiée par le build
-# quotidien (future: false). --pin transfère l'épingle depuis le post qui la porte.
-# Le script refuse un brouillon qui contient encore une consigne entre crochets ou un
-# commentaire HTML : rien de ce qui est destiné à l'auteur ne doit partir en ligne.
-# Une édition de La Sortie crée aussi le brouillon du mois suivant depuis le modèle.
+# quotidien (future: false). Le script refuse un brouillon qui contient encore une
+# consigne entre crochets ou un commentaire HTML : rien de ce qui est destiné à l'auteur
+# ne doit partir en ligne.
 # Il ne commite rien ; la GitHub Action « Publier un post » commite et déploie.
 require "date"
 require "pathname"
@@ -29,9 +28,8 @@ end
 
 args = ARGV.reject { |argument| argument == "--" }
 slug = args.find { |argument| !argument.start_with?("--") }
-fail_with("usage : pnpm publish:post <slug> [--date=AAAA-MM-JJ] [--pin]") unless slug
+fail_with("usage : pnpm publish:post <slug> [--date=AAAA-MM-JJ]") unless slug
 slug = File.basename(slug, ".md")
-pin = args.include?("--pin")
 date_argument = args.find { |argument| argument.start_with?("--date=") }&.delete_prefix("--date=")
 
 date =
@@ -59,25 +57,9 @@ errors = []
 %w[title description category].each do |key|
   errors << "#{key} est vide" if front_matter[key].to_s.strip.empty?
 end
-if pin
-  %w[image image_alt].each do |key|
-    errors << "#{key} est vide (couverture obligatoire)" if front_matter[key].to_s.strip.empty?
-  end
-end
 errors << "commentaire HTML restant (<!-- … -->)" if content.include?("<!--")
 body.scan(PLACEHOLDER).first(5).each { |placeholder| errors << "consigne restante : #{placeholder[0, 80]}" }
 fail_with("brouillon pas prêt :\n  - #{errors.join("\n  - ")}") unless errors.empty?
-
-if pin
-  POSTS.glob("*.md").each do |post|
-    text = post.read
-    next unless text.match(FRONT_MATTER)&.[](1)&.match?(/^pin: true$/)
-
-    post.write(text.sub(/^pin: true\n/, ""))
-    puts "épingle retirée : #{post.relative_path_from(ROOT)}"
-  end
-  content = content.sub(FRONT_MATTER) { "---\n#{Regexp.last_match(1)}pin: true\n---\n" }
-end
 
 target.write(content)
 draft.delete

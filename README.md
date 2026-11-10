@@ -84,7 +84,6 @@ image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
 
 - `category` alimente les pages Guides, Récits et Archive ainsi que le fil d’Ariane.
 - `tags` alimente les pages thématiques Outdoor, VTT, Trail, Nutrition, Sans gluten et Work. Les publications VTT et trail portent aussi le tag parent `outdoor`.
-- `pin: true`, facultatif, remonte la publication en tête des listes concernées et l’identifie par le libellé « Épinglé » dans sa carte. Un seul post peut porter cette propriété dans tout le dépôt : activer un nouveau pin impose de retirer le précédent. Le pin doit déclarer une photo éditoriale personnelle, `image_alt` et `description`. Une publication non épinglée ne déclare pas `pin`. Ces règles sont vérifiées au build.
 - Les domaines publics sont `outdoor`, `vtt`, `trail`, `nutrition`, `sans-gluten` et `work`. Des repères secondaires contrôlés, d’un seul mot (`enduro`, `équipement`, `randonnée`, `entraînement`, `hiver`, `santé`, `sécurité`, `cyclisme`, `compétition`, `web`, `ia`, `productivité`), peuvent relier les articles entre eux, sans page dédiée. Ne pas créer de tag SEO, marque, lieu ou requête longue.
 - Les pages qui portent un champ `tag` définissent les sujets publics ; `parent_tag` relie une page à son sujet parent dans le fil d’Ariane. Les tags secondaires restent limités au vocabulaire contrôlé ci-dessus.
 - Dans le front matter comme dans le contenu, référencer une photo avec son extension source (`.jpg`, `.jpeg` ou `.png`) ; le pré-build publie sa version WebP.
@@ -97,7 +96,7 @@ image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
 
 ### Stabilisation de la home
 
-La structure `profil → inscription → canaux → pin → flux → archives` est le contrat courant de la home. Ne pas ajouter de titre visible ou de section intermédiaire qui duplique l’un de ces rôles. Une évolution structurelle doit désormais répondre à un défaut constaté, à un nouveau besoin éditorial ou à un signal mesuré ; une préférence isolée ne justifie pas une nouvelle refonte.
+La structure `profil → canaux → flux → archives` est le contrat courant de la home. Ne pas ajouter de titre visible ou de section intermédiaire qui duplique l’un de ces rôles. Une évolution structurelle doit désormais répondre à un défaut constaté, à un nouveau besoin éditorial ou à un signal mesuré ; une préférence isolée ne justifie pas une nouvelle refonte.
 
 La home utilise le layout `landing` : son profil, ses actions et son flux remplacent la navigation globale. Les pages intérieures conservent le layout `default`. Le bouton « Partager » relève de l’amélioration progressive et n’est affiché que lorsque le navigateur expose l’API native de partage.
 
@@ -132,7 +131,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_breadcrumb.scss` | `.c-breadcrumb` | Fil d’Ariane sémantique et séparateurs visuels |
 | `_author.scss` | `.c-author` | Identité compacte d’un auteur, composée avec `.c-avatar` et `.c-meta` |
 | `_post-list.scss` | `.c-post-list` | Liste verticale des cartes de publication |
-| `_publication-card.scss` | `.c-publication-card` | Anatomie d’un aperçu éditorial : pin, taxonomie, titre, date, image et résumé |
+| `_publication-card.scss` | `.c-publication-card` | Anatomie d’un aperçu éditorial : taxonomie, titre, date, image et résumé |
 | `_embed.scss` | `.c-embed` | Média embarqué responsive au ratio 16/9, sans style inline |
 | `_section.scss` | `.c-section` | Bande pleine largeur et variantes `brand`, `dark`, `light` |
 | `_navigation.scss` | `.c-navigation` | Navigation d’en-tête et groupe d’actions |
@@ -240,10 +239,10 @@ Les textes passés sur Substack, les éditions de La Sortie, `/la-sortie/`, `/la
 
 Un post s’écrit dans `_drafts/`, puis se publie de deux façons équivalentes :
 
-- **sans VPS** : onglet Actions → « Publier un post » (`.github/workflows/publish-post.yml`), avec le nom du brouillon, une date facultative et l’option d’épingle ;
-- **en local** : `pnpm publish:post <brouillon> [--date=AAAA-MM-JJ] [--pin]`, puis commit et push.
+- **sans VPS** : onglet Actions → « Publier un post » (`.github/workflows/publish-post.yml`), avec le nom du brouillon et une date facultative ;
+- **en local** : `pnpm publish:post <brouillon> [--date=AAAA-MM-JJ]`, puis commit et push.
 
-`publish:post` déplace le brouillon dans `_posts/` à sa date, transfère l’épingle avec `--pin` et refuse un brouillon incomplet : titre, description ou catégorie vides, couverture manquante pour un post épinglé, commentaire HTML ou consigne entre crochets restants. Une date future est mise en ligne par le build quotidien, programmé à 04:30 UTC (`future: false`) ; GitHub retarde souvent les tâches programmées de plusieurs heures.
+`publish:post` déplace le brouillon dans `_posts/` à sa date et refuse un brouillon incomplet : titre, description ou catégorie vides, commentaire HTML ou consigne entre crochets restants. Une date future est mise en ligne par le build quotidien, programmé à 04:30 UTC (`future: false`) ; GitHub retarde souvent les tâches programmées de plusieurs heures.
 
 Chaque déploiement (`.github/workflows/github-pages.yml` : push sur `main`, build quotidien, publication) contrôle la confidentialité (`pnpm check:privacy`, denylist dans le secret `PRIVACY_DENYLIST`), le lint et le build. Celui-ci comprend `check:positioning`, `check:content-images` et `check:site` (liens internes, canonical, flux).
 

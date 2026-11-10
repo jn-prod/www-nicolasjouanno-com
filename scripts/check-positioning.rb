@@ -108,7 +108,6 @@ errors << "no tag pages found" if tag_pages.empty?
 
 post_counts_by_category = Hash.new(0)
 post_counts_by_tag = Hash.new(0)
-pinned_posts = []
 
 POSTS_DIR.glob("*.md").each do |post_path|
   relative_path = post_path.relative_path_from(ROOT)
@@ -121,19 +120,6 @@ POSTS_DIR.glob("*.md").each do |post_path|
   errors << "#{relative_path} missing title" if frontmatter["title"].to_s.strip.empty?
   LEGACY_KEYS.each do |key|
     errors << "#{relative_path} still uses legacy key #{key}" if frontmatter.key?(key)
-  end
-
-  if frontmatter.key?("pin")
-    if frontmatter["pin"] == true
-      pinned_posts << relative_path
-      %w[description image image_alt].each do |key|
-        if frontmatter[key].to_s.strip.empty?
-          errors << "#{relative_path} pinned post must declare #{key}"
-        end
-      end
-    else
-      errors << "#{relative_path} pin must be true when declared; remove it otherwise"
-    end
   end
 
   category = frontmatter["category"]
@@ -154,10 +140,6 @@ POSTS_DIR.glob("*.md").each do |post_path|
   tag_pages.each_key do |tag|
     post_counts_by_tag[tag] += 1 if tags.include?(tag) && category != "archive"
   end
-end
-
-if pinned_posts.size > 1
-  errors << "only one post can be pinned: #{pinned_posts.join(', ')}"
 end
 
 category_pages.each_key do |category|
