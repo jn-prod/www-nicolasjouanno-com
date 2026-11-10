@@ -30,14 +30,11 @@ Puis j’ai voulu redécouvrir les sentiers autrement. C’est là que j’ai d�
 
 <p class="c-button-stack">
   <a href="/vtt/" class="c-button c-button--dark-outline">VTT</a>
-  <a href="/trail/" class="c-button c-button--dark-outline">Trail</a>
 </p>
 
 ## Sans gluten
 
 La maladie cœliaque est entrée dans notre vie familiale et a changé des gestes ordinaires : faire les courses, cuisiner ou choisir un restaurant. Le [quiz « Gluten ou pas gluten ? »](/apps/gluten-not-gluten/) est né pour rendre cette vigilance visible et plus facile à partager.
-
-<p><a href="/nutrition/sans-gluten.html" class="c-button c-button--dark-outline">Sans gluten</a></p>
 
 ## Du vélo au web
 

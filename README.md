@@ -138,7 +138,6 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_section.scss` | `.c-section` | Bande pleine largeur et variantes `brand`, `dark`, `light` |
 | `_navigation.scss` | `.c-navigation` | Navigation d’en-tête et groupe d’actions |
 | `_quiz.scss` | `.c-quiz` | Layout spécifique au quiz — surcouche contextuelle uniquement |
-| `_newsletter-form.scss` | `.c-newsletter-form` | Encart d’inscription à La Sortie : lien vers sa page Substack, sans script ni iframe |
 | `_profile.scss` | `.c-profile` | En-tête de profil de la home : identité, description, métadonnées et actions |
 | `_channel-navigation.scss` | `.c-channel-navigation` | Navigation compacte entre le site, ses outils et les réseaux publics sélectionnés ; compose `.c-tabs` et ne porte que le layout |
 
@@ -236,7 +235,7 @@ pnpm build:images
 
 La Sortie est publiée sur Substack (`substack` dans `_config.yml`). Avant le build, `pnpm fetch:substack` (`scripts/fetch-substack.rb`) lit son flux, écrit les 5 derniers posts dans `_data/substack.json` et copie leurs couvertures dans `images/substack/` : l’accueil les affiche à la place des posts de nj.com, et le site sert lui-même les images. Substack refuse son flux aux machines de GitHub Actions (403) : les deux sont versionnés, la CI garde cet instantané, et on le rafraîchit depuis le VPS après chaque post Substack (`pnpm fetch:substack`, puis commit).
 
-L’encart partagé `_includes/components/newsletter-form.html` (accueil, page Outdoor, fin de chaque article, `/events/`) renvoie vers la page d’inscription Substack. Les textes passés sur Substack, `/la-sortie/` et `/la-sortie/subscribe/` redirigent vers leur page Substack (`_redirects/`, `la-sortie/`). Les éditions de juillet et août 2026 restent des posts `category: newsletter` sous `/la-sortie/AAAA-MM/`. Les événements sont une collection Jekyll (`_events/`, modèle dans `_templates/event.md`), listée sur `/events/`.
+Les textes passés sur Substack, `/la-sortie/` et `/la-sortie/subscribe/` redirigent vers leur page Substack (`_redirects/`, `la-sortie/`). Les éditions de juillet et août 2026 restent des posts `category: newsletter` sous `/la-sortie/AAAA-MM/`. Les événements sont une collection Jekyll (`_events/`, modèle dans `_templates/event.md`), listée sur `/events/`.
 
 ## Publication et déploiement
 

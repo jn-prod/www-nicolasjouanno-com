@@ -10,7 +10,6 @@ permalink: "/posts.html"
 <nav aria-label="Explorer les publications par sujet" class="u-spacing--block-end-medium">
   <ul class="u-list c-button-stack">
     <li><a href="/outdoor/" class="c-button">Outdoor</a></li>
-    <li><a href="/nutrition/sans-gluten.html" class="c-button">Sans gluten</a></li>
   </ul>
 </nav>
 

@@ -1,5 +1,5 @@
 ---
 permalink: /sans-gluten-sport-endurance-velo-coeliaque.html
-redirect_to: /nutrition/sans-gluten.html
+redirect_to: /apps/gluten-not-gluten/
 sitemap: false
 ---

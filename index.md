@@ -19,7 +19,7 @@ script: /assets/share.js
   <p class="c-profile__description p-note">
     Où sortir, avec quoi et pourquoi y aller : chaque mois depuis la Bretagne, dans <a href="{{ site.substack.url }}">La Sortie</a>.<br>
     <span aria-hidden="true">⏮️</span> <a href="/results.html">Ex-cycliste pro</a>.
-    <span aria-hidden="true">🌱</span> <a href="/nutrition/sans-gluten.html">Assiettes sans gluten</a>.
+    <span aria-hidden="true">🌱</span> <a href="/apps/gluten-not-gluten/">Assiettes sans gluten</a>.
   </p>
 
   {% assign now_page = site.pages | where: "permalink", "/now/" | first %}
@@ -64,8 +64,6 @@ script: /assets/share.js
     <button class="c-button c-button--dark-outline" type="button" data-share-profile hidden>Partager</button>
   </div>
 </header>
-
-{% include components/newsletter-form.html id="home" title="Recevoir La Sortie" note="Gratuit. Désabonnement en un clic." variant="compact" %}
 
 {% include components/channel-navigation.html %}
 

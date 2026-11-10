@@ -12,7 +12,5 @@ Le vélo a été mon premier terrain. Après le cyclisme professionnel, le mouve
 
 <ul class="c-button-stack u-list">
   <li><a href="/vtt/" class="c-button c-button--dark-outline">VTT</a></li>
-  <li><a href="/trail/" class="c-button c-button--dark-outline">Trail</a></li>
 </ul>
 
-{% include components/newsletter-form.html id="outdoor" %}
