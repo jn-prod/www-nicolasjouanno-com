@@ -22,9 +22,8 @@ Ce site garde la forme d’un profil, celle que tout le monde sait lire. Dessous
 
 Leur nom reprend les « [slash pages](https://slashpages.net/) », ces pages placées à la racine d’un site (`/about`, `/now`, `/hello`, `/blogroll`…).
 
-- [À propos](/about/) : qui je suis.
+- [À propos](/about/) : qui je suis, et comment me suivre : La Sortie, son flux RSS, Facebook, Instagram et X.
 - [En ce moment](/now/) : ce qui m’occupe, daté et mis à jour quand ça change.
-- [Où me suivre](/hello/) : La Sortie, le flux RSS, Facebook, Instagram et X.
 - [Abonnements](/blogroll/) : les blogs que je suis. Cette page n’est pas indexée par les moteurs de recherche.
 - [Flux RSS](/feed.xml) et [flux JSON](/feed.json) : les publications du site, pour un lecteur de flux.
 

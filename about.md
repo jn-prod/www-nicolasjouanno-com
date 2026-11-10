@@ -42,6 +42,12 @@ Après le cyclisme professionnel, je me suis reconverti dans le numérique. Je s
 
 <p><a href="/work/" class="c-button c-button--dark-outline">Découvrir mon parcours</a></p>
 
+## Me suivre {#suivre}
+
+Une fois par mois, [La Sortie]({{ site.substack.url }}) : une photo, un vécu et ce qui mérite l’attention dehors, par e-mail ou par [flux RSS]({{ site.substack.feed }}).
+
+<p><a class="c-button c-button--brand" href="{{ site.substack.subscribe }}">Recevoir La Sortie</a></p>
+
 {% include components/social-links.html %}
 
 Ce site suit les conventions de l’[IndieWeb](/indieweb/).

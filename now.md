@@ -1,10 +1,10 @@
 ---
 layout: page
 title: En ce moment
-description: "Ce qui occupe Nicolas Jouanno en ce moment : La Sortie, les événements, le sans gluten et ce site."
+description: "Ce qui occupe Nicolas Jouanno en ce moment : La Sortie, les événements et ce site."
 permalink: /now/
 status: l’édition de décembre de La Sortie
-updated: 2026-11-05
+updated: 2026-11-10
 ---
 
 # En ce moment
@@ -21,13 +21,9 @@ J’écris l’édition de décembre de [La Sortie]({{ site.substack.url }}), ma
 
 vtt.bzh, le calendrier que j’ai lancé en 2013, est devenu la page [Événements]({{ site.projects.events.url }}) : les randos et les rendez-vous outdoor ouverts à tous qu’on m’envoie.
 
-## Sans gluten
-
-Je teste « Gluten ou pas gluten ? » : une situation ordinaire, une réponse claire, un réflexe à transmettre à l’entourage. Le [quiz](/apps/gluten-not-gluten/) est en ligne ; j’attends de voir si le format tient avant d’en faire une série régulière.
-
 ## Ce site
 
-Je l’ai aligné sur les conventions de l’[IndieWeb](/indieweb/) : tout part d’ici, et les réseaux sociaux ne servent que de relais. Les façons de me suivre sont sur [Où me suivre](/hello/).
+La Sortie paraît sur Substack et ses derniers posts reviennent sur l’accueil : ce site garde l’archive et relie le reste, selon les conventions de l’[IndieWeb](/indieweb/). Les façons de me suivre sont sur [À propos](/about/#suivre).
 
 ## Ce que je lis
 

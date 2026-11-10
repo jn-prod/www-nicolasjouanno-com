@@ -59,7 +59,7 @@ script: /assets/share.js
   {% endif %}
 
   <div class="c-button-stack">
-    <a class="c-button c-button--brand" href="/hello/">Suivre</a>
+    <a class="c-button c-button--brand" href="{{ site.substack.subscribe }}">Suivre</a>
     <a class="c-button c-button--dark-outline u-email" href="mailto:{{ site.author.email }}">Contact</a>
     <button class="c-button c-button--dark-outline" type="button" data-share-profile hidden>Partager</button>
   </div>
