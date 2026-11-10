@@ -19,8 +19,13 @@ LIMIT = 5
 WORDS = 70
 CDN = "https://substackcdn.com/image/fetch/w_1200,c_limit,f_jpg,q_auto:good/"
 
+HEADERS = {
+  "User-Agent" => "Mozilla/5.0 (compatible; nicolasjouanno.com feed reader; +https://www.nicolasjouanno.com/)",
+  "Accept" => "application/rss+xml, application/xml;q=0.9, image/*;q=0.8, */*;q=0.5"
+}.freeze
+
 def get(url, redirects = 3)
-  response = Net::HTTP.get_response(URI(url))
+  response = Net::HTTP.get_response(URI(url), HEADERS)
   return get(response["location"], redirects - 1) if response.is_a?(Net::HTTPRedirection) && redirects.positive?
 
   response
