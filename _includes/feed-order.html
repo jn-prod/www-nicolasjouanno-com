@@ -1,7 +1,7 @@
 {%- comment -%}
-  Ordre des flux RSS et JSON (PESOS) : les posts de La Sortie sur Substack (instantané
-  _data/substack.json) et les posts de nj.com hors archive, mêlés par date, 10 au plus.
-  Définit feed_site (posts de nj.com) et feed_keys : « s<i> » pour site.data.substack[i],
+  Ordre des flux RSS et JSON (PESOS) : les posts de La Sortie (flux du module Substack,
+  _data/flux/substack.json) et les posts de nj.com hors archive, mêlés par date, 10 au plus.
+  Définit feed_site (posts de nj.com) et feed_keys : « s<i> » pour site.data.flux.substack[i],
   « p<j> » pour feed_site[j]. Liquid en mode safe ne trie pas deux types de dates : fusion
   de deux listes déjà triées.
 {%- endcomment -%}
@@ -10,7 +10,7 @@
 {%- assign feed_j = 0 -%}
 {%- assign feed_order = "" -%}
 {%- for n in (1..10) -%}
-  {%- assign feed_s = site.data.substack[feed_i] -%}
+  {%- assign feed_s = site.data.flux.substack[feed_i] -%}
   {%- assign feed_p = feed_site[feed_j] -%}
   {%- if feed_s == nil and feed_p == nil -%}{%- break -%}{%- endif -%}
   {%- assign feed_sd = feed_s.date | slice: 0, 19 -%}

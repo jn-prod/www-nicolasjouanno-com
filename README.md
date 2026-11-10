@@ -234,7 +234,7 @@ Le site suit le principe IndieWeb [PESOS](https://indieweb.org/PESOS) : on publi
 | --- | --- | --- |
 | Domaine | posts, pages, layouts et includes | Le site ; ne nomme aucune plateforme. |
 | Port | `plateformes` dans `_config.yml`, lu par `site.plateformes` | Le contrat : ce qu’un module déclare et que les gabarits lisent. |
-| Adaptateurs | une clé par plateforme, et son collecteur s’il rapatrie un flux | Le module. |
+| Adaptateurs | une clé par plateforme, et son flux s’il rapatrie du contenu | Le module. |
 
 ### Contrat d’un module
 
@@ -245,20 +245,22 @@ Une clé sous `plateformes`, dont le nom sert aussi d’icône (`_includes/icons
 - `rel_me` : le profil est déclaré dans `<link rel="me">` de chaque page et dans le `sameAs` du JSON-LD de l’accueil (paramètres `utm_*` retirés) ;
 - `onglet` : le module a un onglet dans les canaux (`_includes/components/channel-navigation.html`), dans l’ordre des clés ;
 - `ancre` : sur l’accueil, l’onglet porte `aria-current="page"` et mène à la section de son flux (`#publications`) au lieu de la plateforme ;
-- le reste est propre au module (`feed`, `subscribe` et `archive` de Substack, `abonnes` de Facebook).
+- le reste est propre au module (`subscribe` et `archive` de Substack, `abonnes` de Facebook).
+
+Un module qui rapatrie du contenu a son flux dans `_data/flux/<clé>.json`, lu par `site.data.flux.<clé>`. Une entrée reprend les champs d’un post Jekyll, pour que `_includes/components/post.html` les affiche de la même façon : `title`, `url` (l’original, sur la plateforme), `slug`, `date`, `description`, et `image` facultative, servie par nj.com.
 
 Un gabarit qui cite un module précis passe par `site.plateformes.<clé>` et entoure l’élément de `{% if site.plateformes.<clé> %}` : il disparaît quand le module est débranché.
 
 ### Brancher, débrancher
 
 - Brancher : ajouter la clé (et l’icône si le module a un onglet), puis `pnpm build`.
-- Débrancher : retirer la clé (et son collecteur s’il en a un), puis `pnpm build`.
+- Débrancher : retirer la clé (et son flux, son script et son workflow s’il en a un), puis `pnpm build`.
 
-`pnpm check:site` échoue sur un lien vide dans le site généré, signe d’un module débranché encore cité sans `if` (dans un texte de post, par exemple), et sur l’adresse d’une plateforme écrite en dur dans `_layouts/` ou `_includes/`.
+`pnpm check:site` échoue sur un lien vide dans le site généré, signe d’un module débranché encore cité sans `if` (dans un texte de post, par exemple), sur l’adresse d’une plateforme écrite en dur dans `_layouts/` ou `_includes/`, et sur un flux sans module déclaré.
 
 ### Modules branchés
 
-- **Substack** (La Sortie), avec flux : avant le build, `pnpm fetch:substack` (`scripts/fetch-substack.rb`) lit `plateformes.substack.feed`, écrit les 10 derniers posts dans `_data/substack.json` et copie leurs couvertures dans `images/substack/` : l’accueil en affiche 5, et le site sert lui-même les images. Les flux `/feed.xml` et `/feed.json` mêlent ces posts et ceux de nj.com hors archive, par date (`_includes/feed-order.html`) : l’adresse du flux reste celle du site, quel que soit l’outil de la newsletter. Substack refuse son flux aux machines de GitHub Actions (403) : les deux sont versionnés, la CI garde cet instantané, et on le rafraîchit depuis le VPS après chaque post Substack (`pnpm fetch:substack`, puis commit).
+- **Substack** (La Sortie), avec flux : Substack refuse son flux RSS aux machines de GitHub Actions (403), le flux se saisit donc à la main après chaque post. Onglet Actions → « Ajouter un post Substack » (`.github/workflows/add-substack-post.yml`) : URL, titre, sous-titre, date facultative et adresse de la couverture (clic droit sur l’image, copier l’adresse). Le workflow attend le prochain créneau (sauf « maintenant »), lance `scripts/add-substack-post.rb`, commite et déploie. Le script remplace un post déjà présent, garde les 10 plus récents (5 sur l’accueil, 10 dans les flux du site) et télécharge la couverture dans `images/substack/` ; injoignable, le post s’affiche sans image. En local : `bundle exec ruby scripts/add-substack-post.rb --url=… --titre=… --sous-titre=… [--date=AAAA-MM-JJ] [--couverture=…]`. Les flux `/feed.xml` et `/feed.json` mêlent ces posts et ceux de nj.com hors archive, par date (`_includes/feed-order.html`) : l’adresse du flux reste celle du site, quel que soit l’outil de la newsletter.
 - **Instagram, YouTube, X, LinkedIn** : profil déclaré et onglet.
 - **Facebook** : profil déclaré et compteur d’abonnés de l’accueil, relevé à la main.
 - **Strava, GitHub** : profil déclaré.
@@ -285,7 +287,7 @@ Un post s’écrit dans `_drafts/`, puis se publie de deux façons équivalentes
 
 `publish:post` déplace le brouillon dans `_posts/` à sa date et refuse un brouillon incomplet : titre, description ou catégorie vides, commentaire HTML ou consigne entre crochets restants. Une date future est mise en ligne par le build quotidien, programmé à 04:30 UTC (`future: false`) ; GitHub retarde souvent les tâches programmées de plusieurs heures.
 
-Chaque déploiement (`.github/workflows/github-pages.yml` : push sur `main`, build quotidien, publication) contrôle la confidentialité (`pnpm check:privacy`, denylist dans le secret `PRIVACY_DENYLIST`), le lint et le build. Celui-ci comprend `check:positioning`, `check:content-images` et `check:site` (liens internes, canonical, flux).
+Chaque déploiement (`.github/workflows/github-pages.yml` : push sur `main`, build quotidien, publication, ajout d’un post Substack) contrôle la confidentialité (`pnpm check:privacy`, denylist dans le secret `PRIVACY_DENYLIST`), le lint et le build. Celui-ci comprend `check:positioning`, `check:content-images` et `check:site` (liens internes, canonical, flux).
 
 ## License
 

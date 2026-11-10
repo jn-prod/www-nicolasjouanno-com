@@ -71,10 +71,10 @@ script: /assets/share.js
 
 {% include components/channel-navigation.html %}
 
-{%- comment -%} Les derniers posts de La Sortie sur Substack, lus au build (scripts/fetch-substack.rb). {%- endcomment -%}
+{%- comment -%} Les derniers posts de La Sortie, flux du module Substack (_data/flux/substack.json). {%- endcomment -%}
 <h2 class="u-visually-hidden" id="publications">Publications</h2>
 <ul class="c-post-list h-feed">
-  {% for post in site.data.substack limit: 5 %}
+  {% for post in site.data.flux.substack limit: 5 %}
     <li>{% include components/post.html post=post %}</li>
   {% endfor %}
 </ul>

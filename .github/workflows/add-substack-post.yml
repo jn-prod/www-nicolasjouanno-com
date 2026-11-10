@@ -1,0 +1,111 @@
+name: Ajouter un post Substack
+
+# Module Substack (README, « Écosystème IndieWeb ») : après un post de La Sortie, depuis
+# l'onglet Actions (ou l'app GitHub), saisir le post. Le workflow lance
+# `scripts/add-substack-post.rb`, commite sur main puis déploie le site.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "URL du post (https://bynicolasjd.substack.com/p/…)"
+        required: true
+        type: string
+      titre:
+        description: "Titre du post"
+        required: true
+        type: string
+      sous_titre:
+        description: "Sous-titre du post (résumé de l'accueil et des flux)"
+        required: true
+        type: string
+      date:
+        description: "Date AAAA-MM-JJ. Vide : aujourd'hui"
+        required: false
+        type: string
+        default: ""
+      couverture:
+        description: "Adresse de l'image de couverture (clic droit, copier l'adresse). Vide : sans image"
+        required: false
+        type: string
+        default: ""
+      maintenant:
+        description: "Mettre en ligne sans attendre le prochain créneau"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: add-substack-post
+  cancel-in-progress: false
+
+jobs:
+  # La mise en ligne attend le prochain créneau au lieu d'échouer : on peut la lancer à toute
+  # heure, depuis le téléphone.
+  creneau:
+    if: ${{ !inputs.maintenant }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          sparse-checkout: scripts/attendre-creneau.sh
+          sparse-checkout-cone-mode: false
+      - name: Attendre le prochain créneau
+        env:
+          CRENEAUX: ${{ secrets.CRENEAUX }}
+        run: bash scripts/attendre-creneau.sh
+
+  add:
+    needs: creneau
+    if: ${{ !failure() && !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    outputs:
+      sha: ${{ steps.commit.outputs.sha }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      # Reliquat : une attente est plafonnée à 350 min, sous la limite de 6 h d'un job.
+      - name: Attendre le prochain créneau
+        if: ${{ !inputs.maintenant }}
+        env:
+          CRENEAUX: ${{ secrets.CRENEAUX }}
+        run: bash scripts/attendre-creneau.sh
+      - name: Use ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "4.0.9"
+      - name: Ajouter le post
+        env:
+          URL: ${{ inputs.url }}
+          TITRE: ${{ inputs.titre }}
+          SOUS_TITRE: ${{ inputs.sous_titre }}
+          DATE: ${{ inputs.date }}
+          COUVERTURE: ${{ inputs.couverture }}
+        run: >-
+          ruby scripts/add-substack-post.rb "--url=$URL" "--titre=$TITRE"
+          "--sous-titre=$SOUS_TITRE" "--date=$DATE" "--couverture=$COUVERTURE"
+      - name: Commit
+        id: commit
+        env:
+          TITRE: ${{ inputs.titre }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A _data/flux images/substack
+          git commit -m "data(substack): ${TITRE}"
+          git push origin HEAD:main
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  # Sans ce `if`, « maintenant » saute `creneau` et le `success()` implicite saute aussi
+  # le déploiement : le post est commité mais pas en ligne.
+  deploy:
+    needs: add
+    if: ${{ !failure() && !cancelled() && needs.add.result == 'success' }}
+    uses: ./.github/workflows/github-pages.yml
+    with:
+      ref: ${{ needs.add.outputs.sha }}
+    secrets: inherit
+    permissions:
+      contents: write

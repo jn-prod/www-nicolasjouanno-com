@@ -6,7 +6,8 @@
 # - canonical toujours sur www, jamais sur le domaine nu ;
 # - flux XML bien formés et commençant par <?xml, flux JSON valides ;
 # - plateformes (README, « Écosystème IndieWeb ») : aucun lien vide, signe d'un module débranché
-#   encore cité, et aucune adresse de plateforme en dur dans _layouts/ ou _includes/.
+#   encore cité, aucune adresse de plateforme en dur dans _layouts/ ou _includes/, et aucun
+#   flux (_data/flux/<clé>.json) sans module déclaré.
 require "json"
 require "pathname"
 require "rexml/document"
@@ -67,6 +68,11 @@ ROOT.glob("{_layouts,_includes}/**/*.{html,xml,json}").reject { |f| f.to_s.inclu
 
     errors << "#{hote} en dur dans #{gabarit.relative_path_from(ROOT)} : passer par site.plateformes"
   end
+end
+
+ROOT.glob("_data/flux/*.json").each do |flux|
+  cle = flux.basename(".json").to_s
+  errors << "_data/flux/#{cle}.json sans module : déclarer plateformes.#{cle} ou retirer le flux" unless plateformes.key?(cle)
 end
 
 if errors.empty?

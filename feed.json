@@ -18,7 +18,7 @@ layout: null
     {% for feed_key in feed_keys %}
     {% assign feed_index = feed_key | remove_first: "s" | remove_first: "p" | plus: 0 %}
     {% if feed_key contains "s" %}
-    {% assign entry = site.data.substack[feed_index] %}
+    {% assign entry = site.data.flux.substack[feed_index] %}
     {
       "id": {{ entry.url | jsonify }},
       "url": {{ entry.url | jsonify }},

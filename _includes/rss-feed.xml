@@ -22,7 +22,7 @@
     {% for feed_key in feed_keys %}
       {% assign feed_index = feed_key | remove_first: "s" | remove_first: "p" | plus: 0 %}
       {% if feed_key contains "s" %}
-      {% assign entry = site.data.substack[feed_index] %}
+      {% assign entry = site.data.flux.substack[feed_index] %}
       <item>
         <title>{{ entry.title | xml_escape }}</title>
         <description><![CDATA[

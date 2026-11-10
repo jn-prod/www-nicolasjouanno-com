@@ -38,9 +38,8 @@ plateformes:
     libelle: "Publications — La Sortie sur Substack"
     onglet: true
     ancre: "publications"
-    # La Sortie : les derniers posts de l'accueil viennent de son flux
-    # (scripts/fetch-substack.rb, au build).
-    feed: "https://bynicolasjd.substack.com/feed"
+    # La Sortie : flux dans _data/flux/substack.json, ajouté par le workflow
+    # « Ajouter un post Substack » (scripts/add-substack-post.rb).
     subscribe: "https://bynicolasjd.substack.com/subscribe"
     archive: "https://bynicolasjd.substack.com/archive"
   instagram:
