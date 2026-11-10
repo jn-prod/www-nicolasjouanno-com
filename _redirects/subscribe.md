@@ -1,5 +1,5 @@
 ---
 permalink: /subscribe/
-redirect_to: /la-sortie/subscribe/
+redirect_to: https://bynicolasjd.substack.com/subscribe
 sitemap: false
 ---
