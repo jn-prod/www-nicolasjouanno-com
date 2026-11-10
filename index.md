@@ -1,7 +1,7 @@
 ---
 title: Nicolas Jouanno — La Sortie, la lettre outdoor d'un ancien cycliste pro
 layout: landing
-description: "Où sortir, avec quoi et pourquoi y aller : chaque mois depuis la Bretagne, la lettre outdoor de Nicolas Jouanno, ancien cycliste pro."
+description: "Nicolas Jouanno, ancien cycliste pro : La Sortie, la lettre mensuelle pour retrouver le plaisir de sortir librement, et ses archives depuis 2005."
 permalink: /index.html
 script: /assets/share.js
 ---
@@ -17,7 +17,7 @@ script: /assets/share.js
   </div>
 
   <p class="c-profile__description p-note">
-    Où sortir, avec quoi et pourquoi y aller : chaque mois depuis la Bretagne, dans <a href="{{ site.substack.url }}">La Sortie</a>.<br>
+    Retrouver le plaisir de sortir, librement : chaque mois dans <a href="{{ site.substack.url }}">La Sortie</a>, une idée, un vécu, quelques lectures.<br>
     <span aria-hidden="true">⏮️</span> <a href="/results.html">Ex-cycliste pro</a>.
     <span aria-hidden="true">🌱</span> <a href="/apps/gluten-not-gluten/">Assiettes sans gluten</a>.
   </p>
