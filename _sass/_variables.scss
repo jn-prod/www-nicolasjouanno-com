@@ -146,7 +146,8 @@
 
   /* Controls — contrat partagé */
   --b-line-width-strong: 0.2rem;
-  --b-control-height: 4.4rem;
+  --b-control-height: 3.2rem; /* bouton et champ : hauteur et cible */
+  --b-target-size: 4.4rem; /* onglet, choix : cible minimale */
   --b-control-radius: 3.2rem;
   --b-control-font-size: 1.5rem;
   --b-disabled-opacity: 0.8;

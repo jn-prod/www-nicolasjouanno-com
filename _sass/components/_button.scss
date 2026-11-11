@@ -52,7 +52,7 @@ $variants: (
   align-items: center;
   width: fit-content;
   min-height: var(--b-control-height);
-  padding: var(--size-8) var(--size-16);
+  padding: var(--size-4) var(--size-16);
   border: var(--border);
   border-color: transparent;
   border-radius: var(--b-control-radius);
@@ -72,9 +72,9 @@ $variants: (
 @include button-variantes($variants, $outline: true);
 
 .c-button--icon {
-  --icon-size: calc(var(--b-control-height) - 2 * var(--size-8));
+  --icon-size: calc(var(--b-control-height) - 2 * var(--size-4));
 
-  padding: var(--size-8);
+  padding: var(--size-4);
   border-radius: 50%;
   width: var(--b-control-height);
   height: var(--b-control-height);

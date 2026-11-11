@@ -114,7 +114,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 | `_button-stack.scss` | `.c-button-stack` + `--vertical` / `--center` / `--fill` | Groupe d'actions avec un gap horizontal et vertical de 4 px, y compris au retour à la ligne |
 | `_control.scss` | `.c-control` | Champ texte, select ou textarea : hauteur minimale, padding, bordure, rayon, typo et état désactivé communs |
 | `_progress.scss` | `.c-progress` | Barre de progression native stylisée (`display: block`) |
-| `_tabs.scss` | `.c-tabs` + `__nav` / `__tab` | Primitive d’onglets : cible de 44 px, onglet courant marqué par `aria-current="page"` et souligné par la marque, survol en neutre foncé |
+| `_tabs.scss` | `.c-tabs` + `__nav` / `__tab` | Primitive d’onglets : cible de 44 px (`--b-target-size`), onglet courant marqué par `aria-current="page"` et souligné par la marque, survol en neutre foncé |
 | `_stat.scss` | `.c-stat` + `.c-stat--{bar\|list}` | Statistiques — **layout seul** (skin via `.c-card`) ; `--bar` (KPI horizontaux), `--list` (lignes label/valeur). Éléments `__label`/`__value` communs |
 | `_card.scss` | `.c-card` | **Skin réutilisable** : fond, bordure, border-radius, spacing. Toute surface à fond/bordure passe par là |
 | `_card.scss` | `.c-card--{variant}` | Variantes de fond et texte : `flat`, `neutral`, `brand`, `info`, `alert` ; les deux dernières utilisent les aliases sémantiques partagés |
@@ -140,7 +140,7 @@ Nomenclature BEM : `.c-{composant}__element--modifier`
 
 > **Règle — un seul langage par bouton.** Un bouton répond soit à « qui ? », soit à « quoi ? », jamais aux deux. Une marque ou un réseau identifiable (« qui ? ») utilise de préférence son icône seule via `.c-button--icon`, avec un `aria-label` explicite. Une action (« quoi ? ») utilise uniquement un libellé textuel, sans élément enfant, icône, emoji, flèche ou pictogramme. Le caractère `→` et les autres glyphes directionnels sont interdits dans les boutons d'action : le verbe du libellé doit suffire à exprimer l'action. Ne jamais associer une icône et du texte dans un même bouton.
 >
-> **Règle — contrôles et états communs.** Les champs visibles composent `.c-control`. Boutons et contrôles partagent une hauteur minimale de 44 px, un corps de 15 px, un focus visible de marque en 2 px et une opacité désactivée de `0.8`. Aucun composant métier ne redéfinit localement ces états.
+> **Règle — contrôles et états communs.** Les champs visibles composent `.c-control`. Boutons et contrôles partagent une hauteur minimale de 32 px, qui est aussi leur zone cliquable (rien ne l’étend au-delà de la bordure), un padding de 4 × 16 px, un corps de 15 px, un focus visible de marque en 2 px et une opacité désactivée de `0.8`. Aucun composant métier ne redéfinit localement ces états.
 >
 > **Règle — emoji décoratif inaccessible.** Un emoji purement visuel est toujours enveloppé dans un élément portant `aria-hidden="true"`. Le texte adjacent doit conserver seul tout le sens ; un emoji ne remplace jamais un libellé accessible.
 >
