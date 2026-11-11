@@ -289,6 +289,8 @@ Un post s’écrit dans `_drafts/`, puis se publie de deux façons équivalentes
 
 Chaque déploiement (`.github/workflows/github-pages.yml` : push sur `main`, build quotidien, publication, ajout d’un post Substack) contrôle la confidentialité (`pnpm check:privacy`, denylist dans le secret `PRIVACY_DENYLIST`), le lint et le build. Celui-ci comprend `check:positioning`, `check:content-images` et `check:site` (liens internes, canonical, flux).
 
+Un push sur `main` qui rend le site non installable (Ruby, pnpm, Node ou `pnpm install --frozen-lockfile` en échec) est annulé : `scripts/annuler-non-installable.sh` ajoute sur `main` le revert de ses commits, et le déploiement reste rouge. Rien n’est annulé si le push ne touche à aucun fichier de dépendances (échec de réseau ou de registre) ou si l’historique n’est pas linéaire. Renovate attend un jour avant de proposer une version, comme pnpm avant de l’installer.
+
 ## License
 
 - **Code** (HTML, CSS, JS, config Jekyll) : [MIT](./LICENSE-CODE.md)

@@ -30,7 +30,10 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           ref: ${{ inputs.ref || github.sha }}
+          # Historique complet sur un push : l'annulation d'un push non installable en a besoin.
+          fetch-depth: ${{ github.event_name != 'push' && 1 || 0 }}
       - name: Use ruby
+        id: ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "4.0.9"
@@ -39,10 +42,12 @@ jobs:
       # ("packageManager": "pnpm@…"). La déclarer aux deux endroits fait échouer
       # l'action ("Multiple versions of pnpm specified").
       - name: Use pnpm
+        id: pnpm
         uses: pnpm/action-setup@73e46992e05b19abd31f2f3c20e0e7370d762115 # v6
         with:
           cache: true
       - name: Use Node.js
+        id: node
         uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
           node-version-file: .nvmrc
@@ -59,7 +64,18 @@ jobs:
             git push origin HEAD:main
           fi
       - name: Install node dependencies
-        run: pnpm install
+        id: install
+        run: pnpm install --frozen-lockfile
+      # Un push qui rend le site non installable est annulé sur main ; le job reste rouge.
+      - name: Annuler un push non installable
+        if: >-
+          failure() && github.event_name == 'push' && (steps.ruby.outcome == 'failure' ||
+          steps.pnpm.outcome == 'failure' || steps.node.outcome == 'failure' ||
+          steps.install.outcome == 'failure')
+        env:
+          AVANT: ${{ github.event.before }}
+          APRES: ${{ github.sha }}
+        run: bash scripts/annuler-non-installable.sh "$AVANT" "$APRES"
       - name: Privacy
         run: pnpm check:privacy
         env:
