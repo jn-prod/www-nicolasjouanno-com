@@ -13,10 +13,6 @@
     {
       "matchUpdateTypes": ["major"],
       "groupName": "mises à jour majeures"
-    },
-    {
-      "matchDepTypes": ["pnpm.overrides"],
-      "enabled": false
     }
   ]
 }
