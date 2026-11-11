@@ -35,7 +35,7 @@ Le traitement repose sur ton consentement, donné lors de l’inscription. Tu pe
 
 ### Prestataire d’envoi
 
-Depuis novembre 2026, les inscriptions et les envois sont gérés par Substack, sur la [publication de La Sortie](https://bynicolasjd.substack.com/). L’inscription se fait sur Substack, qui applique sa [politique de confidentialité](https://substack.com/privacy) ; ses services impliquent un traitement aux États-Unis. Les inscriptions recueillies auparavant avec Kit sont transférées sur Substack, puis supprimées de Kit à sa fermeture.
+Depuis novembre 2026, les inscriptions et les envois sont gérés par Substack, sur la [publication de La Sortie](https://bynicolasjd.substack.com/). L’inscription se fait sur Substack, qui applique sa [politique de confidentialité](https://substack.com/privacy) ; ses services impliquent un traitement aux États-Unis. À chaque changement de prestataire, toutes les données sont supprimées chez l’ancien.
 
 ### Conservation et droits
 
