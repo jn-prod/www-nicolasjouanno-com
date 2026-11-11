@@ -276,7 +276,13 @@ Un gabarit qui cite un module précis passe par `site.plateformes.<clé>` et ent
 
 `/feed.xml` est le flux RSS principal. Il contient le texte intégral, transforment les liens et médias internes en URL absolues et conservent la mention « Initialement publié sur nicolasjouanno.com ».
 
-Les textes passés sur Substack, les éditions de La Sortie, `/la-sortie/`, `/la-sortie/subscribe/` et `/newsletter/` redirigent vers leur page Substack (`_redirects/`, `la-sortie/`, `newsletter/`). Les brouillons et le modèle de La Sortie vivent dans alfred. Les événements sont une collection Jekyll (`_events/`, modèle dans `_templates/event.md`), listée sur `/events/`.
+Les textes passés sur Substack, les éditions de La Sortie, `/la-sortie/`, `/la-sortie/subscribe/` et `/newsletter/` redirigent vers leur page Substack (section « Redirections »). Les brouillons et le modèle de La Sortie vivent dans alfred. Les événements sont une collection Jekyll (`_events/`, modèle dans `_templates/event.md`), listée sur `/events/`.
+
+## Redirections
+
+Une adresse déplacée garde une 301, servie par Cloudflare (Bulk Redirects, liste de la zone) avant GitHub Pages. La source est `redirections.csv`, au format d’import de Cloudflare, sans en-tête : `source,cible,301,false,false,false,false`, cible en URL absolue. Pour ajouter une redirection : une ligne en `www.` dans le CSV, la même importée dans la liste Cloudflare, puis contrôle avec `curl -sI`. Le domaine nu redirige d’abord vers `www` : ses lignes `nicolasjouanno.com/…` ne servent pas.
+
+Seuls les liens courts des bios (`/ig/`, `/x/`, `/gh/`, `/in/`, `/st/`, `/yt/`) restent des pages Jekyll (`_redirects/`, `jekyll-redirect-from`) : ils ajoutent les paramètres `utm_*` et ne sont pas des déménagements.
 
 ## Publication et déploiement
 
