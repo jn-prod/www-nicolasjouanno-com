@@ -18,7 +18,7 @@ Aujourd’hui, je suis Lead développeur frontend dans la core team de [MGDIS](h
 - De <time datetime="2016">2016</time> à <time datetime="2019">2019</time>, chez REF SPORT, j’ai mené des applications web, du besoin et du prototypage jusqu’au design d’interface, à la mise en production et aux supports de communication.
 - Entre <time datetime="2011">2011</time> et <time datetime="2016">2016</time>, Twinner Sport puis cyclesportnature.fr m’ont fait passer du web éditorial et e-commerce à la responsabilité d’une activité : communication, site, SEO, newsletters, équipe et budget.
 - Depuis <time datetime="2008">2008</time>, je tiens nicolasjouanno.com. En <time datetime="2013">2013</time>, j’ai lancé vtt.bzh pour répondre à une question de pratiquant : où rouler dimanche ? Ce calendrier vit aujourd’hui sur la page [Événements]({{ site.projects.events.url }}).
-- En <time datetime="2026">2026</time>, j’ai repris [feezify](/feezify.html), un carnet d’entraînement initié en <time datetime="2018">2018</time>, pour comprendre les systèmes agentiques de l’intérieur. Je l’ai arrêté en septembre.
+- En <time datetime="2026">2026</time>, j’ai repris [feezify](https://feezify.nicolasjouanno.com/fr/), un carnet d’entraînement initié en <time datetime="2018">2018</time>, pour comprendre les systèmes agentiques de l’intérieur. Je l’ai arrêté en septembre.
 
 Le point de départ reste le [cyclisme professionnel](/results.html), entre <time datetime="2008">2008</time> et <time datetime="2010">2010</time>, chez Bretagne Schuller.
 
