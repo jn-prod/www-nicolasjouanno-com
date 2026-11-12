@@ -5,6 +5,13 @@ description: Les randonnées et rendez-vous outdoor ouverts à tous que Nicolas 
 permalink: /events/
 tag: outdoor
 redirect_from: /outdoor/
+# Les 5 guides outdoor les plus cliqués sur Google (Search Console, août-octobre 2026).
+guides:
+  - /comment-regler-les-suspensions-la-fourche-et-amortisseur-pour-vtt.html
+  - /entrainement-vtt.html
+  - /20-elements-indispensables-pour-votre-sac-de-rando-raid-enduro-vtt.html
+  - /choisir-pedales-vtt-automatique-ou-plates.html
+  - /plan-entrainement-vtt-rando-40km-2h.html
 ---
 
 <h1>Calendrier des randonnées outdoor : VTT, marche, gravel, trail…</h1>
@@ -45,6 +52,15 @@ redirect_from: /outdoor/
 
 <p>Le vélo a été mon premier terrain. Après le cyclisme professionnel, le mouvement continue sur les sentiers, en VTT et en trail. Ces pratiques relient aujourd’hui les voyages, les outils que je construis et une partie de ce que j’écris.</p>
 
-{% include components/post-list.html tag=page.tag intertitre=false %}
+<ul class="c-post-list h-feed">
+  {%- for url in page.guides -%}
+    {%- assign post = site.posts | where: "url", url | first -%}
+    {%- if post %}
+    <li>{% include components/post.html %}</li>
+    {%- endif -%}
+  {%- endfor %}
+</ul>
+
+<p class="u-spacing--block-start-medium"><a href="/posts.html" class="c-button c-button--dark-outline">Toutes les publications</a></p>
 
 <script src="/assets/js/events-calendar.js?v={{ site.time | date: '%s' }}" defer></script>
