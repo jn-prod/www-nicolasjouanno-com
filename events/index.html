@@ -32,6 +32,15 @@ redirect_from: /outdoor/
 
 <p class="c-button-stack"><a class="c-button c-button--brand" href="/events/ajouter.html">Proposer un événement</a></p>
 
+{%- comment -%} Dernière édition de La Sortie, flux du module Substack (_data/flux/substack.json). {%- endcomment -%}
+{%- assign post = site.data.flux.substack | first -%}
+{%- if site.plateformes.substack and post %}
+<h2>Dernière édition de La Sortie</h2>
+<ul class="c-post-list h-feed">
+  <li>{% include components/post.html %}</li>
+</ul>
+{%- endif %}
+
 <h2>Publications outdoor</h2>
 
 <p>Le vélo a été mon premier terrain. Après le cyclisme professionnel, le mouvement continue sur les sentiers, en VTT et en trail. Ces pratiques relient aujourd’hui les voyages, les outils que je construis et une partie de ce que j’écris.</p>
