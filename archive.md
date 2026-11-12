@@ -4,6 +4,7 @@ category: archive
 title: Archives
 description: Comptes rendus de Coupe du Monde, mercato et annonces matériel de 2013-2014. Conservés pour mémoire, plus mis à jour.
 permalink: /archive.html
+sitemap: false
 ---
 
 # Archive
