@@ -29,7 +29,7 @@ vtt.bzh est né en 2013 d’une question simple : où rouler dimanche ?
 Puis j’ai voulu redécouvrir les sentiers autrement. C’est là que j’ai découvert le trail et commencé à prendre plaisir avec une simple paire de baskets.
 
 <p class="c-button-stack">
-  <a href="/outdoor/" class="c-button c-button--dark-outline">Outdoor</a>
+  <a href="/events/" class="c-button c-button--dark-outline">Outdoor</a>
 </p>
 
 ## Sans gluten

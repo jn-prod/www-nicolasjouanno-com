@@ -17,7 +17,7 @@ Aujourd’hui, je roule et je cours autrement. Avec ma famille, nous parcourons 
 
 ## Ce qui continue aujourd’hui
 
-Le palmarès est l’avant. Le vélo continue à travers le [VTT](/outdoor/), le trail et les outils nés de cette pratique.
+Le palmarès est l’avant. Le vélo continue à travers le [VTT](/events/), le trail et les outils nés de cette pratique.
 
 vtt.bzh est né en 2013 d’une question simple : où rouler dimanche ? Ce calendrier vit aujourd’hui sur la page [Événements]({{ site.projects.events.url }}).
 
@@ -197,4 +197,4 @@ Pas de résultat dans le top 20 : une blessure a écourté la saison.
 
 ## La suite, sur les sentiers
 
-La compétition est terminée, pas le mouvement. Je roule en [VTT](/outdoor/), je cours sur les sentiers de trail et je continue à partager ce qui naît de cette pratique, dont le calendrier de la page [Événements]({{ site.projects.events.url }}).
+La compétition est terminée, pas le mouvement. Je roule en [VTT](/events/), je cours sur les sentiers de trail et je continue à partager ce qui naît de cette pratique, dont le calendrier de la page [Événements]({{ site.projects.events.url }}).

@@ -2,6 +2,7 @@
   Une liste, deux primitives Jekyll :
   - `category` pour le format éditorial unique ;
   - `tag` pour un sujet, potentiellement partagé par plusieurs formats.
+  `intertitre=false` quand la page porte déjà l'intertitre de la liste.
 {%- endcomment -%}
 
 {%- if include.category -%}
@@ -12,7 +13,9 @@
   {%- assign posts = site.posts | where_exp: "p", "p.category != 'archive'" -%}
 {%- endif -%}
 
+{%- unless include.intertitre == false %}
 <h2 class="u-visually-hidden">Toutes les publications</h2>
+{%- endunless %}
 <ul class="c-post-list h-feed">
   {%- for post in posts -%}
     <li>{%- include /components/post.html -%}</li>

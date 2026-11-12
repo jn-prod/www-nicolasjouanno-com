@@ -82,7 +82,7 @@ image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
 ```
 
 - `category` n’est pas affichée : `post` est listé sur `/posts.html` ; `archive` (actualités de 2013-2014) a sa page `/archive.html`, sort des listes et des pages de tags, et passe en `noindex`.
-- `tags` alimente les pages thématiques Outdoor et Work. Les publications VTT et trail portent le tag `outdoor`.
+- `tags` alimente les pages thématiques : Work (`/work/`) et Outdoor, listée sous le calendrier de `/events/` (`/outdoor/` y redirige). Les publications VTT et trail portent le tag `outdoor`.
 - Les domaines publics sont `outdoor` et `work`. Des repères secondaires contrôlés, d’un seul mot (`vtt`, `nutrition`, `enduro`, `équipement`, `randonnée`, `entraînement`, `hiver`, `santé`, `sécurité`, `cyclisme`, `compétition`, `web`, `ia`, `productivité`), peuvent relier les articles entre eux, sans page dédiée. Ne pas créer de tag SEO, marque, lieu ou requête longue.
 - Les pages qui portent un champ `tag` définissent les sujets publics. Les tags secondaires restent limités au vocabulaire contrôlé ci-dessus.
 - Dans le front matter comme dans le contenu, référencer une photo avec son extension source (`.jpg`, `.jpeg` ou `.png`) ; le pré-build publie sa version WebP.

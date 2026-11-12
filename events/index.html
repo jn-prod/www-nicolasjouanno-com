@@ -3,6 +3,8 @@ layout: page
 title: "Calendrier des randonnées outdoor : VTT, marche, gravel, trail…"
 description: Les randonnées et rendez-vous outdoor ouverts à tous que Nicolas Jouanno reçoit ou retient, en Bretagne et ailleurs.
 permalink: /events/
+tag: outdoor
+redirect_from: /outdoor/
 ---
 
 <h1>Calendrier des randonnées outdoor : VTT, marche, gravel, trail…</h1>
@@ -29,5 +31,11 @@ permalink: /events/
 {% endif %}
 
 <p class="c-button-stack"><a class="c-button c-button--brand" href="/events/ajouter.html">Proposer un événement</a></p>
+
+<h2>Publications outdoor</h2>
+
+<p>Le vélo a été mon premier terrain. Après le cyclisme professionnel, le mouvement continue sur les sentiers, en VTT et en trail. Ces pratiques relient aujourd’hui les voyages, les outils que je construis et une partie de ce que j’écris.</p>
+
+{% include components/post-list.html tag=page.tag intertitre=false %}
 
 <script src="/assets/js/events-calendar.js?v={{ site.time | date: '%s' }}" defer></script>
