@@ -46,7 +46,7 @@ image_alt: "Un cardiofréquencemètre avec cadence"
 
 ### Mardi
 
-**Durée : 1 h 15 — 100–130 % FC max.**
+**Durée : 1 h 15 — sprints à pleine puissance.**
 *Conseil :* garder une cadence souple sur les temps de récupération.
 
 *Option A — home-trainer*

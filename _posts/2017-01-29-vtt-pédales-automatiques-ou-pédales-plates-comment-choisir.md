@@ -65,7 +65,7 @@ Les pédales plates restent avant tout des pédales idéales pour débuter et se
 
 Plus répandue auprès des cyclistes que des VTTistes, la pédale automatique trouve ses origines sur la route avec la marque Look, précurseur dans le domaine : elle a remplacé les bons vieux cale-pieds, avec les mêmes objectifs, performance et rendement.
 
-Créée par Shimano au début des années 1990 pour le VTT, la pédale automatique a trouvé son public auprès des VTTistes en cross-country et en enduro. En descente, les avis sont plus partagés, mais une grosse majorité en est équipée : les trois meilleurs temps de Champéry 2011 dans des conditions très difficiles sont signés par des pilotes roulant en pédales autos (Hart, Brosnan et Spagnolo).
+Créée par Shimano au début des années 1990 pour le VTT, la pédale automatique a trouvé son public auprès des VTTistes en cross-country et en enduro. En descente, les avis sont plus partagés, mais une grosse majorité en est équipée.
 
 En diminuant le point mort au pédalage, les pédales automatiques augmentent le rendement : contrairement aux pédales plates, grâce à la fixation du pied sur la pédale, le pilote peut pousser d’une jambe et tirer de l’autre, et mécaniquement avoir une traction sur sa transmission plus continue, plus précise et plus efficace.
 

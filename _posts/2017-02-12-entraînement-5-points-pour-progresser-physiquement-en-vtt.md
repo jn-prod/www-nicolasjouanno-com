@@ -15,7 +15,7 @@ events_callout:
 
 Le VTT est une discipline complète. Puissance, endurance, équilibre et explosivité sont des compétences à travailler à l'entrainement. En alternant avec des périodes de récupération, tu observeras une progression constante.
 
-Voici deux types de méthode d'entrainement à utiliser dans ton programme d'entrainement.
+Voici deux méthodes d'entrainement, sans et avec vélo, puis comment construire ton programme et prévenir les blessures.
 
 1. [Entrainement VTT sans vélo](#sans-velo)
 2. [Entrainement VTT avec vélo pour l'XC, l'enduro et la route](#avec-velo)
@@ -50,7 +50,7 @@ Le travail de proprioception est excellent pour améliorer ton équilibre sans v
 
 En peu de temps, tu perfectionnes ton oreille interne. Tu stimules les terminaisons nerveuses qui gèrent ton équilibre.
 
-Des séances courtes de 5 à 10 minutes, 2 à 3 fois par semaine, suffisent. Pour un travail efficace de ton équilibre, regarde les exercices de cette vidéo.
+Des séances courtes de 5 à 10 minutes, 2 à 3 fois par semaine, suffisent.
 
 ### Être plus explosif
 
