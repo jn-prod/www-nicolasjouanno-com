@@ -1,7 +1,10 @@
 #!/bin/sh
 # 1) Confidentialité AVANT que le contenu devienne public sur GitHub : la CI refait le même
 #    contrôle, mais après le push. Denylist : ~/alfred/.privacy-denylist.
-# 2) Programmation du push : alfred/hooks/scheduled-push.sh.
+# 2) Build complet, quel que soit le fichier touché : ses contrôles lisent aussi _drafts/.
+#    Ruby passe par RVM, absent du PATH des shells non interactifs et de cron. L'entrée
+#    standard (les refs poussées) reste à scheduled-push.sh.
+# 3) Programmation du push : alfred/hooks/scheduled-push.sh.
 # alfred introuvable => push refusé (fail-closed).
 HOOKS="${ALFRED_HOOKS:-$HOME/alfred/hooks}"
 if [ ! -f "$HOOKS/scheduled-push.sh" ]; then
@@ -9,4 +12,13 @@ if [ ! -f "$HOOKS/scheduled-push.sh" ]; then
   exit 1
 fi
 node scripts/privacy-scan.mjs || { echo "Push refuse (confidentialite)."; exit 1; }
+LANG="${LANG:-C.UTF-8}"; export LANG # cron n'en fixe pas : Ruby lirait en ASCII
+log=$(mktemp)
+if ! bash -c '[ -s "$HOME/.rvm/scripts/rvm" ] && source "$HOME/.rvm/scripts/rvm" >/dev/null 2>&1 \
+  && rvm use --silent default >/dev/null 2>&1; pnpm build' < /dev/null > "$log" 2>&1; then
+  tail -n 20 "$log"; rm -f "$log"
+  echo "Push refuse (build)."
+  exit 1
+fi
+rm -f "$log"
 exec bash "$HOOKS/scheduled-push.sh" verifier "$@"
