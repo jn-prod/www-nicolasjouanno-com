@@ -40,7 +40,7 @@ Il existe trois systèmes :
 - l’air ;
 - l’huile.
 
-L’air et l’huile sont utilisés seuls ou ensemble sur les fourches de moyenne et haut de gamme.
+L’air et l’huile sont utilisés seuls ou ensemble sur les fourches de moyenne et de haut de gamme.
 
 Sur un système à ressort et élastomère ou à bain d’huile, une molette durcit le ressort. Sur une fourche ou un amortisseur à air, on règle la pression avec une pompe haute pression, qui peut monter jusqu’à 200 psi. Si tu n’en as pas pour ta Fox, ta RockShox, ta SR Suntour ou ta Boss, équipe-toi.
 

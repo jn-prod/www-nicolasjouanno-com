@@ -11,7 +11,7 @@ image: /images/posts/d8edb-0mw_03xhl0mtujzgh.jpg
 image_alt: "Un cardiofréquencemètre avec cadence"
 ---
 
-## Pré-requis
+## Prérequis
 
 **Niveau** : débutant à confirmé.
 **Temps** : 4 à 5 séances de 1 h à 3 h — total de 7 h à 10 h par semaine.
@@ -66,7 +66,7 @@ image_alt: "Un cardiofréquencemètre avec cadence"
 **Durée : 2 h à 3 h — 70–80 % FC max.** VTT 40–50 km en groupe, avec 2 × 10 min à 75 % de la FC max.
 *Conseil :* bien respirer, garder une cadence souple, privilégier les tronçons roulants pour tenir l'effort plus longtemps.
 
-### Jeudi & vendredi
+### Jeudi et vendredi
 
 Repos.
 
