@@ -1,9 +1,8 @@
 ---
-layout: tag
-tag: work
+layout: page
 permalink: /work/
-title: Du vélo au web — parcours et publications
-description: "Du cyclisme professionnel au développement frontend : les publications et repères d’un parcours construit en faisant."
+title: Du vélo au web — parcours
+description: "Du cyclisme professionnel au développement frontend : les repères d’un parcours construit en faisant."
 ---
 
 # Du vélo au web

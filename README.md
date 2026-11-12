@@ -82,9 +82,8 @@ image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
 ```
 
 - `category` n’est pas affichée : `post` est listé sur `/posts.html` ; `archive` (actualités de 2013-2014) a sa page `/archive.html`, sort des listes et des pages de tags, et passe en `noindex`.
-- `tags` alimente les pages thématiques : Work (`/work/`) et Outdoor, listée sous le calendrier de `/events/` (`/outdoor/` y redirige). Les publications VTT et trail portent le tag `outdoor`.
-- Les domaines publics sont `outdoor` et `work`. Des repères secondaires contrôlés, d’un seul mot (`vtt`, `nutrition`, `enduro`, `équipement`, `randonnée`, `entraînement`, `hiver`, `santé`, `sécurité`, `cyclisme`, `compétition`, `web`, `ia`, `productivité`), peuvent relier les articles entre eux, sans page dédiée. Ne pas créer de tag SEO, marque, lieu ou requête longue.
-- Les pages qui portent un champ `tag` définissent les sujets publics. Les tags secondaires restent limités au vocabulaire contrôlé ci-dessus.
+- `tags` relie les articles entre eux (« À lire ensuite », premier tag partagé), sans page de sujet : le site n'a pas de thème. Vocabulaire contrôlé, d’un seul mot, dans `scripts/check-positioning.rb` (`outdoor`, `work`, `vtt`, `nutrition`, `enduro`, `équipement`, `randonnée`, `entraînement`, `hiver`, `santé`, `sécurité`, `cyclisme`, `compétition`, `web`, `ia`, `productivité`). Ne pas créer de tag SEO, marque, lieu ou requête longue.
+- Une page peut lister les publications d’un tag avec un champ `tag` et `components/post-list.html` : seule `/events/` le fait, pour `outdoor` (`/outdoor/` y redirige), et le tag `#outdoor` d’un article y mène.
 - Dans le front matter comme dans le contenu, référencer une photo avec son extension source (`.jpg`, `.jpeg` ou `.png`) ; le pré-build publie sa version WebP.
 - `image_alt` décrit ce qui est visible ; `image_caption`, facultatif et interprété en Markdown, contextualise la couverture et porte son crédit sous la forme `Appareil © Auteur`, sans tiret ni pictogramme.
 - `events_callout`, facultatif, adapte au post l'encart Événements que le gabarit ajoute à tous les posts : `title` et `text`.

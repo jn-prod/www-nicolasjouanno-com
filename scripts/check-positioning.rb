@@ -22,8 +22,10 @@ SKIPPED_DIRECTORIES = %w[
   www
 ].freeze
 LEGACY_KEYS = %w[archive categories format sous_silo verticale].freeze
-DOMAIN_TAGS = %w[outdoor work].freeze
-SECONDARY_TAGS = %w[
+# Vocabulaire contrôlé des tags, sans page de sujet ; une page peut lister un tag (`tag:`).
+ALLOWED_POST_TAGS = %w[
+  outdoor
+  work
   vtt
   nutrition
   enduro
@@ -39,7 +41,6 @@ SECONDARY_TAGS = %w[
   ia
   productivité
 ].freeze
-ALLOWED_POST_TAGS = (DOMAIN_TAGS + SECONDARY_TAGS).freeze
 # `post` est listé par /posts.html ; `archive` a sa page, et ses posts sont en noindex.
 CATEGORIES = %w[post archive].freeze
 
@@ -71,7 +72,7 @@ def taxonomy_pages
       Find.prune if SKIPPED_DIRECTORIES.include?(dirname) || dirname.start_with?("_")
       next
     end
-    next unless File.extname(entry) == ".md"
+    next unless %w[.md .html].include?(File.extname(entry))
 
     frontmatter = frontmatter_for(Pathname.new(entry))
     next if frontmatter.empty? || frontmatter["__error"]
@@ -98,6 +99,7 @@ taxonomy_pages.each do |page|
   end
   next unless category || tag
 
+  errors << "#{path} lists unapproved tag #{tag.inspect}" if tag && !ALLOWED_POST_TAGS.include?(tag)
   index = category ? category_pages : tag_pages
   slug = category || tag
   if index.key?(slug)
@@ -108,7 +110,6 @@ taxonomy_pages.each do |page|
 end
 
 errors << "no category pages found" if category_pages.empty?
-errors << "no tag pages found" if tag_pages.empty?
 
 post_counts_by_category = Hash.new(0)
 post_counts_by_tag = Hash.new(0)

@@ -1,29 +1,25 @@
-{%- assign related_subject = nil -%}
-{%- assign related_posts = nil -%}
-
-{%- for tag in page.tags -%}
-  {%- assign subject = site.pages | where: "tag", tag | first -%}
-  {%- if subject -%}
-    {%- assign related_subject = subject -%}
-    {%- assign related_posts = site.tags[tag] -%}
-    {%- break -%}
-  {%- endif -%}
-{%- endfor -%}
-
+{%- comment -%}
+  « À lire ensuite » : deux publications du premier tag de la page qui en a d'autres.
+{%- endcomment -%}
+{%- assign related_tag = nil -%}
 {%- assign related_count = 0 -%}
 {%- capture related_items -%}
-  {%- for candidate in related_posts -%}
-    {%- if candidate.url != page.url and candidate.category != 'archive' and related_count < 2 -%}
-      <li><a href="{{ candidate.url | relative_url }}">{{ candidate.title }}</a></li>
-      {%- assign related_count = related_count | plus: 1 -%}
-    {%- endif -%}
+  {%- for tag in page.tags -%}
+    {%- for candidate in site.tags[tag] -%}
+      {%- if candidate.url != page.url and candidate.category != 'archive' and related_count < 2 -%}
+        <li><a href="{{ candidate.url | relative_url }}">{{ candidate.title }}</a></li>
+        {%- assign related_count = related_count | plus: 1 -%}
+        {%- assign related_tag = tag -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if related_count > 0 -%}{%- break -%}{%- endif -%}
   {%- endfor -%}
 {%- endcapture -%}
 
 {%- if related_count > 0 -%}
 <aside>
   <h2>À lire ensuite</h2>
-  <p>Sur le même sujet, {{ related_subject.tag | replace: '-', ' ' | downcase }} :</p>
+  <p>Sur le même sujet, {{ related_tag | replace: '-', ' ' | downcase }} :</p>
   <ul class="u-list">
     {{ related_items }}
   </ul>
