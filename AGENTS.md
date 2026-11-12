@@ -20,6 +20,9 @@ Un post se publie avec `pnpm publish:post` ou le workflow « Publier un post » 
 section « Publication et déploiement »), jamais en déplaçant le fichier à la main. Ne publier
 qu'à la demande explicite de Nicolas.
 
+Un événement de `/events/` est un fichier de la collection `_events/`, préparé depuis une
+soumission reçue par e-mail (`events/ajouter.html`) et ajouté après validation de Nicolas.
+
 ## Plateformes
 
 Une plateforme (Substack, Instagram, réseaux…) ne se branche que par un module : une clé sous
