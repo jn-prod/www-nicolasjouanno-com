@@ -33,7 +33,7 @@ const PATTERNS = [
 // L'employeur n'apparaît que sur ces pages : ni .privacy-allow ni les tests ne l'élargissent.
 const EMPLOYEUR = /mgdis/i;
 const EMPLOYEUR_AUTORISE = new Set([
-  'work/index.md',
+  'about.md',
   '_posts/2025-09-26-paris-web-2025.md',
   'scripts/privacy-scan.mjs',
 ]);
