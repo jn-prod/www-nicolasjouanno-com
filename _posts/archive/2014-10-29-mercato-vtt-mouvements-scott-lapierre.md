@@ -1,11 +1,8 @@
 ---
-category: archive
-sitemap: false
 title: "Mercato VTT : du mouvement chez Scott et Lapierre"
 description: "Saison 2015 : Finn Iles arrive chez Lapierre Gravity Republic tandis que Blenkinsop et Ragot partent ; Van der Heijden remplace Vogel chez Scott Odlo."
 tags:
   - outdoor
-
 ---
 
 ## Lapierre Gravity Republic : Finn Iles entre, Blenkinsop et Ragot sortent

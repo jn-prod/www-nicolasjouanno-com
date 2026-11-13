@@ -21,26 +21,11 @@ SKIPPED_DIRECTORIES = %w[
   packages
   www
 ].freeze
-LEGACY_KEYS = %w[archive categories format sous_silo verticale].freeze
-# Vocabulaire contrôlé des tags, sans page de sujet ; une page peut lister un tag (`tag:`).
-ALLOWED_POST_TAGS = %w[
-  outdoor
-  work
-  nutrition
-  enduro
-  équipement
-  randonnée
-  entraînement
-  hiver
-  santé
-  sécurité
-  cyclisme
-  compétition
-  web
-  ia
-  productivité
-].freeze
-# `post` est listé par /posts.html ; `archive` a sa page, et ses posts sont en noindex.
+# `category` et `sitemap` viennent des valeurs par défaut de _config.yml, selon le dossier.
+LEGACY_KEYS = %w[archive categories category format sitemap sous_silo verticale].freeze
+# Un seul tag par post, pour « À lire ensuite », jamais affiché.
+ALLOWED_POST_TAGS = %w[outdoor work nutrition].freeze
+# `post` : _posts/, listé par /posts.html ; `archive` : _posts/archive/, sa page, en noindex.
 CATEGORIES = %w[post archive].freeze
 
 def fail_with(errors)
@@ -84,23 +69,16 @@ end
 
 errors = []
 category_pages = {}
-tag_pages = {}
 
 taxonomy_pages.each do |page|
   path = page.fetch(:path)
   frontmatter = page.fetch(:frontmatter)
+  errors << "#{path} still declares a tag page (tag:)" if frontmatter.key?("tag")
   category = frontmatter["category"]
-  tag = frontmatter["tag"]
+  next unless category
 
-  if category && tag
-    errors << "#{path} cannot declare both category and tag"
-    next
-  end
-  next unless category || tag
-
-  errors << "#{path} lists unapproved tag #{tag.inspect}" if tag && !ALLOWED_POST_TAGS.include?(tag)
-  index = category ? category_pages : tag_pages
-  slug = category || tag
+  index = category_pages
+  slug = category
   if index.key?(slug)
     errors << "duplicate taxonomy page for #{slug.inspect}: #{index[slug][:path]} and #{path}"
   else
@@ -111,9 +89,9 @@ end
 errors << "no category pages found" if category_pages.empty?
 
 post_counts_by_category = Hash.new(0)
-post_counts_by_tag = Hash.new(0)
+post_paths = POSTS_DIR.glob("**/*.md")
 
-POSTS_DIR.glob("*.md").each do |post_path|
+post_paths.each do |post_path|
   relative_path = post_path.relative_path_from(ROOT)
   frontmatter = frontmatter_for(post_path)
   if frontmatter["__error"]
@@ -126,11 +104,10 @@ POSTS_DIR.glob("*.md").each do |post_path|
     errors << "#{relative_path} still uses legacy key #{key}" if frontmatter.key?(key)
   end
 
-  category = frontmatter["category"]
-  if !category.is_a?(String) || category.empty?
-    errors << "#{relative_path} must have exactly one category"
-  elsif !CATEGORIES.include?(category)
-    errors << "#{relative_path} category must be one of #{CATEGORIES.join(', ')}"
+  folder = post_path.dirname.relative_path_from(POSTS_DIR).to_s
+  category = folder == "." ? "post" : folder
+  if !CATEGORIES.include?(category)
+    errors << "#{relative_path} must be in _posts/ or _posts/#{(CATEGORIES - ["post"]).join(', _posts/')}/"
   elsif category != "post" && !category_pages.key?(category)
     errors << "#{relative_path} has no category page for #{category.inspect}"
   else
@@ -138,14 +115,9 @@ POSTS_DIR.glob("*.md").each do |post_path|
   end
 
   tags = Array(frontmatter["tags"]).map(&:to_s)
-  errors << "#{relative_path} must have at least one tag" if tags.empty?
-  errors << "#{relative_path} has duplicate tags" if tags.uniq.length != tags.length
-  errors << "#{relative_path} has tags that are not lowercase" if tags.any? { |tag| tag != tag.downcase }
+  errors << "#{relative_path} must have exactly one tag" unless tags.length == 1
   invalid_tags = tags - ALLOWED_POST_TAGS
   errors << "#{relative_path} uses unapproved tags: #{invalid_tags.join(', ')}" unless invalid_tags.empty?
-  tag_pages.each_key do |tag|
-    post_counts_by_tag[tag] += 1 if tags.include?(tag) && category != "archive"
-  end
 end
 
 category_pages.each_key do |category|
@@ -155,13 +127,6 @@ category_pages.each_key do |category|
   end
 end
 
-tag_pages.each_key do |tag|
-  count = post_counts_by_tag[tag]
-  if count.zero?
-    errors << "#{tag} tag has no visible posts"
-  end
-end
-
 fail_with(errors)
 
-puts "Positioning check OK: #{POSTS_DIR.glob("*.md").size} posts, #{category_pages.size} category pages, #{tag_pages.size} tag pages."
+puts "Positioning check OK: #{post_paths.size} posts, #{category_pages.size} category pages."

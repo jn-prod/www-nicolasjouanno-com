@@ -1,11 +1,8 @@
 ---
-category: post
 title: "Les meilleurs pneus vtt spéciale boue pour l'hiver"
 description: "Pour éviter les glissades d'hiver dans la boue il faut choisir le bon pneu, voici mon comparatif."
 tags:
   - outdoor
-  - équipement
-  - hiver
 image: /images/posts/d6a09-0klmuoxlc_xyukmmx.jpg
 ---
 

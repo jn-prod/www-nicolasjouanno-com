@@ -1,10 +1,8 @@
 ---
-category: post
 title: "Régler les suspensions de son VTT : fourche et amortisseur"
 description: "SAG, compression, blocage, détente : l’ordre et la méthode pour régler la fourche et l’amortisseur de son VTT, et que faire si le blocage ne marche plus."
 tags:
   - outdoor
-  - équipement
 image: /images/posts/a3d50-0omp6q8ru_v_v0drm.jpg
 image_alt: "Pompe haute pression pour suspension RockShox"
 events_callout:

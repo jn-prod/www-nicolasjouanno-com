@@ -1,11 +1,8 @@
 ---
-category: archive
-sitemap: false
 title: Le groupe Shimano XTR Di2 (M9050) pour 2015
 description: "Shimano fait passer son groupe XTR à la transmission électronique Di2 : Synchro Shift, écran de contrôle, connectivité GPS, poids et prix. Présentation."
 tags:
   - outdoor
-  - équipement
 image: /images/posts/e210f-0cl6rllkmratuqcb6.jpg
 image_alt: XTR Di2 - Synchro Shift
 ---

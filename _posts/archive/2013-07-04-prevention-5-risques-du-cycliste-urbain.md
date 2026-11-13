@@ -1,13 +1,8 @@
 ---
-category: post
-sitemap: false
 title: "Prévention : les 5 risques du cycliste urbain"
 description: "Portière, intersection, feu rouge, angle mort, visibilité : les cinq pièges du vélo en ville et les bons réflexes pour les éviter."
 tags:
   - outdoor
-  - sécurité
-  - cyclisme
-robots: noindex, follow
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZzeVxHcxXaI" title="Les 5 risques du cycliste urbain" frameborder="0" allowfullscreen></iframe>

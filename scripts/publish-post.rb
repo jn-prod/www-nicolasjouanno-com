@@ -54,7 +54,7 @@ front_matter = YAML.safe_load(match[1], permitted_classes: [Date, Time]) || {}
 body = match.post_match
 
 errors = []
-%w[title description category].each do |key|
+%w[title description].each do |key|
   errors << "#{key} est vide" if front_matter[key].to_s.strip.empty?
 end
 errors << "commentaire HTML restant (<!-- … -->)" if content.include?("<!--")

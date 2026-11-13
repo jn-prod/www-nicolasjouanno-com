@@ -1,7 +1,6 @@
 ---
 title: ""
 description: ""
-category: post
 tags:
   - outdoor
 image:

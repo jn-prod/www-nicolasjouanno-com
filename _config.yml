@@ -90,6 +90,19 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      category: "post"
+  # Un post rangé dans _posts/archive/ est une archive : hors de /posts.html, en noindex.
+  - scope:
+      path: "_posts/archive"
+      type: "posts"
+    values:
+      category: "archive"
+      sitemap: false
+  - scope:
+      path: ""
+      type: "redirects"
+    values:
+      sitemap: false
 
 # Outputting
 lsi: false

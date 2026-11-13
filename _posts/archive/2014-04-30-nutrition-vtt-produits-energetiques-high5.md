@@ -1,11 +1,8 @@
 ---
-category: archive
-sitemap: false
 title: "Nutrition VTT : test des produits énergétiques High5"
 description: "Boissons, gels, barres, packs de course et récupération : tour d'horizon de la gamme de nutrition d'effort High5 pour le VTT."
 tags:
   - nutrition
-
 ---
 
 À l'approche des épreuves que tu as cochées sur ton calendrier — Roc d'Azur, 24 h VTT… —, l'entraînement est essentiel pour aborder le jour J sereinement. Mais ce jour-là, il faudra aussi soigner ton apport énergétique. Voici un test de la gamme **High5**, une nutrition d'effort déjà validée par de grands champions comme **Cédric Gracia**.

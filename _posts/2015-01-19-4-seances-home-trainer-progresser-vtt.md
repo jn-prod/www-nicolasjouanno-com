@@ -1,11 +1,8 @@
 ---
-category: post
 title: "4 séances de home-trainer pour progresser en VTT"
 description: "Quatre séances de home-trainer (pédalage, force, foncier, PMA, sprint) pour progresser en VTT, même quand la météo te garde à la maison."
 tags:
   - outdoor
-  - entraînement
-  - hiver
 image: /images/posts/d379f-0z0tfhj6okz30ro44.jpg
 image_alt: "Entraînement VTT sur home-trainer"
 ---

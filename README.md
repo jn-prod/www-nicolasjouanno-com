@@ -41,7 +41,7 @@ Site personnel de Nicolas Jouanno : le fil durable de ses publications et des ou
 - `_layouts/base.html` porte le document HTML, les métadonnées, les assets communs et la mesure d’audience.
 - `_layouts/default.html` hérite de `base` et ajoute sans condition le header avec la bio, la navigation, le contenu principal et le footer standard.
 - `_layouts/landing.html` hérite directement de `base` et centralise le contenu principal et le footer compact des pages d’inscription ou autres landings minimales.
-- `page`, `post`, `tag` et `category` héritent du layout `default`.
+- `page`, `post` et `category` héritent du layout `default`.
 
 ## Commandes
 
@@ -65,13 +65,12 @@ pnpm build:images    # WebP + optimisation SVG dans images-dist/
 
 ## Publier un article
 
-Le front matter reste volontairement natif Jekyll : une seule `category` sépare les posts des archives, plusieurs `tags` décrivent les sujets.
+Le front matter reste volontairement natif Jekyll : le dossier donne la catégorie (valeurs par défaut de `_config.yml`), un seul tag relie les articles entre eux.
 
 ```yaml
 ---
 title: "Titre"
 description: "Description"
-category: post # post ou archive
 tags:
   - outdoor
 image: /images/posts/nom-du-fichier.jpg
@@ -80,9 +79,9 @@ image_caption: "[Lieu](URL), date. Contexte de la photo. Appareil © Auteur."
 ---
 ```
 
-- `category` n’est pas affichée : `post` est listé sur `/posts.html` ; `archive` (actualités de 2013-2014) a sa page `/archive.html`, sort des listes et des pages de tags, et passe en `noindex`.
-- `tags` relie les articles entre eux (« À lire ensuite », premier tag partagé), sans page de sujet : le site n'a pas de thème. Vocabulaire contrôlé, d’un seul mot, dans `scripts/check-positioning.rb` (`outdoor`, `work`, `nutrition`, `enduro`, `équipement`, `randonnée`, `entraînement`, `hiver`, `santé`, `sécurité`, `cyclisme`, `compétition`, `web`, `ia`, `productivité`). Ne pas créer de tag SEO, marque, lieu ou requête longue.
-- Une page qui porte un champ `tag` est la cible du tag dans les articles : seule `/events/` le fait, pour `outdoor` (`/outdoor/` y redirige, 301 Cloudflare). Elle met en avant cinq guides, listés dans son champ `guides` d’après les clics de la Search Console, puis renvoie à `/posts.html`. Les liens vers `/events/` passent par `{% link events/index.html %}` : le build échoue si la page est déplacée, renommée ou supprimée.
+- La catégorie ne s’écrit pas : un post de `_posts/` est en `post`, listé sur `/posts.html` ; un post de `_posts/archive/` est en `archive`, a sa page `/archive.html`, sort des listes et du sitemap et passe en `noindex`. Archiver un post, c’est le déplacer dans ce dossier.
+- `tags` porte un seul tag, jamais affiché, qui sert à « À lire ensuite » ; le site n'a ni thème ni page de sujet. Vocabulaire contrôlé dans `scripts/check-positioning.rb` : `outdoor`, `work`, `nutrition`.
+- `/events/` (`/outdoor/` y redirige, 301 Cloudflare) met en avant cinq guides, listés dans son champ `guides` d’après les clics de la Search Console, puis renvoie à `/posts.html`. Les liens vers `/events/` passent par `{% link events/index.html %}` : le build échoue si la page est déplacée, renommée ou supprimée.
 - Dans le front matter comme dans le contenu, référencer une photo avec son extension source (`.jpg`, `.jpeg` ou `.png`) ; le pré-build publie sa version WebP.
 - `image_alt` décrit ce qui est visible ; `image_caption`, facultatif et interprété en Markdown, contextualise la couverture et porte son crédit sous la forme `Appareil © Auteur`, sans tiret ni pictogramme.
 - `events_callout`, facultatif, adapte au post l'encart Événements que le gabarit ajoute à tous les posts : `title` et `text`.

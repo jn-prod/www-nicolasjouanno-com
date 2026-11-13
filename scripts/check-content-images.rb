@@ -41,7 +41,7 @@ def inline_image_path(path, content_path)
     .sub(/\.(?:jpe?g|png)\z/i, ".webp")
 end
 
-[POSTS_DIR, DRAFTS_DIR].flat_map { |directory| directory.glob("*.md") }.each do |post_path|
+[POSTS_DIR, DRAFTS_DIR].flat_map { |directory| directory.glob("**/*.md") }.each do |post_path|
   content = post_path.read
   match = content.match(/\A---\s*\n(.*?)\n---\s*\n/m)
   next unless match
