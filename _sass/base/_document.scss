@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
+// Schéma clair déclaré, fond et texte explicites : sans eux, une webview en mode sombre
+// (navigateur intégré de X) peint le fond en noir sous un texte resté noir.
 html {
+  color-scheme: light;
   font-size: 62.5%;
 }
 
 body {
   margin: 0;
+  background-color: var(--b-color-neutral-0);
+  color: var(--b-color-neutral-100);
   font-size: var(--font-size);
   font-family: var(--font-family);
   line-height: var(--line-height);
