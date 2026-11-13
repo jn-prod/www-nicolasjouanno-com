@@ -3,9 +3,6 @@ title: À propos
 layout: page
 description: J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten, et je construis les outils qui nous manquent.
 permalink: /about/
-redirect_from:
-  - /work/
-  - /results.html
 ---
 
 <hgroup class="u-text--center">
