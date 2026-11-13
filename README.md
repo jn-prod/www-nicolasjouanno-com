@@ -279,7 +279,7 @@ Les textes passés sur Substack, les éditions de La Sortie, `/la-sortie/`, `/la
 
 Une adresse déplacée garde une 301, servie par Cloudflare (Bulk Redirects, liste de la zone) avant GitHub Pages. La source est `redirections.csv`, au format d’import de Cloudflare, sans en-tête : `source,cible,301,false,false,false,false`, cible en URL absolue. Une ligne par adresse, en `www.` seulement : le domaine nu redirige d’abord vers `www`. Pour ajouter une redirection : la ligne dans le CSV, la même importée dans la liste Cloudflare, puis contrôle avec `curl -sI`.
 
-Seuls les liens courts des bios (`/ig/`, `/x/`, `/gh/`, `/in/`, `/st/`, `/yt/`) restent des pages Jekyll (`_redirects/`, `jekyll-redirect-from`) : ils ajoutent les paramètres `utm_*` et ne sont pas des déménagements.
+Les profils pointent en direct vers la page finale : une page de redirection Jekyll efface le référent, que Cloudflare Web Analytics ne voit plus, et ses paramètres `utm_*` n'y sont pas mesurés. Restent les liens courts `/in/`, `/st/` et `/yt/` (`_redirects/`, `jekyll-redirect-from`), qui ne sont pas des déménagements.
 
 ## Publication et déploiement
 
