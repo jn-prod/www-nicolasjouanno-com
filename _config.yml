@@ -1,6 +1,6 @@
 # Site Settings
 title: "Nicolas Jouanno"
-description: "Nicolas Jouanno, ancien cycliste pro : La Sortie, la lettre mensuelle pour retrouver le plaisir de sortir librement, et ses archives depuis 2005."
+description: "Nicolas Jouanno : La Sortie, la lettre mensuelle pour retrouver le plaisir de sortir librement, et ses archives depuis 2005."
 url: "https://www.nicolasjouanno.com"
 lang: "fr"
 logo: "/images/icons/avatar.svg"
@@ -24,6 +24,8 @@ author:
     - "Sans gluten"
     - "Maladie cœliaque"
     - "Ravitaillement sportif sans gluten"
+    - "Agents IA"
+    - "Systèmes agentiques"
   # identité IndieWeb de nj.com (pas une plateforme)
   webmention: "https://webmention.io/www.nicolasjouanno.com/webmention"
   handle: "@bynicolasjd"

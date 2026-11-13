@@ -1,13 +1,13 @@
 ---
 title: À propos
 layout: page
-description: J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten, et je construis les outils qui nous manquent.
+description: J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten, et je construis des agents IA.
 permalink: /about/
 ---
 
 <hgroup class="u-text--center">
   <h1>J’explore l’Europe en famille, en van, à la recherche de sentiers et d’assiettes sans gluten.</h1>
-  <p>Je raconte ce que nous trouvons en chemin et je construis les outils qui nous manquent.</p>
+  <p>Je raconte ce que nous trouvons en chemin et je construis des agents IA, que j’éprouve sur mes propres projets.</p>
 </hgroup>
 
 <p class="u-text--center h-card"><data class="p-name" value="Nicolas Jouanno"></data><data class="u-url u-uid" value="https://www.nicolasjouanno.com/"></data><img class="c-avatar c-avatar--xlarge u-photo" src="/images/nicolas-jouanno.jpg" alt="Portrait de Nicolas Jouanno" width="256" height="256" /></p>

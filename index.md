@@ -18,7 +18,7 @@ script: /assets/share.js
 
   <p class="c-profile__description p-note">
     Retrouver le plaisir de sortir, librement : chaque mois dans <a href="{{ site.plateformes.substack.url }}">La Sortie</a>, une idée, un vécu, quelques lectures.<br>
-    <span aria-hidden="true">⏮️</span> <a href="/about/#palmares">Ex-cycliste pro</a>.
+    <span aria-hidden="true">🤖</span> <a href="/about/#parcours">Je construis des agents</a>.
     <span aria-hidden="true">🌱</span> <a href="/apps/gluten-not-gluten/">Assiettes sans gluten</a>.
   </p>
 
