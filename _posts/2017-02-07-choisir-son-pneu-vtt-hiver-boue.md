@@ -4,6 +4,7 @@ description: "Pour éviter les glissades d'hiver dans la boue il faut choisir le
 tags:
   - outdoor
 image: /images/posts/d6a09-0klmuoxlc_xyukmmx.jpg
+image_alt: "Vue en coupe d'un pneu VTT à hauts crampons, dont les couches de gomme sont colorées en rouge, jaune et bleu."
 ---
 
 <em>Changement d’heure, changement de temps, changement de pneus… c’est la dure réalité des VTTistes quand l’hiver arrive, quand les chemins deviennent boueux, n’évacuent plus l’eau et que les feuilles tombent, ton pilotage change, plus en glisse. Mais toi, gardes-tu les mêmes pneus sur ton VTT l’hiver que l’été ? A tord… l’adhérence est un gage de sécurité que l’on soit un pilote engagé ou simple randonneur.</em>

@@ -5,6 +5,7 @@ tags:
   - outdoor
 permalink: "/entrainement-vtt.html"
 image: /images/posts/e0b76bf4d60afc3bf83e25f6bf3cefb4.png
+image_alt: "Smartphone qui affiche une application de suivi d'activité : histogramme des pas par mois et compteur à 55 000 pas."
 events_callout:
   title: "Trouver des sorties VTT"
   text: "Pour mettre en pratique ces séances, la page Événements reprend les randos qu'on m'envoie : dates, lieux et liens."

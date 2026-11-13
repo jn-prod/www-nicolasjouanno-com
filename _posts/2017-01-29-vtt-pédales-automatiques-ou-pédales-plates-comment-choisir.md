@@ -5,6 +5,7 @@ description: "Le guide ultime pour faire son choix entre les pédales plates et 
 tags:
   - outdoor
 image: /images/posts/ccs-62657-0-58346000-1479391864.jpg
+image_alt: "Gros plan sur le pédalier d'un VTT de descente Santa Cruz, avec son amortisseur à ressort orange et une pédale plate au premier plan."
 ---
 
 ## Au programme

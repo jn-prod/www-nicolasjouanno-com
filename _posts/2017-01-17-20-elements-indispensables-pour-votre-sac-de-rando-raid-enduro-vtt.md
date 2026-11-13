@@ -4,6 +4,7 @@ description: "Une randonnée VTT ou de l'enduro, ça demande de la préparation 
 tags:
   - outdoor
 image: /images/posts/jervol.jpg
+image_alt: "Vététiste en tenue verte et casque intégral qui dérape dans un virage de gravier, en soulevant un nuage de poussière."
 events_callout:
   title: "Tu prépares une rando VTT ?"
   text: "La page Événements reprend les randos qu'on m'envoie : dates, lieux et liens. Un bon terrain pour tester ton sac."

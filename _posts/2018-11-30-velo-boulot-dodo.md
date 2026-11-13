@@ -4,6 +4,7 @@ description: "Aller travailler à vélo chaque matin : les bienfaits du vélo-ta
 tags:
   - outdoor
 image: /images/posts/tshirt_velo-boulot-dodo.png
+image_alt: "Homme debout contre un mur gris, un vélo de ville à la main, vêtu d'un t-shirt imprimé « Vélo boulot dodo »."
 ---
 
 <em>Tu connais sûrement plus la citation "Métro, Boulot, Dodo" que je me suis ré-approprié. Depuis que j'habite à Pontivy, j'ai la chance de pouvoir aller tous les jours au boulot à vélo, parcourant les 2km500 séparant mon domicile du bureau, en longeant le canal, quatre fois par jour. Fraîchement l'hiver et chaudement l'été, tu me croiras, ou non, mais prendre le vélo conditionne une bonne journée!</em>

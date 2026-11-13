@@ -100,6 +100,9 @@ post_paths.each do |post_path|
   end
 
   errors << "#{relative_path} missing title" if frontmatter["title"].to_s.strip.empty?
+  if frontmatter["image"] && frontmatter["image_alt"].to_s.strip.empty?
+    errors << "#{relative_path} has an image without image_alt (RGAA 1.2, 1.3)"
+  end
   LEGACY_KEYS.each do |key|
     errors << "#{relative_path} still uses legacy key #{key}" if frontmatter.key?(key)
   end

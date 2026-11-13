@@ -4,6 +4,7 @@ description: "Comment coder son premier MVP : retour d'expérience entre growth 
 tags:
   - work
 image: /images/posts/maxresdefault.jpg
+image_alt: "Logo « #STAYMINIMAL » en lettres blanches dans un disque noir."
 ---
 
 ## A la rencontre du growth hacking

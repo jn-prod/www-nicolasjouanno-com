@@ -4,6 +4,7 @@ description: Depuis que je roule en VTT avec mes nouvelles roues Mavic Crossmax,
 tags:
   - outdoor
 image: /images/posts/9c05d-05lwfpqvtdkfbts1o.jpg
+image_alt: "Paire de roues VTT Mavic Crossmax SLR, jantes noires et argent, sur fond blanc."
 ---
 
 _Choisir ta nouvelle paire de **roues de vtt** peu être fastidieux tant les possibilités sont vastes. Les nouveaux standards de roues de VTT en **27,5 pouces** et **29 pouces** nous amène à la recherche du compromis entre la rigidité et la légerté. Pour ma part, j'ai choisi les **roues Mavic Crossmax** et je ne reveiendrais pour rien au monde sur ma décision. Je t’explique pourquoi._

@@ -4,6 +4,7 @@ description: "L’inbox 0 transforme ton rapport aux emails : découvre comment 
 tags:
   - work
 image: /images/posts/e0a38-10yto40xd793dweahzoxsta.jpeg
+image_alt: "Piles de dossiers papier entassées sur un bureau ; derrière, une personne se tient la tête."
 ---
 
 ## L’inbox 0, plus qu’une règle c’est un état d’esprit de productivité que j’applique au quotidien.

@@ -4,6 +4,7 @@ description: "Circuits VTT en Bretagne par région : Finistère, Morbihan, Côte
 tags:
   - outdoor
 image: /images/posts/bf91f-04tn2madty8ffu2ug.jpg
+image_alt: "Trois vététistes, de dos, montent un sentier à travers une lande d'herbes sèches et de bruyère, vers une butte rocheuse."
 events_callout:
   title: "Randos à venir"
   text: "Les randos et les rendez-vous outdoor ouverts à tous qu'on m'envoie, avec la date, le lieu et le lien."

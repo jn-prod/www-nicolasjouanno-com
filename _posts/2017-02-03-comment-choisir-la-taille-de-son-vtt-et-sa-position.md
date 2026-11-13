@@ -4,6 +4,7 @@ description: "La question que tout le monde se pose: quel est la taille idéale 
 tags:
   - outdoor
 image: /images/posts/90cc1-0wscg_9_yafgnydvo.jpg
+image_alt: "L'Homme de Vitruve de Léonard de Vinci : un homme bras et jambes écartés, inscrit dans un cercle et un carré."
 ---
 
 <em>Le choix de la taille de ton VTT est essentiel dans ta pratique, qu’elle soit loisir ou de compétition. Cela peut te permettre de gagner rapidement en efficacité sur ton VTT. De manière certaine, une meilleure position améliorera tes performances pour plusieurs raisons qui seront dévoilées plus bas.</em>

@@ -5,6 +5,7 @@ description: "Tout savoir sur la discipline la plus complête du VTT: l'enduro. 
 tags:
   - outdoor
 image: /images/posts/p5pb12718966.jpg
+image_alt: "Pilote d'enduro en maillot jaune et casque intégral qui enroule un virage poussiéreux, rubalise de course en arrière-plan."
 ---
 
 ## Au programme :

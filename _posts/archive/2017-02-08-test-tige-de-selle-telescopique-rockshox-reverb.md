@@ -4,6 +4,7 @@ description: Quels sont les avantages d'une tige de selle télescopique ? Pourqu
 tags:
   - outdoor
 image: /images/posts/Rockshox-Reverb_dropper-seatpost_updates_5_detail.jpg
+image_alt: "Tige de selle télescopique RockShox Reverb montée sur un VTT, vue de dessus avec sa selle, sur fond de gravier."
 ---
 
 <em>Une Tige de selle télescopique à quoi ça sert? La tige de selle télescopique, un accessoire de mode ou l’arme ultime dans les passages techniques?</em>
