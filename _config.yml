@@ -81,8 +81,6 @@ plateformes:
 
 # collections
 collections:
-  redirects:
-    output: true
   events:
     output: false
 
@@ -100,11 +98,6 @@ defaults:
     values:
       category: "archive"
       sitemap: false
-  - scope:
-      path: ""
-      type: "redirects"
-    values:
-      sitemap: false
 
 # Outputting
 lsi: false
@@ -114,7 +107,6 @@ permalink: /:title:output_ext
 # Plugins
 plugins:
   - jekyll-sitemap
-  - jekyll-redirect-from
 
 # Other
 markdown: kramdown
