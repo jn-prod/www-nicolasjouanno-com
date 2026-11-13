@@ -4,7 +4,6 @@ sitemap: false
 title: "Test du Camelbak Lobo : le sac d'hydratation polyvalent pour le VTT"
 description: "Test du sac d'hydratation Camelbak Lobo en VTT : caractéristiques, confort, poche à eau, ce qu'on a aimé et moins aimé."
 tags:
-  - vtt
   - outdoor
   - équipement
 image: /images/posts/1ec09-0r4e75xjf9inhwb23.png

@@ -4,7 +4,6 @@ category: post
 title: "GUIDE: L'enduro VTT de A à Z."
 description: "Tout savoir sur la discipline la plus complête du VTT: l'enduro. Sa définition, son équipement et quelques conseils."
 tags:
-  - vtt
   - outdoor
   - enduro
   - équipement

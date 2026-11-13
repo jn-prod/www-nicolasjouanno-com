@@ -19,7 +19,7 @@ J’écris l’édition de décembre de [La Sortie]({{ site.plateformes.substack
 
 ## Événements
 
-vtt.bzh, le calendrier que j’ai lancé en 2013, est devenu la page [Événements]({{ site.projects.events.url }}) : les randos et les rendez-vous outdoor ouverts à tous qu’on m’envoie.
+vtt.bzh, le calendrier que j’ai lancé en 2013, est devenu la page [Événements]({% link events/index.html %}) : les randos et les rendez-vous outdoor ouverts à tous qu’on m’envoie.
 
 ## Ce site
 

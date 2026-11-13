@@ -77,12 +77,6 @@ plateformes:
     libelle: "GitHub — jn-prod"
     rel_me: true
 
-# projects
-projects:
-  events:
-    url: "/events/"
-    ajouter_url: "/events/ajouter.html"
-
 # collections
 collections:
   redirects:

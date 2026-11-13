@@ -4,7 +4,6 @@ sitemap: false
 title: Pourquoi les étirements sont essentiels pour le VTT
 description: À quoi servent vraiment les étirements en VTT, leurs précautions d'usage et une séance type pour gagner en souplesse.
 tags:
-  - vtt
   - outdoor
   - entraînement
 image: /images/posts/fdb77-0homugubvczfir3sy.jpg

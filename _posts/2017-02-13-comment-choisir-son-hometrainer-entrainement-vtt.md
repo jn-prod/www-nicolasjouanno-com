@@ -3,7 +3,6 @@ category: post
 title: "Comment choisir son home-trainer VTT ?"
 description: "Avant de pouvoir s'entrainement en VTT sur un home-trainer, faut-il encore choisir le modèle le plus adapté."
 tags:
-  - vtt
   - outdoor
   - entraînement
 image: /images/posts/dec76-0cscharjawldysi56.jpg

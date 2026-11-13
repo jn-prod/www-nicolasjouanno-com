@@ -31,7 +31,7 @@ Aujourd’hui, je suis Lead développeur frontend dans la core team de [MGDIS](h
 - Depuis <time datetime="2019">2019</time>, je travaille chez [MGDIS](https://github.com/MGDIS) sur le design system : Web Components, SCSS, accessibilité RGAA et accompagnement des équipes. En <time datetime="2025">2025</time>, j’ai présenté à [Paris-Web](/paris-web-2025.html), avec Simon, notre retour d’expérience sur un design system accessible by design.
 - De <time datetime="2016">2016</time> à <time datetime="2019">2019</time>, chez REF SPORT, j’ai mené des applications web, du besoin et du prototypage jusqu’au design d’interface, à la mise en production et aux supports de communication.
 - Entre <time datetime="2011">2011</time> et <time datetime="2016">2016</time>, Twinner Sport puis cyclesportnature.fr m’ont fait passer du web éditorial et e-commerce à la responsabilité d’une activité : communication, site, SEO, newsletters, équipe et budget.
-- Depuis <time datetime="2008">2008</time>, je tiens nicolasjouanno.com. En <time datetime="2013">2013</time>, j’ai lancé vtt.bzh pour répondre à une question de pratiquant : où rouler dimanche ? Ce calendrier vit aujourd’hui sur la page [Événements]({{ site.projects.events.url }}).
+- Depuis <time datetime="2008">2008</time>, je tiens nicolasjouanno.com. En <time datetime="2013">2013</time>, j’ai lancé vtt.bzh pour répondre à une question de pratiquant : où rouler dimanche ? Ce calendrier vit aujourd’hui sur la page [Événements]({% link events/index.html %}).
 - En <time datetime="2026">2026</time>, j’ai repris [feezify](https://feezify.nicolasjouanno.com/fr/), un carnet d’entraînement initié en <time datetime="2018">2018</time>, pour comprendre les systèmes agentiques de l’intérieur. Je l’ai arrêté en septembre.
 
 <div class="u-text--center">
@@ -58,7 +58,7 @@ vtt.bzh est né en 2013 d’une question simple : où rouler dimanche ?
 Puis j’ai voulu redécouvrir les sentiers autrement. C’est là que j’ai découvert le trail et commencé à prendre plaisir avec une simple paire de baskets.
 
 <p class="c-button-stack">
-  <a href="/events/" class="c-button c-button--dark-outline">Outdoor</a>
+  <a href="{% link events/index.html %}" class="c-button c-button--dark-outline">Événements</a>
 </p>
 
 ## Sans gluten

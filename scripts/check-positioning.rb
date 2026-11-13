@@ -26,7 +26,6 @@ LEGACY_KEYS = %w[archive categories format sous_silo verticale].freeze
 ALLOWED_POST_TAGS = %w[
   outdoor
   work
-  vtt
   nutrition
   enduro
   équipement
