@@ -22,7 +22,7 @@ Je crée sur le web depuis plus de vingt ans : d’abord sur Skyblog et MySpace 
 
 ## Du vélo au web {#parcours}
 
-Le vélo a été mon premier cadre de travail. Une blessure, en 2010, m’a mis hors course et m’a ouvert la porte du numérique. J’y suis entré par l’entrepreneuriat et la communication digitale ; le code s’est imposé ensuite, appris sur le tas et mis en production.
+Le vélo a été mon premier cadre de travail. La blessure qui m’a mis hors course m’a ouvert la porte du numérique. J’y suis entré par l’entrepreneuriat et la communication digitale ; le code s’est imposé ensuite, appris sur le tas et mis en production.
 
 Aujourd’hui, je suis Lead développeur frontend dans la core team de [MGDIS](https://github.com/MGDIS). Je développe et maintiens le design system, avec les Web Components et l’accessibilité RGAA comme exigences de départ. Ce parcours explique aussi les outils que je construis à partir de besoins vécus, sans faire de ce site un portfolio.
 
@@ -67,7 +67,7 @@ La maladie cœliaque est entrée dans notre vie familiale et a changé des geste
 
 ## Palmarès cycliste {#palmares}
 
-Les résultats détaillés conservés ici couvrent 2007 à 2010. La participation au Championnat de France de cyclo-cross 2004 fait aussi partie de ce parcours.
+Les résultats détaillés conservés ici couvrent 2007 à 2010. La participation au Championnat de France de cyclo-cross 2004 complète ce palmarès.
 
 ### Les temps forts
 

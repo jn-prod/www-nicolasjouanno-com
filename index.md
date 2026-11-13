@@ -1,7 +1,7 @@
 ---
-title: Nicolas Jouanno — La Sortie, la lettre outdoor d'un ancien cycliste pro
+title: Nicolas Jouanno — La Sortie, la lettre outdoor
 layout: landing
-description: "Nicolas Jouanno, ancien cycliste pro : La Sortie, la lettre mensuelle pour retrouver le plaisir de sortir librement, et ses archives depuis 2005."
+description: "Nicolas Jouanno : La Sortie, la lettre mensuelle pour retrouver le plaisir de sortir librement, et ses archives depuis 2005."
 permalink: /index.html
 script: /assets/share.js
 ---
