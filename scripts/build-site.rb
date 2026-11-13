@@ -6,7 +6,8 @@
 #
 # Jekyll est exécuté en mode sûr et ne charge donc pas de plugin local. Ce
 # pré-build remplace temporairement ces URL par leur dérivé WebP, le temps de
-# générer _site, puis restaure exactement les fichiers source.
+# générer _site, puis restaure exactement les fichiers source. Les cartes sociales
+# (images/og/) restent en PNG : le build ne les convertit pas, et les réseaux lisent mal le WebP.
 require "pathname"
 
 ROOT = Pathname.new(__dir__).join("..").expand_path
@@ -16,6 +17,7 @@ SOURCE_GLOBS = %w[*.md *.html _layouts/**/*.{html,md} _includes/**/*.{html,md}].
 SOURCE_IMAGE_PATTERN = %r{
   (?<![A-Za-z0-9._-])
   (?:(?:\.\./)+|\./|/)?images/
+  (?!og/)
   (?<path>[^)\s?#]+?)\.(?:jpe?g|png)
   (?<suffix>[?#][^)]*)?
 }ix.freeze

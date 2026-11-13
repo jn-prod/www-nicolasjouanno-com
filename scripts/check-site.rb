@@ -4,6 +4,8 @@
 # Contrôles du site généré (_site), lancés à la fin de `pnpm build`, donc aussi en CI :
 # - aucun lien interne cassé entre pages ;
 # - canonical toujours sur www, jamais sur le domaine nu ;
+# - images de partage (og:image, twitter:image) du site présentes dans _site : une 404 donne
+#   une carte vide sur les réseaux ;
 # - flux XML bien formés et commençant par <?xml, flux JSON valides ;
 # - plateformes (README, « Écosystème IndieWeb ») : aucun lien vide, signe d'un module débranché
 #   encore cité, aucune adresse de plateforme en dur dans _layouts/ ou _includes/, et aucun
@@ -35,6 +37,13 @@ pages.each do |page|
     errors << "lien interne cassé #{path} dans #{page.relative_path_from(SITE)}"
   end
   errors << "lien vide dans #{page.relative_path_from(SITE)} : module débranché encore cité ?" if html.include?('href=""')
+  html.scan(/<meta (?:property|name)="(?:og|twitter):image" content="([^"]*)"/).flatten.uniq.each do |image|
+    path = URI(image).path
+    next unless image.start_with?("/") || URI(image).host.to_s.end_with?("nicolasjouanno.com")
+    next if SITE.join(".#{path}").exist?
+
+    errors << "image de partage absente #{path} dans #{page.relative_path_from(SITE)}"
+  end
   html.scan(/rel="canonical" href="([^"]*)"/).flatten.each do |canonical|
     errors << "canonical sans www #{canonical} dans #{page.relative_path_from(SITE)}" if canonical.match?(%r{://nicolasjouanno\.com})
   end
@@ -76,7 +85,7 @@ ROOT.glob("_data/flux/*.json").each do |flux|
 end
 
 if errors.empty?
-  puts "check:site — #{pages.size} pages, liens, canonical, flux et #{plateformes.size} plateformes OK."
+  puts "check:site — #{pages.size} pages, liens, images de partage, canonical, flux et #{plateformes.size} plateformes OK."
 else
   warn "check:site — #{errors.size} erreur(s) :\n  #{errors.uniq.join("\n  ")}"
   exit 1
