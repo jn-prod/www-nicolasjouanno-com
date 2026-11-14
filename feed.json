@@ -1,0 +1,171 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Nicolas Jouanno",
+  "home_page_url": "https://www.nicolasjouanno.com",
+  "feed_url": "https://www.nicolasjouanno.com/feed.json",
+  "description": "Nicolas Jouanno : La Sortie, la lettre mensuelle pour retrouver le plaisir de sortir librement, et ses archives depuis 2005.",
+  "language": "fr",
+  "author": {
+    "name": "Nicolas Jouanno",
+    "url": "https://www.nicolasjouanno.com",
+    "avatar": "https://www.nicolasjouanno.com//images/nicolas-jouanno.webp"
+  },
+  "items": [
+    
+    
+    
+    
+    
+    {
+      "id": "https://bynicolasjd.substack.com/p/le-dossard-nest-pas-la-destination-26-10-30",
+      "url": "https://bynicolasjd.substack.com/p/le-dossard-nest-pas-la-destination-26-10-30",
+      "title": "Le dossard n’est pas la destination",
+      "summary": "Un objectif ambitieux fait sortir de chez soi, mais il n'est pas l'arrivée : ce que j'en retiens, de mes dossards à Léon Marchand et Anton Krupicka.",
+      "content_text": "Un objectif ambitieux fait sortir de chez soi, mais il n'est pas l'arrivée : ce que j'en retiens, de mes dossards à Léon Marchand et Anton Krupicka.",
+      "date_published": "2026-10-30T07:00:00+00:00",
+      
+      "image": "https://www.nicolasjouanno.com/images/substack/le-dossard-nest-pas-la-destination-26-10-30.webp",
+      
+      "tags": ["la-sortie"]
+    },
+    
+    
+    
+    
+    {
+      "id": "https://bynicolasjd.substack.com/p/des-sorties-solidaires-sur-les-chemins-26-09-30",
+      "url": "https://bynicolasjd.substack.com/p/des-sorties-solidaires-sur-les-chemins-26-09-30",
+      "title": "Des sorties solidaires sur les chemins bretons",
+      "summary": "La newsletter de vtt.bzh devient La Sortie, et Octobre Rose donne un peu plus de sens aux sorties d'automne, au profit de la lutte contre le cancer.",
+      "content_text": "La newsletter de vtt.bzh devient La Sortie, et Octobre Rose donne un peu plus de sens aux sorties d'automne, au profit de la lutte contre le cancer.",
+      "date_published": "2026-09-30T07:00:00+00:00",
+      
+      "image": "https://www.nicolasjouanno.com/images/substack/des-sorties-solidaires-sur-les-chemins-26-09-30.webp",
+      
+      "tags": ["la-sortie"]
+    },
+    
+    
+    
+    
+    {
+      "id": "https://bynicolasjd.substack.com/p/jai-tue-mon-saas-reconstruit-en-agent-iahtml",
+      "url": "https://bynicolasjd.substack.com/p/jai-tue-mon-saas-reconstruit-en-agent-iahtml",
+      "title": "J'ai tué mon SaaS. Je l'ai reconstruit comme agent IA.",
+      "summary": "On commence à appeler ça le SaaSpocalypse. L'idée est simple : pendant quinze ans, on a vendu du logiciel au siège et à l'abonnement. Une app par problème, un serveur, une base, un compte, un paiement mensuel. L'IA fait fondre ce modèle — littéralement : en février 2026, environ 285...",
+      "content_text": "On commence à appeler ça le SaaSpocalypse. L'idée est simple : pendant quinze ans, on a vendu du logiciel au siège et à l'abonnement. Une app par problème, un serveur, une base, un compte, un paiement mensuel. L'IA fait fondre ce modèle — littéralement : en février 2026, environ 285 milliards de dollars se sont évaporés des valeurs SaaS en quarante-huit heures (The SaaS CFO ; The Paypers). Le diagnostic du",
+      "date_published": "2026-07-10T00:00:00+00:00",
+      
+      "tags": ["la-sortie"]
+    },
+    
+    
+    
+    
+    {
+      "id": "https://bynicolasjd.substack.com/p/premier-10-km-methode-dun-champion-26-06-16",
+      "url": "https://bynicolasjd.substack.com/p/premier-10-km-methode-dun-champion-26-06-16",
+      "title": "Premier 10 km : méthode d’un champion et plaisir de courir",
+      "summary": "Préparer son premier 10 km : la méthode de Gaël Le Bellec, triple champion du monde de duathlon, face à ma pratique à la sensation.",
+      "content_text": "Préparer son premier 10 km : la méthode de Gaël Le Bellec, triple champion du monde de duathlon, face à ma pratique à la sensation.",
+      "date_published": "2026-06-16T07:00:00+00:00",
+      
+      "tags": ["la-sortie"]
+    },
+    
+    
+    
+    
+    {
+      "id": "https://bynicolasjd.substack.com/p/galette-sans-gluten-ce-que-rembourse-26-01-15",
+      "url": "https://bynicolasjd.substack.com/p/galette-sans-gluten-ce-que-rembourse-26-01-15",
+      "title": "Galette sans gluten : ce que rembourse réellement l’Assurance Maladie",
+      "summary": "La galette des rois sans gluten n'est pas un trou de la Sécu : le calcul réel du remboursement, et ce que le bad buzz a laissé de côté sur la maladie cœliaque.",
+      "content_text": "La galette des rois sans gluten n'est pas un trou de la Sécu : le calcul réel du remboursement, et ce que le bad buzz a laissé de côté sur la maladie cœliaque.",
+      "date_published": "2026-01-15T07:00:00+00:00",
+      
+      "tags": ["la-sortie"]
+    },
+    
+    
+    
+    
+    
+    
+    
+    {
+      "id": "https://www.nicolasjouanno.com/paris-web-2025.html",
+      "url": "https://www.nicolasjouanno.com/paris-web-2025.html",
+      "title": "Les Web Components et l'accessibilité — conférence Paris-Web 2025",
+      "content_html": "\n      <p><em>Initialement publié sur <a href=\"https://www.nicolasjouanno.com/paris-web-2025.html\">nicolasjouanno.com</a>.</em></p>\n      \n      <p>Depuis deux ans, je participe à <a href=\"https://www.paris-web.fr/\">Paris-Web</a> avec mon collègue <a href=\"https://simon.duhem.fr/\">Simon Duhem</a> grâce à notre employeur MGDIS. En 2025, l’histoire a changé : nous ne sommes plus seulement venus écouter, mais <strong>parler</strong>. La candidature, portée par Simon, nous a offert une aventure partagée — comme un relais. Et comme dans le sport ou les voyages en van, ce genre de défi apprend à simplifier, à partager et à rester attentif aux autres.</p>\n\n<p>Le 26 septembre 2025, lors de la 20ᵉ édition de <a href=\"https://www.paris-web.fr/\">Paris-Web</a> — la conférence francophone de référence sur les standards du web et l’accessibilité — nous avons présenté notre sujet : <a href=\"https://www.paris-web.fr/2025/conference/les-web-components-et-laccessibilite\">Les Web Components et l’accessibilité</a>.</p>\n\n<iframe class=\"c-embed\" title=\"Les Web Components et l'accessibilité\" src=\"https://indymotion.fr/videos/embed/89VPLWMNhtZiFqmwK16qZd\" allow=\"fullscreen\" sandbox=\"allow-same-origin allow-scripts allow-popups allow-forms\"></iframe>\n\n<h2 id=\"le-contexte--un-design-system-accessible-by-design\">Le contexte : un design system accessible by design</h2>\n\n<p>Depuis 2022, avec Simon et l’équipe de designers produit de MGDIS, nous développons un design system qui se veut <strong>accessible by design</strong>. Les produits de l’entreprise reposant sur des socles techniques différents (AngularJS, Vue 2, Vue 3), nous devions — et voulions — produire <strong>un seul livrable interopérable</strong>. D’où le choix d’une technologie native : les <strong>Web Components</strong>. Avantage supplémentaire, leur pérennité : qui dit natif dit standard, et les standards du W3C évoluent sans changer de paradigme, contrairement à des technologies comme React ou Vue. Nous avons ajouté par-dessus une couche <a href=\"https://stenciljs.com/\">StencilJS</a> pour faciliter le développement, gérer la réactivité, les polyfills et d’autres points.</p>\n\n<h2 id=\"le-sujet--web-components-shadow-dom-et-accessibilité\">Le sujet : web components, shadow DOM et accessibilité</h2>\n\n<p>Notre retour d’expérience porte sur les <strong>contraintes qu’imposent les Web Components et leur shadow DOM</strong> pour répondre aux besoins d’accessibilité. La vie des web components — et leur accessibilité — n’est pas si simple : c’est tout l’objet de la conférence.</p>\n\n<h2 id=\"le-replay-plutôt-quune-transcription\">Le replay plutôt qu’une transcription</h2>\n\n<p>En revisionnant le replay, je retrouve l’ambiance Paris-Web : les sous-titres qui rappellent la vélotypie, l’interprète LSF qui partage la scène. C’est pour cela que j’ai attendu sa mise en ligne plutôt que d’en faire une transcription sans âme. N’hésite pas à vivre — ou revivre — ce moment. Comme lors des questions et des « informelles » qui ont suivi, le sujet reste ouvert à la discussion.</p>\n\n<h2 id=\"ce-que-ce-grand-oral-ma-appris\">Ce que ce grand oral m’a appris</h2>\n\n<p>J’ai mené cette aventure avec soin et passion. Ce « grand oral » m’a sorti de ma zone de confort et n’a fait qu’amplifier le respect que je porte aux speakers. Monter sur scène m’a fait mesurer les progrès qu’il me reste à faire : c’est <strong>une compétence à part entière</strong>. Je ne l’aurais pas osé sans avoir constaté, lors des deux éditions précédentes, la bienveillance du public.</p>\n\n<h2 id=\"remerciements\">Remerciements</h2>\n\n<ul>\n  <li>L’équipe de Paris-Web pour l’accueil et l’attention portée aux speakers ;</li>\n  <li>le public, pour les échanges enrichissants ;</li>\n  <li>les prestataires qui rendent la conférence possible et accessible au plus grand nombre ;</li>\n  <li>Simon, pour la confiance accordée pour co-présenter ce sujet ;</li>\n  <li>ma famille, pour son soutien dans cette aventure.</li>\n</ul>\n\n    ",
+      "summary": "Depuis deux ans, je participe à Paris-Web avec mon collègue Simon Duhem grâce à notre employeur MGDIS. En 2025, l’histoire a changé : nous ne sommes plus seulement venus écouter, mais parler. La candidature, portée par Simon, nous a offert une aventure partagée — comme un relais. Et comme dans...",
+      "date_published": "2025-09-26T00:00:00+00:00",
+      
+      
+      "tags": ["work"]
+    },
+    
+    
+    
+    
+    
+    
+    
+    {
+      "id": "https://www.nicolasjouanno.com/Retrouver-le-fil.html",
+      "url": "https://www.nicolasjouanno.com/Retrouver-le-fil.html",
+      "title": "Retrouver le fil - pourquoi je recentre tout sur un seul site",
+      "content_html": "\n      <p><em>Initialement publié sur <a href=\"https://www.nicolasjouanno.com/Retrouver-le-fil.html\">nicolasjouanno.com</a>.</em></p>\n      \n      <blockquote>\n  <p><strong>Mise à jour — septembre 2026.</strong> Ce texte raconte le point de départ de ma réflexion, pas l’architecture actuelle. Je rassemble toujours mon histoire sous mon nom, mais plus dans un hub unique : les réseaux ouvrent la conversation, ce site publie et conserve les contenus durables, la newsletter prolonge la relation par e-mail et les outils rendent le service.</p>\n</blockquote>\n\n<p>Quand j’ai publié mes premiers contenus en 2008, je n’avais pas vraiment de stratégie.</p>\n\n<p>Chaque projet avait son site : un pour le vélo, un pour mes expérimentations web, un autre pour partager des vidéos…</p>\n\n<p>C’était la logique du moment :\nséparer, cloisonner, multiplier les adresses.</p>\n\n<p>Mais à force de fermer des projets, de changer de plateformes ou de quitter des réseaux sociaux, j’ai fini par perdre une grande partie de ce que j’avais publié.</p>\n\n<p>Des années de créations dispersées, aujourd’hui invisibles.</p>\n\n<p>Avec le temps, j’ai compris que cette dispersion ne racontait pas vraiment mon histoire.</p>\n\n<p>Tout était fragmenté, alors que mon parcours lui, est une seule ligne</p>\n\n<p>Aujourd’hui, je reviens à quelque chose de plus simple : un hub personnel, une timeline unique.</p>\n\n<p>Un lieu qui rassemble le sport, la famille, la photo, le code. Bref, tout ce que je suis, sans devoir le découper.</p>\n\n<p>Je ne veux plus courir après les réseaux sociaux.</p>\n\n<p>Ce site devient mon terrain de jeu, mon carnet de bord, et peut-être le seul endroit où je veux vraiment écrire.</p>\n\n    ",
+      "summary": "Mise à jour — septembre 2026. Ce texte raconte le point de départ de ma réflexion, pas l’architecture actuelle. Je rassemble toujours mon histoire sous mon nom, mais plus dans un hub unique : les réseaux ouvrent la conversation, ce site publie et conserve les contenus durables, la newsletter prolonge...",
+      "date_published": "2025-09-17T00:00:00+00:00",
+      
+      
+      "tags": ["work"]
+    },
+    
+    
+    
+    
+    {
+      "id": "https://bynicolasjd.substack.com/p/podcast-gael-le-bellechtml",
+      "url": "https://bynicolasjd.substack.com/p/podcast-gael-le-bellechtml",
+      "title": "Podcast #1 - Gael Le Bellec, 3x champion du monde de duathlon",
+      "summary": "Aujourd'hui, je reçois au micro du podcast Gael Le Bellec, notre breton triple champion du monde de duathlon. Dans cet épisode, Gael nous parle de son passé de coureur cycliste, de sa transition au duathlon.",
+      "content_text": "Aujourd'hui, je reçois au micro du podcast Gael Le Bellec, notre breton triple champion du monde de duathlon. Dans cet épisode, Gael nous parle de son passé de coureur cycliste, de sa transition au duathlon.",
+      "date_published": "2019-01-24T00:00:00+00:00",
+      
+      "image": "https://www.nicolasjouanno.com/images/substack/podcast-gael-le-bellechtml.webp",
+      
+      "tags": ["la-sortie"]
+    },
+    
+    
+    
+    
+    {
+      "id": "https://bynicolasjd.substack.com/p/pourquoi-tombons-nous-18-12-14",
+      "url": "https://bynicolasjd.substack.com/p/pourquoi-tombons-nous-18-12-14",
+      "title": "Pourquoi tombons-nous ?",
+      "summary": "Des sous-bois du cyclo-cross au peloton professionnel, jusqu'à la chute : quatre chapitres sur les épreuves qui forgent un sportif.",
+      "content_text": "Des sous-bois du cyclo-cross au peloton professionnel, jusqu'à la chute : quatre chapitres sur les épreuves qui forgent un sportif.",
+      "date_published": "2018-12-14T07:00:00+00:00",
+      
+      "tags": ["la-sortie"]
+    },
+    
+    
+    
+    
+    {
+      "id": "https://bynicolasjd.substack.com/p/mon-premier-trail-18-12-07",
+      "url": "https://bynicolasjd.substack.com/p/mon-premier-trail-18-12-07",
+      "title": "Mon premier trail",
+      "summary": "Quelques semaines après avoir écrit que je n'avais pas besoin de compétition, je prenais le départ de mon premier trail : la préparation, les doutes, la course.",
+      "content_text": "Quelques semaines après avoir écrit que je n'avais pas besoin de compétition, je prenais le départ de mon premier trail : la préparation, les doutes, la course.",
+      "date_published": "2018-12-07T07:00:00+00:00",
+      
+      "tags": ["la-sortie"]
+    }
+    
+  ]
+}
